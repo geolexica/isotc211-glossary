@@ -1,0 +1,226 @@
+---
+term: distance measure
+termid: 664
+eng:
+  id: 664
+  term: distance measure
+  synonyms: distance metric
+  definition: measure of the pairs of values of an attribute type that assigns a numeric
+    value that is positive, symmetric and satisfies the triangular inequality
+  language_code: eng
+  notes:
+  - A measure "d" is positive if d(x, y) > 0 for every x, y where x/=y and d(x,x)
+    = 0. A measure "d" is symmetric if d(x, y) = d(y, x)  for every x, y. A measure
+    "d" satisfies the triangular inequality if d(x, y) <= d(x, a) + d(a, y) for every
+    a, x and y. All numeric or vector valued attributes have such a metric, the most
+    common being the Euclidean metric based on the square root of the sum of the squares
+    of the differences in each dimension. Other non-Euclidean metrics take "curvature
+    of space" into account (such as along the surface of the spheroid).
+  examples: []
+  entry_status: valid
+  classification: preferred
+  review_indicator: ''
+  authoritative_source:
+    ref: ISO 19132:2007
+    link: https://www.iso.org/standard/40601.html
+  date_accepted: 2007-10-15 00:00:00.000000000 +09:00
+  release: '1'
+ara:
+  id: 664
+  term: قياس المسافة
+  synonyms: distance metric
+  definition: قياس لأزواج قيم نوع من البيانات الوصفية يخصص قيمة عددية موجبة ومتماثلة
+    وقادرة على الوفاء بالتباين المثلثي
+  language_code: ara
+  notes:
+  - قياس المسافة "م" يكون موجباً إذا كانت قيمة م (س ، ص) أكثر من صفر لكل س ، ص عندما
+    تكون س/= ص ، و م (س ، س) = صفر. ويكون قياس المسافة "م" متماثلاً إذا كانت قيمة
+    م (س ، ص) = م (ص ، س) لكل س ، ص. ويكون قياس المسافة " م" قادراً على الوفاء بالتباين
+    المثلثي إذا كانت قيمة م (س ، ص) أقل من = م (س ، أ) + م (أ ، ص) لكل" أ" ،" س" و"
+    ص" . جميع البيانات الوصفية ذات القيمة العددية أو المتجهة لها مثل هذه المترية لكن
+    المترية الأكثر شيوعاً هي مترية إقليدس المبنية على الجزر التربيعي لمجموعة مربعات
+    الفروق في كل بعد . أما المتريات الأخرى غير مترية إقليدس فإنها تأخذ التقوس المكاني
+    في الاعتبار (مثل التقوس الذي يكون بامتداد السطح الكروي).
+  examples: []
+  entry_status: valid
+  classification: preferred
+  review_indicator: ''
+  authoritative_source:
+    ref: ISO 19132:2007
+    link: https://www.iso.org/standard/40601.html
+  date_accepted: 2007-10-15 00:00:00.000000000 +09:00
+  release: '1'
+chn:
+  id: 664
+  term: 距离度量
+  synonyms: distance metric
+  definition: 取值为正的、对称的且满足三角不等式的属性类值对的度量。
+  language_code: chn
+  notes:
+  - 如果对任意的x,y而言，都能使d(x,y)>0,则度量"d"是正的, 其中x/= y和d( x , x )= 0。如果对任意的x,y而言，都能使d(x,y)=d(y,x),
+    则度量"d"是对称。如果对任意的a,x,y而言，都能使d(x,y)<=d(x,a)+d(a,y),则度量"d"满足三角形不等式。所有数值或向量属性都有这样的度量,最常见的欧几里德度量基于在每一维上正方形的差异的平方根总和。其他非欧几里德度量可考虑'空间的曲率(如沿球体的表面)。
+  examples: []
+  entry_status: valid
+  classification: preferred
+  review_indicator: ''
+  authoritative_source:
+    ref: ISO 19132:2007
+    link: https://www.iso.org/standard/40601.html
+  date_accepted: 2007-10-15 00:00:00.000000000 +09:00
+fin:
+  id: 664
+  term: etäisyysmitta
+  synonyms: etäisyysfunktio
+  definition: sellaisen ominaisuustyypin arvoparien mitta, joka antaa positiivisen,
+    symmetrisen ja kolmioepäyhtälön toteuttavan numeroarvon
+  language_code: fin
+  notes:
+  - Etäisyysmitta d on positiivinen, jos d(x, y) > 0 jokaiselle parille x, y, jossa
+    x/=y ja d(x, x) = 0. Etäisyysmitta d on symmetrinen, jos d(x, y) = d(y, x) jokaiselle
+    parille x, y. Etäisyysmitta d toteuttaa kolmioepäyhtälön, jos d(x, y) <= d(x,
+    a) + d(a, y) jokaiselle a:lle, x:lle ja y:lle. Kaikilla numeerisilla tai vektoriarvoisilla
+    attribuuteilla on tällainen etäisyysmitta, ja yleisin niistä on euklidinen etäisyys,
+    joka perustuu kunkin ulottuvuuden erotusten neliöiden summan neliöjuureen. Muut,
+    epäeuklidiset, etäisyysmitat ottavat huomioon avaruuden kaareutumisen (esimerkiksi
+    pyörähdysellipsoidin pintaa myöten).
+  - Metriikka eli etäisyysfunktio kertoo joukon pisteiden välisen etäisyyden ja tekee
+    joukosta metrisen avaruuden.
+  examples: []
+  entry_status: valid
+  classification: preferred
+  review_indicator: ''
+  authoritative_source:
+    ref: ISO 19132:2007
+    link: https://www.iso.org/standard/40601.html
+  lineage_source: Internet
+  date_accepted: 2007-10-15 00:00:00.000000000 +09:00
+fra:
+  id: 664
+  term: mesure de distance
+  synonyms: distance metric
+  definition: mesure des paires de valeurs d'un type d'attribut fournissant une valeur
+    numérique positive, symétrique et satisfaisant l'inégalité triangulaire
+  language_code: fra
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: ISO 19132
+    link: https://www.iso.org/standard/40601.html
+  lineage_source: ''
+  date_accepted: 2007-10-15 00:00:00.000000000 +09:00
+ger:
+  id: 664
+  term: Abstandsmaß
+  synonyms: distance metric
+  language_code: ger
+  notes:
+  - A measure "d" is positive if d(x, y) > 0 for every x, y where x/=y and d(x,x)
+    = 0. A measure "d" is symmetric if d(x, y) = d(y, x)  for every x, y. A measure
+    "d" satisfies the triangular inequality if d(x, y) <= d(x, a) + d(a, y) for every
+    a, x and y. All numeric or vector valued attributes have such a metric, the most
+    common being the Euclidean metric based on the square root of the sum of the squares
+    of the differences in each dimension. Other non-Euclidean metrics take "curvature
+    of space" into account (such as along the surface of the spheroid).
+  examples: []
+  entry_status: valid
+  classification: preferred
+  review_indicator: ''
+  authoritative_source:
+    ref: ISO 19132:2007
+    link: https://www.iso.org/standard/40601.html
+  date_accepted: 2007-10-15 00:00:00.000000000 +09:00
+  release: '1'
+kor:
+  id: 664
+  term: 거리 관측
+  definition: 속성 유형은 양수이고, 대칭이며 삼각형의 부등식을 만족시키는 거리 값
+  language_code: kor
+  notes:
+  - 만일 x≠y이고 d(x,x)=0인 모든 x,y에 대해 d(x,y) > 0 이면 측정 값 "d"는 양수이다. 모든 x,y에 대해 d(x,y)
+    = d(y,x) 이면 측정 값 "d"는 대칭이다. 만일 모든 a, x, y 에 대하여 d(x,y) ≤ d(x,a) + d(a,y) 이면 측정
+    값 "d"는 삼각형의 부등식을 만족시킨다. 미터법과 같이 모든 숫자 또는 백터 값을 갖는 속성은 각 차원의 차이 값의 제곱의 합에 대한 제곱근을
+    기초로 한 가장 일반적인 유클리디안 계량법이다. 다른 비유클리디안 계량법에서는 "공간의 곡률"(회전 타원체의 표면을 따르는)을 고려한다.
+  examples: []
+  entry_status: valid
+  classification: preferred
+  review_indicator: ''
+  authoritative_source:
+    ref: ISO 19132:2007
+    link: https://www.iso.org/standard/40601.html
+  lineage_source: KS X ISO 19132
+  date_accepted: 2009-12-29 00:00:00.000000000 +09:00
+  release: '1'
+msa:
+  id: 664
+  term: ukur jarak
+  synonyms: distance metric
+  language_code: msa
+  notes:
+  - A measure "d" is positive if d(x, y) > 0 for every x, y where x/=y and d(x,x)
+    = 0. A measure "d" is symmetric if d(x, y) = d(y, x)  for every x, y. A measure
+    "d" satisfies the triangular inequality if d(x, y) <= d(x, a) + d(a, y) for every
+    a, x and y. All numeric or vector valued attributes have such a metric, the most
+    common being the Euclidean metric based on the square root of the sum of the squares
+    of the differences in each dimension. Other non-Euclidean metrics take "curvature
+    of space" into account (such as along the surface of the spheroid).
+  examples: []
+  entry_status: valid
+  classification: preferred
+  review_indicator: ''
+  authoritative_source:
+    ref: ISO 19132:2007
+    link: https://www.iso.org/standard/40601.html
+  lineage_source: Istilah ukur dan Pemetaan (DBP, 1992)
+  date_accepted: 2007-10-15 00:00:00.000000000 +09:00
+  release: '1'
+rus:
+  id: 664
+  term: мера расстояния
+  synonyms: метрика расстояния
+  definition: числовое значение, поставленное в соответствие паре значений атрибутивного
+    типа и удовлетворяющее аксиомам метрики, включая неотрицательность, симметричность
+    и неравенство треугольника
+  language_code: rus
+  notes:
+  - "Значение \"d\" является положительным, если d(x, y) > 0 для каждого x, y где
+    x/=y и d(x,x) = 0.  \nЗначение \"d\" является симметричным, если  d(x, y) = d(y,
+    x)  для каждого x, y. \nЗначение \"d\" удовлетворяет   аксиоме неравенства треугольника,
+    если d(x, y) <= d(x, a) + d(a, y) для каждого  a, x и y. \nВсе числовые или векторные
+    атрибуты имеют такую метрику; наиболее общей является Евклидова метрика, основанная
+    на вычисленнии квадратного корня суммы квадратов разностей в каждой размерности.
+    Другие неевклидовы метрики учитывают \"кривизну пространства\""
+  examples: []
+  entry_status: valid
+  classification: preferred
+  review_indicator: ''
+  authoritative_source:
+    ref: ISO 19132:2007
+    link: https://www.iso.org/standard/40601.html
+  lineage_source: Internet
+  date_accepted: 2007-10-15 00:00:00.000000000 +09:00
+spa:
+  id: 664
+  term: medida de distancia
+  synonyms: métrica de distancia
+  definition: medida de los pares de valores de un tipo de atributo que asigna un
+    valor numérico que es positivo, simétrico y satisface la desigualdad triangular
+  language_code: spa
+  notes:
+  - Una medida "d" es positiva si d(x, y) > 0 para cada x e y con xy, y d(x, x) =
+    0. Una medida "d" es simétrica si d(x, y) = d(y, x) para cada x e y. Una medida
+    "d" satisface la desigualdad triangular, si d(x, y)  d(x, a) + d(a, y) para cada
+    a, x e y. Todos los atributos de valores numéricos o vectores disponen de una
+    métrica, siendo la más común la métrica euclídea basada en la raíz cuadrada de
+    la suma de los cuadrados de las diferencias en cada dimensión. Otras métricas
+    no-euclídeas tienen en cuenta la "curvatura del espacio" (como a lo largo de la
+    superficie del esferoide).
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: ISO 19132:2007
+    link: https://www.iso.org/standard/40601.html
+  date_accepted: 2007-10-15 00:00:00.000000000 +09:00
+  release: '1'
