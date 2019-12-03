@@ -6,8 +6,6 @@ all: concepts
 
 clean: rm -rf concepts tc211-termbase.yaml tc211-termbase.xlsx tc211-termbase.meta.yaml
 
-data: _data/metadata.yaml
-
 tc211-termbase.xlsx:
 	cp '${TERMBASE_XLSX_PATH}' tc211-termbase.xlsx
 
