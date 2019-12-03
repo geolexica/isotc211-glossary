@@ -1,13 +1,27 @@
 == ISO/TC 211 Geolexica Database
 
-This repository contains the latest snapshot of the glossary in YAML format.
-The intended use is to serve as data backend for https://geolexica.org/
-and the Geolexica’s Glossarist desktop app.
+=== Database operator’s documentation
 
-=== Migrating from legacy glossary sources
+This repository contains the latest snapshot of ISO/TC 211 Geolexica glossary in YAML format.
 
-For data migration period, facilities to automatically populate the glossary
-from legacy sources are included.
+The intended use for this repository is as the database used by both
+https://github.com/ISO-TC211/geolexica.org[ISO/TC 211 Geolexica website]
+and the upcoming Geolexica’s Glossarist desktop app.
+
+
+==== Migrating from legacy glossary sources
+
+While Geolexica Glossarist application is being developed,
+TC 211 continues to maintain the glossary in their own sources.
+
+During this period, facilities to automatically populate the glossary
+from those legacy sources are included.
+
+===== Setup
+
+Migration facility requires Ruby environment and ``yq`` binary to be installed.
+
+===== Usage
 
 To rewrite YAML glossary with data migrated from those sources, run:
 
@@ -16,5 +30,12 @@ To rewrite YAML glossary with data migrated from those sources, run:
 make concepts
 ----
 
-See https://github.com/iso-tc211/tc211-termbase[tc211-termbase] for migration logic implementation.
+It is expected that after successful YAML glossary build, a new snapshot of the database
+is committed in this repository. This should trigger ISO/TC 211 Geolexica.org to be rebuilt.
 
+===== Troubleshooting & development
+
+Behind the scenes, Makefile uses tc211-termbase gem that converts XLST files to YAML.
+
+See https://github.com/iso-tc211/tc211-termbase[tc211-termbase] repository
+for migration logic implementation.
