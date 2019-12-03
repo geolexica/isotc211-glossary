@@ -1,0 +1,20 @@
+== ISO/TC 211 Geolexica Database
+
+This repository contains the latest snapshot of the glossary in YAML format.
+The intended use is to serve as data backend for https://geolexica.org/
+and the Geolexica’s Glossarist desktop app.
+
+=== Migrating from legacy glossary sources
+
+For data migration period, facilities to automatically populate the glossary
+from legacy sources are included.
+
+To rewrite YAML glossary with data migrated from those sources, run:
+
+[source,sh]
+----
+make concepts
+----
+
+See https://github.com/iso-tc211/tc211-termbase[tc211-termbase] for migration logic implementation.
+
