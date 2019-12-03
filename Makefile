@@ -2,7 +2,7 @@ SHELL := /bin/bash
 TERMBASE_VERSION := $(shell yq r metadata.yaml version)
 TERMBASE_XLSX_PATH := $(shell yq r metadata.yaml filename)
 
-all: concepts
+all: tc211-termbase.yaml tc211-termbase.meta.yaml tc211-termbase.xlsx concepts
 
 clean: rm -rf concepts tc211-termbase.yaml tc211-termbase.xlsx tc211-termbase.meta.yaml
 
