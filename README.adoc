@@ -1,27 +1,40 @@
 == ISO/TC 211 Geolexica Database
 
-=== Database operator’s documentation
+NOTE: Documentation below is mostly intended for database operators.
+To propose changes to terms and concepts in ISO/TC 211 MLGT Geolexica database,
+contact ISO/TC 211 TMG.
 
 This repository contains the latest snapshot of ISO/TC 211 Geolexica glossary in YAML format.
 
 The intended use for this repository is as the database used by both
 https://github.com/ISO-TC211/geolexica.org[ISO/TC 211 Geolexica website]
-and the upcoming Geolexica’s Glossarist desktop app.
+and the upcoming Glossarist desktop app.
+
+This database is represented online by https://geolexica.org/.
+
+NOTE: The YAML data in this repository is not yet an authoritative data source.
+Currently, data stored in this structure is imported from the latest published
+ISO/TC 211 Multi-Lingual Glossary of Terms spreadsheets.
+In future, the data is expected to be managed by the Glossarist desktop application.
 
 
-==== Migrating from legacy glossary sources
+=== Authoritative spreadsheet data import toolchain
 
 While Geolexica Glossarist application is being developed,
-TC 211 continues to maintain the glossary in their own sources.
+TC 211 continues to maintain the glossary in spreadsheets
+which remain to be authoritative data sources.
 
-During this period, facilities to automatically populate the glossary
-from those legacy sources are included.
+During this period, facilities to import those spreadsheets into Geolexica data
+are included in this repository.
 
-===== Setup
+Once Geolexica-based MLGT solution goes into production,
+spreadsheets previously used for MLGT management will become obsolete.
+
+==== Setup
 
 Migration facility requires Ruby environment and ``yq`` binary to be installed.
 
-===== Usage
+==== Usage
 
 To rewrite YAML glossary with data migrated from those sources, run:
 
@@ -33,9 +46,88 @@ make concepts
 It is expected that after successful YAML glossary build, a new snapshot of the database
 is committed in this repository. This should trigger ISO/TC 211 Geolexica.org to be rebuilt.
 
-===== Troubleshooting & development
 
-Behind the scenes, Makefile uses tc211-termbase gem that converts XLST files to YAML.
+==== Troubleshooting & more
+
+Behind the scenes, Makefile uses tc211-termbase gem that converts spreadsheet files to YAML.
+
+The intermediate file `tc211-termbase.xlsx` is used as the
+direct data source for all concepts and terms in Geolexica.
+
+The source spreadsheet files are provided in a separate private repository:
+https://github.com/ISO-TC211/mlgt-data[mlgt-data].
+
+The particular spreadsheet file used for generation is set in the Makefile.
+
+This spreadsheet file is necessary for running the `tc211-termbase-xlsx2yaml` command.
 
 See https://github.com/iso-tc211/tc211-termbase[tc211-termbase] repository
 for migration logic implementation.
+
+
+== Data structure
+
+There are two types of entries in the database:
+
+. Concepts
+
+. Terms, which represent concepts in a certain language
+
+NOTE: 
+
+
+=== Concepts
+
+Every concept is recognized by a unique ID (the "`term id`"), and contains terms
+in different languages.
+
+Here's an example of it from the `_concepts/` directory (which has to be built).
+
+[source,yaml]
+----
+eng:
+  id: 2
+  term: abbreviation
+  alt: preferred
+  definition: designation formed by omitting words or letters from a longer form and
+    designating the same concept
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  authoritative_source: ISO 1087-1:2000, 3.4.9
+  lineage_source: ISO/TS 19104:2008
+  lineage_source_similarity: 1
+  date_accepted: 2008-11-15 00:00:00.000000000 +08:00
+  review_date: 2013-01-29 00:00:00.000000000 +08:00
+  review_status: final
+  review_decision: accepted
+  review_decision_date: 2016-10-01 00:00:00.000000000 +08:00
+  review_decision_event: Publication of ISO 19104:2016
+  review_decision_notes: Authoritative reference changed from ISO 1087-1:2000 to ISO
+    1087-1:2000, 3.4.9. Lineage source added as ISO/TS 19104:2008
+  release: '2'
+ara:
+  ...
+----
+
+
+=== Term
+
+A term contains multiple attributes, such as:
+
+[source,yaml]
+----
+id: 2
+term: abbreviation
+alt: preferred
+definition: designation formed by omitting words or letters from a longer form and
+  designating the same concept
+language_code: eng
+notes: []
+examples: []
+entry_status: valid
+authoritative_source: ISO 1087-1:2000, 3.4.9
+...
+----
+
