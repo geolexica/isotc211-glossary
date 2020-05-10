@@ -16,6 +16,9 @@ tc211-termbase.xlsx:
 tc211-termbase.yaml tc211-termbase.meta.yaml concepts: tc211-termbase.xlsx
 	bundle exec tc211-termbase-xlsx2yaml $<;
 
+tc211-termbase.zip: tc211-termbase.yaml tc211-termbase.meta.yaml
+	zip -9 -r $@ $^ concepts/
+
 update-init:
 	git submodule update --init
 
