@@ -4,14 +4,13 @@ on:
   pull_request:
   push:
     branches:
-      - '*'         # matches every branch
-      - '*/*'       # matches every branch containing a single '/'
-      # - '!master'   # excludes master
-      # - '!staging'   # excludes master
+      - 'master'
+      - 'staging'
+      - '!v*' # Push events to matching v*, i.e. v1.0, v20.15.10
 
 jobs:
   build:
-    name: Build site
+    name: Build concepts
     runs-on: ubuntu-latest
     steps:
       - name: Setup prerequisites
@@ -41,4 +40,4 @@ jobs:
           bundle install --jobs 4 --retry 3
       - name: Build concept files
         run: |
-          make distclean all
+          make distclean all tc211-termbase.zip
