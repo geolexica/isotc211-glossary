@@ -1,55 +1,56 @@
 == ISO/TC 211 Geolexica Database
 
-NOTE: Documentation below is mostly intended for database operators.
-To propose changes to terms and concepts in ISO/TC 211 MLGT Geolexica database,
-contact ISO/TC 211 TMG.
+NOTE: The documentation below is intended for database operators.
+Please contact the ISO/TC 211 TMG for change proposals on terms and concepts
+in the MLGT database.
 
 This repository contains the latest snapshot of ISO/TC 211 Geolexica glossary in YAML format.
 
-The intended use for this repository is as the database used by both
-https://github.com/ISO-TC211/geolexica.org[ISO/TC 211 Geolexica website]
-and the upcoming Glossarist desktop app.
+This repository is used as the database used by both
+https://github.com/geolexica/isotc211.geolexica.org[ISO/TC 211 Geolexica website]
+and the Glossarist desktop app.
 
 This database is represented online by https://geolexica.org/.
 
 NOTE: The YAML data in this repository is not yet an authoritative data source.
 Currently, data stored in this structure is imported from the latest published
 ISO/TC 211 Multi-Lingual Glossary of Terms spreadsheets.
-In future, the data is expected to be managed by the Glossarist desktop application.
+In the future, all data will be managed through the Glossarist desktop application.
 
 
 === Authoritative spreadsheet data import toolchain
 
-While Geolexica Glossarist application is being developed,
+While the Geolexica Glossarist application is being developed,
 TC 211 continues to maintain the glossary in spreadsheets
 which remain to be authoritative data sources.
 
 During this period, facilities to import those spreadsheets into Geolexica data
 are included in this repository.
 
-Once Geolexica-based MLGT solution goes into production,
-spreadsheets previously used for MLGT management will become obsolete.
+MLGT management will transition to the Glossarist workflow once the
+terminology repository can be migrated to Glossarist.
 
 ==== Setup
 
-Migration facility requires Ruby environment and ``yq`` binary to be installed.
+Generation of YAML files require Ruby and the `yq` binary to be installed.
 
 ==== Usage
 
-To rewrite YAML glossary with data migrated from those sources, run:
+To rewrite the YAML glossary with data migrated from those sources, run:
 
 [source,sh]
 ----
-make concepts
+make all
 ----
 
-It is expected that after successful YAML glossary build, a new snapshot of the database
-is committed in this repository. This should trigger ISO/TC 211 Geolexica.org to be rebuilt.
+After a successful YAML glossary build, a new snapshot of the database
+is committed in this repository.
+This will trigger isotc211.geolexica.org to be rebuilt.
 
 
-==== Troubleshooting & more
+==== Troubleshooting... and more
 
-Behind the scenes, Makefile uses tc211-termbase gem that converts spreadsheet files to YAML.
+Behind the scenes, the Makefile uses `tc211-termbase` gem that converts spreadsheet files to YAML.
 
 The intermediate file `tc211-termbase.xlsx` is used as the
 direct data source for all concepts and terms in Geolexica.
@@ -62,7 +63,7 @@ The particular spreadsheet file used for generation is set in the Makefile.
 This spreadsheet file is necessary for running the `tc211-termbase-xlsx2yaml` command.
 
 See https://github.com/iso-tc211/tc211-termbase[tc211-termbase] repository
-for migration logic implementation.
+for details of the migration.
 
 
 == Data structure
@@ -71,9 +72,7 @@ There are two types of entries in the database:
 
 . Concepts
 
-. Terms, which represent concepts in a certain language
-
-NOTE: 
+. Terms (Designations in ISO 10241-1), which represent concepts in actual languages
 
 
 === Concepts
@@ -81,7 +80,7 @@ NOTE:
 Every concept is recognized by a unique ID (the "`term id`"), and contains terms
 in different languages.
 
-Here's an example of it from the `_concepts/` directory (which has to be built).
+Here's an example from the `_concepts/` directory (which has to be built).
 
 [source,yaml]
 ----
@@ -112,9 +111,9 @@ ara:
 ----
 
 
-=== Term
+=== Designation / Term
 
-A term contains multiple attributes, such as:
+A designation / term contains multiple attributes, such as:
 
 [source,yaml]
 ----
