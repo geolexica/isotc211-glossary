@@ -1,0 +1,71 @@
+name: release
+
+on:
+  push:
+    # Sequence of patterns matched against refs/tags
+    tags:
+    - 'v*' # Push events to matching v*, i.e. v1.0, v20.15.10
+
+jobs:
+  build:
+    name: Upload Release Asset
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Setup prerequisites
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y curl make libxml2-dev libxslt-dev openssl
+      - name: Setup snaps
+        run: |
+          sudo snap install yq
+      - name: Use Ruby
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: '2.6'
+          architecture: 'x64'
+      - uses: actions/checkout@master
+      - name: Setup git submodules (authenticated)
+        env:
+          MLGT_DATA_DEPLOY_KEY: ${{ secrets.GEOLEXICA_DATABASE_DEPLOY_KEY }}
+          GIT_SSH_COMMAND: "ssh -o StrictHostKeyChecking=no"
+        run: |
+          eval "$(ssh-agent -s)"
+          ssh-add - <<< "${MLGT_DATA_DEPLOY_KEY}"
+          make update-init update-modules
+      - name: Install gems
+        run: |
+          gem install bundler -v "~> 2"
+          bundle install --jobs 4 --retry 3
+      - name: Build concept files
+        run: |
+          make distclean all tc211-termbase.zip
+
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          body: |
+            Automatic release of ${{ github.ref }}
+          draft: false
+          prerelease: false
+
+      - name: Get Version
+        id: get_version
+        run: |
+          echo ::set-output name=VERSION::${GITHUB_REF/refs\/tags\/v/}
+
+      - name: Upload Release Asset
+        id: upload-release-asset
+        uses: actions/upload-release-asset@v1.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./tc211-termbase.zip
+          asset_name: tc211-termbase-${{ steps.get_version.outputs.VERSION }}.zip
+          asset_content_type: application/zip
