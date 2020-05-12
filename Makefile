@@ -23,6 +23,8 @@ update-init:
 	git submodule update --init
 
 update-modules:
-	git submodule foreach git pull origin master
+	git submodule foreach git fetch origin; \
+	git submodule foreach git checkout master; \
+	git submodule foreach git reset --hard master
 
 .PHONY: all clean update-init update-modules
