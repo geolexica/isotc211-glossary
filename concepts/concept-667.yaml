@@ -3,7 +3,6 @@ term: identity
 termid: 667
 eng:
   id: 667
-  term: identity
   definition: data sufficient to identify an object over time, independent of its
     state
   language_code: eng
@@ -14,16 +13,18 @@ eng:
     identity is independent of both time and location.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
     link: https://www.iso.org/standard/40601.html
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: identity
+    normative_status: preferred
 ara:
   id: 667
-  term: الهوية
   definition: بيانات كافية للتعرف على الكائن أومع مرور الوقت ، وذلك . بمعزل عن حالته
   language_code: ara
   notes:
@@ -33,31 +34,35 @@ ara:
     مستقلة عن الزمان والموقع المكاني.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
     link: https://www.iso.org/standard/40601.html
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: الهوية
+    normative_status: preferred
 chi:
   id: 667
-  term: 标识
   definition: 在一段时间内，能充分识别一个对象的数据，而与对象状态无关。
   language_code: chi
   notes:
   - 标识通常是持续的及持久不变的关键成员对象的属性值。因为标识不随时间变化,且具有唯一性，它在任何状态下都与该对象关联,不管该对象的时间戳记。一个运动物体的标识是独立于时间和地点的。
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
     link: https://www.iso.org/standard/40601.html
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: 标识
+    normative_status: preferred
 fin:
   id: 667
-  term: identiteetti
   definition: tieto, joka yksilöi objektin eri aikoina sen tilasta riippumatta
   language_code: fin
   notes:
@@ -67,31 +72,35 @@ fin:
     riippumaton niin ajasta kuin paikastakin.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
     link: https://www.iso.org/standard/40601.html
   lineage_source: Ei lähdettä, käännetty
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: identiteetti
+    normative_status: preferred
 fra:
   id: 667
-  term: identité
   definition: donnée suffisant à identifier un objet au cours du temps, indépendamment
     de son état
   language_code: fra
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19132
     link: https://www.iso.org/standard/40601.html
   lineage_source: ''
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: identité
+    normative_status: preferred
 ger:
   id: 667
-  term: Identität
   language_code: ger
   notes:
   - An identity is usually a persistent and constant key member attribute value of
@@ -100,16 +109,18 @@ ger:
     identity is independent of both time and location.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
     link: https://www.iso.org/standard/40601.html
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: Identität
+    normative_status: preferred
 kor:
   id: 667
-  term: 식별 특성
   definition: 자체 상태와 무관하게 객체 식별에 충분한 데이터
   language_code: kor
   notes:
@@ -117,7 +128,6 @@ kor:
     무관하게 객체에 결합될 수 있다. 이동 객체의 식별 특성은 시간과 위치 모두에 무관하다.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
@@ -125,9 +135,12 @@ kor:
   lineage_source: KS X ISO 19132
   date_accepted: 2009-12-29 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: 식별 특성
+    normative_status: preferred
 rus:
   id: 667
-  term: идентичность
   definition: данные, достаточные для постоянной идентификации объекта  независимо
     от его состояния
   language_code: rus
@@ -138,16 +151,18 @@ rus:
     ни от его местоположения
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
     link: https://www.iso.org/standard/40601.html
   lineage_source: Internet
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: идентичность
+    normative_status: preferred
 spa:
   id: 667
-  term: identidad
   definition: datos suficientes para identificar un objeto en el tiempo, independiente
     de su estado
   language_code: spa
@@ -158,16 +173,18 @@ spa:
     La identidad de un objeto en movimiento es independiente del tiempo y de su localización.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
     link: https://www.iso.org/standard/40601.html
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: identidad
+    normative_status: preferred
 swe:
   id: 667
-  term: identitetsdata
   definition: data som är tillräckliga för att identifiera ett objekt över tid, oberoende
     av objektets tillstånd
   country_code: swe
@@ -179,7 +196,6 @@ swe:
     identity is independent of both time and location.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
@@ -187,3 +203,7 @@ swe:
   lineage_source: "(Type reference to national language document)"
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: identitetsdata
+    normative_status: preferred

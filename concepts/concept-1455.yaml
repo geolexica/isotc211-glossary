@@ -3,7 +3,6 @@ term: error
 termid: 1455
 eng:
   id: 1455
-  term: error
   synonyms: measurement error, error of measurement
   definition: measured quantity value minus a reference quantity value
   language_code: eng
@@ -18,7 +17,6 @@ eng:
   - Measurement error should not be confused with production error or mistake.
   examples: []
   entry_status: valid
-  classification: admitted
   authoritative_source:
     ref: ISO/IEC Guide 99:2007
     clause: '2.16'
@@ -27,9 +25,12 @@ eng:
   lineage_source_similarity: 1
   date_accepted: 2014-07-15 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: error
+    normative_status: admitted
 kor:
   id: 1455
-  term: 오류
   synonyms: measurement error, error of measurement
   definition: 측정량값에서 기준량값을 제한 것
   language_code: kor
@@ -44,7 +45,6 @@ kor:
   - Measurement error should not be confused with production error or mistake.
   examples: []
   entry_status: valid
-  classification: admitted
   authoritative_source:
     ref: ISO/IEC Guide 99:2007
     clause: '2.16'
@@ -53,9 +53,12 @@ kor:
   lineage_source_similarity: 1
   date_accepted: 2014-07-15 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: 오류
+    normative_status: admitted
 msa:
   id: 1455
-  term: ralat
   synonyms: measurement error, error of measurement
   language_code: msa
   notes:
@@ -69,7 +72,6 @@ msa:
   - Measurement error should not be confused with production error or mistake.
   examples: []
   entry_status: valid
-  classification: admitted
   authoritative_source:
     ref: ISO/IEC Guide 99:2007
     clause: '2.16'
@@ -77,9 +79,12 @@ msa:
   lineage_source: Pusat Rujukan Persuratan Melayu (DBP)
   date_accepted: 2014-07-15 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: ralat
+    normative_status: admitted
 rus:
   id: 1455
-  term: погрешность
   synonyms: погрешность измерения, ошибка измерения
   definition: измеренное значение величины минус значение контрольной величины
   language_code: rus
@@ -96,7 +101,6 @@ rus:
     ошибкой.
   examples: []
   entry_status: valid
-  classification: admitted
   authoritative_source:
     ref: ISO/IEC Guide 99:2007
     clause: '2.16'
@@ -105,9 +109,12 @@ rus:
   lineage_source_similarity: 1
   date_accepted: 2014-07-15 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: погрешность
+    normative_status: admitted
 spa:
   id: 1455
-  term: error
   synonyms: error de la medida, error de una medición
   definition: valor de la cantidad medida menos el valor de la cantidad de referencia
   language_code: spa
@@ -123,7 +130,6 @@ spa:
   - El error de una medición no se debe confundir con un error de producción o fallo.
   examples: []
   entry_status: valid
-  classification: admitted
   authoritative_source:
     ref: ISO/IEC Guide 99:2007
     clause: '2.16'
@@ -132,3 +138,7 @@ spa:
   lineage_source_similarity: 1
   date_accepted: 2014-07-15 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: error
+    normative_status: admitted

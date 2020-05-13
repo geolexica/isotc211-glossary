@@ -3,7 +3,6 @@ term: coordinate tuple
 termid: 735
 eng:
   id: 735
-  term: coordinate tuple
   definition: tuple composed of a sequence of coordinates
   language_code: eng
   notes:
@@ -12,16 +11,18 @@ eng:
     to the order of the axes of the coordinate system.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   date_accepted: 2007-07-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: coordinate tuple
+    normative_status: preferred
 ara:
   id: 735
-  term: مجموعة إحداثيات ترابطية
   definition: مجموعة ترابطية مكونة من سلسلة إحداثيات متتابعة
   language_code: ara
   notes:
@@ -29,31 +30,35 @@ ara:
     الإحداثيات في مجموعة الإحداثيات الترابطية مطابق لترتيب محاور النظام الإحداثي.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   date_accepted: 2007-07-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: مجموعة إحداثيات ترابطية
+    normative_status: preferred
 chi:
   id: 735
-  term: 坐标元组
   definition: 由有顺序的坐标所构成的坐标串。
   language_code: chi
   notes:
   - 在坐标元组中，坐标个数等同于坐标系的维数；坐标的顺序等同于坐标系轴的顺序。
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   date_accepted: 2007-07-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: 坐标元组
+    normative_status: preferred
 dut:
   id: 735
-  term: coördinaattupel
   definition: tupel bestaande uit een serie coördinaten
   language_code: dut
   notes:
@@ -62,16 +67,18 @@ dut:
     aan de volgorde van de assen van het coördinaatsysteem.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   date_accepted: 2007-07-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: coördinaattupel
+    normative_status: preferred
 fin:
   id: 735
-  term: koordinaattimonikko
   definition: monikko, joka koostuu koordinaattien jonosta
   language_code: fin
   notes:
@@ -79,30 +86,34 @@ fin:
     ulottuvuus, ja niiden järjestys on sama kuin koordinaatiston akseleiden järjestys.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   lineage_source: Ei lähdettä, käännetty
   date_accepted: 2007-07-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: koordinaattimonikko
+    normative_status: preferred
 fra:
   id: 735
-  term: n-uplet de coordonnées
   definition: n-uplet composé d'une séquence de coordonnées
   language_code: fra
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19111
     link: https://www.iso.org/standard/74039.html
   lineage_source: ''
   date_accepted: 2007-07-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: n-uplet de coordonnées
+    normative_status: preferred
 ger:
   id: 735
-  term: Koordinatentupel
   definition: Tupel, zusammengesetzt aus einer Folge von Koordinaten
   language_code: ger
   notes:
@@ -111,23 +122,24 @@ ger:
     to the order of the axes of the coordinate system.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   date_accepted: 2007-07-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: Koordinatentupel
+    normative_status: preferred
 kor:
   id: 735
-  term: 좌표 튜플
   definition: 좌표의 연속으로 구성된 튜플
   language_code: kor
   notes:
   - 좌표 튜플의 좌표 개수는 좌표 체계의 차원과 같다. 좌표 튜플의 좌표 순서는 좌표 체계의 축 순서와 같다.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
@@ -135,9 +147,12 @@ kor:
   lineage_source: KS X ISO 19111
   date_accepted: 2007-11-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: 좌표 튜플
+    normative_status: preferred
 pol:
   id: 735
-  term: krotka współrzędnych
   definition: krotka składająca się z sekwencji współrzędnych
   language_code: pol
   notes:
@@ -145,16 +160,18 @@ pol:
     Kolejność współrzędnych w zestawie jest taka sama jak kolejność osi w układzie
     współrzędnych.
   examples: []
-  classification: preferred
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   lineage_source: PN-EN ISO 19111
   date_accepted: 2007-07-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: krotka współrzędnych
+    normative_status: preferred
 rus:
   id: 735
-  term: кортеж координат
   definition: кортеж, состоящий из последовательности координат
   language_code: rus
   notes:
@@ -162,16 +179,18 @@ rus:
     координат в кортеже  идентичен порядку осей в системе координат
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   lineage_source: Internet
   date_accepted: 2007-07-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: кортеж координат
+    normative_status: preferred
 spa:
   id: 735
-  term: tupla de coordenadas
   definition: tupla compuesta por una secuencia de coordenadas
   language_code: spa
   notes:
@@ -180,15 +199,17 @@ spa:
     es idéntico al orden de los ejes del sistema de coordenadas.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   date_accepted: 2007-07-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: tupla de coordenadas
+    normative_status: preferred
 swe:
   id: 735
-  term: koordinater
   definition: "ordnade tal som entydigt anger positionen \nför en punkt i ett koordinatsystem"
   country_code: swe
   language_code: swe
@@ -198,7 +219,6 @@ swe:
     to the order of the axes of the coordinate system.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
@@ -206,3 +226,7 @@ swe:
   lineage_source: "(Type reference to national language document)"
   date_accepted: 2007-07-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: koordinater
+    normative_status: preferred

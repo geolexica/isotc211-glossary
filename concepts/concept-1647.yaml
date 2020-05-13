@@ -3,14 +3,12 @@ term: citation
 termid: 1647
 eng:
   id: 1647
-  term: citation
   definition: information object containing information that directs a reader's or
     user's attention from one resource to another
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 24619:2011
     clause: 3.1.16
@@ -19,15 +17,17 @@ eng:
   lineage_source_similarity: '1'
   date_accepted: 2014-04-01 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: citation
+    normative_status: preferred
 kor:
   id: 1647
-  term: 인용
   definition: 독자 또는 사용자의 관심을 한 자원에서 타 자원로 옮길 수 있는 정보를 탑재한 정보 객체
   language_code: kor
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 24619:2011
     clause: 3.1.16
@@ -36,16 +36,18 @@ kor:
   lineage_source_similarity: '1'
   date_accepted: 2014-04-01 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: 인용
+    normative_status: preferred
 rus:
   id: 1647
-  term: ссылка
   definition: информационный объект, содержащий информацию, которая направляет внимание
     читателя или пользователя с одного ресурса на другой
   language_code: rus
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 24619:2011
     clause: 3.1.16
@@ -54,16 +56,18 @@ rus:
   lineage_source_similarity: '1'
   date_accepted: 2014-04-01 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: ссылка
+    normative_status: preferred
 spa:
   id: 1647
-  term: cita
   definition: objeto de información que contiene información que dirige la atención
     del lector o usuario desde un recurso hacia otro
   language_code: spa
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 24619:2011
     clause: 3.1.16
@@ -72,9 +76,12 @@ spa:
   lineage_source_similarity: '1'
   date_accepted: 2014-04-01 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: cita
+    normative_status: preferred
 swe:
   id: 1647
-  term: hänvisningsobjekt
   definition: samling av uppgifter som från en resurs hänvisar en läsare eller användare
     till en annan resurs
   country_code: swe
@@ -82,7 +89,6 @@ swe:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 24619:2011
     clause: 3.1.16
@@ -91,3 +97,7 @@ swe:
   lineage_source_similarity: '1'
   date_accepted: 2014-04-01 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: hänvisningsobjekt
+    normative_status: preferred

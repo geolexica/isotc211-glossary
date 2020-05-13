@@ -3,7 +3,6 @@ term: ScanSAR mode
 termid: 1012
 eng:
   id: 1012
-  term: ScanSAR mode
   definition: special case of stripmap mode that uses an electronically steerable
     antenna to quickly change the swath being imaged during collection to collect
     multiple parallel swaths in one pass
@@ -11,15 +10,17 @@ eng:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/TS 19130:2010
     link: https://www.iso.org/standard/51789.html
   date_accepted: 2010-06-15 00:00:00.000000000 +08:00
   release: '2'
+  terms:
+  - type: expression
+    designation: ScanSAR mode
+    normative_status: preferred
 ara:
   id: 1012
-  term: نسق"سار" للمسح الضوئي
   definition: حالة خاصة لنسق الخارطة الشريطية التي يستخدم فيها هوائي الكتروني موجه
     ليغير بسرعة التغطية الجاري تصويرها أثناء الجمع لجمع تغطيات متوازية ومتعددة في
     مرور واحد
@@ -27,15 +28,17 @@ ara:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/TS 19130:2010
     link: https://www.iso.org/standard/51789.html
   date_accepted: 2010-06-15 00:00:00.000000000 +08:00
   release: '2'
+  terms:
+  - type: expression
+    designation: نسق"سار" للمسح الضوئي
+    normative_status: preferred
 ger:
   id: 1012
-  term: ScanSAR-Modus
   definition: SAR-Aufnahmemodus, bei dem der Radarmessstrahl unter verschiedenen Neigungswinkeln
     auf die Erde gerichtet wird und so mehrere Scanstreifen gleichzeitig erfasst werden
     können
@@ -43,30 +46,34 @@ ger:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/TS 19130:2010
     link: https://www.iso.org/standard/51789.html
   date_accepted: 2010-06-15 00:00:00.000000000 +08:00
   release: '2'
+  terms:
+  - type: expression
+    designation: ScanSAR-Modus
+    normative_status: preferred
 kor:
   id: 1012
-  term: 스캔SAR 모드
   definition: 일회 통과로 다수의 평행 관측 사진을 수집하기 위해 영상 관측을 신속히 변경하기 위해 전자적으로 조종가능한 안테나를 사용하는
     진로 요도 모드의 특별 케이스
   language_code: kor
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/TS 19130:2010
     link: https://www.iso.org/standard/51789.html
   date_accepted: 2010-06-15 00:00:00.000000000 +08:00
   release: '2'
+  terms:
+  - type: expression
+    designation: 스캔SAR 모드
+    normative_status: preferred
 rus:
   id: 1012
-  term: режим ScanSAR
   definition: особый случай полосового режима, который использует электронно-управляемую
     антенну для быстрого изменения полосы, отображаемой во время сбора, чтобы собрать
     несколько параллельных полос за один проход
@@ -74,16 +81,18 @@ rus:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/TS 19130:2010
     link: https://www.iso.org/standard/51789.html
   lineage_source: ISO/TS 19130:2010
   date_accepted: 2010-06-15 00:00:00.000000000 +08:00
   release: '2'
+  terms:
+  - type: expression
+    designation: режим ScanSAR
+    normative_status: preferred
 spa:
   id: 1012
-  term: modo escaneo SAR (ScanSAR mode) <SAR>
   definition: caso especial del modo stripmap que usa una antena electrónicamente
     orientable para cambiar rápidamente la franja a tomar durante la captura, para
     recoger múltiples franjas paralelas en una sola pasada
@@ -91,9 +100,12 @@ spa:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/TS 19130:2010
     link: https://www.iso.org/standard/51789.html
   date_accepted: 2010-06-15 00:00:00.000000000 +08:00
   release: '2'
+  terms:
+  - type: expression
+    designation: modo escaneo SAR (ScanSAR mode) <SAR>
+    normative_status: preferred

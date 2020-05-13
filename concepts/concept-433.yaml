@@ -3,7 +3,6 @@ term: strong substitutability
 termid: 433
 eng:
   id: 433
-  term: strong substitutability
   definition: ability for any instance of a class that is a descendant under inheritance
     or realization of another class, type or interface to be used in lieu of an instance
     of its ancestor in any context
@@ -13,7 +12,6 @@ eng:
     of the implied substitution.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -23,9 +21,12 @@ eng:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: strong substitutability
+    normative_status: preferred
 ara:
   id: 433
-  term: قوة الابدالية
   definition: قدرة أي مثال لفئة الوراثة أو التحقق منحدرة تحت فئة أخرى أو نوع آخر أو
     واجهة أخرى لإمكانية استخدامها كبدل لمثيل السجل في أي سياق  .
   language_code: ara
@@ -34,7 +35,6 @@ ara:
     .
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -44,16 +44,18 @@ ara:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: قوة الابدالية
+    normative_status: preferred
 chi:
   id: 433
-  term: 强可替换性
   definition: 继承或实现另一个类、类型或接口的派生类的任何实例在任何相关环境中用于替代其祖先实例的能力。
   language_code: chi
   notes:
   - 弱替换类型使得在替换中对环境有各种各样的限制。
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -63,9 +65,12 @@ chi:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: 强可替换性
+    normative_status: preferred
 fin:
   id: 433
-  term: voimakas korvautuvuus
   definition: luokan ilmentymän kyky toimia aina kyseisen luokan yläluokan ilmentymän
     tilalla
   language_code: fin
@@ -73,7 +78,6 @@ fin:
   - Korvautuvuuden heikommat muodot ovat rajattuja asiayhteyden mukaan.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -83,9 +87,12 @@ fin:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: voimakas korvautuvuus
+    normative_status: preferred
 fra:
   id: 433
-  term: capacité de substitution forte
   definition: capacité pour toute instance de classe qui descend par héritage ou réalisation
     d'une autre classe, type ou interface à être utilisée au lieu d'une instance de
     son ancêtre dans n'importe quel contexte
@@ -93,7 +100,6 @@ fra:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -103,16 +109,18 @@ fra:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: capacité de substitution forte
+    normative_status: preferred
 jpn:
   id: 433
-  term: 強代替性
   definition: あるクラス，型又はインタフェースを継承又は実現した下位クラスの任意のインスタンスを，その原型のインスタンスの代わりとして任意の状況において用いることのできる能力。
   language_code: jpn
   notes:
   - 代替性の弱い形式は，暗黙の代替を行う状況に様々な制限を設ける。
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -122,9 +130,12 @@ jpn:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: 強代替性
+    normative_status: preferred
 kor:
   id: 433
-  term: 강한 대체성
   synonyms: ''
   definition: 클래스의 특정 인스턴스를 위한 능력으로, 이는 상속을 통한 자손이거나, 특정 상황에서 그것의 조상의 인스턴스 대신 사용되는
     다른 클래스, 유형 또는 인터페이스의 실현을 의미
@@ -133,7 +144,6 @@ kor:
   - 보다 약한 유형의 대체성은 함축된 대용의 상황에서 다양한 제한을 만든다.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -143,9 +153,12 @@ kor:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: 강한 대체성
+    normative_status: preferred
 pol:
   id: 433
-  term: silna zastępowalność
   definition: zdolność każdej instancji klasy, która jest potomkiem (w sensie dziedziczenia
     lub realizacji) innej klasy, typu lub interfejsu, do użycia w jej miejsce instancji
     jej przodka w dowolnym kontekście
@@ -154,7 +167,6 @@ pol:
   - Słabsze formy zastępowalności ustalają różne ograniczenia co do kontekstu implikowanego
     zastąpienia.
   examples: []
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -164,9 +176,12 @@ pol:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: silna zastępowalność
+    normative_status: preferred
 rus:
   id: 433
-  term: строгая  заменяемость
   definition: возможность в любом контексте использовать любой экземпляр класса, выступающего
     в отношениях наследования либо реализации наследником другого класса, типа или
     интерфейса  - вместо экземпляра сущности – предка
@@ -176,16 +191,18 @@ rus:
     предполагаемой замены
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
     link: https://www.iso.org/standard/26012.html
   lineage_source: Internet
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: строгая  заменяемость
+    normative_status: preferred
 spa:
   id: 433
-  term: intercambiabilidad fuerte
   definition: capacidad de cualquier instancia de una clase que es descendiente por
     herencia o una realización de otra clase, tipo o interfaz, para ser usada en lugar
     de una instancia de su antecesor en cualquier contexto
@@ -195,7 +212,6 @@ spa:
     el contexto de la sustitución subyacente.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -205,9 +221,12 @@ spa:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: intercambiabilidad fuerte
+    normative_status: preferred
 swe:
   id: 433
-  term: stark utbytbarhet
   definition: egenskap hos en instans att utan restriktioner kunna ersätta en instans
     från sin basklass
   country_code: swe
@@ -217,7 +236,6 @@ swe:
     of the implied substitution.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -227,3 +245,7 @@ swe:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: stark utbytbarhet
+    normative_status: preferred

@@ -3,7 +3,6 @@ term: lease
 termid: 1230
 eng:
   id: 1230
-  term: lease
   definition: allowing the resource to be made available for a fixed period of time
     then returned
   language_code: eng
@@ -12,16 +11,18 @@ eng:
     are required for downstream use.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19153:2014
     clause: '4.24'
     link: https://www.iso.org/standard/32571.html
   date_accepted: 2014-02-15 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: lease
+    normative_status: preferred
 kor:
   id: 1230
-  term: 임대차 계약
   definition: 정해진 기간 동안 자원을 사용할 수 있도록 허가해 주고 추후 회수 받는 행위
   language_code: kor
   notes:
@@ -29,16 +30,18 @@ kor:
     are required for downstream use.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19153:2014
     clause: '4.24'
     link: https://www.iso.org/standard/32571.html
   date_accepted: 2014-02-15 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: 임대차 계약
+    normative_status: preferred
 msa:
   id: 1230
-  term: pajakan
   definition: membolehkan sumber itu tersedia untuk tempoh masa yang ditetapkan dan
     kemudiannya dikembalikan
   language_code: msa
@@ -47,16 +50,18 @@ msa:
     are required for downstream use.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19153:2014
     clause: '4.24'
     link: https://www.iso.org/standard/32571.html
   date_accepted: 2014-02-15 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: pajakan
+    normative_status: preferred
 rus:
   id: 1230
-  term: аренда
   definition: разрешение ресурсу быть доступным в течение фиксированного периода времени
     с последующим возвратом
   language_code: rus
@@ -65,7 +70,6 @@ rus:
     требуются временные ограничения.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19153:2014
     clause: '4.24'
@@ -73,9 +77,12 @@ rus:
   lineage_source: перевод ИСО 19153:2014
   date_accepted: 2014-02-15 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: аренда
+    normative_status: preferred
 spa:
   id: 1230
-  term: arrendar
   definition: permitir que un recurso esté disponible durante un periodo fijo de tiempo
     hasta su vencimiento
   language_code: spa
@@ -84,10 +91,13 @@ spa:
     requieren restricciones temporales para su uso posterior.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19153:2014
     clause: '4.24'
     link: https://www.iso.org/standard/32571.html
   date_accepted: 2014-02-15 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: arrendar
+    normative_status: preferred

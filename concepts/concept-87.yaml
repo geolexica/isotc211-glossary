@@ -3,7 +3,6 @@ term: convex set
 termid: 87
 eng:
   id: 87
-  term: convex set
   definition: geometric set in which any direct position on the straight-line segment
     joining any two direct positions in the geometric set is also contained in the
     geometric set
@@ -15,7 +14,6 @@ eng:
     geodesically convex.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: Dictionary of Computing
@@ -27,9 +25,12 @@ eng:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: convex set
+    normative_status: preferred
 ara:
   id: 87
-  term: مجموعة محدَّبة
   definition: مجموعة هندسية يكون كل موقع مباشر على المقطع المستقيم الذي يصل بين أي
     موقعين مباشرين فيها مشمولا هو الآخر في المجموعة
   language_code: ara
@@ -39,7 +40,6 @@ ara:
     معها. لذا يمكننا اعتبار السطح الكروي محدَّباً جيوديسيا.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: Dictionary of Computing
@@ -51,16 +51,18 @@ ara:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: مجموعة محدَّبة
+    normative_status: preferred
 chi:
   id: 87
-  term: 凸集
   definition: 一种几何集，在几何集中连接任意两个直接位置的直线段上的任意直接位置都包含在该几何集合中。
   language_code: chi
   notes:
   - 凸集间是“简单连接”，这意味着他们没有内部孔洞，并且通常可以认为在拓扑上是与适当维数的欧几里德球同构的，所以，球的表面可以被认为是几何凸集。
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: Dictionary of Computing
@@ -72,9 +74,12 @@ chi:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: 凸集
+    normative_status: preferred
 dan:
   id: 87
-  term: konveks mængde
   definition: geometrisk mængde, i hvilket det gælder, at uanset hvilke to punkter
     vi tager i mængden og tager linjestykket mellem disse, er linjestykket fuldt indeholdt
     i mængden.
@@ -96,9 +101,12 @@ dan:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: konveks mængde
+    normative_status: 
 fin:
   id: 87
-  term: konveksi joukko
   definition: geometrinen joukko, jossa mikä hyvänsä kahta pistettä yhdistävällä suoralla
     oleva piste sisältyy tähän geometriseen joukkoon
   language_code: fin
@@ -108,7 +116,6 @@ fin:
     pallon kanssa. Näin ollen pallon pintaa voidaan pitää geodeettisesti konveksina.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: Dictionary of Computing
@@ -120,9 +127,12 @@ fin:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: konveksi joukko
+    normative_status: preferred
 fra:
   id: 87
-  term: ensemble convexe
   definition: ensemble géométrique dans laquelle n'importe quelle position directe
     sur le segment de droite joignant deux points dans l'ensemble géométrique est
     également contenue dans l'ensemble géométrique
@@ -130,7 +140,6 @@ fra:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: Dictionary of Computing
@@ -142,9 +151,12 @@ fra:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: ensemble convexe
+    normative_status: preferred
 ger:
   id: 87
-  term: konvexe Menge
   language_code: ger
   notes:
   - Convex sets are "simply connected", meaning that they have no interior holes,
@@ -153,7 +165,6 @@ ger:
     geodesically convex.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: Dictionary of Computing
@@ -165,15 +176,17 @@ ger:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: konvexe Menge
+    normative_status: preferred
 kor:
   id: 87
-  term: 볼록 집합
   definition: 내부의 임의 두 직접 위치를 잇는 직선 조각상의 모든 점을 포함할 수 있는 기하 집합
   language_code: kor
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: Dictionary of Computing
@@ -185,9 +198,12 @@ kor:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: 볼록 집합
+    normative_status: preferred
 rus:
   id: 87
-  term: выпуклое множество
   definition: геометрическое множество, в котором любой отрезок прямой, соединяющий
     две любые точки данного множества, также принадлежит этому геометрическому множеству
   language_code: rus
@@ -198,16 +214,18 @@ rus:
     как геодезически выпуклую
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: Dictionary of Computing
     clause: Fourth Edition, Oxford University Press
   lineage_source: Internet
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: выпуклое множество
+    normative_status: preferred
 spa:
   id: 87
-  term: conjunto convexo
   definition: conjunto geométrico en el que cualquier posición directa del segmento
     que une dos posiciones directas cualesquiera del conjunto geométrico, también
     está contenida en el conjunto geométrico
@@ -219,7 +237,6 @@ spa:
     se puede considerar geodésicamente convexa.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: Dictionary of Computing
@@ -231,9 +248,12 @@ spa:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: conjunto convexo
+    normative_status: preferred
 swe:
   id: 87
-  term: konvex mängd
   definition: punktmängd sådan att varje punkt längs en sträcka mellan två godtyckligt
     valda punkter i mängden också ligger i mängden
   country_code: swe
@@ -245,7 +265,6 @@ swe:
     geodesically convex.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: Dictionary of Computing
@@ -257,3 +276,7 @@ swe:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: konvex mängd
+    normative_status: preferred

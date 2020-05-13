@@ -3,7 +3,6 @@ term: submitted language
 termid: 1694
 eng:
   id: 1694
-  term: submitted language
   definition: language that is not the reference language
   language_code: eng
   notes:
@@ -11,7 +10,6 @@ eng:
     terminological entries in the reference language.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19104:2016
     clause: '4.29'
@@ -24,9 +22,12 @@ eng:
   review_decision_event: Normal ISO processing
   review_decision_notes: Publication of document ISO 19104:2016(E)
   release: '4'
+  terms:
+  - type: expression
+    designation: submitted language
+    normative_status: preferred
 spa:
   id: 1694
-  term: idioma de presentación
   definition: idioma que no es el idioma de referencia
   language_code: spa
   notes:
@@ -34,7 +35,6 @@ spa:
     de sus equivalentes entradas terminológicas en el idioma de referencia.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19104:2016
     clause: '4.29'
@@ -47,3 +47,7 @@ spa:
   review_decision_event: Normal ISO processing
   review_decision_notes: Publication of document ISO 19104:2016(E)
   release: '4'
+  terms:
+  - type: expression
+    designation: idioma de presentación
+    normative_status: preferred

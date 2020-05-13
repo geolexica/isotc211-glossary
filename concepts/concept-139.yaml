@@ -3,7 +3,6 @@ term: directed solid
 termid: 139
 eng:
   id: 139
-  term: directed solid
   definition: directed topological object that represents an association between a
     topological solid and one of its orientations
   language_code: eng
@@ -14,16 +13,18 @@ eng:
     the concept of "up = outward" for a surface bounding a solid.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
     link: https://www.iso.org/standard/26012.html
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: directed solid
+    normative_status: preferred
 ara:
   id: 139
-  term: مجسم موجه
   definition: كائن طوبولوجي موجه يمثل ربطاً بين مجسم طوبولوجي وأحد اتجاهاته
   language_code: ara
   notes:
@@ -34,31 +35,35 @@ ara:
     لسطح يحد مجسماً.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
     link: https://www.iso.org/standard/26012.html
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: مجسم موجه
+    normative_status: preferred
 chi:
   id: 139
-  term: 有向体
   definition: 有向拓扑对象，表达拓扑体和它的一个方向之间的关联。
   language_code: chi
   notes:
   - 有向体用在余边界关系中以维持面与拓扑体之间的空间关联。体的方向与它的边界面相对应，如果边界面的外法向是向外的，则这个体是“+”如果边界的外法向是向内的，则这个体是负方向“-”。这与一个体的边界“向上=向外”的概念一致。
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
     link: https://www.iso.org/standard/26012.html
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: 有向体
+    normative_status: preferred
 dan:
   id: 139
-  term: retningsbestemt legeme
   definition: retningsbestemt topologisk objekt, der repræsenterer en fobindelse mellem
     et topologisk legeme og en af dets orienteringer
   language_code: dan
@@ -74,9 +79,12 @@ dan:
     link: https://www.iso.org/standard/26012.html
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: retningsbestemt legeme
+    normative_status: 
 fin:
   id: 139
-  term: suunnattu kappale
   definition: suunnattu topologinen objekti, joka kuvaa topologisen kappaleen ja jonkin
     sen suunnan välistä yhteyttä
   language_code: fin
@@ -87,31 +95,35 @@ fin:
     rajaavaa pintaa koskevan käsitteen "+ = ulospäin" kanssa.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
     link: https://www.iso.org/standard/26012.html
   lineage_source: Ei lähdettä, käännetty
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: suunnattu kappale
+    normative_status: preferred
 fra:
   id: 139
-  term: solide orienté
   definition: objet topologique orienté représentant une association entre un solide
     topologique et une de ses orientations
   language_code: fra
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19107
     link: https://www.iso.org/standard/66175.html
   lineage_source: ''
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: solide orienté
+    normative_status: preferred
 ger:
   id: 139
-  term: gerichteter Körper
   language_code: ger
   notes:
   - Directed solids are used in the coboundary relation to maintain the spatial association
@@ -120,32 +132,36 @@ ger:
     the concept of "up = outward" for a surface bounding a solid.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
     link: https://www.iso.org/standard/26012.html
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: gerichteter Körper
+    normative_status: preferred
 jpn:
   id: 139
-  term: 有向位相立体
   definition: 位相立体とその向きの一つとの間の関連を表す有向位相オブジェクト。
   language_code: jpn
   notes:
   - 有向位相立体は，双対境界関係においてフェイスと位相立体との間の空間的な関係を保持するために用いる。一つのフェイスに関する位相立体の向きは，そのフェイスの上方法線が位相立体の外側へ向く場合には“+”，内側に向く場合は“-”である。これは，立体の境界となる曲面に対して“上方＝外側”という概念と整合する。
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19107:2003
     link: https://www.iso.org/standard/26012.html
   lineage_source: JIS X 7107
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: 有向位相立体
+    normative_status: preferred
 kor:
   id: 139
-  term: 방향성 입방체
   definition: 하나의 위상 입방체와 그 입방체가 갖는 방향성 간의 연관으로 표현된 방향성 위상 객체
   language_code: kor
   notes:
@@ -153,7 +169,6 @@ kor:
     법선 벡터가 바깥쪽인 경우, "-"는 안쪽일 경우에 부여된다. 이것은 입방체를 감싸는 표면에서 "위쪽 = 바깥쪽" 이라는 개념과도 일치한다.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -161,9 +176,12 @@ kor:
   lineage_source: KS X ISO 19107
   date_accepted: 2009-12-29 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: 방향성 입방체
+    normative_status: preferred
 pol:
   id: 139
-  term: bryła skierowana
   definition: skierowany obiekt topologiczny, który reprezentuje powiązanie między
     bryłą topologiczną a jedną z jej orientacji
   language_code: pol
@@ -175,16 +193,18 @@ pol:
     to zgodne z pojęciem "góra = kierunek na zewnątrz" dla powierzchni ograniczającej
     bryłę.
   examples: []
-  classification: preferred
   authoritative_source:
     ref: ISO 19107:2003
     link: https://www.iso.org/standard/26012.html
   lineage_source: PN-EN ISO 19107
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: bryła skierowana
+    normative_status: preferred
 rus:
   id: 139
-  term: ориентированное тело
   definition: ориентированный топологический объект, который представляет связь между
     топологическим телом  и одним из его направлений
   language_code: rus
@@ -195,16 +215,18 @@ rus:
     соответствует принципу «up = outward» для поверхности, ограничивающей тело
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
     link: https://www.iso.org/standard/26012.html
   lineage_source: Internet
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: ориентированное тело
+    normative_status: preferred
 spa:
   id: 139
-  term: sólido orientado
   definition: objeto topológico orientado que representa una asociación entre un sólido
     topológico y una de sus orientaciones
   language_code: spa
@@ -216,15 +238,17 @@ spa:
     que envuelve un sólido.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19107:2003
     link: https://www.iso.org/standard/26012.html
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: sólido orientado
+    normative_status: preferred
 swe:
   id: 139
-  term: orienterad topologisk kropp
   definition: orienterat topologiskt objekt som anger sambandet mellan ett topologisk
     kropp och en av dess orienteringar
   country_code: swe
@@ -236,7 +260,6 @@ swe:
     the concept of "up = outward" for a surface bounding a solid.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -244,3 +267,7 @@ swe:
   lineage_source: "(Type reference to national language document)"
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: orienterad topologisk kropp
+    normative_status: preferred

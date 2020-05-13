@@ -3,14 +3,12 @@ term: licence manager
 termid: 1234
 eng:
   id: 1234
-  term: licence manager
   definition: application that tracks licences available within an organization and
     coordinates the issuing of these licences to requesting clients
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: New Concepts in BASIS Licensing
     clause: modified
@@ -18,15 +16,17 @@ eng:
   lineage_source_similarity: '1'
   date_accepted: 2014-02-15 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: licence manager
+    normative_status: preferred
 kor:
   id: 1234
-  term: 허가증 매니저
   definition: 조직내 사용가능 허가증을 추적하고 허가증들을 요청 고객에게 발행하는 일을 조정하는 어플리케이션
   language_code: kor
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: New Concepts in BASIS Licensing
     clause: modified
@@ -34,16 +34,18 @@ kor:
   lineage_source_similarity: '1'
   date_accepted: 2014-02-15 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: 허가증 매니저
+    normative_status: preferred
 rus:
   id: 1234
-  term: менеджер лицензий
   definition: приложение, которое отслеживает лицензии, доступные организации, и координирует
     выдачу этих лицензий запрашивающим клиентам
   language_code: rus
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: New Concepts in BASIS Licensing
     clause: modified
@@ -51,16 +53,18 @@ rus:
   lineage_source_similarity: '1'
   date_accepted: 2014-02-15 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: менеджер лицензий
+    normative_status: preferred
 spa:
   id: 1234
-  term: gestor de licencias
   definition: aplicación que monitoriza las licencias disponibles en una organización
     y coordina la asignación de esas licencias a los usuarios que las solicitan
   language_code: spa
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: New Concepts in BASIS Licensing
     clause: modified
@@ -68,3 +72,7 @@ spa:
   lineage_source_similarity: '1'
   date_accepted: 2014-02-15 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: gestor de licencias
+    normative_status: preferred

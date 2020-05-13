@@ -3,7 +3,6 @@ term: abstract test case
 termid: 3
 eng:
   id: 3
-  term: abstract test case
   definition: generalized test for a particular requirement
   language_code: eng
   notes:
@@ -15,16 +14,18 @@ eng:
     of test events).
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
     link: https://www.iso.org/standard/26010.html
   date_accepted: 2000-12-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: abstract test case
+    normative_status: preferred
 ara:
   id: 3
-  term: حالة اختبار تجريدي
   definition: اختبار عام لمتطلب محدد
   language_code: ara
   notes:
@@ -35,31 +36,35 @@ ara:
     يتم إجراؤه ويخضع للملاحظة ( أي سلسلة الأحداث المتتالية للاختبار)
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
     link: https://www.iso.org/standard/26010.html
   date_accepted: 2000-12-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: حالة اختبار تجريدي
+    normative_status: preferred
 chi:
   id: 3
-  term: 抽象测试用例
   definition: 针对特定要求的一般性测试。
   language_code: chi
   notes:
   - 抽象测试用例是导出可执行测试用例的形式化基础。在抽象测试用例里包含有一个或多个测试目的。一个抽象测试用例不取决于实现，也不取决于数值。它应当是完整的，足以将测试判定被明确地分配到每个潜在的可观察的测试结果（即：测试事件的序列）当中。
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
     link: https://www.iso.org/standard/26010.html
   date_accepted: 2000-12-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: 抽象测试用例
+    normative_status: preferred
 dan:
   id: 3
-  term: abstrakt testforløb
   definition: generaliseret test for et bestemt krav
   language_code: dan
   notes:
@@ -71,15 +76,17 @@ dan:
     sekvens af test events).
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19105:2000
     link: https://www.iso.org/standard/26010.html
   date_accepted: 2000-12-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: abstrakt testforløb
+    normative_status: preferred
 fin:
   id: 3
-  term: abstrakti testitapaus
   definition: tietyn vaatimuksen täyttymistä mittaava yleistetty testi
   language_code: fin
   notes:
@@ -91,30 +98,34 @@ fin:
     (testitapahtumajonolle).
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
     link: https://www.iso.org/standard/26010.html
   lineage_source: Internet
   date_accepted: 2000-12-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: abstrakti testitapaus
+    normative_status: preferred
 fra:
   id: 3
-  term: cas de test abstrait
   definition: test généralisé relatif à une exigence particulière
   language_code: fra
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19105
     link: https://www.iso.org/standard/26010.html
   lineage_source: ''
   date_accepted: 2000-11-16 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: cas de test abstrait
+    normative_status: preferred
 ger:
   id: 3
-  term: abstrakter Testfall
   language_code: ger
   notes:
   - An abstract test case is a formal basis for deriving executable test cases One
@@ -125,32 +136,36 @@ ger:
     of test events).
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
     link: https://www.iso.org/standard/26010.html
   date_accepted: 2000-12-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: abstrakter Testfall
+    normative_status: preferred
 jpn:
   id: 3
-  term: 抽象試験項目
   definition: 特定の要件のために作成された試験。
   language_code: jpn
   notes:
   - 抽象試験項目は，実行可能試験項目を導き出すための基礎として用いられる。抽象試験項目は，一つ以上の試験目的を含む。抽象試験項目は，実装及び値の両方から独立している。観測可能なすべての試験結果（試験中の一連の出力）に対して，あいまい性がなく試験判定を下すことができるという意味で，抽象試験項目は，完全であることが望ましい。
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19105:2000
     link: https://www.iso.org/standard/26010.html
   lineage_source: JIS X 7105
   date_accepted: 2000-12-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: 抽象試験項目
+    normative_status: preferred
 kor:
   id: 3
-  term: 추상 시험 케이스
   definition: 특정한 요구 사항을 수행하기 위한 일반화된 시험
   language_code: kor
   notes:
@@ -158,7 +173,6 @@ kor:
     양쪽에 모두 독립해 있다. 관측 가능한 모든 시험 결과는 시험 판정을 내릴 수 있도록 명확해야 한다(예: 시험 이벤트의 연속)'
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
@@ -166,9 +180,12 @@ kor:
   lineage_source: KS X ISO 19105
   date_accepted: 2007-06-29 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: 추상 시험 케이스
+    normative_status: preferred
 rus:
   id: 3
-  term: абстрактный тест
   definition: обобщенный тест на соответствие конкретным требованиям
   language_code: rus
   notes:
@@ -179,16 +196,18 @@ rus:
     результата тестирования (т.е. последовательности шагов тестирования)
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
     link: https://www.iso.org/standard/26010.html
   lineage_source: Internet
   date_accepted: 2000-12-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: абстрактный тест
+    normative_status: preferred
 spa:
   id: 3
-  term: prueba abstracta
   definition: prueba generalizada para un requisito particular
   language_code: spa
   notes:
@@ -200,15 +219,17 @@ spa:
     de eventos de ensayo).
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19105:2000
     link: https://www.iso.org/standard/26010.html
   date_accepted: 2000-12-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: prueba abstracta
+    normative_status: preferred
 swe:
   id: 3
-  term: abstrakt testfall
   definition: |-
     specifikation av de åtgärder som ska vidtas för
      att avgöra om ett visst krav är uppfyllt eller ej
@@ -223,7 +244,6 @@ swe:
     of test events).
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
@@ -231,3 +251,7 @@ swe:
   lineage_source: "(Type reference to national language document)"
   date_accepted: 2000-12-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: abstrakt testfall
+    normative_status: preferred

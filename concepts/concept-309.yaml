@@ -3,54 +3,59 @@ term: node
 termid: 309
 eng:
   id: 309
-  term: node
   definition: 0-dimensional topological primitive
   language_code: eng
   notes:
   - The boundary of a node is the empty set.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
     link: https://www.iso.org/standard/26012.html
   date_accepted: 2002-09-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: node
+    normative_status: preferred
 ara:
   id: 309
-  term: عقدة
   definition: عنصر طوبولوجي بسيط صفري الأبعاد
   language_code: ara
   notes:
   - الحد الخارجي للعقدة هو المجموعة الفارغة.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
     link: https://www.iso.org/standard/26012.html
   date_accepted: 2002-09-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: عقدة
+    normative_status: preferred
 chi:
   id: 309
-  term: 结点
   definition: 0维拓扑单形。
   language_code: chi
   notes:
   - 结点的边界是空集。
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
     link: https://www.iso.org/standard/26012.html
   date_accepted: 2002-09-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: 结点
+    normative_status: preferred
 fin:
   id: 309
-  term: solmu
   synonyms: solmupiste
   definition: nollaulotteinen topologinen primitiivi
   language_code: fin
@@ -58,62 +63,70 @@ fin:
   - Solmupisteen rajaus on tyhjä joukko.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
     link: https://www.iso.org/standard/26012.html
   lineage_source: 'Sanastokeskus TSK: Geoinformatiikan sanasto (TSK 32), 2005'
   date_accepted: 2002-09-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: solmu
+    normative_status: preferred
 fra:
   id: 309
-  term: nœud
   definition: primitive topologique de dimension nulle
   language_code: fra
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19107
     link: https://www.iso.org/standard/66175.html
   lineage_source: ''
   date_accepted: 2002-09-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: nœud
+    normative_status: preferred
 ger:
   id: 309
-  term: Knoten
   definition: nulldimensionales Topologieobjekt
   language_code: ger
   notes:
   - The boundary of a node is the empty set.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
     link: https://www.iso.org/standard/26012.html
   date_accepted: 2002-09-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: Knoten
+    normative_status: preferred
 jpn:
   id: 309
-  term: ノード
   definition: 零次元の位相プリミティブ。
   language_code: jpn
   notes:
   - ノードの境界は，空集合である。
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19107:2003
     link: https://www.iso.org/standard/26012.html
   lineage_source: JIS X 7107
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: ノード
+    normative_status: preferred
 kor:
   id: 309
-  term: 절점
   synonyms: 노드
   definition: 0차원의 위상 원시 객체
   language_code: kor
@@ -121,7 +134,6 @@ kor:
   - 절점의 경계는 공집합이다.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -129,9 +141,12 @@ kor:
   lineage_source: KS X ISO 19107
   date_accepted: 2009-12-29 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: 절점
+    normative_status: preferred
 msa:
   id: 309
-  term: buku; nod; nodus
   definition: Istilah topologi bagi suatu titik penghabisan atau persilangan pada
     suatu sistem jaringan.
   language_code: msa
@@ -139,7 +154,6 @@ msa:
   - The boundary of a node is the empty set.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -147,50 +161,60 @@ msa:
   lineage_source: Pusat Rujukan Persuratan Melayu (DBP)
   date_accepted: 2002-09-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: buku; nod; nodus
+    normative_status: preferred
 pol:
   id: 309
-  term: węzeł
   definition: 0-wymiarowy prosty element topologiczny
   language_code: pol
   notes:
   - Granicą węzła jest zbiór pusty.
   examples: []
-  classification: preferred
   authoritative_source:
     ref: ISO 19107:2003
     link: https://www.iso.org/standard/26012.html
   lineage_source: PN-EN ISO 19107
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: węzeł
+    normative_status: preferred
 rus:
   id: 309
-  term: узел
   definition: нульмерный топологический примитив
   language_code: rus
   notes:
   - Границей узла является пустое множество
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
     link: https://www.iso.org/standard/26012.html
   lineage_source: Internet
   date_accepted: 2002-09-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: узел
+    normative_status: preferred
 spa:
   id: 309
-  term: nodo
   definition: primitiva topológica de dimensión 0
   language_code: spa
   notes:
   - El límite de un nodo es el conjunto vacío.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
     link: https://www.iso.org/standard/26012.html
   date_accepted: 2002-09-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: nodo
+    normative_status: preferred

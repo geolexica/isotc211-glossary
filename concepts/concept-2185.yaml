@@ -3,7 +3,6 @@ term: signature
 termid: 2185
 eng:
   id: 2185
-  term: signature
   definition: text string that specifies the name and parameters required to invoke
     an operation
   language_code: eng
@@ -12,7 +11,6 @@ eng:
     from the formal definition. This is the equivalent of the UML signature.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19110:2016
     clause: '3.9'
@@ -25,9 +23,12 @@ eng:
   review_decision_event: Normal ISO processing
   review_decision_notes: Publication of document ISO 19110:2016(E)
   release: '4'
+  terms:
+  - type: expression
+    designation: signature
+    normative_status: preferred
 spa:
   id: 2185
-  term: signatura
   definition: cadena de texto que especifica el nombre y los parámetros requeridos
     para invocar una operación
   language_code: spa
@@ -36,7 +37,6 @@ spa:
     deriva de la definición formal. Es el equivalente a una firma UML.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19110:2016
     clause: '3.9'
@@ -49,3 +49,7 @@ spa:
   review_decision_event: Normal ISO processing
   review_decision_notes: Publication of document ISO 19110:2016(E)
   release: '4'
+  terms:
+  - type: expression
+    designation: signatura
+    normative_status: preferred

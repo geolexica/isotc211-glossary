@@ -3,14 +3,12 @@ term: terminology register
 termid: 1697
 eng:
   id: 1697
-  term: terminology register
   definition: register of terminological entries
   language_code: eng
   notes:
   - A terminology register may be structured according to language and/or domain.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19104:2016
     clause: '4.39'
@@ -23,16 +21,18 @@ eng:
   review_decision_event: Normal ISO processing
   review_decision_notes: Publication of document ISO 19104:2016(E)
   release: '4'
+  terms:
+  - type: expression
+    designation: terminology register
+    normative_status: preferred
 spa:
   id: 1697
-  term: registro terminológico
   definition: registro de entradas terminológicas
   language_code: spa
   notes:
   - Un registro terminológico puede estar estructurado conforme a un idioma y/o dominio.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19104:2016
     clause: '4.39'
@@ -45,3 +45,7 @@ spa:
   review_decision_event: Normal ISO processing
   review_decision_notes: Publication of document ISO 19104:2016(E)
   release: '4'
+  terms:
+  - type: expression
+    designation: registro terminológico
+    normative_status: preferred

@@ -3,14 +3,12 @@ term: submitted language subregister
 termid: 1695
 eng:
   id: 1695
-  term: submitted language subregister
   definition: subregister in a hierarchical multi-lingual terminology register that
     contains only terminological entries in a single submitted language
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19104:2016
     clause: '4.30'
@@ -23,16 +21,18 @@ eng:
   review_decision_event: Normal ISO processing
   review_decision_notes: Publication of document ISO 19104:2016(E)
   release: '4'
+  terms:
+  - type: expression
+    designation: submitted language subregister
+    normative_status: preferred
 spa:
   id: 1695
-  term: subregistro de idioma de presentación
   definition: subregistro en un registro terminológico jerárquico multilingüe que
     contiene sólo entradas terminológicas en un solo idioma de presentación
   language_code: spa
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19104:2016
     clause: '4.30'
@@ -45,3 +45,7 @@ spa:
   review_decision_event: Normal ISO processing
   review_decision_notes: Publication of document ISO 19104:2016(E)
   release: '4'
+  terms:
+  - type: expression
+    designation: subregistro de idioma de presentación
+    normative_status: preferred

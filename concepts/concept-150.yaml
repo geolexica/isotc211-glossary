@@ -3,7 +3,6 @@ term: ellipsoidal height
 termid: 150
 eng:
   id: 150
-  term: ellipsoidal height
   abbrev: h
   synonyms: geodetic height
   definition: distance of a point from the ellipsoid measured along the perpendicular
@@ -14,7 +13,6 @@ eng:
     on its own.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
@@ -22,9 +20,12 @@ eng:
   lineage_source_similarity: 1
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: ellipsoidal height
+    normative_status: preferred
 ara:
   id: 150
-  term: ارتفاع مجسم القطع الناقص
   synonyms: geodetic height
   definition: مسافة نقطة ما من القطع الناقص مُقاسةً بامتداد الخط المتعامد الممتد بين
     القطع الناقص و النقطة المذكورة وذلك كقياس موجب إذا كان متجها إلى أعلى أو إلى خارج
@@ -34,15 +35,17 @@ ara:
   - يستخدم فقط كجزء من نظام إحداثيات مجسم القطع الناقص ولا يستخدم وحده أبدا.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: ارتفاع مجسم القطع الناقص
+    normative_status: preferred
 chi:
   id: 150
-  term: 椭球面高
   abbrev: h
   synonyms: geodetic height
   definition: 沿从椭球面到点的法线方向量测的该点到椭球面的距离，向上或向外为正。
@@ -51,14 +54,16 @@ chi:
   - 仅用作三维大地坐标系的一部分，从不单独使用。
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: 椭球面高
+    normative_status: preferred
 dan:
   id: 150
-  term: ellipsoidehøjde
   definition: et punkts afstand fra ellipsoiden målt langs normalen fra ellipsoiden
     til dette punkt. Positiv, hvis det ligger over eller uden for ellipsoiden
   language_code: dan
@@ -71,9 +76,12 @@ dan:
     link: https://www.iso.org/standard/41126.html
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: ellipsoidehøjde
+    normative_status: 
 dut:
   id: 150
-  term: ellipsoïde hoogte
   abbrev: h
   synonyms: geodetische hoogte
   definition: afstand van een punt tot de ellipsoïde gemeten langs een lijn loodrecht
@@ -84,15 +92,17 @@ dut:
     en nooit op zichzelf staand.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: ellipsoïde hoogte
+    normative_status: preferred
 fin:
   id: 150
-  term: ellipsoidinen korkeus
   abbrev: h
   synonyms: geodeettinen korkeus
   definition: pisteen ja vertausellipsoidin välinen etäisyys vertausellipsoidin normaalia
@@ -102,15 +112,17 @@ fin:
   - Käytetään osana kolmiulotteista ellipsoidista koordinaatistoa, ei koskaan yksin.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   lineage_source: 'Sanastokeskus TSK: Geoinformatiikan sanasto (TSK 42), 2011'
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: ellipsoidinen korkeus
+    normative_status: preferred
 fra:
   id: 150
-  term: hauteur ellipsoïdale
   synonyms: geodetic height
   definition: distance d'un point à l'ellipsoïde mesurée le long de la normale à l'ellipsoïde
     en ce point, positive si vers le haut ou vers l'extérieur de l'ellipsoïde
@@ -118,16 +130,18 @@ fra:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19111
     link: https://www.iso.org/standard/74039.html
   lineage_source: ISO 19111:2003
   lineage_source_similarity: 1
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: hauteur ellipsoïdale
+    normative_status: preferred
 ger:
   id: 150
-  term: ellipsoidische Höhe
   abbrev: h
   synonyms: geodetic height
   definition: Abstand eines Punktes vom Ellipsoid, gemessen entlang der Ellipsoidsenkrechten
@@ -138,15 +152,17 @@ ger:
     on its own.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: ellipsoidische Höhe
+    normative_status: preferred
 kor:
   id: 150
-  term: 타원체고
   abbrev: h
   definition: 타원체로부터 어떤 점까지의 수직선을 따라 측정된 그 점까지의 거리, 타원체의 위쪽 또는 외측으로 향한 경우는 정(+)으로
     표현
@@ -155,18 +171,18 @@ kor:
   - 차원 타원체 좌표계의 일부로 사용되며, 독립적으로 사용되지 않는다.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   lineage_source: KS X ISO 19111
   date_accepted: 2007-11-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: 타원체고
+    normative_status: preferred
 pol:
   id: 150
-  term: |-
-    wysokość elipsoidalna
-    wysokość geodezyjna h
   abbrev: h
   synonyms: wysokość geodezyjna
   definition: odległość punktu od elipsoidy mierzona wzdłuż normalnej do elipsoidy,
@@ -176,16 +192,20 @@ pol:
   - Używana tylko jako część trójwymiarowego geodezyjnego układu współrzędnych, a
     nigdy osobno.
   examples: []
-  classification: preferred
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   lineage_source: PN-EN ISO 19111
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: |-
+      wysokość elipsoidalna
+      wysokość geodezyjna h
+    normative_status: preferred
 rus:
   id: 150
-  term: эллипсоидальная высота
   abbrev: H
   synonyms: геодезическая высота
   definition: расстояние от эллипсоида до точки по нормали к его поверхности; положительное
@@ -196,15 +216,17 @@ rus:
     и никогда - самостоятельно
   examples: []
   entry_status: valid
-  classification: admitted
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   lineage_source: Internet
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: эллипсоидальная высота
+    normative_status: admitted
 spa:
   id: 150
-  term: altura elipsoidal
   abbrev: h
   synonyms: altitud geodésica
   definition: distancia a un punto desde el elipsoide medida a lo largo de la normal
@@ -215,15 +237,17 @@ spa:
     y nunca sola.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: altura elipsoidal
+    normative_status: preferred
 swe:
   id: 150
-  term: höjd över ellipsoiden
   abbrev: h
   synonyms: geodetic height
   definition: avstånd från en punkt till en referensellipsoid, mätt längs ellipsoidnormalen,
@@ -236,7 +260,6 @@ swe:
     Används endast som en del i ett geodetiskt koordinatsystem aldrig självständigt.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
@@ -244,3 +267,7 @@ swe:
   lineage_source_similarity: 1
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: höjd över ellipsoiden
+    normative_status: preferred

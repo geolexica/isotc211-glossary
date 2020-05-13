@@ -3,7 +3,6 @@ term: coordinate transformation
 termid: 763
 eng:
   id: 763
-  term: coordinate transformation
   definition: coordinate operation in which the two coordinate reference systems are
     based on different datums
   language_code: eng
@@ -12,16 +11,18 @@ eng:
     set of points with known coordinates in both coordinate reference systems.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   date_accepted: 2007-07-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: coordinate transformation
+    normative_status: preferred
 ara:
   id: 763
-  term: تحويل الإحداثيات
   definition: عملية إحداثية يكون نظاما الإحداثيات المرجعية فيهما مبنيين على مرجعي
     إسناد مختلفين (Datums)
   language_code: ara
@@ -30,31 +31,35 @@ ara:
     نقاط ذات إحداثيات معلومة في كلا النظامين الإحداثيين.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   date_accepted: 2007-07-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: تحويل الإحداثيات
+    normative_status: preferred
 chi:
   id: 763
-  term: 坐标变换
   definition: 基于不同基准的，从一个坐标参照系到另一个坐标参照系一一对应的坐标操作。
   language_code: chi
   notes:
   - 使用一组在两种坐标参照系中已知坐标的点，通过经验公式推导出参数进行坐标操作。
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   date_accepted: 2007-07-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: 坐标变换
+    normative_status: preferred
 dan:
   id: 763
-  term: koordinattransformation
   definition: ændring af koordinater fra et koordinatsystem til et andet koordinatsystem
     baseret på et andet datum i en 1 til 1-relation
   language_code: dan
@@ -67,9 +72,12 @@ dan:
     link: https://www.iso.org/standard/41126.html
   date_accepted: 2007-07-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: koordinattransformation
+    normative_status: 
 dut:
   id: 763
-  term: coördinaat transformatie
   definition: coördinaatbewerking waarbij de twee coördinaatreferentiesystemen zijn
     gebaseerd op verschillende datums
   language_code: dut
@@ -78,16 +86,18 @@ dut:
     een set punten met bekende coördinaten in beide coördinaatreferentiesystemen.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   date_accepted: 2007-07-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: coördinaat transformatie
+    normative_status: preferred
 fin:
   id: 763
-  term: koordinaattimuunnos
   definition: menetelmä, jolla muunnetaan koordinaatteja kahden eri datumiin perustuvan
     koordinaattijärjestelmän välillä
   language_code: fin
@@ -97,31 +107,35 @@ fin:
     tunnetaan.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   lineage_source: 'Sanastokeskus TSK: Geoinformatiikan sanasto (TSK 32), 2005'
   date_accepted: 2007-07-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: koordinaattimuunnos
+    normative_status: preferred
 fra:
   id: 763
-  term: transformation de coordonnées
   definition: opération sur les coordonnées dans laquelle les deux systèmes de coordonnées
     de référence sont basés sur des référentiels distincts
   language_code: fra
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19111
     link: https://www.iso.org/standard/74039.html
   lineage_source: ''
   date_accepted: 2007-07-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: transformation de coordonnées
+    normative_status: preferred
 ger:
   id: 763
-  term: Koordinatentransformation
   definition: Umrechnung von Koordinaten (Koordinatentransformation), deren Koordinatenreferenzsysteme
     auf unterschiedlichen Datumen basieren
   language_code: ger
@@ -130,23 +144,24 @@ ger:
     set of points with known coordinates in both coordinate reference systems.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   date_accepted: 2007-07-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: Koordinatentransformation
+    normative_status: preferred
 kor:
   id: 763
-  term: 좌표 변환
   definition: 서로 다른 데이텀을 기준으로 하는 두 개의 좌표 참조 체계에서의 좌표 연산
   language_code: kor
   notes:
   - 좌표 변환은 경험적 매개 변수를 사용한다. 이는 두 개의 좌표 참조 체계에서 미리 알려진 좌표 점의 집합을 통해 도출된 것이다.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
@@ -154,16 +169,18 @@ kor:
   lineage_source: KS X ISO 19111
   date_accepted: 2007-11-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: 좌표 변환
+    normative_status: preferred
 msa:
   id: 763
-  term: transformasi koordinat
   language_code: msa
   notes:
   - A coordinate transformation uses parameters which are derived empirically by a
     set of points with known coordinates in both coordinate reference systems.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
@@ -171,9 +188,12 @@ msa:
   lineage_source: Istilah ukur dan Pemetaan (DBP, 1992)
   date_accepted: 2007-07-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: transformasi koordinat
+    normative_status: preferred
 pol:
   id: 763
-  term: transformacja współrzędnych
   definition: operacja na współrzędnych,w której dwa systemy odniesienia opierają
     się na różnych układach odniesienia
   language_code: pol
@@ -181,16 +201,18 @@ pol:
   - Transformacja współrzędnych wykorzystuje parametry pozyskane empirycznie na podstawie
     zbioru punktów o znanych współrzędnych w obu systemach odniesienia.
   examples: []
-  classification: preferred
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   lineage_source: PN-EN ISO 19111
   date_accepted: 2007-07-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: transformacja współrzędnych
+    normative_status: preferred
 rus:
   id: 763
-  term: трансформирование координат
   definition: операция с координатами пространственных объектов при переходе от одной
     координатной системы отсчета к координатной системе отсчета, основанной на других
     датах
@@ -201,16 +223,18 @@ rus:
     отсчета
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   lineage_source: ГОСТ Р 52438-2005
   date_accepted: 2007-07-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: трансформирование координат
+    normative_status: preferred
 spa:
   id: 763
-  term: transformación de coordenadas
   definition: operación de coordenadas en la que los dos sistemas de referencia de
     coordenadas están basados en diferentes datums
   language_code: spa
@@ -220,15 +244,17 @@ spa:
     de coordenadas.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   date_accepted: 2007-07-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: transformación de coordenadas
+    normative_status: preferred
 swe:
   id: 763
-  term: koordinattransformaion
   definition: koordinatomräkning där de  två koordinatbaserade referenssystemen har
     olika datum
   country_code: swe
@@ -238,7 +264,6 @@ swe:
     set of points with known coordinates in both coordinate reference systems.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
@@ -246,3 +271,7 @@ swe:
   lineage_source: "(Type reference to national language document)"
   date_accepted: 2007-07-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: koordinattransformaion
+    normative_status: preferred

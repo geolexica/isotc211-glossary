@@ -3,7 +3,6 @@ term: layover
 termid: 955
 eng:
   id: 955
-  term: layover
   definition: visual effect in SAR images of ambiguity among returns from scatterers
     at different heights that fall into the same range-Doppler-time bin
   language_code: eng
@@ -12,16 +11,18 @@ eng:
     vector, akin to perspective views in projective imagery.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/TS 19130-2:2014
     clause: '4.39'
     link: https://www.iso.org/standard/56113.html
   date_accepted: 2014-01-15 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: layover
+    normative_status: preferred
 kor:
   id: 955
-  term: 기착지, 레이오버, 일시체류
   definition: 동일 범위-도플러-시간통에 속하는 각자 다른 높이의 산란체로부터 회신된 신호에서 발생하는 모호한 SAR영상내의 영상 효과
   language_code: kor
   notes:
@@ -29,16 +30,18 @@ kor:
     vector, akin to perspective views in projective imagery.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/TS 19130-2:2014
     clause: '4.39'
     link: https://www.iso.org/standard/56113.html
   date_accepted: 2014-01-15 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: 기착지, 레이오버, 일시체류
+    normative_status: preferred
 rus:
   id: 955
-  term: наложение
   definition: визуальный эффект в изображениях SAR  среди возвратов от рассеивателей
     на разных высотах, которые попадают в один и тот же диапазон - допплеровский мусор
   language_code: rus
@@ -47,7 +50,6 @@ rus:
     датчика, сродни перспективным представлениям в проекции изображения.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/TS 19130-2:2014
     clause: '4.39'
@@ -55,9 +57,12 @@ rus:
   lineage_source: ISO/TS 19130-2:2014
   date_accepted: 2014-01-15 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: наложение
+    normative_status: preferred
 spa:
   id: 955
-  term: traslapo
   definition: efecto visual en la imágenes SAR provocado por ambigüedad entre retornos
     de alturas dispersas y diferentes, que provienen de un mismo rango de tiempo Doppler
   language_code: spa
@@ -66,16 +71,18 @@ spa:
     velocidad del sensor, similar a vistas en perspectiva en imágenes
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/TS 19130-2:2014
     clause: '4.39'
     link: https://www.iso.org/standard/56113.html
   date_accepted: 2014-01-15 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: traslapo
+    normative_status: preferred
 swe:
   id: 955
-  term: överlagringsfel
   definition: visuellt avbildningsfenomen som uppstår genom att en radarsignal reflekteras
     av höga föremål innan den reflekteras av marken
   country_code: swe
@@ -85,7 +92,6 @@ swe:
     vector, akin to perspective views in projective imagery.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/TS 19130-2:2014
     clause: '4.39'
@@ -93,3 +99,7 @@ swe:
   lineage_source: "(Type reference to national language document)"
   date_accepted: 2014-01-15 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: överlagringsfel
+    normative_status: preferred

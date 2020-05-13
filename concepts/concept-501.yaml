@@ -3,7 +3,6 @@ term: local datum
 termid: 501
 eng:
   id: 501
-  term: local datum
   synonyms: engineering datum
   definition: datum describing the relationship of a coordinate system to a local
     reference
@@ -14,7 +13,6 @@ eng:
   - A system for identifying relative positions within a few kilometres of the reference
     point.
   entry_status: valid
-  classification: admitted
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
@@ -23,9 +21,12 @@ eng:
   lineage_source_similarity: 1
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: local datum
+    normative_status: admitted
 ara:
   id: 501
-  term: مرجع إسناد محلي
   synonyms: engineering datum
   definition: مرجع إسناد يصف علاقة نظام للإحداثيات بمرجع محلي
   language_code: ara
@@ -35,16 +36,18 @@ ara:
   examples:
   - نظام لتحديد المواقع النسبية على مسافة كيلو مترات قليلة من النقطة المرجعية.
   entry_status: valid
-  classification: admitted
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: مرجع إسناد محلي
+    normative_status: admitted
 chi:
   id: 501
-  term: 地方基准
   synonyms: engineering datum
   definition: 描述局部参照与坐标系关系的基准。
   language_code: chi
@@ -53,15 +56,17 @@ chi:
   examples:
   - 确定在参照点若干公里范围内的相对位置的系统。
   entry_status: valid
-  classification: admitted
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: 地方基准
+    normative_status: admitted
 dut:
   id: 501
-  term: lokaal datum
   synonyms: lokale datum
   definition: datum welke de relatie van een coördinaatsysteem ten opzichte van een
     lokale referentie beschrijft
@@ -72,16 +77,18 @@ dut:
   - Een systeem voor het identificeren van relatieve posities binnen een paar kilometer
     van een referentiepunt.
   entry_status: valid
-  classification: admitted
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: lokaal datum
+    normative_status: admitted
 fin:
   id: 501
-  term: paikallinen datumi
   definition: datumi, joka määrittelee koordinaatiston mittakaavan, orientaation ja
     sijainnin paikallisesti
   language_code: fin
@@ -91,16 +98,18 @@ fin:
   - Järjestelmä, jolla määritetään suhteellisia sijainteja muutaman kilometrin etäisyydellä
     vertauspisteestä.
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   lineage_source: 'Sanastokeskus TSK: Geoinformatiikan sanasto (TSK 42), 2011'
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: paikallinen datumi
+    normative_status: preferred
 fra:
   id: 501
-  term: référentiel local
   synonyms: engineering datum
   definition: donnée décrivant la relation d'un système de coordonnées à un référentiel
     local
@@ -108,16 +117,18 @@ fra:
   notes: []
   examples: []
   entry_status: valid
-  classification: admitted
   authoritative_source:
     ref: ISO 19111
     link: https://www.iso.org/standard/74039.html
   lineage_source: ISO 19111:2003
   lineage_source_similarity: 1
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: référentiel local
+    normative_status: admitted
 ger:
   id: 501
-  term: lokales Datum
   synonyms: engineering datum
   language_code: ger
   notes:
@@ -126,16 +137,18 @@ ger:
   - A system for identifying relative positions within a few kilometres of the reference
     point.
   entry_status: valid
-  classification: admitted
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: lokales Datum
+    normative_status: admitted
 kor:
   id: 501
-  term: 지역데이텀
   definition: 좌표 체계와 지역 참조와의 관계를 설명하는 공학 데이텀
   language_code: kor
   notes:
@@ -143,7 +156,6 @@ kor:
   examples:
   - 참조 점에서 몇 킬로미터 이내에 포함된 상대 위치를 식별하는 체계
   entry_status: valid
-  classification: admitted
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
@@ -151,9 +163,12 @@ kor:
   lineage_source: KS X ISO 19111
   date_accepted: 2007-11-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: 지역데이텀
+    normative_status: admitted
 msa:
   id: 501
-  term: datum tempatan
   synonyms: engineering datum
   definition: datum menggambarkan hubungan sistem koordinat dengan rujukan tempatan
   language_code: msa
@@ -163,7 +178,6 @@ msa:
   - A system for identifying relative positions within a few kilometres of the reference
     point.
   entry_status: valid
-  classification: admitted
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
@@ -172,9 +186,12 @@ msa:
   lineage_source_similarity: 1
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: datum tempatan
+    normative_status: admitted
 pol:
   id: 501
-  term: inżynieryjny układ odniesienia, lokalny układ odniesienia
   synonyms: lokalny układ odniesienia
   definition: układ odniesienia opisujący związek układu współrzędnych z lokalnym
     odniesieniem
@@ -185,16 +202,18 @@ pol:
   examples:
   - Układ służący do identyfikowania położeń względnych w granicach kilku kilometrów
     od punktu odniesienia.
-  classification: admitted
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   lineage_source: PN-EN ISO 19111
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: inżynieryjny układ odniesienia, lokalny układ odniesienia
+    normative_status: admitted
 rus:
   id: 501
-  term: местные даты
   synonyms: инженерные исходные даты
   definition: даты с местной привязкой начальной точки
   language_code: rus
@@ -203,16 +222,18 @@ rus:
   - Система для определения относительного положения в пределах нескольких километров
     от начальной точки
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   lineage_source: ГОСТ Р 52572-2006
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: местные даты
+    normative_status: preferred
 spa:
   id: 501
-  term: datum local
   synonyms: datum de ingeniería
   definition: datum que describe la relación de un sistema de coordenadas con una
     referencia local
@@ -224,10 +245,13 @@ spa:
     de referencia.EJEMPLO Un sistema para identificar posiciones relativas a pocos
     kilómetros del punto de referencia..
   entry_status: valid
-  classification: admitted
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: datum local
+    normative_status: admitted

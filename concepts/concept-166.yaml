@@ -3,7 +3,6 @@ term: fail verdict
 termid: 166
 eng:
   id: 166
-  term: fail verdict
   definition: test verdict of non-conformance
   language_code: eng
   notes:
@@ -11,16 +10,18 @@ eng:
     of the conformance requirements of the relevant standard(s).
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
     link: https://www.iso.org/standard/26010.html
   date_accepted: 2000-12-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: fail verdict
+    normative_status: preferred
 ara:
   id: 166
-  term: الحكم بالفشل
   definition: حكم اختبار عدم المطابقه
   language_code: ara
   notes:
@@ -28,31 +29,35 @@ ara:
     شروط المطابقة المنصوص عليها في المواصفة (أو المواصفات) ذات العلاقة.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
     link: https://www.iso.org/standard/26010.html
   date_accepted: 2000-12-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: الحكم بالفشل
+    normative_status: preferred
 chi:
   id: 166
-  term: 失败判定
   definition: 不一致的测试判定。
   language_code: chi
   notes:
   - 不一致可能是与测试目的不相符，也可能是与相应标准中的至少一项一致性要求不相符。
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
     link: https://www.iso.org/standard/26010.html
   date_accepted: 2000-12-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: 失败判定
+    normative_status: preferred
 dan:
   id: 166
-  term: overensstemmelse, manglende
   definition: udfald af test om at der ikke er overensstemmelse
   language_code: dan
   notes:
@@ -65,9 +70,12 @@ dan:
     link: https://www.iso.org/standard/26010.html
   date_accepted: 2000-12-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: overensstemmelse, manglende
+    normative_status: 
 fin:
   id: 166
-  term: hylkäys
   definition: testitulos, joka osoittaa, etteivät vaatimukset täyty
   language_code: fin
   notes:
@@ -76,69 +84,76 @@ fin:
     mainittua vaatimusta.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
     link: https://www.iso.org/standard/26010.html
   lineage_source: Internet, Maanmittauslaitos
   date_accepted: 2000-12-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: hylkäys
+    normative_status: preferred
 fra:
   id: 166
-  term: verdict d'échec
   definition: résultat d'échec d'un test de conformité
   language_code: fra
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19105
     link: https://www.iso.org/standard/26010.html
   lineage_source: ''
   date_accepted: 2000-11-16 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: verdict d'échec
+    normative_status: preferred
 ger:
   id: 166
-  term: Fehlernachweis
   language_code: ger
   notes:
   - Non-conformance may be with respect to either the test purpose or at least one
     of the conformance requirements of the relevant standard(s).
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
     link: https://www.iso.org/standard/26010.html
   date_accepted: 2000-12-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: Fehlernachweis
+    normative_status: preferred
 jpn:
   id: 166
-  term: 不合格判定
   definition: 不適合と報告された試験判定。
   language_code: jpn
   notes:
   - 不適合とは，試験目的に適合しないか又は適切な規格の少なくとも一つの適合性要件に適合しないことである。
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19105:2000
     link: https://www.iso.org/standard/26010.html
   lineage_source: JIS X 7105
   date_accepted: 2000-12-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: 不合格判定
+    normative_status: preferred
 kor:
   id: 166
-  term: 실패 판정
   definition: 부적합으로 보고된 시험 판정
   language_code: kor
   notes:
   - 부적합은 시험목적 또는 최소한 관련 표준의 적합성 요구 사항 중 하나와 관련이 있다.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
@@ -146,9 +161,12 @@ kor:
   lineage_source: KS X ISO 19105
   date_accepted: 2007-06-29 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: 실패 판정
+    normative_status: preferred
 rus:
   id: 166
-  term: заключение о несоответствии
   definition: заключение по результатам тестирования, сообщающее о несоответствии
   language_code: rus
   notes:
@@ -156,16 +174,18 @@ rus:
     требований соответствия определенному стандарту (или стандартам)
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
     link: https://www.iso.org/standard/26010.html
   lineage_source: ГОСТ Р ИСО 19105-2003
   date_accepted: 2000-12-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: заключение о несоответствии
+    normative_status: preferred
 spa:
   id: 166
-  term: veredicto de fallo
   definition: veredicto de prueba de no-conformidad
   language_code: spa
   notes:
@@ -173,15 +193,17 @@ spa:
     al menos a uno de los requisitos de conformidad de la(s) norma(s) relevante(s).
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19105:2000
     link: https://www.iso.org/standard/26010.html
   date_accepted: 2000-12-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: veredicto de fallo
+    normative_status: preferred
 swe:
   id: 166
-  term: underkänt resultat
   definition: "<vid test> resultat som anger att det som testats, i något avseende,
     inte överensstämmer med angivna krav"
   country_code: swe
@@ -191,7 +213,6 @@ swe:
     of the conformance requirements of the relevant standard(s).
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
@@ -199,3 +220,7 @@ swe:
   lineage_source: "(Type reference to national language document)"
   date_accepted: 2000-12-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: underkänt resultat
+    normative_status: preferred

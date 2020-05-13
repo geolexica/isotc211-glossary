@@ -3,7 +3,6 @@ term: cycle<geometry>
 termid: 103
 eng:
   id: 103
-  term: cycle<geometry>
   definition: spatial object without a boundary
   language_code: eng
   notes:
@@ -13,7 +12,6 @@ eng:
     is bounded.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -23,9 +21,12 @@ eng:
   review_status: pending
   review_type: supersession
   release: '1'
+  terms:
+  - type: expression
+    designation: cycle<geometry>
+    normative_status: preferred
 ara:
   id: 103
-  term: دورة <هندسة>
   definition: كيان مكاني بلا حدود
   language_code: ara
   notes:
@@ -35,7 +36,6 @@ ara:
     كذلك.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -45,16 +45,18 @@ ara:
   review_status: pending
   review_type: supersession
   release: '1'
+  terms:
+  - type: expression
+    designation: دورة <هندسة>
+    normative_status: preferred
 chi:
   id: 103
-  term: 圈
   definition: "<几何学>没有边界的空间对象。"
   language_code: chi
   notes:
   - 圈用来描述边界组成部分（参见壳、环）。圈没有边界，因为它自身闭合，但它是有界的（即它不具有无限的外延）。例如，圆环或球，没有边界，但却是有界的。
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -64,9 +66,12 @@ chi:
   review_status: pending
   review_type: supersession
   release: '1'
+  terms:
+  - type: expression
+    designation: 圈
+    normative_status: preferred
 dan:
   id: 103
-  term: lukket<geometri>
   definition: om rumligt objekt uden en grænse
   language_code: dan
   notes:
@@ -84,9 +89,12 @@ dan:
   review_status: pending
   review_type: supersession
   release: '1'
+  terms:
+  - type: expression
+    designation: lukket<geometri>
+    normative_status: 
 fin:
   id: 103
-  term: silmukka <geometria>
   definition: sijaintiobjekti, jolla ei ole rajausta
   language_code: fin
   notes:
@@ -96,7 +104,6 @@ fin:
     mutta ne ovat rajattuja.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -106,15 +113,17 @@ fin:
   review_status: pending
   review_type: supersession
   release: '1'
+  terms:
+  - type: expression
+    designation: silmukka <geometria>
+    normative_status: preferred
 fra:
   id: 103
-  term: cycle <géométrie>
   definition: objet spatial sans frontière
   language_code: fra
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -124,9 +133,12 @@ fra:
   review_status: pending
   review_type: supersession
   release: '1'
+  terms:
+  - type: expression
+    designation: cycle <géométrie>
+    normative_status: preferred
 ger:
   id: 103
-  term: Ring <Geometrie>
   language_code: ger
   notes:
   - Cycles are used to describe boundary components (see shell, ring). A cycle has
@@ -135,7 +147,6 @@ ger:
     is bounded.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -145,16 +156,18 @@ ger:
   review_status: pending
   review_type: supersession
   release: '1'
+  terms:
+  - type: expression
+    designation: Ring <Geometrie>
+    normative_status: preferred
 jpn:
   id: 103
-  term: 輪体
   definition: 境界をもたない空間オブジェクト。
   language_code: jpn
   notes:
   - 輪体は境界の構成要素［殻(shell)及び輪(ring)を参照］を記述するために使用する。輪体は，それ自身の上で閉じているため境界をもたないが，有界である（すなわち，範囲は無限ではない）。例えば，円周又は球面は，境界をもたないが有界である。
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -164,9 +177,12 @@ jpn:
   review_status: pending
   review_type: supersession
   release: '1'
+  terms:
+  - type: expression
+    designation: 輪体
+    normative_status: preferred
 kor:
   id: 103
-  term: 순환<기하>
   definition: 경계가 없는 공간 객체
   language_code: kor
   notes:
@@ -174,7 +190,6 @@ kor:
     경계가 없지만 묶여 있다.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -184,9 +199,12 @@ kor:
   review_status: pending
   review_type: supersession
   release: '1'
+  terms:
+  - type: expression
+    designation: 순환<기하>
+    normative_status: preferred
 pol:
   id: 103
-  term: cykl
   definition: "<geometria> obiekt przestrzenny bez granicy"
   language_code: pol
   notes:
@@ -195,7 +213,6 @@ pol:
     (to znaczy nie ma nieskończonego zasięgu). Na przykład, okrąg i sfera nie mają
     granicy, lecz są ograniczone.
   examples: []
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -205,9 +222,12 @@ pol:
   review_status: pending
   review_type: supersession
   release: '1'
+  terms:
+  - type: expression
+    designation: cykl
+    normative_status: preferred
 rus:
   id: 103
-  term: цикл <геометрия>
   definition: пространственный объект, не имеющий границы
   language_code: rus
   notes:
@@ -217,16 +237,18 @@ rus:
     границ, но они ограничены'
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
     link: https://www.iso.org/standard/26012.html
   lineage_source: Internet
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: цикл <геометрия>
+    normative_status: preferred
 spa:
   id: 103
-  term: ciclo <geometría>
   definition: objeto espacial sin frontera
   language_code: spa
   notes:
@@ -236,7 +258,6 @@ spa:
     por ejemplo, no tienen límite, pero están acotados.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -246,9 +267,12 @@ spa:
   review_status: pending
   review_type: supersession
   release: '1'
+  terms:
+  - type: expression
+    designation: ciclo <geometría>
+    normative_status: preferred
 swe:
   id: 103
-  term: cykliskt objekt
   definition: rumsligt objekt med ändlig utsträckning men utan avgränsning
   country_code: swe
   language_code: swe
@@ -256,7 +280,6 @@ swe:
   - Begränsningsytan hos ett klot är ett cykliskt objekt.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -266,3 +289,7 @@ swe:
   review_status: pending
   review_type: supersession
   release: '1'
+  terms:
+  - type: expression
+    designation: cykliskt objekt
+    normative_status: preferred

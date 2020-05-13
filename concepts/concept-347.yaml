@@ -3,7 +3,6 @@ term: position
 termid: 347
 eng:
   id: 347
-  term: position
   definition: data type that describes a point or geometry potentially occupied by
     an object or person
   language_code: eng
@@ -14,16 +13,18 @@ eng:
     geometry is also a position, just not a direct position.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
     link: https://www.iso.org/standard/32551.html
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: position
+    normative_status: preferred
 ara:
   id: 347
-  term: موقع
   definition: نوع من البيانات يصف نقطة أو شكل هندسي محتمل أن يشغلها معلم أو شخص
   language_code: ara
   notes:
@@ -33,31 +34,35 @@ ara:
     الدولي 19107 هي أيضاً موقع , ولكنه ليس موقعاً مباشراً.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
     link: https://www.iso.org/standard/32551.html
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: موقع
+    normative_status: preferred
 chi:
   id: 347
-  term: 位置
   definition: 描述一个点、或者一个对象或人所占据的几何空间的数据类型。
   language_code: chi
   notes:
   - 直接位置是点的一种语义子类型。直接位置只能描述一个确定点,因此并不是所有的位置都可以由直接位置来表示。这与"类型"的关系相符合。ISO 19107中的几何是位置,但不直接位置。
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
     link: https://www.iso.org/standard/32551.html
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: 位置
+    normative_status: preferred
 fin:
   id: 347
-  term: sijainti
   definition: paikka, jossa jokin sijaitsee
   language_code: fin
   notes:
@@ -69,31 +74,35 @@ fin:
     tietotyyppiin ja termillä location paikkaan.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
     link: https://www.iso.org/standard/32551.html
   lineage_source: 'Sanastokeskus TSK: Geoinformatiikan sanasto (TSK 42), 2011'
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: sijainti
+    normative_status: preferred
 fra:
   id: 347
-  term: position
   definition: type de données décrivant un point ou une géométrie potentiellement
     occupée par un objet ou une personne
   language_code: fra
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19133
     link: https://www.iso.org/standard/32551.html
   lineage_source: ''
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: position
+    normative_status: preferred
 ger:
   id: 347
-  term: Position
   definition: Datentyp, der einen Punkt oder eine Geometrie beschreibt, der/die möglicherweise
     durch ein Objekt oder eine Person besetzt ist
   language_code: ger
@@ -104,16 +113,18 @@ ger:
     geometry is also a position, just not a direct position.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
     link: https://www.iso.org/standard/32551.html
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: Position
+    normative_status: preferred
 kor:
   id: 347
-  term: 위치
   definition: 객체 또는 사람이 잠정적으로 차지하는 하나의 점이나 기하를 기술하는 데이터 유형
   language_code: kor
   notes:
@@ -121,7 +132,6 @@ kor:
     "유형(is type of)"과 일관성을 갖는다. KS X ISO 19107의 기하 또한 위치이며, 반드시 직접 위치는 아니다.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
@@ -129,9 +139,12 @@ kor:
   lineage_source: KS X ISO 19133
   date_accepted: 2006-12-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: 위치
+    normative_status: preferred
 rus:
   id: 347
-  term: положение
   definition: тип данных, описывающий точку или геометрический элемент, которую (-ый)
     может занимать объект или человек
   language_code: rus
@@ -143,7 +156,6 @@ rus:
     положение, но не прямое положение [ИСО 19148].
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
@@ -153,9 +165,12 @@ rus:
     ИСО 19133
     ИСО19148
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: положение
+    normative_status: preferred
 spa:
   id: 347
-  term: posición
   definition: tipo de datos que describe un punto o lugar geométrico potencialmente
     ocupado por un objeto o persona
   language_code: spa
@@ -167,16 +182,18 @@ spa:
     no sólo una posición directa.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
     link: https://www.iso.org/standard/32551.html
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: posición
+    normative_status: preferred
 swe:
   id: 347
-  term: lägesbestämning
   definition: lägesangivelse i förhållande till ett väldefinierat referenssystem
   country_code: swe
   language_code: swe
@@ -187,7 +204,6 @@ swe:
     geometry is also a position, just not a direct position.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
@@ -195,3 +211,7 @@ swe:
   lineage_source: "(Type reference to national language document)"
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: lägesbestämning
+    normative_status: preferred

@@ -3,14 +3,12 @@ term: shell
 termid: 410
 eng:
   id: 410
-  term: shell
   definition: simple surface which is a cycle
   language_code: eng
   notes:
   - Shells are used to describe boundary components of solids in 3D coordinate systems.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -20,9 +18,12 @@ eng:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: shell
+    normative_status: preferred
 ara:
   id: 410
-  term: صدفة
   definition: سطح مبسط على شكل دائري
   language_code: ara
   notes:
@@ -30,7 +31,6 @@ ara:
     الثلاثية الأبعاد.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -40,16 +40,18 @@ ara:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: صدفة
+    normative_status: preferred
 chi:
   id: 410
-  term: 壳
   definition: 是圈的简单曲面。
   language_code: chi
   notes:
   - 用来描述三维坐标系中体的边界组分。
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -59,16 +61,18 @@ chi:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: 壳
+    normative_status: preferred
 fin:
   id: 410
-  term: kuori
   definition: kappaleen geometrinen rajaus
   language_code: fin
   notes:
   - Kuoria käytetään kuvaamaan kappaleiden rajauskomponentteja 3D-koordinaatistoissa.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -78,15 +82,17 @@ fin:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: kuori
+    normative_status: preferred
 fra:
   id: 410
-  term: enveloppe surfacique de solide
   definition: surface simple qui est un cycle
   language_code: fra
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -96,15 +102,17 @@ fra:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: enveloppe surfacique de solide
+    normative_status: preferred
 ger:
   id: 410
-  term: Hülle
   language_code: ger
   notes:
   - Shells are used to describe boundary components of solids in 3D coordinate systems.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -114,16 +122,18 @@ ger:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: Hülle
+    normative_status: preferred
 jpn:
   id: 410
-  term: 殻
   definition: 輪体である単純曲面。
   language_code: jpn
   notes:
   - 殻は，三次元座標系における立体の境界の要素を記述するために用いる。
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -133,9 +143,12 @@ jpn:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: 殻
+    normative_status: preferred
 kor:
   id: 410
-  term: 외면
   synonyms: ''
   definition: 순환하는 단순 표면
   language_code: kor
@@ -143,7 +156,6 @@ kor:
   - 외면은 3차원 좌표 체계에서 입방체의 경계 컴포넌트를 기술하기 위해 사용된다.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -153,32 +165,36 @@ kor:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: 외면
+    normative_status: preferred
 msa:
   id: 410
-  term: cangkerang;
   definition: Permukaan dasar laut yang dilitupi oleh cangkerang  hidupan marin
   language_code: msa
   notes:
   - Shells are used to describe boundary components of solids in 3D coordinate systems.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
     link: https://www.iso.org/standard/26012.html
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: cangkerang;
+    normative_status: preferred
 pol:
   id: 410
-  term: powłoka
   definition: prosta powierzchnia, która jest cyklem
   language_code: pol
   notes:
   - Powłoki są stosowane do opisu składowych granic brył w 3-wymiarowych układach
     współrzędnych.
   examples: []
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -188,9 +204,12 @@ pol:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: powłoka
+    normative_status: preferred
 rus:
   id: 410
-  term: оболочка
   definition: простая поверхность, которая является циклом
   language_code: rus
   notes:
@@ -198,16 +217,18 @@ rus:
     координат
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
     link: https://www.iso.org/standard/26012.html
   lineage_source: Internet
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: оболочка
+    normative_status: preferred
 spa:
   id: 410
-  term: envoltura
   definition: superficie simple que es un ciclo
   language_code: spa
   notes:
@@ -215,7 +236,6 @@ spa:
     sistemas tridimensionales.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -225,9 +245,12 @@ spa:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: envoltura
+    normative_status: preferred
 swe:
   id: 410
-  term: geometriskt skal
   definition: cykliskt objekt som består av en geometriskt enkel yta
   country_code: swe
   language_code: swe
@@ -235,7 +258,6 @@ swe:
   - Shells are used to describe boundary components of solids in 3D coordinate systems.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -245,3 +267,7 @@ swe:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: geometriskt skal
+    normative_status: preferred

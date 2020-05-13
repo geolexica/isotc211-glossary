@@ -3,7 +3,6 @@ term: uncertainty
 termid: 480
 eng:
   id: 480
-  term: uncertainty
   definition: parameter, associated with the result of measurement, that characterizes
     the dispersion of values that could reasonably be attributed to the measurand
   language_code: eng
@@ -15,7 +14,6 @@ eng:
     it; numbers should be associated with measures of uncertainty instead.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: 'Guide to the Expression of Uncertainty in Measurement '
@@ -24,9 +22,12 @@ eng:
   lineage_source_similarity: 1
   date_accepted: 2004-07-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: uncertainty
+    normative_status: preferred
 ara:
   id: 480
-  term: عدم اليقين
   definition: عامل متغير مقترن بنتيجة قياس يصف خصائص القيم المشتتة التي يمكن أن تنسب
     بشكل معقول للشيء المقاس
   language_code: ara
@@ -38,31 +39,35 @@ ara:
     فالأنسب هو ربطها بقياسات الشك أو الريبة.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: 'Guide to the Expression of Uncertainty in Measurement '
     clause: "(GUM), 1995"
   date_accepted: 2004-07-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: عدم اليقين
+    normative_status: preferred
 chi:
   id: 480
-  term: 不确定性
   definition: 与测量结果相关的一个参数，表现合理量测值的离差特性。
   language_code: chi
   notes:
   - 当定量地表示量测值的准确度或精度质量时，质量参数是量测结果不确定性的一个估计。因为准确度是一个定性的概念，因此不应定量地使用它。它不应与具体的数字相关联，而不确定性的大小才与数字相关联。
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: 'Guide to the Expression of Uncertainty in Measurement '
     clause: "(GUM), 1995"
   date_accepted: 2004-07-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: 不确定性
+    normative_status: preferred
 fin:
   id: 480
-  term: epävarmuus
   definition: koetulokseen liitettävä tunnusluku, joka luonnehtii mitattuun suureeseen
     kohtuudella liitettävissä olevaa hajontaa (SFS-ENV ISO 13843)
   language_code: fin
@@ -74,7 +79,6 @@ fin:
     voi antaa epävarmuudelle.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: 'Guide to the Expression of Uncertainty in Measurement '
@@ -82,25 +86,30 @@ fin:
   lineage_source: SFS-ENV ISO 13843. Veden laatu. Opas mikrobiologisten menetelmien
     validoinnista.
   date_accepted: 2004-07-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: epävarmuus
+    normative_status: preferred
 fra:
   id: 480
-  term: incertitude
   definition: paramètre, associé au résultat de mesure, qui caractérise la dispersion
     des valeurs qui pourrait raisonnablement être attribuées à l'objet de la mesure
   language_code: fra
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: 'Guide to the Expression of Uncertainty in Measurement '
     clause: "(GUM), 1995"
   lineage_source: ISO 19116
   lineage_source_similarity: 1
   date_accepted: 2004-07-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: incertitude
+    normative_status: preferred
 kor:
   id: 480
-  term: 불확실성
   definition: 측정 결과와 관련, 측정량을 합리적으로 속성화할 수 있는 특징적인 분산 값을 나타내는 매개 변수
   language_code: kor
   notes:
@@ -109,7 +118,6 @@ kor:
     한다.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: 'Guide to the Expression of Uncertainty in Measurement '
@@ -117,9 +125,12 @@ kor:
   lineage_source: KS X ISO 19104
   date_accepted: 2008-12-19 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: 불확실성
+    normative_status: preferred
 msa:
   id: 480
-  term: ketidakpastian
   definition: parameter yang tidak pasti yang berkait dengan hasil pengukuran yang
     berdasarkan nilai karakter yang diukur
   language_code: msa
@@ -131,7 +142,6 @@ msa:
     it; numbers should be associated with measures of uncertainty instead.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: 'Guide to the Expression of Uncertainty in Measurement '
@@ -140,25 +150,30 @@ msa:
   lineage_source_similarity: 1
   date_accepted: 2004-07-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: ketidakpastian
+    normative_status: preferred
 rus:
   id: 480
-  term: неопределенность
   definition: параметр, связанный  с результатом измерений и характеризующий дисперсию
     значений, которую можно приписать измеряемой величине
   language_code: rus
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: 'Guide to the Expression of Uncertainty in Measurement '
     clause: "(GUM), 1995"
   lineage_source: Internet
   date_accepted: 2004-07-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: неопределенность
+    normative_status: preferred
 spa:
   id: 480
-  term: incertidumbre
   definition: parámetro, asociado con el resultado de una medida, que caracteriza
     la dispersión de los valores que podrían ser razonablemente atribuidos a la medición
   language_code: spa
@@ -171,16 +186,18 @@ spa:
     medida de la incertidumbre.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: 'Guide to the Expression of Uncertainty in Measurement '
     clause: "(GUM), 1995"
   date_accepted: 2004-07-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: incertidumbre
+    normative_status: preferred
 swe:
   id: 480
-  term: mätosäkerhet
   definition: parameter som är förbunden med mätresultatet och som kännetecknar spridningen
     av värden som rimligen kan tillskrivas mätstorheten
   country_code: swe
@@ -193,7 +210,6 @@ swe:
     it; numbers should be associated with measures of uncertainty instead.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: 'Guide to the Expression of Uncertainty in Measurement '
@@ -202,3 +218,7 @@ swe:
   lineage_source_similarity: 1
   date_accepted: 2004-07-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: mätosäkerhet
+    normative_status: preferred

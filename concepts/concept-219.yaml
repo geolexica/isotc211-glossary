@@ -3,7 +3,6 @@ term: geometry property <GML>
 termid: 219
 eng:
   id: 219
-  term: geometry property <GML>
   definition: property of a GML feature that describes some aspect of the geometry
     of the feature.
   language_code: eng
@@ -11,47 +10,53 @@ eng:
   - The geometry property name is the role of the geometry in relation to the feature.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19136:2007
     link: https://www.iso.org/standard/32554.html
   date_accepted: 2007-09-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: geometry property <GML>
+    normative_status: preferred
 ara:
   id: 219
-  term: الخاصية الهندسية > GML <
   definition: خاصية معلم GML تصف بعض الجوانب الهندسية للمعلم
   language_code: ara
   notes:
   - اسم الخاصية الهندسية هو دور الهندسة فيما يتعلق بالمعلم.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19136:2007
     link: https://www.iso.org/standard/32554.html
   date_accepted: 2007-09-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: الخاصية الهندسية > GML <
+    normative_status: preferred
 chi:
   id: 219
-  term: 几何特性
   definition: "<GML>GML要素的特性，描述了要素的某些几何特征。"
   language_code: chi
   notes:
   - 几何特性的名称是与要素相连的几何角色。
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19136:2007
     link: https://www.iso.org/standard/32554.html
   date_accepted: 2007-09-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: 几何特性
+    normative_status: preferred
 dan:
   id: 219
-  term: Greenwich-meridian
   definition: meridian, der går igennem positionen Airy Transit Circle i Royal Observatory
     Greenwich i Storbritannien
   language_code: dan
@@ -63,39 +68,46 @@ dan:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   release: '1'
+  terms:
+  - type: expression
+    designation: Greenwich-meridian
+    normative_status: 
 fin:
   id: 219
-  term: geometriaominaisuus <GML>
   definition: GML-kohteen ominaisuus, joka kuvaa kohteen geometrian jotakin näkökulmaa
   language_code: fin
   notes:
   - Geometriaominaisuuden nimi on geometrian rooli suhteessa kohteeseen.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19136:2007
     link: https://www.iso.org/standard/32554.html
   lineage_source: Internet
   date_accepted: 2007-09-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: geometriaominaisuus <GML>
+    normative_status: preferred
 fra:
   id: 219
-  term: propriété géométrique <GML>
   definition: propriété d'un objet GML décrivant des aspects géométriques de l'entité
   language_code: fra
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19136
     link: https://www.iso.org/standard/32554.html
   lineage_source: ''
   date_accepted: 2007-09-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: propriété géométrique <GML>
+    normative_status: preferred
 ger:
   id: 219
-  term: Geometrieeigenschaft <GML>
   definition: Eigenschaft eines GML-Features, das einen Geometrieaspekt des Features
     beschreibt
   language_code: ger
@@ -103,23 +115,24 @@ ger:
   - The geometry property name is the role of the geometry in relation to the feature.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19136:2007
     link: https://www.iso.org/standard/32554.html
   date_accepted: 2007-09-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: Geometrieeigenschaft <GML>
+    normative_status: preferred
 kor:
   id: 219
-  term: 기하 특성 <GML>
   definition: 지리 피처의 기하 현상을 기술하는 GML 피처의 특성
   language_code: kor
   notes:
   - 기하 특성 명칭은 피처에 관한 기하의 역할이다.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19136:2007
@@ -127,9 +140,12 @@ kor:
   lineage_source: KS X ISO 19136
   date_accepted: 2009-12-29 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: 기하 특성 <GML>
+    normative_status: preferred
 rus:
   id: 219
-  term: геометрическое свойство <GML>
   definition: свойство пространственного объекта в GML, описывающее его некоторую
     геометрическую характеристику
   language_code: rus
@@ -137,16 +153,18 @@ rus:
   - Имя свойства отражает вид геометрической характеристики объекта
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19136:2007
     link: https://www.iso.org/standard/32554.html
   lineage_source: Internet
   date_accepted: 2007-09-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: геометрическое свойство <GML>
+    normative_status: preferred
 spa:
   id: 219
-  term: propiedad geométrica <GML>
   definition: propiedad de un objeto geográfico GML que describe algún aspecto de
     la geometría del objeto geográfico
   language_code: spa
@@ -155,10 +173,13 @@ spa:
     objeto geográfico.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19136:2007
     link: https://www.iso.org/standard/32554.html
   date_accepted: 2007-09-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: propiedad geométrica <GML>
+    normative_status: preferred

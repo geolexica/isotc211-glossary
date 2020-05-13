@@ -3,7 +3,6 @@ term: intensity
 termid: 1397
 eng:
   id: 1397
-  term: intensity
   definition: power per unit solid angle from a point source into a particular direction
   language_code: eng
   notes:
@@ -13,16 +12,18 @@ eng:
     return’s signal power to an integer value via a lookup table.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/TS 19130-2:2014
     clause: '4.37'
     link: https://www.iso.org/standard/56113.html
   date_accepted: 2014-01-15 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: intensity
+    normative_status: preferred
 kor:
   id: 1397
-  term: 강도
   definition: 점원에서 특정 방향 내로 향하는  단위입체각당 동력
   language_code: kor
   notes:
@@ -32,16 +33,18 @@ kor:
     return’s signal power to an integer value via a lookup table.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/TS 19130-2:2014
     clause: '4.37'
     link: https://www.iso.org/standard/56113.html
   date_accepted: 2014-01-15 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: 강도
+    normative_status: preferred
 msa:
   id: 1397
-  term: keamatan
   definition: Aras kecerahan cahaya yang dipancarkan oleh peranti paparan tiub sinar
     katod.
   language_code: msa
@@ -52,7 +55,6 @@ msa:
     return’s signal power to an integer value via a lookup table.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/TS 19130-2:2014
     clause: '4.37'
@@ -60,9 +62,12 @@ msa:
   lineage_source: Pusat Rujukan Persuratan Melayu (DBP)
   date_accepted: 2014-01-15 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: keamatan
+    normative_status: preferred
 rus:
   id: 1397
-  term: интенсивность
   definition: мощность на единицу телесного угла от точечного источника в определенном
     направлении
   language_code: rus
@@ -74,7 +79,6 @@ rus:
     через таблицу подстановки.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/TS 19130-2:2014
     clause: '4.37'
@@ -82,9 +86,12 @@ rus:
   lineage_source: ISO/TS 19130-2:2014
   date_accepted: 2014-01-15 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: интенсивность
+    normative_status: preferred
 spa:
   id: 1397
-  term: intensidad
   definition: potencia por unidad de ángulo sólido de una fuente puntual en una determinada
     dirección
   language_code: spa
@@ -96,16 +103,18 @@ spa:
     de la señal de retorno con un valor entero.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/TS 19130-2:2014
     clause: '4.37'
     link: https://www.iso.org/standard/56113.html
   date_accepted: 2014-01-15 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: intensidad
+    normative_status: preferred
 swe:
   id: 1397
-  term: intensitet
   definition: en punktkällas effekt per rymdvinkelenhet i en viss riktning
   country_code: swe
   language_code: swe
@@ -116,7 +125,6 @@ swe:
     return’s signal power to an integer value via a lookup table.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/TS 19130-2:2014
     clause: '4.37'
@@ -124,3 +132,7 @@ swe:
   lineage_source: "(Type reference to national language document)"
   date_accepted: 2014-01-15 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: intensitet
+    normative_status: preferred

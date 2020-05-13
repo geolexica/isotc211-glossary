@@ -3,13 +3,11 @@ term: white space
 termid: 1667
 eng:
   id: 1667
-  term: white space
   definition: consecutive sequences of one or more characters that have no glyphs
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/IEC 9075-2:2011
     clause: 3.1.6.48
@@ -24,15 +22,17 @@ eng:
   review_decision_event: Normal ISO processing
   review_decision_notes: Publication of document ISO 19162:2015(E)
   release: '4'
+  terms:
+  - type: expression
+    designation: white space
+    normative_status: preferred
 spa:
   id: 1667
-  term: espacio en blanco
   definition: secuencia consecutiva de uno o más caracteres que no tiene signos
   language_code: spa
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/IEC 9075-2:2011
     clause: 3.1.6.48
@@ -47,3 +47,7 @@ spa:
   review_decision_event: Normal ISO processing
   review_decision_notes: Publication of document ISO 19162:2015(E)
   release: '4'
+  terms:
+  - type: expression
+    designation: espacio en blanco
+    normative_status: preferred

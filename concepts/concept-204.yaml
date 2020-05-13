@@ -3,54 +3,59 @@ term: geographic identifier
 termid: 204
 eng:
   id: 204
-  term: geographic identifier
   definition: spatial reference in the form of a label or code that identifies a location
   language_code: eng
   notes: []
   examples:
   - "'Spain' is an example of a country name, 'SW1P 3AD' is an example of a postcode."
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19112:2003
     link: https://www.iso.org/standard/26017.html
   date_accepted: 2003-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: geographic identifier
+    normative_status: preferred
 ara:
   id: 204
-  term: معرف جغرافي
   definition: مرجع مكاني في شكل علامة أو رمز لتعريف موقع
   language_code: ara
   notes: []
   examples:
   - اسبانيا هي مثال لاسم بلد , والرموز "SW 1P  3AD" هي مثال لرمز بريدي.
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19112:2003
     link: https://www.iso.org/standard/26017.html
   date_accepted: 2003-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: معرف جغرافي
+    normative_status: preferred
 chi:
   id: 204
-  term: 地理标识符
   definition: 以标记或代码形式标识位置的空间参照。
   language_code: chi
   notes: []
   examples:
   - "“西班牙”是一个国家名称的例子，“SW1P 3AD” 是邮政编码的例子。"
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19112:2003
     link: https://www.iso.org/standard/26017.html
   date_accepted: 2003-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: 地理标识符
+    normative_status: preferred
 dan:
   id: 204
-  term: geografisk identifikator
   definition: rumlig reference i form af et mærke eller en kode, der identificerer
     en lokalitet
   language_code: dan
@@ -62,9 +67,12 @@ dan:
     link: https://www.iso.org/standard/26017.html
   date_accepted: 2003-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: geografisk identifikator
+    normative_status: 
 dut:
   id: 204
-  term: geographische identificatie
   definition: ruimtelijke referentie door een label of code waarmee een locatie wordt
     geïdentificeerd
   language_code: dut
@@ -74,7 +82,6 @@ dut:
   examples:
   - "'Spain' is an example of a country name, 'SW1P 3AD' is an example of a postcode."
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19112:2003
@@ -82,9 +89,12 @@ dut:
   lineage_source: NEN 3610
   date_accepted: 2003-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: geographische identificatie
+    normative_status: preferred
 fin:
   id: 204
-  term: sijaintitunniste
   synonyms: maantieteellinen tunniste
   definition: sijaintiviittaus sijainnin tunnistamiseen tarkoitetun tunnuksen tai
     koodin avulla
@@ -93,68 +103,75 @@ fin:
   examples:
   - Maannimi Espanja, postikoodi SW1P 3AD.
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19112:2003
     link: https://www.iso.org/standard/26017.html
   lineage_source: Ei lähdettä, käännetty
   date_accepted: 2003-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: sijaintitunniste
+    normative_status: preferred
 fra:
   id: 204
-  term: identifiant géographique
   definition: référence spatiale sous forme d'un label ou code qui définit une localisation
   language_code: fra
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19112
     link: https://www.iso.org/standard/70742.html
   lineage_source: ''
   date_accepted: 2003-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: identifiant géographique
+    normative_status: preferred
 ger:
   id: 204
-  term: geographischer Identifikator
   language_code: ger
   notes: []
   examples:
   - "'Spain' is an example of a country name, 'SW1P 3AD' is an example of a postcode."
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19112:2003
     link: https://www.iso.org/standard/26017.html
   date_accepted: 2003-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: geographischer Identifikator
+    normative_status: preferred
 jpn:
   id: 204
-  term: 地理識別子
   definition: 場所の識別のための，ラベル又はコードの形式による空間参照。
   language_code: jpn
   notes: []
   examples:
   - "“日本”は，国名の例である。“102-0083”は，郵便番号の例である。"
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19112:2003
     link: https://www.iso.org/standard/26017.html
   lineage_source: JIS X 7112
   date_accepted: 2003-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: 地理識別子
+    normative_status: preferred
 kor:
   id: 204
-  term: 지리 식별자
   definition: 위치 식별을 위한 코드나 라벨 형식의 공간 참조
   language_code: kor
   notes: []
   examples:
   - '"스페인"은 나라 이름의 예이며, "SW1P 3AD"는 우편 번호의 예이다.'
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19112:2003
@@ -162,9 +179,12 @@ kor:
   lineage_source: KS X ISO 19112
   date_accepted: 2009-12-29 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: 지리 식별자
+    normative_status: preferred
 rus:
   id: 204
-  term: географический идентификатор
   definition: пространственная ссылка в форме символьной строки или кода, идентифицирующая
     местоположение
   language_code: rus
@@ -172,16 +192,18 @@ rus:
   examples:
   - '"Испания" - пример названия страны, "SW1P 3AD" - пример почтового индекса'
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19112:2003
     link: https://www.iso.org/standard/26017.html
   lineage_source: Internet
   date_accepted: 2003-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: географический идентификатор
+    normative_status: preferred
 spa:
   id: 204
-  term: identificador geográfico
   definition: referencia espacial en forma de etiqueta o código que identifica una
     localización
   language_code: spa
@@ -190,16 +212,18 @@ spa:
   - '"España" es un ejemplo de un nombre de país, "SW1P 3AD" es un ejemplo de un código
     postal.'
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19112:2003
     link: https://www.iso.org/standard/26017.html
   date_accepted: 2003-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: identificador geográfico
+    normative_status: preferred
 swe:
   id: 204
-  term: geografisk indentifierare
   definition: rumslig referens som identifierar en plats på annat sätt än genom koordinater
   country_code: swe
   language_code: swe
@@ -207,7 +231,6 @@ swe:
   examples:
   - "'Spain' is an example of a country name, 'SW1P 3AD' is an example of a postcode."
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19112:2003
@@ -215,3 +238,7 @@ swe:
   lineage_source: "(Type reference to national language document)"
   date_accepted: 2003-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: geografisk indentifierare
+    normative_status: preferred

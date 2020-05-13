@@ -3,7 +3,6 @@ term: discrete change
 termid: 662
 eng:
   id: 662
-  term: discrete change
   definition: change in an attribute value such that it can be assumed to have changed
     without having taken intermediate values between two known measurements
   language_code: eng
@@ -11,16 +10,18 @@ eng:
   - Legal changes of parcel changes are discrete, having occurred at a specific time.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
     link: https://www.iso.org/standard/40601.html
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: discrete change
+    normative_status: preferred
 ara:
   id: 662
-  term: تغيير منفصل
   definition: تغيير يحدث في قيمة وصفية بحيث يمكن أن يفترض أنها تغيرت دون أن تكون أخذت
     قيماً متوسطة تقع بين قياسين معلومين
   language_code: ara
@@ -29,31 +30,35 @@ ara:
     وقت محدد.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
     link: https://www.iso.org/standard/40601.html
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: تغيير منفصل
+    normative_status: preferred
 chi:
   id: 662
-  term: 离散变化
   definition: 属性值的变化，不在两个已知量测值之间取值。
   language_code: chi
   notes:
   - 地块的合法变化是离散的,并在某一特定时间发生。
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
     link: https://www.iso.org/standard/40601.html
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: 离散变化
+    normative_status: preferred
 fin:
   id: 662
-  term: diskreetti muutos
   synonyms: epäjatkuva muutos
   definition: attribuuttiarvon muutos, jonka voidaan olettaa tapahtuneen ilman kahden
     tunnetun mittauksen välillä olevia arvoja
@@ -63,53 +68,58 @@ fin:
     tiettyinä aikoina.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
     link: https://www.iso.org/standard/40601.html
   lineage_source: Internet
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: diskreetti muutos
+    normative_status: preferred
 fra:
   id: 662
-  term: variation discrète
   definition: variation d'une valeur d'attribut permettant de supposer qu'elle a été
     modifiée sans prendre des valeurs intermédiaires entre deux valeurs connues
   language_code: fra
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19132
     link: https://www.iso.org/standard/40601.html
   lineage_source: ''
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: variation discrète
+    normative_status: preferred
 ger:
   id: 662
-  term: unstetige Änderung
   language_code: ger
   notes:
   - Legal changes of parcel changes are discrete, having occurred at a specific time.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
     link: https://www.iso.org/standard/40601.html
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: unstetige Änderung
+    normative_status: preferred
 kor:
   id: 662
-  term: 불연속 변환
   definition: 두 개의 알려진 측정값 사이에 어떠한 값도 취하지 않는 속성 값의 변화
   language_code: kor
   notes:
   - 토지 필지의 법적인 변동은 불연속적이며, 특정한 시각에 발생한 경우이다.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
@@ -117,9 +127,12 @@ kor:
   lineage_source: KS X ISO 19132
   date_accepted: 2009-12-29 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: 불연속 변환
+    normative_status: preferred
 rus:
   id: 662
-  term: дискретное изменение
   definition: изменение значения атрибута, при котором можно полагать, что между двумя
     фиксированными измерениями промежуточных значений нет
   language_code: rus
@@ -128,16 +141,18 @@ rus:
     моменты времени
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
     link: https://www.iso.org/standard/40601.html
   lineage_source: Internet
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: дискретное изменение
+    normative_status: preferred
 spa:
   id: 662
-  term: cambio discreto
   definition: cambio en el valor de un atributo tal que se puede suponer que ha cambiado
     sin haber tomado valores intermedios entre dos mediciones conocidas
   language_code: spa
@@ -146,15 +161,17 @@ spa:
     en un momento específico.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19132:2007
     link: https://www.iso.org/standard/40601.html
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: cambio discreto
+    normative_status: preferred
 swe:
   id: 662
-  term: diskret värdeförändring
   definition: |-
     <hos attribut> det att attributet endast kan anta
     vissa värden mellan två angivna värden
@@ -164,7 +181,6 @@ swe:
   - Legal changes of parcel changes are discrete, having occurred at a specific time.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
@@ -172,3 +188,7 @@ swe:
   lineage_source: "(Type reference to national language document)"
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: diskret värdeförändring
+    normative_status: preferred
