@@ -3,7 +3,6 @@ term: vertical datum
 termid: 629
 eng:
   id: 629
-  term: vertical datum
   definition: datum describing the relation of gravity-related heights or depths to
     the Earth
   language_code: eng
@@ -15,7 +14,6 @@ eng:
     or depths.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
@@ -25,9 +23,12 @@ eng:
   review_status: pending
   review_type: supersession
   release: '1'
+  terms:
+  - type: expression
+    designation: vertical datum
+    normative_status: preferred
 ara:
   id: 629
-  term: مرجع إسناد رأسي
   definition: مرجع إسناد يصف علاقة الارتفاعات أو الأعماق المرتبطة بالجاذبية بالكرة
     الأرضية
   language_code: ara
@@ -38,7 +39,6 @@ ara:
     البحرية (التي تستخدم لأغراض المسح البحري) ، وفي هذه الحالة تكون الارتفاعات سالبة.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
@@ -48,16 +48,18 @@ ara:
   review_status: pending
   review_type: supersession
   release: '1'
+  terms:
+  - type: expression
+    designation: مرجع إسناد رأسي
+    normative_status: preferred
 chi:
   id: 629
-  term: 高程基准
   definition: 描述重力高或深度与地球的关系的基准。
   language_code: chi
   notes:
   - 在多数情况下，高程基准与平均海平面相关。椭球面高与参照大地基准的三维椭球面坐标系相关。高程基准包括测深（sounding)基准（用于水道测量目的），在这种情况下，高度可以为负高或深度。
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
@@ -67,9 +69,12 @@ chi:
   review_status: pending
   review_type: supersession
   release: '1'
+  terms:
+  - type: expression
+    designation: 高程基准
+    normative_status: preferred
 dut:
   id: 629
-  term: verticaal datum
   definition: datum welke de relatie tussen zwaartekracht gerelateerde hoogten of
     diepten ten opzichte van de aarde beschrijft
   language_code: dut
@@ -81,7 +86,6 @@ dut:
     als negatieve hoogten of diepten.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
@@ -91,9 +95,12 @@ dut:
   review_status: pending
   review_type: supersession
   release: '1'
+  terms:
+  - type: expression
+    designation: verticaal datum
+    normative_status: preferred
 fin:
   id: 629
-  term: korkeusdatumi
   definition: datumi, joka määrittelee painovoimaan liittyvien korkeuksien tai syvyyksien
     suhteen Maahan
   language_code: fin
@@ -104,7 +111,6 @@ fin:
     käytetyt) luotausdatumit, joissa korkeus voi olla negatiivinen (syvyys).
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
@@ -114,16 +120,18 @@ fin:
   review_status: pending
   review_type: supersession
   release: '1'
+  terms:
+  - type: expression
+    designation: korkeusdatumi
+    normative_status: preferred
 fra:
   id: 629
-  term: référentiel vertical
   definition: référentiel décrivant la relation entre les hauteurs ou les profondeurs
     relatives à la gravité et la Terre
   language_code: fra
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
@@ -133,9 +141,12 @@ fra:
   review_status: pending
   review_type: supersession
   release: '1'
+  terms:
+  - type: expression
+    designation: référentiel vertical
+    normative_status: preferred
 ger:
   id: 629
-  term: 'vertikales Datum (Syn.: Höhendatum)'
   definition: Datum, das  die Beziehung von Erdschwerefeld-basierten Höhen oder Tiefen
     zur Erde beschreibt
   language_code: ger
@@ -147,7 +158,6 @@ ger:
     or depths.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
@@ -157,9 +167,12 @@ ger:
   review_status: pending
   review_type: supersession
   release: '1'
+  terms:
+  - type: expression
+    designation: 'vertikales Datum (Syn.: Höhendatum)'
+    normative_status: preferred
 kor:
   id: 629
-  term: 수직 데이텀
   definition: 지구와 중력 높이 또는 깊이와의 관계를 기술하는 데이텀
   language_code: kor
   notes:
@@ -167,7 +180,6 @@ kor:
     수직 데이텀은 수심 데이텀(수로학적인 목적으로 사용됨)을 포함한다. 이 경우 높이는 음(-)의 높이 또는 깊이가 된다.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
@@ -177,9 +189,12 @@ kor:
   review_status: pending
   review_type: supersession
   release: '1'
+  terms:
+  - type: expression
+    designation: 수직 데이텀
+    normative_status: preferred
 msa:
   id: 629
-  term: datum tegak
   definition: sebarang permukaan aras sebenar, di mana kepadanya segalau kuran-ukuran
     tinggi bagi titik-titik di atas permukaan bumi boleh dirujuk.
   language_code: msa
@@ -191,16 +206,18 @@ msa:
     or depths.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   date_accepted: 2007-07-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: datum tegak
+    normative_status: preferred
 pol:
   id: 629
-  term: wysokościowy układ odniesienia
   definition: układ odniesienia opisujący związki pomiędzy wysokością fizyczną a Ziemią
   language_code: pol
   notes:
@@ -210,7 +227,6 @@ pol:
     obejmuje także układ odniesienia używany w procesie sondowania dla celów hydrograficznych.
     W tym przypadku wysokości mogą być ujemne lub nazywane głębokościami.
   examples: []
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
@@ -220,9 +236,12 @@ pol:
   review_status: pending
   review_type: supersession
   release: '1'
+  terms:
+  - type: expression
+    designation: wysokościowy układ odniesienia
+    normative_status: preferred
 rus:
   id: 629
-  term: высотные [вертикальные] даты
   definition: набор параметров, описывающих отнесение высот, связанных с гравитационным
     полем, к поверхности Земли
   language_code: rus
@@ -233,16 +252,18 @@ rus:
     глубины
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   lineage_source: ГОСТ Р 52572-2006
   date_accepted: 2007-07-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: высотные [вертикальные] даты
+    normative_status: preferred
 spa:
   id: 629
-  term: datum vertical
   definition: datum que describe la relación de las alturas o profundidades relacionadas
     con la gravedad con la Tierra
   language_code: spa
@@ -254,7 +275,6 @@ spa:
     altitudes pueden ser negativas o profundidades.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
@@ -264,9 +284,12 @@ spa:
   review_status: pending
   review_type: supersession
   release: '1'
+  terms:
+  - type: expression
+    designation: datum vertical
+    normative_status: preferred
 swe:
   id: 629
-  term: vertikalt datum
   definition: en uppsättning parametrar som beskriver relationen mellan tyngdkraftsrelaterad
     höjd eller djup och den fysiska jorden
   country_code: swe
@@ -279,7 +302,6 @@ swe:
     or depths.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
@@ -289,3 +311,7 @@ swe:
   review_status: pending
   review_type: supersession
   release: '1'
+  terms:
+  - type: expression
+    designation: vertikalt datum
+    normative_status: preferred

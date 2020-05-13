@@ -3,7 +3,6 @@ term: Place Identifier (PI) link
 termid: 1920
 eng:
   id: 1920
-  term: Place Identifier (PI) link
   definition: relationship established between PIs and other identifiers in different
     encoding domains
   language_code: eng
@@ -14,7 +13,6 @@ eng:
   - These "other identifiers" can exist outside of the PI architecture.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19155-2:2017
     clause: '3.1'
@@ -27,11 +25,12 @@ eng:
   review_decision_event: Normal ISO processing
   review_decision_notes: Publication of ISO 19155-2:2017
   release: '4'
+  terms:
+  - type: expression
+    designation: Place Identifier (PI) link
+    normative_status: preferred
 spa:
   id: 1920
-  term: |-
-    enlace de Identificadores de Lugar
-    (PI)
   definition: relación establecida entre identificadores de lugar (PI, Place Identifier)
     y otros identificadores en dominios diferentes de codificación
   language_code: spa
@@ -43,7 +42,6 @@ spa:
   - Estos "otros identificadores" pueden existir fuera de la arquitectura PI
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19155-2:2017
     clause: '3.1'
@@ -56,3 +54,9 @@ spa:
   review_decision_event: Normal ISO processing
   review_decision_notes: Publication of ISO 19155-2:2017
   release: '4'
+  terms:
+  - type: expression
+    designation: |-
+      enlace de Identificadores de Lugar
+      (PI)
+    normative_status: preferred

@@ -3,7 +3,6 @@ term: ellipsoidal latitude
 termid: 503
 eng:
   id: 503
-  term: ellipsoidal latitude
   abbrev: j
   synonyms: geodetic latitude
   definition: angle from the equatorial plane to the perpendicular to the ellipsoid
@@ -12,7 +11,6 @@ eng:
   notes: []
   examples: []
   entry_status: valid
-  classification: admitted
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
@@ -21,9 +19,12 @@ eng:
   lineage_source_similarity: 1
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: ellipsoidal latitude
+    normative_status: admitted
 ara:
   id: 503
-  term: خط عرض القطع الناقص
   synonyms: geodetic latitude
   definition: الزاوية من مستوى خط الاستواء إلى الخط المتعامد مع القطع الناقص عبر نقطة
     معينة باتجاه الشمال حيث تعتبر موجبة
@@ -31,16 +32,18 @@ ara:
   notes: []
   examples: []
   entry_status: valid
-  classification: admitted
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: خط عرض القطع الناقص
+    normative_status: admitted
 chi:
   id: 503
-  term: 椭球纬度
   abbrev: j
   synonyms: geodetic latitude
   definition: 从赤道平面与通过给定点的椭球法线间的夹角，向北为正。
@@ -48,15 +51,17 @@ chi:
   notes: []
   examples: []
   entry_status: valid
-  classification: admitted
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: 椭球纬度
+    normative_status: admitted
 dan:
   id: 503
-  term: ellipsoidebredde
   definition: vinkel mellem ækvitorialfladen og normalen på ellipsoiden gennem et
     givet punkt, hvor nord regnes positiv
   language_code: dan
@@ -67,9 +72,12 @@ dan:
     link: https://www.iso.org/standard/41126.html
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: ellipsoidebredde
+    normative_status: 
 dut:
   id: 503
-  term: ellipsoïde breedte
   abbrev: j
   synonyms: geodetische breedte
   definition: hoek vanaf het equatoriale vlak van de ellipsoïde door een gegeven punt,
@@ -78,16 +86,18 @@ dut:
   notes: []
   examples: []
   entry_status: valid
-  classification: admitted
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: ellipsoïde breedte
+    normative_status: admitted
 fin:
   id: 503
-  term: ellipsoidinen leveysaste
   abbrev: φ
   synonyms: ellipsoidinen latitudi
   definition: pisteen kautta kulkevan ellipsoidin normaalin ja päiväntasaajatason
@@ -96,7 +106,6 @@ fin:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
@@ -104,9 +113,12 @@ fin:
   lineage_source: 'Sanastokeskus TSK: Geoinformatiikan sanasto (TSK 45), 2013 (sovellettu);
     Maanmittauslaitos'
   date_accepted: 2013-07-03 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: ellipsoidinen leveysaste
+    normative_status: preferred
 fra:
   id: 503
-  term: latitude ellipsoïdale
   synonyms: geodetic latitude
   definition: angle entre le plan équatorial et la normale à l'ellipsoïde passant
     par un point donné, orienté positivement vers le nord
@@ -114,39 +126,42 @@ fra:
   notes: []
   examples: []
   entry_status: valid
-  classification: admitted
   authoritative_source:
     ref: ISO 19111
     link: https://www.iso.org/standard/74039.html
   lineage_source: ISO 19111:2003
   lineage_source_similarity: 1
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: latitude ellipsoïdale
+    normative_status: admitted
 ger:
   id: 503
-  term: ellipsoidische Breite
   abbrev: j
   synonyms: geodetic latitude
   language_code: ger
   notes: []
   examples: []
   entry_status: valid
-  classification: admitted
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: ellipsoidische Breite
+    normative_status: admitted
 kor:
   id: 503
-  term: 타원체 위도
   abbrev: j
   definition: 타원체상의 어떤 점을 통과하는 수직선과 적도면과의 각도로서, 북으로 향하는 것을 정(+)으로 함
   language_code: kor
   notes: []
   examples: []
   entry_status: valid
-  classification: admitted
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
@@ -154,9 +169,12 @@ kor:
   lineage_source: KS X ISO 19111
   date_accepted: 2007-11-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: 타원체 위도
+    normative_status: admitted
 pol:
   id: 503
-  term: szerokość geodezyjna,                    szerokośc elipsoidalna
   abbrev: j
   synonyms: szerokość geodezyjna
   definition: kąt między płaszczyzną równika a normalną do elipsoidy, przechodzącą
@@ -164,16 +182,18 @@ pol:
   language_code: pol
   notes: []
   examples: []
-  classification: admitted
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   lineage_source: PN-EN ISO 19111
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: szerokość geodezyjna,                    szerokośc elipsoidalna
+    normative_status: admitted
 rus:
   id: 503
-  term: эллипсоидальная широта
   abbrev: B
   synonyms: геодезическая широта
   definition: угол  между плоскостью экватора и нормалью к поверхности эллипсоида,
@@ -182,16 +202,18 @@ rus:
   notes: []
   examples: []
   entry_status: valid
-  classification: admitted
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   lineage_source: Internet
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: эллипсоидальная широта
+    normative_status: admitted
 spa:
   id: 503
-  term: latitud elipsoidal
   abbrev: j
   synonyms: latitud geodésica
   definition: ángulo que forma el plano ecuatorial con la perpendicular al elipsoide
@@ -200,9 +222,12 @@ spa:
   notes: []
   examples: []
   entry_status: valid
-  classification: admitted
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: latitud elipsoidal
+    normative_status: admitted

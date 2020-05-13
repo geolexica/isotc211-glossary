@@ -3,7 +3,6 @@ term: qualified cardinality <OWL>
 termid: 1592
 eng:
   id: 1592
-  term: qualified cardinality <OWL>
   definition: cardinality restriction that applies to literals or individuals that
     are connected by a data property or an object property and are instance of the
     qualifying range [datatype or class]
@@ -11,7 +10,6 @@ eng:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: OWL
   lineage_source: ISO 19150-2:2015, 4.1.33
@@ -23,9 +21,12 @@ eng:
   review_decision_event: Normal ISO processing
   review_decision_notes: Publication of document ISO 19150-2:2015(E)
   release: '4'
+  terms:
+  - type: expression
+    designation: qualified cardinality <OWL>
+    normative_status: preferred
 spa:
   id: 1592
-  term: cardinalidad calificada <OWL>
   definition: Restricción de la cardinalidad que se aplica a literales o individuos
     que están conectados mediante una propiedad de datos o una propiedad de objeto
     y son instancia de un rango calificado [tipo de datos o clase]
@@ -33,7 +34,6 @@ spa:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: OWL
   lineage_source: ISO 19150-2:2015, 4.1.33
@@ -45,3 +45,7 @@ spa:
   review_decision_event: Normal ISO processing
   review_decision_notes: Publication of document ISO 19150-2:2015(E)
   release: '4'
+  terms:
+  - type: expression
+    designation: cardinalidad calificada <OWL>
+    normative_status: preferred

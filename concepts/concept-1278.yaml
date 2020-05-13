@@ -3,7 +3,6 @@ term: error propagation
 termid: 1278
 eng:
   id: 1278
-  term: error propagation
   definition: process of determining the uncertainties of derived quantities from
     the known uncertainties of the quantities on which the derived quantity is dependent
   language_code: eng
@@ -12,15 +11,17 @@ eng:
     quantity to the quantities from which it was derived.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/TS 19130:2010
     link: https://www.iso.org/standard/51789.html
   date_accepted: 2010-06-15 00:00:00.000000000 +08:00
   release: '2'
+  terms:
+  - type: expression
+    designation: error propagation
+    normative_status: preferred
 ara:
   id: 1278
-  term: انتشار الخطأ
   definition: عملية تحديد أوجه عدم التيقن في الكميات المشتقة من الشكوك المعروفة في  الكميات
     التي تعتمد عليها الكميات المشتقة
   language_code: ara
@@ -29,15 +30,17 @@ ara:
     منها.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/TS 19130:2010
     link: https://www.iso.org/standard/51789.html
   date_accepted: 2010-06-15 00:00:00.000000000 +08:00
   release: '2'
+  terms:
+  - type: expression
+    designation: انتشار الخطأ
+    normative_status: preferred
 ger:
   id: 1278
-  term: Fehlerfortpflanzung
   definition: Bestimmung der Fehler abgeleiteter Größen auf Grundlage der Kenntnis
     der Fehler der Originalgrößen
   language_code: ger
@@ -46,30 +49,34 @@ ger:
     quantity to the quantities from which it was derived.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/TS 19130:2010
     link: https://www.iso.org/standard/51789.html
   date_accepted: 2010-06-15 00:00:00.000000000 +08:00
   release: '2'
+  terms:
+  - type: expression
+    designation: Fehlerfortpflanzung
+    normative_status: preferred
 kor:
   id: 1278
-  term: 오류 전파/에러 전파
   language_code: kor
   notes:
   - Error propagation is governed by the mathematical function relating the derived
     quantity to the quantities from which it was derived.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/TS 19130:2010
     link: https://www.iso.org/standard/51789.html
   date_accepted: 2010-06-15 00:00:00.000000000 +08:00
   release: '2'
+  terms:
+  - type: expression
+    designation: 오류 전파/에러 전파
+    normative_status: preferred
 rus:
   id: 1278
-  term: распределение ошибок
   definition: процесс определения неопределенностей производных величин из известных
     неопределенностей исходных величин, от которых зависит производная величина
   language_code: rus
@@ -78,16 +85,18 @@ rus:
     величину с величинами, из которых она была получена.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/TS 19130:2010
     link: https://www.iso.org/standard/51789.html
   lineage_source: ISO/TS 19130:2010
   date_accepted: 2010-06-15 00:00:00.000000000 +08:00
   release: '2'
+  terms:
+  - type: expression
+    designation: распределение ошибок
+    normative_status: preferred
 spa:
   id: 1278
-  term: propagación de errores
   definition: proceso de determinación de las incertidumbes de las cantidades derivadas
     a partir del conocimiento de las incertidumbres de las cantidades de las que depende
     la cantidad derivada
@@ -97,15 +106,17 @@ spa:
     la cantidad derivada con las cantidades de las cuales ha sido derivada.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/TS 19130:2010
     link: https://www.iso.org/standard/51789.html
   date_accepted: 2010-06-15 00:00:00.000000000 +08:00
   release: '2'
+  terms:
+  - type: expression
+    designation: propagación de errores
+    normative_status: preferred
 swe:
   id: 1278
-  term: felfortplantning
   definition: överföring av fel från mätvärden eller andra ingångsvärden till storheter
     som är funktioner av dessa värden
   country_code: swe
@@ -115,10 +126,13 @@ swe:
     quantity to the quantities from which it was derived.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/TS 19130:2010
     link: https://www.iso.org/standard/51789.html
   lineage_source: "(Type reference to national language document)"
   date_accepted: 2010-06-15 00:00:00.000000000 +08:00
   release: '2'
+  terms:
+  - type: expression
+    designation: felfortplantning
+    normative_status: preferred

@@ -3,14 +3,12 @@ term: tuple
 termid: 477
 eng:
   id: 477
-  term: tuple
   definition: ordered list of values
   language_code: eng
   notes:
   - The number of values in a tuple is immutable
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19136:2007
@@ -19,94 +17,106 @@ eng:
   lineage_source_similarity: 1
   date_accepted: 2007-07-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: tuple
+    normative_status: preferred
 ara:
   id: 477
-  term: مجموعة مرتبه
   definition: قائمة مرتبه من القيم
   language_code: ara
   notes:
   - عدد القيم في المجموعة الترابطية ثابت لا يتغير.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19136:2007
     link: https://www.iso.org/standard/32554.html
   date_accepted: 2007-07-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: مجموعة مرتبه
+    normative_status: preferred
 chi:
   id: 477
-  term: 元组
   definition: 值的有序排列。
   language_code: chi
   notes:
   - 元组中的值数目是不变的。
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19136:2007
     link: https://www.iso.org/standard/32554.html
   date_accepted: 2007-07-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: 元组
+    normative_status: preferred
 fin:
   id: 477
-  term: monikko
   definition: järjestetty arvolista
   language_code: fin
   notes:
   - Monikon arvojen lukumäärä on muuttumaton.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19136:2007
     link: https://www.iso.org/standard/32554.html
   lineage_source: MOT Enteka 4.0
   date_accepted: 2007-07-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: monikko
+    normative_status: preferred
 fra:
   id: 477
-  term: n-uplet
   definition: liste ordonnée de valeurs
   language_code: fra
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19136
     link: https://www.iso.org/standard/32554.html
   lineage_source: ISO 19111:2007
   lineage_source_similarity: 1
   date_accepted: 2007-07-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: n-uplet
+    normative_status: preferred
 ger:
   id: 477
-  term: Tupel
   definition: geordnete Liste von Werten
   language_code: ger
   notes:
   - The number of values in a tuple is immutable
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19136:2007
     link: https://www.iso.org/standard/32554.html
   date_accepted: 2007-07-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: Tupel
+    normative_status: preferred
 kor:
   id: 477
-  term: 튜플
   definition: 값의 순서화된 목록
   language_code: kor
   notes:
   - 튜플에서의 숫자 값은 불변이다.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19136:2007
@@ -114,9 +124,12 @@ kor:
   lineage_source: KS X ISO 19136
   date_accepted: 2009-12-29 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: 튜플
+    normative_status: preferred
 msa:
   id: 477
-  term: tupel
   definition: Baris sifat dalam suatu hubungan/jadual yang boleh dianggap sebagai
     suatu rekod.
   language_code: msa
@@ -124,7 +137,6 @@ msa:
   - The number of values in a tuple is immutable
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19136:2007
@@ -133,41 +145,48 @@ msa:
   lineage_source_similarity: 1
   date_accepted: 2007-07-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: tupel
+    normative_status: preferred
 rus:
   id: 477
-  term: кортеж
   definition: упорядоченный список значений
   language_code: rus
   notes:
   - Число значений в кортеже является постоянным
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19136:2007
     link: https://www.iso.org/standard/32554.html
   lineage_source: Internet
   date_accepted: 2007-07-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: кортеж
+    normative_status: preferred
 spa:
   id: 477
-  term: tupla
   definition: lista de valores ordenados
   language_code: spa
   notes:
   - El número de valores en una tupla es inalterable
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19136:2007
     link: https://www.iso.org/standard/32554.html
   date_accepted: 2007-07-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: tupla
+    normative_status: preferred
 swe:
   id: 477
-  term: tuppel
   definition: till antal och ordning bestämd följd av värden
   country_code: swe
   language_code: swe
@@ -175,7 +194,6 @@ swe:
   - The number of values in a tuple is immutable
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19136:2007
@@ -184,3 +202,7 @@ swe:
   lineage_source_similarity: 1
   date_accepted: 2007-07-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: tuppel
+    normative_status: preferred

@@ -3,7 +3,6 @@ term: aperture reference point
 termid: 925
 eng:
   id: 925
-  term: aperture reference point
   abbrev: ARP
   definition: 3D location of the centre of the synthetic aperture
   language_code: eng
@@ -11,15 +10,17 @@ eng:
   - It is usually expressed in ECEF coordinates in metres.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/TS 19130:2010
     link: https://www.iso.org/standard/51789.html
   date_accepted: 2010-06-15 00:00:00.000000000 +08:00
   release: '2'
+  terms:
+  - type: expression
+    designation: aperture reference point
+    normative_status: preferred
 ara:
   id: 925
-  term: نقطة المرجع لفتحة العدسة
   abbrev: ن م ف
   definition: موقع ثلاثي الأبعاد لمركز فتحة العدسة الصناعية
   language_code: ara
@@ -28,15 +29,17 @@ ara:
     الأرض ومثبَّت أرضيا.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/TS 19130:2010
     link: https://www.iso.org/standard/51789.html
   date_accepted: 2010-06-15 00:00:00.000000000 +08:00
   release: '2'
+  terms:
+  - type: expression
+    designation: نقطة المرجع لفتحة العدسة
+    normative_status: preferred
 ger:
   id: 925
-  term: Blendenreferenzpunkt
   abbrev: ARP
   definition: räumliche Position des Zentrums der virtuellen Blende
   language_code: ger
@@ -44,30 +47,34 @@ ger:
   - It is usually expressed in ECEF coordinates in metres.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/TS 19130:2010
     link: https://www.iso.org/standard/51789.html
   date_accepted: 2010-06-15 00:00:00.000000000 +08:00
   release: '2'
+  terms:
+  - type: expression
+    designation: Blendenreferenzpunkt
+    normative_status: preferred
 kor:
   id: 925
-  term: ARP
   definition: 합성개구 중심의 3차원 위치
   language_code: kor
   notes:
   - It is usually expressed in ECEF coordinates in metres.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/TS 19130:2010
     link: https://www.iso.org/standard/51789.html
   date_accepted: 2010-06-15 00:00:00.000000000 +08:00
   release: '2'
+  terms:
+  - type: expression
+    designation: ARP
+    normative_status: preferred
 rus:
   id: 925
-  term: Контрольная точка апертуры
   abbrev: ARP
   definition: 3D-расположение центра синтетической апертуры
   language_code: rus
@@ -75,16 +82,18 @@ rus:
   - Обычно выражается в координатах  ECEF в метрах
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/TS 19130:2010
     link: https://www.iso.org/standard/51789.html
   lineage_source: ISO/TS 19130:2010)
   date_accepted: 2010-06-15 00:00:00.000000000 +08:00
   release: '2'
+  terms:
+  - type: expression
+    designation: Контрольная точка апертуры
+    normative_status: preferred
 spa:
   id: 925
-  term: punto de referencia de la apertura
   abbrev: ARP
   definition: localización tridimensional del centro de la apertura sintética
   language_code: spa
@@ -92,15 +101,17 @@ spa:
   - Normalmente se expresa en coordenadas ECEF en metros.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/TS 19130:2010
     link: https://www.iso.org/standard/51789.html
   date_accepted: 2010-06-15 00:00:00.000000000 +08:00
   release: '2'
+  terms:
+  - type: expression
+    designation: punto de referencia de la apertura
+    normative_status: preferred
 swe:
   id: 925
-  term: apertur referenspunkt
   abbrev: ARP
   definition: begränsad, företrädesvis plan, tväryta vid eller nära framför en riktantenn,
     i vilken yta fältet kan användas för bestämning av antennens strålningsfunktion
@@ -110,10 +121,13 @@ swe:
   - It is usually expressed in ECEF coordinates in metres.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/TS 19130:2010
     link: https://www.iso.org/standard/51789.html
   lineage_source: "(Type reference to national language document)"
   date_accepted: 2010-06-15 00:00:00.000000000 +08:00
   release: '2'
+  terms:
+  - type: expression
+    designation: apertur referenspunkt
+    normative_status: preferred

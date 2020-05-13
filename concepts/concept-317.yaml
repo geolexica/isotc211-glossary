@@ -3,7 +3,6 @@ term: operating conditions
 termid: 317
 eng:
   id: 317
-  term: operating conditions
   definition: parameters influencing the determination of coordinate values by a positioning
     system
   language_code: eng
@@ -16,16 +15,18 @@ eng:
     and/or mathematical model employed in the processing software.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19116:2004
     link: https://www.iso.org/standard/37805.html
   date_accepted: 2004-07-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: operating conditions
+    normative_status: preferred
 ara:
   id: 317
-  term: ظروف التشغيل
   definition: العوامل التي تؤثر على تحديد قيم الإحداثيات بواسطة نظام لتحديد المواقع
   language_code: ara
   notes:
@@ -36,31 +37,35 @@ ara:
     المرصودة و/أو النموذج الرياضي المستخدم في برنامج المعالجة.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19116:2004
     link: https://www.iso.org/standard/37805.html
   date_accepted: 2004-07-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: ظروف التشغيل
+    normative_status: preferred
 chi:
   id: 317
-  term: 操作条件
   definition: 定位系统中影响确定坐标值的参数。
   language_code: chi
   notes:
   - 野外获得的量测结果受到许多使用仪器和环境因素的影响，包括气象条件、计算方法和限制、不完善的仪器结构、不完全的仪器校正或他们的共同影响，以及在光学量测系统的情况下观察者个人的习惯。位置的解决受观测数据的几何关系的影响，和/或受用于处理软件中的数学模型的影响。
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19116:2004
     link: https://www.iso.org/standard/37805.html
   date_accepted: 2004-07-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: 操作条件
+    normative_status: preferred
 fin:
   id: 317
-  term: paikannukseen vaikuttavat tekijät
   definition: muuttujat, jotka vaikuttavat siihen, miten paikannusjärjestelmä määrittää
     koordinaattiarvot
   language_code: fin
@@ -73,31 +78,35 @@ fin:
     suhteet ja/tai paikannusohjelmistossa käytetty matemaattinen malli.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19116:2004
     link: https://www.iso.org/standard/37805.html
   lineage_source: Ei lähdettä, käännetty
   date_accepted: 2004-07-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: paikannukseen vaikuttavat tekijät
+    normative_status: preferred
 fra:
   id: 317
-  term: conditions de fonctionnement
   definition: paramètres influençant la détermination de valeurs de coordonnées par
     un système de positionnement
   language_code: fra
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19116
     link: https://www.iso.org/standard/70882.html
   lineage_source: ''
   date_accepted: 2004-07-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: conditions de fonctionnement
+    normative_status: preferred
 ger:
   id: 317
-  term: Betriebszustand
   language_code: ger
   notes:
   - Measurements acquired in the field are affected by many instrumental and environmental
@@ -108,16 +117,18 @@ ger:
     and/or mathematical model employed in the processing software.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19116:2004
     link: https://www.iso.org/standard/37805.html
   date_accepted: 2004-07-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: Betriebszustand
+    normative_status: preferred
 kor:
   id: 317
-  term: 연산 조건
   definition: 측위 시스템에서 좌표 값의 결정에 영향을 주는 매개 변수
   language_code: kor
   notes:
@@ -126,7 +137,6 @@ kor:
     사용된 수학 모델의 영향을 받을 수 있다.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19116:2004
@@ -134,9 +144,12 @@ kor:
   lineage_source: KS X ISO 19116
   date_accepted: 2004-11-05 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: 연산 조건
+    normative_status: preferred
 rus:
   id: 317
-  term: рабочие условия
   definition: параметры, влияющие на определение системой позиционирования значений
     координат
   language_code: rus
@@ -151,16 +164,18 @@ rus:
     применяемая в программном обеспечении процесса обработки.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19116:2004
     link: https://www.iso.org/standard/37805.html
   lineage_source: Internet
   date_accepted: 2004-07-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: рабочие условия
+    normative_status: preferred
 spa:
   id: 317
-  term: condiciones de operación
   definition: parámetros que influyen en la determinación de los valores de las coordenadas
     producidas por un sistema de posicionamiento
   language_code: spa
@@ -174,16 +189,18 @@ spa:
     matemático empleado en el software de proceso.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19116:2004
     link: https://www.iso.org/standard/37805.html
   date_accepted: 2004-07-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: condiciones de operación
+    normative_status: preferred
 swe:
   id: 317
-  term: driftförhållanden
   definition: parameters influencing the determination of coordinate values by a positioning
     system
   country_code: swe
@@ -191,7 +208,6 @@ swe:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19116:2004
@@ -199,3 +215,7 @@ swe:
   lineage_source: "(Type reference to national language document)"
   date_accepted: 2004-07-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: driftförhållanden
+    normative_status: preferred

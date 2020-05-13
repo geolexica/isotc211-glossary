@@ -3,14 +3,12 @@ term: unqualified cardinality <OWL>
 termid: 1594
 eng:
   id: 1594
-  term: unqualified cardinality <OWL>
   definition: cardinality restriction that applies to all literals or individuals
     that are connected by a data property or an object property
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: OWL
   lineage_source: ISO 19150-2:2015, 4.1.37
@@ -22,9 +20,12 @@ eng:
   review_decision_event: Normal ISO processing
   review_decision_notes: Publication of document ISO 19150-2:2015(E)
   release: '4'
+  terms:
+  - type: expression
+    designation: unqualified cardinality <OWL>
+    normative_status: preferred
 spa:
   id: 1594
-  term: cardinalidad no calificada <OWL>
   definition: restricción de la cardinalidad que se aplica a todos los literales o
     individuos que estan conectados mediante una propiedad de los datos o una propiedad
     de objeto.
@@ -32,7 +33,6 @@ spa:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: OWL
   lineage_source: ISO 19150-2:2015, 4.1.37
@@ -44,3 +44,7 @@ spa:
   review_decision_event: Normal ISO processing
   review_decision_notes: Publication of document ISO 19150-2:2015(E)
   release: '4'
+  terms:
+  - type: expression
+    designation: cardinalidad no calificada <OWL>
+    normative_status: preferred

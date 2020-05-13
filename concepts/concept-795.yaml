@@ -3,7 +3,6 @@ term: orthoimage
 termid: 795
 eng:
   id: 795
-  term: orthoimage
   definition: image in which by orthogonal projection to a reference surface, displacement
     of image points due to sensor orientation and terrain relief has been removed
   language_code: eng
@@ -12,15 +11,17 @@ eng:
     the elevation information and on the software implementation.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/TS 19101-2:2008
     link: https://www.iso.org/standard/39983.html
   date_accepted: 2008-06-01 00:00:00.000000000 +08:00
   release: '2'
+  terms:
+  - type: expression
+    designation: orthoimage
+    normative_status: preferred
 ara:
   id: 795
-  term: صورة مصححة
   definition: صورة تمت ازالة نقاط الازاحة فيها بسبب توجيه جهاز الاستشعار وتضاريس المنطقة
     عن طريق الإسقاط المتعامد على سطح  مرجعي
   language_code: ara
@@ -29,30 +30,34 @@ ara:
     البرنامج.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/TS 19101-2:2008
     link: https://www.iso.org/standard/39983.html
   date_accepted: 2008-06-01 00:00:00.000000000 +08:00
   release: '2'
+  terms:
+  - type: expression
+    designation: صورة مصححة
+    normative_status: preferred
 ger:
   id: 795
-  term: Orthophoto
   language_code: ger
   notes:
   - The amount of displacement depends on the resolution and the level of detail of
     the elevation information and on the software implementation.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/TS 19101-2:2008
     link: https://www.iso.org/standard/39983.html
   date_accepted: 2008-06-01 00:00:00.000000000 +08:00
   release: '2'
+  terms:
+  - type: expression
+    designation: Orthophoto
+    normative_status: preferred
 kor:
   id: 795
-  term: 직교 투영 영상
   definition: 표고시차가 제거되고 센서 방향 변위로 인해 영상점이 이동하고 기준해수면에 직교 투영된 영상
   language_code: kor
   notes:
@@ -60,15 +65,17 @@ kor:
     the elevation information and on the software implementation.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/TS 19101-2:2008
     link: https://www.iso.org/standard/39983.html
   date_accepted: 2008-06-01 00:00:00.000000000 +08:00
   release: '2'
+  terms:
+  - type: expression
+    designation: 직교 투영 영상
+    normative_status: preferred
 rus:
   id: 795
-  term: ортоизображение
   definition: изображение в ортогональной проекциии на опорную поверхность,в котором
     устранены искажения из-за ориентации датчика исмещение точек изображения из-за
     рельефа местности
@@ -78,16 +85,18 @@ rus:
     и от реализации программного обеспечения.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/TS 19101-2:2008
     link: https://www.iso.org/standard/39983.html
   lineage_source: перевод ИСО/ТС 19101-2:2008
   date_accepted: 2008-06-01 00:00:00.000000000 +08:00
   release: '2'
+  terms:
+  - type: expression
+    designation: ортоизображение
+    normative_status: preferred
 spa:
   id: 795
-  term: ortoimagen
   definition: imagen a la cuál se le ha eliminado el desplazamiento de los puntos
     imagen debido a la orientación del sensor y al relieve del terreno, por medio
     de una proyección ortogonal a la superficie de referencia
@@ -97,15 +106,17 @@ spa:
     la información de la elevación y del software de implementación.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/TS 19101-2:2008
     link: https://www.iso.org/standard/39983.html
   date_accepted: 2008-06-01 00:00:00.000000000 +08:00
   release: '2'
+  terms:
+  - type: expression
+    designation: ortoimagen
+    normative_status: preferred
 swe:
   id: 795
-  term: ortofoto
   definition: bild där förskjutning av bildpunkter på grund av sensorns inplacering
     och terrängens relief korrigeras via ortogonalprojektion till en referensyta
   country_code: swe
@@ -115,10 +126,13 @@ swe:
     the elevation information and on the software implementation.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/TS 19101-2:2008
     link: https://www.iso.org/standard/39983.html
   lineage_source: "(Type reference to national language document)"
   date_accepted: 2008-06-01 00:00:00.000000000 +08:00
   release: '2'
+  terms:
+  - type: expression
+    designation: ortofoto
+    normative_status: preferred

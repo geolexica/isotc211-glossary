@@ -3,7 +3,6 @@ term: relative accuracy
 termid: 1944
 eng:
   id: 1944
-  term: relative accuracy
   synonyms: internal accuracy
   definition: closeness of the relative positions of features in a dataset to their
     respective relative positions accepted as or being true
@@ -17,7 +16,6 @@ eng:
     lift, adjacent lifts within a project, or between adjacent projects.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/TS 19159-2:2016
     clause: '4.32'
@@ -30,9 +28,12 @@ eng:
   review_decision_event: Normal ISO processing
   review_decision_notes: Publication of document ISO/TS 19159-2:2016(E)
   release: '4'
+  terms:
+  - type: expression
+    designation: relative accuracy
+    normative_status: preferred
 spa:
   id: 1944
-  term: exactitud relativa
   synonyms: exactitud interna
   definition: cercanía de las posiciones relativas de los objetos geográficos de un
     conjunto de datos con sus respectivas posiciones relativas verdaderas o aceptadas
@@ -48,7 +49,6 @@ spa:
     adyacentes en un proyecto o entre proyectos adyacentes.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/TS 19159-2:2016
     clause: '4.32'
@@ -61,3 +61,7 @@ spa:
   review_decision_event: Normal ISO processing
   review_decision_notes: Publication of document ISO/TS 19159-2:2016(E)
   release: '4'
+  terms:
+  - type: expression
+    designation: exactitud relativa
+    normative_status: preferred

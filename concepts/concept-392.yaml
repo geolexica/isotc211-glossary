@@ -3,7 +3,6 @@ term: satellite positioning system
 termid: 392
 eng:
   id: 392
-  term: satellite positioning system
   definition: positioning system based upon receipt of signals broadcast from satellites
   language_code: eng
   notes:
@@ -13,16 +12,18 @@ eng:
     attitude of an object.  Examples are GPS and GLONASS.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19116:2004
     link: https://www.iso.org/standard/37805.html
   date_accepted: 2004-07-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: satellite positioning system
+    normative_status: preferred
 ara:
   id: 392
-  term: نظام لتحديد المواقع بالأقمار الصناعية
   definition: نظام تحديد مواقع مبني على استقبال إشارات تبثها الأقمار الصناعية
   language_code: ara
   notes:
@@ -33,31 +34,35 @@ ara:
     لتحديد الأماكن.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19116:2004
     link: https://www.iso.org/standard/37805.html
   date_accepted: 2004-07-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: نظام لتحديد المواقع بالأقمار الصناعية
+    normative_status: preferred
 chi:
   id: 392
-  term: 卫星定位系统
   definition: 基于接收卫星播发信号的定位系统。
   language_code: chi
   notes:
   - 在该标准中，卫星定位意味着使用从地球轨道上“主动的”目标发射和在或接近地表上的仪器“被动地”接收的无线电信号来确定一个目标的位置、速度和/或属性。例如GPS和GLONASS。
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19116:2004
     link: https://www.iso.org/standard/37805.html
   date_accepted: 2004-07-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: 卫星定位系统
+    normative_status: preferred
 fin:
   id: 392
-  term: satelliittipaikannusjärjestelmä
   definition: paikannusjärjestelmä, joka perustuu satelliittien lähettämien signaalien
     vastaanottamiseen
   language_code: fin
@@ -69,31 +74,35 @@ fin:
     ovat GPS (Global Positioning System) ja GLONASS.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19116:2004
     link: https://www.iso.org/standard/37805.html
   lineage_source: 'Sanastokeskus TSK: Paikannussanasto (TSK 30), 2002'
   date_accepted: 2004-07-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: satelliittipaikannusjärjestelmä
+    normative_status: preferred
 fra:
   id: 392
-  term: système de positionnement par satellite
   definition: système de positionnement basé sur la réception de signaux émis par
     des satellites
   language_code: fra
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19116
     link: https://www.iso.org/standard/70882.html
   lineage_source: ''
   date_accepted: 2004-07-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: système de positionnement par satellite
+    normative_status: preferred
 kor:
   id: 392
-  term: 위성 측위 시스템
   definition: 위성으로부터 수신된 신호를 바탕으로한 측위 시스템
   language_code: kor
   notes:
@@ -101,7 +110,6 @@ kor:
     수신기에 의해 수신된 전파를 이용하는 것을 의미한다. (예: GPS, GLONASS)'
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19116:2004
@@ -109,9 +117,12 @@ kor:
   lineage_source: KS X ISO 19116
   date_accepted: 2004-11-05 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: 위성 측위 시스템
+    normative_status: preferred
 rus:
   id: 392
-  term: спутниковая система позиционирования
   definition: система позиционирования, основанная на приеме сигналов, транслируемых
     со спутников
   language_code: rus
@@ -123,16 +134,18 @@ rus:
     GPS и GLONASS (ГЛОНАСС)
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19116:2004
     link: https://www.iso.org/standard/37805.html
   lineage_source: Internet
   date_accepted: 2004-07-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: спутниковая система позиционирования
+    normative_status: preferred
 spa:
   id: 392
-  term: sistema de posicionamiento satelital
   definition: sistema de posicionamiento basado en la recepción de señales emitidas
     desde satélite
   language_code: spa
@@ -144,16 +157,18 @@ spa:
     GPS y GLONASS son dos ejemplos.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19116:2004
     link: https://www.iso.org/standard/37805.html
   date_accepted: 2004-07-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: sistema de posicionamiento satelital
+    normative_status: preferred
 swe:
   id: 392
-  term: satellitbaserat lägesbestämningssystem
   definition: positioneringssystem som baseras på signaler från satelliter
   country_code: swe
   language_code: swe
@@ -164,7 +179,6 @@ swe:
     attitude of an object.  Examples are GPS and GLONASS.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19116:2004
@@ -172,3 +186,7 @@ swe:
   lineage_source: "(Type reference to national language document)"
   date_accepted: 2004-07-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: satellitbaserat lägesbestämningssystem
+    normative_status: preferred

@@ -3,7 +3,6 @@ term: network
 termid: 308
 eng:
   id: 308
-  term: network
   definition: abstract structure consisting of a set of 0-dimensional objects called
     junctions, and a set of 1-dimensional objects called links that connect the junctions,
     each link being associated with a start (origin, source) junction and end (destination,
@@ -15,16 +14,18 @@ eng:
     topological node are synonyms, as are link and directed edge.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
     link: https://www.iso.org/standard/32551.html
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: network
+    normative_status: preferred
 ara:
   id: 308
-  term: شبكة
   definition: هيكل تجريدي يتكون من مجموعة كائنات صفرية الأبعاد تسمى نقاط وصل ، ومجموعة
     كائنات أحادية البعد تسمى وصلات تصل بين نقاط الوصل ، بحيث  تكون كل وصلة مقترنة
     بنقطة وصل مبدئية ( منشأ ، مصدر ) ونقطة وصل نهائية ( مقصد، منتهى )
@@ -36,31 +37,35 @@ ara:
     "وصلة" و "حافة موجهة".
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
     link: https://www.iso.org/standard/32551.html
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: شبكة
+    normative_status: preferred
 chi:
   id: 308
-  term: 网络
   definition: 由一系列被称为连接点的0维对象和一系列连接这些连接点的被称为有向路段的一维对象所组成的抽象结构，每个有向路段与起始（原始，来源）连接点和终点（目的地，接收站）连接点相关。
   language_code: chi
   notes:
   - 网络是导航问题的基本论域。网络是一种一维拓扑复形。鉴于此,连接点和拓扑结点是同义词,就像有向路段和有向边一样。两种术语来自数学中的图论和拓扑学。这两个领域逻辑上关联,但各有其历史根源。图论,主要针对抽象图形代数学,而拓扑学源自于几何或网络表达。其范围已超越任何标准的范围和能力,改变数学文献150年。
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
     link: https://www.iso.org/standard/32551.html
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: 网络
+    normative_status: preferred
 fin:
   id: 308
-  term: verkosto
   synonyms: verkko?
   definition: abstrakti rakenne, joka koostuu joukosta nollaulotteisia objekteja,
     joita kutsutaan risteyssolmuiksi, ja joukosta yksiulotteisia objekteja, joita
@@ -73,16 +78,18 @@ fin:
     node ovat synonyymeja, samalla tavoin kuin link ja directed edge.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
     link: https://www.iso.org/standard/32551.html
   lineage_source: Internet
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: verkosto
+    normative_status: preferred
 fra:
   id: 308
-  term: réseau
   definition: structure abstraite se composant d'un ensemble d'objets de dimension
     nulle appelés jonctions et d'un ensemble d'objets de dimension 1 appelés liens
     connectant les jonctions, chaque lien étant associé à une jonction de début (origine,
@@ -91,15 +98,17 @@ fra:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19133
     link: https://www.iso.org/standard/32551.html
   lineage_source: ''
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: réseau
+    normative_status: preferred
 ger:
   id: 308
-  term: Netz
   language_code: ger
   notes:
   - The network is essentially the universe of discourse for the navigation problem.  Networks
@@ -107,16 +116,18 @@ ger:
     topological node are synonyms, as are link and directed edge.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
     link: https://www.iso.org/standard/32551.html
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: Netz
+    normative_status: preferred
 kor:
   id: 308
-  term: 망
   synonyms: 네트워크
   definition: 0차원 객체 집합(교차점)과 이를 연결하는 1차원 객체 집합(링크)으로 구성된 추상 구조. 여기서 링크는 하나의 시작(원점,
     소스) 교차점과 종료(도착지, 싱크) 교차점에 각각 연관되어 있다.
@@ -126,7 +137,6 @@ kor:
     교차점과 위상 절점은 동의어이다.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
@@ -134,9 +144,12 @@ kor:
   lineage_source: KS X ISO 19133
   date_accepted: 2006-12-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: 망
+    normative_status: preferred
 msa:
   id: 308
-  term: rangkaian
   definition: Koleksi dua atau lebih komputer dan alat yang berkaitan. Kesemuanya
     disambungkan bersama ke alat komunikasi. Setelah disambungkan, setiap bahagian
     rangkaian dapat berkongsi perkakasan, perisian dan maklumat. Jenis rangkaian yang
@@ -148,7 +161,6 @@ msa:
     topological node are synonyms, as are link and directed edge.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
@@ -156,9 +168,12 @@ msa:
   lineage_source: Pusat Rujukan Persuratan Melayu (DBP)
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: rangkaian
+    normative_status: preferred
 rus:
   id: 308
-  term: сеть
   definition: абстрактная структура, содержащая набор нульмерных объектов (называемых
     узлами), и набор одномерных объектов (называемых дугами) и соединяющих узлы; при
     этом каждая дуга связана со стартовым узлом (начало, источник) и концевым узлом
@@ -170,16 +185,18 @@ rus:
     и топологический  узел являются синонимами, так же как дуга и направленное ребро
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
     link: https://www.iso.org/standard/32551.html
   lineage_source: Internet
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: сеть
+    normative_status: preferred
 spa:
   id: 308
-  term: red
   definition: estructura abstracta consistente en un conjunto de objetos adimensionales,
     llamados cruces, y en un conjunto de objetos unidimensionales llamados enlaces
     que conectan los cruces, y cada enlace lleva asociado un cruce de inicio (origen,
@@ -191,16 +208,18 @@ spa:
     forma, cruce y nodo topológico son sinónimos, como lo son enlace y arco orientado.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
     link: https://www.iso.org/standard/32551.html
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: red
+    normative_status: preferred
 swe:
   id: 308
-  term: nät
   definition: "<i modellsammanhang> sammanhängande \nsystem av noder och länkar"
   country_code: swe
   language_code: swe
@@ -210,7 +229,6 @@ swe:
     topological node are synonyms, as are link and directed edge.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
@@ -218,3 +236,7 @@ swe:
   lineage_source: "(Type reference to national language document)"
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: nät
+    normative_status: preferred

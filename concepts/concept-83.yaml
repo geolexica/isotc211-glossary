@@ -3,7 +3,6 @@ term: continuous coverage
 termid: 83
 eng:
   id: 83
-  term: continuous coverage
   definition: coverage that returns different values for the same feature attribute
     at different direct positions within a single spatial object, temporal object,
     or spatiotemporal object in its domain
@@ -14,16 +13,18 @@ eng:
     of direct positions.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19123:2005
     link: https://www.iso.org/standard/40121.html
   date_accepted: 2005-08-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: continuous coverage
+    normative_status: preferred
 ara:
   id: 83
-  term: تغطية مستمرة
   definition: تغطية تعيد قيم مختلفة لخاصية المعلم نفسه ، التي تكون على مواقع مباشرة
     مختلفة ضمن كيان مكاني واحد ،أو كيان زماني أو كيان مكاني-زماني ، في نطاقها
   language_code: ara
@@ -33,31 +34,35 @@ ara:
     من المواقع المباشرة بعدد لا متناهٍ .
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19123:2005
     link: https://www.iso.org/standard/40121.html
   date_accepted: 2005-08-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: تغطية مستمرة
+    normative_status: preferred
 chi:
   id: 83
-  term: 连续覆盖
   definition: 在一个数据覆盖域中，单独的空间对象、时间对象或时空对象的相同要素属性在不同的直接位置返回不同值的覆盖。
   language_code: chi
   notes:
   - 虽然连续数据覆盖域通常受空间范围和/或时间范围的限制,但是它可以再分成无限个直接位置。
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19123:2005
     link: https://www.iso.org/standard/40121.html
   date_accepted: 2005-08-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: 连续覆盖
+    normative_status: preferred
 dan:
   id: 83
-  term: coverage,  sammenhængende
   definition: coverage, der giver forskellige værdier for samme featureattribut på
     forskellige direkte positioner inden for et enkelt spatialt objekt, temporale
     objekt eller temporalt-spatialt objekt i sit domæne
@@ -72,9 +77,12 @@ dan:
     link: https://www.iso.org/standard/40121.html
   date_accepted: 2005-08-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: coverage,  sammenhængende
+    normative_status: 
 fin:
   id: 83
-  term: jatkuva paikkatietojatkumo
   definition: paikkatietojatkumo, jonka alueella olevan spatiaalisen, temporaalisen
     tai spatiotemporaalisen objektin sisällä sama kohteen ominaisuus saa eri arvot
     eri koordinaattipisteissä
@@ -84,16 +92,18 @@ fin:
     ja/tai temporaalisesti rajattu, se voidaan jakaa äärettömään määrään koordinaattipisteitä.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19123:2005
     link: https://www.iso.org/standard/40121.html
   lineage_source: 'Sanastokeskus TSK: Geoinformatiikan sanasto (TSK 45), 2013; Maanmittauslaitos'
   date_accepted: 2013-07-03 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: jatkuva paikkatietojatkumo
+    normative_status: preferred
 fra:
   id: 83
-  term: couverture continue
   definition: couverture qui retourne des valeurs différentes pour le même attribut
     d'entité à différentes positions directes à l'intérieur de tout objet spatial,
     temporel ou spatiotemporel dans son domaine
@@ -101,15 +111,17 @@ fra:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19123
     link: https://www.iso.org/standard/40121.html
   lineage_source: ''
   date_accepted: 2005-08-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: couverture continue
+    normative_status: preferred
 ger:
   id: 83
-  term: stetiges Coverage
   language_code: ger
   notes:
   - Although the domain of a continuous coverage is ordinarily bounded in terms of
@@ -117,23 +129,24 @@ ger:
     of direct positions.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19123:2005
     link: https://www.iso.org/standard/40121.html
   date_accepted: 2005-08-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: stetiges Coverage
+    normative_status: preferred
 kor:
   id: 83
-  term: 연속 커버리지
   definition: 동일한 피처(공간 객체, 시간 객체, 시공간 객체) 속성값이 영역 내 서로 다른 직접 위치에서 다른 값을 갖는 커버리지
   language_code: kor
   notes:
   - 연속 커버리지의 영역이 통상적으로 시간 또는 공간 범위의 표현으로 한정될지라도, 이는 무한한 수의 위치로 세분될 수 있다.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19123:2005
@@ -141,9 +154,12 @@ kor:
   lineage_source: KS X ISO 19123
   date_accepted: 2007-11-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: 연속 커버리지
+    normative_status: preferred
 msa:
   id: 83
-  term: liputan selanjar
   language_code: msa
   notes:
   - Although the domain of a continuous coverage is ordinarily bounded in terms of
@@ -151,7 +167,6 @@ msa:
     of direct positions.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19123:2005
@@ -159,9 +174,12 @@ msa:
   lineage_source: kamus-istilah ukur dan pemetaan
   date_accepted: 2005-08-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: liputan selanjar
+    normative_status: preferred
 pol:
   id: 83
-  term: pokrycie ciągłe
   definition: pokrycie, które przyjmuje różne wartości tego samego atrybutu obiektu
     w różnych położeniach bezpośrednich w obrębie pojedynczego obiektu przestrzennego,
     czasowego lub czasoprzestrzennego z jego dziedziny
@@ -170,16 +188,18 @@ pol:
   - Mimo, że dziedzina pokrycia ciągłego jest zwykle ograniczona przestrzennie i/lub
     czasowo, to może być dzielona na nieskończoną ilość położeń bezpośrednich.
   examples: []
-  classification: preferred
   authoritative_source:
     ref: ISO 19123:2005
     link: https://www.iso.org/standard/40121.html
   lineage_source: PN-EN ISO 19123
   date_accepted: 2005-08-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: pokrycie ciągłe
+    normative_status: preferred
 rus:
   id: 83
-  term: непрерывное покрытие
   definition: покрытие, возвращающее разные значения одного атрибута для различных  точек
     в пределах одного пространственного , временнóго или пространственно-временнóго
     объекта в его области определения
@@ -190,16 +210,18 @@ rus:
     на бесконечное количество точек
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19123:2005
     link: https://www.iso.org/standard/40121.html
   lineage_source: Internet
   date_accepted: 2005-08-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: непрерывное покрытие
+    normative_status: preferred
 spa:
   id: 83
-  term: cobertura continua
   definition: cobertura que devuelve valores diferentes para el mismo atributo de
     objeto geográfico en diferentes posiciones directas dentro de un único objeto
     espacial, objeto temporal, u objeto espacio-temporal en su dominio
@@ -210,15 +232,17 @@ spa:
     de posiciones directas.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19123:2005
     link: https://www.iso.org/standard/40121.html
   date_accepted: 2005-08-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: cobertura continua
+    normative_status: preferred
 swe:
   id: 83
-  term: kontinuerlig domänobjekttyp
   definition: domänobjekttyp vars objekt definierar en domän inom vilket objektets
     uppgifter varierar kontinuerligt med positionen
   country_code: swe
@@ -229,7 +253,6 @@ swe:
     of direct positions.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19123:2005
@@ -237,3 +260,7 @@ swe:
   lineage_source: "(Type reference to national language document)"
   date_accepted: 2005-08-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: kontinuerlig domänobjekttyp
+    normative_status: preferred

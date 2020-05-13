@@ -3,7 +3,6 @@ term: deviation
 termid: 1514
 eng:
   id: 1514
-  term: deviation
   definition: divergence from a plan or the normal situation
   language_code: eng
   notes:
@@ -12,7 +11,6 @@ eng:
     are provided.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19147:2015
     clause: '3.4'
@@ -25,9 +23,12 @@ eng:
   review_decision_event: Normal ISO processing
   review_decision_notes: Publication of document ISO 19147:2015(E)
   release: '4'
+  terms:
+  - type: expression
+    designation: deviation
+    normative_status: preferred
 spa:
   id: 1514
-  term: desviación
   definition: divergencia respecto de un plan o de la situación normal
   language_code: spa
   notes:
@@ -35,7 +36,6 @@ spa:
     o desviaciones con respecto a servicios o instalaciones proporcionadas.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19147:2015
     clause: '3.4'
@@ -48,3 +48,7 @@ spa:
   review_decision_event: Normal ISO processing
   review_decision_notes: Publication of document ISO 19147:2015(E)
   release: '4'
+  terms:
+  - type: expression
+    designation: desviación
+    normative_status: preferred

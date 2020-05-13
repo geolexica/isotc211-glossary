@@ -3,7 +3,6 @@ term: sequence
 termid: 403
 eng:
   id: 403
-  term: sequence
   definition: finite, ordered collection of related items (objects or values) that
     may be repeated
   language_code: eng
@@ -13,7 +12,6 @@ eng:
     is used in this International Standard.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -23,9 +21,12 @@ eng:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: sequence
+    normative_status: preferred
 ara:
   id: 403
-  term: تسلسل
   definition: مجموعة محددة من البنود ذات العلاقة ( كائنات أو قيم ) مرتبة وفقا لنظام
     معين وهي قابلة للتكرار
   language_code: ara
@@ -35,7 +36,6 @@ ara:
     بحصرها بين هلالين أو نحوهما وتفصل بين عناصر التتابع بالفاصلة.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -45,16 +45,18 @@ ara:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: تسلسل
+    normative_status: preferred
 chi:
   id: 403
-  term: 序列
   definition: 可以重复的相关项（对象或值）的有限和有序的集合。
   language_code: chi
   notes:
   - 逻辑上，序列是<项,偏移量>对的集。它原是LISP语言中一种用括号括起来,有次序限定,元素间用逗号隔开的结构，现用于ISO 19107中。
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -64,9 +66,12 @@ chi:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: 序列
+    normative_status: preferred
 fin:
   id: 403
-  term: sekvenssi
   synonyms: jono
   definition: äärellinen, järjestetty kokoelma yhteenliittyviä tietokohteita (objekteja
     tai arvoja), jotka voivat toistua
@@ -77,7 +82,6 @@ fin:
     erotetaan toisistaan pilkuilla.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -87,16 +91,18 @@ fin:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: sekvenssi
+    normative_status: preferred
 fra:
   id: 403
-  term: séquence
   definition: collection finie et ordonnée d'éléments liés (objets ou valeurs) et
     qui peuvent être répétés
   language_code: fra
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -106,9 +112,12 @@ fra:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: séquence
+    normative_status: preferred
 ger:
   id: 403
-  term: 'Sequenz (Syn.: Folge)'
   definition: endliche, geordnete Menge von verwandten Elementen (Objekten oder Werten)
     mit möglicher Wiederholung
   language_code: ger
@@ -118,7 +127,6 @@ ger:
     is used in this International Standard.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -128,16 +136,18 @@ ger:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: 'Sequenz (Syn.: Folge)'
+    normative_status: preferred
 jpn:
   id: 403
-  term: 列
   definition: 繰返しを許した，関連する項目（オブジェクト又は値）の，有限で順序をもつ集まり。
   language_code: jpn
   notes:
   - 論理的には，列は <項目，相対位置> の対の集合である。この規格では，括弧で列を区切り，列の要素をコンマで分けるLISP構文を用いる。
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -147,9 +157,12 @@ jpn:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: 列
+    normative_status: preferred
 kor:
   id: 403
-  term: 연속
   synonyms: ''
   definition: 유한하며 순서를 갖는, 서로 관련성이 있는 반복될 수 있는 항목(객체 또는 값)의 모음
   language_code: kor
@@ -158,7 +171,6 @@ kor:
     사용된다.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -168,9 +180,12 @@ kor:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: 연속
+    normative_status: preferred
 msa:
   id: 403
-  term: jujukan
   definition: Susunan yang berturut-turut atau teratur mengikut giliran/urutan.
   language_code: msa
   notes:
@@ -179,16 +194,18 @@ msa:
     is used in this International Standard.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
     link: https://www.iso.org/standard/26012.html
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: jujukan
+    normative_status: preferred
 pol:
   id: 403
-  term: sekwencja
   definition: skończona, uporządkowana kolekcja powiązanych elementów (obiektów lub
     wartości), które mogą się powtarzać
   language_code: pol
@@ -197,7 +214,6 @@ pol:
     niniejszej Normie Międzynarodowej stosowana jest składnia LISP), w której sekwencje
     oznacza się nawiasami okrągłymi, a elementy sekwencji oddziela przecinkami.
   examples: []
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -207,9 +223,12 @@ pol:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: sekwencja
+    normative_status: preferred
 rus:
   id: 403
-  term: последовательность
   definition: конечная упорядоченная  совокупность родственных элементов (объектов
     или значений), которые могут повторяться
   language_code: rus
@@ -219,16 +238,18 @@ rus:
     скобки и разделяет элементы последовательности запятыми
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
     link: https://www.iso.org/standard/26012.html
   lineage_source: Internet
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: последовательность
+    normative_status: preferred
 spa:
   id: 403
-  term: secuencia
   definition: colección finita y ordenada de ítems relacionados (objetos o valores)
     que pueden repetirse
   language_code: spa
@@ -238,7 +259,6 @@ spa:
     y separa sus elementos con comas.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -248,9 +268,12 @@ spa:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: secuencia
+    normative_status: preferred
 swe:
   id: 403
-  term: sekvens
   definition: ordnad, ändlig mängd av samhörande element
   country_code: swe
   language_code: swe
@@ -260,7 +283,6 @@ swe:
     is used in this International Standard.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -270,3 +292,7 @@ swe:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: sekvens
+    normative_status: preferred

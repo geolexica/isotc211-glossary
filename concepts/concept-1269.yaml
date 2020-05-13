@@ -3,7 +3,6 @@ term: portrayal function
 termid: 1269
 eng:
   id: 1269
-  term: portrayal function
   definition: function that maps geographic features to symbols
   language_code: eng
   notes:
@@ -11,16 +10,18 @@ eng:
     not dependent on geographic feature properties.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19117:2012
     clause: '4.23'
     link: https://www.iso.org/standard/46226.html
   date_accepted: 2012-12-15 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: portrayal function
+    normative_status: preferred
 kor:
   id: 1269
-  term: 묘사 기능
   definition: 기호에 대한 지형적 특성을 매핑하는 기능
   language_code: kor
   notes:
@@ -28,16 +29,18 @@ kor:
     not dependent on geographic feature properties.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19117:2012
     clause: '4.23'
     link: https://www.iso.org/standard/46226.html
   date_accepted: 2012-12-15 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: 묘사 기능
+    normative_status: preferred
 rus:
   id: 1269
-  term: функция графического отображения
   definition: функция, которая отображает географические объекты символами
   language_code: rus
   notes:
@@ -45,7 +48,6 @@ rus:
     которые не зависят от свойств географических пространственных объектов.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19117:2012
     clause: '4.23'
@@ -53,9 +55,12 @@ rus:
   lineage_source: перевод ИСО 19117:2012
   date_accepted: 2012-12-15 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: функция графического отображения
+    normative_status: preferred
 spa:
   id: 1269
-  term: función de representación
   definition: función que hace corresponder un catálogo de objetos geográficos con
     símbolos
   language_code: spa
@@ -64,16 +69,18 @@ spa:
     que no dependen de las propiedades de los objetos geográficos
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19117:2012
     clause: '4.23'
     link: https://www.iso.org/standard/46226.html
   date_accepted: 2012-12-15 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: función de representación
+    normative_status: preferred
 swe:
   id: 1269
-  term: symboliseringsfunktion
   definition: funktion som åstadkommer symbolisering av geodataobjekt av en viss objekttyp
   country_code: swe
   language_code: swe
@@ -82,7 +89,6 @@ swe:
     not dependent on geographic feature properties.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19117:2012
     clause: '4.23'
@@ -90,3 +96,7 @@ swe:
   lineage_source: "(Type reference to national language document)"
   date_accepted: 2012-12-15 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: symboliseringsfunktion
+    normative_status: preferred

@@ -3,7 +3,6 @@ term: geodetic longitude
 termid: 201
 eng:
   id: 201
-  term: geodetic longitude
   abbrev: l
   synonyms: ellipsoidal longitude
   definition: angle from the prime meridian plane to the meridian plane of a given
@@ -12,7 +11,6 @@ eng:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
@@ -21,9 +19,12 @@ eng:
   lineage_source_similarity: 1
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: geodetic longitude
+    normative_status: preferred
 ara:
   id: 201
-  term: خط الطول الجيوديسي
   abbrev: l
   synonyms: ellipsoidal longitude
   definition: زاوية من مستوى خط الطول الأساسي (غرينتش) ومستوى خط الزوال الرأسي لنقطة
@@ -32,16 +33,18 @@ ara:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: خط الطول الجيوديسي
+    normative_status: preferred
 chi:
   id: 201
-  term: 大地经度
   abbrev: l
   synonyms: ellipsoidal longitude
   definition: 首子午面与通过给定点子午线面间的夹角，向东为正。
@@ -49,15 +52,17 @@ chi:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: 大地经度
+    normative_status: preferred
 dan:
   id: 201
-  term: geodætisk længde
   abbrev: λ
   definition: vinkel fra hovedmeridianplanet til et givet punkts meridianplan, hvor
     øst regnes positiv
@@ -69,9 +74,12 @@ dan:
     link: https://www.iso.org/standard/41126.html
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: geodætisk længde
+    normative_status: 
 dut:
   id: 201
-  term: geodetische lengte
   abbrev: l
   synonyms: ellipsoïde lengte
   definition: hoek vanaf het vlak van de nulmeridiaan tot het meridiaan vlak van een
@@ -80,16 +88,18 @@ dut:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: geodetische lengte
+    normative_status: preferred
 fin:
   id: 201
-  term: geodeettinen pituusaste
   abbrev: λ
   synonyms: ellipsoidinen longitudi
   definition: kulma nollameridiaanitasosta pisteen meridiaanitasoon ; positiivinen
@@ -98,7 +108,6 @@ fin:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
@@ -106,9 +115,12 @@ fin:
   lineage_source: 'Sanastokeskus TSK: Geoinformatiikan sanasto (TSK 45), 2013 (sovellettu);
     Maanmittauslaitos'
   date_accepted: 2013-07-03 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: geodeettinen pituusaste
+    normative_status: preferred
 fra:
   id: 201
-  term: longitude géodésique
   synonyms: ellipsoidal longitude
   definition: angle entre le plan méridien de référence et le plan méridien passant
     par un point donné, orienté positivement vers l'est
@@ -116,16 +128,18 @@ fra:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19111
     link: https://www.iso.org/standard/74039.html
   lineage_source: ISO 19111:2003
   lineage_source_similarity: 1
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: longitude géodésique
+    normative_status: preferred
 ger:
   id: 201
-  term: geodätische Länge
   abbrev: l
   synonyms: ellipsoidal longitude
   definition: Winkel von der Nullmeridianebene zur Meridianebene eines des gegebenen
@@ -134,23 +148,24 @@ ger:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: geodätische Länge
+    normative_status: preferred
 kor:
   id: 201
-  term: 측지 경도
   abbrev: l
   definition: 본초 자오선과 주어진 점의 자오선이 이루는 각도(λ)로써 동으로 향하는 것을 정(+)으로 함
   language_code: kor
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
@@ -158,9 +173,12 @@ kor:
   lineage_source: KS X ISO 19111
   date_accepted: 2007-11-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: 측지 경도
+    normative_status: preferred
 pol:
   id: 201
-  term: długość geodezyjna, długość elipsoidalna
   abbrev: l
   synonyms: długość elipsoidalna
   definition: "'kąt dwuścienny między płaszczyzną południka początkowego i płaszczyzną
@@ -168,16 +186,18 @@ pol:
   language_code: pol
   notes: []
   examples: []
-  classification: preferred
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   lineage_source: PN-EN ISO 19111
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: długość geodezyjna, długość elipsoidalna
+    normative_status: preferred
 rus:
   id: 201
-  term: геодезическая долгота
   abbrev: L
   synonyms: элипсоидальная высота
   definition: двугранный угол между плоскостями начального меридиана и меридиана данной
@@ -186,16 +206,18 @@ rus:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   lineage_source: ГОСТ Р 52572-2006
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: геодезическая долгота
+    normative_status: preferred
 spa:
   id: 201
-  term: longitud geodésica
   abbrev: l
   synonyms: longitud elipsoidal
   definition: ángulo que forma el plano meridiano principal con el plano meridiano
@@ -204,16 +226,18 @@ spa:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
     link: https://www.iso.org/standard/41126.html
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: longitud geodésica
+    normative_status: preferred
 swe:
   id: 201
-  term: geodetisk longitud
   abbrev: l
   synonyms: ellipsoidal longitude
   definition: |-
@@ -224,7 +248,6 @@ swe:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2007
@@ -233,3 +256,7 @@ swe:
   lineage_source_similarity: 1
   date_accepted: 2003-02-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: geodetisk longitud
+    normative_status: preferred

@@ -3,7 +3,6 @@ term: data property <OWL>
 termid: 1583
 eng:
   id: 1583
-  term: data property <OWL>
   definition: semantic association between an individual and a typed literal
   language_code: eng
   notes:
@@ -11,7 +10,6 @@ eng:
     Logic.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: OWL
   lineage_source: ISO 19150-2:2015, 4.1.17
@@ -23,9 +21,12 @@ eng:
   review_decision_event: Normal ISO processing
   review_decision_notes: Publication of document ISO 19150-2:2015(E)
   release: '4'
+  terms:
+  - type: expression
+    designation: data property <OWL>
+    normative_status: preferred
 spa:
   id: 1583
-  term: propiedad de los datos <OWL>
   definition: asociación semántica entre un individuo y un escrito literal
   language_code: spa
   notes:
@@ -33,7 +34,6 @@ spa:
     en la Descripción Lógica.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: OWL
   lineage_source: ISO 19150-2:2015, 4.1.17
@@ -45,3 +45,7 @@ spa:
   review_decision_event: Normal ISO processing
   review_decision_notes: Publication of document ISO 19150-2:2015(E)
   release: '4'
+  terms:
+  - type: expression
+    designation: propiedad de los datos <OWL>
+    normative_status: preferred

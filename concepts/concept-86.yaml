@@ -3,7 +3,6 @@ term: convex hull
 termid: 86
 eng:
   id: 86
-  term: convex hull
   definition: smallest convex set containing a given geometric object
   language_code: eng
   notes:
@@ -12,7 +11,6 @@ eng:
     the geometric object".'
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: Dictionary of Computing
@@ -21,9 +19,12 @@ eng:
   lineage_source_similarity: 1
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: convex hull
+    normative_status: preferred
 ara:
   id: 86
-  term: هيكل محدَّب
   definition: أصغر مجموعة محدَّبة تحتوي على جسم هندسي محدَّد
   language_code: ara
   notes:
@@ -32,31 +33,35 @@ ara:
     المجموعات المحدَّبة التي تحتوي الكيان الهندسي".'
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: Dictionary of Computing
     clause: Fourth Edition, Oxford University Press
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: هيكل محدَّب
+    normative_status: preferred
 chi:
   id: 86
-  term: 凸包
   definition: 包含给定的几何对象的最小凸集。
   language_code: chi
   notes:
   - "“最小”是集合理论上最小，并不是指尺度上。这个定义也可以重写为“包含所给定的几何元素的所有凸集的并集”。"
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: Dictionary of Computing
     clause: Fourth Edition, Oxford University Press
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: 凸包
+    normative_status: preferred
 dan:
   id: 86
-  term: konvekst hylster
   definition: mindste konvekse mængde, der kan indeholde et givet geometrisk objekt
   language_code: dan
   notes: []
@@ -66,9 +71,12 @@ dan:
     clause: Fourth Edition, Oxford University Press, 1996
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: konvekst hylster
+    normative_status: 
 fin:
   id: 86
-  term: konveksi peite
   synonyms: konveksi verho
   definition: pienin konveksi joukko, joka sisältää annetun geometrisen objektin
   language_code: fin
@@ -78,31 +86,35 @@ fin:
     konveksien joukkojen leikkaus".
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: Dictionary of Computing
     clause: Fourth Edition, Oxford University Press
   lineage_source: 'Sanastokeskus TSK: Geoinformatiikan sanasto (TSK 32), 2005; Maanmittauslaitos'
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: konveksi peite
+    normative_status: preferred
 fra:
   id: 86
-  term: enveloppe convexe
   definition: plus petit ensemble convexe contenant un objet géométrique donné
   language_code: fra
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: Dictionary of Computing
     clause: Fourth Edition, Oxford University Press
   lineage_source: ISO 19107
   lineage_source_similarity: 1
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: enveloppe convexe
+    normative_status: preferred
 ger:
   id: 86
-  term: konvexe Hülle
   language_code: ger
   notes:
   - '"Smallest" is the set theoretic smallest, not an indication of a measurement.
@@ -110,16 +122,18 @@ ger:
     the geometric object".'
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: Dictionary of Computing
     clause: Fourth Edition, Oxford University Press
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: konvexe Hülle
+    normative_status: preferred
 kor:
   id: 86
-  term: 볼록 외곽
   definition: 기하 객체를 포함하는 최소의 볼록 집합
   language_code: kor
   notes:
@@ -127,7 +141,6 @@ kor:
     재정의될 수 있다.'
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: Dictionary of Computing
@@ -135,9 +148,12 @@ kor:
   lineage_source: KS X ISO 19104
   date_accepted: 2008-12-19 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: 볼록 외곽
+    normative_status: preferred
 rus:
   id: 86
-  term: выпуклая оболочка
   definition: наименьшее из выпуклых множеств, содержащее данный геометрический объект
   language_code: rus
   notes:
@@ -146,16 +162,18 @@ rus:
     всех выпуклых множеств, которые содержат геометрический объект»"
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: Dictionary of Computing
     clause: Fourth Edition, Oxford University Press
   lineage_source: Internet
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: выпуклая оболочка
+    normative_status: preferred
 spa:
   id: 86
-  term: cierre convexo
   definition: conjunto convexo más pequeño que contiene un objeto geométrico dado
   language_code: spa
   notes:
@@ -164,15 +182,17 @@ spa:
     convexos que contienen al objeto geométrico"'
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: Dictionary of Computing
     clause: Fourth Edition, Oxford University Press
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: cierre convexo
+    normative_status: preferred
 swe:
   id: 86
-  term: konvext hölje
   definition: den minsta konvexa mängden som innehåller ett givet geometriskt objekt
   country_code: swe
   language_code: swe
@@ -182,7 +202,6 @@ swe:
     the geometric object".'
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: Dictionary of Computing
@@ -191,3 +210,7 @@ swe:
   lineage_source_similarity: 1
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: konvext hölje
+    normative_status: preferred
