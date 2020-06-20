@@ -1,0 +1,33 @@
+---
+term: least upper bound <mathematics>
+termid: 2071
+eng:
+  id: 2071
+  term: least upper bound <mathematics>
+  abbrev: lub <mathematics>
+  synonyms: maximum <mathematics>
+  definition: smallest element larger than or equal to all elements of a set contained
+    in an ordered domain <<math>>
+  language_code: eng
+  notes:
+  - $[\forall a \in A \implies max(A) \geq a] \implies [\forall b \ni [(b \ni [\forall
+    a \in A \implies b \geq a] \implies [max(a) \leq b]]$ Any number is an upper bound
+    of $\emptyset$ (empty set) as a set of numbers, because any given number is greater
+    than any number in $\emptyset$ (an admitted vacuous statement since there is no
+    number in $\emptyset$, but true nonetheless). This means that the $max(\emptyset)$
+    must be smaller than any number; thus "$-\infty$".
+  examples: []
+  entry_status: valid
+  classification: admitted
+  authoritative_source:
+    ref: ISO 19107:2019
+    clause: "(E), 3.60"
+    link: https://www.iso.org/standard/66175.html
+  date_accepted: 2019-12-02 00:00:00.000000000 +08:00
+  review_date: 2019-12-02 00:00:00.000000000 +08:00
+  review_status: final
+  review_decision: accepted
+  review_decision_date: 2019-12-02 00:00:00.000000000 +08:00
+  review_decision_event: Normal ISO processing
+  review_decision_notes: Publication of document ISO 19107:2019(E)
+  release: '5'

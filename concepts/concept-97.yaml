@@ -47,11 +47,11 @@ ara:
     link: https://www.iso.org/standard/32551.html
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
   release: '1'
-chi:
+zho:
   id: 97
   term: 成本函数
   definition: 与路径关联的成本的函数。
-  language_code: chi
+  language_code: zho
   notes:
   - 通常的做法是给路径的每一部分赋一个成本值，把总路径成本值定义为各部分成本的总和。这一函数对于大多数常用导航算法的运算是很有必要的。成本函数的单位不仅局限于货币的成本和价值，而且还包括诸如时间、距离和其他可能的度量。惟一的要求是函数为增加的，并且至少是非负的。非负这一要求可以弱化为与网络中任意环路相关的成本值非零或非负，以证明“最小成本”的路径存在。
   examples: []
@@ -119,10 +119,10 @@ fra:
   lineage_source: ''
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
   review_decision_event: ''
-ger:
+deu:
   id: 97
   term: Kostenfunktion
-  language_code: ger
+  language_code: deu
   notes:
   - The normal mechanism is to apply a cost to each part of a route, and to define
     the total route cost as the sum of the cost of the parts. This is necessary for

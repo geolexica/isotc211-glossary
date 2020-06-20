@@ -1,0 +1,34 @@
+---
+term: coordinate dimension <coordinate geometry>
+termid: 2039
+eng:
+  id: 2039
+  term: coordinate dimension <coordinate geometry>
+  definition: number of separate decisions needed to describe a position in a coordinate
+    system
+  language_code: eng
+  notes:
+  - The coordinate dimension represents the number of choices made, and constraints
+    can restrict choices. A barycentric coordinate which has (n+1)-offsets, but the
+    underlying space is dimension n. Homogeneous coordinates (wx, wy, wz, w) are actually
+    3 dimensional because the choice of "w" does not affect the position, i.e. (wx,
+    wy, wz, w) = (x y, z, 1) → (x, y, z) which is not affected by w. The dimension
+    will be at most the count of the numbers in the coordinate, but it can be less
+    if the coordinates are constrained in some manner.asie
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: ISO 19107:2019
+    clause: "(E), 3.17"
+    link: https://www.iso.org/standard/66175.html
+  date_accepted: 2019-12-02 00:00:00.000000000 +08:00
+  review_date: 2019-12-02 00:00:00.000000000 +08:00
+  review_status: final
+  review_type: supersession
+  review_decision: accepted
+  review_decision_date: 2019-12-02 00:00:00.000000000 +08:00
+  review_decision_event: Publication of document ISO 19107:2019(E)
+  review_decision_notes: This entry supersedes the entry for coordinate dimension
+    in ISO 19107:2003(E)
+  release: '5'

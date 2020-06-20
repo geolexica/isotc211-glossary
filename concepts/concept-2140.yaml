@@ -1,0 +1,33 @@
+---
+term: rendering parameter
+termid: 2140
+eng:
+  id: 2140
+  term: rendering parameter
+  definition: information item that defines the context for postal address rendering
+  language_code: eng
+  notes:
+  - This includes guiding of rendering of postal addresses on an external medium,
+    such as labels, data files or screens
+  - Rendering parameters are specified in 8.2.
+  - Rendering parameters do not appear in the rendered postal address, but guide or
+    define the rendition process.
+  examples:
+  - "\tWhen the despatching country and delivering country of the postal item differ,
+    it is cross-border mailing and the full name of the delivering country is required
+    on the last line of the rendered address. Otherwise, it is domestic mailing and
+    the name of the country is not required on the rendered address."
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: ISO 19160-4:2017
+    clause: "(E), 3.25"
+    link: https://www.iso.org/standard/64242.html
+  date_accepted: 2017-11-15 00:00:00.000000000 +08:00
+  review_date: 2017-11-15 00:00:00.000000000 +08:00
+  review_status: final
+  review_decision: accepted
+  review_decision_date: 2017-11-15 00:00:00.000000000 +08:00
+  review_decision_event: Normal ISO processing
+  review_decision_notes: Publication of document ISO 19160-4:2017(E)
+  release: '5'
