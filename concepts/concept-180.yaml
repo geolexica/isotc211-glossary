@@ -3,6 +3,7 @@ term: feature substitution
 termid: 180
 eng:
   id: 180
+  term: feature substitution
   definition: feature succession in which one feature instance is replaced by another
     feature instance of the same or different feature type
   language_code: eng
@@ -11,18 +12,16 @@ eng:
   - An instance of feature type "building" is razed and replaced by an instance of
     feature type "parking lot."
   entry_status: valid
+  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19108:2002
     link: https://www.iso.org/standard/26013.html
   date_accepted: 2002-09-01 00:00:00.000000000 +08:00
   release: '1'
-  terms:
-  - type: expression
-    designation: feature substitution
-    normative_status: preferred
 ara:
   id: 180
+  term: استبدال المعالم
   definition: تعاقب  للمعالم يتم فيه استبدال حاله معلم ما بحاله اخرى لنفس نوع المعلم
     او نوع مختلف اخر
   language_code: ara
@@ -30,35 +29,31 @@ ara:
   examples:
   - نظير نوع المعلم "مبنى" يزال ويستبدل بنظير آخر لنوع المعلم هو "مواقف سيارات".
   entry_status: valid
+  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19108:2002
     link: https://www.iso.org/standard/26013.html
   date_accepted: 2002-09-01 00:00:00.000000000 +08:00
   release: '1'
-  terms:
-  - type: expression
-    designation: استبدال المعالم
-    normative_status: preferred
 chi:
   id: 180
+  term: 要素置换
   definition: 一个要素实例被另一个相同或不同要素类型的要素实例所取代的一种要素更替。
   language_code: chi
   notes: []
   examples:
   - 要素类型为“建筑物”的一个实例，在其被拆除后，被替换为要素类型为“停车场”的实例。
   entry_status: valid
+  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19108:2002
     link: https://www.iso.org/standard/26013.html
   date_accepted: 2002-09-01 00:00:00.000000000 +08:00
-  terms:
-  - type: expression
-    designation: 要素置换
-    normative_status: preferred
 dan:
   id: 180
+  term: featuresubstitution
   definition: featureerstatning, hvor én featureinstans erstattes af en anden featureinstans
     af samme eller af en anden featuretype
   language_code: dan
@@ -71,12 +66,9 @@ dan:
     link: https://www.iso.org/standard/26013.html
   date_accepted: 2002-09-01 00:00:00.000000000 +08:00
   release: '1'
-  terms:
-  - type: expression
-    designation: featuresubstitution
-    normative_status: 
 fin:
   id: 180
+  term: kohteen korvaaminen
   definition: yliluokan kohteen vaihtaminen perintähierarkiassa aliluokkaan kuuluvaan
     kohteeseen
   language_code: fin
@@ -85,71 +77,63 @@ fin:
   - Kohdetyyppiin rakennus kuuluva ilmentymä tuhotaan ja korvataan kohdetyyppiin pysäköintialue
     kuuluvalla ilmentymällä.
   entry_status: valid
+  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19108:2002
     link: https://www.iso.org/standard/26013.html
   lineage_source: 'Sanastokeskus TSK: Geoinformatiikan sanasto (TSK 42), 2011'
   date_accepted: 2002-09-01 00:00:00.000000000 +08:00
-  terms:
-  - type: expression
-    designation: kohteen korvaaminen
-    normative_status: preferred
 fra:
   id: 180
+  term: substitution d'entité
   definition: succesion d'entités dans laquelle une instance d'entité est remplacée
     par une autre instance d'entité de type identique ou différent
   language_code: fra
   notes: []
   examples: []
   entry_status: valid
+  classification: preferred
   authoritative_source:
     ref: ISO 19108
     link: https://www.iso.org/standard/26013.html
   lineage_source: ''
   date_accepted: 2002-09-01 00:00:00.000000000 +08:00
-  terms:
-  - type: expression
-    designation: substitution d'entité
-    normative_status: preferred
 ger:
   id: 180
+  term: Ersetzen eines Feature
   language_code: ger
   notes: []
   examples:
   - An instance of feature type "building" is razed and replaced by an instance of
     feature type "parking lot."
   entry_status: valid
+  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19108:2002
     link: https://www.iso.org/standard/26013.html
   date_accepted: 2002-09-01 00:00:00.000000000 +08:00
   release: '1'
-  terms:
-  - type: expression
-    designation: Ersetzen eines Feature
-    normative_status: preferred
 jpn:
   id: 180
+  term: 地物置換
   definition: 一つの地物インスタンスが同じ又は異なる型の別の地物インスタンスへ置き換わる地物継起。
   language_code: jpn
   notes: []
   examples:
   - "　地物型“建物”のインスタンスが取り壊されて，地物型“駐車場”のインスタンスに置き換わる。"
   entry_status: valid
+  classification: preferred
   authoritative_source:
     ref: ISO 19108:2002
     link: https://www.iso.org/standard/26013.html
   lineage_source: JIS X 7108
   date_accepted: 2002-09-01 00:00:00.000000000 +08:00
   release: '1'
-  terms:
-  - type: expression
-    designation: 地物置換
-    normative_status: preferred
 kor:
   id: 180
+  term: 지형지물 치환
   synonyms: 피처 치환
   definition: 하나의 피처 인스턴스가 동일한 피처 유형 또는 다른 피처유형을 갖는 인스턴스로 바뀌는 피처 갱신
   language_code: kor
@@ -157,6 +141,7 @@ kor:
   examples:
   - 피처 유형이 "빌딩"인 인스턴스를 없애고 피처 유형이 "주차 부지" 인 인스턴스로의 대체
   entry_status: valid
+  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19108:2002
@@ -164,12 +149,9 @@ kor:
   lineage_source: KS X ISO 19108
   date_accepted: 2007-11-01 00:00:00.000000000 +08:00
   release: '1'
-  terms:
-  - type: expression
-    designation: 지형지물 치환
-    normative_status: preferred
 pol:
   id: 180
+  term: zastąpienie obiektu
   definition: sukcesja obiektu, w której jedna instancja obiektu jest zastępowana
     inną instancją obiektu tego samego lub innego typu obiektu
   language_code: pol
@@ -177,18 +159,16 @@ pol:
   examples:
   - Instancja obiektu typu 'budynek' zostaje zniszczona i zastąpiona instancją obiektu
     typu "działka z przeznaczeniem na parking".
+  classification: preferred
   authoritative_source:
     ref: ISO 19108:2002
     link: https://www.iso.org/standard/26013.html
   lineage_source: PN-EN ISO 19108
   date_accepted: 2002-09-01 00:00:00.000000000 +08:00
   release: '1'
-  terms:
-  - type: expression
-    designation: zastąpienie obiektu
-    normative_status: preferred
 rus:
   id: 180
+  term: замещение пространственного объекта
   definition: замена пространственного объекта, при которой один экземпляр пространственного
     объекта замещается другим экземпляром того же или другого типа
   language_code: rus
@@ -197,18 +177,16 @@ rus:
   - Экземпляр типа объекта "здание" удаляется и заменяется экземпляром типа объекта
     "парковочная стоянка"
   entry_status: valid
+  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19108:2002
     link: https://www.iso.org/standard/26013.html
   lineage_source: Internet
   date_accepted: 2002-09-01 00:00:00.000000000 +08:00
-  terms:
-  - type: expression
-    designation: замещение пространственного объекта
-    normative_status: preferred
 spa:
   id: 180
+  term: sustitución de objetos geográficos
   definition: sucesión de objetos geográficos en la que una instancia de objeto geográfico
     se sustituye por otra del mismo o de diferente tipo
   language_code: spa
@@ -217,17 +195,15 @@ spa:
   - Una instancia del tipo de objeto geográfico "edificio" se arrasa, y se sustituye
     por otra instancia del tipo "aparcamiento".
   entry_status: valid
+  classification: preferred
   authoritative_source:
     ref: ISO 19108:2002
     link: https://www.iso.org/standard/26013.html
   date_accepted: 2002-09-01 00:00:00.000000000 +08:00
   release: '1'
-  terms:
-  - type: expression
-    designation: sustitución de objetos geográficos
-    normative_status: preferred
 swe:
   id: 180
+  term: objektsutbyte
   definition: objektförändring där ett objekt ersätts med ett annat objekt
   country_code: swe
   language_code: swe
@@ -236,6 +212,7 @@ swe:
   - An instance of feature type "building" is razed and replaced by an instance of
     feature type "parking lot."
   entry_status: valid
+  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19108:2002
@@ -243,7 +220,3 @@ swe:
   lineage_source: "(Type reference to national language document)"
   date_accepted: 2002-09-01 00:00:00.000000000 +08:00
   release: '1'
-  terms:
-  - type: expression
-    designation: objektsutbyte
-    normative_status: preferred

@@ -3,6 +3,7 @@ term: main-road rule
 termid: 280
 eng:
   id: 280
+  term: main-road rule
   definition: set of criteria used at a turn in lieu of a route instruction; default
     instruction used at a node
   language_code: eng
@@ -15,18 +16,16 @@ eng:
     rule.
   examples: []
   entry_status: valid
+  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
     link: https://www.iso.org/standard/32551.html
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
   release: '1'
-  terms:
-  - type: expression
-    designation: main-road rule
-    normative_status: preferred
 ara:
   id: 280
+  term: قاعدة الطريق الرئيسي
   definition: مجموعة معايير تستخدم عند منحنى بديلا من إرشادات الطريق ؛ إرشادات افتراضية
     تستخدم عند عقدة أو مفترق
   language_code: ara
@@ -38,35 +37,31 @@ ara:
     إما أن تكون مرتبطة بتعليمات خاصة بها أو يمكن عبورها ملاحياً بقاعدة الطريق الرئيسي.'
   examples: []
   entry_status: valid
+  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
     link: https://www.iso.org/standard/32551.html
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
   release: '1'
-  terms:
-  - type: expression
-    designation: قاعدة الطريق الرئيسي
-    normative_status: preferred
 chi:
   id: 280
+  term: 主路规则
   definition: 在转向处采用的路径指令准则；在结点处采用的缺省指令。
   language_code: chi
   notes:
   - 假设已经确定入口路段，这一规则描述了在结点（交叉口）处“最自然”的做法。最常见的规则是“尽可能直行”，或者选择进入最明显延伸方向的街道入口，通常情况下进出路口的两条街道名称相同，但也并非总是这样。在路径上的每一个结点的导航要么采用节点的相关指令，要么采用主路规则。
   examples: []
   entry_status: valid
+  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
     link: https://www.iso.org/standard/32551.html
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
-  terms:
-  - type: expression
-    designation: 主路规则
-    normative_status: preferred
 fin:
   id: 280
+  term: kulkemisen pääsääntö
   definition: kriteeristö, jota käytetään käännöksessä reittiohjeistuksen sijasta;
     solmupisteessä käytettävä oletusohjeistus
   language_code: fin
@@ -79,35 +74,31 @@ fin:
     käyttäen pääsääntöä.
   examples: []
   entry_status: valid
+  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
     link: https://www.iso.org/standard/32551.html
   lineage_source: Ei lähdettä, käännetty
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
-  terms:
-  - type: expression
-    designation: kulkemisen pääsääntö
-    normative_status: preferred
 fra:
   id: 280
+  term: règle de routage vers route principale
   definition: ensemble de critères utilisés à une intersection comme instruction d'itinéraire;
     instruction par défaut utilisée à un nœud
   language_code: fra
   notes: []
   examples: []
   entry_status: valid
+  classification: preferred
   authoritative_source:
     ref: ISO 19133
     link: https://www.iso.org/standard/32551.html
   lineage_source: ''
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
-  terms:
-  - type: expression
-    designation: règle de routage vers route principale
-    normative_status: preferred
 ger:
   id: 280
+  term: Hauptstraßenregel
   language_code: ger
   notes:
   - This rule represents what is "most natural" to do at a node (intersection), given
@@ -118,18 +109,16 @@ ger:
     rule.
   examples: []
   entry_status: valid
+  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
     link: https://www.iso.org/standard/32551.html
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
   release: '1'
-  terms:
-  - type: expression
-    designation: Hauptstraßenregel
-    normative_status: preferred
 kor:
   id: 280
+  term: 주요 도로 규칙
   definition: 경로 지시 대신에 차량의 회전에 사용되는 기준들의 집합; 절점에 사용된 기본지시
   language_code: kor
   notes:
@@ -138,6 +127,7 @@ kor:
     이름을 가진 거리이다. 하나의 경로에서의 모든 절점은 하나의 지시에 연관되거나, 혹은 주요 도로규칙에 의해 내비게이션될 수 있다.
   examples: []
   entry_status: valid
+  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
@@ -145,12 +135,9 @@ kor:
   lineage_source: KS X ISO 19133
   date_accepted: 2006-12-01 00:00:00.000000000 +08:00
   release: '1'
-  terms:
-  - type: expression
-    designation: 주요 도로 규칙
-    normative_status: preferred
 rus:
   id: 280
+  term: правило главной дороги
   definition: набор критериев, используемый при прохождении поворота взамен путевой
     инструкции;  инструкция, применяемая в узле по умолчанию+I927
   language_code: rus
@@ -164,18 +151,16 @@ rus:
     главной дороги'
   examples: []
   entry_status: valid
+  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
     link: https://www.iso.org/standard/32551.html
   lineage_source: Internet
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
-  terms:
-  - type: expression
-    designation: правило главной дороги
-    normative_status: preferred
 spa:
   id: 280
+  term: regla de la vía principal
   definition: conjunto de criterios usados en un giro en lugar de una instrucción
     de ruta; instrucción por defecto usada en un nodo
   language_code: spa
@@ -188,18 +173,16 @@ spa:
     la regla de la carretera principal..
   examples: []
   entry_status: valid
+  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
     link: https://www.iso.org/standard/32551.html
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
   release: '1'
-  terms:
-  - type: expression
-    designation: regla de la vía principal
-    normative_status: preferred
 swe:
   id: 280
+  term: huvudvägval
   definition: kriterier som gäller i en sväng i stället för ruttinstruktionen; förutbestämd
     instruktion i en nod
   country_code: swe
@@ -218,6 +201,7 @@ swe:
     rutt är antingen förkninppad med en instruktion eller navigerad med huvudvägval.
   examples: []
   entry_status: valid
+  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
@@ -225,7 +209,3 @@ swe:
   lineage_source: "(Type reference to national language document)"
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
   release: '1'
-  terms:
-  - type: expression
-    designation: huvudvägval
-    normative_status: preferred

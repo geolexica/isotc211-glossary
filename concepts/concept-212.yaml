@@ -3,6 +3,7 @@ term: geometric complex
 termid: 212
 eng:
   id: 212
+  term: geometric complex
   definition: set of disjoint geometric primitives where the boundary of each geometric
     primitive can be represented as the union of other geometric primitives of smaller
     dimension within the same set
@@ -19,18 +20,16 @@ eng:
     any object is a cycle.
   examples: []
   entry_status: valid
+  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
     link: https://www.iso.org/standard/26012.html
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
   release: '1'
-  terms:
-  - type: expression
-    designation: geometric complex
-    normative_status: preferred
 ara:
   id: 212
+  term: مركب هندسي
   definition: مجموعة من العناصر الهندسية البدائية غير المترابطة يتم فيها تمثيل حدود
     كل عنصر هندسي بسيط على أنه توحيد للعناصر الهندسية البسيطة الأخرى ذات البعد الأصغر
     ضمن نفس المجموعة .
@@ -46,35 +45,31 @@ ara:
     حدود أي كيان هي عبارة عن دورة .
   examples: []
   entry_status: valid
+  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
     link: https://www.iso.org/standard/26012.html
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
   release: '1'
-  terms:
-  - type: expression
-    designation: مركب هندسي
-    normative_status: preferred
 chi:
   id: 212
+  term: 几何复形
   definition: 分离的几何单形的集合，其每一个几何单形的边界都可以表达为该集合内其他维数更低的几何单形的联合。
   language_code: chi
   notes:
   - 集合中的几何单形是分离的，意味着没有一个直接位置能同时在两个或两个以上的几何单形的内部。集合在边界操作中闭合，意味着几何复形中的每一个元素，存在一个代表该元素边界的几何单形的集合（也就是一个几何复形）。回想一下，点（几何中惟一的0维单形对象）的边界是空。这样，如果最高维的几何单形是体（三维），按照这个定义，边界算子的运算最多3步结束。这就是任何对象的边界是一个圈（cycle)的情形。
   examples: []
   entry_status: valid
+  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
     link: https://www.iso.org/standard/26012.html
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
-  terms:
-  - type: expression
-    designation: 几何复形
-    normative_status: preferred
 dan:
   id: 212
+  term: geometrisk kompleks
   definition: mængde af adskilte geometriske grundformer, hvor afgrænsningen af hver
     geometrisk grundform kan repræsenteres som aggregeringen af andre geometriske
     grundformer af mindre størrelse inden for samme mængde
@@ -95,12 +90,9 @@ dan:
     link: https://www.iso.org/standard/26012.html
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
   release: '1'
-  terms:
-  - type: expression
-    designation: geometrisk kompleks
-    normative_status: 
 fin:
   id: 212
+  term: geometrinen kompleksi
   definition: joukko käsitteellisesti erillisiä geometrisiä primitiivejä, joista jokaisen
     rajaus voidaan esittää samaan joukkoon kuuluvien alemman ulottuvuuden geometristen
     primitiivien yhdistelmänä
@@ -117,18 +109,16 @@ fin:
     jälkeen. Jokaisen objektin rajaus on silmukka.
   examples: []
   entry_status: valid
+  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
     link: https://www.iso.org/standard/26012.html
   lineage_source: 'Sanastokeskus TSK: Geoinformatiikan sanasto (TSK 32), 2005'
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
-  terms:
-  - type: expression
-    designation: geometrinen kompleksi
-    normative_status: preferred
 fra:
   id: 212
+  term: complexe géométrique
   definition: jeu de primitives géométriques disjointes où la frontière de chaque
     primitive géométrique peut être représentée comme l'union d'autres primitives
     géométriques de dimension inférieure dans le même jeu
@@ -136,17 +126,15 @@ fra:
   notes: []
   examples: []
   entry_status: valid
+  classification: preferred
   authoritative_source:
     ref: ISO 19107
     link: https://www.iso.org/standard/66175.html
   lineage_source: ''
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
-  terms:
-  - type: expression
-    designation: complexe géométrique
-    normative_status: preferred
 ger:
   id: 212
+  term: Complex geometrischer Elemente
   language_code: ger
   notes:
   - The geometric primitives in the set are disjoint in the sense that no direct position
@@ -160,36 +148,32 @@ ger:
     any object is a cycle.
   examples: []
   entry_status: valid
+  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
     link: https://www.iso.org/standard/26012.html
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
   release: '1'
-  terms:
-  - type: expression
-    designation: Complex geometrischer Elemente
-    normative_status: preferred
 jpn:
   id: 212
+  term: 幾何複体
   definition: 互いに素な幾何プリミティブの集合で，各幾何プリミティブの境界を，その集合の中の，より低い次元の幾何プリミティブの和集合として表すことができるようなもの。
   language_code: jpn
   notes:
   - 集合の中の幾何プリミティブは，複数の幾何プリミティブの内部に存在するような直接位置がないという意味で互いに素である。集合は，境界演算のもとで閉じているが，これは，幾何複体の各要素について，その要素の境界を表す幾何プリミティブの集まり（これも幾何複体となる。）が存在することを意味する。既に述べたように，点（幾何の唯一の零次元プリミティブオブジェクト型）の境界は空集合である。したがって，最も高い次元の幾何プリミティブが立体（三次元）の場合，この定義の境界演算を次々と適用していくと，高々3ステップ後には終結する。また，任意のオブジェクトの境界は輪体となる。
   examples: []
   entry_status: valid
+  classification: preferred
   authoritative_source:
     ref: ISO 19107:2003
     link: https://www.iso.org/standard/26012.html
   lineage_source: JIS X 7107
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
   release: '1'
-  terms:
-  - type: expression
-    designation: 幾何複体
-    normative_status: preferred
 kor:
   id: 212
+  term: 기하 복합체
   synonyms: ''
   definition: 각 기하 원시 객체의 경계가 동일한 집합 내에서 더 낮은 차원의 기하 원시 객체의 합집합으로 표현될 수 있는 기하 원시 객체들의
     집합
@@ -201,6 +185,7 @@ kor:
     이 정의에서 경계 연산자의 합성은 최대 세 단계로 종결된다. 이는 순환 경계를 갖는 모든 객체에 대해서 동일하다.
   examples: []
   entry_status: valid
+  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -208,12 +193,9 @@ kor:
   lineage_source: KS X ISO 19107
   date_accepted: 2009-12-29 00:00:00.000000000 +08:00
   release: '1'
-  terms:
-  - type: expression
-    designation: 기하 복합체
-    normative_status: preferred
 pol:
   id: 212
+  term: złożony element geometryczny, kompleks geometryczny
   definition: zbiór rozłącznych prostych elementów geometrycznych, w którym granica
     każdego prostego elementu geometrycznego może być reprezentowana jako suma innych
     prostych elementów geometrycznych o mniejszym wymiarze, należących do tego samego
@@ -232,18 +214,16 @@ pol:
     najwyżej po trzech krokach. Dotyczy to również przypadku, gdy granicą dowolnego
     obiektu jest cykl
   examples: []
+  classification: preferred
   authoritative_source:
     ref: ISO 19107:2003
     link: https://www.iso.org/standard/26012.html
   lineage_source: PN-EN ISO 19107
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
   release: '1'
-  terms:
-  - type: expression
-    designation: złożony element geometryczny, kompleks geometryczny
-    normative_status: preferred
 rus:
   id: 212
+  term: геометрический комплекс
   definition: множество непересекающихся геометрических примитивов, в котором границы
     каждого   примитива могут быть представлены как объединенение других геометрических
     примитивов меньшей размерности в пределах того же множества
@@ -261,18 +241,16 @@ rus:
     является цикл
   examples: []
   entry_status: valid
+  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
     link: https://www.iso.org/standard/26012.html
   lineage_source: Internet
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
-  terms:
-  - type: expression
-    designation: геометрический комплекс
-    normative_status: preferred
 spa:
   id: 212
+  term: complejo geométrico
   definition: conjunto de primitivas geométricas disjuntas donde la frontera de cada
     primitiva geométrica puede representarse como la unión de otras primitivas geométricas
     de dimensión inferior dentro del mismo conjunto
@@ -290,18 +268,16 @@ spa:
     que el límite es un ciclo.
   examples: []
   entry_status: valid
+  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
     link: https://www.iso.org/standard/26012.html
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
   release: '1'
-  terms:
-  - type: expression
-    designation: complejo geométrico
-    normative_status: preferred
 swe:
   id: 212
+  term: geometriskt komplex
   definition: samling av icke överlappande geometriska grundelement där avgränsningen
     hos varje geometriskt grundelement kan representeras av unionen av andra geometriska
     grundelement av lägre geometrisk dimension som finns i samma samling
@@ -319,6 +295,7 @@ swe:
     any object is a cycle.
   examples: []
   entry_status: valid
+  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -326,7 +303,3 @@ swe:
   lineage_source: "(Type reference to national language document)"
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
   release: '1'
-  terms:
-  - type: expression
-    designation: geometriskt komplex
-    normative_status: preferred

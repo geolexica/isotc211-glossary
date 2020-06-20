@@ -3,6 +3,7 @@ term: falsification test
 termid: 167
 eng:
   id: 167
+  term: falsification test
   definition: test to find errors in the implementation
   language_code: eng
   notes:
@@ -11,18 +12,16 @@ eng:
     necessarily imply the converse.  The falsification test can only demonstrate non-conformance
   examples: []
   entry_status: valid
+  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
     link: https://www.iso.org/standard/26010.html
   date_accepted: 2000-12-15 00:00:00.000000000 +08:00
   release: '1'
-  terms:
-  - type: expression
-    designation: falsification test
-    normative_status: preferred
 ara:
   id: 167
+  term: اختبار الاخطاء
   definition: اختبار لايجاد الأخطاء في التنفيذ
   language_code: ara
   notes:
@@ -31,35 +30,31 @@ ara:
     كشف الاختلال فإن وظيفته هي فقط إثبات عدم المطابقة.
   examples: []
   entry_status: valid
+  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
     link: https://www.iso.org/standard/26010.html
   date_accepted: 2000-12-15 00:00:00.000000000 +08:00
   release: '1'
-  terms:
-  - type: expression
-    designation: اختبار الاخطاء
-    normative_status: preferred
 chi:
   id: 167
+  term: 证伪测试
   definition: 在实现中寻找错误的测试。
   language_code: chi
   notes:
   - 一旦发现错误，即可得出实现不符合标准的结论；然而，没有发现错误并不意味着实现就符合标准。与验证测试相比，证伪测试仅能表明不一致。由于技术和经济原因，在许多情况下，证伪测试作为一致性测试中的一种测试方法而被采纳。
   examples: []
   entry_status: valid
+  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
     link: https://www.iso.org/standard/26010.html
   date_accepted: 2000-12-15 00:00:00.000000000 +08:00
-  terms:
-  - type: expression
-    designation: 证伪测试
-    normative_status: preferred
 dan:
   id: 167
+  term: fejlfindingstest
   definition: test med det formål at finde fejl i implementeringen
   language_code: dan
   notes:
@@ -72,12 +67,9 @@ dan:
     link: https://www.iso.org/standard/26010.html
   date_accepted: 2000-12-15 00:00:00.000000000 +08:00
   release: '1'
-  terms:
-  - type: expression
-    designation: fejlfindingstest
-    normative_status: 
 fin:
   id: 167
+  term: kumoamistesti
   definition: testi, jonka tarkoituksena on löytää toteutuksen virheet
   language_code: fin
   notes:
@@ -87,34 +79,30 @@ fin:
     etteivät tietyt vaatimukset täyty.
   examples: []
   entry_status: valid
+  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
     link: https://www.iso.org/standard/26010.html
   lineage_source: Internet
   date_accepted: 2000-12-15 00:00:00.000000000 +08:00
-  terms:
-  - type: expression
-    designation: kumoamistesti
-    normative_status: preferred
 fra:
   id: 167
+  term: test de déverminage
   definition: test destiné à trouver des erreurs dans une implémentation
   language_code: fra
   notes: []
   examples: []
   entry_status: valid
+  classification: preferred
   authoritative_source:
     ref: ISO 19105
     link: https://www.iso.org/standard/26010.html
   lineage_source: ''
   date_accepted: 2000-11-16 00:00:00.000000000 +08:00
-  terms:
-  - type: expression
-    designation: test de déverminage
-    normative_status: preferred
 ger:
   id: 167
+  term: Fehlertest
   language_code: ger
   notes:
   - If errors are found, one can correctly deduce that the implementation does not
@@ -122,36 +110,32 @@ ger:
     necessarily imply the converse.  The falsification test can only demonstrate non-conformance
   examples: []
   entry_status: valid
+  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
     link: https://www.iso.org/standard/26010.html
   date_accepted: 2000-12-15 00:00:00.000000000 +08:00
   release: '1'
-  terms:
-  - type: expression
-    designation: Fehlertest
-    normative_status: preferred
 jpn:
   id: 167
+  term: 不具合試験
   definition: 実装の誤りを見つけるための試験方法。
   language_code: jpn
   notes:
   - 誤りが見つかった場合には，その実装は規格に適合しないと正しく結論できるが， 誤りが見つからない場合は，必ずしも規格と適合していることを意味しない。不具合試験は，不適合の論証だけをすることができる。検証試験と比較のこと。技術的及び経済的な問題から，たいていの場合，適合性試験のための試験方法として，不具合試験を採用する。
   examples: []
   entry_status: valid
+  classification: preferred
   authoritative_source:
     ref: ISO 19105:2000
     link: https://www.iso.org/standard/26010.html
   lineage_source: JIS X 7105
   date_accepted: 2000-12-15 00:00:00.000000000 +08:00
   release: '1'
-  terms:
-  - type: expression
-    designation: 不具合試験
-    normative_status: preferred
 kor:
   id: 167
+  term: 오류 검증 시험
   definition: 구현 결과물에 대한 오류를 찾기 위한 시험
   language_code: kor
   notes:
@@ -160,6 +144,7 @@ kor:
     시험에 사용된다.
   examples: []
   entry_status: valid
+  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
@@ -167,12 +152,9 @@ kor:
   lineage_source: KS X ISO 19105
   date_accepted: 2007-06-29 00:00:00.000000000 +08:00
   release: '1'
-  terms:
-  - type: expression
-    designation: 오류 검증 시험
-    normative_status: preferred
 rus:
   id: 167
+  term: тест на искажения
   definition: тест для отыскания ошибок в реализации
   language_code: rus
   notes:
@@ -181,18 +163,16 @@ rus:
     означает обратное.  Тест на искажения  может только выявить несоответствие
   examples: []
   entry_status: valid
+  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
     link: https://www.iso.org/standard/26010.html
   lineage_source: Internet
   date_accepted: 2000-12-15 00:00:00.000000000 +08:00
-  terms:
-  - type: expression
-    designation: тест на искажения
-    normative_status: preferred
 spa:
   id: 167
+  term: prueba de falsedad
   definition: prueba para encontrar errores en la implementación
   language_code: spa
   notes:
@@ -202,17 +182,15 @@ spa:
     la no-conformidad.
   examples: []
   entry_status: valid
+  classification: preferred
   authoritative_source:
     ref: ISO 19105:2000
     link: https://www.iso.org/standard/26010.html
   date_accepted: 2000-12-15 00:00:00.000000000 +08:00
   release: '1'
-  terms:
-  - type: expression
-    designation: prueba de falsedad
-    normative_status: preferred
 swe:
   id: 167
+  term: felsökningstetst
   definition: test i avsikt att finna eventuella fel
   country_code: swe
   language_code: swe
@@ -222,6 +200,7 @@ swe:
     necessarily imply the converse.  The falsification test can only demonstrate non-conformance
   examples: []
   entry_status: valid
+  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
@@ -229,7 +208,3 @@ swe:
   lineage_source: "(Type reference to national language document)"
   date_accepted: 2000-12-15 00:00:00.000000000 +08:00
   release: '1'
-  terms:
-  - type: expression
-    designation: felsökningstetst
-    normative_status: preferred

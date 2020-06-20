@@ -7,7 +7,7 @@ all: tc211-termbase.yaml tc211-termbase.meta.yaml concepts
 clean:
 	rm -rf tc211-termbase.xlsx tc211-termbase.yaml tc211-termbase.meta.yaml
 
-distclean:
+distclean: clean
 	rm -rf concepts
 
 tc211-termbase.xlsx:
