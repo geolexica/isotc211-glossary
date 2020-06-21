@@ -3,7 +3,6 @@ term: coordinate conversion
 termid: 2350
 eng:
   id: 2350
-  term: coordinate conversion
   definition: coordinate operation that changes coordinates in a source coordinate
     reference system to coordinates in a target coordinate reference system in which
     both coordinate reference systems are based on the same datum
@@ -14,7 +13,6 @@ eng:
   - A mapping of ellipsoidal coordinates to Cartesian coordinates using a map projection.
   - Change of units such as from radians to degrees or from feet to metres.
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19111:2019
     clause: "(E), 3.1.6"
@@ -29,3 +27,7 @@ eng:
   review_decision_notes: This entry supersedes the entry for coordinate conversion
     in ISO 19111:2007(E)
   release: '5'
+  terms:
+  - type: expression
+    designation: coordinate conversion
+    normative_status: preferred

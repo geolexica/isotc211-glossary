@@ -3,7 +3,6 @@ term: pushbroom sensor
 termid: 963
 eng:
   id: 963
-  term: pushbroom sensor
   definition: sensor that collects a single cross-track image line at one time and
     constructs a larger image from a set of adjacent lines resulting from the along-track
     motion of the sensor
@@ -11,7 +10,6 @@ eng:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19130-1:2018
     clause: "(E), 3.68"
@@ -27,16 +25,18 @@ eng:
   review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010 to
     ISO 19130-1:2018(E), 3.68. Lineage source added as ISO/TS 19130:2010(E)
   release: '2'
+  terms:
+  - type: expression
+    designation: pushbroom sensor
+    normative_status: preferred
 ara:
   id: 963
-  term: جهاز استشعار مكنسة الدفع
   definition: جهاز استشعار يجمع عبر خط المسار صورة واحدة في وقت واحد وينشيء صورة أكبر
     من مجموعة خطوط متجاورة ناتجة عن الحركة على طول المسار لجهاز الاستشعار
   language_code: ara
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19130-1:2018
     clause: "(E), 3.68"
@@ -52,16 +52,18 @@ ara:
   review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010 to
     ISO 19130-1:2018(E), 3.68. Lineage source added as ISO/TS 19130:2010(E)
   release: '2'
+  terms:
+  - type: expression
+    designation: جهاز استشعار مكنسة الدفع
+    normative_status: preferred
 deu:
   id: 963
-  term: Schiebebesensensor
   definition: Sensor, der eine einzelne Zeile zu einem Zeitpunkt erfasst und ein Bild
     durch Aufnahme vieler Zeilen während der Weiterbewegung erzeugt
   language_code: deu
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19130-1:2018
     clause: "(E), 3.68"
@@ -77,15 +79,17 @@ deu:
   review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010 to
     ISO 19130-1:2018(E), 3.68. Lineage source added as ISO/TS 19130:2010(E)
   release: '2'
+  terms:
+  - type: expression
+    designation: Schiebebesensensor
+    normative_status: preferred
 kor:
   id: 963
-  term: 푸시브룸 센서
   definition: 센서의 경로추적 움직임으로부터 발생하는 인접선 집합으로부터 더 큰 영상을 구성하고 단일 크로스 트랙 영상선을 수집하는 센서
   language_code: kor
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19130-1:2018
     clause: "(E), 3.68"
@@ -101,9 +105,12 @@ kor:
   review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010 to
     ISO 19130-1:2018(E), 3.68. Lineage source added as ISO/TS 19130:2010(E)
   release: '2'
+  terms:
+  - type: expression
+    designation: 푸시브룸 센서
+    normative_status: preferred
 rus:
   id: 963
-  term: продольный сенсор
   definition: сенсор, который собирает одну поперечную линию изображения за один раз
     и создает большее изображение из набора смежных линий, образующихся в результате
     движения датчика вдоль дорожки
@@ -111,7 +118,6 @@ rus:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19130-1:2018
     clause: "(E), 3.68"
@@ -127,9 +133,12 @@ rus:
   review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010 to
     ISO 19130-1:2018(E), 3.68. Lineage source added as ISO/TS 19130:2010(E)
   release: '2'
+  terms:
+  - type: expression
+    designation: продольный сенсор
+    normative_status: preferred
 spa:
   id: 963
-  term: sensor de barrido longitudinal (sensor pushbroom)
   definition: sensor que recoge en cada momento una única línea imagen perpendicular
     a la trayectoria y construye una imagen mayor a partir de un conjunto de líneas
     adyacentes resultantes del movimiento del sensor a lo largo de su trayectoria
@@ -137,7 +146,6 @@ spa:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19130-1:2018
     clause: "(E), 3.68"
@@ -153,9 +161,12 @@ spa:
   review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010 to
     ISO 19130-1:2018(E), 3.68. Lineage source added as ISO/TS 19130:2010(E)
   release: '2'
+  terms:
+  - type: expression
+    designation: sensor de barrido longitudinal (sensor pushbroom)
+    normative_status: preferred
 swe:
   id: 963
-  term: linjesensor
   definition: sensor som registrerar bilder i tvärsgående riktining och där en större
     bild framträder
   country_code: swe
@@ -163,7 +174,6 @@ swe:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19130-1:2018
     clause: "(E), 3.68"
@@ -179,3 +189,7 @@ swe:
   review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010 to
     ISO 19130-1:2018(E), 3.68. Lineage source added as ISO/TS 19130:2010(E)
   release: '2'
+  terms:
+  - type: expression
+    designation: linjesensor
+    normative_status: preferred

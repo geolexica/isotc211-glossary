@@ -3,7 +3,6 @@ term: Gregorian calendar
 termid: 220
 eng:
   id: 220
-  term: Gregorian calendar
   definition: calendar in general use; first introduced in 1582 to define a year that
     more closely approximated the tropical year than the Julian calendar
   language_code: eng
@@ -13,7 +12,6 @@ eng:
     either a common year or a leap year; each year is divided into 12 sequential months.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: 'ISO 8601:2000 '
@@ -23,9 +21,12 @@ eng:
   lineage_source_similarity: 1
   date_accepted: 2002-09-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: Gregorian calendar
+    normative_status: preferred
 ara:
   id: 220
-  term: التقويم الميلادي
   definition: التقويم الشائع الاستعمال ، عمل به لأول مرة في عام 1592م حيث حدد السنة
     بشكل جعلها أقرب إلى السنة الاستوائية من تقويم الإمبراطور يوليوس قيصر
   language_code: ara
@@ -36,7 +37,6 @@ ara:
     كل سنة إلى 12 شهراً متتابعة .
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: 'ISO 8601:2000 '
@@ -44,25 +44,30 @@ ara:
     link: https://www.iso.org/standard/26780.html
   date_accepted: 2002-09-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: التقويم الميلادي
+    normative_status: preferred
 zho:
   id: 220
-  term: 公历
   definition: 1582年引入的通用日历，所定义的年比儒略历的更接近回归年。
   language_code: zho
   notes:
   - 公历的引入消除了儒略年的累积误差。在公历中，历年或为平年，或为闰年，均分为12个顺序月。
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: 'ISO 8601:2000 '
     clause: "(Adapted from)"
     link: https://www.iso.org/standard/26780.html
   date_accepted: 2002-09-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: 公历
+    normative_status: preferred
 dan:
   id: 220
-  term: gregoriansk kalender
   definition: almindeligt brugt kalender; indført i 1582 for at definere et år, der
     lignede det tropiske år mere end den julianske kalender
   language_code: dan
@@ -76,9 +81,12 @@ dan:
     ref: tilpasset fra ISO 8601:2000
   date_accepted: 2002-09-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: gregoriansk kalender
+    normative_status: 
 fin:
   id: 220
-  term: gregoriaaninen kalenteri
   definition: yleisessä käytössä oleva kalenteri; otettiin käyttöön vuonna 1582, jotta
     saatiin määritellyksi vuosi lähemmäksi trooppista vuotta kuin juliaanisessa kalenterissa
   language_code: fin
@@ -88,7 +96,6 @@ fin:
     on joko normaali tai karkausvuosi ja kukin vuosi on jaettu 12 peräkkäiseen kuukauteen.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: 'ISO 8601:2000 '
@@ -96,9 +103,12 @@ fin:
     link: https://www.iso.org/standard/26780.html
   lineage_source: MOT Kielitoimiston sanakirja 1.0
   date_accepted: 2002-09-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: gregoriaaninen kalenteri
+    normative_status: preferred
 fra:
   id: 220
-  term: calendrier Grégorien
   definition: calendrier d'usage courant; introduit pour la première fois en 1582
     pour définir l'année qui approximait plus précisément l'année tropique que le
     calendrier Julien
@@ -106,7 +116,6 @@ fra:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 8601:2000
     clause: "( Adapted from)"
@@ -114,9 +123,12 @@ fra:
   lineage_source: ISO 19108
   lineage_source_similarity: 1
   date_accepted: 2002-09-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: calendrier Grégorien
+    normative_status: preferred
 deu:
   id: 220
-  term: gregorianischer Kalender
   language_code: deu
   notes:
   - The introduction of the Gregorian calendar included the cancellation of the accumulated
@@ -124,7 +136,6 @@ deu:
     either a common year or a leap year; each year is divided into 12 sequential months.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: 'ISO 8601:2000 '
@@ -132,16 +143,18 @@ deu:
     link: https://www.iso.org/standard/26780.html
   date_accepted: 2002-09-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: gregorianischer Kalender
+    normative_status: preferred
 jpn:
   id: 220
-  term: グレゴリオ暦
   definition: ユリウス暦よりも一年の長さが太陽年によって近くなるよう定義するため，1582年に最初に導入された，はん用的な暦(JIS X 0301参照)。
   language_code: jpn
   notes:
   - "　グレゴリオ暦の導入には，ユリウス暦で積み重なってきた誤差を解消するという意味も含まれていた。グレゴリオ暦の暦年は，平年又はうるう年となっており，一年は，12に分割された月の列からなる。"
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 8601:2000
     clause: "( Adapted from)"
@@ -149,9 +162,12 @@ jpn:
   lineage_source: JIS X 7108
   date_accepted: 2002-09-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: グレゴリオ暦
+    normative_status: preferred
 kor:
   id: 220
-  term: 그레고리안 달력
   definition: 율리우스력(曆)에 비하여 회귀 연도에 보다 근사하게 윤년을 정의하는, 1582년에 최초로 도입된 범용달력
   language_code: kor
   notes:
@@ -159,7 +175,6 @@ kor:
     가지며 12개의 연속적인 달로 나뉜다.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: 'ISO 8601:2000 '
@@ -168,9 +183,12 @@ kor:
   lineage_source: KS X ISO 19108
   date_accepted: 2007-11-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: 그레고리안 달력
+    normative_status: preferred
 msa:
   id: 220
-  term: kalendar Gregory
   definition: kalendar secara umum; mula diperkenalkan pada 1582 untuk menentukan
     satu tahun yang lebih dekat dengan tahun tropika daripada kalendar Julian
   language_code: msa
@@ -180,7 +198,6 @@ msa:
     either a common year or a leap year; each year is divided into 12 sequential months.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: 'ISO 8601:2000 '
@@ -190,9 +207,12 @@ msa:
   lineage_source_similarity: 1
   date_accepted: 2002-09-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: kalendar Gregory
+    normative_status: preferred
 rus:
   id: 220
-  term: Григорианский  календарь
   definition: общепринятый календарь, впервые введенный в 1582 г.  с целью установить
     календарный год, дающий более точное приближение тропического года, чем  Юлианский  календарь
   language_code: rus
@@ -203,7 +223,6 @@ rus:
     месяцев
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: 'ISO 8601:2000 '
@@ -211,9 +230,12 @@ rus:
     link: https://www.iso.org/standard/26780.html
   lineage_source: Internet
   date_accepted: 2002-09-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: Григорианский  календарь
+    normative_status: preferred
 spa:
   id: 220
-  term: calendario gregoriano
   definition: calendario de uso general; fue introducido en 1582 para definir un año
     que más aproximado al año trópico que el calendario juliano
   language_code: spa
@@ -223,7 +245,6 @@ spa:
     o bisiesto; cada año se divide en doce meses.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: 'ISO 8601:2000 '
@@ -231,9 +252,12 @@ spa:
     link: https://www.iso.org/standard/26780.html
   date_accepted: 2002-09-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: calendario gregoriano
+    normative_status: preferred
 swe:
   id: 220
-  term: gregorianska kalendern
   definition: allmänt använd kalender som togs i bruk 1582 för att rätta ett fel i
     den julianska kalendern
   country_code: swe
@@ -244,7 +268,6 @@ swe:
     either a common year or a leap year; each year is divided into 12 sequential months.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: 'ISO 8601:2000 '
@@ -254,3 +277,7 @@ swe:
   lineage_source_similarity: 1
   date_accepted: 2002-09-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: gregorianska kalendern
+    normative_status: preferred

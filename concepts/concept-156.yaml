@@ -3,7 +3,6 @@ term: engineering datum
 termid: 156
 eng:
   id: 156
-  term: engineering datum
   synonyms: local datum
   definition: datum describing the relationship of a coordinate system to a local
     reference
@@ -14,7 +13,6 @@ eng:
   - A system for identifying relative positions within a few kilometres of the reference
     point.
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2019
@@ -31,9 +29,12 @@ eng:
   review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
     19111:2019(E), 3.1.26. Lineage source added as ISO 19111:2003
   release: '1'
+  terms:
+  - type: expression
+    designation: engineering datum
+    normative_status: preferred
 ara:
   id: 156
-  term: مرجع إسناد هندسي
   synonyms: local datum
   definition: مرجع إسناد يصف علاقة نظام للإحداثيات بمرجع محلي
   language_code: ara
@@ -42,7 +43,6 @@ ara:
   examples:
   - نظام لتحديد المواقع النسبية على مسافة كيلومترات قليلة من النقطة المرجعية.
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2019
@@ -59,9 +59,12 @@ ara:
   review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
     19111:2019(E), 3.1.26. Lineage source added as ISO 19111:2003
   release: '1'
+  terms:
+  - type: expression
+    designation: مرجع إسناد هندسي
+    normative_status: preferred
 zho:
   id: 156
-  term: 工程基准
   synonyms: local datum
   definition: 描述局部参照与坐标系关系的基准。
   language_code: zho
@@ -70,7 +73,6 @@ zho:
   examples:
   - 确定在参照点若干公里范围内相对位置的系统。
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2019
@@ -87,9 +89,12 @@ zho:
   review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
     19111:2019(E), 3.1.26. Lineage source added as ISO 19111:2003
   release: '1'
+  terms:
+  - type: expression
+    designation: 工程基准
+    normative_status: preferred
 dan:
   id: 156
-  term: teknisk datum
   definition: datum, der beskriver relationen mellem et koordinatsystem og en lokal
     reference
   language_code: dan
@@ -114,9 +119,12 @@ dan:
   review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
     19111:2019(E), 3.1.26. Lineage source added as ISO 19111:2003
   release: '1'
+  terms:
+  - type: expression
+    designation: teknisk datum
+    normative_status: 
 nld:
   id: 156
-  term: lokaal datum
   synonyms: lokale datum
   definition: datum waarmee de relatie tussen een coördinaatsysteem en een lokale
     referentie wordt beschreven
@@ -127,7 +135,6 @@ nld:
   - Een systeem voor het identificeren van relatieve posities binnen een paar kilometer
     van een referentiepunt.
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2019
@@ -144,9 +151,12 @@ nld:
   review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
     19111:2019(E), 3.1.26. Lineage source added as ISO 19111:2003
   release: '1'
+  terms:
+  - type: expression
+    designation: lokaal datum
+    normative_status: preferred
 fin:
   id: 156
-  term: erillisdatumi
   definition: paikallinen datumi, joka määritellään suppealle alueelle tai tiettyyn
     tilaan usein tietyksi ajaksi tiettyä tarkoitusta varten
   language_code: fin
@@ -156,7 +166,6 @@ fin:
   - Järjestelmä, jolla määritetään suhteellisia sijainteja muutaman kilometrin etäisyydellä
     vertauspisteestä.
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2019
@@ -173,9 +182,12 @@ fin:
   review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
     19111:2019(E), 3.1.26. Lineage source added as ISO 19111:2003
   release: '1'
+  terms:
+  - type: expression
+    designation: erillisdatumi
+    normative_status: preferred
 fra:
   id: 156
-  term: référentiel d'ingénierie
   synonyms: local datum
   definition: référentiel décrivant la relation entre un système de coordonnées et
     une référence locale
@@ -183,7 +195,6 @@ fra:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2019
@@ -200,9 +211,12 @@ fra:
   review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
     19111:2019(E), 3.1.26. Lineage source added as ISO 19111:2003
   release: '1'
+  terms:
+  - type: expression
+    designation: référentiel d'ingénierie
+    normative_status: preferred
 deu:
   id: 156
-  term: lokales Datum
   synonyms: local datum
   definition: Datum, das die Beziehung eines Koordinatensystems zu einer lokalen Referenz
     beschreibt
@@ -213,7 +227,6 @@ deu:
   - A system for identifying relative positions within a few kilometres of the reference
     point.
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2019
@@ -230,9 +243,12 @@ deu:
   review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
     19111:2019(E), 3.1.26. Lineage source added as ISO 19111:2003
   release: '1'
+  terms:
+  - type: expression
+    designation: lokales Datum
+    normative_status: preferred
 kor:
   id: 156
-  term: 공학 데이텀
   definition: 지역 참조와 좌표 체계간의 관계를 설명하는 지역 데이텀
   language_code: kor
   notes:
@@ -240,7 +256,6 @@ kor:
   examples:
   - 참조 점에서 몇 km이내의 상대 위치를 인식하기 위한 시스템
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2019
@@ -257,9 +272,12 @@ kor:
   review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
     19111:2019(E), 3.1.26. Lineage source added as ISO 19111:2003
   release: '1'
+  terms:
+  - type: expression
+    designation: 공학 데이텀
+    normative_status: preferred
 msa:
   id: 156
-  term: datum kejuruteraan
   synonyms: local datum
   language_code: msa
   notes:
@@ -268,7 +286,6 @@ msa:
   - A system for identifying relative positions within a few kilometres of the reference
     point.
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2019
@@ -285,11 +302,12 @@ msa:
   review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
     19111:2019(E), 3.1.26. Lineage source added as ISO 19111:2003
   release: '1'
+  terms:
+  - type: expression
+    designation: datum kejuruteraan
+    normative_status: preferred
 pol:
   id: 156
-  term: |-
-    inżynieryjny układ odniesienia
-    lokalny układ odniesienia
   synonyms: lokalny układ odniesienia
   definition: układ odniesienia opisujący związek układu współrzędnych z lokalnym
     odniesieniem
@@ -300,7 +318,6 @@ pol:
   examples:
   - Układ służący do identyfikowania położeń względnych w granicach kilku kilometrów
     od punktu odniesienia.
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2019
@@ -317,9 +334,14 @@ pol:
   review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
     19111:2019(E), 3.1.26. Lineage source added as ISO 19111:2003
   release: '1'
+  terms:
+  - type: expression
+    designation: |-
+      inżynieryjny układ odniesienia
+      lokalny układ odniesienia
+    normative_status: preferred
 rus:
   id: 156
-  term: инженерные исходные даты
   synonyms: местные даты
   definition: даты,  описывающие взаимосвязь некоторой системы координат с локальным
     ориентиром
@@ -330,7 +352,6 @@ rus:
   - Система для определения относительного положения в пределах нескольких километров
     от начальной точки
   entry_status: valid
-  classification: admitted
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2019
@@ -347,9 +368,12 @@ rus:
   review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
     19111:2019(E), 3.1.26. Lineage source added as ISO 19111:2003
   release: '1'
+  terms:
+  - type: expression
+    designation: инженерные исходные даты
+    normative_status: admitted
 spa:
   id: 156
-  term: datum de ingeniería
   synonyms: datum local
   definition: datum que describe la relación de un sistema de coordenadas con una
     referencia local
@@ -360,7 +384,6 @@ spa:
   - Un sistema para identificar posiciones relativas a pocos kilómetros del punto
     de referencia.
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2019
@@ -377,3 +400,7 @@ spa:
   review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
     19111:2019(E), 3.1.26. Lineage source added as ISO 19111:2003
   release: '1'
+  terms:
+  - type: expression
+    designation: datum de ingeniería
+    normative_status: preferred

@@ -3,7 +3,6 @@ term: literal
 termid: 1644
 eng:
   id: 1644
-  term: literal
   synonyms: literal value
   definition: constant, explicitly specified value
   language_code: eng
@@ -13,7 +12,6 @@ eng:
   examples:
   - "“1”^^xsd:integer, “abc”^^xsd:string"
   entry_status: valid
-  classification: admitted
   authoritative_source:
     ref: ISO 19143:2010
     clause: '4.15'
@@ -26,9 +24,12 @@ eng:
   review_decision_event: Normal ISO processing
   review_decision_notes: Publication of document ISO 19150-2:2015(E)
   release: '4'
+  terms:
+  - type: expression
+    designation: literal
+    normative_status: admitted
 spa:
   id: 1644
-  term: valor literal
   synonyms: valor literal
   definition: valor constante especificado explícitamente
   language_code: spa
@@ -38,7 +39,6 @@ spa:
   examples:
   - '"1"^^xsd:integer, "abc"^^xsd:string'
   entry_status: valid
-  classification: admitted
   authoritative_source:
     ref: ISO 19143:2010
     clause: '4.15'
@@ -51,3 +51,7 @@ spa:
   review_decision_event: Normal ISO processing
   review_decision_notes: Publication of document ISO 19150-2:2015(E)
   release: '4'
+  terms:
+  - type: expression
+    designation: valor literal
+    normative_status: admitted

@@ -3,7 +3,6 @@ term: spatial dimension, adj <topology, geometry>
 termid: 2251
 eng:
   id: 2251
-  term: spatial dimension, adj <topology, geometry>
   definition: number of independent decisions in a coordinate system required to locate
     a position
   language_code: eng
@@ -14,7 +13,6 @@ eng:
     CRS84 is 2".
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19107:2019
     clause: "(E), 3.85"
@@ -27,3 +25,7 @@ eng:
   review_decision_event: Normal ISO processing
   review_decision_notes: Publication of document ISO 19107:2019(E)
   release: '5'
+  terms:
+  - type: expression
+    designation: spatial dimension, adj <topology, geometry>
+    normative_status: preferred

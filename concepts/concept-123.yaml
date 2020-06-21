@@ -3,7 +3,6 @@ term: data type
 termid: 123
 eng:
   id: 123
-  term: data type
   definition: specification of a value domain with operations allowed on values in
     this domain
   language_code: eng
@@ -13,7 +12,6 @@ eng:
   - Integer, Real, Boolean, String, Date and SG Point (conversion of data into a series
     of codes).
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19103:2015
     clause: '4.14'
@@ -28,9 +26,12 @@ eng:
   review_decision_notes: Authoritative reference changed from ISO/TS 19103:2005 to
     ISO 19103:2015, 4.14. Lineage source added as ISO/TS 19103:2005, 4.1.5
   release: '1'
+  terms:
+  - type: expression
+    designation: data type
+    normative_status: preferred
 ara:
   id: 123
-  term: نوع البيانات
   definition: مواصفات نطاق قيمة محدد مع العمليات المسموح بإجرائها على القيم في حدود
     هذا النطاق
   language_code: ara
@@ -40,7 +41,6 @@ ara:
   - عدد صحيح , عدد حقيقي , عدد جبري , سلسلة , تاريخ , ونقطة SG (تحويل البيانات إلى
     سلسلة من الرموز).
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19103:2015
     clause: '4.14'
@@ -55,9 +55,12 @@ ara:
   review_decision_notes: Authoritative reference changed from ISO/TS 19103:2005 to
     ISO 19103:2015, 4.14. Lineage source added as ISO/TS 19103:2005, 4.1.5
   release: '1'
+  terms:
+  - type: expression
+    designation: نوع البيانات
+    normative_status: preferred
 zho:
   id: 123
-  term: 数据类型
   definition: 允许在值域内对值进行操作的值域的说明。
   language_code: zho
   notes:
@@ -65,7 +68,6 @@ zho:
   examples:
   - 整型、实型、布尔型、字符串、日期型和SG点（将数据转换成系列编码）。
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19103:2015
     clause: '4.14'
@@ -80,9 +82,12 @@ zho:
   review_decision_notes: Authoritative reference changed from ISO/TS 19103:2005 to
     ISO 19103:2015, 4.14. Lineage source added as ISO/TS 19103:2005, 4.1.5
   release: '1'
+  terms:
+  - type: expression
+    designation: 数据类型
+    normative_status: preferred
 dan:
   id: 123
-  term: datatype
   definition: specifikation af et værdidomæne inkl. de tilladte operationer på værdier
     deri
   language_code: dan
@@ -106,9 +111,12 @@ dan:
   review_decision_notes: Authoritative reference changed from ISO/TS 19103:2005 to
     ISO 19103:2015, 4.14. Lineage source added as ISO/TS 19103:2005, 4.1.5
   release: '1'
+  terms:
+  - type: expression
+    designation: datatype
+    normative_status: 
 fin:
   id: 123
-  term: tietotyyppi
   definition: tietoyksiköiden tai -rakenteiden ja niihin liittyvien toimintojen määrittely
   language_code: fin
   notes:
@@ -118,7 +126,6 @@ fin:
   - Kokonaisluku, reaaliluku, totuusarvo, merkkijono, päivämäärä ja GM_Point (tieto
     useina osina).
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19103:2015
     clause: '4.14'
@@ -133,16 +140,18 @@ fin:
   review_decision_notes: Authoritative reference changed from ISO/TS 19103:2005 to
     ISO 19103:2015, 4.14. Lineage source added as ISO/TS 19103:2005, 4.1.5
   release: '1'
+  terms:
+  - type: expression
+    designation: tietotyyppi
+    normative_status: preferred
 fra:
   id: 123
-  term: type de donnée
   definition: spécification d’un domaine de valeurs et d’opérations autorisées sur
     les valeurs de ce domaine
   language_code: fra
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19103:2015
     clause: '4.14'
@@ -157,9 +166,12 @@ fra:
   review_decision_notes: Authoritative reference changed from ISO/TS 19103:2005 to
     ISO 19103:2015, 4.14. Lineage source added as ISO/TS 19103:2005, 4.1.5
   release: '1'
+  terms:
+  - type: expression
+    designation: type de donnée
+    normative_status: preferred
 deu:
   id: 123
-  term: Datentyp
   definition: Festlegung eines Wertebereichs mit Operationen, die für Werte in diesem
     Bereich zulässig sind
   language_code: deu
@@ -169,7 +181,6 @@ deu:
   - Integer, Real, Boolean, String, Date and SG Point (conversion of data into a series
     of codes).
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19103:2015
     clause: '4.14'
@@ -184,9 +195,12 @@ deu:
   review_decision_notes: Authoritative reference changed from ISO/TS 19103:2005 to
     ISO 19103:2015, 4.14. Lineage source added as ISO/TS 19103:2005, 4.1.5
   release: '1'
+  terms:
+  - type: expression
+    designation: Datentyp
+    normative_status: preferred
 kor:
   id: 123
-  term: 데이터 유형
   definition: 영역 내의 값을 바탕으로 연산을 통해 나올 수 있는 허용된 값 영역의 사양
   language_code: kor
   notes:
@@ -194,7 +208,6 @@ kor:
   examples:
   - 정수, 실수, 부린, 문자열, 날짜, SG point(데이터를 코드로 전환하는 것)
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19103:2015
     clause: '4.14'
@@ -209,9 +222,12 @@ kor:
   review_decision_notes: Authoritative reference changed from ISO/TS 19103:2005 to
     ISO 19103:2015, 4.14. Lineage source added as ISO/TS 19103:2005, 4.1.5
   release: '1'
+  terms:
+  - type: expression
+    designation: 데이터 유형
+    normative_status: preferred
 pol:
   id: 123
-  term: typ danych
   definition: określenie dziedziny wartości dopuszczalnych i operacji dozwolonych
     na wartościach z tej dziedziny [ISO 19103]
   language_code: pol
@@ -219,7 +235,6 @@ pol:
   - Typ danych jest identyfikowany poprzez wyrażenie np. Integer
   examples:
   - Integer, Real, Boolean, String, Date, SG_Point
-  classification: preferred
   authoritative_source:
     ref: ISO 19103:2015
     clause: '4.14'
@@ -234,9 +249,12 @@ pol:
   review_decision_notes: Authoritative reference changed from ISO/TS 19103:2005 to
     ISO 19103:2015, 4.14. Lineage source added as ISO/TS 19103:2005, 4.1.5
   release: '1'
+  terms:
+  - type: expression
+    designation: typ danych
+    normative_status: preferred
 rus:
   id: 123
-  term: тип данных
   definition: комплекс характеристик, наличие которых у группы данных позволяет выделить
     ее из множества других данных
   language_code: rus
@@ -246,15 +264,17 @@ rus:
   - Integer, Real, Boolean, String, Date и SG Point (перевычисление данных в наборы
     кодов)
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO/TS 19103:2005
     link: https://www.iso.org/standard/37800.html
   lineage_source: ГОСТ Р 52573-2006
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: тип данных
+    normative_status: preferred
 spa:
   id: 123
-  term: tipo de datos
   definition: especificación de un dominio de valores con unas operaciones permitidas
     sobre los valores de ese dominio
   language_code: spa
@@ -265,7 +285,6 @@ spa:
   - Entero, real, booleano, cadena, fecha y GM_punto (conversión de datos en una serie
     de códigos)
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19103:2015
     clause: '4.14'
@@ -280,9 +299,12 @@ spa:
   review_decision_notes: Authoritative reference changed from ISO/TS 19103:2005 to
     ISO 19103:2015, 4.14. Lineage source added as ISO/TS 19103:2005, 4.1.5
   release: '1'
+  terms:
+  - type: expression
+    designation: tipo de datos
+    normative_status: preferred
 swe:
   id: 123
-  term: datatyp
   definition: |-
     specifikation av en värdedomän och de operationer
     som är tillåtna på domänens värden
@@ -294,7 +316,6 @@ swe:
   - Integer, Real, Boolean, String, Date and SG Point (conversion of data into a series
     of codes).
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19103:2015
     clause: '4.14'
@@ -309,3 +330,7 @@ swe:
   review_decision_notes: Authoritative reference changed from ISO/TS 19103:2005 to
     ISO 19103:2015, 4.14. Lineage source added as ISO/TS 19103:2005, 4.1.5
   release: '1'
+  terms:
+  - type: expression
+    designation: datatyp
+    normative_status: preferred

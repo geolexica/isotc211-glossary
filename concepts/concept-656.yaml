@@ -3,7 +3,6 @@ term: active object
 termid: 656
 eng:
   id: 656
-  term: active object
   definition: object which is capable of independent actions, and therefore capable
     of initiating interactions between itself and other objects without immediate
     prior external stimulation
@@ -16,16 +15,18 @@ eng:
     deactivation operation protocol.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
     link: https://www.iso.org/standard/40601.html
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: active object
+    normative_status: preferred
 ara:
   id: 656
-  term: كائن نشط
   definition: كائن أو جسم قادر على الحركة الذاتية بإرادة مستقلة وهو قادر بالتالي على
     المبادرة والتفاعل بينه وبين الكيانات الأخرى دون حاجة إلى عامل تحفيز خارجي مباشر
   language_code: ara
@@ -36,31 +37,35 @@ ara:
     بين هاتين الحالتين إذ يعتمد ذلك على إنفاذ بروتوكول تشغيلي للتنشيط أو للإيقاف
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
     link: https://www.iso.org/standard/40601.html
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: كائن نشط
+    normative_status: preferred
 zho:
   id: 656
-  term: 主动对象
   definition: 具有独立活动能力的对象，不需外部的直接刺激就能在其自身与其他对象间开始交互活动。
   language_code: zho
   notes:
   - 主动对象可以代表用户或主动服务，该用户或主动服务依赖于内部(因此不可见)刺激而开始行动。对同一对象而言，主动和被动状态能同时存在,因这种服务能是在两种状态间的跳转,这取决于激活或未激活操作协议的调用。
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
     link: https://www.iso.org/standard/40601.html
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: 主动对象
+    normative_status: preferred
 fin:
   id: 656
-  term: aktiivinen objekti
   synonyms: aktiivinen olio
   definition: objekti, joka kykenee itsenäisiin toimintoihin ja siten käynnistämään
     itsensä ja muiden objektien välisiä vuorovaikutuksia ilman välittömästi edeltävää
@@ -74,16 +79,18 @@ fin:
     tai passivointikutsun mukaisesti.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
     link: https://www.iso.org/standard/40601.html
   lineage_source: Geodeettinen laitos, Internet
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: aktiivinen objekti
+    normative_status: preferred
 fra:
   id: 656
-  term: objet actif
   definition: objet capable d'actions indépendantes, et par conséquent capable d'initier
     des interactions entre lui-même et d'autres objets sans stimulation externe préalable
     immédiate
@@ -91,15 +98,17 @@ fra:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19132
     link: https://www.iso.org/standard/40601.html
   lineage_source: ''
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: objet actif
+    normative_status: preferred
 deu:
   id: 656
-  term: agierendes Objekt
   language_code: deu
   notes:
   - cf. passive object. An active object can represent a user, or an active service
@@ -109,16 +118,18 @@ deu:
     deactivation operation protocol.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
     link: https://www.iso.org/standard/40601.html
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: agierendes Objekt
+    normative_status: preferred
 kor:
   id: 656
-  term: 활성 객체
   definition: 독립적인 동작이 가능한 객체, 따라서 별도의 외부 자극 없이도 스스로 다른 객체와의 상호작용이 가능함
   language_code: kor
   notes:
@@ -126,7 +137,6 @@ kor:
     객체에 대하여 존재할 수 있으며, 이러한 서비스는 활성화 또는 비활성화 연산 프로토콜의 호출을 통해 상태가 변한다.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
@@ -134,9 +144,12 @@ kor:
   lineage_source: KS X ISO 19132
   date_accepted: 2009-12-29 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: 활성 객체
+    normative_status: preferred
 rus:
   id: 656
-  term: активный объект
   definition: объект, способный на независимые действия и в силу этого инициирующий
     взаимодействия между собой и другими объектами без внешней стимуляции
   language_code: rus
@@ -148,16 +161,18 @@ rus:
     состояния к другому, основываясь на параметрах внешнего вызова"
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
     link: https://www.iso.org/standard/40601.html
   lineage_source: Internet
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: активный объект
+    normative_status: preferred
 spa:
   id: 656
-  term: objeto activo
   definition: objeto que es capaz de realizar acciones independientes, y por lo tanto
     capaz de iniciar las interacciones entre él y otros objetos sin una estimulación
     externa inmediatamente anterior
@@ -170,15 +185,17 @@ spa:
     de la invocación de un protocolo de operación de activación o desactivación.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19132:2007
     link: https://www.iso.org/standard/40601.html
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: objeto activo
+    normative_status: preferred
 swe:
   id: 656
-  term: aktivt objekt
   definition: "<i samband med programutveckling> objekt som \nexekverar av andra orsaker
     än genom anrop från andra objekt"
   country_code: swe
@@ -186,7 +203,6 @@ swe:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
@@ -194,3 +210,7 @@ swe:
   lineage_source: "(Type reference to national language document)"
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: aktivt objekt
+    normative_status: preferred

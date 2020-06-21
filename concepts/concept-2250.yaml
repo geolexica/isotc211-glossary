@@ -3,7 +3,6 @@ term: simple <topology, geometry>
 termid: 2250
 eng:
   id: 2250
-  term: simple <topology, geometry>
   definition: homogeneous (all points have isomorphic neighborhoods) and with a simple
     boundary
   language_code: eng
@@ -16,7 +15,6 @@ eng:
     to a circle.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19107:2019
     clause: "(E), 3.84"
@@ -30,3 +28,7 @@ eng:
   review_decision_event: Publication of document ISO 19107:2019(E)
   review_decision_notes: This entry supersedes the entry for simple in ISO 19107:2003(E)
   release: '5'
+  terms:
+  - type: expression
+    designation: simple <topology, geometry>
+    normative_status: preferred

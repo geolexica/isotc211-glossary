@@ -3,7 +3,6 @@ term: resolution <coordinate>
 termid: 904
 eng:
   id: 904
-  term: resolution <coordinate>
   definition: unit associated with the least significant digit of a coordinate
   language_code: eng
   notes:
@@ -11,7 +10,6 @@ eng:
     of the coordinate system
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 6709:2008
@@ -21,16 +19,18 @@ eng:
   review_status: pending
   review_type: retirement
   release: '2'
+  terms:
+  - type: expression
+    designation: resolution <coordinate>
+    normative_status: preferred
 ara:
   id: 904
-  term: الوضوح (إحداثيات)
   definition: وحدة مرتبطة بالخانة الصغرى للاحداثيات
   language_code: ara
   notes:
   - وضوح الإحداثي قد تكون له وحدات طولية أو وحدات زاويَّة حسب خصائص نظام الإحداثيات.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 6709:2008
@@ -40,16 +40,18 @@ ara:
   review_status: pending
   review_type: retirement
   release: '2'
+  terms:
+  - type: expression
+    designation: الوضوح (إحداثيات)
+    normative_status: preferred
 deu:
   id: 904
-  term: Auflösung  <Koordinate>
   language_code: deu
   notes:
   - Coordinate resolution may have linear or angular units depending on the characteristics
     of the coordinate system
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 6709:2008
@@ -59,9 +61,12 @@ deu:
   review_status: pending
   review_type: retirement
   release: '2'
+  terms:
+  - type: expression
+    designation: Auflösung  <Koordinate>
+    normative_status: preferred
 kor:
   id: 904
-  term: 해상도<좌표>
   definition: 좌표내 최하위 숫자와 연관된 단위
   language_code: kor
   notes:
@@ -69,7 +74,6 @@ kor:
     of the coordinate system
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 6709:2008
@@ -79,9 +83,12 @@ kor:
   review_status: pending
   review_type: retirement
   release: '2'
+  terms:
+  - type: expression
+    designation: 해상도<좌표>
+    normative_status: preferred
 rus:
   id: 904
-  term: разрешение <координата>
   definition: Единица, связанная с наименьшей значащей цифрой координаты
   language_code: rus
   notes:
@@ -89,7 +96,6 @@ rus:
     or angular units depending on the characteristics of the coordinate system
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 6709:2008
@@ -99,9 +105,12 @@ rus:
   review_status: pending
   review_type: retirement
   release: '2'
+  terms:
+  - type: expression
+    designation: разрешение <координата>
+    normative_status: preferred
 spa:
   id: 904
-  term: resolución <coordenadas>
   definition: unidad asociada con el dígito menos significativo de una coordenada
   language_code: spa
   notes:
@@ -109,7 +118,6 @@ spa:
     de las características del sistema de coordenadas
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 6709:2008
@@ -119,3 +127,7 @@ spa:
   review_status: pending
   review_type: retirement
   release: '2'
+  terms:
+  - type: expression
+    designation: resolución <coordenadas>
+    normative_status: preferred

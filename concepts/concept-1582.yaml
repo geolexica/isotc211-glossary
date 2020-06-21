@@ -3,13 +3,11 @@ term: class <OWL>
 termid: 1582
 eng:
   id: 1582
-  term: class <OWL>
   definition: set of individuals
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: OWL
   lineage_source: ISO 19150-2:2015, 4.1.9
@@ -21,15 +19,17 @@ eng:
   review_decision_event: Normal ISO processing
   review_decision_notes: Publication of document ISO 19150-2:2015(E)
   release: '4'
+  terms:
+  - type: expression
+    designation: class <OWL>
+    normative_status: preferred
 spa:
   id: 1582
-  term: clase <OWL>
   definition: conjunto de individuos
   language_code: spa
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: OWL
   lineage_source: ISO 19150-2:2015, 4.1.9
@@ -41,3 +41,7 @@ spa:
   review_decision_event: Normal ISO processing
   review_decision_notes: Publication of document ISO 19150-2:2015(E)
   release: '4'
+  terms:
+  - type: expression
+    designation: clase <OWL>
+    normative_status: preferred

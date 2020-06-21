@@ -3,7 +3,6 @@ term: coboundary
 termid: 48
 eng:
   id: 48
-  term: coboundary
   definition: set of topological primitives of higher topological dimension associated
     with a particular topological object, such that this topological object is in
     each of their boundaries
@@ -17,7 +16,6 @@ eng:
     see ISO 19107 Figure 35.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2019
@@ -34,9 +32,12 @@ eng:
   review_decision_notes: Authoritative reference changed from ISO 19107:2003 to ISO
     19107:2019(E), 3.9. Lineage source added as ISO 19107:2003(E)
   release: '1'
+  terms:
+  - type: expression
+    designation: coboundary
+    normative_status: preferred
 ara:
   id: 48
-  term: حدود مشتركة
   definition: مجموعة عناصر طوبولوجية بدائية ذات بعد طوبولوجي أعلى ترتبط بكيان طوبولوجي
     معيَّن  بحيث يكون هذا الكيان الطوبولوجي في حدود كل منها
   language_code: ara
@@ -49,7 +50,6 @@ ara:
     المقياس آيزو 19107 , الشكل 35.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2019
@@ -66,9 +66,12 @@ ara:
   review_decision_notes: Authoritative reference changed from ISO 19107:2003 to ISO
     19107:2019(E), 3.9. Lineage source added as ISO 19107:2003(E)
   release: '1'
+  terms:
+  - type: expression
+    designation: حدود مشتركة
+    normative_status: preferred
 zho:
   id: 48
-  term: 余边界
   definition: 与特定的拓扑对象相关联，具有更高维数的拓扑单形的集合，这个拓扑对象在这些更高维数的拓扑单形的边界上。
   language_code: zho
   notes:
@@ -76,7 +79,6 @@ zho:
     ISO 19107 图35。
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2019
@@ -93,9 +95,12 @@ zho:
   review_decision_notes: Authoritative reference changed from ISO 19107:2003 to ISO
     19107:2019(E), 3.9. Lineage source added as ISO 19107:2003(E)
   release: '1'
+  terms:
+  - type: expression
+    designation: 余边界
+    normative_status: preferred
 dan:
   id: 48
-  term: fællesgrænse
   definition: en mængde af topologiske grundformer af højere topologisk dimension,
     som er forbundet med et bestemt topologisk objekt, således at dette topologiske
     objekt er i hver af deres afgrænsning
@@ -124,9 +129,12 @@ dan:
   review_decision_notes: Authoritative reference changed from ISO 19107:2003 to ISO
     19107:2019(E), 3.9. Lineage source added as ISO 19107:2003(E)
   release: '1'
+  terms:
+  - type: expression
+    designation: fællesgrænse
+    normative_status: 
 fin:
   id: 48
-  term: yhteisrajaus
   definition: joukko korkeamman topologisen ulottuvuuden omaavia topologisia primitiivejä,
     jotka liittyvät tiettyyn topologiseen objektiin siten, että tämä topologinen objekti
     on mukana jokaisen primitiivin rajauksessa
@@ -140,7 +148,6 @@ fin:
     kuva 35.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2019
@@ -157,9 +164,12 @@ fin:
   review_decision_notes: Authoritative reference changed from ISO 19107:2003 to ISO
     19107:2019(E), 3.9. Lineage source added as ISO 19107:2003(E)
   release: '1'
+  terms:
+  - type: expression
+    designation: yhteisrajaus
+    normative_status: preferred
 fra:
   id: 48
-  term: co-frontière
   definition: ensemble de primitives topologiques de dimension topologique supérieure
     associé à un objet topologique particulier, tel que cet objet topologique appartient
     à la frontière de chacune d'elles.
@@ -167,7 +177,6 @@ fra:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2019
@@ -184,9 +193,12 @@ fra:
   review_decision_notes: Authoritative reference changed from ISO 19107:2003 to ISO
     19107:2019(E), 3.9. Lineage source added as ISO 19107:2003(E)
   release: '1'
+  terms:
+  - type: expression
+    designation: co-frontière
+    normative_status: preferred
 deu:
   id: 48
-  term: kettenartig verknüpfte Grenze
   language_code: deu
   notes:
   - If a node is on the boundary of an edge, that edge is on the coboundary of that
@@ -197,7 +209,6 @@ deu:
     see ISO 19107 Figure 35.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2019
@@ -214,16 +225,18 @@ deu:
   review_decision_notes: Authoritative reference changed from ISO 19107:2003 to ISO
     19107:2019(E), 3.9. Lineage source added as ISO 19107:2003(E)
   release: '1'
+  terms:
+  - type: expression
+    designation: kettenartig verknüpfte Grenze
+    normative_status: preferred
 jpn:
   id: 48
-  term: 双対境界
   definition: ある位相オブジェクトに対応して，その位相オブジェクトを境界としてもつ，より高い位相次元の位相プリミティブの集合。
   language_code: jpn
   notes:
   - ノードがエッジの境界に存在する場合，このエッジは，そのノードの双対境界上にある。この二つの関係のいずれか一つに関連付けられた任意の方向パラメタは，もう一方の関係に対しても関連付けられる。これは，ノードがエッジの終点ノードである（正の有向エッジの終端として定義される）場合，そのノードの正の方向（正の有向ノードとして定義される）が双対境界上にエッジをもつようにするためである（図35参照）。
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2019
@@ -240,9 +253,12 @@ jpn:
   review_decision_notes: Authoritative reference changed from ISO 19107:2003 to ISO
     19107:2019(E), 3.9. Lineage source added as ISO 19107:2003(E)
   release: '1'
+  terms:
+  - type: expression
+    designation: 双対境界
+    normative_status: preferred
 kor:
   id: 48
-  term: 공유 경계
   definition: 특정 위상 객체를 구성하는 높은 위상 차원의 위상 원시 객체 집합으로, 이 위상 객체는 위상 원시 객체의 각 경계에 존재함
   language_code: kor
   notes:
@@ -251,7 +267,6 @@ kor:
     변을 가질 수 있다(KS X ISO 19107 그림35 참조).
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2019
@@ -268,9 +283,12 @@ kor:
   review_decision_notes: Authoritative reference changed from ISO 19107:2003 to ISO
     19107:2019(E), 3.9. Lineage source added as ISO 19107:2003(E)
   release: '1'
+  terms:
+  - type: expression
+    designation: 공유 경계
+    normative_status: preferred
 msa:
   id: 48
-  term: kosempadan
   language_code: msa
   notes:
   - If a node is on the boundary of an edge, that edge is on the coboundary of that
@@ -281,7 +299,6 @@ msa:
     see ISO 19107 Figure 35.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2019
@@ -298,9 +315,12 @@ msa:
   review_decision_notes: Authoritative reference changed from ISO 19107:2003 to ISO
     19107:2019(E), 3.9. Lineage source added as ISO 19107:2003(E)
   release: '1'
+  terms:
+  - type: expression
+    designation: kosempadan
+    normative_status: preferred
 pol:
   id: 48
-  term: współgranica,  kogranica
   definition: zbiór prostych elementów topologicznych o większym wymiarze topologicznym,
     powiązanych z danym obiektem topologicznym w taki sposób, że ten topologiczny
     obiekt należy do granicy każdego z nich
@@ -313,7 +333,6 @@ pol:
     orientacja tego węzła (czyli węzła zdefiniowanego jako węzeł skierowany dodatnio)
     powinna mieć tę krawędź na swojej współgranicy.patrz Rysunek35.
   examples: []
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2019
@@ -330,9 +349,12 @@ pol:
   review_decision_notes: Authoritative reference changed from ISO 19107:2003 to ISO
     19107:2019(E), 3.9. Lineage source added as ISO 19107:2003(E)
   release: '1'
+  terms:
+  - type: expression
+    designation: współgranica,  kogranica
+    normative_status: preferred
 rus:
   id: 48
-  term: кограница
   definition: множество топологических примитивов более высокой топологической размерности,
     так ассоциированных с определенным топологическим объектом,  что  данный  топологический
     объект принадлежит границе каждого из них
@@ -346,7 +368,6 @@ rus:
     на своей когранице, см. ISO 19107, Рисунок 35
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2019
@@ -363,9 +384,12 @@ rus:
   review_decision_notes: Authoritative reference changed from ISO 19107:2003 to ISO
     19107:2019(E), 3.9. Lineage source added as ISO 19107:2003(E)
   release: '1'
+  terms:
+  - type: expression
+    designation: кограница
+    normative_status: preferred
 spa:
   id: 48
-  term: cofrontera
   definition: conjunto de primitivas topológicas, de dimensión topológica mayor, asociadas
     a un objeto topológico particular de tal modo, que este objeto topológico está
     en cada una de las fronteras del conjunto
@@ -380,7 +404,6 @@ spa:
     35.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2019
@@ -397,9 +420,12 @@ spa:
   review_decision_notes: Authoritative reference changed from ISO 19107:2003 to ISO
     19107:2019(E), 3.9. Lineage source added as ISO 19107:2003(E)
   release: '1'
+  terms:
+  - type: expression
+    designation: cofrontera
+    normative_status: preferred
 swe:
   id: 48
-  term: gränsberörda objekt
   definition: samling av de topologiska objekt för vilka ett och samma topologiska
     objekt ingår i avgränsningen
   country_code: swe
@@ -409,7 +435,6 @@ swe:
     objekt.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2019
@@ -426,3 +451,7 @@ swe:
   review_decision_notes: Authoritative reference changed from ISO 19107:2003 to ISO
     19107:2019(E), 3.9. Lineage source added as ISO 19107:2003(E)
   release: '1'
+  terms:
+  - type: expression
+    designation: gränsberörda objekt
+    normative_status: preferred

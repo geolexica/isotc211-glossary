@@ -3,7 +3,6 @@ term: geoid
 termid: 2370
 eng:
   id: 2370
-  term: geoid
   definition: equipotential surface of the Earth’s gravity field which is perpendicular
     to the direction of gravity and which best fits mean sea level either locally,
     regionally or globally
@@ -11,7 +10,6 @@ eng:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19111:2019
     clause: "(E), 3.1.36"
@@ -25,3 +23,7 @@ eng:
   review_decision_event: Publication of document ISO 19111:2019(E)
   review_decision_notes: This entry supersedes the entry for geoid in ISO 19111:2007(E)
   release: '5'
+  terms:
+  - type: expression
+    designation: geoid
+    normative_status: preferred

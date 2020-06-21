@@ -3,7 +3,6 @@ term: spatial unit
 termid: 1363
 eng:
   id: 1363
-  term: spatial unit
   definition: single area (or multiple areas) of land and/or water, or a single volume
     (or multiple volumes) of space
   language_code: eng
@@ -21,16 +20,18 @@ eng:
     reasons.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19152:2012
     clause: 4.1.23
     link: https://www.iso.org/standard/51206.html
   date_accepted: 2012-12-01 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: spatial unit
+    normative_status: preferred
 kor:
   id: 1363
-  term: 공간 단위
   definition: 수륙,수중의 단일 혹은 다중 공간, 또는 단일 또는 다량의 공간
   language_code: kor
   notes:
@@ -47,16 +48,18 @@ kor:
     reasons.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19152:2012
     clause: 4.1.23
     link: https://www.iso.org/standard/51206.html
   date_accepted: 2012-12-01 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: 공간 단위
+    normative_status: preferred
 rus:
   id: 1363
-  term: пространственная единица
   definition: отдельная  область (или несколько областей) земли и / или воды, или
     одного объема (или несколько объемов) пространства
   language_code: rus
@@ -74,7 +77,6 @@ rus:
     равную нулю, по административным причинам.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19152:2012
     clause: 4.1.23
@@ -82,9 +84,12 @@ rus:
   lineage_source: ISO 19152:2012
   date_accepted: 2012-12-01 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: пространственная единица
+    normative_status: preferred
 spa:
   id: 1363
-  term: unidad espacial
   definition: un área (o múltiples áreas) de terreno o agua, o un volumen (o múltiples
     volúmenes) de espacio
   language_code: spa
@@ -101,16 +106,18 @@ spa:
     un área igual a cero por razones administrativas
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19152:2012
     clause: 4.1.23
     link: https://www.iso.org/standard/51206.html
   date_accepted: 2012-12-01 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: unidad espacial
+    normative_status: preferred
 swe:
   id: 1363
-  term: gränssatt område
   definition: |-
     single area (or multiple areas) of land and/or water, or a single volume (or multiple volumes) of space
     en eller flera samhörande delar av jordytan eller en eller flera samhörande volymer i förhållande till jordytan
@@ -130,7 +137,6 @@ swe:
     reasons.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19152:2012
     clause: 4.1.23
@@ -138,3 +144,7 @@ swe:
   lineage_source: "(Type reference to national language document)"
   date_accepted: 2012-12-01 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: gränssatt område
+    normative_status: preferred

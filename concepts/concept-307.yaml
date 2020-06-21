@@ -3,7 +3,6 @@ term: neighbourhood
 termid: 307
 eng:
   id: 307
-  term: neighbourhood
   definition: geometric set containing a specified direct position in its interior,
     and containing all direct positions within a specified distance of the specified
     direct position
@@ -11,7 +10,6 @@ eng:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -21,16 +19,18 @@ eng:
   review_status: pending
   review_type: supersession
   release: '1'
+  terms:
+  - type: expression
+    designation: neighbourhood
+    normative_status: preferred
 ara:
   id: 307
-  term: جوار
   definition: مجموعة هندسية تحتوي على موقع مباشر محدد في داخلها ، وتحوي جميع المواقع
     المباشرة ضمن مسافة محددة من الموقع المباشر المحدد المذكور
   language_code: ara
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -40,15 +40,17 @@ ara:
   review_status: pending
   review_type: supersession
   release: '1'
+  terms:
+  - type: expression
+    designation: جوار
+    normative_status: preferred
 zho:
   id: 307
-  term: 邻域
   definition: 在它的内部包含有指定的直接位置,并且包含距所指定直接位置距离都在一个给定的距离之内的所有直接位置的几何集。
   language_code: zho
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -58,16 +60,18 @@ zho:
   review_status: pending
   review_type: supersession
   release: '1'
+  terms:
+  - type: expression
+    designation: 邻域
+    normative_status: preferred
 fin:
   id: 307
-  term: lähiympäristö
   definition: geometrinen joukko, joka pitää sisällään tietyn pisteistön sekä kaikki
     tietyn välimatkan päässä tästä pisteistöstä olevat kohteet
   language_code: fin
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -77,16 +81,18 @@ fin:
   review_status: pending
   review_type: supersession
   release: '1'
+  terms:
+  - type: expression
+    designation: lähiympäristö
+    normative_status: preferred
 fra:
   id: 307
-  term: voisinage
   definition: ensemble géométrique contenant une position directe spécifiée en son
     intérieur, ainsi que toutes les positions directes à une distance spécifiée
   language_code: fra
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -96,14 +102,16 @@ fra:
   review_status: pending
   review_type: supersession
   release: '1'
+  terms:
+  - type: expression
+    designation: voisinage
+    normative_status: preferred
 deu:
   id: 307
-  term: Nachbarschaft
   language_code: deu
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -113,15 +121,17 @@ deu:
   review_status: pending
   review_type: supersession
   release: '1'
+  terms:
+  - type: expression
+    designation: Nachbarschaft
+    normative_status: preferred
 jpn:
   id: 307
-  term: 近傍
   definition: 指定された直接位置を内部に含み，その直接位置から指定された距離以内のすべての直接位置を含む幾何集合。
   language_code: jpn
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -131,16 +141,18 @@ jpn:
   review_status: pending
   review_type: supersession
   release: '1'
+  terms:
+  - type: expression
+    designation: 近傍
+    normative_status: preferred
 kor:
   id: 307
-  term: 인접군
   synonyms: ''
   definition: 내부에 명시된 직접 위치를 포함하고, 정의된 직접 위치로부터의 지정된 거리내에 있는 모든 직접 위치를 포함하는 기하 집합
   language_code: kor
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -150,16 +162,18 @@ kor:
   review_status: pending
   review_type: supersession
   release: '1'
+  terms:
+  - type: expression
+    designation: 인접군
+    normative_status: preferred
 pol:
   id: 307
-  term: otoczenie
   definition: zbiór geometryczny zawierający w swoim wnętrzu określone położenie bezpośrednie
     i wszystkie położenia bezpośrednie znajdujące się w odległości nie większej niż
     ustalona odległość od tego położenia bezpośredniego
   language_code: pol
   notes: []
   examples: []
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -169,25 +183,30 @@ pol:
   review_status: pending
   review_type: supersession
   release: '1'
+  terms:
+  - type: expression
+    designation: otoczenie
+    normative_status: preferred
 rus:
   id: 307
-  term: окрестность
   definition: геометрическое множество, содержащее определенную точку в своей внутренности,
     а также все точки, удаленные от нее на расстояние не больше заданного
   language_code: rus
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
     link: https://www.iso.org/standard/26012.html
   lineage_source: Internet
   date_accepted: 2003-05-01 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: окрестность
+    normative_status: preferred
 spa:
   id: 307
-  term: vecindad
   definition: conjunto geométrico que contiene una posición directa específica en
     su interior, y que contiene todas las posiciones directas dentro de una distancia
     dada a la posición directa especificada
@@ -195,7 +214,6 @@ spa:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -205,9 +223,12 @@ spa:
   review_status: pending
   review_type: supersession
   release: '1'
+  terms:
+  - type: expression
+    designation: vecindad
+    normative_status: preferred
 swe:
   id: 307
-  term: grannskap
   definition: positionsmängd som innehåller en specificerad position i sin innanförmängd
     och som dessutom innehåller alla positioner inom ett visst avstånd från denna
     position
@@ -216,7 +237,6 @@ swe:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2003
@@ -226,3 +246,7 @@ swe:
   review_status: pending
   review_type: supersession
   release: '1'
+  terms:
+  - type: expression
+    designation: grannskap
+    normative_status: preferred

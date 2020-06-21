@@ -3,7 +3,6 @@ term: coupling
 termid: 660
 eng:
   id: 660
-  term: coupling
   definition: linkage of two or more software systems through information transfer
     or messaging
   language_code: eng
@@ -28,16 +27,18 @@ eng:
     a less accurate description.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
     link: https://www.iso.org/standard/40601.html
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: coupling
+    normative_status: preferred
 ara:
   id: 660
-  term: الاقتران
   definition: الربط بين نظامي برمجة أو أكثر عن طريق نقل المعلومات أو إرسال الرسائل
   language_code: ara
   notes:
@@ -61,16 +62,18 @@ ara:
     "الربط المحكم" على التكامل ، لكن هذا التوصيف ليس دقيقا بما فيه الكفاية.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
     link: https://www.iso.org/standard/40601.html
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: الاقتران
+    normative_status: preferred
 zho:
   id: 660
-  term: 耦合
   definition: 通过信息转换或消息通讯，实现两个或多个软件系统的连接。
   language_code: zho
   notes:
@@ -79,15 +82,17 @@ zho:
     '紧'耦合或'紧'集成都是不好的实践，这是自这类术语提出后的共识，有些文献将集成当成紧耦合,这是不准确的描述。
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
     link: https://www.iso.org/standard/40601.html
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: 耦合
+    normative_status: preferred
 fin:
   id: 660
-  term: kytkentä
   definition: kahden tai useamman ohjelmistojärjestelmän liittäminen toisiinsa tiedonsiirron
     tai sanomanvaihdon avulla
   language_code: fin
@@ -119,31 +124,35 @@ fin:
     viitataan integraatioon, mutta tämä kielenkäyttö on vähemmän täsmällistä.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
     link: https://www.iso.org/standard/40601.html
   lineage_source: Internet
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: kytkentä
+    normative_status: preferred
 fra:
   id: 660
-  term: couplage
   definition: lien de deux ou plusieurs systèmes logiciels par transfert d'information
     ou de messagerie
   language_code: fra
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19132
     link: https://www.iso.org/standard/40601.html
   lineage_source: ''
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: couplage
+    normative_status: preferred
 deu:
   id: 660
-  term: Kopplung
   language_code: deu
   notes:
   - Compare with integration. While the conceptual schema of the information transferred
@@ -166,16 +175,18 @@ deu:
     a less accurate description.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
     link: https://www.iso.org/standard/40601.html
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: Kopplung
+    normative_status: preferred
 kor:
   id: 660
-  term: 결합
   definition: 두 개 이상의 시스템 간 정보의 전송 또는 메시징을 통한 연계
   language_code: kor
   notes:
@@ -189,7 +200,6 @@ kor:
     있으나, 다소 정확하지 않게 기술되어 있다.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
@@ -197,9 +207,12 @@ kor:
   lineage_source: KS X ISO 19132
   date_accepted: 2009-12-29 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: 결합
+    normative_status: preferred
 msa:
   id: 660
-  term: gandingan
   language_code: msa
   notes:
   - Compare with integration. While the conceptual schema of the information transferred
@@ -222,7 +235,6 @@ msa:
     a less accurate description.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
@@ -230,9 +242,12 @@ msa:
   lineage_source: Pusat Rujukan Persuratan Melayu (DBP)
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: gandingan
+    normative_status: preferred
 rus:
   id: 660
-  term: соединение
   definition: связь двух или более  программных систем путем передачи информации или
     сообщений
   language_code: rus
@@ -248,16 +263,18 @@ rus:
     подход является  еще менее корректным
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
     link: https://www.iso.org/standard/40601.html
   lineage_source: Internet
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: соединение
+    normative_status: preferred
 spa:
   id: 660
-  term: acoplamiento
   definition: vinculación de dos o más sistemas de software a través de la transferencia
     de información o de mensajería
   language_code: spa
@@ -284,15 +301,17 @@ spa:
     menos precisa.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19132:2007
     link: https://www.iso.org/standard/40601.html
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: acoplamiento
+    normative_status: preferred
 swe:
   id: 660
-  term: "(samman)koppling"
   definition: |-
     <inom informationsteknik> sammankoppling av informationssystem
     med hjälp av datautbyte
@@ -319,7 +338,6 @@ swe:
     a less accurate description.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
@@ -327,3 +345,7 @@ swe:
   lineage_source: "(Type reference to national language document)"
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: "(samman)koppling"
+    normative_status: preferred

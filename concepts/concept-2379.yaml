@@ -3,7 +3,6 @@ term: terrestrial reference system
 termid: 2379
 eng:
   id: 2379
-  term: terrestrial reference system
   abbrev: TRS
   definition: set of conventions defining the origin, scale, orientation and time
     evolution of a spatial reference system co-rotating with the Earth in its diurnal
@@ -16,7 +15,6 @@ eng:
     is included within the geodetic reference frame element of the data model.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19111:2019
     clause: "(E), 3.1.66"
@@ -29,3 +27,7 @@ eng:
   review_decision_event: Normal ISO processing
   review_decision_notes: Publication of document ISO 19111:2019(E)
   release: '5'
+  terms:
+  - type: expression
+    designation: terrestrial reference system
+    normative_status: preferred

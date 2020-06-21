@@ -3,7 +3,6 @@ term: traversable
 termid: 474
 eng:
   id: 474
-  term: traversable
   definition: condition of a link or turn that allows or restricts all traffic's traversal,
     as opposed to a more detailed navigation constraint
   language_code: eng
@@ -16,16 +15,18 @@ eng:
     are not included in maneuvers or routes.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
     link: https://www.iso.org/standard/32551.html
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: traversable
+    normative_status: preferred
 ara:
   id: 474
-  term: قابل للعبور أو الاجتياز
   definition: حالة وصلة أو منحنى تسمح بجميع حالات الاجتياز المروري أو تقيدها ، وذلك
     على العكس من تقييد أكثر تفصيلا للملاحة
   language_code: ara
@@ -38,31 +39,35 @@ ara:
     غير القابلة للعبور أو الاجتياز ليست مشمولة في المناورات أو الطرق أوالمسالك.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
     link: https://www.iso.org/standard/32551.html
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: قابل للعبور أو الاجتياز
+    normative_status: preferred
 zho:
   id: 474
-  term: 可通过
   definition: 与更为详细的导航限制不同，可通过是允许或限制所有交通通行的一个有向路段或转向处的状态。
   language_code: zho
   notes:
   - 可通过通常是物理、文化或法定条件的函数。若可通过为假，则目标不能导航。这就从可使用的网络中有效地“除去”这个有向路段。如果是结点，则从使用的网络中有效地“除去”该节点和所有与之相连的有向路段。如果是转向，仅从任一可行的路径中简单“除去”转向点即可。不可通过的实体不应包含在策略或路径中。
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
     link: https://www.iso.org/standard/32551.html
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: 可通过
+    normative_status: preferred
 fin:
   id: 474
-  term: kuljettavuus
   definition: linkin tai käännöksen tila, jossa kulku on joko sallittu kaikelle liikenteelle
     tai kokonaan estetty; vertaa yksityiskohtaisemmat navigointirajoitukset
   language_code: fin
@@ -77,16 +82,18 @@ fin:
     reitteihin.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
     link: https://www.iso.org/standard/32551.html
   lineage_source: Ei lähdettä, käännetty
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: kuljettavuus
+    normative_status: preferred
 fra:
   id: 474
-  term: pénétrable
   definition: condition selon laquelle un lien ou une intersection permet ou limite
     la traversée de tout le trafic, par opposition à une contrainte de navigation
     plus précise
@@ -94,15 +101,17 @@ fra:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19133
     link: https://www.iso.org/standard/32551.html
   lineage_source: ''
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: pénétrable
+    normative_status: preferred
 kor:
   id: 474
-  term: 운행 가능성
   definition: 보다 상세한 내비게이션 제약 조건과 반대의 개념으로, 모든 교통 운행을 허용하거나 제약하는 링크나 회전의 조건
   language_code: kor
   notes:
@@ -111,7 +120,6 @@ kor:
     단순히 어떠한 실행 가능 경로에서 이를 제거한다. 운행할 수 없는 개체는 기동이나 경로에 포함될 수 없다.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
@@ -119,9 +127,12 @@ kor:
   lineage_source: KS X ISO 19133
   date_accepted: 2006-12-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: 운행 가능성
+    normative_status: preferred
 rus:
   id: 474
-  term: проходимый
   definition: состояние дуги или поворота, допускающее либо ограничивающее движение
     всего транспорта - в отличие от более детализованного навигационного ограничения
   language_code: rus
@@ -134,16 +145,18 @@ rus:
     в маневры или маршруты
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
     link: https://www.iso.org/standard/32551.html
   lineage_source: Internet
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: проходимый
+    normative_status: preferred
 spa:
   id: 474
-  term: transitable
   definition: condición de un enlace o un giro que permite o restringe todo el recorrido
     del tráfico, en oposición a una restricción de navegación más detallada
   language_code: spa
@@ -156,16 +169,18 @@ spa:
     no están incluidas en las maniobras o rutas.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
     link: https://www.iso.org/standard/32551.html
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: transitable
+    normative_status: preferred
 swe:
   id: 474
-  term: farbar
   definition: tillstånd hos en länk eller sväng som tillåter eller inskränker all
     trafiks passage, i motsats till en mer detaljerad trafikrestriktion
   country_code: swe
@@ -176,7 +191,6 @@ swe:
     Framkomlighet är en NVDB-företeelse som beskriver skogsbilvägars framkomlighet för fordonskombinationer (Traversability bör ej översättas till framkomlighet)
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
@@ -184,3 +198,7 @@ swe:
   lineage_source: "(Type reference to national language document)"
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: farbar
+    normative_status: preferred

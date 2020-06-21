@@ -3,14 +3,12 @@ term: capability test
 termid: 35
 eng:
   id: 35
-  term: capability test
   definition: test designed to determine whether an IUT conforms to a particular characteristic
     of an International Standard as described in the test purpose
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
@@ -20,16 +18,18 @@ eng:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: capability test
+    normative_status: preferred
 ara:
   id: 35
-  term: اختبار القدرة
   definition: اختبار صُمم لتحديد ما إذا كان التنفيذ تحت ظروف الاختبار في حالة معينة
     مطابقا لخاصية محددة لمقياس دولي ما بحسب الوصف الوارد في الغرض من إجراء الاختبار
   language_code: ara
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
@@ -39,15 +39,17 @@ ara:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: اختبار القدرة
+    normative_status: preferred
 zho:
   id: 35
-  term: 能力测试
   definition: 为确定被测实现（IUT)是否符合测试目的所描述的标准的特性而设计的测试。
   language_code: zho
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
@@ -57,9 +59,12 @@ zho:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: 能力测试
+    normative_status: preferred
 dan:
   id: 35
-  term: egnethedstest
   definition: test, der er udviklet med henblik på at afgøre, om en IUT (Implementation
     Under Test) opfylder kravene til en bestemt egenskab i en international standard
     som beskrevet i testformålet
@@ -75,9 +80,12 @@ dan:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: egnethedstest
+    normative_status: 
 fin:
   id: 35
-  term: kelpoisuustesti
   definition: testi, jonka tarkoituksena on määrittää, onko testattavana oleva toteutus
     (Implementation Under Test, IUT) kansainvälisen standardin tietyn vaatimuksen
     mukainen siten kuin testin tarkoituksessa on kuvattu
@@ -85,7 +93,6 @@ fin:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
@@ -95,9 +102,12 @@ fin:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: kelpoisuustesti
+    normative_status: preferred
 fra:
   id: 35
-  term: test fonctionnel
   definition: test destiné à déterminer si une implémentation soumise à test est conforme
     à une caractéristique particulière d'une norme internationale, tel que décrit
     dans l'objet du test
@@ -105,7 +115,6 @@ fra:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
@@ -115,14 +124,16 @@ fra:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: test fonctionnel
+    normative_status: preferred
 deu:
   id: 35
-  term: Fähigkeitstest
   language_code: deu
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
@@ -132,15 +143,17 @@ deu:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: Fähigkeitstest
+    normative_status: preferred
 jpn:
   id: 35
-  term: 機能試験
   definition: 試験対象(IUT:implementation under test)が試験目的の記述どおりに規格の特定の性質に適合するかどうかを決定するための試験。
   language_code: jpn
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
@@ -150,16 +163,18 @@ jpn:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: 機能試験
+    normative_status: preferred
 kor:
   id: 35
-  term: 기능 시험
   definition: '시험용 구현(IUT: Implementation under test)이 시험 목적에 기술된 바와 같이 표준 표준의 특정한
     특성을 따르는지를 판단하기 위해 설계된 시험'
   language_code: kor
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
@@ -169,16 +184,18 @@ kor:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: 기능 시험
+    normative_status: preferred
 rus:
   id: 35
-  term: тест на функциональное соответствие
   definition: тест, призванный установить, обладает ли объект проверки конкретным
     свойством, которое предусмотрено международным стандартом и объявлено целью тестирования
   language_code: rus
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
@@ -188,9 +205,12 @@ rus:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: тест на функциональное соответствие
+    normative_status: preferred
 spa:
   id: 35
-  term: prueba de capacidad
   definition: prueba diseñada para determinar si un IUT es conforme a una característica
     particular de una norma internacional tal y como se describe en el propósito de
     la prueba
@@ -198,7 +218,6 @@ spa:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
@@ -208,9 +227,12 @@ spa:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: prueba de capacidad
+    normative_status: preferred
 swe:
   id: 35
-  term: duglighetstest
   definition: test som är framtagen för att avgöra om en implementering av en standard
     överensstämmer med en viss egenskap hos standarden och i enlighet med testens
     syfte
@@ -219,7 +241,6 @@ swe:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
@@ -229,3 +250,7 @@ swe:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: duglighetstest
+    normative_status: preferred

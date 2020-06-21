@@ -3,7 +3,6 @@ term: flattening
 termid: 2108
 eng:
   id: 2108
-  term: flattening
   abbrev: f
   definition: ratio of the difference between the semi-major axis (a) and semi-minor
     axis (b) of an ellipsoid to the semi-major axis; f = (a – b)/a
@@ -13,7 +12,6 @@ eng:
     as reciprocal flattening.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19111:2019
     clause: "(E), 3.1.28"
@@ -29,9 +27,12 @@ eng:
     modified – The first occurrence of the words “semi-major” have been expanded to
     “semi-major axis”. to ISO 19111:2019(E), 3.1.28. Lineage source added as ISO 19162:2015
   release: '4'
+  terms:
+  - type: expression
+    designation: flattening
+    normative_status: preferred
 spa:
   id: 2108
-  term: achatamiento
   abbrev: f
   definition: razón de la diferencia entre el semieje mayor (a) y el semieje menor
     (b) de un elipsoide con el semieje mayor; f = (a - b) / a
@@ -41,7 +42,6 @@ spa:
     se conoce como el recíproco del achatamiento.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19111:2019
     clause: "(E), 3.1.28"
@@ -57,3 +57,7 @@ spa:
     modified – The first occurrence of the words “semi-major” have been expanded to
     “semi-major axis”. to ISO 19111:2019(E), 3.1.28. Lineage source added as ISO 19162:2015
   release: '4'
+  terms:
+  - type: expression
+    designation: achatamiento
+    normative_status: preferred

@@ -3,7 +3,6 @@ term: ellipsoidal longitude
 termid: 504
 eng:
   id: 504
-  term: ellipsoidal longitude
   abbrev: l
   synonyms: geodetic longitude
   definition: angle from the prime meridian plane to the meridian plane of a given
@@ -12,7 +11,6 @@ eng:
   notes: []
   examples: []
   entry_status: valid
-  classification: admitted
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2019
@@ -29,9 +27,12 @@ eng:
   review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
     19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
   release: '1'
+  terms:
+  - type: expression
+    designation: ellipsoidal longitude
+    normative_status: admitted
 ara:
   id: 504
-  term: خط طول القطع الناقص
   synonyms: geodetic longitude
   definition: الزاوية من مستوى خط الطول الاساسي (غرينتش) ومستوى خط الزوال الرأسي لنقطة
     معينة ، وتعتبر موجبة عند الاتجاه إلى الشرق
@@ -39,7 +40,6 @@ ara:
   notes: []
   examples: []
   entry_status: valid
-  classification: admitted
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2019
@@ -56,9 +56,12 @@ ara:
   review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
     19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
   release: '1'
+  terms:
+  - type: expression
+    designation: خط طول القطع الناقص
+    normative_status: admitted
 zho:
   id: 504
-  term: 椭球经度
   abbrev: l
   synonyms: geodetic longitude
   definition: 首子午面与通过给定点的子午线面间的夹角，向东为正。
@@ -66,7 +69,6 @@ zho:
   notes: []
   examples: []
   entry_status: valid
-  classification: admitted
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2019
@@ -83,9 +85,12 @@ zho:
   review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
     19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
   release: '1'
+  terms:
+  - type: expression
+    designation: 椭球经度
+    normative_status: admitted
 dan:
   id: 504
-  term: ellipsoidelængde
   definition: vinkel fra hovedmeridianplanet til et givet punkts meridianplan, hvor
     øst regnes positiv
   language_code: dan
@@ -107,9 +112,12 @@ dan:
   review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
     19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
   release: '1'
+  terms:
+  - type: expression
+    designation: ellipsoidelængde
+    normative_status: 
 nld:
   id: 504
-  term: ellipsoïde lengte
   abbrev: l
   synonyms: geodetische lengte
   definition: hoek vanaf het vlak van de nulmeridiaan tot het meridiaan vlak van een
@@ -118,7 +126,6 @@ nld:
   notes: []
   examples: []
   entry_status: valid
-  classification: admitted
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2019
@@ -135,9 +142,12 @@ nld:
   review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
     19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
   release: '1'
+  terms:
+  - type: expression
+    designation: ellipsoïde lengte
+    normative_status: admitted
 fin:
   id: 504
-  term: ellipsoidinen pituusaste
   abbrev: λ
   synonyms: ellipsoidinen longitudi
   definition: kulma nollameridiaanitasosta pisteen meridiaanitasoon ; positiivinen
@@ -146,7 +156,6 @@ fin:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2019
@@ -163,9 +172,12 @@ fin:
   review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
     19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
   release: '1'
+  terms:
+  - type: expression
+    designation: ellipsoidinen pituusaste
+    normative_status: preferred
 fra:
   id: 504
-  term: longitude ellipsoïdale
   synonyms: geodetic longitude
   definition: angle entre le plan méridien de référence et le plan méridien passant
     par un point donné, orienté positivement vers l'est
@@ -173,7 +185,6 @@ fra:
   notes: []
   examples: []
   entry_status: valid
-  classification: admitted
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2019
@@ -190,16 +201,18 @@ fra:
   review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
     19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
   release: '1'
+  terms:
+  - type: expression
+    designation: longitude ellipsoïdale
+    normative_status: admitted
 deu:
   id: 504
-  term: ellipsoidische Länge
   abbrev: l
   synonyms: geodetic longitude
   language_code: deu
   notes: []
   examples: []
   entry_status: valid
-  classification: admitted
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2019
@@ -216,16 +229,18 @@ deu:
   review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
     19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
   release: '1'
+  terms:
+  - type: expression
+    designation: ellipsoidische Länge
+    normative_status: admitted
 kor:
   id: 504
-  term: 타원체 경도
   abbrev: l
   definition: 본초 자오선면으로부터 어떤 점의 자오선면까지의 각도로서, 동으로 향하는 것을 정(+)으로 함
   language_code: kor
   notes: []
   examples: []
   entry_status: valid
-  classification: admitted
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2019
@@ -242,9 +257,12 @@ kor:
   review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
     19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
   release: '1'
+  terms:
+  - type: expression
+    designation: 타원체 경도
+    normative_status: admitted
 pol:
   id: 504
-  term: długość geodezyjna                         długośc elipsoidalna
   abbrev: l
   synonyms: długość geodezyjna
   definition: kąt dwuścienny między płaszczyzną południka początkowego i płaszczyzną
@@ -252,7 +270,6 @@ pol:
   language_code: pol
   notes: []
   examples: []
-  classification: admitted
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2019
@@ -269,9 +286,12 @@ pol:
   review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
     19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
   release: '1'
+  terms:
+  - type: expression
+    designation: długość geodezyjna                         długośc elipsoidalna
+    normative_status: admitted
 rus:
   id: 504
-  term: эллипсоидальная долгота
   abbrev: λ
   synonyms: геодезическая долгота
   definition: угол от плоскости начального меридиана до плоскости меридиана в данной
@@ -280,7 +300,6 @@ rus:
   notes: []
   examples: []
   entry_status: valid
-  classification: admitted
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2019
@@ -297,9 +316,12 @@ rus:
   review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
     19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
   release: '1'
+  terms:
+  - type: expression
+    designation: эллипсоидальная долгота
+    normative_status: admitted
 spa:
   id: 504
-  term: longitud elipsoidal
   abbrev: l
   synonyms: longitud geodésica
   definition: ángulo que forma el plano meridiano principal con el plano meridiano
@@ -308,7 +330,6 @@ spa:
   notes: []
   examples: []
   entry_status: valid
-  classification: admitted
   review_indicator: ''
   authoritative_source:
     ref: ISO 19111:2019
@@ -325,3 +346,7 @@ spa:
   review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
     19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
   release: '1'
+  terms:
+  - type: expression
+    designation: longitud elipsoidal
+    normative_status: admitted

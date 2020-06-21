@@ -3,14 +3,12 @@ term: sensor model <geopositioning>
 termid: 2468
 eng:
   id: 2468
-  term: sensor model <geopositioning>
   definition: mathematical description of the relationship between the three-dimensional
     object space and the 2D plane of the associated image produced by a sensor
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19130-1:2018
     clause: "(E), 3.80"
@@ -25,3 +23,7 @@ eng:
   review_decision_notes: This entry supersedes the entry for sensor model <geopositioning>
     in ISO/TS 19130:2010(E)
   release: '5'
+  terms:
+  - type: expression
+    designation: sensor model <geopositioning>
+    normative_status: preferred

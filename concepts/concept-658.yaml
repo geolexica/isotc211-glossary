@@ -3,7 +3,6 @@ term: basic service
 termid: 658
 eng:
   id: 658
-  term: basic service
   definition: service providing a basic function to other services or applications
     in a functional manner
   language_code: eng
@@ -14,16 +13,18 @@ eng:
     using the same interfaces.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
     link: https://www.iso.org/standard/40601.html
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: basic service
+    normative_status: preferred
 ara:
   id: 658
-  term: خدمة أساسية
   definition: خدمة تقدِّم وظيفة أساسية لخدمات أو تطبيقات أخرى بطريقة فعّالة
   language_code: ara
   notes:
@@ -33,31 +34,35 @@ ara:
     فإن من السهل استبدالها أثناء التشغيل بخدمات أخرى باستخدام نفس واجهات التبادل
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
     link: https://www.iso.org/standard/40601.html
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: خدمة أساسية
+    normative_status: preferred
 zho:
   id: 658
-  term: 基本服务
   definition: 以函数方式为其他服务或应用提供基本功能的服务。
   language_code: zho
   notes:
   - 基本服务缺乏持久性，也缺乏具体用户间调用的状态信息,这意味着用户可直接访问。因为他们可能以函数的方式运行,他们在执行过程中随时可能被其他使用相同接口的服务所取代。
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
     link: https://www.iso.org/standard/40601.html
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: 基本服务
+    normative_status: preferred
 fin:
   id: 658
-  term: peruspalvelu
   definition: palvelu, joka tarjoaa muille palveluille tai sovelluksille niiden tarvitseman
     perustoiminnallisuuden funktiokutsun tapaan
   language_code: fin
@@ -68,31 +73,35 @@ fin:
     samoja rajapintoja käyttävillä palveluilla.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
     link: https://www.iso.org/standard/40601.html
   lineage_source: Internet
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: peruspalvelu
+    normative_status: preferred
 fra:
   id: 658
-  term: service de base
   definition: service fournissant une fonction de base à d'autres services ou applications
     de façon fonctionnelle
   language_code: fra
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19132
     link: https://www.iso.org/standard/40601.html
   lineage_source: ''
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: service de base
+    normative_status: preferred
 deu:
   id: 658
-  term: einfacher Dienst
   language_code: deu
   notes:
   - cf. interoperate. Basic services lack any persistent, user-specific state information
@@ -101,16 +110,18 @@ deu:
     using the same interfaces.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
     link: https://www.iso.org/standard/40601.html
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: einfacher Dienst
+    normative_status: preferred
 kor:
   id: 658
-  term: 기본 서비스
   definition: 서비스 또는 응용에 기본 함수를 제공하는 서비스
   language_code: kor
   notes:
@@ -118,7 +129,6 @@ kor:
     서비스는 기능적으로 사용되며, 동일한 인터페이스를 따르는 다른 서비스로 실시간 교체가 가능하다.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
@@ -126,9 +136,12 @@ kor:
   lineage_source: KS X ISO 19132
   date_accepted: 2009-12-29 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: 기본 서비스
+    normative_status: preferred
 rus:
   id: 658
-  term: базовый  сервис
   definition: сервис,  выполняющий базовую функцию для других сервISOв или других
     приложений
   language_code: rus
@@ -140,16 +153,18 @@ rus:
     и тех же интерфейсов
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
     link: https://www.iso.org/standard/40601.html
   lineage_source: Internet
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: базовый  сервис
+    normative_status: preferred
 spa:
   id: 658
-  term: servicio básico
   definition: servicio que proporciona una función básica a otros servicios o aplicaciones
     de un modo funcional
   language_code: spa
@@ -161,15 +176,17 @@ spa:
     ejecución por otros servicios que utilicen las mismas interfaces.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19132
     link: https://www.iso.org/standard/40601.html
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: servicio básico
+    normative_status: preferred
 swe:
   id: 658
-  term: grundtjänst
   definition: "tjänst som behövs för att andra \ntjänster ska kunna utföras"
   country_code: swe
   language_code: swe
@@ -180,7 +197,6 @@ swe:
     using the same interfaces.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
@@ -188,3 +204,7 @@ swe:
   lineage_source: "(Type reference to national language document)"
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: grundtjänst
+    normative_status: preferred

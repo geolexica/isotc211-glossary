@@ -3,7 +3,6 @@ term: range <ontology>
 termid: 2343
 eng:
   id: 2343
-  term: range <ontology>
   definition: restriction to constrain the class of objects which participate in a
     subject-predicate-object triple
   language_code: eng
@@ -12,7 +11,6 @@ eng:
     or range of a relation.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19150-4:2019
     clause: "(E), 3.1.22"
@@ -25,3 +23,7 @@ eng:
   review_decision_event: Normal ISO processing
   review_decision_notes: Publication of document ISO 19150-4:2019(E)
   release: '5'
+  terms:
+  - type: expression
+    designation: range <ontology>
+    normative_status: preferred

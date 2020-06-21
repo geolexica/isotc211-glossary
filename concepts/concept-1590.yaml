@@ -3,7 +3,6 @@ term: object property <OWL>
 termid: 1590
 eng:
   id: 1590
-  term: object property <OWL>
   definition: semantic association between a pair of individuals
   language_code: eng
   notes:
@@ -11,7 +10,6 @@ eng:
     Description Logic.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: OWL
   lineage_source: ISO 19150-2:2015, 4.1.28
@@ -23,9 +21,12 @@ eng:
   review_decision_event: Normal ISO processing
   review_decision_notes: Publication of document ISO 19150-2:2015(E)
   release: '4'
+  terms:
+  - type: expression
+    designation: object property <OWL>
+    normative_status: preferred
 spa:
   id: 1590
-  term: propiedad de objeto <OWL>
   definition: asociación semántica entre un par de individuos
   language_code: spa
   notes:
@@ -33,7 +34,6 @@ spa:
     en Descripción Lógica.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: OWL
   lineage_source: ISO 19150-2:2015, 4.1.28
@@ -45,3 +45,7 @@ spa:
   review_decision_event: Normal ISO processing
   review_decision_notes: Publication of document ISO 19150-2:2015(E)
   release: '4'
+  terms:
+  - type: expression
+    designation: propiedad de objeto <OWL>
+    normative_status: preferred

@@ -3,7 +3,6 @@ term: convex hull
 termid: 86
 eng:
   id: 86
-  term: convex hull
   definition: smallest convex set containing a given geometric object
   language_code: eng
   notes:
@@ -16,7 +15,6 @@ eng:
     [A  \subseteq C \subseteq B]]$$'
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2019
@@ -34,9 +32,12 @@ eng:
     Fourth Edition, Oxford University Press to ISO 19107:2019, 3.15 . Lineage source
     added as ISO 19107:2003(E)
   release: '1'
+  terms:
+  - type: expression
+    designation: convex hull
+    normative_status: preferred
 ara:
   id: 86
-  term: هيكل محدَّب
   definition: أصغر مجموعة محدَّبة تحتوي على جسم هندسي محدَّد
   language_code: ara
   notes:
@@ -48,7 +49,6 @@ ara:
     "Smallest" is the set theoretic smallest, not an indication of a measurement. The definition can be rewritten as "the intersection of all convex sets that contain the geometric object". Another definition in a Euclidean space $\mathbb{E}^n$ is the union of all lines with both end points in the given geometric object. $$ C = A.\textit{convexHull} \Leftrightarrow [C.\textit{convex} = TRUE] \wedge [A \subset C] \wedge [[B.\textit{convex} = \textit{true}, A \subset B] \implies [A  \subseteq C \subseteq B]]$$
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2019
@@ -66,9 +66,12 @@ ara:
     Fourth Edition, Oxford University Press to ISO 19107:2019, 3.15. Lineage source
     added as ISO 19107:2003(E)
   release: '1'
+  terms:
+  - type: expression
+    designation: هيكل محدَّب
+    normative_status: preferred
 zho:
   id: 86
-  term: 凸包
   definition: 包含给定的几何对象的最小凸集。
   language_code: zho
   notes:
@@ -82,7 +85,6 @@ zho:
     [A  \\subseteq C \\subseteq B]]$$"
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2019
@@ -100,9 +102,12 @@ zho:
     Fourth Edition, Oxford University Press to ISO 19107:2019, 3.15. Lineage source
     added as ISO 19107:2003(E)
   release: '1'
+  terms:
+  - type: expression
+    designation: 凸包
+    normative_status: preferred
 dan:
   id: 86
-  term: konvekst hylster
   definition: mindste konvekse mængde, der kan indeholde et givet geometrisk objekt
   language_code: dan
   notes: []
@@ -124,9 +129,12 @@ dan:
     Fourth Edition, Oxford University Press to ISO 19107:2019, 3.15. Lineage source
     added as ISO 19107:2003(E)
   release: '1'
+  terms:
+  - type: expression
+    designation: konvekst hylster
+    normative_status: 
 fin:
   id: 86
-  term: konveksi peite
   synonyms: konveksi verho
   definition: pienin konveksi joukko, joka sisältää annetun geometrisen objektin
   language_code: fin
@@ -143,7 +151,6 @@ fin:
     = \\textit{true}, A \\subset B] \\implies [A  \\subseteq C \\subseteq B]]$$"
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2019
@@ -161,15 +168,17 @@ fin:
     Fourth Edition, Oxford University Press to ISO 19107:2019, 3.15. Lineage source
     added as ISO 19107:2003(E)
   release: '1'
+  terms:
+  - type: expression
+    designation: konveksi peite
+    normative_status: preferred
 fra:
   id: 86
-  term: enveloppe convexe
   definition: plus petit ensemble convexe contenant un objet géométrique donné
   language_code: fra
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2019
@@ -187,9 +196,12 @@ fra:
     Fourth Edition, Oxford University Press to ISO 19107:2019, 3.15. Lineage source
     added as ISO 19107:2003(E)
   release: '1'
+  terms:
+  - type: expression
+    designation: enveloppe convexe
+    normative_status: preferred
 deu:
   id: 86
-  term: konvexe Hülle
   language_code: deu
   notes:
   - '"Smallest" is the set theoretic smallest, not an indication of a measurement.
@@ -201,7 +213,6 @@ deu:
     [A  \subseteq C \subseteq B]]$$'
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2019
@@ -219,9 +230,12 @@ deu:
     Fourth Edition, Oxford University Press to ISO 19107:2019, 3.15. Lineage source
     added as ISO 19107:2003(E)
   release: '1'
+  terms:
+  - type: expression
+    designation: konvexe Hülle
+    normative_status: preferred
 kor:
   id: 86
-  term: 볼록 외곽
   definition: 기하 객체를 포함하는 최소의 볼록 집합
   language_code: kor
   notes:
@@ -233,7 +247,6 @@ kor:
     "Smallest" is the set theoretic smallest, not an indication of a measurement. The definition can be rewritten as "the intersection of all convex sets that contain the geometric object". Another definition in a Euclidean space $\mathbb{E}^n$ is the union of all lines with both end points in the given geometric object. $$ C = A.\textit{convexHull} \Leftrightarrow [C.\textit{convex} = TRUE] \wedge [A \subset C] \wedge [[B.\textit{convex} = \textit{true}, A \subset B] \implies [A  \subseteq C \subseteq B]]$$
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2019
@@ -251,9 +264,12 @@ kor:
     Fourth Edition, Oxford University Press to ISO 19107:2019, 3.15. Lineage source
     added as ISO 19107:2003(E)
   release: '1'
+  terms:
+  - type: expression
+    designation: 볼록 외곽
+    normative_status: preferred
 rus:
   id: 86
-  term: выпуклая оболочка
   definition: наименьшее из выпуклых множеств, содержащее данный геометрический объект
   language_code: rus
   notes:
@@ -269,7 +285,6 @@ rus:
     = \\textit{true}, A \\subset B] \\implies [A  \\subseteq C \\subseteq B]]$$"
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2019
@@ -287,9 +302,12 @@ rus:
     Fourth Edition, Oxford University Press to ISO 19107:2019, 3.15. Lineage source
     added as ISO 19107:2003(E)
   release: '1'
+  terms:
+  - type: expression
+    designation: выпуклая оболочка
+    normative_status: preferred
 spa:
   id: 86
-  term: cierre convexo
   definition: conjunto convexo más pequeño que contiene un objeto geométrico dado
   language_code: spa
   notes:
@@ -301,7 +319,6 @@ spa:
     "Smallest" is the set theoretic smallest, not an indication of a measurement. The definition can be rewritten as "the intersection of all convex sets that contain the geometric object". Another definition in a Euclidean space $\mathbb{E}^n$ is the union of all lines with both end points in the given geometric object. $$ C = A.\textit{convexHull} \Leftrightarrow [C.\textit{convex} = TRUE] \wedge [A \subset C] \wedge [[B.\textit{convex} = \textit{true}, A \subset B] \implies [A  \subseteq C \subseteq B]]$$
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2019
@@ -319,16 +336,18 @@ spa:
     Fourth Edition, Oxford University Press to ISO 19107:2019, 3.15. Lineage source
     added as ISO 19107:2003(E)
   release: '1'
+  terms:
+  - type: expression
+    designation: cierre convexo
+    normative_status: preferred
 swe:
   id: 86
-  term: konvext hölje
   definition: den minsta konvexa mängden som innehåller ett givet geometriskt objekt
   country_code: swe
   language_code: swe
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19107:2019
@@ -346,3 +365,7 @@ swe:
     Fourth Edition, Oxford University Press to ISO 19107:2019, 3.15. Lineage source
     added as ISO 19107:2003(E)
   release: '1'
+  terms:
+  - type: expression
+    designation: konvext hölje
+    normative_status: preferred

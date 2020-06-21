@@ -3,7 +3,6 @@ term: continuous change
 termid: 659
 eng:
   id: 659
-  term: continuous change
   definition: change in an attribute whose type has a distance measure such that its
     value can be assumed to take on intermediate values between two known measurements
   language_code: eng
@@ -15,16 +14,18 @@ eng:
     the paths appropriate for that vehicle must be taken into consideration.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
     link: https://www.iso.org/standard/40601.html
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: continuous change
+    normative_status: preferred
 ara:
   id: 659
-  term: تغيير مستمر
   definition: تغيير في صفة مميزة والتي نوعها له قياس مسافة بحيث يمكن افتراض قيمتها
     لتأخذ قيم  وسط بين قياسين معروفين.
   language_code: ara
@@ -37,16 +38,18 @@ ara:
     في الاعتبار.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
     link: https://www.iso.org/standard/40601.html
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: تغيير مستمر
+    normative_status: preferred
 zho:
   id: 659
-  term: 连续变化
   definition: 带有距离度量类型的属性的变化，该值可在两个已知量测值间取值。
   language_code: zho
   notes:
@@ -54,15 +57,17 @@ zho:
     value2的值取决于变量time1和time2的取值）举例来说,如果连续变化是对车辆的运动而言,那么必须考虑对物理学和与车辆相适应的路径的限制。
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
     link: https://www.iso.org/standard/40601.html
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: 连续变化
+    normative_status: preferred
 fin:
   id: 659
-  term: jatkuva muuttuminen
   definition: etäisyyden muuttuminen siten, että mitattujen arvojen välillä on aina
     jatkuvia arvoja
   language_code: fin
@@ -72,31 +77,35 @@ fin:
     fyysiset rajoitukset ja ajoneuvolle soveltuvat reitit otetaan huomioon.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
     link: https://www.iso.org/standard/40601.html
   lineage_source: Ei lähdettä, käännetty
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: jatkuva muuttuminen
+    normative_status: preferred
 fra:
   id: 659
-  term: variation continue
   definition: variation d'un attribut dont le type comporte une mesure de distance
     telle que sa valeur peut être supposée se trouver entre deux valeurs connues
   language_code: fra
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19132
     link: https://www.iso.org/standard/40601.html
   lineage_source: ''
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: variation continue
+    normative_status: preferred
 deu:
   id: 659
-  term: stetige Änderung
   language_code: deu
   notes:
   - The interpolation of continuous change is usually done by taking into consideration
@@ -106,16 +115,18 @@ deu:
     the paths appropriate for that vehicle must be taken into consideration.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
     link: https://www.iso.org/standard/40601.html
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: stetige Änderung
+    normative_status: preferred
 kor:
   id: 659
-  term: 연속 변환
   definition: 속성이 거리 관측 유형인 변환에서 속성의 값은 알려진 두 측정 간의 매개 값을 사용한 것으로 가정할 수 있다.
   language_code: kor
   notes:
@@ -123,7 +134,6 @@ kor:
     예를 들어, 차량의 이동에 대한 연속 변환의 경우 반드시 제약 조건으로 물리학과 도로 상태를 고려해야 한다.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
@@ -131,9 +141,12 @@ kor:
   lineage_source: KS X ISO 19132
   date_accepted: 2009-12-29 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: 연속 변환
+    normative_status: preferred
 msa:
   id: 659
-  term: Perubahan selanjar
   language_code: msa
   notes:
   - The interpolation of continuous change is usually done by taking into consideration
@@ -143,7 +156,6 @@ msa:
     the paths appropriate for that vehicle must be taken into consideration.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
@@ -151,9 +163,12 @@ msa:
   lineage_source: Istilah ukur dan Pemetaan (DBP, 1992)
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: Perubahan selanjar
+    normative_status: preferred
 rus:
   id: 659
-  term: непрерывное изменение
   definition: такое изменение атрибута, характеризующего некоторое расстояние, при
     котором предполагается, что этот атрибут принимал промежуточные значения между
     результатами двух фиксированных измерений
@@ -167,16 +182,18 @@ rus:
     средства
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
     link: https://www.iso.org/standard/40601.html
   lineage_source: Internet
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: непрерывное изменение
+    normative_status: preferred
 spa:
   id: 659
-  term: cambio continuo
   definition: cambio en un atributo cuyo tipo tiene una medida de distancia tal que
     su valor se puede suponer que tiene valores intermedios entre dos mediciones conocidas
   language_code: spa
@@ -188,15 +205,17 @@ spa:
     las limitaciones físicas y de las vías apropiadas para ese vehículo.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19132:2007
     link: https://www.iso.org/standard/40601.html
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: cambio continuo
+    normative_status: preferred
 swe:
   id: 659
-  term: kontinuerlig värdeförändring
   definition: "<hos attribut> det att attributet kan anta vilket värde som helst mellan
     två angivna värden"
   country_code: swe
@@ -209,7 +228,6 @@ swe:
     the paths appropriate for that vehicle must be taken into consideration.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19132:2007
@@ -217,3 +235,7 @@ swe:
   lineage_source: "(Type reference to national language document)"
   date_accepted: 2007-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: kontinuerlig värdeförändring
+    normative_status: preferred

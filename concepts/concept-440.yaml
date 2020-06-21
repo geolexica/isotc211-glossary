@@ -3,7 +3,6 @@ term: System Under Test
 termid: 440
 eng:
   id: 440
-  term: System Under Test
   abbrev: SUT
   definition: computer hardware, software and communication network required to support
     IUT
@@ -11,7 +10,6 @@ eng:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
@@ -21,9 +19,12 @@ eng:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: System Under Test
+    normative_status: preferred
 ara:
   id: 440
-  term: نظام تحت الاختبار
   abbrev: ن ت ا
   definition: شبكة معدات وبرامج حاسب آلي واتصالات مطلوبة لمساندة تجهيز تحت الاختبار
     IUT
@@ -31,7 +32,6 @@ ara:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
@@ -41,16 +41,18 @@ ara:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: نظام تحت الاختبار
+    normative_status: preferred
 zho:
   id: 440
-  term: 被测系统
   abbrev: SUT
   definition: 支持IUT所需要的计算机硬件、软件及通讯网络。
   language_code: zho
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
@@ -60,16 +62,18 @@ zho:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: 被测系统
+    normative_status: preferred
 fin:
   id: 440
-  term: testattavana oleva järjestelmä
   definition: tietokonelaitteisto, ohjelmisto ja tietoliikenneverkosto, joita tarvitaan
     tukemaan testattavana olevaa toteutusta (Implementation Under Test, IUT)
   language_code: fin
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
@@ -79,16 +83,18 @@ fin:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: testattavana oleva järjestelmä
+    normative_status: preferred
 fra:
   id: 440
-  term: système soumis à test
   definition: matériel informatique, logiciel et réseau de communication exigés pour
     supporter une implémentation soumise à test
   language_code: fra
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
@@ -98,9 +104,12 @@ fra:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: système soumis à test
+    normative_status: preferred
 deu:
   id: 440
-  term: System Under Test
   abbrev: SUT
   definition: Hardware, Software und Netzwerkarchitektur, die zur Unterstützung einer
     "Implementation Under Test" (IUT) benötigt werden
@@ -108,7 +117,6 @@ deu:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
@@ -118,16 +126,18 @@ deu:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: System Under Test
+    normative_status: preferred
 jpn:
   id: 440
-  term: 試験対象システム，SUT
   abbrev: SUT
   definition: 試験対象(IUT)を支援するために必要な計算機のハードウェア，ソフトウェア及び通信網。
   language_code: jpn
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
@@ -137,16 +147,18 @@ jpn:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: 試験対象システム，SUT
+    normative_status: preferred
 kor:
   id: 440
-  term: 시험용 시스템
   abbrev: SUT
   definition: IUT를 지원하는 데 필요한 컴퓨터 하드웨어, 소프트웨어 및 통신망
   language_code: kor
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
@@ -156,9 +168,12 @@ kor:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: 시험용 시스템
+    normative_status: preferred
 rus:
   id: 440
-  term: тестируемая   система
   abbrev: SUT
   definition: компьютерные аппаратные средства, программы и сеть коммуникации, необходимые
     в процессе тестирования
@@ -166,7 +181,6 @@ rus:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
@@ -176,16 +190,18 @@ rus:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: тестируемая   система
+    normative_status: preferred
 spa:
   id: 440
-  term: Sistema Bajo Prueba
   definition: hardware, software y red de comunicaciones requeridos que soportan la
     IUT
   language_code: spa
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
@@ -195,9 +211,12 @@ spa:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: Sistema Bajo Prueba
+    normative_status: preferred
 swe:
   id: 440
-  term: systemlösning vid testning av implementering
   abbrev: SUT
   definition: maskinvara, programvara och kommunikationsnätverk för att stödja testning
     av en implementering
@@ -206,7 +225,6 @@ swe:
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
@@ -216,3 +234,7 @@ swe:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: systemlösning vid testning av implementering
+    normative_status: preferred

@@ -3,7 +3,6 @@ term: domain <general vocabulary>
 termid: 1687
 eng:
   id: 1687
-  term: domain <general vocabulary>
   definition: distinct area of human knowledge to which a terminological entry is
     assigned
   language_code: eng
@@ -12,7 +11,6 @@ eng:
     be defined. More than one domain can be associated with a given concept.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19104:2016
     clause: '4.11'
@@ -29,9 +27,12 @@ eng:
     to terminological entry. to ISO 19104:2016, 4.11. Lineage source added as ISO/TS
     19146:2008
   release: '4'
+  terms:
+  - type: expression
+    designation: domain <general vocabulary>
+    normative_status: preferred
 spa:
   id: 1687
-  term: dominio <vocabulario general>
   definition: área definida de conocimiento humano a la que se asigna una entrada
     terminológica
   language_code: spa
@@ -40,7 +41,6 @@ spa:
     un conjunto de dominios. Más de un dominio se puede asociar con un concepto dado.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19104:2016
     clause: '4.11'
@@ -57,3 +57,7 @@ spa:
     to terminological entry. to ISO 19104:2016, 4.11. Lineage source added as ISO/TS
     19146:2008
   release: '4'
+  terms:
+  - type: expression
+    designation: dominio <vocabulario general>
+    normative_status: preferred

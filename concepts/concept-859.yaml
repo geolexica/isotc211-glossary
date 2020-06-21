@@ -3,7 +3,6 @@ term: hierarchical register
 termid: 859
 eng:
   id: 859
-  term: hierarchical register
   definition: structured set of registers for a domain of register items, composed
     of a principal register and a set of subregisters
   language_code: eng
@@ -13,7 +12,6 @@ eng:
     organization identifier schemes and each subregister contains a set of organization
     identifiers that comply with a single organization identifier scheme.
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19135-1:2015
@@ -29,9 +27,12 @@ eng:
   review_decision_notes: Authoritative reference changed from ISO 19135:2005 to ISO
     19135-1:2015, 4.1.4. Lineage source added as ISO 19135:2005
   release: '1'
+  terms:
+  - type: expression
+    designation: hierarchical register
+    normative_status: preferred
 ara:
   id: 859
-  term: سجل هرمي
   definition: مجموعة سجلات مننظمة لمجال مواد تسجيل تتكون من سجل رئيسي ومجموعة من السجلات
     الفرعية
   language_code: ara
@@ -41,7 +42,6 @@ ara:
     في حين أن كل سجل فرعي يحتوي على مجموعة من رموز تحديد التنظيم مطابقة لمشروع تحديد
     تنظيم واحد.
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19135-1:2015
@@ -57,16 +57,18 @@ ara:
   review_decision_notes: Authoritative reference changed from ISO 19135:2005 to ISO
     19135-1:2015, 4.1.4. Lineage source added as ISO 19135:2005
   release: '1'
+  terms:
+  - type: expression
+    designation: سجل هرمي
+    normative_status: preferred
 zho:
   id: 859
-  term: 分级注册表
   definition: 针对注册项的域建立的结构化的注册表集，由一个主注册表和一系列子注册表组成。
   language_code: zho
   notes: []
   examples:
   - ISO 6532,数据交换_组织标识结构就与分级注册表有关。主注册表包含各种组织标识符方案，而各个子注册表则包含符合某一个组织标识符方案的一组组织标识符。
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19135-1:2015
@@ -82,9 +84,12 @@ zho:
   review_decision_notes: Authoritative reference changed from ISO 19135:2005 to ISO
     19135-1:2015, 4.1.4. Lineage source added as ISO 19135:2005
   release: '1'
+  terms:
+  - type: expression
+    designation: 分级注册表
+    normative_status: preferred
 dan:
   id: 859
-  term: hierarkisk register
   definition: struktureret sæt af registre for et domæne af registerelementer, bestående
     af et hovedregister og et sæt af delregistre
   language_code: dan
@@ -99,9 +104,12 @@ dan:
     link: https://www.iso.org/standard/32553.html
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: hierarkisk register
+    normative_status: 
 fin:
   id: 859
-  term: hierarkkinen rekisteri
   definition: rekisterielementtien tallettamista varten laadittu rakenteinen rekisterijoukko,
     joka koostuu päärekisteristä ja joukosta alirekistereitä
   language_code: fin
@@ -110,7 +118,6 @@ fin:
   - ISO 6523 -standardiin liittyy hierarkkinen rekisteri. Päärekisteri sisältää organisaatiotunnisteskeemoja
     ja kukin alirekisteri yksittäisen organisaatiotunnisteskeeman mukaisia organisaatiotunnisteita.
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19135-1:2015
@@ -126,16 +133,18 @@ fin:
   review_decision_notes: Authoritative reference changed from ISO 19135:2005 to ISO
     19135-1:2015, 4.1.4. Lineage source added as ISO 19135:2005
   release: '1'
+  terms:
+  - type: expression
+    designation: hierarkkinen rekisteri
+    normative_status: preferred
 fra:
   id: 859
-  term: registre hiérarchique
   definition: ensemble structuré de registres pour un domaine d'éléments de registre,
     composé d'un registre principal et d'un ensemble de sous-registres
   language_code: fra
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19135-1:2015
@@ -151,9 +160,12 @@ fra:
   review_decision_notes: Authoritative reference changed from ISO 19135:2005 to ISO
     19135-1:2015, 4.1.4. Lineage source added as ISO 19135:2005
   release: '1'
+  terms:
+  - type: expression
+    designation: registre hiérarchique
+    normative_status: preferred
 deu:
   id: 859
-  term: hierarchisches Register
   definition: strukturierte Menge von Registern für eine Domäne von Registereinträgen,
     die sich aus einem Hauptregister und seinen Unterregistern zusammensetzt
   language_code: deu
@@ -163,7 +175,6 @@ deu:
     organization identifier schemes and each subregister contains a set of organization
     identifiers that comply with a single organization identifier scheme.
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19135-1:2015
@@ -179,9 +190,12 @@ deu:
   review_decision_notes: Authoritative reference changed from ISO 19135:2005 to ISO
     19135-1:2015, 4.1.4. Lineage source added as ISO 19135:2005
   release: '1'
+  terms:
+  - type: expression
+    designation: hierarchisches Register
+    normative_status: preferred
 kor:
   id: 859
-  term: 계층적 등록물
   synonyms: 계층적 레지스터
   definition: 주 등록물과 하위 등록물 집합으로 구성되어 있는, 등록물 항목의 영역에 대한 등록물의 구조화된 집합
   language_code: kor
@@ -190,7 +204,6 @@ kor:
   - "'KS X ISO 6523'의 식별 구조는 계층적 등록물과 연관된다. 주 등록물은 기관 식별자 스키마를 포함하고 각 하위 등록물은 단일 기관식별자
     스키마를 따르는 기관 식별자 집합을 포함한다."
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19135-1:2015
@@ -206,9 +219,12 @@ kor:
   review_decision_notes: Authoritative reference changed from ISO 19135:2005 to ISO
     19135-1:2015, 4.1.4. Lineage source added as ISO 19135:2005
   release: '1'
+  terms:
+  - type: expression
+    designation: 계층적 등록물
+    normative_status: preferred
 pol:
   id: 859
-  term: rejestr hierarchiczny
   definition: ustrukturyzowany zbiór rejestrów dla dziedziny pozycji rejestrów, składający
     się z rejestru głównego i zbioru rejestrów podrzędnych
   language_code: pol
@@ -217,7 +233,6 @@ pol:
   - ISO 6523 jest powiązana z rejestrem hierarchicznym. Rejestr główny zawiera schematy
     identyfikatorów organizacji, a każdy z rejestrów podrzędnych zawiera zbiór identyfikatorów
     organizacji zgodnych ze schematem pojedynczego identyfikatora organizacji
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19135-1:2015
@@ -233,9 +248,12 @@ pol:
   review_decision_notes: Authoritative reference changed from ISO 19135:2005 to ISO
     19135-1:2015, 4.1.4. Lineage source added as ISO 19135:2005
   release: '1'
+  terms:
+  - type: expression
+    designation: rejestr hierarchiczny
+    normative_status: preferred
 rus:
   id: 859
-  term: иерерхический реестр
   definition: структурированный набор реестров для некоторого множества учетных единиц,
     образованный главным реестром и множеством подреестров
   language_code: rus
@@ -245,16 +263,18 @@ rus:
     схемы организаций, а каждый подрегистр включает в себя набор идентификаторов организаций,
     которые компилируют с конкретной идентификационной схемой организации
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19135:2005
     link: https://www.iso.org/standard/32553.html
   lineage_source: Internet
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: иерерхический реестр
+    normative_status: preferred
 spa:
   id: 859
-  term: registro jerárquico
   definition: conjunto estructurado de registros para un dominio de ítems de registro,
     compuestos de un registro principal y un conjunto de subregistros
   language_code: spa
@@ -265,7 +285,6 @@ spa:
     un conjunto de identificadores de organización que se ajustan a un esquema identificador
     de organización..
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19135-1:2015
@@ -281,9 +300,12 @@ spa:
   review_decision_notes: Authoritative reference changed from ISO 19135:2005 to ISO
     19135-1:2015, 4.1.4. Lineage source added as ISO 19135:2005
   release: '1'
+  terms:
+  - type: expression
+    designation: registro jerárquico
+    normative_status: preferred
 swe:
   id: 859
-  term: hierarkiskt registersystem
   definition: hierarkiskt ordnat system av tematiskt samhörande register
   country_code: swe
   language_code: swe
@@ -293,7 +315,6 @@ swe:
     organization identifier schemes and each subregister contains a set of organization
     identifiers that comply with a single organization identifier scheme.
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19135-1:2015
@@ -309,3 +330,7 @@ swe:
   review_decision_notes: Authoritative reference changed from ISO 19135:2005 to ISO
     19135-1:2015, 4.1.4. Lineage source added as ISO 19135:2005
   release: '1'
+  terms:
+  - type: expression
+    designation: hierarkiskt registersystem
+    normative_status: preferred

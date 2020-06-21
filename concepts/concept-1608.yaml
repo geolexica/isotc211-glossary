@@ -3,7 +3,6 @@ term: spectral responsivity
 termid: 1608
 eng:
   id: 1608
-  term: spectral responsivity
   definition: responsivity per unit wavelength interval at a given wavelength
   language_code: eng
   notes:
@@ -15,7 +14,6 @@ eng:
     λ  s(λ) = dY(λ) / dXc(λ)
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: IEC 60050-845
     link: https://webstore.iec.ch/publication/268
@@ -23,9 +21,12 @@ eng:
   lineage_source_similarity: 1
   date_accepted: 2014-07-15 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: spectral responsivity
+    normative_status: preferred
 kor:
   id: 1608
-  term: 분광감도
   definition: 파장내의 단위당 파장 간격당 감응도
   language_code: kor
   notes:
@@ -37,7 +38,6 @@ kor:
     λ  s(λ) = dY(λ) / dXc(λ)
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: IEC 60050-845
     link: https://webstore.iec.ch/publication/268
@@ -45,9 +45,12 @@ kor:
   lineage_source_similarity: 1
   date_accepted: 2014-07-15 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: 분광감도
+    normative_status: preferred
 rus:
   id: 1608
-  term: спектральная чувствительность
   definition: чувствительность на единицу интервала длин волн  при заданной длине
     волны
   language_code: rus
@@ -60,7 +63,6 @@ rus:
     (λ) / dXc (λ)
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: IEC 60050-845
     link: https://webstore.iec.ch/publication/268
@@ -68,9 +70,12 @@ rus:
   lineage_source_similarity: 1
   date_accepted: 2014-07-15 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: спектральная чувствительность
+    normative_status: preferred
 spa:
   id: 1608
-  term: respuesta espectral
   definition: capacidad de respuesta por unidad de intervalo de longitud de onda a
     una longitud de onda dada
   language_code: spa
@@ -83,7 +88,6 @@ spa:
     de onda como  función de la longitud de onda λ s ( λ ) = dY ( λ ) / DxC ( λ )
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: IEC 60050-845
     link: https://webstore.iec.ch/publication/268
@@ -91,3 +95,7 @@ spa:
   lineage_source_similarity: 1
   date_accepted: 2014-07-15 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: respuesta espectral
+    normative_status: preferred

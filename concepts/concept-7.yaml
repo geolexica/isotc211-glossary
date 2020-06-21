@@ -3,7 +3,6 @@ term: acceptance testing <user>
 termid: 7
 eng:
   id: 7
-  term: acceptance testing <user>
   definition: process of determining whether an implementation satisfies acceptance
     criteria and enables the user to determine whether to accept the implementation
   language_code: eng
@@ -14,16 +13,18 @@ eng:
   - This is not a part of conformance testing
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
     link: https://www.iso.org/standard/26010.html
   date_accepted: 2000-12-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: acceptance testing <user>
+    normative_status: preferred
 ara:
   id: 7
-  term: اختبار القبول (المستخدم)
   definition: عملية تحديد ما إذا كان التنفيذ يحقق معيار القبول ويمكن المستخدم من قبول
     التنفيذ .
   language_code: ara
@@ -33,16 +34,18 @@ ara:
   - هذا لا يشكل جزءا من اختبار المطابقة.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
     link: https://www.iso.org/standard/26010.html
   date_accepted: 2000-12-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: اختبار القبول (المستخدم)
+    normative_status: preferred
 zho:
   id: 7
-  term: 验收测试<用户>
   definition: "<用户>决定一个实现是否满足验收准则以及用户能否决定接受该实现的过程。"
   language_code: zho
   notes:
@@ -50,15 +53,17 @@ zho:
   - 验收测试不作为一致性测试的组成部分。
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
     link: https://www.iso.org/standard/26010.html
   date_accepted: 2000-12-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: 验收测试<用户>
+    normative_status: preferred
 dan:
   id: 7
-  term: acceptance test (bruger)
   definition: proces til bestemmelse af, om en implementering opfylder acceptance-kriterier
     og sætter brugeren i stand til at afgøre, om implementeringen skal accepteres
   language_code: dan
@@ -69,15 +74,17 @@ dan:
   - Dette indgår ikke i overensstemmelsestest.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19105:2000
     link: https://www.iso.org/standard/26010.html
   date_accepted: 2000-12-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: acceptance test (bruger)
+    normative_status: preferred
 fin:
   id: 7
-  term: hyväksymistestaus (käyttäjän)
   definition: prosessi, jossa määritetään, täyttääkö toteutus hyväksyttävyyskriteerit
     ja jossa käyttäjälle annetaan mahdollisuus päättää toteutuksen hyväksymisestä
   language_code: fin
@@ -88,31 +95,35 @@ fin:
   - Hyväksymistestaus ei kuulu vaatimuksenmukaisuuden testaukseen.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
     link: https://www.iso.org/standard/26010.html
   lineage_source: Internet (Kuopion yliopiston tietojenkäsittelytiede)
   date_accepted: 2000-12-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: hyväksymistestaus (käyttäjän)
+    normative_status: preferred
 fra:
   id: 7
-  term: test d'acceptation (utilisateur)
   definition: processus déterminant si une implémentation satisfait un critère d'acceptation
     et permet à l'utilisateur de déterminer s'il accepte l'implémentation
   language_code: fra
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19105
     link: https://www.iso.org/standard/26010.html
   lineage_source: ''
   date_accepted: 2000-11-16 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: test d'acceptation (utilisateur)
+    normative_status: preferred
 deu:
   id: 7
-  term: Akzeptanzprüfung
   language_code: deu
   notes:
   - This includes the planning and execution of several kinds of tests (e.g. functional,
@@ -121,16 +132,18 @@ deu:
   - This is not a part of conformance testing
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
     link: https://www.iso.org/standard/26010.html
   date_accepted: 2000-12-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: Akzeptanzprüfung
+    normative_status: preferred
 jpn:
   id: 7
-  term: 受入試験
   definition: ある実装が利用者の受入基準を満たすかどうかを決定し，利用者がそれを受け入れるかどうかを判断するための試験。
   language_code: jpn
   notes:
@@ -138,16 +151,18 @@ jpn:
   - 受入試験は，適合性試験の一部ではない。
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19105:2000
     link: https://www.iso.org/standard/26010.html
   lineage_source: JIS X 7105
   date_accepted: 2000-12-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: 受入試験
+    normative_status: preferred
 kor:
   id: 7
-  term: 검수 시험<사용자>
   definition: 구현된 결과가 검수 기준을 만족하는지에 대한 결정 과정
   language_code: kor
   notes:
@@ -156,7 +171,6 @@ kor:
   - 검수 시험은 적합성 시험의 일부가 아니다.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
@@ -164,9 +178,12 @@ kor:
   lineage_source: KS X ISO 19105
   date_accepted: 2007-06-29 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: 검수 시험<사용자>
+    normative_status: preferred
 msa:
   id: 7
-  term: ujian penerimaan
   language_code: msa
   notes:
   - This includes the planning and execution of several kinds of tests (e.g. functional,
@@ -175,7 +192,6 @@ msa:
   - This is not a part of conformance testing
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
@@ -183,9 +199,12 @@ msa:
   lineage_source: Istilah ukur dan Pemetaan (DBP, 1992)
   date_accepted: 2000-12-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: ujian penerimaan
+    normative_status: preferred
 rus:
   id: 7
-  term: тестирование на приемлемость для пользователя
   definition: процесс, позволяющий оценить, удовлетворяет ли реализация критериям
     приемлемости и дающий пользователю возможность вынести решение об этом
   language_code: rus
@@ -196,16 +215,18 @@ rus:
   - Не является частью тестирования на соответствие
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
     link: https://www.iso.org/standard/26010.html
   lineage_source: Internet
   date_accepted: 2000-12-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: тестирование на приемлемость для пользователя
+    normative_status: preferred
 spa:
   id: 7
-  term: prueba de aceptación (usuario)
   definition: proceso de determinación de si una implementación satisface o no los
     criterios de aceptación y permite al usuario determinar si acepta o no la implementación
   language_code: spa
@@ -216,15 +237,17 @@ spa:
   - No es una parte de la prueba de conformidad.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19105:2000
     link: https://www.iso.org/standard/26010.html
   date_accepted: 2000-12-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: prueba de aceptación (usuario)
+    normative_status: preferred
 swe:
   id: 7
-  term: acceptanstestning
   definition: "testning i syfte att bestämma om en implementering \nska accepteras
     eller ej med hänsyn till användarnas behov och krav"
   country_code: swe
@@ -236,7 +259,6 @@ swe:
   - This is not a part of conformance testing
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
@@ -244,3 +266,7 @@ swe:
   lineage_source: "(Type reference to national language document)"
   date_accepted: 2000-12-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: acceptanstestning
+    normative_status: preferred

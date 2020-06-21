@@ -3,7 +3,6 @@ term: inner product <vector geometry>
 termid: 2065
 eng:
   id: 2065
-  term: inner product <vector geometry>
   definition: bilinear, symmetric function from pairs of vectors `<< vec v_1, vec
     v_2 >> rarr RR` to a real number such that `<< vec v, vec v >> = norm (vec v)`
     and `<< vec v_1, vec v_2>> = norm (vec v_1) norm (vec v_2) cos theta` where "`theta`"
@@ -16,7 +15,6 @@ eng:
     th
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19107:2019
     clause: "(E), 3.54"
@@ -29,3 +27,7 @@ eng:
   review_decision_event: Normal ISO processing
   review_decision_notes: Publication of document ISO 19107:2019(E)
   release: '5'
+  terms:
+  - type: expression
+    designation: inner product <vector geometry>
+    normative_status: preferred

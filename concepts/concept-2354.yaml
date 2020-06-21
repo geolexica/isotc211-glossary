@@ -3,7 +3,6 @@ term: coordinate transformation
 termid: 2354
 eng:
   id: 2354
-  term: coordinate transformation
   definition: coordinate operation that changes coordinates in a source coordinate
     reference system to coordinates in a target coordinate reference system in which
     the source and target coordinate reference systems are based on different datums
@@ -20,7 +19,6 @@ eng:
     between two coordinate reference systems, not between two datums.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19111:2019
     clause: "(E), 3.1.12"
@@ -35,3 +33,7 @@ eng:
   review_decision_notes: This entry supersedes the entry for coordinate transformation
     in ISO 19111:2007(E)
   release: '5'
+  terms:
+  - type: expression
+    designation: coordinate transformation
+    normative_status: preferred

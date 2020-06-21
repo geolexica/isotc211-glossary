@@ -3,7 +3,6 @@ term: resource <GeoDRM>
 termid: 1248
 eng:
   id: 1248
-  term: resource <GeoDRM>
   definition: entity that is protected by a licence
   language_code: eng
   notes:
@@ -12,16 +11,18 @@ eng:
     rights on resources and, as such, are resources in themselves.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19153:2014
     clause: '4.40'
     link: https://www.iso.org/standard/32571.html
   date_accepted: 2014-02-15 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: resource <GeoDRM>
+    normative_status: preferred
 kor:
   id: 1248
-  term: 자원
   definition: 허가증에 의해 보호되는 객체
   language_code: kor
   notes:
@@ -30,16 +31,18 @@ kor:
     rights on resources and, as such, are resources in themselves.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19153:2014
     clause: '4.40'
     link: https://www.iso.org/standard/32571.html
   date_accepted: 2014-02-15 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: 자원
+    normative_status: preferred
 rus:
   id: 1248
-  term: ресурс <GeoDRM>
   definition: Объект, который защищен лицензией
   language_code: rus
   notes:
@@ -49,7 +52,6 @@ rus:
     ресурсами.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19153:2014
     clause: '4.40'
@@ -57,18 +59,24 @@ rus:
   lineage_source: перевод ИСО 19153:2014
   date_accepted: 2014-02-15 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: ресурс <GeoDRM>
+    normative_status: preferred
 spa:
   id: 1248
-  term: recurso <GeoDRM>
   definition: entidad protegida por una licencia
   language_code: spa
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19153:2014
     clause: '4.40'
     link: https://www.iso.org/standard/32571.html
   date_accepted: 2014-02-15 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: recurso <GeoDRM>
+    normative_status: preferred

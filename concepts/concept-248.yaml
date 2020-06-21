@@ -3,7 +3,6 @@ term: instantiate
 termid: 248
 eng:
   id: 248
-  term: instantiate
   definition: to represent (an abstraction) by the creation of a concrete instance
     or to create the ability to create an instance
   language_code: eng
@@ -16,16 +15,18 @@ eng:
     structure.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
     link: https://www.iso.org/standard/32551.html
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: instantiate
+    normative_status: preferred
 ara:
   id: 248
-  term: تكوين مثيل
   definition: تمثيل ( فكرة مجرده) بإنشاء مثيل محسوس أو إيجاد القدرة على إنشاء مثيل
     محسوس
   language_code: ara
@@ -38,31 +39,35 @@ ara:
     عنصر بيانات إذا كان مخطط البيانات يحتوي على تعريف لهيكل ذلك العنصر.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
     link: https://www.iso.org/standard/32551.html
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: تكوين مثيل
+    normative_status: preferred
 zho:
   id: 248
-  term: 例示
   definition: 通过创建具体的实例或者创建实例的能力来表示抽象的事物。
   language_code: zho
   notes:
   - 如果一种类型具有分别创建数据元素或创建对象能力，一个类或者数据元素定义就例示了这种类型，用类型定义来表示概念（实例数据以及运算）。如果类定义了对象的结构和函数，那么就用一个对象对该类作例示。如果数据模式定了数据元素的结构，那么就用一个数据元素对该数据模式作例示。
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
     link: https://www.iso.org/standard/32551.html
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: 例示
+    normative_status: preferred
 fin:
   id: 248
-  term: ilmentää
   synonyms: luoda
   definition: esittää (abstrakti asia) luomalla konkreettinen ilmentymä tai antaa
     kyky luoda ilmentymä
@@ -76,7 +81,6 @@ fin:
     rakenteen.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
@@ -84,25 +88,30 @@ fin:
   lineage_source: MOT Englanti 4.6 englanti-suomi, Tietotekniikan liiton ATK-sanakirja,
     2004
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: ilmentää
+    normative_status: preferred
 fra:
   id: 248
-  term: instancier
   definition: représenter (une abstraction) par la création d'une instance concrète,
     ou créer la capacité de création d'une instance
   language_code: fra
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 19133
     link: https://www.iso.org/standard/32551.html
   lineage_source: ''
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
   review_decision_event: ''
+  terms:
+  - type: expression
+    designation: instancier
+    normative_status: preferred
 kor:
   id: 248
-  term: 인스턴스화
   definition: 구체적인 인스턴스를 생성하여 표현(추상화)하거나, 인스턴스를 생성할 수 있도록 하는 것
   language_code: kor
   notes:
@@ -111,7 +120,6 @@ kor:
     요소의 구조를 정의한다면 데이터 스키마는 데이터 요소에 의해 인스턴스화된다.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
@@ -119,9 +127,12 @@ kor:
   lineage_source: KS X ISO 19133
   date_accepted: 2006-12-01 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: 인스턴스화
+    normative_status: preferred
 rus:
   id: 248
-  term: инстанцировать экземпляр
   definition: представлять (абстракцию) путем создания конкретного экземпляра либо
     создавать  возможность создания экземпляра
   language_code: rus
@@ -134,16 +145,18 @@ rus:
     если эта схема определяет структуру элемента
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
     link: https://www.iso.org/standard/32551.html
   lineage_source: Internet
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
+  terms:
+  - type: expression
+    designation: инстанцировать экземпляр
+    normative_status: preferred
 spa:
   id: 248
-  term: instanciar
   definition: representar (una abstracción) mediante la creación de una instancia
     concreta o crear la capacidad para crear una instancia
   language_code: spa
@@ -156,16 +169,18 @@ spa:
     del elemento.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
     link: https://www.iso.org/standard/32551.html
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: instanciar
+    normative_status: preferred
 swe:
   id: 248
-  term: instantiera
   definition: skapa objekt från objekttyper eller klasser
   country_code: swe
   language_code: swe
@@ -178,7 +193,6 @@ swe:
     structure.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19133:2005
@@ -186,3 +200,7 @@ swe:
   lineage_source: "(Type reference to national language document)"
   date_accepted: 2005-10-15 00:00:00.000000000 +08:00
   release: '1'
+  terms:
+  - type: expression
+    designation: instantiera
+    normative_status: preferred

@@ -3,7 +3,6 @@ term: robustness testing
 termid: 386
 eng:
   id: 386
-  term: robustness testing
   definition: process of determining how well an IUT processes data which contains
     errors
   language_code: eng
@@ -11,7 +10,6 @@ eng:
   - This is not a part of conformance testing
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
@@ -21,9 +19,12 @@ eng:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: robustness testing
+    normative_status: preferred
 ara:
   id: 386
-  term: اختبار المتانة
   definition: العملية التي يتم بموجبها تحديد مدى الجودة في أداء تجهيز تحت الاختبار
     (IUT ) عند معالجته لبيانات تحتوى على أخطاء
   language_code: ara
@@ -31,7 +32,6 @@ ara:
   - هذا ليس جزءاً من اختبار المطابقة.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
@@ -41,16 +41,18 @@ ara:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: اختبار المتانة
+    normative_status: preferred
 zho:
   id: 386
-  term: 鲁棒性测试
   definition: 确认IUT在处理含错误数据时正常工作能力的过程。
   language_code: zho
   notes:
   - 鲁棒性测试不作为一致性测试的一个部分。
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
@@ -60,9 +62,12 @@ zho:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: 鲁棒性测试
+    normative_status: preferred
 fin:
   id: 386
-  term: vakaustestaus
   definition: määritysprosessi, miten hyvin testattavana oleva toteutus (Implementation
     Under Test, IUT) käsittelee virheitä sisältävää tietoa
   language_code: fin
@@ -70,7 +75,6 @@ fin:
   - Vakaustestaus ei kuulu vaatimuksenmukaisuuden testaukseen.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
@@ -80,16 +84,18 @@ fin:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: vakaustestaus
+    normative_status: preferred
 fra:
   id: 386
-  term: test de robustesse
   definition: processus déterminant comment une implémentation soumise à test traite
     des données contenant des erreurs
   language_code: fra
   notes: []
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
@@ -99,16 +105,18 @@ fra:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: test de robustesse
+    normative_status: preferred
 jpn:
   id: 386
-  term: 頑健性試験
   definition: 試験対象(IUT)が，誤りを含むデータをいかに適切に処理するかを決める試験。
   language_code: jpn
   notes:
   - 頑健性試験は，適合性試験の一部ではない。
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
@@ -118,16 +126,18 @@ jpn:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: 頑健性試験
+    normative_status: preferred
 kor:
   id: 386
-  term: 강도 시험
   definition: IUT가 오류를 포함하고 있는 데이터를 얼마나 잘 처리하는지를 결정하는 과정
   language_code: kor
   notes:
   - 강도 시험은 적합성 시험의 일부가 아니다.
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
@@ -137,9 +147,12 @@ kor:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: 강도 시험
+    normative_status: preferred
 rus:
   id: 386
-  term: проверка на устойчивость
   definition: процесс, состоящий в оценке качества обработки данных, содержащих ошибки,
     тестируемым объектом
   language_code: rus
@@ -147,7 +160,6 @@ rus:
   - Не является частью тестирования на соответствие
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
@@ -157,9 +169,12 @@ rus:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: проверка на устойчивость
+    normative_status: preferred
 spa:
   id: 386
-  term: prueba de robustez
   definition: proceso de determinar si una IUT procesa adecuadamente datos que contienen
     errores
   language_code: spa
@@ -167,7 +182,6 @@ spa:
   - Esto no es parte de la prueba de conformidad
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
@@ -177,9 +191,12 @@ spa:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: prueba de robustez
+    normative_status: preferred
 swe:
   id: 386
-  term: robusthetstestning
   definition: |-
     <med avseende på indata> testning av hur väl
      ett program fungerar trots felaktiga indata
@@ -189,7 +206,6 @@ swe:
   - This is not a part of conformance testing
   examples: []
   entry_status: valid
-  classification: preferred
   review_indicator: ''
   authoritative_source:
     ref: ISO 19105:2000
@@ -199,3 +215,7 @@ swe:
   review_status: pending
   review_type: retirement
   release: '1'
+  terms:
+  - type: expression
+    designation: robusthetstestning
+    normative_status: preferred

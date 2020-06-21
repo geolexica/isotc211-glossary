@@ -3,7 +3,6 @@ term: frame<LIDAR>
 termid: 1390
 eng:
   id: 1390
-  term: frame<LIDAR>
   definition: data collected by the receiver as a result of all returns from a single
     emitted pulse
   language_code: eng
@@ -13,16 +12,18 @@ eng:
     image.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: Adapted from NISTIR 7117
   lineage_source: ISO/TS 19130-2:2014, 4.22
   lineage_source_similarity: 1
   date_accepted: 2014-01-15 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: frame<LIDAR>
+    normative_status: preferred
 kor:
   id: 1390
-  term: 프레임
   definition: 단일 방출 펄스로부터 회신된 결과치를 전부 모은 수신자의 수집 자료
   language_code: kor
   notes:
@@ -31,16 +32,18 @@ kor:
     image.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: Adapted from NISTIR 7117
   lineage_source: ISO/TS 19130-2:2014, 4.22
   lineage_source_similarity: 1
   date_accepted: 2014-01-15 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: 프레임
+    normative_status: preferred
 rus:
   id: 1390
-  term: кадр <LIDAR>
   definition: Данные, полученные приемником в результате всех возвратов от одного
     испускаемого импульса
   language_code: rus
@@ -50,16 +53,18 @@ rus:
      полная 3D-выборка данных о мире, полученная LIDAR в определенное время, месте и ориентации. Один кадр лидара также называется изображением диапазона.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: Adapted from NISTIR 7117
   lineage_source: ISO/TS 19130-2:2014, 4.22
   lineage_source_similarity: 1
   date_accepted: 2014-01-15 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: кадр <LIDAR>
+    normative_status: preferred
 spa:
   id: 1390
-  term: frame <LIDAR>
   definition: datos recogidos por el receptor como resultado de todos los retornos
     de un pulso simple emitido
   language_code: spa
@@ -69,10 +74,13 @@ spa:
     a un rango de imágenes.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: Adapted from NISTIR 7117
   lineage_source: ISO/TS 19130-2:2014, 4.22
   lineage_source_similarity: 1
   date_accepted: 2014-01-15 00:00:00.000000000 +08:00
   release: '3'
+  terms:
+  - type: expression
+    designation: frame <LIDAR>
+    normative_status: preferred

@@ -3,7 +3,6 @@ term: terminological data
 termid: 900
 eng:
   id: 900
-  term: terminological data
   definition: data related to concepts or their designations
   language_code: eng
   notes:
@@ -11,7 +10,6 @@ eng:
     label, subject label, language identifier, country identifier and source identifier.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 1087-1:2000
     clause: 3.8.1
@@ -27,9 +25,12 @@ eng:
   review_decision_notes: Authoritative reference changed from ISO 1087-1:2000 to ISO
     1087-1:2000, 3.8.1. Lineage source added as ISO 19146:2010(E)
   release: '2'
+  terms:
+  - type: expression
+    designation: terminological data
+    normative_status: preferred
 ara:
   id: 900
-  term: بيانات مصطلحية
   definition: بيانات متعلقة بمفاهيم أو دلالاتها
   language_code: ara
   notes:
@@ -38,7 +39,6 @@ ara:
     المصدر.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 1087-1:2000
     clause: 3.8.1
@@ -54,16 +54,18 @@ ara:
   review_decision_notes: Authoritative reference changed from ISO 1087-1:2000 to ISO
     1087-1:2000, 3.8.1. Lineage source added as ISO 19146:2010(E)
   release: '2'
+  terms:
+  - type: expression
+    designation: بيانات مصطلحية
+    normative_status: preferred
 deu:
   id: 900
-  term: terminologische Daten
   language_code: deu
   notes:
   - The more common terminological data include entry term, definition, note, grammatical
     label, subject label, language identifier, country identifier and source identifier.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 1087-1:2000
     clause: 3.8.1
@@ -79,9 +81,12 @@ deu:
   review_decision_notes: Authoritative reference changed from ISO 1087-1:2000 to ISO
     1087-1:2000, 3.8.1. Lineage source added as ISO 19146:2010(E)
   release: '2'
+  terms:
+  - type: expression
+    designation: terminologische Daten
+    normative_status: preferred
 kor:
   id: 900
-  term: 용어 자료
   definition: 개념 또는 지정된 바와 관계된 자료
   language_code: kor
   notes:
@@ -89,7 +94,6 @@ kor:
     label, subject label, language identifier, country identifier and source identifier.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 1087-1:2000
     clause: 3.8.1
@@ -105,9 +109,12 @@ kor:
   review_decision_notes: Authoritative reference changed from ISO 1087-1:2000 to ISO
     1087-1:2000, 3.8.1. Lineage source added as ISO 19146:2010(E)
   release: '2'
+  terms:
+  - type: expression
+    designation: 용어 자료
+    normative_status: preferred
 rus:
   id: 900
-  term: терминологические данные
   definition: данные, относящиеся к понятиямили их обозначениям
   language_code: rus
   notes:
@@ -116,7 +123,6 @@ rus:
     и идентификатор источника'
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 1087-1:2000
     clause: 3.8.1
@@ -132,9 +138,12 @@ rus:
   review_decision_notes: Authoritative reference changed from ISO 1087-1:2000 to ISO
     1087-1:2000, 3.8.1. Lineage source added as ISO 19146:2010(E)
   release: '2'
+  terms:
+  - type: expression
+    designation: терминологические данные
+    normative_status: preferred
 spa:
   id: 900
-  term: información terminológica
   definition: información relativa a los conceptos o a sus designaciones
   language_code: spa
   notes:
@@ -143,7 +152,6 @@ spa:
     de país y el identificador de fuente.
   examples: []
   entry_status: valid
-  classification: preferred
   authoritative_source:
     ref: ISO 1087-1:2000
     clause: 3.8.1
@@ -159,3 +167,7 @@ spa:
   review_decision_notes: Authoritative reference changed from ISO 1087-1:2000 to ISO
     1087-1:2000, 3.8.1. Lineage source added as ISO 19146:2010(E)
   release: '2'
+  terms:
+  - type: expression
+    designation: información terminológica
+    normative_status: preferred
