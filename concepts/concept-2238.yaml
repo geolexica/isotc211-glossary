@@ -15,12 +15,12 @@ eng:
     is spatially 3D, the horizontal bearing angle may also need to a vertical altitude
     angle to be complete. If a reference curve (as used in ISO 19162) is parameterized
     by arc length, then the "derivative" is a unit vector. If another parameterization
-    "`t`" is used, then the derivative should be normalized (`vec tau / (norm (vec
-    tau)); dot c(t) = vec tau;`). This is useful, since parameterization by arc length
-    can be computationally difficult. The numeric representation of a vector depends
-    on the coordinate system. The bearing is not dependent on a coordinate system,
-    but it can be represented in any reasonable system. The bearing is not dependent
-    on its various representations.
+    `t` is used, then the derivative should be normalized (`vec tau / (norm (vec tau));
+    dot c(t) = vec tau;`). This is useful, since parameterization by arc length can
+    be computationally difficult. The numeric representation of a vector depends on
+    the coordinate system. The bearing is not dependent on a coordinate system, but
+    it can be represented in any reasonable system. The bearing is not dependent on
+    its various representations.
   examples: []
   entry_status: valid
   authoritative_source:
