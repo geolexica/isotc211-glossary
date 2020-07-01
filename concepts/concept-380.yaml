@@ -1,4 +1,3 @@
----
 term: request
 termid: 380
 eng:
@@ -10,14 +9,40 @@ eng:
   entry_status: valid
   review_indicator: ''
   authoritative_source:
-    ref: ISO 19128:2005
-    link: https://www.iso.org/standard/32546.html
-  date_accepted: 2005-12-01 00:00:00.000000000 +08:00
+    ref: 'ISO 19128:2005'
+    link: 'https://www.iso.org/standard/32546.html'
+  date_accepted: 2005-11-30T16:00:00.000Z
   release: '1'
   terms:
-  - type: expression
-    designation: request
-    normative_status: preferred
+    - type: expression
+      designation: request
+      normative_status: preferred
+  _revisions:
+    current: 7009bd
+    tree:
+      7009bd:
+        object:
+          id: 380
+          definition: invocation of an operation by a client
+          language_code: eng
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19128:2005'
+            link: 'https://www.iso.org/standard/32546.html'
+          date_accepted: 2005-11-30T16:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: request
+              normative_status: preferred
+        parents: []
+        timeCreated: 2005-11-30T16:00:00.000Z
+        author:
+          name: Glossarist bot
+          email: glossarist@ribose.com
 ara:
   id: 380
   definition: التماس لعملية ما من عميل
@@ -27,14 +52,40 @@ ara:
   entry_status: valid
   review_indicator: ''
   authoritative_source:
-    ref: ISO 19128:2005
-    link: https://www.iso.org/standard/32546.html
-  date_accepted: 2005-12-01 00:00:00.000000000 +08:00
+    ref: 'ISO 19128:2005'
+    link: 'https://www.iso.org/standard/32546.html'
+  date_accepted: 2005-11-30T16:00:00.000Z
   release: '1'
   terms:
-  - type: expression
-    designation: طلب
-    normative_status: preferred
+    - type: expression
+      designation: طلب
+      normative_status: preferred
+  _revisions:
+    current: 9e1da0
+    tree:
+      9e1da0:
+        object:
+          id: 380
+          definition: التماس لعملية ما من عميل
+          language_code: ara
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19128:2005'
+            link: 'https://www.iso.org/standard/32546.html'
+          date_accepted: 2005-11-30T16:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: طلب
+              normative_status: preferred
+        parents: []
+        timeCreated: 2005-11-30T16:00:00.000Z
+        author:
+          name: Glossarist bot
+          email: glossarist@ribose.com
 zho:
   id: 380
   definition: 通过客户端对操作的调用。
@@ -44,17 +95,17 @@ zho:
   entry_status: valid
   review_indicator: ''
   authoritative_source:
-    ref: ISO 19128:2005
-    link: https://www.iso.org/standard/32546.html
-  date_accepted: 2005-12-01 00:00:00.000000000 +08:00
+    ref: 'ISO 19128:2005'
+    link: 'https://www.iso.org/standard/32546.html'
+  date_accepted: 2005-11-30T16:00:00.000Z
   terms:
-  - type: expression
-    designation: 请求
-    normative_status: preferred
+    - type: expression
+      designation: 请求
+      normative_status: preferred
 fin:
   id: 380
-  synonyms: kysely
-  definition: toimenpide, jonka avulla tietokone tai ohjelma antaa toiselle tietokoneelle
+  definition: >-
+    toimenpide, jonka avulla tietokone tai ohjelma antaa toiselle tietokoneelle
     tai ohjelmalle tiedon siitä, mikä toiminto jälkimmäisen tulisi suorittaa
   language_code: fin
   notes: []
@@ -62,14 +113,47 @@ fin:
   entry_status: valid
   review_indicator: ''
   authoritative_source:
-    ref: ISO 19128:2005
-    link: https://www.iso.org/standard/32546.html
+    ref: 'ISO 19128:2005'
+    link: 'https://www.iso.org/standard/32546.html'
   lineage_source: 'Sanastokeskus TSK: Geoinformatiikan sanasto (TSK 45), 2013'
-  date_accepted: 2013-07-03 00:00:00.000000000 +08:00
+  date_accepted: 2013-07-02T16:00:00.000Z
   terms:
-  - type: expression
-    designation: "(palvelu)pyyntö"
-    normative_status: preferred
+    - type: expression
+      designation: (palvelu)pyyntö
+      normative_status: preferred
+    - designation: kysely
+      type: expression
+  _revisions:
+    current: c35261
+    tree:
+      c35261:
+        object:
+          id: 380
+          definition: >-
+            toimenpide, jonka avulla tietokone tai ohjelma antaa toiselle
+            tietokoneelle tai ohjelmalle tiedon siitä, mikä toiminto
+            jälkimmäisen tulisi suorittaa
+          language_code: fin
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19128:2005'
+            link: 'https://www.iso.org/standard/32546.html'
+          lineage_source: 'Sanastokeskus TSK: Geoinformatiikan sanasto (TSK 45), 2013'
+          date_accepted: 2013-07-02T16:00:00.000Z
+          terms:
+            - type: expression
+              designation: (palvelu)pyyntö
+              normative_status: preferred
+            - designation: kysely
+              type: expression
+        parents: []
+        timeCreated: 2013-07-02T16:00:00.000Z
+        author:
+          name: Glossarist bot
+          email: glossarist@ribose.com
 fra:
   id: 380
   definition: appel d'une opération par un client
@@ -79,13 +163,38 @@ fra:
   entry_status: valid
   authoritative_source:
     ref: ISO 19128
-    link: https://www.iso.org/standard/32546.html
+    link: 'https://www.iso.org/standard/32546.html'
   lineage_source: ''
-  date_accepted: 2005-12-01 00:00:00.000000000 +08:00
+  date_accepted: 2005-11-30T16:00:00.000Z
   terms:
-  - type: expression
-    designation: requête
-    normative_status: preferred
+    - type: expression
+      designation: requête
+      normative_status: preferred
+  _revisions:
+    current: 5efa3f
+    tree:
+      5efa3f:
+        object:
+          id: 380
+          definition: appel d'une opération par un client
+          language_code: fra
+          notes: []
+          examples: []
+          entry_status: valid
+          authoritative_source:
+            ref: ISO 19128
+            link: 'https://www.iso.org/standard/32546.html'
+          lineage_source: ''
+          date_accepted: 2005-11-30T16:00:00.000Z
+          terms:
+            - type: expression
+              designation: requête
+              normative_status: preferred
+        parents: []
+        timeCreated: 2005-11-30T16:00:00.000Z
+        author:
+          name: Glossarist bot
+          email: glossarist@ribose.com
 deu:
   id: 380
   definition: Aufruf einer Operation durch einen Client
@@ -95,14 +204,14 @@ deu:
   entry_status: valid
   review_indicator: ''
   authoritative_source:
-    ref: ISO 19128:2005
-    link: https://www.iso.org/standard/32546.html
-  date_accepted: 2005-12-01 00:00:00.000000000 +08:00
+    ref: 'ISO 19128:2005'
+    link: 'https://www.iso.org/standard/32546.html'
+  date_accepted: 2005-11-30T16:00:00.000Z
   release: '1'
   terms:
-  - type: expression
-    designation: 'Auftrag (Syn.: Anfrage, Anforderung)'
-    normative_status: preferred
+    - type: expression
+      designation: 'Auftrag (Syn.: Anfrage, Anforderung)'
+      normative_status: preferred
 kor:
   id: 380
   definition: 클라이언트로부터의 연산 호출
@@ -112,15 +221,42 @@ kor:
   entry_status: valid
   review_indicator: ''
   authoritative_source:
-    ref: ISO 19128:2005
-    link: https://www.iso.org/standard/32546.html
+    ref: 'ISO 19128:2005'
+    link: 'https://www.iso.org/standard/32546.html'
   lineage_source: KS X ISO 19128
-  date_accepted: 2009-12-29 00:00:00.000000000 +08:00
+  date_accepted: 2009-12-28T16:00:00.000Z
   release: '1'
   terms:
-  - type: expression
-    designation: 요청
-    normative_status: preferred
+    - type: expression
+      designation: 요청
+      normative_status: preferred
+  _revisions:
+    current: dee5d8
+    tree:
+      dee5d8:
+        object:
+          id: 380
+          definition: 클라이언트로부터의 연산 호출
+          language_code: kor
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19128:2005'
+            link: 'https://www.iso.org/standard/32546.html'
+          lineage_source: KS X ISO 19128
+          date_accepted: 2009-12-28T16:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: 요청
+              normative_status: preferred
+        parents: []
+        timeCreated: 2009-12-28T16:00:00.000Z
+        author:
+          name: Glossarist bot
+          email: glossarist@ribose.com
 msa:
   id: 380
   definition: Permohonan daripada pelanggan/pengguna.
@@ -130,14 +266,40 @@ msa:
   entry_status: valid
   review_indicator: ''
   authoritative_source:
-    ref: ISO 19128:2005
-    link: https://www.iso.org/standard/32546.html
-  date_accepted: 2005-12-01 00:00:00.000000000 +08:00
+    ref: 'ISO 19128:2005'
+    link: 'https://www.iso.org/standard/32546.html'
+  date_accepted: 2005-11-30T16:00:00.000Z
   release: '1'
   terms:
-  - type: expression
-    designation: permintaan
-    normative_status: preferred
+    - type: expression
+      designation: permintaan
+      normative_status: preferred
+  _revisions:
+    current: e61d74
+    tree:
+      e61d74:
+        object:
+          id: 380
+          definition: Permohonan daripada pelanggan/pengguna.
+          language_code: msa
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19128:2005'
+            link: 'https://www.iso.org/standard/32546.html'
+          date_accepted: 2005-11-30T16:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: permintaan
+              normative_status: preferred
+        parents: []
+        timeCreated: 2005-11-30T16:00:00.000Z
+        author:
+          name: Glossarist bot
+          email: glossarist@ribose.com
 pol:
   id: 380
   definition: wywołanie operacji przez klienta
@@ -145,15 +307,40 @@ pol:
   notes: []
   examples: []
   authoritative_source:
-    ref: ISO 19128:2005
-    link: https://www.iso.org/standard/32546.html
+    ref: 'ISO 19128:2005'
+    link: 'https://www.iso.org/standard/32546.html'
   lineage_source: PN-EN-ISO 19128
-  date_accepted: 2005-12-01 00:00:00.000000000 +08:00
+  date_accepted: 2005-11-30T16:00:00.000Z
   release: '1'
   terms:
-  - type: expression
-    designation: żądanie
-    normative_status: preferred
+    - type: expression
+      designation: żądanie
+      normative_status: preferred
+  _revisions:
+    current: a07b1e
+    tree:
+      a07b1e:
+        object:
+          id: 380
+          definition: wywołanie operacji przez klienta
+          language_code: pol
+          notes: []
+          examples: []
+          authoritative_source:
+            ref: 'ISO 19128:2005'
+            link: 'https://www.iso.org/standard/32546.html'
+          lineage_source: PN-EN-ISO 19128
+          date_accepted: 2005-11-30T16:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: żądanie
+              normative_status: preferred
+        parents: []
+        timeCreated: 2005-11-30T16:00:00.000Z
+        author:
+          name: Glossarist bot
+          email: glossarist@ribose.com
 rus:
   id: 380
   definition: вызов операции клиентом
@@ -163,14 +350,40 @@ rus:
   entry_status: valid
   review_indicator: ''
   authoritative_source:
-    ref: ISO 19128:2005
-    link: https://www.iso.org/standard/32546.html
+    ref: 'ISO 19128:2005'
+    link: 'https://www.iso.org/standard/32546.html'
   lineage_source: Internet
-  date_accepted: 2005-12-01 00:00:00.000000000 +08:00
+  date_accepted: 2005-11-30T16:00:00.000Z
   terms:
-  - type: expression
-    designation: запрос
-    normative_status: preferred
+    - type: expression
+      designation: запрос
+      normative_status: preferred
+  _revisions:
+    current: fefd1d
+    tree:
+      fefd1d:
+        object:
+          id: 380
+          definition: вызов операции клиентом
+          language_code: rus
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19128:2005'
+            link: 'https://www.iso.org/standard/32546.html'
+          lineage_source: Internet
+          date_accepted: 2005-11-30T16:00:00.000Z
+          terms:
+            - type: expression
+              designation: запрос
+              normative_status: preferred
+        parents: []
+        timeCreated: 2005-11-30T16:00:00.000Z
+        author:
+          name: Glossarist bot
+          email: glossarist@ribose.com
 spa:
   id: 380
   definition: solicitud de una operación por un cliente
@@ -180,17 +393,43 @@ spa:
   entry_status: valid
   review_indicator: ''
   authoritative_source:
-    ref: ISO 19128:2005
-    link: https://www.iso.org/standard/32546.html
-  date_accepted: 2005-12-01 00:00:00.000000000 +08:00
+    ref: 'ISO 19128:2005'
+    link: 'https://www.iso.org/standard/32546.html'
+  date_accepted: 2005-11-30T16:00:00.000Z
   release: '1'
   terms:
-  - type: expression
-    designation: petición
-    normative_status: preferred
+    - type: expression
+      designation: petición
+      normative_status: preferred
+  _revisions:
+    current: afcb2d
+    tree:
+      afcb2d:
+        object:
+          id: 380
+          definition: solicitud de una operación por un cliente
+          language_code: spa
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19128:2005'
+            link: 'https://www.iso.org/standard/32546.html'
+          date_accepted: 2005-11-30T16:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: petición
+              normative_status: preferred
+        parents: []
+        timeCreated: 2005-11-30T16:00:00.000Z
+        author:
+          name: Glossarist bot
+          email: glossarist@ribose.com
 swe:
   id: 380
-  definition: "<i datasammanhang> aktivering av ett program från ett annat program"
+  definition: <i datasammanhang> aktivering av ett program från ett annat program
   country_code: swe
   language_code: swe
   notes: []
@@ -198,12 +437,40 @@ swe:
   entry_status: valid
   review_indicator: ''
   authoritative_source:
-    ref: ISO 19128:2005
-    link: https://www.iso.org/standard/32546.html
-  lineage_source: "(Type reference to national language document)"
-  date_accepted: 2005-12-01 00:00:00.000000000 +08:00
+    ref: 'ISO 19128:2005'
+    link: 'https://www.iso.org/standard/32546.html'
+  lineage_source: (Type reference to national language document)
+  date_accepted: 2005-11-30T16:00:00.000Z
   release: '1'
   terms:
-  - type: expression
-    designation: begäran
-    normative_status: preferred
+    - type: expression
+      designation: begäran
+      normative_status: preferred
+  _revisions:
+    current: 47c6d6
+    tree:
+      47c6d6:
+        object:
+          id: 380
+          definition: <i datasammanhang> aktivering av ett program från ett annat program
+          country_code: swe
+          language_code: swe
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19128:2005'
+            link: 'https://www.iso.org/standard/32546.html'
+          lineage_source: (Type reference to national language document)
+          date_accepted: 2005-11-30T16:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: begäran
+              normative_status: preferred
+        parents: []
+        timeCreated: 2005-11-30T16:00:00.000Z
+        author:
+          name: Glossarist bot
+          email: glossarist@ribose.com

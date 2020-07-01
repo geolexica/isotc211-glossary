@@ -1,4 +1,3 @@
----
 term: pass verdict
 termid: 326
 eng:
@@ -10,14 +9,40 @@ eng:
   entry_status: valid
   review_indicator: ''
   authoritative_source:
-    ref: ISO 19105:2000
-    link: https://www.iso.org/standard/26010.html
-  date_accepted: 2000-12-15 00:00:00.000000000 +08:00
+    ref: 'ISO 19105:2000'
+    link: 'https://www.iso.org/standard/26010.html'
+  date_accepted: 2000-12-14T16:00:00.000Z
   release: '1'
   terms:
-  - type: expression
-    designation: pass verdict
-    normative_status: preferred
+    - type: expression
+      designation: pass verdict
+      normative_status: preferred
+  _revisions:
+    current: d95bea
+    tree:
+      d95bea:
+        object:
+          id: 326
+          definition: test verdict of conformance
+          language_code: eng
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19105:2000'
+            link: 'https://www.iso.org/standard/26010.html'
+          date_accepted: 2000-12-14T16:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: pass verdict
+              normative_status: preferred
+        parents: []
+        timeCreated: 2000-12-14T16:00:00.000Z
+        author:
+          name: Glossarist bot
+          email: glossarist@ribose.com
 ara:
   id: 326
   definition: اختبار اجتياز المطابقه
@@ -27,14 +52,40 @@ ara:
   entry_status: valid
   review_indicator: ''
   authoritative_source:
-    ref: ISO 19105:2000
-    link: https://www.iso.org/standard/26010.html
-  date_accepted: 2000-12-15 00:00:00.000000000 +08:00
+    ref: 'ISO 19105:2000'
+    link: 'https://www.iso.org/standard/26010.html'
+  date_accepted: 2000-12-14T16:00:00.000Z
   release: '1'
   terms:
-  - type: expression
-    designation: حكم اجتياز
-    normative_status: preferred
+    - type: expression
+      designation: حكم اجتياز
+      normative_status: preferred
+  _revisions:
+    current: f9bfde
+    tree:
+      f9bfde:
+        object:
+          id: 326
+          definition: اختبار اجتياز المطابقه
+          language_code: ara
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19105:2000'
+            link: 'https://www.iso.org/standard/26010.html'
+          date_accepted: 2000-12-14T16:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: حكم اجتياز
+              normative_status: preferred
+        parents: []
+        timeCreated: 2000-12-14T16:00:00.000Z
+        author:
+          name: Glossarist bot
+          email: glossarist@ribose.com
 zho:
   id: 326
   definition: 具有一致性的测试判定。
@@ -44,16 +95,15 @@ zho:
   entry_status: valid
   review_indicator: ''
   authoritative_source:
-    ref: ISO 19105:2000
-    link: https://www.iso.org/standard/26010.html
-  date_accepted: 2000-12-15 00:00:00.000000000 +08:00
+    ref: 'ISO 19105:2000'
+    link: 'https://www.iso.org/standard/26010.html'
+  date_accepted: 2000-12-14T16:00:00.000Z
   terms:
-  - type: expression
-    designation: 合格判定
-    normative_status: preferred
+    - type: expression
+      designation: 合格判定
+      normative_status: preferred
 fin:
   id: 326
-  synonyms: hyväksyvä päätelmä
   definition: vaatimuksenmukaisuuden osoittava testitulos
   language_code: fin
   notes: []
@@ -61,14 +111,44 @@ fin:
   entry_status: valid
   review_indicator: ''
   authoritative_source:
-    ref: ISO 19105:2000
-    link: https://www.iso.org/standard/26010.html
-  lineage_source: Internet, Maanmittauslaitos
-  date_accepted: 2000-12-15 00:00:00.000000000 +08:00
+    ref: 'ISO 19105:2000'
+    link: 'https://www.iso.org/standard/26010.html'
+  lineage_source: 'Internet, Maanmittauslaitos'
+  date_accepted: 2000-12-14T16:00:00.000Z
   terms:
-  - type: expression
-    designation: hyväksyntä
-    normative_status: preferred
+    - type: expression
+      designation: hyväksyntä
+      normative_status: preferred
+    - designation: hyväksyvä päätelmä
+      type: expression
+  _revisions:
+    current: 018e0f
+    tree:
+      018e0f:
+        object:
+          id: 326
+          definition: vaatimuksenmukaisuuden osoittava testitulos
+          language_code: fin
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19105:2000'
+            link: 'https://www.iso.org/standard/26010.html'
+          lineage_source: 'Internet, Maanmittauslaitos'
+          date_accepted: 2000-12-14T16:00:00.000Z
+          terms:
+            - type: expression
+              designation: hyväksyntä
+              normative_status: preferred
+            - designation: hyväksyvä päätelmä
+              type: expression
+        parents: []
+        timeCreated: 2000-12-14T16:00:00.000Z
+        author:
+          name: Glossarist bot
+          email: glossarist@ribose.com
 fra:
   id: 326
   definition: verdict (résultat) de succès de test de conformité
@@ -78,13 +158,38 @@ fra:
   entry_status: valid
   authoritative_source:
     ref: ISO 19105
-    link: https://www.iso.org/standard/26010.html
+    link: 'https://www.iso.org/standard/26010.html'
   lineage_source: ''
-  date_accepted: 2000-11-16 00:00:00.000000000 +08:00
+  date_accepted: 2000-11-15T16:00:00.000Z
   terms:
-  - type: expression
-    designation: verdict de conformité
-    normative_status: preferred
+    - type: expression
+      designation: verdict de conformité
+      normative_status: preferred
+  _revisions:
+    current: 5aec92
+    tree:
+      5aec92:
+        object:
+          id: 326
+          definition: verdict (résultat) de succès de test de conformité
+          language_code: fra
+          notes: []
+          examples: []
+          entry_status: valid
+          authoritative_source:
+            ref: ISO 19105
+            link: 'https://www.iso.org/standard/26010.html'
+          lineage_source: ''
+          date_accepted: 2000-11-15T16:00:00.000Z
+          terms:
+            - type: expression
+              designation: verdict de conformité
+              normative_status: preferred
+        parents: []
+        timeCreated: 2000-11-15T16:00:00.000Z
+        author:
+          name: Glossarist bot
+          email: glossarist@ribose.com
 deu:
   id: 326
   language_code: deu
@@ -93,14 +198,14 @@ deu:
   entry_status: valid
   review_indicator: ''
   authoritative_source:
-    ref: ISO 19105:2000
-    link: https://www.iso.org/standard/26010.html
-  date_accepted: 2000-12-15 00:00:00.000000000 +08:00
+    ref: 'ISO 19105:2000'
+    link: 'https://www.iso.org/standard/26010.html'
+  date_accepted: 2000-12-14T16:00:00.000Z
   release: '1'
   terms:
-  - type: expression
-    designation: erfolgreicher Prüfnachweis
-    normative_status: preferred
+    - type: expression
+      designation: erfolgreicher Prüfnachweis
+      normative_status: preferred
 jpn:
   id: 326
   definition: 適合と報告された試験判定。
@@ -109,15 +214,41 @@ jpn:
   examples: []
   entry_status: valid
   authoritative_source:
-    ref: ISO 19105:2000
-    link: https://www.iso.org/standard/26010.html
+    ref: 'ISO 19105:2000'
+    link: 'https://www.iso.org/standard/26010.html'
   lineage_source: JIS X 7105
-  date_accepted: 2000-12-15 00:00:00.000000000 +08:00
+  date_accepted: 2000-12-14T16:00:00.000Z
   release: '1'
   terms:
-  - type: expression
-    designation: 合格判定
-    normative_status: preferred
+    - type: expression
+      designation: 合格判定
+      normative_status: preferred
+  _revisions:
+    current: 0f5494
+    tree:
+      0f5494:
+        object:
+          id: 326
+          definition: 適合と報告された試験判定。
+          language_code: jpn
+          notes: []
+          examples: []
+          entry_status: valid
+          authoritative_source:
+            ref: 'ISO 19105:2000'
+            link: 'https://www.iso.org/standard/26010.html'
+          lineage_source: JIS X 7105
+          date_accepted: 2000-12-14T16:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: 合格判定
+              normative_status: preferred
+        parents: []
+        timeCreated: 2000-12-14T16:00:00.000Z
+        author:
+          name: Glossarist bot
+          email: glossarist@ribose.com
 kor:
   id: 326
   definition: 시험 적합 판정
@@ -127,32 +258,85 @@ kor:
   entry_status: valid
   review_indicator: ''
   authoritative_source:
-    ref: ISO 19105:2000
-    link: https://www.iso.org/standard/26010.html
+    ref: 'ISO 19105:2000'
+    link: 'https://www.iso.org/standard/26010.html'
   lineage_source: KS X ISO 19105
-  date_accepted: 2007-06-29 00:00:00.000000000 +08:00
+  date_accepted: 2007-06-28T16:00:00.000Z
   release: '1'
   terms:
-  - type: expression
-    designation: 통과 판정
-    normative_status: preferred
+    - type: expression
+      designation: 통과 판정
+      normative_status: preferred
+  _revisions:
+    current: e9c5b9
+    tree:
+      e9c5b9:
+        object:
+          id: 326
+          definition: 시험 적합 판정
+          language_code: kor
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19105:2000'
+            link: 'https://www.iso.org/standard/26010.html'
+          lineage_source: KS X ISO 19105
+          date_accepted: 2007-06-28T16:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: 통과 판정
+              normative_status: preferred
+        parents: []
+        timeCreated: 2007-06-28T16:00:00.000Z
+        author:
+          name: Glossarist bot
+          email: glossarist@ribose.com
 rus:
   id: 326
-  definition: заключение о тестировании, подтверждающее соответствие
+  definition: 'заключение о тестировании, подтверждающее соответствие'
   language_code: rus
   notes: []
   examples: []
   entry_status: valid
   review_indicator: ''
   authoritative_source:
-    ref: ISO 19105:2000
-    link: https://www.iso.org/standard/26010.html
+    ref: 'ISO 19105:2000'
+    link: 'https://www.iso.org/standard/26010.html'
   lineage_source: Internet
-  date_accepted: 2000-12-15 00:00:00.000000000 +08:00
+  date_accepted: 2000-12-14T16:00:00.000Z
   terms:
-  - type: expression
-    designation: положительное заключение
-    normative_status: preferred
+    - type: expression
+      designation: положительное заключение
+      normative_status: preferred
+  _revisions:
+    current: b2bb97
+    tree:
+      b2bb97:
+        object:
+          id: 326
+          definition: 'заключение о тестировании, подтверждающее соответствие'
+          language_code: rus
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19105:2000'
+            link: 'https://www.iso.org/standard/26010.html'
+          lineage_source: Internet
+          date_accepted: 2000-12-14T16:00:00.000Z
+          terms:
+            - type: expression
+              designation: положительное заключение
+              normative_status: preferred
+        parents: []
+        timeCreated: 2000-12-14T16:00:00.000Z
+        author:
+          name: Glossarist bot
+          email: glossarist@ribose.com
 spa:
   id: 326
   definition: veredicto de prueba de conformidad
@@ -162,14 +346,40 @@ spa:
   entry_status: valid
   review_indicator: ''
   authoritative_source:
-    ref: ISO 19105:2000
-    link: https://www.iso.org/standard/26010.html
-  date_accepted: 2000-12-15 00:00:00.000000000 +08:00
+    ref: 'ISO 19105:2000'
+    link: 'https://www.iso.org/standard/26010.html'
+  date_accepted: 2000-12-14T16:00:00.000Z
   release: '1'
   terms:
-  - type: expression
-    designation: veredicto de aprobado
-    normative_status: preferred
+    - type: expression
+      designation: veredicto de aprobado
+      normative_status: preferred
+  _revisions:
+    current: 24a3be
+    tree:
+      24a3be:
+        object:
+          id: 326
+          definition: veredicto de prueba de conformidad
+          language_code: spa
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19105:2000'
+            link: 'https://www.iso.org/standard/26010.html'
+          date_accepted: 2000-12-14T16:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: veredicto de aprobado
+              normative_status: preferred
+        parents: []
+        timeCreated: 2000-12-14T16:00:00.000Z
+        author:
+          name: Glossarist bot
+          email: glossarist@ribose.com
 swe:
   id: 326
   definition: |-
@@ -182,12 +392,42 @@ swe:
   entry_status: valid
   review_indicator: ''
   authoritative_source:
-    ref: ISO 19105:2000
-    link: https://www.iso.org/standard/26010.html
-  lineage_source: "(Type reference to national language document)"
-  date_accepted: 2000-12-15 00:00:00.000000000 +08:00
+    ref: 'ISO 19105:2000'
+    link: 'https://www.iso.org/standard/26010.html'
+  lineage_source: (Type reference to national language document)
+  date_accepted: 2000-12-14T16:00:00.000Z
   release: '1'
   terms:
-  - type: expression
-    designation: godkänt resultat
-    normative_status: preferred
+    - type: expression
+      designation: godkänt resultat
+      normative_status: preferred
+  _revisions:
+    current: f6c784
+    tree:
+      f6c784:
+        object:
+          id: 326
+          definition: |-
+            <vid test> resultat som anger överensstämmelse
+             med angivna krav
+          country_code: swe
+          language_code: swe
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19105:2000'
+            link: 'https://www.iso.org/standard/26010.html'
+          lineage_source: (Type reference to national language document)
+          date_accepted: 2000-12-14T16:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: godkänt resultat
+              normative_status: preferred
+        parents: []
+        timeCreated: 2000-12-14T16:00:00.000Z
+        author:
+          name: Glossarist bot
+          email: glossarist@ribose.com
