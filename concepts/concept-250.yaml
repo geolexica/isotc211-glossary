@@ -182,6 +182,45 @@ zho:
     - type: expression
       designation: 集成定位系统
       normative_status: preferred
+  _revisions:
+    current: 90193f
+    tree:
+      90193f:
+        object:
+          id: 250
+          definition: 两种或多种定位技术的混合定位系统。
+          language_code: zho
+          notes:
+            - >-
+              集成定位系统中每个定位技术产生的量测结果可以是位置、运动或姿态中的任何一个。可以有冗余的量测结果。当把他们合并在一起时，就确定了一个统一的位置、运动或姿态。
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19116:2019'
+            clause: '(E), 3.14'
+            link: 'https://www.iso.org/standard/70882.html'
+          lineage_source: 'ISO 19116:2004(E)'
+          lineage_source_similarity: 1
+          date_accepted: 2004-07-01T00:00:00.000Z
+          review_date: 2019-12-02T00:00:00.000Z
+          review_status: final
+          review_decision: accepted
+          review_decision_date: 2019-12-02T00:00:00.000Z
+          review_decision_event: 'Publication of ISO 19116:2019(E)'
+          review_decision_notes: >-
+            Authoritative reference changed from ISO 19116:2004 to ISO
+            19116:2019(E), 3.14. Lineage source added as ISO 19116:2004(E)
+          release: '1'
+          terms:
+            - type: expression
+              designation: 集成定位系统
+              normative_status: preferred
+        parents: []
+        timeCreated: 2004-07-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 fin:
   id: 250
   definition: >-
@@ -363,6 +402,47 @@ deu:
     - type: expression
       designation: integriertes Positionierungssystem
       normative_status: preferred
+  _revisions:
+    current: d5fa82
+    tree:
+      d5fa82:
+        object:
+          id: 250
+          language_code: deu
+          notes:
+            - >-
+              The measurements produced by each positioning technology in an
+              integrated system may be any of position, motion, or attitude. 
+              There may be redundant measurements.  When combined, a unified
+              position, motion, or attitude is determined.
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19116:2019'
+            clause: '(E), 3.14'
+            link: 'https://www.iso.org/standard/70882.html'
+          lineage_source: 'ISO 19116:2004(E)'
+          lineage_source_similarity: 1
+          date_accepted: 2004-07-01T00:00:00.000Z
+          review_date: 2019-12-02T00:00:00.000Z
+          review_status: final
+          review_decision: accepted
+          review_decision_date: 2019-12-02T00:00:00.000Z
+          review_decision_event: 'Publication of ISO 19116:2019(E)'
+          review_decision_notes: >-
+            Authoritative reference changed from ISO 19116:2004 to ISO
+            19116:2019(E), 3.14. Lineage source added as ISO 19116:2004(E)
+          release: '1'
+          terms:
+            - type: expression
+              designation: integriertes Positionierungssystem
+              normative_status: preferred
+        parents: []
+        timeCreated: 2004-07-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 250
   definition: 2개 이상의 측위 기술을 통합하는 측위 시스템

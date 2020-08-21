@@ -133,6 +133,34 @@ zho:
     - type: expression
       designation: 位置
       normative_status: preferred
+  _revisions:
+    current: e00fe0
+    tree:
+      e00fe0:
+        object:
+          id: 347
+          definition: 描述一个点、或者一个对象或人所占据的几何空间的数据类型。
+          language_code: zho
+          notes:
+            - >-
+              直接位置是点的一种语义子类型。直接位置只能描述一个确定点,因此并不是所有的位置都可以由直接位置来表示。这与"类型"的关系相符合。ISO
+              19107中的几何是位置,但不直接位置。
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19133:2005'
+            link: 'https://www.iso.org/standard/32551.html'
+          date_accepted: 2005-10-15T00:00:00.000Z
+          terms:
+            - type: expression
+              designation: 位置
+              normative_status: preferred
+        parents: []
+        timeCreated: 2005-10-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 fin:
   id: 347
   definition: 'paikka, jossa jokin sijaitsee'
@@ -263,6 +291,40 @@ deu:
     - type: expression
       designation: Position
       normative_status: preferred
+  _revisions:
+    current: ac13d4
+    tree:
+      ac13d4:
+        object:
+          id: 347
+          definition: >-
+            Datentyp, der einen Punkt oder eine Geometrie beschreibt, der/die
+            möglicherweise durch ein Objekt oder eine Person besetzt ist
+          language_code: deu
+          notes:
+            - >-
+              A direct position is a semantic subtype of position. Direct
+              positions as described can only define a point and therefore not
+              all positions can be represented by a direct position. That is
+              consistent with the "is type of" relation.  An 19107 geometry is
+              also a position, just not a direct position.
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19133:2005'
+            link: 'https://www.iso.org/standard/32551.html'
+          date_accepted: 2005-10-15T00:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: Position
+              normative_status: preferred
+        parents: []
+        timeCreated: 2005-10-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 347
   definition: 객체 또는 사람이 잠정적으로 차지하는 하나의 점이나 기하를 기술하는 데이터 유형

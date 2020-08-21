@@ -197,6 +197,44 @@ zho:
     - type: expression
       designation: 几何维数
       normative_status: null
+  _revisions:
+    current: 3c4309
+    tree:
+      3c4309:
+        object:
+          id: 213
+          definition: 在几何集内每一个直接位置都可以与其内部具有该直接位置的子集相关联，且相似（同构）于n维欧几里德空间的Rn的最大数目n。
+          language_code: zho
+          notes:
+            - >-
+              曲线的几何维数为1，因为它们是实线段的连续映像。虽然曲面不能将它的整体映射到二维空间R2中，但围绕每一个点位置，（在连续函数的情况下）可以找到一个类似于R2单位圆的小的邻域，因此曲面是二维的。在本标准中，大多数曲面片（几何曲面片GM_SurfacePatch的实例）是通过它们所定义的插值机制映射为R2中的一部分。
+          examples: []
+          entry_status: superseded
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19107:2003'
+            link: 'https://www.iso.org/standard/26012.html'
+          date_accepted: 2003-05-01T00:00:00.000Z
+          date_amended: 2019-12-02T00:00:00.000Z
+          review_date: 2019-12-02T00:00:00.000Z
+          review_status: final
+          review_type: supersession
+          review_decision: accepted
+          review_decision_date: 2019-12-02T00:00:00.000Z
+          review_decision_event: 'Publication of document ISO 19107:2019(E)'
+          review_decision_notes: >-
+            This entry is superseded by the entry for geometric dimension
+            <geometry, topology> in ISO 19107:2019(E)
+          release: '-1'
+          terms:
+            - type: expression
+              designation: 几何维数
+              normative_status: null
+        parents: []
+        timeCreated: 2003-05-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 dan:
   id: 213
   definition: >-
@@ -484,6 +522,50 @@ deu:
     - type: expression
       designation: geometrische Dimension
       normative_status: null
+  _revisions:
+    current: ac4047
+    tree:
+      ac4047:
+        object:
+          id: 213
+          language_code: deu
+          notes:
+            - >-
+              Curves, because they are continuous images of a portion of the
+              real line, have geometric dimension 1. Surfaces cannot be mapped
+              to R2 in their entirety, but around each point position, a small
+              neighbourhood can be found that resembles (under continuous
+              functions) the interior of the unit circle in R2, and are
+              therefore 2-dimensional. In this International Standard, most
+              surface patches (instances of GM_SurfacePatch) are mapped to
+              portions of R2 by their defining interpolation mechanisms.
+          examples: []
+          entry_status: superseded
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19107:2003'
+            link: 'https://www.iso.org/standard/26012.html'
+          date_accepted: 2003-05-01T00:00:00.000Z
+          date_amended: 2019-12-02T00:00:00.000Z
+          review_date: 2019-12-02T00:00:00.000Z
+          review_status: final
+          review_type: supersession
+          review_decision: accepted
+          review_decision_date: 2019-12-02T00:00:00.000Z
+          review_decision_event: 'Publication of document ISO 19107:2019(E)'
+          review_decision_notes: >-
+            This entry is superseded by the entry for geometric dimension
+            <geometry, topology> in ISO 19107:2019(E)
+          release: '-1'
+          terms:
+            - type: expression
+              designation: geometrische Dimension
+              normative_status: null
+        parents: []
+        timeCreated: 2003-05-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 jpn:
   id: 213
   definition: 幾何集合の中のどの直接位置も，その直接位置を内部に含みn次元ユークリッド空間R　と相似（同形）な部分集合と関連付けることができるような数nの最大値。

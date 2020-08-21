@@ -102,6 +102,31 @@ zho:
     - type: expression
       designation: 空间参照系
       normative_status: preferred
+  _revisions:
+    current: b86dc1
+    tree:
+      b86dc1:
+        object:
+          id: 422
+          definition: 标识现实世界位置的系统。
+          language_code: zho
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19112:2003'
+            link: 'https://www.iso.org/standard/26017.html'
+          date_accepted: 2003-10-15T00:00:00.000Z
+          terms:
+            - type: expression
+              designation: 空间参照系
+              normative_status: preferred
+        parents: []
+        timeCreated: 2003-10-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 nld:
   id: 422
   definition: >-
@@ -126,6 +151,39 @@ nld:
     - type: expression
       designation: ruimtelijk referentiesysteem
       normative_status: preferred
+  _revisions:
+    current: '727582'
+    tree:
+      '727582':
+        object:
+          id: 422
+          definition: >-
+            model (systeem) voor identificatie van een positie (locatie) in de
+            werkelijkheid
+          language_code: nld
+          notes:
+            - >-
+              Identificatie van een positie kan door coördinaten (directe
+              locatie) en door geografische identificatoren (indirecte locatie).
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19112:2003'
+            link: 'https://www.iso.org/standard/26017.html'
+          lineage_source: NEN 3610
+          lineage_source_similarity: 1
+          date_accepted: 2003-10-15T00:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: ruimtelijk referentiesysteem
+              normative_status: preferred
+        parents: []
+        timeCreated: 2003-10-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 fin:
   id: 422
   definition: reaalimaailmassa olevan sijainnin yksilöintiin tarkoitettu järjestelmä
@@ -230,6 +288,31 @@ deu:
     - type: expression
       designation: räumliches Bezugssystem
       normative_status: preferred
+  _revisions:
+    current: 2c7581
+    tree:
+      2c7581:
+        object:
+          id: 422
+          language_code: deu
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19112:2003'
+            link: 'https://www.iso.org/standard/26017.html'
+          date_accepted: 2003-10-15T00:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: räumliches Bezugssystem
+              normative_status: preferred
+        parents: []
+        timeCreated: 2003-10-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 jpn:
   id: 422
   definition: 実世界における位置を識別するための体系。

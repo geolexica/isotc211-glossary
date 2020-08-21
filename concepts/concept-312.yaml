@@ -129,6 +129,31 @@ zho:
     - type: expression
       designation: 对象<UML>
       normative_status: preferred
+  _revisions:
+    current: cb09b3
+    tree:
+      cb09b3:
+        object:
+          id: 312
+          definition: 具有明确定义的边界与标识，封装了状态与行为的实体。
+          language_code: zho
+          notes:
+            - 状态由属性和关联表示。行为由操作、方法和状态机表示。对象是类的实例。参见：类、实例。
+          examples: []
+          entry_status: valid
+          authoritative_source:
+            ref: OMG/UML UML Semantics
+            clause: 'version 1.3, 1997.'
+          date_accepted: 2003-05-01T00:00:00.000Z
+          terms:
+            - type: expression
+              designation: 对象<UML>
+              normative_status: preferred
+        parents: []
+        timeCreated: 2003-05-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 fin:
   id: 312
   definition: >-
@@ -262,6 +287,39 @@ deu:
     - type: expression
       designation: Objekt
       normative_status: preferred
+  _revisions:
+    current: 1958c2
+    tree:
+      1958c2:
+        object:
+          id: 312
+          definition: >-
+            Einheit mit einer wohldefinierten Grenze und Identität, die Zustand
+            und Verhalten einschließt
+          language_code: deu
+          notes:
+            - >-
+              This term was first used in this way in the general theory of
+              object oriented programming, and later adopted for use in this
+              same sense in UML. An object is an instance of a class. Attributes
+              and relationships represent state. Operations, methods, and state
+              machines represent behavior.
+          examples: []
+          entry_status: valid
+          authoritative_source:
+            ref: OMG/UML UML Semantics
+            clause: 'version 1.3, 1997.'
+          date_accepted: 2003-05-01T00:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: Objekt
+              normative_status: preferred
+        parents: []
+        timeCreated: 2003-05-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 312
   definition: 상태와 행태를 캡슐화한 잘 정의된 경계와 식별특성을 갖는 개체

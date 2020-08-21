@@ -151,7 +151,6 @@ ara:
 zho:
   id: 503
   abbrev: j
-  synonyms: geodetic latitude
   definition: 从赤道平面与通过给定点的椭球法线间的夹角，向北为正。
   language_code: zho
   notes: []
@@ -178,6 +177,48 @@ zho:
     - type: expression
       designation: 椭球纬度
       normative_status: admitted
+    - designation: geodetic latitude
+      type: expression
+  _revisions:
+    current: cd392b
+    tree:
+      cd392b:
+        object:
+          id: 503
+          abbrev: j
+          definition: 从赤道平面与通过给定点的椭球法线间的夹角，向北为正。
+          language_code: zho
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19111:2019'
+            clause: '(E), 3.1.32'
+            link: 'https://www.iso.org/standard/74039.html'
+          lineage_source: 'ISO 19111:2003'
+          lineage_source_similarity: 1
+          date_accepted: 2003-02-15T00:00:00.000Z
+          review_date: 2019-01-31T00:00:00.000Z
+          review_status: final
+          review_decision: accepted
+          review_decision_date: 2019-01-31T00:00:00.000Z
+          review_decision_event: 'Publication of ISO 19111:2019(E)'
+          review_decision_notes: >-
+            Authoritative reference changed from ISO 19111:2007 to ISO
+            19111:2019(E), 3.1.32. Lineage source added as ISO 19111:2003
+          release: '1'
+          terms:
+            - type: expression
+              designation: 椭球纬度
+              normative_status: admitted
+            - designation: geodetic latitude
+              type: expression
+        parents: []
+        timeCreated: 2003-02-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 dan:
   id: 503
   definition: >-
@@ -248,7 +289,6 @@ dan:
 nld:
   id: 503
   abbrev: j
-  synonyms: geodetische breedte
   definition: >-
     hoek vanaf het equatoriale vlak van de ellipsoïde door een gegeven punt,
     noordwaarts wordt als positief genomen
@@ -277,6 +317,50 @@ nld:
     - type: expression
       designation: ellipsoïde breedte
       normative_status: admitted
+    - designation: geodetische breedte
+      type: expression
+  _revisions:
+    current: 22ab9d
+    tree:
+      22ab9d:
+        object:
+          id: 503
+          abbrev: j
+          definition: >-
+            hoek vanaf het equatoriale vlak van de ellipsoïde door een gegeven
+            punt, noordwaarts wordt als positief genomen
+          language_code: nld
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19111:2019'
+            clause: '(E), 3.1.32'
+            link: 'https://www.iso.org/standard/74039.html'
+          lineage_source: 'ISO 19111:2003'
+          lineage_source_similarity: 1
+          date_accepted: 2003-02-15T00:00:00.000Z
+          review_date: 2019-01-31T00:00:00.000Z
+          review_status: final
+          review_decision: accepted
+          review_decision_date: 2019-01-31T00:00:00.000Z
+          review_decision_event: 'Publication of ISO 19111:2019(E)'
+          review_decision_notes: >-
+            Authoritative reference changed from ISO 19111:2007 to ISO
+            19111:2019(E), 3.1.32. Lineage source added as ISO 19111:2003
+          release: '1'
+          terms:
+            - type: expression
+              designation: ellipsoïde breedte
+              normative_status: admitted
+            - designation: geodetische breedte
+              type: expression
+        parents: []
+        timeCreated: 2003-02-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 fin:
   id: 503
   abbrev: φ
@@ -428,7 +512,6 @@ fra:
 deu:
   id: 503
   abbrev: j
-  synonyms: geodetic latitude
   language_code: deu
   notes: []
   examples: []
@@ -454,6 +537,47 @@ deu:
     - type: expression
       designation: ellipsoidische Breite
       normative_status: admitted
+    - designation: geodetic latitude
+      type: expression
+  _revisions:
+    current: bfce4d
+    tree:
+      bfce4d:
+        object:
+          id: 503
+          abbrev: j
+          language_code: deu
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19111:2019'
+            clause: '(E), 3.1.32'
+            link: 'https://www.iso.org/standard/74039.html'
+          lineage_source: 'ISO 19111:2003'
+          lineage_source_similarity: 1
+          date_accepted: 2003-02-15T00:00:00.000Z
+          review_date: 2019-01-31T00:00:00.000Z
+          review_status: final
+          review_decision: accepted
+          review_decision_date: 2019-01-31T00:00:00.000Z
+          review_decision_event: 'Publication of ISO 19111:2019(E)'
+          review_decision_notes: >-
+            Authoritative reference changed from ISO 19111:2007 to ISO
+            19111:2019(E), 3.1.32. Lineage source added as ISO 19111:2003
+          release: '1'
+          terms:
+            - type: expression
+              designation: ellipsoidische Breite
+              normative_status: admitted
+            - designation: geodetic latitude
+              type: expression
+        parents: []
+        timeCreated: 2003-02-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 503
   abbrev: j

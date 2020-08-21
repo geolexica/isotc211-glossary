@@ -126,6 +126,35 @@ deu:
     - type: expression
       designation: verschieben <Verweisung>
       normative_status: preferred
+  _revisions:
+    current: 79d737
+    tree:
+      79d737:
+        object:
+          id: 1036
+          language_code: deu
+          notes: []
+          examples:
+            - >-
+              A server is generating a response to a GetFeature request, it has
+              to copy a referenced feature into the response document and the
+              server has to "relocate" the original link contained in the
+              referencing feature to the copy placed in the response document.
+          entry_status: valid
+          authoritative_source:
+            ref: 'ISO 19142:2010'
+            link: 'https://www.iso.org/standard/42136.html'
+          date_accepted: 2010-12-15T00:00:00.000Z
+          release: '2'
+          terms:
+            - type: expression
+              designation: verschieben <Verweisung>
+              normative_status: preferred
+        parents: []
+        timeCreated: 2010-12-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 1036
   definition: 새로운 위치로 이동되거나 복제된 자원에 대한 기준의 갱신

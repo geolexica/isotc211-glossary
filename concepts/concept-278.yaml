@@ -117,6 +117,33 @@ zho:
     - type: expression
       designation: 基于位置的服务
       normative_status: preferred
+  _revisions:
+    current: 9dd0d5
+    tree:
+      9dd0d5:
+        object:
+          id: 278
+          abbrev: LBS
+          definition: 返回的服务或其他属性与请求服务的客户位置或者其他事物、对象或个人的位置相关。
+          language_code: zho
+          notes:
+            - 如"寻找最近的餐厅"的提问取决于提问者的位置，属于LBS范畴。
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19133:2005'
+            link: 'https://www.iso.org/standard/32551.html'
+          date_accepted: 2005-10-15T00:00:00.000Z
+          terms:
+            - type: expression
+              designation: 基于位置的服务
+              normative_status: preferred
+        parents: []
+        timeCreated: 2005-10-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 fin:
   id: 278
   definition: >-
@@ -233,6 +260,32 @@ deu:
     - type: expression
       designation: Location Based Service
       normative_status: preferred
+  _revisions:
+    current: 244d08
+    tree:
+      244d08:
+        object:
+          id: 278
+          abbrev: LBS
+          language_code: deu
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19133:2005'
+            link: 'https://www.iso.org/standard/32551.html'
+          date_accepted: 2005-10-15T00:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: Location Based Service
+              normative_status: preferred
+        parents: []
+        timeCreated: 2005-10-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 278
   abbrev: LBS

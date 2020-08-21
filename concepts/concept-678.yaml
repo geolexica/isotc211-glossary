@@ -120,6 +120,33 @@ zho:
     - type: expression
       designation: 被动对象
       normative_status: preferred
+  _revisions:
+    current: ecca84
+    tree:
+      ecca84:
+        object:
+          id: 678
+          definition: 只能响应外界刺激，不能主动发起动作的对象。
+          language_code: zho
+          notes:
+            - >-
+              被动对象通常通过外部接口被访问，通过外部接口接收请求、处理请求并返回数据作为请求的响应。由于对象可以实现多个类型,因此，单个对象可能经历主动状态和被动状态。比如,除非跟踪请求处于激活期,否则跟踪服务就处于不活动状态。这里，激活期是指根据内部触发器指定的请求，对象的内部将进入跟踪活动的时段。当跟踪请求取消时,该对象可返回到被动状态。
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19132:2007'
+            link: 'https://www.iso.org/standard/40601.html'
+          date_accepted: 2007-10-15T00:00:00.000Z
+          terms:
+            - type: expression
+              designation: 被动对象
+              normative_status: preferred
+        parents: []
+        timeCreated: 2007-10-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 fin:
   id: 678
   definition: >-
@@ -234,6 +261,31 @@ deu:
     - type: expression
       designation: passives Tracking
       normative_status: preferred
+  _revisions:
+    current: 7a5493
+    tree:
+      7a5493:
+        object:
+          id: 678
+          language_code: deu
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19132:2007'
+            link: 'https://www.iso.org/standard/40601.html'
+          date_accepted: 2007-10-15T00:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: passives Tracking
+              normative_status: preferred
+        parents: []
+        timeCreated: 2007-10-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 678
   definition: >-

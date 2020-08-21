@@ -132,6 +132,35 @@ deu:
     - type: expression
       designation: Datenkompression
       normative_status: preferred
+  _revisions:
+    current: a503e7
+    tree:
+      a503e7:
+        object:
+          id: 1118
+          language_code: deu
+          notes:
+            - Adapted from ANSI T1.523-2001.
+            - >-
+              Data compression is probabilistic in nature based on particular
+              instances of imagery, gridded or coverage data and is related to
+              encoding and is outside the scope of this Technical Specification.
+          examples: []
+          entry_status: valid
+          authoritative_source:
+            ref: 'ISO/TS 19129:2009'
+            link: 'https://www.iso.org/standard/43041.html'
+          date_accepted: 2009-04-01T00:00:00.000Z
+          release: '2'
+          terms:
+            - type: expression
+              designation: Datenkompression
+              normative_status: preferred
+        parents: []
+        timeCreated: 2009-04-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 1118
   definition: 일정량의 정보 전송에 필요한 메시지 길이 또는 자료 저장에 필요한 저장공간을 압축하는 것

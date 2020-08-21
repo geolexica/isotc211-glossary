@@ -120,6 +120,32 @@ zho:
     - type: expression
       designation: 格网
       normative_status: preferred
+  _revisions:
+    current: 9d2107
+    tree:
+      9d2107:
+        object:
+          id: 221
+          definition: 由两个或多个曲线集所组成的网络，曲线集中的成员按某种算法相交。
+          language_code: zho
+          notes:
+            - 曲线集把空间分割成格网单元。
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19123:2005'
+            link: 'https://www.iso.org/standard/40121.html'
+          date_accepted: 2003-05-01T00:00:00.000Z
+          terms:
+            - type: expression
+              designation: 格网
+              normative_status: preferred
+        parents: []
+        timeCreated: 2003-05-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 dan:
   id: 221
   definition: >-
@@ -288,6 +314,36 @@ deu:
     - type: expression
       designation: Gitter
       normative_status: preferred
+  _revisions:
+    current: 0d5327
+    tree:
+      0d5327:
+        object:
+          id: 221
+          definition: >-
+            Netz aus zwei oder mehr Kurvenscharen, wobei die Elemente einer
+            Schar jeweils die Elemente der anderen Scharen auf algorithmische
+            Weise schneiden
+          language_code: deu
+          notes:
+            - The curves partition a space into grid cells.
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19123:2005'
+            link: 'https://www.iso.org/standard/40121.html'
+          date_accepted: 2003-05-01T00:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: Gitter
+              normative_status: preferred
+        parents: []
+        timeCreated: 2003-05-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 221
   definition: 알고리듬적으로 각 집합의 원소가 다른 집합의 원소와 교차하는 둘 이상의 곡선 집합으로 구성된 네트워크

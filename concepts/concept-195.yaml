@@ -134,6 +134,33 @@ zho:
     - type: expression
       designation: 地理编码
       normative_status: preferred
+  _revisions:
+    current: c24bd0
+    tree:
+      c24bd0:
+        object:
+          id: 195
+          definition: 一种位置形式到另一种位置形式的转换。
+          language_code: zho
+          notes:
+            - >-
+              地理编码通常指的是将“地址”或者“交叉路口”转换为“直接位置”，很多服务提供商还在他们的地理编码器中添加了“反向地理编码”接口，这样就把地理编码服务的定义拓展为通用的位置转换器。因为路径计算服务程序使用内部位置编码，通常不向他人提供，所以地理编码器就称为这种服务内在的不可或缺的一部分。
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19133:2005'
+            link: 'https://www.iso.org/standard/32551.html'
+          date_accepted: 2005-10-15T00:00:00.000Z
+          terms:
+            - type: expression
+              designation: 地理编码
+              normative_status: preferred
+        parents: []
+        timeCreated: 2005-10-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 dan:
   id: 195
   definition: oversættelse af én form for lokalitet til en anden
@@ -314,6 +341,39 @@ deu:
     - type: expression
       designation: geokodieren
       normative_status: preferred
+  _revisions:
+    current: 790dd2
+    tree:
+      790dd2:
+        object:
+          id: 195
+          language_code: deu
+          notes:
+            - >-
+              Geocoding usually refers to the translation of "address" or
+              "intersection" to "direct position." Many services providers also
+              include a "reverse geocoding" interface to their geocoder, thus
+              extending the definition of the service as a general translator of
+              location. Because routing services use internal location encodings
+              not usually available to others, a geocoder is an integral part of
+              the internals of such a service.
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19133:2005'
+            link: 'https://www.iso.org/standard/32551.html'
+          date_accepted: 2005-10-15T00:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: geokodieren
+              normative_status: preferred
+        parents: []
+        timeCreated: 2005-10-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 195
   definition: 위치의 한 형태를 다른 형태로 변환

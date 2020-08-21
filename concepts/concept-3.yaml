@@ -150,6 +150,37 @@ zho:
     - type: expression
       designation: 抽象测试用例
       normative_status: preferred
+  _revisions:
+    current: e5edfe
+    tree:
+      e5edfe:
+        object:
+          id: 3
+          definition: 针对特定要求的一般性测试。
+          language_code: zho
+          notes:
+            - >-
+              抽象测试用例是导出可执行测试用例的形式化基础。在抽象测试用例里包含有一个或多个测试目的。一个抽象测试用例不取决于实现，也不取决于数值。它应当是完整的，足以将测试判定被明确地分配到每个潜在的可观察的测试结果（即：测试事件的序列）当中。
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19105:2000'
+            link: 'https://www.iso.org/standard/26010.html'
+          date_accepted: 2000-12-15T00:00:00.000Z
+          review_date: 2019-07-05T00:00:00.000Z
+          review_status: pending
+          review_type: retirement
+          release: '1'
+          terms:
+            - type: expression
+              designation: 抽象测试用例
+              normative_status: preferred
+        parents: []
+        timeCreated: 2000-12-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 dan:
   id: 3
   definition: generaliseret test for et bestemt krav
@@ -356,6 +387,42 @@ deu:
     - type: expression
       designation: abstrakter Testfall
       normative_status: preferred
+  _revisions:
+    current: f0129a
+    tree:
+      f0129a:
+        object:
+          id: 3
+          language_code: deu
+          notes:
+            - >-
+              An abstract test case is a formal basis for deriving executable
+              test cases One or more test purposes are encapsulated in the
+              abstract test case. An abstract test case is independent of both
+              the implementation and the values. It should be complete in the
+              sense that it is sufficient to enable a test verdict to be
+              assigned unambiguously to each potentially observable test outcome
+              (i.e. sequence of test events).
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19105:2000'
+            link: 'https://www.iso.org/standard/26010.html'
+          date_accepted: 2000-12-15T00:00:00.000Z
+          review_date: 2019-07-05T00:00:00.000Z
+          review_status: pending
+          review_type: retirement
+          release: '1'
+          terms:
+            - type: expression
+              designation: abstrakter Testfall
+              normative_status: preferred
+        parents: []
+        timeCreated: 2000-12-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 jpn:
   id: 3
   definition: 特定の要件のために作成された試験。

@@ -162,7 +162,6 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 156
-  synonyms: local datum
   definition: 描述局部参照与坐标系关系的基准。
   language_code: zho
   notes:
@@ -191,6 +190,49 @@ zho:
     - type: expression
       designation: 工程基准
       normative_status: preferred
+    - designation: local datum
+      type: expression
+  _revisions:
+    current: ac4154
+    tree:
+      ac4154:
+        object:
+          id: 156
+          definition: 描述局部参照与坐标系关系的基准。
+          language_code: zho
+          notes:
+            - 工程基准不包括大地基准和高程基准。
+          examples:
+            - 确定在参照点若干公里范围内相对位置的系统。
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19111:2019'
+            clause: '(E), 3.1.26'
+            link: 'https://www.iso.org/standard/74039.html'
+          lineage_source: 'ISO 19111:2003'
+          lineage_source_similarity: 1
+          date_accepted: 2003-02-15T00:00:00.000Z
+          review_date: 2019-01-31T00:00:00.000Z
+          review_status: final
+          review_decision: accepted
+          review_decision_date: 2019-01-31T00:00:00.000Z
+          review_decision_event: 'Publication of ISO 19111:2019(E)'
+          review_decision_notes: >-
+            Authoritative reference changed from ISO 19111:2007 to ISO
+            19111:2019(E), 3.1.26. Lineage source added as ISO 19111:2003
+          release: '1'
+          terms:
+            - type: expression
+              designation: 工程基准
+              normative_status: preferred
+            - designation: local datum
+              type: expression
+        parents: []
+        timeCreated: 2003-02-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 dan:
   id: 156
   definition: >-
@@ -268,7 +310,6 @@ dan:
           email: glossarist@ribose.com
 nld:
   id: 156
-  synonyms: lokale datum
   definition: >-
     datum waarmee de relatie tussen een coördinaatsysteem en een lokale
     referentie wordt beschreven
@@ -301,6 +342,53 @@ nld:
     - type: expression
       designation: lokaal datum
       normative_status: preferred
+    - designation: lokale datum
+      type: expression
+  _revisions:
+    current: '342681'
+    tree:
+      '342681':
+        object:
+          id: 156
+          definition: >-
+            datum waarmee de relatie tussen een coördinaatsysteem en een lokale
+            referentie wordt beschreven
+          language_code: nld
+          notes:
+            - Een lokaal datum is nooit een geodetisch of verticaal datum.
+          examples:
+            - >-
+              Een systeem voor het identificeren van relatieve posities binnen
+              een paar kilometer van een referentiepunt.
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19111:2019'
+            clause: '(E), 3.1.26'
+            link: 'https://www.iso.org/standard/74039.html'
+          lineage_source: 'ISO 19111:2003'
+          lineage_source_similarity: 1
+          date_accepted: 2003-02-15T00:00:00.000Z
+          review_date: 2019-01-31T00:00:00.000Z
+          review_status: final
+          review_decision: accepted
+          review_decision_date: 2019-01-31T00:00:00.000Z
+          review_decision_event: 'Publication of ISO 19111:2019(E)'
+          review_decision_notes: >-
+            Authoritative reference changed from ISO 19111:2007 to ISO
+            19111:2019(E), 3.1.26. Lineage source added as ISO 19111:2003
+          release: '1'
+          terms:
+            - type: expression
+              designation: lokaal datum
+              normative_status: preferred
+            - designation: lokale datum
+              type: expression
+        parents: []
+        timeCreated: 2003-02-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 fin:
   id: 156
   definition: >-
@@ -457,7 +545,6 @@ fra:
           email: glossarist@ribose.com
 deu:
   id: 156
-  synonyms: local datum
   definition: >-
     Datum, das die Beziehung eines Koordinatensystems zu einer lokalen Referenz
     beschreibt
@@ -490,6 +577,53 @@ deu:
     - type: expression
       designation: lokales Datum
       normative_status: preferred
+    - designation: local datum
+      type: expression
+  _revisions:
+    current: 42ac69
+    tree:
+      42ac69:
+        object:
+          id: 156
+          definition: >-
+            Datum, das die Beziehung eines Koordinatensystems zu einer lokalen
+            Referenz beschreibt
+          language_code: deu
+          notes:
+            - Engineering datum excludes both geodetic and vertical datums.
+          examples:
+            - >-
+              A system for identifying relative positions within a few
+              kilometres of the reference point.
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19111:2019'
+            clause: '(E), 3.1.26'
+            link: 'https://www.iso.org/standard/74039.html'
+          lineage_source: 'ISO 19111:2003'
+          lineage_source_similarity: 1
+          date_accepted: 2003-02-15T00:00:00.000Z
+          review_date: 2019-01-31T00:00:00.000Z
+          review_status: final
+          review_decision: accepted
+          review_decision_date: 2019-01-31T00:00:00.000Z
+          review_decision_event: 'Publication of ISO 19111:2019(E)'
+          review_decision_notes: >-
+            Authoritative reference changed from ISO 19111:2007 to ISO
+            19111:2019(E), 3.1.26. Lineage source added as ISO 19111:2003
+          release: '1'
+          terms:
+            - type: expression
+              designation: lokales Datum
+              normative_status: preferred
+            - designation: local datum
+              type: expression
+        parents: []
+        timeCreated: 2003-02-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 156
   definition: 지역 참조와 좌표 체계간의 관계를 설명하는 지역 데이텀

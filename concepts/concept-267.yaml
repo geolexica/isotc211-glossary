@@ -110,6 +110,31 @@ zho:
     - type: expression
       designation: 图层
       normative_status: preferred
+  _revisions:
+    current: 3a2d2e
+    tree:
+      3a2d2e:
+        object:
+          id: 267
+          definition: 地理信息的基本单元，可作为一幅地图从服务器端请求得到。
+          language_code: zho
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19128:2005'
+            link: 'https://www.iso.org/standard/32546.html'
+          date_accepted: 2005-12-01T00:00:00.000Z
+          terms:
+            - type: expression
+              designation: 图层
+              normative_status: preferred
+        parents: []
+        timeCreated: 2005-12-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 fin:
   id: 267
   definition: 'paikkatietoaineisto tai sen osa, joka voidaan pyytää palvelimelta karttana'
@@ -219,6 +244,34 @@ deu:
     - type: expression
       designation: Layer
       normative_status: preferred
+  _revisions:
+    current: 6f1495
+    tree:
+      6f1495:
+        object:
+          id: 267
+          definition: >-
+            grundlegende Einheit von Geoinformation, die als eigenständige Karte
+            von einem Server abgefragt werden kann
+          language_code: deu
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19128:2005'
+            link: 'https://www.iso.org/standard/32546.html'
+          date_accepted: 2005-12-01T00:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: Layer
+              normative_status: preferred
+        parents: []
+        timeCreated: 2005-12-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 267
   definition: 서버에서 지도로 요청될 수 있는 지리 정보의 기본 단위

@@ -146,6 +146,33 @@ zho:
     - type: expression
       designation: 成本函数
       normative_status: preferred
+  _revisions:
+    current: 266cc9
+    tree:
+      266cc9:
+        object:
+          id: 97
+          definition: 与路径关联的成本的函数。
+          language_code: zho
+          notes:
+            - >-
+              通常的做法是给路径的每一部分赋一个成本值，把总路径成本值定义为各部分成本的总和。这一函数对于大多数常用导航算法的运算是很有必要的。成本函数的单位不仅局限于货币的成本和价值，而且还包括诸如时间、距离和其他可能的度量。惟一的要求是函数为增加的，并且至少是非负的。非负这一要求可以弱化为与网络中任意环路相关的成本值非零或非负，以证明“最小成本”的路径存在。
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19133:2005'
+            link: 'https://www.iso.org/standard/32551.html'
+          date_accepted: 2005-10-15T00:00:00.000Z
+          terms:
+            - type: expression
+              designation: 成本函数
+              normative_status: preferred
+        parents: []
+        timeCreated: 2005-10-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 dan:
   id: 97
   definition: 'funktion, der forbinder et mål (omkostning) med en rute'
@@ -341,6 +368,42 @@ deu:
     - type: expression
       designation: Kostenfunktion
       normative_status: preferred
+  _revisions:
+    current: 0a035d
+    tree:
+      0a035d:
+        object:
+          id: 97
+          language_code: deu
+          notes:
+            - >-
+              The normal mechanism is to apply a cost to each part of a route,
+              and to define the total route cost as the sum of the cost of the
+              parts. This is necessary for the operation of the most common
+              navigation algorithms. The units of cost functions are not limited
+              to monetary costs and values only, but include such measures as
+              time, distance, and possibly others. The only requirement is that
+              the function be additive and at least non-negative. This last
+              criteria can be softened as long as no zero or less cost is
+              associated with any loop in the network, as this will prevent the
+              existence of a "minimal cost" route.
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19133:2005'
+            link: 'https://www.iso.org/standard/32551.html'
+          date_accepted: 2005-10-15T00:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: Kostenfunktion
+              normative_status: preferred
+        parents: []
+        timeCreated: 2005-10-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 97
   definition: 경로 측정(비용)과 관련된 함수

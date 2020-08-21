@@ -120,6 +120,32 @@ zho:
     - type: expression
       designation: 生存期
       normative_status: preferred
+  _revisions:
+    current: df2260
+    tree:
+      df2260:
+        object:
+          id: 269
+          definition: 事物存在的时段。
+          language_code: zho
+          notes:
+            - 有效时间生存期是在现实模型中对象存在的时段。事务处理时间生存期是数据库对象在数据库中处在当前状态的时段。
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19108:2002'
+            link: 'https://www.iso.org/standard/26013.html'
+          date_accepted: 2002-09-01T00:00:00.000Z
+          terms:
+            - type: expression
+              designation: 生存期
+              normative_status: preferred
+        parents: []
+        timeCreated: 2002-09-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 fin:
   id: 269
   definition: 'ajanjakso, jona jokin on olemassa'
@@ -236,6 +262,35 @@ deu:
     - type: expression
       designation: Lebenszeitintervall
       normative_status: preferred
+  _revisions:
+    current: 264a8c
+    tree:
+      264a8c:
+        object:
+          id: 269
+          language_code: deu
+          notes:
+            - >-
+              Valid-time life span is the period during which an object exists
+              in the modelled reality.  Transaction-time life span is the period
+              during which a database object is current in the database.
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19108:2002'
+            link: 'https://www.iso.org/standard/26013.html'
+          date_accepted: 2002-09-01T00:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: Lebenszeitintervall
+              normative_status: preferred
+        parents: []
+        timeCreated: 2002-09-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 jpn:
   id: 269
   definition: 物が存在し続けている期間。

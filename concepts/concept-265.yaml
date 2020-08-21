@@ -115,6 +115,32 @@ zho:
     - type: expression
       designation: 连接点
       normative_status: preferred
+  _revisions:
+    current: e28385
+    tree:
+      e28385:
+        object:
+          id: 265
+          definition: 网络中的单一拓扑结点以及与之相关联的转向、入口路段和出口路段的连接集合。
+          language_code: zho
+          notes:
+            - 连接点是结点的别名。
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19133:2005'
+            link: 'https://www.iso.org/standard/32551.html'
+          date_accepted: 2005-10-15T00:00:00.000Z
+          terms:
+            - type: expression
+              designation: 连接点
+              normative_status: preferred
+        parents: []
+        timeCreated: 2005-10-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 fin:
   id: 265
   definition: >-
@@ -226,6 +252,32 @@ deu:
     - type: expression
       designation: Knotenpunkt
       normative_status: preferred
+  _revisions:
+    current: 0f0c57
+    tree:
+      0f0c57:
+        object:
+          id: 265
+          language_code: deu
+          notes:
+            - Junction is an alias for node.
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19133:2005'
+            link: 'https://www.iso.org/standard/32551.html'
+          date_accepted: 2005-10-15T00:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: Knotenpunkt
+              normative_status: preferred
+        parents: []
+        timeCreated: 2005-10-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 265
   definition: 진입 및 진출 링크와 회전의 관련 모음으로 구성된 네트워크상의 단일 위상 절점

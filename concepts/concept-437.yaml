@@ -184,6 +184,44 @@ zho:
     - type: expression
       designation: 曲面
       normative_status: preferred
+  _revisions:
+    current: 05bda4
+    tree:
+      05bda4:
+        object:
+          id: 437
+          definition: 二维几何单形，局部表示某平面的一个区域的连续映像。
+          language_code: zho
+          notes:
+            - >-
+              曲面的边界是定义曲面界限的有向、闭合曲线的集合。与一个球面或n-圆环面（具有n个把柄的拓扑球面）同构的曲面没有边界，这样的曲面被称之为圈。
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19136-1:2020'
+            clause: '(E), 3.1.57'
+            link: 'https://www.iso.org/standard/75676.html'
+          lineage_source: 'ISO 19107:2003'
+          date_accepted: 2003-05-01T00:00:00.000Z
+          review_date: 2018-06-08T00:00:00.000Z
+          review_status: final
+          review_decision: accepted
+          review_decision_date: 2020-01-09T00:00:00.000Z
+          review_decision_event: 'Supersession of ISO 19107:2003 and publication of ISO 19136-1:2020'
+          review_decision_notes: >-
+            Authoritative reference changed from ISO 19107:2003 to ISO
+            19136-1:2020(E), 3.1.57. Lineage source added as ISO 19107:2003
+          release: '1'
+          terms:
+            - type: expression
+              designation: 曲面
+              normative_status: preferred
+        parents: []
+        timeCreated: 2003-05-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 fin:
   id: 437
   definition: 'kaksiulotteinen geometrinen primitiivi, joka kuvaa yhtenäistä aluetta'
@@ -361,6 +399,50 @@ deu:
     - type: expression
       designation: Fläche
       normative_status: preferred
+  _revisions:
+    current: e65c1d
+    tree:
+      e65c1d:
+        object:
+          id: 437
+          definition: >-
+            zweidimensionales geometrisches Primitiv, das das kontinuierliche
+            Abbild eines Teils der Ebene darstellt
+          language_code: deu
+          notes:
+            - >-
+              The boundary of a surface is the set of oriented, closed curves
+              that delineate the limits of the surface. Surfaces that are
+              isomorphic to a sphere, or to an n-torus (a topological sphere
+              with n "handles") have no boundary. Such surfaces are called
+              cycles.
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19136-1:2020'
+            clause: '(E), 3.1.57'
+            link: 'https://www.iso.org/standard/75676.html'
+          lineage_source: 'ISO 19107:2003'
+          date_accepted: 2003-05-01T00:00:00.000Z
+          review_date: 2018-06-08T00:00:00.000Z
+          review_status: final
+          review_decision: accepted
+          review_decision_date: 2020-01-09T00:00:00.000Z
+          review_decision_event: 'Supersession of ISO 19107:2003 and publication of ISO 19136-1:2020'
+          review_decision_notes: >-
+            Authoritative reference changed from ISO 19107:2003 to ISO
+            19136-1:2020(E), 3.1.57. Lineage source added as ISO 19107:2003
+          release: '1'
+          terms:
+            - type: expression
+              designation: Fläche
+              normative_status: preferred
+        parents: []
+        timeCreated: 2003-05-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 jpn:
   id: 437
   definition: 局所的に平面領域の連続な像を表す二次元の幾何プリミティブ。

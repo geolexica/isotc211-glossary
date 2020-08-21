@@ -124,6 +124,33 @@ zho:
     - type: expression
       designation: 矢量
       normative_status: preferred
+  _revisions:
+    current: c160ab
+    tree:
+      c160ab:
+        object:
+          id: 491
+          definition: 有方向且有大小的量。
+          language_code: zho
+          notes:
+            - >-
+              如果一条线段的长度和方向等价于一个矢量的大小和方向，则该有向线段可以表示该矢量。术语矢量数据是指把表达要素空间结构的数据看作一个有向线段的集合。
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19123:2005'
+            link: 'https://www.iso.org/standard/40121.html'
+          date_accepted: 2005-08-15T00:00:00.000Z
+          terms:
+            - type: expression
+              designation: 矢量
+              normative_status: preferred
+        parents: []
+        timeCreated: 2005-08-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 fin:
   id: 491
   definition: 'suure, jolla on suunta ja suuruus'
@@ -239,6 +266,37 @@ deu:
     - type: expression
       designation: Vektor
       normative_status: preferred
+  _revisions:
+    current: d650c2
+    tree:
+      d650c2:
+        object:
+          id: 491
+          language_code: deu
+          notes:
+            - >-
+              A directed line segment represents a vector if the length and
+              direction of the line segment are equal to the magnitude and
+              direction of the vector.  The term vector data refers to data that
+              represents the spatial configuration of features as a set of
+              directed line segments.
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19123:2005'
+            link: 'https://www.iso.org/standard/40121.html'
+          date_accepted: 2005-08-15T00:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: Vektor
+              normative_status: preferred
+        parents: []
+        timeCreated: 2005-08-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 491
   definition: 크기와 방향을 함께 갖는 양

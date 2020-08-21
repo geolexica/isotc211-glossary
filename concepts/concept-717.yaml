@@ -140,6 +140,37 @@ deu:
     - type: expression
       designation: Basisdarstellung <moving  features>
       normative_status: preferred
+  _revisions:
+    current: 482f8a
+    tree:
+      482f8a:
+        object:
+          id: 717
+          language_code: deu
+          notes:
+            - >-
+              A rigid geometric object may undergo translation or rotation, but
+              remains congruent with its base representation.
+            - >-
+              The local origin and ordinate vectors establish an engineering
+              coordinate reference system (ISO 19111), also called a local frame
+              or a local Euclidean coordinate system.
+          examples: []
+          entry_status: valid
+          authoritative_source:
+            ref: 'ISO 19141:2008'
+            link: 'https://www.iso.org/standard/41445.html'
+          date_accepted: 2008-06-01T00:00:00.000Z
+          release: '2'
+          terms:
+            - type: expression
+              designation: Basisdarstellung <moving  features>
+              normative_status: preferred
+        parents: []
+        timeCreated: 2008-06-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 717
   definition: 특정 기준시간에 기하 객체의 지역 원점과 지역 종좌표 벡터를 이용한 표현

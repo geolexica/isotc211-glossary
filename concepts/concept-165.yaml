@@ -179,6 +179,44 @@ zho:
     - type: expression
       designation: 面
       normative_status: preferred
+  _revisions:
+    current: 90255c
+    tree:
+      90255c:
+        object:
+          id: 165
+          definition: 二维拓扑单形。
+          language_code: zho
+          notes:
+            - 面的几何实现是曲面。面的边界是在该拓扑复形内通过边界关系关联到该面的有向边的集合。这些有向边的集合可以组织成若干环。
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19107:2019'
+            clause: '(E), 3.38'
+            link: 'https://www.iso.org/standard/66175.html'
+          lineage_source: 'ISO 19107:2003(E)'
+          lineage_source_similarity: 1
+          date_accepted: 2003-05-01T00:00:00.000Z
+          review_date: 2019-12-02T00:00:00.000Z
+          review_status: final
+          review_decision: accepted
+          review_decision_date: 2019-12-02T00:00:00.000Z
+          review_decision_event: 'Publication of ISO 19107:2019(E)'
+          review_decision_notes: >-
+            Authoritative reference changed from ISO 19107:2003 to ISO
+            19107:2019(E), 3.38. Lineage source added as ISO 19107:2003(E)
+          release: '1'
+          terms:
+            - type: expression
+              designation: 面
+              normative_status: preferred
+        parents: []
+        timeCreated: 2003-05-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 dan:
   id: 165
   definition: 2-dimensional topologisk grundform
@@ -425,6 +463,48 @@ deu:
     - type: expression
       designation: Masche
       normative_status: preferred
+  _revisions:
+    current: 195cc1
+    tree:
+      195cc1:
+        object:
+          id: 165
+          definition: zweidimensionales topologisches Primitiv
+          language_code: deu
+          notes:
+            - >-
+              The geometric realization of a face is a surface. The boundary of
+              a face is the set of directed edges within the same topological
+              complex that are associated to the face via the boundary
+              relations. These can be organized as rings.
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19107:2019'
+            clause: '(E), 3.38'
+            link: 'https://www.iso.org/standard/66175.html'
+          lineage_source: 'ISO 19107:2003(E)'
+          lineage_source_similarity: 1
+          date_accepted: 2003-05-01T00:00:00.000Z
+          review_date: 2019-12-02T00:00:00.000Z
+          review_status: final
+          review_decision: accepted
+          review_decision_date: 2019-12-02T00:00:00.000Z
+          review_decision_event: 'Publication of ISO 19107:2019(E)'
+          review_decision_notes: >-
+            Authoritative reference changed from ISO 19107:2003 to ISO
+            19107:2019(E), 3.38. Lineage source added as ISO 19107:2003(E)
+          release: '1'
+          terms:
+            - type: expression
+              designation: Masche
+              normative_status: preferred
+        parents: []
+        timeCreated: 2003-05-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 jpn:
   id: 165
   definition: 二次元の位相プリミティブ。

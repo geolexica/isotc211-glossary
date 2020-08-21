@@ -171,6 +171,44 @@ zho:
     - type: expression
       designation: 东移
       normative_status: preferred
+  _revisions:
+    current: b9c53f
+    tree:
+      b9c53f:
+        object:
+          id: 145
+          abbrev: E
+          definition: 在一个坐标系中，从一条南北向参照线向东偏移（正）或向西偏移（负）的距离。
+          language_code: zho
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19111:2019'
+            clause: '(E), 3.1.21'
+            link: 'https://www.iso.org/standard/74039.html'
+          lineage_source: 'ISO 19111:2003'
+          lineage_source_similarity: 1
+          date_accepted: 2003-02-15T00:00:00.000Z
+          review_date: 2019-01-31T00:00:00.000Z
+          review_status: final
+          review_decision: accepted
+          review_decision_date: 2019-01-31T00:00:00.000Z
+          review_decision_event: 'Publication of ISO 19111:2019(E)'
+          review_decision_notes: >-
+            Authoritative reference changed from ISO 19111:2007 to ISO
+            19111:2019(E), 3.1.21. Lineage source added as ISO 19111:2003
+          release: '1'
+          terms:
+            - type: expression
+              designation: 东移
+              normative_status: preferred
+        parents: []
+        timeCreated: 2003-02-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 dan:
   id: 145
   abbrev: E
@@ -243,7 +281,6 @@ dan:
 nld:
   id: 145
   abbrev: E
-  synonyms: easting
   definition: >-
     afstand in een coördinaatsysteem, oostwaarts (positief) of westwaarts
     (negatief) vanaf een noord-zuid georiënteerde referentielijn
@@ -273,6 +310,52 @@ nld:
     - type: expression
       designation: Oost
       normative_status: preferred
+    - designation: easting
+      type: expression
+  _revisions:
+    current: da6f06
+    tree:
+      da6f06:
+        object:
+          id: 145
+          abbrev: E
+          definition: >-
+            afstand in een coördinaatsysteem, oostwaarts (positief) of
+            westwaarts (negatief) vanaf een noord-zuid georiënteerde
+            referentielijn
+          language_code: nld
+          notes:
+            - 'Soms wordt ook de afkorting vertaald: O'
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19111:2019'
+            clause: '(E), 3.1.21'
+            link: 'https://www.iso.org/standard/74039.html'
+          lineage_source: 'ISO 19111:2003'
+          lineage_source_similarity: 1
+          date_accepted: 2003-02-15T00:00:00.000Z
+          review_date: 2019-01-31T00:00:00.000Z
+          review_status: final
+          review_decision: accepted
+          review_decision_date: 2019-01-31T00:00:00.000Z
+          review_decision_event: 'Publication of ISO 19111:2019(E)'
+          review_decision_notes: >-
+            Authoritative reference changed from ISO 19111:2007 to ISO
+            19111:2019(E), 3.1.21. Lineage source added as ISO 19111:2003
+          release: '1'
+          terms:
+            - type: expression
+              designation: Oost
+              normative_status: preferred
+            - designation: easting
+              type: expression
+        parents: []
+        timeCreated: 2003-02-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 fin:
   id: 145
   abbrev: E
@@ -444,6 +527,46 @@ deu:
     - type: expression
       designation: 'Rechtswert (Syn.: Easting)'
       normative_status: preferred
+  _revisions:
+    current: 00ff21
+    tree:
+      00ff21:
+        object:
+          id: 145
+          abbrev: E
+          definition: >-
+            Abstand in einem Koordinatensystem, ostwärts (positiv) oder
+            westwärts (negativ) von einer Nord-Süd-Bezugslinie
+          language_code: deu
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19111:2019'
+            clause: '(E), 3.1.21'
+            link: 'https://www.iso.org/standard/74039.html'
+          lineage_source: 'ISO 19111:2003'
+          lineage_source_similarity: 1
+          date_accepted: 2003-02-15T00:00:00.000Z
+          review_date: 2019-01-31T00:00:00.000Z
+          review_status: final
+          review_decision: accepted
+          review_decision_date: 2019-01-31T00:00:00.000Z
+          review_decision_event: 'Publication of ISO 19111:2019(E)'
+          review_decision_notes: >-
+            Authoritative reference changed from ISO 19111:2007 to ISO
+            19111:2019(E), 3.1.21. Lineage source added as ISO 19111:2003
+          release: '1'
+          terms:
+            - type: expression
+              designation: 'Rechtswert (Syn.: Easting)'
+              normative_status: preferred
+        parents: []
+        timeCreated: 2003-02-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 145
   abbrev: E

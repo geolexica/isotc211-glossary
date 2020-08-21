@@ -162,6 +162,41 @@ zho:
     - type: expression
       designation: 量测单位
       normative_status: preferred
+  _revisions:
+    current: a7b225
+    tree:
+      a7b225:
+        object:
+          id: 483
+          definition: 选自一个等价组单位的参照量。
+          language_code: zho
+          notes:
+            - >-
+              在定位服务中，通常的量测单位是角度单位和长度单位。定位服务的实现必须清楚地区分SI单位和非SI单位。当使用非SI单位时，必须说明它与SI单位的关系。
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          lineage_source: 'ISO 19116:2004(E)'
+          lineage_source_similarity: 1
+          date_accepted: 2004-07-01T00:00:00.000Z
+          review_date: 2019-12-02T00:00:00.000Z
+          review_status: final
+          review_decision: accepted
+          review_decision_date: 2019-12-02T00:00:00.000Z
+          review_decision_event: 'Publication of ISO 19116:2019(E)'
+          review_decision_notes: >-
+            Authoritative reference changed from ISO 31-0:1992, 2.1 (Adapted
+            from) to . Lineage source added as ISO 19116:2004(E)
+          release: '1'
+          terms:
+            - type: expression
+              designation: 量测单位
+              normative_status: preferred
+        parents: []
+        timeCreated: 2004-07-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 fin:
   id: 483
   definition: 'vertaussuure, joka on valittu yksiköiden vastaavuusryhmästä'

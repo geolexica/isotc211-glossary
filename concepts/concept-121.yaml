@@ -175,6 +175,46 @@ zho:
     - type: expression
       designation: 数据质量值单位
       normative_status: null
+  _revisions:
+    current: f039de
+    tree:
+      f039de:
+        object:
+          id: 121
+          definition: 记录数据质量结果的值的单位。
+          language_code: zho
+          notes:
+            - 仅当数据质量评价结果可应用时，才提供数据质量值单位。
+          examples:
+            - “米”。
+          entry_status: retired
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19113:2002'
+            clause: '4.13'
+            link: 'https://www.iso.org/standard/26018.html'
+          lineage_source: ''
+          date_accepted: 2002-12-01T00:00:00.000Z
+          date_amended: 2013-12-15T00:00:00.000Z
+          review_date: 2013-12-15T00:00:00.000Z
+          review_status: final
+          review_type: retirement
+          review_decision: accepted
+          review_decision_date: 2013-12-15T00:00:00.000Z
+          review_decision_event: 'Publication of ISO 19157:2013'
+          review_decision_notes: >-
+            The entry has been omitted from the superseding standard  (ISO
+            19157:2013).
+          release: '-1'
+          terms:
+            - type: expression
+              designation: 数据质量值单位
+              normative_status: null
+        parents: []
+        timeCreated: 2002-12-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 dan:
   id: 121
   definition: værdienhed til rapportering af et datakvalitetsresultat
@@ -416,6 +456,47 @@ deu:
     - type: expression
       designation: Einheit der Datenqualitätsangabe
       normative_status: null
+  _revisions:
+    current: 7a47a1
+    tree:
+      7a47a1:
+        object:
+          id: 121
+          language_code: deu
+          notes:
+            - >-
+              A data quality value unit is provided only when applicable for a
+              data quality result.
+          examples:
+            - '"metre"'
+          entry_status: retired
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19113:2002'
+            clause: '4.13'
+            link: 'https://www.iso.org/standard/26018.html'
+          lineage_source: ''
+          date_accepted: 2002-12-01T00:00:00.000Z
+          date_amended: 2013-12-15T00:00:00.000Z
+          review_date: 2013-12-15T00:00:00.000Z
+          review_status: final
+          review_type: retirement
+          review_decision: accepted
+          review_decision_date: 2013-12-15T00:00:00.000Z
+          review_decision_event: 'Publication of ISO 19157:2013'
+          review_decision_notes: >-
+            The entry has been omitted from the superseding standard  (ISO
+            19157:2013).
+          release: '-1'
+          terms:
+            - type: expression
+              designation: Einheit der Datenqualitätsangabe
+              normative_status: null
+        parents: []
+        timeCreated: 2002-12-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 jpn:
   id: 121
   definition: データ品質評価結果を報告するための値の単位。

@@ -113,6 +113,32 @@ zho:
     - type: expression
       designation: 有向路段
       normative_status: preferred
+  _revisions:
+    current: d07015
+    tree:
+      d07015:
+        object:
+          id: 274
+          definition: 两个结点（连接点）之间有向的拓扑连接，由一条边和一个方向组成。
+          language_code: zho
+          notes:
+            - 有向路段是有向边的别名。
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19133:2005'
+            link: 'https://www.iso.org/standard/32551.html'
+          date_accepted: 2005-10-15T00:00:00.000Z
+          terms:
+            - type: expression
+              designation: 有向路段
+              normative_status: preferred
+        parents: []
+        timeCreated: 2005-10-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 fin:
   id: 274
   definition: >-
@@ -224,6 +250,32 @@ deu:
     - type: expression
       designation: Link
       normative_status: preferred
+  _revisions:
+    current: d5a428
+    tree:
+      d5a428:
+        object:
+          id: 274
+          language_code: deu
+          notes:
+            - Link is an alias for directed edge.
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19133:2005'
+            link: 'https://www.iso.org/standard/32551.html'
+          date_accepted: 2005-10-15T00:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: Link
+              normative_status: preferred
+        parents: []
+        timeCreated: 2005-10-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 274
   definition: '변과 방향으로 구성되어 있는, 두 절점(교차점) 간의 방향성 있는 위상적 연결'

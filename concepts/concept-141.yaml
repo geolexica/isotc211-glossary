@@ -125,6 +125,32 @@ zho:
     - type: expression
       designation: 离散覆盖
       normative_status: preferred
+  _revisions:
+    current: fc693d
+    tree:
+      fc693d:
+        object:
+          id: 141
+          definition: 在一个数据覆盖域中，任何一个空间对象、时间对象或时空对象的不同直接位置都返回相同要素属性值。
+          language_code: zho
+          notes:
+            - 离散数据覆盖域由空间对象、时间对象、时空对象的有限集组成。
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19123:2005'
+            link: 'https://www.iso.org/standard/40121.html'
+          date_accepted: 2005-08-15T00:00:00.000Z
+          terms:
+            - type: expression
+              designation: 离散覆盖
+              normative_status: preferred
+        parents: []
+        timeCreated: 2005-08-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 dan:
   id: 141
   definition: >-
@@ -298,6 +324,34 @@ deu:
     - type: expression
       designation: unstetiges Coverage
       normative_status: preferred
+  _revisions:
+    current: ed74ba
+    tree:
+      ed74ba:
+        object:
+          id: 141
+          language_code: deu
+          notes:
+            - >-
+              The domain of a discrete coverage consists of a finite set of
+              spatial, temporal, or spatiotemporal objects.
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19123:2005'
+            link: 'https://www.iso.org/standard/40121.html'
+          date_accepted: 2005-08-15T00:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: unstetiges Coverage
+              normative_status: preferred
+        parents: []
+        timeCreated: 2005-08-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 141
   definition: '동일한 피처(공간 객체, 시간 객체, 시공간 객체) 속성(B.175)의 값이 영역 내 모든 직접 위치에서 동일한 값을 갖는 커버리지'

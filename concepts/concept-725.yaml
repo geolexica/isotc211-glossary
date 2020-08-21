@@ -200,6 +200,46 @@ zho:
     - type: expression
       designation: 组合<UML>
       normative_status: null
+  _revisions:
+    current: e4b23e
+    tree:
+      e4b23e:
+        object:
+          id: 725
+          definition: 一种聚合形式，要求其组成成分的实例最多在聚合中出现一次。组合对象负责其组成成分的构造和析构。
+          language_code: zho
+          notes:
+            - >-
+              组合本身可以创建多重性的组成成分，但是一旦创建后，其组成成分随其存在和消失（也就是，他们共享生存期）。这样的组成成分在该聚合消失前，还可以显式地移走。聚合可以是递归的。同义词：聚合聚集。
+          examples: []
+          entry_status: superseded
+          review_indicator: ''
+          authoritative_source:
+            ref: ISO/IEC 19501
+            link: 'https://www.iso.org/standard/32620.html'
+          lineage_source: 'ISO/TS 19103:2005 ,4.2.10'
+          lineage_source_similarity: 1
+          date_accepted: 2005-07-15T00:00:00.000Z
+          date_amended: 2015-07-01T00:00:00.000Z
+          review_date: 2009-01-14T00:00:00.000Z
+          review_status: final
+          review_type: supersession
+          review_decision: accepted
+          review_decision_date: 2015-12-01T00:00:00.000Z
+          review_decision_event: 'Publication of ISO 19103:2015'
+          review_decision_notes: >-
+            The entry has been superseded. An entry with a revised definition
+            has been published in ISO 19103:2015
+          release: '-1'
+          terms:
+            - type: expression
+              designation: 组合<UML>
+              normative_status: null
+        parents: []
+        timeCreated: 2005-07-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 dan:
   id: 725
   definition: >-
@@ -484,6 +524,49 @@ deu:
     - type: expression
       designation: Komposition <UML>
       normative_status: null
+  _revisions:
+    current: 26379a
+    tree:
+      26379a:
+        object:
+          id: 725
+          language_code: deu
+          notes:
+            - >-
+              Parts with non-fixed multiplicity may be created after the
+              composite itself, but once created they live and die with it
+              (i.e., they share lifetimes). Such parts can also be explicitly
+              removed before the death of the composite. Composition may be
+              recursive. Synonym: composite aggregation.
+          examples: []
+          entry_status: superseded
+          review_indicator: ''
+          authoritative_source:
+            ref: ISO/IEC 19501
+            link: 'https://www.iso.org/standard/32620.html'
+          lineage_source: 'ISO/TS 19103:2005 ,4.2.10'
+          lineage_source_similarity: 1
+          date_accepted: 2005-07-15T00:00:00.000Z
+          date_amended: 2015-07-01T00:00:00.000Z
+          review_date: 2009-01-14T00:00:00.000Z
+          review_status: final
+          review_type: supersession
+          review_decision: accepted
+          review_decision_date: 2015-12-01T00:00:00.000Z
+          review_decision_event: 'Publication of ISO 19103:2015'
+          review_decision_notes: >-
+            The entry has been superseded. An entry with a revised definition
+            has been published in ISO 19103:2015
+          release: '-1'
+          terms:
+            - type: expression
+              designation: Komposition <UML>
+              normative_status: null
+        parents: []
+        timeCreated: 2005-07-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 725
   definition: '부분 인스턴스는 동시에 하나의 합성에 포함되며, 합성 객체가 부분들의 생성, 제거에 대한 책임을 갖는 집합 연관의 형태'

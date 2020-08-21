@@ -174,6 +174,44 @@ zho:
     - type: expression
       designation: 边
       normative_status: preferred
+  _revisions:
+    current: 8b70ad
+    tree:
+      8b70ad:
+        object:
+          id: 146
+          definition: 一维拓扑单形。
+          language_code: zho
+          notes:
+            - 边的几何实现是曲线。边的边界是拓扑复形中关联到该边的一个或两个结点的集合。
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19107:2019'
+            clause: '(E), 3.29'
+            link: 'https://www.iso.org/standard/66175.html'
+          lineage_source: 'ISO 19107:2003(E)'
+          lineage_source_similarity: 1
+          date_accepted: 2003-05-01T00:00:00.000Z
+          review_date: 2019-12-02T00:00:00.000Z
+          review_status: final
+          review_decision: accepted
+          review_decision_date: 2019-12-02T00:00:00.000Z
+          review_decision_event: 'Publication of ISO 19107:2019(E)'
+          review_decision_notes: >-
+            Authoritative reference changed from ISO 19107:2003 to ISO
+            19107:2019(E), 3.29. Lineage source added as ISO 19107:2003(E)
+          release: '1'
+          terms:
+            - type: expression
+              designation: 边
+              normative_status: preferred
+        parents: []
+        timeCreated: 2003-05-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 dan:
   id: 146
   definition: 1-dimensional topologisk grundform
@@ -419,6 +457,47 @@ deu:
     - type: expression
       designation: Kante
       normative_status: preferred
+  _revisions:
+    current: d36bee
+    tree:
+      d36bee:
+        object:
+          id: 146
+          definition: eindimensionales Primitiv
+          language_code: deu
+          notes:
+            - >-
+              The geometric realization of an edge is a curve. The boundary of
+              an edge is the set of one or two nodes associated to the edge
+              within a topological complex.
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19107:2019'
+            clause: '(E), 3.29'
+            link: 'https://www.iso.org/standard/66175.html'
+          lineage_source: 'ISO 19107:2003(E)'
+          lineage_source_similarity: 1
+          date_accepted: 2003-05-01T00:00:00.000Z
+          review_date: 2019-12-02T00:00:00.000Z
+          review_status: final
+          review_decision: accepted
+          review_decision_date: 2019-12-02T00:00:00.000Z
+          review_decision_event: 'Publication of ISO 19107:2019(E)'
+          review_decision_notes: >-
+            Authoritative reference changed from ISO 19107:2003 to ISO
+            19107:2019(E), 3.29. Lineage source added as ISO 19107:2003(E)
+          release: '1'
+          terms:
+            - type: expression
+              designation: Kante
+              normative_status: preferred
+        parents: []
+        timeCreated: 2003-05-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 jpn:
   id: 146
   definition: 一次元の位相プリミティブ。

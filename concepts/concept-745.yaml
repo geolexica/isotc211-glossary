@@ -110,7 +110,6 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 745
-  synonyms: traveller
   definition: 被导航或跟踪的对象。
   language_code: zho
   notes:
@@ -126,6 +125,36 @@ zho:
     - type: expression
       designation: 车辆
       normative_status: preferred
+    - designation: traveller
+      type: expression
+  _revisions:
+    current: 96f6d8
+    tree:
+      96f6d8:
+        object:
+          id: 745
+          definition: 被导航或跟踪的对象。
+          language_code: zho
+          notes:
+            - 包括行人。参见ISO 14825.在该国际标准中，车辆可被出行者代替而不改变含义。
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19133:2005'
+            link: 'https://www.iso.org/standard/32551.html'
+          date_accepted: 2005-10-15T00:00:00.000Z
+          terms:
+            - type: expression
+              designation: 车辆
+              normative_status: preferred
+            - designation: traveller
+              type: expression
+        parents: []
+        timeCreated: 2005-10-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 fin:
   id: 745
   definition: navigoinnin tai seurannan kohteena oleva objekti
@@ -231,7 +260,6 @@ fra:
           email: glossarist@ribose.com
 deu:
   id: 745
-  synonyms: traveller
   language_code: deu
   notes:
     - >-
@@ -249,6 +277,39 @@ deu:
     - type: expression
       designation: zu navigierendes Fahrzeug
       normative_status: preferred
+    - designation: traveller
+      type: expression
+  _revisions:
+    current: 025cd9
+    tree:
+      025cd9:
+        object:
+          id: 745
+          language_code: deu
+          notes:
+            - >-
+              Includes pedestrians. See ISO 14825. In this International
+              Standard, vehicle can be replaced by traveller without any change
+              of intent.
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19133:2005'
+            link: 'https://www.iso.org/standard/32551.html'
+          date_accepted: 2005-10-15T00:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: zu navigierendes Fahrzeug
+              normative_status: preferred
+            - designation: traveller
+              type: expression
+        parents: []
+        timeCreated: 2005-10-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 745
   definition: 내비게이션 또는 추적될 수 있는 객체(여행자와 비교)

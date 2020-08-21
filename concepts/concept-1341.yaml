@@ -119,6 +119,36 @@ deu:
     - type: expression
       designation: räumlich getrennte Ressource
       normative_status: preferred
+  _revisions:
+    current: 3f5153
+    tree:
+      3f5153:
+        object:
+          id: 1341
+          definition: 'Ressource, die nicht direkt von einem System verwaltet wird'
+          language_code: deu
+          notes:
+            - >-
+              In this International Standard, the system is a web feature
+              service. The resource is not held in any data store that is
+              directly controlled by that service and thus cannot be directly
+              retreived by the service.
+          examples: []
+          entry_status: valid
+          authoritative_source:
+            ref: 'ISO 19142:2010'
+            link: 'https://www.iso.org/standard/42136.html'
+          date_accepted: 2010-12-15T00:00:00.000Z
+          release: '2'
+          terms:
+            - type: expression
+              designation: räumlich getrennte Ressource
+              normative_status: preferred
+        parents: []
+        timeCreated: 2010-12-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 1341
   definition: 시스템의 직접적인 통제하에 있지 않은 자원

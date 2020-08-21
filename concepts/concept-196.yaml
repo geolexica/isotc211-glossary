@@ -150,7 +150,6 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 196
-  synonyms: ellipsoidal coordinate system
   definition: '某点位置由大地纬度,大地经度和(三维情况)椭球高来确定的坐标系。'
   language_code: zho
   notes: []
@@ -177,6 +176,47 @@ zho:
     - type: expression
       designation: 大地坐标系
       normative_status: admitted
+    - designation: ellipsoidal coordinate system
+      type: expression
+  _revisions:
+    current: 162ddd
+    tree:
+      162ddd:
+        object:
+          id: 196
+          definition: '某点位置由大地纬度,大地经度和(三维情况)椭球高来确定的坐标系。'
+          language_code: zho
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19111:2019'
+            clause: '(E), 3.1.23'
+            link: 'https://www.iso.org/standard/74039.html'
+          lineage_source: 'ISO 19111:2003'
+          lineage_source_similarity: 1
+          date_accepted: 2003-02-15T00:00:00.000Z
+          review_date: 2019-01-31T00:00:00.000Z
+          review_status: final
+          review_decision: accepted
+          review_decision_date: 2019-01-31T00:00:00.000Z
+          review_decision_event: 'Publication of ISO 19111:2019(E)'
+          review_decision_notes: >-
+            Authoritative reference changed from ISO 19111:2007 to ISO
+            19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
+          release: '1'
+          terms:
+            - type: expression
+              designation: 大地坐标系
+              normative_status: admitted
+            - designation: ellipsoidal coordinate system
+              type: expression
+        parents: []
+        timeCreated: 2003-02-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 dan:
   id: 196
   definition: >-
@@ -246,7 +286,6 @@ dan:
           email: glossarist@ribose.com
 nld:
   id: 196
-  synonyms: ellipsoidal coordinate system
   definition: >-
     coördinaatsysteem waarbij de positie wordt bepaald door geodetische lengte,
     geodetische breedte en (in het driedimensionale geval) ellipsoïde hoogte
@@ -275,6 +314,50 @@ nld:
     - type: expression
       designation: geodetisch coördinaatsysteem
       normative_status: admitted
+    - designation: ellipsoidal coordinate system
+      type: expression
+  _revisions:
+    current: '336585'
+    tree:
+      '336585':
+        object:
+          id: 196
+          definition: >-
+            coördinaatsysteem waarbij de positie wordt bepaald door geodetische
+            lengte, geodetische breedte en (in het driedimensionale geval)
+            ellipsoïde hoogte
+          language_code: nld
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19111:2019'
+            clause: '(E), 3.1.23'
+            link: 'https://www.iso.org/standard/74039.html'
+          lineage_source: 'ISO 19111:2003'
+          lineage_source_similarity: 1
+          date_accepted: 2003-02-15T00:00:00.000Z
+          review_date: 2019-01-31T00:00:00.000Z
+          review_status: final
+          review_decision: accepted
+          review_decision_date: 2019-01-31T00:00:00.000Z
+          review_decision_event: 'Publication of ISO 19111:2019(E)'
+          review_decision_notes: >-
+            Authoritative reference changed from ISO 19111:2007 to ISO
+            19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
+          release: '1'
+          terms:
+            - type: expression
+              designation: geodetisch coördinaatsysteem
+              normative_status: admitted
+            - designation: ellipsoidal coordinate system
+              type: expression
+        parents: []
+        timeCreated: 2003-02-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 fin:
   id: 196
   definition: >-
@@ -427,7 +510,6 @@ fra:
           email: glossarist@ribose.com
 deu:
   id: 196
-  synonyms: ellipsoidal coordinate system
   language_code: deu
   notes: []
   examples: []
@@ -453,6 +535,46 @@ deu:
     - type: expression
       designation: geodätisches Koordinatensystem
       normative_status: admitted
+    - designation: ellipsoidal coordinate system
+      type: expression
+  _revisions:
+    current: 1bcdfb
+    tree:
+      1bcdfb:
+        object:
+          id: 196
+          language_code: deu
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19111:2019'
+            clause: '(E), 3.1.23'
+            link: 'https://www.iso.org/standard/74039.html'
+          lineage_source: 'ISO 19111:2003'
+          lineage_source_similarity: 1
+          date_accepted: 2003-02-15T00:00:00.000Z
+          review_date: 2019-01-31T00:00:00.000Z
+          review_status: final
+          review_decision: accepted
+          review_decision_date: 2019-01-31T00:00:00.000Z
+          review_decision_event: 'Publication of ISO 19111:2019(E)'
+          review_decision_notes: >-
+            Authoritative reference changed from ISO 19111:2007 to ISO
+            19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
+          release: '1'
+          terms:
+            - type: expression
+              designation: geodätisches Koordinatensystem
+              normative_status: admitted
+            - designation: ellipsoidal coordinate system
+              type: expression
+        parents: []
+        timeCreated: 2003-02-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 196
   definition: 측지 위도 및 측지 경도(3차원의 경우는 타원체고)에 의해서 위치를 기술하는 좌표 체계

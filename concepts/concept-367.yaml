@@ -124,6 +124,32 @@ zho:
     - type: expression
       designation: 校正格网
       normative_status: preferred
+  _revisions:
+    current: 724d7a
+    tree:
+      724d7a:
+        object:
+          id: 367
+          definition: 格网坐标和外部坐标参照系坐标之间存在仿射变换的格网。
+          language_code: zho
+          notes:
+            - 如果某个坐标参照系通过基准与地球相关，该格网就是地理校正格网。
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19123:2005'
+            link: 'https://www.iso.org/standard/40121.html'
+          date_accepted: 2005-08-15T00:00:00.000Z
+          terms:
+            - type: expression
+              designation: 校正格网
+              normative_status: preferred
+        parents: []
+        timeCreated: 2005-08-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 fin:
   id: 367
   definition: >-
@@ -246,6 +272,38 @@ deu:
     - type: expression
       designation: entzerrtes Gitter
       normative_status: preferred
+  _revisions:
+    current: '132472'
+    tree:
+      '132472':
+        object:
+          id: 367
+          definition: >-
+            Gitter, für das es eine Affintransformation zwischen den
+            Gitterkoordinaten und den Koordinaten eines externen
+            Koordinatensystems gibt
+          language_code: deu
+          notes:
+            - >-
+              If the coordinate reference system is related to the earth by a
+              datum, the grid is a georectified grid.
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19123:2005'
+            link: 'https://www.iso.org/standard/40121.html'
+          date_accepted: 2005-08-15T00:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: entzerrtes Gitter
+              normative_status: preferred
+        parents: []
+        timeCreated: 2005-08-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 367
   definition: 격자 좌표와 외부 좌표 참조 체계의 좌표 간의 어파인 변환을 거친 격자

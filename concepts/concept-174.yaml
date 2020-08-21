@@ -124,6 +124,32 @@ zho:
     - type: expression
       designation: 要素分割
       normative_status: preferred
+  _revisions:
+    current: 4014de
+    tree:
+      4014de:
+        object:
+          id: 174
+          definition: 一个先前存在的要素被两个或多个相同要素类型的不同要素实例取代时的要素更替。
+          language_code: zho
+          notes: []
+          examples:
+            - 要素类型为“地块”的一个实例，在该地块被合法细分后，被更替为两个同类实例。
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19108:2002'
+            link: 'https://www.iso.org/standard/26013.html'
+          date_accepted: 2002-09-01T00:00:00.000Z
+          terms:
+            - type: expression
+              designation: 要素分割
+              normative_status: preferred
+        parents: []
+        timeCreated: 2002-09-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 dan:
   id: 174
   definition: >-
@@ -293,6 +319,34 @@ deu:
     - type: expression
       designation: Feature-Zerlegung
       normative_status: preferred
+  _revisions:
+    current: 83920e
+    tree:
+      83920e:
+        object:
+          id: 174
+          language_code: deu
+          notes: []
+          examples:
+            - >-
+              An instance of the feature type "land parcel" is replaced by two
+              instances of the same type when the parcel is legally subdivided.
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19108:2002'
+            link: 'https://www.iso.org/standard/26013.html'
+          date_accepted: 2002-09-01T00:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: Feature-Zerlegung
+              normative_status: preferred
+        parents: []
+        timeCreated: 2002-09-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 jpn:
   id: 174
   definition: 直前に存在した地物が，同じ型をとる二つ以上の別の地物インスタンスに置き換わる地物継起。

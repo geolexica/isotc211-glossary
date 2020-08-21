@@ -164,6 +164,43 @@ zho:
     - type: expression
       designation: 地理信息
       normative_status: preferred
+  _revisions:
+    current: 2e24dd
+    tree:
+      2e24dd:
+        object:
+          id: 205
+          definition: 与地球上的位置直接或间接相关的现象的信息。
+          language_code: zho
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19101-1:2014'
+            clause: 4.1.18
+            link: 'https://www.iso.org/standard/59164.html'
+          lineage_source: 'ISO 19101:2002'
+          lineage_source_similarity: '1'
+          date_accepted: 2002-07-01T00:00:00.000Z
+          review_date: 2010-10-12T00:00:00.000Z
+          review_status: final
+          review_decision: accepted
+          review_decision_date: 2014-11-01T00:00:00.000Z
+          review_decision_event: 'Publication of ISO 19101-1:2014'
+          review_decision_notes: >-
+            Authoritative reference changed from ISO 19101:2002 to ISO
+            19101-1:2014. Lineage source added as ISO 19101:2002.
+          release: '1'
+          terms:
+            - type: expression
+              designation: 地理信息
+              normative_status: preferred
+        parents: []
+        timeCreated: 2002-07-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 dan:
   id: 205
   definition: >-
@@ -235,7 +272,6 @@ dan:
           email: glossarist@ribose.com
 nld:
   id: 205
-  synonyms: geografische informatie
   definition: >-
     informatie met een directe of indirecte referentie naar een plaats ten
     opzichte van de aarde (bijvoorbeeld ten opzichte van het aardoppervlak)
@@ -264,6 +300,50 @@ nld:
     - type: expression
       designation: geo-informatie
       normative_status: preferred
+    - designation: geografische informatie
+      type: expression
+  _revisions:
+    current: fd12aa
+    tree:
+      fd12aa:
+        object:
+          id: 205
+          definition: >-
+            informatie met een directe of indirecte referentie naar een plaats
+            ten opzichte van de aarde (bijvoorbeeld ten opzichte van het
+            aardoppervlak)
+          language_code: nld
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19101-1:2014'
+            clause: 4.1.18
+            link: 'https://www.iso.org/standard/59164.html'
+          lineage_source: 'ISO 19101:2002'
+          lineage_source_similarity: '1'
+          date_accepted: 2002-07-01T00:00:00.000Z
+          review_date: 2010-10-12T00:00:00.000Z
+          review_status: final
+          review_decision: accepted
+          review_decision_date: 2014-11-01T00:00:00.000Z
+          review_decision_event: 'Publication of ISO 19101-1:2014'
+          review_decision_notes: >-
+            Authoritative reference changed from ISO 19101:2002 to ISO
+            19101-1:2014. Lineage source added as ISO 19101:2002.
+          release: '1'
+          terms:
+            - type: expression
+              designation: geo-informatie
+              normative_status: preferred
+            - designation: geografische informatie
+              type: expression
+        parents: []
+        timeCreated: 2002-07-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 fin:
   id: 205
   definition: 'tieto ilmiöistä, joiden paikka Maan suhteen tunnetaan'
@@ -426,6 +506,43 @@ deu:
     - type: expression
       designation: 'geographische Information (Syn.: Geoinformation)'
       normative_status: preferred
+  _revisions:
+    current: 04aa30
+    tree:
+      04aa30:
+        object:
+          id: 205
+          definition: Informationen über Objekte und Sachverhalte mit einem Bezug zur Erde
+          language_code: deu
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19101-1:2014'
+            clause: 4.1.18
+            link: 'https://www.iso.org/standard/59164.html'
+          lineage_source: 'ISO 19101:2002'
+          lineage_source_similarity: '1'
+          date_accepted: 2002-07-01T00:00:00.000Z
+          review_date: 2010-10-12T00:00:00.000Z
+          review_status: final
+          review_decision: accepted
+          review_decision_date: 2014-11-01T00:00:00.000Z
+          review_decision_event: 'Publication of ISO 19101-1:2014'
+          review_decision_notes: >-
+            Authoritative reference changed from ISO 19101:2002 to ISO
+            19101-1:2014. Lineage source added as ISO 19101:2002.
+          release: '1'
+          terms:
+            - type: expression
+              designation: 'geographische Information (Syn.: Geoinformation)'
+              normative_status: preferred
+        parents: []
+        timeCreated: 2002-07-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 205
   definition: 지구상의 위치와 직접적 또는 간접적으로 관련된 현상에 대한 정보

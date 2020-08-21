@@ -164,7 +164,6 @@ ara:
 zho:
   id: 199
   abbrev: h
-  synonyms: ellipsoidal height
   definition: 沿从椭球面到点的法线方向量测的该点到椭球面的距离，向上或向外为正。
   language_code: zho
   notes:
@@ -191,6 +190,48 @@ zho:
     - type: expression
       designation: 大地高
       normative_status: null
+    - designation: ellipsoidal height
+      type: expression
+  _revisions:
+    current: c176b5
+    tree:
+      c176b5:
+        object:
+          id: 199
+          abbrev: h
+          definition: 沿从椭球面到点的法线方向量测的该点到椭球面的距离，向上或向外为正。
+          language_code: zho
+          notes:
+            - 仅用作三维大地坐标系的一部分，从不单独使用。
+          examples: []
+          entry_status: superseded
+          authoritative_source:
+            ref: 'ISO 19111:2007'
+            link: 'https://www.iso.org/standard/41126.html'
+          lineage_source: 'ISO 19111:2003'
+          date_accepted: 2003-02-15T00:00:00.000Z
+          date_amended: 2019-01-31T00:00:00.000Z
+          review_date: 2019-01-31T00:00:00.000Z
+          review_status: final
+          review_type: supersession
+          review_decision: accepted
+          review_decision_date: 2019-01-31T00:00:00.000Z
+          review_decision_event: 'Publication of document ISO 19111:2019(E)'
+          review_decision_notes: >-
+            This entry is superseded by the entry for geodetic height in ISO
+            19111:2019(E)
+          release: '-1'
+          terms:
+            - type: expression
+              designation: 大地高
+              normative_status: null
+            - designation: ellipsoidal height
+              type: expression
+        parents: []
+        timeCreated: 2003-02-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 dan:
   id: 199
   abbrev: h
@@ -271,7 +312,6 @@ dan:
 nld:
   id: 199
   abbrev: h
-  synonyms: ellipsoïde hoogte
   definition: >-
     afstand van een punt tot de ellipsoïde gemeten langs een lijn loodrecht op
     de ellipsoïde positief indien naar boven of naar de buitenzijde van de
@@ -303,6 +343,53 @@ nld:
     - type: expression
       designation: geodetische hoogte
       normative_status: null
+    - designation: ellipsoïde hoogte
+      type: expression
+  _revisions:
+    current: cd26a5
+    tree:
+      cd26a5:
+        object:
+          id: 199
+          abbrev: h
+          definition: >-
+            afstand van een punt tot de ellipsoïde gemeten langs een lijn
+            loodrecht op de ellipsoïde positief indien naar boven of naar de
+            buitenzijde van de ellipsoïde
+          language_code: nld
+          notes:
+            - >-
+              Wordt alleen gebruikt als deel van een driedimensionaal
+              ellipsoidaal coördinaatsysteem en nooit op zichzelf staand.
+          examples: []
+          entry_status: superseded
+          authoritative_source:
+            ref: 'ISO 19111:2007'
+            link: 'https://www.iso.org/standard/41126.html'
+          lineage_source: 'ISO 19111:2003'
+          date_accepted: 2003-02-15T00:00:00.000Z
+          date_amended: 2019-01-31T00:00:00.000Z
+          review_date: 2019-01-31T00:00:00.000Z
+          review_status: final
+          review_type: supersession
+          review_decision: accepted
+          review_decision_date: 2019-01-31T00:00:00.000Z
+          review_decision_event: 'Publication of document ISO 19111:2019(E)'
+          review_decision_notes: >-
+            This entry is superseded by the entry for geodetic height in ISO
+            19111:2019(E)
+          release: '-1'
+          terms:
+            - type: expression
+              designation: geodetische hoogte
+              normative_status: null
+            - designation: ellipsoïde hoogte
+              type: expression
+        parents: []
+        timeCreated: 2003-02-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 fin:
   id: 199
   definition: >-
@@ -458,7 +545,6 @@ fra:
 deu:
   id: 199
   abbrev: h
-  synonyms: ellipsoidal height
   definition: >-
     Abstand eines Punktes vom Ellipsoid, gemessen entlang der
     Ellipsoidsenkrechten durch diesen Punkt; Wert ist positiv, wenn nach oben
@@ -490,6 +576,53 @@ deu:
     - type: expression
       designation: geodätische Höhe
       normative_status: null
+    - designation: ellipsoidal height
+      type: expression
+  _revisions:
+    current: b0509a
+    tree:
+      b0509a:
+        object:
+          id: 199
+          abbrev: h
+          definition: >-
+            Abstand eines Punktes vom Ellipsoid, gemessen entlang der
+            Ellipsoidsenkrechten durch diesen Punkt; Wert ist positiv, wenn nach
+            oben oder außerhalb des Ellipsoids
+          language_code: deu
+          notes:
+            - >-
+              Only used as part of a three-dimensional ellipsoidal coordinate
+              system and never on its own.
+          examples: []
+          entry_status: superseded
+          authoritative_source:
+            ref: 'ISO 19111:2007'
+            link: 'https://www.iso.org/standard/41126.html'
+          lineage_source: 'ISO 19111:2003'
+          date_accepted: 2003-02-15T00:00:00.000Z
+          date_amended: 2019-01-31T00:00:00.000Z
+          review_date: 2019-01-31T00:00:00.000Z
+          review_status: final
+          review_type: supersession
+          review_decision: accepted
+          review_decision_date: 2019-01-31T00:00:00.000Z
+          review_decision_event: 'Publication of document ISO 19111:2019(E)'
+          review_decision_notes: >-
+            This entry is superseded by the entry for geodetic height in ISO
+            19111:2019(E)
+          release: '-1'
+          terms:
+            - type: expression
+              designation: geodätische Höhe
+              normative_status: null
+            - designation: ellipsoidal height
+              type: expression
+        parents: []
+        timeCreated: 2003-02-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 199
   abbrev: h

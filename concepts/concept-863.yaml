@@ -130,6 +130,37 @@ deu:
     - type: expression
       designation: Nominalwert
       normative_status: preferred
+  _revisions:
+    current: e6c8f9
+    tree:
+      e6c8f9:
+        object:
+          id: 863
+          language_code: deu
+          notes:
+            - >-
+              Many feature attributes take nominal rather than numerical
+              values.  The value domain of such an attribute is usually
+              specified as an enumeration or a code list.
+          examples:
+            - >-
+              "Deciduous needle leaf" is a nominal value that identifies a
+              vegetation type.
+          entry_status: valid
+          authoritative_source:
+            ref: 'ISO 19126:2009'
+            link: 'https://www.iso.org/standard/44875.html'
+          date_accepted: 2009-11-01T00:00:00.000Z
+          release: '2'
+          terms:
+            - type: expression
+              designation: Nominalwert
+              normative_status: preferred
+        parents: []
+        timeCreated: 2009-11-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 863
   definition: '범주, 유형, 개체의 명칭'

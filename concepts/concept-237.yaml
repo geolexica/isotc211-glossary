@@ -152,6 +152,37 @@ zho:
     - type: expression
       designation: 实现的测试补充信息
       normative_status: preferred
+  _revisions:
+    current: 63c23f
+    tree:
+      63c23f:
+        object:
+          id: 237
+          abbrev: IXIT
+          definition: 陈述包括全部与被测实现（IUT)及其相应的被测系统（SUT)的有关信息，这些信息能使测试实验室针对该IUT运行一个适当的测试套件。
+          language_code: zho
+          notes:
+            - IXIT通常提供关于SUT中概念的组织与存储、关于SUT的访问与修改手段等方面的细节。
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19105:2000'
+            link: 'https://www.iso.org/standard/26010.html'
+          date_accepted: 2000-12-15T00:00:00.000Z
+          review_date: 2019-07-05T00:00:00.000Z
+          review_status: pending
+          review_type: retirement
+          release: '1'
+          terms:
+            - type: expression
+              designation: 实现的测试补充信息
+              normative_status: preferred
+        parents: []
+        timeCreated: 2000-12-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 dan:
   id: 237
   abbrev: IXIT
@@ -364,6 +395,43 @@ deu:
     - type: expression
       designation: Implementation eXtra Information for Testing
       normative_status: preferred
+  _revisions:
+    current: 6f0018
+    tree:
+      6f0018:
+        object:
+          id: 237
+          abbrev: IXIT
+          definition: >-
+            Beschreibung aller Informationen bezogen auf IUT und dessen
+            entsprechenden SUT, die für die Durchführung von Tests benötigt
+            werden
+          language_code: deu
+          notes:
+            - >-
+              IXIT typically provides the details on the organization and
+              storage of concepts in the SUT as well as on the means of access
+              to and modification of the SUT.
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19105:2000'
+            link: 'https://www.iso.org/standard/26010.html'
+          date_accepted: 2000-12-15T00:00:00.000Z
+          review_date: 2019-07-05T00:00:00.000Z
+          review_status: pending
+          review_type: retirement
+          release: '1'
+          terms:
+            - type: expression
+              designation: Implementation eXtra Information for Testing
+              normative_status: preferred
+        parents: []
+        timeCreated: 2000-12-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 jpn:
   id: 237
   abbrev: IXIT

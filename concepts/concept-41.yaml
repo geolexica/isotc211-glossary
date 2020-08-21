@@ -158,6 +158,42 @@ zho:
     - type: expression
       designation: 循环序列
       normative_status: null
+  _revisions:
+    current: 0594b8
+    tree:
+      0594b8:
+        object:
+          id: 41
+          definition: 没有逻辑起始，因而等同于任何自身循环移位的序列，因此可认为序列的最后一数据项位于该序列的第一项之前。
+          language_code: zho
+          notes: []
+          examples: []
+          entry_status: retired
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19107:2003'
+            link: 'https://www.iso.org/standard/26012.html'
+          date_accepted: 2003-05-01T00:00:00.000Z
+          date_amended: 2019-12-02T00:00:00.000Z
+          review_date: 2019-12-02T00:00:00.000Z
+          review_status: final
+          review_type: retirement
+          review_decision: accepted
+          review_decision_date: 2019-12-02T00:00:00.000Z
+          review_decision_event: 'Publication of documentISO 19107:2019(E)'
+          review_decision_notes: >-
+            This entry has been omitted from the superseding standard ISO
+            19107:2019(E)
+          release: '-1'
+          terms:
+            - type: expression
+              designation: 循环序列
+              normative_status: null
+        parents: []
+        timeCreated: 2003-05-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 dan:
   id: 41
   definition: >-
@@ -385,6 +421,41 @@ deu:
     - type: expression
       designation: Kreissequenz
       normative_status: null
+  _revisions:
+    current: 3fe69d
+    tree:
+      3fe69d:
+        object:
+          id: 41
+          language_code: deu
+          notes: []
+          examples: []
+          entry_status: retired
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19107:2003'
+            link: 'https://www.iso.org/standard/26012.html'
+          date_accepted: 2003-05-01T00:00:00.000Z
+          date_amended: 2019-12-02T00:00:00.000Z
+          review_date: 2019-12-02T00:00:00.000Z
+          review_status: final
+          review_type: retirement
+          review_decision: accepted
+          review_decision_date: 2019-12-02T00:00:00.000Z
+          review_decision_event: 'Publication of documentISO 19107:2019(E)'
+          review_decision_notes: >-
+            This entry has been omitted from the superseding standard ISO
+            19107:2019(E)
+          release: '-1'
+          terms:
+            - type: expression
+              designation: Kreissequenz
+              normative_status: null
+        parents: []
+        timeCreated: 2003-05-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 jpn:
   id: 41
   definition: 論理的な開始点をもたないために，それ自身のどのような循環的なシフトとも同一になり，結果として最後の項目が順列の最初の項目に先行するとみなされる列。

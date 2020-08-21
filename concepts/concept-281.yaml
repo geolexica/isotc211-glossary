@@ -135,6 +135,34 @@ zho:
     - type: expression
       designation: 行进策略
       normative_status: preferred
+  _revisions:
+    current: d0fd6e
+    tree:
+      d0fd6e:
+        object:
+          id: 281
+          definition: 在组合路径中所使用的有关有向路段和转向的集合。
+          language_code: zho
+          notes:
+            - >-
+              行进策略用于将多个转向分解为方便的合法组合。它们可以简单为只是一个单一转向或是快速转向组合（在美国中西部"jogs”由一个转向紧跟一个反方向转向组成），也可能是由入口、出口和连接车道构成的非常复杂的组合（在英国称为"magic
+              roundabouts")。
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19133:2005'
+            link: 'https://www.iso.org/standard/32551.html'
+          date_accepted: 2005-10-15T00:00:00.000Z
+          terms:
+            - type: expression
+              designation: 行进策略
+              normative_status: preferred
+        parents: []
+        timeCreated: 2005-10-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 fin:
   id: 281
   definition: >-
@@ -265,6 +293,39 @@ deu:
     - type: expression
       designation: Manövrieren
       normative_status: preferred
+  _revisions:
+    current: a39d44
+    tree:
+      a39d44:
+        object:
+          id: 281
+          language_code: deu
+          notes:
+            - >-
+              Maneuvers are used to cluster turns into convenient and legal
+              combinations. They may be as simple as a single turn, a
+              combination of quick turns ("jogs" in the American mid-west
+              consisting of a turn followed immediately by a turn in the
+              opposite direction) or very complex combinations consisting of
+              entry, exit, and connecting roadways  ("magic roundabouts" in the
+              UK).
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19133:2005'
+            link: 'https://www.iso.org/standard/32551.html'
+          date_accepted: 2005-10-15T00:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: Manövrieren
+              normative_status: preferred
+        parents: []
+        timeCreated: 2005-10-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 281
   definition: 경로의 조합에 사용된 관련 링크와 회전의 모음

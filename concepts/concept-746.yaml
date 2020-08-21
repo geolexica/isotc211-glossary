@@ -121,6 +121,33 @@ zho:
     - type: expression
       designation: 版本<temporal>
       normative_status: preferred
+  _revisions:
+    current: a5f94a
+    tree:
+      a5f94a:
+        object:
+          id: 746
+          definition: 对给定对象的实例的及时地完整表示。
+          language_code: zho
+          notes:
+            - >-
+              时间版本与样本不同,主要在于时间版本要求一个完整的描述。从这个意义讲，一个版本是一个完整的样本,它原本属于时间序列域，但可以认为它在时间序列域外。
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19132:2007'
+            link: 'https://www.iso.org/standard/40601.html'
+          date_accepted: 2007-10-15T00:00:00.000Z
+          terms:
+            - type: expression
+              designation: 版本<temporal>
+              normative_status: preferred
+        parents: []
+        timeCreated: 2007-10-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 fin:
   id: 746
   definition: objektin täydellinen esitys tiettynä ajanhetkenä

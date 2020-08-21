@@ -151,7 +151,6 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 502
-  synonyms: geodetic coordinate system
   definition: '某点位置由大地纬度,大地经度和椭球高(三维情况)来确定的坐标系。'
   language_code: zho
   notes: []
@@ -178,6 +177,47 @@ zho:
     - type: expression
       designation: 椭球坐标系
       normative_status: preferred
+    - designation: geodetic coordinate system
+      type: expression
+  _revisions:
+    current: '883565'
+    tree:
+      '883565':
+        object:
+          id: 502
+          definition: '某点位置由大地纬度,大地经度和椭球高(三维情况)来确定的坐标系。'
+          language_code: zho
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19111:2019'
+            clause: '(E), 3.1.23'
+            link: 'https://www.iso.org/standard/74039.html'
+          lineage_source: 'ISO 19111:2003'
+          lineage_source_similarity: 1
+          date_accepted: 2003-02-15T00:00:00.000Z
+          review_date: 2019-01-31T00:00:00.000Z
+          review_status: final
+          review_decision: accepted
+          review_decision_date: 2019-01-31T00:00:00.000Z
+          review_decision_event: 'Publication of ISO 19111:2019(E)'
+          review_decision_notes: >-
+            Authoritative reference changed from ISO 19111:2007 to ISO
+            19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
+          release: '1'
+          terms:
+            - type: expression
+              designation: 椭球坐标系
+              normative_status: preferred
+            - designation: geodetic coordinate system
+              type: expression
+        parents: []
+        timeCreated: 2003-02-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 dan:
   id: 502
   definition: >-
@@ -247,7 +287,6 @@ dan:
           email: glossarist@ribose.com
 nld:
   id: 502
-  synonyms: geodetisch coördinaat systeem
   definition: >-
     coördinaatsysteem waarbij de positie wordt bepaald door geodetische lengte,
     geodetische breedte en (in het driedimensionale geval) ellipsoïde hoogte
@@ -276,6 +315,50 @@ nld:
     - type: expression
       designation: ellipsoidaal coördinaatsysteem
       normative_status: preferred
+    - designation: geodetisch coördinaat systeem
+      type: expression
+  _revisions:
+    current: 221f4c
+    tree:
+      221f4c:
+        object:
+          id: 502
+          definition: >-
+            coördinaatsysteem waarbij de positie wordt bepaald door geodetische
+            lengte, geodetische breedte en (in het driedimensionale geval)
+            ellipsoïde hoogte
+          language_code: nld
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19111:2019'
+            clause: '(E), 3.1.23'
+            link: 'https://www.iso.org/standard/74039.html'
+          lineage_source: 'ISO 19111:2003'
+          lineage_source_similarity: 1
+          date_accepted: 2003-02-15T00:00:00.000Z
+          review_date: 2019-01-31T00:00:00.000Z
+          review_status: final
+          review_decision: accepted
+          review_decision_date: 2019-01-31T00:00:00.000Z
+          review_decision_event: 'Publication of ISO 19111:2019(E)'
+          review_decision_notes: >-
+            Authoritative reference changed from ISO 19111:2007 to ISO
+            19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
+          release: '1'
+          terms:
+            - type: expression
+              designation: ellipsoidaal coördinaatsysteem
+              normative_status: preferred
+            - designation: geodetisch coördinaat systeem
+              type: expression
+        parents: []
+        timeCreated: 2003-02-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 fin:
   id: 502
   definition: >-
@@ -428,7 +511,6 @@ fra:
           email: glossarist@ribose.com
 deu:
   id: 502
-  synonyms: geodetic coordinate system
   definition: >-
     Koordinatensystem, in dem die Position durch geodätische Breite, geodätische
     Länge und (im dreidimensionalen Fall) durch ellipsoidische Höhe angegeben
@@ -458,6 +540,50 @@ deu:
     - type: expression
       designation: ellipsoidisches Koordinatensystem
       normative_status: preferred
+    - designation: geodetic coordinate system
+      type: expression
+  _revisions:
+    current: 83d275
+    tree:
+      83d275:
+        object:
+          id: 502
+          definition: >-
+            Koordinatensystem, in dem die Position durch geodätische Breite,
+            geodätische Länge und (im dreidimensionalen Fall) durch
+            ellipsoidische Höhe angegeben wird
+          language_code: deu
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19111:2019'
+            clause: '(E), 3.1.23'
+            link: 'https://www.iso.org/standard/74039.html'
+          lineage_source: 'ISO 19111:2003'
+          lineage_source_similarity: 1
+          date_accepted: 2003-02-15T00:00:00.000Z
+          review_date: 2019-01-31T00:00:00.000Z
+          review_status: final
+          review_decision: accepted
+          review_decision_date: 2019-01-31T00:00:00.000Z
+          review_decision_event: 'Publication of ISO 19111:2019(E)'
+          review_decision_notes: >-
+            Authoritative reference changed from ISO 19111:2007 to ISO
+            19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
+          release: '1'
+          terms:
+            - type: expression
+              designation: ellipsoidisches Koordinatensystem
+              normative_status: preferred
+            - designation: geodetic coordinate system
+              type: expression
+        parents: []
+        timeCreated: 2003-02-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 502
   definition: '타원체고, 측지 경도, 측지 위도를 통해 위치를 표현하는 좌표 체계'

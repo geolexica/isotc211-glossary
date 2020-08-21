@@ -131,6 +131,33 @@ zho:
     - type: expression
       designation: 基本服务
       normative_status: preferred
+  _revisions:
+    current: d849c6
+    tree:
+      d849c6:
+        object:
+          id: 658
+          definition: 以函数方式为其他服务或应用提供基本功能的服务。
+          language_code: zho
+          notes:
+            - >-
+              基本服务缺乏持久性，也缺乏具体用户间调用的状态信息,这意味着用户可直接访问。因为他们可能以函数的方式运行,他们在执行过程中随时可能被其他使用相同接口的服务所取代。
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19132:2007'
+            link: 'https://www.iso.org/standard/40601.html'
+          date_accepted: 2007-10-15T00:00:00.000Z
+          terms:
+            - type: expression
+              designation: 基本服务
+              normative_status: preferred
+        parents: []
+        timeCreated: 2007-10-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 fin:
   id: 658
   definition: >-
@@ -256,6 +283,37 @@ deu:
     - type: expression
       designation: einfacher Dienst
       normative_status: preferred
+  _revisions:
+    current: a8e728
+    tree:
+      a8e728:
+        object:
+          id: 658
+          language_code: deu
+          notes:
+            - >-
+              cf. interoperate. Basic services lack any persistent,
+              user-specific state information between invocations and are not
+              meant for direct access by users. Because they act in a functional
+              manner, they are readily replaceable at runtime by other services
+              using the same interfaces.
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19132:2007'
+            link: 'https://www.iso.org/standard/40601.html'
+          date_accepted: 2007-10-15T00:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: einfacher Dienst
+              normative_status: preferred
+        parents: []
+        timeCreated: 2007-10-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 658
   definition: 서비스 또는 응용에 기본 함수를 제공하는 서비스

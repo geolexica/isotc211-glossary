@@ -106,6 +106,31 @@ zho:
     - type: expression
       designation: 地理要素
       normative_status: preferred
+  _revisions:
+    current: '569537'
+    tree:
+      '569537':
+        object:
+          id: 203
+          definition: 与地球上位置相关的现实世界现象的表达。
+          language_code: zho
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19125-2:2004'
+            link: 'https://www.iso.org/standard/40115.html'
+          date_accepted: 2004-08-01T00:00:00.000Z
+          terms:
+            - type: expression
+              designation: 地理要素
+              normative_status: preferred
+        parents: []
+        timeCreated: 2004-08-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 dan:
   id: 203
   definition: >-
@@ -182,6 +207,49 @@ nld:
     - type: expression
       designation: geo-object
       normative_status: preferred
+  _revisions:
+    current: 7c9811
+    tree:
+      7c9811:
+        object:
+          id: 203
+          definition: >-
+            abstractie van een fenomeen in de werkelijkheid dat direct of
+            indirect is geassocieerd met een locatie relatief ten opzichte van
+            de aarde (bijvoorbeeld ten opzichte van het aardoppervlak)
+          language_code: nld
+          notes:
+            - >-
+              Indien met een geo-object een gebied wordt bedoeld, kan dit in
+              twee of drie dimensies zijn begrensd
+            - >-
+              Of een fenomeen een geo-object is of niet hangt af van de context
+              waarin het object is geplaatst. Is er een associatie met een
+              geo-gerefereerde locatie dan is het een geo-object. Is de
+              associatie er niet dan is het fenomeen geen geo-object. Zo is
+              bijvoorbeeld het fenomeen huis weergegeven op een landkaart een
+              geo-object. Is het weergegeven op een foto dan is het geen
+              geo-object. Met andere woorden: koppeling van geo-informatie maakt
+              van een object een geo-object.
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19125-2:2004'
+            link: 'https://www.iso.org/standard/40115.html'
+          lineage_source: NEN 3610
+          lineage_source_similarity: 1
+          date_accepted: 2004-08-01T00:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: geo-object
+              normative_status: preferred
+        parents: []
+        timeCreated: 2004-08-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 fin:
   id: 203
   definition: >-
@@ -290,6 +358,31 @@ deu:
     - type: expression
       designation: geographisches Feature
       normative_status: preferred
+  _revisions:
+    current: 460da5
+    tree:
+      460da5:
+        object:
+          id: 203
+          language_code: deu
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19125-2:2004'
+            link: 'https://www.iso.org/standard/40115.html'
+          date_accepted: 2004-08-01T00:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: geographisches Feature
+              normative_status: preferred
+        parents: []
+        timeCreated: 2004-08-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 203
   definition: 지구상의 위치와 연관된 실세계 현상의 표현

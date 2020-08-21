@@ -141,6 +141,33 @@ zho:
     - type: expression
       designation: 主动对象
       normative_status: preferred
+  _revisions:
+    current: ccd065
+    tree:
+      ccd065:
+        object:
+          id: 656
+          definition: 具有独立活动能力的对象，不需外部的直接刺激就能在其自身与其他对象间开始交互活动。
+          language_code: zho
+          notes:
+            - >-
+              主动对象可以代表用户或主动服务，该用户或主动服务依赖于内部(因此不可见)刺激而开始行动。对同一对象而言，主动和被动状态能同时存在,因这种服务能是在两种状态间的跳转,这取决于激活或未激活操作协议的调用。
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19132:2007'
+            link: 'https://www.iso.org/standard/40601.html'
+          date_accepted: 2007-10-15T00:00:00.000Z
+          terms:
+            - type: expression
+              designation: 主动对象
+              normative_status: preferred
+        parents: []
+        timeCreated: 2007-10-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 fin:
   id: 656
   definition: >-
@@ -276,6 +303,38 @@ deu:
     - type: expression
       designation: agierendes Objekt
       normative_status: preferred
+  _revisions:
+    current: cad7fd
+    tree:
+      cad7fd:
+        object:
+          id: 656
+          language_code: deu
+          notes:
+            - >-
+              cf. passive object. An active object can represent a user, or an
+              active service that depends on internal (and therefore not
+              visible) triggers to start actions. Active and passive states can
+              exist for the same object, and such a service can transition
+              between these two states depending on invocation of an activation
+              or deactivation operation protocol.
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19132:2007'
+            link: 'https://www.iso.org/standard/40601.html'
+          date_accepted: 2007-10-15T00:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: agierendes Objekt
+              normative_status: preferred
+        parents: []
+        timeCreated: 2007-10-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 656
   definition: '독립적인 동작이 가능한 객체, 따라서 별도의 외부 자극 없이도 스스로 다른 객체와의 상호작용이 가능함'

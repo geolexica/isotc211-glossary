@@ -117,6 +117,32 @@ zho:
     - type: expression
       designation: 性能测试
       normative_status: preferred
+  _revisions:
+    current: 12cfad
+    tree:
+      12cfad:
+        object:
+          id: 329
+          definition: 对IUT性能特性的测量，例如，不同情况下的吞吐量、响应能力等。
+          language_code: zho
+          notes:
+            - 性能测试不作为一致性测试的一个部分。
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19105:2000'
+            link: 'https://www.iso.org/standard/26010.html'
+          date_accepted: 2000-12-15T00:00:00.000Z
+          terms:
+            - type: expression
+              designation: 性能测试
+              normative_status: preferred
+        parents: []
+        timeCreated: 2000-12-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 fin:
   id: 329
   definition: >-
@@ -235,6 +261,32 @@ deu:
     - type: expression
       designation: Leistungsprüfung
       normative_status: preferred
+  _revisions:
+    current: 85a80e
+    tree:
+      85a80e:
+        object:
+          id: 329
+          language_code: deu
+          notes:
+            - This is not a part of conformance testing
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19105:2000'
+            link: 'https://www.iso.org/standard/26010.html'
+          date_accepted: 2000-12-15T00:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: Leistungsprüfung
+              normative_status: preferred
+        parents: []
+        timeCreated: 2000-12-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 jpn:
   id: 329
   definition: 処理能力，応答性など，種々の条件下での試験対象(IUT)の性能上の特性を測定する試験。

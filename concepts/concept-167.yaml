@@ -140,6 +140,37 @@ zho:
     - type: expression
       designation: 证伪测试
       normative_status: preferred
+  _revisions:
+    current: 13bc24
+    tree:
+      13bc24:
+        object:
+          id: 167
+          definition: 在实现中寻找错误的测试。
+          language_code: zho
+          notes:
+            - >-
+              一旦发现错误，即可得出实现不符合标准的结论；然而，没有发现错误并不意味着实现就符合标准。与验证测试相比，证伪测试仅能表明不一致。由于技术和经济原因，在许多情况下，证伪测试作为一致性测试中的一种测试方法而被采纳。
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19105:2000'
+            link: 'https://www.iso.org/standard/26010.html'
+          date_accepted: 2000-12-15T00:00:00.000Z
+          review_date: 2019-07-05T00:00:00.000Z
+          review_status: pending
+          review_type: retirement
+          release: '1'
+          terms:
+            - type: expression
+              designation: 证伪测试
+              normative_status: preferred
+        parents: []
+        timeCreated: 2000-12-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 dan:
   id: 167
   definition: test med det formål at finde fejl i implementeringen
@@ -332,6 +363,40 @@ deu:
     - type: expression
       designation: Fehlertest
       normative_status: preferred
+  _revisions:
+    current: 01eecd
+    tree:
+      01eecd:
+        object:
+          id: 167
+          language_code: deu
+          notes:
+            - >-
+              If errors are found, one can correctly deduce that the
+              implementation does not conform to the International Standard;
+              however, the absence of errors does not necessarily imply the
+              converse.  The falsification test can only demonstrate
+              non-conformance
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19105:2000'
+            link: 'https://www.iso.org/standard/26010.html'
+          date_accepted: 2000-12-15T00:00:00.000Z
+          review_date: 2019-07-05T00:00:00.000Z
+          review_status: pending
+          review_type: retirement
+          release: '1'
+          terms:
+            - type: expression
+              designation: Fehlertest
+              normative_status: preferred
+        parents: []
+        timeCreated: 2000-12-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 jpn:
   id: 167
   definition: 実装の誤りを見つけるための試験方法。

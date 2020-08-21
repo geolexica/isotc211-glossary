@@ -152,7 +152,6 @@ ara:
           email: glossarist@ribose.com
 deu:
   id: 891
-  synonyms: part-whole relation
   language_code: deu
   notes:
     - >-
@@ -179,6 +178,49 @@ deu:
     - type: expression
       designation: 'partitive Beziehung (Syn.: Teil-Ganzes-Beziehung)'
       normative_status: null
+    - designation: part-whole relation
+      type: expression
+  _revisions:
+    current: '639676'
+    tree:
+      '639676':
+        object:
+          id: 891
+          language_code: deu
+          notes:
+            - >-
+              A partitive relation exists between the concepts "week" and "day",
+              "molecule" and "atom".
+          examples: []
+          entry_status: retired
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 1087-1:2000'
+            link: 'https://www.iso.org/standard/20057.html'
+          lineage_source: 'ISO 19146:2010'
+          date_accepted: 2010-11-01T00:00:00.000Z
+          date_amended: 2018-06-01T00:00:00.000Z
+          review_date: 2018-06-01T00:00:00.000Z
+          review_status: final
+          review_type: retirement
+          review_decision: accepted
+          review_decision_date: 2018-06-01T00:00:00.000Z
+          review_decision_event: 'Publication of documentISO 19146:2018(E)'
+          review_decision_notes: >-
+            This entry has been omitted from the superseding standard ISO
+            19146:2018(E)
+          release: '-2'
+          terms:
+            - type: expression
+              designation: 'partitive Beziehung (Syn.: Teil-Ganzes-Beziehung)'
+              normative_status: null
+            - designation: part-whole relation
+              type: expression
+        parents: []
+        timeCreated: 2010-11-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 891
   definition: 개념들 중 하나가 전체를 구성하고 타 개념은 전체의 일부를 이루는 두 개념간의 관계

@@ -142,6 +142,37 @@ deu:
     - type: expression
       designation: a priori Klassifizierung
       normative_status: preferred
+  _revisions:
+    current: fb73c1
+    tree:
+      fb73c1:
+        object:
+          id: 816
+          language_code: deu
+          notes:
+            - 'Taken from FAO LCCS version 2 (see Reference [2] in ISO 19144-1)'
+            - >-
+              The approach is based upon definition of classes before any data
+              collection actually takes place
+            - >-
+              See Annex B [of ISO 19144-1] for an examination of this and a
+              posteriori classification
+          examples: []
+          entry_status: valid
+          authoritative_source:
+            ref: 'ISO 19144-1:2009'
+            link: 'https://www.iso.org/standard/32562.html'
+          date_accepted: 2009-08-15T00:00:00.000Z
+          release: '2'
+          terms:
+            - type: expression
+              designation: a priori Klassifizierung
+              normative_status: preferred
+        parents: []
+        timeCreated: 2009-08-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 816
   definition: 클래스들을 실제 발생하는 유형들로 추상적 개념화하기 위해 구조화된 클래스 분류의 체계

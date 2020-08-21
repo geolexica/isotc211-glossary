@@ -145,6 +145,37 @@ deu:
     - type: expression
       designation: Datenverdichtung
       normative_status: preferred
+  _revisions:
+    current: 36fc36
+    tree:
+      36fc36:
+        object:
+          id: 916
+          language_code: deu
+          notes:
+            - >-
+              Whereas data compaction reduces the amount of data used to
+              represent a given amount of information, data compression does
+              not.
+            - >-
+              Data compaction can be done through aggregation of like values in
+              adjacent grid cells, tiling schemes or other means of eliminating
+              information that is not relevant.
+          examples: []
+          entry_status: valid
+          authoritative_source:
+            ref: ANSI T1.523-2001
+          date_accepted: 2009-04-01T00:00:00.000Z
+          release: '2'
+          terms:
+            - type: expression
+              designation: Datenverdichtung
+              normative_status: preferred
+        parents: []
+        timeCreated: 2009-04-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 916
   definition: >-

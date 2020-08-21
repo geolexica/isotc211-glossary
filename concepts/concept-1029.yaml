@@ -113,6 +113,34 @@ deu:
     - type: expression
       designation: expliziter Wert
       normative_status: preferred
+  _revisions:
+    current: '661302'
+    tree:
+      '661302':
+        object:
+          id: 1029
+          definition: 'konstanter, explizit festgelegter Wert'
+          language_code: deu
+          notes:
+            - >-
+              This contrasts with a value that is determined by resolving a
+              chain of substitution (e.g. a variable)
+          examples: []
+          entry_status: valid
+          authoritative_source:
+            ref: 'ISO 19143:2010'
+            link: 'https://www.iso.org/standard/42137.html'
+          date_accepted: 2010-10-15T00:00:00.000Z
+          release: '2'
+          terms:
+            - type: expression
+              designation: expliziter Wert
+              normative_status: preferred
+        parents: []
+        timeCreated: 2010-10-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 1029
   definition: 일정하고 명백한 특정값

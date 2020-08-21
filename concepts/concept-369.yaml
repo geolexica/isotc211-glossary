@@ -125,6 +125,32 @@ zho:
     - type: expression
       designation: 参照格网
       normative_status: preferred
+  _revisions:
+    current: 4c0f48
+    tree:
+      4c0f48:
+        object:
+          id: 369
+          definition: 与一个变换相关联的格网，该变换常用来将格网坐标值转换成参照外部坐标参照系的坐标值。
+          language_code: zho
+          notes:
+            - 如果坐标参照系以地球为基准，该格网就是地理参照格网。
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19123:2005'
+            link: 'https://www.iso.org/standard/40121.html'
+          date_accepted: 2005-08-15T00:00:00.000Z
+          terms:
+            - type: expression
+              designation: 参照格网
+              normative_status: preferred
+        parents: []
+        timeCreated: 2005-08-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 fin:
   id: 369
   definition: >-
@@ -246,6 +272,34 @@ deu:
     - type: expression
       designation: referenzierbares Gitter
       normative_status: preferred
+  _revisions:
+    current: 7fd264
+    tree:
+      7fd264:
+        object:
+          id: 369
+          language_code: deu
+          notes:
+            - >-
+              If the coordinate reference system is related to the earth by a
+              datum, the grid is a georeferenceable grid.
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19123:2005'
+            link: 'https://www.iso.org/standard/40121.html'
+          date_accepted: 2005-08-15T00:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: referenzierbares Gitter
+              normative_status: preferred
+        parents: []
+        timeCreated: 2005-08-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 369
   definition: 격자 좌표 값을 외부 좌표 참조 체계의 좌표값으로 변환시키는 데 사용될 수 있는 변환과 연관된 격자

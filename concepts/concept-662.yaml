@@ -124,6 +124,32 @@ zho:
     - type: expression
       designation: 离散变化
       normative_status: preferred
+  _revisions:
+    current: fdd53b
+    tree:
+      fdd53b:
+        object:
+          id: 662
+          definition: 属性值的变化，不在两个已知量测值之间取值。
+          language_code: zho
+          notes:
+            - '地块的合法变化是离散的,并在某一特定时间发生。'
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19132:2007'
+            link: 'https://www.iso.org/standard/40601.html'
+          date_accepted: 2007-10-15T00:00:00.000Z
+          terms:
+            - type: expression
+              designation: 离散变化
+              normative_status: preferred
+        parents: []
+        timeCreated: 2007-10-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 fin:
   id: 662
   definition: >-
@@ -246,6 +272,34 @@ deu:
     - type: expression
       designation: unstetige Änderung
       normative_status: preferred
+  _revisions:
+    current: ed6ff8
+    tree:
+      ed6ff8:
+        object:
+          id: 662
+          language_code: deu
+          notes:
+            - >-
+              Legal changes of parcel changes are discrete, having occurred at a
+              specific time.
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19132:2007'
+            link: 'https://www.iso.org/standard/40601.html'
+          date_accepted: 2007-10-15T00:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: unstetige Änderung
+              normative_status: preferred
+        parents: []
+        timeCreated: 2007-10-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 662
   definition: 두 개의 알려진 측정값 사이에 어떠한 값도 취하지 않는 속성 값의 변화

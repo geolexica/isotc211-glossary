@@ -180,6 +180,49 @@ deu:
     - type: expression
       designation: Horizontalentfernung
       normative_status: preferred
+  _revisions:
+    current: f52994
+    tree:
+      f52994:
+        object:
+          id: 947
+          definition: >-
+            auf die Erdoberfläche projizierte Radarmessstrecke von der Antenne
+            zum Objekt
+          language_code: deu
+          notes:
+            - >-
+              Ground range of an image is represented by the distance from the
+              nadir point of the antenna to a point in the scene. Usually
+              measured in the horizontal plane, but can also be measured as true
+              distance along the ground, DEM, geoid or ellipsoid surface.
+          examples: []
+          entry_status: valid
+          authoritative_source:
+            ref: 'ISO 19130-1:2018'
+            clause: '(E), 3.43'
+            link: 'https://www.iso.org/standard/66847.html'
+          lineage_source: 'ISO/TS 19130:2010(E)'
+          lineage_source_similarity: '1'
+          date_accepted: 2010-06-15T00:00:00.000Z
+          review_date: 2018-09-01T00:00:00.000Z
+          review_status: final
+          review_decision: accepted
+          review_decision_date: 2018-09-01T00:00:00.000Z
+          review_decision_event: 'Publication of ISO 19130-1:2018(E)'
+          review_decision_notes: >-
+            Authoritative reference changed from ISO/TS 19130:2010 to ISO
+            19130-1:2018(E), 3.43. Lineage source added as ISO/TS 19130:2010(E)
+          release: '2'
+          terms:
+            - type: expression
+              designation: Horizontalentfernung
+              normative_status: preferred
+        parents: []
+        timeCreated: 2010-06-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 947
   definition: 지상 위에 투영된 범위 벡터의 크기

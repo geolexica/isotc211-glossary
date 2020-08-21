@@ -131,6 +131,32 @@ zho:
     - type: expression
       designation: 连续覆盖
       normative_status: preferred
+  _revisions:
+    current: 2945be
+    tree:
+      2945be:
+        object:
+          id: 83
+          definition: 在一个数据覆盖域中，单独的空间对象、时间对象或时空对象的相同要素属性在不同的直接位置返回不同值的覆盖。
+          language_code: zho
+          notes:
+            - '虽然连续数据覆盖域通常受空间范围和/或时间范围的限制,但是它可以再分成无限个直接位置。'
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19123:2005'
+            link: 'https://www.iso.org/standard/40121.html'
+          date_accepted: 2005-08-15T00:00:00.000Z
+          terms:
+            - type: expression
+              designation: 连续覆盖
+              normative_status: preferred
+        parents: []
+        timeCreated: 2005-08-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 dan:
   id: 83
   definition: >-
@@ -312,6 +338,35 @@ deu:
     - type: expression
       designation: stetiges Coverage
       normative_status: preferred
+  _revisions:
+    current: 83243d
+    tree:
+      83243d:
+        object:
+          id: 83
+          language_code: deu
+          notes:
+            - >-
+              Although the domain of a continuous coverage is ordinarily bounded
+              in terms of its spatial and/or temporal extent, it can be
+              subdivided into an infinite number of direct positions.
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19123:2005'
+            link: 'https://www.iso.org/standard/40121.html'
+          date_accepted: 2005-08-15T00:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: stetiges Coverage
+              normative_status: preferred
+        parents: []
+        timeCreated: 2005-08-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 83
   definition: '동일한 피처(공간 객체, 시간 객체, 시공간 객체) 속성값이 영역 내 서로 다른 직접 위치에서 다른 값을 갖는 커버리지'

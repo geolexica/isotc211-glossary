@@ -124,6 +124,32 @@ zho:
     - type: expression
       designation: 要素融合
       normative_status: preferred
+  _revisions:
+    current: 364c36
+    tree:
+      364c36:
+        object:
+          id: 175
+          definition: 在两个或多个先前存在的属于同一要素类型的实例被另一个相同要素类型的实例所取代的要素更替。
+          language_code: zho
+          notes: []
+          examples:
+            - 要素类型为“牧场”的两个实例，当牧场间的栅栏被移开时，被更替为一个同要素类型的实例。
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19108:2002'
+            link: 'https://www.iso.org/standard/26013.html'
+          date_accepted: 2002-09-01T00:00:00.000Z
+          terms:
+            - type: expression
+              designation: 要素融合
+              normative_status: preferred
+        parents: []
+        timeCreated: 2002-09-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 dan:
   id: 175
   definition: >-
@@ -295,6 +321,34 @@ deu:
     - type: expression
       designation: Feature-Verschmelzung
       normative_status: preferred
+  _revisions:
+    current: d2f8d6
+    tree:
+      d2f8d6:
+        object:
+          id: 175
+          language_code: deu
+          notes: []
+          examples:
+            - >-
+              Two instances of the feature type "pasture" are replaced by a
+              single instance when the fence between the pastures is removed.
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19108:2002'
+            link: 'https://www.iso.org/standard/26013.html'
+          date_accepted: 2002-09-01T00:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: Feature-Verschmelzung
+              normative_status: preferred
+        parents: []
+        timeCreated: 2002-09-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 jpn:
   id: 175
   definition: 直前に存在した，同じ地物型の二つ以上のインスタンスが，同じ地物型の一つのインスタンスに置き換わる地物継起。

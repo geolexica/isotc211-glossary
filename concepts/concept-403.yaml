@@ -145,6 +145,38 @@ zho:
     - type: expression
       designation: 序列
       normative_status: preferred
+  _revisions:
+    current: b08628
+    tree:
+      b08628:
+        object:
+          id: 403
+          definition: 可以重复的相关项（对象或值）的有限和有序的集合。
+          language_code: zho
+          notes:
+            - >-
+              逻辑上，序列是<项,偏移量>对的集。它原是LISP语言中一种用括号括起来,有次序限定,元素间用逗号隔开的结构，现用于ISO
+              19107中。
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19107:2003'
+            link: 'https://www.iso.org/standard/26012.html'
+          date_accepted: 2003-05-01T00:00:00.000Z
+          review_date: 2016-02-15T00:00:00.000Z
+          review_status: pending
+          review_type: retirement
+          release: '1'
+          terms:
+            - type: expression
+              designation: 序列
+              normative_status: preferred
+        parents: []
+        timeCreated: 2003-05-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 fin:
   id: 403
   definition: >-
@@ -290,6 +322,42 @@ deu:
     - type: expression
       designation: 'Sequenz (Syn.: Folge)'
       normative_status: preferred
+  _revisions:
+    current: 7db079
+    tree:
+      7db079:
+        object:
+          id: 403
+          definition: >-
+            endliche, geordnete Menge von verwandten Elementen (Objekten oder
+            Werten) mit möglicher Wiederholung
+          language_code: deu
+          notes:
+            - >-
+              Logically, a sequence is a set of pairs <item, offset>. LISP
+              syntax, which delimits sequences with parentheses and separates
+              elements in the sequence with commas, is used in this
+              International Standard.
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19107:2003'
+            link: 'https://www.iso.org/standard/26012.html'
+          date_accepted: 2003-05-01T00:00:00.000Z
+          review_date: 2016-02-15T00:00:00.000Z
+          review_status: pending
+          review_type: retirement
+          release: '1'
+          terms:
+            - type: expression
+              designation: 'Sequenz (Syn.: Folge)'
+              normative_status: preferred
+        parents: []
+        timeCreated: 2003-05-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 jpn:
   id: 403
   definition: 繰返しを許した，関連する項目（オブジェクト又は値）の，有限で順序をもつ集まり。

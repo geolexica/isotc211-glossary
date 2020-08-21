@@ -110,6 +110,31 @@ zho:
     - type: expression
       designation: 途径点
       normative_status: preferred
+  _revisions:
+    current: 0bfbfe
+    tree:
+      0bfbfe:
+        object:
+          id: 498
+          definition: 用于选择满足路径请求的可行的候选路径 网络上的某个位置。
+          language_code: zho
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19133:2005'
+            link: 'https://www.iso.org/standard/32551.html'
+          date_accepted: 2005-10-15T00:00:00.000Z
+          terms:
+            - type: expression
+              designation: 途径点
+              normative_status: preferred
+        parents: []
+        timeCreated: 2005-10-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 fin:
   id: 498
   definition: >-
@@ -218,6 +243,31 @@ deu:
     - type: expression
       designation: Wegpunkt
       normative_status: preferred
+  _revisions:
+    current: ae03ce
+    tree:
+      ae03ce:
+        object:
+          id: 498
+          language_code: deu
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19133:2005'
+            link: 'https://www.iso.org/standard/32551.html'
+          date_accepted: 2005-10-15T00:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: Wegpunkt
+              normative_status: preferred
+        parents: []
+        timeCreated: 2005-10-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 498
   definition: '요청된 라우팅을 잠정적으로 만족시키는, 후보 경로의 선택 역할을 담당하는 네트워크상 위치'

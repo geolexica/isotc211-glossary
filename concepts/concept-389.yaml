@@ -130,6 +130,32 @@ zho:
     - type: expression
       designation: 路径指令
       normative_status: preferred
+  _revisions:
+    current: a1a07b
+    tree:
+      a1a07b:
+        object:
+          id: 389
+          definition: 在允许路径遍历的网络中，沿路径的点继续行进所需要的信息。
+          language_code: zho
+          notes:
+            - 为了尽量减少完成路径遍历所需要的指令数量，把缺省的指令认定为是一组没有特殊关联指令的连接点。这个缺省指令被称为主路规则。
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19133:2005'
+            link: 'https://www.iso.org/standard/32551.html'
+          date_accepted: 2005-10-15T00:00:00.000Z
+          terms:
+            - type: expression
+              designation: 路径指令
+              normative_status: preferred
+        parents: []
+        timeCreated: 2005-10-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 fin:
   id: 389
   definition: >-

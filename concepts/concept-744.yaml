@@ -110,7 +110,6 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 744
-  synonyms: vehicle
   definition: 被导航或被跟踪的人。
   language_code: zho
   notes:
@@ -126,6 +125,36 @@ zho:
     - type: expression
       designation: 出行者
       normative_status: preferred
+    - designation: vehicle
+      type: expression
+  _revisions:
+    current: '482310'
+    tree:
+      '482310':
+        object:
+          id: 744
+          definition: 被导航或被跟踪的人。
+          language_code: zho
+          notes:
+            - 包括行人。参见ISO 14825 。在本标准中，出行者可被车辆代替而不改变含义。
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19133:2005'
+            link: 'https://www.iso.org/standard/32551.html'
+          date_accepted: 2005-10-15T00:00:00.000Z
+          terms:
+            - type: expression
+              designation: 出行者
+              normative_status: preferred
+            - designation: vehicle
+              type: expression
+        parents: []
+        timeCreated: 2005-10-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 fin:
   id: 744
   definition: navigoinnin tai seurannan kohteena oleva henkilö
@@ -231,7 +260,6 @@ fra:
           email: glossarist@ribose.com
 deu:
   id: 744
-  synonyms: vehicle
   language_code: deu
   notes:
     - >-
@@ -249,6 +277,39 @@ deu:
     - type: expression
       designation: zu navigierende Person
       normative_status: preferred
+    - designation: vehicle
+      type: expression
+  _revisions:
+    current: 6c4bea
+    tree:
+      6c4bea:
+        object:
+          id: 744
+          language_code: deu
+          notes:
+            - >-
+              Includes pedestrians. See ISO 14825. In this International
+              Standard, traveller can be replaced by vehicle without any change
+              of intent.
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19133:2005'
+            link: 'https://www.iso.org/standard/32551.html'
+          date_accepted: 2005-10-15T00:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: zu navigierende Person
+              normative_status: preferred
+            - designation: vehicle
+              type: expression
+        parents: []
+        timeCreated: 2005-10-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 744
   definition: 내비게이션 또는 추적될 수 있는 사람 주체(차량과 비교)

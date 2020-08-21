@@ -157,6 +157,42 @@ deu:
     - type: expression
       designation: Information zur strengen Georeferenzierung
       normative_status: preferred
+  _revisions:
+    current: 390bdc
+    tree:
+      390bdc:
+        object:
+          id: 942
+          definition: Information über die Georeferenzierung von Bildern
+          language_code: deu
+          notes: []
+          examples: []
+          entry_status: valid
+          authoritative_source:
+            ref: 'ISO 19115-2:2019'
+            clause: '(E), 3.10'
+            link: 'https://www.iso.org/standard/67039.html'
+          lineage_source: 'ISO 19115-2:2009(E)'
+          lineage_source_similarity: 1
+          date_accepted: 2009-02-15T00:00:00.000Z
+          review_date: 2019-01-01T00:00:00.000Z
+          review_status: final
+          review_decision: accepted
+          review_decision_date: 2019-01-01T00:00:00.000Z
+          review_decision_event: 'Publication of ISO 19115-2:2019(E)'
+          review_decision_notes: >-
+            Authoritative reference changed from ISO 19115-2:2009 to ISO
+            19115-2:2019(E), 3.10. Lineage source added as ISO 19115-2:2009(E)
+          release: '2'
+          terms:
+            - type: expression
+              designation: Information zur strengen Georeferenzierung
+              normative_status: preferred
+        parents: []
+        timeCreated: 2009-02-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 942
   definition: 이미지 위치에 대응하는 지리위치를 결정하기 위해 사용되는 정보

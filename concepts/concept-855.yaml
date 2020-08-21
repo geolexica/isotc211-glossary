@@ -137,6 +137,39 @@ deu:
     - type: expression
       designation: Feature-Konzept
       normative_status: preferred
+  _revisions:
+    current: '665264'
+    tree:
+      '665264':
+        object:
+          id: 855
+          language_code: deu
+          notes: []
+          examples:
+            - >-
+              The feature concept "road" may be used to specify several
+              different feature types, each with a different set of properties
+              appropriate for a particular application.  For a travel planning
+              application, it might have a limited set of attributes such as
+              name, route number, location and number of lanes, while for a
+              maintenance application it might have an extensive set of
+              attributes detailing the structure and composition of each of the
+              layers of material for which it is composed.
+          entry_status: valid
+          authoritative_source:
+            ref: 'ISO 19126:2009'
+            link: 'https://www.iso.org/standard/44875.html'
+          date_accepted: 2009-11-01T00:00:00.000Z
+          release: '2'
+          terms:
+            - type: expression
+              designation: Feature-Konzept
+              normative_status: preferred
+        parents: []
+        timeCreated: 2009-11-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 855
   definition: 하나 이상의 지형지물 유형으로서 구체적으로 특정 될 수 있는 개념

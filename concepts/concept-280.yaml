@@ -142,6 +142,33 @@ zho:
     - type: expression
       designation: 主路规则
       normative_status: preferred
+  _revisions:
+    current: 7d574f
+    tree:
+      7d574f:
+        object:
+          id: 280
+          definition: 在转向处采用的路径指令准则；在结点处采用的缺省指令。
+          language_code: zho
+          notes:
+            - >-
+              假设已经确定入口路段，这一规则描述了在结点（交叉口）处“最自然”的做法。最常见的规则是“尽可能直行”，或者选择进入最明显延伸方向的街道入口，通常情况下进出路口的两条街道名称相同，但也并非总是这样。在路径上的每一个结点的导航要么采用节点的相关指令，要么采用主路规则。
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19133:2005'
+            link: 'https://www.iso.org/standard/32551.html'
+          date_accepted: 2005-10-15T00:00:00.000Z
+          terms:
+            - type: expression
+              designation: 主路规则
+              normative_status: preferred
+        parents: []
+        timeCreated: 2005-10-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 fin:
   id: 280
   definition: >-
@@ -274,6 +301,39 @@ deu:
     - type: expression
       designation: Hauptstraßenregel
       normative_status: preferred
+  _revisions:
+    current: b507b8
+    tree:
+      b507b8:
+        object:
+          id: 280
+          language_code: deu
+          notes:
+            - >-
+              This rule represents what is "most natural" to do at a node
+              (intersection), given the entry link used. The most common version
+              is "as straight as possible", or to exit a turn on the most
+              obvious extension of the entry street, which is usually, but not
+              always, the same named street that was the entry. Every node in a
+              route is either associated with an instruction or can be navigated
+              by the main-road rule.
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19133:2005'
+            link: 'https://www.iso.org/standard/32551.html'
+          date_accepted: 2005-10-15T00:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: Hauptstraßenregel
+              normative_status: preferred
+        parents: []
+        timeCreated: 2005-10-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 280
   definition: 경로 지시 대신에 차량의 회전에 사용되는 기준들의 집합; 절점에 사용된 기본지시

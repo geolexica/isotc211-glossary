@@ -159,6 +159,39 @@ zho:
     - type: expression
       designation: 凸集
       normative_status: preferred
+  _revisions:
+    current: 7d0d97
+    tree:
+      7d0d97:
+        object:
+          id: 87
+          definition: 一种几何集，在几何集中连接任意两个直接位置的直线段上的任意直接位置都包含在该几何集合中。
+          language_code: zho
+          notes:
+            - >-
+              凸集间是“简单连接”，这意味着他们没有内部孔洞，并且通常可以认为在拓扑上是与适当维数的欧几里德球同构的，所以，球的表面可以被认为是几何凸集。
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: Dictionary of Computing
+            clause: 'Fourth Edition, Oxford University Press'
+          lineage_source: 'ISO 19107:2003'
+          lineage_source_similarity: 1
+          date_accepted: 2003-05-01T00:00:00.000Z
+          review_date: 2016-02-15T00:00:00.000Z
+          review_status: pending
+          review_type: retirement
+          release: '1'
+          terms:
+            - type: expression
+              designation: 凸集
+              normative_status: preferred
+        parents: []
+        timeCreated: 2003-05-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 dan:
   id: 87
   definition: >-
@@ -379,6 +412,42 @@ deu:
     - type: expression
       designation: konvexe Menge
       normative_status: preferred
+  _revisions:
+    current: 380f23
+    tree:
+      380f23:
+        object:
+          id: 87
+          language_code: deu
+          notes:
+            - >-
+              Convex sets are "simply connected", meaning that they have no
+              interior holes, and can normally be considered topologically
+              isomorphic to a Euclidean ball of the appropriate dimension. So
+              the surface of a sphere can be considered to be geodesically
+              convex.
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: Dictionary of Computing
+            clause: 'Fourth Edition, Oxford University Press'
+          lineage_source: 'ISO 19107:2003'
+          lineage_source_similarity: 1
+          date_accepted: 2003-05-01T00:00:00.000Z
+          review_date: 2016-02-15T00:00:00.000Z
+          review_status: pending
+          review_type: retirement
+          release: '1'
+          terms:
+            - type: expression
+              designation: konvexe Menge
+              normative_status: preferred
+        parents: []
+        timeCreated: 2003-05-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 87
   definition: 내부의 임의 두 직접 위치를 잇는 직선 조각상의 모든 점을 포함할 수 있는 기하 집합

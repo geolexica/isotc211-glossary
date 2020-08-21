@@ -182,6 +182,45 @@ zho:
     - type: expression
       designation: 要素操作
       normative_status: preferred
+  _revisions:
+    current: aa78c9
+    tree:
+      aa78c9:
+        object:
+          id: 177
+          definition: 要素类型的每个实例可执行的操作。
+          language_code: zho
+          notes:
+            - 有时，要素操作为要素类型定义提供基础。
+          examples:
+            - 要素类型为“堤坝”的一个操作是升高堤坝。操作的结果是提高”堤坝”的高度和水库的水位。
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19110:2016'
+            clause: '3.7'
+            link: 'https://www.iso.org/standard/57303.html'
+          lineage_source: 'ISO 19101:2002'
+          lineage_source_similarity: 1
+          date_accepted: 2002-07-01T00:00:00.000Z
+          review_date: 2012-01-27T00:00:00.000Z
+          review_status: final
+          review_decision: accepted
+          review_decision_date: 2016-12-01T00:00:00.000Z
+          review_decision_event: 'Publication of ISO 19110:2016'
+          review_decision_notes: >-
+            Authoritative reference changed from ISO 19110:2005 to ISO
+            19110:2016, 3.7. Lineage source added as ISO 19101:2002
+          release: '1'
+          terms:
+            - type: expression
+              designation: 要素操作
+              normative_status: preferred
+        parents: []
+        timeCreated: 2002-07-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 dan:
   id: 177
   definition: 'operation, som hver instans af en featuretype kan udføre'
@@ -434,6 +473,50 @@ deu:
     - type: expression
       designation: Feature-Operation
       normative_status: preferred
+  _revisions:
+    current: e532f4
+    tree:
+      e532f4:
+        object:
+          id: 177
+          definition: 'Operation, die jede Instanz einer Feature-Klasse ausführen kann'
+          language_code: deu
+          notes:
+            - >-
+              Sometimes feature operations provide a basis for feature type
+              definition.
+          examples:
+            - >-
+              A feature operation upon a 'dam' is to raise the dam.  The results
+              of this operation are to raise the height of the 'dam' and the
+              level of water in a 'reservoir'.
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19110:2016'
+            clause: '3.7'
+            link: 'https://www.iso.org/standard/57303.html'
+          lineage_source: 'ISO 19101:2002'
+          lineage_source_similarity: 1
+          date_accepted: 2002-07-01T00:00:00.000Z
+          review_date: 2012-01-27T00:00:00.000Z
+          review_status: final
+          review_decision: accepted
+          review_decision_date: 2016-12-01T00:00:00.000Z
+          review_decision_event: 'Publication of ISO 19110:2016'
+          review_decision_notes: >-
+            Authoritative reference changed from ISO 19110:2005 to ISO
+            19110:2016, 3.7. Lineage source added as ISO 19101:2002
+          release: '1'
+          terms:
+            - type: expression
+              designation: Feature-Operation
+              normative_status: preferred
+        parents: []
+        timeCreated: 2002-07-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 177
   definition: 피처 유형에 해당하는 모든 인스턴스에서 실행 가능한 연산

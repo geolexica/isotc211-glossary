@@ -118,6 +118,32 @@ zho:
     - type: expression
       designation: 失败判定
       normative_status: preferred
+  _revisions:
+    current: 2bedbc
+    tree:
+      2bedbc:
+        object:
+          id: 166
+          definition: 不一致的测试判定。
+          language_code: zho
+          notes:
+            - 不一致可能是与测试目的不相符，也可能是与相应标准中的至少一项一致性要求不相符。
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19105:2000'
+            link: 'https://www.iso.org/standard/26010.html'
+          date_accepted: 2000-12-15T00:00:00.000Z
+          terms:
+            - type: expression
+              designation: 失败判定
+              normative_status: preferred
+        parents: []
+        timeCreated: 2000-12-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 dan:
   id: 166
   definition: udfald af test om at der ikke er overensstemmelse
@@ -276,6 +302,35 @@ deu:
     - type: expression
       designation: Fehlernachweis
       normative_status: preferred
+  _revisions:
+    current: b069e9
+    tree:
+      b069e9:
+        object:
+          id: 166
+          language_code: deu
+          notes:
+            - >-
+              Non-conformance may be with respect to either the test purpose or
+              at least one of the conformance requirements of the relevant
+              standard(s).
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19105:2000'
+            link: 'https://www.iso.org/standard/26010.html'
+          date_accepted: 2000-12-15T00:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: Fehlernachweis
+              normative_status: preferred
+        parents: []
+        timeCreated: 2000-12-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 jpn:
   id: 166
   definition: 不適合と報告された試験判定。

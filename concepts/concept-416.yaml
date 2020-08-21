@@ -140,6 +140,36 @@ zho:
     - type: expression
       designation: 体
       normative_status: preferred
+  _revisions:
+    current: d2cb98
+    tree:
+      d2cb98:
+        object:
+          id: 416
+          definition: 三维几何单形，表达欧几里德三维空间中一个区域的连续映像。
+          language_code: zho
+          notes:
+            - 体可局部地实现为直接位置的三个参数的集合。体的边界是构成体的界限的有向闭合曲面的集合。
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19107:2003'
+            link: 'https://www.iso.org/standard/26012.html'
+          date_accepted: 2003-05-01T00:00:00.000Z
+          review_date: 2016-02-15T00:00:00.000Z
+          review_status: pending
+          review_type: retirement
+          release: '1'
+          terms:
+            - type: expression
+              designation: 体
+              normative_status: preferred
+        parents: []
+        timeCreated: 2003-05-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 fin:
   id: 416
   definition: >-
@@ -277,6 +307,38 @@ deu:
     - type: expression
       designation: Körper
       normative_status: preferred
+  _revisions:
+    current: c35d56
+    tree:
+      c35d56:
+        object:
+          id: 416
+          language_code: deu
+          notes:
+            - >-
+              A solid is realizable locally as a three parameter set of direct
+              positions. The boundary of a solid is the set of oriented, closed
+              surfaces that comprise the limits of the solid.
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19107:2003'
+            link: 'https://www.iso.org/standard/26012.html'
+          date_accepted: 2003-05-01T00:00:00.000Z
+          review_date: 2016-02-15T00:00:00.000Z
+          review_status: pending
+          review_type: retirement
+          release: '1'
+          terms:
+            - type: expression
+              designation: Körper
+              normative_status: preferred
+        parents: []
+        timeCreated: 2003-05-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 jpn:
   id: 416
   definition: 三次元ユークリッド空間のある領域の連続な像を表す三次元の幾何プリミティブ。

@@ -121,6 +121,36 @@ deu:
     - type: expression
       designation: Sexagesimalgrad
       normative_status: preferred
+  _revisions:
+    current: e65546
+    tree:
+      e65546:
+        object:
+          id: 905
+          language_code: deu
+          notes:
+            - >-
+              In the case of latitude or longitude, it may also include a
+              character indicating hemisphere
+          examples:
+            - >-
+              079 572 5 degrees is represented as 50º04'46.461" sexagesimal
+              degrees.
+          entry_status: valid
+          authoritative_source:
+            ref: 'ISO 6709:2008'
+            link: 'https://www.iso.org/standard/39242.html'
+          date_accepted: 2008-07-15T00:00:00.000Z
+          release: '2'
+          terms:
+            - type: expression
+              designation: Sexagesimalgrad
+              normative_status: preferred
+        parents: []
+        timeCreated: 2008-07-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 905
   definition: '각도, 분, 초의 연속값에 의해 대표되는 각'

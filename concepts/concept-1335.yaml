@@ -119,6 +119,36 @@ deu:
     - type: expression
       designation: Lokalisierungsattribut
       normative_status: preferred
+  _revisions:
+    current: 9d32f3
+    tree:
+      9d32f3:
+        object:
+          id: 1335
+          definition: >-
+            Attribut, dessen Wert eine Referenz auf eine lokale Ressource oder
+            abgesetzte Ressource ist
+          language_code: deu
+          notes:
+            - >-
+              In XML, this attribute is commonly called an href and contains a
+              URI reference to the remote resource (see W3C XLink)
+          examples: []
+          entry_status: valid
+          authoritative_source:
+            ref: 'ISO 19142:2010'
+            link: 'https://www.iso.org/standard/42136.html'
+          date_accepted: 2010-12-15T00:00:00.000Z
+          release: '2'
+          terms:
+            - type: expression
+              designation: Lokalisierungsattribut
+              normative_status: preferred
+        parents: []
+        timeCreated: 2010-12-15T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 1335
   definition: 지역 자원 또는 원거리 자원을 참조하는 속성

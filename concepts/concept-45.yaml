@@ -104,6 +104,31 @@ zho:
     - type: expression
       designation: 客户端
       normative_status: preferred
+  _revisions:
+    current: ab2006
+    tree:
+      ab2006:
+        object:
+          id: 45
+          definition: 能从服务器端调用操作的软件组件。
+          language_code: zho
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19128:2005'
+            link: 'https://www.iso.org/standard/32546.html'
+          date_accepted: 2005-12-01T00:00:00.000Z
+          terms:
+            - type: expression
+              designation: 客户端
+              normative_status: preferred
+        parents: []
+        timeCreated: 2005-12-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 dan:
   id: 45
   definition: 'softewarekomponent, der kan aktivere en operation fra en server'
@@ -248,6 +273,34 @@ deu:
     - type: expression
       designation: Client
       normative_status: preferred
+  _revisions:
+    current: c88003
+    tree:
+      c88003:
+        object:
+          id: 45
+          definition: >-
+            Software-Komponente, die eine Operation von einem Server aufrufen
+            kann
+          language_code: deu
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19128:2005'
+            link: 'https://www.iso.org/standard/32546.html'
+          date_accepted: 2005-12-01T00:00:00.000Z
+          release: '1'
+          terms:
+            - type: expression
+              designation: Client
+              normative_status: preferred
+        parents: []
+        timeCreated: 2005-12-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 kor:
   id: 45
   definition: 서버에게 연산을 호출할 수 있는 소프트웨어 컴포넌트

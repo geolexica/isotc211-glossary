@@ -128,6 +128,35 @@ zho:
     - type: expression
       designation: 邻域
       normative_status: preferred
+  _revisions:
+    current: 4c6c28
+    tree:
+      4c6c28:
+        object:
+          id: 307
+          definition: '在它的内部包含有指定的直接位置,并且包含距所指定直接位置距离都在一个给定的距离之内的所有直接位置的几何集。'
+          language_code: zho
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19107:2003'
+            link: 'https://www.iso.org/standard/26012.html'
+          date_accepted: 2003-05-01T00:00:00.000Z
+          review_date: 2016-02-15T00:00:00.000Z
+          review_status: pending
+          review_type: supersession
+          release: '1'
+          terms:
+            - type: expression
+              designation: 邻域
+              normative_status: preferred
+        parents: []
+        timeCreated: 2003-05-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 fin:
   id: 307
   definition: >-
@@ -254,6 +283,34 @@ deu:
     - type: expression
       designation: Nachbarschaft
       normative_status: preferred
+  _revisions:
+    current: '647624'
+    tree:
+      '647624':
+        object:
+          id: 307
+          language_code: deu
+          notes: []
+          examples: []
+          entry_status: valid
+          review_indicator: ''
+          authoritative_source:
+            ref: 'ISO 19107:2003'
+            link: 'https://www.iso.org/standard/26012.html'
+          date_accepted: 2003-05-01T00:00:00.000Z
+          review_date: 2016-02-15T00:00:00.000Z
+          review_status: pending
+          review_type: supersession
+          release: '1'
+          terms:
+            - type: expression
+              designation: Nachbarschaft
+              normative_status: preferred
+        parents: []
+        timeCreated: 2003-05-01T00:00:00.000Z
+        author:
+          name: Data migration procedure
+          email: glossarist@ribose.com
 jpn:
   id: 307
   definition: 指定された直接位置を内部に含み，その直接位置から指定された距離以内のすべての直接位置を含む幾何集合。
