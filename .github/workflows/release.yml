@@ -33,10 +33,10 @@ jobs:
       #     eval "$(ssh-agent -s)"
       #     ssh-add - <<< "${MLGT_DATA_DEPLOY_KEY}"
       #     make update-init update-modules
-      - name: Install gems
-        run: |
-          gem install bundler -v "~> 2"
-          bundle install --jobs 4 --retry 3
+      # - name: Install gems
+      #   run: |
+      #     gem install bundler -v "~> 2"
+      #     bundle install --jobs 4 --retry 3
       # - name: Build concept files
       #   run: |
       #     make distclean all tc211-termbase.zip
