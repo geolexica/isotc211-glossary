@@ -1,0 +1,19 @@
+name: deploy
+
+on:
+  push:
+    branches: [ main, staging ]
+
+jobs:
+  trigger-deploy:
+    name: Trigger deploy
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Trigger downstream repositories
+      uses: peter-evans/repository-dispatch@v1
+      with:
+        token: ${{ secrets.GLOSSARIST_CI_PAT_TOKEN }}
+        repository: geolexica/isotc211.geolexica.org
+        event-type: deploy
+        client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
