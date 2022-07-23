@@ -1,56 +1,63 @@
-term: refinement <UML>
+---
 termid: 370
+term: refinement <UML>
 eng:
   id: 370
-  definition: >-
-    relationship that represents a fuller specification of something that has
-    already been specified at a certain level of detail
-  language_code: eng
+  terms:
+  - type: expression
+    designation: refinement <UML>
+  definition:
+  - content: relationship that represents a fuller specification of something that
+      has already been specified at a certain level of detail
   notes:
-    - 'For example, a design class is a refinement of an analysis class'
+  - content: For example, a design class is a refinement of an analysis class
   examples: []
+  language_code: eng
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO/IEC 19501:2005 '
-    clause: (Adapted from)
-    link: 'https://www.iso.org/standard/32620.html'
-  lineage_source: 'ISO/TS 19103:2005'
+  sources:
+  - type: authoritative
+    origin:
+      ref: 'ISO/IEC 19501:2005 '
+      clause: "(Adapted from)"
+      link: https://www.iso.org/standard/32620.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19103:2005
   lineage_source_similarity: 1
-  date_accepted: '2005-07-15T00:00:00.000Z'
-  date_amended: '2015-12-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2005-07-15T00:00:00.000Z'
+  - type: amended
+    date: '2015-12-01T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19103:2015).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: refinement <UML>
-      normative_status: null
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19103:2015).
+  release: "-1"
   _revisions:
     current: 69c4c2
     tree:
       69c4c2:
         object:
           id: 370
-          definition: >-
-            relationship that represents a fuller specification of something
+          definition: relationship that represents a fuller specification of something
             that has already been specified at a certain level of detail
           language_code: eng
           notes:
-            - 'For example, a design class is a refinement of an analysis class'
+          - For example, a design class is a refinement of an analysis class
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
             ref: 'ISO/IEC 19501:2005 '
-            clause: (Adapted from)
-            link: 'https://www.iso.org/standard/32620.html'
-          lineage_source: 'ISO/TS 19103:2005'
+            clause: "(Adapted from)"
+            link: https://www.iso.org/standard/32620.html
+          lineage_source: ISO/TS 19103:2005
           lineage_source_similarity: 1
           date_accepted: '2005-07-15T00:00:00.000Z'
           date_amended: '2015-12-01T00:00:00.000Z'
@@ -59,15 +66,14 @@ eng:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19103:2015).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: refinement <UML>
-              normative_status: null
+          - type: expression
+            designation: refinement <UML>
+            normative_status:
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
         author:
@@ -75,53 +81,60 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 370
-  definition: علاقة تمثل تحديدا أكمل لمواصفات شيء سبق تحديدها بمستوى معين من التفصيل
-  language_code: ara
+  terms:
+  - type: expression
+    designation: تحسين <UML>
+  definition:
+  - content: علاقة تمثل تحديدا أكمل لمواصفات شيء سبق تحديدها بمستوى معين من التفصيل
   notes:
-    - 'مثلاً , فئة التصنيف هي صيغة محسَّنة لفئة التحليل.'
+  - content: مثلاً , فئة التصنيف هي صيغة محسَّنة لفئة التحليل.
   examples: []
+  language_code: ara
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO/IEC 19501:2005 '
-    clause: (Adapted from)
-    link: 'https://www.iso.org/standard/32620.html'
-  lineage_source: 'ISO/TS 19103:2005'
+  sources:
+  - type: authoritative
+    origin:
+      ref: 'ISO/IEC 19501:2005 '
+      clause: "(Adapted from)"
+      link: https://www.iso.org/standard/32620.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19103:2005
   lineage_source_similarity: 1
-  date_accepted: '2005-07-15T00:00:00.000Z'
-  date_amended: '2015-12-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2005-07-15T00:00:00.000Z'
+  - type: amended
+    date: '2015-12-01T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19103:2015).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: تحسين <UML>
-      normative_status: null
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19103:2015).
+  release: "-1"
   _revisions:
     current: b46973
     tree:
       b46973:
         object:
           id: 370
-          definition: >-
-            علاقة تمثل تحديدا أكمل لمواصفات شيء سبق تحديدها بمستوى معين من
-            التفصيل
+          definition: علاقة تمثل تحديدا أكمل لمواصفات شيء سبق تحديدها بمستوى معين
+            من التفصيل
           language_code: ara
           notes:
-            - 'مثلاً , فئة التصنيف هي صيغة محسَّنة لفئة التحليل.'
+          - مثلاً , فئة التصنيف هي صيغة محسَّنة لفئة التحليل.
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
             ref: 'ISO/IEC 19501:2005 '
-            clause: (Adapted from)
-            link: 'https://www.iso.org/standard/32620.html'
-          lineage_source: 'ISO/TS 19103:2005'
+            clause: "(Adapted from)"
+            link: https://www.iso.org/standard/32620.html
+          lineage_source: ISO/TS 19103:2005
           lineage_source_similarity: 1
           date_accepted: '2005-07-15T00:00:00.000Z'
           date_amended: '2015-12-01T00:00:00.000Z'
@@ -130,15 +143,14 @@ ara:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19103:2015).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: تحسين <UML>
-              normative_status: null
+          - type: expression
+            designation: تحسين <UML>
+            normative_status:
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
         author:
@@ -146,33 +158,41 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 370
-  definition: 表示对已被描述到一定详细程度的事物做进一步说明的关系。
-  language_code: zho
+  terms:
+  - type: expression
+    designation: 细化<UML>
+  definition:
+  - content: 表示对已被描述到一定详细程度的事物做进一步说明的关系。
   notes:
-    - 例如，一个设计类是一个分析类的细化。
+  - content: 例如，一个设计类是一个分析类的细化。
   examples: []
+  language_code: zho
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO/IEC 19501:2005 '
-    clause: (Adapted from)
-    link: 'https://www.iso.org/standard/32620.html'
-  lineage_source: 'ISO/TS 19103:2005'
+  sources:
+  - type: authoritative
+    origin:
+      ref: 'ISO/IEC 19501:2005 '
+      clause: "(Adapted from)"
+      link: https://www.iso.org/standard/32620.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19103:2005
   lineage_source_similarity: 1
-  date_accepted: '2005-07-15T00:00:00.000Z'
-  date_amended: '2015-12-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2005-07-15T00:00:00.000Z'
+  - type: amended
+    date: '2015-12-01T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19103:2015).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: 细化<UML>
-      normative_status: null
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19103:2015).
+  release: "-1"
   _revisions:
     current: ce662a
     tree:
@@ -182,15 +202,15 @@ zho:
           definition: 表示对已被描述到一定详细程度的事物做进一步说明的关系。
           language_code: zho
           notes:
-            - 例如，一个设计类是一个分析类的细化。
+          - 例如，一个设计类是一个分析类的细化。
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
             ref: 'ISO/IEC 19501:2005 '
-            clause: (Adapted from)
-            link: 'https://www.iso.org/standard/32620.html'
-          lineage_source: 'ISO/TS 19103:2005'
+            clause: "(Adapted from)"
+            link: https://www.iso.org/standard/32620.html
+          lineage_source: ISO/TS 19103:2005
           lineage_source_similarity: 1
           date_accepted: '2005-07-15T00:00:00.000Z'
           date_amended: '2015-12-01T00:00:00.000Z'
@@ -199,15 +219,14 @@ zho:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19103:2015).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: 细化<UML>
-              normative_status: null
+          - type: expression
+            designation: 细化<UML>
+            normative_status:
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
         author:
@@ -215,55 +234,61 @@ zho:
           email: glossarist@ribose.com
 fin:
   id: 370
-  definition: >-
-    suhde, jossa jokin tietyllä yksityiskohtaisuustasolla määritelty
-    määritellään täsmällisemmin
-  language_code: fin
+  terms:
+  - type: expression
+    designation: tarkennus
+  definition:
+  - content: suhde, jossa jokin tietyllä yksityiskohtaisuustasolla määritelty määritellään
+      täsmällisemmin
   notes:
-    - Esimerkiksi suunnitteluluokka on analyysiluokan tarkennus.
+  - content: Esimerkiksi suunnitteluluokka on analyysiluokan tarkennus.
   examples: []
+  language_code: fin
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO/IEC 19501:2005 '
-    clause: (Adapted from)
-    link: 'https://www.iso.org/standard/32620.html'
-  lineage_source: 'ISO/TS 19103:2005'
+  sources:
+  - type: authoritative
+    origin:
+      ref: 'ISO/IEC 19501:2005 '
+      clause: "(Adapted from)"
+      link: https://www.iso.org/standard/32620.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19103:2005
   lineage_source_similarity: 1
-  date_accepted: '2005-07-15T00:00:00.000Z'
-  date_amended: '2015-12-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2005-07-15T00:00:00.000Z'
+  - type: amended
+    date: '2015-12-01T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19103:2015).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: tarkennus
-      normative_status: null
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19103:2015).
+  release: "-1"
   _revisions:
     current: 93346a
     tree:
       93346a:
         object:
           id: 370
-          definition: >-
-            suhde, jossa jokin tietyllä yksityiskohtaisuustasolla määritelty
+          definition: suhde, jossa jokin tietyllä yksityiskohtaisuustasolla määritelty
             määritellään täsmällisemmin
           language_code: fin
           notes:
-            - Esimerkiksi suunnitteluluokka on analyysiluokan tarkennus.
+          - Esimerkiksi suunnitteluluokka on analyysiluokan tarkennus.
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
             ref: 'ISO/IEC 19501:2005 '
-            clause: (Adapted from)
-            link: 'https://www.iso.org/standard/32620.html'
-          lineage_source: 'ISO/TS 19103:2005'
+            clause: "(Adapted from)"
+            link: https://www.iso.org/standard/32620.html
+          lineage_source: ISO/TS 19103:2005
           lineage_source_similarity: 1
           date_accepted: '2005-07-15T00:00:00.000Z'
           date_amended: '2015-12-01T00:00:00.000Z'
@@ -272,15 +297,14 @@ fin:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19103:2015).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: tarkennus
-              normative_status: null
+          - type: expression
+            designation: tarkennus
+            normative_status:
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
         author:
@@ -288,42 +312,48 @@ fin:
           email: glossarist@ribose.com
 fra:
   id: 370
-  definition: >-
-    relation représentant une spécification plus complète de quelque chose ayant
-    déjà été spécifié à un certain niveau de détail
-  language_code: fra
+  terms:
+  - type: expression
+    designation: raffinement <UML>
+  definition:
+  - content: relation représentant une spécification plus complète de quelque chose
+      ayant déjà été spécifié à un certain niveau de détail
   notes: []
   examples: []
+  language_code: fra
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO/IEC 19501:2005 '
-    clause: (Adapted from)
-    link: 'https://www.iso.org/standard/32620.html'
-  lineage_source: 'ISO/TS 19103:2005'
+  sources:
+  - type: authoritative
+    origin:
+      ref: 'ISO/IEC 19501:2005 '
+      clause: "(Adapted from)"
+      link: https://www.iso.org/standard/32620.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19103:2005
   lineage_source_similarity: 1
-  date_accepted: '2005-07-15T00:00:00.000Z'
-  date_amended: '2015-12-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2005-07-15T00:00:00.000Z'
+  - type: amended
+    date: '2015-12-01T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19103:2015).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: raffinement <UML>
-      normative_status: null
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19103:2015).
+  release: "-1"
   _revisions:
     current: 803a1b
     tree:
       803a1b:
         object:
           id: 370
-          definition: >-
-            relation représentant une spécification plus complète de quelque
+          definition: relation représentant une spécification plus complète de quelque
             chose ayant déjà été spécifié à un certain niveau de détail
           language_code: fra
           notes: []
@@ -332,9 +362,9 @@ fra:
           review_indicator: ''
           authoritative_source:
             ref: 'ISO/IEC 19501:2005 '
-            clause: (Adapted from)
-            link: 'https://www.iso.org/standard/32620.html'
-          lineage_source: 'ISO/TS 19103:2005'
+            clause: "(Adapted from)"
+            link: https://www.iso.org/standard/32620.html
+          lineage_source: ISO/TS 19103:2005
           lineage_source_similarity: 1
           date_accepted: '2005-07-15T00:00:00.000Z'
           date_amended: '2015-12-01T00:00:00.000Z'
@@ -343,15 +373,14 @@ fra:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19103:2015).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: raffinement <UML>
-              normative_status: null
+          - type: expression
+            designation: raffinement <UML>
+            normative_status:
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
         author:
@@ -359,33 +388,41 @@ fra:
           email: glossarist@ribose.com
 kor:
   id: 370
-  definition: 이미 일정 상세 수준으로 명세된 것과 보다 완전한 사양 간의 관계
-  language_code: kor
+  terms:
+  - type: expression
+    designation: 정제 <UML>
+  definition:
+  - content: 이미 일정 상세 수준으로 명세된 것과 보다 완전한 사양 간의 관계
   notes:
-    - '예를 들어, 설계 클래스는 분석 클래스의 정제이다.'
+  - content: 예를 들어, 설계 클래스는 분석 클래스의 정제이다.
   examples: []
+  language_code: kor
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO/IEC 19501:2005 '
-    clause: (Adapted from)
-    link: 'https://www.iso.org/standard/32620.html'
-  lineage_source: 'ISO/TS 19103:2005'
+  sources:
+  - type: authoritative
+    origin:
+      ref: 'ISO/IEC 19501:2005 '
+      clause: "(Adapted from)"
+      link: https://www.iso.org/standard/32620.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19103:2005
   lineage_source_similarity: 1
-  date_accepted: '2005-07-15T00:00:00.000Z'
-  date_amended: '2015-12-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2005-07-15T00:00:00.000Z'
+  - type: amended
+    date: '2015-12-01T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19103:2015).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: 정제 <UML>
-      normative_status: null
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19103:2015).
+  release: "-1"
   _revisions:
     current: 962b12
     tree:
@@ -395,15 +432,15 @@ kor:
           definition: 이미 일정 상세 수준으로 명세된 것과 보다 완전한 사양 간의 관계
           language_code: kor
           notes:
-            - '예를 들어, 설계 클래스는 분석 클래스의 정제이다.'
+          - 예를 들어, 설계 클래스는 분석 클래스의 정제이다.
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
             ref: 'ISO/IEC 19501:2005 '
-            clause: (Adapted from)
-            link: 'https://www.iso.org/standard/32620.html'
-          lineage_source: 'ISO/TS 19103:2005'
+            clause: "(Adapted from)"
+            link: https://www.iso.org/standard/32620.html
+          lineage_source: ISO/TS 19103:2005
           lineage_source_similarity: 1
           date_accepted: '2005-07-15T00:00:00.000Z'
           date_amended: '2015-12-01T00:00:00.000Z'
@@ -412,15 +449,14 @@ kor:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19103:2015).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: 정제 <UML>
-              normative_status: null
+          - type: expression
+            designation: 정제 <UML>
+            normative_status:
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
         author:
@@ -428,52 +464,55 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 370
-  definition: >-
-    отношение, обозначающее более полное описание того, что уже было ранее
-    описано на определенном уровне детализации
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: уточнение <UML>
+  definition:
+  - content: отношение, обозначающее более полное описание того, что уже было ранее
+      описано на определенном уровне детализации
   notes:
-    - 'Например, класс проектирования является уточнением аналитического класса'
+  - content: Например, класс проектирования является уточнением аналитического класса
   examples: []
+  language_code: rus
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO/IEC 19501:2005 '
-    clause: (Adapted from)
-    link: 'https://www.iso.org/standard/32620.html'
-  lineage_source: Internet
-  date_accepted: '2005-07-15T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: уточнение <UML>
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: 'ISO/IEC 19501:2005 '
+      clause: "(Adapted from)"
+      link: https://www.iso.org/standard/32620.html
+  - type: lineage
+    origin:
+      ref: Internet
+  dates:
+  - type: accepted
+    date: '2005-07-15T00:00:00.000Z'
   _revisions:
     current: '206833'
     tree:
       '206833':
         object:
           id: 370
-          definition: >-
-            отношение, обозначающее более полное описание того, что уже было
-            ранее описано на определенном уровне детализации
+          definition: отношение, обозначающее более полное описание того, что уже
+            было ранее описано на определенном уровне детализации
           language_code: rus
           notes:
-            - >-
-              Например, класс проектирования является уточнением аналитического
-              класса
+          - Например, класс проектирования является уточнением аналитического класса
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
             ref: 'ISO/IEC 19501:2005 '
-            clause: (Adapted from)
-            link: 'https://www.iso.org/standard/32620.html'
+            clause: "(Adapted from)"
+            link: https://www.iso.org/standard/32620.html
           lineage_source: Internet
           date_accepted: '2005-07-15T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: уточнение <UML>
-              normative_status: preferred
+          - type: expression
+            designation: уточнение <UML>
+            normative_status: preferred
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
         author:
@@ -481,59 +520,62 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 370
-  definition: >-
-    relación que representa una especificación más completa de algo que ha sido
-    especificado previamente a un cierto nivel de detalle
-  language_code: spa
+  terms:
+  - type: expression
+    designation: refinamiento <UML>
+  definition:
+  - content: relación que representa una especificación más completa de algo que ha
+      sido especificado previamente a un cierto nivel de detalle
   notes:
-    - >-
-      Por ejemplo, una clase  de diseño es un refinamiento de una clase de
+  - content: Por ejemplo, una clase  de diseño es un refinamiento de una clase de
       análisis
   examples: []
+  language_code: spa
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO/IEC 19501:2005 '
-    clause: (Adapted from)
-    link: 'https://www.iso.org/standard/32620.html'
-  lineage_source: 'ISO/TS 19103:2005'
+  sources:
+  - type: authoritative
+    origin:
+      ref: 'ISO/IEC 19501:2005 '
+      clause: "(Adapted from)"
+      link: https://www.iso.org/standard/32620.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19103:2005
   lineage_source_similarity: 1
-  date_accepted: '2005-07-15T00:00:00.000Z'
-  date_amended: '2015-12-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2005-07-15T00:00:00.000Z'
+  - type: amended
+    date: '2015-12-01T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19103:2015).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: refinamiento <UML>
-      normative_status: null
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19103:2015).
+  release: "-1"
   _revisions:
     current: de83c1
     tree:
       de83c1:
         object:
           id: 370
-          definition: >-
-            relación que representa una especificación más completa de algo que
-            ha sido especificado previamente a un cierto nivel de detalle
+          definition: relación que representa una especificación más completa de algo
+            que ha sido especificado previamente a un cierto nivel de detalle
           language_code: spa
           notes:
-            - >-
-              Por ejemplo, una clase  de diseño es un refinamiento de una clase
-              de análisis
+          - Por ejemplo, una clase  de diseño es un refinamiento de una clase de análisis
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
             ref: 'ISO/IEC 19501:2005 '
-            clause: (Adapted from)
-            link: 'https://www.iso.org/standard/32620.html'
-          lineage_source: 'ISO/TS 19103:2005'
+            clause: "(Adapted from)"
+            link: https://www.iso.org/standard/32620.html
+          lineage_source: ISO/TS 19103:2005
           lineage_source_similarity: 1
           date_accepted: '2005-07-15T00:00:00.000Z'
           date_amended: '2015-12-01T00:00:00.000Z'
@@ -542,15 +584,14 @@ spa:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19103:2015).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: refinamiento <UML>
-              normative_status: null
+          - type: expression
+            designation: refinamiento <UML>
+            normative_status:
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
         author:
@@ -558,55 +599,61 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 370
-  definition: >-
-    relationship that represents a fuller specification of something that has
-    already been specified at a certain level of detail
-  language_code: swe
+  terms:
+  - type: expression
+    designation: refinement <UML>
+  definition:
+  - content: relationship that represents a fuller specification of something that
+      has already been specified at a certain level of detail
   notes:
-    - 'For example, a design class is a refinement of an analysis class'
+  - content: For example, a design class is a refinement of an analysis class
   examples: []
+  language_code: swe
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO/IEC 19501:2005 '
-    clause: (Adapted from)
-    link: 'https://www.iso.org/standard/32620.html'
-  lineage_source: 'ISO/TS 19103:2005'
+  sources:
+  - type: authoritative
+    origin:
+      ref: 'ISO/IEC 19501:2005 '
+      clause: "(Adapted from)"
+      link: https://www.iso.org/standard/32620.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19103:2005
   lineage_source_similarity: 1
-  date_accepted: '2005-07-15T00:00:00.000Z'
-  date_amended: '2015-12-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2005-07-15T00:00:00.000Z'
+  - type: amended
+    date: '2015-12-01T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19103:2015).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: refinement <UML>
-      normative_status: null
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19103:2015).
+  release: "-1"
   _revisions:
     current: '775938'
     tree:
       '775938':
         object:
           id: 370
-          definition: >-
-            relationship that represents a fuller specification of something
+          definition: relationship that represents a fuller specification of something
             that has already been specified at a certain level of detail
           language_code: swe
           notes:
-            - 'For example, a design class is a refinement of an analysis class'
+          - For example, a design class is a refinement of an analysis class
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
             ref: 'ISO/IEC 19501:2005 '
-            clause: (Adapted from)
-            link: 'https://www.iso.org/standard/32620.html'
-          lineage_source: 'ISO/TS 19103:2005'
+            clause: "(Adapted from)"
+            link: https://www.iso.org/standard/32620.html
+          lineage_source: ISO/TS 19103:2005
           lineage_source_similarity: 1
           date_accepted: '2005-07-15T00:00:00.000Z'
           date_amended: '2015-12-01T00:00:00.000Z'
@@ -615,15 +662,14 @@ swe:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19103:2015).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: refinement <UML>
-              normative_status: null
+          - type: expression
+            designation: refinement <UML>
+            normative_status:
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
         author:

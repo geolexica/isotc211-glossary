@@ -1,51 +1,57 @@
-term: record
+---
 termid: 366
+term: record
 eng:
   id: 366
-  definition: 'finite, named collection of related items (objects or values)'
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: record
+  definition:
+  - content: finite, named collection of related items (objects or values)
   notes:
-    - 'Logically, a record is a set of pairs <name, item >.'
+  - content: Logically, a record is a set of pairs <name, item >.
   examples: []
+  language_code: eng
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19107:2003'
-    link: 'https://www.iso.org/standard/26012.html'
-  date_accepted: '2003-05-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19107:2003
+      link: https://www.iso.org/standard/26012.html
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
   review_date: '2016-02-15T00:00:00.000Z'
   review_status: pending
   review_type: retirement
   release: '1'
-  terms:
-    - type: expression
-      designation: record
-      normative_status: preferred
   _revisions:
     current: eec9bb
     tree:
       eec9bb:
         object:
           id: 366
-          definition: 'finite, named collection of related items (objects or values)'
+          definition: finite, named collection of related items (objects or values)
           language_code: eng
           notes:
-            - 'Logically, a record is a set of pairs <name, item >.'
+          - Logically, a record is a set of pairs <name, item >.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19107:2003'
-            link: 'https://www.iso.org/standard/26012.html'
+            ref: ISO 19107:2003
+            link: https://www.iso.org/standard/26012.html
           date_accepted: '2003-05-01T00:00:00.000Z'
           review_date: '2016-02-15T00:00:00.000Z'
           review_status: pending
           review_type: retirement
           release: '1'
           terms:
-            - type: expression
-              designation: record
-              normative_status: preferred
+          - type: expression
+            designation: record
+            normative_status: preferred
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -53,52 +59,57 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 366
-  definition: مجموعة محددة  من العناصر المسماه  ( كائنات أو قيم )   ذات ارتباط فيما بينها
-  language_code: ara
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: بيان
+  definition:
+  - content: مجموعة محددة  من العناصر المسماه  ( كائنات أو قيم )   ذات ارتباط فيما
+      بينها
   notes:
-    - 'منطقياً , السجل هو مجموعة من الأزواج < اسم , مفردة >.'
+  - content: منطقياً , السجل هو مجموعة من الأزواج < اسم , مفردة >.
   examples: []
+  language_code: ara
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19107:2003'
-    link: 'https://www.iso.org/standard/26012.html'
-  date_accepted: '2003-05-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19107:2003
+      link: https://www.iso.org/standard/26012.html
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
   review_date: '2016-02-15T00:00:00.000Z'
   review_status: pending
   review_type: retirement
   release: '1'
-  terms:
-    - type: expression
-      designation: بيان
-      normative_status: preferred
   _revisions:
     current: 8a906a
     tree:
       8a906a:
         object:
           id: 366
-          definition: >-
-            مجموعة محددة  من العناصر المسماه  ( كائنات أو قيم )   ذات ارتباط
+          definition: مجموعة محددة  من العناصر المسماه  ( كائنات أو قيم )   ذات ارتباط
             فيما بينها
           language_code: ara
           notes:
-            - 'منطقياً , السجل هو مجموعة من الأزواج < اسم , مفردة >.'
+          - منطقياً , السجل هو مجموعة من الأزواج < اسم , مفردة >.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19107:2003'
-            link: 'https://www.iso.org/standard/26012.html'
+            ref: ISO 19107:2003
+            link: https://www.iso.org/standard/26012.html
           date_accepted: '2003-05-01T00:00:00.000Z'
           review_date: '2016-02-15T00:00:00.000Z'
           review_status: pending
           review_type: retirement
           release: '1'
           terms:
-            - type: expression
-              designation: بيان
-              normative_status: preferred
+          - type: expression
+            designation: بيان
+            normative_status: preferred
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -106,25 +117,30 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 366
-  definition: 相关项（对象或值）的有限和有名称的集合。
-  language_code: zho
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 记录
+  definition:
+  - content: 相关项（对象或值）的有限和有名称的集合。
   notes:
-    - '逻辑上，记录是<名称,项>对的集合。'
+  - content: 逻辑上，记录是<名称,项>对的集合。
   examples: []
+  language_code: zho
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19107:2003'
-    link: 'https://www.iso.org/standard/26012.html'
-  date_accepted: '2003-05-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19107:2003
+      link: https://www.iso.org/standard/26012.html
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
   review_date: '2016-02-15T00:00:00.000Z'
   review_status: pending
   review_type: retirement
   release: '1'
-  terms:
-    - type: expression
-      designation: 记录
-      normative_status: preferred
   _revisions:
     current: 708cfb
     tree:
@@ -134,22 +150,22 @@ zho:
           definition: 相关项（对象或值）的有限和有名称的集合。
           language_code: zho
           notes:
-            - '逻辑上，记录是<名称,项>对的集合。'
+          - 逻辑上，记录是<名称,项>对的集合。
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19107:2003'
-            link: 'https://www.iso.org/standard/26012.html'
+            ref: ISO 19107:2003
+            link: https://www.iso.org/standard/26012.html
           date_accepted: '2003-05-01T00:00:00.000Z'
           review_date: '2016-02-15T00:00:00.000Z'
           review_status: pending
           review_type: retirement
           release: '1'
           terms:
-            - type: expression
-              designation: 记录
-              normative_status: preferred
+          - type: expression
+            designation: 记录
+            normative_status: preferred
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -157,54 +173,57 @@ zho:
           email: glossarist@ribose.com
 fin:
   id: 366
-  definition: >-
-    äärellinen, nimetty kokoelma toisiinsa liittyviä tietokohteita (objekteja
-    tai arvoja)
-  language_code: fin
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: tietue
+  definition:
+  - content: äärellinen, nimetty kokoelma toisiinsa liittyviä tietokohteita (objekteja
+      tai arvoja)
   notes:
-    - 'Tietue on joukko <nimi, tietokohde>-pareja.'
+  - content: Tietue on joukko <nimi, tietokohde>-pareja.
   examples: []
+  language_code: fin
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19107:2003'
-    link: 'https://www.iso.org/standard/26012.html'
-  date_accepted: '2003-05-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19107:2003
+      link: https://www.iso.org/standard/26012.html
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
   review_date: '2016-02-15T00:00:00.000Z'
   review_status: pending
   review_type: retirement
   release: '1'
-  terms:
-    - type: expression
-      designation: tietue
-      normative_status: preferred
   _revisions:
     current: 2a9d6f
     tree:
       2a9d6f:
         object:
           id: 366
-          definition: >-
-            äärellinen, nimetty kokoelma toisiinsa liittyviä tietokohteita
+          definition: äärellinen, nimetty kokoelma toisiinsa liittyviä tietokohteita
             (objekteja tai arvoja)
           language_code: fin
           notes:
-            - 'Tietue on joukko <nimi, tietokohde>-pareja.'
+          - Tietue on joukko <nimi, tietokohde>-pareja.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19107:2003'
-            link: 'https://www.iso.org/standard/26012.html'
+            ref: ISO 19107:2003
+            link: https://www.iso.org/standard/26012.html
           date_accepted: '2003-05-01T00:00:00.000Z'
           review_date: '2016-02-15T00:00:00.000Z'
           review_status: pending
           review_type: retirement
           release: '1'
           terms:
-            - type: expression
-              designation: tietue
-              normative_status: preferred
+          - type: expression
+            designation: tietue
+            normative_status: preferred
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -212,24 +231,29 @@ fin:
           email: glossarist@ribose.com
 fra:
   id: 366
-  definition: collection finie et nommée d'éléments (objets ou valeurs) liés
-  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: enregistrement
+  definition:
+  - content: collection finie et nommée d'éléments (objets ou valeurs) liés
   notes: []
   examples: []
+  language_code: fra
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19107:2003'
-    link: 'https://www.iso.org/standard/26012.html'
-  date_accepted: '2003-05-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19107:2003
+      link: https://www.iso.org/standard/26012.html
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
   review_date: '2016-02-15T00:00:00.000Z'
   review_status: pending
   review_type: retirement
   release: '1'
-  terms:
-    - type: expression
-      designation: enregistrement
-      normative_status: preferred
   _revisions:
     current: c21954
     tree:
@@ -243,17 +267,17 @@ fra:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19107:2003'
-            link: 'https://www.iso.org/standard/26012.html'
+            ref: ISO 19107:2003
+            link: https://www.iso.org/standard/26012.html
           date_accepted: '2003-05-01T00:00:00.000Z'
           review_date: '2016-02-15T00:00:00.000Z'
           review_status: pending
           review_type: retirement
           release: '1'
           terms:
-            - type: expression
-              designation: enregistrement
-              normative_status: preferred
+          - type: expression
+            designation: enregistrement
+            normative_status: preferred
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -261,24 +285,28 @@ fra:
           email: glossarist@ribose.com
 deu:
   id: 366
-  language_code: deu
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Datensatz
   notes:
-    - 'Logically, a record is a set of pairs <name, item >.'
+  - content: Logically, a record is a set of pairs <name, item >.
   examples: []
+  language_code: deu
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19107:2003'
-    link: 'https://www.iso.org/standard/26012.html'
-  date_accepted: '2003-05-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19107:2003
+      link: https://www.iso.org/standard/26012.html
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
   review_date: '2016-02-15T00:00:00.000Z'
   review_status: pending
   review_type: retirement
   release: '1'
-  terms:
-    - type: expression
-      designation: Datensatz
-      normative_status: preferred
   _revisions:
     current: 6623f4
     tree:
@@ -287,22 +315,22 @@ deu:
           id: 366
           language_code: deu
           notes:
-            - 'Logically, a record is a set of pairs <name, item >.'
+          - Logically, a record is a set of pairs <name, item >.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19107:2003'
-            link: 'https://www.iso.org/standard/26012.html'
+            ref: ISO 19107:2003
+            link: https://www.iso.org/standard/26012.html
           date_accepted: '2003-05-01T00:00:00.000Z'
           review_date: '2016-02-15T00:00:00.000Z'
           review_status: pending
           review_type: retirement
           release: '1'
           terms:
-            - type: expression
-              designation: Datensatz
-              normative_status: preferred
+          - type: expression
+            designation: Datensatz
+            normative_status: preferred
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -310,25 +338,30 @@ deu:
           email: glossarist@ribose.com
 jpn:
   id: 366
-  definition: 有限の，名前をもつ，相互に関連性のある項目（オブジェクト又は値）の集まり。
-  language_code: jpn
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: レコード
+  definition:
+  - content: 有限の，名前をもつ，相互に関連性のある項目（オブジェクト又は値）の集まり。
   notes:
-    - 論理的に，レコードは <名称，項目> の対の集合となる。
+  - content: 論理的に，レコードは <名称，項目> の対の集合となる。
   examples: []
+  language_code: jpn
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19107:2003'
-    link: 'https://www.iso.org/standard/26012.html'
-  date_accepted: '2003-05-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19107:2003
+      link: https://www.iso.org/standard/26012.html
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
   review_date: '2016-02-15T00:00:00.000Z'
   review_status: pending
   review_type: retirement
   release: '1'
-  terms:
-    - type: expression
-      designation: レコード
-      normative_status: preferred
   _revisions:
     current: d17f0f
     tree:
@@ -338,22 +371,22 @@ jpn:
           definition: 有限の，名前をもつ，相互に関連性のある項目（オブジェクト又は値）の集まり。
           language_code: jpn
           notes:
-            - 論理的に，レコードは <名称，項目> の対の集合となる。
+          - 論理的に，レコードは <名称，項目> の対の集合となる。
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19107:2003'
-            link: 'https://www.iso.org/standard/26012.html'
+            ref: ISO 19107:2003
+            link: https://www.iso.org/standard/26012.html
           date_accepted: '2003-05-01T00:00:00.000Z'
           review_date: '2016-02-15T00:00:00.000Z'
           review_status: pending
           review_type: retirement
           release: '1'
           terms:
-            - type: expression
-              designation: レコード
-              normative_status: preferred
+          - type: expression
+            designation: レコード
+            normative_status: preferred
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -361,25 +394,30 @@ jpn:
           email: glossarist@ribose.com
 kor:
   id: 366
-  definition: 유한적인 관련 항목(객체 또는 값)의 명명된 모음
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 레코드
+  definition:
+  - content: 유한적인 관련 항목(객체 또는 값)의 명명된 모음
   notes:
-    - '논리적으로 레코드는 <이름, 항목> 쌍의 집합이다.'
+  - content: 논리적으로 레코드는 <이름, 항목> 쌍의 집합이다.
   examples: []
+  language_code: kor
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19107:2003'
-    link: 'https://www.iso.org/standard/26012.html'
-  date_accepted: '2003-05-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19107:2003
+      link: https://www.iso.org/standard/26012.html
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
   review_date: '2016-02-15T00:00:00.000Z'
   review_status: pending
   review_type: retirement
   release: '1'
-  terms:
-    - type: expression
-      designation: 레코드
-      normative_status: preferred
   _revisions:
     current: 256cc9
     tree:
@@ -389,22 +427,22 @@ kor:
           definition: 유한적인 관련 항목(객체 또는 값)의 명명된 모음
           language_code: kor
           notes:
-            - '논리적으로 레코드는 <이름, 항목> 쌍의 집합이다.'
+          - 논리적으로 레코드는 <이름, 항목> 쌍의 집합이다.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19107:2003'
-            link: 'https://www.iso.org/standard/26012.html'
+            ref: ISO 19107:2003
+            link: https://www.iso.org/standard/26012.html
           date_accepted: '2003-05-01T00:00:00.000Z'
           review_date: '2016-02-15T00:00:00.000Z'
           review_status: pending
           review_type: retirement
           release: '1'
           terms:
-            - type: expression
-              designation: 레코드
-              normative_status: preferred
+          - type: expression
+            designation: 레코드
+            normative_status: preferred
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -412,54 +450,54 @@ kor:
           email: glossarist@ribose.com
 pol:
   id: 366
-  definition: 'skończona, nazwana kolekcja powiązanych elementów (obiektów lub wartości)'
-  language_code: pol
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: rekord
+  definition:
+  - content: skończona, nazwana kolekcja powiązanych elementów (obiektów lub wartości)
   notes:
-    - >-
-      W sensie logicznym rekord można uważać za kolekcję par typu
-      <nazwa,pozycja>.
+  - content: W sensie logicznym rekord można uważać za kolekcję par typu <nazwa,pozycja>.
   examples: []
+  language_code: pol
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19107:2003'
-    link: 'https://www.iso.org/standard/26012.html'
-  date_accepted: '2003-05-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19107:2003
+      link: https://www.iso.org/standard/26012.html
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
   review_date: '2016-02-15T00:00:00.000Z'
   review_status: pending
   review_type: retirement
   release: '1'
-  terms:
-    - type: expression
-      designation: rekord
-      normative_status: preferred
   _revisions:
     current: e4a43f
     tree:
       e4a43f:
         object:
           id: 366
-          definition: >-
-            skończona, nazwana kolekcja powiązanych elementów (obiektów lub
-            wartości)
+          definition: skończona, nazwana kolekcja powiązanych elementów (obiektów
+            lub wartości)
           language_code: pol
           notes:
-            - >-
-              W sensie logicznym rekord można uważać za kolekcję par typu
-              <nazwa,pozycja>.
+          - W sensie logicznym rekord można uważać za kolekcję par typu <nazwa,pozycja>.
           examples: []
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19107:2003'
-            link: 'https://www.iso.org/standard/26012.html'
+            ref: ISO 19107:2003
+            link: https://www.iso.org/standard/26012.html
           date_accepted: '2003-05-01T00:00:00.000Z'
           review_date: '2016-02-15T00:00:00.000Z'
           review_status: pending
           review_type: retirement
           release: '1'
           terms:
-            - type: expression
-              designation: rekord
-              normative_status: preferred
+          - type: expression
+            designation: rekord
+            normative_status: preferred
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -467,48 +505,53 @@ pol:
           email: glossarist@ribose.com
 rus:
   id: 366
-  definition: >-
-    конечная, именованная  совокупность взаимосвязанных элементов (объектов или
-    значений)
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: запись
+  definition:
+  - content: конечная, именованная  совокупность взаимосвязанных элементов (объектов
+      или значений)
   notes:
-    - 'Логически, запись есть набор пар < name, item >.'
+  - content: Логически, запись есть набор пар < name, item >.
   examples: []
+  language_code: rus
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19107:2003'
-    link: 'https://www.iso.org/standard/26012.html'
-  lineage_source: Internet
-  date_accepted: '2003-05-01T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: запись
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19107:2003
+      link: https://www.iso.org/standard/26012.html
+  - type: lineage
+    origin:
+      ref: Internet
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
   _revisions:
     current: 154b93
     tree:
       154b93:
         object:
           id: 366
-          definition: >-
-            конечная, именованная  совокупность взаимосвязанных элементов
+          definition: конечная, именованная  совокупность взаимосвязанных элементов
             (объектов или значений)
           language_code: rus
           notes:
-            - 'Логически, запись есть набор пар < name, item >.'
+          - Логически, запись есть набор пар < name, item >.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19107:2003'
-            link: 'https://www.iso.org/standard/26012.html'
+            ref: ISO 19107:2003
+            link: https://www.iso.org/standard/26012.html
           lineage_source: Internet
           date_accepted: '2003-05-01T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: запись
-              normative_status: preferred
+          - type: expression
+            designation: запись
+            normative_status: preferred
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -516,54 +559,56 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 366
-  definition: colección nombrada y finita de elementos relacionados (objetos o valores)
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: registro
+  definition:
+  - content: colección nombrada y finita de elementos relacionados (objetos o valores)
   notes:
-    - 'Lógicamente, un registro es un conjunto de pares <nombre, elemento>.'
+  - content: Lógicamente, un registro es un conjunto de pares <nombre, elemento>.
   examples: []
+  language_code: spa
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19107:2003'
-    link: 'https://www.iso.org/standard/26012.html'
-  date_accepted: '2003-05-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19107:2003
+      link: https://www.iso.org/standard/26012.html
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
   review_date: '2016-02-15T00:00:00.000Z'
   review_status: pending
   review_type: retirement
   release: '1'
-  terms:
-    - type: expression
-      designation: registro
-      normative_status: preferred
   _revisions:
     current: 1ad1d0
     tree:
       1ad1d0:
         object:
           id: 366
-          definition: >-
-            colección nombrada y finita de elementos relacionados (objetos o
-            valores)
+          definition: colección nombrada y finita de elementos relacionados (objetos
+            o valores)
           language_code: spa
           notes:
-            - >-
-              Lógicamente, un registro es un conjunto de pares <nombre,
-              elemento>.
+          - Lógicamente, un registro es un conjunto de pares <nombre, elemento>.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19107:2003'
-            link: 'https://www.iso.org/standard/26012.html'
+            ref: ISO 19107:2003
+            link: https://www.iso.org/standard/26012.html
           date_accepted: '2003-05-01T00:00:00.000Z'
           review_date: '2016-02-15T00:00:00.000Z'
           review_status: pending
           review_type: retirement
           release: '1'
           terms:
-            - type: expression
-              designation: registro
-              normative_status: preferred
+          - type: expression
+            designation: registro
+            normative_status: preferred
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -571,26 +616,31 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 366
-  definition: mängd av samhörande dataelement som behandlas som en enhet
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: post
+  definition:
+  - content: mängd av samhörande dataelement som behandlas som en enhet
+  notes:
+  - content: Logically, a record is a set of pairs <name, item >.
+  examples: []
   country_code: swe
   language_code: swe
-  notes:
-    - 'Logically, a record is a set of pairs <name, item >.'
-  examples: []
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19107:2003'
-    link: 'https://www.iso.org/standard/26012.html'
-  date_accepted: '2003-05-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19107:2003
+      link: https://www.iso.org/standard/26012.html
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
   review_date: '2016-02-15T00:00:00.000Z'
   review_status: pending
   review_type: retirement
   release: '1'
-  terms:
-    - type: expression
-      designation: post
-      normative_status: preferred
   _revisions:
     current: 5d4bc0
     tree:
@@ -601,22 +651,22 @@ swe:
           country_code: swe
           language_code: swe
           notes:
-            - 'Logically, a record is a set of pairs <name, item >.'
+          - Logically, a record is a set of pairs <name, item >.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19107:2003'
-            link: 'https://www.iso.org/standard/26012.html'
+            ref: ISO 19107:2003
+            link: https://www.iso.org/standard/26012.html
           date_accepted: '2003-05-01T00:00:00.000Z'
           review_date: '2016-02-15T00:00:00.000Z'
           review_status: pending
           review_type: retirement
           release: '1'
           terms:
-            - type: expression
-              designation: post
-              normative_status: preferred
+          - type: expression
+            designation: post
+            normative_status: preferred
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:

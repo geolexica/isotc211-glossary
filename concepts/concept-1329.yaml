@@ -1,25 +1,30 @@
-term: symbol set
+---
 termid: 1329
+term: symbol set
 eng:
   id: 1329
-  definition: collection of symbols
-  language_code: eng
-  notes:
-    - >-
-      Not 1 to entry: Symbol sets are usually designed for a community of
-      interest to portray information of interest to the community.
-  examples: []
-  entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19117:2012'
-    clause: '4.35'
-    link: 'https://www.iso.org/standard/46226.html'
-  date_accepted: '2012-12-15T00:00:00.000Z'
-  release: '3'
   terms:
-    - type: expression
-      designation: symbol set
-      normative_status: preferred
+  - type: expression
+    normative_status: preferred
+    designation: symbol set
+  definition:
+  - content: collection of symbols
+  notes:
+  - content: 'Not 1 to entry: Symbol sets are usually designed for a community of
+      interest to portray information of interest to the community.'
+  examples: []
+  language_code: eng
+  entry_status: valid
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19117:2012
+      clause: '4.35'
+      link: https://www.iso.org/standard/46226.html
+  dates:
+  - type: accepted
+    date: '2012-12-15T00:00:00.000Z'
+  release: '3'
   _revisions:
     current: ded095
     tree:
@@ -29,21 +34,20 @@ eng:
           definition: collection of symbols
           language_code: eng
           notes:
-            - >-
-              Not 1 to entry: Symbol sets are usually designed for a community
-              of interest to portray information of interest to the community.
+          - 'Not 1 to entry: Symbol sets are usually designed for a community of interest
+            to portray information of interest to the community.'
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19117:2012'
+            ref: ISO 19117:2012
             clause: '4.35'
-            link: 'https://www.iso.org/standard/46226.html'
+            link: https://www.iso.org/standard/46226.html
           date_accepted: '2012-12-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: symbol set
-              normative_status: preferred
+          - type: expression
+            designation: symbol set
+            normative_status: preferred
         parents: []
         timeCreated: '2012-12-15T00:00:00.000Z'
         author:
@@ -51,24 +55,28 @@ eng:
           email: glossarist@ribose.com
 kor:
   id: 1329
-  definition: 기호들의 집합
-  language_code: kor
-  notes:
-    - >-
-      Not 1 to entry: Symbol sets are usually designed for a community of
-      interest to portray information of interest to the community.
-  examples: []
-  entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19117:2012'
-    clause: '4.35'
-    link: 'https://www.iso.org/standard/46226.html'
-  date_accepted: '2012-12-15T00:00:00.000Z'
-  release: '3'
   terms:
-    - type: expression
-      designation: 기호 셋
-      normative_status: preferred
+  - type: expression
+    normative_status: preferred
+    designation: 기호 셋
+  definition:
+  - content: 기호들의 집합
+  notes:
+  - content: 'Not 1 to entry: Symbol sets are usually designed for a community of
+      interest to portray information of interest to the community.'
+  examples: []
+  language_code: kor
+  entry_status: valid
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19117:2012
+      clause: '4.35'
+      link: https://www.iso.org/standard/46226.html
+  dates:
+  - type: accepted
+    date: '2012-12-15T00:00:00.000Z'
+  release: '3'
   _revisions:
     current: ca759e
     tree:
@@ -78,21 +86,20 @@ kor:
           definition: 기호들의 집합
           language_code: kor
           notes:
-            - >-
-              Not 1 to entry: Symbol sets are usually designed for a community
-              of interest to portray information of interest to the community.
+          - 'Not 1 to entry: Symbol sets are usually designed for a community of interest
+            to portray information of interest to the community.'
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19117:2012'
+            ref: ISO 19117:2012
             clause: '4.35'
-            link: 'https://www.iso.org/standard/46226.html'
+            link: https://www.iso.org/standard/46226.html
           date_accepted: '2012-12-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: 기호 셋
-              normative_status: preferred
+          - type: expression
+            designation: 기호 셋
+            normative_status: preferred
         parents: []
         timeCreated: '2012-12-15T00:00:00.000Z'
         author:
@@ -100,25 +107,31 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 1329
-  definition: коллекция  символов
-  language_code: rus
-  notes:
-    - >-
-      Наборы символов, обычно, создаются для сообщества, заинтересованного в
-      графическом отображении информации, интересующей сообщество.
-  examples: []
-  entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19117:2012'
-    clause: '4.35'
-    link: 'https://www.iso.org/standard/46226.html'
-  lineage_source: 'перевод ИСО 19117:2012,'
-  date_accepted: '2012-12-15T00:00:00.000Z'
-  release: '3'
   terms:
-    - type: expression
-      designation: набор символов
-      normative_status: preferred
+  - type: expression
+    normative_status: preferred
+    designation: набор символов
+  definition:
+  - content: коллекция  символов
+  notes:
+  - content: Наборы символов, обычно, создаются для сообщества, заинтересованного
+      в графическом отображении информации, интересующей сообщество.
+  examples: []
+  language_code: rus
+  entry_status: valid
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19117:2012
+      clause: '4.35'
+      link: https://www.iso.org/standard/46226.html
+  - type: lineage
+    origin:
+      ref: перевод ИСО 19117:2012,
+  dates:
+  - type: accepted
+    date: '2012-12-15T00:00:00.000Z'
+  release: '3'
   _revisions:
     current: 1c5ec6
     tree:
@@ -128,23 +141,21 @@ rus:
           definition: коллекция  символов
           language_code: rus
           notes:
-            - >-
-              Наборы символов, обычно, создаются для сообщества,
-              заинтересованного в графическом отображении информации,
-              интересующей сообщество.
+          - Наборы символов, обычно, создаются для сообщества, заинтересованного в
+            графическом отображении информации, интересующей сообщество.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19117:2012'
+            ref: ISO 19117:2012
             clause: '4.35'
-            link: 'https://www.iso.org/standard/46226.html'
-          lineage_source: 'перевод ИСО 19117:2012,'
+            link: https://www.iso.org/standard/46226.html
+          lineage_source: перевод ИСО 19117:2012,
           date_accepted: '2012-12-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: набор символов
-              normative_status: preferred
+          - type: expression
+            designation: набор символов
+            normative_status: preferred
         parents: []
         timeCreated: '2012-12-15T00:00:00.000Z'
         author:
@@ -152,50 +163,52 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 1329
-  definition: colección de símbolos
-  language_code: spa
-  notes:
-    - >-
-      Los conjuntos de símbolos se definen normalmente para una comunidad de
-      interés en concreto, para representar información del interés de dicha
-      comunidad
-  examples: []
-  entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19117:2012'
-    clause: '4.35'
-    link: 'https://www.iso.org/standard/46226.html'
-  date_accepted: '2012-12-15T00:00:00.000Z'
-  release: '3'
   terms:
-    - type: expression
-      designation: conjunto de símbolos
-      normative_status: preferred
+  - type: expression
+    normative_status: preferred
+    designation: conjunto de símbolos
+  definition:
+  - content: colección de símbolos
+  notes:
+  - content: Los conjuntos de símbolos se definen normalmente para una comunidad de
+      interés en concreto, para representar información del interés de dicha comunidad
+  examples: []
+  language_code: spa
+  entry_status: valid
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19117:2012
+      clause: '4.35'
+      link: https://www.iso.org/standard/46226.html
+  dates:
+  - type: accepted
+    date: '2012-12-15T00:00:00.000Z'
+  release: '3'
   _revisions:
-    current: '9e1867'
+    current: 9e1867
     tree:
-      '9e1867':
+      9e1867:
         object:
           id: 1329
           definition: colección de símbolos
           language_code: spa
           notes:
-            - >-
-              Los conjuntos de símbolos se definen normalmente para una
-              comunidad de interés en concreto, para representar información del
-              interés de dicha comunidad
+          - Los conjuntos de símbolos se definen normalmente para una comunidad de
+            interés en concreto, para representar información del interés de dicha
+            comunidad
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19117:2012'
+            ref: ISO 19117:2012
             clause: '4.35'
-            link: 'https://www.iso.org/standard/46226.html'
+            link: https://www.iso.org/standard/46226.html
           date_accepted: '2012-12-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: conjunto de símbolos
-              normative_status: preferred
+          - type: expression
+            designation: conjunto de símbolos
+            normative_status: preferred
         parents: []
         timeCreated: '2012-12-15T00:00:00.000Z'
         author:
@@ -203,26 +216,32 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 1329
-  definition: samling av symboler
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: symbolsamling
+  definition:
+  - content: samling av symboler
+  notes:
+  - content: 'Not 1 to entry: Symbol sets are usually designed for a community of
+      interest to portray information of interest to the community.'
+  examples: []
   country_code: swe
   language_code: swe
-  notes:
-    - >-
-      Not 1 to entry: Symbol sets are usually designed for a community of
-      interest to portray information of interest to the community.
-  examples: []
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19117:2012'
-    clause: '4.35'
-    link: 'https://www.iso.org/standard/46226.html'
-  lineage_source: (Type reference to national language document)
-  date_accepted: '2012-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19117:2012
+      clause: '4.35'
+      link: https://www.iso.org/standard/46226.html
+  - type: lineage
+    origin:
+      ref: "(Type reference to national language document)"
+  dates:
+  - type: accepted
+    date: '2012-12-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: symbolsamling
-      normative_status: preferred
   _revisions:
     current: 51ca5e
     tree:
@@ -233,22 +252,21 @@ swe:
           country_code: swe
           language_code: swe
           notes:
-            - >-
-              Not 1 to entry: Symbol sets are usually designed for a community
-              of interest to portray information of interest to the community.
+          - 'Not 1 to entry: Symbol sets are usually designed for a community of interest
+            to portray information of interest to the community.'
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19117:2012'
+            ref: ISO 19117:2012
             clause: '4.35'
-            link: 'https://www.iso.org/standard/46226.html'
-          lineage_source: (Type reference to national language document)
+            link: https://www.iso.org/standard/46226.html
+          lineage_source: "(Type reference to national language document)"
           date_accepted: '2012-12-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: symbolsamling
-              normative_status: preferred
+          - type: expression
+            designation: symbolsamling
+            normative_status: preferred
         parents: []
         timeCreated: '2012-12-15T00:00:00.000Z'
         author:

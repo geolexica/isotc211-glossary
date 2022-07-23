@@ -1,31 +1,38 @@
-term: datatype <OWL>
+---
 termid: 1584
+term: datatype <OWL>
 eng:
   id: 1584
-  definition: entities that refer to a set of concrete data values
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: datatype <OWL>
+  definition:
+  - content: entities that refer to a set of concrete data values
   notes:
-    - >-
-      Datatypes are distinct from classes of individuals, the latter are denoted
+  - content: Datatypes are distinct from classes of individuals, the latter are denoted
       by URIs and may be used by reference.
   examples:
-    - 'xsd:string, xsd:integer, xsd:decimal'
+  - content: xsd:string, xsd:integer, xsd:decimal
+  language_code: eng
   entry_status: valid
-  authoritative_source:
-    ref: OWL
-  lineage_source: 'ISO 19150-2:2015, 4.1.18'
-  date_accepted: '2015-07-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: OWL
+  - type: lineage
+    origin:
+      ref: ISO 19150-2:2015, 4.1.18
+  dates:
+  - type: accepted
+    date: '2015-07-01T00:00:00.000Z'
   review_date: '2012-05-25T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2015-07-01T00:00:00.000Z'
   review_decision_event: Normal ISO processing
-  review_decision_notes: 'Publication of document ISO 19150-2:2015(E)'
+  review_decision_notes: Publication of document ISO 19150-2:2015(E)
   release: '4'
-  terms:
-    - type: expression
-      designation: datatype <OWL>
-      normative_status: preferred
   _revisions:
     current: 8a6126
     tree:
@@ -35,27 +42,26 @@ eng:
           definition: entities that refer to a set of concrete data values
           language_code: eng
           notes:
-            - >-
-              Datatypes are distinct from classes of individuals, the latter are
-              denoted by URIs and may be used by reference.
+          - Datatypes are distinct from classes of individuals, the latter are denoted
+            by URIs and may be used by reference.
           examples:
-            - 'xsd:string, xsd:integer, xsd:decimal'
+          - xsd:string, xsd:integer, xsd:decimal
           entry_status: valid
           authoritative_source:
             ref: OWL
-          lineage_source: 'ISO 19150-2:2015, 4.1.18'
+          lineage_source: ISO 19150-2:2015, 4.1.18
           date_accepted: '2015-07-01T00:00:00.000Z'
           review_date: '2012-05-25T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2015-07-01T00:00:00.000Z'
           review_decision_event: Normal ISO processing
-          review_decision_notes: 'Publication of document ISO 19150-2:2015(E)'
+          review_decision_notes: Publication of document ISO 19150-2:2015(E)
           release: '4'
           terms:
-            - type: expression
-              designation: datatype <OWL>
-              normative_status: preferred
+          - type: expression
+            designation: datatype <OWL>
+            normative_status: preferred
         parents: []
         timeCreated: '2015-07-01T00:00:00.000Z'
         author:
@@ -63,62 +69,66 @@ eng:
           email: glossarist@ribose.com
 spa:
   id: 1584
-  definition: entidades que se refieren a un conjunto de valores concretos de datos
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: tipo de datos <OWL>
+  definition:
+  - content: entidades que se refieren a un conjunto de valores concretos de datos
   notes:
-    - >-
-      Los tipos de datos son distintos de las clases de individuos, las últimas
+  - content: Los tipos de datos son distintos de las clases de individuos, las últimas
       se indican mediante URIs y se pueden usar por referencia
   examples:
-    - 'xsd:string, xsd:integer, xsd:decimal'
+  - content: xsd:string, xsd:integer, xsd:decimal
+  language_code: spa
   entry_status: valid
-  authoritative_source:
-    ref: OWL
-  lineage_source: 'ISO 19150-2:2015, 4.1.18'
-  date_accepted: '2015-07-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: OWL
+  - type: lineage
+    origin:
+      ref: ISO 19150-2:2015, 4.1.18
+  dates:
+  - type: accepted
+    date: '2015-07-01T00:00:00.000Z'
   review_date: '2012-05-25T00:00:00.000Z'
   review_status: final
   review_decision: ''
   review_decision_date: '2015-07-01T00:00:00.000Z'
   review_decision_event: Normal ISO processing
-  review_decision_notes: 'Publication of document ISO 19150-2:2015(E)'
+  review_decision_notes: Publication of document ISO 19150-2:2015(E)
   release: '4'
-  terms:
-    - type: expression
-      designation: tipo de datos <OWL>
-      normative_status: preferred
   _revisions:
     current: af7163
     tree:
       af7163:
         object:
           id: 1584
-          definition: >-
-            entidades que se refieren a un conjunto de valores concretos de
-            datos
+          definition: entidades que se refieren a un conjunto de valores concretos
+            de datos
           language_code: spa
           notes:
-            - >-
-              Los tipos de datos son distintos de las clases de individuos, las
-              últimas se indican mediante URIs y se pueden usar por referencia
+          - Los tipos de datos son distintos de las clases de individuos, las últimas
+            se indican mediante URIs y se pueden usar por referencia
           examples:
-            - 'xsd:string, xsd:integer, xsd:decimal'
+          - xsd:string, xsd:integer, xsd:decimal
           entry_status: valid
           authoritative_source:
             ref: OWL
-          lineage_source: 'ISO 19150-2:2015, 4.1.18'
+          lineage_source: ISO 19150-2:2015, 4.1.18
           date_accepted: '2015-07-01T00:00:00.000Z'
           review_date: '2012-05-25T00:00:00.000Z'
           review_status: final
           review_decision: ''
           review_decision_date: '2015-07-01T00:00:00.000Z'
           review_decision_event: Normal ISO processing
-          review_decision_notes: 'Publication of document ISO 19150-2:2015(E)'
+          review_decision_notes: Publication of document ISO 19150-2:2015(E)
           release: '4'
           terms:
-            - type: expression
-              designation: tipo de datos <OWL>
-              normative_status: preferred
+          - type: expression
+            designation: tipo de datos <OWL>
+            normative_status: preferred
         parents: []
         timeCreated: '2015-07-01T00:00:00.000Z'
         author:

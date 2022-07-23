@@ -1,51 +1,54 @@
-term: located feature
+---
 termid: 1176
+term: located feature
 eng:
   id: 1176
-  definition: feature that is linearly located along an associated (locating) feature
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: located feature
+  definition:
+  - content: feature that is linearly located along an associated (locating) feature
   notes: []
   examples:
-    - >-
-      A feature “bridge” may be a located feature along the feature “railway” [a
-      locating feature].
+  - content: A feature “bridge” may be a located feature along the feature “railway”
+      [a locating feature].
+  language_code: eng
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19148:2012'
-    clause: '4.17'
-    link: 'https://www.iso.org/standard/32566.html'
-  date_accepted: '2012-02-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19148:2012
+      clause: '4.17'
+      link: https://www.iso.org/standard/32566.html
+  dates:
+  - type: accepted
+    date: '2012-02-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: located feature
-      normative_status: preferred
   _revisions:
     current: 03a186
     tree:
       03a186:
         object:
           id: 1176
-          definition: >-
-            feature that is linearly located along an associated (locating)
+          definition: feature that is linearly located along an associated (locating)
             feature
           language_code: eng
           notes: []
           examples:
-            - >-
-              A feature “bridge” may be a located feature along the feature
-              “railway” [a locating feature].
+          - A feature “bridge” may be a located feature along the feature “railway”
+            [a locating feature].
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19148:2012'
+            ref: ISO 19148:2012
             clause: '4.17'
-            link: 'https://www.iso.org/standard/32566.html'
+            link: https://www.iso.org/standard/32566.html
           date_accepted: '2012-02-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: located feature
-              normative_status: preferred
+          - type: expression
+            designation: located feature
+            normative_status: preferred
         parents: []
         timeCreated: '2012-02-15T00:00:00.000Z'
         author:
@@ -53,24 +56,28 @@ eng:
           email: glossarist@ribose.com
 kor:
   id: 1176
-  definition: 관계된 (로케이팅) 지형지물을 따라 선형적으로 위치되어진 지형지물
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 위치된 지형지물
+  definition:
+  - content: 관계된 (로케이팅) 지형지물을 따라 선형적으로 위치되어진 지형지물
   notes: []
   examples:
-    - >-
-      A feature “bridge” may be a located feature along the feature “railway” [a
-      locating feature].
+  - content: A feature “bridge” may be a located feature along the feature “railway”
+      [a locating feature].
+  language_code: kor
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19148:2012'
-    clause: '4.17'
-    link: 'https://www.iso.org/standard/32566.html'
-  date_accepted: '2012-02-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19148:2012
+      clause: '4.17'
+      link: https://www.iso.org/standard/32566.html
+  dates:
+  - type: accepted
+    date: '2012-02-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: 위치된 지형지물
-      normative_status: preferred
   _revisions:
     current: e70c4e
     tree:
@@ -81,20 +88,19 @@ kor:
           language_code: kor
           notes: []
           examples:
-            - >-
-              A feature “bridge” may be a located feature along the feature
-              “railway” [a locating feature].
+          - A feature “bridge” may be a located feature along the feature “railway”
+            [a locating feature].
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19148:2012'
+            ref: ISO 19148:2012
             clause: '4.17'
-            link: 'https://www.iso.org/standard/32566.html'
+            link: https://www.iso.org/standard/32566.html
           date_accepted: '2012-02-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: 위치된 지형지물
-              normative_status: preferred
+          - type: expression
+            designation: 위치된 지형지물
+            normative_status: preferred
         parents: []
         timeCreated: '2012-02-15T00:00:00.000Z'
         author:
@@ -102,52 +108,56 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 1176
-  definition: 'объект, линейно расположенный вдоль связанного (размещающего) объекта'
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: локализованный объект
+  definition:
+  - content: объект, линейно расположенный вдоль связанного (размещающего) объекта
   notes: []
   examples:
-    - >-
-      Объект “мост” может быть позиционируемым объектом вдоль объекта “железная
+  - content: Объект “мост” может быть позиционируемым объектом вдоль объекта “железная
       дорога” [размещающий объект (4.18)]
+  language_code: rus
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19148:2012'
-    clause: '4.17'
-    link: 'https://www.iso.org/standard/32566.html'
-  lineage_source: 'перевод ИСО 19148:2012'
-  date_accepted: '2012-02-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19148:2012
+      clause: '4.17'
+      link: https://www.iso.org/standard/32566.html
+  - type: lineage
+    origin:
+      ref: перевод ИСО 19148:2012
+  dates:
+  - type: accepted
+    date: '2012-02-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: локализованный объект
-      normative_status: preferred
   _revisions:
     current: ca4709
     tree:
       ca4709:
         object:
           id: 1176
-          definition: >-
-            объект, линейно расположенный вдоль связанного (размещающего)
+          definition: объект, линейно расположенный вдоль связанного (размещающего)
             объекта
           language_code: rus
           notes: []
           examples:
-            - >-
-              Объект “мост” может быть позиционируемым объектом вдоль объекта
-              “железная дорога” [размещающий объект (4.18)]
+          - Объект “мост” может быть позиционируемым объектом вдоль объекта “железная
+            дорога” [размещающий объект (4.18)]
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19148:2012'
+            ref: ISO 19148:2012
             clause: '4.17'
-            link: 'https://www.iso.org/standard/32566.html'
-          lineage_source: 'перевод ИСО 19148:2012'
+            link: https://www.iso.org/standard/32566.html
+          lineage_source: перевод ИСО 19148:2012
           date_accepted: '2012-02-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: локализованный объект
-              normative_status: preferred
+          - type: expression
+            designation: локализованный объект
+            normative_status: preferred
         parents: []
         timeCreated: '2012-02-15T00:00:00.000Z'
         author:
@@ -155,54 +165,54 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 1176
-  definition: >-
-    objeto geográfico que se localiza linealmente a lo largo de otro objeto
-    geográfico (de localización) asociado
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: objeto geográfico localizado
+  definition:
+  - content: objeto geográfico que se localiza linealmente a lo largo de otro objeto
+      geográfico (de localización) asociado
   notes: []
   examples:
-    - >-
-      Un objeto geográfico "puente" puede ser un objeto geográfico localizado a
-      lo largo del objeto geográfico "vía férrea" [un objeto geográfico de
-      localización]
+  - content: Un objeto geográfico "puente" puede ser un objeto geográfico localizado
+      a lo largo del objeto geográfico "vía férrea" [un objeto geográfico de localización]
+  language_code: spa
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19148:2012'
-    clause: '4.17'
-    link: 'https://www.iso.org/standard/32566.html'
-  date_accepted: '2012-02-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19148:2012
+      clause: '4.17'
+      link: https://www.iso.org/standard/32566.html
+  dates:
+  - type: accepted
+    date: '2012-02-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: objeto geográfico localizado
-      normative_status: preferred
   _revisions:
     current: 6d6651
     tree:
       6d6651:
         object:
           id: 1176
-          definition: >-
-            objeto geográfico que se localiza linealmente a lo largo de otro
-            objeto geográfico (de localización) asociado
+          definition: objeto geográfico que se localiza linealmente a lo largo de
+            otro objeto geográfico (de localización) asociado
           language_code: spa
           notes: []
           examples:
-            - >-
-              Un objeto geográfico "puente" puede ser un objeto geográfico
-              localizado a lo largo del objeto geográfico "vía férrea" [un
-              objeto geográfico de localización]
+          - Un objeto geográfico "puente" puede ser un objeto geográfico localizado
+            a lo largo del objeto geográfico "vía férrea" [un objeto geográfico de
+            localización]
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19148:2012'
+            ref: ISO 19148:2012
             clause: '4.17'
-            link: 'https://www.iso.org/standard/32566.html'
+            link: https://www.iso.org/standard/32566.html
           date_accepted: '2012-02-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: objeto geográfico localizado
-              normative_status: preferred
+          - type: expression
+            designation: objeto geográfico localizado
+            normative_status: preferred
         parents: []
         timeCreated: '2012-02-15T00:00:00.000Z'
         author:
@@ -210,52 +220,58 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 1176
-  definition: objekt som utgör en linjeanknuten företeelse till ett visst objekt
-  country_code: swe
-  language_code: swe
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: linjeanknutet objekt
+  definition:
+  - content: objekt som utgör en linjeanknuten företeelse till ett visst objekt
   notes: []
   examples:
-    - >-
-      A feature “bridge” may be a located feature along the feature “railway” [a
-      locating feature].
+  - content: A feature “bridge” may be a located feature along the feature “railway”
+      [a locating feature].
+  country_code: swe
+  language_code: swe
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19148:2012'
-    clause: '4.17'
-    link: 'https://www.iso.org/standard/32566.html'
-  lineage_source: (Type reference to national language document)
-  date_accepted: '2012-02-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19148:2012
+      clause: '4.17'
+      link: https://www.iso.org/standard/32566.html
+  - type: lineage
+    origin:
+      ref: "(Type reference to national language document)"
+  dates:
+  - type: accepted
+    date: '2012-02-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: linjeanknutet objekt
-      normative_status: preferred
   _revisions:
     current: e850aa
     tree:
       e850aa:
         object:
           id: 1176
-          definition: objekt som utgör en linjeanknuten företeelse till ett visst objekt
+          definition: objekt som utgör en linjeanknuten företeelse till ett visst
+            objekt
           country_code: swe
           language_code: swe
           notes: []
           examples:
-            - >-
-              A feature “bridge” may be a located feature along the feature
-              “railway” [a locating feature].
+          - A feature “bridge” may be a located feature along the feature “railway”
+            [a locating feature].
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19148:2012'
+            ref: ISO 19148:2012
             clause: '4.17'
-            link: 'https://www.iso.org/standard/32566.html'
-          lineage_source: (Type reference to national language document)
+            link: https://www.iso.org/standard/32566.html
+          lineage_source: "(Type reference to national language document)"
           date_accepted: '2012-02-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: linjeanknutet objekt
-              normative_status: preferred
+          - type: expression
+            designation: linjeanknutet objekt
+            normative_status: preferred
         parents: []
         timeCreated: '2012-02-15T00:00:00.000Z'
         author:

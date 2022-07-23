@@ -1,51 +1,55 @@
-term: loosely coupled interface
+---
 termid: 672
+term: loosely coupled interface
 eng:
   id: 672
-  definition: >-
-    message-based service interface based on a common taxonomic definition and
-    independent of the particulars of message format or representation and of
-    the internal implementation of the service
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: loosely coupled interface
+  definition:
+  - content: message-based service interface based on a common taxonomic definition
+      and independent of the particulars of message format or representation and of
+      the internal implementation of the service
   notes:
-    - cf. coupling
+  - content: cf. coupling
   examples: []
+  language_code: eng
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19132:2007'
-    link: 'https://www.iso.org/standard/40601.html'
-  date_accepted: '2007-10-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19132:2007
+      link: https://www.iso.org/standard/40601.html
+  dates:
+  - type: accepted
+    date: '2007-10-15T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: loosely coupled interface
-      normative_status: preferred
   _revisions:
     current: '113543'
     tree:
       '113543':
         object:
           id: 672
-          definition: >-
-            message-based service interface based on a common taxonomic
-            definition and independent of the particulars of message format or
-            representation and of the internal implementation of the service
+          definition: message-based service interface based on a common taxonomic
+            definition and independent of the particulars of message format or representation
+            and of the internal implementation of the service
           language_code: eng
           notes:
-            - cf. coupling
+          - cf. coupling
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19132:2007'
-            link: 'https://www.iso.org/standard/40601.html'
+            ref: ISO 19132:2007
+            link: https://www.iso.org/standard/40601.html
           date_accepted: '2007-10-15T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: loosely coupled interface
-              normative_status: preferred
+          - type: expression
+            designation: loosely coupled interface
+            normative_status: preferred
         parents: []
         timeCreated: '2007-10-15T00:00:00.000Z'
         author:
@@ -53,49 +57,52 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 672
-  definition: >-
-    واجهة خدمة مبنية على الرسائل وهي نفسها مبنية على تعريف تصنيفي ومستقل عن
-    التفاصيل الدقيقة لصيغ الرسائل أو عرضها ومستقلة عن التنفيذ الداخلي للخدمة
-  language_code: ara
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: واجهة ربط حره
+  definition:
+  - content: واجهة خدمة مبنية على الرسائل وهي نفسها مبنية على تعريف تصنيفي ومستقل
+      عن التفاصيل الدقيقة لصيغ الرسائل أو عرضها ومستقلة عن التنفيذ الداخلي للخدمة
   notes:
-    - قارن بـ " الربط".
+  - content: قارن بـ " الربط".
   examples: []
+  language_code: ara
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19132:2007'
-    link: 'https://www.iso.org/standard/40601.html'
-  date_accepted: '2007-10-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19132:2007
+      link: https://www.iso.org/standard/40601.html
+  dates:
+  - type: accepted
+    date: '2007-10-15T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: واجهة ربط حره
-      normative_status: preferred
   _revisions:
     current: d2e0ab
     tree:
       d2e0ab:
         object:
           id: 672
-          definition: >-
-            واجهة خدمة مبنية على الرسائل وهي نفسها مبنية على تعريف تصنيفي ومستقل
-            عن التفاصيل الدقيقة لصيغ الرسائل أو عرضها ومستقلة عن التنفيذ الداخلي
+          definition: واجهة خدمة مبنية على الرسائل وهي نفسها مبنية على تعريف تصنيفي
+            ومستقل عن التفاصيل الدقيقة لصيغ الرسائل أو عرضها ومستقلة عن التنفيذ الداخلي
             للخدمة
           language_code: ara
           notes:
-            - قارن بـ " الربط".
+          - قارن بـ " الربط".
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19132:2007'
-            link: 'https://www.iso.org/standard/40601.html'
+            ref: ISO 19132:2007
+            link: https://www.iso.org/standard/40601.html
           date_accepted: '2007-10-15T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: واجهة ربط حره
-              normative_status: preferred
+          - type: expression
+            designation: واجهة ربط حره
+            normative_status: preferred
         parents: []
         timeCreated: '2007-10-15T00:00:00.000Z'
         author:
@@ -103,20 +110,25 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 672
-  definition: 基于消息的服务接口以一种通常的分类学的定义作为基础，该接口不受消息格式的细节或表示以及服务的内在实现的影响。
-  language_code: zho
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 松耦合接口
+  definition:
+  - content: 基于消息的服务接口以一种通常的分类学的定义作为基础，该接口不受消息格式的细节或表示以及服务的内在实现的影响。
   notes: []
   examples: []
+  language_code: zho
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19132:2007'
-    link: 'https://www.iso.org/standard/40601.html'
-  date_accepted: '2007-10-15T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: 松耦合接口
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19132:2007
+      link: https://www.iso.org/standard/40601.html
+  dates:
+  - type: accepted
+    date: '2007-10-15T00:00:00.000Z'
   _revisions:
     current: '555630'
     tree:
@@ -130,13 +142,13 @@ zho:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19132:2007'
-            link: 'https://www.iso.org/standard/40601.html'
+            ref: ISO 19132:2007
+            link: https://www.iso.org/standard/40601.html
           date_accepted: '2007-10-15T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: 松耦合接口
-              normative_status: preferred
+          - type: expression
+            designation: 松耦合接口
+            normative_status: preferred
         parents: []
         timeCreated: '2007-10-15T00:00:00.000Z'
         author:
@@ -144,50 +156,55 @@ zho:
           email: glossarist@ribose.com
 fin:
   id: 672
-  definition: >-
-    sanomapohjainen palvelurajapinta, joka perustuu yleiseen luokitteluun ja on
-    riippumaton sanoman esitysmuodon tai esityksen yksityiskohdista sekä
-    palvelun sisäisestä toteutuksesta
-  language_code: fin
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: löyhästi kytketty rajapinta
+  definition:
+  - content: sanomapohjainen palvelurajapinta, joka perustuu yleiseen luokitteluun
+      ja on riippumaton sanoman esitysmuodon tai esityksen yksityiskohdista sekä palvelun
+      sisäisestä toteutuksesta
   notes:
-    - Katso kytkentä.
+  - content: Katso kytkentä.
   examples: []
+  language_code: fin
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19132:2007'
-    link: 'https://www.iso.org/standard/40601.html'
-  lineage_source: 'Ei lähdettä, käännetty'
-  date_accepted: '2007-10-15T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: löyhästi kytketty rajapinta
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19132:2007
+      link: https://www.iso.org/standard/40601.html
+  - type: lineage
+    origin:
+      ref: Ei lähdettä, käännetty
+  dates:
+  - type: accepted
+    date: '2007-10-15T00:00:00.000Z'
   _revisions:
     current: '591889'
     tree:
       '591889':
         object:
           id: 672
-          definition: >-
-            sanomapohjainen palvelurajapinta, joka perustuu yleiseen
-            luokitteluun ja on riippumaton sanoman esitysmuodon tai esityksen
-            yksityiskohdista sekä palvelun sisäisestä toteutuksesta
+          definition: sanomapohjainen palvelurajapinta, joka perustuu yleiseen luokitteluun
+            ja on riippumaton sanoman esitysmuodon tai esityksen yksityiskohdista
+            sekä palvelun sisäisestä toteutuksesta
           language_code: fin
           notes:
-            - Katso kytkentä.
+          - Katso kytkentä.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19132:2007'
-            link: 'https://www.iso.org/standard/40601.html'
-          lineage_source: 'Ei lähdettä, käännetty'
+            ref: ISO 19132:2007
+            link: https://www.iso.org/standard/40601.html
+          lineage_source: Ei lähdettä, käännetty
           date_accepted: '2007-10-15T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: löyhästi kytketty rajapinta
-              normative_status: preferred
+          - type: expression
+            designation: löyhästi kytketty rajapinta
+            normative_status: preferred
         parents: []
         timeCreated: '2007-10-15T00:00:00.000Z'
         author:
@@ -195,46 +212,51 @@ fin:
           email: glossarist@ribose.com
 fra:
   id: 672
-  definition: >-
-    interface de service à base de messages basée sur une définition taxonomique
-    commune et indépendante des particularités de format de message ou de
-    représentation et d'implémentation interne du service
-  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: interface faiblement couplée
+  definition:
+  - content: interface de service à base de messages basée sur une définition taxonomique
+      commune et indépendante des particularités de format de message ou de représentation
+      et d'implémentation interne du service
   notes: []
   examples: []
+  language_code: fra
   entry_status: valid
-  authoritative_source:
-    ref: ISO 19132
-    link: 'https://www.iso.org/standard/40601.html'
-  lineage_source: ''
-  date_accepted: '2007-10-15T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: interface faiblement couplée
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19132
+      link: https://www.iso.org/standard/40601.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2007-10-15T00:00:00.000Z'
   _revisions:
     current: fd6d0d
     tree:
       fd6d0d:
         object:
           id: 672
-          definition: >-
-            interface de service à base de messages basée sur une définition
-            taxonomique commune et indépendante des particularités de format de
-            message ou de représentation et d'implémentation interne du service
+          definition: interface de service à base de messages basée sur une définition
+            taxonomique commune et indépendante des particularités de format de message
+            ou de représentation et d'implémentation interne du service
           language_code: fra
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
             ref: ISO 19132
-            link: 'https://www.iso.org/standard/40601.html'
+            link: https://www.iso.org/standard/40601.html
           lineage_source: ''
           date_accepted: '2007-10-15T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: interface faiblement couplée
-              normative_status: preferred
+          - type: expression
+            designation: interface faiblement couplée
+            normative_status: preferred
         parents: []
         timeCreated: '2007-10-15T00:00:00.000Z'
         author:
@@ -242,21 +264,25 @@ fra:
           email: glossarist@ribose.com
 deu:
   id: 672
-  language_code: deu
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Loosely Coupled Interface
   notes:
-    - cf. coupling
+  - content: cf. coupling
   examples: []
+  language_code: deu
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19132:2007'
-    link: 'https://www.iso.org/standard/40601.html'
-  date_accepted: '2007-10-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19132:2007
+      link: https://www.iso.org/standard/40601.html
+  dates:
+  - type: accepted
+    date: '2007-10-15T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: Loosely Coupled Interface
-      normative_status: preferred
   _revisions:
     current: '446306'
     tree:
@@ -265,19 +291,19 @@ deu:
           id: 672
           language_code: deu
           notes:
-            - cf. coupling
+          - cf. coupling
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19132:2007'
-            link: 'https://www.iso.org/standard/40601.html'
+            ref: ISO 19132:2007
+            link: https://www.iso.org/standard/40601.html
           date_accepted: '2007-10-15T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: Loosely Coupled Interface
-              normative_status: preferred
+          - type: expression
+            designation: Loosely Coupled Interface
+            normative_status: preferred
         parents: []
         timeCreated: '2007-10-15T00:00:00.000Z'
         author:
@@ -285,48 +311,54 @@ deu:
           email: glossarist@ribose.com
 kor:
   id: 672
-  definition: '공통 분류 정의를 바탕으로 하며, 메시지 포맷 명세와 표현 그리고 서비스의 내부 구현과 무관한 메시지 기반의 서비스 인터페이스'
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 약결합 인터페이스
+  definition:
+  - content: 공통 분류 정의를 바탕으로 하며, 메시지 포맷 명세와 표현 그리고 서비스의 내부 구현과 무관한 메시지 기반의 서비스 인터페이스
   notes:
-    - '''결합'' 참고'
+  - content: "'결합' 참고"
   examples: []
+  language_code: kor
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19132:2007'
-    link: 'https://www.iso.org/standard/40601.html'
-  lineage_source: KS X ISO 19132
-  date_accepted: '2009-12-29T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19132:2007
+      link: https://www.iso.org/standard/40601.html
+  - type: lineage
+    origin:
+      ref: KS X ISO 19132
+  dates:
+  - type: accepted
+    date: '2009-12-29T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: 약결합 인터페이스
-      normative_status: preferred
   _revisions:
     current: 864b26
     tree:
       864b26:
         object:
           id: 672
-          definition: >-
-            공통 분류 정의를 바탕으로 하며, 메시지 포맷 명세와 표현 그리고 서비스의 내부 구현과 무관한 메시지 기반의 서비스
-            인터페이스
+          definition: 공통 분류 정의를 바탕으로 하며, 메시지 포맷 명세와 표현 그리고 서비스의 내부 구현과 무관한 메시지 기반의
+            서비스 인터페이스
           language_code: kor
           notes:
-            - '''결합'' 참고'
+          - "'결합' 참고"
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19132:2007'
-            link: 'https://www.iso.org/standard/40601.html'
+            ref: ISO 19132:2007
+            link: https://www.iso.org/standard/40601.html
           lineage_source: KS X ISO 19132
           date_accepted: '2009-12-29T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: 약결합 인터페이스
-              normative_status: preferred
+          - type: expression
+            designation: 약결합 인터페이스
+            normative_status: preferred
         parents: []
         timeCreated: '2009-12-29T00:00:00.000Z'
         author:
@@ -334,50 +366,55 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 672
-  definition: >-
-    сервисный интерфейс, основанный на передаче сообщений и общем
-    таксономическом определении, и не зависимый от особенностей формата
-    сообщений, представления и от внутренней реализации сервиса
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: слабосвязанный интерфейс
+  definition:
+  - content: сервисный интерфейс, основанный на передаче сообщений и общем таксономическом
+      определении, и не зависимый от особенностей формата сообщений, представления
+      и от внутренней реализации сервиса
   notes:
-    - См. для сравнения  термин «соединение»
+  - content: См. для сравнения  термин «соединение»
   examples: []
+  language_code: rus
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19132:2007'
-    link: 'https://www.iso.org/standard/40601.html'
-  lineage_source: Internet
-  date_accepted: '2007-10-15T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: слабосвязанный интерфейс
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19132:2007
+      link: https://www.iso.org/standard/40601.html
+  - type: lineage
+    origin:
+      ref: Internet
+  dates:
+  - type: accepted
+    date: '2007-10-15T00:00:00.000Z'
   _revisions:
     current: b64fea
     tree:
       b64fea:
         object:
           id: 672
-          definition: >-
-            сервисный интерфейс, основанный на передаче сообщений и общем
-            таксономическом определении, и не зависимый от особенностей формата
-            сообщений, представления и от внутренней реализации сервиса
+          definition: сервисный интерфейс, основанный на передаче сообщений и общем
+            таксономическом определении, и не зависимый от особенностей формата сообщений,
+            представления и от внутренней реализации сервиса
           language_code: rus
           notes:
-            - См. для сравнения  термин «соединение»
+          - См. для сравнения  термин «соединение»
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19132:2007'
-            link: 'https://www.iso.org/standard/40601.html'
+            ref: ISO 19132:2007
+            link: https://www.iso.org/standard/40601.html
           lineage_source: Internet
           date_accepted: '2007-10-15T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: слабосвязанный интерфейс
-              normative_status: preferred
+          - type: expression
+            designation: слабосвязанный интерфейс
+            normative_status: preferred
         parents: []
         timeCreated: '2007-10-15T00:00:00.000Z'
         author:
@@ -385,51 +422,54 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 672
-  definition: >-
-    interfaz de servicio basada en mensajes, basada en una definición taxonómica
-    común e independiente de las particularidades del formato de los mensajes o
-    de su representación y de la implementación interna del servicio
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: interfaz débilmente acoplada
+  definition:
+  - content: interfaz de servicio basada en mensajes, basada en una definición taxonómica
+      común e independiente de las particularidades del formato de los mensajes o
+      de su representación y de la implementación interna del servicio
   notes:
-    - Compárese con acoplamiento
+  - content: Compárese con acoplamiento
   examples: []
+  language_code: spa
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19132:2007'
-    link: 'https://www.iso.org/standard/40601.html'
-  date_accepted: '2007-10-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19132:2007
+      link: https://www.iso.org/standard/40601.html
+  dates:
+  - type: accepted
+    date: '2007-10-15T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: interfaz débilmente acoplada
-      normative_status: preferred
   _revisions:
     current: f72971
     tree:
       f72971:
         object:
           id: 672
-          definition: >-
-            interfaz de servicio basada en mensajes, basada en una definición
-            taxonómica común e independiente de las particularidades del formato
-            de los mensajes o de su representación y de la implementación
-            interna del servicio
+          definition: interfaz de servicio basada en mensajes, basada en una definición
+            taxonómica común e independiente de las particularidades del formato de
+            los mensajes o de su representación y de la implementación interna del
+            servicio
           language_code: spa
           notes:
-            - Compárese con acoplamiento
+          - Compárese con acoplamiento
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19132:2007'
-            link: 'https://www.iso.org/standard/40601.html'
+            ref: ISO 19132:2007
+            link: https://www.iso.org/standard/40601.html
           date_accepted: '2007-10-15T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: interfaz débilmente acoplada
-              normative_status: preferred
+          - type: expression
+            designation: interfaz débilmente acoplada
+            normative_status: preferred
         parents: []
         timeCreated: '2007-10-15T00:00:00.000Z'
         author:

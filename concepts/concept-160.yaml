@@ -1,22 +1,28 @@
-term: event
+---
 termid: 160
+term: event
 eng:
   id: 160
-  definition: action which occurs at an instant
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: event
+  definition:
+  - content: action which occurs at an instant
   notes: []
   examples: []
+  language_code: eng
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19108:2002'
-    link: 'https://www.iso.org/standard/26013.html'
-  date_accepted: '2002-09-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19108:2002
+      link: https://www.iso.org/standard/26013.html
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: event
-      normative_status: preferred
   _revisions:
     current: 9a77b2
     tree:
@@ -30,14 +36,14 @@ eng:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19108:2002'
-            link: 'https://www.iso.org/standard/26013.html'
+            ref: ISO 19108:2002
+            link: https://www.iso.org/standard/26013.html
           date_accepted: '2002-09-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: event
-              normative_status: preferred
+          - type: expression
+            designation: event
+            normative_status: preferred
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:
@@ -45,21 +51,26 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 160
-  definition: العمل الذي يحدث في لحظه
-  language_code: ara
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: حدث
+  definition:
+  - content: العمل الذي يحدث في لحظه
   notes: []
   examples: []
+  language_code: ara
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19108:2002'
-    link: 'https://www.iso.org/standard/26013.html'
-  date_accepted: '2002-09-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19108:2002
+      link: https://www.iso.org/standard/26013.html
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: حدث
-      normative_status: preferred
   _revisions:
     current: ecd9fd
     tree:
@@ -73,14 +84,14 @@ ara:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19108:2002'
-            link: 'https://www.iso.org/standard/26013.html'
+            ref: ISO 19108:2002
+            link: https://www.iso.org/standard/26013.html
           date_accepted: '2002-09-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: حدث
-              normative_status: preferred
+          - type: expression
+            designation: حدث
+            normative_status: preferred
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:
@@ -88,20 +99,25 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 160
-  definition: 在某时刻发生的活动。
-  language_code: zho
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 事件
+  definition:
+  - content: 在某时刻发生的活动。
   notes: []
   examples: []
+  language_code: zho
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19108:2002'
-    link: 'https://www.iso.org/standard/26013.html'
-  date_accepted: '2002-09-01T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: 事件
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19108:2002
+      link: https://www.iso.org/standard/26013.html
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   _revisions:
     current: bab9fd
     tree:
@@ -115,13 +131,13 @@ zho:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19108:2002'
-            link: 'https://www.iso.org/standard/26013.html'
+            ref: ISO 19108:2002
+            link: https://www.iso.org/standard/26013.html
           date_accepted: '2002-09-01T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: 事件
-              normative_status: preferred
+          - type: expression
+            designation: 事件
+            normative_status: preferred
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:
@@ -129,38 +145,42 @@ zho:
           email: glossarist@ribose.com
 dan:
   id: 160
-  definition: 'handling, der sker i et øjeblik'
-  language_code: dan
+  terms:
+  - type: expression
+    designation: hændelse
+  definition:
+  - content: handling, der sker i et øjeblik
   notes: []
   examples: []
-  authoritative_source:
-    ref: 'ISO 19108:2002'
-    link: 'https://www.iso.org/standard/26013.html'
-  date_accepted: '2002-09-01T00:00:00.000Z'
+  language_code: dan
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19108:2002
+      link: https://www.iso.org/standard/26013.html
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: hændelse
-      normative_status: null
   _revisions:
     current: 71a485
     tree:
       71a485:
         object:
           id: 160
-          definition: 'handling, der sker i et øjeblik'
+          definition: handling, der sker i et øjeblik
           language_code: dan
           notes: []
           examples: []
           authoritative_source:
-            ref: 'ISO 19108:2002'
-            link: 'https://www.iso.org/standard/26013.html'
+            ref: ISO 19108:2002
+            link: https://www.iso.org/standard/26013.html
           date_accepted: '2002-09-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: hændelse
-              normative_status: null
+          - type: expression
+            designation: hændelse
+            normative_status:
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:
@@ -168,21 +188,28 @@ dan:
           email: glossarist@ribose.com
 fin:
   id: 160
-  definition: tiettyyn hetkeen ajoittuva toiminta
-  language_code: fin
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: tapahtuma
+  definition:
+  - content: tiettyyn hetkeen ajoittuva toiminta
   notes: []
   examples: []
+  language_code: fin
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19108:2002'
-    link: 'https://www.iso.org/standard/26013.html'
-  lineage_source: MOT Englanti 4.6
-  date_accepted: '2002-09-01T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: tapahtuma
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19108:2002
+      link: https://www.iso.org/standard/26013.html
+  - type: lineage
+    origin:
+      ref: MOT Englanti 4.6
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   _revisions:
     current: ec0c97
     tree:
@@ -196,14 +223,14 @@ fin:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19108:2002'
-            link: 'https://www.iso.org/standard/26013.html'
+            ref: ISO 19108:2002
+            link: https://www.iso.org/standard/26013.html
           lineage_source: MOT Englanti 4.6
           date_accepted: '2002-09-01T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: tapahtuma
-              normative_status: preferred
+          - type: expression
+            designation: tapahtuma
+            normative_status: preferred
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:
@@ -211,20 +238,27 @@ fin:
           email: glossarist@ribose.com
 fra:
   id: 160
-  definition: action arrivant à un instant (donné)
-  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: événement
+  definition:
+  - content: action arrivant à un instant (donné)
   notes: []
   examples: []
+  language_code: fra
   entry_status: valid
-  authoritative_source:
-    ref: ISO 19108
-    link: 'https://www.iso.org/standard/26013.html'
-  lineage_source: ''
-  date_accepted: '2002-09-01T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: événement
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19108
+      link: https://www.iso.org/standard/26013.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   _revisions:
     current: 55edeb
     tree:
@@ -238,13 +272,13 @@ fra:
           entry_status: valid
           authoritative_source:
             ref: ISO 19108
-            link: 'https://www.iso.org/standard/26013.html'
+            link: https://www.iso.org/standard/26013.html
           lineage_source: ''
           date_accepted: '2002-09-01T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: événement
-              normative_status: preferred
+          - type: expression
+            designation: événement
+            normative_status: preferred
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:
@@ -252,21 +286,26 @@ fra:
           email: glossarist@ribose.com
 deu:
   id: 160
-  definition: augenblickliches Ereignis
-  language_code: deu
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Ereignis
+  definition:
+  - content: augenblickliches Ereignis
   notes: []
   examples: []
+  language_code: deu
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19108:2002'
-    link: 'https://www.iso.org/standard/26013.html'
-  date_accepted: '2002-09-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19108:2002
+      link: https://www.iso.org/standard/26013.html
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: Ereignis
-      normative_status: preferred
   _revisions:
     current: d2ee63
     tree:
@@ -280,14 +319,14 @@ deu:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19108:2002'
-            link: 'https://www.iso.org/standard/26013.html'
+            ref: ISO 19108:2002
+            link: https://www.iso.org/standard/26013.html
           date_accepted: '2002-09-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: Ereignis
-              normative_status: preferred
+          - type: expression
+            designation: Ereignis
+            normative_status: preferred
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:
@@ -295,21 +334,28 @@ deu:
           email: glossarist@ribose.com
 jpn:
   id: 160
-  definition: ある瞬間に起こる動作。
-  language_code: jpn
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 事象
+  definition:
+  - content: ある瞬間に起こる動作。
   notes: []
   examples: []
+  language_code: jpn
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19108:2002'
-    link: 'https://www.iso.org/standard/26013.html'
-  lineage_source: JIS X 7108
-  date_accepted: '2002-09-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19108:2002
+      link: https://www.iso.org/standard/26013.html
+  - type: lineage
+    origin:
+      ref: JIS X 7108
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: 事象
-      normative_status: preferred
   _revisions:
     current: ddeb47
     tree:
@@ -322,15 +368,15 @@ jpn:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19108:2002'
-            link: 'https://www.iso.org/standard/26013.html'
+            ref: ISO 19108:2002
+            link: https://www.iso.org/standard/26013.html
           lineage_source: JIS X 7108
           date_accepted: '2002-09-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: 事象
-              normative_status: preferred
+          - type: expression
+            designation: 事象
+            normative_status: preferred
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:
@@ -338,24 +384,31 @@ jpn:
           email: glossarist@ribose.com
 kor:
   id: 160
-  definition: 어떤 인스턴트에 일어나는 행위
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 사건
+  - type: expression
+    designation: 이벤트
+  definition:
+  - content: 어떤 인스턴트에 일어나는 행위
   notes: []
   examples: []
+  language_code: kor
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19108:2002'
-    link: 'https://www.iso.org/standard/26013.html'
-  lineage_source: KS X ISO 19108
-  date_accepted: '2007-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19108:2002
+      link: https://www.iso.org/standard/26013.html
+  - type: lineage
+    origin:
+      ref: KS X ISO 19108
+  dates:
+  - type: accepted
+    date: '2007-11-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: 사건
-      normative_status: preferred
-    - designation: 이벤트
-      type: expression
   _revisions:
     current: '450904'
     tree:
@@ -369,17 +422,17 @@ kor:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19108:2002'
-            link: 'https://www.iso.org/standard/26013.html'
+            ref: ISO 19108:2002
+            link: https://www.iso.org/standard/26013.html
           lineage_source: KS X ISO 19108
           date_accepted: '2007-11-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: 사건
-              normative_status: preferred
-            - designation: 이벤트
-              type: expression
+          - type: expression
+            designation: 사건
+            normative_status: preferred
+          - designation: 이벤트
+            type: expression
         parents: []
         timeCreated: '2007-11-01T00:00:00.000Z'
         author:
@@ -387,40 +440,47 @@ kor:
           email: glossarist@ribose.com
 pol:
   id: 160
-  definition: 'akcja, która następuje w danym momencie'
-  language_code: pol
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: zdarzenie
+  definition:
+  - content: akcja, która następuje w danym momencie
   notes: []
   examples: []
-  authoritative_source:
-    ref: 'ISO 19108:2002'
-    link: 'https://www.iso.org/standard/26013.html'
-  lineage_source: PN-EN ISO 19108
-  date_accepted: '2002-09-01T00:00:00.000Z'
+  language_code: pol
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19108:2002
+      link: https://www.iso.org/standard/26013.html
+  - type: lineage
+    origin:
+      ref: PN-EN ISO 19108
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: zdarzenie
-      normative_status: preferred
   _revisions:
     current: 7820f8
     tree:
       7820f8:
         object:
           id: 160
-          definition: 'akcja, która następuje w danym momencie'
+          definition: akcja, która następuje w danym momencie
           language_code: pol
           notes: []
           examples: []
           authoritative_source:
-            ref: 'ISO 19108:2002'
-            link: 'https://www.iso.org/standard/26013.html'
+            ref: ISO 19108:2002
+            link: https://www.iso.org/standard/26013.html
           lineage_source: PN-EN ISO 19108
           date_accepted: '2002-09-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: zdarzenie
-              normative_status: preferred
+          - type: expression
+            designation: zdarzenie
+            normative_status: preferred
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:
@@ -428,42 +488,49 @@ pol:
           email: glossarist@ribose.com
 rus:
   id: 160
-  definition: 'действие, происходящее моментально'
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: событие
+  definition:
+  - content: действие, происходящее моментально
   notes: []
   examples: []
+  language_code: rus
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19108:2002'
-    link: 'https://www.iso.org/standard/26013.html'
-  lineage_source: Internet
-  date_accepted: '2002-09-01T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: событие
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19108:2002
+      link: https://www.iso.org/standard/26013.html
+  - type: lineage
+    origin:
+      ref: Internet
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   _revisions:
     current: ad80d8
     tree:
       ad80d8:
         object:
           id: 160
-          definition: 'действие, происходящее моментально'
+          definition: действие, происходящее моментально
           language_code: rus
           notes: []
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19108:2002'
-            link: 'https://www.iso.org/standard/26013.html'
+            ref: ISO 19108:2002
+            link: https://www.iso.org/standard/26013.html
           lineage_source: Internet
           date_accepted: '2002-09-01T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: событие
-              normative_status: preferred
+          - type: expression
+            designation: событие
+            normative_status: preferred
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:
@@ -471,20 +538,25 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 160
-  definition: acción que ocurre en un instante
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: evento
+  definition:
+  - content: acción que ocurre en un instante
   notes: []
   examples: []
+  language_code: spa
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19108:2002'
-    link: 'https://www.iso.org/standard/26013.html'
-  date_accepted: '2002-09-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19108:2002
+      link: https://www.iso.org/standard/26013.html
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: evento
-      normative_status: preferred
   _revisions:
     current: 3c90be
     tree:
@@ -497,14 +569,14 @@ spa:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19108:2002'
-            link: 'https://www.iso.org/standard/26013.html'
+            ref: ISO 19108:2002
+            link: https://www.iso.org/standard/26013.html
           date_accepted: '2002-09-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: evento
-              normative_status: preferred
+          - type: expression
+            designation: evento
+            normative_status: preferred
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:
@@ -512,23 +584,30 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 160
-  definition: förändring som sker vid en viss tidpunkt
-  country_code: swe
-  language_code: swe
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: händelse
+  definition:
+  - content: förändring som sker vid en viss tidpunkt
   notes: []
   examples: []
+  country_code: swe
+  language_code: swe
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19108:2002'
-    link: 'https://www.iso.org/standard/26013.html'
-  lineage_source: (Type reference to national language document)
-  date_accepted: '2002-09-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19108:2002
+      link: https://www.iso.org/standard/26013.html
+  - type: lineage
+    origin:
+      ref: "(Type reference to national language document)"
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: händelse
-      normative_status: preferred
   _revisions:
     current: d79e9d
     tree:
@@ -543,15 +622,15 @@ swe:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19108:2002'
-            link: 'https://www.iso.org/standard/26013.html'
-          lineage_source: (Type reference to national language document)
+            ref: ISO 19108:2002
+            link: https://www.iso.org/standard/26013.html
+          lineage_source: "(Type reference to national language document)"
           date_accepted: '2002-09-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: händelse
-              normative_status: preferred
+          - type: expression
+            designation: händelse
+            normative_status: preferred
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:

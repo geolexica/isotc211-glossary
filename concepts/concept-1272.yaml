@@ -1,22 +1,28 @@
-term: simple symbol
+---
 termid: 1272
+term: simple symbol
 eng:
   id: 1272
-  definition: symbol that is neither compound nor parameterized
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: simple symbol
+  definition:
+  - content: symbol that is neither compound nor parameterized
   notes: []
   examples: []
+  language_code: eng
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19117:2012'
-    clause: '4.28'
-    link: 'https://www.iso.org/standard/46226.html'
-  date_accepted: '2012-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19117:2012
+      clause: '4.28'
+      link: https://www.iso.org/standard/46226.html
+  dates:
+  - type: accepted
+    date: '2012-12-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: simple symbol
-      normative_status: preferred
   _revisions:
     current: a5299f
     tree:
@@ -29,15 +35,15 @@ eng:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19117:2012'
+            ref: ISO 19117:2012
             clause: '4.28'
-            link: 'https://www.iso.org/standard/46226.html'
+            link: https://www.iso.org/standard/46226.html
           date_accepted: '2012-12-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: simple symbol
-              normative_status: preferred
+          - type: expression
+            designation: simple symbol
+            normative_status: preferred
         parents: []
         timeCreated: '2012-12-15T00:00:00.000Z'
         author:
@@ -45,42 +51,47 @@ eng:
           email: glossarist@ribose.com
 kor:
   id: 1272
-  definition: '복합적, 매개변수화되지 않은 기호'
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 단순 기호
+  definition:
+  - content: 복합적, 매개변수화되지 않은 기호
   notes: []
   examples: []
+  language_code: kor
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19117:2012'
-    clause: '4.28'
-    link: 'https://www.iso.org/standard/46226.html'
-  date_accepted: '2012-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19117:2012
+      clause: '4.28'
+      link: https://www.iso.org/standard/46226.html
+  dates:
+  - type: accepted
+    date: '2012-12-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: 단순 기호
-      normative_status: preferred
   _revisions:
     current: 6a16c9
     tree:
       6a16c9:
         object:
           id: 1272
-          definition: '복합적, 매개변수화되지 않은 기호'
+          definition: 복합적, 매개변수화되지 않은 기호
           language_code: kor
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19117:2012'
+            ref: ISO 19117:2012
             clause: '4.28'
-            link: 'https://www.iso.org/standard/46226.html'
+            link: https://www.iso.org/standard/46226.html
           date_accepted: '2012-12-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: 단순 기호
-              normative_status: preferred
+          - type: expression
+            designation: 단순 기호
+            normative_status: preferred
         parents: []
         timeCreated: '2012-12-15T00:00:00.000Z'
         author:
@@ -88,44 +99,51 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 1272
-  definition: 'символ, который не является ни составным, ни параметризованным'
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: простой символ
+  definition:
+  - content: символ, который не является ни составным, ни параметризованным
   notes: []
   examples: []
+  language_code: rus
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19117:2012'
-    clause: '4.28'
-    link: 'https://www.iso.org/standard/46226.html'
-  lineage_source: 'перевод ИСО  19117:2012'
-  date_accepted: '2012-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19117:2012
+      clause: '4.28'
+      link: https://www.iso.org/standard/46226.html
+  - type: lineage
+    origin:
+      ref: перевод ИСО  19117:2012
+  dates:
+  - type: accepted
+    date: '2012-12-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: простой символ
-      normative_status: preferred
   _revisions:
-    current: 0841b8
+    current: '0841b8'
     tree:
-      0841b8:
+      '0841b8':
         object:
           id: 1272
-          definition: 'символ, который не является ни составным, ни параметризованным'
+          definition: символ, который не является ни составным, ни параметризованным
           language_code: rus
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19117:2012'
+            ref: ISO 19117:2012
             clause: '4.28'
-            link: 'https://www.iso.org/standard/46226.html'
-          lineage_source: 'перевод ИСО  19117:2012'
+            link: https://www.iso.org/standard/46226.html
+          lineage_source: перевод ИСО  19117:2012
           date_accepted: '2012-12-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: простой символ
-              normative_status: preferred
+          - type: expression
+            designation: простой символ
+            normative_status: preferred
         parents: []
         timeCreated: '2012-12-15T00:00:00.000Z'
         author:
@@ -133,21 +151,26 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 1272
-  definition: símbolo que no está ni compuesto ni parametrizado
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: símbolo simple
+  definition:
+  - content: símbolo que no está ni compuesto ni parametrizado
   notes: []
   examples: []
+  language_code: spa
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19117:2012'
-    clause: '4.28'
-    link: 'https://www.iso.org/standard/46226.html'
-  date_accepted: '2012-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19117:2012
+      clause: '4.28'
+      link: https://www.iso.org/standard/46226.html
+  dates:
+  - type: accepted
+    date: '2012-12-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: símbolo simple
-      normative_status: preferred
   _revisions:
     current: cb062d
     tree:
@@ -160,15 +183,15 @@ spa:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19117:2012'
+            ref: ISO 19117:2012
             clause: '4.28'
-            link: 'https://www.iso.org/standard/46226.html'
+            link: https://www.iso.org/standard/46226.html
           date_accepted: '2012-12-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: símbolo simple
-              normative_status: preferred
+          - type: expression
+            designation: símbolo simple
+            normative_status: preferred
         parents: []
         timeCreated: '2012-12-15T00:00:00.000Z'
         author:
@@ -176,31 +199,37 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 1272
-  definition: symbol som varken är en sammansatt symbol eller en parameterstyrd symbol
-  country_code: swe
-  language_code: swe
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: enkel symbol
+  definition:
+  - content: symbol som varken är en sammansatt symbol eller en parameterstyrd symbol
   notes: []
   examples: []
+  country_code: swe
+  language_code: swe
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19117:2012'
-    clause: '4.28'
-    link: 'https://www.iso.org/standard/46226.html'
-  lineage_source: (Type reference to national language document)
-  date_accepted: '2012-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19117:2012
+      clause: '4.28'
+      link: https://www.iso.org/standard/46226.html
+  - type: lineage
+    origin:
+      ref: "(Type reference to national language document)"
+  dates:
+  - type: accepted
+    date: '2012-12-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: enkel symbol
-      normative_status: preferred
   _revisions:
     current: 67596a
     tree:
       67596a:
         object:
           id: 1272
-          definition: >-
-            symbol som varken är en sammansatt symbol eller en parameterstyrd
+          definition: symbol som varken är en sammansatt symbol eller en parameterstyrd
             symbol
           country_code: swe
           language_code: swe
@@ -208,16 +237,16 @@ swe:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19117:2012'
+            ref: ISO 19117:2012
             clause: '4.28'
-            link: 'https://www.iso.org/standard/46226.html'
-          lineage_source: (Type reference to national language document)
+            link: https://www.iso.org/standard/46226.html
+          lineage_source: "(Type reference to national language document)"
           date_accepted: '2012-12-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: enkel symbol
-              normative_status: preferred
+          - type: expression
+            designation: enkel symbol
+            normative_status: preferred
         parents: []
         timeCreated: '2012-12-15T00:00:00.000Z'
         author:

@@ -1,36 +1,42 @@
-term: engineering coordinate reference system
+---
 termid: 706
+term: engineering coordinate reference system
 eng:
   id: 706
-  definition: coordinate reference system based on an engineering datum
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: engineering coordinate reference system
+  definition:
+  - content: coordinate reference system based on an engineering datum
   notes: []
   examples:
-    - >-
-      Local engineering and architectural grids; coordinate reference system
+  - content: Local engineering and architectural grids; coordinate reference system
       local to a ship or an orbiting spacecraft.
+  language_code: eng
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.25'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2007(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.25"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2007(E)
   lineage_source_similarity: 1
-  date_accepted: '2007-07-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2007-07-01T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.25. Lineage source added as ISO 19111:2007(E)
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.25. Lineage source added as ISO 19111:2007(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: engineering coordinate reference system
-      normative_status: preferred
   _revisions:
     current: 6ba906
     tree:
@@ -41,31 +47,29 @@ eng:
           language_code: eng
           notes: []
           examples:
-            - >-
-              Local engineering and architectural grids; coordinate reference
-              system local to a ship or an orbiting spacecraft.
+          - Local engineering and architectural grids; coordinate reference system
+            local to a ship or an orbiting spacecraft.
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.25'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2007(E)'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.25"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2007(E)
           lineage_source_similarity: 1
           date_accepted: '2007-07-01T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.25. Lineage source added as ISO 19111:2007(E)
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.25. Lineage source added as ISO 19111:2007(E)
           release: '1'
           terms:
-            - type: expression
-              designation: engineering coordinate reference system
-              normative_status: preferred
+          - type: expression
+            designation: engineering coordinate reference system
+            normative_status: preferred
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
         author:
@@ -73,35 +77,40 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 706
-  definition: نظام إحداثيات مرجعي مبني على مرجع إسناد هندسي
-  language_code: ara
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: نظام إحداثيات مرجعي هندسي
+  definition:
+  - content: نظام إحداثيات مرجعي مبني على مرجع إسناد هندسي
   notes: []
   examples:
-    - >-
-      أمثلة: الشبكات الهندسية والمعمارية المحلية , نظام إحداثيات مرجعي محلي
-      بالنسبة لسفينة أو مركبة فضائية دائرة في فلك.
+  - content: 'أمثلة: الشبكات الهندسية والمعمارية المحلية , نظام إحداثيات مرجعي محلي
+      بالنسبة لسفينة أو مركبة فضائية دائرة في فلك.'
+  language_code: ara
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.25'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2007(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.25"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2007(E)
   lineage_source_similarity: 1
-  date_accepted: '2007-07-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2007-07-01T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.25. Lineage source added as ISO 19111:2007(E)
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.25. Lineage source added as ISO 19111:2007(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: نظام إحداثيات مرجعي هندسي
-      normative_status: preferred
   _revisions:
     current: d123ab
     tree:
@@ -112,31 +121,29 @@ ara:
           language_code: ara
           notes: []
           examples:
-            - >-
-              أمثلة: الشبكات الهندسية والمعمارية المحلية , نظام إحداثيات مرجعي
-              محلي بالنسبة لسفينة أو مركبة فضائية دائرة في فلك.
+          - 'أمثلة: الشبكات الهندسية والمعمارية المحلية , نظام إحداثيات مرجعي محلي
+            بالنسبة لسفينة أو مركبة فضائية دائرة في فلك.'
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.25'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2007(E)'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.25"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2007(E)
           lineage_source_similarity: 1
           date_accepted: '2007-07-01T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.25. Lineage source added as ISO 19111:2007(E)
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.25. Lineage source added as ISO 19111:2007(E)
           release: '1'
           terms:
-            - type: expression
-              designation: نظام إحداثيات مرجعي هندسي
-              normative_status: preferred
+          - type: expression
+            designation: نظام إحداثيات مرجعي هندسي
+            normative_status: preferred
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
         author:
@@ -144,33 +151,39 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 706
-  definition: 基于工程基准的坐标参照系。
-  language_code: zho
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 工程坐标参照系
+  definition:
+  - content: 基于工程基准的坐标参照系。
   notes: []
   examples:
-    - 地方工程和建筑格网；相对于地方船舶或轨道上的航天器的坐标参照系。
+  - content: 地方工程和建筑格网；相对于地方船舶或轨道上的航天器的坐标参照系。
+  language_code: zho
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.25'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2007(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.25"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2007(E)
   lineage_source_similarity: 1
-  date_accepted: '2007-07-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2007-07-01T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.25. Lineage source added as ISO 19111:2007(E)
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.25. Lineage source added as ISO 19111:2007(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: 工程坐标参照系
-      normative_status: preferred
   _revisions:
     current: daeff6
     tree:
@@ -181,29 +194,28 @@ zho:
           language_code: zho
           notes: []
           examples:
-            - 地方工程和建筑格网；相对于地方船舶或轨道上的航天器的坐标参照系。
+          - 地方工程和建筑格网；相对于地方船舶或轨道上的航天器的坐标参照系。
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.25'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2007(E)'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.25"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2007(E)
           lineage_source_similarity: 1
           date_accepted: '2007-07-01T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.25. Lineage source added as ISO 19111:2007(E)
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.25. Lineage source added as ISO 19111:2007(E)
           release: '1'
           terms:
-            - type: expression
-              designation: 工程坐标参照系
-              normative_status: preferred
+          - type: expression
+            designation: 工程坐标参照系
+            normative_status: preferred
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
         author:
@@ -211,35 +223,40 @@ zho:
           email: glossarist@ribose.com
 nld:
   id: 706
-  definition: coördinaatreferentiesysteem gebaseerd op een lokaal datum
-  language_code: nld
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: lokaal coördinaatreferentiesysteem
+  definition:
+  - content: coördinaatreferentiesysteem gebaseerd op een lokaal datum
   notes: []
   examples:
-    - >-
-      EN Lokale bouwkundige stramienen, coördinaatreferentiesystemen op een
+  - content: EN Lokale bouwkundige stramienen, coördinaatreferentiesystemen op een
       vaartuig of ruimtevaartuig.
+  language_code: nld
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.25'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2007(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.25"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2007(E)
   lineage_source_similarity: 1
-  date_accepted: '2007-07-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2007-07-01T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.25. Lineage source added as ISO 19111:2007(E)
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.25. Lineage source added as ISO 19111:2007(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: lokaal coördinaatreferentiesysteem
-      normative_status: preferred
   _revisions:
     current: cef773
     tree:
@@ -250,31 +267,29 @@ nld:
           language_code: nld
           notes: []
           examples:
-            - >-
-              EN Lokale bouwkundige stramienen, coördinaatreferentiesystemen op
-              een vaartuig of ruimtevaartuig.
+          - EN Lokale bouwkundige stramienen, coördinaatreferentiesystemen op een
+            vaartuig of ruimtevaartuig.
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.25'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2007(E)'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.25"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2007(E)
           lineage_source_similarity: 1
           date_accepted: '2007-07-01T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.25. Lineage source added as ISO 19111:2007(E)
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.25. Lineage source added as ISO 19111:2007(E)
           release: '1'
           terms:
-            - type: expression
-              designation: lokaal coördinaatreferentiesysteem
-              normative_status: preferred
+          - type: expression
+            designation: lokaal coördinaatreferentiesysteem
+            normative_status: preferred
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
         author:
@@ -282,71 +297,73 @@ nld:
           email: glossarist@ribose.com
 fin:
   id: 706
-  definition: 'koordinaattijärjestelmä, joka perustuu erillisdatumiin'
-  language_code: fin
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erilliskoordinaattijärjestelmä
+  definition:
+  - content: koordinaattijärjestelmä, joka perustuu erillisdatumiin
   notes: []
   examples:
-    - >-
-      Paikalliset rakentamiseen liittyvät koordinaatistot; laivan tai Maata
+  - content: Paikalliset rakentamiseen liittyvät koordinaatistot; laivan tai Maata
       kiertävän avaruusaluksen paikallinen koordinaattijärjestelmä.
+  language_code: fin
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.25'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2007(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.25"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2007(E)
   lineage_source_similarity: 1
-  date_accepted: '2007-07-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2007-07-01T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.25. Lineage source added as ISO 19111:2007(E)
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.25. Lineage source added as ISO 19111:2007(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: erilliskoordinaattijärjestelmä
-      normative_status: preferred
   _revisions:
     current: aff79a
     tree:
       aff79a:
         object:
           id: 706
-          definition: 'koordinaattijärjestelmä, joka perustuu erillisdatumiin'
+          definition: koordinaattijärjestelmä, joka perustuu erillisdatumiin
           language_code: fin
           notes: []
           examples:
-            - >-
-              Paikalliset rakentamiseen liittyvät koordinaatistot; laivan tai
-              Maata kiertävän avaruusaluksen paikallinen
-              koordinaattijärjestelmä.
+          - Paikalliset rakentamiseen liittyvät koordinaatistot; laivan tai Maata
+            kiertävän avaruusaluksen paikallinen koordinaattijärjestelmä.
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.25'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2007(E)'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.25"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2007(E)
           lineage_source_similarity: 1
           date_accepted: '2007-07-01T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.25. Lineage source added as ISO 19111:2007(E)
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.25. Lineage source added as ISO 19111:2007(E)
           release: '1'
           terms:
-            - type: expression
-              designation: erilliskoordinaattijärjestelmä
-              normative_status: preferred
+          - type: expression
+            designation: erilliskoordinaattijärjestelmä
+            normative_status: preferred
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
         author:
@@ -354,68 +371,72 @@ fin:
           email: glossarist@ribose.com
 fra:
   id: 706
-  definition: système de coordonnées de référence basé sur un référentiel d'ingénierie
-  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: système de coordonnées de référence d'ingénierie
+  definition:
+  - content: système de coordonnées de référence basé sur un référentiel d'ingénierie
   notes:
-    - 'Alternative suggérée: système de coordonnées de référence local'
+  - content: 'Alternative suggérée: système de coordonnées de référence local'
   examples: []
+  language_code: fra
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.25'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2007(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.25"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2007(E)
   lineage_source_similarity: 1
-  date_accepted: '2007-07-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2007-07-01T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.25. Lineage source added as ISO 19111:2007(E)
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.25. Lineage source added as ISO 19111:2007(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: système de coordonnées de référence d'ingénierie
-      normative_status: preferred
   _revisions:
     current: feb9f6
     tree:
       feb9f6:
         object:
           id: 706
-          definition: >-
-            système de coordonnées de référence basé sur un référentiel
+          definition: système de coordonnées de référence basé sur un référentiel
             d'ingénierie
           language_code: fra
           notes:
-            - 'Alternative suggérée: système de coordonnées de référence local'
+          - 'Alternative suggérée: système de coordonnées de référence local'
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.25'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2007(E)'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.25"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2007(E)
           lineage_source_similarity: 1
           date_accepted: '2007-07-01T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.25. Lineage source added as ISO 19111:2007(E)
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.25. Lineage source added as ISO 19111:2007(E)
           release: '1'
           terms:
-            - type: expression
-              designation: système de coordonnées de référence d'ingénierie
-              normative_status: preferred
+          - type: expression
+            designation: système de coordonnées de référence d'ingénierie
+            normative_status: preferred
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
         author:
@@ -423,35 +444,40 @@ fra:
           email: glossarist@ribose.com
 deu:
   id: 706
-  definition: Koordinatenreferenzsystem auf der Basis eines lokalen Datums
-  language_code: deu
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: lokales Koordinatenreferenzsystem
+  definition:
+  - content: Koordinatenreferenzsystem auf der Basis eines lokalen Datums
   notes: []
   examples:
-    - >-
-      Local engineering and architectural grids; coordinate reference system
+  - content: Local engineering and architectural grids; coordinate reference system
       local to a ship or an orbiting spacecraft.
+  language_code: deu
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.25'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2007(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.25"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2007(E)
   lineage_source_similarity: 1
-  date_accepted: '2007-07-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2007-07-01T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.25. Lineage source added as ISO 19111:2007(E)
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.25. Lineage source added as ISO 19111:2007(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: lokales Koordinatenreferenzsystem
-      normative_status: preferred
   _revisions:
     current: a8385d
     tree:
@@ -462,31 +488,29 @@ deu:
           language_code: deu
           notes: []
           examples:
-            - >-
-              Local engineering and architectural grids; coordinate reference
-              system local to a ship or an orbiting spacecraft.
+          - Local engineering and architectural grids; coordinate reference system
+            local to a ship or an orbiting spacecraft.
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.25'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2007(E)'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.25"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2007(E)
           lineage_source_similarity: 1
           date_accepted: '2007-07-01T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.25. Lineage source added as ISO 19111:2007(E)
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.25. Lineage source added as ISO 19111:2007(E)
           release: '1'
           terms:
-            - type: expression
-              designation: lokales Koordinatenreferenzsystem
-              normative_status: preferred
+          - type: expression
+            designation: lokales Koordinatenreferenzsystem
+            normative_status: preferred
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
         author:
@@ -494,33 +518,39 @@ deu:
           email: glossarist@ribose.com
 kor:
   id: 706
-  definition: 공학 데이텀에 기반한 좌표 참조 체계
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 공학 좌표계
+  definition:
+  - content: 공학 데이텀에 기반한 좌표 참조 체계
   notes: []
   examples:
-    - 지역적 공학 및 구조적 격자; 항해나 비행을 위한 지역적 좌표 참조 체계
+  - content: 지역적 공학 및 구조적 격자; 항해나 비행을 위한 지역적 좌표 참조 체계
+  language_code: kor
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.25'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2007(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.25"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2007(E)
   lineage_source_similarity: 1
-  date_accepted: '2007-07-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2007-07-01T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.25. Lineage source added as ISO 19111:2007(E)
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.25. Lineage source added as ISO 19111:2007(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: 공학 좌표계
-      normative_status: preferred
   _revisions:
     current: bba327
     tree:
@@ -531,29 +561,28 @@ kor:
           language_code: kor
           notes: []
           examples:
-            - 지역적 공학 및 구조적 격자; 항해나 비행을 위한 지역적 좌표 참조 체계
+          - 지역적 공학 및 구조적 격자; 항해나 비행을 위한 지역적 좌표 참조 체계
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.25'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2007(E)'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.25"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2007(E)
           lineage_source_similarity: 1
           date_accepted: '2007-07-01T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.25. Lineage source added as ISO 19111:2007(E)
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.25. Lineage source added as ISO 19111:2007(E)
           release: '1'
           terms:
-            - type: expression
-              designation: 공학 좌표계
-              normative_status: preferred
+          - type: expression
+            designation: 공학 좌표계
+            normative_status: preferred
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
         author:
@@ -561,34 +590,38 @@ kor:
           email: glossarist@ribose.com
 msa:
   id: 706
-  language_code: msa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: sistem rujukan koordinat kejuruteraan
   notes: []
   examples:
-    - >-
-      Local engineering and architectural grids; coordinate reference system
+  - content: Local engineering and architectural grids; coordinate reference system
       local to a ship or an orbiting spacecraft.
+  language_code: msa
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.25'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2007(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.25"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2007(E)
   lineage_source_similarity: 1
-  date_accepted: '2007-07-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2007-07-01T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.25. Lineage source added as ISO 19111:2007(E)
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.25. Lineage source added as ISO 19111:2007(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: sistem rujukan koordinat kejuruteraan
-      normative_status: preferred
   _revisions:
     current: '960980'
     tree:
@@ -598,31 +631,29 @@ msa:
           language_code: msa
           notes: []
           examples:
-            - >-
-              Local engineering and architectural grids; coordinate reference
-              system local to a ship or an orbiting spacecraft.
+          - Local engineering and architectural grids; coordinate reference system
+            local to a ship or an orbiting spacecraft.
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.25'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2007(E)'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.25"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2007(E)
           lineage_source_similarity: 1
           date_accepted: '2007-07-01T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.25. Lineage source added as ISO 19111:2007(E)
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.25. Lineage source added as ISO 19111:2007(E)
           release: '1'
           terms:
-            - type: expression
-              designation: sistem rujukan koordinat kejuruteraan
-              normative_status: preferred
+          - type: expression
+            designation: sistem rujukan koordinat kejuruteraan
+            normative_status: preferred
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
         author:
@@ -630,35 +661,40 @@ msa:
           email: glossarist@ribose.com
 pol:
   id: 706
-  definition: system odniesienia bazujący na inżynieryjnym układzie odniesienia
-  language_code: pol
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: inżynieryjny system odniesienia
+  definition:
+  - content: system odniesienia bazujący na inżynieryjnym układzie odniesienia
   notes: []
   examples:
-    - >-
-      Lokalna siatka współrzędnych w zagadnieniach inżynieryjnych i
-      architektonicznych (budowlanych). Lokalny układ współrzędnych dla statku
-      lub orbitującego statku kosmicznego.
+  - content: Lokalna siatka współrzędnych w zagadnieniach inżynieryjnych i architektonicznych
+      (budowlanych). Lokalny układ współrzędnych dla statku lub orbitującego statku
+      kosmicznego.
+  language_code: pol
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.25'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2007(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.25"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2007(E)
   lineage_source_similarity: 1
-  date_accepted: '2007-07-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2007-07-01T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.25. Lineage source added as ISO 19111:2007(E)
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.25. Lineage source added as ISO 19111:2007(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: inżynieryjny system odniesienia
-      normative_status: preferred
   _revisions:
     current: 8e72d0
     tree:
@@ -669,31 +705,29 @@ pol:
           language_code: pol
           notes: []
           examples:
-            - >-
-              Lokalna siatka współrzędnych w zagadnieniach inżynieryjnych i
-              architektonicznych (budowlanych). Lokalny układ współrzędnych dla
-              statku lub orbitującego statku kosmicznego.
+          - Lokalna siatka współrzędnych w zagadnieniach inżynieryjnych i architektonicznych
+            (budowlanych). Lokalny układ współrzędnych dla statku lub orbitującego
+            statku kosmicznego.
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.25'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2007(E)'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.25"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2007(E)
           lineage_source_similarity: 1
           date_accepted: '2007-07-01T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.25. Lineage source added as ISO 19111:2007(E)
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.25. Lineage source added as ISO 19111:2007(E)
           release: '1'
           terms:
-            - type: expression
-              designation: inżynieryjny system odniesienia
-              normative_status: preferred
+          - type: expression
+            designation: inżynieryjny system odniesienia
+            normative_status: preferred
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
         author:
@@ -701,73 +735,74 @@ pol:
           email: glossarist@ribose.com
 rus:
   id: 706
-  definition: 'координатная система отсчета, основанная на инженерных исходных датах'
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: инженерная координатная система отсчета
+  definition:
+  - content: координатная система отсчета, основанная на инженерных исходных датах
   notes: []
   examples:
-    - >-
-      Локальные инженерные и архитектурные сетки; координатная система отсчета,
+  - content: Локальные инженерные и архитектурные сетки; координатная система отсчета,
       отнесенная к судну или орбитальному космическому летательному аппарату
+  language_code: rus
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.25'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2007(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.25"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2007(E)
   lineage_source_similarity: 1
-  date_accepted: '2007-07-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2007-07-01T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.25. Lineage source added as ISO 19111:2007(E)
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.25. Lineage source added as ISO 19111:2007(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: инженерная координатная система отсчета
-      normative_status: preferred
   _revisions:
     current: 587d1f
     tree:
       587d1f:
         object:
           id: 706
-          definition: >-
-            координатная система отсчета, основанная на инженерных исходных
+          definition: координатная система отсчета, основанная на инженерных исходных
             датах
           language_code: rus
           notes: []
           examples:
-            - >-
-              Локальные инженерные и архитектурные сетки; координатная система
-              отсчета, отнесенная к судну или орбитальному космическому
-              летательному аппарату
+          - Локальные инженерные и архитектурные сетки; координатная система отсчета,
+            отнесенная к судну или орбитальному космическому летательному аппарату
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.25'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2007(E)'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.25"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2007(E)
           lineage_source_similarity: 1
           date_accepted: '2007-07-01T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.25. Lineage source added as ISO 19111:2007(E)
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.25. Lineage source added as ISO 19111:2007(E)
           release: '1'
           terms:
-            - type: expression
-              designation: инженерная координатная система отсчета
-              normative_status: preferred
+          - type: expression
+            designation: инженерная координатная система отсчета
+            normative_status: preferred
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
         author:
@@ -775,73 +810,73 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 706
-  definition: sistema de referencia de coordenadas basado en un datum de ingeniería
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: sistema de referencia de coordenadas para ingeniería
+  definition:
+  - content: sistema de referencia de coordenadas basado en un datum de ingeniería
   notes: []
   examples:
-    - >-
-      S Mallas locales en ingeniería y arquitectura; sistema de referencia de
-      coordenadas locales situados en un barco o en una nave en órbita.
+  - content: S Mallas locales en ingeniería y arquitectura; sistema de referencia
+      de coordenadas locales situados en un barco o en una nave en órbita.
+  language_code: spa
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.25'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2007(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.25"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2007(E)
   lineage_source_similarity: 1
-  date_accepted: '2007-07-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2007-07-01T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.25. Lineage source added as ISO 19111:2007(E)
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.25. Lineage source added as ISO 19111:2007(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: sistema de referencia de coordenadas para ingeniería
-      normative_status: preferred
   _revisions:
     current: 7fcf69
     tree:
       7fcf69:
         object:
           id: 706
-          definition: >-
-            sistema de referencia de coordenadas basado en un datum de
-            ingeniería
+          definition: sistema de referencia de coordenadas basado en un datum de ingeniería
           language_code: spa
           notes: []
           examples:
-            - >-
-              S Mallas locales en ingeniería y arquitectura; sistema de
-              referencia de coordenadas locales situados en un barco o en una
-              nave en órbita.
+          - S Mallas locales en ingeniería y arquitectura; sistema de referencia de
+            coordenadas locales situados en un barco o en una nave en órbita.
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.25'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2007(E)'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.25"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2007(E)
           lineage_source_similarity: 1
           date_accepted: '2007-07-01T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.25. Lineage source added as ISO 19111:2007(E)
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.25. Lineage source added as ISO 19111:2007(E)
           release: '1'
           terms:
-            - type: expression
-              designation: sistema de referencia de coordenadas para ingeniería
-              normative_status: preferred
+          - type: expression
+            designation: sistema de referencia de coordenadas para ingeniería
+            normative_status: preferred
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
         author:

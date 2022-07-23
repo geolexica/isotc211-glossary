@@ -1,24 +1,32 @@
-term: valid time
+---
 termid: 487
+term: valid time
 eng:
   id: 487
-  definition: time when a fact is true in the abstracted reality
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: valid time
+  definition:
+  - content: time when a fact is true in the abstracted reality
   notes: []
   examples: []
+  language_code: eng
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'Jensen et al. '
-    clause: (1994)
-  lineage_source: 'ISO 19108:2002'
+  sources:
+  - type: authoritative
+    origin:
+      ref: 'Jensen et al. '
+      clause: "(1994)"
+  - type: lineage
+    origin:
+      ref: ISO 19108:2002
   lineage_source_similarity: 1
-  date_accepted: '2002-09-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: valid time
-      normative_status: preferred
   _revisions:
     current: 420b08
     tree:
@@ -33,15 +41,15 @@ eng:
           review_indicator: ''
           authoritative_source:
             ref: 'Jensen et al. '
-            clause: (1994)
-          lineage_source: 'ISO 19108:2002'
+            clause: "(1994)"
+          lineage_source: ISO 19108:2002
           lineage_source_similarity: 1
           date_accepted: '2002-09-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: valid time
-              normative_status: preferred
+          - type: expression
+            designation: valid time
+            normative_status: preferred
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:
@@ -49,21 +57,26 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 487
-  definition: الوقت الذي تكون فيه حقيقة ما صحيحة في الواقع المجرد
-  language_code: ara
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: وقت الصلاحية
+  definition:
+  - content: الوقت الذي تكون فيه حقيقة ما صحيحة في الواقع المجرد
   notes: []
   examples: []
+  language_code: ara
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'Jensen et al. '
-    clause: (1994)
-  date_accepted: '2002-09-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: 'Jensen et al. '
+      clause: "(1994)"
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: وقت الصلاحية
-      normative_status: preferred
   _revisions:
     current: 9a0dda
     tree:
@@ -78,13 +91,13 @@ ara:
           review_indicator: ''
           authoritative_source:
             ref: 'Jensen et al. '
-            clause: (1994)
+            clause: "(1994)"
           date_accepted: '2002-09-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: وقت الصلاحية
-              normative_status: preferred
+          - type: expression
+            designation: وقت الصلاحية
+            normative_status: preferred
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:
@@ -92,20 +105,25 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 487
-  definition: 在抽象世界中，事实为“真”的时间。
-  language_code: zho
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 有效时间
+  definition:
+  - content: 在抽象世界中，事实为“真”的时间。
   notes: []
   examples: []
+  language_code: zho
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'Jensen et al. '
-    clause: (1994)
-  date_accepted: '2002-09-01T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: 有效时间
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: 'Jensen et al. '
+      clause: "(1994)"
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   _revisions:
     current: 595af1
     tree:
@@ -120,12 +138,12 @@ zho:
           review_indicator: ''
           authoritative_source:
             ref: 'Jensen et al. '
-            clause: (1994)
+            clause: "(1994)"
           date_accepted: '2002-09-01T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: 有效时间
-              normative_status: preferred
+          - type: expression
+            designation: 有效时间
+            normative_status: preferred
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:
@@ -133,28 +151,35 @@ zho:
           email: glossarist@ribose.com
 fin:
   id: 487
-  definition: 'aika, jolloin seikka on tosi abstrahoidussa todellisuudessa'
-  language_code: fin
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: voimassaoloaika
+  definition:
+  - content: aika, jolloin seikka on tosi abstrahoidussa todellisuudessa
   notes: []
   examples: []
+  language_code: fin
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'Jensen et al. '
-    clause: (1994)
-  lineage_source: Internet
-  date_accepted: '2002-09-01T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: voimassaoloaika
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: 'Jensen et al. '
+      clause: "(1994)"
+  - type: lineage
+    origin:
+      ref: Internet
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   _revisions:
     current: 8127ba
     tree:
       8127ba:
         object:
           id: 487
-          definition: 'aika, jolloin seikka on tosi abstrahoidussa todellisuudessa'
+          definition: aika, jolloin seikka on tosi abstrahoidussa todellisuudessa
           language_code: fin
           notes: []
           examples: []
@@ -162,13 +187,13 @@ fin:
           review_indicator: ''
           authoritative_source:
             ref: 'Jensen et al. '
-            clause: (1994)
+            clause: "(1994)"
           lineage_source: Internet
           date_accepted: '2002-09-01T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: voimassaoloaika
-              normative_status: preferred
+          - type: expression
+            designation: voimassaoloaika
+            normative_status: preferred
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:
@@ -176,21 +201,28 @@ fin:
           email: glossarist@ribose.com
 fra:
   id: 487
-  definition: moment auquel un fait est vrai dans la réalité abstraite
-  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: temps valide
+  definition:
+  - content: moment auquel un fait est vrai dans la réalité abstraite
   notes: []
   examples: []
+  language_code: fra
   entry_status: valid
-  authoritative_source:
-    ref: 'Jensen et al. '
-    clause: (1994)
-  lineage_source: ISO 19108
+  sources:
+  - type: authoritative
+    origin:
+      ref: 'Jensen et al. '
+      clause: "(1994)"
+  - type: lineage
+    origin:
+      ref: ISO 19108
   lineage_source_similarity: 1
-  date_accepted: '2002-09-01T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: temps valide
-      normative_status: preferred
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   _revisions:
     current: c458d0
     tree:
@@ -204,14 +236,14 @@ fra:
           entry_status: valid
           authoritative_source:
             ref: 'Jensen et al. '
-            clause: (1994)
+            clause: "(1994)"
           lineage_source: ISO 19108
           lineage_source_similarity: 1
           date_accepted: '2002-09-01T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: temps valide
-              normative_status: preferred
+          - type: expression
+            designation: temps valide
+            normative_status: preferred
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:
@@ -219,28 +251,33 @@ fra:
           email: glossarist@ribose.com
 deu:
   id: 487
-  definition: 'Zeit, zu der eine Gegebenheit in der abstrakten Realität vorliegt'
-  language_code: deu
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: gültige Zeit
+  definition:
+  - content: Zeit, zu der eine Gegebenheit in der abstrakten Realität vorliegt
   notes: []
   examples: []
+  language_code: deu
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'Jensen et al. '
-    clause: (1994)
-  date_accepted: '2002-09-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: 'Jensen et al. '
+      clause: "(1994)"
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: gültige Zeit
-      normative_status: preferred
   _revisions:
     current: 156b54
     tree:
       156b54:
         object:
           id: 487
-          definition: 'Zeit, zu der eine Gegebenheit in der abstrakten Realität vorliegt'
+          definition: Zeit, zu der eine Gegebenheit in der abstrakten Realität vorliegt
           language_code: deu
           notes: []
           examples: []
@@ -248,13 +285,13 @@ deu:
           review_indicator: ''
           authoritative_source:
             ref: 'Jensen et al. '
-            clause: (1994)
+            clause: "(1994)"
           date_accepted: '2002-09-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: gültige Zeit
-              normative_status: preferred
+          - type: expression
+            designation: gültige Zeit
+            normative_status: preferred
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:
@@ -262,42 +299,49 @@ deu:
           email: glossarist@ribose.com
 jpn:
   id: 487
-  definition: 'ある事実が抽象化した現実の中で真となっている時間[Jensenなど(1994)]。'
-  language_code: jpn
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 有効時間
+  definition:
+  - content: ある事実が抽象化した現実の中で真となっている時間[Jensenなど(1994)]。
   notes: []
   examples: []
+  language_code: jpn
   entry_status: valid
-  authoritative_source:
-    ref: 'Jensen et al. '
-    clause: (1994)
-  lineage_source: JIS X 7108
-  date_accepted: '2002-09-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: 'Jensen et al. '
+      clause: "(1994)"
+  - type: lineage
+    origin:
+      ref: JIS X 7108
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: 有効時間
-      normative_status: preferred
   _revisions:
     current: 2905f7
     tree:
       2905f7:
         object:
           id: 487
-          definition: 'ある事実が抽象化した現実の中で真となっている時間[Jensenなど(1994)]。'
+          definition: ある事実が抽象化した現実の中で真となっている時間[Jensenなど(1994)]。
           language_code: jpn
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
             ref: 'Jensen et al. '
-            clause: (1994)
+            clause: "(1994)"
           lineage_source: JIS X 7108
           date_accepted: '2002-09-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: 有効時間
-              normative_status: preferred
+          - type: expression
+            designation: 有効時間
+            normative_status: preferred
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:
@@ -305,22 +349,29 @@ jpn:
           email: glossarist@ribose.com
 kor:
   id: 487
-  definition: 한 정보가 추상화된 현실 속에서 "참"이 되는 시간
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 유효시간
+  definition:
+  - content: 한 정보가 추상화된 현실 속에서 "참"이 되는 시간
   notes: []
   examples: []
+  language_code: kor
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'Jensen et al. '
-    clause: (1994)
-  lineage_source: KS X ISO 19104
-  date_accepted: '2008-12-19T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: 'Jensen et al. '
+      clause: "(1994)"
+  - type: lineage
+    origin:
+      ref: KS X ISO 19104
+  dates:
+  - type: accepted
+    date: '2008-12-19T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: 유효시간
-      normative_status: preferred
   _revisions:
     current: 6f59e6
     tree:
@@ -335,14 +386,14 @@ kor:
           review_indicator: ''
           authoritative_source:
             ref: 'Jensen et al. '
-            clause: (1994)
+            clause: "(1994)"
           lineage_source: KS X ISO 19104
           date_accepted: '2008-12-19T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: 유효시간
-              normative_status: preferred
+          - type: expression
+            designation: 유효시간
+            normative_status: preferred
         parents: []
         timeCreated: '2008-12-19T00:00:00.000Z'
         author:
@@ -350,33 +401,38 @@ kor:
           email: glossarist@ribose.com
 msa:
   id: 487
-  definition: >-
-    waktu masa yg benar atau pasti yang telah ditetapkan atau dirancang utk
-    pelaksanaan
-  language_code: msa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: masa sah
+  definition:
+  - content: waktu masa yg benar atau pasti yang telah ditetapkan atau dirancang utk
+      pelaksanaan
   notes: []
   examples: []
+  language_code: msa
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'Jensen et al. '
-    clause: (1994)
-  lineage_source: ISO 19108;2002
+  sources:
+  - type: authoritative
+    origin:
+      ref: 'Jensen et al. '
+      clause: "(1994)"
+  - type: lineage
+    origin:
+      ref: ISO 19108;2002
   lineage_source_similarity: 1
-  date_accepted: '2002-09-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: masa sah
-      normative_status: preferred
   _revisions:
     current: 70c739
     tree:
       70c739:
         object:
           id: 487
-          definition: >-
-            waktu masa yg benar atau pasti yang telah ditetapkan atau dirancang
+          definition: waktu masa yg benar atau pasti yang telah ditetapkan atau dirancang
             utk pelaksanaan
           language_code: msa
           notes: []
@@ -385,15 +441,15 @@ msa:
           review_indicator: ''
           authoritative_source:
             ref: 'Jensen et al. '
-            clause: (1994)
+            clause: "(1994)"
           lineage_source: ISO 19108;2002
           lineage_source_similarity: 1
           date_accepted: '2002-09-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: masa sah
-              normative_status: preferred
+          - type: expression
+            designation: masa sah
+            normative_status: preferred
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:
@@ -401,31 +457,36 @@ msa:
           email: glossarist@ribose.com
 rus:
   id: 487
-  definition: >-
-    время,  в течение которого  данный факт является истинным в моделируемой
-    реальности
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: действительное время
+  definition:
+  - content: время,  в течение которого  данный факт является истинным в моделируемой
+      реальности
   notes: []
   examples: []
+  language_code: rus
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'Jensen et al. '
-    clause: (1994)
-  lineage_source: Internet
-  date_accepted: '2002-09-01T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: действительное время
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: 'Jensen et al. '
+      clause: "(1994)"
+  - type: lineage
+    origin:
+      ref: Internet
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   _revisions:
     current: 7dc444
     tree:
       7dc444:
         object:
           id: 487
-          definition: >-
-            время,  в течение которого  данный факт является истинным в
+          definition: время,  в течение которого  данный факт является истинным в
             моделируемой реальности
           language_code: rus
           notes: []
@@ -434,13 +495,13 @@ rus:
           review_indicator: ''
           authoritative_source:
             ref: 'Jensen et al. '
-            clause: (1994)
+            clause: "(1994)"
           lineage_source: Internet
           date_accepted: '2002-09-01T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: действительное время
-              normative_status: preferred
+          - type: expression
+            designation: действительное время
+            normative_status: preferred
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:
@@ -448,21 +509,26 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 487
-  definition: tiempo durante el cual un hecho es verdadero en la realidad
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: tiempo válido
+  definition:
+  - content: tiempo durante el cual un hecho es verdadero en la realidad
   notes: []
   examples: []
+  language_code: spa
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'Jensen et al. '
-    clause: (1994)
-  date_accepted: '2002-09-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: 'Jensen et al. '
+      clause: "(1994)"
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: tiempo válido
-      normative_status: preferred
   _revisions:
     current: 8b4c43
     tree:
@@ -477,13 +543,13 @@ spa:
           review_indicator: ''
           authoritative_source:
             ref: 'Jensen et al. '
-            clause: (1994)
+            clause: "(1994)"
           date_accepted: '2002-09-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: tiempo válido
-              normative_status: preferred
+          - type: expression
+            designation: tiempo válido
+            normative_status: preferred
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:
@@ -491,24 +557,31 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 487
-  definition: tidsintervall under vilket något är korrekt eller giltigt
-  country_code: swe
-  language_code: swe
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: giltighetstid
+  definition:
+  - content: tidsintervall under vilket något är korrekt eller giltigt
   notes: []
   examples: []
+  country_code: swe
+  language_code: swe
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'Jensen et al. '
-    clause: (1994)
-  lineage_source: 'ISO 19108:2002'
+  sources:
+  - type: authoritative
+    origin:
+      ref: 'Jensen et al. '
+      clause: "(1994)"
+  - type: lineage
+    origin:
+      ref: ISO 19108:2002
   lineage_source_similarity: 1
-  date_accepted: '2002-09-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: giltighetstid
-      normative_status: preferred
   _revisions:
     current: 0f4d60
     tree:
@@ -524,15 +597,15 @@ swe:
           review_indicator: ''
           authoritative_source:
             ref: 'Jensen et al. '
-            clause: (1994)
-          lineage_source: 'ISO 19108:2002'
+            clause: "(1994)"
+          lineage_source: ISO 19108:2002
           lineage_source_similarity: 1
           date_accepted: '2002-09-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: giltighetstid
-              normative_status: preferred
+          - type: expression
+            designation: giltighetstid
+            normative_status: preferred
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:

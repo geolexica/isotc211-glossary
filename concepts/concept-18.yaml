@@ -1,76 +1,78 @@
-term: attitude
+---
 termid: 18
+term: attitude
 eng:
   id: 18
-  definition: >-
-    orientation of a body, described by the angles between the axes of that
-    body's coordinate system and the axes of an external coordinate system
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: attitude
+  definition:
+  - content: orientation of a body, described by the angles between the axes of that
+      body's coordinate system and the axes of an external coordinate system
   notes:
-    - >-
-      In positioning services, this is usually the orientation of the user's
+  - content: In positioning services, this is usually the orientation of the user's
       platform, such as an aircraft, boat, or automobile.
   examples: []
+  language_code: eng
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19116:2019'
-    clause: '(E), 3.3'
-    link: 'https://www.iso.org/standard/70882.html'
-  lineage_source: 'ISO 19116:2004(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19116:2019
+      clause: "(E), 3.3"
+      link: https://www.iso.org/standard/70882.html
+  - type: lineage
+    origin:
+      ref: ISO 19116:2004(E)
   lineage_source_similarity: 1
-  date_accepted: '2004-07-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2004-07-01T00:00:00.000Z'
   review_date: '2019-12-02T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-12-02T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19116:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19116:2004 to ISO 19116:2019(E),
-    3.3. Lineage source added as ISO 19116:2004(E)
+  review_decision_event: Publication of ISO 19116:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19116:2004 to ISO
+    19116:2019(E), 3.3. Lineage source added as ISO 19116:2004(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: attitude
-      normative_status: preferred
   _revisions:
     current: edef85
     tree:
       edef85:
         object:
           id: 18
-          definition: >-
-            orientation of a body, described by the angles between the axes of
-            that body's coordinate system and the axes of an external coordinate
+          definition: orientation of a body, described by the angles between the axes
+            of that body's coordinate system and the axes of an external coordinate
             system
           language_code: eng
           notes:
-            - >-
-              In positioning services, this is usually the orientation of the
-              user's platform, such as an aircraft, boat, or automobile.
+          - In positioning services, this is usually the orientation of the user's
+            platform, such as an aircraft, boat, or automobile.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19116:2019'
-            clause: '(E), 3.3'
-            link: 'https://www.iso.org/standard/70882.html'
-          lineage_source: 'ISO 19116:2004(E)'
+            ref: ISO 19116:2019
+            clause: "(E), 3.3"
+            link: https://www.iso.org/standard/70882.html
+          lineage_source: ISO 19116:2004(E)
           lineage_source_similarity: 1
           date_accepted: '2004-07-01T00:00:00.000Z'
           review_date: '2019-12-02T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-12-02T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19116:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19116:2004 to ISO
-            19116:2019(E), 3.3. Lineage source added as ISO 19116:2004(E)
+          review_decision_event: Publication of ISO 19116:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19116:2004
+            to ISO 19116:2019(E), 3.3. Lineage source added as ISO 19116:2004(E)
           release: '1'
           terms:
-            - type: expression
-              designation: attitude
-              normative_status: preferred
+          - type: expression
+            designation: attitude
+            normative_status: preferred
         parents: []
         timeCreated: '2004-07-01T00:00:00.000Z'
         author:
@@ -78,74 +80,75 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 18
-  definition: >-
-    اتجاه جسم ما كما تصفه الزوايا التي بين محاور نظام إحداثيات ذلك الجسم ومحاور
-    نظام إحداثيات خارجي آخر
-  language_code: ara
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: الوضع
+  definition:
+  - content: اتجاه جسم ما كما تصفه الزوايا التي بين محاور نظام إحداثيات ذلك الجسم
+      ومحاور نظام إحداثيات خارجي آخر
   notes:
-    - >-
-      في خدمات تحديد المواقع ، يشير هذا عادة إلى اتجاه قواعد أداء المعدات لدى
+  - content: في خدمات تحديد المواقع ، يشير هذا عادة إلى اتجاه قواعد أداء المعدات لدى
       المستخدم مثل الطائرة ، أو المركب (قارب) أو السيارة
   examples: []
+  language_code: ara
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19116:2019'
-    clause: '(E), 3.3'
-    link: 'https://www.iso.org/standard/70882.html'
-  lineage_source: 'ISO 19116:2004(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19116:2019
+      clause: "(E), 3.3"
+      link: https://www.iso.org/standard/70882.html
+  - type: lineage
+    origin:
+      ref: ISO 19116:2004(E)
   lineage_source_similarity: 1
-  date_accepted: '2004-07-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2004-07-01T00:00:00.000Z'
   review_date: '2019-12-02T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-12-02T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19116:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19116:2004 to ISO 19116:2019(E),
-    3.3. Lineage source added as ISO 19116:2004(E)
+  review_decision_event: Publication of ISO 19116:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19116:2004 to ISO
+    19116:2019(E), 3.3. Lineage source added as ISO 19116:2004(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: الوضع
-      normative_status: preferred
   _revisions:
     current: 6ec1b9
     tree:
       6ec1b9:
         object:
           id: 18
-          definition: >-
-            اتجاه جسم ما كما تصفه الزوايا التي بين محاور نظام إحداثيات ذلك الجسم
-            ومحاور نظام إحداثيات خارجي آخر
+          definition: اتجاه جسم ما كما تصفه الزوايا التي بين محاور نظام إحداثيات ذلك
+            الجسم ومحاور نظام إحداثيات خارجي آخر
           language_code: ara
           notes:
-            - >-
-              في خدمات تحديد المواقع ، يشير هذا عادة إلى اتجاه قواعد أداء
-              المعدات لدى المستخدم مثل الطائرة ، أو المركب (قارب) أو السيارة
+          - في خدمات تحديد المواقع ، يشير هذا عادة إلى اتجاه قواعد أداء المعدات لدى
+            المستخدم مثل الطائرة ، أو المركب (قارب) أو السيارة
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19116:2019'
-            clause: '(E), 3.3'
-            link: 'https://www.iso.org/standard/70882.html'
-          lineage_source: 'ISO 19116:2004(E)'
+            ref: ISO 19116:2019
+            clause: "(E), 3.3"
+            link: https://www.iso.org/standard/70882.html
+          lineage_source: ISO 19116:2004(E)
           lineage_source_similarity: 1
           date_accepted: '2004-07-01T00:00:00.000Z'
           review_date: '2019-12-02T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-12-02T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19116:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19116:2004 to ISO
-            19116:2019(E), 3.3. Lineage source added as ISO 19116:2004(E)
+          review_decision_event: Publication of ISO 19116:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19116:2004
+            to ISO 19116:2019(E), 3.3. Lineage source added as ISO 19116:2004(E)
           release: '1'
           terms:
-            - type: expression
-              designation: الوضع
-              normative_status: preferred
+          - type: expression
+            designation: الوضع
+            normative_status: preferred
         parents: []
         timeCreated: '2004-07-01T00:00:00.000Z'
         author:
@@ -153,33 +156,39 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 18
-  definition: 一个物体的定向，由物体坐标系的轴和外部坐标系的轴之间的夹角来描述。
-  language_code: zho
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 姿态
+  definition:
+  - content: 一个物体的定向，由物体坐标系的轴和外部坐标系的轴之间的夹角来描述。
   notes:
-    - 在定位服务中，这通常是指用户平台（如：飞行器、轮船或汽车）的定向。
+  - content: 在定位服务中，这通常是指用户平台（如：飞行器、轮船或汽车）的定向。
   examples: []
+  language_code: zho
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19116:2019'
-    clause: '(E), 3.3'
-    link: 'https://www.iso.org/standard/70882.html'
-  lineage_source: 'ISO 19116:2004(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19116:2019
+      clause: "(E), 3.3"
+      link: https://www.iso.org/standard/70882.html
+  - type: lineage
+    origin:
+      ref: ISO 19116:2004(E)
   lineage_source_similarity: 1
-  date_accepted: '2004-07-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2004-07-01T00:00:00.000Z'
   review_date: '2019-12-02T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-12-02T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19116:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19116:2004 to ISO 19116:2019(E),
-    3.3. Lineage source added as ISO 19116:2004(E)
+  review_decision_event: Publication of ISO 19116:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19116:2004 to ISO
+    19116:2019(E), 3.3. Lineage source added as ISO 19116:2004(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: 姿态
-      normative_status: preferred
   _revisions:
     current: 3b3a15
     tree:
@@ -189,30 +198,29 @@ zho:
           definition: 一个物体的定向，由物体坐标系的轴和外部坐标系的轴之间的夹角来描述。
           language_code: zho
           notes:
-            - 在定位服务中，这通常是指用户平台（如：飞行器、轮船或汽车）的定向。
+          - 在定位服务中，这通常是指用户平台（如：飞行器、轮船或汽车）的定向。
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19116:2019'
-            clause: '(E), 3.3'
-            link: 'https://www.iso.org/standard/70882.html'
-          lineage_source: 'ISO 19116:2004(E)'
+            ref: ISO 19116:2019
+            clause: "(E), 3.3"
+            link: https://www.iso.org/standard/70882.html
+          lineage_source: ISO 19116:2004(E)
           lineage_source_similarity: 1
           date_accepted: '2004-07-01T00:00:00.000Z'
           review_date: '2019-12-02T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-12-02T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19116:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19116:2004 to ISO
-            19116:2019(E), 3.3. Lineage source added as ISO 19116:2004(E)
+          review_decision_event: Publication of ISO 19116:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19116:2004
+            to ISO 19116:2019(E), 3.3. Lineage source added as ISO 19116:2004(E)
           release: '1'
           terms:
-            - type: expression
-              designation: 姿态
-              normative_status: preferred
+          - type: expression
+            designation: 姿态
+            normative_status: preferred
         parents: []
         timeCreated: '2004-07-01T00:00:00.000Z'
         author:
@@ -220,72 +228,72 @@ zho:
           email: glossarist@ribose.com
 dan:
   id: 18
-  definition: >-
-    orientering af et legeme beskrevet ved vinklerne mellem akserne i legemets
-    koordinatsystem og akserne i et eksternt koordinatsystem
-  language_code: dan
+  terms:
+  - type: expression
+    designation: ydre orientering
+  definition:
+  - content: orientering af et legeme beskrevet ved vinklerne mellem akserne i legemets
+      koordinatsystem og akserne i et eksternt koordinatsystem
   notes:
-    - >-
-      I stedsbestemmelsestjenester er dette normalt orienteringen af brugerens
+  - content: I stedsbestemmelsestjenester er dette normalt orienteringen af brugerens
       platform, såsom et luftfartøj, en båd eller en bil.
   examples: []
+  language_code: dan
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19116:2019'
-    clause: '(E), 3.3'
-    link: 'https://www.iso.org/standard/70882.html'
-  lineage_source: 'ISO 19116:2004(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19116:2019
+      clause: "(E), 3.3"
+      link: https://www.iso.org/standard/70882.html
+  - type: lineage
+    origin:
+      ref: ISO 19116:2004(E)
   lineage_source_similarity: 1
-  date_accepted: '2004-07-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2004-07-01T00:00:00.000Z'
   review_date: '2019-12-02T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-12-02T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19116:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19116:2004 to ISO 19116:2019(E),
-    3.3. Lineage source added as ISO 19116:2004(E)
+  review_decision_event: Publication of ISO 19116:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19116:2004 to ISO
+    19116:2019(E), 3.3. Lineage source added as ISO 19116:2004(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: ydre orientering
-      normative_status: null
   _revisions:
     current: 19d23c
     tree:
       19d23c:
         object:
           id: 18
-          definition: >-
-            orientering af et legeme beskrevet ved vinklerne mellem akserne i
-            legemets koordinatsystem og akserne i et eksternt koordinatsystem
+          definition: orientering af et legeme beskrevet ved vinklerne mellem akserne
+            i legemets koordinatsystem og akserne i et eksternt koordinatsystem
           language_code: dan
           notes:
-            - >-
-              I stedsbestemmelsestjenester er dette normalt orienteringen af
-              brugerens platform, såsom et luftfartøj, en båd eller en bil.
+          - I stedsbestemmelsestjenester er dette normalt orienteringen af brugerens
+            platform, såsom et luftfartøj, en båd eller en bil.
           examples: []
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19116:2019'
-            clause: '(E), 3.3'
-            link: 'https://www.iso.org/standard/70882.html'
-          lineage_source: 'ISO 19116:2004(E)'
+            ref: ISO 19116:2019
+            clause: "(E), 3.3"
+            link: https://www.iso.org/standard/70882.html
+          lineage_source: ISO 19116:2004(E)
           lineage_source_similarity: 1
           date_accepted: '2004-07-01T00:00:00.000Z'
           review_date: '2019-12-02T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-12-02T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19116:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19116:2004 to ISO
-            19116:2019(E), 3.3. Lineage source added as ISO 19116:2004(E)
+          review_decision_event: Publication of ISO 19116:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19116:2004
+            to ISO 19116:2019(E), 3.3. Lineage source added as ISO 19116:2004(E)
           release: '1'
           terms:
-            - type: expression
-              designation: ydre orientering
-              normative_status: null
+          - type: expression
+            designation: ydre orientering
+            normative_status:
         parents: []
         timeCreated: '2004-07-01T00:00:00.000Z'
         author:
@@ -293,76 +301,75 @@ dan:
           email: glossarist@ribose.com
 fin:
   id: 18
-  definition: >-
-    kappaleen suunta, joka on ilmaistu kappaleen paikallisen koordinaatiston
-    akseleiden ja ulkoisen koordinaatiston akseleiden välisten kulmien avulla
-  language_code: fin
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: suuntaus
+  definition:
+  - content: kappaleen suunta, joka on ilmaistu kappaleen paikallisen koordinaatiston
+      akseleiden ja ulkoisen koordinaatiston akseleiden välisten kulmien avulla
   notes:
-    - >-
-      Paikannuspalveluissa termillä suuntaus viitataan tavallisesti käyttäjän
+  - content: Paikannuspalveluissa termillä suuntaus viitataan tavallisesti käyttäjän
       alustan, esimerkiksi lentokoneen, laivan tai auton, suuntaan.
   examples: []
+  language_code: fin
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19116:2019'
-    clause: '(E), 3.3'
-    link: 'https://www.iso.org/standard/70882.html'
-  lineage_source: 'ISO 19116:2004(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19116:2019
+      clause: "(E), 3.3"
+      link: https://www.iso.org/standard/70882.html
+  - type: lineage
+    origin:
+      ref: ISO 19116:2004(E)
   lineage_source_similarity: 1
-  date_accepted: '2004-07-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2004-07-01T00:00:00.000Z'
   review_date: '2019-12-02T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-12-02T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19116:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19116:2004 to ISO 19116:2019(E),
-    3.3. Lineage source added as ISO 19116:2004(E)
+  review_decision_event: Publication of ISO 19116:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19116:2004 to ISO
+    19116:2019(E), 3.3. Lineage source added as ISO 19116:2004(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: suuntaus
-      normative_status: preferred
   _revisions:
     current: 1f4f03
     tree:
       1f4f03:
         object:
           id: 18
-          definition: >-
-            kappaleen suunta, joka on ilmaistu kappaleen paikallisen
-            koordinaatiston akseleiden ja ulkoisen koordinaatiston akseleiden
-            välisten kulmien avulla
+          definition: kappaleen suunta, joka on ilmaistu kappaleen paikallisen koordinaatiston
+            akseleiden ja ulkoisen koordinaatiston akseleiden välisten kulmien avulla
           language_code: fin
           notes:
-            - >-
-              Paikannuspalveluissa termillä suuntaus viitataan tavallisesti
-              käyttäjän alustan, esimerkiksi lentokoneen, laivan tai auton,
-              suuntaan.
+          - Paikannuspalveluissa termillä suuntaus viitataan tavallisesti käyttäjän
+            alustan, esimerkiksi lentokoneen, laivan tai auton, suuntaan.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19116:2019'
-            clause: '(E), 3.3'
-            link: 'https://www.iso.org/standard/70882.html'
-          lineage_source: 'ISO 19116:2004(E)'
+            ref: ISO 19116:2019
+            clause: "(E), 3.3"
+            link: https://www.iso.org/standard/70882.html
+          lineage_source: ISO 19116:2004(E)
           lineage_source_similarity: 1
           date_accepted: '2004-07-01T00:00:00.000Z'
           review_date: '2019-12-02T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-12-02T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19116:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19116:2004 to ISO
-            19116:2019(E), 3.3. Lineage source added as ISO 19116:2004(E)
+          review_decision_event: Publication of ISO 19116:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19116:2004
+            to ISO 19116:2019(E), 3.3. Lineage source added as ISO 19116:2004(E)
           release: '1'
           terms:
-            - type: expression
-              designation: suuntaus
-              normative_status: preferred
+          - type: expression
+            designation: suuntaus
+            normative_status: preferred
         parents: []
         timeCreated: '2004-07-01T00:00:00.000Z'
         author:
@@ -370,69 +377,72 @@ fin:
           email: glossarist@ribose.com
 fra:
   id: 18
-  definition: >-
-    orientation d'un objet décrite par les angles entre les axes du système de
-    coordonnées de cet objet et les axes du système de coordonnées externe
-  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: attitude
+  definition:
+  - content: orientation d'un objet décrite par les angles entre les axes du système
+      de coordonnées de cet objet et les axes du système de coordonnées externe
   notes: []
   examples: []
+  language_code: fra
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19116:2019'
-    clause: '(E), 3.3'
-    link: 'https://www.iso.org/standard/70882.html'
-  lineage_source: 'ISO 19116:2004(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19116:2019
+      clause: "(E), 3.3"
+      link: https://www.iso.org/standard/70882.html
+  - type: lineage
+    origin:
+      ref: ISO 19116:2004(E)
   lineage_source_similarity: 1
-  date_accepted: '2004-07-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2004-07-01T00:00:00.000Z'
   review_date: '2019-12-02T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-12-02T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19116:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19116:2004 to ISO 19116:2019(E),
-    3.3. Lineage source added as ISO 19116:2004(E)
+  review_decision_event: Publication of ISO 19116:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19116:2004 to ISO
+    19116:2019(E), 3.3. Lineage source added as ISO 19116:2004(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: attitude
-      normative_status: preferred
   _revisions:
     current: 80872e
     tree:
       80872e:
         object:
           id: 18
-          definition: >-
-            orientation d'un objet décrite par les angles entre les axes du
-            système de coordonnées de cet objet et les axes du système de
-            coordonnées externe
+          definition: orientation d'un objet décrite par les angles entre les axes
+            du système de coordonnées de cet objet et les axes du système de coordonnées
+            externe
           language_code: fra
           notes: []
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19116:2019'
-            clause: '(E), 3.3'
-            link: 'https://www.iso.org/standard/70882.html'
-          lineage_source: 'ISO 19116:2004(E)'
+            ref: ISO 19116:2019
+            clause: "(E), 3.3"
+            link: https://www.iso.org/standard/70882.html
+          lineage_source: ISO 19116:2004(E)
           lineage_source_similarity: 1
           date_accepted: '2004-07-01T00:00:00.000Z'
           review_date: '2019-12-02T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-12-02T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19116:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19116:2004 to ISO
-            19116:2019(E), 3.3. Lineage source added as ISO 19116:2004(E)
+          review_decision_event: Publication of ISO 19116:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19116:2004
+            to ISO 19116:2019(E), 3.3. Lineage source added as ISO 19116:2004(E)
           release: '1'
           terms:
-            - type: expression
-              designation: attitude
-              normative_status: preferred
+          - type: expression
+            designation: attitude
+            normative_status: preferred
         parents: []
         timeCreated: '2004-07-01T00:00:00.000Z'
         author:
@@ -440,34 +450,38 @@ fra:
           email: glossarist@ribose.com
 deu:
   id: 18
-  language_code: deu
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Einstellung
   notes:
-    - >-
-      In positioning services, this is usually the orientation of the user's
+  - content: In positioning services, this is usually the orientation of the user's
       platform, such as an aircraft, boat, or automobile.
   examples: []
+  language_code: deu
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19116:2019'
-    clause: '(E), 3.3'
-    link: 'https://www.iso.org/standard/70882.html'
-  lineage_source: 'ISO 19116:2004(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19116:2019
+      clause: "(E), 3.3"
+      link: https://www.iso.org/standard/70882.html
+  - type: lineage
+    origin:
+      ref: ISO 19116:2004(E)
   lineage_source_similarity: 1
-  date_accepted: '2004-07-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2004-07-01T00:00:00.000Z'
   review_date: '2019-12-02T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-12-02T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19116:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19116:2004 to ISO 19116:2019(E),
-    3.3. Lineage source added as ISO 19116:2004(E)
+  review_decision_event: Publication of ISO 19116:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19116:2004 to ISO
+    19116:2019(E), 3.3. Lineage source added as ISO 19116:2004(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: Einstellung
-      normative_status: preferred
   _revisions:
     current: e5ef45
     tree:
@@ -476,32 +490,30 @@ deu:
           id: 18
           language_code: deu
           notes:
-            - >-
-              In positioning services, this is usually the orientation of the
-              user's platform, such as an aircraft, boat, or automobile.
+          - In positioning services, this is usually the orientation of the user's
+            platform, such as an aircraft, boat, or automobile.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19116:2019'
-            clause: '(E), 3.3'
-            link: 'https://www.iso.org/standard/70882.html'
-          lineage_source: 'ISO 19116:2004(E)'
+            ref: ISO 19116:2019
+            clause: "(E), 3.3"
+            link: https://www.iso.org/standard/70882.html
+          lineage_source: ISO 19116:2004(E)
           lineage_source_similarity: 1
           date_accepted: '2004-07-01T00:00:00.000Z'
           review_date: '2019-12-02T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-12-02T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19116:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19116:2004 to ISO
-            19116:2019(E), 3.3. Lineage source added as ISO 19116:2004(E)
+          review_decision_event: Publication of ISO 19116:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19116:2004
+            to ISO 19116:2019(E), 3.3. Lineage source added as ISO 19116:2004(E)
           release: '1'
           terms:
-            - type: expression
-              designation: Einstellung
-              normative_status: preferred
+          - type: expression
+            designation: Einstellung
+            normative_status: preferred
         parents: []
         timeCreated: '2004-07-01T00:00:00.000Z'
         author:
@@ -509,33 +521,39 @@ deu:
           email: glossarist@ribose.com
 kor:
   id: 18
-  definition: 물체의 좌표 체계 축과 외부 좌표 체계 축 사이의 각도를 통해 기술되는 물체의 방향
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 자세
+  definition:
+  - content: 물체의 좌표 체계 축과 외부 좌표 체계 축 사이의 각도를 통해 기술되는 물체의 방향
   notes:
-    - '측위 서비스의 경우, 보통 항공기, 배, 자동차 등 사용자 플랫폼의 방향을 의미한다.'
+  - content: 측위 서비스의 경우, 보통 항공기, 배, 자동차 등 사용자 플랫폼의 방향을 의미한다.
   examples: []
+  language_code: kor
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19116:2019'
-    clause: '(E), 3.3'
-    link: 'https://www.iso.org/standard/70882.html'
-  lineage_source: 'ISO 19116:2004(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19116:2019
+      clause: "(E), 3.3"
+      link: https://www.iso.org/standard/70882.html
+  - type: lineage
+    origin:
+      ref: ISO 19116:2004(E)
   lineage_source_similarity: 1
-  date_accepted: '2004-07-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2004-07-01T00:00:00.000Z'
   review_date: '2019-12-02T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-12-02T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19116:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19116:2004 to ISO 19116:2019(E),
-    3.3. Lineage source added as ISO 19116:2004(E)
+  review_decision_event: Publication of ISO 19116:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19116:2004 to ISO
+    19116:2019(E), 3.3. Lineage source added as ISO 19116:2004(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: 자세
-      normative_status: preferred
   _revisions:
     current: 49d647
     tree:
@@ -545,30 +563,29 @@ kor:
           definition: 물체의 좌표 체계 축과 외부 좌표 체계 축 사이의 각도를 통해 기술되는 물체의 방향
           language_code: kor
           notes:
-            - '측위 서비스의 경우, 보통 항공기, 배, 자동차 등 사용자 플랫폼의 방향을 의미한다.'
+          - 측위 서비스의 경우, 보통 항공기, 배, 자동차 등 사용자 플랫폼의 방향을 의미한다.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19116:2019'
-            clause: '(E), 3.3'
-            link: 'https://www.iso.org/standard/70882.html'
-          lineage_source: 'ISO 19116:2004(E)'
+            ref: ISO 19116:2019
+            clause: "(E), 3.3"
+            link: https://www.iso.org/standard/70882.html
+          lineage_source: ISO 19116:2004(E)
           lineage_source_similarity: 1
           date_accepted: '2004-07-01T00:00:00.000Z'
           review_date: '2019-12-02T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-12-02T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19116:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19116:2004 to ISO
-            19116:2019(E), 3.3. Lineage source added as ISO 19116:2004(E)
+          review_decision_event: Publication of ISO 19116:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19116:2004
+            to ISO 19116:2019(E), 3.3. Lineage source added as ISO 19116:2004(E)
           release: '1'
           terms:
-            - type: expression
-              designation: 자세
-              normative_status: preferred
+          - type: expression
+            designation: 자세
+            normative_status: preferred
         parents: []
         timeCreated: '2004-07-01T00:00:00.000Z'
         author:
@@ -576,35 +593,40 @@ kor:
           email: glossarist@ribose.com
 msa:
   id: 18
-  definition: perbuatan atau pandangan yg berdasarkan sesuatu pendapat
-  language_code: msa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: sikap
+  definition:
+  - content: perbuatan atau pandangan yg berdasarkan sesuatu pendapat
   notes:
-    - >-
-      In positioning services, this is usually the orientation of the user's
+  - content: In positioning services, this is usually the orientation of the user's
       platform, such as an aircraft, boat, or automobile.
   examples: []
+  language_code: msa
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19116:2019'
-    clause: '(E), 3.3'
-    link: 'https://www.iso.org/standard/70882.html'
-  lineage_source: 'ISO 19116:2004(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19116:2019
+      clause: "(E), 3.3"
+      link: https://www.iso.org/standard/70882.html
+  - type: lineage
+    origin:
+      ref: ISO 19116:2004(E)
   lineage_source_similarity: 1
-  date_accepted: '2004-07-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2004-07-01T00:00:00.000Z'
   review_date: '2019-12-02T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-12-02T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19116:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19116:2004 to ISO 19116:2019(E),
-    3.3. Lineage source added as ISO 19116:2004(E)
+  review_decision_event: Publication of ISO 19116:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19116:2004 to ISO
+    19116:2019(E), 3.3. Lineage source added as ISO 19116:2004(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: sikap
-      normative_status: preferred
   _revisions:
     current: d1268d
     tree:
@@ -614,32 +636,30 @@ msa:
           definition: perbuatan atau pandangan yg berdasarkan sesuatu pendapat
           language_code: msa
           notes:
-            - >-
-              In positioning services, this is usually the orientation of the
-              user's platform, such as an aircraft, boat, or automobile.
+          - In positioning services, this is usually the orientation of the user's
+            platform, such as an aircraft, boat, or automobile.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19116:2019'
-            clause: '(E), 3.3'
-            link: 'https://www.iso.org/standard/70882.html'
-          lineage_source: 'ISO 19116:2004(E)'
+            ref: ISO 19116:2019
+            clause: "(E), 3.3"
+            link: https://www.iso.org/standard/70882.html
+          lineage_source: ISO 19116:2004(E)
           lineage_source_similarity: 1
           date_accepted: '2004-07-01T00:00:00.000Z'
           review_date: '2019-12-02T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-12-02T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19116:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19116:2004 to ISO
-            19116:2019(E), 3.3. Lineage source added as ISO 19116:2004(E)
+          review_decision_event: Publication of ISO 19116:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19116:2004
+            to ISO 19116:2019(E), 3.3. Lineage source added as ISO 19116:2004(E)
           release: '1'
           terms:
-            - type: expression
-              designation: sikap
-              normative_status: preferred
+          - type: expression
+            designation: sikap
+            normative_status: preferred
         parents: []
         timeCreated: '2004-07-01T00:00:00.000Z'
         author:
@@ -647,74 +667,75 @@ msa:
           email: glossarist@ribose.com
 rus:
   id: 18
-  definition: >-
-    ориентация тела, описываемая углами между осями его [собственной] системы
-    координат и осями внешней системы координат
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: пространственное положение
+  definition:
+  - content: ориентация тела, описываемая углами между осями его [собственной] системы
+      координат и осями внешней системы координат
   notes:
-    - >-
-      В системах позиционирования это обычно ориентация  платформы пользователя,
+  - content: В системах позиционирования это обычно ориентация  платформы пользователя,
       например,  самолета, судна или автомобиля
   examples: []
+  language_code: rus
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19116:2019'
-    clause: '(E), 3.3'
-    link: 'https://www.iso.org/standard/70882.html'
-  lineage_source: 'ISO 19116:2004(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19116:2019
+      clause: "(E), 3.3"
+      link: https://www.iso.org/standard/70882.html
+  - type: lineage
+    origin:
+      ref: ISO 19116:2004(E)
   lineage_source_similarity: 1
-  date_accepted: '2004-07-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2004-07-01T00:00:00.000Z'
   review_date: '2019-12-02T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-12-02T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19116:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19116:2004 to ISO 19116:2019(E),
-    3.3. Lineage source added as ISO 19116:2004(E)
+  review_decision_event: Publication of ISO 19116:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19116:2004 to ISO
+    19116:2019(E), 3.3. Lineage source added as ISO 19116:2004(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: пространственное положение
-      normative_status: preferred
   _revisions:
     current: 713c99
     tree:
       713c99:
         object:
           id: 18
-          definition: >-
-            ориентация тела, описываемая углами между осями его [собственной]
+          definition: ориентация тела, описываемая углами между осями его [собственной]
             системы координат и осями внешней системы координат
           language_code: rus
           notes:
-            - >-
-              В системах позиционирования это обычно ориентация  платформы
-              пользователя, например,  самолета, судна или автомобиля
+          - В системах позиционирования это обычно ориентация  платформы пользователя,
+            например,  самолета, судна или автомобиля
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19116:2019'
-            clause: '(E), 3.3'
-            link: 'https://www.iso.org/standard/70882.html'
-          lineage_source: 'ISO 19116:2004(E)'
+            ref: ISO 19116:2019
+            clause: "(E), 3.3"
+            link: https://www.iso.org/standard/70882.html
+          lineage_source: ISO 19116:2004(E)
           lineage_source_similarity: 1
           date_accepted: '2004-07-01T00:00:00.000Z'
           review_date: '2019-12-02T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-12-02T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19116:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19116:2004 to ISO
-            19116:2019(E), 3.3. Lineage source added as ISO 19116:2004(E)
+          review_decision_event: Publication of ISO 19116:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19116:2004
+            to ISO 19116:2019(E), 3.3. Lineage source added as ISO 19116:2004(E)
           release: '1'
           terms:
-            - type: expression
-              designation: пространственное положение
-              normative_status: preferred
+          - type: expression
+            designation: пространственное положение
+            normative_status: preferred
         parents: []
         timeCreated: '2004-07-01T00:00:00.000Z'
         author:
@@ -722,44 +743,48 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 18
-  definition: >-
-    orientación de un cuerpo, descrita mediante los ángulos entre los ejes del
-    sistema de coordenadas del cuerpo y los ejes de un sistema de coordenadas
-    externo
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: actitud
+  definition:
+  - content: orientación de un cuerpo, descrita mediante los ángulos entre los ejes
+      del sistema de coordenadas del cuerpo y los ejes de un sistema de coordenadas
+      externo
   notes: []
   examples: []
+  language_code: spa
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19116:2019'
-    clause: '(E), 3.3'
-    link: 'https://www.iso.org/standard/70882.html'
-  lineage_source: 'ISO 19116:2004(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19116:2019
+      clause: "(E), 3.3"
+      link: https://www.iso.org/standard/70882.html
+  - type: lineage
+    origin:
+      ref: ISO 19116:2004(E)
   lineage_source_similarity: 1
-  date_accepted: '2004-07-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2004-07-01T00:00:00.000Z'
   review_date: '2019-12-02T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-12-02T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19116:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19116:2004 to ISO 19116:2019(E),
-    3.3. Lineage source added as ISO 19116:2004(E)
+  review_decision_event: Publication of ISO 19116:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19116:2004 to ISO
+    19116:2019(E), 3.3. Lineage source added as ISO 19116:2004(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: actitud
-      normative_status: preferred
   _revisions:
     current: a44f79
     tree:
       a44f79:
         object:
           id: 18
-          definition: >-
-            orientación de un cuerpo, descrita mediante los ángulos entre los
-            ejes del sistema de coordenadas del cuerpo y los ejes de un sistema
+          definition: orientación de un cuerpo, descrita mediante los ángulos entre
+            los ejes del sistema de coordenadas del cuerpo y los ejes de un sistema
             de coordenadas externo
           language_code: spa
           notes: []
@@ -767,25 +792,24 @@ spa:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19116:2019'
-            clause: '(E), 3.3'
-            link: 'https://www.iso.org/standard/70882.html'
-          lineage_source: 'ISO 19116:2004(E)'
+            ref: ISO 19116:2019
+            clause: "(E), 3.3"
+            link: https://www.iso.org/standard/70882.html
+          lineage_source: ISO 19116:2004(E)
           lineage_source_similarity: 1
           date_accepted: '2004-07-01T00:00:00.000Z'
           review_date: '2019-12-02T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-12-02T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19116:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19116:2004 to ISO
-            19116:2019(E), 3.3. Lineage source added as ISO 19116:2004(E)
+          review_decision_event: Publication of ISO 19116:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19116:2004
+            to ISO 19116:2019(E), 3.3. Lineage source added as ISO 19116:2004(E)
           release: '1'
           terms:
-            - type: expression
-              designation: actitud
-              normative_status: preferred
+          - type: expression
+            designation: actitud
+            normative_status: preferred
         parents: []
         timeCreated: '2004-07-01T00:00:00.000Z'
         author:
@@ -793,78 +817,78 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 18
-  definition: >-
-    <vid positionering> riktning hos ett objekt, beskrivet som vinklar mellan
-    axlarna hos objektets interna koordinatsystem och axlarna i ett valt
-    referenssystem
-  country_code: swe
-  language_code: swe
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: attityd
+  definition:
+  - content: "<vid positionering> riktning hos ett objekt, beskrivet som vinklar mellan
+      axlarna hos objektets interna koordinatsystem och axlarna i ett valt referenssystem"
   notes:
-    - >-
-      In positioning services, this is usually the orientation of the user's
+  - content: In positioning services, this is usually the orientation of the user's
       platform, such as an aircraft, boat, or automobile.
   examples: []
+  country_code: swe
+  language_code: swe
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19116:2019'
-    clause: '(E), 3.3'
-    link: 'https://www.iso.org/standard/70882.html'
-  lineage_source: 'ISO 19116:2004(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19116:2019
+      clause: "(E), 3.3"
+      link: https://www.iso.org/standard/70882.html
+  - type: lineage
+    origin:
+      ref: ISO 19116:2004(E)
   lineage_source_similarity: 1
-  date_accepted: '2004-07-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2004-07-01T00:00:00.000Z'
   review_date: '2019-12-02T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-12-02T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19116:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19116:2004 to ISO 19116:2019(E),
-    3.3. Lineage source added as ISO 19116:2004(E)
+  review_decision_event: Publication of ISO 19116:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19116:2004 to ISO
+    19116:2019(E), 3.3. Lineage source added as ISO 19116:2004(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: attityd
-      normative_status: preferred
   _revisions:
     current: 3fee16
     tree:
       3fee16:
         object:
           id: 18
-          definition: >-
-            <vid positionering> riktning hos ett objekt, beskrivet som vinklar
-            mellan axlarna hos objektets interna koordinatsystem och axlarna i
-            ett valt referenssystem
+          definition: "<vid positionering> riktning hos ett objekt, beskrivet som
+            vinklar mellan axlarna hos objektets interna koordinatsystem och axlarna
+            i ett valt referenssystem"
           country_code: swe
           language_code: swe
           notes:
-            - >-
-              In positioning services, this is usually the orientation of the
-              user's platform, such as an aircraft, boat, or automobile.
+          - In positioning services, this is usually the orientation of the user's
+            platform, such as an aircraft, boat, or automobile.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19116:2019'
-            clause: '(E), 3.3'
-            link: 'https://www.iso.org/standard/70882.html'
-          lineage_source: 'ISO 19116:2004(E)'
+            ref: ISO 19116:2019
+            clause: "(E), 3.3"
+            link: https://www.iso.org/standard/70882.html
+          lineage_source: ISO 19116:2004(E)
           lineage_source_similarity: 1
           date_accepted: '2004-07-01T00:00:00.000Z'
           review_date: '2019-12-02T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-12-02T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19116:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19116:2004 to ISO
-            19116:2019(E), 3.3. Lineage source added as ISO 19116:2004(E)
+          review_decision_event: Publication of ISO 19116:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19116:2004
+            to ISO 19116:2019(E), 3.3. Lineage source added as ISO 19116:2004(E)
           release: '1'
           terms:
-            - type: expression
-              designation: attityd
-              normative_status: preferred
+          - type: expression
+            designation: attityd
+            normative_status: preferred
         parents: []
         timeCreated: '2004-07-01T00:00:00.000Z'
         author:

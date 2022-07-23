@@ -1,26 +1,32 @@
-term: service oriented architecture
+---
 termid: 684
+term: SOA
 eng:
   id: 684
-  abbrev: SOA
-  definition: software architecture consisting of coupled services
-  language_code: eng
+  terms:
+  - type: abbreviation
+    designation: SOA
+  - type: expression
+    normative_status: preferred
+    designation: service oriented architecture
+  definition:
+  - content: software architecture consisting of coupled services
   notes:
-    - >-
-      The most common SOAs in use today are Web services (using SOAP, UDDI, and
-      WSDL), CORBA and DCOM.
+  - content: The most common SOAs in use today are Web services (using SOAP, UDDI,
+      and WSDL), CORBA and DCOM.
   examples: []
+  language_code: eng
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19132:2007'
-    link: 'https://www.iso.org/standard/40601.html'
-  date_accepted: '2007-10-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19132:2007
+      link: https://www.iso.org/standard/40601.html
+  dates:
+  - type: accepted
+    date: '2007-10-15T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: service oriented architecture
-      normative_status: preferred
   _revisions:
     current: 9cd391
     tree:
@@ -31,21 +37,20 @@ eng:
           definition: software architecture consisting of coupled services
           language_code: eng
           notes:
-            - >-
-              The most common SOAs in use today are Web services (using SOAP,
-              UDDI, and WSDL), CORBA and DCOM.
+          - The most common SOAs in use today are Web services (using SOAP, UDDI,
+            and WSDL), CORBA and DCOM.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19132:2007'
-            link: 'https://www.iso.org/standard/40601.html'
+            ref: ISO 19132:2007
+            link: https://www.iso.org/standard/40601.html
           date_accepted: '2007-10-15T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: service oriented architecture
-              normative_status: preferred
+          - type: expression
+            designation: service oriented architecture
+            normative_status: preferred
         parents: []
         timeCreated: '2007-10-15T00:00:00.000Z'
         author:
@@ -53,32 +58,36 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 684
-  abbrev: ه ت خ
-  definition: هيكلة برامج تتكون من خدمات يقترن بعضها ببعض
-  language_code: ara
+  terms:
+  - type: abbreviation
+    designation: ه ت خ
+  - type: expression
+    normative_status: preferred
+    designation: هيكلة ذات توجهات خدمية
+  definition:
+  - content: هيكلة برامج تتكون من خدمات يقترن بعضها ببعض
   notes:
-    - >-
-      أكثر برمجيات البناء الهيكلي الموجه إلى الخدمة Service-oriented
-      architectures SOAs رواجا وانتشارا في  هذا الوقت هي خدمات الشبكة العنكبوتية
-      الدولية (التي تستخدم فيها مواصفات بروتوكول SOAP لتبادل المعلومات المهيكلة
-      عبر شبكات الحاسب، وخدمة السجل العالمي UDDI المبنية على لغة XML، ولغة وصف
-      خدمات الشبكة العنكبوتية المعروفة اختصارا بالأحرفWSDL والمبنية أيضا على
-      لغةXML) ومواصفة CORBAالتي تتيح إمكانية الجمع بين مكونات البرمجة المكتوبة
-      بلغات حاسب مختلفة وتعمل على نظم حاسب مختلفة ، وتقنية شركة مايكروسوفت
-      المعروفة اختصارا بالأحرف DCOM والمخصصة للتواصل بين مكونات البرمجيات
-      الموزعة عبر أجهزة حاسب موصلة شبكيا.
+  - content: أكثر برمجيات البناء الهيكلي الموجه إلى الخدمة Service-oriented architectures
+      SOAs رواجا وانتشارا في  هذا الوقت هي خدمات الشبكة العنكبوتية الدولية (التي تستخدم
+      فيها مواصفات بروتوكول SOAP لتبادل المعلومات المهيكلة عبر شبكات الحاسب، وخدمة
+      السجل العالمي UDDI المبنية على لغة XML، ولغة وصف خدمات الشبكة العنكبوتية المعروفة
+      اختصارا بالأحرفWSDL والمبنية أيضا على لغةXML) ومواصفة CORBAالتي تتيح إمكانية
+      الجمع بين مكونات البرمجة المكتوبة بلغات حاسب مختلفة وتعمل على نظم حاسب مختلفة
+      ، وتقنية شركة مايكروسوفت المعروفة اختصارا بالأحرف DCOM والمخصصة للتواصل بين
+      مكونات البرمجيات الموزعة عبر أجهزة حاسب موصلة شبكيا.
   examples: []
+  language_code: ara
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19132:2007'
-    link: 'https://www.iso.org/standard/40601.html'
-  date_accepted: '2007-10-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19132:2007
+      link: https://www.iso.org/standard/40601.html
+  dates:
+  - type: accepted
+    date: '2007-10-15T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: هيكلة ذات توجهات خدمية
-      normative_status: preferred
   _revisions:
     current: 497f62
     tree:
@@ -89,29 +98,27 @@ ara:
           definition: هيكلة برامج تتكون من خدمات يقترن بعضها ببعض
           language_code: ara
           notes:
-            - >-
-              أكثر برمجيات البناء الهيكلي الموجه إلى الخدمة Service-oriented
-              architectures SOAs رواجا وانتشارا في  هذا الوقت هي خدمات الشبكة
-              العنكبوتية الدولية (التي تستخدم فيها مواصفات بروتوكول SOAP لتبادل
-              المعلومات المهيكلة عبر شبكات الحاسب، وخدمة السجل العالمي UDDI
-              المبنية على لغة XML، ولغة وصف خدمات الشبكة العنكبوتية المعروفة
-              اختصارا بالأحرفWSDL والمبنية أيضا على لغةXML) ومواصفة CORBAالتي
-              تتيح إمكانية الجمع بين مكونات البرمجة المكتوبة بلغات حاسب مختلفة
-              وتعمل على نظم حاسب مختلفة ، وتقنية شركة مايكروسوفت المعروفة
-              اختصارا بالأحرف DCOM والمخصصة للتواصل بين مكونات البرمجيات الموزعة
-              عبر أجهزة حاسب موصلة شبكيا.
+          - أكثر برمجيات البناء الهيكلي الموجه إلى الخدمة Service-oriented architectures
+            SOAs رواجا وانتشارا في  هذا الوقت هي خدمات الشبكة العنكبوتية الدولية (التي
+            تستخدم فيها مواصفات بروتوكول SOAP لتبادل المعلومات المهيكلة عبر شبكات
+            الحاسب، وخدمة السجل العالمي UDDI المبنية على لغة XML، ولغة وصف خدمات الشبكة
+            العنكبوتية المعروفة اختصارا بالأحرفWSDL والمبنية أيضا على لغةXML) ومواصفة
+            CORBAالتي تتيح إمكانية الجمع بين مكونات البرمجة المكتوبة بلغات حاسب مختلفة
+            وتعمل على نظم حاسب مختلفة ، وتقنية شركة مايكروسوفت المعروفة اختصارا بالأحرف
+            DCOM والمخصصة للتواصل بين مكونات البرمجيات الموزعة عبر أجهزة حاسب موصلة
+            شبكيا.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19132:2007'
-            link: 'https://www.iso.org/standard/40601.html'
+            ref: ISO 19132:2007
+            link: https://www.iso.org/standard/40601.html
           date_accepted: '2007-10-15T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: هيكلة ذات توجهات خدمية
-              normative_status: preferred
+          - type: expression
+            designation: هيكلة ذات توجهات خدمية
+            normative_status: preferred
         parents: []
         timeCreated: '2007-10-15T00:00:00.000Z'
         author:
@@ -119,21 +126,27 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 684
-  abbrev: SOA
-  definition: 描述在服务器上可用的操作和地理信息的元数据。
-  language_code: zho
+  terms:
+  - type: abbreviation
+    designation: SOA
+  - type: expression
+    normative_status: preferred
+    designation: 服务元数据
+  definition:
+  - content: 描述在服务器上可用的操作和地理信息的元数据。
   notes: []
   examples: []
+  language_code: zho
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19132:2007'
-    link: 'https://www.iso.org/standard/40601.html'
-  date_accepted: '2007-10-15T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: 服务元数据
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19132:2007
+      link: https://www.iso.org/standard/40601.html
+  dates:
+  - type: accepted
+    date: '2007-10-15T00:00:00.000Z'
   _revisions:
     current: e58a48
     tree:
@@ -148,13 +161,13 @@ zho:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19132:2007'
-            link: 'https://www.iso.org/standard/40601.html'
+            ref: ISO 19132:2007
+            link: https://www.iso.org/standard/40601.html
           date_accepted: '2007-10-15T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: 服务元数据
-              normative_status: preferred
+          - type: expression
+            designation: 服务元数据
+            normative_status: preferred
         parents: []
         timeCreated: '2007-10-15T00:00:00.000Z'
         author:
@@ -162,25 +175,30 @@ zho:
           email: glossarist@ribose.com
 fin:
   id: 684
-  definition: kytketyistä palveluista koostuva ohjelmistoarkkitehtuuri
-  language_code: fin
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: palvelusuuntautunut arkkitehtuuri
+  definition:
+  - content: kytketyistä palveluista koostuva ohjelmistoarkkitehtuuri
   notes:
-    - >-
-      Yleisimpiä nykyisin käytössä olevia palvelusuuntautuneita arkkitehtuureja
-      ovat Web-palvelut (jotka käyttävät SOAP:ia, UDDIa ja WSDL:aa), CORBA ja
-      DCOM.
+  - content: Yleisimpiä nykyisin käytössä olevia palvelusuuntautuneita arkkitehtuureja
+      ovat Web-palvelut (jotka käyttävät SOAP:ia, UDDIa ja WSDL:aa), CORBA ja DCOM.
   examples: []
+  language_code: fin
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19132:2007'
-    link: 'https://www.iso.org/standard/40601.html'
-  lineage_source: Internet
-  date_accepted: '2007-10-15T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: palvelusuuntautunut arkkitehtuuri
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19132:2007
+      link: https://www.iso.org/standard/40601.html
+  - type: lineage
+    origin:
+      ref: Internet
+  dates:
+  - type: accepted
+    date: '2007-10-15T00:00:00.000Z'
   _revisions:
     current: bf4c51
     tree:
@@ -190,22 +208,21 @@ fin:
           definition: kytketyistä palveluista koostuva ohjelmistoarkkitehtuuri
           language_code: fin
           notes:
-            - >-
-              Yleisimpiä nykyisin käytössä olevia palvelusuuntautuneita
-              arkkitehtuureja ovat Web-palvelut (jotka käyttävät SOAP:ia, UDDIa
-              ja WSDL:aa), CORBA ja DCOM.
+          - Yleisimpiä nykyisin käytössä olevia palvelusuuntautuneita arkkitehtuureja
+            ovat Web-palvelut (jotka käyttävät SOAP:ia, UDDIa ja WSDL:aa), CORBA ja
+            DCOM.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19132:2007'
-            link: 'https://www.iso.org/standard/40601.html'
+            ref: ISO 19132:2007
+            link: https://www.iso.org/standard/40601.html
           lineage_source: Internet
           date_accepted: '2007-10-15T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: palvelusuuntautunut arkkitehtuuri
-              normative_status: preferred
+          - type: expression
+            designation: palvelusuuntautunut arkkitehtuuri
+            normative_status: preferred
         parents: []
         timeCreated: '2007-10-15T00:00:00.000Z'
         author:
@@ -213,20 +230,27 @@ fin:
           email: glossarist@ribose.com
 fra:
   id: 684
-  definition: architecture logicielle constituée de services couplés
-  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: architecture orientée service
+  definition:
+  - content: architecture logicielle constituée de services couplés
   notes: []
   examples: []
+  language_code: fra
   entry_status: valid
-  authoritative_source:
-    ref: ISO 19132
-    link: 'https://www.iso.org/standard/40601.html'
-  lineage_source: ''
-  date_accepted: '2007-10-15T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: architecture orientée service
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19132
+      link: https://www.iso.org/standard/40601.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2007-10-15T00:00:00.000Z'
   _revisions:
     current: 929c9d
     tree:
@@ -240,13 +264,13 @@ fra:
           entry_status: valid
           authoritative_source:
             ref: ISO 19132
-            link: 'https://www.iso.org/standard/40601.html'
+            link: https://www.iso.org/standard/40601.html
           lineage_source: ''
           date_accepted: '2007-10-15T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: architecture orientée service
-              normative_status: preferred
+          - type: expression
+            designation: architecture orientée service
+            normative_status: preferred
         parents: []
         timeCreated: '2007-10-15T00:00:00.000Z'
         author:
@@ -254,24 +278,32 @@ fra:
           email: glossarist@ribose.com
 kor:
   id: 684
-  abbrev: SOA
-  definition: 결합된 서비스로 구성된 소프트웨어 구조
-  language_code: kor
+  terms:
+  - type: abbreviation
+    designation: SOA
+  - type: expression
+    normative_status: preferred
+    designation: 서비스 지향 아키텍처
+  definition:
+  - content: 결합된 서비스로 구성된 소프트웨어 구조
   notes:
-    - '최근 가장 일반적인 SOA는 웹서비스(SOAP, UDDI 및 WSDL 사용)와 CORBA, DCOM 이다.'
+  - content: 최근 가장 일반적인 SOA는 웹서비스(SOAP, UDDI 및 WSDL 사용)와 CORBA, DCOM 이다.
   examples: []
+  language_code: kor
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19132:2007'
-    link: 'https://www.iso.org/standard/40601.html'
-  lineage_source: KS X ISO 19132
-  date_accepted: '2009-12-29T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19132:2007
+      link: https://www.iso.org/standard/40601.html
+  - type: lineage
+    origin:
+      ref: KS X ISO 19132
+  dates:
+  - type: accepted
+    date: '2009-12-29T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: 서비스 지향 아키텍처
-      normative_status: preferred
   _revisions:
     current: 21ae22
     tree:
@@ -282,20 +314,20 @@ kor:
           definition: 결합된 서비스로 구성된 소프트웨어 구조
           language_code: kor
           notes:
-            - '최근 가장 일반적인 SOA는 웹서비스(SOAP, UDDI 및 WSDL 사용)와 CORBA, DCOM 이다.'
+          - 최근 가장 일반적인 SOA는 웹서비스(SOAP, UDDI 및 WSDL 사용)와 CORBA, DCOM 이다.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19132:2007'
-            link: 'https://www.iso.org/standard/40601.html'
+            ref: ISO 19132:2007
+            link: https://www.iso.org/standard/40601.html
           lineage_source: KS X ISO 19132
           date_accepted: '2009-12-29T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: 서비스 지향 아키텍처
-              normative_status: preferred
+          - type: expression
+            designation: 서비스 지향 아키텍처
+            normative_status: preferred
         parents: []
         timeCreated: '2009-12-29T00:00:00.000Z'
         author:
@@ -303,54 +335,55 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 684
-  definition: >-
-    архитектура программного обеспечения, образованная взаимосвязанными
-    сервисами
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: сервисно - ориентированная архитектура
+  definition:
+  - content: архитектура программного обеспечения, образованная взаимосвязанными сервисами
   notes:
-    - >-
-      Наиболее используемыми сервисно-ориентированными архитектурами в настоящее
-      время являются Web-сервисы (использующие  SOAP, UDDI и WSDL),  CORBA и
-      DCOM
+  - content: Наиболее используемыми сервисно-ориентированными архитектурами в настоящее
+      время являются Web-сервисы (использующие  SOAP, UDDI и WSDL),  CORBA и DCOM
   examples: []
+  language_code: rus
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19132:2007'
-    link: 'https://www.iso.org/standard/40601.html'
-  lineage_source: Internet
-  date_accepted: '2007-10-15T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: сервисно - ориентированная архитектура
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19132:2007
+      link: https://www.iso.org/standard/40601.html
+  - type: lineage
+    origin:
+      ref: Internet
+  dates:
+  - type: accepted
+    date: '2007-10-15T00:00:00.000Z'
   _revisions:
     current: b836d6
     tree:
       b836d6:
         object:
           id: 684
-          definition: >-
-            архитектура программного обеспечения, образованная взаимосвязанными
+          definition: архитектура программного обеспечения, образованная взаимосвязанными
             сервисами
           language_code: rus
           notes:
-            - >-
-              Наиболее используемыми сервисно-ориентированными архитектурами в
-              настоящее время являются Web-сервисы (использующие  SOAP, UDDI и
-              WSDL),  CORBA и DCOM
+          - Наиболее используемыми сервисно-ориентированными архитектурами в настоящее
+            время являются Web-сервисы (использующие  SOAP, UDDI и WSDL),  CORBA и
+            DCOM
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19132:2007'
-            link: 'https://www.iso.org/standard/40601.html'
+            ref: ISO 19132:2007
+            link: https://www.iso.org/standard/40601.html
           lineage_source: Internet
           date_accepted: '2007-10-15T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: сервисно - ориентированная архитектура
-              normative_status: preferred
+          - type: expression
+            designation: сервисно - ориентированная архитектура
+            normative_status: preferred
         parents: []
         timeCreated: '2007-10-15T00:00:00.000Z'
         author:
@@ -358,25 +391,30 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 684
-  abbrev: SOA
-  definition: arquitectura desoftwareconsistente en servicios acoplados
-  language_code: spa
+  terms:
+  - type: abbreviation
+    designation: SOA
+  - type: expression
+    normative_status: preferred
+    designation: arquitectura orientada a servicios
+  definition:
+  - content: arquitectura desoftwareconsistente en servicios acoplados
   notes:
-    - >-
-      Las arquitecturas SOA más usadas hoy en día son los servicios web
-      (utilizando SOAP, UDDI y WSDL), CORBA y DCOM.
+  - content: Las arquitecturas SOA más usadas hoy en día son los servicios web (utilizando
+      SOAP, UDDI y WSDL), CORBA y DCOM.
   examples: []
+  language_code: spa
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19132:2007'
-    link: 'https://www.iso.org/standard/40601.html'
-  date_accepted: '2007-10-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19132:2007
+      link: https://www.iso.org/standard/40601.html
+  dates:
+  - type: accepted
+    date: '2007-10-15T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: arquitectura orientada a servicios
-      normative_status: preferred
   _revisions:
     current: 41d0e0
     tree:
@@ -387,21 +425,20 @@ spa:
           definition: arquitectura desoftwareconsistente en servicios acoplados
           language_code: spa
           notes:
-            - >-
-              Las arquitecturas SOA más usadas hoy en día son los servicios web
-              (utilizando SOAP, UDDI y WSDL), CORBA y DCOM.
+          - Las arquitecturas SOA más usadas hoy en día son los servicios web (utilizando
+            SOAP, UDDI y WSDL), CORBA y DCOM.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19132:2007'
-            link: 'https://www.iso.org/standard/40601.html'
+            ref: ISO 19132:2007
+            link: https://www.iso.org/standard/40601.html
           date_accepted: '2007-10-15T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: arquitectura orientada a servicios
-              normative_status: preferred
+          - type: expression
+            designation: arquitectura orientada a servicios
+            normative_status: preferred
         parents: []
         timeCreated: '2007-10-15T00:00:00.000Z'
         author:
@@ -409,29 +446,35 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 684
-  abbrev: SOA
-  definition: >-
-    programarkitektur som bygger på att de ingående programmen, som har en
-    tydlig och avgränsad uppgift, lätt kan kopplas ihop
+  terms:
+  - type: abbreviation
+    designation: SOA
+  - type: expression
+    normative_status: preferred
+    designation: tjänsteorienterad arkitektur
+  definition:
+  - content: programarkitektur som bygger på att de ingående programmen, som har en
+      tydlig och avgränsad uppgift, lätt kan kopplas ihop
+  notes:
+  - content: The most common SOAs in use today are Web services (using SOAP, UDDI,
+      and WSDL), CORBA and DCOM.
+  examples: []
   country_code: swe
   language_code: swe
-  notes:
-    - >-
-      The most common SOAs in use today are Web services (using SOAP, UDDI, and
-      WSDL), CORBA and DCOM.
-  examples: []
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19132:2007'
-    link: 'https://www.iso.org/standard/40601.html'
-  lineage_source: (Type reference to national language document)
-  date_accepted: '2007-10-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19132:2007
+      link: https://www.iso.org/standard/40601.html
+  - type: lineage
+    origin:
+      ref: "(Type reference to national language document)"
+  dates:
+  - type: accepted
+    date: '2007-10-15T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: tjänsteorienterad arkitektur
-      normative_status: preferred
   _revisions:
     current: 8fb967
     tree:
@@ -439,28 +482,26 @@ swe:
         object:
           id: 684
           abbrev: SOA
-          definition: >-
-            programarkitektur som bygger på att de ingående programmen, som har
-            en tydlig och avgränsad uppgift, lätt kan kopplas ihop
+          definition: programarkitektur som bygger på att de ingående programmen,
+            som har en tydlig och avgränsad uppgift, lätt kan kopplas ihop
           country_code: swe
           language_code: swe
           notes:
-            - >-
-              The most common SOAs in use today are Web services (using SOAP,
-              UDDI, and WSDL), CORBA and DCOM.
+          - The most common SOAs in use today are Web services (using SOAP, UDDI,
+            and WSDL), CORBA and DCOM.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19132:2007'
-            link: 'https://www.iso.org/standard/40601.html'
-          lineage_source: (Type reference to national language document)
+            ref: ISO 19132:2007
+            link: https://www.iso.org/standard/40601.html
+          lineage_source: "(Type reference to national language document)"
           date_accepted: '2007-10-15T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: tjänsteorienterad arkitektur
-              normative_status: preferred
+          - type: expression
+            designation: tjänsteorienterad arkitektur
+            normative_status: preferred
         parents: []
         timeCreated: '2007-10-15T00:00:00.000Z'
         author:

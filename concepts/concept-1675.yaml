@@ -1,50 +1,53 @@
-term: geographic coordinates
+---
 termid: 1675
+term: geographic coordinates
 eng:
   id: 1675
-  definition: 'longitude, latitude and hight of a ground or elevated point'
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: geographic coordinates
+  definition:
+  - content: longitude, latitude and hight of a ground or elevated point
   notes:
-    - >-
-      Geographic coordinates are related to a coordinate reference system or
+  - content: Geographic coordinates are related to a coordinate reference system or
       compound coordinate reference system. Depth equals negative height
   examples: []
+  language_code: eng
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO/TS 19130-2:2014'
-    clause: '4.26'
-    link: 'https://www.iso.org/standard/56113.html'
-  date_accepted: '2014-01-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO/TS 19130-2:2014
+      clause: '4.26'
+      link: https://www.iso.org/standard/56113.html
+  dates:
+  - type: accepted
+    date: '2014-01-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: geographic coordinates
-      normative_status: preferred
   _revisions:
     current: d00c8d
     tree:
       d00c8d:
         object:
           id: 1675
-          definition: 'longitude, latitude and hight of a ground or elevated point'
+          definition: longitude, latitude and hight of a ground or elevated point
           language_code: eng
           notes:
-            - >-
-              Geographic coordinates are related to a coordinate reference
-              system or compound coordinate reference system. Depth equals
-              negative height
+          - Geographic coordinates are related to a coordinate reference system or
+            compound coordinate reference system. Depth equals negative height
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO/TS 19130-2:2014'
+            ref: ISO/TS 19130-2:2014
             clause: '4.26'
-            link: 'https://www.iso.org/standard/56113.html'
+            link: https://www.iso.org/standard/56113.html
           date_accepted: '2014-01-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: geographic coordinates
-              normative_status: preferred
+          - type: expression
+            designation: geographic coordinates
+            normative_status: preferred
         parents: []
         timeCreated: '2014-01-15T00:00:00.000Z'
         author:
@@ -52,24 +55,28 @@ eng:
           email: glossarist@ribose.com
 kor:
   id: 1675
-  definition: 지상 또는 상승점의 경위도와 고도
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 지리좌표
+  definition:
+  - content: 지상 또는 상승점의 경위도와 고도
   notes:
-    - >-
-      Geographic coordinates are related to a coordinate reference system or
+  - content: Geographic coordinates are related to a coordinate reference system or
       compound coordinate reference system. Depth equals negative height
   examples: []
+  language_code: kor
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO/TS 19130-2:2014'
-    clause: '4.26'
-    link: 'https://www.iso.org/standard/56113.html'
-  date_accepted: '2014-01-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO/TS 19130-2:2014
+      clause: '4.26'
+      link: https://www.iso.org/standard/56113.html
+  dates:
+  - type: accepted
+    date: '2014-01-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: 지리좌표
-      normative_status: preferred
   _revisions:
     current: 7b4ede
     tree:
@@ -79,22 +86,20 @@ kor:
           definition: 지상 또는 상승점의 경위도와 고도
           language_code: kor
           notes:
-            - >-
-              Geographic coordinates are related to a coordinate reference
-              system or compound coordinate reference system. Depth equals
-              negative height
+          - Geographic coordinates are related to a coordinate reference system or
+            compound coordinate reference system. Depth equals negative height
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO/TS 19130-2:2014'
+            ref: ISO/TS 19130-2:2014
             clause: '4.26'
-            link: 'https://www.iso.org/standard/56113.html'
+            link: https://www.iso.org/standard/56113.html
           date_accepted: '2014-01-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: 지리좌표
-              normative_status: preferred
+          - type: expression
+            designation: 지리좌표
+            normative_status: preferred
         parents: []
         timeCreated: '2014-01-15T00:00:00.000Z'
         author:
@@ -102,50 +107,56 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 1675
-  definition: 'долгота, широта и высота точки поверхности земли или высотной точки'
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Географические координаты
+  definition:
+  - content: долгота, широта и высота точки поверхности земли или высотной точки
   notes:
-    - >-
-      Географические координаты связаны с системой координат или составной
+  - content: Географические координаты связаны с системой координат или составной
       системой координат. Глубина равна отрицательной высоте
   examples: []
+  language_code: rus
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO/TS 19130-2:2014'
-    clause: '4.26'
-    link: 'https://www.iso.org/standard/56113.html'
-  lineage_source: 'ISO/TS 19130-2:2014, 4.26'
-  date_accepted: '2014-01-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO/TS 19130-2:2014
+      clause: '4.26'
+      link: https://www.iso.org/standard/56113.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19130-2:2014, 4.26
+  dates:
+  - type: accepted
+    date: '2014-01-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: Географические координаты
-      normative_status: preferred
   _revisions:
     current: b7ac3d
     tree:
       b7ac3d:
         object:
           id: 1675
-          definition: 'долгота, широта и высота точки поверхности земли или высотной точки'
+          definition: долгота, широта и высота точки поверхности земли или высотной
+            точки
           language_code: rus
           notes:
-            - >-
-              Географические координаты связаны с системой координат или
-              составной системой координат. Глубина равна отрицательной высоте
+          - Географические координаты связаны с системой координат или составной системой
+            координат. Глубина равна отрицательной высоте
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO/TS 19130-2:2014'
+            ref: ISO/TS 19130-2:2014
             clause: '4.26'
-            link: 'https://www.iso.org/standard/56113.html'
-          lineage_source: 'ISO/TS 19130-2:2014, 4.26'
+            link: https://www.iso.org/standard/56113.html
+          lineage_source: ISO/TS 19130-2:2014, 4.26
           date_accepted: '2014-01-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: Географические координаты
-              normative_status: preferred
+          - type: expression
+            designation: Географические координаты
+            normative_status: preferred
         parents: []
         timeCreated: '2014-01-15T00:00:00.000Z'
         author:
@@ -153,52 +164,54 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 1675
-  definition: 'longitud, latitud y altura de un punto en la superficie terrestre o elevado'
-  language_code: spa
-  notes:
-    - >-
-      las coordenadas geográficas están relacionadas con un sistema de
-      referencia de coordenadas o un sistema de referencia de coordenadas
-      compuesto. La produndidad es la altura negativa.
-  examples: []
-  entry_status: valid
-  authoritative_source:
-    ref: 'ISO/TS 19130-2:2014'
-    clause: '4.26'
-    link: 'https://www.iso.org/standard/56113.html'
-  date_accepted: '2014-01-15T00:00:00.000Z'
-  release: '3'
   terms:
-    - type: expression
-      designation: coordenadas geográficas
-      normative_status: preferred
+  - type: expression
+    normative_status: preferred
+    designation: coordenadas geográficas
+  definition:
+  - content: longitud, latitud y altura de un punto en la superficie terrestre o elevado
+  notes:
+  - content: las coordenadas geográficas están relacionadas con un sistema de referencia
+      de coordenadas o un sistema de referencia de coordenadas compuesto. La produndidad
+      es la altura negativa.
+  examples: []
+  language_code: spa
+  entry_status: valid
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO/TS 19130-2:2014
+      clause: '4.26'
+      link: https://www.iso.org/standard/56113.html
+  dates:
+  - type: accepted
+    date: '2014-01-15T00:00:00.000Z'
+  release: '3'
   _revisions:
     current: 9318b6
     tree:
       9318b6:
         object:
           id: 1675
-          definition: >-
-            longitud, latitud y altura de un punto en la superficie terrestre o
-            elevado
+          definition: longitud, latitud y altura de un punto en la superficie terrestre
+            o elevado
           language_code: spa
           notes:
-            - >-
-              las coordenadas geográficas están relacionadas con un sistema de
-              referencia de coordenadas o un sistema de referencia de
-              coordenadas compuesto. La produndidad es la altura negativa.
+          - las coordenadas geográficas están relacionadas con un sistema de referencia
+            de coordenadas o un sistema de referencia de coordenadas compuesto. La
+            produndidad es la altura negativa.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO/TS 19130-2:2014'
+            ref: ISO/TS 19130-2:2014
             clause: '4.26'
-            link: 'https://www.iso.org/standard/56113.html'
+            link: https://www.iso.org/standard/56113.html
           date_accepted: '2014-01-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: coordenadas geográficas
-              normative_status: preferred
+          - type: expression
+            designation: coordenadas geográficas
+            normative_status: preferred
         parents: []
         timeCreated: '2014-01-15T00:00:00.000Z'
         author:
@@ -206,53 +219,57 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 1675
-  definition: 'longitud, latitud och höjd över mark eller över förhöjd punkt'
-  country_code: swe
-  language_code: swe
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: geografiska koordinater
+  definition:
+  - content: longitud, latitud och höjd över mark eller över förhöjd punkt
   notes:
-    - >-
-      Geographic coordinates are related to a coordinate reference system or
+  - content: Geographic coordinates are related to a coordinate reference system or
       compound coordinate reference system. Depth equals negative height
   examples: []
+  country_code: swe
+  language_code: swe
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO/TS 19130-2:2014'
-    clause: '4.26'
-    link: 'https://www.iso.org/standard/56113.html'
-  lineage_source: (Type reference to national language document)
-  date_accepted: '2014-01-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO/TS 19130-2:2014
+      clause: '4.26'
+      link: https://www.iso.org/standard/56113.html
+  - type: lineage
+    origin:
+      ref: "(Type reference to national language document)"
+  dates:
+  - type: accepted
+    date: '2014-01-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: geografiska koordinater
-      normative_status: preferred
   _revisions:
     current: e3b599
     tree:
       e3b599:
         object:
           id: 1675
-          definition: 'longitud, latitud och höjd över mark eller över förhöjd punkt'
+          definition: longitud, latitud och höjd över mark eller över förhöjd punkt
           country_code: swe
           language_code: swe
           notes:
-            - >-
-              Geographic coordinates are related to a coordinate reference
-              system or compound coordinate reference system. Depth equals
-              negative height
+          - Geographic coordinates are related to a coordinate reference system or
+            compound coordinate reference system. Depth equals negative height
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO/TS 19130-2:2014'
+            ref: ISO/TS 19130-2:2014
             clause: '4.26'
-            link: 'https://www.iso.org/standard/56113.html'
-          lineage_source: (Type reference to national language document)
+            link: https://www.iso.org/standard/56113.html
+          lineage_source: "(Type reference to national language document)"
           date_accepted: '2014-01-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: geografiska koordinater
-              normative_status: preferred
+          - type: expression
+            designation: geografiska koordinater
+            normative_status: preferred
         parents: []
         timeCreated: '2014-01-15T00:00:00.000Z'
         author:

@@ -1,23 +1,29 @@
-term: complex symbol
+---
 termid: 1512
+term: complex symbol
 eng:
   id: 1512
-  definition: symbol composed of other symbols of different types
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: complex symbol
+  definition:
+  - content: symbol composed of other symbols of different types
   notes: []
   examples:
-    - A dashed line symbol with a point symbol repeated at an interval.
+  - content: A dashed line symbol with a point symbol repeated at an interval.
+  language_code: eng
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19117:2012'
-    clause: '4.3'
-    link: 'https://www.iso.org/standard/46226.html'
-  date_accepted: '2012-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19117:2012
+      clause: '4.3'
+      link: https://www.iso.org/standard/46226.html
+  dates:
+  - type: accepted
+    date: '2012-12-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: complex symbol
-      normative_status: preferred
   _revisions:
     current: bdbb3c
     tree:
@@ -28,18 +34,18 @@ eng:
           language_code: eng
           notes: []
           examples:
-            - A dashed line symbol with a point symbol repeated at an interval.
+          - A dashed line symbol with a point symbol repeated at an interval.
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19117:2012'
+            ref: ISO 19117:2012
             clause: '4.3'
-            link: 'https://www.iso.org/standard/46226.html'
+            link: https://www.iso.org/standard/46226.html
           date_accepted: '2012-12-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: complex symbol
-              normative_status: preferred
+          - type: expression
+            designation: complex symbol
+            normative_status: preferred
         parents: []
         timeCreated: '2012-12-15T00:00:00.000Z'
         author:
@@ -47,22 +53,27 @@ eng:
           email: glossarist@ribose.com
 kor:
   id: 1512
-  definition: 서로 다른 유형의 기호들로 구성된 기호
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 복잡 기호
+  definition:
+  - content: 서로 다른 유형의 기호들로 구성된 기호
   notes: []
   examples:
-    - A dashed line symbol with a point symbol repeated at an interval.
+  - content: A dashed line symbol with a point symbol repeated at an interval.
+  language_code: kor
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19117:2012'
-    clause: '4.3'
-    link: 'https://www.iso.org/standard/46226.html'
-  date_accepted: '2012-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19117:2012
+      clause: '4.3'
+      link: https://www.iso.org/standard/46226.html
+  dates:
+  - type: accepted
+    date: '2012-12-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: 복잡 기호
-      normative_status: preferred
   _revisions:
     current: d98cb6
     tree:
@@ -73,18 +84,18 @@ kor:
           language_code: kor
           notes: []
           examples:
-            - A dashed line symbol with a point symbol repeated at an interval.
+          - A dashed line symbol with a point symbol repeated at an interval.
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19117:2012'
+            ref: ISO 19117:2012
             clause: '4.3'
-            link: 'https://www.iso.org/standard/46226.html'
+            link: https://www.iso.org/standard/46226.html
           date_accepted: '2012-12-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: 복잡 기호
-              normative_status: preferred
+          - type: expression
+            designation: 복잡 기호
+            normative_status: preferred
         parents: []
         timeCreated: '2012-12-15T00:00:00.000Z'
         author:
@@ -92,22 +103,28 @@ kor:
           email: glossarist@ribose.com
 msa:
   id: 1512
-  language_code: msa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: komples simbol
   notes: []
   examples:
-    - A dashed line symbol with a point symbol repeated at an interval.
+  - content: A dashed line symbol with a point symbol repeated at an interval.
+  language_code: msa
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19117:2012'
-    clause: '4.3'
-    link: 'https://www.iso.org/standard/46226.html'
-  lineage_source: Pusat Rujukan Persuratan Melayu (DBP)
-  date_accepted: '2012-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19117:2012
+      clause: '4.3'
+      link: https://www.iso.org/standard/46226.html
+  - type: lineage
+    origin:
+      ref: Pusat Rujukan Persuratan Melayu (DBP)
+  dates:
+  - type: accepted
+    date: '2012-12-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: komples simbol
-      normative_status: preferred
   _revisions:
     current: 5aaabe
     tree:
@@ -117,19 +134,19 @@ msa:
           language_code: msa
           notes: []
           examples:
-            - A dashed line symbol with a point symbol repeated at an interval.
+          - A dashed line symbol with a point symbol repeated at an interval.
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19117:2012'
+            ref: ISO 19117:2012
             clause: '4.3'
-            link: 'https://www.iso.org/standard/46226.html'
+            link: https://www.iso.org/standard/46226.html
           lineage_source: Pusat Rujukan Persuratan Melayu (DBP)
           date_accepted: '2012-12-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: komples simbol
-              normative_status: preferred
+          - type: expression
+            designation: komples simbol
+            normative_status: preferred
         parents: []
         timeCreated: '2012-12-15T00:00:00.000Z'
         author:
@@ -137,48 +154,53 @@ msa:
           email: glossarist@ribose.com
 rus:
   id: 1512
-  definition: 'символ, состоящий из других символов разных типов'
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: комплексный символ
+  definition:
+  - content: символ, состоящий из других символов разных типов
   notes: []
   examples:
-    - 'Символ пунктирной линии с точечным символом, повторяющимся с интервалом.'
+  - content: Символ пунктирной линии с точечным символом, повторяющимся с интервалом.
+  language_code: rus
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19117:2012'
-    clause: '4.3'
-    link: 'https://www.iso.org/standard/46226.html'
-  lineage_source: 'перевод ИСО 19117:2012'
-  date_accepted: '2012-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19117:2012
+      clause: '4.3'
+      link: https://www.iso.org/standard/46226.html
+  - type: lineage
+    origin:
+      ref: перевод ИСО 19117:2012
+  dates:
+  - type: accepted
+    date: '2012-12-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: комплексный символ
-      normative_status: preferred
   _revisions:
     current: e1ef86
     tree:
       e1ef86:
         object:
           id: 1512
-          definition: 'символ, состоящий из других символов разных типов'
+          definition: символ, состоящий из других символов разных типов
           language_code: rus
           notes: []
           examples:
-            - >-
-              Символ пунктирной линии с точечным символом, повторяющимся с
-              интервалом.
+          - Символ пунктирной линии с точечным символом, повторяющимся с интервалом.
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19117:2012'
+            ref: ISO 19117:2012
             clause: '4.3'
-            link: 'https://www.iso.org/standard/46226.html'
-          lineage_source: 'перевод ИСО 19117:2012'
+            link: https://www.iso.org/standard/46226.html
+          lineage_source: перевод ИСО 19117:2012
           date_accepted: '2012-12-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: комплексный символ
-              normative_status: preferred
+          - type: expression
+            designation: комплексный символ
+            normative_status: preferred
         parents: []
         timeCreated: '2012-12-15T00:00:00.000Z'
         author:
@@ -186,22 +208,27 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 1512
-  definition: símbolo compuesto por otros símbolos de distintos tipos
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: símbolo complejo
+  definition:
+  - content: símbolo compuesto por otros símbolos de distintos tipos
   notes: []
   examples:
-    - Un símbolo lineal a trazos con un símbolo puntual repetido en un intervalo
+  - content: Un símbolo lineal a trazos con un símbolo puntual repetido en un intervalo
+  language_code: spa
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19117:2012'
-    clause: '4.3'
-    link: 'https://www.iso.org/standard/46226.html'
-  date_accepted: '2012-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19117:2012
+      clause: '4.3'
+      link: https://www.iso.org/standard/46226.html
+  dates:
+  - type: accepted
+    date: '2012-12-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: símbolo complejo
-      normative_status: preferred
   _revisions:
     current: f2ec37
     tree:
@@ -212,20 +239,18 @@ spa:
           language_code: spa
           notes: []
           examples:
-            - >-
-              Un símbolo lineal a trazos con un símbolo puntual repetido en un
-              intervalo
+          - Un símbolo lineal a trazos con un símbolo puntual repetido en un intervalo
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19117:2012'
+            ref: ISO 19117:2012
             clause: '4.3'
-            link: 'https://www.iso.org/standard/46226.html'
+            link: https://www.iso.org/standard/46226.html
           date_accepted: '2012-12-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: símbolo complejo
-              normative_status: preferred
+          - type: expression
+            designation: símbolo complejo
+            normative_status: preferred
         parents: []
         timeCreated: '2012-12-15T00:00:00.000Z'
         author:
@@ -233,24 +258,31 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 1512
-  definition: symbol sammansatt av andra symboler av olika typ
-  country_code: swe
-  language_code: swe
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: komplex symbol
+  definition:
+  - content: symbol sammansatt av andra symboler av olika typ
   notes: []
   examples:
-    - A dashed line symbol with a point symbol repeated at an interval.
+  - content: A dashed line symbol with a point symbol repeated at an interval.
+  country_code: swe
+  language_code: swe
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19117:2012'
-    clause: '4.3'
-    link: 'https://www.iso.org/standard/46226.html'
-  lineage_source: (Type reference to national language document)
-  date_accepted: '2012-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19117:2012
+      clause: '4.3'
+      link: https://www.iso.org/standard/46226.html
+  - type: lineage
+    origin:
+      ref: "(Type reference to national language document)"
+  dates:
+  - type: accepted
+    date: '2012-12-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: komplex symbol
-      normative_status: preferred
   _revisions:
     current: 47ee00
     tree:
@@ -262,19 +294,19 @@ swe:
           language_code: swe
           notes: []
           examples:
-            - A dashed line symbol with a point symbol repeated at an interval.
+          - A dashed line symbol with a point symbol repeated at an interval.
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19117:2012'
+            ref: ISO 19117:2012
             clause: '4.3'
-            link: 'https://www.iso.org/standard/46226.html'
-          lineage_source: (Type reference to national language document)
+            link: https://www.iso.org/standard/46226.html
+          lineage_source: "(Type reference to national language document)"
           date_accepted: '2012-12-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: komplex symbol
-              normative_status: preferred
+          - type: expression
+            designation: komplex symbol
+            normative_status: preferred
         parents: []
         timeCreated: '2012-12-15T00:00:00.000Z'
         author:

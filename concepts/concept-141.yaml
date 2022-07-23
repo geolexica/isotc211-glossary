@@ -1,55 +1,57 @@
-term: discrete coverage
+---
 termid: 141
+term: discrete coverage
 eng:
   id: 141
-  definition: >-
-    coverage that returns the same feature attribute values for every direct
-    position within any single spatial object, temporal object, or
-    spatiotemporal object in its domain
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: discrete coverage
+  definition:
+  - content: coverage that returns the same feature attribute values for every direct
+      position within any single spatial object, temporal object, or spatiotemporal
+      object in its domain
   notes:
-    - >-
-      The domain of a discrete coverage consists of a finite set of spatial,
+  - content: The domain of a discrete coverage consists of a finite set of spatial,
       temporal, or spatiotemporal objects.
   examples: []
+  language_code: eng
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19123:2005'
-    link: 'https://www.iso.org/standard/40121.html'
-  date_accepted: '2005-08-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19123:2005
+      link: https://www.iso.org/standard/40121.html
+  dates:
+  - type: accepted
+    date: '2005-08-15T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: discrete coverage
-      normative_status: preferred
   _revisions:
     current: ef7058
     tree:
       ef7058:
         object:
           id: 141
-          definition: >-
-            coverage that returns the same feature attribute values for every
-            direct position within any single spatial object, temporal object,
+          definition: coverage that returns the same feature attribute values for
+            every direct position within any single spatial object, temporal object,
             or spatiotemporal object in its domain
           language_code: eng
           notes:
-            - >-
-              The domain of a discrete coverage consists of a finite set of
-              spatial, temporal, or spatiotemporal objects.
+          - The domain of a discrete coverage consists of a finite set of spatial,
+            temporal, or spatiotemporal objects.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19123:2005'
-            link: 'https://www.iso.org/standard/40121.html'
+            ref: ISO 19123:2005
+            link: https://www.iso.org/standard/40121.html
           date_accepted: '2005-08-15T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: discrete coverage
-              normative_status: preferred
+          - type: expression
+            designation: discrete coverage
+            normative_status: preferred
         parents: []
         timeCreated: '2005-08-15T00:00:00.000Z'
         author:
@@ -57,52 +59,53 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 141
-  definition: >-
-    تغطية تعيد نفس قيم وصف المعلم بالنسبة لكل موقع مباشر يقع ضمن أي كائن مكاني
-    واحد ، أو كائن زماني ، أو كائن مكاني - زماني في نطاقها
-  language_code: ara
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: تغطية منفصلة
+  definition:
+  - content: تغطية تعيد نفس قيم وصف المعلم بالنسبة لكل موقع مباشر يقع ضمن أي كائن
+      مكاني واحد ، أو كائن زماني ، أو كائن مكاني - زماني في نطاقها
   notes:
-    - >-
-      مجال التغطية غير المترابطة يتكون من مجموعة محدودة من الكيانات المكانية أو
-      الكيانات الزمانية أو الكيانات المكانية-الزمانية.
+  - content: مجال التغطية غير المترابطة يتكون من مجموعة محدودة من الكيانات المكانية
+      أو الكيانات الزمانية أو الكيانات المكانية-الزمانية.
   examples: []
+  language_code: ara
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19123:2005'
-    link: 'https://www.iso.org/standard/40121.html'
-  date_accepted: '2005-08-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19123:2005
+      link: https://www.iso.org/standard/40121.html
+  dates:
+  - type: accepted
+    date: '2005-08-15T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: تغطية منفصلة
-      normative_status: preferred
   _revisions:
     current: 66451d
     tree:
       66451d:
         object:
           id: 141
-          definition: >-
-            تغطية تعيد نفس قيم وصف المعلم بالنسبة لكل موقع مباشر يقع ضمن أي كائن
-            مكاني واحد ، أو كائن زماني ، أو كائن مكاني - زماني في نطاقها
+          definition: تغطية تعيد نفس قيم وصف المعلم بالنسبة لكل موقع مباشر يقع ضمن
+            أي كائن مكاني واحد ، أو كائن زماني ، أو كائن مكاني - زماني في نطاقها
           language_code: ara
           notes:
-            - >-
-              مجال التغطية غير المترابطة يتكون من مجموعة محدودة من الكيانات
-              المكانية أو الكيانات الزمانية أو الكيانات المكانية-الزمانية.
+          - مجال التغطية غير المترابطة يتكون من مجموعة محدودة من الكيانات المكانية
+            أو الكيانات الزمانية أو الكيانات المكانية-الزمانية.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19123:2005'
-            link: 'https://www.iso.org/standard/40121.html'
+            ref: ISO 19123:2005
+            link: https://www.iso.org/standard/40121.html
           date_accepted: '2005-08-15T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: تغطية منفصلة
-              normative_status: preferred
+          - type: expression
+            designation: تغطية منفصلة
+            normative_status: preferred
         parents: []
         timeCreated: '2005-08-15T00:00:00.000Z'
         author:
@@ -110,21 +113,26 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 141
-  definition: 在一个数据覆盖域中，任何一个空间对象、时间对象或时空对象的不同直接位置都返回相同要素属性值。
-  language_code: zho
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 离散覆盖
+  definition:
+  - content: 在一个数据覆盖域中，任何一个空间对象、时间对象或时空对象的不同直接位置都返回相同要素属性值。
   notes:
-    - 离散数据覆盖域由空间对象、时间对象、时空对象的有限集组成。
+  - content: 离散数据覆盖域由空间对象、时间对象、时空对象的有限集组成。
   examples: []
+  language_code: zho
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19123:2005'
-    link: 'https://www.iso.org/standard/40121.html'
-  date_accepted: '2005-08-15T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: 离散覆盖
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19123:2005
+      link: https://www.iso.org/standard/40121.html
+  dates:
+  - type: accepted
+    date: '2005-08-15T00:00:00.000Z'
   _revisions:
     current: fc693d
     tree:
@@ -134,18 +142,18 @@ zho:
           definition: 在一个数据覆盖域中，任何一个空间对象、时间对象或时空对象的不同直接位置都返回相同要素属性值。
           language_code: zho
           notes:
-            - 离散数据覆盖域由空间对象、时间对象、时空对象的有限集组成。
+          - 离散数据覆盖域由空间对象、时间对象、时空对象的有限集组成。
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19123:2005'
-            link: 'https://www.iso.org/standard/40121.html'
+            ref: ISO 19123:2005
+            link: https://www.iso.org/standard/40121.html
           date_accepted: '2005-08-15T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: 离散覆盖
-              normative_status: preferred
+          - type: expression
+            designation: 离散覆盖
+            normative_status: preferred
         parents: []
         timeCreated: '2005-08-15T00:00:00.000Z'
         author:
@@ -153,49 +161,48 @@ zho:
           email: glossarist@ribose.com
 dan:
   id: 141
-  definition: >-
-    coverage, der giver samme featureattributværdier for hver direkte position
-    inden for dens rumlige, temporale eller rumlig-temporale domæne
-  language_code: dan
+  terms:
+  - type: expression
+    designation: diskret coverage
+  definition:
+  - content: coverage, der giver samme featureattributværdier for hver direkte position
+      inden for dens rumlige, temporale eller rumlig-temporale domæne
   notes:
-    - >-
-      En diskret coverage’s domæne består af en endelig mængde af rumlige,
+  - content: En diskret coverage’s domæne består af en endelig mængde af rumlige,
       temporale eller rumlige-temporale objekter.
   examples: []
-  authoritative_source:
-    ref: 'ISO 19123:2005'
-    link: 'https://www.iso.org/standard/40121.html'
-  date_accepted: '2005-08-15T00:00:00.000Z'
+  language_code: dan
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19123:2005
+      link: https://www.iso.org/standard/40121.html
+  dates:
+  - type: accepted
+    date: '2005-08-15T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: diskret coverage
-      normative_status: null
   _revisions:
     current: c49581
     tree:
       c49581:
         object:
           id: 141
-          definition: >-
-            coverage, der giver samme featureattributværdier for hver direkte
-            position inden for dens rumlige, temporale eller rumlig-temporale
-            domæne
+          definition: coverage, der giver samme featureattributværdier for hver direkte
+            position inden for dens rumlige, temporale eller rumlig-temporale domæne
           language_code: dan
           notes:
-            - >-
-              En diskret coverage’s domæne består af en endelig mængde af
-              rumlige, temporale eller rumlige-temporale objekter.
+          - En diskret coverage’s domæne består af en endelig mængde af rumlige, temporale
+            eller rumlige-temporale objekter.
           examples: []
           authoritative_source:
-            ref: 'ISO 19123:2005'
-            link: 'https://www.iso.org/standard/40121.html'
+            ref: ISO 19123:2005
+            link: https://www.iso.org/standard/40121.html
           date_accepted: '2005-08-15T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: diskret coverage
-              normative_status: null
+          - type: expression
+            designation: diskret coverage
+            normative_status:
         parents: []
         timeCreated: '2005-08-15T00:00:00.000Z'
         author:
@@ -203,56 +210,56 @@ dan:
           email: glossarist@ribose.com
 fin:
   id: 141
-  definition: >-
-    paikkatietojatkumo, johon kuuluvan spatiaalisen, temporaalisen tai
-    spatiotemporaalisen objektin sisällä sama kohteen ominaisuus saa samat arvot
-    jokaisessa koordinaattipisteessä
-  language_code: fin
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: diskreetti paikkatietojatkumo
+  definition:
+  - content: paikkatietojatkumo, johon kuuluvan spatiaalisen, temporaalisen tai spatiotemporaalisen
+      objektin sisällä sama kohteen ominaisuus saa samat arvot jokaisessa koordinaattipisteessä
   notes:
-    - >-
-      Diskreetin paikkatietojakauman kattama alue koostuu äärellisestä määrästä
-      sijaintiobjekteja, temporaalisia objekteja tai spatiotemporaalisia
-      objekteja.
+  - content: Diskreetin paikkatietojakauman kattama alue koostuu äärellisestä määrästä
+      sijaintiobjekteja, temporaalisia objekteja tai spatiotemporaalisia objekteja.
   examples: []
+  language_code: fin
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19123:2005'
-    link: 'https://www.iso.org/standard/40121.html'
-  lineage_source: 'Ei lähdettä, käännetty'
-  date_accepted: '2013-07-03T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: diskreetti paikkatietojatkumo
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19123:2005
+      link: https://www.iso.org/standard/40121.html
+  - type: lineage
+    origin:
+      ref: Ei lähdettä, käännetty
+  dates:
+  - type: accepted
+    date: '2013-07-03T00:00:00.000Z'
   _revisions:
     current: '154885'
     tree:
       '154885':
         object:
           id: 141
-          definition: >-
-            paikkatietojatkumo, johon kuuluvan spatiaalisen, temporaalisen tai
-            spatiotemporaalisen objektin sisällä sama kohteen ominaisuus saa
-            samat arvot jokaisessa koordinaattipisteessä
+          definition: paikkatietojatkumo, johon kuuluvan spatiaalisen, temporaalisen
+            tai spatiotemporaalisen objektin sisällä sama kohteen ominaisuus saa samat
+            arvot jokaisessa koordinaattipisteessä
           language_code: fin
           notes:
-            - >-
-              Diskreetin paikkatietojakauman kattama alue koostuu äärellisestä
-              määrästä sijaintiobjekteja, temporaalisia objekteja tai
-              spatiotemporaalisia objekteja.
+          - Diskreetin paikkatietojakauman kattama alue koostuu äärellisestä määrästä
+            sijaintiobjekteja, temporaalisia objekteja tai spatiotemporaalisia objekteja.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19123:2005'
-            link: 'https://www.iso.org/standard/40121.html'
-          lineage_source: 'Ei lähdettä, käännetty'
+            ref: ISO 19123:2005
+            link: https://www.iso.org/standard/40121.html
+          lineage_source: Ei lähdettä, käännetty
           date_accepted: '2013-07-03T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: diskreetti paikkatietojatkumo
-              normative_status: preferred
+          - type: expression
+            designation: diskreetti paikkatietojatkumo
+            normative_status: preferred
         parents: []
         timeCreated: '2013-07-03T00:00:00.000Z'
         author:
@@ -260,32 +267,37 @@ fin:
           email: glossarist@ribose.com
 fra:
   id: 141
-  definition: >-
-    couverture qui retourne les mêmes valeurs d'attribut d'entité pour toute
-    position directe au sein de tout objet spatial, temporel, ou spatiotemporel
-    à l'intérieur de son domaine
-  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: couverture discrète
+  definition:
+  - content: couverture qui retourne les mêmes valeurs d'attribut d'entité pour toute
+      position directe au sein de tout objet spatial, temporel, ou spatiotemporel
+      à l'intérieur de son domaine
   notes: []
   examples: []
+  language_code: fra
   entry_status: valid
-  authoritative_source:
-    ref: ISO 19123
-    link: 'https://www.iso.org/standard/40121.html'
-  lineage_source: ''
-  date_accepted: '2005-08-15T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: couverture discrète
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19123
+      link: https://www.iso.org/standard/40121.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2005-08-15T00:00:00.000Z'
   _revisions:
     current: a9f6c4
     tree:
       a9f6c4:
         object:
           id: 141
-          definition: >-
-            couverture qui retourne les mêmes valeurs d'attribut d'entité pour
-            toute position directe au sein de tout objet spatial, temporel, ou
+          definition: couverture qui retourne les mêmes valeurs d'attribut d'entité
+            pour toute position directe au sein de tout objet spatial, temporel, ou
             spatiotemporel à l'intérieur de son domaine
           language_code: fra
           notes: []
@@ -293,13 +305,13 @@ fra:
           entry_status: valid
           authoritative_source:
             ref: ISO 19123
-            link: 'https://www.iso.org/standard/40121.html'
+            link: https://www.iso.org/standard/40121.html
           lineage_source: ''
           date_accepted: '2005-08-15T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: couverture discrète
-              normative_status: preferred
+          - type: expression
+            designation: couverture discrète
+            normative_status: preferred
         parents: []
         timeCreated: '2005-08-15T00:00:00.000Z'
         author:
@@ -307,23 +319,26 @@ fra:
           email: glossarist@ribose.com
 deu:
   id: 141
-  language_code: deu
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: unstetiges Coverage
   notes:
-    - >-
-      The domain of a discrete coverage consists of a finite set of spatial,
+  - content: The domain of a discrete coverage consists of a finite set of spatial,
       temporal, or spatiotemporal objects.
   examples: []
+  language_code: deu
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19123:2005'
-    link: 'https://www.iso.org/standard/40121.html'
-  date_accepted: '2005-08-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19123:2005
+      link: https://www.iso.org/standard/40121.html
+  dates:
+  - type: accepted
+    date: '2005-08-15T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: unstetiges Coverage
-      normative_status: preferred
   _revisions:
     current: ed74ba
     tree:
@@ -332,21 +347,20 @@ deu:
           id: 141
           language_code: deu
           notes:
-            - >-
-              The domain of a discrete coverage consists of a finite set of
-              spatial, temporal, or spatiotemporal objects.
+          - The domain of a discrete coverage consists of a finite set of spatial,
+            temporal, or spatiotemporal objects.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19123:2005'
-            link: 'https://www.iso.org/standard/40121.html'
+            ref: ISO 19123:2005
+            link: https://www.iso.org/standard/40121.html
           date_accepted: '2005-08-15T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: unstetiges Coverage
-              normative_status: preferred
+          - type: expression
+            designation: unstetiges Coverage
+            normative_status: preferred
         parents: []
         timeCreated: '2005-08-15T00:00:00.000Z'
         author:
@@ -354,48 +368,55 @@ deu:
           email: glossarist@ribose.com
 kor:
   id: 141
-  definition: '동일한 피처(공간 객체, 시간 객체, 시공간 객체) 속성(B.175)의 값이 영역 내 모든 직접 위치에서 동일한 값을 갖는 커버리지'
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 불연속 커버리지
+  definition:
+  - content: 동일한 피처(공간 객체, 시간 객체, 시공간 객체) 속성(B.175)의 값이 영역 내 모든 직접 위치에서 동일한 값을 갖는
+      커버리지
   notes:
-    - '불연속 커버리지의 영역은 유한한 집합공간, 시간 또는 시공간 객체로 이루어진다.'
+  - content: 불연속 커버리지의 영역은 유한한 집합공간, 시간 또는 시공간 객체로 이루어진다.
   examples: []
+  language_code: kor
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19123:2005'
-    link: 'https://www.iso.org/standard/40121.html'
-  lineage_source: KS X ISO 19123
-  date_accepted: '2007-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19123:2005
+      link: https://www.iso.org/standard/40121.html
+  - type: lineage
+    origin:
+      ref: KS X ISO 19123
+  dates:
+  - type: accepted
+    date: '2007-11-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: 불연속 커버리지
-      normative_status: preferred
   _revisions:
     current: 68a6d6
     tree:
       68a6d6:
         object:
           id: 141
-          definition: >-
-            동일한 피처(공간 객체, 시간 객체, 시공간 객체) 속성(B.175)의 값이 영역 내 모든 직접 위치에서 동일한 값을 갖는
-            커버리지
+          definition: 동일한 피처(공간 객체, 시간 객체, 시공간 객체) 속성(B.175)의 값이 영역 내 모든 직접 위치에서 동일한
+            값을 갖는 커버리지
           language_code: kor
           notes:
-            - '불연속 커버리지의 영역은 유한한 집합공간, 시간 또는 시공간 객체로 이루어진다.'
+          - 불연속 커버리지의 영역은 유한한 집합공간, 시간 또는 시공간 객체로 이루어진다.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19123:2005'
-            link: 'https://www.iso.org/standard/40121.html'
+            ref: ISO 19123:2005
+            link: https://www.iso.org/standard/40121.html
           lineage_source: KS X ISO 19123
           date_accepted: '2007-11-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: 불연속 커버리지
-              normative_status: preferred
+          - type: expression
+            designation: 불연속 커버리지
+            normative_status: preferred
         parents: []
         timeCreated: '2007-11-01T00:00:00.000Z'
         author:
@@ -403,53 +424,55 @@ kor:
           email: glossarist@ribose.com
 pol:
   id: 141
-  definition: >-
-    pokrycie, które przyjmuje te same wartości atrybutów obiektów dla każdego
-    położenia bezpośredniego wewnątrz dowolnego obiektu przestrzennego,
-    czasowego lub czasoprzestrzennego ze swojej dziedziny
-  language_code: pol
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: pokrycie dyskretne
+  definition:
+  - content: pokrycie, które przyjmuje te same wartości atrybutów obiektów dla każdego
+      położenia bezpośredniego wewnątrz dowolnego obiektu przestrzennego, czasowego
+      lub czasoprzestrzennego ze swojej dziedziny
   notes:
-    - >-
-      Dziedzina pokrycia dyskretnego składa się ze skończonego zbioru obiektów
+  - content: Dziedzina pokrycia dyskretnego składa się ze skończonego zbioru obiektów
       przestrzennych, czasowych lub czasoprzestrzennych.
   examples: []
-  authoritative_source:
-    ref: 'ISO 19123:2005'
-    link: 'https://www.iso.org/standard/40121.html'
-  lineage_source: PN-EN ISO 19123
-  date_accepted: '2005-08-15T00:00:00.000Z'
+  language_code: pol
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19123:2005
+      link: https://www.iso.org/standard/40121.html
+  - type: lineage
+    origin:
+      ref: PN-EN ISO 19123
+  dates:
+  - type: accepted
+    date: '2005-08-15T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: pokrycie dyskretne
-      normative_status: preferred
   _revisions:
     current: f7c9cf
     tree:
       f7c9cf:
         object:
           id: 141
-          definition: >-
-            pokrycie, które przyjmuje te same wartości atrybutów obiektów dla
-            każdego położenia bezpośredniego wewnątrz dowolnego obiektu
-            przestrzennego, czasowego lub czasoprzestrzennego ze swojej
-            dziedziny
+          definition: pokrycie, które przyjmuje te same wartości atrybutów obiektów
+            dla każdego położenia bezpośredniego wewnątrz dowolnego obiektu przestrzennego,
+            czasowego lub czasoprzestrzennego ze swojej dziedziny
           language_code: pol
           notes:
-            - >-
-              Dziedzina pokrycia dyskretnego składa się ze skończonego zbioru
-              obiektów przestrzennych, czasowych lub czasoprzestrzennych.
+          - Dziedzina pokrycia dyskretnego składa się ze skończonego zbioru obiektów
+            przestrzennych, czasowych lub czasoprzestrzennych.
           examples: []
           authoritative_source:
-            ref: 'ISO 19123:2005'
-            link: 'https://www.iso.org/standard/40121.html'
+            ref: ISO 19123:2005
+            link: https://www.iso.org/standard/40121.html
           lineage_source: PN-EN ISO 19123
           date_accepted: '2005-08-15T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: pokrycie dyskretne
-              normative_status: preferred
+          - type: expression
+            designation: pokrycie dyskretne
+            normative_status: preferred
         parents: []
         timeCreated: '2005-08-15T00:00:00.000Z'
         author:
@@ -457,54 +480,57 @@ pol:
           email: glossarist@ribose.com
 rus:
   id: 141
-  definition: >-
-    покрытие, возвращающее одни и те же значения атрибута (из области допустимых
-    значений) для каждой точки в пределах отдельного пространственного,
-    временнóго или пространственно-временнóго объекта
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: дискретное покрытие
+  definition:
+  - content: покрытие, возвращающее одни и те же значения атрибута (из области допустимых
+      значений) для каждой точки в пределах отдельного пространственного, временнóго
+      или пространственно-временнóго объекта
   notes:
-    - >-
-      Область дискретного покрытия состоит из конечного множества
-      пространственных, временных и пространственно-временных объектов
+  - content: Область дискретного покрытия состоит из конечного множества пространственных,
+      временных и пространственно-временных объектов
   examples: []
+  language_code: rus
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19123:2005'
-    link: 'https://www.iso.org/standard/40121.html'
-  lineage_source: Internet
-  date_accepted: '2005-08-15T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: дискретное покрытие
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19123:2005
+      link: https://www.iso.org/standard/40121.html
+  - type: lineage
+    origin:
+      ref: Internet
+  dates:
+  - type: accepted
+    date: '2005-08-15T00:00:00.000Z'
   _revisions:
     current: 82266f
     tree:
       82266f:
         object:
           id: 141
-          definition: >-
-            покрытие, возвращающее одни и те же значения атрибута (из области
-            допустимых значений) для каждой точки в пределах отдельного
-            пространственного, временнóго или пространственно-временнóго объекта
+          definition: покрытие, возвращающее одни и те же значения атрибута (из области
+            допустимых значений) для каждой точки в пределах отдельного пространственного,
+            временнóго или пространственно-временнóго объекта
           language_code: rus
           notes:
-            - >-
-              Область дискретного покрытия состоит из конечного множества
-              пространственных, временных и пространственно-временных объектов
+          - Область дискретного покрытия состоит из конечного множества пространственных,
+            временных и пространственно-временных объектов
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19123:2005'
-            link: 'https://www.iso.org/standard/40121.html'
+            ref: ISO 19123:2005
+            link: https://www.iso.org/standard/40121.html
           lineage_source: Internet
           date_accepted: '2005-08-15T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: дискретное покрытие
-              normative_status: preferred
+          - type: expression
+            designation: дискретное покрытие
+            normative_status: preferred
         parents: []
         timeCreated: '2005-08-15T00:00:00.000Z'
         author:
@@ -512,53 +538,53 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 141
-  definition: >-
-    cobertura que devuelve los mismos valores de los atributos de objetos
-    geográficos para cada posición directa dentro de cualquier objeto espacial,
-    objeto temporal, u objeto espacio-temporal único en su dominio
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: cobertura discreta
+  definition:
+  - content: cobertura que devuelve los mismos valores de los atributos de objetos
+      geográficos para cada posición directa dentro de cualquier objeto espacial,
+      objeto temporal, u objeto espacio-temporal único en su dominio
   notes:
-    - >-
-      El dominio de una cobertura discreta consta de un conjunto finito de
+  - content: El dominio de una cobertura discreta consta de un conjunto finito de
       objetos espaciales, temporales o espacio-temporales.
   examples: []
+  language_code: spa
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19123:2005'
-    link: 'https://www.iso.org/standard/40121.html'
-  date_accepted: '2005-08-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19123:2005
+      link: https://www.iso.org/standard/40121.html
+  dates:
+  - type: accepted
+    date: '2005-08-15T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: cobertura discreta
-      normative_status: preferred
   _revisions:
     current: b4bf93
     tree:
       b4bf93:
         object:
           id: 141
-          definition: >-
-            cobertura que devuelve los mismos valores de los atributos de
-            objetos geográficos para cada posición directa dentro de cualquier
-            objeto espacial, objeto temporal, u objeto espacio-temporal único en
-            su dominio
+          definition: cobertura que devuelve los mismos valores de los atributos de
+            objetos geográficos para cada posición directa dentro de cualquier objeto
+            espacial, objeto temporal, u objeto espacio-temporal único en su dominio
           language_code: spa
           notes:
-            - >-
-              El dominio de una cobertura discreta consta de un conjunto finito
-              de objetos espaciales, temporales o espacio-temporales.
+          - El dominio de una cobertura discreta consta de un conjunto finito de objetos
+            espaciales, temporales o espacio-temporales.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19123:2005'
-            link: 'https://www.iso.org/standard/40121.html'
+            ref: ISO 19123:2005
+            link: https://www.iso.org/standard/40121.html
           date_accepted: '2005-08-15T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: cobertura discreta
-              normative_status: preferred
+          - type: expression
+            designation: cobertura discreta
+            normative_status: preferred
         parents: []
         timeCreated: '2005-08-15T00:00:00.000Z'
         author:
@@ -566,58 +592,61 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 141
-  definition: >-
-    domänobjekttyp vars objekt definierar en domän som består av flera rumsliga,
-    temporala eller rumstemporala objekt inom vilka objektets uppgifter inte
-    varierar med positionen
-  country_code: swe
-  language_code: swe
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: diskret domänobjekttyp
+  definition:
+  - content: domänobjekttyp vars objekt definierar en domän som består av flera rumsliga,
+      temporala eller rumstemporala objekt inom vilka objektets uppgifter inte varierar
+      med positionen
   notes:
-    - >-
-      The domain of a discrete coverage consists of a finite set of spatial,
+  - content: The domain of a discrete coverage consists of a finite set of spatial,
       temporal, or spatiotemporal objects.
   examples: []
+  country_code: swe
+  language_code: swe
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19123:2005'
-    link: 'https://www.iso.org/standard/40121.html'
-  lineage_source: (Type reference to national language document)
-  date_accepted: '2005-08-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19123:2005
+      link: https://www.iso.org/standard/40121.html
+  - type: lineage
+    origin:
+      ref: "(Type reference to national language document)"
+  dates:
+  - type: accepted
+    date: '2005-08-15T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: diskret domänobjekttyp
-      normative_status: preferred
   _revisions:
     current: c1ffc5
     tree:
       c1ffc5:
         object:
           id: 141
-          definition: >-
-            domänobjekttyp vars objekt definierar en domän som består av flera
-            rumsliga, temporala eller rumstemporala objekt inom vilka objektets
+          definition: domänobjekttyp vars objekt definierar en domän som består av
+            flera rumsliga, temporala eller rumstemporala objekt inom vilka objektets
             uppgifter inte varierar med positionen
           country_code: swe
           language_code: swe
           notes:
-            - >-
-              The domain of a discrete coverage consists of a finite set of
-              spatial, temporal, or spatiotemporal objects.
+          - The domain of a discrete coverage consists of a finite set of spatial,
+            temporal, or spatiotemporal objects.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19123:2005'
-            link: 'https://www.iso.org/standard/40121.html'
-          lineage_source: (Type reference to national language document)
+            ref: ISO 19123:2005
+            link: https://www.iso.org/standard/40121.html
+          lineage_source: "(Type reference to national language document)"
           date_accepted: '2005-08-15T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: diskret domänobjekttyp
-              normative_status: preferred
+          - type: expression
+            designation: diskret domänobjekttyp
+            normative_status: preferred
         parents: []
         timeCreated: '2005-08-15T00:00:00.000Z'
         author:

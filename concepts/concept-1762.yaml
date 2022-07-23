@@ -1,22 +1,28 @@
-term: free text
+---
 termid: 1762
+term: free text
 eng:
   id: 1762
-  definition: textual information that can be expressed in one or many languages
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: free text
+  definition:
+  - content: textual information that can be expressed in one or many languages
   notes: []
   examples: []
+  language_code: eng
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19115-1:2014'
-    clause: '4.6'
-    link: 'https://www.iso.org/standard/53798.html'
-  date_accepted: '2014-04-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19115-1:2014
+      clause: '4.6'
+      link: https://www.iso.org/standard/53798.html
+  dates:
+  - type: accepted
+    date: '2014-04-01T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: free text
-      normative_status: preferred
   _revisions:
     current: 80c627
     tree:
@@ -29,15 +35,15 @@ eng:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19115-1:2014'
+            ref: ISO 19115-1:2014
             clause: '4.6'
-            link: 'https://www.iso.org/standard/53798.html'
+            link: https://www.iso.org/standard/53798.html
           date_accepted: '2014-04-01T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: free text
-              normative_status: preferred
+          - type: expression
+            designation: free text
+            normative_status: preferred
         parents: []
         timeCreated: '2014-04-01T00:00:00.000Z'
         author:
@@ -45,21 +51,26 @@ eng:
           email: glossarist@ribose.com
 kor:
   id: 1762
-  definition: 하나 또는 다량의 언어로 표현될 수 있는 문서 정보
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 자유 문서
+  definition:
+  - content: 하나 또는 다량의 언어로 표현될 수 있는 문서 정보
   notes: []
   examples: []
+  language_code: kor
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19115-1:2014'
-    clause: '4.6'
-    link: 'https://www.iso.org/standard/53798.html'
-  date_accepted: '2014-04-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19115-1:2014
+      clause: '4.6'
+      link: https://www.iso.org/standard/53798.html
+  dates:
+  - type: accepted
+    date: '2014-04-01T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: 자유 문서
-      normative_status: preferred
   _revisions:
     current: 4eb37d
     tree:
@@ -72,15 +83,15 @@ kor:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19115-1:2014'
+            ref: ISO 19115-1:2014
             clause: '4.6'
-            link: 'https://www.iso.org/standard/53798.html'
+            link: https://www.iso.org/standard/53798.html
           date_accepted: '2014-04-01T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: 자유 문서
-              normative_status: preferred
+          - type: expression
+            designation: 자유 문서
+            normative_status: preferred
         parents: []
         timeCreated: '2014-04-01T00:00:00.000Z'
         author:
@@ -88,46 +99,53 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 1762
-  definition: 'текстовая информация, которая может быть выражена на одном или многих языках'
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: свободный текст
+  definition:
+  - content: текстовая информация, которая может быть выражена на одном или многих
+      языках
   notes: []
   examples: []
+  language_code: rus
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19115-1:2014'
-    clause: '4.6'
-    link: 'https://www.iso.org/standard/53798.html'
-  lineage_source: ГОСТ Р 57668-2017 (ИСО 19115-1-2014)
-  date_accepted: '2014-04-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19115-1:2014
+      clause: '4.6'
+      link: https://www.iso.org/standard/53798.html
+  - type: lineage
+    origin:
+      ref: ГОСТ Р 57668-2017 (ИСО 19115-1-2014)
+  dates:
+  - type: accepted
+    date: '2014-04-01T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: свободный текст
-      normative_status: preferred
   _revisions:
     current: 58a5d1
     tree:
       58a5d1:
         object:
           id: 1762
-          definition: >-
-            текстовая информация, которая может быть выражена на одном или
+          definition: текстовая информация, которая может быть выражена на одном или
             многих языках
           language_code: rus
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19115-1:2014'
+            ref: ISO 19115-1:2014
             clause: '4.6'
-            link: 'https://www.iso.org/standard/53798.html'
+            link: https://www.iso.org/standard/53798.html
           lineage_source: ГОСТ Р 57668-2017 (ИСО 19115-1-2014)
           date_accepted: '2014-04-01T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: свободный текст
-              normative_status: preferred
+          - type: expression
+            designation: свободный текст
+            normative_status: preferred
         parents: []
         timeCreated: '2014-04-01T00:00:00.000Z'
         author:
@@ -135,21 +153,26 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 1762
-  definition: información textual que puede expresarse en uno o varios idiomas
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: texto libre
+  definition:
+  - content: información textual que puede expresarse en uno o varios idiomas
   notes: []
   examples: []
+  language_code: spa
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19115-1:2014'
-    clause: '4.6'
-    link: 'https://www.iso.org/standard/53798.html'
-  date_accepted: '2014-04-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19115-1:2014
+      clause: '4.6'
+      link: https://www.iso.org/standard/53798.html
+  dates:
+  - type: accepted
+    date: '2014-04-01T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: texto libre
-      normative_status: preferred
   _revisions:
     current: '122739'
     tree:
@@ -162,15 +185,15 @@ spa:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19115-1:2014'
+            ref: ISO 19115-1:2014
             clause: '4.6'
-            link: 'https://www.iso.org/standard/53798.html'
+            link: https://www.iso.org/standard/53798.html
           date_accepted: '2014-04-01T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: texto libre
-              normative_status: preferred
+          - type: expression
+            designation: texto libre
+            normative_status: preferred
         parents: []
         timeCreated: '2014-04-01T00:00:00.000Z'
         author:
@@ -178,23 +201,30 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 1762
-  definition: textinformation som kan uttryckas på ett eller flera språk
-  country_code: swe
-  language_code: swe
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: fritext
+  definition:
+  - content: textinformation som kan uttryckas på ett eller flera språk
   notes: []
   examples: []
+  country_code: swe
+  language_code: swe
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19115-1:2014'
-    clause: '4.6'
-    link: 'https://www.iso.org/standard/53798.html'
-  lineage_source: (Type reference to national language document)
-  date_accepted: '2014-04-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19115-1:2014
+      clause: '4.6'
+      link: https://www.iso.org/standard/53798.html
+  - type: lineage
+    origin:
+      ref: "(Type reference to national language document)"
+  dates:
+  - type: accepted
+    date: '2014-04-01T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: fritext
-      normative_status: preferred
   _revisions:
     current: '763376'
     tree:
@@ -208,16 +238,16 @@ swe:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19115-1:2014'
+            ref: ISO 19115-1:2014
             clause: '4.6'
-            link: 'https://www.iso.org/standard/53798.html'
-          lineage_source: (Type reference to national language document)
+            link: https://www.iso.org/standard/53798.html
+          lineage_source: "(Type reference to national language document)"
           date_accepted: '2014-04-01T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: fritext
-              normative_status: preferred
+          - type: expression
+            designation: fritext
+            normative_status: preferred
         parents: []
         timeCreated: '2014-04-01T00:00:00.000Z'
         author:

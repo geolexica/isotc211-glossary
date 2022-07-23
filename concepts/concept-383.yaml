@@ -1,36 +1,43 @@
-term: resource
+---
 termid: 383
+term: resource
 eng:
   id: 383
-  definition: asset or means that fulfils a requirement
-  language_code: eng
+  terms:
+  - type: expression
+    designation: resource
+  definition:
+  - content: asset or means that fulfils a requirement
   notes: []
   examples:
-    - 'Dataset, service, document, person or organization.'
+  - content: Dataset, service, document, person or organization.
+  language_code: eng
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19115:2003'
-    clause: '4.10'
-    link: 'https://www.iso.org/standard/26020.html'
-  lineage_source: ''
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19115:2003
+      clause: '4.10'
+      link: https://www.iso.org/standard/26020.html
+  - type: lineage
+    origin:
+      ref: ''
   lineage_source_similarity: 0
-  date_accepted: '2003-05-01T00:00:00.000Z'
-  date_amended: '2014-04-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-04-01T00:00:00.000Z'
   review_date: '2011-01-01T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2014-04-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19115-1:2014'
-  review_decision_notes: >-
-    The entry has been superseded. An entry with a revised definition has been
-    published in ISO 19115-1:2014
-  release: '-1'
-  terms:
-    - type: expression
-      designation: resource
-      normative_status: null
+  review_decision_event: Publication of ISO 19115-1:2014
+  review_decision_notes: The entry has been superseded. An entry with a revised definition
+    has been published in ISO 19115-1:2014
+  release: "-1"
   _revisions:
     current: ca3a70
     tree:
@@ -41,13 +48,13 @@ eng:
           language_code: eng
           notes: []
           examples:
-            - 'Dataset, service, document, person or organization.'
+          - Dataset, service, document, person or organization.
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19115:2003'
+            ref: ISO 19115:2003
             clause: '4.10'
-            link: 'https://www.iso.org/standard/26020.html'
+            link: https://www.iso.org/standard/26020.html
           lineage_source: ''
           lineage_source_similarity: 0
           date_accepted: '2003-05-01T00:00:00.000Z'
@@ -57,15 +64,14 @@ eng:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2014-04-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19115-1:2014'
-          review_decision_notes: >-
-            The entry has been superseded. An entry with a revised definition
-            has been published in ISO 19115-1:2014
-          release: '-1'
+          review_decision_event: Publication of ISO 19115-1:2014
+          review_decision_notes: The entry has been superseded. An entry with a revised
+            definition has been published in ISO 19115-1:2014
+          release: "-1"
           terms:
-            - type: expression
-              designation: resource
-              normative_status: null
+          - type: expression
+            designation: resource
+            normative_status:
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -73,33 +79,37 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 383
-  definition: أصول أو وسائل تفي بشرط أو متطلب معيَّن
-  language_code: ara
+  terms:
+  - type: expression
+    designation: مورد
+  definition:
+  - content: أصول أو وسائل تفي بشرط أو متطلب معيَّن
   notes: []
   examples:
-    - 'مجموعة بيانات , أو خدمة , أو وثيقة , أو شخص أو هيئة أو منظمة.'
+  - content: مجموعة بيانات , أو خدمة , أو وثيقة , أو شخص أو هيئة أو منظمة.
+  language_code: ara
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19115:2003'
-    clause: '4.10'
-    link: 'https://www.iso.org/standard/26020.html'
-  date_accepted: '2003-05-01T00:00:00.000Z'
-  date_amended: '2014-04-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19115:2003
+      clause: '4.10'
+      link: https://www.iso.org/standard/26020.html
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-04-01T00:00:00.000Z'
   review_date: '2011-01-01T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2014-04-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19115-1:2014'
-  review_decision_notes: >-
-    The entry has been superseded. An entry with a revised definition has been
-    published in ISO 19115-1:2014
-  release: '-1'
-  terms:
-    - type: expression
-      designation: مورد
-      normative_status: null
+  review_decision_event: Publication of ISO 19115-1:2014
+  review_decision_notes: The entry has been superseded. An entry with a revised definition
+    has been published in ISO 19115-1:2014
+  release: "-1"
   _revisions:
     current: ce11c5
     tree:
@@ -110,13 +120,13 @@ ara:
           language_code: ara
           notes: []
           examples:
-            - 'مجموعة بيانات , أو خدمة , أو وثيقة , أو شخص أو هيئة أو منظمة.'
+          - مجموعة بيانات , أو خدمة , أو وثيقة , أو شخص أو هيئة أو منظمة.
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19115:2003'
+            ref: ISO 19115:2003
             clause: '4.10'
-            link: 'https://www.iso.org/standard/26020.html'
+            link: https://www.iso.org/standard/26020.html
           date_accepted: '2003-05-01T00:00:00.000Z'
           date_amended: '2014-04-01T00:00:00.000Z'
           review_date: '2011-01-01T00:00:00.000Z'
@@ -124,15 +134,14 @@ ara:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2014-04-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19115-1:2014'
-          review_decision_notes: >-
-            The entry has been superseded. An entry with a revised definition
-            has been published in ISO 19115-1:2014
-          release: '-1'
+          review_decision_event: Publication of ISO 19115-1:2014
+          review_decision_notes: The entry has been superseded. An entry with a revised
+            definition has been published in ISO 19115-1:2014
+          release: "-1"
           terms:
-            - type: expression
-              designation: مورد
-              normative_status: null
+          - type: expression
+            designation: مورد
+            normative_status:
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -140,34 +149,40 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 383
-  definition: 能满足某种需求的资产或手段。
-  language_code: zho
+  terms:
+  - type: expression
+    designation: 资源
+  definition:
+  - content: 能满足某种需求的资产或手段。
   notes: []
   examples:
-    - 数据集、服务、文档、人力或机构。
+  - content: 数据集、服务、文档、人力或机构。
+  language_code: zho
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19115:2003'
-    clause: '4.10'
-    link: 'https://www.iso.org/standard/26020.html'
-  lineage_source: ''
-  date_accepted: '2003-05-01T00:00:00.000Z'
-  date_amended: '2014-04-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19115:2003
+      clause: '4.10'
+      link: https://www.iso.org/standard/26020.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-04-01T00:00:00.000Z'
   review_date: '2011-01-01T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2014-04-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19115-1:2014'
-  review_decision_notes: >-
-    The entry has been superseded. An entry with a revised definition has been
-    published in ISO 19115-1:2014
-  release: '-1'
-  terms:
-    - type: expression
-      designation: 资源
-      normative_status: null
+  review_decision_event: Publication of ISO 19115-1:2014
+  review_decision_notes: The entry has been superseded. An entry with a revised definition
+    has been published in ISO 19115-1:2014
+  release: "-1"
   _revisions:
     current: d8dc4c
     tree:
@@ -178,13 +193,13 @@ zho:
           language_code: zho
           notes: []
           examples:
-            - 数据集、服务、文档、人力或机构。
+          - 数据集、服务、文档、人力或机构。
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19115:2003'
+            ref: ISO 19115:2003
             clause: '4.10'
-            link: 'https://www.iso.org/standard/26020.html'
+            link: https://www.iso.org/standard/26020.html
           lineage_source: ''
           date_accepted: '2003-05-01T00:00:00.000Z'
           date_amended: '2014-04-01T00:00:00.000Z'
@@ -193,15 +208,14 @@ zho:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2014-04-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19115-1:2014'
-          review_decision_notes: >-
-            The entry has been superseded. An entry with a revised definition
-            has been published in ISO 19115-1:2014
-          release: '-1'
+          review_decision_event: Publication of ISO 19115-1:2014
+          review_decision_notes: The entry has been superseded. An entry with a revised
+            definition has been published in ISO 19115-1:2014
+          release: "-1"
           terms:
-            - type: expression
-              designation: 资源
-              normative_status: null
+          - type: expression
+            designation: 资源
+            normative_status:
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -209,55 +223,59 @@ zho:
           email: glossarist@ribose.com
 fin:
   id: 383
-  definition: 'tietoaineisto, tietotuote tai näihin liittyvä palvelu'
-  language_code: fin
+  terms:
+  - type: expression
+    designation: resurssi
+  definition:
+  - content: tietoaineisto, tietotuote tai näihin liittyvä palvelu
   notes: []
   examples:
-    - 'Tietoaineisto, palvelu, asiakirja, henkilö tai organisaatio.'
-    - 'paikkatietoaineisto, paikkatietoaineistosarja tai paikkatietopalvelu'
+  - content: Tietoaineisto, palvelu, asiakirja, henkilö tai organisaatio.
+  - content: paikkatietoaineisto, paikkatietoaineistosarja tai paikkatietopalvelu
+  language_code: fin
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19115:2003'
-    clause: '4.10'
-    link: 'https://www.iso.org/standard/26020.html'
-  lineage_source: ''
-  date_accepted: '2013-07-03T00:00:00.000Z'
-  date_amended: '2014-04-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19115:2003
+      clause: '4.10'
+      link: https://www.iso.org/standard/26020.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2013-07-03T00:00:00.000Z'
+  - type: amended
+    date: '2014-04-01T00:00:00.000Z'
   review_date: '2011-01-01T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2014-04-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19115-1:2014'
-  review_decision_notes: >-
-    The entry has been superseded. An entry with a revised definition has been
-    published in ISO 19115-1:2014
-  release: '-1'
-  terms:
-    - type: expression
-      designation: resurssi
-      normative_status: null
+  review_decision_event: Publication of ISO 19115-1:2014
+  review_decision_notes: The entry has been superseded. An entry with a revised definition
+    has been published in ISO 19115-1:2014
+  release: "-1"
   _revisions:
-    current: 079628
+    current: '079628'
     tree:
-      079628:
+      '079628':
         object:
           id: 383
-          definition: 'tietoaineisto, tietotuote tai näihin liittyvä palvelu'
+          definition: tietoaineisto, tietotuote tai näihin liittyvä palvelu
           language_code: fin
           notes: []
           examples:
-            - 'Tietoaineisto, palvelu, asiakirja, henkilö tai organisaatio.'
-            - >-
-              paikkatietoaineisto, paikkatietoaineistosarja tai
-              paikkatietopalvelu
+          - Tietoaineisto, palvelu, asiakirja, henkilö tai organisaatio.
+          - paikkatietoaineisto, paikkatietoaineistosarja tai paikkatietopalvelu
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19115:2003'
+            ref: ISO 19115:2003
             clause: '4.10'
-            link: 'https://www.iso.org/standard/26020.html'
+            link: https://www.iso.org/standard/26020.html
           lineage_source: ''
           date_accepted: '2013-07-03T00:00:00.000Z'
           date_amended: '2014-04-01T00:00:00.000Z'
@@ -266,15 +284,14 @@ fin:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2014-04-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19115-1:2014'
-          review_decision_notes: >-
-            The entry has been superseded. An entry with a revised definition
-            has been published in ISO 19115-1:2014
-          release: '-1'
+          review_decision_event: Publication of ISO 19115-1:2014
+          review_decision_notes: The entry has been superseded. An entry with a revised
+            definition has been published in ISO 19115-1:2014
+          release: "-1"
           terms:
-            - type: expression
-              designation: resurssi
-              normative_status: null
+          - type: expression
+            designation: resurssi
+            normative_status:
         parents: []
         timeCreated: '2013-07-03T00:00:00.000Z'
         author:
@@ -282,33 +299,39 @@ fin:
           email: glossarist@ribose.com
 fra:
   id: 383
-  definition: moyen accomplissant une exigence
-  language_code: fra
+  terms:
+  - type: expression
+    designation: ressource
+  definition:
+  - content: moyen accomplissant une exigence
   notes: []
   examples: []
+  language_code: fra
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19115:2003'
-    clause: '4.10'
-    link: 'https://www.iso.org/standard/26020.html'
-  lineage_source: ''
-  date_accepted: '2003-05-01T00:00:00.000Z'
-  date_amended: '2014-04-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19115:2003
+      clause: '4.10'
+      link: https://www.iso.org/standard/26020.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-04-01T00:00:00.000Z'
   review_date: '2011-01-01T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2014-04-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19115-1:2014'
-  review_decision_notes: >-
-    The entry has been superseded. An entry with a revised definition has been
-    published in ISO 19115-1:2014
-  release: '-1'
-  terms:
-    - type: expression
-      designation: ressource
-      normative_status: null
+  review_decision_event: Publication of ISO 19115-1:2014
+  review_decision_notes: The entry has been superseded. An entry with a revised definition
+    has been published in ISO 19115-1:2014
+  release: "-1"
   _revisions:
     current: d6b0f6
     tree:
@@ -322,9 +345,9 @@ fra:
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19115:2003'
+            ref: ISO 19115:2003
             clause: '4.10'
-            link: 'https://www.iso.org/standard/26020.html'
+            link: https://www.iso.org/standard/26020.html
           lineage_source: ''
           date_accepted: '2003-05-01T00:00:00.000Z'
           date_amended: '2014-04-01T00:00:00.000Z'
@@ -333,15 +356,14 @@ fra:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2014-04-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19115-1:2014'
-          review_decision_notes: >-
-            The entry has been superseded. An entry with a revised definition
-            has been published in ISO 19115-1:2014
-          release: '-1'
+          review_decision_event: Publication of ISO 19115-1:2014
+          review_decision_notes: The entry has been superseded. An entry with a revised
+            definition has been published in ISO 19115-1:2014
+          release: "-1"
           terms:
-            - type: expression
-              designation: ressource
-              normative_status: null
+          - type: expression
+            designation: ressource
+            normative_status:
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -349,51 +371,57 @@ fra:
           email: glossarist@ribose.com
 deu:
   id: 383
-  definition: 'Komponente oder Mittel, die bzw. das eine Anforderung erfüllt'
-  language_code: deu
+  terms:
+  - type: expression
+    designation: Ressource
+  definition:
+  - content: Komponente oder Mittel, die bzw. das eine Anforderung erfüllt
   notes: []
   examples:
-    - 'Dataset, service, document, person or organization.'
+  - content: Dataset, service, document, person or organization.
+  language_code: deu
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19115:2003'
-    clause: '4.10'
-    link: 'https://www.iso.org/standard/26020.html'
-  lineage_source: ''
-  date_accepted: '2003-05-01T00:00:00.000Z'
-  date_amended: '2014-04-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19115:2003
+      clause: '4.10'
+      link: https://www.iso.org/standard/26020.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-04-01T00:00:00.000Z'
   review_date: '2011-01-01T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2014-04-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19115-1:2014'
-  review_decision_notes: >-
-    The entry has been superseded. An entry with a revised definition has been
-    published in ISO 19115-1:2014
-  release: '-1'
-  terms:
-    - type: expression
-      designation: Ressource
-      normative_status: null
+  review_decision_event: Publication of ISO 19115-1:2014
+  review_decision_notes: The entry has been superseded. An entry with a revised definition
+    has been published in ISO 19115-1:2014
+  release: "-1"
   _revisions:
     current: 78c8f1
     tree:
       78c8f1:
         object:
           id: 383
-          definition: 'Komponente oder Mittel, die bzw. das eine Anforderung erfüllt'
+          definition: Komponente oder Mittel, die bzw. das eine Anforderung erfüllt
           language_code: deu
           notes: []
           examples:
-            - 'Dataset, service, document, person or organization.'
+          - Dataset, service, document, person or organization.
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19115:2003'
+            ref: ISO 19115:2003
             clause: '4.10'
-            link: 'https://www.iso.org/standard/26020.html'
+            link: https://www.iso.org/standard/26020.html
           lineage_source: ''
           date_accepted: '2003-05-01T00:00:00.000Z'
           date_amended: '2014-04-01T00:00:00.000Z'
@@ -402,15 +430,14 @@ deu:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2014-04-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19115-1:2014'
-          review_decision_notes: >-
-            The entry has been superseded. An entry with a revised definition
-            has been published in ISO 19115-1:2014
-          release: '-1'
+          review_decision_event: Publication of ISO 19115-1:2014
+          review_decision_notes: The entry has been superseded. An entry with a revised
+            definition has been published in ISO 19115-1:2014
+          release: "-1"
           terms:
-            - type: expression
-              designation: Ressource
-              normative_status: null
+          - type: expression
+            designation: Ressource
+            normative_status:
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -418,34 +445,40 @@ deu:
           email: glossarist@ribose.com
 jpn:
   id: 383
-  definition: 要求を満たすための手段又は資産。
-  language_code: jpn
+  terms:
+  - type: expression
+    designation: 資源
+  definition:
+  - content: 要求を満たすための手段又は資産。
   notes: []
   examples:
-    - データ集合，サービス，文書，個人又は組織。
+  - content: データ集合，サービス，文書，個人又は組織。
+  language_code: jpn
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19115:2003'
-    clause: '4.10'
-    link: 'https://www.iso.org/standard/26020.html'
-  lineage_source: ''
-  date_accepted: '2003-05-01T00:00:00.000Z'
-  date_amended: '2014-04-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19115:2003
+      clause: '4.10'
+      link: https://www.iso.org/standard/26020.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-04-01T00:00:00.000Z'
   review_date: '2011-01-01T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2014-04-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19115-1:2014'
-  review_decision_notes: >-
-    The entry has been superseded. An entry with a revised definition has been
-    published in ISO 19115-1:2014
-  release: '-1'
-  terms:
-    - type: expression
-      designation: 資源
-      normative_status: null
+  review_decision_event: Publication of ISO 19115-1:2014
+  review_decision_notes: The entry has been superseded. An entry with a revised definition
+    has been published in ISO 19115-1:2014
+  release: "-1"
   _revisions:
     current: 24209d
     tree:
@@ -456,13 +489,13 @@ jpn:
           language_code: jpn
           notes: []
           examples:
-            - データ集合，サービス，文書，個人又は組織。
+          - データ集合，サービス，文書，個人又は組織。
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19115:2003'
+            ref: ISO 19115:2003
             clause: '4.10'
-            link: 'https://www.iso.org/standard/26020.html'
+            link: https://www.iso.org/standard/26020.html
           lineage_source: ''
           date_accepted: '2003-05-01T00:00:00.000Z'
           date_amended: '2014-04-01T00:00:00.000Z'
@@ -471,15 +504,14 @@ jpn:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2014-04-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19115-1:2014'
-          review_decision_notes: >-
-            The entry has been superseded. An entry with a revised definition
-            has been published in ISO 19115-1:2014
-          release: '-1'
+          review_decision_event: Publication of ISO 19115-1:2014
+          review_decision_notes: The entry has been superseded. An entry with a revised
+            definition has been published in ISO 19115-1:2014
+          release: "-1"
           terms:
-            - type: expression
-              designation: 資源
-              normative_status: null
+          - type: expression
+            designation: 資源
+            normative_status:
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -487,34 +519,40 @@ jpn:
           email: glossarist@ribose.com
 kor:
   id: 383
-  definition: 요구 사항을 수행하기 위한 자산이나 수단
-  language_code: kor
+  terms:
+  - type: expression
+    designation: 자원
+  definition:
+  - content: 요구 사항을 수행하기 위한 자산이나 수단
   notes: []
   examples:
-    - '데이터셋, 서비스, 문서, 사람 또는 조직'
+  - content: 데이터셋, 서비스, 문서, 사람 또는 조직
+  language_code: kor
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19115:2003'
-    clause: '4.10'
-    link: 'https://www.iso.org/standard/26020.html'
-  lineage_source: ''
-  date_accepted: '2008-12-30T00:00:00.000Z'
-  date_amended: '2014-04-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19115:2003
+      clause: '4.10'
+      link: https://www.iso.org/standard/26020.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2008-12-30T00:00:00.000Z'
+  - type: amended
+    date: '2014-04-01T00:00:00.000Z'
   review_date: '2011-01-01T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2014-04-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19115-1:2014'
-  review_decision_notes: >-
-    The entry has been superseded. An entry with a revised definition has been
-    published in ISO 19115-1:2014
-  release: '-1'
-  terms:
-    - type: expression
-      designation: 자원
-      normative_status: null
+  review_decision_event: Publication of ISO 19115-1:2014
+  review_decision_notes: The entry has been superseded. An entry with a revised definition
+    has been published in ISO 19115-1:2014
+  release: "-1"
   _revisions:
     current: 43aed9
     tree:
@@ -525,13 +563,13 @@ kor:
           language_code: kor
           notes: []
           examples:
-            - '데이터셋, 서비스, 문서, 사람 또는 조직'
+          - 데이터셋, 서비스, 문서, 사람 또는 조직
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19115:2003'
+            ref: ISO 19115:2003
             clause: '4.10'
-            link: 'https://www.iso.org/standard/26020.html'
+            link: https://www.iso.org/standard/26020.html
           lineage_source: ''
           date_accepted: '2008-12-30T00:00:00.000Z'
           date_amended: '2014-04-01T00:00:00.000Z'
@@ -540,15 +578,14 @@ kor:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2014-04-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19115-1:2014'
-          review_decision_notes: >-
-            The entry has been superseded. An entry with a revised definition
-            has been published in ISO 19115-1:2014
-          release: '-1'
+          review_decision_event: Publication of ISO 19115-1:2014
+          review_decision_notes: The entry has been superseded. An entry with a revised
+            definition has been published in ISO 19115-1:2014
+          release: "-1"
           terms:
-            - type: expression
-              designation: 자원
-              normative_status: null
+          - type: expression
+            designation: 자원
+            normative_status:
         parents: []
         timeCreated: '2008-12-30T00:00:00.000Z'
         author:
@@ -556,57 +593,61 @@ kor:
           email: glossarist@ribose.com
 pol:
   id: 383
-  definition: 'aktywa lub środki, które zaspokajają wymaganie'
-  language_code: pol
+  terms:
+  - type: expression
+    designation: zasób
+  definition:
+  - content: aktywa lub środki, które zaspokajają wymaganie
   notes:
-    - >-
-      Status wycofanej pozycji zmienia się z „valid” na „retired”. Wycofana
-      pozycja jest utrzymywana w rejestrze, aby umożliwić interpretację danych
-      wytworzonych przed jej wycofaniem.
+  - content: Status wycofanej pozycji zmienia się z „valid” na „retired”. Wycofana
+      pozycja jest utrzymywana w rejestrze, aby umożliwić interpretację danych wytworzonych
+      przed jej wycofaniem.
   examples:
-    - 'Zbiór danych, usługa, dokument, osoba lub organizacja'
+  - content: Zbiór danych, usługa, dokument, osoba lub organizacja
+  language_code: pol
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19115:2003'
-    clause: '4.10'
-    link: 'https://www.iso.org/standard/26020.html'
-  lineage_source: ''
-  date_accepted: '2003-05-01T00:00:00.000Z'
-  date_amended: '2014-04-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19115:2003
+      clause: '4.10'
+      link: https://www.iso.org/standard/26020.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-04-01T00:00:00.000Z'
   review_date: '2011-01-01T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2014-04-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19115-1:2014'
-  review_decision_notes: >-
-    The entry has been superseded. An entry with a revised definition has been
-    published in ISO 19115-1:2014
-  release: '-1'
-  terms:
-    - type: expression
-      designation: zasób
-      normative_status: null
+  review_decision_event: Publication of ISO 19115-1:2014
+  review_decision_notes: The entry has been superseded. An entry with a revised definition
+    has been published in ISO 19115-1:2014
+  release: "-1"
   _revisions:
     current: 323b3e
     tree:
       323b3e:
         object:
           id: 383
-          definition: 'aktywa lub środki, które zaspokajają wymaganie'
+          definition: aktywa lub środki, które zaspokajają wymaganie
           language_code: pol
           notes:
-            - >-
-              Status wycofanej pozycji zmienia się z „valid” na „retired”.
-              Wycofana pozycja jest utrzymywana w rejestrze, aby umożliwić
-              interpretację danych wytworzonych przed jej wycofaniem.
+          - Status wycofanej pozycji zmienia się z „valid” na „retired”. Wycofana
+            pozycja jest utrzymywana w rejestrze, aby umożliwić interpretację danych
+            wytworzonych przed jej wycofaniem.
           examples:
-            - 'Zbiór danych, usługa, dokument, osoba lub organizacja'
+          - Zbiór danych, usługa, dokument, osoba lub organizacja
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19115:2003'
+            ref: ISO 19115:2003
             clause: '4.10'
-            link: 'https://www.iso.org/standard/26020.html'
+            link: https://www.iso.org/standard/26020.html
           lineage_source: ''
           date_accepted: '2003-05-01T00:00:00.000Z'
           date_amended: '2014-04-01T00:00:00.000Z'
@@ -615,15 +656,14 @@ pol:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2014-04-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19115-1:2014'
-          review_decision_notes: >-
-            The entry has been superseded. An entry with a revised definition
-            has been published in ISO 19115-1:2014
-          release: '-1'
+          review_decision_event: Publication of ISO 19115-1:2014
+          review_decision_notes: The entry has been superseded. An entry with a revised
+            definition has been published in ISO 19115-1:2014
+          release: "-1"
           terms:
-            - type: expression
-              designation: zasób
-              normative_status: null
+          - type: expression
+            designation: zasób
+            normative_status:
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -631,51 +671,57 @@ pol:
           email: glossarist@ribose.com
 rus:
   id: 383
-  definition: 'средства или инструменты, удовлетворяющие заданным требованиям'
-  language_code: rus
+  terms:
+  - type: expression
+    designation: ресурс
+  definition:
+  - content: средства или инструменты, удовлетворяющие заданным требованиям
   notes: []
   examples:
-    - 'Набор данных, сервис, документ, личность или организация'
+  - content: Набор данных, сервис, документ, личность или организация
+  language_code: rus
   entry_status: замененный
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19115:2003'
-    clause: '4.10'
-    link: 'https://www.iso.org/standard/26020.html'
-  lineage_source: ''
-  date_accepted: '2003-05-01T00:00:00.000Z'
-  date_amended: '2014-04-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19115:2003
+      clause: '4.10'
+      link: https://www.iso.org/standard/26020.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-04-01T00:00:00.000Z'
   review_date: '2011-01-01T00:00:00.000Z'
   review_status: ''
   review_type: ''
   review_decision: ''
   review_decision_date: '2014-04-01T00:00:00.000Z'
-  review_decision_event: 'Публикация ИСО 19115-1:2014'
-  review_decision_notes: >-
-    Запись была заменена. Запись с пересмотренным определением была опубликована
-    в ISO 19115-1:2014
-  release: '-1'
-  terms:
-    - type: expression
-      designation: ресурс
-      normative_status: null
+  review_decision_event: Публикация ИСО 19115-1:2014
+  review_decision_notes: Запись была заменена. Запись с пересмотренным определением
+    была опубликована в ISO 19115-1:2014
+  release: "-1"
   _revisions:
     current: 7b3162
     tree:
       7b3162:
         object:
           id: 383
-          definition: 'средства или инструменты, удовлетворяющие заданным требованиям'
+          definition: средства или инструменты, удовлетворяющие заданным требованиям
           language_code: rus
           notes: []
           examples:
-            - 'Набор данных, сервис, документ, личность или организация'
+          - Набор данных, сервис, документ, личность или организация
           entry_status: замененный
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19115:2003'
+            ref: ISO 19115:2003
             clause: '4.10'
-            link: 'https://www.iso.org/standard/26020.html'
+            link: https://www.iso.org/standard/26020.html
           lineage_source: ''
           date_accepted: '2003-05-01T00:00:00.000Z'
           date_amended: '2014-04-01T00:00:00.000Z'
@@ -684,15 +730,14 @@ rus:
           review_type: ''
           review_decision: ''
           review_decision_date: '2014-04-01T00:00:00.000Z'
-          review_decision_event: 'Публикация ИСО 19115-1:2014'
-          review_decision_notes: >-
-            Запись была заменена. Запись с пересмотренным определением была
-            опубликована в ISO 19115-1:2014
-          release: '-1'
+          review_decision_event: Публикация ИСО 19115-1:2014
+          review_decision_notes: Запись была заменена. Запись с пересмотренным определением
+            была опубликована в ISO 19115-1:2014
+          release: "-1"
           terms:
-            - type: expression
-              designation: ресурс
-              normative_status: null
+          - type: expression
+            designation: ресурс
+            normative_status:
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -700,34 +745,40 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 383
-  definition: factor o medio que satisface un requisito
-  language_code: spa
+  terms:
+  - type: expression
+    designation: recurso
+  definition:
+  - content: factor o medio que satisface un requisito
   notes: []
   examples:
-    - 'Conjunto de datos, servicio, documento, persona u organización.'
+  - content: Conjunto de datos, servicio, documento, persona u organización.
+  language_code: spa
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19115:2003'
-    clause: '4.10'
-    link: 'https://www.iso.org/standard/26020.html'
-  lineage_source: ''
-  date_accepted: '2003-05-01T00:00:00.000Z'
-  date_amended: '2014-04-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19115:2003
+      clause: '4.10'
+      link: https://www.iso.org/standard/26020.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-04-01T00:00:00.000Z'
   review_date: '2011-01-01T00:00:00.000Z'
   review_status: ''
   review_type: ''
   review_decision: ''
   review_decision_date: '2014-04-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19115-1:2014'
-  review_decision_notes: >-
-    The entry has been superseded. An entry with a revised definition has been
-    published in ISO 19115-1:2014
-  release: '-1'
-  terms:
-    - type: expression
-      designation: recurso
-      normative_status: null
+  review_decision_event: Publication of ISO 19115-1:2014
+  review_decision_notes: The entry has been superseded. An entry with a revised definition
+    has been published in ISO 19115-1:2014
+  release: "-1"
   _revisions:
     current: 0a0d33
     tree:
@@ -738,13 +789,13 @@ spa:
           language_code: spa
           notes: []
           examples:
-            - 'Conjunto de datos, servicio, documento, persona u organización.'
+          - Conjunto de datos, servicio, documento, persona u organización.
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19115:2003'
+            ref: ISO 19115:2003
             clause: '4.10'
-            link: 'https://www.iso.org/standard/26020.html'
+            link: https://www.iso.org/standard/26020.html
           lineage_source: ''
           date_accepted: '2003-05-01T00:00:00.000Z'
           date_amended: '2014-04-01T00:00:00.000Z'
@@ -753,15 +804,14 @@ spa:
           review_type: ''
           review_decision: ''
           review_decision_date: '2014-04-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19115-1:2014'
-          review_decision_notes: >-
-            The entry has been superseded. An entry with a revised definition
-            has been published in ISO 19115-1:2014
-          release: '-1'
+          review_decision_event: Publication of ISO 19115-1:2014
+          review_decision_notes: The entry has been superseded. An entry with a revised
+            definition has been published in ISO 19115-1:2014
+          release: "-1"
           terms:
-            - type: expression
-              designation: recurso
-              normative_status: null
+          - type: expression
+            designation: recurso
+            normative_status:
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -769,62 +819,64 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 383
-  definition: >-
-    informationsresurs som har en direkt eller indirekt referens till ett
-    specifikt läge eller geografiskt område [INSPIRE]
-
-    Anm: Exempel på informationsresurser är datamängder och tjänster.
-  country_code: swe
-  language_code: swe
+  terms:
+  - type: expression
+    designation: resurs
+  definition:
+  - content: |-
+      informationsresurs som har en direkt eller indirekt referens till ett specifikt läge eller geografiskt område [INSPIRE]
+      Anm: Exempel på informationsresurser är datamängder och tjänster.
   notes: []
   examples:
-    - 'Dataset, service, document, person or organization.'
+  - content: Dataset, service, document, person or organization.
+  country_code: swe
+  language_code: swe
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19115:2003'
-    clause: '4.10'
-    link: 'https://www.iso.org/standard/26020.html'
-  lineage_source: ''
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19115:2003
+      clause: '4.10'
+      link: https://www.iso.org/standard/26020.html
+  - type: lineage
+    origin:
+      ref: ''
   lineage_source_similarity: 0
-  date_accepted: '2003-05-01T00:00:00.000Z'
-  date_amended: '2014-04-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-04-01T00:00:00.000Z'
   review_date: '2011-01-01T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2014-04-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19115-1:2014'
-  review_decision_notes: >-
-    The entry has been superseded. An entry with a revised definition has been
-    published in ISO 19115-1:2014
-  release: '-1'
-  terms:
-    - type: expression
-      designation: resurs
-      normative_status: null
+  review_decision_event: Publication of ISO 19115-1:2014
+  review_decision_notes: The entry has been superseded. An entry with a revised definition
+    has been published in ISO 19115-1:2014
+  release: "-1"
   _revisions:
     current: 8ff232
     tree:
       8ff232:
         object:
           id: 383
-          definition: >-
-            informationsresurs som har en direkt eller indirekt referens till
-            ett specifikt läge eller geografiskt område [INSPIRE]
-
+          definition: |-
+            informationsresurs som har en direkt eller indirekt referens till ett specifikt läge eller geografiskt område [INSPIRE]
             Anm: Exempel på informationsresurser är datamängder och tjänster.
           country_code: swe
           language_code: swe
           notes: []
           examples:
-            - 'Dataset, service, document, person or organization.'
+          - Dataset, service, document, person or organization.
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19115:2003'
+            ref: ISO 19115:2003
             clause: '4.10'
-            link: 'https://www.iso.org/standard/26020.html'
+            link: https://www.iso.org/standard/26020.html
           lineage_source: ''
           lineage_source_similarity: 0
           date_accepted: '2003-05-01T00:00:00.000Z'
@@ -834,15 +886,14 @@ swe:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2014-04-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19115-1:2014'
-          review_decision_notes: >-
-            The entry has been superseded. An entry with a revised definition
-            has been published in ISO 19115-1:2014
-          release: '-1'
+          review_decision_event: Publication of ISO 19115-1:2014
+          review_decision_notes: The entry has been superseded. An entry with a revised
+            definition has been published in ISO 19115-1:2014
+          release: "-1"
           terms:
-            - type: expression
-              designation: resurs
-              normative_status: null
+          - type: expression
+            designation: resurs
+            normative_status:
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:

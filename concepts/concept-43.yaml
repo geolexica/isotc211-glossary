@@ -1,69 +1,71 @@
-term: class <UML>
+---
 termid: 43
+term: class <UML>
 eng:
   id: 43
-  definition: >-
-    description of a set of objects that share the same attributes, operations,
-    methods, relationships, and semantics
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: class <UML>
+  definition:
+  - content: description of a set of objects that share the same attributes, operations,
+      methods, relationships, and semantics
   notes:
-    - >-
-      A class may use a set of interfaces to specify collections of operations
-      it provides to its environment. See: interface.
+  - content: 'A class may use a set of interfaces to specify collections of operations
+      it provides to its environment. See: interface.'
   examples: []
+  language_code: eng
   entry_status: valid
-  authoritative_source:
-    ref: UML 1
-  lineage_source: 'ISO/TS 19103:2005'
+  sources:
+  - type: authoritative
+    origin:
+      ref: UML 1
+  - type: lineage
+    origin:
+      ref: ISO/TS 19103:2005
   lineage_source_similarity: 1
-  date_accepted: '2003-05-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/IEC 19501:2005 (Adapted from) to
-    UML 1. Lineage source added as ISO/TS 19103:2005
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
+    from) to UML 1. Lineage source added as ISO/TS 19103:2005
   release: '1'
-  terms:
-    - type: expression
-      designation: class <UML>
-      normative_status: preferred
   _revisions:
-    current: '6816e6'
+    current: 6816e6
     tree:
-      '6816e6':
+      6816e6:
         object:
           id: 43
-          definition: >-
-            description of a set of objects that share the same attributes,
+          definition: description of a set of objects that share the same attributes,
             operations, methods, relationships, and semantics
           language_code: eng
           notes:
-            - >-
-              A class may use a set of interfaces to specify collections of
-              operations it provides to its environment. See: interface.
+          - 'A class may use a set of interfaces to specify collections of operations
+            it provides to its environment. See: interface.'
           examples: []
           entry_status: valid
           authoritative_source:
             ref: UML 1
-          lineage_source: 'ISO/TS 19103:2005'
+          lineage_source: ISO/TS 19103:2005
           lineage_source_similarity: 1
           date_accepted: '2003-05-01T00:00:00.000Z'
           review_date: '2009-01-14T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
-            from) to UML 1. Lineage source added as ISO/TS 19103:2005
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005
+            (Adapted from) to UML 1. Lineage source added as ISO/TS 19103:2005
           release: '1'
           terms:
-            - type: expression
-              designation: class <UML>
-              normative_status: preferred
+          - type: expression
+            designation: class <UML>
+            normative_status: preferred
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -71,68 +73,69 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 43
-  definition: >-
-    وصف لمجموعة من البيانات التي لها بيانات وصفية ، وعمليات ، وطرق ، وعلاقات ،
-    ودلالات لفظية مشتركة
-  language_code: ara
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: فئة <UML>
+  definition:
+  - content: وصف لمجموعة من البيانات التي لها بيانات وصفية ، وعمليات ، وطرق ، وعلاقات
+      ، ودلالات لفظية مشتركة
   notes:
-    - >-
-      ربما تستخدم الفئة مجموعة من الواجهات لتحديد مجموعات من العمليات التي
-      تقدمها لبيئتها . أنظر : واجهة
+  - content: 'ربما تستخدم الفئة مجموعة من الواجهات لتحديد مجموعات من العمليات التي
+      تقدمها لبيئتها . أنظر : واجهة'
   examples: []
+  language_code: ara
   entry_status: valid
-  authoritative_source:
-    ref: UML 1
-  lineage_source: 'ISO/TS 19103:2005'
+  sources:
+  - type: authoritative
+    origin:
+      ref: UML 1
+  - type: lineage
+    origin:
+      ref: ISO/TS 19103:2005
   lineage_source_similarity: 1
-  date_accepted: '2003-05-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/IEC 19501:2005 (Adapted from) to
-    UML 1. Lineage source added as ISO/TS 19103:2005
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
+    from) to UML 1. Lineage source added as ISO/TS 19103:2005
   release: '1'
-  terms:
-    - type: expression
-      designation: فئة <UML>
-      normative_status: preferred
   _revisions:
     current: 9af3c1
     tree:
       9af3c1:
         object:
           id: 43
-          definition: >-
-            وصف لمجموعة من البيانات التي لها بيانات وصفية ، وعمليات ، وطرق ،
-            وعلاقات ، ودلالات لفظية مشتركة
+          definition: وصف لمجموعة من البيانات التي لها بيانات وصفية ، وعمليات ، وطرق
+            ، وعلاقات ، ودلالات لفظية مشتركة
           language_code: ara
           notes:
-            - >-
-              ربما تستخدم الفئة مجموعة من الواجهات لتحديد مجموعات من العمليات
-              التي تقدمها لبيئتها . أنظر : واجهة
+          - 'ربما تستخدم الفئة مجموعة من الواجهات لتحديد مجموعات من العمليات التي
+            تقدمها لبيئتها . أنظر : واجهة'
           examples: []
           entry_status: valid
           authoritative_source:
             ref: UML 1
-          lineage_source: 'ISO/TS 19103:2005'
+          lineage_source: ISO/TS 19103:2005
           lineage_source_similarity: 1
           date_accepted: '2003-05-01T00:00:00.000Z'
           review_date: '2009-01-14T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
-            from) to UML 1. Lineage source added as ISO/TS 19103:2005
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005
+            (Adapted from) to UML 1. Lineage source added as ISO/TS 19103:2005
           release: '1'
           terms:
-            - type: expression
-              designation: فئة <UML>
-              normative_status: preferred
+          - type: expression
+            designation: فئة <UML>
+            normative_status: preferred
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -140,60 +143,65 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 43
-  definition: <UML>具有相同的属性（域）、操作方法、关系与语义的对象集的描述。
-  language_code: zho
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 类<UML>
+  definition:
+  - content: "<UML>具有相同的属性（域）、操作方法、关系与语义的对象集的描述。"
   notes:
-    - 类可以用接口的集合来定义它所提供给它的外界（环境）的操作集。
+  - content: 类可以用接口的集合来定义它所提供给它的外界（环境）的操作集。
   examples: []
+  language_code: zho
   entry_status: valid
-  authoritative_source:
-    ref: UML 1
-  lineage_source: 'ISO/TS 19103:2005'
+  sources:
+  - type: authoritative
+    origin:
+      ref: UML 1
+  - type: lineage
+    origin:
+      ref: ISO/TS 19103:2005
   lineage_source_similarity: 1
-  date_accepted: '2003-05-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/IEC 19501:2005 (Adapted from) to
-    UML 1. Lineage source added as ISO/TS 19103:2005
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
+    from) to UML 1. Lineage source added as ISO/TS 19103:2005
   release: '1'
-  terms:
-    - type: expression
-      designation: 类<UML>
-      normative_status: preferred
   _revisions:
     current: 933c62
     tree:
       933c62:
         object:
           id: 43
-          definition: <UML>具有相同的属性（域）、操作方法、关系与语义的对象集的描述。
+          definition: "<UML>具有相同的属性（域）、操作方法、关系与语义的对象集的描述。"
           language_code: zho
           notes:
-            - 类可以用接口的集合来定义它所提供给它的外界（环境）的操作集。
+          - 类可以用接口的集合来定义它所提供给它的外界（环境）的操作集。
           examples: []
           entry_status: valid
           authoritative_source:
             ref: UML 1
-          lineage_source: 'ISO/TS 19103:2005'
+          lineage_source: ISO/TS 19103:2005
           lineage_source_similarity: 1
           date_accepted: '2003-05-01T00:00:00.000Z'
           review_date: '2009-01-14T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
-            from) to UML 1. Lineage source added as ISO/TS 19103:2005
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005
+            (Adapted from) to UML 1. Lineage source added as ISO/TS 19103:2005
           release: '1'
           terms:
-            - type: expression
-              designation: 类<UML>
-              normative_status: preferred
+          - type: expression
+            designation: 类<UML>
+            normative_status: preferred
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -201,68 +209,66 @@ zho:
           email: glossarist@ribose.com
 dan:
   id: 43
-  definition: >-
-    beskrivelse af en mængde af objekter med samme attributter, operationer,
-    metoder, relationer og semantik
-  language_code: dan
+  terms:
+  - type: expression
+    designation: klasse <UML>
+  definition:
+  - content: beskrivelse af en mængde af objekter med samme attributter, operationer,
+      metoder, relationer og semantik
   notes:
-    - >-
-      En klasse kan benytte et sæt af grænseflader til at specificere samlinger
-      af operationer, den stiller til rådighed for sine omgivelser. Se:
-      grænseflade.
+  - content: 'En klasse kan benytte et sæt af grænseflader til at specificere samlinger
+      af operationer, den stiller til rådighed for sine omgivelser. Se: grænseflade.'
   examples: []
-  authoritative_source:
-    ref: UML 1
-  lineage_source: 'ISO/TS 19103:2005'
+  language_code: dan
+  sources:
+  - type: authoritative
+    origin:
+      ref: UML 1
+  - type: lineage
+    origin:
+      ref: ISO/TS 19103:2005
   lineage_source_similarity: 1
-  date_accepted: '2003-05-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/IEC 19501:2005 (Adapted from) to
-    UML 1. Lineage source added as ISO/TS 19103:2005
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
+    from) to UML 1. Lineage source added as ISO/TS 19103:2005
   release: '1'
-  terms:
-    - type: expression
-      designation: klasse <UML>
-      normative_status: null
   _revisions:
     current: 12f0be
     tree:
       12f0be:
         object:
           id: 43
-          definition: >-
-            beskrivelse af en mængde af objekter med samme attributter,
+          definition: beskrivelse af en mængde af objekter med samme attributter,
             operationer, metoder, relationer og semantik
           language_code: dan
           notes:
-            - >-
-              En klasse kan benytte et sæt af grænseflader til at specificere
-              samlinger af operationer, den stiller til rådighed for sine
-              omgivelser. Se: grænseflade.
+          - 'En klasse kan benytte et sæt af grænseflader til at specificere samlinger
+            af operationer, den stiller til rådighed for sine omgivelser. Se: grænseflade.'
           examples: []
           authoritative_source:
             ref: UML 1
-          lineage_source: 'ISO/TS 19103:2005'
+          lineage_source: ISO/TS 19103:2005
           lineage_source_similarity: 1
           date_accepted: '2003-05-01T00:00:00.000Z'
           review_date: '2009-01-14T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
-            from) to UML 1. Lineage source added as ISO/TS 19103:2005
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005
+            (Adapted from) to UML 1. Lineage source added as ISO/TS 19103:2005
           release: '1'
           terms:
-            - type: expression
-              designation: klasse <UML>
-              normative_status: null
+          - type: expression
+            designation: klasse <UML>
+            normative_status:
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -270,68 +276,69 @@ dan:
           email: glossarist@ribose.com
 fin:
   id: 43
-  definition: >-
-    kuvaus joukosta objekteja, joilla on keskenään samat attribuutit, toiminnot,
-    metodit, suhteet ja semantiikat
-  language_code: fin
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: luokka <UML>
+  definition:
+  - content: kuvaus joukosta objekteja, joilla on keskenään samat attribuutit, toiminnot,
+      metodit, suhteet ja semantiikat
   notes:
-    - >-
-      Luokka voi käyttää rajapintoja määrittämään toiminnot, joita se
-      ympäristölleen tarjoaa. Katso käsite rajapinta.
+  - content: Luokka voi käyttää rajapintoja määrittämään toiminnot, joita se ympäristölleen
+      tarjoaa. Katso käsite rajapinta.
   examples: []
+  language_code: fin
   entry_status: valid
-  authoritative_source:
-    ref: UML 1
-  lineage_source: 'ISO/TS 19103:2005'
+  sources:
+  - type: authoritative
+    origin:
+      ref: UML 1
+  - type: lineage
+    origin:
+      ref: ISO/TS 19103:2005
   lineage_source_similarity: 1
-  date_accepted: '2003-05-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/IEC 19501:2005 (Adapted from) to
-    UML 1. Lineage source added as ISO/TS 19103:2005
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
+    from) to UML 1. Lineage source added as ISO/TS 19103:2005
   release: '1'
-  terms:
-    - type: expression
-      designation: luokka <UML>
-      normative_status: preferred
   _revisions:
     current: 47fb11
     tree:
       47fb11:
         object:
           id: 43
-          definition: >-
-            kuvaus joukosta objekteja, joilla on keskenään samat attribuutit,
+          definition: kuvaus joukosta objekteja, joilla on keskenään samat attribuutit,
             toiminnot, metodit, suhteet ja semantiikat
           language_code: fin
           notes:
-            - >-
-              Luokka voi käyttää rajapintoja määrittämään toiminnot, joita se
-              ympäristölleen tarjoaa. Katso käsite rajapinta.
+          - Luokka voi käyttää rajapintoja määrittämään toiminnot, joita se ympäristölleen
+            tarjoaa. Katso käsite rajapinta.
           examples: []
           entry_status: valid
           authoritative_source:
             ref: UML 1
-          lineage_source: 'ISO/TS 19103:2005'
+          lineage_source: ISO/TS 19103:2005
           lineage_source_similarity: 1
           date_accepted: '2003-05-01T00:00:00.000Z'
           review_date: '2009-01-14T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
-            from) to UML 1. Lineage source added as ISO/TS 19103:2005
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005
+            (Adapted from) to UML 1. Lineage source added as ISO/TS 19103:2005
           release: '1'
           terms:
-            - type: expression
-              designation: luokka <UML>
-              normative_status: preferred
+          - type: expression
+            designation: luokka <UML>
+            normative_status: preferred
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -339,39 +346,43 @@ fin:
           email: glossarist@ribose.com
 fra:
   id: 43
-  definition: >-
-    description d'un ensemble d'objets partageant les mêmes attributs,
-    opérations, méthodes, relations et sémantique
-  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: classe <UML>
+  definition:
+  - content: description d'un ensemble d'objets partageant les mêmes attributs, opérations,
+      méthodes, relations et sémantique
   notes: []
   examples: []
+  language_code: fra
   entry_status: valid
-  authoritative_source:
-    ref: UML 1
-  lineage_source: 'ISO/TS 19103:2005'
+  sources:
+  - type: authoritative
+    origin:
+      ref: UML 1
+  - type: lineage
+    origin:
+      ref: ISO/TS 19103:2005
   lineage_source_similarity: 1
-  date_accepted: '2003-05-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/IEC 19501:2005 (Adapted from) to
-    UML 1. Lineage source added as ISO/TS 19103:2005
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
+    from) to UML 1. Lineage source added as ISO/TS 19103:2005
   release: '1'
-  terms:
-    - type: expression
-      designation: classe <UML>
-      normative_status: preferred
   _revisions:
     current: 54d024
     tree:
       54d024:
         object:
           id: 43
-          definition: >-
-            description d'un ensemble d'objets partageant les mêmes attributs,
+          definition: description d'un ensemble d'objets partageant les mêmes attributs,
             opérations, méthodes, relations et sémantique
           language_code: fra
           notes: []
@@ -379,22 +390,21 @@ fra:
           entry_status: valid
           authoritative_source:
             ref: UML 1
-          lineage_source: 'ISO/TS 19103:2005'
+          lineage_source: ISO/TS 19103:2005
           lineage_source_similarity: 1
           date_accepted: '2003-05-01T00:00:00.000Z'
           review_date: '2009-01-14T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
-            from) to UML 1. Lineage source added as ISO/TS 19103:2005
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005
+            (Adapted from) to UML 1. Lineage source added as ISO/TS 19103:2005
           release: '1'
           terms:
-            - type: expression
-              designation: classe <UML>
-              normative_status: preferred
+          - type: expression
+            designation: classe <UML>
+            normative_status: preferred
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -402,31 +412,35 @@ fra:
           email: glossarist@ribose.com
 deu:
   id: 43
-  language_code: deu
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "(Objekt-)Klasse"
   notes:
-    - >-
-      A class may use a set of interfaces to specify collections of operations
-      it provides to its environment. See: interface.
+  - content: 'A class may use a set of interfaces to specify collections of operations
+      it provides to its environment. See: interface.'
   examples: []
+  language_code: deu
   entry_status: valid
-  authoritative_source:
-    ref: UML 1
-  lineage_source: 'ISO/TS 19103:2005'
+  sources:
+  - type: authoritative
+    origin:
+      ref: UML 1
+  - type: lineage
+    origin:
+      ref: ISO/TS 19103:2005
   lineage_source_similarity: 1
-  date_accepted: '2003-05-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/IEC 19501:2005 (Adapted from) to
-    UML 1. Lineage source added as ISO/TS 19103:2005
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
+    from) to UML 1. Lineage source added as ISO/TS 19103:2005
   release: '1'
-  terms:
-    - type: expression
-      designation: (Objekt-)Klasse
-      normative_status: preferred
   _revisions:
     current: c9ebf1
     tree:
@@ -435,29 +449,27 @@ deu:
           id: 43
           language_code: deu
           notes:
-            - >-
-              A class may use a set of interfaces to specify collections of
-              operations it provides to its environment. See: interface.
+          - 'A class may use a set of interfaces to specify collections of operations
+            it provides to its environment. See: interface.'
           examples: []
           entry_status: valid
           authoritative_source:
             ref: UML 1
-          lineage_source: 'ISO/TS 19103:2005'
+          lineage_source: ISO/TS 19103:2005
           lineage_source_similarity: 1
           date_accepted: '2003-05-01T00:00:00.000Z'
           review_date: '2009-01-14T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
-            from) to UML 1. Lineage source added as ISO/TS 19103:2005
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005
+            (Adapted from) to UML 1. Lineage source added as ISO/TS 19103:2005
           release: '1'
           terms:
-            - type: expression
-              designation: (Objekt-)Klasse
-              normative_status: preferred
+          - type: expression
+            designation: "(Objekt-)Klasse"
+            normative_status: preferred
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -465,60 +477,65 @@ deu:
           email: glossarist@ribose.com
 kor:
   id: 43
-  definition: '동일한 속성, 연산, 방법 및 관계와 의미론을 공유하는 객체 집합의 기술'
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 클래스 <UML>
+  definition:
+  - content: 동일한 속성, 연산, 방법 및 관계와 의미론을 공유하는 객체 집합의 기술
   notes:
-    - 인터페이스의 집합을 사용하여 연산의 집합을 클래스로 기술할 수 있다.
+  - content: 인터페이스의 집합을 사용하여 연산의 집합을 클래스로 기술할 수 있다.
   examples: []
+  language_code: kor
   entry_status: valid
-  authoritative_source:
-    ref: UML 1
-  lineage_source: 'ISO/TS 19103:2005'
+  sources:
+  - type: authoritative
+    origin:
+      ref: UML 1
+  - type: lineage
+    origin:
+      ref: ISO/TS 19103:2005
   lineage_source_similarity: 1
-  date_accepted: '2003-05-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/IEC 19501:2005 (Adapted from) to
-    UML 1. Lineage source added as ISO/TS 19103:2005
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
+    from) to UML 1. Lineage source added as ISO/TS 19103:2005
   release: '1'
-  terms:
-    - type: expression
-      designation: 클래스 <UML>
-      normative_status: preferred
   _revisions:
     current: c833e0
     tree:
       c833e0:
         object:
           id: 43
-          definition: '동일한 속성, 연산, 방법 및 관계와 의미론을 공유하는 객체 집합의 기술'
+          definition: 동일한 속성, 연산, 방법 및 관계와 의미론을 공유하는 객체 집합의 기술
           language_code: kor
           notes:
-            - 인터페이스의 집합을 사용하여 연산의 집합을 클래스로 기술할 수 있다.
+          - 인터페이스의 집합을 사용하여 연산의 집합을 클래스로 기술할 수 있다.
           examples: []
           entry_status: valid
           authoritative_source:
             ref: UML 1
-          lineage_source: 'ISO/TS 19103:2005'
+          lineage_source: ISO/TS 19103:2005
           lineage_source_similarity: 1
           date_accepted: '2003-05-01T00:00:00.000Z'
           review_date: '2009-01-14T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
-            from) to UML 1. Lineage source added as ISO/TS 19103:2005
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005
+            (Adapted from) to UML 1. Lineage source added as ISO/TS 19103:2005
           release: '1'
           terms:
-            - type: expression
-              designation: 클래스 <UML>
-              normative_status: preferred
+          - type: expression
+            designation: 클래스 <UML>
+            normative_status: preferred
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -526,53 +543,55 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 43
-  definition: >-
-    описание множества объектов, обладающих общими атрибутами, операциями,
-    методами,  отношениями и семантикой
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: класс <UML>
+  definition:
+  - content: описание множества объектов, обладающих общими атрибутами, операциями,
+      методами,  отношениями и семантикой
   notes:
-    - >-
-      Класс может использовать множество интерфейсов для определения набора
+  - content: Класс может использовать множество интерфейсов для определения набора
       операций, которые он обеспечивает для своей среды. См. термин «интерфейс»
   examples: []
+  language_code: rus
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO/IEC 19501:2005 '
-    clause: (Adapted from)
-    link: 'https://www.iso.org/standard/32620.html'
-  lineage_source: Internet
-  date_accepted: '2003-05-01T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: класс <UML>
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: 'ISO/IEC 19501:2005 '
+      clause: "(Adapted from)"
+      link: https://www.iso.org/standard/32620.html
+  - type: lineage
+    origin:
+      ref: Internet
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
   _revisions:
     current: 919f9f
     tree:
       919f9f:
         object:
           id: 43
-          definition: >-
-            описание множества объектов, обладающих общими атрибутами,
-            операциями, методами,  отношениями и семантикой
+          definition: описание множества объектов, обладающих общими атрибутами, операциями,
+            методами,  отношениями и семантикой
           language_code: rus
           notes:
-            - >-
-              Класс может использовать множество интерфейсов для определения
-              набора операций, которые он обеспечивает для своей среды. См.
-              термин «интерфейс»
+          - Класс может использовать множество интерфейсов для определения набора
+            операций, которые он обеспечивает для своей среды. См. термин «интерфейс»
           examples: []
           entry_status: valid
           authoritative_source:
             ref: 'ISO/IEC 19501:2005 '
-            clause: (Adapted from)
-            link: 'https://www.iso.org/standard/32620.html'
+            clause: "(Adapted from)"
+            link: https://www.iso.org/standard/32620.html
           lineage_source: Internet
           date_accepted: '2003-05-01T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: класс <UML>
-              normative_status: preferred
+          - type: expression
+            designation: класс <UML>
+            normative_status: preferred
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -580,69 +599,69 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 43
-  definition: >-
-    descripción de un conjunto de objetos que comparten los mismos atributos,
-    operaciones, métodos, relaciones y semántica
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: clase <UML>
+  definition:
+  - content: descripción de un conjunto de objetos que comparten los mismos atributos,
+      operaciones, métodos, relaciones y semántica
   notes:
-    - >-
-      Una clase puede utilizar un conjunto de interfaces para especificar
-      colecciones de operaciones que se proporcionan para su entorno.
+  - content: Una clase puede utilizar un conjunto de interfaces para especificar colecciones
+      de operaciones que se proporcionan para su entorno.
   examples: []
+  language_code: spa
   entry_status: valid
-  authoritative_source:
-    ref: UML 1
-  lineage_source: 'ISO/TS 19103:2005'
+  sources:
+  - type: authoritative
+    origin:
+      ref: UML 1
+  - type: lineage
+    origin:
+      ref: ISO/TS 19103:2005
   lineage_source_similarity: 1
-  date_accepted: '2003-05-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/IEC 19501:2005 (Adapted from) to
-    UML 1. Lineage source added as ISO/TS 19103:2005
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
+    from) to UML 1. Lineage source added as ISO/TS 19103:2005
   release: '1'
-  terms:
-    - type: expression
-      designation: clase <UML>
-      normative_status: preferred
   _revisions:
     current: 58c2d0
     tree:
       58c2d0:
         object:
           id: 43
-          definition: >-
-            descripción de un conjunto de objetos que comparten los mismos
+          definition: descripción de un conjunto de objetos que comparten los mismos
             atributos, operaciones, métodos, relaciones y semántica
           language_code: spa
           notes:
-            - >-
-              Una clase puede utilizar un conjunto de interfaces para
-              especificar colecciones de operaciones que se proporcionan para su
-              entorno.
+          - Una clase puede utilizar un conjunto de interfaces para especificar colecciones
+            de operaciones que se proporcionan para su entorno.
           examples: []
           entry_status: valid
           authoritative_source:
             ref: UML 1
-          lineage_source: 'ISO/TS 19103:2005'
+          lineage_source: ISO/TS 19103:2005
           lineage_source_similarity: 1
           date_accepted: '2003-05-01T00:00:00.000Z'
           review_date: '2009-01-14T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
-            from) to UML 1. Lineage source added as ISO/TS 19103:2005
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005
+            (Adapted from) to UML 1. Lineage source added as ISO/TS 19103:2005
           release: '1'
           terms:
-            - type: expression
-              designation: clase <UML>
-              normative_status: preferred
+          - type: expression
+            designation: clase <UML>
+            normative_status: preferred
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -650,71 +669,71 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 43
-  definition: >-
-    UML-element i klassdiagram för formell specifikation av datauppgifter och
-    semantik för representation av likartade företeelser eller egenskaper
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: klass <UML>
+  definition:
+  - content: UML-element i klassdiagram för formell specifikation av datauppgifter
+      och semantik för representation av likartade företeelser eller egenskaper
+  notes:
+  - content: 'A class may use a set of interfaces to specify collections of operations
+      it provides to its environment. See: interface.'
+  examples: []
   country_code: swe
   language_code: swe
-  notes:
-    - >-
-      A class may use a set of interfaces to specify collections of operations
-      it provides to its environment. See: interface.
-  examples: []
   entry_status: valid
-  authoritative_source:
-    ref: UML 1
-  lineage_source: 'ISO/TS 19103:2005'
+  sources:
+  - type: authoritative
+    origin:
+      ref: UML 1
+  - type: lineage
+    origin:
+      ref: ISO/TS 19103:2005
   lineage_source_similarity: 1
-  date_accepted: '2003-05-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/IEC 19501:2005 (Adapted from) to
-    UML 1. Lineage source added as ISO/TS 19103:2005
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
+    from) to UML 1. Lineage source added as ISO/TS 19103:2005
   release: '1'
-  terms:
-    - type: expression
-      designation: klass <UML>
-      normative_status: preferred
   _revisions:
     current: d4c16b
     tree:
       d4c16b:
         object:
           id: 43
-          definition: >-
-            UML-element i klassdiagram för formell specifikation av
-            datauppgifter och semantik för representation av likartade
-            företeelser eller egenskaper
+          definition: UML-element i klassdiagram för formell specifikation av datauppgifter
+            och semantik för representation av likartade företeelser eller egenskaper
           country_code: swe
           language_code: swe
           notes:
-            - >-
-              A class may use a set of interfaces to specify collections of
-              operations it provides to its environment. See: interface.
+          - 'A class may use a set of interfaces to specify collections of operations
+            it provides to its environment. See: interface.'
           examples: []
           entry_status: valid
           authoritative_source:
             ref: UML 1
-          lineage_source: 'ISO/TS 19103:2005'
+          lineage_source: ISO/TS 19103:2005
           lineage_source_similarity: 1
           date_accepted: '2003-05-01T00:00:00.000Z'
           review_date: '2009-01-14T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
-            from) to UML 1. Lineage source added as ISO/TS 19103:2005
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005
+            (Adapted from) to UML 1. Lineage source added as ISO/TS 19103:2005
           release: '1'
           terms:
-            - type: expression
-              designation: klass <UML>
-              normative_status: preferred
+          - type: expression
+            designation: klass <UML>
+            normative_status: preferred
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:

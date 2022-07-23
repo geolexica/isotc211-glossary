@@ -1,32 +1,36 @@
-term: service metadata
+---
 termid: 408
+term: service metadata
 eng:
   id: 408
-  definition: >-
-    metadata describing the operations and geographic information available at a
-    server
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: service metadata
+  definition:
+  - content: metadata describing the operations and geographic information available
+      at a server
   notes: []
   examples: []
+  language_code: eng
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19128:2005'
-    link: 'https://www.iso.org/standard/32546.html'
-  date_accepted: '2005-12-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19128:2005
+      link: https://www.iso.org/standard/32546.html
+  dates:
+  - type: accepted
+    date: '2005-12-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: service metadata
-      normative_status: preferred
   _revisions:
     current: f66b7c
     tree:
       f66b7c:
         object:
           id: 408
-          definition: >-
-            metadata describing the operations and geographic information
+          definition: metadata describing the operations and geographic information
             available at a server
           language_code: eng
           notes: []
@@ -34,14 +38,14 @@ eng:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19128:2005'
-            link: 'https://www.iso.org/standard/32546.html'
+            ref: ISO 19128:2005
+            link: https://www.iso.org/standard/32546.html
           date_accepted: '2005-12-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: service metadata
-              normative_status: preferred
+          - type: expression
+            designation: service metadata
+            normative_status: preferred
         parents: []
         timeCreated: '2005-12-01T00:00:00.000Z'
         author:
@@ -49,44 +53,48 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 408
-  definition: بيانات وصفية تصف العمليات والمعلومات الجغرافية المتوفرة على خادم معيَّن
-  language_code: ara
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: بيانات وصفية للخدمة
+  definition:
+  - content: بيانات وصفية تصف العمليات والمعلومات الجغرافية المتوفرة على خادم معيَّن
   notes: []
   examples: []
+  language_code: ara
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19128:2005'
-    link: 'https://www.iso.org/standard/32546.html'
-  date_accepted: '2005-12-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19128:2005
+      link: https://www.iso.org/standard/32546.html
+  dates:
+  - type: accepted
+    date: '2005-12-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: بيانات وصفية للخدمة
-      normative_status: preferred
   _revisions:
     current: 0cb880
     tree:
       0cb880:
         object:
           id: 408
-          definition: >-
-            بيانات وصفية تصف العمليات والمعلومات الجغرافية المتوفرة على خادم
-            معيَّن
+          definition: بيانات وصفية تصف العمليات والمعلومات الجغرافية المتوفرة على
+            خادم معيَّن
           language_code: ara
           notes: []
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19128:2005'
-            link: 'https://www.iso.org/standard/32546.html'
+            ref: ISO 19128:2005
+            link: https://www.iso.org/standard/32546.html
           date_accepted: '2005-12-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: بيانات وصفية للخدمة
-              normative_status: preferred
+          - type: expression
+            designation: بيانات وصفية للخدمة
+            normative_status: preferred
         parents: []
         timeCreated: '2005-12-01T00:00:00.000Z'
         author:
@@ -94,20 +102,25 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 408
-  definition: 人机间、系统间的公共边界。
-  language_code: zho
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 服务接口
+  definition:
+  - content: 人机间、系统间的公共边界。
   notes: []
   examples: []
+  language_code: zho
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19128:2005'
-    link: 'https://www.iso.org/standard/32546.html'
-  date_accepted: '2005-12-01T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: 服务接口
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19128:2005
+      link: https://www.iso.org/standard/32546.html
+  dates:
+  - type: accepted
+    date: '2005-12-01T00:00:00.000Z'
   _revisions:
     current: 3528a8
     tree:
@@ -121,13 +134,13 @@ zho:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19128:2005'
-            link: 'https://www.iso.org/standard/32546.html'
+            ref: ISO 19128:2005
+            link: https://www.iso.org/standard/32546.html
           date_accepted: '2005-12-01T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: 服务接口
-              normative_status: preferred
+          - type: expression
+            designation: 服务接口
+            normative_status: preferred
         parents: []
         timeCreated: '2005-12-01T00:00:00.000Z'
         author:
@@ -135,29 +148,35 @@ zho:
           email: glossarist@ribose.com
 fin:
   id: 408
-  definition: palvelimella saatavilla olevia toimintoja ja paikkatietoa kuvaava metatieto
-  language_code: fin
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: paikkatietopalveluja kuvaileva metatieto
+  definition:
+  - content: palvelimella saatavilla olevia toimintoja ja paikkatietoa kuvaava metatieto
   notes: []
   examples: []
+  language_code: fin
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19128:2005'
-    link: 'https://www.iso.org/standard/32546.html'
-  lineage_source: Maanmittauslaitos
-  date_accepted: '2005-12-01T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: paikkatietopalveluja kuvaileva metatieto
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19128:2005
+      link: https://www.iso.org/standard/32546.html
+  - type: lineage
+    origin:
+      ref: Maanmittauslaitos
+  dates:
+  - type: accepted
+    date: '2005-12-01T00:00:00.000Z'
   _revisions:
     current: 3b2e0f
     tree:
       3b2e0f:
         object:
           id: 408
-          definition: >-
-            palvelimella saatavilla olevia toimintoja ja paikkatietoa kuvaava
+          definition: palvelimella saatavilla olevia toimintoja ja paikkatietoa kuvaava
             metatieto
           language_code: fin
           notes: []
@@ -165,14 +184,14 @@ fin:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19128:2005'
-            link: 'https://www.iso.org/standard/32546.html'
+            ref: ISO 19128:2005
+            link: https://www.iso.org/standard/32546.html
           lineage_source: Maanmittauslaitos
           date_accepted: '2005-12-01T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: paikkatietopalveluja kuvaileva metatieto
-              normative_status: preferred
+          - type: expression
+            designation: paikkatietopalveluja kuvaileva metatieto
+            normative_status: preferred
         parents: []
         timeCreated: '2005-12-01T00:00:00.000Z'
         author:
@@ -180,44 +199,49 @@ fin:
           email: glossarist@ribose.com
 fra:
   id: 408
-  definition: >-
-    métadonnées décrivant les opérations et les informations géographiques
-    disponibles sur un serveur
-  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: métadonnées de service
+  definition:
+  - content: métadonnées décrivant les opérations et les informations géographiques
+      disponibles sur un serveur
   notes: []
   examples: []
+  language_code: fra
   entry_status: valid
-  authoritative_source:
-    ref: ISO 19128
-    link: 'https://www.iso.org/standard/32546.html'
-  lineage_source: ''
-  date_accepted: '2005-12-01T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: métadonnées de service
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19128
+      link: https://www.iso.org/standard/32546.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2005-12-01T00:00:00.000Z'
   _revisions:
     current: 6a19fa
     tree:
       6a19fa:
         object:
           id: 408
-          definition: >-
-            métadonnées décrivant les opérations et les informations
-            géographiques disponibles sur un serveur
+          definition: métadonnées décrivant les opérations et les informations géographiques
+            disponibles sur un serveur
           language_code: fra
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
             ref: ISO 19128
-            link: 'https://www.iso.org/standard/32546.html'
+            link: https://www.iso.org/standard/32546.html
           lineage_source: ''
           date_accepted: '2005-12-01T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: métadonnées de service
-              normative_status: preferred
+          - type: expression
+            designation: métadonnées de service
+            normative_status: preferred
         parents: []
         timeCreated: '2005-12-01T00:00:00.000Z'
         author:
@@ -225,46 +249,49 @@ fra:
           email: glossarist@ribose.com
 deu:
   id: 408
-  definition: >-
-    Metadaten, welche die auf einem Server verfügbaren Operationen und
-    geographischen Informationen beschreiben
-  language_code: deu
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Servicemetadaten
+  definition:
+  - content: Metadaten, welche die auf einem Server verfügbaren Operationen und geographischen
+      Informationen beschreiben
   notes: []
   examples: []
+  language_code: deu
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19128:2005'
-    link: 'https://www.iso.org/standard/32546.html'
-  date_accepted: '2005-12-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19128:2005
+      link: https://www.iso.org/standard/32546.html
+  dates:
+  - type: accepted
+    date: '2005-12-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: Servicemetadaten
-      normative_status: preferred
   _revisions:
     current: 0deb44
     tree:
       0deb44:
         object:
           id: 408
-          definition: >-
-            Metadaten, welche die auf einem Server verfügbaren Operationen und
-            geographischen Informationen beschreiben
+          definition: Metadaten, welche die auf einem Server verfügbaren Operationen
+            und geographischen Informationen beschreiben
           language_code: deu
           notes: []
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19128:2005'
-            link: 'https://www.iso.org/standard/32546.html'
+            ref: ISO 19128:2005
+            link: https://www.iso.org/standard/32546.html
           date_accepted: '2005-12-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: Servicemetadaten
-              normative_status: preferred
+          - type: expression
+            designation: Servicemetadaten
+            normative_status: preferred
         parents: []
         timeCreated: '2005-12-01T00:00:00.000Z'
         author:
@@ -272,22 +299,29 @@ deu:
           email: glossarist@ribose.com
 kor:
   id: 408
-  definition: 서버에서 활용할 수 있는 연산과 지리 정보를 기술하는 메타데이터
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 서비스 메타데이터
+  definition:
+  - content: 서버에서 활용할 수 있는 연산과 지리 정보를 기술하는 메타데이터
   notes: []
   examples: []
+  language_code: kor
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19128:2005'
-    link: 'https://www.iso.org/standard/32546.html'
-  lineage_source: KS X ISO 19128
-  date_accepted: '2009-12-29T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19128:2005
+      link: https://www.iso.org/standard/32546.html
+  - type: lineage
+    origin:
+      ref: KS X ISO 19128
+  dates:
+  - type: accepted
+    date: '2009-12-29T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: 서비스 메타데이터
-      normative_status: preferred
   _revisions:
     current: 9640ec
     tree:
@@ -301,15 +335,15 @@ kor:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19128:2005'
-            link: 'https://www.iso.org/standard/32546.html'
+            ref: ISO 19128:2005
+            link: https://www.iso.org/standard/32546.html
           lineage_source: KS X ISO 19128
           date_accepted: '2009-12-29T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: 서비스 메타데이터
-              normative_status: preferred
+          - type: expression
+            designation: 서비스 메타데이터
+            normative_status: preferred
         parents: []
         timeCreated: '2009-12-29T00:00:00.000Z'
         author:
@@ -317,42 +351,48 @@ kor:
           email: glossarist@ribose.com
 pol:
   id: 408
-  definition: metadane opisujące operacje i informację geograficzną dostępną na serwerze
-  language_code: pol
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: metadane usługi
+  definition:
+  - content: metadane opisujące operacje i informację geograficzną dostępną na serwerze
   notes: []
   examples: []
-  authoritative_source:
-    ref: 'ISO 19128:2005'
-    link: 'https://www.iso.org/standard/32546.html'
-  lineage_source: PN-EN-ISO 19128
-  date_accepted: '2005-12-01T00:00:00.000Z'
+  language_code: pol
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19128:2005
+      link: https://www.iso.org/standard/32546.html
+  - type: lineage
+    origin:
+      ref: PN-EN-ISO 19128
+  dates:
+  - type: accepted
+    date: '2005-12-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: metadane usługi
-      normative_status: preferred
   _revisions:
     current: d857dd
     tree:
       d857dd:
         object:
           id: 408
-          definition: >-
-            metadane opisujące operacje i informację geograficzną dostępną na
-            serwerze
+          definition: metadane opisujące operacje i informację geograficzną dostępną
+            na serwerze
           language_code: pol
           notes: []
           examples: []
           authoritative_source:
-            ref: 'ISO 19128:2005'
-            link: 'https://www.iso.org/standard/32546.html'
+            ref: ISO 19128:2005
+            link: https://www.iso.org/standard/32546.html
           lineage_source: PN-EN-ISO 19128
           date_accepted: '2005-12-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: metadane usługi
-              normative_status: preferred
+          - type: expression
+            designation: metadane usługi
+            normative_status: preferred
         parents: []
         timeCreated: '2005-12-01T00:00:00.000Z'
         author:
@@ -360,31 +400,36 @@ pol:
           email: glossarist@ribose.com
 rus:
   id: 408
-  definition: >-
-    метаданные, описывающие операции и географическую информацию, которые
-    доступны на сервере
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: метаданные сервиса
+  definition:
+  - content: метаданные, описывающие операции и географическую информацию, которые
+      доступны на сервере
   notes: []
   examples: []
+  language_code: rus
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19128:2005'
-    link: 'https://www.iso.org/standard/32546.html'
-  lineage_source: Internet
-  date_accepted: '2005-12-01T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: метаданные сервиса
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19128:2005
+      link: https://www.iso.org/standard/32546.html
+  - type: lineage
+    origin:
+      ref: Internet
+  dates:
+  - type: accepted
+    date: '2005-12-01T00:00:00.000Z'
   _revisions:
     current: 6b9ce3
     tree:
       6b9ce3:
         object:
           id: 408
-          definition: >-
-            метаданные, описывающие операции и географическую информацию,
+          definition: метаданные, описывающие операции и географическую информацию,
             которые доступны на сервере
           language_code: rus
           notes: []
@@ -392,14 +437,14 @@ rus:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19128:2005'
-            link: 'https://www.iso.org/standard/32546.html'
+            ref: ISO 19128:2005
+            link: https://www.iso.org/standard/32546.html
           lineage_source: Internet
           date_accepted: '2005-12-01T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: метаданные сервиса
-              normative_status: preferred
+          - type: expression
+            designation: метаданные сервиса
+            normative_status: preferred
         parents: []
         timeCreated: '2005-12-01T00:00:00.000Z'
         author:
@@ -407,31 +452,34 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 408
-  definition: >-
-    metadatos que describen las operaciones y la información geográfica
-    disponible en un servidor
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: metadatos de servicio
+  definition:
+  - content: metadatos que describen las operaciones y la información geográfica disponible
+      en un servidor
   notes: []
   examples: []
+  language_code: spa
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19128:2005'
-    link: 'https://www.iso.org/standard/32546.html'
-  date_accepted: '2005-12-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19128:2005
+      link: https://www.iso.org/standard/32546.html
+  dates:
+  - type: accepted
+    date: '2005-12-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: metadatos de servicio
-      normative_status: preferred
   _revisions:
     current: cd9a4d
     tree:
       cd9a4d:
         object:
           id: 408
-          definition: >-
-            metadatos que describen las operaciones y la información geográfica
+          definition: metadatos que describen las operaciones y la información geográfica
             disponible en un servidor
           language_code: spa
           notes: []
@@ -439,14 +487,14 @@ spa:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19128:2005'
-            link: 'https://www.iso.org/standard/32546.html'
+            ref: ISO 19128:2005
+            link: https://www.iso.org/standard/32546.html
           date_accepted: '2005-12-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: metadatos de servicio
-              normative_status: preferred
+          - type: expression
+            designation: metadatos de servicio
+            normative_status: preferred
         parents: []
         timeCreated: '2005-12-01T00:00:00.000Z'
         author:
@@ -454,33 +502,38 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 408
-  definition: >-
-    metadata som beskriver de operationer och den geodata som är tillgänglig via
-    en server
-  country_code: swe
-  language_code: swe
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: metadata för tjänster
+  definition:
+  - content: metadata som beskriver de operationer och den geodata som är tillgänglig
+      via en server
   notes: []
   examples: []
+  country_code: swe
+  language_code: swe
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19128:2005'
-    link: 'https://www.iso.org/standard/32546.html'
-  lineage_source: (Type reference to national language document)
-  date_accepted: '2005-12-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19128:2005
+      link: https://www.iso.org/standard/32546.html
+  - type: lineage
+    origin:
+      ref: "(Type reference to national language document)"
+  dates:
+  - type: accepted
+    date: '2005-12-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: metadata för tjänster
-      normative_status: preferred
   _revisions:
     current: bc34bb
     tree:
       bc34bb:
         object:
           id: 408
-          definition: >-
-            metadata som beskriver de operationer och den geodata som är
+          definition: metadata som beskriver de operationer och den geodata som är
             tillgänglig via en server
           country_code: swe
           language_code: swe
@@ -489,15 +542,15 @@ swe:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19128:2005'
-            link: 'https://www.iso.org/standard/32546.html'
-          lineage_source: (Type reference to national language document)
+            ref: ISO 19128:2005
+            link: https://www.iso.org/standard/32546.html
+          lineage_source: "(Type reference to national language document)"
           date_accepted: '2005-12-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: metadata för tjänster
-              normative_status: preferred
+          - type: expression
+            designation: metadata för tjänster
+            normative_status: preferred
         parents: []
         timeCreated: '2005-12-01T00:00:00.000Z'
         author:

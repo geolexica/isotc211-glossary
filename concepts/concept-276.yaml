@@ -1,31 +1,38 @@
-term: location
+---
 termid: 276
+term: location
 eng:
   id: 276
-  definition: identifiable geographic place
-  language_code: eng
+  terms:
+  - type: expression
+    designation: location
+  definition:
+  - content: identifiable geographic place
   notes: []
   examples:
-    - '''Eiffel Tower'', ''Madrid'', ''California'''
+  - content: "'Eiffel Tower', 'Madrid', 'California'"
+  language_code: eng
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19112:2003'
-    link: 'https://www.iso.org/standard/26017.html'
-  date_accepted: '2003-10-15T00:00:00.000Z'
-  date_amended: '2019-02-14T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19112:2003
+      link: https://www.iso.org/standard/26017.html
+  dates:
+  - type: accepted
+    date: '2003-10-15T00:00:00.000Z'
+  - type: amended
+    date: '2019-02-14T00:00:00.000Z'
   review_date: '2019-02-14T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2019-02-14T00:00:00.000Z'
-  review_decision_event: 'Publication of document ISO 19112:2019(E)'
-  review_decision_notes: 'This entry is superseded by the entry for location in ISO 19112:2019(E)'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: location
-      normative_status: null
+  review_decision_event: Publication of document ISO 19112:2019(E)
+  review_decision_notes: This entry is superseded by the entry for location in ISO
+    19112:2019(E)
+  release: "-1"
   _revisions:
     current: e76b86
     tree:
@@ -36,12 +43,12 @@ eng:
           language_code: eng
           notes: []
           examples:
-            - '''Eiffel Tower'', ''Madrid'', ''California'''
+          - "'Eiffel Tower', 'Madrid', 'California'"
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19112:2003'
-            link: 'https://www.iso.org/standard/26017.html'
+            ref: ISO 19112:2003
+            link: https://www.iso.org/standard/26017.html
           date_accepted: '2003-10-15T00:00:00.000Z'
           date_amended: '2019-02-14T00:00:00.000Z'
           review_date: '2019-02-14T00:00:00.000Z'
@@ -49,15 +56,14 @@ eng:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2019-02-14T00:00:00.000Z'
-          review_decision_event: 'Publication of document ISO 19112:2019(E)'
-          review_decision_notes: >-
-            This entry is superseded by the entry for location in ISO
-            19112:2019(E)
-          release: '-1'
+          review_decision_event: Publication of document ISO 19112:2019(E)
+          review_decision_notes: This entry is superseded by the entry for location
+            in ISO 19112:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: location
-              normative_status: null
+          - type: expression
+            designation: location
+            normative_status:
         parents: []
         timeCreated: '2003-10-15T00:00:00.000Z'
         author:
@@ -65,30 +71,36 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 276
-  definition: مكان جغرافي يمكن التعرف عليه
-  language_code: ara
+  terms:
+  - type: expression
+    designation: موقع
+  definition:
+  - content: مكان جغرافي يمكن التعرف عليه
   notes: []
   examples:
-    - '"برج إيفيل" , "مدريد" , "كاليفورنيا".'
+  - content: '"برج إيفيل" , "مدريد" , "كاليفورنيا".'
+  language_code: ara
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19112:2003'
-    link: 'https://www.iso.org/standard/26017.html'
-  date_accepted: '2003-10-15T00:00:00.000Z'
-  date_amended: '2019-02-14T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19112:2003
+      link: https://www.iso.org/standard/26017.html
+  dates:
+  - type: accepted
+    date: '2003-10-15T00:00:00.000Z'
+  - type: amended
+    date: '2019-02-14T00:00:00.000Z'
   review_date: '2019-02-14T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2019-02-14T00:00:00.000Z'
-  review_decision_event: 'Publication of document ISO 19112:2019(E)'
-  review_decision_notes: 'This entry is superseded by the entry for location in ISO 19112:2019(E)'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: موقع
-      normative_status: null
+  review_decision_event: Publication of document ISO 19112:2019(E)
+  review_decision_notes: This entry is superseded by the entry for location in ISO
+    19112:2019(E)
+  release: "-1"
   _revisions:
     current: 38cbf9
     tree:
@@ -99,12 +111,12 @@ ara:
           language_code: ara
           notes: []
           examples:
-            - '"برج إيفيل" , "مدريد" , "كاليفورنيا".'
+          - '"برج إيفيل" , "مدريد" , "كاليفورنيا".'
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19112:2003'
-            link: 'https://www.iso.org/standard/26017.html'
+            ref: ISO 19112:2003
+            link: https://www.iso.org/standard/26017.html
           date_accepted: '2003-10-15T00:00:00.000Z'
           date_amended: '2019-02-14T00:00:00.000Z'
           review_date: '2019-02-14T00:00:00.000Z'
@@ -112,15 +124,14 @@ ara:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2019-02-14T00:00:00.000Z'
-          review_decision_event: 'Publication of document ISO 19112:2019(E)'
-          review_decision_notes: >-
-            This entry is superseded by the entry for location in ISO
-            19112:2019(E)
-          release: '-1'
+          review_decision_event: Publication of document ISO 19112:2019(E)
+          review_decision_notes: This entry is superseded by the entry for location
+            in ISO 19112:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: موقع
-              normative_status: null
+          - type: expression
+            designation: موقع
+            normative_status:
         parents: []
         timeCreated: '2003-10-15T00:00:00.000Z'
         author:
@@ -128,30 +139,36 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 276
-  definition: 地理上可识别的地方。
-  language_code: zho
+  terms:
+  - type: expression
+    designation: 地点
+  definition:
+  - content: 地理上可识别的地方。
   notes: []
   examples:
-    - “埃菲尔铁塔”、“马德里”、“加利福尼亚”。
+  - content: "“埃菲尔铁塔”、“马德里”、“加利福尼亚”。"
+  language_code: zho
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19112:2003'
-    link: 'https://www.iso.org/standard/26017.html'
-  date_accepted: '2003-10-15T00:00:00.000Z'
-  date_amended: '2019-02-14T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19112:2003
+      link: https://www.iso.org/standard/26017.html
+  dates:
+  - type: accepted
+    date: '2003-10-15T00:00:00.000Z'
+  - type: amended
+    date: '2019-02-14T00:00:00.000Z'
   review_date: '2019-02-14T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2019-02-14T00:00:00.000Z'
-  review_decision_event: 'Publication of document ISO 19112:2019(E)'
-  review_decision_notes: 'This entry is superseded by the entry for location in ISO 19112:2019(E)'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: 地点
-      normative_status: null
+  review_decision_event: Publication of document ISO 19112:2019(E)
+  review_decision_notes: This entry is superseded by the entry for location in ISO
+    19112:2019(E)
+  release: "-1"
   _revisions:
     current: b4ecca
     tree:
@@ -162,12 +179,12 @@ zho:
           language_code: zho
           notes: []
           examples:
-            - “埃菲尔铁塔”、“马德里”、“加利福尼亚”。
+          - "“埃菲尔铁塔”、“马德里”、“加利福尼亚”。"
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19112:2003'
-            link: 'https://www.iso.org/standard/26017.html'
+            ref: ISO 19112:2003
+            link: https://www.iso.org/standard/26017.html
           date_accepted: '2003-10-15T00:00:00.000Z'
           date_amended: '2019-02-14T00:00:00.000Z'
           review_date: '2019-02-14T00:00:00.000Z'
@@ -175,15 +192,14 @@ zho:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2019-02-14T00:00:00.000Z'
-          review_decision_event: 'Publication of document ISO 19112:2019(E)'
-          review_decision_notes: >-
-            This entry is superseded by the entry for location in ISO
-            19112:2019(E)
-          release: '-1'
+          review_decision_event: Publication of document ISO 19112:2019(E)
+          review_decision_notes: This entry is superseded by the entry for location
+            in ISO 19112:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: 地点
-              normative_status: null
+          - type: expression
+            designation: 地点
+            normative_status:
         parents: []
         timeCreated: '2003-10-15T00:00:00.000Z'
         author:
@@ -191,46 +207,52 @@ zho:
           email: glossarist@ribose.com
 fin:
   id: 276
-  definition: 'paikka, jossa jokin sijaitsee'
-  language_code: fin
+  terms:
+  - type: expression
+    designation: sijainti
+  definition:
+  - content: paikka, jossa jokin sijaitsee
   notes: []
   examples:
-    - 'Eiffel-torni, Madrid, Kalifornia.'
+  - content: Eiffel-torni, Madrid, Kalifornia.
+  language_code: fin
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19112:2003'
-    link: 'https://www.iso.org/standard/26017.html'
-  date_accepted: '2003-10-15T00:00:00.000Z'
-  date_amended: '2019-02-14T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19112:2003
+      link: https://www.iso.org/standard/26017.html
+  dates:
+  - type: accepted
+    date: '2003-10-15T00:00:00.000Z'
+  - type: amended
+    date: '2019-02-14T00:00:00.000Z'
   review_date: '2019-02-14T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2019-02-14T00:00:00.000Z'
-  review_decision_event: 'Publication of document ISO 19112:2019(E)'
-  review_decision_notes: 'This entry is superseded by the entry for location in ISO 19112:2019(E)'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: sijainti
-      normative_status: null
+  review_decision_event: Publication of document ISO 19112:2019(E)
+  review_decision_notes: This entry is superseded by the entry for location in ISO
+    19112:2019(E)
+  release: "-1"
   _revisions:
-    current: 0299bc
+    current: '0299bc'
     tree:
-      0299bc:
+      '0299bc':
         object:
           id: 276
-          definition: 'paikka, jossa jokin sijaitsee'
+          definition: paikka, jossa jokin sijaitsee
           language_code: fin
           notes: []
           examples:
-            - 'Eiffel-torni, Madrid, Kalifornia.'
+          - Eiffel-torni, Madrid, Kalifornia.
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19112:2003'
-            link: 'https://www.iso.org/standard/26017.html'
+            ref: ISO 19112:2003
+            link: https://www.iso.org/standard/26017.html
           date_accepted: '2003-10-15T00:00:00.000Z'
           date_amended: '2019-02-14T00:00:00.000Z'
           review_date: '2019-02-14T00:00:00.000Z'
@@ -238,15 +260,14 @@ fin:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2019-02-14T00:00:00.000Z'
-          review_decision_event: 'Publication of document ISO 19112:2019(E)'
-          review_decision_notes: >-
-            This entry is superseded by the entry for location in ISO
-            19112:2019(E)
-          release: '-1'
+          review_decision_event: Publication of document ISO 19112:2019(E)
+          review_decision_notes: This entry is superseded by the entry for location
+            in ISO 19112:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: sijainti
-              normative_status: null
+          - type: expression
+            designation: sijainti
+            normative_status:
         parents: []
         timeCreated: '2003-10-15T00:00:00.000Z'
         author:
@@ -254,29 +275,35 @@ fin:
           email: glossarist@ribose.com
 fra:
   id: 276
-  definition: lieu géographique identifiable
-  language_code: fra
+  terms:
+  - type: expression
+    designation: localisation
+  definition:
+  - content: lieu géographique identifiable
   notes: []
   examples: []
+  language_code: fra
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19112:2003'
-    link: 'https://www.iso.org/standard/26017.html'
-  date_accepted: '2003-10-15T00:00:00.000Z'
-  date_amended: '2019-02-14T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19112:2003
+      link: https://www.iso.org/standard/26017.html
+  dates:
+  - type: accepted
+    date: '2003-10-15T00:00:00.000Z'
+  - type: amended
+    date: '2019-02-14T00:00:00.000Z'
   review_date: '2019-02-14T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2019-02-14T00:00:00.000Z'
-  review_decision_event: 'Publication of document ISO 19112:2019(E)'
-  review_decision_notes: 'This entry is superseded by the entry for location in ISO 19112:2019(E)'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: localisation
-      normative_status: null
+  review_decision_event: Publication of document ISO 19112:2019(E)
+  review_decision_notes: This entry is superseded by the entry for location in ISO
+    19112:2019(E)
+  release: "-1"
   _revisions:
     current: 9bfcad
     tree:
@@ -290,8 +317,8 @@ fra:
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19112:2003'
-            link: 'https://www.iso.org/standard/26017.html'
+            ref: ISO 19112:2003
+            link: https://www.iso.org/standard/26017.html
           date_accepted: '2003-10-15T00:00:00.000Z'
           date_amended: '2019-02-14T00:00:00.000Z'
           review_date: '2019-02-14T00:00:00.000Z'
@@ -299,15 +326,14 @@ fra:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2019-02-14T00:00:00.000Z'
-          review_decision_event: 'Publication of document ISO 19112:2019(E)'
-          review_decision_notes: >-
-            This entry is superseded by the entry for location in ISO
-            19112:2019(E)
-          release: '-1'
+          review_decision_event: Publication of document ISO 19112:2019(E)
+          review_decision_notes: This entry is superseded by the entry for location
+            in ISO 19112:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: localisation
-              normative_status: null
+          - type: expression
+            designation: localisation
+            normative_status:
         parents: []
         timeCreated: '2003-10-15T00:00:00.000Z'
         author:
@@ -315,30 +341,36 @@ fra:
           email: glossarist@ribose.com
 deu:
   id: 276
-  definition: identifizierbare geographische Stelle
-  language_code: deu
+  terms:
+  - type: expression
+    designation: Ort
+  definition:
+  - content: identifizierbare geographische Stelle
   notes: []
   examples:
-    - '''Eiffel Tower'', ''Madrid'', ''California'''
+  - content: "'Eiffel Tower', 'Madrid', 'California'"
+  language_code: deu
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19112:2003'
-    link: 'https://www.iso.org/standard/26017.html'
-  date_accepted: '2003-10-15T00:00:00.000Z'
-  date_amended: '2019-02-14T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19112:2003
+      link: https://www.iso.org/standard/26017.html
+  dates:
+  - type: accepted
+    date: '2003-10-15T00:00:00.000Z'
+  - type: amended
+    date: '2019-02-14T00:00:00.000Z'
   review_date: '2019-02-14T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2019-02-14T00:00:00.000Z'
-  review_decision_event: 'Publication of document ISO 19112:2019(E)'
-  review_decision_notes: 'This entry is superseded by the entry for location in ISO 19112:2019(E)'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: Ort
-      normative_status: null
+  review_decision_event: Publication of document ISO 19112:2019(E)
+  review_decision_notes: This entry is superseded by the entry for location in ISO
+    19112:2019(E)
+  release: "-1"
   _revisions:
     current: a800a8
     tree:
@@ -349,12 +381,12 @@ deu:
           language_code: deu
           notes: []
           examples:
-            - '''Eiffel Tower'', ''Madrid'', ''California'''
+          - "'Eiffel Tower', 'Madrid', 'California'"
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19112:2003'
-            link: 'https://www.iso.org/standard/26017.html'
+            ref: ISO 19112:2003
+            link: https://www.iso.org/standard/26017.html
           date_accepted: '2003-10-15T00:00:00.000Z'
           date_amended: '2019-02-14T00:00:00.000Z'
           review_date: '2019-02-14T00:00:00.000Z'
@@ -362,15 +394,14 @@ deu:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2019-02-14T00:00:00.000Z'
-          review_decision_event: 'Publication of document ISO 19112:2019(E)'
-          review_decision_notes: >-
-            This entry is superseded by the entry for location in ISO
-            19112:2019(E)
-          release: '-1'
+          review_decision_event: Publication of document ISO 19112:2019(E)
+          review_decision_notes: This entry is superseded by the entry for location
+            in ISO 19112:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: Ort
-              normative_status: null
+          - type: expression
+            designation: Ort
+            normative_status:
         parents: []
         timeCreated: '2003-10-15T00:00:00.000Z'
         author:
@@ -378,30 +409,36 @@ deu:
           email: glossarist@ribose.com
 jpn:
   id: 276
-  definition: 識別可能な地理的場所。
-  language_code: jpn
+  terms:
+  - type: expression
+    designation: 場所
+  definition:
+  - content: 識別可能な地理的場所。
   notes: []
   examples:
-    - “東京タワー”，“京都市”，“北海道”。
+  - content: "“東京タワー”，“京都市”，“北海道”。"
+  language_code: jpn
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19112:2003'
-    link: 'https://www.iso.org/standard/26017.html'
-  date_accepted: '2003-10-15T00:00:00.000Z'
-  date_amended: '2019-02-14T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19112:2003
+      link: https://www.iso.org/standard/26017.html
+  dates:
+  - type: accepted
+    date: '2003-10-15T00:00:00.000Z'
+  - type: amended
+    date: '2019-02-14T00:00:00.000Z'
   review_date: '2019-02-14T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2019-02-14T00:00:00.000Z'
-  review_decision_event: 'Publication of document ISO 19112:2019(E)'
-  review_decision_notes: 'This entry is superseded by the entry for location in ISO 19112:2019(E)'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: 場所
-      normative_status: null
+  review_decision_event: Publication of document ISO 19112:2019(E)
+  review_decision_notes: This entry is superseded by the entry for location in ISO
+    19112:2019(E)
+  release: "-1"
   _revisions:
     current: 7a9426
     tree:
@@ -412,12 +449,12 @@ jpn:
           language_code: jpn
           notes: []
           examples:
-            - “東京タワー”，“京都市”，“北海道”。
+          - "“東京タワー”，“京都市”，“北海道”。"
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19112:2003'
-            link: 'https://www.iso.org/standard/26017.html'
+            ref: ISO 19112:2003
+            link: https://www.iso.org/standard/26017.html
           date_accepted: '2003-10-15T00:00:00.000Z'
           date_amended: '2019-02-14T00:00:00.000Z'
           review_date: '2019-02-14T00:00:00.000Z'
@@ -425,15 +462,14 @@ jpn:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2019-02-14T00:00:00.000Z'
-          review_decision_event: 'Publication of document ISO 19112:2019(E)'
-          review_decision_notes: >-
-            This entry is superseded by the entry for location in ISO
-            19112:2019(E)
-          release: '-1'
+          review_decision_event: Publication of document ISO 19112:2019(E)
+          review_decision_notes: This entry is superseded by the entry for location
+            in ISO 19112:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: 場所
-              normative_status: null
+          - type: expression
+            designation: 場所
+            normative_status:
         parents: []
         timeCreated: '2003-10-15T00:00:00.000Z'
         author:
@@ -441,30 +477,36 @@ jpn:
           email: glossarist@ribose.com
 kor:
   id: 276
-  definition: 식별 가능한 지리적 장소
-  language_code: kor
+  terms:
+  - type: expression
+    designation: 위치
+  definition:
+  - content: 식별 가능한 지리적 장소
   notes: []
   examples:
-    - '"에펠 타워", "마드리드", "캘리포니아"'
+  - content: '"에펠 타워", "마드리드", "캘리포니아"'
+  language_code: kor
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19112:2003'
-    link: 'https://www.iso.org/standard/26017.html'
-  date_accepted: '2003-10-15T00:00:00.000Z'
-  date_amended: '2019-02-14T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19112:2003
+      link: https://www.iso.org/standard/26017.html
+  dates:
+  - type: accepted
+    date: '2003-10-15T00:00:00.000Z'
+  - type: amended
+    date: '2019-02-14T00:00:00.000Z'
   review_date: '2019-02-14T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2019-02-14T00:00:00.000Z'
-  review_decision_event: 'Publication of document ISO 19112:2019(E)'
-  review_decision_notes: 'This entry is superseded by the entry for location in ISO 19112:2019(E)'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: 위치
-      normative_status: null
+  review_decision_event: Publication of document ISO 19112:2019(E)
+  review_decision_notes: This entry is superseded by the entry for location in ISO
+    19112:2019(E)
+  release: "-1"
   _revisions:
     current: '160369'
     tree:
@@ -475,12 +517,12 @@ kor:
           language_code: kor
           notes: []
           examples:
-            - '"에펠 타워", "마드리드", "캘리포니아"'
+          - '"에펠 타워", "마드리드", "캘리포니아"'
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19112:2003'
-            link: 'https://www.iso.org/standard/26017.html'
+            ref: ISO 19112:2003
+            link: https://www.iso.org/standard/26017.html
           date_accepted: '2003-10-15T00:00:00.000Z'
           date_amended: '2019-02-14T00:00:00.000Z'
           review_date: '2019-02-14T00:00:00.000Z'
@@ -488,15 +530,14 @@ kor:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2019-02-14T00:00:00.000Z'
-          review_decision_event: 'Publication of document ISO 19112:2019(E)'
-          review_decision_notes: >-
-            This entry is superseded by the entry for location in ISO
-            19112:2019(E)
-          release: '-1'
+          review_decision_event: Publication of document ISO 19112:2019(E)
+          review_decision_notes: This entry is superseded by the entry for location
+            in ISO 19112:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: 위치
-              normative_status: null
+          - type: expression
+            designation: 위치
+            normative_status:
         parents: []
         timeCreated: '2003-10-15T00:00:00.000Z'
         author:
@@ -504,36 +545,40 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 276
-  definition: опознаваемое географическое место
-  language_code: rus
+  terms:
+  - type: expression
+    designation: местоположение
+  definition:
+  - content: опознаваемое географическое место
   notes:
-    - >-
-      Местоположение представляется одним из множества типов данных, описывающих
-      положение, а также метаданными  об этих данных, в том числе – о
-      координатах (из раздела «опорная система координат»), измерении (из
-      раздела «система линейной привязки») или адресах (из «адресной
-      системы»).[ISO 19133]
+  - content: Местоположение представляется одним из множества типов данных, описывающих
+      положение, а также метаданными  об этих данных, в том числе – о координатах
+      (из раздела «опорная система координат»), измерении (из раздела «система линейной
+      привязки») или адресах (из «адресной системы»).[ISO 19133]
   examples:
-    - '"Эйфелева башня", "Мадрид", "Калифорния"'
+  - content: '"Эйфелева башня", "Мадрид", "Калифорния"'
+  language_code: rus
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19112:2003'
-    link: 'https://www.iso.org/standard/26017.html'
-  date_accepted: '2003-10-15T00:00:00.000Z'
-  date_amended: '2019-02-14T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19112:2003
+      link: https://www.iso.org/standard/26017.html
+  dates:
+  - type: accepted
+    date: '2003-10-15T00:00:00.000Z'
+  - type: amended
+    date: '2019-02-14T00:00:00.000Z'
   review_date: '2019-02-14T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2019-02-14T00:00:00.000Z'
-  review_decision_event: 'Publication of document ISO 19112:2019(E)'
-  review_decision_notes: 'This entry is superseded by the entry for location in ISO 19112:2019(E)'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: местоположение
-      normative_status: null
+  review_decision_event: Publication of document ISO 19112:2019(E)
+  review_decision_notes: This entry is superseded by the entry for location in ISO
+    19112:2019(E)
+  release: "-1"
   _revisions:
     current: '995761'
     tree:
@@ -543,19 +588,17 @@ rus:
           definition: опознаваемое географическое место
           language_code: rus
           notes:
-            - >-
-              Местоположение представляется одним из множества типов данных,
-              описывающих положение, а также метаданными  об этих данных, в том
-              числе – о координатах (из раздела «опорная система координат»),
-              измерении (из раздела «система линейной привязки») или адресах (из
-              «адресной системы»).[ISO 19133]
+          - Местоположение представляется одним из множества типов данных, описывающих
+            положение, а также метаданными  об этих данных, в том числе – о координатах
+            (из раздела «опорная система координат»), измерении (из раздела «система
+            линейной привязки») или адресах (из «адресной системы»).[ISO 19133]
           examples:
-            - '"Эйфелева башня", "Мадрид", "Калифорния"'
+          - '"Эйфелева башня", "Мадрид", "Калифорния"'
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19112:2003'
-            link: 'https://www.iso.org/standard/26017.html'
+            ref: ISO 19112:2003
+            link: https://www.iso.org/standard/26017.html
           date_accepted: '2003-10-15T00:00:00.000Z'
           date_amended: '2019-02-14T00:00:00.000Z'
           review_date: '2019-02-14T00:00:00.000Z'
@@ -563,15 +606,14 @@ rus:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2019-02-14T00:00:00.000Z'
-          review_decision_event: 'Publication of document ISO 19112:2019(E)'
-          review_decision_notes: >-
-            This entry is superseded by the entry for location in ISO
-            19112:2019(E)
-          release: '-1'
+          review_decision_event: Publication of document ISO 19112:2019(E)
+          review_decision_notes: This entry is superseded by the entry for location
+            in ISO 19112:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: местоположение
-              normative_status: null
+          - type: expression
+            designation: местоположение
+            normative_status:
         parents: []
         timeCreated: '2003-10-15T00:00:00.000Z'
         author:
@@ -579,30 +621,36 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 276
-  definition: lugar geográfico identificable
-  language_code: spa
+  terms:
+  - type: expression
+    designation: localización
+  definition:
+  - content: lugar geográfico identificable
   notes: []
   examples:
-    - '"La Torre Eiffel", "Madrid", "California".'
+  - content: '"La Torre Eiffel", "Madrid", "California".'
+  language_code: spa
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19112:2003'
-    link: 'https://www.iso.org/standard/26017.html'
-  date_accepted: '2003-10-15T00:00:00.000Z'
-  date_amended: '2019-02-14T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19112:2003
+      link: https://www.iso.org/standard/26017.html
+  dates:
+  - type: accepted
+    date: '2003-10-15T00:00:00.000Z'
+  - type: amended
+    date: '2019-02-14T00:00:00.000Z'
   review_date: '2019-02-14T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2019-02-14T00:00:00.000Z'
-  review_decision_event: 'Publication of document ISO 19112:2019(E)'
-  review_decision_notes: 'This entry is superseded by the entry for location in ISO 19112:2019(E)'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: localización
-      normative_status: null
+  review_decision_event: Publication of document ISO 19112:2019(E)
+  review_decision_notes: This entry is superseded by the entry for location in ISO
+    19112:2019(E)
+  release: "-1"
   _revisions:
     current: '449983'
     tree:
@@ -613,12 +661,12 @@ spa:
           language_code: spa
           notes: []
           examples:
-            - '"La Torre Eiffel", "Madrid", "California".'
+          - '"La Torre Eiffel", "Madrid", "California".'
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19112:2003'
-            link: 'https://www.iso.org/standard/26017.html'
+            ref: ISO 19112:2003
+            link: https://www.iso.org/standard/26017.html
           date_accepted: '2003-10-15T00:00:00.000Z'
           date_amended: '2019-02-14T00:00:00.000Z'
           review_date: '2019-02-14T00:00:00.000Z'
@@ -626,15 +674,14 @@ spa:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2019-02-14T00:00:00.000Z'
-          review_decision_event: 'Publication of document ISO 19112:2019(E)'
-          review_decision_notes: >-
-            This entry is superseded by the entry for location in ISO
-            19112:2019(E)
-          release: '-1'
+          review_decision_event: Publication of document ISO 19112:2019(E)
+          review_decision_notes: This entry is superseded by the entry for location
+            in ISO 19112:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: localización
-              normative_status: null
+          - type: expression
+            designation: localización
+            normative_status:
         parents: []
         timeCreated: '2003-10-15T00:00:00.000Z'
         author:
@@ -642,31 +689,37 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 276
-  definition: identifierbar plats
-  country_code: swe
-  language_code: swe
+  terms:
+  - type: expression
+    designation: läge
+  definition:
+  - content: identifierbar plats
   notes: []
   examples:
-    - '''Eiffel Tower'', ''Madrid'', ''California'''
+  - content: "'Eiffel Tower', 'Madrid', 'California'"
+  country_code: swe
+  language_code: swe
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19112:2003'
-    link: 'https://www.iso.org/standard/26017.html'
-  date_accepted: '2003-10-15T00:00:00.000Z'
-  date_amended: '2019-02-14T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19112:2003
+      link: https://www.iso.org/standard/26017.html
+  dates:
+  - type: accepted
+    date: '2003-10-15T00:00:00.000Z'
+  - type: amended
+    date: '2019-02-14T00:00:00.000Z'
   review_date: '2019-02-14T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2019-02-14T00:00:00.000Z'
-  review_decision_event: 'Publication of document ISO 19112:2019(E)'
-  review_decision_notes: 'This entry is superseded by the entry for location in ISO 19112:2019(E)'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: läge
-      normative_status: null
+  review_decision_event: Publication of document ISO 19112:2019(E)
+  review_decision_notes: This entry is superseded by the entry for location in ISO
+    19112:2019(E)
+  release: "-1"
   _revisions:
     current: bd71e6
     tree:
@@ -678,12 +731,12 @@ swe:
           language_code: swe
           notes: []
           examples:
-            - '''Eiffel Tower'', ''Madrid'', ''California'''
+          - "'Eiffel Tower', 'Madrid', 'California'"
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19112:2003'
-            link: 'https://www.iso.org/standard/26017.html'
+            ref: ISO 19112:2003
+            link: https://www.iso.org/standard/26017.html
           date_accepted: '2003-10-15T00:00:00.000Z'
           date_amended: '2019-02-14T00:00:00.000Z'
           review_date: '2019-02-14T00:00:00.000Z'
@@ -691,15 +744,14 @@ swe:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2019-02-14T00:00:00.000Z'
-          review_decision_event: 'Publication of document ISO 19112:2019(E)'
-          review_decision_notes: >-
-            This entry is superseded by the entry for location in ISO
-            19112:2019(E)
-          release: '-1'
+          review_decision_event: Publication of document ISO 19112:2019(E)
+          review_decision_notes: This entry is superseded by the entry for location
+            in ISO 19112:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: läge
-              normative_status: null
+          - type: expression
+            designation: läge
+            normative_status:
         parents: []
         timeCreated: '2003-10-15T00:00:00.000Z'
         author:

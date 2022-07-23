@@ -1,34 +1,41 @@
-term: range direction <SAR>
+---
 termid: 1009
+term: range direction <SAR>
 eng:
   id: 1009
-  definition: direction of the range vector
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: range direction <SAR>
+  - type: expression
+    designation: slant range direction <SAR>
+  definition:
+  - content: direction of the range vector
   notes: []
   examples: []
+  language_code: eng
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19130-1:2018'
-    clause: '(E), 3.70'
-    link: 'https://www.iso.org/standard/66847.html'
-  lineage_source: 'ISO/TS 19130:2010(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19130-1:2018
+      clause: "(E), 3.70"
+      link: https://www.iso.org/standard/66847.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19130:2010(E)
   lineage_source_similarity: '1'
-  date_accepted: '2010-06-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2010-06-15T00:00:00.000Z'
   review_date: '2018-09-01T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2018-09-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/TS 19130:2010 to ISO
-    19130-1:2018(E), 3.70. Lineage source added as ISO/TS 19130:2010(E)
+  review_decision_event: Publication of ISO 19130-1:2018(E)
+  review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010 to
+    ISO 19130-1:2018(E), 3.70. Lineage source added as ISO/TS 19130:2010(E)
   release: '2'
-  terms:
-    - type: expression
-      designation: range direction <SAR>
-      normative_status: preferred
-    - designation: slant range direction <SAR>
-      type: expression
   _revisions:
     current: '367839'
     tree:
@@ -41,27 +48,26 @@ eng:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19130-1:2018'
-            clause: '(E), 3.70'
-            link: 'https://www.iso.org/standard/66847.html'
-          lineage_source: 'ISO/TS 19130:2010(E)'
+            ref: ISO 19130-1:2018
+            clause: "(E), 3.70"
+            link: https://www.iso.org/standard/66847.html
+          lineage_source: ISO/TS 19130:2010(E)
           lineage_source_similarity: '1'
           date_accepted: '2010-06-15T00:00:00.000Z'
           review_date: '2018-09-01T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2018-09-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/TS 19130:2010 to ISO
-            19130-1:2018(E), 3.70. Lineage source added as ISO/TS 19130:2010(E)
+          review_decision_event: Publication of ISO 19130-1:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010
+            to ISO 19130-1:2018(E), 3.70. Lineage source added as ISO/TS 19130:2010(E)
           release: '2'
           terms:
-            - type: expression
-              designation: range direction <SAR>
-              normative_status: preferred
-            - designation: slant range direction <SAR>
-              type: expression
+          - type: expression
+            designation: range direction <SAR>
+            normative_status: preferred
+          - designation: slant range direction <SAR>
+            type: expression
         parents: []
         timeCreated: '2010-06-15T00:00:00.000Z'
         author:
@@ -69,37 +75,43 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 1009
-  definition: اتجاه متجه المدى
-  language_code: ara
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: إتجاه المدى < تقنية رادار الرصد المركب"سار">
+  - type: expression
+    designation: slant range direction <SAR>
+  definition:
+  - content: اتجاه متجه المدى
   notes: []
   examples: []
+  language_code: ara
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19130-1:2018'
-    clause: '(E), 3.70'
-    link: 'https://www.iso.org/standard/66847.html'
-  lineage_source: 'ISO/TS 19130:2010(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19130-1:2018
+      clause: "(E), 3.70"
+      link: https://www.iso.org/standard/66847.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19130:2010(E)
   lineage_source_similarity: '1'
-  date_accepted: '2010-06-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2010-06-15T00:00:00.000Z'
   review_date: '2018-09-01T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2018-09-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/TS 19130:2010 to ISO
-    19130-1:2018(E), 3.70. Lineage source added as ISO/TS 19130:2010(E)
+  review_decision_event: Publication of ISO 19130-1:2018(E)
+  review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010 to
+    ISO 19130-1:2018(E), 3.70. Lineage source added as ISO/TS 19130:2010(E)
   release: '2'
-  terms:
-    - type: expression
-      designation: إتجاه المدى < تقنية رادار الرصد المركب"سار">
-      normative_status: preferred
-    - designation: slant range direction <SAR>
-      type: expression
   _revisions:
-    current: '324e62'
+    current: 324e62
     tree:
-      '324e62':
+      324e62:
         object:
           id: 1009
           definition: اتجاه متجه المدى
@@ -108,27 +120,26 @@ ara:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19130-1:2018'
-            clause: '(E), 3.70'
-            link: 'https://www.iso.org/standard/66847.html'
-          lineage_source: 'ISO/TS 19130:2010(E)'
+            ref: ISO 19130-1:2018
+            clause: "(E), 3.70"
+            link: https://www.iso.org/standard/66847.html
+          lineage_source: ISO/TS 19130:2010(E)
           lineage_source_similarity: '1'
           date_accepted: '2010-06-15T00:00:00.000Z'
           review_date: '2018-09-01T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2018-09-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/TS 19130:2010 to ISO
-            19130-1:2018(E), 3.70. Lineage source added as ISO/TS 19130:2010(E)
+          review_decision_event: Publication of ISO 19130-1:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010
+            to ISO 19130-1:2018(E), 3.70. Lineage source added as ISO/TS 19130:2010(E)
           release: '2'
           terms:
-            - type: expression
-              designation: إتجاه المدى < تقنية رادار الرصد المركب"سار">
-              normative_status: preferred
-            - designation: slant range direction <SAR>
-              type: expression
+          - type: expression
+            designation: إتجاه المدى < تقنية رادار الرصد المركب"سار">
+            normative_status: preferred
+          - designation: slant range direction <SAR>
+            type: expression
         parents: []
         timeCreated: '2010-06-15T00:00:00.000Z'
         author:
@@ -136,33 +147,39 @@ ara:
           email: glossarist@ribose.com
 deu:
   id: 1009
-  definition: Messrichtung des Radarstrahls
-  language_code: deu
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Streckenrichtung <SAR>
+  - type: expression
+    designation: slant range direction <SAR>
+  definition:
+  - content: Messrichtung des Radarstrahls
   notes: []
   examples: []
+  language_code: deu
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19130-1:2018'
-    clause: '(E), 3.70'
-    link: 'https://www.iso.org/standard/66847.html'
-  lineage_source: 'ISO/TS 19130:2010(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19130-1:2018
+      clause: "(E), 3.70"
+      link: https://www.iso.org/standard/66847.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19130:2010(E)
   lineage_source_similarity: '1'
-  date_accepted: '2010-06-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2010-06-15T00:00:00.000Z'
   review_date: '2018-09-01T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2018-09-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/TS 19130:2010 to ISO
-    19130-1:2018(E), 3.70. Lineage source added as ISO/TS 19130:2010(E)
+  review_decision_event: Publication of ISO 19130-1:2018(E)
+  review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010 to
+    ISO 19130-1:2018(E), 3.70. Lineage source added as ISO/TS 19130:2010(E)
   release: '2'
-  terms:
-    - type: expression
-      designation: Streckenrichtung <SAR>
-      normative_status: preferred
-    - designation: slant range direction <SAR>
-      type: expression
   _revisions:
     current: dfeca6
     tree:
@@ -175,27 +192,26 @@ deu:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19130-1:2018'
-            clause: '(E), 3.70'
-            link: 'https://www.iso.org/standard/66847.html'
-          lineage_source: 'ISO/TS 19130:2010(E)'
+            ref: ISO 19130-1:2018
+            clause: "(E), 3.70"
+            link: https://www.iso.org/standard/66847.html
+          lineage_source: ISO/TS 19130:2010(E)
           lineage_source_similarity: '1'
           date_accepted: '2010-06-15T00:00:00.000Z'
           review_date: '2018-09-01T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2018-09-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/TS 19130:2010 to ISO
-            19130-1:2018(E), 3.70. Lineage source added as ISO/TS 19130:2010(E)
+          review_decision_event: Publication of ISO 19130-1:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010
+            to ISO 19130-1:2018(E), 3.70. Lineage source added as ISO/TS 19130:2010(E)
           release: '2'
           terms:
-            - type: expression
-              designation: Streckenrichtung <SAR>
-              normative_status: preferred
-            - designation: slant range direction <SAR>
-              type: expression
+          - type: expression
+            designation: Streckenrichtung <SAR>
+            normative_status: preferred
+          - designation: slant range direction <SAR>
+            type: expression
         parents: []
         timeCreated: '2010-06-15T00:00:00.000Z'
         author:
@@ -203,33 +219,39 @@ deu:
           email: glossarist@ribose.com
 kor:
   id: 1009
-  definition: 범위 벡터의 방향
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 범위 방향
+  - type: expression
+    designation: slant range direction <SAR>
+  definition:
+  - content: 범위 벡터의 방향
   notes: []
   examples: []
+  language_code: kor
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19130-1:2018'
-    clause: '(E), 3.70'
-    link: 'https://www.iso.org/standard/66847.html'
-  lineage_source: 'ISO/TS 19130:2010(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19130-1:2018
+      clause: "(E), 3.70"
+      link: https://www.iso.org/standard/66847.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19130:2010(E)
   lineage_source_similarity: '1'
-  date_accepted: '2010-06-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2010-06-15T00:00:00.000Z'
   review_date: '2018-09-01T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2018-09-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/TS 19130:2010 to ISO
-    19130-1:2018(E), 3.70. Lineage source added as ISO/TS 19130:2010(E)
+  review_decision_event: Publication of ISO 19130-1:2018(E)
+  review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010 to
+    ISO 19130-1:2018(E), 3.70. Lineage source added as ISO/TS 19130:2010(E)
   release: '2'
-  terms:
-    - type: expression
-      designation: 범위 방향
-      normative_status: preferred
-    - designation: slant range direction <SAR>
-      type: expression
   _revisions:
     current: 00a1db
     tree:
@@ -242,27 +264,26 @@ kor:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19130-1:2018'
-            clause: '(E), 3.70'
-            link: 'https://www.iso.org/standard/66847.html'
-          lineage_source: 'ISO/TS 19130:2010(E)'
+            ref: ISO 19130-1:2018
+            clause: "(E), 3.70"
+            link: https://www.iso.org/standard/66847.html
+          lineage_source: ISO/TS 19130:2010(E)
           lineage_source_similarity: '1'
           date_accepted: '2010-06-15T00:00:00.000Z'
           review_date: '2018-09-01T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2018-09-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/TS 19130:2010 to ISO
-            19130-1:2018(E), 3.70. Lineage source added as ISO/TS 19130:2010(E)
+          review_decision_event: Publication of ISO 19130-1:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010
+            to ISO 19130-1:2018(E), 3.70. Lineage source added as ISO/TS 19130:2010(E)
           release: '2'
           terms:
-            - type: expression
-              designation: 범위 방향
-              normative_status: preferred
-            - designation: slant range direction <SAR>
-              type: expression
+          - type: expression
+            designation: 범위 방향
+            normative_status: preferred
+          - designation: slant range direction <SAR>
+            type: expression
         parents: []
         timeCreated: '2010-06-15T00:00:00.000Z'
         author:
@@ -270,33 +291,39 @@ kor:
           email: glossarist@ribose.com
 msa:
   id: 1009
-  definition: Jarak dari sasaran vektor (SAR)
-  language_code: msa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: arah julat
+  - type: expression
+    designation: slant range direction <SAR>
+  definition:
+  - content: Jarak dari sasaran vektor (SAR)
   notes: []
   examples: []
+  language_code: msa
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19130-1:2018'
-    clause: '(E), 3.70'
-    link: 'https://www.iso.org/standard/66847.html'
-  lineage_source: 'ISO/TS 19130:2010(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19130-1:2018
+      clause: "(E), 3.70"
+      link: https://www.iso.org/standard/66847.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19130:2010(E)
   lineage_source_similarity: '1'
-  date_accepted: '2010-06-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2010-06-15T00:00:00.000Z'
   review_date: '2018-09-01T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2018-09-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/TS 19130:2010 to ISO
-    19130-1:2018(E), 3.70. Lineage source added as ISO/TS 19130:2010(E)
+  review_decision_event: Publication of ISO 19130-1:2018(E)
+  review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010 to
+    ISO 19130-1:2018(E), 3.70. Lineage source added as ISO/TS 19130:2010(E)
   release: '2'
-  terms:
-    - type: expression
-      designation: arah julat
-      normative_status: preferred
-    - designation: slant range direction <SAR>
-      type: expression
   _revisions:
     current: 64ab23
     tree:
@@ -309,27 +336,26 @@ msa:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19130-1:2018'
-            clause: '(E), 3.70'
-            link: 'https://www.iso.org/standard/66847.html'
-          lineage_source: 'ISO/TS 19130:2010(E)'
+            ref: ISO 19130-1:2018
+            clause: "(E), 3.70"
+            link: https://www.iso.org/standard/66847.html
+          lineage_source: ISO/TS 19130:2010(E)
           lineage_source_similarity: '1'
           date_accepted: '2010-06-15T00:00:00.000Z'
           review_date: '2018-09-01T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2018-09-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/TS 19130:2010 to ISO
-            19130-1:2018(E), 3.70. Lineage source added as ISO/TS 19130:2010(E)
+          review_decision_event: Publication of ISO 19130-1:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010
+            to ISO 19130-1:2018(E), 3.70. Lineage source added as ISO/TS 19130:2010(E)
           release: '2'
           terms:
-            - type: expression
-              designation: arah julat
-              normative_status: preferred
-            - designation: slant range direction <SAR>
-              type: expression
+          - type: expression
+            designation: arah julat
+            normative_status: preferred
+          - designation: slant range direction <SAR>
+            type: expression
         parents: []
         timeCreated: '2010-06-15T00:00:00.000Z'
         author:
@@ -337,33 +363,39 @@ msa:
           email: glossarist@ribose.com
 rus:
   id: 1009
-  definition: направление вектора дальности
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: направление по дальности <SAR>
+  - type: expression
+    designation: направление наклонной дальности
+  definition:
+  - content: направление вектора дальности
   notes: []
   examples: []
+  language_code: rus
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19130-1:2018'
-    clause: '(E), 3.70'
-    link: 'https://www.iso.org/standard/66847.html'
-  lineage_source: 'ISO/TS 19130:2010(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19130-1:2018
+      clause: "(E), 3.70"
+      link: https://www.iso.org/standard/66847.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19130:2010(E)
   lineage_source_similarity: '1'
-  date_accepted: '2010-06-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2010-06-15T00:00:00.000Z'
   review_date: '2018-09-01T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2018-09-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/TS 19130:2010 to ISO
-    19130-1:2018(E), 3.70. Lineage source added as ISO/TS 19130:2010(E)
+  review_decision_event: Publication of ISO 19130-1:2018(E)
+  review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010 to
+    ISO 19130-1:2018(E), 3.70. Lineage source added as ISO/TS 19130:2010(E)
   release: '2'
-  terms:
-    - type: expression
-      designation: направление по дальности <SAR>
-      normative_status: preferred
-    - designation: направление наклонной дальности
-      type: expression
   _revisions:
     current: fd08e3
     tree:
@@ -376,27 +408,26 @@ rus:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19130-1:2018'
-            clause: '(E), 3.70'
-            link: 'https://www.iso.org/standard/66847.html'
-          lineage_source: 'ISO/TS 19130:2010(E)'
+            ref: ISO 19130-1:2018
+            clause: "(E), 3.70"
+            link: https://www.iso.org/standard/66847.html
+          lineage_source: ISO/TS 19130:2010(E)
           lineage_source_similarity: '1'
           date_accepted: '2010-06-15T00:00:00.000Z'
           review_date: '2018-09-01T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2018-09-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/TS 19130:2010 to ISO
-            19130-1:2018(E), 3.70. Lineage source added as ISO/TS 19130:2010(E)
+          review_decision_event: Publication of ISO 19130-1:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010
+            to ISO 19130-1:2018(E), 3.70. Lineage source added as ISO/TS 19130:2010(E)
           release: '2'
           terms:
-            - type: expression
-              designation: направление по дальности <SAR>
-              normative_status: preferred
-            - designation: направление наклонной дальности
-              type: expression
+          - type: expression
+            designation: направление по дальности <SAR>
+            normative_status: preferred
+          - designation: направление наклонной дальности
+            type: expression
         parents: []
         timeCreated: '2010-06-15T00:00:00.000Z'
         author:
@@ -404,33 +435,39 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 1009
-  definition: dirección del vector distancia
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dirección de distancia (range direction) <SAR>
+  - type: expression
+    designation: dirección de distancia oblicua (SAR)
+  definition:
+  - content: dirección del vector distancia
   notes: []
   examples: []
+  language_code: spa
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19130-1:2018'
-    clause: '(E), 3.70'
-    link: 'https://www.iso.org/standard/66847.html'
-  lineage_source: 'ISO/TS 19130:2010(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19130-1:2018
+      clause: "(E), 3.70"
+      link: https://www.iso.org/standard/66847.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19130:2010(E)
   lineage_source_similarity: '1'
-  date_accepted: '2010-06-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2010-06-15T00:00:00.000Z'
   review_date: '2018-09-01T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2018-09-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/TS 19130:2010 to ISO
-    19130-1:2018(E), 3.70. Lineage source added as ISO/TS 19130:2010(E)
+  review_decision_event: Publication of ISO 19130-1:2018(E)
+  review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010 to
+    ISO 19130-1:2018(E), 3.70. Lineage source added as ISO/TS 19130:2010(E)
   release: '2'
-  terms:
-    - type: expression
-      designation: dirección de distancia (range direction) <SAR>
-      normative_status: preferred
-    - designation: dirección de distancia oblicua (SAR)
-      type: expression
   _revisions:
     current: 35cb98
     tree:
@@ -443,27 +480,26 @@ spa:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19130-1:2018'
-            clause: '(E), 3.70'
-            link: 'https://www.iso.org/standard/66847.html'
-          lineage_source: 'ISO/TS 19130:2010(E)'
+            ref: ISO 19130-1:2018
+            clause: "(E), 3.70"
+            link: https://www.iso.org/standard/66847.html
+          lineage_source: ISO/TS 19130:2010(E)
           lineage_source_similarity: '1'
           date_accepted: '2010-06-15T00:00:00.000Z'
           review_date: '2018-09-01T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2018-09-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/TS 19130:2010 to ISO
-            19130-1:2018(E), 3.70. Lineage source added as ISO/TS 19130:2010(E)
+          review_decision_event: Publication of ISO 19130-1:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010
+            to ISO 19130-1:2018(E), 3.70. Lineage source added as ISO/TS 19130:2010(E)
           release: '2'
           terms:
-            - type: expression
-              designation: dirección de distancia (range direction) <SAR>
-              normative_status: preferred
-            - designation: dirección de distancia oblicua (SAR)
-              type: expression
+          - type: expression
+            designation: dirección de distancia (range direction) <SAR>
+            normative_status: preferred
+          - designation: dirección de distancia oblicua (SAR)
+            type: expression
         parents: []
         timeCreated: '2010-06-15T00:00:00.000Z'
         author:

@@ -1,45 +1,49 @@
-term: data product
+---
 termid: 110
+term: data product
 eng:
   id: 110
-  definition: dataset or dataset series that conforms to a data product specification
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: data product
+  definition:
+  - content: dataset or dataset series that conforms to a data product specification
   notes: []
   examples: []
+  language_code: eng
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19131:2007'
-    link: 'https://www.iso.org/standard/36760.html'
-  date_accepted: '2007-04-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19131:2007
+      link: https://www.iso.org/standard/36760.html
+  dates:
+  - type: accepted
+    date: '2007-04-15T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: data product
-      normative_status: preferred
   _revisions:
     current: 7e2c51
     tree:
       7e2c51:
         object:
           id: 110
-          definition: >-
-            dataset or dataset series that conforms to a data product
-            specification
+          definition: dataset or dataset series that conforms to a data product specification
           language_code: eng
           notes: []
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19131:2007'
-            link: 'https://www.iso.org/standard/36760.html'
+            ref: ISO 19131:2007
+            link: https://www.iso.org/standard/36760.html
           date_accepted: '2007-04-15T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: data product
-              normative_status: preferred
+          - type: expression
+            designation: data product
+            normative_status: preferred
         parents: []
         timeCreated: '2007-04-15T00:00:00.000Z'
         author:
@@ -47,29 +51,33 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 110
-  definition: مجموعة بيانات أو سلسلة مجموعة بيانات مطابقة لمواصفات منتج بيانات معين
-  language_code: ara
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: منتج بيانات
+  definition:
+  - content: مجموعة بيانات أو سلسلة مجموعة بيانات مطابقة لمواصفات منتج بيانات معين
   notes: []
   examples: []
+  language_code: ara
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19131:2007'
-    link: 'https://www.iso.org/standard/36760.html'
-  date_accepted: '2007-04-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19131:2007
+      link: https://www.iso.org/standard/36760.html
+  dates:
+  - type: accepted
+    date: '2007-04-15T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: منتج بيانات
-      normative_status: preferred
   _revisions:
     current: 40fb5b
     tree:
       40fb5b:
         object:
           id: 110
-          definition: >-
-            مجموعة بيانات أو سلسلة مجموعة بيانات مطابقة لمواصفات منتج بيانات
+          definition: مجموعة بيانات أو سلسلة مجموعة بيانات مطابقة لمواصفات منتج بيانات
             معين
           language_code: ara
           notes: []
@@ -77,14 +85,14 @@ ara:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19131:2007'
-            link: 'https://www.iso.org/standard/36760.html'
+            ref: ISO 19131:2007
+            link: https://www.iso.org/standard/36760.html
           date_accepted: '2007-04-15T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: منتج بيانات
-              normative_status: preferred
+          - type: expression
+            designation: منتج بيانات
+            normative_status: preferred
         parents: []
         timeCreated: '2007-04-15T00:00:00.000Z'
         author:
@@ -92,20 +100,25 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 110
-  definition: 与数据产品规范一致的数据集或数据集系列。
-  language_code: zho
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 数据产品
+  definition:
+  - content: 与数据产品规范一致的数据集或数据集系列。
   notes: []
   examples: []
+  language_code: zho
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19131:2007'
-    link: 'https://www.iso.org/standard/36760.html'
-  date_accepted: '2007-04-15T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: 数据产品
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19131:2007
+      link: https://www.iso.org/standard/36760.html
+  dates:
+  - type: accepted
+    date: '2007-04-15T00:00:00.000Z'
   _revisions:
     current: b3d727
     tree:
@@ -119,13 +132,13 @@ zho:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19131:2007'
-            link: 'https://www.iso.org/standard/36760.html'
+            ref: ISO 19131:2007
+            link: https://www.iso.org/standard/36760.html
           date_accepted: '2007-04-15T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: 数据产品
-              normative_status: preferred
+          - type: expression
+            designation: 数据产品
+            normative_status: preferred
         parents: []
         timeCreated: '2007-04-15T00:00:00.000Z'
         author:
@@ -133,48 +146,53 @@ zho:
           email: glossarist@ribose.com
 fin:
   id: 110
-  definition: >-
-    yhden tai useamman tietoaineiston tai tietoaineistosarjan tiedoista koottu
-    tuote, joka voidaan luovuttaa sellaisenaan tai sisällön perusteella
-    rajattuna tiettyyn käyttötarkoitukseen
-  language_code: fin
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: tietotuote
+  definition:
+  - content: yhden tai useamman tietoaineiston tai tietoaineistosarjan tiedoista koottu
+      tuote, joka voidaan luovuttaa sellaisenaan tai sisällön perusteella rajattuna
+      tiettyyn käyttötarkoitukseen
   notes: []
   examples: []
+  language_code: fin
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19131:2007'
-    link: 'https://www.iso.org/standard/36760.html'
-  lineage_source: 'Sanastokeskus TSK: Geoinformatiikan sanasto (TSK 42), 2011'
-  date_accepted: '2007-04-15T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: tietotuote
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19131:2007
+      link: https://www.iso.org/standard/36760.html
+  - type: lineage
+    origin:
+      ref: 'Sanastokeskus TSK: Geoinformatiikan sanasto (TSK 42), 2011'
+  dates:
+  - type: accepted
+    date: '2007-04-15T00:00:00.000Z'
   _revisions:
     current: 7aa6cd
     tree:
       7aa6cd:
         object:
           id: 110
-          definition: >-
-            yhden tai useamman tietoaineiston tai tietoaineistosarjan tiedoista
-            koottu tuote, joka voidaan luovuttaa sellaisenaan tai sisällön
-            perusteella rajattuna tiettyyn käyttötarkoitukseen
+          definition: yhden tai useamman tietoaineiston tai tietoaineistosarjan tiedoista
+            koottu tuote, joka voidaan luovuttaa sellaisenaan tai sisällön perusteella
+            rajattuna tiettyyn käyttötarkoitukseen
           language_code: fin
           notes: []
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19131:2007'
-            link: 'https://www.iso.org/standard/36760.html'
+            ref: ISO 19131:2007
+            link: https://www.iso.org/standard/36760.html
           lineage_source: 'Sanastokeskus TSK: Geoinformatiikan sanasto (TSK 42), 2011'
           date_accepted: '2007-04-15T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: tietotuote
-              normative_status: preferred
+          - type: expression
+            designation: tietotuote
+            normative_status: preferred
         parents: []
         timeCreated: '2007-04-15T00:00:00.000Z'
         author:
@@ -182,44 +200,49 @@ fin:
           email: glossarist@ribose.com
 fra:
   id: 110
-  definition: >-
-    jeu de données ou série de jeux de données conforme à une spécification de
-    produit (de données)
-  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: produit (de données)
+  definition:
+  - content: jeu de données ou série de jeux de données conforme à une spécification
+      de produit (de données)
   notes: []
   examples: []
+  language_code: fra
   entry_status: valid
-  authoritative_source:
-    ref: ISO 19131
-    link: 'https://www.iso.org/standard/36760.html'
-  lineage_source: ''
-  date_accepted: '2007-04-15T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: produit (de données)
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19131
+      link: https://www.iso.org/standard/36760.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2007-04-15T00:00:00.000Z'
   _revisions:
     current: d4da41
     tree:
       d4da41:
         object:
           id: 110
-          definition: >-
-            jeu de données ou série de jeux de données conforme à une
-            spécification de produit (de données)
+          definition: jeu de données ou série de jeux de données conforme à une spécification
+            de produit (de données)
           language_code: fra
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
             ref: ISO 19131
-            link: 'https://www.iso.org/standard/36760.html'
+            link: https://www.iso.org/standard/36760.html
           lineage_source: ''
           date_accepted: '2007-04-15T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: produit (de données)
-              normative_status: preferred
+          - type: expression
+            designation: produit (de données)
+            normative_status: preferred
         parents: []
         timeCreated: '2007-04-15T00:00:00.000Z'
         author:
@@ -227,20 +250,24 @@ fra:
           email: glossarist@ribose.com
 deu:
   id: 110
-  language_code: deu
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Datenprodukt
   notes: []
   examples: []
+  language_code: deu
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19131:2007'
-    link: 'https://www.iso.org/standard/36760.html'
-  date_accepted: '2007-04-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19131:2007
+      link: https://www.iso.org/standard/36760.html
+  dates:
+  - type: accepted
+    date: '2007-04-15T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: Datenprodukt
-      normative_status: preferred
   _revisions:
     current: 39b65d
     tree:
@@ -253,14 +280,14 @@ deu:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19131:2007'
-            link: 'https://www.iso.org/standard/36760.html'
+            ref: ISO 19131:2007
+            link: https://www.iso.org/standard/36760.html
           date_accepted: '2007-04-15T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: Datenprodukt
-              normative_status: preferred
+          - type: expression
+            designation: Datenprodukt
+            normative_status: preferred
         parents: []
         timeCreated: '2007-04-15T00:00:00.000Z'
         author:
@@ -268,22 +295,29 @@ deu:
           email: glossarist@ribose.com
 kor:
   id: 110
-  definition: 데이터 제품 사양을 따르는 데이터셋 또는 데이터셋 시리즈
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 데이터 제품
+  definition:
+  - content: 데이터 제품 사양을 따르는 데이터셋 또는 데이터셋 시리즈
   notes: []
   examples: []
+  language_code: kor
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19131:2007'
-    link: 'https://www.iso.org/standard/36760.html'
-  lineage_source: KS X ISO 19131
-  date_accepted: '2008-12-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19131:2007
+      link: https://www.iso.org/standard/36760.html
+  - type: lineage
+    origin:
+      ref: KS X ISO 19131
+  dates:
+  - type: accepted
+    date: '2008-12-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: 데이터 제품
-      normative_status: preferred
   _revisions:
     current: 6ff7eb
     tree:
@@ -297,15 +331,15 @@ kor:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19131:2007'
-            link: 'https://www.iso.org/standard/36760.html'
+            ref: ISO 19131:2007
+            link: https://www.iso.org/standard/36760.html
           lineage_source: KS X ISO 19131
           date_accepted: '2008-12-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: 데이터 제품
-              normative_status: preferred
+          - type: expression
+            designation: 데이터 제품
+            normative_status: preferred
         parents: []
         timeCreated: '2008-12-01T00:00:00.000Z'
         author:
@@ -313,46 +347,51 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 110
-  definition: >-
-    набор данных или ряд наборов данных, которые соответствуют спецификации
-    информационного продукта
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: информационный продукт
+  definition:
+  - content: набор данных или ряд наборов данных, которые соответствуют спецификации
+      информационного продукта
   notes: []
   examples: []
+  language_code: rus
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19131:2007'
-    link: 'https://www.iso.org/standard/36760.html'
-  lineage_source: Internet
-  date_accepted: '2007-04-15T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: информационный продукт
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19131:2007
+      link: https://www.iso.org/standard/36760.html
+  - type: lineage
+    origin:
+      ref: Internet
+  dates:
+  - type: accepted
+    date: '2007-04-15T00:00:00.000Z'
   _revisions:
     current: 2fd876
     tree:
       2fd876:
         object:
           id: 110
-          definition: >-
-            набор данных или ряд наборов данных, которые соответствуют
-            спецификации информационного продукта
+          definition: набор данных или ряд наборов данных, которые соответствуют спецификации
+            информационного продукта
           language_code: rus
           notes: []
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19131:2007'
-            link: 'https://www.iso.org/standard/36760.html'
+            ref: ISO 19131:2007
+            link: https://www.iso.org/standard/36760.html
           lineage_source: Internet
           date_accepted: '2007-04-15T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: информационный продукт
-              normative_status: preferred
+          - type: expression
+            designation: информационный продукт
+            normative_status: preferred
         parents: []
         timeCreated: '2007-04-15T00:00:00.000Z'
         author:
@@ -360,44 +399,47 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 110
-  definition: >-
-    conjunto de datos o serie de conjuntos de datos conforme a unas
-    especificaciones de producto de datos
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: producto de datos
+  definition:
+  - content: conjunto de datos o serie de conjuntos de datos conforme a unas especificaciones
+      de producto de datos
   notes: []
   examples: []
+  language_code: spa
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19131:2007'
-    link: 'https://www.iso.org/standard/36760.html'
-  date_accepted: '2007-04-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19131:2007
+      link: https://www.iso.org/standard/36760.html
+  dates:
+  - type: accepted
+    date: '2007-04-15T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: producto de datos
-      normative_status: preferred
   _revisions:
     current: 7b6cb0
     tree:
       7b6cb0:
         object:
           id: 110
-          definition: >-
-            conjunto de datos o serie de conjuntos de datos conforme a unas
+          definition: conjunto de datos o serie de conjuntos de datos conforme a unas
             especificaciones de producto de datos
           language_code: spa
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19131:2007'
-            link: 'https://www.iso.org/standard/36760.html'
+            ref: ISO 19131:2007
+            link: https://www.iso.org/standard/36760.html
           date_accepted: '2007-04-15T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: producto de datos
-              normative_status: preferred
+          - type: expression
+            designation: producto de datos
+            normative_status: preferred
         parents: []
         timeCreated: '2007-04-15T00:00:00.000Z'
         author:
@@ -405,70 +447,60 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 110
-  definition: >-
-    specificerad datamängd eller serie av datamängder som erbjuds eller
-    efterfrågas
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dataprodukt
+  definition:
+  - content: specificerad datamängd eller serie av datamängder som erbjuds eller efterfrågas
+  notes:
+  - content: |-
+      I praktiken måste en dataprodukt definieras, huvudsakligen genom att specificera de krav som ska kunna ställas på data. Det kan göras innan någon datamängd har producerats. ISO 19131, Data product specification, anger ett standardiserat sätt att definiera en dataprodukt.
+      till termpost: En dataprodukt kan i sin specifikation ange att datamängderna levereras via en viss nedladdningstjänst. Varken tjänster, databaser eller programvara räknas dock som dataprodukter i sig.
+  examples: []
   country_code: swe
   language_code: swe
-  notes:
-    - >-
-      I praktiken måste en dataprodukt definieras, huvudsakligen genom att
-      specificera de krav som ska kunna ställas på data. Det kan göras innan
-      någon datamängd har producerats. ISO 19131, Data product specification,
-      anger ett standardiserat sätt att definiera en dataprodukt.
-
-      till termpost: En dataprodukt kan i sin specifikation ange att
-      datamängderna levereras via en viss nedladdningstjänst. Varken tjänster,
-      databaser eller programvara räknas dock som dataprodukter i sig.
-  examples: []
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19131:2007'
-    link: 'https://www.iso.org/standard/36760.html'
-  lineage_source: (Type reference to national language document)
-  date_accepted: '2007-04-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19131:2007
+      link: https://www.iso.org/standard/36760.html
+  - type: lineage
+    origin:
+      ref: "(Type reference to national language document)"
+  dates:
+  - type: accepted
+    date: '2007-04-15T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: dataprodukt
-      normative_status: preferred
   _revisions:
-    current: 081aea
+    current: '081aea'
     tree:
-      081aea:
+      '081aea':
         object:
           id: 110
-          definition: >-
-            specificerad datamängd eller serie av datamängder som erbjuds eller
-            efterfrågas
+          definition: specificerad datamängd eller serie av datamängder som erbjuds
+            eller efterfrågas
           country_code: swe
           language_code: swe
           notes:
-            - >-
-              I praktiken måste en dataprodukt definieras, huvudsakligen genom
-              att specificera de krav som ska kunna ställas på data. Det kan
-              göras innan någon datamängd har producerats. ISO 19131, Data
-              product specification, anger ett standardiserat sätt att definiera
-              en dataprodukt.
-
-              till termpost: En dataprodukt kan i sin specifikation ange att
-              datamängderna levereras via en viss nedladdningstjänst. Varken
-              tjänster, databaser eller programvara räknas dock som
-              dataprodukter i sig.
+          - |-
+            I praktiken måste en dataprodukt definieras, huvudsakligen genom att specificera de krav som ska kunna ställas på data. Det kan göras innan någon datamängd har producerats. ISO 19131, Data product specification, anger ett standardiserat sätt att definiera en dataprodukt.
+            till termpost: En dataprodukt kan i sin specifikation ange att datamängderna levereras via en viss nedladdningstjänst. Varken tjänster, databaser eller programvara räknas dock som dataprodukter i sig.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19131:2007'
-            link: 'https://www.iso.org/standard/36760.html'
-          lineage_source: (Type reference to national language document)
+            ref: ISO 19131:2007
+            link: https://www.iso.org/standard/36760.html
+          lineage_source: "(Type reference to national language document)"
           date_accepted: '2007-04-15T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: dataprodukt
-              normative_status: preferred
+          - type: expression
+            designation: dataprodukt
+            normative_status: preferred
         parents: []
         timeCreated: '2007-04-15T00:00:00.000Z'
         author:

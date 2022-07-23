@@ -1,29 +1,34 @@
-term: Place Identifier matching
+---
 termid: 1339
+term: PI matching
 eng:
   id: 1339
-  abbrev: PI matching
-  definition: >-
-    matching of a Place Identifier specifying a place with another type of PI
-    identifying the same place
-  language_code: eng
+  terms:
+  - type: abbreviation
+    designation: PI matching
+  - type: expression
+    normative_status: preferred
+    designation: Place Identifier matching
+  definition:
+  - content: matching of a Place Identifier specifying a place with another type of
+      PI identifying the same place
   notes:
-    - A source PI can be matched with multiple target Place Identifiers.
-    - >-
-      PI matching can be made among coordinates, geographic identifiers and
+  - content: A source PI can be matched with multiple target Place Identifiers.
+  - content: PI matching can be made among coordinates, geographic identifiers and
       identifiers in the virtual world such as URI.
   examples: []
+  language_code: eng
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19155:2012'
-    clause: '4.11'
-    link: 'https://www.iso.org/standard/32573.html'
-  date_accepted: '2012-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19155:2012
+      clause: '4.11'
+      link: https://www.iso.org/standard/32573.html
+  dates:
+  - type: accepted
+    date: '2012-11-01T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: Place Identifier matching
-      normative_status: preferred
   _revisions:
     current: 1f37da
     tree:
@@ -31,27 +36,25 @@ eng:
         object:
           id: 1339
           abbrev: PI matching
-          definition: >-
-            matching of a Place Identifier specifying a place with another type
-            of PI identifying the same place
+          definition: matching of a Place Identifier specifying a place with another
+            type of PI identifying the same place
           language_code: eng
           notes:
-            - A source PI can be matched with multiple target Place Identifiers.
-            - >-
-              PI matching can be made among coordinates, geographic identifiers
-              and identifiers in the virtual world such as URI.
+          - A source PI can be matched with multiple target Place Identifiers.
+          - PI matching can be made among coordinates, geographic identifiers and
+            identifiers in the virtual world such as URI.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19155:2012'
+            ref: ISO 19155:2012
             clause: '4.11'
-            link: 'https://www.iso.org/standard/32573.html'
+            link: https://www.iso.org/standard/32573.html
           date_accepted: '2012-11-01T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: Place Identifier matching
-              normative_status: preferred
+          - type: expression
+            designation: Place Identifier matching
+            normative_status: preferred
         parents: []
         timeCreated: '2012-11-01T00:00:00.000Z'
         author:
@@ -59,25 +62,29 @@ eng:
           email: glossarist@ribose.com
 kor:
   id: 1339
-  definition: 장소를 명시하는 PI와 동일 장소를 식별하는 다른 유형의 PI를 매칭하는 것
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 장소 식별자 매칭
+  definition:
+  - content: 장소를 명시하는 PI와 동일 장소를 식별하는 다른 유형의 PI를 매칭하는 것
   notes:
-    - A source PI can be matched with multiple target Place Identifiers.
-    - >-
-      PI matching can be made among coordinates, geographic identifiers and
+  - content: A source PI can be matched with multiple target Place Identifiers.
+  - content: PI matching can be made among coordinates, geographic identifiers and
       identifiers in the virtual world such as URI.
   examples: []
+  language_code: kor
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19155:2012'
-    clause: '4.11'
-    link: 'https://www.iso.org/standard/32573.html'
-  date_accepted: '2012-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19155:2012
+      clause: '4.11'
+      link: https://www.iso.org/standard/32573.html
+  dates:
+  - type: accepted
+    date: '2012-11-01T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: 장소 식별자 매칭
-      normative_status: preferred
   _revisions:
     current: a4877c
     tree:
@@ -87,22 +94,21 @@ kor:
           definition: 장소를 명시하는 PI와 동일 장소를 식별하는 다른 유형의 PI를 매칭하는 것
           language_code: kor
           notes:
-            - A source PI can be matched with multiple target Place Identifiers.
-            - >-
-              PI matching can be made among coordinates, geographic identifiers
-              and identifiers in the virtual world such as URI.
+          - A source PI can be matched with multiple target Place Identifiers.
+          - PI matching can be made among coordinates, geographic identifiers and
+            identifiers in the virtual world such as URI.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19155:2012'
+            ref: ISO 19155:2012
             clause: '4.11'
-            link: 'https://www.iso.org/standard/32573.html'
+            link: https://www.iso.org/standard/32573.html
           date_accepted: '2012-11-01T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: 장소 식별자 매칭
-              normative_status: preferred
+          - type: expression
+            designation: 장소 식별자 매칭
+            normative_status: preferred
         parents: []
         timeCreated: '2012-11-01T00:00:00.000Z'
         author:
@@ -110,31 +116,36 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 1339
-  abbrev: PI matching
-  definition: >-
-    сопоставление  Идентификатора Места, указывающего какое – то место, с другим
-    типом ИМ (PI), идентифицирующим  то же самое место
-  language_code: rus
+  terms:
+  - type: abbreviation
+    designation: PI matching
+  - type: expression
+    normative_status: preferred
+    designation: сопоставление Идентификатора Места
+  definition:
+  - content: сопоставление  Идентификатора Места, указывающего какое – то место, с
+      другим типом ИМ (PI), идентифицирующим  то же самое место
   notes:
-    - >-
-      исходный PI может быть сопоставлен с несколькими идентификаторами целевого
+  - content: исходный PI может быть сопоставлен с несколькими идентификаторами целевого
       места.
-    - >-
-      сопоставление PI может быть выполнено между координатами, географическими
+  - content: сопоставление PI может быть выполнено между координатами, географическими
       идентификаторами и идентификаторами в виртуальном мире, такими как URI.
   examples: []
+  language_code: rus
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19155:2012'
-    clause: '4.11'
-    link: 'https://www.iso.org/standard/32573.html'
-  lineage_source: 'ISO 19155:2012'
-  date_accepted: '2012-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19155:2012
+      clause: '4.11'
+      link: https://www.iso.org/standard/32573.html
+  - type: lineage
+    origin:
+      ref: ISO 19155:2012
+  dates:
+  - type: accepted
+    date: '2012-11-01T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: сопоставление Идентификатора Места
-      normative_status: preferred
   _revisions:
     current: b83ef1
     tree:
@@ -142,31 +153,27 @@ rus:
         object:
           id: 1339
           abbrev: PI matching
-          definition: >-
-            сопоставление  Идентификатора Места, указывающего какое – то место,
-            с другим типом ИМ (PI), идентифицирующим  то же самое место
+          definition: сопоставление  Идентификатора Места, указывающего какое – то
+            место, с другим типом ИМ (PI), идентифицирующим  то же самое место
           language_code: rus
           notes:
-            - >-
-              исходный PI может быть сопоставлен с несколькими идентификаторами
-              целевого места.
-            - >-
-              сопоставление PI может быть выполнено между координатами,
-              географическими идентификаторами и идентификаторами в виртуальном
-              мире, такими как URI.
+          - исходный PI может быть сопоставлен с несколькими идентификаторами целевого
+            места.
+          - сопоставление PI может быть выполнено между координатами, географическими
+            идентификаторами и идентификаторами в виртуальном мире, такими как URI.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19155:2012'
+            ref: ISO 19155:2012
             clause: '4.11'
-            link: 'https://www.iso.org/standard/32573.html'
-          lineage_source: 'ISO 19155:2012'
+            link: https://www.iso.org/standard/32573.html
+          lineage_source: ISO 19155:2012
           date_accepted: '2012-11-01T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: сопоставление Идентификатора Места
-              normative_status: preferred
+          - type: expression
+            designation: сопоставление Идентификатора Места
+            normative_status: preferred
         parents: []
         timeCreated: '2012-11-01T00:00:00.000Z'
         author:
@@ -174,30 +181,33 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 1339
-  abbrev: PI matching
-  definition: >-
-    correspondencia de un Identificador de lugar (PI) que especifica un sitio
-    con otro  de otro tipo de PI, que identifica al mismo sitio
-  language_code: spa
+  terms:
+  - type: abbreviation
+    designation: PI matching
+  - type: expression
+    normative_status: preferred
+    designation: correspondencia de Identificadores de lugar
+  definition:
+  - content: correspondencia de un Identificador de lugar (PI) que especifica un sitio
+      con otro  de otro tipo de PI, que identifica al mismo sitio
   notes:
-    - >-
-      Un PI origen se puede corresponder con multiples Identificadores de lugar
+  - content: Un PI origen se puede corresponder con multiples Identificadores de lugar
       destino.
-    - >-
-      La correspondencia de PI se puede hacer por coordenadas, identificadores
+  - content: La correspondencia de PI se puede hacer por coordenadas, identificadores
       geográficos y por identificadores del mundo virtual como URI.
   examples: []
+  language_code: spa
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19155:2012'
-    clause: '4.11'
-    link: 'https://www.iso.org/standard/32573.html'
-  date_accepted: '2012-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19155:2012
+      clause: '4.11'
+      link: https://www.iso.org/standard/32573.html
+  dates:
+  - type: accepted
+    date: '2012-11-01T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: correspondencia de Identificadores de lugar
-      normative_status: preferred
   _revisions:
     current: 9e20b7
     tree:
@@ -205,30 +215,26 @@ spa:
         object:
           id: 1339
           abbrev: PI matching
-          definition: >-
-            correspondencia de un Identificador de lugar (PI) que especifica un
-            sitio con otro  de otro tipo de PI, que identifica al mismo sitio
+          definition: correspondencia de un Identificador de lugar (PI) que especifica
+            un sitio con otro  de otro tipo de PI, que identifica al mismo sitio
           language_code: spa
           notes:
-            - >-
-              Un PI origen se puede corresponder con multiples Identificadores
-              de lugar destino.
-            - >-
-              La correspondencia de PI se puede hacer por coordenadas,
-              identificadores geográficos y por identificadores del mundo
-              virtual como URI.
+          - Un PI origen se puede corresponder con multiples Identificadores de lugar
+            destino.
+          - La correspondencia de PI se puede hacer por coordenadas, identificadores
+            geográficos y por identificadores del mundo virtual como URI.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19155:2012'
+            ref: ISO 19155:2012
             clause: '4.11'
-            link: 'https://www.iso.org/standard/32573.html'
+            link: https://www.iso.org/standard/32573.html
           date_accepted: '2012-11-01T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: correspondencia de Identificadores de lugar
-              normative_status: preferred
+          - type: expression
+            designation: correspondencia de Identificadores de lugar
+            normative_status: preferred
         parents: []
         timeCreated: '2012-11-01T00:00:00.000Z'
         author:
@@ -236,30 +242,36 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 1339
-  abbrev: PI matching
-  definition: >-
-    att utifrån en PI-referens för en viss plats finna en annan typ av
-    PI-referens för samma plats
-  country_code: swe
-  language_code: swe
+  terms:
+  - type: abbreviation
+    designation: PI matching
+  - type: expression
+    normative_status: preferred
+    designation: PI-matchning
+  definition:
+  - content: att utifrån en PI-referens för en viss plats finna en annan typ av PI-referens
+      för samma plats
   notes:
-    - A source PI can be matched with multiple target Place Identifiers.
-    - >-
-      PI matching can be made among coordinates, geographic identifiers and
+  - content: A source PI can be matched with multiple target Place Identifiers.
+  - content: PI matching can be made among coordinates, geographic identifiers and
       identifiers in the virtual world such as URI.
   examples: []
+  country_code: swe
+  language_code: swe
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19155:2012'
-    clause: '4.11'
-    link: 'https://www.iso.org/standard/32573.html'
-  lineage_source: (Type reference to national language document)
-  date_accepted: '2012-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19155:2012
+      clause: '4.11'
+      link: https://www.iso.org/standard/32573.html
+  - type: lineage
+    origin:
+      ref: "(Type reference to national language document)"
+  dates:
+  - type: accepted
+    date: '2012-11-01T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: PI-matchning
-      normative_status: preferred
   _revisions:
     current: f8dd20
     tree:
@@ -267,29 +279,27 @@ swe:
         object:
           id: 1339
           abbrev: PI matching
-          definition: >-
-            att utifrån en PI-referens för en viss plats finna en annan typ av
-            PI-referens för samma plats
+          definition: att utifrån en PI-referens för en viss plats finna en annan
+            typ av PI-referens för samma plats
           country_code: swe
           language_code: swe
           notes:
-            - A source PI can be matched with multiple target Place Identifiers.
-            - >-
-              PI matching can be made among coordinates, geographic identifiers
-              and identifiers in the virtual world such as URI.
+          - A source PI can be matched with multiple target Place Identifiers.
+          - PI matching can be made among coordinates, geographic identifiers and
+            identifiers in the virtual world such as URI.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19155:2012'
+            ref: ISO 19155:2012
             clause: '4.11'
-            link: 'https://www.iso.org/standard/32573.html'
-          lineage_source: (Type reference to national language document)
+            link: https://www.iso.org/standard/32573.html
+          lineage_source: "(Type reference to national language document)"
           date_accepted: '2012-11-01T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: PI-matchning
-              normative_status: preferred
+          - type: expression
+            designation: PI-matchning
+            normative_status: preferred
         parents: []
         timeCreated: '2012-11-01T00:00:00.000Z'
         author:

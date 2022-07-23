@@ -1,40 +1,45 @@
-term: Uniform Resource Identifier
+---
 termid: 481
+term: URI
 eng:
   id: 481
-  abbrev: URI
-  definition: >-
-    unique identifier for a resource, structured in conformance with IETF RFC
-    2396
-  language_code: eng
+  terms:
+  - type: abbreviation
+    designation: URI
+  - type: expression
+    normative_status: preferred
+    designation: Uniform Resource Identifier
+  definition:
+  - content: unique identifier for a resource, structured in conformance with IETF
+      RFC 2396
   notes:
-    - >-
-      The general syntax is <scheme>::<scheme-specific-part>. The hierarchical
-      syntax with a namespace is <scheme>://<authority><path>?<query> - see RFC
-      2396.
+  - content: The general syntax is <scheme>::<scheme-specific-part>. The hierarchical
+      syntax with a namespace is <scheme>://<authority><path>?<query> - see RFC 2396.
   examples: []
+  language_code: eng
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19136-1:2020'
-    clause: '(E), 3.1.62'
-    link: 'https://www.iso.org/standard/75676.html'
-  lineage_source: 'ISO 19136:2007(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19136-1:2020
+      clause: "(E), 3.1.62"
+      link: https://www.iso.org/standard/75676.html
+  - type: lineage
+    origin:
+      ref: ISO 19136:2007(E)
   lineage_source_similarity: 1
-  date_accepted: '2007-09-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2007-09-01T00:00:00.000Z'
   review_date: '2020-01-09T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2020-01-09T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19136-1:2020(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19136:2007 to ISO 19136-1:2020(E),
-    3.1.62. Lineage source added as ISO 19136:2007(E)
+  review_decision_event: Publication of ISO 19136-1:2020(E)
+  review_decision_notes: Authoritative reference changed from ISO 19136:2007 to ISO
+    19136-1:2020(E), 3.1.62. Lineage source added as ISO 19136:2007(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: Uniform Resource Identifier
-      normative_status: preferred
   _revisions:
     current: a1441f
     tree:
@@ -42,38 +47,35 @@ eng:
         object:
           id: 481
           abbrev: URI
-          definition: >-
-            unique identifier for a resource, structured in conformance with
-            IETF RFC 2396
+          definition: unique identifier for a resource, structured in conformance
+            with IETF RFC 2396
           language_code: eng
           notes:
-            - >-
-              The general syntax is <scheme>::<scheme-specific-part>. The
-              hierarchical syntax with a namespace is
-              <scheme>://<authority><path>?<query> - see RFC 2396.
+          - The general syntax is <scheme>::<scheme-specific-part>. The hierarchical
+            syntax with a namespace is <scheme>://<authority><path>?<query> - see
+            RFC 2396.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19136-1:2020'
-            clause: '(E), 3.1.62'
-            link: 'https://www.iso.org/standard/75676.html'
-          lineage_source: 'ISO 19136:2007(E)'
+            ref: ISO 19136-1:2020
+            clause: "(E), 3.1.62"
+            link: https://www.iso.org/standard/75676.html
+          lineage_source: ISO 19136:2007(E)
           lineage_source_similarity: 1
           date_accepted: '2007-09-01T00:00:00.000Z'
           review_date: '2020-01-09T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2020-01-09T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19136-1:2020(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19136:2007 to ISO
-            19136-1:2020(E), 3.1.62. Lineage source added as ISO 19136:2007(E)
+          review_decision_event: Publication of ISO 19136-1:2020(E)
+          review_decision_notes: Authoritative reference changed from ISO 19136:2007
+            to ISO 19136-1:2020(E), 3.1.62. Lineage source added as ISO 19136:2007(E)
           release: '1'
           terms:
-            - type: expression
-              designation: Uniform Resource Identifier
-              normative_status: preferred
+          - type: expression
+            designation: Uniform Resource Identifier
+            normative_status: preferred
         parents: []
         timeCreated: '2007-09-01T00:00:00.000Z'
         author:
@@ -81,37 +83,43 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 481
-  abbrev: م م م
-  definition: رمز وحيد متفرد للمصدر تتم هيكلته وفقا لمقياس 2396 RFC IETF
-  language_code: ara
+  terms:
+  - type: abbreviation
+    designation: م م م
+  - type: expression
+    normative_status: preferred
+    designation: معرف الموارد الموحد
+  definition:
+  - content: رمز وحيد متفرد للمصدر تتم هيكلته وفقا لمقياس 2396 RFC IETF
   notes:
-    - >-
-      البناء العام للجملة هو <scheme>::<scheme-specific-part البناء الهرمي
-      للجملة التي لها حيز للاسم هو scheme>://<authority><path>?<query>  أنظر
-      المواصفة القياسيةRFC 2396.
+  - content: البناء العام للجملة هو <scheme>::<scheme-specific-part البناء الهرمي
+      للجملة التي لها حيز للاسم هو scheme>://<authority><path>?<query>  أنظر المواصفة
+      القياسيةRFC 2396.
   examples: []
+  language_code: ara
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19136-1:2020'
-    clause: '(E), 3.1.62'
-    link: 'https://www.iso.org/standard/75676.html'
-  lineage_source: 'ISO 19136:2007(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19136-1:2020
+      clause: "(E), 3.1.62"
+      link: https://www.iso.org/standard/75676.html
+  - type: lineage
+    origin:
+      ref: ISO 19136:2007(E)
   lineage_source_similarity: 1
-  date_accepted: '2007-09-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2007-09-01T00:00:00.000Z'
   review_date: '2020-01-09T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2020-01-09T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19136-1:2020(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19136:2007 to ISO 19136-1:2020(E),
-    3.1.62. Lineage source added as ISO 19136:2007(E)
+  review_decision_event: Publication of ISO 19136-1:2020(E)
+  review_decision_notes: Authoritative reference changed from ISO 19136:2007 to ISO
+    19136-1:2020(E), 3.1.62. Lineage source added as ISO 19136:2007(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: معرف الموارد الموحد
-      normative_status: preferred
   _revisions:
     current: ec3132
     tree:
@@ -122,34 +130,31 @@ ara:
           definition: رمز وحيد متفرد للمصدر تتم هيكلته وفقا لمقياس 2396 RFC IETF
           language_code: ara
           notes:
-            - >-
-              البناء العام للجملة هو <scheme>::<scheme-specific-part البناء
-              الهرمي للجملة التي لها حيز للاسم هو
-              scheme>://<authority><path>?<query>  أنظر المواصفة القياسيةRFC
-              2396.
+          - البناء العام للجملة هو <scheme>::<scheme-specific-part البناء الهرمي للجملة
+            التي لها حيز للاسم هو scheme>://<authority><path>?<query>  أنظر المواصفة
+            القياسيةRFC 2396.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19136-1:2020'
-            clause: '(E), 3.1.62'
-            link: 'https://www.iso.org/standard/75676.html'
-          lineage_source: 'ISO 19136:2007(E)'
+            ref: ISO 19136-1:2020
+            clause: "(E), 3.1.62"
+            link: https://www.iso.org/standard/75676.html
+          lineage_source: ISO 19136:2007(E)
           lineage_source_similarity: 1
           date_accepted: '2007-09-01T00:00:00.000Z'
           review_date: '2020-01-09T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2020-01-09T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19136-1:2020(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19136:2007 to ISO
-            19136-1:2020(E), 3.1.62. Lineage source added as ISO 19136:2007(E)
+          review_decision_event: Publication of ISO 19136-1:2020(E)
+          review_decision_notes: Authoritative reference changed from ISO 19136:2007
+            to ISO 19136-1:2020(E), 3.1.62. Lineage source added as ISO 19136:2007(E)
           release: '1'
           terms:
-            - type: expression
-              designation: معرف الموارد الموحد
-              normative_status: preferred
+          - type: expression
+            designation: معرف الموارد الموحد
+            normative_status: preferred
         parents: []
         timeCreated: '2007-09-01T00:00:00.000Z'
         author:
@@ -157,36 +162,42 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 481
-  abbrev: URI
-  definition: 资源的唯一标识符，其结构与IETF RFC 2396规范一致。
-  language_code: zho
+  terms:
+  - type: abbreviation
+    designation: URI
+  - type: expression
+    normative_status: preferred
+    designation: 统一资源标识符
+  definition:
+  - content: 资源的唯一标识符，其结构与IETF RFC 2396规范一致。
   notes:
-    - >-
-      一般句法是<scheme> : : <scheme-specific-part>。带有命名空间的分级句法是<scheme> : //
-      <authority> <path> ? <query>—参见[RFC 2396]。
+  - content: '一般句法是<scheme> : : <scheme-specific-part>。带有命名空间的分级句法是<scheme> : // <authority>
+      <path> ? <query>—参见[RFC 2396]。'
   examples: []
+  language_code: zho
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19136-1:2020'
-    clause: '(E), 3.1.62'
-    link: 'https://www.iso.org/standard/75676.html'
-  lineage_source: 'ISO 19136:2007(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19136-1:2020
+      clause: "(E), 3.1.62"
+      link: https://www.iso.org/standard/75676.html
+  - type: lineage
+    origin:
+      ref: ISO 19136:2007(E)
   lineage_source_similarity: 1
-  date_accepted: '2007-09-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2007-09-01T00:00:00.000Z'
   review_date: '2020-01-09T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2020-01-09T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19136-1:2020(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19136:2007 to ISO 19136-1:2020(E),
-    3.1.62. Lineage source added as ISO 19136:2007(E)
+  review_decision_event: Publication of ISO 19136-1:2020(E)
+  review_decision_notes: Authoritative reference changed from ISO 19136:2007 to ISO
+    19136-1:2020(E), 3.1.62. Lineage source added as ISO 19136:2007(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: 统一资源标识符
-      normative_status: preferred
   _revisions:
     current: c89091
     tree:
@@ -197,32 +208,30 @@ zho:
           definition: 资源的唯一标识符，其结构与IETF RFC 2396规范一致。
           language_code: zho
           notes:
-            - >-
-              一般句法是<scheme> : : <scheme-specific-part>。带有命名空间的分级句法是<scheme> : //
-              <authority> <path> ? <query>—参见[RFC 2396]。
+          - '一般句法是<scheme> : : <scheme-specific-part>。带有命名空间的分级句法是<scheme> : // <authority>
+            <path> ? <query>—参见[RFC 2396]。'
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19136-1:2020'
-            clause: '(E), 3.1.62'
-            link: 'https://www.iso.org/standard/75676.html'
-          lineage_source: 'ISO 19136:2007(E)'
+            ref: ISO 19136-1:2020
+            clause: "(E), 3.1.62"
+            link: https://www.iso.org/standard/75676.html
+          lineage_source: ISO 19136:2007(E)
           lineage_source_similarity: 1
           date_accepted: '2007-09-01T00:00:00.000Z'
           review_date: '2020-01-09T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2020-01-09T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19136-1:2020(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19136:2007 to ISO
-            19136-1:2020(E), 3.1.62. Lineage source added as ISO 19136:2007(E)
+          review_decision_event: Publication of ISO 19136-1:2020(E)
+          review_decision_notes: Authoritative reference changed from ISO 19136:2007
+            to ISO 19136-1:2020(E), 3.1.62. Lineage source added as ISO 19136:2007(E)
           release: '1'
           terms:
-            - type: expression
-              designation: 统一资源标识符
-              normative_status: preferred
+          - type: expression
+            designation: 统一资源标识符
+            normative_status: preferred
         parents: []
         timeCreated: '2007-09-01T00:00:00.000Z'
         author:
@@ -230,39 +239,45 @@ zho:
           email: glossarist@ribose.com
 fin:
   id: 481
-  abbrev: URI
-  definition: 'resurssin yksilöivä, rakenteeltaan IETF RTF 2396:n mukainen tunniste'
-  language_code: fin
+  terms:
+  - type: abbreviation
+    designation: URI
+  - type: expression
+    normative_status: preferred
+    designation: yksilöivä resurssitunniste
+  - type: expression
+    designation: Uniform Resource Identifier
+  definition:
+  - content: resurssin yksilöivä, rakenteeltaan IETF RTF 2396:n mukainen tunniste
   notes:
-    - >-
-      Yleinen syntaksi on <scheme>::<scheme-specific-part>. Hierarkkinen
-      syntaksi, jossa on mukana nimiavaruus, on
-      <scheme>://<authority><path>?<query>. Katso RFC 2396.
+  - content: Yleinen syntaksi on <scheme>::<scheme-specific-part>. Hierarkkinen syntaksi,
+      jossa on mukana nimiavaruus, on <scheme>://<authority><path>?<query>. Katso
+      RFC 2396.
   examples: []
+  language_code: fin
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19136-1:2020'
-    clause: '(E), 3.1.62'
-    link: 'https://www.iso.org/standard/75676.html'
-  lineage_source: 'ISO 19136:2007(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19136-1:2020
+      clause: "(E), 3.1.62"
+      link: https://www.iso.org/standard/75676.html
+  - type: lineage
+    origin:
+      ref: ISO 19136:2007(E)
   lineage_source_similarity: 1
-  date_accepted: '2007-09-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2007-09-01T00:00:00.000Z'
   review_date: '2020-01-09T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2020-01-09T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19136-1:2020(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19136:2007 to ISO 19136-1:2020(E),
-    3.1.62. Lineage source added as ISO 19136:2007(E)
+  review_decision_event: Publication of ISO 19136-1:2020(E)
+  review_decision_notes: Authoritative reference changed from ISO 19136:2007 to ISO
+    19136-1:2020(E), 3.1.62. Lineage source added as ISO 19136:2007(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: yksilöivä resurssitunniste
-      normative_status: preferred
-    - designation: Uniform Resource Identifier
-      type: expression
   _revisions:
     current: 4ddaa1
     tree:
@@ -270,38 +285,37 @@ fin:
         object:
           id: 481
           abbrev: URI
-          definition: 'resurssin yksilöivä, rakenteeltaan IETF RTF 2396:n mukainen tunniste'
+          definition: resurssin yksilöivä, rakenteeltaan IETF RTF 2396:n mukainen
+            tunniste
           language_code: fin
           notes:
-            - >-
-              Yleinen syntaksi on <scheme>::<scheme-specific-part>. Hierarkkinen
-              syntaksi, jossa on mukana nimiavaruus, on
-              <scheme>://<authority><path>?<query>. Katso RFC 2396.
+          - Yleinen syntaksi on <scheme>::<scheme-specific-part>. Hierarkkinen syntaksi,
+            jossa on mukana nimiavaruus, on <scheme>://<authority><path>?<query>.
+            Katso RFC 2396.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19136-1:2020'
-            clause: '(E), 3.1.62'
-            link: 'https://www.iso.org/standard/75676.html'
-          lineage_source: 'ISO 19136:2007(E)'
+            ref: ISO 19136-1:2020
+            clause: "(E), 3.1.62"
+            link: https://www.iso.org/standard/75676.html
+          lineage_source: ISO 19136:2007(E)
           lineage_source_similarity: 1
           date_accepted: '2007-09-01T00:00:00.000Z'
           review_date: '2020-01-09T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2020-01-09T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19136-1:2020(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19136:2007 to ISO
-            19136-1:2020(E), 3.1.62. Lineage source added as ISO 19136:2007(E)
+          review_decision_event: Publication of ISO 19136-1:2020(E)
+          review_decision_notes: Authoritative reference changed from ISO 19136:2007
+            to ISO 19136-1:2020(E), 3.1.62. Lineage source added as ISO 19136:2007(E)
           release: '1'
           terms:
-            - type: expression
-              designation: yksilöivä resurssitunniste
-              normative_status: preferred
-            - designation: Uniform Resource Identifier
-              type: expression
+          - type: expression
+            designation: yksilöivä resurssitunniste
+            normative_status: preferred
+          - designation: Uniform Resource Identifier
+            type: expression
         parents: []
         timeCreated: '2007-09-01T00:00:00.000Z'
         author:
@@ -309,68 +323,71 @@ fin:
           email: glossarist@ribose.com
 fra:
   id: 481
-  definition: >-
-    identifiant unique d'une ressource, structuré en conformité avec l'IETF RFC
-    2396
-  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Identifiant de Ressource Universel
+  definition:
+  - content: identifiant unique d'une ressource, structuré en conformité avec l'IETF
+      RFC 2396
   notes: []
   examples: []
+  language_code: fra
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19136-1:2020'
-    clause: '(E), 3.1.62'
-    link: 'https://www.iso.org/standard/75676.html'
-  lineage_source: 'ISO 19136:2007(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19136-1:2020
+      clause: "(E), 3.1.62"
+      link: https://www.iso.org/standard/75676.html
+  - type: lineage
+    origin:
+      ref: ISO 19136:2007(E)
   lineage_source_similarity: 1
-  date_accepted: '2007-09-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2007-09-01T00:00:00.000Z'
   review_date: '2020-01-09T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2020-01-09T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19136-1:2020(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19136:2007 to ISO 19136-1:2020(E),
-    3.1.62. Lineage source added as ISO 19136:2007(E)
+  review_decision_event: Publication of ISO 19136-1:2020(E)
+  review_decision_notes: Authoritative reference changed from ISO 19136:2007 to ISO
+    19136-1:2020(E), 3.1.62. Lineage source added as ISO 19136:2007(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: Identifiant de Ressource Universel
-      normative_status: preferred
   _revisions:
     current: dfe0d8
     tree:
       dfe0d8:
         object:
           id: 481
-          definition: >-
-            identifiant unique d'une ressource, structuré en conformité avec
-            l'IETF RFC 2396
+          definition: identifiant unique d'une ressource, structuré en conformité
+            avec l'IETF RFC 2396
           language_code: fra
           notes: []
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19136-1:2020'
-            clause: '(E), 3.1.62'
-            link: 'https://www.iso.org/standard/75676.html'
-          lineage_source: 'ISO 19136:2007(E)'
+            ref: ISO 19136-1:2020
+            clause: "(E), 3.1.62"
+            link: https://www.iso.org/standard/75676.html
+          lineage_source: ISO 19136:2007(E)
           lineage_source_similarity: 1
           date_accepted: '2007-09-01T00:00:00.000Z'
           review_date: '2020-01-09T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2020-01-09T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19136-1:2020(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19136:2007 to ISO
-            19136-1:2020(E), 3.1.62. Lineage source added as ISO 19136:2007(E)
+          review_decision_event: Publication of ISO 19136-1:2020(E)
+          review_decision_notes: Authoritative reference changed from ISO 19136:2007
+            to ISO 19136-1:2020(E), 3.1.62. Lineage source added as ISO 19136:2007(E)
           release: '1'
           terms:
-            - type: expression
-              designation: Identifiant de Ressource Universel
-              normative_status: preferred
+          - type: expression
+            designation: Identifiant de Ressource Universel
+            normative_status: preferred
         parents: []
         timeCreated: '2007-09-01T00:00:00.000Z'
         author:
@@ -378,37 +395,43 @@ fra:
           email: glossarist@ribose.com
 deu:
   id: 481
-  abbrev: URI
-  definition: "eindeutiger Identifikator für eine Ressource, der in Übereinstimmung mit IETF\_RFC\_2396 aufgebaut ist"
-  language_code: deu
+  terms:
+  - type: abbreviation
+    designation: URI
+  - type: expression
+    normative_status: preferred
+    designation: Uniform Resource Identifier
+  definition:
+  - content: eindeutiger Identifikator für eine Ressource, der in Übereinstimmung
+      mit IETF RFC 2396 aufgebaut ist
   notes:
-    - >-
-      The general syntax is <scheme>::<scheme-specific-part>. The hierarchical
-      syntax with a namespace is <scheme>://<authority><path>?<query> - see RFC
-      2396.
+  - content: The general syntax is <scheme>::<scheme-specific-part>. The hierarchical
+      syntax with a namespace is <scheme>://<authority><path>?<query> - see RFC 2396.
   examples: []
+  language_code: deu
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19136-1:2020'
-    clause: '(E), 3.1.62'
-    link: 'https://www.iso.org/standard/75676.html'
-  lineage_source: 'ISO 19136:2007(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19136-1:2020
+      clause: "(E), 3.1.62"
+      link: https://www.iso.org/standard/75676.html
+  - type: lineage
+    origin:
+      ref: ISO 19136:2007(E)
   lineage_source_similarity: 1
-  date_accepted: '2007-09-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2007-09-01T00:00:00.000Z'
   review_date: '2020-01-09T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2020-01-09T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19136-1:2020(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19136:2007 to ISO 19136-1:2020(E),
-    3.1.62. Lineage source added as ISO 19136:2007(E)
+  review_decision_event: Publication of ISO 19136-1:2020(E)
+  review_decision_notes: Authoritative reference changed from ISO 19136:2007 to ISO
+    19136-1:2020(E), 3.1.62. Lineage source added as ISO 19136:2007(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: Uniform Resource Identifier
-      normative_status: preferred
   _revisions:
     current: d574d8
     tree:
@@ -416,36 +439,35 @@ deu:
         object:
           id: 481
           abbrev: URI
-          definition: "eindeutiger Identifikator für eine Ressource, der in Übereinstimmung mit IETF\_RFC\_2396 aufgebaut ist"
+          definition: eindeutiger Identifikator für eine Ressource, der in Übereinstimmung
+            mit IETF RFC 2396 aufgebaut ist
           language_code: deu
           notes:
-            - >-
-              The general syntax is <scheme>::<scheme-specific-part>. The
-              hierarchical syntax with a namespace is
-              <scheme>://<authority><path>?<query> - see RFC 2396.
+          - The general syntax is <scheme>::<scheme-specific-part>. The hierarchical
+            syntax with a namespace is <scheme>://<authority><path>?<query> - see
+            RFC 2396.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19136-1:2020'
-            clause: '(E), 3.1.62'
-            link: 'https://www.iso.org/standard/75676.html'
-          lineage_source: 'ISO 19136:2007(E)'
+            ref: ISO 19136-1:2020
+            clause: "(E), 3.1.62"
+            link: https://www.iso.org/standard/75676.html
+          lineage_source: ISO 19136:2007(E)
           lineage_source_similarity: 1
           date_accepted: '2007-09-01T00:00:00.000Z'
           review_date: '2020-01-09T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2020-01-09T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19136-1:2020(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19136:2007 to ISO
-            19136-1:2020(E), 3.1.62. Lineage source added as ISO 19136:2007(E)
+          review_decision_event: Publication of ISO 19136-1:2020(E)
+          review_decision_notes: Authoritative reference changed from ISO 19136:2007
+            to ISO 19136-1:2020(E), 3.1.62. Lineage source added as ISO 19136:2007(E)
           release: '1'
           terms:
-            - type: expression
-              designation: Uniform Resource Identifier
-              normative_status: preferred
+          - type: expression
+            designation: Uniform Resource Identifier
+            normative_status: preferred
         parents: []
         timeCreated: '2007-09-01T00:00:00.000Z'
         author:
@@ -453,36 +475,42 @@ deu:
           email: glossarist@ribose.com
 kor:
   id: 481
-  abbrev: URI
-  definition: 'IETF RFC 2396에 대한 적합성을 만족하는, 자원에 대한 고유한 식별자'
-  language_code: kor
+  terms:
+  - type: abbreviation
+    designation: URI
+  - type: expression
+    normative_status: preferred
+    designation: URI
+  definition:
+  - content: IETF RFC 2396에 대한 적합성을 만족하는, 자원에 대한 고유한 식별자
   notes:
-    - >-
-      일반적인 문법은 <scheme>::<scheme-specific-part>이다. 이름 공간과 함께 계층적 문법은
-      <scheme>://<authority><path>?<query>이다. RFC 2396을 참고하라.
+  - content: 일반적인 문법은 <scheme>::<scheme-specific-part>이다. 이름 공간과 함께 계층적 문법은 <scheme>://<authority><path>?<query>이다.
+      RFC 2396을 참고하라.
   examples: []
+  language_code: kor
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19136-1:2020'
-    clause: '(E), 3.1.62'
-    link: 'https://www.iso.org/standard/75676.html'
-  lineage_source: 'ISO 19136:2007(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19136-1:2020
+      clause: "(E), 3.1.62"
+      link: https://www.iso.org/standard/75676.html
+  - type: lineage
+    origin:
+      ref: ISO 19136:2007(E)
   lineage_source_similarity: 1
-  date_accepted: '2007-09-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2007-09-01T00:00:00.000Z'
   review_date: '2020-01-09T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2020-01-09T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19136-1:2020(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19136:2007 to ISO 19136-1:2020(E),
-    3.1.62. Lineage source added as ISO 19136:2007(E)
+  review_decision_event: Publication of ISO 19136-1:2020(E)
+  review_decision_notes: Authoritative reference changed from ISO 19136:2007 to ISO
+    19136-1:2020(E), 3.1.62. Lineage source added as ISO 19136:2007(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: URI
-      normative_status: preferred
   _revisions:
     current: d5a18e
     tree:
@@ -490,35 +518,33 @@ kor:
         object:
           id: 481
           abbrev: URI
-          definition: 'IETF RFC 2396에 대한 적합성을 만족하는, 자원에 대한 고유한 식별자'
+          definition: IETF RFC 2396에 대한 적합성을 만족하는, 자원에 대한 고유한 식별자
           language_code: kor
           notes:
-            - >-
-              일반적인 문법은 <scheme>::<scheme-specific-part>이다. 이름 공간과 함께 계층적 문법은
-              <scheme>://<authority><path>?<query>이다. RFC 2396을 참고하라.
+          - 일반적인 문법은 <scheme>::<scheme-specific-part>이다. 이름 공간과 함께 계층적 문법은 <scheme>://<authority><path>?<query>이다.
+            RFC 2396을 참고하라.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19136-1:2020'
-            clause: '(E), 3.1.62'
-            link: 'https://www.iso.org/standard/75676.html'
-          lineage_source: 'ISO 19136:2007(E)'
+            ref: ISO 19136-1:2020
+            clause: "(E), 3.1.62"
+            link: https://www.iso.org/standard/75676.html
+          lineage_source: ISO 19136:2007(E)
           lineage_source_similarity: 1
           date_accepted: '2007-09-01T00:00:00.000Z'
           review_date: '2020-01-09T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2020-01-09T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19136-1:2020(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19136:2007 to ISO
-            19136-1:2020(E), 3.1.62. Lineage source added as ISO 19136:2007(E)
+          review_decision_event: Publication of ISO 19136-1:2020(E)
+          review_decision_notes: Authoritative reference changed from ISO 19136:2007
+            to ISO 19136-1:2020(E), 3.1.62. Lineage source added as ISO 19136:2007(E)
           release: '1'
           terms:
-            - type: expression
-              designation: URI
-              normative_status: preferred
+          - type: expression
+            designation: URI
+            normative_status: preferred
         parents: []
         timeCreated: '2007-09-01T00:00:00.000Z'
         author:
@@ -526,39 +552,43 @@ kor:
           email: glossarist@ribose.com
 msa:
   id: 481
-  abbrev: URI
-  definition: >-
-    pengecam sumber sejagat yang unik untuk sumber, berstruktur sesuai dengan
-    IETF RFC 2396
-  language_code: msa
+  terms:
+  - type: abbreviation
+    designation: URI
+  - type: expression
+    normative_status: preferred
+    designation: pengecam sumber seragam/ pengidentifikasi sumber seragam
+  definition:
+  - content: pengecam sumber sejagat yang unik untuk sumber, berstruktur sesuai dengan
+      IETF RFC 2396
   notes:
-    - >-
-      The general syntax is <scheme>::<scheme-specific-part>. The hierarchical
-      syntax with a namespace is <scheme>://<authority><path>?<query> - see RFC
-      2396.
+  - content: The general syntax is <scheme>::<scheme-specific-part>. The hierarchical
+      syntax with a namespace is <scheme>://<authority><path>?<query> - see RFC 2396.
   examples: []
+  language_code: msa
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19136-1:2020'
-    clause: '(E), 3.1.62'
-    link: 'https://www.iso.org/standard/75676.html'
-  lineage_source: 'ISO 19136:2007(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19136-1:2020
+      clause: "(E), 3.1.62"
+      link: https://www.iso.org/standard/75676.html
+  - type: lineage
+    origin:
+      ref: ISO 19136:2007(E)
   lineage_source_similarity: 1
-  date_accepted: '2007-09-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2007-09-01T00:00:00.000Z'
   review_date: '2020-01-09T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2020-01-09T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19136-1:2020(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19136:2007 to ISO 19136-1:2020(E),
-    3.1.62. Lineage source added as ISO 19136:2007(E)
+  review_decision_event: Publication of ISO 19136-1:2020(E)
+  review_decision_notes: Authoritative reference changed from ISO 19136:2007 to ISO
+    19136-1:2020(E), 3.1.62. Lineage source added as ISO 19136:2007(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: pengecam sumber seragam/ pengidentifikasi sumber seragam
-      normative_status: preferred
   _revisions:
     current: '900872'
     tree:
@@ -566,38 +596,35 @@ msa:
         object:
           id: 481
           abbrev: URI
-          definition: >-
-            pengecam sumber sejagat yang unik untuk sumber, berstruktur sesuai
-            dengan IETF RFC 2396
+          definition: pengecam sumber sejagat yang unik untuk sumber, berstruktur
+            sesuai dengan IETF RFC 2396
           language_code: msa
           notes:
-            - >-
-              The general syntax is <scheme>::<scheme-specific-part>. The
-              hierarchical syntax with a namespace is
-              <scheme>://<authority><path>?<query> - see RFC 2396.
+          - The general syntax is <scheme>::<scheme-specific-part>. The hierarchical
+            syntax with a namespace is <scheme>://<authority><path>?<query> - see
+            RFC 2396.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19136-1:2020'
-            clause: '(E), 3.1.62'
-            link: 'https://www.iso.org/standard/75676.html'
-          lineage_source: 'ISO 19136:2007(E)'
+            ref: ISO 19136-1:2020
+            clause: "(E), 3.1.62"
+            link: https://www.iso.org/standard/75676.html
+          lineage_source: ISO 19136:2007(E)
           lineage_source_similarity: 1
           date_accepted: '2007-09-01T00:00:00.000Z'
           review_date: '2020-01-09T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2020-01-09T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19136-1:2020(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19136:2007 to ISO
-            19136-1:2020(E), 3.1.62. Lineage source added as ISO 19136:2007(E)
+          review_decision_event: Publication of ISO 19136-1:2020(E)
+          review_decision_notes: Authoritative reference changed from ISO 19136:2007
+            to ISO 19136-1:2020(E), 3.1.62. Lineage source added as ISO 19136:2007(E)
           release: '1'
           terms:
-            - type: expression
-              designation: pengecam sumber seragam/ pengidentifikasi sumber seragam
-              normative_status: preferred
+          - type: expression
+            designation: pengecam sumber seragam/ pengidentifikasi sumber seragam
+            normative_status: preferred
         parents: []
         timeCreated: '2007-09-01T00:00:00.000Z'
         author:
@@ -605,39 +632,44 @@ msa:
           email: glossarist@ribose.com
 rus:
   id: 481
-  abbrev: URI
-  definition: >-
-    уникальный идентификатор,  назначаемый данному ресурсу и структурированный в
-    соответствии с документом IETF RFC 2396
-  language_code: rus
+  terms:
+  - type: abbreviation
+    designation: URI
+  - type: expression
+    normative_status: preferred
+    designation: унифицированный идентификатор ресурса
+  definition:
+  - content: уникальный идентификатор,  назначаемый данному ресурсу и структурированный
+      в соответствии с документом IETF RFC 2396
   notes:
-    - >-
-      Общим синтаксисом является  <scheme>::<scheme-specific-part>.
-      Иерархический синтаксис с пространством имен -
-      <scheme>://<authority><path>?<query> - см. RFC 2396.
+  - content: Общим синтаксисом является  <scheme>::<scheme-specific-part>. Иерархический
+      синтаксис с пространством имен - <scheme>://<authority><path>?<query> - см.
+      RFC 2396.
   examples: []
+  language_code: rus
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19136-1:2020'
-    clause: '(E), 3.1.62'
-    link: 'https://www.iso.org/standard/75676.html'
-  lineage_source: 'ISO 19136:2007(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19136-1:2020
+      clause: "(E), 3.1.62"
+      link: https://www.iso.org/standard/75676.html
+  - type: lineage
+    origin:
+      ref: ISO 19136:2007(E)
   lineage_source_similarity: 1
-  date_accepted: '2007-09-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2007-09-01T00:00:00.000Z'
   review_date: '2020-01-09T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2020-01-09T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19136-1:2020(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19136:2007 to ISO 19136-1:2020(E),
-    3.1.62. Lineage source added as ISO 19136:2007(E)
+  review_decision_event: Publication of ISO 19136-1:2020(E)
+  review_decision_notes: Authoritative reference changed from ISO 19136:2007 to ISO
+    19136-1:2020(E), 3.1.62. Lineage source added as ISO 19136:2007(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: унифицированный идентификатор ресурса
-      normative_status: preferred
   _revisions:
     current: ac36c1
     tree:
@@ -645,38 +677,35 @@ rus:
         object:
           id: 481
           abbrev: URI
-          definition: >-
-            уникальный идентификатор,  назначаемый данному ресурсу и
-            структурированный в соответствии с документом IETF RFC 2396
+          definition: уникальный идентификатор,  назначаемый данному ресурсу и структурированный
+            в соответствии с документом IETF RFC 2396
           language_code: rus
           notes:
-            - >-
-              Общим синтаксисом является  <scheme>::<scheme-specific-part>.
-              Иерархический синтаксис с пространством имен -
-              <scheme>://<authority><path>?<query> - см. RFC 2396.
+          - Общим синтаксисом является  <scheme>::<scheme-specific-part>. Иерархический
+            синтаксис с пространством имен - <scheme>://<authority><path>?<query>
+            - см. RFC 2396.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19136-1:2020'
-            clause: '(E), 3.1.62'
-            link: 'https://www.iso.org/standard/75676.html'
-          lineage_source: 'ISO 19136:2007(E)'
+            ref: ISO 19136-1:2020
+            clause: "(E), 3.1.62"
+            link: https://www.iso.org/standard/75676.html
+          lineage_source: ISO 19136:2007(E)
           lineage_source_similarity: 1
           date_accepted: '2007-09-01T00:00:00.000Z'
           review_date: '2020-01-09T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2020-01-09T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19136-1:2020(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19136:2007 to ISO
-            19136-1:2020(E), 3.1.62. Lineage source added as ISO 19136:2007(E)
+          review_decision_event: Publication of ISO 19136-1:2020(E)
+          review_decision_notes: Authoritative reference changed from ISO 19136:2007
+            to ISO 19136-1:2020(E), 3.1.62. Lineage source added as ISO 19136:2007(E)
           release: '1'
           terms:
-            - type: expression
-              designation: унифицированный идентификатор ресурса
-              normative_status: preferred
+          - type: expression
+            designation: унифицированный идентификатор ресурса
+            normative_status: preferred
         parents: []
         timeCreated: '2007-09-01T00:00:00.000Z'
         author:
@@ -684,39 +713,44 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 481
-  abbrev: URI
-  definition: >-
-    identifica un indicador para un recurso dado, estructurado conforme a IETF
-    RFC 2396
-  language_code: spa
+  terms:
+  - type: abbreviation
+    designation: URI
+  - type: expression
+    normative_status: preferred
+    designation: identificador uniforme de recursos
+  definition:
+  - content: identifica un indicador para un recurso dado, estructurado conforme a
+      IETF RFC 2396
   notes:
-    - >-
-      La sintásis general es <esquema>::<parte-específica-esquema>. La sintásis
-      jerárquica con un espacio de nombres es
-      <esquema>://<autoridad><ruta>?<consulta> - véase RFC 2396
+  - content: La sintásis general es <esquema>::<parte-específica-esquema>. La sintásis
+      jerárquica con un espacio de nombres es <esquema>://<autoridad><ruta>?<consulta>
+      - véase RFC 2396
   examples: []
+  language_code: spa
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19136-1:2020'
-    clause: '(E), 3.1.62'
-    link: 'https://www.iso.org/standard/75676.html'
-  lineage_source: 'ISO 19136:2007(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19136-1:2020
+      clause: "(E), 3.1.62"
+      link: https://www.iso.org/standard/75676.html
+  - type: lineage
+    origin:
+      ref: ISO 19136:2007(E)
   lineage_source_similarity: 1
-  date_accepted: '2007-09-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2007-09-01T00:00:00.000Z'
   review_date: '2020-01-09T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2020-01-09T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19136-1:2020(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19136:2007 to ISO 19136-1:2020(E),
-    3.1.62. Lineage source added as ISO 19136:2007(E)
+  review_decision_event: Publication of ISO 19136-1:2020(E)
+  review_decision_notes: Authoritative reference changed from ISO 19136:2007 to ISO
+    19136-1:2020(E), 3.1.62. Lineage source added as ISO 19136:2007(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: identificador uniforme de recursos
-      normative_status: preferred
   _revisions:
     current: 3e815d
     tree:
@@ -724,38 +758,35 @@ spa:
         object:
           id: 481
           abbrev: URI
-          definition: >-
-            identifica un indicador para un recurso dado, estructurado conforme
+          definition: identifica un indicador para un recurso dado, estructurado conforme
             a IETF RFC 2396
           language_code: spa
           notes:
-            - >-
-              La sintásis general es <esquema>::<parte-específica-esquema>. La
-              sintásis jerárquica con un espacio de nombres es
-              <esquema>://<autoridad><ruta>?<consulta> - véase RFC 2396
+          - La sintásis general es <esquema>::<parte-específica-esquema>. La sintásis
+            jerárquica con un espacio de nombres es <esquema>://<autoridad><ruta>?<consulta>
+            - véase RFC 2396
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19136-1:2020'
-            clause: '(E), 3.1.62'
-            link: 'https://www.iso.org/standard/75676.html'
-          lineage_source: 'ISO 19136:2007(E)'
+            ref: ISO 19136-1:2020
+            clause: "(E), 3.1.62"
+            link: https://www.iso.org/standard/75676.html
+          lineage_source: ISO 19136:2007(E)
           lineage_source_similarity: 1
           date_accepted: '2007-09-01T00:00:00.000Z'
           review_date: '2020-01-09T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2020-01-09T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19136-1:2020(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19136:2007 to ISO
-            19136-1:2020(E), 3.1.62. Lineage source added as ISO 19136:2007(E)
+          review_decision_event: Publication of ISO 19136-1:2020(E)
+          review_decision_notes: Authoritative reference changed from ISO 19136:2007
+            to ISO 19136-1:2020(E), 3.1.62. Lineage source added as ISO 19136:2007(E)
           release: '1'
           terms:
-            - type: expression
-              designation: identificador uniforme de recursos
-              normative_status: preferred
+          - type: expression
+            designation: identificador uniforme de recursos
+            normative_status: preferred
         parents: []
         timeCreated: '2007-09-01T00:00:00.000Z'
         author:
@@ -763,44 +794,45 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 481
-  abbrev: URI
-  definition: >-
-    består av en kompakt sträng av tecken som används för att identifiera eller
-    namnge en resurs.
+  terms:
+  - type: abbreviation
+    designation: URI
+  - type: expression
+    normative_status: preferred
+    designation: universell identifikator för Internet-resurser
+  definition:
+  - content: består av en kompakt sträng av tecken som används för att identifiera
+      eller namnge en resurs.
+  notes:
+  - content: |-
+      The general syntax is <scheme>::<scheme-specific-part>. The hierarchical syntax with a namespace is <scheme>://<authority><path>?<query> - see RFC 2396.
+      Den huvudsakliga orsaken för denna identifiering är att ge möjlighet att med särskilda protokoll referera till resursen över ett nätverk, typiskt World Wide Web.
+  examples: []
   country_code: swe
   language_code: swe
-  notes:
-    - >-
-      The general syntax is <scheme>::<scheme-specific-part>. The hierarchical
-      syntax with a namespace is <scheme>://<authority><path>?<query> - see RFC
-      2396.
-
-      Den huvudsakliga orsaken för denna identifiering är att ge möjlighet att
-      med särskilda protokoll referera till resursen över ett nätverk, typiskt
-      World Wide Web.
-  examples: []
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19136-1:2020'
-    clause: '(E), 3.1.62'
-    link: 'https://www.iso.org/standard/75676.html'
-  lineage_source: 'ISO 19136:2007(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19136-1:2020
+      clause: "(E), 3.1.62"
+      link: https://www.iso.org/standard/75676.html
+  - type: lineage
+    origin:
+      ref: ISO 19136:2007(E)
   lineage_source_similarity: 1
-  date_accepted: '2007-09-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2007-09-01T00:00:00.000Z'
   review_date: '2020-01-09T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2020-01-09T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19136-1:2020(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19136:2007 to ISO 19136-1:2020(E),
-    3.1.62. Lineage source added as ISO 19136:2007(E)
+  review_decision_event: Publication of ISO 19136-1:2020(E)
+  review_decision_notes: Authoritative reference changed from ISO 19136:2007 to ISO
+    19136-1:2020(E), 3.1.62. Lineage source added as ISO 19136:2007(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: universell identifikator för Internet-resurser
-      normative_status: preferred
   _revisions:
     current: cfa520
     tree:
@@ -808,43 +840,36 @@ swe:
         object:
           id: 481
           abbrev: URI
-          definition: >-
-            består av en kompakt sträng av tecken som används för att
-            identifiera eller namnge en resurs.
+          definition: består av en kompakt sträng av tecken som används för att identifiera
+            eller namnge en resurs.
           country_code: swe
           language_code: swe
           notes:
-            - >-
-              The general syntax is <scheme>::<scheme-specific-part>. The
-              hierarchical syntax with a namespace is
-              <scheme>://<authority><path>?<query> - see RFC 2396.
-
-              Den huvudsakliga orsaken för denna identifiering är att ge
-              möjlighet att med särskilda protokoll referera till resursen över
-              ett nätverk, typiskt World Wide Web.
+          - |-
+            The general syntax is <scheme>::<scheme-specific-part>. The hierarchical syntax with a namespace is <scheme>://<authority><path>?<query> - see RFC 2396.
+            Den huvudsakliga orsaken för denna identifiering är att ge möjlighet att med särskilda protokoll referera till resursen över ett nätverk, typiskt World Wide Web.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19136-1:2020'
-            clause: '(E), 3.1.62'
-            link: 'https://www.iso.org/standard/75676.html'
-          lineage_source: 'ISO 19136:2007(E)'
+            ref: ISO 19136-1:2020
+            clause: "(E), 3.1.62"
+            link: https://www.iso.org/standard/75676.html
+          lineage_source: ISO 19136:2007(E)
           lineage_source_similarity: 1
           date_accepted: '2007-09-01T00:00:00.000Z'
           review_date: '2020-01-09T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2020-01-09T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19136-1:2020(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19136:2007 to ISO
-            19136-1:2020(E), 3.1.62. Lineage source added as ISO 19136:2007(E)
+          review_decision_event: Publication of ISO 19136-1:2020(E)
+          review_decision_notes: Authoritative reference changed from ISO 19136:2007
+            to ISO 19136-1:2020(E), 3.1.62. Lineage source added as ISO 19136:2007(E)
           release: '1'
           terms:
-            - type: expression
-              designation: universell identifikator för Internet-resurser
-              normative_status: preferred
+          - type: expression
+            designation: universell identifikator för Internet-resurser
+            normative_status: preferred
         parents: []
         timeCreated: '2007-09-01T00:00:00.000Z'
         author:

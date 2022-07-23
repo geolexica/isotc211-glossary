@@ -1,38 +1,45 @@
-term: ellipsoidal longitude
+---
 termid: 504
+term: l
 eng:
   id: 504
-  abbrev: l
-  definition: >-
-    angle from the prime meridian plane to the meridian plane of a given point,
-    eastward treated as positive
-  language_code: eng
+  terms:
+  - type: abbreviation
+    designation: l
+  - type: expression
+    normative_status: admitted
+    designation: ellipsoidal longitude
+  - type: expression
+    designation: geodetic longitude
+  definition:
+  - content: angle from the prime meridian plane to the meridian plane of a given
+      point, eastward treated as positive
   notes: []
   examples: []
+  language_code: eng
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.33'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.33"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.33. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: ellipsoidal longitude
-      normative_status: admitted
-    - designation: geodetic longitude
-      type: expression
   _revisions:
     current: ec9c99
     tree:
@@ -40,36 +47,34 @@ eng:
         object:
           id: 504
           abbrev: l
-          definition: >-
-            angle from the prime meridian plane to the meridian plane of a given
-            point, eastward treated as positive
+          definition: angle from the prime meridian plane to the meridian plane of
+            a given point, eastward treated as positive
           language_code: eng
           notes: []
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.33'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.33"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: ellipsoidal longitude
-              normative_status: admitted
-            - designation: geodetic longitude
-              type: expression
+          - type: expression
+            designation: ellipsoidal longitude
+            normative_status: admitted
+          - designation: geodetic longitude
+            type: expression
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -77,72 +82,75 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 504
-  definition: >-
-    الزاوية من مستوى خط الطول الاساسي (غرينتش) ومستوى خط الزوال الرأسي لنقطة
-    معينة ، وتعتبر موجبة عند الاتجاه إلى الشرق
-  language_code: ara
+  terms:
+  - type: expression
+    normative_status: admitted
+    designation: خط طول القطع الناقص
+  - type: expression
+    designation: geodetic longitude
+  definition:
+  - content: الزاوية من مستوى خط الطول الاساسي (غرينتش) ومستوى خط الزوال الرأسي لنقطة
+      معينة ، وتعتبر موجبة عند الاتجاه إلى الشرق
   notes: []
   examples: []
+  language_code: ara
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.33'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.33"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.33. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: خط طول القطع الناقص
-      normative_status: admitted
-    - designation: geodetic longitude
-      type: expression
   _revisions:
     current: ac24a4
     tree:
       ac24a4:
         object:
           id: 504
-          definition: >-
-            الزاوية من مستوى خط الطول الاساسي (غرينتش) ومستوى خط الزوال الرأسي
-            لنقطة معينة ، وتعتبر موجبة عند الاتجاه إلى الشرق
+          definition: الزاوية من مستوى خط الطول الاساسي (غرينتش) ومستوى خط الزوال
+            الرأسي لنقطة معينة ، وتعتبر موجبة عند الاتجاه إلى الشرق
           language_code: ara
           notes: []
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.33'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.33"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: خط طول القطع الناقص
-              normative_status: admitted
-            - designation: geodetic longitude
-              type: expression
+          - type: expression
+            designation: خط طول القطع الناقص
+            normative_status: admitted
+          - designation: geodetic longitude
+            type: expression
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -150,35 +158,42 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 504
-  abbrev: l
-  definition: 首子午面与通过给定点的子午线面间的夹角，向东为正。
-  language_code: zho
+  terms:
+  - type: abbreviation
+    designation: l
+  - type: expression
+    normative_status: admitted
+    designation: 椭球经度
+  - type: expression
+    designation: geodetic longitude
+  definition:
+  - content: 首子午面与通过给定点的子午线面间的夹角，向东为正。
   notes: []
   examples: []
+  language_code: zho
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.33'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.33"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.33. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: 椭球经度
-      normative_status: admitted
-    - designation: geodetic longitude
-      type: expression
   _revisions:
     current: 4ceb70
     tree:
@@ -193,27 +208,26 @@ zho:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.33'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.33"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: 椭球经度
-              normative_status: admitted
-            - designation: geodetic longitude
-              type: expression
+          - type: expression
+            designation: 椭球经度
+            normative_status: admitted
+          - designation: geodetic longitude
+            type: expression
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -221,66 +235,68 @@ zho:
           email: glossarist@ribose.com
 dan:
   id: 504
-  definition: >-
-    vinkel fra hovedmeridianplanet til et givet punkts meridianplan, hvor øst
-    regnes positiv
-  language_code: dan
+  terms:
+  - type: expression
+    designation: ellipsoidelængde
+  definition:
+  - content: vinkel fra hovedmeridianplanet til et givet punkts meridianplan, hvor
+      øst regnes positiv
   notes: []
   examples: []
+  language_code: dan
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.33'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.33"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.33. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: ellipsoidelængde
-      normative_status: null
   _revisions:
     current: 7ee60d
     tree:
       7ee60d:
         object:
           id: 504
-          definition: >-
-            vinkel fra hovedmeridianplanet til et givet punkts meridianplan,
+          definition: vinkel fra hovedmeridianplanet til et givet punkts meridianplan,
             hvor øst regnes positiv
           language_code: dan
           notes: []
           examples: []
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.33'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.33"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: ellipsoidelængde
-              normative_status: null
+          - type: expression
+            designation: ellipsoidelængde
+            normative_status:
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -288,37 +304,43 @@ dan:
           email: glossarist@ribose.com
 nld:
   id: 504
-  abbrev: l
-  definition: >-
-    hoek vanaf het vlak van de nulmeridiaan tot het meridiaan vlak van een
-    gegeven punt, oostwaarts wordt als positief genomen
-  language_code: nld
+  terms:
+  - type: abbreviation
+    designation: l
+  - type: expression
+    normative_status: admitted
+    designation: ellipsoïde lengte
+  - type: expression
+    designation: geodetische lengte
+  definition:
+  - content: hoek vanaf het vlak van de nulmeridiaan tot het meridiaan vlak van een
+      gegeven punt, oostwaarts wordt als positief genomen
   notes: []
   examples: []
+  language_code: nld
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.33'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.33"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.33. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: ellipsoïde lengte
-      normative_status: admitted
-    - designation: geodetische lengte
-      type: expression
   _revisions:
     current: 46f863
     tree:
@@ -326,36 +348,34 @@ nld:
         object:
           id: 504
           abbrev: l
-          definition: >-
-            hoek vanaf het vlak van de nulmeridiaan tot het meridiaan vlak van
-            een gegeven punt, oostwaarts wordt als positief genomen
+          definition: hoek vanaf het vlak van de nulmeridiaan tot het meridiaan vlak
+            van een gegeven punt, oostwaarts wordt als positief genomen
           language_code: nld
           notes: []
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.33'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.33"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: ellipsoïde lengte
-              normative_status: admitted
-            - designation: geodetische lengte
-              type: expression
+          - type: expression
+            designation: ellipsoïde lengte
+            normative_status: admitted
+          - designation: geodetische lengte
+            type: expression
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -363,37 +383,43 @@ nld:
           email: glossarist@ribose.com
 fin:
   id: 504
-  abbrev: λ
-  definition: >-
-    kulma nollameridiaanitasosta pisteen meridiaanitasoon ; positiivinen
-    nollameridiaanista itään
-  language_code: fin
+  terms:
+  - type: abbreviation
+    designation: λ
+  - type: expression
+    normative_status: preferred
+    designation: ellipsoidinen pituusaste
+  - type: expression
+    designation: ellipsoidinen longitudi
+  definition:
+  - content: kulma nollameridiaanitasosta pisteen meridiaanitasoon ; positiivinen
+      nollameridiaanista itään
   notes: []
   examples: []
+  language_code: fin
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.33'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.33"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.33. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: ellipsoidinen pituusaste
-      normative_status: preferred
-    - designation: ellipsoidinen longitudi
-      type: expression
   _revisions:
     current: 7c1ba8
     tree:
@@ -401,8 +427,7 @@ fin:
         object:
           id: 504
           abbrev: λ
-          definition: >-
-            kulma nollameridiaanitasosta pisteen meridiaanitasoon ; positiivinen
+          definition: kulma nollameridiaanitasosta pisteen meridiaanitasoon ; positiivinen
             nollameridiaanista itään
           language_code: fin
           notes: []
@@ -410,27 +435,26 @@ fin:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.33'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.33"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: ellipsoidinen pituusaste
-              normative_status: preferred
-            - designation: ellipsoidinen longitudi
-              type: expression
+          - type: expression
+            designation: ellipsoidinen pituusaste
+            normative_status: preferred
+          - designation: ellipsoidinen longitudi
+            type: expression
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -438,44 +462,48 @@ fin:
           email: glossarist@ribose.com
 fra:
   id: 504
-  definition: >-
-    angle entre le plan méridien de référence et le plan méridien passant par un
-    point donné, orienté positivement vers l'est
-  language_code: fra
+  terms:
+  - type: expression
+    normative_status: admitted
+    designation: longitude ellipsoïdale
+  - type: expression
+    designation: geodetic longitude
+  definition:
+  - content: angle entre le plan méridien de référence et le plan méridien passant
+      par un point donné, orienté positivement vers l'est
   notes: []
   examples: []
+  language_code: fra
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.33'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.33"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.33. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: longitude ellipsoïdale
-      normative_status: admitted
-    - designation: geodetic longitude
-      type: expression
   _revisions:
     current: 3b96ef
     tree:
       3b96ef:
         object:
           id: 504
-          definition: >-
-            angle entre le plan méridien de référence et le plan méridien
+          definition: angle entre le plan méridien de référence et le plan méridien
             passant par un point donné, orienté positivement vers l'est
           language_code: fra
           notes: []
@@ -483,27 +511,26 @@ fra:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.33'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.33"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: longitude ellipsoïdale
-              normative_status: admitted
-            - designation: geodetic longitude
-              type: expression
+          - type: expression
+            designation: longitude ellipsoïdale
+            normative_status: admitted
+          - designation: geodetic longitude
+            type: expression
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -511,34 +538,40 @@ fra:
           email: glossarist@ribose.com
 deu:
   id: 504
-  abbrev: l
-  language_code: deu
+  terms:
+  - type: abbreviation
+    designation: l
+  - type: expression
+    normative_status: admitted
+    designation: ellipsoidische Länge
+  - type: expression
+    designation: geodetic longitude
   notes: []
   examples: []
+  language_code: deu
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.33'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.33"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.33. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: ellipsoidische Länge
-      normative_status: admitted
-    - designation: geodetic longitude
-      type: expression
   _revisions:
     current: c047b8
     tree:
@@ -552,27 +585,26 @@ deu:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.33'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.33"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: ellipsoidische Länge
-              normative_status: admitted
-            - designation: geodetic longitude
-              type: expression
+          - type: expression
+            designation: ellipsoidische Länge
+            normative_status: admitted
+          - designation: geodetic longitude
+            type: expression
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -580,33 +612,40 @@ deu:
           email: glossarist@ribose.com
 kor:
   id: 504
-  abbrev: l
-  definition: '본초 자오선면으로부터 어떤 점의 자오선면까지의 각도로서, 동으로 향하는 것을 정(+)으로 함'
-  language_code: kor
+  terms:
+  - type: abbreviation
+    designation: l
+  - type: expression
+    normative_status: admitted
+    designation: 타원체 경도
+  definition:
+  - content: 본초 자오선면으로부터 어떤 점의 자오선면까지의 각도로서, 동으로 향하는 것을 정(+)으로 함
   notes: []
   examples: []
+  language_code: kor
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.33'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.33"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.33. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: 타원체 경도
-      normative_status: admitted
   _revisions:
     current: 5936fc
     tree:
@@ -614,32 +653,31 @@ kor:
         object:
           id: 504
           abbrev: l
-          definition: '본초 자오선면으로부터 어떤 점의 자오선면까지의 각도로서, 동으로 향하는 것을 정(+)으로 함'
+          definition: 본초 자오선면으로부터 어떤 점의 자오선면까지의 각도로서, 동으로 향하는 것을 정(+)으로 함
           language_code: kor
           notes: []
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.33'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.33"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: 타원체 경도
-              normative_status: admitted
+          - type: expression
+            designation: 타원체 경도
+            normative_status: admitted
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -647,37 +685,42 @@ kor:
           email: glossarist@ribose.com
 pol:
   id: 504
-  abbrev: l
-  definition: >-
-    kąt dwuścienny między płaszczyzną południka początkowego i płaszczyzną
-    południka danego punktu, liczony od południka początkowego w kierunku
-    wschodnim
-  language_code: pol
+  terms:
+  - type: abbreviation
+    designation: l
+  - type: expression
+    normative_status: admitted
+    designation: długość geodezyjna                         długośc elipsoidalna
+  - type: expression
+    designation: długość geodezyjna
+  definition:
+  - content: kąt dwuścienny między płaszczyzną południka początkowego i płaszczyzną
+      południka danego punktu, liczony od południka początkowego w kierunku wschodnim
   notes: []
   examples: []
+  language_code: pol
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.33'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.33"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.33. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: długość geodezyjna                         długośc elipsoidalna
-      normative_status: admitted
-    - designation: długość geodezyjna
-      type: expression
   _revisions:
     current: 9dd0af
     tree:
@@ -685,36 +728,34 @@ pol:
         object:
           id: 504
           abbrev: l
-          definition: >-
-            kąt dwuścienny między płaszczyzną południka początkowego i
-            płaszczyzną południka danego punktu, liczony od południka
-            początkowego w kierunku wschodnim
+          definition: kąt dwuścienny między płaszczyzną południka początkowego i płaszczyzną
+            południka danego punktu, liczony od południka początkowego w kierunku
+            wschodnim
           language_code: pol
           notes: []
           examples: []
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.33'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.33"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: długość geodezyjna                         długośc elipsoidalna
-              normative_status: admitted
-            - designation: długość geodezyjna
-              type: expression
+          - type: expression
+            designation: długość geodezyjna                         długośc elipsoidalna
+            normative_status: admitted
+          - designation: długość geodezyjna
+            type: expression
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -722,74 +763,78 @@ pol:
           email: glossarist@ribose.com
 rus:
   id: 504
-  abbrev: λ
-  definition: >-
-    угол от плоскости начального меридиана до плоскости меридиана в данной
-    точке; положительным считается направление на восток
-  language_code: rus
+  terms:
+  - type: abbreviation
+    designation: λ
+  - type: expression
+    normative_status: admitted
+    designation: эллипсоидальная долгота
+  - type: expression
+    designation: геодезическая долгота
+  definition:
+  - content: угол от плоскости начального меридиана до плоскости меридиана в данной
+      точке; положительным считается направление на восток
   notes: []
   examples: []
+  language_code: rus
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.33'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.33"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.33. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: эллипсоидальная долгота
-      normative_status: admitted
-    - designation: геодезическая долгота
-      type: expression
   _revisions:
-    current: '7550e3'
+    current: 7550e3
     tree:
-      '7550e3':
+      7550e3:
         object:
           id: 504
           abbrev: λ
-          definition: >-
-            угол от плоскости начального меридиана до плоскости меридиана в
-            данной точке; положительным считается направление на восток
+          definition: угол от плоскости начального меридиана до плоскости меридиана
+            в данной точке; положительным считается направление на восток
           language_code: rus
           notes: []
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.33'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.33"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: эллипсоидальная долгота
-              normative_status: admitted
-            - designation: геодезическая долгота
-              type: expression
+          - type: expression
+            designation: эллипсоидальная долгота
+            normative_status: admitted
+          - designation: геодезическая долгота
+            type: expression
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -797,37 +842,43 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 504
-  abbrev: l
-  definition: >-
-    ángulo que forma el plano meridiano principal con el plano meridiano de un
-    punto dado, se toma positiva hacia el este
-  language_code: spa
+  terms:
+  - type: abbreviation
+    designation: l
+  - type: expression
+    normative_status: admitted
+    designation: longitud elipsoidal
+  - type: expression
+    designation: longitud geodésica
+  definition:
+  - content: ángulo que forma el plano meridiano principal con el plano meridiano
+      de un punto dado, se toma positiva hacia el este
   notes: []
   examples: []
+  language_code: spa
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.33'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.33"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.33. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: longitud elipsoidal
-      normative_status: admitted
-    - designation: longitud geodésica
-      type: expression
   _revisions:
     current: '719721'
     tree:
@@ -835,8 +886,7 @@ spa:
         object:
           id: 504
           abbrev: l
-          definition: >-
-            ángulo que forma el plano meridiano principal con el plano meridiano
+          definition: ángulo que forma el plano meridiano principal con el plano meridiano
             de un punto dado, se toma positiva hacia el este
           language_code: spa
           notes: []
@@ -844,27 +894,26 @@ spa:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.33'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.33"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.33. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: longitud elipsoidal
-              normative_status: admitted
-            - designation: longitud geodésica
-              type: expression
+          - type: expression
+            designation: longitud elipsoidal
+            normative_status: admitted
+          - designation: longitud geodésica
+            type: expression
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:

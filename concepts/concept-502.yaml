@@ -1,74 +1,78 @@
-term: ellipsoidal coordinate system
+---
 termid: 502
+term: ellipsoidal coordinate system
 eng:
   id: 502
-  definition: >-
-    coordinate system in which position is specified by geodetic latitude,
-    geodetic longitude and (in the three-dimensional case) ellipsoidal height
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ellipsoidal coordinate system
+  - type: expression
+    designation: geodetic coordinate system
+  definition:
+  - content: coordinate system in which position is specified by geodetic latitude,
+      geodetic longitude and (in the three-dimensional case) ellipsoidal height
   notes: []
   examples: []
+  language_code: eng
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.23'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.23"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.23. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: ellipsoidal coordinate system
-      normative_status: preferred
-    - designation: geodetic coordinate system
-      type: expression
   _revisions:
     current: c253bb
     tree:
       c253bb:
         object:
           id: 502
-          definition: >-
-            coordinate system in which position is specified by geodetic
-            latitude, geodetic longitude and (in the three-dimensional case)
-            ellipsoidal height
+          definition: coordinate system in which position is specified by geodetic
+            latitude, geodetic longitude and (in the three-dimensional case) ellipsoidal
+            height
           language_code: eng
           notes: []
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.23'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.23"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: ellipsoidal coordinate system
-              normative_status: preferred
-            - designation: geodetic coordinate system
-              type: expression
+          - type: expression
+            designation: ellipsoidal coordinate system
+            normative_status: preferred
+          - designation: geodetic coordinate system
+            type: expression
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -76,46 +80,49 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 502
-  definition: >-
-    نظام إحداثيات يتم تحديد الموضع فيه بخطوط العرض الجيوديسية ، وخطوط الطول
-    الجيوديسية و ( في حالة الأبعاد الثلاثية أو التجسيم ) بارتفاع مجسم القطع
-    الناقص
-  language_code: ara
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: نظام إحداثيات مجسم القطع الناقص
+  - type: expression
+    designation: geodetic coordinate system
+  definition:
+  - content: نظام إحداثيات يتم تحديد الموضع فيه بخطوط العرض الجيوديسية ، وخطوط الطول
+      الجيوديسية و ( في حالة الأبعاد الثلاثية أو التجسيم ) بارتفاع مجسم القطع الناقص
   notes: []
   examples: []
+  language_code: ara
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.23'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.23"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.23. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: نظام إحداثيات مجسم القطع الناقص
-      normative_status: preferred
-    - designation: geodetic coordinate system
-      type: expression
   _revisions:
     current: a706bc
     tree:
       a706bc:
         object:
           id: 502
-          definition: >-
-            نظام إحداثيات يتم تحديد الموضع فيه بخطوط العرض الجيوديسية ، وخطوط
-            الطول الجيوديسية و ( في حالة الأبعاد الثلاثية أو التجسيم ) بارتفاع
+          definition: نظام إحداثيات يتم تحديد الموضع فيه بخطوط العرض الجيوديسية ،
+            وخطوط الطول الجيوديسية و ( في حالة الأبعاد الثلاثية أو التجسيم ) بارتفاع
             مجسم القطع الناقص
           language_code: ara
           notes: []
@@ -123,27 +130,26 @@ ara:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.23'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.23"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: نظام إحداثيات مجسم القطع الناقص
-              normative_status: preferred
-            - designation: geodetic coordinate system
-              type: expression
+          - type: expression
+            designation: نظام إحداثيات مجسم القطع الناقص
+            normative_status: preferred
+          - designation: geodetic coordinate system
+            type: expression
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -151,68 +157,73 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 502
-  definition: '某点位置由大地纬度,大地经度和椭球高(三维情况)来确定的坐标系。'
-  language_code: zho
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 椭球坐标系
+  - type: expression
+    designation: geodetic coordinate system
+  definition:
+  - content: 某点位置由大地纬度,大地经度和椭球高(三维情况)来确定的坐标系。
   notes: []
   examples: []
+  language_code: zho
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.23'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.23"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.23. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: 椭球坐标系
-      normative_status: preferred
-    - designation: geodetic coordinate system
-      type: expression
   _revisions:
     current: '883565'
     tree:
       '883565':
         object:
           id: 502
-          definition: '某点位置由大地纬度,大地经度和椭球高(三维情况)来确定的坐标系。'
+          definition: 某点位置由大地纬度,大地经度和椭球高(三维情况)来确定的坐标系。
           language_code: zho
           notes: []
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.23'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.23"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: 椭球坐标系
-              normative_status: preferred
-            - designation: geodetic coordinate system
-              type: expression
+          - type: expression
+            designation: 椭球坐标系
+            normative_status: preferred
+          - designation: geodetic coordinate system
+            type: expression
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -220,66 +231,68 @@ zho:
           email: glossarist@ribose.com
 dan:
   id: 502
-  definition: >-
-    koordinatsysstem, hvori position er specificeret ved geodætisk bredde,
-    geodætisk længde og (hvis 3-dimensionalt) ellipsoidehøjde
-  language_code: dan
+  terms:
+  - type: expression
+    designation: ellipsoidekoordinatsystem
+  definition:
+  - content: koordinatsysstem, hvori position er specificeret ved geodætisk bredde,
+      geodætisk længde og (hvis 3-dimensionalt) ellipsoidehøjde
   notes: []
   examples: []
+  language_code: dan
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.23'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.23"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.23. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: ellipsoidekoordinatsystem
-      normative_status: null
   _revisions:
     current: 0b4a03
     tree:
       0b4a03:
         object:
           id: 502
-          definition: >-
-            koordinatsysstem, hvori position er specificeret ved geodætisk
+          definition: koordinatsysstem, hvori position er specificeret ved geodætisk
             bredde, geodætisk længde og (hvis 3-dimensionalt) ellipsoidehøjde
           language_code: dan
           notes: []
           examples: []
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.23'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.23"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: ellipsoidekoordinatsystem
-              normative_status: null
+          - type: expression
+            designation: ellipsoidekoordinatsystem
+            normative_status:
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -287,73 +300,76 @@ dan:
           email: glossarist@ribose.com
 nld:
   id: 502
-  definition: >-
-    coördinaatsysteem waarbij de positie wordt bepaald door geodetische lengte,
-    geodetische breedte en (in het driedimensionale geval) ellipsoïde hoogte
-  language_code: nld
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ellipsoidaal coördinaatsysteem
+  - type: expression
+    designation: geodetisch coördinaat systeem
+  definition:
+  - content: coördinaatsysteem waarbij de positie wordt bepaald door geodetische lengte,
+      geodetische breedte en (in het driedimensionale geval) ellipsoïde hoogte
   notes: []
   examples: []
+  language_code: nld
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.23'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.23"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.23. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: ellipsoidaal coördinaatsysteem
-      normative_status: preferred
-    - designation: geodetisch coördinaat systeem
-      type: expression
   _revisions:
     current: 221f4c
     tree:
       221f4c:
         object:
           id: 502
-          definition: >-
-            coördinaatsysteem waarbij de positie wordt bepaald door geodetische
-            lengte, geodetische breedte en (in het driedimensionale geval)
-            ellipsoïde hoogte
+          definition: coördinaatsysteem waarbij de positie wordt bepaald door geodetische
+            lengte, geodetische breedte en (in het driedimensionale geval) ellipsoïde
+            hoogte
           language_code: nld
           notes: []
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.23'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.23"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: ellipsoidaal coördinaatsysteem
-              normative_status: preferred
-            - designation: geodetisch coördinaat systeem
-              type: expression
+          - type: expression
+            designation: ellipsoidaal coördinaatsysteem
+            normative_status: preferred
+          - designation: geodetisch coördinaat systeem
+            type: expression
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -361,74 +377,76 @@ nld:
           email: glossarist@ribose.com
 fin:
   id: 502
-  definition: >-
-    koordinaatisto, jossa sijainti ilmaistaan geodeettisen leveyden,
-    geodeettisen pituuden ja (kolmiulotteisessa tapauksessa) ellipsoidisen
-    korkeuden avulla
-  language_code: fin
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ellipsoidinen koordinaatisto
+  - type: expression
+    designation: geodeettinen koordinaatisto
+  definition:
+  - content: koordinaatisto, jossa sijainti ilmaistaan geodeettisen leveyden, geodeettisen
+      pituuden ja (kolmiulotteisessa tapauksessa) ellipsoidisen korkeuden avulla
   notes: []
   examples: []
+  language_code: fin
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.23'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.23"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.23. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: ellipsoidinen koordinaatisto
-      normative_status: preferred
-    - designation: geodeettinen koordinaatisto
-      type: expression
   _revisions:
     current: d18e21
     tree:
       d18e21:
         object:
           id: 502
-          definition: >-
-            koordinaatisto, jossa sijainti ilmaistaan geodeettisen leveyden,
-            geodeettisen pituuden ja (kolmiulotteisessa tapauksessa)
-            ellipsoidisen korkeuden avulla
+          definition: koordinaatisto, jossa sijainti ilmaistaan geodeettisen leveyden,
+            geodeettisen pituuden ja (kolmiulotteisessa tapauksessa) ellipsoidisen
+            korkeuden avulla
           language_code: fin
           notes: []
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.23'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.23"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: ellipsoidinen koordinaatisto
-              normative_status: preferred
-            - designation: geodeettinen koordinaatisto
-              type: expression
+          - type: expression
+            designation: ellipsoidinen koordinaatisto
+            normative_status: preferred
+          - designation: geodeettinen koordinaatisto
+            type: expression
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -436,74 +454,77 @@ fin:
           email: glossarist@ribose.com
 fra:
   id: 502
-  definition: >-
-    système de coordonnées dans lequel la position est spécifiée par la latitude
-    géodésique, la longitude géodésique et (dans le cas tridimensionnel) la
-    hauteur ellipsoïdale
-  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: système de coordonnées ellipsoïdal
+  - type: expression
+    designation: geodetic coordinate system
+  definition:
+  - content: système de coordonnées dans lequel la position est spécifiée par la latitude
+      géodésique, la longitude géodésique et (dans le cas tridimensionnel) la hauteur
+      ellipsoïdale
   notes: []
   examples: []
+  language_code: fra
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.23'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.23"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.23. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: système de coordonnées ellipsoïdal
-      normative_status: preferred
-    - designation: geodetic coordinate system
-      type: expression
   _revisions:
     current: f1fc92
     tree:
       f1fc92:
         object:
           id: 502
-          definition: >-
-            système de coordonnées dans lequel la position est spécifiée par la
-            latitude géodésique, la longitude géodésique et (dans le cas
-            tridimensionnel) la hauteur ellipsoïdale
+          definition: système de coordonnées dans lequel la position est spécifiée
+            par la latitude géodésique, la longitude géodésique et (dans le cas tridimensionnel)
+            la hauteur ellipsoïdale
           language_code: fra
           notes: []
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.23'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.23"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: système de coordonnées ellipsoïdal
-              normative_status: preferred
-            - designation: geodetic coordinate system
-              type: expression
+          - type: expression
+            designation: système de coordonnées ellipsoïdal
+            normative_status: preferred
+          - designation: geodetic coordinate system
+            type: expression
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -511,74 +532,76 @@ fra:
           email: glossarist@ribose.com
 deu:
   id: 502
-  definition: >-
-    Koordinatensystem, in dem die Position durch geodätische Breite, geodätische
-    Länge und (im dreidimensionalen Fall) durch ellipsoidische Höhe angegeben
-    wird
-  language_code: deu
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ellipsoidisches Koordinatensystem
+  - type: expression
+    designation: geodetic coordinate system
+  definition:
+  - content: Koordinatensystem, in dem die Position durch geodätische Breite, geodätische
+      Länge und (im dreidimensionalen Fall) durch ellipsoidische Höhe angegeben wird
   notes: []
   examples: []
+  language_code: deu
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.23'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.23"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.23. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: ellipsoidisches Koordinatensystem
-      normative_status: preferred
-    - designation: geodetic coordinate system
-      type: expression
   _revisions:
     current: 83d275
     tree:
       83d275:
         object:
           id: 502
-          definition: >-
-            Koordinatensystem, in dem die Position durch geodätische Breite,
-            geodätische Länge und (im dreidimensionalen Fall) durch
-            ellipsoidische Höhe angegeben wird
+          definition: Koordinatensystem, in dem die Position durch geodätische Breite,
+            geodätische Länge und (im dreidimensionalen Fall) durch ellipsoidische
+            Höhe angegeben wird
           language_code: deu
           notes: []
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.23'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.23"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: ellipsoidisches Koordinatensystem
-              normative_status: preferred
-            - designation: geodetic coordinate system
-              type: expression
+          - type: expression
+            designation: ellipsoidisches Koordinatensystem
+            normative_status: preferred
+          - designation: geodetic coordinate system
+            type: expression
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -586,64 +609,69 @@ deu:
           email: glossarist@ribose.com
 kor:
   id: 502
-  definition: '타원체고, 측지 경도, 측지 위도를 통해 위치를 표현하는 좌표 체계'
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 타원체 좌표계
+  definition:
+  - content: 타원체고, 측지 경도, 측지 위도를 통해 위치를 표현하는 좌표 체계
   notes: []
   examples: []
+  language_code: kor
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.23'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.23"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.23. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: 타원체 좌표계
-      normative_status: preferred
   _revisions:
     current: 3eab03
     tree:
       3eab03:
         object:
           id: 502
-          definition: '타원체고, 측지 경도, 측지 위도를 통해 위치를 표현하는 좌표 체계'
+          definition: 타원체고, 측지 경도, 측지 위도를 통해 위치를 표현하는 좌표 체계
           language_code: kor
           notes: []
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.23'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.23"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: 타원체 좌표계
-              normative_status: preferred
+          - type: expression
+            designation: 타원체 좌표계
+            normative_status: preferred
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -651,76 +679,79 @@ kor:
           email: glossarist@ribose.com
 pol:
   id: 502
-  definition: >-
-    układ współrzędnych, w którym położenie jest określone poprzez szerokość
-    geodezyjną, długość geodezyjną oraz (w przypadku układu trójwymiarowego)
-    wysokość elipsoidalną
-  language_code: pol
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: |-
+      układ wspólrzędnych elipsoidalnych
+      geodezyjny układ współrzędnych
+  - type: expression
+    designation: geodezyjny układ współrzędnych
+  definition:
+  - content: układ współrzędnych, w którym położenie jest określone poprzez szerokość
+      geodezyjną, długość geodezyjną oraz (w przypadku układu trójwymiarowego) wysokość
+      elipsoidalną
   notes: []
   examples: []
+  language_code: pol
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.23'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.23"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.23. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: |-
-        układ wspólrzędnych elipsoidalnych
-        geodezyjny układ współrzędnych
-      normative_status: preferred
-    - designation: geodezyjny układ współrzędnych
-      type: expression
   _revisions:
-    current: '396e65'
+    current: 396e65
     tree:
-      '396e65':
+      396e65:
         object:
           id: 502
-          definition: >-
-            układ współrzędnych, w którym położenie jest określone poprzez
-            szerokość geodezyjną, długość geodezyjną oraz (w przypadku układu
-            trójwymiarowego) wysokość elipsoidalną
+          definition: układ współrzędnych, w którym położenie jest określone poprzez
+            szerokość geodezyjną, długość geodezyjną oraz (w przypadku układu trójwymiarowego)
+            wysokość elipsoidalną
           language_code: pol
           notes: []
           examples: []
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.23'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.23"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: |-
-                układ wspólrzędnych elipsoidalnych
-                geodezyjny układ współrzędnych
-              normative_status: preferred
-            - designation: geodezyjny układ współrzędnych
-              type: expression
+          - type: expression
+            designation: |-
+              układ wspólrzędnych elipsoidalnych
+              geodezyjny układ współrzędnych
+            normative_status: preferred
+          - designation: geodezyjny układ współrzędnych
+            type: expression
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -728,73 +759,75 @@ pol:
           email: glossarist@ribose.com
 rus:
   id: 502
-  definition: >-
-    система координат, в которой положение  описывается геодезическими широтой и
-    долготой, а в трехмерном пространстве - эллипсоидальной высотой
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: admitted
+    designation: эллипсоидальная система координат
+  - type: expression
+    designation: геодезическая система координат
+  definition:
+  - content: система координат, в которой положение  описывается геодезическими широтой
+      и долготой, а в трехмерном пространстве - эллипсоидальной высотой
   notes: []
   examples: []
+  language_code: rus
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.23'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.23"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.23. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: эллипсоидальная система координат
-      normative_status: admitted
-    - designation: геодезическая система координат
-      type: expression
   _revisions:
     current: bb641d
     tree:
       bb641d:
         object:
           id: 502
-          definition: >-
-            система координат, в которой положение  описывается геодезическими
-            широтой и долготой, а в трехмерном пространстве - эллипсоидальной
-            высотой
+          definition: система координат, в которой положение  описывается геодезическими
+            широтой и долготой, а в трехмерном пространстве - эллипсоидальной высотой
           language_code: rus
           notes: []
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.23'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.23"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: эллипсоидальная система координат
-              normative_status: admitted
-            - designation: геодезическая система координат
-              type: expression
+          - type: expression
+            designation: эллипсоидальная система координат
+            normative_status: admitted
+          - designation: геодезическая система координат
+            type: expression
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -802,74 +835,77 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 502
-  definition: >-
-    sistema de coordenadas en el que la posición está especificada por la
-    latitud geodésica, la longitud geodésica y (en el caso tridimensional) la
-    altura elipsoidal
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: sistema de coordenadas elipsoidales
+  - type: expression
+    designation: sistema geodésico de coordenadas
+  definition:
+  - content: sistema de coordenadas en el que la posición está especificada por la
+      latitud geodésica, la longitud geodésica y (en el caso tridimensional) la altura
+      elipsoidal
   notes: []
   examples: []
+  language_code: spa
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.23'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.23"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.23. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: sistema de coordenadas elipsoidales
-      normative_status: preferred
-    - designation: sistema geodésico de coordenadas
-      type: expression
   _revisions:
     current: 153cc1
     tree:
       153cc1:
         object:
           id: 502
-          definition: >-
-            sistema de coordenadas en el que la posición está especificada por
-            la latitud geodésica, la longitud geodésica y (en el caso
-            tridimensional) la altura elipsoidal
+          definition: sistema de coordenadas en el que la posición está especificada
+            por la latitud geodésica, la longitud geodésica y (en el caso tridimensional)
+            la altura elipsoidal
           language_code: spa
           notes: []
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.23'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.23"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: sistema de coordenadas elipsoidales
-              normative_status: preferred
-            - designation: sistema geodésico de coordenadas
-              type: expression
+          - type: expression
+            designation: sistema de coordenadas elipsoidales
+            normative_status: preferred
+          - designation: sistema geodésico de coordenadas
+            type: expression
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -877,47 +913,50 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 502
-  definition: >-
-    koordinatsystem där en punkts position anges med geodetisk latitud,
-    geodetisk longitud och (i det tredimensionella fallet) höjd över ellipsoiden
-  country_code: swe
-  language_code: swe
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: geodetiskt koordinatsystem
+  - type: expression
+    designation: geodetic coordinate system
+  definition:
+  - content: koordinatsystem där en punkts position anges med geodetisk latitud, geodetisk
+      longitud och (i det tredimensionella fallet) höjd över ellipsoiden
   notes: []
   examples: []
+  country_code: swe
+  language_code: swe
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.23'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.23"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.23. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: geodetiskt koordinatsystem
-      normative_status: preferred
-    - designation: geodetic coordinate system
-      type: expression
   _revisions:
     current: d62fe5
     tree:
       d62fe5:
         object:
           id: 502
-          definition: >-
-            koordinatsystem där en punkts position anges med geodetisk latitud,
-            geodetisk longitud och (i det tredimensionella fallet) höjd över
-            ellipsoiden
+          definition: koordinatsystem där en punkts position anges med geodetisk latitud,
+            geodetisk longitud och (i det tredimensionella fallet) höjd över ellipsoiden
           country_code: swe
           language_code: swe
           notes: []
@@ -925,27 +964,26 @@ swe:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.23'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.23"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: geodetiskt koordinatsystem
-              normative_status: preferred
-            - designation: geodetic coordinate system
-              type: expression
+          - type: expression
+            designation: geodetiskt koordinatsystem
+            normative_status: preferred
+          - designation: geodetic coordinate system
+            type: expression
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:

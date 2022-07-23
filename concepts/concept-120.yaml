@@ -1,35 +1,44 @@
-term: data quality value type
+---
 termid: 120
+term: data quality value type
 eng:
   id: 120
-  definition: value type for reporting a data quality result
-  language_code: eng
+  terms:
+  - type: expression
+    designation: data quality value type
+  definition:
+  - content: value type for reporting a data quality result
   notes:
-    - A data quality value type is always provided for a data quality result.
+  - content: A data quality value type is always provided for a data quality result.
   examples:
-    - '"boolean variable", "percentage", "ratio"'
+  - content: '"boolean variable", "percentage", "ratio"'
+  language_code: eng
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19113:2002'
-    clause: '4.12'
-    link: 'https://www.iso.org/standard/26018.html'
-  lineage_source: ''
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19113:2002
+      clause: '4.12'
+      link: https://www.iso.org/standard/26018.html
+  - type: lineage
+    origin:
+      ref: ''
   lineage_source_similarity: 0
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2013-12-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2013-12-15T00:00:00.000Z'
   review_date: '2013-12-15T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2013-12-15T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19157:2013'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19157:2013).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: data quality value type
-      normative_status: null
+  review_decision_event: Publication of ISO 19157:2013
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19157:2013).
+  release: "-1"
   _revisions:
     current: 1ffe24
     tree:
@@ -39,17 +48,15 @@ eng:
           definition: value type for reporting a data quality result
           language_code: eng
           notes:
-            - >-
-              A data quality value type is always provided for a data quality
-              result.
+          - A data quality value type is always provided for a data quality result.
           examples:
-            - '"boolean variable", "percentage", "ratio"'
+          - '"boolean variable", "percentage", "ratio"'
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19113:2002'
+            ref: ISO 19113:2002
             clause: '4.12'
-            link: 'https://www.iso.org/standard/26018.html'
+            link: https://www.iso.org/standard/26018.html
           lineage_source: ''
           lineage_source_similarity: 0
           date_accepted: '2002-12-01T00:00:00.000Z'
@@ -59,15 +66,14 @@ eng:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2013-12-15T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19157:2013'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19157:2013
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19157:2013).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: data quality value type
-              normative_status: null
+          - type: expression
+            designation: data quality value type
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -75,34 +81,39 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 120
-  definition: نوع القيمة الخاصة بالإبلاغ عن نتائج جودة البيانات
-  language_code: ara
+  terms:
+  - type: expression
+    designation: نوع قيمة جودة البيانات
+  definition:
+  - content: نوع القيمة الخاصة بالإبلاغ عن نتائج جودة البيانات
   notes:
-    - >-
-      يتم دائماً الإشارة إلى نوع القيمة الخاصة بجودة البيانات لكل نتيجة من
+  - content: يتم دائماً الإشارة إلى نوع القيمة الخاصة بجودة البيانات لكل نتيجة من
       النتائج المتعلقة بجودة البيانات.
   examples:
-    - '"متغير جبري" , "نسبة مئوية" , "نسبة".'
+  - content: '"متغير جبري" , "نسبة مئوية" , "نسبة".'
+  language_code: ara
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19113:2002'
-    clause: '4.12'
-    link: 'https://www.iso.org/standard/26018.html'
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2013-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19113:2002
+      clause: '4.12'
+      link: https://www.iso.org/standard/26018.html
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2013-12-15T00:00:00.000Z'
   review_date: '2013-12-15T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2013-12-15T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19157:2013'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19157:2013).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: نوع قيمة جودة البيانات
-      normative_status: null
+  review_decision_event: Publication of ISO 19157:2013
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19157:2013).
+  release: "-1"
   _revisions:
     current: 384b6a
     tree:
@@ -112,17 +123,16 @@ ara:
           definition: نوع القيمة الخاصة بالإبلاغ عن نتائج جودة البيانات
           language_code: ara
           notes:
-            - >-
-              يتم دائماً الإشارة إلى نوع القيمة الخاصة بجودة البيانات لكل نتيجة
-              من النتائج المتعلقة بجودة البيانات.
+          - يتم دائماً الإشارة إلى نوع القيمة الخاصة بجودة البيانات لكل نتيجة من النتائج
+            المتعلقة بجودة البيانات.
           examples:
-            - '"متغير جبري" , "نسبة مئوية" , "نسبة".'
+          - '"متغير جبري" , "نسبة مئوية" , "نسبة".'
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19113:2002'
+            ref: ISO 19113:2002
             clause: '4.12'
-            link: 'https://www.iso.org/standard/26018.html'
+            link: https://www.iso.org/standard/26018.html
           date_accepted: '2002-12-01T00:00:00.000Z'
           date_amended: '2013-12-15T00:00:00.000Z'
           review_date: '2013-12-15T00:00:00.000Z'
@@ -130,15 +140,14 @@ ara:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2013-12-15T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19157:2013'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19157:2013
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19157:2013).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: نوع قيمة جودة البيانات
-              normative_status: null
+          - type: expression
+            designation: نوع قيمة جودة البيانات
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -146,33 +155,41 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 120
-  definition: 记录数据质量结果的值的类型。
-  language_code: zho
+  terms:
+  - type: expression
+    designation: 数据质量值类型
+  definition:
+  - content: 记录数据质量结果的值的类型。
   notes:
-    - 每个数据质量评价结果都提供数据质量值类型。
+  - content: 每个数据质量评价结果都提供数据质量值类型。
   examples:
-    - “布尔型变量”、“百分比”、“比率”。
+  - content: "“布尔型变量”、“百分比”、“比率”。"
+  language_code: zho
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19113:2002'
-    clause: '4.12'
-    link: 'https://www.iso.org/standard/26018.html'
-  lineage_source: ''
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2013-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19113:2002
+      clause: '4.12'
+      link: https://www.iso.org/standard/26018.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2013-12-15T00:00:00.000Z'
   review_date: '2013-12-15T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2013-12-15T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19157:2013'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19157:2013).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: 数据质量值类型
-      normative_status: null
+  review_decision_event: Publication of ISO 19157:2013
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19157:2013).
+  release: "-1"
   _revisions:
     current: db28e4
     tree:
@@ -182,15 +199,15 @@ zho:
           definition: 记录数据质量结果的值的类型。
           language_code: zho
           notes:
-            - 每个数据质量评价结果都提供数据质量值类型。
+          - 每个数据质量评价结果都提供数据质量值类型。
           examples:
-            - “布尔型变量”、“百分比”、“比率”。
+          - "“布尔型变量”、“百分比”、“比率”。"
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19113:2002'
+            ref: ISO 19113:2002
             clause: '4.12'
-            link: 'https://www.iso.org/standard/26018.html'
+            link: https://www.iso.org/standard/26018.html
           lineage_source: ''
           date_accepted: '2002-12-01T00:00:00.000Z'
           date_amended: '2013-12-15T00:00:00.000Z'
@@ -199,15 +216,14 @@ zho:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2013-12-15T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19157:2013'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19157:2013
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19157:2013).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: 数据质量值类型
-              normative_status: null
+          - type: expression
+            designation: 数据质量值类型
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -215,32 +231,40 @@ zho:
           email: glossarist@ribose.com
 dan:
   id: 120
-  definition: værditype til rapportering af et datakvalitetsresultat
-  language_code: dan
+  terms:
+  - type: expression
+    designation: datakvalitet, værditype for
+  definition:
+  - content: værditype til rapportering af et datakvalitetsresultat
   notes: []
   examples:
-    - '"boolsk variabel", "procent", "ratio".'
+  - content: '"boolsk variabel", "procent", "ratio".'
+  language_code: dan
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19113:2002'
-    clause: '4.12'
-    link: 'https://www.iso.org/standard/26018.html'
-  lineage_source: ''
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2013-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19113:2002
+      clause: '4.12'
+      link: https://www.iso.org/standard/26018.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2013-12-15T00:00:00.000Z'
   review_date: '2013-12-15T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2013-12-15T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19157:2013'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19157:2013).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: 'datakvalitet, værditype for'
-      normative_status: null
+  review_decision_event: Publication of ISO 19157:2013
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19157:2013).
+  release: "-1"
   _revisions:
     current: 26b502
     tree:
@@ -251,13 +275,13 @@ dan:
           language_code: dan
           notes: []
           examples:
-            - '"boolsk variabel", "procent", "ratio".'
+          - '"boolsk variabel", "procent", "ratio".'
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19113:2002'
+            ref: ISO 19113:2002
             clause: '4.12'
-            link: 'https://www.iso.org/standard/26018.html'
+            link: https://www.iso.org/standard/26018.html
           lineage_source: ''
           date_accepted: '2002-12-01T00:00:00.000Z'
           date_amended: '2013-12-15T00:00:00.000Z'
@@ -266,15 +290,14 @@ dan:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2013-12-15T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19157:2013'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19157:2013
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19157:2013).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: 'datakvalitet, værditype for'
-              normative_status: null
+          - type: expression
+            designation: datakvalitet, værditype for
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -282,33 +305,41 @@ dan:
           email: glossarist@ribose.com
 fin:
   id: 120
-  definition: laatutuloksen raportoinnissa käytetty arvotyyppi
-  language_code: fin
+  terms:
+  - type: expression
+    designation: laatuarvon tyyppi
+  definition:
+  - content: laatutuloksen raportoinnissa käytetty arvotyyppi
   notes:
-    - Laatutulokselle annetaan aina laatuarvotyyppi.
+  - content: Laatutulokselle annetaan aina laatuarvotyyppi.
   examples:
-    - 'Totuusarvo, prosenttiluku, suhdeluku.'
+  - content: Totuusarvo, prosenttiluku, suhdeluku.
+  language_code: fin
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19113:2002'
-    clause: '4.12'
-    link: 'https://www.iso.org/standard/26018.html'
-  lineage_source: ''
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2013-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19113:2002
+      clause: '4.12'
+      link: https://www.iso.org/standard/26018.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2013-12-15T00:00:00.000Z'
   review_date: '2013-12-15T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2013-12-15T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19157:2013'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19157:2013).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: laatuarvon tyyppi
-      normative_status: null
+  review_decision_event: Publication of ISO 19157:2013
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19157:2013).
+  release: "-1"
   _revisions:
     current: 90a889
     tree:
@@ -318,15 +349,15 @@ fin:
           definition: laatutuloksen raportoinnissa käytetty arvotyyppi
           language_code: fin
           notes:
-            - Laatutulokselle annetaan aina laatuarvotyyppi.
+          - Laatutulokselle annetaan aina laatuarvotyyppi.
           examples:
-            - 'Totuusarvo, prosenttiluku, suhdeluku.'
+          - Totuusarvo, prosenttiluku, suhdeluku.
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19113:2002'
+            ref: ISO 19113:2002
             clause: '4.12'
-            link: 'https://www.iso.org/standard/26018.html'
+            link: https://www.iso.org/standard/26018.html
           lineage_source: ''
           date_accepted: '2002-12-01T00:00:00.000Z'
           date_amended: '2013-12-15T00:00:00.000Z'
@@ -335,15 +366,14 @@ fin:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2013-12-15T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19157:2013'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19157:2013
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19157:2013).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: laatuarvon tyyppi
-              normative_status: null
+          - type: expression
+            designation: laatuarvon tyyppi
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -351,39 +381,46 @@ fin:
           email: glossarist@ribose.com
 fra:
   id: 120
-  definition: type de valeur destiné à rapporter un résultat de qualité des données
-  language_code: fra
+  terms:
+  - type: expression
+    designation: type de valeur de qualité des données
+  definition:
+  - content: type de valeur destiné à rapporter un résultat de qualité des données
   notes: []
   examples: []
+  language_code: fra
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19113:2002'
-    clause: '4.12'
-    link: 'https://www.iso.org/standard/26018.html'
-  lineage_source: ''
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2013-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19113:2002
+      clause: '4.12'
+      link: https://www.iso.org/standard/26018.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2013-12-15T00:00:00.000Z'
   review_date: '2013-12-15T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2013-12-15T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19157:2013'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19157:2013).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: type de valeur de qualité des données
-      normative_status: null
+  review_decision_event: Publication of ISO 19157:2013
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19157:2013).
+  release: "-1"
   _revisions:
     current: efa6bf
     tree:
       efa6bf:
         object:
           id: 120
-          definition: >-
-            type de valeur destiné à rapporter un résultat de qualité des
+          definition: type de valeur destiné à rapporter un résultat de qualité des
             données
           language_code: fra
           notes: []
@@ -391,9 +428,9 @@ fra:
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19113:2002'
+            ref: ISO 19113:2002
             clause: '4.12'
-            link: 'https://www.iso.org/standard/26018.html'
+            link: https://www.iso.org/standard/26018.html
           lineage_source: ''
           date_accepted: '2002-12-01T00:00:00.000Z'
           date_amended: '2013-12-15T00:00:00.000Z'
@@ -402,15 +439,14 @@ fra:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2013-12-15T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19157:2013'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19157:2013
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19157:2013).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: type de valeur de qualité des données
-              normative_status: null
+          - type: expression
+            designation: type de valeur de qualité des données
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -418,32 +454,39 @@ fra:
           email: glossarist@ribose.com
 deu:
   id: 120
-  language_code: deu
+  terms:
+  - type: expression
+    designation: Wertetyp der Datenqualitätsangabe
   notes:
-    - A data quality value type is always provided for a data quality result.
+  - content: A data quality value type is always provided for a data quality result.
   examples:
-    - '"boolean variable", "percentage", "ratio"'
+  - content: '"boolean variable", "percentage", "ratio"'
+  language_code: deu
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19113:2002'
-    clause: '4.12'
-    link: 'https://www.iso.org/standard/26018.html'
-  lineage_source: ''
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2013-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19113:2002
+      clause: '4.12'
+      link: https://www.iso.org/standard/26018.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2013-12-15T00:00:00.000Z'
   review_date: '2013-12-15T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2013-12-15T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19157:2013'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19157:2013).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: Wertetyp der Datenqualitätsangabe
-      normative_status: null
+  review_decision_event: Publication of ISO 19157:2013
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19157:2013).
+  release: "-1"
   _revisions:
     current: c2da8a
     tree:
@@ -452,17 +495,15 @@ deu:
           id: 120
           language_code: deu
           notes:
-            - >-
-              A data quality value type is always provided for a data quality
-              result.
+          - A data quality value type is always provided for a data quality result.
           examples:
-            - '"boolean variable", "percentage", "ratio"'
+          - '"boolean variable", "percentage", "ratio"'
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19113:2002'
+            ref: ISO 19113:2002
             clause: '4.12'
-            link: 'https://www.iso.org/standard/26018.html'
+            link: https://www.iso.org/standard/26018.html
           lineage_source: ''
           date_accepted: '2002-12-01T00:00:00.000Z'
           date_amended: '2013-12-15T00:00:00.000Z'
@@ -471,15 +512,14 @@ deu:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2013-12-15T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19157:2013'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19157:2013
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19157:2013).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: Wertetyp der Datenqualitätsangabe
-              normative_status: null
+          - type: expression
+            designation: Wertetyp der Datenqualitätsangabe
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -487,33 +527,41 @@ deu:
           email: glossarist@ribose.com
 jpn:
   id: 120
-  definition: データ品質評価結果を報告するための値の型。
-  language_code: jpn
+  terms:
+  - type: expression
+    designation: データ品質評価値型
+  definition:
+  - content: データ品質評価結果を報告するための値の型。
   notes:
-    - 　データ品質評価値型は，常にデータ品質評価結果に対して定める。
+  - content: "　データ品質評価値型は，常にデータ品質評価結果に対して定める。"
   examples:
-    - 　“ブール変数”，“百分率”，“比率”。
+  - content: "　“ブール変数”，“百分率”，“比率”。"
+  language_code: jpn
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19113:2002'
-    clause: '4.12'
-    link: 'https://www.iso.org/standard/26018.html'
-  lineage_source: ''
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2013-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19113:2002
+      clause: '4.12'
+      link: https://www.iso.org/standard/26018.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2013-12-15T00:00:00.000Z'
   review_date: '2013-12-15T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2013-12-15T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19157:2013'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19157:2013).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: データ品質評価値型
-      normative_status: null
+  review_decision_event: Publication of ISO 19157:2013
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19157:2013).
+  release: "-1"
   _revisions:
     current: '468079'
     tree:
@@ -523,15 +571,15 @@ jpn:
           definition: データ品質評価結果を報告するための値の型。
           language_code: jpn
           notes:
-            - 　データ品質評価値型は，常にデータ品質評価結果に対して定める。
+          - "　データ品質評価値型は，常にデータ品質評価結果に対して定める。"
           examples:
-            - 　“ブール変数”，“百分率”，“比率”。
+          - "　“ブール変数”，“百分率”，“比率”。"
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19113:2002'
+            ref: ISO 19113:2002
             clause: '4.12'
-            link: 'https://www.iso.org/standard/26018.html'
+            link: https://www.iso.org/standard/26018.html
           lineage_source: ''
           date_accepted: '2002-12-01T00:00:00.000Z'
           date_amended: '2013-12-15T00:00:00.000Z'
@@ -540,15 +588,14 @@ jpn:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2013-12-15T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19157:2013'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19157:2013
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19157:2013).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: データ品質評価値型
-              normative_status: null
+          - type: expression
+            designation: データ品質評価値型
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -556,33 +603,41 @@ jpn:
           email: glossarist@ribose.com
 kor:
   id: 120
-  definition: 데이터 품질 결과를 보고하는 값의 유형
-  language_code: kor
+  terms:
+  - type: expression
+    designation: 데이터 품질 값 유형
+  definition:
+  - content: 데이터 품질 결과를 보고하는 값의 유형
   notes:
-    - 데이터 품질 값 유형은 항상 데이터 품질 결과를 규정한다.
+  - content: 데이터 품질 값 유형은 항상 데이터 품질 결과를 규정한다.
   examples:
-    - '부울린 변수, 백분율, 비율'
+  - content: 부울린 변수, 백분율, 비율
+  language_code: kor
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19113:2002'
-    clause: '4.12'
-    link: 'https://www.iso.org/standard/26018.html'
-  lineage_source: ''
-  date_accepted: '2007-11-01T00:00:00.000Z'
-  date_amended: '2013-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19113:2002
+      clause: '4.12'
+      link: https://www.iso.org/standard/26018.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2007-11-01T00:00:00.000Z'
+  - type: amended
+    date: '2013-12-15T00:00:00.000Z'
   review_date: '2013-12-15T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2013-12-15T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19157:2013'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19157:2013).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: 데이터 품질 값 유형
-      normative_status: null
+  review_decision_event: Publication of ISO 19157:2013
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19157:2013).
+  release: "-1"
   _revisions:
     current: a47699
     tree:
@@ -592,15 +647,15 @@ kor:
           definition: 데이터 품질 결과를 보고하는 값의 유형
           language_code: kor
           notes:
-            - 데이터 품질 값 유형은 항상 데이터 품질 결과를 규정한다.
+          - 데이터 품질 값 유형은 항상 데이터 품질 결과를 규정한다.
           examples:
-            - '부울린 변수, 백분율, 비율'
+          - 부울린 변수, 백분율, 비율
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19113:2002'
+            ref: ISO 19113:2002
             clause: '4.12'
-            link: 'https://www.iso.org/standard/26018.html'
+            link: https://www.iso.org/standard/26018.html
           lineage_source: ''
           date_accepted: '2007-11-01T00:00:00.000Z'
           date_amended: '2013-12-15T00:00:00.000Z'
@@ -609,15 +664,14 @@ kor:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2013-12-15T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19157:2013'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19157:2013
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19157:2013).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: 데이터 품질 값 유형
-              normative_status: null
+          - type: expression
+            designation: 데이터 품질 값 유형
+            normative_status:
         parents: []
         timeCreated: '2007-11-01T00:00:00.000Z'
         author:
@@ -625,34 +679,41 @@ kor:
           email: glossarist@ribose.com
 pol:
   id: 120
-  definition: typ wartości do przedstawiania wyniku oceny jakości danych
-  language_code: pol
+  terms:
+  - type: expression
+    designation: typ wartości jakości danych
+  definition:
+  - content: typ wartości do przedstawiania wyniku oceny jakości danych
   notes:
-    - >-
-      Typ wartości jakości danych jest zawsze określany dla wyniku oceny jakości
+  - content: Typ wartości jakości danych jest zawsze określany dla wyniku oceny jakości
       danych.
   examples:
-    - '"zmienna boole''owska", "procent", "współczynnik"'
+  - content: '"zmienna boole''owska", "procent", "współczynnik"'
+  language_code: pol
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19113:2002'
-    clause: '4.12'
-    link: 'https://www.iso.org/standard/26018.html'
-  lineage_source: ''
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2013-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19113:2002
+      clause: '4.12'
+      link: https://www.iso.org/standard/26018.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2013-12-15T00:00:00.000Z'
   review_date: '2013-12-15T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2013-12-15T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19157:2013'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19157:2013).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: typ wartości jakości danych
-      normative_status: null
+  review_decision_event: Publication of ISO 19157:2013
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19157:2013).
+  release: "-1"
   _revisions:
     current: b9d13b
     tree:
@@ -662,16 +723,15 @@ pol:
           definition: typ wartości do przedstawiania wyniku oceny jakości danych
           language_code: pol
           notes:
-            - >-
-              Typ wartości jakości danych jest zawsze określany dla wyniku oceny
-              jakości danych.
+          - Typ wartości jakości danych jest zawsze określany dla wyniku oceny jakości
+            danych.
           examples:
-            - '"zmienna boole''owska", "procent", "współczynnik"'
+          - '"zmienna boole''owska", "procent", "współczynnik"'
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19113:2002'
+            ref: ISO 19113:2002
             clause: '4.12'
-            link: 'https://www.iso.org/standard/26018.html'
+            link: https://www.iso.org/standard/26018.html
           lineage_source: ''
           date_accepted: '2002-12-01T00:00:00.000Z'
           date_amended: '2013-12-15T00:00:00.000Z'
@@ -680,15 +740,14 @@ pol:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2013-12-15T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19157:2013'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19157:2013
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19157:2013).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: typ wartości jakości danych
-              normative_status: null
+          - type: expression
+            designation: typ wartości jakości danych
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -696,35 +755,42 @@ pol:
           email: glossarist@ribose.com
 rus:
   id: 120
-  definition: тип величин для представления результатов  оценки качества данных
-  language_code: rus
+  terms:
+  - type: expression
+    designation: тип значения качества данных
+  definition:
+  - content: тип величин для представления результатов  оценки качества данных
   notes:
-    - >-
-      Тип значения качества данных всегда присутствует в результате оценки
+  - content: Тип значения качества данных всегда присутствует в результате оценки
       качества
   examples:
-    - '«Булева переменная», «процент»,  «коэффициент»'
+  - content: "«Булева переменная», «процент»,  «коэффициент»"
+  language_code: rus
   entry_status: изъятый
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19113:2002'
-    clause: '4.12'
-    link: 'https://www.iso.org/standard/26018.html'
-  lineage_source: ''
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2013-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19113:2002
+      clause: '4.12'
+      link: https://www.iso.org/standard/26018.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2013-12-15T00:00:00.000Z'
   review_date: '2013-12-15T00:00:00.000Z'
   review_status: ''
   review_type: ''
   review_decision: ''
   review_decision_date: '2013-12-15T00:00:00.000Z'
-  review_decision_event: 'Публикация ИСО 19157:2013'
-  review_decision_notes: 'Эта запись была опущена из заменяющего стандарта (ISO 19157: 2013).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: тип значения качества данных
-      normative_status: null
+  review_decision_event: Публикация ИСО 19157:2013
+  review_decision_notes: 'Эта запись была опущена из заменяющего стандарта (ISO 19157:
+    2013).'
+  release: "-1"
   _revisions:
     current: e605a8
     tree:
@@ -734,17 +800,15 @@ rus:
           definition: тип величин для представления результатов  оценки качества данных
           language_code: rus
           notes:
-            - >-
-              Тип значения качества данных всегда присутствует в результате
-              оценки качества
+          - Тип значения качества данных всегда присутствует в результате оценки качества
           examples:
-            - '«Булева переменная», «процент»,  «коэффициент»'
+          - "«Булева переменная», «процент»,  «коэффициент»"
           entry_status: изъятый
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19113:2002'
+            ref: ISO 19113:2002
             clause: '4.12'
-            link: 'https://www.iso.org/standard/26018.html'
+            link: https://www.iso.org/standard/26018.html
           lineage_source: ''
           date_accepted: '2002-12-01T00:00:00.000Z'
           date_amended: '2013-12-15T00:00:00.000Z'
@@ -753,13 +817,14 @@ rus:
           review_type: ''
           review_decision: ''
           review_decision_date: '2013-12-15T00:00:00.000Z'
-          review_decision_event: 'Публикация ИСО 19157:2013'
-          review_decision_notes: 'Эта запись была опущена из заменяющего стандарта (ISO 19157: 2013).'
-          release: '-1'
+          review_decision_event: Публикация ИСО 19157:2013
+          review_decision_notes: 'Эта запись была опущена из заменяющего стандарта
+            (ISO 19157: 2013).'
+          release: "-1"
           terms:
-            - type: expression
-              designation: тип значения качества данных
-              normative_status: null
+          - type: expression
+            designation: тип значения качества данных
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -767,51 +832,60 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 120
-  definition: tipo de valor para informar de un resultado de la calidad de datos
-  language_code: spa
+  terms:
+  - type: expression
+    designation: tipo de valor de la calidad de datos
+  definition:
+  - content: tipo de valor para informar de un resultado de la calidad de datos
   notes:
-    - Siempre se ha de indicar un tipo de valor para cada resultado.
+  - content: Siempre se ha de indicar un tipo de valor para cada resultado.
   examples:
-    - '"variable booleana", "porcentaje", "razón".'
+  - content: '"variable booleana", "porcentaje", "razón".'
+  language_code: spa
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19113:2002'
-    clause: '4.12'
-    link: 'https://www.iso.org/standard/26018.html'
-  lineage_source: ''
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2013-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19113:2002
+      clause: '4.12'
+      link: https://www.iso.org/standard/26018.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2013-12-15T00:00:00.000Z'
   review_date: '2013-12-15T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2013-12-15T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19157:2013'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19157:2013).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: tipo de valor de la calidad de datos
-      normative_status: null
+  review_decision_event: Publication of ISO 19157:2013
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19157:2013).
+  release: "-1"
   _revisions:
     current: d30e7f
     tree:
       d30e7f:
         object:
           id: 120
-          definition: tipo de valor para informar de un resultado de la calidad de datos
+          definition: tipo de valor para informar de un resultado de la calidad de
+            datos
           language_code: spa
           notes:
-            - Siempre se ha de indicar un tipo de valor para cada resultado.
+          - Siempre se ha de indicar un tipo de valor para cada resultado.
           examples:
-            - '"variable booleana", "porcentaje", "razón".'
+          - '"variable booleana", "porcentaje", "razón".'
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19113:2002'
+            ref: ISO 19113:2002
             clause: '4.12'
-            link: 'https://www.iso.org/standard/26018.html'
+            link: https://www.iso.org/standard/26018.html
           lineage_source: ''
           date_accepted: '2002-12-01T00:00:00.000Z'
           date_amended: '2013-12-15T00:00:00.000Z'
@@ -820,15 +894,14 @@ spa:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2013-12-15T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19157:2013'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19157:2013
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19157:2013).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: tipo de valor de la calidad de datos
-              normative_status: null
+          - type: expression
+            designation: tipo de valor de la calidad de datos
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -836,35 +909,43 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 120
-  definition: typ av värde som används för att ange ett datakvalitetsresultat
+  terms:
+  - type: expression
+    designation: datakvalitetsresultattyp
+  definition:
+  - content: typ av värde som används för att ange ett datakvalitetsresultat
+  notes:
+  - content: A data quality value type is always provided for a data quality result.
+  examples:
+  - content: '"boolean variable", "percentage", "ratio"'
   country_code: swe
   language_code: swe
-  notes:
-    - A data quality value type is always provided for a data quality result.
-  examples:
-    - '"boolean variable", "percentage", "ratio"'
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19113:2002'
-    clause: '4.12'
-    link: 'https://www.iso.org/standard/26018.html'
-  lineage_source: ''
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19113:2002
+      clause: '4.12'
+      link: https://www.iso.org/standard/26018.html
+  - type: lineage
+    origin:
+      ref: ''
   lineage_source_similarity: 0
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2013-12-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2013-12-15T00:00:00.000Z'
   review_date: '2013-12-15T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2013-12-15T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19157:2013'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19157:2013).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: datakvalitetsresultattyp
-      normative_status: null
+  review_decision_event: Publication of ISO 19157:2013
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19157:2013).
+  release: "-1"
   _revisions:
     current: 8f0338
     tree:
@@ -875,17 +956,15 @@ swe:
           country_code: swe
           language_code: swe
           notes:
-            - >-
-              A data quality value type is always provided for a data quality
-              result.
+          - A data quality value type is always provided for a data quality result.
           examples:
-            - '"boolean variable", "percentage", "ratio"'
+          - '"boolean variable", "percentage", "ratio"'
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19113:2002'
+            ref: ISO 19113:2002
             clause: '4.12'
-            link: 'https://www.iso.org/standard/26018.html'
+            link: https://www.iso.org/standard/26018.html
           lineage_source: ''
           lineage_source_similarity: 0
           date_accepted: '2002-12-01T00:00:00.000Z'
@@ -895,15 +974,14 @@ swe:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2013-12-15T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19157:2013'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19157:2013
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19157:2013).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: datakvalitetsresultattyp
-              normative_status: null
+          - type: expression
+            designation: datakvalitetsresultattyp
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:

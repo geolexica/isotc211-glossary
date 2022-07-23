@@ -1,22 +1,28 @@
-term: feature portrayal function
+---
 termid: 1264
+term: feature portrayal function
 eng:
   id: 1264
-  definition: function that maps a geographic feature to a symbol
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: feature portrayal function
+  definition:
+  - content: function that maps a geographic feature to a symbol
   notes: []
   examples: []
+  language_code: eng
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19117:2012'
-    clause: '4.10'
-    link: 'https://www.iso.org/standard/46226.html'
-  date_accepted: '2012-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19117:2012
+      clause: '4.10'
+      link: https://www.iso.org/standard/46226.html
+  dates:
+  - type: accepted
+    date: '2012-12-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: feature portrayal function
-      normative_status: preferred
   _revisions:
     current: a51e80
     tree:
@@ -29,15 +35,15 @@ eng:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19117:2012'
+            ref: ISO 19117:2012
             clause: '4.10'
-            link: 'https://www.iso.org/standard/46226.html'
+            link: https://www.iso.org/standard/46226.html
           date_accepted: '2012-12-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: feature portrayal function
-              normative_status: preferred
+          - type: expression
+            designation: feature portrayal function
+            normative_status: preferred
         parents: []
         timeCreated: '2012-12-15T00:00:00.000Z'
         author:
@@ -45,21 +51,26 @@ eng:
           email: glossarist@ribose.com
 kor:
   id: 1264
-  definition: 기호에 대한 지형적 특성을 매핑하는 기능
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 지형지물 묘사
+  definition:
+  - content: 기호에 대한 지형적 특성을 매핑하는 기능
   notes: []
   examples: []
+  language_code: kor
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19117:2012'
-    clause: '4.10'
-    link: 'https://www.iso.org/standard/46226.html'
-  date_accepted: '2012-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19117:2012
+      clause: '4.10'
+      link: https://www.iso.org/standard/46226.html
+  dates:
+  - type: accepted
+    date: '2012-12-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: 지형지물 묘사
-      normative_status: preferred
   _revisions:
     current: d0f7f3
     tree:
@@ -72,15 +83,15 @@ kor:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19117:2012'
+            ref: ISO 19117:2012
             clause: '4.10'
-            link: 'https://www.iso.org/standard/46226.html'
+            link: https://www.iso.org/standard/46226.html
           date_accepted: '2012-12-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: 지형지물 묘사
-              normative_status: preferred
+          - type: expression
+            designation: 지형지물 묘사
+            normative_status: preferred
         parents: []
         timeCreated: '2012-12-15T00:00:00.000Z'
         author:
@@ -88,48 +99,53 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 1264
-  definition: >-
-    функция, которая устанавливает соответствие между географическим объектом и
-    символом
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: функция отображения объекта
+  definition:
+  - content: функция, которая устанавливает соответствие между географическим объектом
+      и символом
   notes: []
   examples: []
+  language_code: rus
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19117:2012'
-    clause: '4.10'
-    link: 'https://www.iso.org/standard/46226.html'
-  lineage_source: 'перевод ИСО 19117:2012'
-  date_accepted: '2012-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19117:2012
+      clause: '4.10'
+      link: https://www.iso.org/standard/46226.html
+  - type: lineage
+    origin:
+      ref: перевод ИСО 19117:2012
+  dates:
+  - type: accepted
+    date: '2012-12-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: функция отображения объекта
-      normative_status: preferred
   _revisions:
     current: d58eaa
     tree:
       d58eaa:
         object:
           id: 1264
-          definition: >-
-            функция, которая устанавливает соответствие между географическим
+          definition: функция, которая устанавливает соответствие между географическим
             объектом и символом
           language_code: rus
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19117:2012'
+            ref: ISO 19117:2012
             clause: '4.10'
-            link: 'https://www.iso.org/standard/46226.html'
-          lineage_source: 'перевод ИСО 19117:2012'
+            link: https://www.iso.org/standard/46226.html
+          lineage_source: перевод ИСО 19117:2012
           date_accepted: '2012-12-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: функция отображения объекта
-              normative_status: preferred
+          - type: expression
+            designation: функция отображения объекта
+            normative_status: preferred
         parents: []
         timeCreated: '2012-12-15T00:00:00.000Z'
         author:
@@ -137,21 +153,26 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 1264
-  definition: función que hace corresponder a un objeto geográfico un símbolo
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: función de representación de objetos geográficos
+  definition:
+  - content: función que hace corresponder a un objeto geográfico un símbolo
   notes: []
   examples: []
+  language_code: spa
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19117:2012'
-    clause: '4.10'
-    link: 'https://www.iso.org/standard/46226.html'
-  date_accepted: '2012-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19117:2012
+      clause: '4.10'
+      link: https://www.iso.org/standard/46226.html
+  dates:
+  - type: accepted
+    date: '2012-12-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: función de representación de objetos geográficos
-      normative_status: preferred
   _revisions:
     current: 4ec8eb
     tree:
@@ -164,15 +185,15 @@ spa:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19117:2012'
+            ref: ISO 19117:2012
             clause: '4.10'
-            link: 'https://www.iso.org/standard/46226.html'
+            link: https://www.iso.org/standard/46226.html
           date_accepted: '2012-12-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: función de representación de objetos geográficos
-              normative_status: preferred
+          - type: expression
+            designation: función de representación de objetos geográficos
+            normative_status: preferred
         parents: []
         timeCreated: '2012-12-15T00:00:00.000Z'
         author:
@@ -180,31 +201,37 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 1264
-  definition: funktion som åstadkommer symbolisering av geodataobjekt av viss objekttyp
-  country_code: swe
-  language_code: swe
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: symboliseringsfunktion
+  definition:
+  - content: funktion som åstadkommer symbolisering av geodataobjekt av viss objekttyp
   notes: []
   examples: []
+  country_code: swe
+  language_code: swe
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19117:2012'
-    clause: '4.10'
-    link: 'https://www.iso.org/standard/46226.html'
-  lineage_source: (Type reference to national language document)
-  date_accepted: '2012-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19117:2012
+      clause: '4.10'
+      link: https://www.iso.org/standard/46226.html
+  - type: lineage
+    origin:
+      ref: "(Type reference to national language document)"
+  dates:
+  - type: accepted
+    date: '2012-12-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: symboliseringsfunktion
-      normative_status: preferred
   _revisions:
     current: 166eb5
     tree:
       166eb5:
         object:
           id: 1264
-          definition: >-
-            funktion som åstadkommer symbolisering av geodataobjekt av viss
+          definition: funktion som åstadkommer symbolisering av geodataobjekt av viss
             objekttyp
           country_code: swe
           language_code: swe
@@ -212,16 +239,16 @@ swe:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19117:2012'
+            ref: ISO 19117:2012
             clause: '4.10'
-            link: 'https://www.iso.org/standard/46226.html'
-          lineage_source: (Type reference to national language document)
+            link: https://www.iso.org/standard/46226.html
+          lineage_source: "(Type reference to national language document)"
           date_accepted: '2012-12-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: symboliseringsfunktion
-              normative_status: preferred
+          - type: expression
+            designation: symboliseringsfunktion
+            normative_status: preferred
         parents: []
         timeCreated: '2012-12-15T00:00:00.000Z'
         author:

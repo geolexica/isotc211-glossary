@@ -1,32 +1,38 @@
-term: geopositioning
+---
 termid: 2467
+term: geopositioning
 eng:
   id: 2467
-  definition: determination of the geographic position of an object
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: geopositioning
+  definition:
+  - content: determination of the geographic position of an object
   notes:
-    - >-
-      While there are many methods for geopositioning, this document is focused
+  - content: While there are many methods for geopositioning, this document is focused
       on geopositioning from image coordinates.
   examples: []
+  language_code: eng
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19130-1:2018'
-    clause: '(E), 3.36'
-    link: 'https://www.iso.org/standard/66847.html'
-  date_accepted: '2018-09-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19130-1:2018
+      clause: "(E), 3.36"
+      link: https://www.iso.org/standard/66847.html
+  dates:
+  - type: accepted
+    date: '2018-09-01T00:00:00.000Z'
   review_date: '2018-09-01T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2018-09-01T00:00:00.000Z'
-  review_decision_event: 'Publication of document ISO 19130-1:2018(E)'
-  review_decision_notes: 'This entry supersedes the entry for geopositioning in ISO/TS 19130:2010(E)'
+  review_decision_event: Publication of document ISO 19130-1:2018(E)
+  review_decision_notes: This entry supersedes the entry for geopositioning in ISO/TS
+    19130:2010(E)
   release: '5'
-  terms:
-    - type: expression
-      designation: geopositioning
-      normative_status: preferred
   _revisions:
     current: e8a453
     tree:
@@ -36,30 +42,28 @@ eng:
           definition: determination of the geographic position of an object
           language_code: eng
           notes:
-            - >-
-              While there are many methods for geopositioning, this document is
-              focused on geopositioning from image coordinates.
+          - While there are many methods for geopositioning, this document is focused
+            on geopositioning from image coordinates.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19130-1:2018'
-            clause: '(E), 3.36'
-            link: 'https://www.iso.org/standard/66847.html'
+            ref: ISO 19130-1:2018
+            clause: "(E), 3.36"
+            link: https://www.iso.org/standard/66847.html
           date_accepted: '2018-09-01T00:00:00.000Z'
           review_date: '2018-09-01T00:00:00.000Z'
           review_status: final
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2018-09-01T00:00:00.000Z'
-          review_decision_event: 'Publication of document ISO 19130-1:2018(E)'
-          review_decision_notes: >-
-            This entry supersedes the entry for geopositioning in ISO/TS
-            19130:2010(E)
+          review_decision_event: Publication of document ISO 19130-1:2018(E)
+          review_decision_notes: This entry supersedes the entry for geopositioning
+            in ISO/TS 19130:2010(E)
           release: '5'
           terms:
-            - type: expression
-              designation: geopositioning
-              normative_status: preferred
+          - type: expression
+            designation: geopositioning
+            normative_status: preferred
         parents: []
         timeCreated: '2018-09-01T00:00:00.000Z'
         author:

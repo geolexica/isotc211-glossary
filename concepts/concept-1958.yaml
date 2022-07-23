@@ -1,60 +1,64 @@
-term: mailer
+---
 termid: 1958
+term: mailer
 eng:
   id: 1958
-  definition: >-
-    party who carries out one or more of the processes involved in creating,
-    producing, finishing, inducting and paying the postage due for a postal item
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: mailer
+  definition:
+  - content: party who carries out one or more of the processes involved in creating,
+      producing, finishing, inducting and paying the postage due for a postal item
   notes: []
   examples: []
+  language_code: eng
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19160-4:2017'
-    clause: '(E), 3.9'
-    link: 'https://www.iso.org/standard/64242.html'
-  date_accepted: '2017-11-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19160-4:2017
+      clause: "(E), 3.9"
+      link: https://www.iso.org/standard/64242.html
+  dates:
+  - type: accepted
+    date: '2017-11-15T00:00:00.000Z'
   review_date: '2017-11-15T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2017-11-15T00:00:00.000Z'
   review_decision_event: Normal ISO processing
-  review_decision_notes: 'Publication of document ISO 19160-4:2017(E)'
+  review_decision_notes: Publication of document ISO 19160-4:2017(E)
   release: '5'
-  terms:
-    - type: expression
-      designation: mailer
-      normative_status: preferred
   _revisions:
-    current: '41e212'
+    current: 41e212
     tree:
-      '41e212':
+      41e212:
         object:
           id: 1958
-          definition: >-
-            party who carries out one or more of the processes involved in
-            creating, producing, finishing, inducting and paying the postage due
+          definition: party who carries out one or more of the processes involved
+            in creating, producing, finishing, inducting and paying the postage due
             for a postal item
           language_code: eng
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19160-4:2017'
-            clause: '(E), 3.9'
-            link: 'https://www.iso.org/standard/64242.html'
+            ref: ISO 19160-4:2017
+            clause: "(E), 3.9"
+            link: https://www.iso.org/standard/64242.html
           date_accepted: '2017-11-15T00:00:00.000Z'
           review_date: '2017-11-15T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2017-11-15T00:00:00.000Z'
           review_decision_event: Normal ISO processing
-          review_decision_notes: 'Publication of document ISO 19160-4:2017(E)'
+          review_decision_notes: Publication of document ISO 19160-4:2017(E)
           release: '5'
           terms:
-            - type: expression
-              designation: mailer
-              normative_status: preferred
+          - type: expression
+            designation: mailer
+            normative_status: preferred
         parents: []
         timeCreated: '2017-11-15T00:00:00.000Z'
         author:

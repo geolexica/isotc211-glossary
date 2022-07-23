@@ -1,36 +1,43 @@
-term: northing
+---
 termid: 311
+term: N
 eng:
   id: 311
-  abbrev: N
-  definition: >-
-    distance in a coordinate system, northwards (positive) or southwards
-    (negative) from an east-west reference line
-  language_code: eng
+  terms:
+  - type: abbreviation
+    designation: N
+  - type: expression
+    normative_status: preferred
+    designation: northing
+  definition:
+  - content: distance in a coordinate system, northwards (positive) or southwards
+      (negative) from an east-west reference line
   notes: []
   examples: []
+  language_code: eng
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.43'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.43"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.43. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.43. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: northing
-      normative_status: preferred
   _revisions:
     current: 804b90
     tree:
@@ -38,8 +45,7 @@ eng:
         object:
           id: 311
           abbrev: N
-          definition: >-
-            distance in a coordinate system, northwards (positive) or southwards
+          definition: distance in a coordinate system, northwards (positive) or southwards
             (negative) from an east-west reference line
           language_code: eng
           notes: []
@@ -47,25 +53,24 @@ eng:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.43'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.43"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.43. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.43. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: northing
-              normative_status: preferred
+          - type: expression
+            designation: northing
+            normative_status: preferred
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -73,70 +78,74 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 311
-  abbrev: N
-  definition: >-
-    مسافة في نظام للإحداثيات ، باتجاه الشمال ( موجبة ) أو باتجاه الجنوب (سالبة)
-    مُقاسةً من خط مرجعي ممتد شرقا وغربا
-  language_code: ara
+  terms:
+  - type: abbreviation
+    designation: N
+  - type: expression
+    normative_status: preferred
+    designation: الشماليات
+  definition:
+  - content: مسافة في نظام للإحداثيات ، باتجاه الشمال ( موجبة ) أو باتجاه الجنوب (سالبة)
+      مُقاسةً من خط مرجعي ممتد شرقا وغربا
   notes: []
   examples: []
+  language_code: ara
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.43'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.43"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.43. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.43. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: الشماليات
-      normative_status: preferred
   _revisions:
-    current: 095ca8
+    current: '095ca8'
     tree:
-      095ca8:
+      '095ca8':
         object:
           id: 311
           abbrev: N
-          definition: >-
-            مسافة في نظام للإحداثيات ، باتجاه الشمال ( موجبة ) أو باتجاه الجنوب
-            (سالبة) مُقاسةً من خط مرجعي ممتد شرقا وغربا
+          definition: مسافة في نظام للإحداثيات ، باتجاه الشمال ( موجبة ) أو باتجاه
+            الجنوب (سالبة) مُقاسةً من خط مرجعي ممتد شرقا وغربا
           language_code: ara
           notes: []
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.43'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.43"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.43. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.43. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: الشماليات
-              normative_status: preferred
+          - type: expression
+            designation: الشماليات
+            normative_status: preferred
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -144,33 +153,40 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 311
-  abbrev: N
-  definition: 在坐标系中，从一条东西向参照线向北偏移（正）或向南偏移（负）的距离。
-  language_code: zho
+  terms:
+  - type: abbreviation
+    designation: N
+  - type: expression
+    normative_status: preferred
+    designation: 北移
+  definition:
+  - content: 在坐标系中，从一条东西向参照线向北偏移（正）或向南偏移（负）的距离。
   notes: []
   examples: []
+  language_code: zho
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.43'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.43"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.43. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.43. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: 北移
-      normative_status: preferred
   _revisions:
     current: 69d17d
     tree:
@@ -185,25 +201,24 @@ zho:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.43'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.43"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.43. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.43. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: 北移
-              normative_status: preferred
+          - type: expression
+            designation: 北移
+            normative_status: preferred
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -211,37 +226,43 @@ zho:
           email: glossarist@ribose.com
 nld:
   id: 311
-  abbrev: N
-  definition: >-
-    afstand in een coördinaatsysteem, noordwaarts (positief) of zuidwaarts
-    (negatief) gerekend vanaf een oost-west georiënteerde referentielijn
-  language_code: nld
+  terms:
+  - type: abbreviation
+    designation: N
+  - type: expression
+    normative_status: preferred
+    designation: Noord
+  - type: expression
+    designation: northing
+  definition:
+  - content: afstand in een coördinaatsysteem, noordwaarts (positief) of zuidwaarts
+      (negatief) gerekend vanaf een oost-west georiënteerde referentielijn
   notes: []
   examples: []
+  language_code: nld
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.43'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.43"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.43. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.43. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: Noord
-      normative_status: preferred
-    - designation: northing
-      type: expression
   _revisions:
     current: fb09f2
     tree:
@@ -249,37 +270,34 @@ nld:
         object:
           id: 311
           abbrev: N
-          definition: >-
-            afstand in een coördinaatsysteem, noordwaarts (positief) of
-            zuidwaarts (negatief) gerekend vanaf een oost-west georiënteerde
-            referentielijn
+          definition: afstand in een coördinaatsysteem, noordwaarts (positief) of
+            zuidwaarts (negatief) gerekend vanaf een oost-west georiënteerde referentielijn
           language_code: nld
           notes: []
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.43'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.43"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.43. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.43. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: Noord
-              normative_status: preferred
-            - designation: northing
-              type: expression
+          - type: expression
+            designation: Noord
+            normative_status: preferred
+          - designation: northing
+            type: expression
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -287,35 +305,41 @@ nld:
           email: glossarist@ribose.com
 fin:
   id: 311
-  abbrev: N
-  definition: >-
-    etäisyys koordinaatistossa itä-länsi-akselista pohjoiseen (positiivinen) tai
-    etelään (negatiivinen)
-  language_code: fin
+  terms:
+  - type: abbreviation
+    designation: N
+  - type: expression
+    normative_status: preferred
+    designation: pohjoiskoordinaatti
+  definition:
+  - content: etäisyys koordinaatistossa itä-länsi-akselista pohjoiseen (positiivinen)
+      tai etelään (negatiivinen)
   notes: []
   examples: []
+  language_code: fin
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.43'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.43"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.43. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.43. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: pohjoiskoordinaatti
-      normative_status: preferred
   _revisions:
     current: 8558f2
     tree:
@@ -323,34 +347,32 @@ fin:
         object:
           id: 311
           abbrev: N
-          definition: >-
-            etäisyys koordinaatistossa itä-länsi-akselista pohjoiseen
-            (positiivinen) tai etelään (negatiivinen)
+          definition: etäisyys koordinaatistossa itä-länsi-akselista pohjoiseen (positiivinen)
+            tai etelään (negatiivinen)
           language_code: fin
           notes: []
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.43'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.43"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.43. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.43. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: pohjoiskoordinaatti
-              normative_status: preferred
+          - type: expression
+            designation: pohjoiskoordinaatti
+            normative_status: preferred
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -358,68 +380,71 @@ fin:
           email: glossarist@ribose.com
 fra:
   id: 311
-  definition: >-
-    distance dans un système de coordonnées, vers le nord (positif) ou vers le
-    sud (négatif) à une ligne de référence Est-Ouest
-  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ordonnée (de coordonnées géographiques ou planes)
+  definition:
+  - content: distance dans un système de coordonnées, vers le nord (positif) ou vers
+      le sud (négatif) à une ligne de référence Est-Ouest
   notes: []
   examples: []
+  language_code: fra
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.43'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.43"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.43. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.43. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: ordonnée (de coordonnées géographiques ou planes)
-      normative_status: preferred
   _revisions:
     current: 7698ae
     tree:
       7698ae:
         object:
           id: 311
-          definition: >-
-            distance dans un système de coordonnées, vers le nord (positif) ou
-            vers le sud (négatif) à une ligne de référence Est-Ouest
+          definition: distance dans un système de coordonnées, vers le nord (positif)
+            ou vers le sud (négatif) à une ligne de référence Est-Ouest
           language_code: fra
           notes: []
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.43'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.43"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.43. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.43. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: ordonnée (de coordonnées géographiques ou planes)
-              normative_status: preferred
+          - type: expression
+            designation: ordonnée (de coordonnées géographiques ou planes)
+            normative_status: preferred
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -427,35 +452,41 @@ fra:
           email: glossarist@ribose.com
 deu:
   id: 311
-  abbrev: N
-  definition: >-
-    Abstand in einem Koordinatensystem von einer Ost-West-Bezugslinie; Norden
-    (positiv) oder Süden (negativ)
-  language_code: deu
+  terms:
+  - type: abbreviation
+    designation: N
+  - type: expression
+    normative_status: preferred
+    designation: 'Hochwert (Syn.: Northing)'
+  definition:
+  - content: Abstand in einem Koordinatensystem von einer Ost-West-Bezugslinie; Norden
+      (positiv) oder Süden (negativ)
   notes: []
   examples: []
+  language_code: deu
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.43'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.43"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.43. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.43. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: 'Hochwert (Syn.: Northing)'
-      normative_status: preferred
   _revisions:
     current: 253fc2
     tree:
@@ -463,8 +494,7 @@ deu:
         object:
           id: 311
           abbrev: N
-          definition: >-
-            Abstand in einem Koordinatensystem von einer Ost-West-Bezugslinie;
+          definition: Abstand in einem Koordinatensystem von einer Ost-West-Bezugslinie;
             Norden (positiv) oder Süden (negativ)
           language_code: deu
           notes: []
@@ -472,25 +502,24 @@ deu:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.43'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.43"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.43. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.43. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: 'Hochwert (Syn.: Northing)'
-              normative_status: preferred
+          - type: expression
+            designation: 'Hochwert (Syn.: Northing)'
+            normative_status: preferred
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -498,33 +527,40 @@ deu:
           email: glossarist@ribose.com
 kor:
   id: 311
-  abbrev: N
-  definition: 좌표 체계상에서 동서 기준선에서부터 북쪽(양수) 또는 남쪽(음수)으로 관측한 직선거리
-  language_code: kor
+  terms:
+  - type: abbreviation
+    designation: N
+  - type: expression
+    normative_status: preferred
+    designation: 북향 거리
+  definition:
+  - content: 좌표 체계상에서 동서 기준선에서부터 북쪽(양수) 또는 남쪽(음수)으로 관측한 직선거리
   notes: []
   examples: []
+  language_code: kor
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.43'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.43"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.43. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.43. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: 북향 거리
-      normative_status: preferred
   _revisions:
     current: e11039
     tree:
@@ -539,25 +575,24 @@ kor:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.43'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.43"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.43. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.43. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: 북향 거리
-              normative_status: preferred
+          - type: expression
+            designation: 북향 거리
+            normative_status: preferred
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -565,40 +600,45 @@ kor:
           email: glossarist@ribose.com
 msa:
   id: 311
-  definition: Salah satu daripada garis grid timur-barat pada sebuah peta topografi.
-  language_code: msa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: utaraan
+  definition:
+  - content: Salah satu daripada garis grid timur-barat pada sebuah peta topografi.
   notes: []
   examples: []
+  language_code: msa
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.43'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.43"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.43. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.43. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: utaraan
-      normative_status: preferred
   _revisions:
     current: 8b1058
     tree:
       8b1058:
         object:
           id: 311
-          definition: >-
-            Salah satu daripada garis grid timur-barat pada sebuah peta
+          definition: Salah satu daripada garis grid timur-barat pada sebuah peta
             topografi.
           language_code: msa
           notes: []
@@ -606,25 +646,24 @@ msa:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.43'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.43"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.43. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.43. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: utaraan
-              normative_status: preferred
+          - type: expression
+            designation: utaraan
+            normative_status: preferred
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -632,34 +671,40 @@ msa:
           email: glossarist@ribose.com
 pol:
   id: 311
-  abbrev: N
-  definition: >-
-    odległość w układzie współrzędnych - dodatnia na północ, a ujemna na
-    południe - od linii odniesienia przebiegającej w kierunku wschód-zachód
-  language_code: pol
+  terms:
+  - type: abbreviation
+    designation: N
+  - type: expression
+    normative_status: preferred
+    designation: współrzędna północna N
+  definition:
+  - content: odległość w układzie współrzędnych - dodatnia na północ, a ujemna na
+      południe - od linii odniesienia przebiegającej w kierunku wschód-zachód
   notes: []
   examples: []
+  language_code: pol
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.43'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.43"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.43. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.43. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: współrzędna północna N
-      normative_status: preferred
   _revisions:
     current: dbaeae
     tree:
@@ -667,34 +712,31 @@ pol:
         object:
           id: 311
           abbrev: N
-          definition: >-
-            odległość w układzie współrzędnych - dodatnia na północ, a ujemna na
-            południe - od linii odniesienia przebiegającej w kierunku
-            wschód-zachód
+          definition: odległość w układzie współrzędnych - dodatnia na północ, a ujemna
+            na południe - od linii odniesienia przebiegającej w kierunku wschód-zachód
           language_code: pol
           notes: []
           examples: []
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.43'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.43"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.43. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.43. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: współrzędna północna N
-              normative_status: preferred
+          - type: expression
+            designation: współrzędna północna N
+            normative_status: preferred
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -702,35 +744,41 @@ pol:
           email: glossarist@ribose.com
 rus:
   id: 311
-  abbrev: ''
-  definition: >-
-    расстояние в системе координат от отсчетной линии «восток-запад»,
-    положительное  по направлению на север и отрицательное по направлению на юг
-  language_code: rus
+  terms:
+  - type: abbreviation
+    designation: ''
+  - type: expression
+    normative_status: preferred
+    designation: северное положение
+  definition:
+  - content: расстояние в системе координат от отсчетной линии «восток-запад», положительное  по
+      направлению на север и отрицательное по направлению на юг
   notes: []
   examples: []
+  language_code: rus
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.43'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.43"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.43. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.43. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: северное положение
-      normative_status: preferred
   _revisions:
     current: c9e2cf
     tree:
@@ -738,35 +786,33 @@ rus:
         object:
           id: 311
           abbrev: ''
-          definition: >-
-            расстояние в системе координат от отсчетной линии «восток-запад»,
-            положительное  по направлению на север и отрицательное по
-            направлению на юг
+          definition: расстояние в системе координат от отсчетной линии «восток-запад»,
+            положительное  по направлению на север и отрицательное по направлению
+            на юг
           language_code: rus
           notes: []
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.43'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.43"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.43. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.43. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: северное положение
-              normative_status: preferred
+          - type: expression
+            designation: северное положение
+            normative_status: preferred
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -774,35 +820,41 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 311
-  abbrev: N
-  definition: >-
-    distancia en un sistema de coordenadas, hacia el norte (positivo) o hacia el
-    sur (negativo) desde una línea de referencia este-oeste
-  language_code: spa
+  terms:
+  - type: abbreviation
+    designation: N
+  - type: expression
+    normative_status: preferred
+    designation: norte
+  definition:
+  - content: distancia en un sistema de coordenadas, hacia el norte (positivo) o hacia
+      el sur (negativo) desde una línea de referencia este-oeste
   notes: []
   examples: []
+  language_code: spa
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.43'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.43"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.43. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.43. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: norte
-      normative_status: preferred
   _revisions:
     current: 7c9228
     tree:
@@ -810,34 +862,32 @@ spa:
         object:
           id: 311
           abbrev: N
-          definition: >-
-            distancia en un sistema de coordenadas, hacia el norte (positivo) o
-            hacia el sur (negativo) desde una línea de referencia este-oeste
+          definition: distancia en un sistema de coordenadas, hacia el norte (positivo)
+            o hacia el sur (negativo) desde una línea de referencia este-oeste
           language_code: spa
           notes: []
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.43'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.43"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.43. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.43. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: norte
-              normative_status: preferred
+          - type: expression
+            designation: norte
+            normative_status: preferred
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:

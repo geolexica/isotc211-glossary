@@ -1,25 +1,30 @@
-term: parameterized symbol
+---
 termid: 1323
+term: parameterized symbol
 eng:
   id: 1323
-  definition: symbol that has dynamic parameters
-  language_code: eng
-  notes:
-    - >-
-      The dynamic parameters map to the attribute values of each feature
-      instance being portrayed.
-  examples: []
-  entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19117:2012'
-    clause: '4.18'
-    link: 'https://www.iso.org/standard/46226.html'
-  date_accepted: '2012-12-15T00:00:00.000Z'
-  release: '3'
   terms:
-    - type: expression
-      designation: parameterized symbol
-      normative_status: preferred
+  - type: expression
+    normative_status: preferred
+    designation: parameterized symbol
+  definition:
+  - content: symbol that has dynamic parameters
+  notes:
+  - content: The dynamic parameters map to the attribute values of each feature instance
+      being portrayed.
+  examples: []
+  language_code: eng
+  entry_status: valid
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19117:2012
+      clause: '4.18'
+      link: https://www.iso.org/standard/46226.html
+  dates:
+  - type: accepted
+    date: '2012-12-15T00:00:00.000Z'
+  release: '3'
   _revisions:
     current: 7e5d07
     tree:
@@ -29,21 +34,20 @@ eng:
           definition: symbol that has dynamic parameters
           language_code: eng
           notes:
-            - >-
-              The dynamic parameters map to the attribute values of each feature
-              instance being portrayed.
+          - The dynamic parameters map to the attribute values of each feature instance
+            being portrayed.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19117:2012'
+            ref: ISO 19117:2012
             clause: '4.18'
-            link: 'https://www.iso.org/standard/46226.html'
+            link: https://www.iso.org/standard/46226.html
           date_accepted: '2012-12-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: parameterized symbol
-              normative_status: preferred
+          - type: expression
+            designation: parameterized symbol
+            normative_status: preferred
         parents: []
         timeCreated: '2012-12-15T00:00:00.000Z'
         author:
@@ -51,24 +55,28 @@ eng:
           email: glossarist@ribose.com
 kor:
   id: 1323
-  definition: 동적 매개변수를 가지는 기호
-  language_code: kor
-  notes:
-    - >-
-      The dynamic parameters map to the attribute values of each feature
-      instance being portrayed.
-  examples: []
-  entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19117:2012'
-    clause: '4.18'
-    link: 'https://www.iso.org/standard/46226.html'
-  date_accepted: '2012-12-15T00:00:00.000Z'
-  release: '3'
   terms:
-    - type: expression
-      designation: 매개변수화된 기호
-      normative_status: preferred
+  - type: expression
+    normative_status: preferred
+    designation: 매개변수화된 기호
+  definition:
+  - content: 동적 매개변수를 가지는 기호
+  notes:
+  - content: The dynamic parameters map to the attribute values of each feature instance
+      being portrayed.
+  examples: []
+  language_code: kor
+  entry_status: valid
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19117:2012
+      clause: '4.18'
+      link: https://www.iso.org/standard/46226.html
+  dates:
+  - type: accepted
+    date: '2012-12-15T00:00:00.000Z'
+  release: '3'
   _revisions:
     current: e32aeb
     tree:
@@ -78,21 +86,20 @@ kor:
           definition: 동적 매개변수를 가지는 기호
           language_code: kor
           notes:
-            - >-
-              The dynamic parameters map to the attribute values of each feature
-              instance being portrayed.
+          - The dynamic parameters map to the attribute values of each feature instance
+            being portrayed.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19117:2012'
+            ref: ISO 19117:2012
             clause: '4.18'
-            link: 'https://www.iso.org/standard/46226.html'
+            link: https://www.iso.org/standard/46226.html
           date_accepted: '2012-12-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: 매개변수화된 기호
-              normative_status: preferred
+          - type: expression
+            designation: 매개변수화된 기호
+            normative_status: preferred
         parents: []
         timeCreated: '2012-12-15T00:00:00.000Z'
         author:
@@ -100,50 +107,55 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 1323
-  definition: 'символ, который имеет динамические параметры'
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Параметризованный символ
+  definition:
+  - content: символ, который имеет динамические параметры
   notes:
-    - >-
-      Динамические параметры сопоставляются со значениями атрибутов каждого
+  - content: Динамические параметры сопоставляются со значениями атрибутов каждого
       экземпляра объекта , отображаемого графически.
   examples: []
+  language_code: rus
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19117:2012'
-    clause: '4.18'
-    link: 'https://www.iso.org/standard/46226.html'
-  lineage_source: 'перевод ИСО 19117:2012'
-  date_accepted: '2012-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19117:2012
+      clause: '4.18'
+      link: https://www.iso.org/standard/46226.html
+  - type: lineage
+    origin:
+      ref: перевод ИСО 19117:2012
+  dates:
+  - type: accepted
+    date: '2012-12-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: Параметризованный символ
-      normative_status: preferred
   _revisions:
     current: 64a385
     tree:
       64a385:
         object:
           id: 1323
-          definition: 'символ, который имеет динамические параметры'
+          definition: символ, который имеет динамические параметры
           language_code: rus
           notes:
-            - >-
-              Динамические параметры сопоставляются со значениями атрибутов
-              каждого экземпляра объекта , отображаемого графически.
+          - Динамические параметры сопоставляются со значениями атрибутов каждого
+            экземпляра объекта , отображаемого графически.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19117:2012'
+            ref: ISO 19117:2012
             clause: '4.18'
-            link: 'https://www.iso.org/standard/46226.html'
-          lineage_source: 'перевод ИСО 19117:2012'
+            link: https://www.iso.org/standard/46226.html
+          lineage_source: перевод ИСО 19117:2012
           date_accepted: '2012-12-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: Параметризованный символ
-              normative_status: preferred
+          - type: expression
+            designation: Параметризованный символ
+            normative_status: preferred
         parents: []
         timeCreated: '2012-12-15T00:00:00.000Z'
         author:
@@ -151,24 +163,28 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 1323
-  definition: símbolo que tiene parámetros dinámicos
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: símbolo parametrizado
+  definition:
+  - content: símbolo que tiene parámetros dinámicos
   notes:
-    - >-
-      Los parámetros dinámicos se corresponden con los valores de los atributos
+  - content: Los parámetros dinámicos se corresponden con los valores de los atributos
       de cada instancia de objeto geográfico que está representándose
   examples: []
+  language_code: spa
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19117:2012'
-    clause: '4.18'
-    link: 'https://www.iso.org/standard/46226.html'
-  date_accepted: '2012-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19117:2012
+      clause: '4.18'
+      link: https://www.iso.org/standard/46226.html
+  dates:
+  - type: accepted
+    date: '2012-12-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: símbolo parametrizado
-      normative_status: preferred
   _revisions:
     current: 5cd923
     tree:
@@ -178,22 +194,20 @@ spa:
           definition: símbolo que tiene parámetros dinámicos
           language_code: spa
           notes:
-            - >-
-              Los parámetros dinámicos se corresponden con los valores de los
-              atributos de cada instancia de objeto geográfico que está
-              representándose
+          - Los parámetros dinámicos se corresponden con los valores de los atributos
+            de cada instancia de objeto geográfico que está representándose
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19117:2012'
+            ref: ISO 19117:2012
             clause: '4.18'
-            link: 'https://www.iso.org/standard/46226.html'
+            link: https://www.iso.org/standard/46226.html
           date_accepted: '2012-12-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: símbolo parametrizado
-              normative_status: preferred
+          - type: expression
+            designation: símbolo parametrizado
+            normative_status: preferred
         parents: []
         timeCreated: '2012-12-15T00:00:00.000Z'
         author:
@@ -201,26 +215,32 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 1323
-  definition: symbol som innehåller en del som styrs av ett värde
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: parameterstyrd symbol
+  definition:
+  - content: symbol som innehåller en del som styrs av ett värde
+  notes:
+  - content: The dynamic parameters map to the attribute values of each feature instance
+      being portrayed.
+  examples: []
   country_code: swe
   language_code: swe
-  notes:
-    - >-
-      The dynamic parameters map to the attribute values of each feature
-      instance being portrayed.
-  examples: []
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19117:2012'
-    clause: '4.18'
-    link: 'https://www.iso.org/standard/46226.html'
-  lineage_source: (Type reference to national language document)
-  date_accepted: '2012-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19117:2012
+      clause: '4.18'
+      link: https://www.iso.org/standard/46226.html
+  - type: lineage
+    origin:
+      ref: "(Type reference to national language document)"
+  dates:
+  - type: accepted
+    date: '2012-12-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: parameterstyrd symbol
-      normative_status: preferred
   _revisions:
     current: 92cd13
     tree:
@@ -231,22 +251,21 @@ swe:
           country_code: swe
           language_code: swe
           notes:
-            - >-
-              The dynamic parameters map to the attribute values of each feature
-              instance being portrayed.
+          - The dynamic parameters map to the attribute values of each feature instance
+            being portrayed.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19117:2012'
+            ref: ISO 19117:2012
             clause: '4.18'
-            link: 'https://www.iso.org/standard/46226.html'
-          lineage_source: (Type reference to national language document)
+            link: https://www.iso.org/standard/46226.html
+          lineage_source: "(Type reference to national language document)"
           date_accepted: '2012-12-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: parameterstyrd symbol
-              normative_status: preferred
+          - type: expression
+            designation: parameterstyrd symbol
+            normative_status: preferred
         parents: []
         timeCreated: '2012-12-15T00:00:00.000Z'
         author:

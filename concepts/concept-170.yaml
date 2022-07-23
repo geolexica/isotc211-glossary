@@ -1,46 +1,49 @@
-term: feature attribute
+---
 termid: 170
+term: feature attribute
 eng:
   id: 170
-  definition: characteristic of a feature
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: feature attribute
+  definition:
+  - content: characteristic of a feature
   notes:
-    - >-
-      A feature attribute has a name, a data type, and a value domain associated
-      to it.  A feature attribute for a feature instance also has an attribute
-      value taken from the value domain.
-    - >-
-      In a feature catalogue, a feature attribute may include a value domain but
-      does not specify attribute values for feature instances.
+  - content: A feature attribute has a name, a data type, and a value domain associated
+      to it.  A feature attribute for a feature instance also has an attribute value
+      taken from the value domain.
+  - content: In a feature catalogue, a feature attribute may include a value domain
+      but does not specify attribute values for feature instances.
   examples:
-    - >-
-      A feature attribute named 'colour' may have an attribute value 'green'
+  - content: A feature attribute named 'colour' may have an attribute value 'green'
       which belongs to the data type 'text'.
-    - >-
-      A feature attribute named 'length' may have an attribute value '82.4'
+  - content: A feature attribute named 'length' may have an attribute value '82.4'
       which belongs to the data type 'real'.
+  language_code: eng
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101-1:2014'
-    clause: 4.1.12
-    link: 'https://www.iso.org/standard/59164.html'
-  lineage_source: 'ISO 19101:2002'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101-1:2014
+      clause: 4.1.12
+      link: https://www.iso.org/standard/59164.html
+  - type: lineage
+    origin:
+      ref: ISO 19101:2002
   lineage_source_similarity: 1
-  date_accepted: '2002-07-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2002-07-01T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-1:2014'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19101:2002 to ISO 19101-1:2014.
-    Lineage source added as ISO 19101:2002.
+  review_decision_event: Publication of ISO 19101-1:2014
+  review_decision_notes: Authoritative reference changed from ISO 19101:2002 to ISO
+    19101-1:2014. Lineage source added as ISO 19101:2002.
   release: '1'
-  terms:
-    - type: expression
-      designation: feature attribute
-      normative_status: preferred
   _revisions:
     current: 24ef6b
     tree:
@@ -50,43 +53,37 @@ eng:
           definition: characteristic of a feature
           language_code: eng
           notes:
-            - >-
-              A feature attribute has a name, a data type, and a value domain
-              associated to it.  A feature attribute for a feature instance also
-              has an attribute value taken from the value domain.
-            - >-
-              In a feature catalogue, a feature attribute may include a value
-              domain but does not specify attribute values for feature
-              instances.
+          - A feature attribute has a name, a data type, and a value domain associated
+            to it.  A feature attribute for a feature instance also has an attribute
+            value taken from the value domain.
+          - In a feature catalogue, a feature attribute may include a value domain
+            but does not specify attribute values for feature instances.
           examples:
-            - >-
-              A feature attribute named 'colour' may have an attribute value
-              'green' which belongs to the data type 'text'.
-            - >-
-              A feature attribute named 'length' may have an attribute value
-              '82.4' which belongs to the data type 'real'.
+          - A feature attribute named 'colour' may have an attribute value 'green'
+            which belongs to the data type 'text'.
+          - A feature attribute named 'length' may have an attribute value '82.4'
+            which belongs to the data type 'real'.
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101-1:2014'
+            ref: ISO 19101-1:2014
             clause: 4.1.12
-            link: 'https://www.iso.org/standard/59164.html'
-          lineage_source: 'ISO 19101:2002'
+            link: https://www.iso.org/standard/59164.html
+          lineage_source: ISO 19101:2002
           lineage_source_similarity: 1
           date_accepted: '2002-07-01T00:00:00.000Z'
           review_date: '2010-10-12T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-1:2014'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19101:2002 to ISO
-            19101-1:2014. Lineage source added as ISO 19101:2002.
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: Authoritative reference changed from ISO 19101:2002
+            to ISO 19101-1:2014. Lineage source added as ISO 19101:2002.
           release: '1'
           terms:
-            - type: expression
-              designation: feature attribute
-              normative_status: preferred
+          - type: expression
+            designation: feature attribute
+            normative_status: preferred
         parents: []
         timeCreated: '2002-07-01T00:00:00.000Z'
         author:
@@ -94,45 +91,46 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 170
-  definition: الخصائص المميزة للمعلم
-  language_code: ara
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: صفه المعلم
+  definition:
+  - content: الخصائص المميزة للمعلم
   notes:
-    - >-
-      يكون للبيانات الوصفية للمعلم اسم , ونوع بيانات ومجال قيمة ترتبط بها. كما
-      أن البيانات الوصفية الخاصة بنظير المعلم لها أيضاً قيمة تؤخذ من مجال
-      القيمة.
-    - >-
-      في فهرس المعالم ، قد تشتمل بيانات وصف المعلم على مجال للقيمة ولكنها لا
+  - content: يكون للبيانات الوصفية للمعلم اسم , ونوع بيانات ومجال قيمة ترتبط بها.
+      كما أن البيانات الوصفية الخاصة بنظير المعلم لها أيضاً قيمة تؤخذ من مجال القيمة.
+  - content: في فهرس المعالم ، قد تشتمل بيانات وصف المعلم على مجال للقيمة ولكنها لا
       تحدد قيمة لبيانات وصف أمثلة للمعالم.
   examples:
-    - >-
-      يمكن لصفة معلم اسمها "لون" , أن تكون لها قيمة الصفة "أخضر" , وتكون هذه
+  - content: يمكن لصفة معلم اسمها "لون" , أن تكون لها قيمة الصفة "أخضر" , وتكون هذه
       القيمة منتمية إلى نوع البيانات "نص".
-    - >-
-      يمكن لصفة معلم اسمها "طول" أن تكون لها قيمة الصفة "82.4" , وتكون هذه
+  - content: يمكن لصفة معلم اسمها "طول" أن تكون لها قيمة الصفة "82.4" , وتكون هذه
       القيمة منتمية إلى نوع البيانات "حقيقي".
+  language_code: ara
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101-1:2014'
-    clause: 4.1.12
-    link: 'https://www.iso.org/standard/59164.html'
-  lineage_source: 'ISO 19101:2002'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101-1:2014
+      clause: 4.1.12
+      link: https://www.iso.org/standard/59164.html
+  - type: lineage
+    origin:
+      ref: ISO 19101:2002
   lineage_source_similarity: 1
-  date_accepted: '2002-07-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2002-07-01T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-1:2014'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19101:2002 to ISO 19101-1:2014.
-    Lineage source added as ISO 19101:2002.
+  review_decision_event: Publication of ISO 19101-1:2014
+  review_decision_notes: Authoritative reference changed from ISO 19101:2002 to ISO
+    19101-1:2014. Lineage source added as ISO 19101:2002.
   release: '1'
-  terms:
-    - type: expression
-      designation: صفه المعلم
-      normative_status: preferred
   _revisions:
     current: '906877'
     tree:
@@ -142,42 +140,36 @@ ara:
           definition: الخصائص المميزة للمعلم
           language_code: ara
           notes:
-            - >-
-              يكون للبيانات الوصفية للمعلم اسم , ونوع بيانات ومجال قيمة ترتبط
-              بها. كما أن البيانات الوصفية الخاصة بنظير المعلم لها أيضاً قيمة
-              تؤخذ من مجال القيمة.
-            - >-
-              في فهرس المعالم ، قد تشتمل بيانات وصف المعلم على مجال للقيمة
-              ولكنها لا تحدد قيمة لبيانات وصف أمثلة للمعالم.
+          - يكون للبيانات الوصفية للمعلم اسم , ونوع بيانات ومجال قيمة ترتبط بها. كما
+            أن البيانات الوصفية الخاصة بنظير المعلم لها أيضاً قيمة تؤخذ من مجال القيمة.
+          - في فهرس المعالم ، قد تشتمل بيانات وصف المعلم على مجال للقيمة ولكنها لا
+            تحدد قيمة لبيانات وصف أمثلة للمعالم.
           examples:
-            - >-
-              يمكن لصفة معلم اسمها "لون" , أن تكون لها قيمة الصفة "أخضر" , وتكون
-              هذه القيمة منتمية إلى نوع البيانات "نص".
-            - >-
-              يمكن لصفة معلم اسمها "طول" أن تكون لها قيمة الصفة "82.4" , وتكون
-              هذه القيمة منتمية إلى نوع البيانات "حقيقي".
+          - يمكن لصفة معلم اسمها "لون" , أن تكون لها قيمة الصفة "أخضر" , وتكون هذه
+            القيمة منتمية إلى نوع البيانات "نص".
+          - يمكن لصفة معلم اسمها "طول" أن تكون لها قيمة الصفة "82.4" , وتكون هذه القيمة
+            منتمية إلى نوع البيانات "حقيقي".
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101-1:2014'
+            ref: ISO 19101-1:2014
             clause: 4.1.12
-            link: 'https://www.iso.org/standard/59164.html'
-          lineage_source: 'ISO 19101:2002'
+            link: https://www.iso.org/standard/59164.html
+          lineage_source: ISO 19101:2002
           lineage_source_similarity: 1
           date_accepted: '2002-07-01T00:00:00.000Z'
           review_date: '2010-10-12T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-1:2014'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19101:2002 to ISO
-            19101-1:2014. Lineage source added as ISO 19101:2002.
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: Authoritative reference changed from ISO 19101:2002
+            to ISO 19101-1:2014. Lineage source added as ISO 19101:2002.
           release: '1'
           terms:
-            - type: expression
-              designation: صفه المعلم
-              normative_status: preferred
+          - type: expression
+            designation: صفه المعلم
+            normative_status: preferred
         parents: []
         timeCreated: '2002-07-01T00:00:00.000Z'
         author:
@@ -185,36 +177,42 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 170
-  definition: 要素的特征。
-  language_code: zho
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 要素属性
+  definition:
+  - content: 要素的特征。
   notes:
-    - 要素的属性包括名称、数据类型及与其相关的值域。某个要素实例的要素属性也具有一个来自于其值域的属性值。
-    - 在要素目录中，要素属性可以包括一个值域，但并不指定要素实例的属性值。
+  - content: 要素的属性包括名称、数据类型及与其相关的值域。某个要素实例的要素属性也具有一个来自于其值域的属性值。
+  - content: 在要素目录中，要素属性可以包括一个值域，但并不指定要素实例的属性值。
   examples:
-    - 一个名为“颜色”的要素属性有一个属性值为“绿色”，其数据类型为“文本”。
-    - 一个名为“长度”的要素属性有一个属性值为“82.4”，其数据类型为“实型”。
+  - content: 一个名为“颜色”的要素属性有一个属性值为“绿色”，其数据类型为“文本”。
+  - content: 一个名为“长度”的要素属性有一个属性值为“82.4”，其数据类型为“实型”。
+  language_code: zho
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101-1:2014'
-    clause: 4.1.12
-    link: 'https://www.iso.org/standard/59164.html'
-  lineage_source: 'ISO 19101:2002'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101-1:2014
+      clause: 4.1.12
+      link: https://www.iso.org/standard/59164.html
+  - type: lineage
+    origin:
+      ref: ISO 19101:2002
   lineage_source_similarity: 1
-  date_accepted: '2002-07-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2002-07-01T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-1:2014'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19101:2002 to ISO 19101-1:2014.
-    Lineage source added as ISO 19101:2002.
+  review_decision_event: Publication of ISO 19101-1:2014
+  review_decision_notes: Authoritative reference changed from ISO 19101:2002 to ISO
+    19101-1:2014. Lineage source added as ISO 19101:2002.
   release: '1'
-  terms:
-    - type: expression
-      designation: 要素属性
-      normative_status: preferred
   _revisions:
     current: 27c227
     tree:
@@ -224,33 +222,32 @@ zho:
           definition: 要素的特征。
           language_code: zho
           notes:
-            - 要素的属性包括名称、数据类型及与其相关的值域。某个要素实例的要素属性也具有一个来自于其值域的属性值。
-            - 在要素目录中，要素属性可以包括一个值域，但并不指定要素实例的属性值。
+          - 要素的属性包括名称、数据类型及与其相关的值域。某个要素实例的要素属性也具有一个来自于其值域的属性值。
+          - 在要素目录中，要素属性可以包括一个值域，但并不指定要素实例的属性值。
           examples:
-            - 一个名为“颜色”的要素属性有一个属性值为“绿色”，其数据类型为“文本”。
-            - 一个名为“长度”的要素属性有一个属性值为“82.4”，其数据类型为“实型”。
+          - 一个名为“颜色”的要素属性有一个属性值为“绿色”，其数据类型为“文本”。
+          - 一个名为“长度”的要素属性有一个属性值为“82.4”，其数据类型为“实型”。
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101-1:2014'
+            ref: ISO 19101-1:2014
             clause: 4.1.12
-            link: 'https://www.iso.org/standard/59164.html'
-          lineage_source: 'ISO 19101:2002'
+            link: https://www.iso.org/standard/59164.html
+          lineage_source: ISO 19101:2002
           lineage_source_similarity: 1
           date_accepted: '2002-07-01T00:00:00.000Z'
           review_date: '2010-10-12T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-1:2014'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19101:2002 to ISO
-            19101-1:2014. Lineage source added as ISO 19101:2002.
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: Authoritative reference changed from ISO 19101:2002
+            to ISO 19101-1:2014. Lineage source added as ISO 19101:2002.
           release: '1'
           terms:
-            - type: expression
-              designation: 要素属性
-              normative_status: preferred
+          - type: expression
+            designation: 要素属性
+            normative_status: preferred
         parents: []
         timeCreated: '2002-07-01T00:00:00.000Z'
         author:
@@ -258,45 +255,46 @@ zho:
           email: glossarist@ribose.com
 dan:
   id: 170
-  definition: egenskab ved en feature
-  language_code: dan
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: featureattribut
+  definition:
+  - content: egenskab ved en feature
   notes:
-    - >-
-      En featureattribut er forbundet med et navn, en datatype og et sæt
-      domæneværdier.  En featureattribut for en featureinstans har også en
-      attributværdi taget fra domæneværdierne.
-    - >-
-      I et featurekatalog kan en featureattribut indeholde et sæt domæneværdier,
+  - content: En featureattribut er forbundet med et navn, en datatype og et sæt domæneværdier.  En
+      featureattribut for en featureinstans har også en attributværdi taget fra domæneværdierne.
+  - content: I et featurekatalog kan en featureattribut indeholde et sæt domæneværdier,
       men den specificerer ikke attributværdier for featureinstanser.
   examples:
-    - >-
-      En featureattribut kaldet "farve" kan have attributværdien "grøn", der har
-      datatypen "tekst".
-    - >-
-      En featureattribut kaldet "længde" kan have attributværdien "82,3", der
+  - content: En featureattribut kaldet "farve" kan have attributværdien "grøn", der
+      har datatypen "tekst".
+  - content: En featureattribut kaldet "længde" kan have attributværdien "82,3", der
       har datatypen ”real”.
+  language_code: dan
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101-1:2014'
-    clause: 4.1.12
-    link: 'https://www.iso.org/standard/59164.html'
-  lineage_source: 'ISO 19101:2002'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101-1:2014
+      clause: 4.1.12
+      link: https://www.iso.org/standard/59164.html
+  - type: lineage
+    origin:
+      ref: ISO 19101:2002
   lineage_source_similarity: 1
-  date_accepted: '2002-07-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2002-07-01T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-1:2014'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19101:2002 to ISO 19101-1:2014.
-    Lineage source added as ISO 19101:2002.
+  review_decision_event: Publication of ISO 19101-1:2014
+  review_decision_notes: Authoritative reference changed from ISO 19101:2002 to ISO
+    19101-1:2014. Lineage source added as ISO 19101:2002.
   release: '1'
-  terms:
-    - type: expression
-      designation: featureattribut
-      normative_status: preferred
   _revisions:
     current: 112a12
     tree:
@@ -306,43 +304,37 @@ dan:
           definition: egenskab ved en feature
           language_code: dan
           notes:
-            - >-
-              En featureattribut er forbundet med et navn, en datatype og et sæt
-              domæneværdier.  En featureattribut for en featureinstans har også
-              en attributværdi taget fra domæneværdierne.
-            - >-
-              I et featurekatalog kan en featureattribut indeholde et sæt
-              domæneværdier, men den specificerer ikke attributværdier for
-              featureinstanser.
+          - En featureattribut er forbundet med et navn, en datatype og et sæt domæneværdier.  En
+            featureattribut for en featureinstans har også en attributværdi taget
+            fra domæneværdierne.
+          - I et featurekatalog kan en featureattribut indeholde et sæt domæneværdier,
+            men den specificerer ikke attributværdier for featureinstanser.
           examples:
-            - >-
-              En featureattribut kaldet "farve" kan have attributværdien "grøn",
-              der har datatypen "tekst".
-            - >-
-              En featureattribut kaldet "længde" kan have attributværdien
-              "82,3", der har datatypen ”real”.
+          - En featureattribut kaldet "farve" kan have attributværdien "grøn", der
+            har datatypen "tekst".
+          - En featureattribut kaldet "længde" kan have attributværdien "82,3", der
+            har datatypen ”real”.
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101-1:2014'
+            ref: ISO 19101-1:2014
             clause: 4.1.12
-            link: 'https://www.iso.org/standard/59164.html'
-          lineage_source: 'ISO 19101:2002'
+            link: https://www.iso.org/standard/59164.html
+          lineage_source: ISO 19101:2002
           lineage_source_similarity: 1
           date_accepted: '2002-07-01T00:00:00.000Z'
           review_date: '2010-10-12T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-1:2014'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19101:2002 to ISO
-            19101-1:2014. Lineage source added as ISO 19101:2002.
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: Authoritative reference changed from ISO 19101:2002
+            to ISO 19101-1:2014. Lineage source added as ISO 19101:2002.
           release: '1'
           terms:
-            - type: expression
-              designation: featureattribut
-              normative_status: preferred
+          - type: expression
+            designation: featureattribut
+            normative_status: preferred
         parents: []
         timeCreated: '2002-07-01T00:00:00.000Z'
         author:
@@ -350,46 +342,48 @@ dan:
           email: glossarist@ribose.com
 nld:
   id: 170
-  definition: kenmerk van een geo-object
-  language_code: nld
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: attribuut
+  definition:
+  - content: kenmerk van een geo-object
   notes:
-    - >-
-      A feature attribute has a name, a data type, and a value domain associated
-      to it.  A feature attribute for a feature instance also has an attribute
-      value taken from the value domain.
-    - >-
-      In a feature catalogue, a feature attribute may include a value domain but
-      does not specify attribute values for feature instances.
-    - Soms 'object attribuut' genoemd
+  - content: A feature attribute has a name, a data type, and a value domain associated
+      to it.  A feature attribute for a feature instance also has an attribute value
+      taken from the value domain.
+  - content: In a feature catalogue, a feature attribute may include a value domain
+      but does not specify attribute values for feature instances.
+  - content: Soms 'object attribuut' genoemd
   examples:
-    - >-
-      A feature attribute named 'colour' may have an attribute value 'green'
+  - content: A feature attribute named 'colour' may have an attribute value 'green'
       which belongs to the data type 'text'.
-    - >-
-      A feature attribute named 'length' may have an attribute value '82.4'
+  - content: A feature attribute named 'length' may have an attribute value '82.4'
       which belongs to the data type 'real'.
+  language_code: nld
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101-1:2014'
-    clause: 4.1.12
-    link: 'https://www.iso.org/standard/59164.html'
-  lineage_source: 'ISO 19101:2002'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101-1:2014
+      clause: 4.1.12
+      link: https://www.iso.org/standard/59164.html
+  - type: lineage
+    origin:
+      ref: ISO 19101:2002
   lineage_source_similarity: 1
-  date_accepted: '2002-07-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2002-07-01T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-1:2014'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19101:2002 to ISO 19101-1:2014.
-    Lineage source added as ISO 19101:2002.
+  review_decision_event: Publication of ISO 19101-1:2014
+  review_decision_notes: Authoritative reference changed from ISO 19101:2002 to ISO
+    19101-1:2014. Lineage source added as ISO 19101:2002.
   release: '1'
-  terms:
-    - type: expression
-      designation: attribuut
-      normative_status: preferred
   _revisions:
     current: 9247d3
     tree:
@@ -399,44 +393,38 @@ nld:
           definition: kenmerk van een geo-object
           language_code: nld
           notes:
-            - >-
-              A feature attribute has a name, a data type, and a value domain
-              associated to it.  A feature attribute for a feature instance also
-              has an attribute value taken from the value domain.
-            - >-
-              In a feature catalogue, a feature attribute may include a value
-              domain but does not specify attribute values for feature
-              instances.
-            - Soms 'object attribuut' genoemd
+          - A feature attribute has a name, a data type, and a value domain associated
+            to it.  A feature attribute for a feature instance also has an attribute
+            value taken from the value domain.
+          - In a feature catalogue, a feature attribute may include a value domain
+            but does not specify attribute values for feature instances.
+          - Soms 'object attribuut' genoemd
           examples:
-            - >-
-              A feature attribute named 'colour' may have an attribute value
-              'green' which belongs to the data type 'text'.
-            - >-
-              A feature attribute named 'length' may have an attribute value
-              '82.4' which belongs to the data type 'real'.
+          - A feature attribute named 'colour' may have an attribute value 'green'
+            which belongs to the data type 'text'.
+          - A feature attribute named 'length' may have an attribute value '82.4'
+            which belongs to the data type 'real'.
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101-1:2014'
+            ref: ISO 19101-1:2014
             clause: 4.1.12
-            link: 'https://www.iso.org/standard/59164.html'
-          lineage_source: 'ISO 19101:2002'
+            link: https://www.iso.org/standard/59164.html
+          lineage_source: ISO 19101:2002
           lineage_source_similarity: 1
           date_accepted: '2002-07-01T00:00:00.000Z'
           review_date: '2010-10-12T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-1:2014'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19101:2002 to ISO
-            19101-1:2014. Lineage source added as ISO 19101:2002.
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: Authoritative reference changed from ISO 19101:2002
+            to ISO 19101-1:2014. Lineage source added as ISO 19101:2002.
           release: '1'
           terms:
-            - type: expression
-              designation: attribuut
-              normative_status: preferred
+          - type: expression
+            designation: attribuut
+            normative_status: preferred
         parents: []
         timeCreated: '2002-07-01T00:00:00.000Z'
         author:
@@ -444,45 +432,46 @@ nld:
           email: glossarist@ribose.com
 fin:
   id: 170
-  definition: kohteelle ominainen piirre
-  language_code: fin
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: kohteen ominaisuus
+  definition:
+  - content: kohteelle ominainen piirre
   notes:
-    - >-
-      Kohteen ominaisuudella on nimi, tietotyyppi ja arvojoukko. Kohteen
-      yksittäiseen ilmentymään liittyvällä ominaisuudella on myös arvojoukkoon
-      sisältyvä arvo.
-    - >-
-      Kohdeluettelossa esiintyvällä ominaisuudella voi olla arvojoukko, mutta se
-      ei määritä kohteen ilmentymien ominaisuuden arvoja.
+  - content: Kohteen ominaisuudella on nimi, tietotyyppi ja arvojoukko. Kohteen yksittäiseen
+      ilmentymään liittyvällä ominaisuudella on myös arvojoukkoon sisältyvä arvo.
+  - content: Kohdeluettelossa esiintyvällä ominaisuudella voi olla arvojoukko, mutta
+      se ei määritä kohteen ilmentymien ominaisuuden arvoja.
   examples:
-    - >-
-      Kohteen ominaisuudella "väri" voi olla arvo "vihreä", jonka tietotyyppi on
-      "teksti".
-    - >-
-      Kohteen ominaisuudella "pituus" voi olla arvo "84.2", jonka tietotyyppi on
-      "reaaliluku".
+  - content: Kohteen ominaisuudella "väri" voi olla arvo "vihreä", jonka tietotyyppi
+      on "teksti".
+  - content: Kohteen ominaisuudella "pituus" voi olla arvo "84.2", jonka tietotyyppi
+      on "reaaliluku".
+  language_code: fin
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101-1:2014'
-    clause: 4.1.12
-    link: 'https://www.iso.org/standard/59164.html'
-  lineage_source: 'ISO 19101:2002'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101-1:2014
+      clause: 4.1.12
+      link: https://www.iso.org/standard/59164.html
+  - type: lineage
+    origin:
+      ref: ISO 19101:2002
   lineage_source_similarity: 1
-  date_accepted: '2002-07-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2002-07-01T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-1:2014'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19101:2002 to ISO 19101-1:2014.
-    Lineage source added as ISO 19101:2002.
+  review_decision_event: Publication of ISO 19101-1:2014
+  review_decision_notes: Authoritative reference changed from ISO 19101:2002 to ISO
+    19101-1:2014. Lineage source added as ISO 19101:2002.
   release: '1'
-  terms:
-    - type: expression
-      designation: kohteen ominaisuus
-      normative_status: preferred
   _revisions:
     current: 8687bb
     tree:
@@ -492,42 +481,37 @@ fin:
           definition: kohteelle ominainen piirre
           language_code: fin
           notes:
-            - >-
-              Kohteen ominaisuudella on nimi, tietotyyppi ja arvojoukko. Kohteen
-              yksittäiseen ilmentymään liittyvällä ominaisuudella on myös
-              arvojoukkoon sisältyvä arvo.
-            - >-
-              Kohdeluettelossa esiintyvällä ominaisuudella voi olla arvojoukko,
-              mutta se ei määritä kohteen ilmentymien ominaisuuden arvoja.
+          - Kohteen ominaisuudella on nimi, tietotyyppi ja arvojoukko. Kohteen yksittäiseen
+            ilmentymään liittyvällä ominaisuudella on myös arvojoukkoon sisältyvä
+            arvo.
+          - Kohdeluettelossa esiintyvällä ominaisuudella voi olla arvojoukko, mutta
+            se ei määritä kohteen ilmentymien ominaisuuden arvoja.
           examples:
-            - >-
-              Kohteen ominaisuudella "väri" voi olla arvo "vihreä", jonka
-              tietotyyppi on "teksti".
-            - >-
-              Kohteen ominaisuudella "pituus" voi olla arvo "84.2", jonka
-              tietotyyppi on "reaaliluku".
+          - Kohteen ominaisuudella "väri" voi olla arvo "vihreä", jonka tietotyyppi
+            on "teksti".
+          - Kohteen ominaisuudella "pituus" voi olla arvo "84.2", jonka tietotyyppi
+            on "reaaliluku".
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101-1:2014'
+            ref: ISO 19101-1:2014
             clause: 4.1.12
-            link: 'https://www.iso.org/standard/59164.html'
-          lineage_source: 'ISO 19101:2002'
+            link: https://www.iso.org/standard/59164.html
+          lineage_source: ISO 19101:2002
           lineage_source_similarity: 1
           date_accepted: '2002-07-01T00:00:00.000Z'
           review_date: '2010-10-12T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-1:2014'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19101:2002 to ISO
-            19101-1:2014. Lineage source added as ISO 19101:2002.
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: Authoritative reference changed from ISO 19101:2002
+            to ISO 19101-1:2014. Lineage source added as ISO 19101:2002.
           release: '1'
           terms:
-            - type: expression
-              designation: kohteen ominaisuus
-              normative_status: preferred
+          - type: expression
+            designation: kohteen ominaisuus
+            normative_status: preferred
         parents: []
         timeCreated: '2002-07-01T00:00:00.000Z'
         author:
@@ -535,32 +519,38 @@ fin:
           email: glossarist@ribose.com
 fra:
   id: 170
-  definition: caractéristique d'une entité
-  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: attribut d'entité
+  definition:
+  - content: caractéristique d'une entité
   notes: []
   examples: []
+  language_code: fra
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101-1:2014'
-    clause: 4.1.12
-    link: 'https://www.iso.org/standard/59164.html'
-  lineage_source: 'ISO 19101:2002'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101-1:2014
+      clause: 4.1.12
+      link: https://www.iso.org/standard/59164.html
+  - type: lineage
+    origin:
+      ref: ISO 19101:2002
   lineage_source_similarity: 1
-  date_accepted: '2002-07-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2002-07-01T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-1:2014'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19101:2002 to ISO 19101-1:2014.
-    Lineage source added as ISO 19101:2002.
+  review_decision_event: Publication of ISO 19101-1:2014
+  review_decision_notes: Authoritative reference changed from ISO 19101:2002 to ISO
+    19101-1:2014. Lineage source added as ISO 19101:2002.
   release: '1'
-  terms:
-    - type: expression
-      designation: attribut d'entité
-      normative_status: preferred
   _revisions:
     current: f6f867
     tree:
@@ -574,25 +564,24 @@ fra:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101-1:2014'
+            ref: ISO 19101-1:2014
             clause: 4.1.12
-            link: 'https://www.iso.org/standard/59164.html'
-          lineage_source: 'ISO 19101:2002'
+            link: https://www.iso.org/standard/59164.html
+          lineage_source: ISO 19101:2002
           lineage_source_similarity: 1
           date_accepted: '2002-07-01T00:00:00.000Z'
           review_date: '2010-10-12T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-1:2014'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19101:2002 to ISO
-            19101-1:2014. Lineage source added as ISO 19101:2002.
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: Authoritative reference changed from ISO 19101:2002
+            to ISO 19101-1:2014. Lineage source added as ISO 19101:2002.
           release: '1'
           terms:
-            - type: expression
-              designation: attribut d'entité
-              normative_status: preferred
+          - type: expression
+            designation: attribut d'entité
+            normative_status: preferred
         parents: []
         timeCreated: '2002-07-01T00:00:00.000Z'
         author:
@@ -600,45 +589,47 @@ fra:
           email: glossarist@ribose.com
 deu:
   id: 170
-  definition: Merkmal eines Features
-  language_code: deu
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Feature-Attribut
+  definition:
+  - content: Merkmal eines Features
   notes:
-    - >-
-      A feature attribute has a name, a data type, and a value domain associated
-      to it.  A feature attribute for a feature instance also has an attribute
-      value taken from the value domain.
-    - >-
-      In a feature catalogue, a feature attribute may include a value domain but
-      does not specify attribute values for feature instances.
+  - content: A feature attribute has a name, a data type, and a value domain associated
+      to it.  A feature attribute for a feature instance also has an attribute value
+      taken from the value domain.
+  - content: In a feature catalogue, a feature attribute may include a value domain
+      but does not specify attribute values for feature instances.
   examples:
-    - >-
-      A feature attribute named 'colour' may have an attribute value 'green'
+  - content: A feature attribute named 'colour' may have an attribute value 'green'
       which belongs to the data type 'text'.
-    - >-
-      A feature attribute named 'length' may have an attribute value '82.4'
+  - content: A feature attribute named 'length' may have an attribute value '82.4'
       which belongs to the data type 'real'.
+  language_code: deu
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101-1:2014'
-    clause: 4.1.12
-    link: 'https://www.iso.org/standard/59164.html'
-  lineage_source: 'ISO 19101:2002'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101-1:2014
+      clause: 4.1.12
+      link: https://www.iso.org/standard/59164.html
+  - type: lineage
+    origin:
+      ref: ISO 19101:2002
   lineage_source_similarity: 1
-  date_accepted: '2002-07-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2002-07-01T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-1:2014'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19101:2002 to ISO 19101-1:2014.
-    Lineage source added as ISO 19101:2002.
+  review_decision_event: Publication of ISO 19101-1:2014
+  review_decision_notes: Authoritative reference changed from ISO 19101:2002 to ISO
+    19101-1:2014. Lineage source added as ISO 19101:2002.
   release: '1'
-  terms:
-    - type: expression
-      designation: Feature-Attribut
-      normative_status: preferred
   _revisions:
     current: e2843f
     tree:
@@ -648,43 +639,37 @@ deu:
           definition: Merkmal eines Features
           language_code: deu
           notes:
-            - >-
-              A feature attribute has a name, a data type, and a value domain
-              associated to it.  A feature attribute for a feature instance also
-              has an attribute value taken from the value domain.
-            - >-
-              In a feature catalogue, a feature attribute may include a value
-              domain but does not specify attribute values for feature
-              instances.
+          - A feature attribute has a name, a data type, and a value domain associated
+            to it.  A feature attribute for a feature instance also has an attribute
+            value taken from the value domain.
+          - In a feature catalogue, a feature attribute may include a value domain
+            but does not specify attribute values for feature instances.
           examples:
-            - >-
-              A feature attribute named 'colour' may have an attribute value
-              'green' which belongs to the data type 'text'.
-            - >-
-              A feature attribute named 'length' may have an attribute value
-              '82.4' which belongs to the data type 'real'.
+          - A feature attribute named 'colour' may have an attribute value 'green'
+            which belongs to the data type 'text'.
+          - A feature attribute named 'length' may have an attribute value '82.4'
+            which belongs to the data type 'real'.
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101-1:2014'
+            ref: ISO 19101-1:2014
             clause: 4.1.12
-            link: 'https://www.iso.org/standard/59164.html'
-          lineage_source: 'ISO 19101:2002'
+            link: https://www.iso.org/standard/59164.html
+          lineage_source: ISO 19101:2002
           lineage_source_similarity: 1
           date_accepted: '2002-07-01T00:00:00.000Z'
           review_date: '2010-10-12T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-1:2014'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19101:2002 to ISO
-            19101-1:2014. Lineage source added as ISO 19101:2002.
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: Authoritative reference changed from ISO 19101:2002
+            to ISO 19101-1:2014. Lineage source added as ISO 19101:2002.
           release: '1'
           terms:
-            - type: expression
-              designation: Feature-Attribut
-              normative_status: preferred
+          - type: expression
+            designation: Feature-Attribut
+            normative_status: preferred
         parents: []
         timeCreated: '2002-07-01T00:00:00.000Z'
         author:
@@ -692,40 +677,45 @@ deu:
           email: glossarist@ribose.com
 kor:
   id: 170
-  definition: 피처의 특징
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 지형지물 속성
+  - type: expression
+    designation: 피처 속성
+  definition:
+  - content: 피처의 특징
   notes:
-    - >-
-      피처 속성은 명칭, 데이터 유형, 관련된 영역의 데이터 유형을 갖는다.  피처 인스턴스를 위한 피처속성 또한 값 영역으로부터의 속성
-      값을 갖는다.
-    - '지형지물 목록에서, 피처 속성은 값 영역을 포함하나 피처 인스턴스에 대한 속성값을 구체적으로 정의하지는 않는다.'
+  - content: 피처 속성은 명칭, 데이터 유형, 관련된 영역의 데이터 유형을 갖는다.  피처 인스턴스를 위한 피처속성 또한 값 영역으로부터의
+      속성 값을 갖는다.
+  - content: 지형지물 목록에서, 피처 속성은 값 영역을 포함하나 피처 인스턴스에 대한 속성값을 구체적으로 정의하지는 않는다.
   examples:
-    - '"색상"이란 명칭을 가진 피처 속성은 그 속성 값으로 "녹색"을 가질 수 있으며 데이터 유형은 "문자"이다.'
-    - '"길이"란 명칭을 가진 피처 속성은 그 속성 값으로 "82.4"를 가질 수 있으며 데이터 유형은 "실수"이다.'
+  - content: '"색상"이란 명칭을 가진 피처 속성은 그 속성 값으로 "녹색"을 가질 수 있으며 데이터 유형은 "문자"이다.'
+  - content: '"길이"란 명칭을 가진 피처 속성은 그 속성 값으로 "82.4"를 가질 수 있으며 데이터 유형은 "실수"이다.'
+  language_code: kor
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101-1:2014'
-    clause: 4.1.12
-    link: 'https://www.iso.org/standard/59164.html'
-  lineage_source: 'ISO 19101:2002'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101-1:2014
+      clause: 4.1.12
+      link: https://www.iso.org/standard/59164.html
+  - type: lineage
+    origin:
+      ref: ISO 19101:2002
   lineage_source_similarity: 1
-  date_accepted: '2008-12-30T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2008-12-30T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-1:2014'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19101:2002 to ISO 19101-1:2014.
-    Lineage source added as ISO 19101:2002.
+  review_decision_event: Publication of ISO 19101-1:2014
+  review_decision_notes: Authoritative reference changed from ISO 19101:2002 to ISO
+    19101-1:2014. Lineage source added as ISO 19101:2002.
   release: '1'
-  terms:
-    - type: expression
-      designation: 지형지물 속성
-      normative_status: preferred
-    - designation: 피처 속성
-      type: expression
   _revisions:
     current: a8ea75
     tree:
@@ -735,37 +725,35 @@ kor:
           definition: 피처의 특징
           language_code: kor
           notes:
-            - >-
-              피처 속성은 명칭, 데이터 유형, 관련된 영역의 데이터 유형을 갖는다.  피처 인스턴스를 위한 피처속성 또한 값
-              영역으로부터의 속성 값을 갖는다.
-            - '지형지물 목록에서, 피처 속성은 값 영역을 포함하나 피처 인스턴스에 대한 속성값을 구체적으로 정의하지는 않는다.'
+          - 피처 속성은 명칭, 데이터 유형, 관련된 영역의 데이터 유형을 갖는다.  피처 인스턴스를 위한 피처속성 또한 값 영역으로부터의
+            속성 값을 갖는다.
+          - 지형지물 목록에서, 피처 속성은 값 영역을 포함하나 피처 인스턴스에 대한 속성값을 구체적으로 정의하지는 않는다.
           examples:
-            - '"색상"이란 명칭을 가진 피처 속성은 그 속성 값으로 "녹색"을 가질 수 있으며 데이터 유형은 "문자"이다.'
-            - '"길이"란 명칭을 가진 피처 속성은 그 속성 값으로 "82.4"를 가질 수 있으며 데이터 유형은 "실수"이다.'
+          - '"색상"이란 명칭을 가진 피처 속성은 그 속성 값으로 "녹색"을 가질 수 있으며 데이터 유형은 "문자"이다.'
+          - '"길이"란 명칭을 가진 피처 속성은 그 속성 값으로 "82.4"를 가질 수 있으며 데이터 유형은 "실수"이다.'
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101-1:2014'
+            ref: ISO 19101-1:2014
             clause: 4.1.12
-            link: 'https://www.iso.org/standard/59164.html'
-          lineage_source: 'ISO 19101:2002'
+            link: https://www.iso.org/standard/59164.html
+          lineage_source: ISO 19101:2002
           lineage_source_similarity: 1
           date_accepted: '2008-12-30T00:00:00.000Z'
           review_date: '2010-10-12T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-1:2014'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19101:2002 to ISO
-            19101-1:2014. Lineage source added as ISO 19101:2002.
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: Authoritative reference changed from ISO 19101:2002
+            to ISO 19101-1:2014. Lineage source added as ISO 19101:2002.
           release: '1'
           terms:
-            - type: expression
-              designation: 지형지물 속성
-              normative_status: preferred
-            - designation: 피처 속성
-              type: expression
+          - type: expression
+            designation: 지형지물 속성
+            normative_status: preferred
+          - designation: 피처 속성
+            type: expression
         parents: []
         timeCreated: '2008-12-30T00:00:00.000Z'
         author:
@@ -773,88 +761,85 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 170
-  definition: >-
-    непозиционная характеристика  пространственного объекта с ее качественным
-    или количественным значением
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: атрибут (пространственного объекта)
+  definition:
+  - content: непозиционная характеристика  пространственного объекта с ее качественным
+      или количественным значением
   notes:
-    - >-
-      В классификаторе пространственных объектов атрибут объекта может включать
-      область значений, но не определяет значения атрибутов для экземпляров
-      пространственных объектов
+  - content: В классификаторе пространственных объектов атрибут объекта может включать
+      область значений, но не определяет значения атрибутов для экземпляров пространственных
+      объектов
   examples:
-    - >-
-      Атрибут объекта "цвет" может иметь значение "зеленый", принадлежащий типу
-      данных "text"
-    - >-
-      Атрибут пространственного объекта "длина" может иметь значение "82.4",
+  - content: Атрибут объекта "цвет" может иметь значение "зеленый", принадлежащий
+      типу данных "text"
+  - content: Атрибут пространственного объекта "длина" может иметь значение "82.4",
       который принадлежит типу данных "real"
+  language_code: rus
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101-1:2014'
-    clause: 4.1.12
-    link: 'https://www.iso.org/standard/59164.html'
-  lineage_source: 'перевод ИСО 19101-1:2014,'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101-1:2014
+      clause: 4.1.12
+      link: https://www.iso.org/standard/59164.html
+  - type: lineage
+    origin:
+      ref: перевод ИСО 19101-1:2014,
   lineage_source_similarity: 1
-  date_accepted: '2002-07-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2002-07-01T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: ''
   review_decision: ''
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Публикация ИСО19101-1:2014'
-  review_decision_notes: >-
-    Авторитетная ссылка изменена с ISO 19101: 2002 на ISO 19101-1: 2014.
-    Источник происхождения добавлен как ISO 19101: 2002.
+  review_decision_event: Публикация ИСО19101-1:2014
+  review_decision_notes: 'Авторитетная ссылка изменена с ISO 19101: 2002 на ISO 19101-1:
+    2014. Источник происхождения добавлен как ISO 19101: 2002.'
   release: '1'
-  terms:
-    - type: expression
-      designation: атрибут (пространственного объекта)
-      normative_status: preferred
   _revisions:
     current: f087ce
     tree:
       f087ce:
         object:
           id: 170
-          definition: >-
-            непозиционная характеристика  пространственного объекта с ее
+          definition: непозиционная характеристика  пространственного объекта с ее
             качественным или количественным значением
           language_code: rus
           notes:
-            - >-
-              В классификаторе пространственных объектов атрибут объекта может
-              включать область значений, но не определяет значения атрибутов для
-              экземпляров пространственных объектов
+          - В классификаторе пространственных объектов атрибут объекта может включать
+            область значений, но не определяет значения атрибутов для экземпляров
+            пространственных объектов
           examples:
-            - >-
-              Атрибут объекта "цвет" может иметь значение "зеленый",
-              принадлежащий типу  данных "text"
-            - >-
-              Атрибут пространственного объекта "длина" может иметь значение
-              "82.4", который принадлежит типу данных "real"
+          - Атрибут объекта "цвет" может иметь значение "зеленый", принадлежащий типу  данных
+            "text"
+          - Атрибут пространственного объекта "длина" может иметь значение "82.4",
+            который принадлежит типу данных "real"
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101-1:2014'
+            ref: ISO 19101-1:2014
             clause: 4.1.12
-            link: 'https://www.iso.org/standard/59164.html'
-          lineage_source: 'перевод ИСО 19101-1:2014,'
+            link: https://www.iso.org/standard/59164.html
+          lineage_source: перевод ИСО 19101-1:2014,
           lineage_source_similarity: 1
           date_accepted: '2002-07-01T00:00:00.000Z'
           review_date: '2010-10-12T00:00:00.000Z'
           review_status: ''
           review_decision: ''
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Публикация ИСО19101-1:2014'
-          review_decision_notes: >-
-            Авторитетная ссылка изменена с ISO 19101: 2002 на ISO 19101-1: 2014.
-            Источник происхождения добавлен как ISO 19101: 2002.
+          review_decision_event: Публикация ИСО19101-1:2014
+          review_decision_notes: 'Авторитетная ссылка изменена с ISO 19101: 2002 на
+            ISO 19101-1: 2014. Источник происхождения добавлен как ISO 19101: 2002.'
           release: '1'
           terms:
-            - type: expression
-              designation: атрибут (пространственного объекта)
-              normative_status: preferred
+          - type: expression
+            designation: атрибут (пространственного объекта)
+            normative_status: preferred
         parents: []
         timeCreated: '2002-07-01T00:00:00.000Z'
         author:
@@ -862,47 +847,49 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 170
-  definition: característica de un objeto geográfico
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: atributo de objeto geográfico
+  definition:
+  - content: característica de un objeto geográfico
   notes:
-    - >-
-      Un atributo de objeto geográfico tiene un nombre, un tipo de dato y un
-      dominio de valores asociado a él. Un atributo de objeto geográfico de una
-      instancia de objeto geográfico también tiene un valor de atributo tomado
-      del dominio de valores.
-    - >-
-      En un catálogo de objetos geográficos, un atributo de objeto geográfico
-      puede incluir un dominio de valores pero no especificar valores de
-      atributo para instancias de objetos geográficos.
+  - content: Un atributo de objeto geográfico tiene un nombre, un tipo de dato y un
+      dominio de valores asociado a él. Un atributo de objeto geográfico de una instancia
+      de objeto geográfico también tiene un valor de atributo tomado del dominio de
+      valores.
+  - content: En un catálogo de objetos geográficos, un atributo de objeto geográfico
+      puede incluir un dominio de valores pero no especificar valores de atributo
+      para instancias de objetos geográficos.
   examples:
-    - >-
-      Un atributo de objeto geográfico denominado "color" puede tener un valor
+  - content: Un atributo de objeto geográfico denominado "color" puede tener un valor
       de atributo "verde" que pertenece al tipo de datos "texto".
-    - >-
-      Un atributo de objeto geográfico denominado "longitud" puede tener un
+  - content: Un atributo de objeto geográfico denominado "longitud" puede tener un
       valor de atributo "82.4", que pertenece al tipo de datos "real".
+  language_code: spa
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101-1:2014'
-    clause: 4.1.12
-    link: 'https://www.iso.org/standard/59164.html'
-  lineage_source: 'ISO 19101:2002'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101-1:2014
+      clause: 4.1.12
+      link: https://www.iso.org/standard/59164.html
+  - type: lineage
+    origin:
+      ref: ISO 19101:2002
   lineage_source_similarity: 1
-  date_accepted: '2002-07-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2002-07-01T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-1:2014'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19101:2002 to ISO 19101-1:2014.
-    Lineage source added as ISO 19101:2002.
+  review_decision_event: Publication of ISO 19101-1:2014
+  review_decision_notes: Authoritative reference changed from ISO 19101:2002 to ISO
+    19101-1:2014. Lineage source added as ISO 19101:2002.
   release: '1'
-  terms:
-    - type: expression
-      designation: atributo de objeto geográfico
-      normative_status: preferred
   _revisions:
     current: 687b40
     tree:
@@ -912,45 +899,39 @@ spa:
           definition: característica de un objeto geográfico
           language_code: spa
           notes:
-            - >-
-              Un atributo de objeto geográfico tiene un nombre, un tipo de dato
-              y un dominio de valores asociado a él. Un atributo de objeto
-              geográfico de una instancia de objeto geográfico también tiene un
-              valor de atributo tomado del dominio de valores.
-            - >-
-              En un catálogo de objetos geográficos, un atributo de objeto
-              geográfico puede incluir un dominio de valores pero no especificar
-              valores de atributo para instancias de objetos geográficos.
+          - Un atributo de objeto geográfico tiene un nombre, un tipo de dato y un
+            dominio de valores asociado a él. Un atributo de objeto geográfico de
+            una instancia de objeto geográfico también tiene un valor de atributo
+            tomado del dominio de valores.
+          - En un catálogo de objetos geográficos, un atributo de objeto geográfico
+            puede incluir un dominio de valores pero no especificar valores de atributo
+            para instancias de objetos geográficos.
           examples:
-            - >-
-              Un atributo de objeto geográfico denominado "color" puede tener un
-              valor de atributo "verde" que pertenece al tipo de datos "texto".
-            - >-
-              Un atributo de objeto geográfico denominado "longitud" puede tener
-              un valor de atributo "82.4", que pertenece al tipo de datos
-              "real".
+          - Un atributo de objeto geográfico denominado "color" puede tener un valor
+            de atributo "verde" que pertenece al tipo de datos "texto".
+          - Un atributo de objeto geográfico denominado "longitud" puede tener un
+            valor de atributo "82.4", que pertenece al tipo de datos "real".
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101-1:2014'
+            ref: ISO 19101-1:2014
             clause: 4.1.12
-            link: 'https://www.iso.org/standard/59164.html'
-          lineage_source: 'ISO 19101:2002'
+            link: https://www.iso.org/standard/59164.html
+          lineage_source: ISO 19101:2002
           lineage_source_similarity: 1
           date_accepted: '2002-07-01T00:00:00.000Z'
           review_date: '2010-10-12T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-1:2014'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19101:2002 to ISO
-            19101-1:2014. Lineage source added as ISO 19101:2002.
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: Authoritative reference changed from ISO 19101:2002
+            to ISO 19101-1:2014. Lineage source added as ISO 19101:2002.
           release: '1'
           terms:
-            - type: expression
-              designation: atributo de objeto geográfico
-              normative_status: preferred
+          - type: expression
+            designation: atributo de objeto geográfico
+            normative_status: preferred
         parents: []
         timeCreated: '2002-07-01T00:00:00.000Z'
         author:
@@ -958,46 +939,48 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 170
-  definition: egenskap hos ett objekt
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: attribut
+  definition:
+  - content: egenskap hos ett objekt
+  notes:
+  - content: A feature attribute has a name, a data type, and a value domain associated
+      to it.  A feature attribute for a feature instance also has an attribute value
+      taken from the value domain.
+  - content: In a feature catalogue, a feature attribute may include a value domain
+      but does not specify attribute values for feature instances.
+  examples:
+  - content: A feature attribute named 'colour' may have an attribute value 'green'
+      which belongs to the data type 'text'.
+  - content: A feature attribute named 'length' may have an attribute value '82.4'
+      which belongs to the data type 'real'.
   country_code: swe
   language_code: swe
-  notes:
-    - >-
-      A feature attribute has a name, a data type, and a value domain associated
-      to it.  A feature attribute for a feature instance also has an attribute
-      value taken from the value domain.
-    - >-
-      In a feature catalogue, a feature attribute may include a value domain but
-      does not specify attribute values for feature instances.
-  examples:
-    - >-
-      A feature attribute named 'colour' may have an attribute value 'green'
-      which belongs to the data type 'text'.
-    - >-
-      A feature attribute named 'length' may have an attribute value '82.4'
-      which belongs to the data type 'real'.
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101-1:2014'
-    clause: 4.1.12
-    link: 'https://www.iso.org/standard/59164.html'
-  lineage_source: 'ISO 19101:2002'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101-1:2014
+      clause: 4.1.12
+      link: https://www.iso.org/standard/59164.html
+  - type: lineage
+    origin:
+      ref: ISO 19101:2002
   lineage_source_similarity: 1
-  date_accepted: '2002-07-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2002-07-01T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-1:2014'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19101:2002 to ISO 19101-1:2014.
-    Lineage source added as ISO 19101:2002.
+  review_decision_event: Publication of ISO 19101-1:2014
+  review_decision_notes: Authoritative reference changed from ISO 19101:2002 to ISO
+    19101-1:2014. Lineage source added as ISO 19101:2002.
   release: '1'
-  terms:
-    - type: expression
-      designation: attribut
-      normative_status: preferred
   _revisions:
     current: 943db7
     tree:
@@ -1008,43 +991,37 @@ swe:
           country_code: swe
           language_code: swe
           notes:
-            - >-
-              A feature attribute has a name, a data type, and a value domain
-              associated to it.  A feature attribute for a feature instance also
-              has an attribute value taken from the value domain.
-            - >-
-              In a feature catalogue, a feature attribute may include a value
-              domain but does not specify attribute values for feature
-              instances.
+          - A feature attribute has a name, a data type, and a value domain associated
+            to it.  A feature attribute for a feature instance also has an attribute
+            value taken from the value domain.
+          - In a feature catalogue, a feature attribute may include a value domain
+            but does not specify attribute values for feature instances.
           examples:
-            - >-
-              A feature attribute named 'colour' may have an attribute value
-              'green' which belongs to the data type 'text'.
-            - >-
-              A feature attribute named 'length' may have an attribute value
-              '82.4' which belongs to the data type 'real'.
+          - A feature attribute named 'colour' may have an attribute value 'green'
+            which belongs to the data type 'text'.
+          - A feature attribute named 'length' may have an attribute value '82.4'
+            which belongs to the data type 'real'.
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101-1:2014'
+            ref: ISO 19101-1:2014
             clause: 4.1.12
-            link: 'https://www.iso.org/standard/59164.html'
-          lineage_source: 'ISO 19101:2002'
+            link: https://www.iso.org/standard/59164.html
+          lineage_source: ISO 19101:2002
           lineage_source_similarity: 1
           date_accepted: '2002-07-01T00:00:00.000Z'
           review_date: '2010-10-12T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-1:2014'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19101:2002 to ISO
-            19101-1:2014. Lineage source added as ISO 19101:2002.
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: Authoritative reference changed from ISO 19101:2002
+            to ISO 19101-1:2014. Lineage source added as ISO 19101:2002.
           release: '1'
           terms:
-            - type: expression
-              designation: attribut
-              normative_status: preferred
+          - type: expression
+            designation: attribut
+            normative_status: preferred
         parents: []
         timeCreated: '2002-07-01T00:00:00.000Z'
         author:

@@ -1,36 +1,43 @@
-term: metadata schema
+---
 termid: 292
+term: metadata schema
 eng:
   id: 292
-  definition: conceptual schema describing metadata
-  language_code: eng
+  terms:
+  - type: expression
+    designation: metadata schema
+  definition:
+  - content: conceptual schema describing metadata
   notes:
-    - ISO 19115 describes a standard for a metadata schema.
+  - content: ISO 19115 describes a standard for a metadata schema.
   examples: []
+  language_code: eng
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101:2002'
-    clause: '4.21'
-    link: 'https://www.iso.org/standard/26002.html'
-  lineage_source: ''
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101:2002
+      clause: '4.21'
+      link: https://www.iso.org/standard/26002.html
+  - type: lineage
+    origin:
+      ref: ''
   lineage_source_similarity: 0
-  date_accepted: '2002-07-01T00:00:00.000Z'
-  date_amended: '2014-11-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2002-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-11-01T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-1:2014'
-  review_decision_notes: >-
-    The entry has been omitted from the superseding standard  (ISO
+  review_decision_event: Publication of ISO 19101-1:2014
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
     19101-1:2014).
-  release: '-1'
-  terms:
-    - type: expression
-      designation: metadata schema
-      normative_status: null
+  release: "-1"
   _revisions:
     current: 7069f2
     tree:
@@ -40,14 +47,14 @@ eng:
           definition: conceptual schema describing metadata
           language_code: eng
           notes:
-            - ISO 19115 describes a standard for a metadata schema.
+          - ISO 19115 describes a standard for a metadata schema.
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101:2002'
+            ref: ISO 19101:2002
             clause: '4.21'
-            link: 'https://www.iso.org/standard/26002.html'
+            link: https://www.iso.org/standard/26002.html
           lineage_source: ''
           lineage_source_similarity: 0
           date_accepted: '2002-07-01T00:00:00.000Z'
@@ -57,15 +64,14 @@ eng:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-1:2014'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19101-1:2014).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: metadata schema
-              normative_status: null
+          - type: expression
+            designation: metadata schema
+            normative_status:
         parents: []
         timeCreated: '2002-07-01T00:00:00.000Z'
         author:
@@ -73,33 +79,37 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 292
-  definition: مخطط تصوُّري يصف توصيف البيانات
-  language_code: ara
+  terms:
+  - type: expression
+    designation: مخطط توصيف بيانات
+  definition:
+  - content: مخطط تصوُّري يصف توصيف البيانات
   notes:
-    - المقياس آيزو 19115 يحتوي على وصف لمواصفة خاصة بمخطط بيانات توصيف بيانات.
+  - content: المقياس آيزو 19115 يحتوي على وصف لمواصفة خاصة بمخطط بيانات توصيف بيانات.
   examples: []
+  language_code: ara
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101:2002'
-    clause: '4.21'
-    link: 'https://www.iso.org/standard/26002.html'
-  date_accepted: '2002-07-01T00:00:00.000Z'
-  date_amended: '2014-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101:2002
+      clause: '4.21'
+      link: https://www.iso.org/standard/26002.html
+  dates:
+  - type: accepted
+    date: '2002-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-11-01T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-1:2014'
-  review_decision_notes: >-
-    The entry has been omitted from the superseding standard  (ISO
+  review_decision_event: Publication of ISO 19101-1:2014
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
     19101-1:2014).
-  release: '-1'
-  terms:
-    - type: expression
-      designation: مخطط توصيف بيانات
-      normative_status: null
+  release: "-1"
   _revisions:
     current: c97fa0
     tree:
@@ -109,16 +119,14 @@ ara:
           definition: مخطط تصوُّري يصف توصيف البيانات
           language_code: ara
           notes:
-            - >-
-              المقياس آيزو 19115 يحتوي على وصف لمواصفة خاصة بمخطط بيانات توصيف
-              بيانات.
+          - المقياس آيزو 19115 يحتوي على وصف لمواصفة خاصة بمخطط بيانات توصيف بيانات.
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101:2002'
+            ref: ISO 19101:2002
             clause: '4.21'
-            link: 'https://www.iso.org/standard/26002.html'
+            link: https://www.iso.org/standard/26002.html
           date_accepted: '2002-07-01T00:00:00.000Z'
           date_amended: '2014-11-01T00:00:00.000Z'
           review_date: '2010-10-12T00:00:00.000Z'
@@ -126,15 +134,14 @@ ara:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-1:2014'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19101-1:2014).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: مخطط توصيف بيانات
-              normative_status: null
+          - type: expression
+            designation: مخطط توصيف بيانات
+            normative_status:
         parents: []
         timeCreated: '2002-07-01T00:00:00.000Z'
         author:
@@ -142,34 +149,40 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 292
-  definition: 描述元数据的概念模式。
-  language_code: zho
+  terms:
+  - type: expression
+    designation: 元数据模式
+  definition:
+  - content: 描述元数据的概念模式。
   notes:
-    - ISO 19115是描述元数据模式的标准。
+  - content: ISO 19115是描述元数据模式的标准。
   examples: []
+  language_code: zho
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101:2002'
-    clause: '4.21'
-    link: 'https://www.iso.org/standard/26002.html'
-  lineage_source: ''
-  date_accepted: '2002-07-01T00:00:00.000Z'
-  date_amended: '2014-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101:2002
+      clause: '4.21'
+      link: https://www.iso.org/standard/26002.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-11-01T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-1:2014'
-  review_decision_notes: >-
-    The entry has been omitted from the superseding standard  (ISO
+  review_decision_event: Publication of ISO 19101-1:2014
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
     19101-1:2014).
-  release: '-1'
-  terms:
-    - type: expression
-      designation: 元数据模式
-      normative_status: null
+  release: "-1"
   _revisions:
     current: d26e77
     tree:
@@ -179,14 +192,14 @@ zho:
           definition: 描述元数据的概念模式。
           language_code: zho
           notes:
-            - ISO 19115是描述元数据模式的标准。
+          - ISO 19115是描述元数据模式的标准。
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101:2002'
+            ref: ISO 19101:2002
             clause: '4.21'
-            link: 'https://www.iso.org/standard/26002.html'
+            link: https://www.iso.org/standard/26002.html
           lineage_source: ''
           date_accepted: '2002-07-01T00:00:00.000Z'
           date_amended: '2014-11-01T00:00:00.000Z'
@@ -195,15 +208,14 @@ zho:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-1:2014'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19101-1:2014).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: 元数据模式
-              normative_status: null
+          - type: expression
+            designation: 元数据模式
+            normative_status:
         parents: []
         timeCreated: '2002-07-01T00:00:00.000Z'
         author:
@@ -211,36 +223,42 @@ zho:
           email: glossarist@ribose.com
 fin:
   id: 292
-  definition: metatietoa kuvaava käsiteskeema
-  language_code: fin
+  terms:
+  - type: expression
+    designation: metatietoskeema
+  - type: expression
+    designation: metatietomalli
+  definition:
+  - content: metatietoa kuvaava käsiteskeema
   notes:
-    - ISO 19115 määrittelee metatietoskeemastandardin.
+  - content: ISO 19115 määrittelee metatietoskeemastandardin.
   examples: []
+  language_code: fin
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101:2002'
-    clause: '4.21'
-    link: 'https://www.iso.org/standard/26002.html'
-  lineage_source: ''
-  date_accepted: '2002-07-01T00:00:00.000Z'
-  date_amended: '2014-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101:2002
+      clause: '4.21'
+      link: https://www.iso.org/standard/26002.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-11-01T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-1:2014'
-  review_decision_notes: >-
-    The entry has been omitted from the superseding standard  (ISO
+  review_decision_event: Publication of ISO 19101-1:2014
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
     19101-1:2014).
-  release: '-1'
-  terms:
-    - type: expression
-      designation: metatietoskeema
-      normative_status: null
-    - designation: metatietomalli
-      type: expression
+  release: "-1"
   _revisions:
     current: 020fdd
     tree:
@@ -250,14 +268,14 @@ fin:
           definition: metatietoa kuvaava käsiteskeema
           language_code: fin
           notes:
-            - ISO 19115 määrittelee metatietoskeemastandardin.
+          - ISO 19115 määrittelee metatietoskeemastandardin.
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101:2002'
+            ref: ISO 19101:2002
             clause: '4.21'
-            link: 'https://www.iso.org/standard/26002.html'
+            link: https://www.iso.org/standard/26002.html
           lineage_source: ''
           date_accepted: '2002-07-01T00:00:00.000Z'
           date_amended: '2014-11-01T00:00:00.000Z'
@@ -266,17 +284,16 @@ fin:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-1:2014'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19101-1:2014).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: metatietoskeema
-              normative_status: null
-            - designation: metatietomalli
-              type: expression
+          - type: expression
+            designation: metatietoskeema
+            normative_status:
+          - designation: metatietomalli
+            type: expression
         parents: []
         timeCreated: '2002-07-01T00:00:00.000Z'
         author:
@@ -284,33 +301,39 @@ fin:
           email: glossarist@ribose.com
 fra:
   id: 292
-  definition: schéma conceptuel décrivant des métadonnées
-  language_code: fra
+  terms:
+  - type: expression
+    designation: schéma de métadonnées
+  definition:
+  - content: schéma conceptuel décrivant des métadonnées
   notes: []
   examples: []
+  language_code: fra
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101:2002'
-    clause: '4.21'
-    link: 'https://www.iso.org/standard/26002.html'
-  lineage_source: ''
-  date_accepted: '2002-07-01T00:00:00.000Z'
-  date_amended: '2014-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101:2002
+      clause: '4.21'
+      link: https://www.iso.org/standard/26002.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-11-01T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-1:2014'
-  review_decision_notes: >-
-    The entry has been omitted from the superseding standard  (ISO
+  review_decision_event: Publication of ISO 19101-1:2014
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
     19101-1:2014).
-  release: '-1'
-  terms:
-    - type: expression
-      designation: schéma de métadonnées
-      normative_status: null
+  release: "-1"
   _revisions:
     current: 69f075
     tree:
@@ -324,9 +347,9 @@ fra:
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101:2002'
+            ref: ISO 19101:2002
             clause: '4.21'
-            link: 'https://www.iso.org/standard/26002.html'
+            link: https://www.iso.org/standard/26002.html
           lineage_source: ''
           date_accepted: '2002-07-01T00:00:00.000Z'
           date_amended: '2014-11-01T00:00:00.000Z'
@@ -335,15 +358,14 @@ fra:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-1:2014'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19101-1:2014).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: schéma de métadonnées
-              normative_status: null
+          - type: expression
+            designation: schéma de métadonnées
+            normative_status:
         parents: []
         timeCreated: '2002-07-01T00:00:00.000Z'
         author:
@@ -351,33 +373,38 @@ fra:
           email: glossarist@ribose.com
 deu:
   id: 292
-  language_code: deu
+  terms:
+  - type: expression
+    designation: Metadatenschema
   notes:
-    - ISO 19115 describes a standard for a metadata schema.
+  - content: ISO 19115 describes a standard for a metadata schema.
   examples: []
+  language_code: deu
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101:2002'
-    clause: '4.21'
-    link: 'https://www.iso.org/standard/26002.html'
-  lineage_source: ''
-  date_accepted: '2002-07-01T00:00:00.000Z'
-  date_amended: '2014-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101:2002
+      clause: '4.21'
+      link: https://www.iso.org/standard/26002.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-11-01T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-1:2014'
-  review_decision_notes: >-
-    The entry has been omitted from the superseding standard  (ISO
+  review_decision_event: Publication of ISO 19101-1:2014
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
     19101-1:2014).
-  release: '-1'
-  terms:
-    - type: expression
-      designation: Metadatenschema
-      normative_status: null
+  release: "-1"
   _revisions:
     current: 0444a3
     tree:
@@ -386,14 +413,14 @@ deu:
           id: 292
           language_code: deu
           notes:
-            - ISO 19115 describes a standard for a metadata schema.
+          - ISO 19115 describes a standard for a metadata schema.
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101:2002'
+            ref: ISO 19101:2002
             clause: '4.21'
-            link: 'https://www.iso.org/standard/26002.html'
+            link: https://www.iso.org/standard/26002.html
           lineage_source: ''
           date_accepted: '2002-07-01T00:00:00.000Z'
           date_amended: '2014-11-01T00:00:00.000Z'
@@ -402,15 +429,14 @@ deu:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-1:2014'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19101-1:2014).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: Metadatenschema
-              normative_status: null
+          - type: expression
+            designation: Metadatenschema
+            normative_status:
         parents: []
         timeCreated: '2002-07-01T00:00:00.000Z'
         author:
@@ -418,34 +444,40 @@ deu:
           email: glossarist@ribose.com
 kor:
   id: 292
-  definition: 메타데이터를 기술하는 개념적 스키마
-  language_code: kor
+  terms:
+  - type: expression
+    designation: 메타데이터 스키마
+  definition:
+  - content: 메타데이터를 기술하는 개념적 스키마
   notes:
-    - KS X ISO 19115는 메타데이터 스키마를 기술하는 표준이다.
+  - content: KS X ISO 19115는 메타데이터 스키마를 기술하는 표준이다.
   examples: []
+  language_code: kor
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101:2002'
-    clause: '4.21'
-    link: 'https://www.iso.org/standard/26002.html'
-  lineage_source: ''
-  date_accepted: '2008-12-30T00:00:00.000Z'
-  date_amended: '2014-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101:2002
+      clause: '4.21'
+      link: https://www.iso.org/standard/26002.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2008-12-30T00:00:00.000Z'
+  - type: amended
+    date: '2014-11-01T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-1:2014'
-  review_decision_notes: >-
-    The entry has been omitted from the superseding standard  (ISO
+  review_decision_event: Publication of ISO 19101-1:2014
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
     19101-1:2014).
-  release: '-1'
-  terms:
-    - type: expression
-      designation: 메타데이터 스키마
-      normative_status: null
+  release: "-1"
   _revisions:
     current: 855a0a
     tree:
@@ -455,14 +487,14 @@ kor:
           definition: 메타데이터를 기술하는 개념적 스키마
           language_code: kor
           notes:
-            - KS X ISO 19115는 메타데이터 스키마를 기술하는 표준이다.
+          - KS X ISO 19115는 메타데이터 스키마를 기술하는 표준이다.
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101:2002'
+            ref: ISO 19101:2002
             clause: '4.21'
-            link: 'https://www.iso.org/standard/26002.html'
+            link: https://www.iso.org/standard/26002.html
           lineage_source: ''
           date_accepted: '2008-12-30T00:00:00.000Z'
           date_amended: '2014-11-01T00:00:00.000Z'
@@ -471,15 +503,14 @@ kor:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-1:2014'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19101-1:2014).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: 메타데이터 스키마
-              normative_status: null
+          - type: expression
+            designation: 메타데이터 스키마
+            normative_status:
         parents: []
         timeCreated: '2008-12-30T00:00:00.000Z'
         author:
@@ -487,51 +518,57 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 292
-  definition: 'концептуальная схема, описывающая метаданные'
-  language_code: rus
+  terms:
+  - type: expression
+    designation: схема метаданных
+  definition:
+  - content: концептуальная схема, описывающая метаданные
   notes:
-    - 'ISO 19115 является международным стандартом, определяющим схему метаданных'
+  - content: ISO 19115 является международным стандартом, определяющим схему метаданных
   examples: []
+  language_code: rus
   entry_status: изъятый
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101:2002'
-    clause: '4.21'
-    link: 'https://www.iso.org/standard/26002.html'
-  lineage_source: ''
-  date_accepted: '2002-07-01T00:00:00.000Z'
-  date_amended: '2014-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101:2002
+      clause: '4.21'
+      link: https://www.iso.org/standard/26002.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-11-01T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: ''
   review_type: ''
   review_decision: ''
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Публикация ИСО 19101-1:2014'
-  review_decision_notes: 'Эта запись была опущена из заменяющего стандарта (ISO 19101-1: 2014).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: схема метаданных
-      normative_status: null
+  review_decision_event: Публикация ИСО 19101-1:2014
+  review_decision_notes: 'Эта запись была опущена из заменяющего стандарта (ISO 19101-1:
+    2014).'
+  release: "-1"
   _revisions:
     current: 4d2937
     tree:
       4d2937:
         object:
           id: 292
-          definition: 'концептуальная схема, описывающая метаданные'
+          definition: концептуальная схема, описывающая метаданные
           language_code: rus
           notes:
-            - >-
-              ISO 19115 является международным стандартом, определяющим схему
-              метаданных
+          - ISO 19115 является международным стандартом, определяющим схему метаданных
           examples: []
           entry_status: изъятый
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101:2002'
+            ref: ISO 19101:2002
             clause: '4.21'
-            link: 'https://www.iso.org/standard/26002.html'
+            link: https://www.iso.org/standard/26002.html
           lineage_source: ''
           date_accepted: '2002-07-01T00:00:00.000Z'
           date_amended: '2014-11-01T00:00:00.000Z'
@@ -540,15 +577,14 @@ rus:
           review_type: ''
           review_decision: ''
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Публикация ИСО 19101-1:2014'
-          review_decision_notes: >-
-            Эта запись была опущена из заменяющего стандарта (ISO 19101-1:
-            2014).
-          release: '-1'
+          review_decision_event: Публикация ИСО 19101-1:2014
+          review_decision_notes: 'Эта запись была опущена из заменяющего стандарта
+            (ISO 19101-1: 2014).'
+          release: "-1"
           terms:
-            - type: expression
-              designation: схема метаданных
-              normative_status: null
+          - type: expression
+            designation: схема метаданных
+            normative_status:
         parents: []
         timeCreated: '2002-07-01T00:00:00.000Z'
         author:
@@ -556,34 +592,40 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 292
-  definition: esquema conceptual que describe metadatos
-  language_code: spa
+  terms:
+  - type: expression
+    designation: esquema de metadatos
+  definition:
+  - content: esquema conceptual que describe metadatos
   notes:
-    - La Norma ISO 19115 describe una norma para un esquema de metadatos.
+  - content: La Norma ISO 19115 describe una norma para un esquema de metadatos.
   examples: []
+  language_code: spa
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101:2002'
-    clause: '4.21'
-    link: 'https://www.iso.org/standard/26002.html'
-  lineage_source: ''
-  date_accepted: '2002-07-01T00:00:00.000Z'
-  date_amended: '2014-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101:2002
+      clause: '4.21'
+      link: https://www.iso.org/standard/26002.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-11-01T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-1:2014'
-  review_decision_notes: >-
-    The entry has been omitted from the superseding standard  (ISO
+  review_decision_event: Publication of ISO 19101-1:2014
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
     19101-1:2014).
-  release: '-1'
-  terms:
-    - type: expression
-      designation: esquema de metadatos
-      normative_status: null
+  release: "-1"
   _revisions:
     current: b5b9cf
     tree:
@@ -593,16 +635,14 @@ spa:
           definition: esquema conceptual que describe metadatos
           language_code: spa
           notes:
-            - >-
-              La Norma ISO 19115 describe una norma para un esquema de
-              metadatos.
+          - La Norma ISO 19115 describe una norma para un esquema de metadatos.
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101:2002'
+            ref: ISO 19101:2002
             clause: '4.21'
-            link: 'https://www.iso.org/standard/26002.html'
+            link: https://www.iso.org/standard/26002.html
           lineage_source: ''
           date_accepted: '2002-07-01T00:00:00.000Z'
           date_amended: '2014-11-01T00:00:00.000Z'
@@ -611,15 +651,14 @@ spa:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-1:2014'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19101-1:2014).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: esquema de metadatos
-              normative_status: null
+          - type: expression
+            designation: esquema de metadatos
+            normative_status:
         parents: []
         timeCreated: '2002-07-01T00:00:00.000Z'
         author:
@@ -627,36 +666,42 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 292
-  definition: konceptuellt schema som beskriver metadata
+  terms:
+  - type: expression
+    designation: metadataschema
+  definition:
+  - content: konceptuellt schema som beskriver metadata
+  notes:
+  - content: ISO 19115 describes a standard for a metadata schema.
+  examples: []
   country_code: swe
   language_code: swe
-  notes:
-    - ISO 19115 describes a standard for a metadata schema.
-  examples: []
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101:2002'
-    clause: '4.21'
-    link: 'https://www.iso.org/standard/26002.html'
-  lineage_source: ''
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101:2002
+      clause: '4.21'
+      link: https://www.iso.org/standard/26002.html
+  - type: lineage
+    origin:
+      ref: ''
   lineage_source_similarity: 0
-  date_accepted: '2002-07-01T00:00:00.000Z'
-  date_amended: '2014-11-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2002-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-11-01T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-1:2014'
-  review_decision_notes: >-
-    The entry has been omitted from the superseding standard  (ISO
+  review_decision_event: Publication of ISO 19101-1:2014
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
     19101-1:2014).
-  release: '-1'
-  terms:
-    - type: expression
-      designation: metadataschema
-      normative_status: null
+  release: "-1"
   _revisions:
     current: 78d440
     tree:
@@ -667,14 +712,14 @@ swe:
           country_code: swe
           language_code: swe
           notes:
-            - ISO 19115 describes a standard for a metadata schema.
+          - ISO 19115 describes a standard for a metadata schema.
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101:2002'
+            ref: ISO 19101:2002
             clause: '4.21'
-            link: 'https://www.iso.org/standard/26002.html'
+            link: https://www.iso.org/standard/26002.html
           lineage_source: ''
           lineage_source_similarity: 0
           date_accepted: '2002-07-01T00:00:00.000Z'
@@ -684,15 +729,14 @@ swe:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-1:2014'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19101-1:2014).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: metadataschema
-              normative_status: null
+          - type: expression
+            designation: metadataschema
+            normative_status:
         parents: []
         timeCreated: '2002-07-01T00:00:00.000Z'
         author:

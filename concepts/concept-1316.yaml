@@ -1,53 +1,55 @@
-term: spatial source
+---
 termid: 1316
+term: spatial source
 eng:
   id: 1316
-  definition: >-
-    source with the spatial representation of one (part of) or more spatial
-    units
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: spatial source
+  definition:
+  - content: source with the spatial representation of one (part of) or more spatial
+      units
   notes: []
   examples:
-    - >-
-      A field survey sketch, an orthophoto or a satellite image with evidence of
-      the location of boundaries (collected from the field).
+  - content: A field survey sketch, an orthophoto or a satellite image with evidence
+      of the location of boundaries (collected from the field).
+  language_code: eng
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19152:2012'
-    clause: 4.1.22
-    link: 'https://www.iso.org/standard/51206.html'
-  date_accepted: '2012-12-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19152:2012
+      clause: 4.1.22
+      link: https://www.iso.org/standard/51206.html
+  dates:
+  - type: accepted
+    date: '2012-12-01T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: spatial source
-      normative_status: preferred
   _revisions:
     current: 1ac5b9
     tree:
       1ac5b9:
         object:
           id: 1316
-          definition: >-
-            source with the spatial representation of one (part of) or more
+          definition: source with the spatial representation of one (part of) or more
             spatial units
           language_code: eng
           notes: []
           examples:
-            - >-
-              A field survey sketch, an orthophoto or a satellite image with
-              evidence of the location of boundaries (collected from the field).
+          - A field survey sketch, an orthophoto or a satellite image with evidence
+            of the location of boundaries (collected from the field).
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19152:2012'
+            ref: ISO 19152:2012
             clause: 4.1.22
-            link: 'https://www.iso.org/standard/51206.html'
+            link: https://www.iso.org/standard/51206.html
           date_accepted: '2012-12-01T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: spatial source
-              normative_status: preferred
+          - type: expression
+            designation: spatial source
+            normative_status: preferred
         parents: []
         timeCreated: '2012-12-01T00:00:00.000Z'
         author:
@@ -55,24 +57,28 @@ eng:
           email: glossarist@ribose.com
 kor:
   id: 1316
-  definition: 하나(부분) 또는 그 이상의 공간 단위를 공간적으로 표현한 요소
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 공간요소
+  definition:
+  - content: 하나(부분) 또는 그 이상의 공간 단위를 공간적으로 표현한 요소
   notes: []
   examples:
-    - >-
-      A field survey sketch, an orthophoto or a satellite image with evidence of
-      the location of boundaries (collected from the field).
+  - content: A field survey sketch, an orthophoto or a satellite image with evidence
+      of the location of boundaries (collected from the field).
+  language_code: kor
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19152:2012'
-    clause: 4.1.22
-    link: 'https://www.iso.org/standard/51206.html'
-  date_accepted: '2012-12-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19152:2012
+      clause: 4.1.22
+      link: https://www.iso.org/standard/51206.html
+  dates:
+  - type: accepted
+    date: '2012-12-01T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: 공간요소
-      normative_status: preferred
   _revisions:
     current: 6ed155
     tree:
@@ -83,20 +89,19 @@ kor:
           language_code: kor
           notes: []
           examples:
-            - >-
-              A field survey sketch, an orthophoto or a satellite image with
-              evidence of the location of boundaries (collected from the field).
+          - A field survey sketch, an orthophoto or a satellite image with evidence
+            of the location of boundaries (collected from the field).
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19152:2012'
+            ref: ISO 19152:2012
             clause: 4.1.22
-            link: 'https://www.iso.org/standard/51206.html'
+            link: https://www.iso.org/standard/51206.html
           date_accepted: '2012-12-01T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: 공간요소
-              normative_status: preferred
+          - type: expression
+            designation: 공간요소
+            normative_status: preferred
         parents: []
         timeCreated: '2012-12-01T00:00:00.000Z'
         author:
@@ -104,54 +109,57 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 1316
-  definition: >-
-    источник с пространственным представлением одной (части) или нескольких
-    пространственных единиц
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: пространственный источник
+  definition:
+  - content: источник с пространственным представлением одной (части) или нескольких
+      пространственных единиц
   notes: []
   examples:
-    - >-
-      Результаты полевой съемки, ортофотоизображения или космоснимка с
-      доказательством местоположения границ (снятые в поле)
+  - content: Результаты полевой съемки, ортофотоизображения или космоснимка с доказательством
+      местоположения границ (снятые в поле)
+  language_code: rus
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19152:2012'
-    clause: 4.1.22
-    link: 'https://www.iso.org/standard/51206.html'
-  lineage_source: 'ISO 19152:2012'
-  date_accepted: '2012-12-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19152:2012
+      clause: 4.1.22
+      link: https://www.iso.org/standard/51206.html
+  - type: lineage
+    origin:
+      ref: ISO 19152:2012
+  dates:
+  - type: accepted
+    date: '2012-12-01T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: пространственный источник
-      normative_status: preferred
   _revisions:
     current: 822c71
     tree:
       822c71:
         object:
           id: 1316
-          definition: >-
-            источник с пространственным представлением одной (части) или
+          definition: источник с пространственным представлением одной (части) или
             нескольких пространственных единиц
           language_code: rus
           notes: []
           examples:
-            - >-
-              Результаты полевой съемки, ортофотоизображения или космоснимка с
-              доказательством местоположения границ (снятые в поле)
+          - Результаты полевой съемки, ортофотоизображения или космоснимка с доказательством
+            местоположения границ (снятые в поле)
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19152:2012'
+            ref: ISO 19152:2012
             clause: 4.1.22
-            link: 'https://www.iso.org/standard/51206.html'
-          lineage_source: 'ISO 19152:2012'
+            link: https://www.iso.org/standard/51206.html
+          lineage_source: ISO 19152:2012
           date_accepted: '2012-12-01T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: пространственный источник
-              normative_status: preferred
+          - type: expression
+            designation: пространственный источник
+            normative_status: preferred
         parents: []
         timeCreated: '2012-12-01T00:00:00.000Z'
         author:
@@ -159,54 +167,55 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 1316
-  definition: >-
-    fuente con la representación espacial de una (o una parte) o de más unidades
-    espaciales
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: fuente espacial
+  definition:
+  - content: fuente con la representación espacial de una (o una parte) o de más unidades
+      espaciales
   notes: []
   examples:
-    - >-
-      Un croquis de un levantamiento topográfico, una ortofotografía o una
-      imagen de satélite con evidencia de la localización de los límites
-      (capturado en campo)
+  - content: Un croquis de un levantamiento topográfico, una ortofotografía o una
+      imagen de satélite con evidencia de la localización de los límites (capturado
+      en campo)
+  language_code: spa
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19152:2012'
-    clause: 4.1.22
-    link: 'https://www.iso.org/standard/51206.html'
-  date_accepted: '2012-12-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19152:2012
+      clause: 4.1.22
+      link: https://www.iso.org/standard/51206.html
+  dates:
+  - type: accepted
+    date: '2012-12-01T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: fuente espacial
-      normative_status: preferred
   _revisions:
     current: 0cad98
     tree:
       0cad98:
         object:
           id: 1316
-          definition: >-
-            fuente con la representación espacial de una (o una parte) o de más
-            unidades espaciales
+          definition: fuente con la representación espacial de una (o una parte) o
+            de más unidades espaciales
           language_code: spa
           notes: []
           examples:
-            - >-
-              Un croquis de un levantamiento topográfico, una ortofotografía o
-              una imagen de satélite con evidencia de la localización de los
-              límites (capturado en campo)
+          - Un croquis de un levantamiento topográfico, una ortofotografía o una imagen
+            de satélite con evidencia de la localización de los límites (capturado
+            en campo)
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19152:2012'
+            ref: ISO 19152:2012
             clause: 4.1.22
-            link: 'https://www.iso.org/standard/51206.html'
+            link: https://www.iso.org/standard/51206.html
           date_accepted: '2012-12-01T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: fuente espacial
-              normative_status: preferred
+          - type: expression
+            designation: fuente espacial
+            normative_status: preferred
         parents: []
         timeCreated: '2012-12-01T00:00:00.000Z'
         author:
@@ -214,56 +223,59 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 1316
-  definition: >-
-    markreglerande källhandling med rumslig representation av en hel, en del av
-    eller flera gränssatta områden
-  country_code: swe
-  language_code: swe
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: gränssättningshandling
+  definition:
+  - content: markreglerande källhandling med rumslig representation av en hel, en
+      del av eller flera gränssatta områden
   notes: []
   examples:
-    - >-
-      A field survey sketch, an orthophoto or a satellite image with evidence of
-      the location of boundaries (collected from the field).
+  - content: A field survey sketch, an orthophoto or a satellite image with evidence
+      of the location of boundaries (collected from the field).
+  country_code: swe
+  language_code: swe
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19152:2012'
-    clause: 4.1.22
-    link: 'https://www.iso.org/standard/51206.html'
-  lineage_source: (Type reference to national language document)
-  date_accepted: '2012-12-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19152:2012
+      clause: 4.1.22
+      link: https://www.iso.org/standard/51206.html
+  - type: lineage
+    origin:
+      ref: "(Type reference to national language document)"
+  dates:
+  - type: accepted
+    date: '2012-12-01T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: gränssättningshandling
-      normative_status: preferred
   _revisions:
     current: dd6b9d
     tree:
       dd6b9d:
         object:
           id: 1316
-          definition: >-
-            markreglerande källhandling med rumslig representation av en hel, en
-            del av eller flera gränssatta områden
+          definition: markreglerande källhandling med rumslig representation av en
+            hel, en del av eller flera gränssatta områden
           country_code: swe
           language_code: swe
           notes: []
           examples:
-            - >-
-              A field survey sketch, an orthophoto or a satellite image with
-              evidence of the location of boundaries (collected from the field).
+          - A field survey sketch, an orthophoto or a satellite image with evidence
+            of the location of boundaries (collected from the field).
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19152:2012'
+            ref: ISO 19152:2012
             clause: 4.1.22
-            link: 'https://www.iso.org/standard/51206.html'
-          lineage_source: (Type reference to national language document)
+            link: https://www.iso.org/standard/51206.html
+          lineage_source: "(Type reference to national language document)"
           date_accepted: '2012-12-01T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: gränssättningshandling
-              normative_status: preferred
+          - type: expression
+            designation: gränssättningshandling
+            normative_status: preferred
         parents: []
         timeCreated: '2012-12-01T00:00:00.000Z'
         author:

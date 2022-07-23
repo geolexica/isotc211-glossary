@@ -1,22 +1,28 @@
-term: sublicensee
+---
 termid: 1255
+term: sublicensee
 eng:
   id: 1255
-  definition: principal granted a sublicence
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: sublicensee
+  definition:
+  - content: principal granted a sublicence
   notes: []
   examples: []
+  language_code: eng
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19153:2014'
-    clause: '4.47'
-    link: 'https://www.iso.org/standard/32571.html'
-  date_accepted: '2014-02-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19153:2014
+      clause: '4.47'
+      link: https://www.iso.org/standard/32571.html
+  dates:
+  - type: accepted
+    date: '2014-02-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: sublicensee
-      normative_status: preferred
   _revisions:
     current: 3b683b
     tree:
@@ -29,15 +35,15 @@ eng:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19153:2014'
+            ref: ISO 19153:2014
             clause: '4.47'
-            link: 'https://www.iso.org/standard/32571.html'
+            link: https://www.iso.org/standard/32571.html
           date_accepted: '2014-02-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: sublicensee
-              normative_status: preferred
+          - type: expression
+            designation: sublicensee
+            normative_status: preferred
         parents: []
         timeCreated: '2014-02-15T00:00:00.000Z'
         author:
@@ -45,21 +51,26 @@ eng:
           email: glossarist@ribose.com
 kor:
   id: 1255
-  definition: 2차 허가증이 부여된 관계자
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 2차 허가증 인가자
+  definition:
+  - content: 2차 허가증이 부여된 관계자
   notes: []
   examples: []
+  language_code: kor
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19153:2014'
-    clause: '4.47'
-    link: 'https://www.iso.org/standard/32571.html'
-  date_accepted: '2014-02-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19153:2014
+      clause: '4.47'
+      link: https://www.iso.org/standard/32571.html
+  dates:
+  - type: accepted
+    date: '2014-02-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: 2차 허가증 인가자
-      normative_status: preferred
   _revisions:
     current: e18884
     tree:
@@ -72,15 +83,15 @@ kor:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19153:2014'
+            ref: ISO 19153:2014
             clause: '4.47'
-            link: 'https://www.iso.org/standard/32571.html'
+            link: https://www.iso.org/standard/32571.html
           date_accepted: '2014-02-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: 2차 허가증 인가자
-              normative_status: preferred
+          - type: expression
+            designation: 2차 허가증 인가자
+            normative_status: preferred
         parents: []
         timeCreated: '2014-02-15T00:00:00.000Z'
         author:
@@ -88,44 +99,51 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 1255
-  definition: 'принципал, предоставляющий сублицензию'
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Сублицензиат
+  definition:
+  - content: принципал, предоставляющий сублицензию
   notes: []
   examples: []
+  language_code: rus
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19153:2014'
-    clause: '4.47'
-    link: 'https://www.iso.org/standard/32571.html'
-  lineage_source: 'перевод ИСО 19153:2014'
-  date_accepted: '2014-02-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19153:2014
+      clause: '4.47'
+      link: https://www.iso.org/standard/32571.html
+  - type: lineage
+    origin:
+      ref: перевод ИСО 19153:2014
+  dates:
+  - type: accepted
+    date: '2014-02-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: Сублицензиат
-      normative_status: preferred
   _revisions:
     current: 126d0a
     tree:
       126d0a:
         object:
           id: 1255
-          definition: 'принципал, предоставляющий сублицензию'
+          definition: принципал, предоставляющий сублицензию
           language_code: rus
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19153:2014'
+            ref: ISO 19153:2014
             clause: '4.47'
-            link: 'https://www.iso.org/standard/32571.html'
-          lineage_source: 'перевод ИСО 19153:2014'
+            link: https://www.iso.org/standard/32571.html
+          lineage_source: перевод ИСО 19153:2014
           date_accepted: '2014-02-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: Сублицензиат
-              normative_status: preferred
+          - type: expression
+            designation: Сублицензиат
+            normative_status: preferred
         parents: []
         timeCreated: '2014-02-15T00:00:00.000Z'
         author:
@@ -133,21 +151,26 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 1255
-  definition: titular al que se ha otorgado una sublicencia
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: sublicenciatario
+  definition:
+  - content: titular al que se ha otorgado una sublicencia
   notes: []
   examples: []
+  language_code: spa
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19153:2014'
-    clause: '4.47'
-    link: 'https://www.iso.org/standard/32571.html'
-  date_accepted: '2014-02-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19153:2014
+      clause: '4.47'
+      link: https://www.iso.org/standard/32571.html
+  dates:
+  - type: accepted
+    date: '2014-02-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: sublicenciatario
-      normative_status: preferred
   _revisions:
     current: 157cdd
     tree:
@@ -160,15 +183,15 @@ spa:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19153:2014'
+            ref: ISO 19153:2014
             clause: '4.47'
-            link: 'https://www.iso.org/standard/32571.html'
+            link: https://www.iso.org/standard/32571.html
           date_accepted: '2014-02-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: sublicenciatario
-              normative_status: preferred
+          - type: expression
+            designation: sublicenciatario
+            normative_status: preferred
         parents: []
         timeCreated: '2014-02-15T00:00:00.000Z'
         author:

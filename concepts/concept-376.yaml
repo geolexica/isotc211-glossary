@@ -1,33 +1,39 @@
-term: relationship <UML>
+---
 termid: 376
+term: relationship <UML>
 eng:
   id: 376
-  definition: semantic connection among model elements
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: relationship <UML>
+  definition:
+  - content: semantic connection among model elements
   notes:
-    - >-
-      Kinds of relationships include association, generalization,
-      metarelationship, flow and several kinds grouped under dependency.
+  - content: Kinds of relationships include association, generalization, metarelationship,
+      flow and several kinds grouped under dependency.
   examples: []
+  language_code: eng
   entry_status: valid
-  authoritative_source:
-    ref: UML 1
-  lineage_source: 'ISO/TS 19103:2005'
+  sources:
+  - type: authoritative
+    origin:
+      ref: UML 1
+  - type: lineage
+    origin:
+      ref: ISO/TS 19103:2005
   lineage_source_similarity: 1
-  date_accepted: '2005-07-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2005-07-15T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/IEC 19501:2005 (Adapted from) to
-    UML 1. Lineage source added as ISO/TS 19103:2005
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
+    from) to UML 1. Lineage source added as ISO/TS 19103:2005
   release: '1'
-  terms:
-    - type: expression
-      designation: relationship <UML>
-      normative_status: preferred
   _revisions:
     current: b6c40e
     tree:
@@ -37,29 +43,27 @@ eng:
           definition: semantic connection among model elements
           language_code: eng
           notes:
-            - >-
-              Kinds of relationships include association, generalization,
-              metarelationship, flow and several kinds grouped under dependency.
+          - Kinds of relationships include association, generalization, metarelationship,
+            flow and several kinds grouped under dependency.
           examples: []
           entry_status: valid
           authoritative_source:
             ref: UML 1
-          lineage_source: 'ISO/TS 19103:2005'
+          lineage_source: ISO/TS 19103:2005
           lineage_source_similarity: 1
           date_accepted: '2005-07-15T00:00:00.000Z'
           review_date: '2009-01-14T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
-            from) to UML 1. Lineage source added as ISO/TS 19103:2005
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005
+            (Adapted from) to UML 1. Lineage source added as ISO/TS 19103:2005
           release: '1'
           terms:
-            - type: expression
-              designation: relationship <UML>
-              normative_status: preferred
+          - type: expression
+            designation: relationship <UML>
+            normative_status: preferred
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
         author:
@@ -67,32 +71,37 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 376
-  definition: صلة ربط دلالية تربط بين عناصر النموذج
-  language_code: ara
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: علاقة <UML>
+  definition:
+  - content: صلة ربط دلالية تربط بين عناصر النموذج
   notes:
-    - >-
-      أنواع العلاقات تشمل الربط , والتعميم , وبيانات وصف العلاقات , والتدفق وعدة
-      أنواع أخرى تجتمع تحت مسمى التبعية.
+  - content: أنواع العلاقات تشمل الربط , والتعميم , وبيانات وصف العلاقات , والتدفق
+      وعدة أنواع أخرى تجتمع تحت مسمى التبعية.
   examples: []
+  language_code: ara
   entry_status: valid
-  authoritative_source:
-    ref: UML 1
-  lineage_source: 'ISO/TS 19103:2005'
+  sources:
+  - type: authoritative
+    origin:
+      ref: UML 1
+  - type: lineage
+    origin:
+      ref: ISO/TS 19103:2005
   lineage_source_similarity: 1
-  date_accepted: '2005-07-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2005-07-15T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/IEC 19501:2005 (Adapted from) to
-    UML 1. Lineage source added as ISO/TS 19103:2005
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
+    from) to UML 1. Lineage source added as ISO/TS 19103:2005
   release: '1'
-  terms:
-    - type: expression
-      designation: علاقة <UML>
-      normative_status: preferred
   _revisions:
     current: '547961'
     tree:
@@ -102,29 +111,27 @@ ara:
           definition: صلة ربط دلالية تربط بين عناصر النموذج
           language_code: ara
           notes:
-            - >-
-              أنواع العلاقات تشمل الربط , والتعميم , وبيانات وصف العلاقات ,
-              والتدفق وعدة أنواع أخرى تجتمع تحت مسمى التبعية.
+          - أنواع العلاقات تشمل الربط , والتعميم , وبيانات وصف العلاقات , والتدفق
+            وعدة أنواع أخرى تجتمع تحت مسمى التبعية.
           examples: []
           entry_status: valid
           authoritative_source:
             ref: UML 1
-          lineage_source: 'ISO/TS 19103:2005'
+          lineage_source: ISO/TS 19103:2005
           lineage_source_similarity: 1
           date_accepted: '2005-07-15T00:00:00.000Z'
           review_date: '2009-01-14T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
-            from) to UML 1. Lineage source added as ISO/TS 19103:2005
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005
+            (Adapted from) to UML 1. Lineage source added as ISO/TS 19103:2005
           release: '1'
           terms:
-            - type: expression
-              designation: علاقة <UML>
-              normative_status: preferred
+          - type: expression
+            designation: علاقة <UML>
+            normative_status: preferred
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
         author:
@@ -132,30 +139,36 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 376
-  definition: 模型元素间的语义连接。
-  language_code: zho
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 关系
+  definition:
+  - content: 模型元素间的语义连接。
   notes:
-    - 关系的种类包括关联、泛化、元关系、流程以及几种依赖。
+  - content: 关系的种类包括关联、泛化、元关系、流程以及几种依赖。
   examples: []
+  language_code: zho
   entry_status: valid
-  authoritative_source:
-    ref: UML 1
-  lineage_source: 'ISO/TS 19103:2005'
+  sources:
+  - type: authoritative
+    origin:
+      ref: UML 1
+  - type: lineage
+    origin:
+      ref: ISO/TS 19103:2005
   lineage_source_similarity: 1
-  date_accepted: '2005-07-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2005-07-15T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/IEC 19501:2005 (Adapted from) to
-    UML 1. Lineage source added as ISO/TS 19103:2005
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
+    from) to UML 1. Lineage source added as ISO/TS 19103:2005
   release: '1'
-  terms:
-    - type: expression
-      designation: 关系
-      normative_status: preferred
   _revisions:
     current: f40608
     tree:
@@ -165,27 +178,26 @@ zho:
           definition: 模型元素间的语义连接。
           language_code: zho
           notes:
-            - 关系的种类包括关联、泛化、元关系、流程以及几种依赖。
+          - 关系的种类包括关联、泛化、元关系、流程以及几种依赖。
           examples: []
           entry_status: valid
           authoritative_source:
             ref: UML 1
-          lineage_source: 'ISO/TS 19103:2005'
+          lineage_source: ISO/TS 19103:2005
           lineage_source_similarity: 1
           date_accepted: '2005-07-15T00:00:00.000Z'
           review_date: '2009-01-14T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
-            from) to UML 1. Lineage source added as ISO/TS 19103:2005
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005
+            (Adapted from) to UML 1. Lineage source added as ISO/TS 19103:2005
           release: '1'
           terms:
-            - type: expression
-              designation: 关系
-              normative_status: preferred
+          - type: expression
+            designation: 关系
+            normative_status: preferred
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
         author:
@@ -193,32 +205,37 @@ zho:
           email: glossarist@ribose.com
 fin:
   id: 376
-  definition: semanttinen yhteys mallielementtien välillä
-  language_code: fin
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: suhde <UML>
+  definition:
+  - content: semanttinen yhteys mallielementtien välillä
   notes:
-    - >-
-      Suhdetyyppejä ovat mm. assosiaatio, yleistys, metasuhde, vuo sekä useat
+  - content: Suhdetyyppejä ovat mm. assosiaatio, yleistys, metasuhde, vuo sekä useat
       riippuvuussuhteen alalajit.
   examples: []
+  language_code: fin
   entry_status: valid
-  authoritative_source:
-    ref: UML 1
-  lineage_source: 'ISO/TS 19103:2005'
+  sources:
+  - type: authoritative
+    origin:
+      ref: UML 1
+  - type: lineage
+    origin:
+      ref: ISO/TS 19103:2005
   lineage_source_similarity: 1
-  date_accepted: '2005-07-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2005-07-15T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/IEC 19501:2005 (Adapted from) to
-    UML 1. Lineage source added as ISO/TS 19103:2005
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
+    from) to UML 1. Lineage source added as ISO/TS 19103:2005
   release: '1'
-  terms:
-    - type: expression
-      designation: suhde <UML>
-      normative_status: preferred
   _revisions:
     current: 84da69
     tree:
@@ -228,29 +245,27 @@ fin:
           definition: semanttinen yhteys mallielementtien välillä
           language_code: fin
           notes:
-            - >-
-              Suhdetyyppejä ovat mm. assosiaatio, yleistys, metasuhde, vuo sekä
-              useat riippuvuussuhteen alalajit.
+          - Suhdetyyppejä ovat mm. assosiaatio, yleistys, metasuhde, vuo sekä useat
+            riippuvuussuhteen alalajit.
           examples: []
           entry_status: valid
           authoritative_source:
             ref: UML 1
-          lineage_source: 'ISO/TS 19103:2005'
+          lineage_source: ISO/TS 19103:2005
           lineage_source_similarity: 1
           date_accepted: '2005-07-15T00:00:00.000Z'
           review_date: '2009-01-14T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
-            from) to UML 1. Lineage source added as ISO/TS 19103:2005
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005
+            (Adapted from) to UML 1. Lineage source added as ISO/TS 19103:2005
           release: '1'
           terms:
-            - type: expression
-              designation: suhde <UML>
-              normative_status: preferred
+          - type: expression
+            designation: suhde <UML>
+            normative_status: preferred
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
         author:
@@ -258,29 +273,35 @@ fin:
           email: glossarist@ribose.com
 fra:
   id: 376
-  definition: connexion sémantique entre éléments du modèle
-  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: relation <UML>
+  definition:
+  - content: connexion sémantique entre éléments du modèle
   notes: []
   examples: []
+  language_code: fra
   entry_status: valid
-  authoritative_source:
-    ref: UML 1
-  lineage_source: 'ISO/TS 19103:2005'
+  sources:
+  - type: authoritative
+    origin:
+      ref: UML 1
+  - type: lineage
+    origin:
+      ref: ISO/TS 19103:2005
   lineage_source_similarity: 1
-  date_accepted: '2005-07-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2005-07-15T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/IEC 19501:2005 (Adapted from) to
-    UML 1. Lineage source added as ISO/TS 19103:2005
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
+    from) to UML 1. Lineage source added as ISO/TS 19103:2005
   release: '1'
-  terms:
-    - type: expression
-      designation: relation <UML>
-      normative_status: preferred
   _revisions:
     current: 80ba38
     tree:
@@ -294,22 +315,21 @@ fra:
           entry_status: valid
           authoritative_source:
             ref: UML 1
-          lineage_source: 'ISO/TS 19103:2005'
+          lineage_source: ISO/TS 19103:2005
           lineage_source_similarity: 1
           date_accepted: '2005-07-15T00:00:00.000Z'
           review_date: '2009-01-14T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
-            from) to UML 1. Lineage source added as ISO/TS 19103:2005
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005
+            (Adapted from) to UML 1. Lineage source added as ISO/TS 19103:2005
           release: '1'
           terms:
-            - type: expression
-              designation: relation <UML>
-              normative_status: preferred
+          - type: expression
+            designation: relation <UML>
+            normative_status: preferred
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
         author:
@@ -317,60 +337,65 @@ fra:
           email: glossarist@ribose.com
 kor:
   id: 376
-  definition: 모델 요소들 사이의 의미론적 연결
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 관계 <UML>
+  definition:
+  - content: 모델 요소들 사이의 의미론적 연결
   notes:
-    - '관계에는 연관, 일반화, 메타 관계, 흐름 및 몇몇 의존 관계가 포함된다.'
+  - content: 관계에는 연관, 일반화, 메타 관계, 흐름 및 몇몇 의존 관계가 포함된다.
   examples: []
+  language_code: kor
   entry_status: valid
-  authoritative_source:
-    ref: UML 1
-  lineage_source: 'ISO/TS 19103:2005'
+  sources:
+  - type: authoritative
+    origin:
+      ref: UML 1
+  - type: lineage
+    origin:
+      ref: ISO/TS 19103:2005
   lineage_source_similarity: 1
-  date_accepted: '2005-07-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2005-07-15T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/IEC 19501:2005 (Adapted from) to
-    UML 1. Lineage source added as ISO/TS 19103:2005
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
+    from) to UML 1. Lineage source added as ISO/TS 19103:2005
   release: '1'
-  terms:
-    - type: expression
-      designation: 관계 <UML>
-      normative_status: preferred
   _revisions:
-    current: 092508
+    current: '092508'
     tree:
-      092508:
+      '092508':
         object:
           id: 376
           definition: 모델 요소들 사이의 의미론적 연결
           language_code: kor
           notes:
-            - '관계에는 연관, 일반화, 메타 관계, 흐름 및 몇몇 의존 관계가 포함된다.'
+          - 관계에는 연관, 일반화, 메타 관계, 흐름 및 몇몇 의존 관계가 포함된다.
           examples: []
           entry_status: valid
           authoritative_source:
             ref: UML 1
-          lineage_source: 'ISO/TS 19103:2005'
+          lineage_source: ISO/TS 19103:2005
           lineage_source_similarity: 1
           date_accepted: '2005-07-15T00:00:00.000Z'
           review_date: '2009-01-14T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
-            from) to UML 1. Lineage source added as ISO/TS 19103:2005
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005
+            (Adapted from) to UML 1. Lineage source added as ISO/TS 19103:2005
           release: '1'
           terms:
-            - type: expression
-              designation: 관계 <UML>
-              normative_status: preferred
+          - type: expression
+            designation: 관계 <UML>
+            normative_status: preferred
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
         author:
@@ -378,24 +403,30 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 376
-  definition: семантическая связь между элементами модели
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: отношение <UML>
+  definition:
+  - content: семантическая связь между элементами модели
   notes:
-    - >-
-      К видам связей относят ассоциацию, обобщение, метаотношение, поток и
+  - content: К видам связей относят ассоциацию, обобщение, метаотношение, поток и
       некоторые другие отношения, объединенные под общим понятием «зависимость»
   examples: []
+  language_code: rus
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO/IEC 19501:2005 '
-    clause: (Adapted from)
-    link: 'https://www.iso.org/standard/32620.html'
-  lineage_source: Internet
-  date_accepted: '2005-07-15T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: отношение <UML>
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: 'ISO/IEC 19501:2005 '
+      clause: "(Adapted from)"
+      link: https://www.iso.org/standard/32620.html
+  - type: lineage
+    origin:
+      ref: Internet
+  dates:
+  - type: accepted
+    date: '2005-07-15T00:00:00.000Z'
   _revisions:
     current: 9aa1cb
     tree:
@@ -405,22 +436,20 @@ rus:
           definition: семантическая связь между элементами модели
           language_code: rus
           notes:
-            - >-
-              К видам связей относят ассоциацию, обобщение, метаотношение, поток
-              и некоторые другие отношения, объединенные под общим понятием
-              «зависимость»
+          - К видам связей относят ассоциацию, обобщение, метаотношение, поток и некоторые
+            другие отношения, объединенные под общим понятием «зависимость»
           examples: []
           entry_status: valid
           authoritative_source:
             ref: 'ISO/IEC 19501:2005 '
-            clause: (Adapted from)
-            link: 'https://www.iso.org/standard/32620.html'
+            clause: "(Adapted from)"
+            link: https://www.iso.org/standard/32620.html
           lineage_source: Internet
           date_accepted: '2005-07-15T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: отношение <UML>
-              normative_status: preferred
+          - type: expression
+            designation: отношение <UML>
+            normative_status: preferred
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
         author:
@@ -428,32 +457,37 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 376
-  definition: conexión semántica entre elementos de un modelo
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: relación <UML>
+  definition:
+  - content: conexión semántica entre elementos de un modelo
   notes:
-    - >-
-      Los tipos de relaciones incluyen la asociación, la generalización, la
+  - content: Los tipos de relaciones incluyen la asociación, la generalización, la
       meta-relación, el flujo y varios tipos agrupados bajo la dependencia.
   examples: []
+  language_code: spa
   entry_status: valid
-  authoritative_source:
-    ref: UML 1
-  lineage_source: 'ISO/TS 19103:2005'
+  sources:
+  - type: authoritative
+    origin:
+      ref: UML 1
+  - type: lineage
+    origin:
+      ref: ISO/TS 19103:2005
   lineage_source_similarity: 1
-  date_accepted: '2005-07-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2005-07-15T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/IEC 19501:2005 (Adapted from) to
-    UML 1. Lineage source added as ISO/TS 19103:2005
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
+    from) to UML 1. Lineage source added as ISO/TS 19103:2005
   release: '1'
-  terms:
-    - type: expression
-      designation: relación <UML>
-      normative_status: preferred
   _revisions:
     current: 06cd00
     tree:
@@ -463,30 +497,27 @@ spa:
           definition: conexión semántica entre elementos de un modelo
           language_code: spa
           notes:
-            - >-
-              Los tipos de relaciones incluyen la asociación, la generalización,
-              la meta-relación, el flujo y varios tipos agrupados bajo la
-              dependencia.
+          - Los tipos de relaciones incluyen la asociación, la generalización, la
+            meta-relación, el flujo y varios tipos agrupados bajo la dependencia.
           examples: []
           entry_status: valid
           authoritative_source:
             ref: UML 1
-          lineage_source: 'ISO/TS 19103:2005'
+          lineage_source: ISO/TS 19103:2005
           lineage_source_similarity: 1
           date_accepted: '2005-07-15T00:00:00.000Z'
           review_date: '2009-01-14T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
-            from) to UML 1. Lineage source added as ISO/TS 19103:2005
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005
+            (Adapted from) to UML 1. Lineage source added as ISO/TS 19103:2005
           release: '1'
           terms:
-            - type: expression
-              designation: relación <UML>
-              normative_status: preferred
+          - type: expression
+            designation: relación <UML>
+            normative_status: preferred
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
         author:
@@ -494,32 +525,37 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 376
-  definition: semantic connection among model elements
-  language_code: swe
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: relationship <UML>
+  definition:
+  - content: semantic connection among model elements
   notes:
-    - >-
-      Kinds of relationships include association, generalization,
-      metarelationship, flow and several kinds grouped under dependency.
+  - content: Kinds of relationships include association, generalization, metarelationship,
+      flow and several kinds grouped under dependency.
   examples: []
+  language_code: swe
   entry_status: valid
-  authoritative_source:
-    ref: UML 1
-  lineage_source: 'ISO/TS 19103:2005'
+  sources:
+  - type: authoritative
+    origin:
+      ref: UML 1
+  - type: lineage
+    origin:
+      ref: ISO/TS 19103:2005
   lineage_source_similarity: 1
-  date_accepted: '2005-07-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2005-07-15T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/IEC 19501:2005 (Adapted from) to
-    UML 1. Lineage source added as ISO/TS 19103:2005
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
+    from) to UML 1. Lineage source added as ISO/TS 19103:2005
   release: '1'
-  terms:
-    - type: expression
-      designation: relationship <UML>
-      normative_status: preferred
   _revisions:
     current: 005de4
     tree:
@@ -529,29 +565,27 @@ swe:
           definition: semantic connection among model elements
           language_code: swe
           notes:
-            - >-
-              Kinds of relationships include association, generalization,
-              metarelationship, flow and several kinds grouped under dependency.
+          - Kinds of relationships include association, generalization, metarelationship,
+            flow and several kinds grouped under dependency.
           examples: []
           entry_status: valid
           authoritative_source:
             ref: UML 1
-          lineage_source: 'ISO/TS 19103:2005'
+          lineage_source: ISO/TS 19103:2005
           lineage_source_similarity: 1
           date_accepted: '2005-07-15T00:00:00.000Z'
           review_date: '2009-01-14T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
-            from) to UML 1. Lineage source added as ISO/TS 19103:2005
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005
+            (Adapted from) to UML 1. Lineage source added as ISO/TS 19103:2005
           release: '1'
           terms:
-            - type: expression
-              designation: relationship <UML>
-              normative_status: preferred
+          - type: expression
+            designation: relationship <UML>
+            normative_status: preferred
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
         author:

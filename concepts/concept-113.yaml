@@ -1,39 +1,45 @@
-term: data quality element
+---
 termid: 113
+term: data quality element
 eng:
   id: 113
-  definition: quantitative component documenting the quality of a dataset
-  language_code: eng
+  terms:
+  - type: expression
+    designation: data quality element
+  definition:
+  - content: quantitative component documenting the quality of a dataset
   notes:
-    - >-
-      The applicability of a data quality element to a dataset depends on both
-      the dataset's content and its product specification; the result being that
-      all data elements may not be applicable to all datasets.
+  - content: The applicability of a data quality element to a dataset depends on both
+      the dataset's content and its product specification; the result being that all
+      data elements may not be applicable to all datasets.
   examples: []
+  language_code: eng
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101:2002'
-    clause: '4.9'
-    link: 'https://www.iso.org/standard/26002.html'
-  lineage_source: ''
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101:2002
+      clause: '4.9'
+      link: https://www.iso.org/standard/26002.html
+  - type: lineage
+    origin:
+      ref: ''
   lineage_source_similarity: 0
-  date_accepted: '2002-07-01T00:00:00.000Z'
-  date_amended: '2014-11-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2002-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-11-01T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-1:2014'
-  review_decision_notes: >-
-    The entry has been omitted from the superseding standard  (ISO
+  review_decision_event: Publication of ISO 19101-1:2014
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
     19101-1:2014).
-  release: '-1'
-  terms:
-    - type: expression
-      designation: data quality element
-      normative_status: null
+  release: "-1"
   _revisions:
     current: 967c28
     tree:
@@ -43,18 +49,16 @@ eng:
           definition: quantitative component documenting the quality of a dataset
           language_code: eng
           notes:
-            - >-
-              The applicability of a data quality element to a dataset depends
-              on both the dataset's content and its product specification; the
-              result being that all data elements may not be applicable to all
-              datasets.
+          - The applicability of a data quality element to a dataset depends on both
+            the dataset's content and its product specification; the result being
+            that all data elements may not be applicable to all datasets.
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101:2002'
+            ref: ISO 19101:2002
             clause: '4.9'
-            link: 'https://www.iso.org/standard/26002.html'
+            link: https://www.iso.org/standard/26002.html
           lineage_source: ''
           lineage_source_similarity: 0
           date_accepted: '2002-07-01T00:00:00.000Z'
@@ -64,15 +68,14 @@ eng:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-1:2014'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19101-1:2014).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: data quality element
-              normative_status: null
+          - type: expression
+            designation: data quality element
+            normative_status:
         parents: []
         timeCreated: '2002-07-01T00:00:00.000Z'
         author:
@@ -80,37 +83,39 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 113
-  definition: المكون الكمي لتوثيق الجودة لمجموعة بيانات
-  language_code: ara
+  terms:
+  - type: expression
+    designation: عنصر جودة البيانات
+  definition:
+  - content: المكون الكمي لتوثيق الجودة لمجموعة بيانات
   notes:
-    - >-
-      إمكانية تطبيق عنصر جودة بيانات معيَّن على مجموعة للبيانات تعتمد على أمرين
-      هما محتوى مجموعة البيانات المعنية من جهة ومواصفات المنتج الخاصة بها من
-      الجهة الأخرى ؛ والنتيجة هي أنه قد لا يمكن تطبيق كل عناصر البيانات على كل
-      مجموعات البيانات.
+  - content: إمكانية تطبيق عنصر جودة بيانات معيَّن على مجموعة للبيانات تعتمد على أمرين
+      هما محتوى مجموعة البيانات المعنية من جهة ومواصفات المنتج الخاصة بها من الجهة
+      الأخرى ؛ والنتيجة هي أنه قد لا يمكن تطبيق كل عناصر البيانات على كل مجموعات البيانات.
   examples: []
+  language_code: ara
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101:2002'
-    clause: '4.9'
-    link: 'https://www.iso.org/standard/26002.html'
-  date_accepted: '2002-07-01T00:00:00.000Z'
-  date_amended: '2014-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101:2002
+      clause: '4.9'
+      link: https://www.iso.org/standard/26002.html
+  dates:
+  - type: accepted
+    date: '2002-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-11-01T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-1:2014'
-  review_decision_notes: >-
-    The entry has been omitted from the superseding standard  (ISO
+  review_decision_event: Publication of ISO 19101-1:2014
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
     19101-1:2014).
-  release: '-1'
-  terms:
-    - type: expression
-      designation: عنصر جودة البيانات
-      normative_status: null
+  release: "-1"
   _revisions:
     current: 6b6499
     tree:
@@ -120,18 +125,17 @@ ara:
           definition: المكون الكمي لتوثيق الجودة لمجموعة بيانات
           language_code: ara
           notes:
-            - >-
-              إمكانية تطبيق عنصر جودة بيانات معيَّن على مجموعة للبيانات تعتمد
-              على أمرين هما محتوى مجموعة البيانات المعنية من جهة ومواصفات المنتج
-              الخاصة بها من الجهة الأخرى ؛ والنتيجة هي أنه قد لا يمكن تطبيق كل
-              عناصر البيانات على كل مجموعات البيانات.
+          - إمكانية تطبيق عنصر جودة بيانات معيَّن على مجموعة للبيانات تعتمد على أمرين
+            هما محتوى مجموعة البيانات المعنية من جهة ومواصفات المنتج الخاصة بها من
+            الجهة الأخرى ؛ والنتيجة هي أنه قد لا يمكن تطبيق كل عناصر البيانات على
+            كل مجموعات البيانات.
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101:2002'
+            ref: ISO 19101:2002
             clause: '4.9'
-            link: 'https://www.iso.org/standard/26002.html'
+            link: https://www.iso.org/standard/26002.html
           date_accepted: '2002-07-01T00:00:00.000Z'
           date_amended: '2014-11-01T00:00:00.000Z'
           review_date: '2010-10-12T00:00:00.000Z'
@@ -139,15 +143,14 @@ ara:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-1:2014'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19101-1:2014).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: عنصر جودة البيانات
-              normative_status: null
+          - type: expression
+            designation: عنصر جودة البيانات
+            normative_status:
         parents: []
         timeCreated: '2002-07-01T00:00:00.000Z'
         author:
@@ -155,34 +158,40 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 113
-  definition: 定量描述数据集质量的组成部分。
-  language_code: zho
+  terms:
+  - type: expression
+    designation: 数据质量元素
+  definition:
+  - content: 定量描述数据集质量的组成部分。
   notes:
-    - 数据质量元素对数据集的适用性依赖于数据集的内容及其产品规范；究其原因不是所有的数据质量元素适用于所有的数据集。
+  - content: 数据质量元素对数据集的适用性依赖于数据集的内容及其产品规范；究其原因不是所有的数据质量元素适用于所有的数据集。
   examples: []
+  language_code: zho
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101:2002'
-    clause: '4.9'
-    link: 'https://www.iso.org/standard/26002.html'
-  lineage_source: ''
-  date_accepted: '2002-07-01T00:00:00.000Z'
-  date_amended: '2014-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101:2002
+      clause: '4.9'
+      link: https://www.iso.org/standard/26002.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-11-01T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-1:2014'
-  review_decision_notes: >-
-    The entry has been omitted from the superseding standard  (ISO
+  review_decision_event: Publication of ISO 19101-1:2014
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
     19101-1:2014).
-  release: '-1'
-  terms:
-    - type: expression
-      designation: 数据质量元素
-      normative_status: null
+  release: "-1"
   _revisions:
     current: 64a869
     tree:
@@ -192,14 +201,14 @@ zho:
           definition: 定量描述数据集质量的组成部分。
           language_code: zho
           notes:
-            - 数据质量元素对数据集的适用性依赖于数据集的内容及其产品规范；究其原因不是所有的数据质量元素适用于所有的数据集。
+          - 数据质量元素对数据集的适用性依赖于数据集的内容及其产品规范；究其原因不是所有的数据质量元素适用于所有的数据集。
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101:2002'
+            ref: ISO 19101:2002
             clause: '4.9'
-            link: 'https://www.iso.org/standard/26002.html'
+            link: https://www.iso.org/standard/26002.html
           lineage_source: ''
           date_accepted: '2002-07-01T00:00:00.000Z'
           date_amended: '2014-11-01T00:00:00.000Z'
@@ -208,15 +217,14 @@ zho:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-1:2014'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19101-1:2014).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: 数据质量元素
-              normative_status: null
+          - type: expression
+            designation: 数据质量元素
+            normative_status:
         parents: []
         timeCreated: '2002-07-01T00:00:00.000Z'
         author:
@@ -224,58 +232,61 @@ zho:
           email: glossarist@ribose.com
 dan:
   id: 113
-  definition: 'kvantitativ komponent, der dokumenterer kvaliteten af et datasæt'
-  language_code: dan
+  terms:
+  - type: expression
+    designation: datakvalitetselement
+  definition:
+  - content: kvantitativ komponent, der dokumenterer kvaliteten af et datasæt
   notes:
-    - >-
-      Anvendeligheden af et datakvalitetselement i et datasæt afhænger både af
-      datasættets indhold og af dets produktspecifikation; det betyder, at alle
+  - content: Anvendeligheden af et datakvalitetselement i et datasæt afhænger både
+      af datasættets indhold og af dets produktspecifikation; det betyder, at alle
       dataelementer ikke nødvendigvis kan anvendes i alle datasæt.
   examples: []
+  language_code: dan
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101:2002'
-    clause: '4.9'
-    link: 'https://www.iso.org/standard/26002.html'
-  lineage_source: ''
-  date_accepted: '2002-07-01T00:00:00.000Z'
-  date_amended: '2014-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101:2002
+      clause: '4.9'
+      link: https://www.iso.org/standard/26002.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-11-01T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-1:2014'
-  review_decision_notes: >-
-    The entry has been omitted from the superseding standard  (ISO
+  review_decision_event: Publication of ISO 19101-1:2014
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
     19101-1:2014).
-  release: '-1'
-  terms:
-    - type: expression
-      designation: datakvalitetselement
-      normative_status: null
+  release: "-1"
   _revisions:
     current: 7d1232
     tree:
       7d1232:
         object:
           id: 113
-          definition: 'kvantitativ komponent, der dokumenterer kvaliteten af et datasæt'
+          definition: kvantitativ komponent, der dokumenterer kvaliteten af et datasæt
           language_code: dan
           notes:
-            - >-
-              Anvendeligheden af et datakvalitetselement i et datasæt afhænger
-              både af datasættets indhold og af dets produktspecifikation; det
-              betyder, at alle dataelementer ikke nødvendigvis kan anvendes i
-              alle datasæt.
+          - Anvendeligheden af et datakvalitetselement i et datasæt afhænger både
+            af datasættets indhold og af dets produktspecifikation; det betyder, at
+            alle dataelementer ikke nødvendigvis kan anvendes i alle datasæt.
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101:2002'
+            ref: ISO 19101:2002
             clause: '4.9'
-            link: 'https://www.iso.org/standard/26002.html'
+            link: https://www.iso.org/standard/26002.html
           lineage_source: ''
           date_accepted: '2002-07-01T00:00:00.000Z'
           date_amended: '2014-11-01T00:00:00.000Z'
@@ -284,15 +295,14 @@ dan:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-1:2014'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19101-1:2014).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: datakvalitetselement
-              normative_status: null
+          - type: expression
+            designation: datakvalitetselement
+            normative_status:
         parents: []
         timeCreated: '2002-07-01T00:00:00.000Z'
         author:
@@ -300,58 +310,61 @@ dan:
           email: glossarist@ribose.com
 fin:
   id: 113
-  definition: 'tekijä, joka kuvaa laadun tiettyä näkökulmaa'
-  language_code: fin
+  terms:
+  - type: expression
+    designation: laatutekijä
+  definition:
+  - content: tekijä, joka kuvaa laadun tiettyä näkökulmaa
   notes:
-    - >-
-      Mitattavan laatutekijän sovellettavuus tietoaineistoon riippuu
-      tietoaineiston sisällöstä ja tuotemäärittelystä. Kaikkia tietoelementtejä
-      ei näin ollen voi välttämättä soveltaa kaikkiin tietoaineistoihin.
+  - content: Mitattavan laatutekijän sovellettavuus tietoaineistoon riippuu tietoaineiston
+      sisällöstä ja tuotemäärittelystä. Kaikkia tietoelementtejä ei näin ollen voi
+      välttämättä soveltaa kaikkiin tietoaineistoihin.
   examples: []
+  language_code: fin
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101:2002'
-    clause: '4.9'
-    link: 'https://www.iso.org/standard/26002.html'
-  lineage_source: ''
-  date_accepted: '2013-07-03T00:00:00.000Z'
-  date_amended: '2014-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101:2002
+      clause: '4.9'
+      link: https://www.iso.org/standard/26002.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2013-07-03T00:00:00.000Z'
+  - type: amended
+    date: '2014-11-01T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-1:2014'
-  review_decision_notes: >-
-    The entry has been omitted from the superseding standard  (ISO
+  review_decision_event: Publication of ISO 19101-1:2014
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
     19101-1:2014).
-  release: '-1'
-  terms:
-    - type: expression
-      designation: laatutekijä
-      normative_status: null
+  release: "-1"
   _revisions:
     current: be8c33
     tree:
       be8c33:
         object:
           id: 113
-          definition: 'tekijä, joka kuvaa laadun tiettyä näkökulmaa'
+          definition: tekijä, joka kuvaa laadun tiettyä näkökulmaa
           language_code: fin
           notes:
-            - >-
-              Mitattavan laatutekijän sovellettavuus tietoaineistoon riippuu
-              tietoaineiston sisällöstä ja tuotemäärittelystä. Kaikkia
-              tietoelementtejä ei näin ollen voi välttämättä soveltaa kaikkiin
-              tietoaineistoihin.
+          - Mitattavan laatutekijän sovellettavuus tietoaineistoon riippuu tietoaineiston
+            sisällöstä ja tuotemäärittelystä. Kaikkia tietoelementtejä ei näin ollen
+            voi välttämättä soveltaa kaikkiin tietoaineistoihin.
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101:2002'
+            ref: ISO 19101:2002
             clause: '4.9'
-            link: 'https://www.iso.org/standard/26002.html'
+            link: https://www.iso.org/standard/26002.html
           lineage_source: ''
           date_accepted: '2013-07-03T00:00:00.000Z'
           date_amended: '2014-11-01T00:00:00.000Z'
@@ -360,15 +373,14 @@ fin:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-1:2014'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19101-1:2014).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: laatutekijä
-              normative_status: null
+          - type: expression
+            designation: laatutekijä
+            normative_status:
         parents: []
         timeCreated: '2013-07-03T00:00:00.000Z'
         author:
@@ -376,33 +388,39 @@ fin:
           email: glossarist@ribose.com
 fra:
   id: 113
-  definition: composant quantitatif documentant la qualité d'un jeu de données
-  language_code: fra
+  terms:
+  - type: expression
+    designation: élément de qualité des données
+  definition:
+  - content: composant quantitatif documentant la qualité d'un jeu de données
   notes: []
   examples: []
+  language_code: fra
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101:2002'
-    clause: '4.9'
-    link: 'https://www.iso.org/standard/26002.html'
-  lineage_source: ''
-  date_accepted: '2002-07-01T00:00:00.000Z'
-  date_amended: '2014-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101:2002
+      clause: '4.9'
+      link: https://www.iso.org/standard/26002.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-11-01T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-1:2014'
-  review_decision_notes: >-
-    The entry has been omitted from the superseding standard  (ISO
+  review_decision_event: Publication of ISO 19101-1:2014
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
     19101-1:2014).
-  release: '-1'
-  terms:
-    - type: expression
-      designation: élément de qualité des données
-      normative_status: null
+  release: "-1"
   _revisions:
     current: fc3cf6
     tree:
@@ -416,9 +434,9 @@ fra:
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101:2002'
+            ref: ISO 19101:2002
             clause: '4.9'
-            link: 'https://www.iso.org/standard/26002.html'
+            link: https://www.iso.org/standard/26002.html
           lineage_source: ''
           date_accepted: '2002-07-01T00:00:00.000Z'
           date_amended: '2014-11-01T00:00:00.000Z'
@@ -427,15 +445,14 @@ fra:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-1:2014'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19101-1:2014).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: élément de qualité des données
-              normative_status: null
+          - type: expression
+            designation: élément de qualité des données
+            normative_status:
         parents: []
         timeCreated: '2002-07-01T00:00:00.000Z'
         author:
@@ -443,36 +460,40 @@ fra:
           email: glossarist@ribose.com
 deu:
   id: 113
-  language_code: deu
+  terms:
+  - type: expression
+    designation: Datenqualitätselement
   notes:
-    - >-
-      The applicability of a data quality element to a dataset depends on both
-      the dataset's content and its product specification; the result being that
-      all data elements may not be applicable to all datasets.
+  - content: The applicability of a data quality element to a dataset depends on both
+      the dataset's content and its product specification; the result being that all
+      data elements may not be applicable to all datasets.
   examples: []
+  language_code: deu
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101:2002'
-    clause: '4.9'
-    link: 'https://www.iso.org/standard/26002.html'
-  lineage_source: ''
-  date_accepted: '2002-07-01T00:00:00.000Z'
-  date_amended: '2014-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101:2002
+      clause: '4.9'
+      link: https://www.iso.org/standard/26002.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-11-01T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-1:2014'
-  review_decision_notes: >-
-    The entry has been omitted from the superseding standard  (ISO
+  review_decision_event: Publication of ISO 19101-1:2014
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
     19101-1:2014).
-  release: '-1'
-  terms:
-    - type: expression
-      designation: Datenqualitätselement
-      normative_status: null
+  release: "-1"
   _revisions:
     current: d9bd9f
     tree:
@@ -481,18 +502,16 @@ deu:
           id: 113
           language_code: deu
           notes:
-            - >-
-              The applicability of a data quality element to a dataset depends
-              on both the dataset's content and its product specification; the
-              result being that all data elements may not be applicable to all
-              datasets.
+          - The applicability of a data quality element to a dataset depends on both
+            the dataset's content and its product specification; the result being
+            that all data elements may not be applicable to all datasets.
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101:2002'
+            ref: ISO 19101:2002
             clause: '4.9'
-            link: 'https://www.iso.org/standard/26002.html'
+            link: https://www.iso.org/standard/26002.html
           lineage_source: ''
           date_accepted: '2002-07-01T00:00:00.000Z'
           date_amended: '2014-11-01T00:00:00.000Z'
@@ -501,15 +520,14 @@ deu:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-1:2014'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19101-1:2014).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: Datenqualitätselement
-              normative_status: null
+          - type: expression
+            designation: Datenqualitätselement
+            normative_status:
         parents: []
         timeCreated: '2002-07-01T00:00:00.000Z'
         author:
@@ -517,36 +535,41 @@ deu:
           email: glossarist@ribose.com
 kor:
   id: 113
-  definition: 품질정보를 기술하는 데이터셋의 정량적 컴포넌트
-  language_code: kor
+  terms:
+  - type: expression
+    designation: 데이터 품질 요소
+  definition:
+  - content: 품질정보를 기술하는 데이터셋의 정량적 컴포넌트
   notes:
-    - >-
-      데이터셋에 대한 데이터 품질 요소의 적용 여부는 데이터셋의 내용과 그 제품 사양 모두에 달려 있다. 모든 데이터 요소를 모든
+  - content: 데이터셋에 대한 데이터 품질 요소의 적용 여부는 데이터셋의 내용과 그 제품 사양 모두에 달려 있다. 모든 데이터 요소를 모든
       데이터셋에 적용하는 것은 어려울 수 있다.
   examples: []
+  language_code: kor
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101:2002'
-    clause: '4.9'
-    link: 'https://www.iso.org/standard/26002.html'
-  lineage_source: ''
-  date_accepted: '2008-12-30T00:00:00.000Z'
-  date_amended: '2014-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101:2002
+      clause: '4.9'
+      link: https://www.iso.org/standard/26002.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2008-12-30T00:00:00.000Z'
+  - type: amended
+    date: '2014-11-01T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-1:2014'
-  review_decision_notes: >-
-    The entry has been omitted from the superseding standard  (ISO
+  review_decision_event: Publication of ISO 19101-1:2014
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
     19101-1:2014).
-  release: '-1'
-  terms:
-    - type: expression
-      designation: 데이터 품질 요소
-      normative_status: null
+  release: "-1"
   _revisions:
     current: 4ede5b
     tree:
@@ -556,16 +579,15 @@ kor:
           definition: 품질정보를 기술하는 데이터셋의 정량적 컴포넌트
           language_code: kor
           notes:
-            - >-
-              데이터셋에 대한 데이터 품질 요소의 적용 여부는 데이터셋의 내용과 그 제품 사양 모두에 달려 있다. 모든 데이터 요소를
-              모든 데이터셋에 적용하는 것은 어려울 수 있다.
+          - 데이터셋에 대한 데이터 품질 요소의 적용 여부는 데이터셋의 내용과 그 제품 사양 모두에 달려 있다. 모든 데이터 요소를 모든
+            데이터셋에 적용하는 것은 어려울 수 있다.
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101:2002'
+            ref: ISO 19101:2002
             clause: '4.9'
-            link: 'https://www.iso.org/standard/26002.html'
+            link: https://www.iso.org/standard/26002.html
           lineage_source: ''
           date_accepted: '2008-12-30T00:00:00.000Z'
           date_amended: '2014-11-01T00:00:00.000Z'
@@ -574,15 +596,14 @@ kor:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-1:2014'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19101-1:2014).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: 데이터 품질 요소
-              normative_status: null
+          - type: expression
+            designation: 데이터 품질 요소
+            normative_status:
         parents: []
         timeCreated: '2008-12-30T00:00:00.000Z'
         author:
@@ -590,57 +611,61 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 113
-  definition: 'количественный компонент, определяющий качество набора данных'
-  language_code: rus
+  terms:
+  - type: expression
+    designation: элемент качества данных
+  definition:
+  - content: количественный компонент, определяющий качество набора данных
   notes:
-    - >-
-      Применимость элемента качества данных к набору данных зависит  от
-      содержания набора данных и  спецификации продукта. Возможна ситуация,
-      когда не все элементы качества данных будут применимы ко всем наборам
-      данных
+  - content: Применимость элемента качества данных к набору данных зависит  от содержания
+      набора данных и  спецификации продукта. Возможна ситуация, когда не все элементы
+      качества данных будут применимы ко всем наборам данных
   examples: []
+  language_code: rus
   entry_status: изъятый
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101:2002'
-    clause: '4.9'
-    link: 'https://www.iso.org/standard/26002.html'
-  lineage_source: ''
-  date_accepted: '2002-07-01T00:00:00.000Z'
-  date_amended: '2014-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101:2002
+      clause: '4.9'
+      link: https://www.iso.org/standard/26002.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-11-01T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: ''
   review_type: ''
   review_decision: ''
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Публикация ИСО19101-1:2014'
-  review_decision_notes: 'Эта запись была опущена из заменяющего стандарта (ISO 19101-1: 2014'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: элемент качества данных
-      normative_status: null
+  review_decision_event: Публикация ИСО19101-1:2014
+  review_decision_notes: 'Эта запись была опущена из заменяющего стандарта (ISO 19101-1:
+    2014'
+  release: "-1"
   _revisions:
     current: 775d16
     tree:
       775d16:
         object:
           id: 113
-          definition: 'количественный компонент, определяющий качество набора данных'
+          definition: количественный компонент, определяющий качество набора данных
           language_code: rus
           notes:
-            - >-
-              Применимость элемента качества данных к набору данных зависит  от
-              содержания набора данных и  спецификации продукта. Возможна
-              ситуация, когда не все элементы качества данных будут применимы ко
-              всем наборам данных
+          - Применимость элемента качества данных к набору данных зависит  от содержания
+            набора данных и  спецификации продукта. Возможна ситуация, когда не все
+            элементы качества данных будут применимы ко всем наборам данных
           examples: []
           entry_status: изъятый
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101:2002'
+            ref: ISO 19101:2002
             clause: '4.9'
-            link: 'https://www.iso.org/standard/26002.html'
+            link: https://www.iso.org/standard/26002.html
           lineage_source: ''
           date_accepted: '2002-07-01T00:00:00.000Z'
           date_amended: '2014-11-01T00:00:00.000Z'
@@ -649,13 +674,14 @@ rus:
           review_type: ''
           review_decision: ''
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Публикация ИСО19101-1:2014'
-          review_decision_notes: 'Эта запись была опущена из заменяющего стандарта (ISO 19101-1: 2014'
-          release: '-1'
+          review_decision_event: Публикация ИСО19101-1:2014
+          review_decision_notes: 'Эта запись была опущена из заменяющего стандарта
+            (ISO 19101-1: 2014'
+          release: "-1"
           terms:
-            - type: expression
-              designation: элемент качества данных
-              normative_status: null
+          - type: expression
+            designation: элемент качества данных
+            normative_status:
         parents: []
         timeCreated: '2002-07-01T00:00:00.000Z'
         author:
@@ -663,62 +689,64 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 113
-  definition: componente cuantitativo que documenta la calidad de un conjunto de datos
-  language_code: spa
+  terms:
+  - type: expression
+    designation: elemento de la calidad de datos
+  definition:
+  - content: componente cuantitativo que documenta la calidad de un conjunto de datos
   notes:
-    - >-
-      La aplicabilidad de un elemento de la calidad de datos a un conjunto de
-      datos depende tanto del contenido del conjunto de datos como de su
-      especificación de producto; como resultado, todos los elementos de la
-      calidad de datos pueden no ser aplicables a todos los conjuntos de datos.
+  - content: La aplicabilidad de un elemento de la calidad de datos a un conjunto
+      de datos depende tanto del contenido del conjunto de datos como de su especificación
+      de producto; como resultado, todos los elementos de la calidad de datos pueden
+      no ser aplicables a todos los conjuntos de datos.
   examples: []
+  language_code: spa
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101:2002'
-    clause: '4.9'
-    link: 'https://www.iso.org/standard/26002.html'
-  lineage_source: ''
-  date_accepted: '2002-07-01T00:00:00.000Z'
-  date_amended: '2014-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101:2002
+      clause: '4.9'
+      link: https://www.iso.org/standard/26002.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-11-01T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-1:2014'
-  review_decision_notes: >-
-    The entry has been omitted from the superseding standard  (ISO
+  review_decision_event: Publication of ISO 19101-1:2014
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
     19101-1:2014).
-  release: '-1'
-  terms:
-    - type: expression
-      designation: elemento de la calidad de datos
-      normative_status: null
+  release: "-1"
   _revisions:
     current: 4b5b69
     tree:
       4b5b69:
         object:
           id: 113
-          definition: >-
-            componente cuantitativo que documenta la calidad de un conjunto de
-            datos
+          definition: componente cuantitativo que documenta la calidad de un conjunto
+            de datos
           language_code: spa
           notes:
-            - >-
-              La aplicabilidad de un elemento de la calidad de datos a un
-              conjunto de datos depende tanto del contenido del conjunto de
-              datos como de su especificación de producto; como resultado, todos
-              los elementos de la calidad de datos pueden no ser aplicables a
-              todos los conjuntos de datos.
+          - La aplicabilidad de un elemento de la calidad de datos a un conjunto de
+            datos depende tanto del contenido del conjunto de datos como de su especificación
+            de producto; como resultado, todos los elementos de la calidad de datos
+            pueden no ser aplicables a todos los conjuntos de datos.
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101:2002'
+            ref: ISO 19101:2002
             clause: '4.9'
-            link: 'https://www.iso.org/standard/26002.html'
+            link: https://www.iso.org/standard/26002.html
           lineage_source: ''
           date_accepted: '2002-07-01T00:00:00.000Z'
           date_amended: '2014-11-01T00:00:00.000Z'
@@ -727,15 +755,14 @@ spa:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-1:2014'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19101-1:2014).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: elemento de la calidad de datos
-              normative_status: null
+          - type: expression
+            designation: elemento de la calidad de datos
+            normative_status:
         parents: []
         timeCreated: '2002-07-01T00:00:00.000Z'
         author:
@@ -743,65 +770,66 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 113
-  definition: >-
-    kvantitativ, inneboende egenskap hos en datamängd på vilken krav på
-    datakvalitet kan ställas
+  terms:
+  - type: expression
+    designation: datakvalitetsegenskap
+  definition:
+  - content: kvantitativ, inneboende egenskap hos en datamängd på vilken krav på datakvalitet
+      kan ställas
+  notes:
+  - content: The applicability of a data quality element to a dataset depends on both
+      the dataset's content and its product specification; the result being that all
+      data elements may not be applicable to all datasets.
+  examples: []
   country_code: swe
   language_code: swe
-  notes:
-    - >-
-      The applicability of a data quality element to a dataset depends on both
-      the dataset's content and its product specification; the result being that
-      all data elements may not be applicable to all datasets.
-  examples: []
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101:2002'
-    clause: '4.9'
-    link: 'https://www.iso.org/standard/26002.html'
-  lineage_source: ''
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101:2002
+      clause: '4.9'
+      link: https://www.iso.org/standard/26002.html
+  - type: lineage
+    origin:
+      ref: ''
   lineage_source_similarity: 0
-  date_accepted: '2002-07-01T00:00:00.000Z'
-  date_amended: '2014-11-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2002-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-11-01T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-1:2014'
-  review_decision_notes: >-
-    The entry has been omitted from the superseding standard  (ISO
+  review_decision_event: Publication of ISO 19101-1:2014
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
     19101-1:2014).
-  release: '-1'
-  terms:
-    - type: expression
-      designation: datakvalitetsegenskap
-      normative_status: null
+  release: "-1"
   _revisions:
     current: f49815
     tree:
       f49815:
         object:
           id: 113
-          definition: >-
-            kvantitativ, inneboende egenskap hos en datamängd på vilken krav på
-            datakvalitet kan ställas
+          definition: kvantitativ, inneboende egenskap hos en datamängd på vilken
+            krav på datakvalitet kan ställas
           country_code: swe
           language_code: swe
           notes:
-            - >-
-              The applicability of a data quality element to a dataset depends
-              on both the dataset's content and its product specification; the
-              result being that all data elements may not be applicable to all
-              datasets.
+          - The applicability of a data quality element to a dataset depends on both
+            the dataset's content and its product specification; the result being
+            that all data elements may not be applicable to all datasets.
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101:2002'
+            ref: ISO 19101:2002
             clause: '4.9'
-            link: 'https://www.iso.org/standard/26002.html'
+            link: https://www.iso.org/standard/26002.html
           lineage_source: ''
           lineage_source_similarity: 0
           date_accepted: '2002-07-01T00:00:00.000Z'
@@ -811,15 +839,14 @@ swe:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-1:2014'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19101-1:2014).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: datakvalitetsegenskap
-              normative_status: null
+          - type: expression
+            designation: datakvalitetsegenskap
+            normative_status:
         parents: []
         timeCreated: '2002-07-01T00:00:00.000Z'
         author:

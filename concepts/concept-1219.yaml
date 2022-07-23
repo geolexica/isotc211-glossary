@@ -1,26 +1,31 @@
-term: expected risk
+---
 termid: 1219
+term: expected risk
 eng:
   id: 1219
-  definition: expected value (statistics) of loss
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: expected risk
+  definition:
+  - content: expected value (statistics) of loss
   notes:
-    - >-
-      Expected risk is calculated by multiplying the probability of the types of
-      infringement by the cost of that infringement, summed up over all types of
+  - content: Expected risk is calculated by multiplying the probability of the types
+      of infringement by the cost of that infringement, summed up over all types of
       infringement.
   examples: []
+  language_code: eng
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19153:2014'
-    clause: '4.13'
-    link: 'https://www.iso.org/standard/32571.html'
-  date_accepted: '2014-02-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19153:2014
+      clause: '4.13'
+      link: https://www.iso.org/standard/32571.html
+  dates:
+  - type: accepted
+    date: '2014-02-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: expected risk
-      normative_status: preferred
   _revisions:
     current: d8c2b6
     tree:
@@ -30,22 +35,21 @@ eng:
           definition: expected value (statistics) of loss
           language_code: eng
           notes:
-            - >-
-              Expected risk is calculated by multiplying the probability of the
-              types of infringement by the cost of that infringement, summed up
-              over all types of infringement.
+          - Expected risk is calculated by multiplying the probability of the types
+            of infringement by the cost of that infringement, summed up over all types
+            of infringement.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19153:2014'
+            ref: ISO 19153:2014
             clause: '4.13'
-            link: 'https://www.iso.org/standard/32571.html'
+            link: https://www.iso.org/standard/32571.html
           date_accepted: '2014-02-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: expected risk
-              normative_status: preferred
+          - type: expression
+            designation: expected risk
+            normative_status: preferred
         parents: []
         timeCreated: '2014-02-15T00:00:00.000Z'
         author:
@@ -53,25 +57,29 @@ eng:
           email: glossarist@ribose.com
 kor:
   id: 1219
-  definition: 예정된 가치(통계적) 손실
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 예상 위험
+  definition:
+  - content: 예정된 가치(통계적) 손실
   notes:
-    - >-
-      Expected risk is calculated by multiplying the probability of the types of
-      infringement by the cost of that infringement, summed up over all types of
+  - content: Expected risk is calculated by multiplying the probability of the types
+      of infringement by the cost of that infringement, summed up over all types of
       infringement.
   examples: []
+  language_code: kor
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19153:2014'
-    clause: '4.13'
-    link: 'https://www.iso.org/standard/32571.html'
-  date_accepted: '2014-02-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19153:2014
+      clause: '4.13'
+      link: https://www.iso.org/standard/32571.html
+  dates:
+  - type: accepted
+    date: '2014-02-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: 예상 위험
-      normative_status: preferred
   _revisions:
     current: 3bfa2b
     tree:
@@ -81,22 +89,21 @@ kor:
           definition: 예정된 가치(통계적) 손실
           language_code: kor
           notes:
-            - >-
-              Expected risk is calculated by multiplying the probability of the
-              types of infringement by the cost of that infringement, summed up
-              over all types of infringement.
+          - Expected risk is calculated by multiplying the probability of the types
+            of infringement by the cost of that infringement, summed up over all types
+            of infringement.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19153:2014'
+            ref: ISO 19153:2014
             clause: '4.13'
-            link: 'https://www.iso.org/standard/32571.html'
+            link: https://www.iso.org/standard/32571.html
           date_accepted: '2014-02-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: 예상 위험
-              normative_status: preferred
+          - type: expression
+            designation: 예상 위험
+            normative_status: preferred
         parents: []
         timeCreated: '2014-02-15T00:00:00.000Z'
         author:
@@ -104,25 +111,30 @@ kor:
           email: glossarist@ribose.com
 msa:
   id: 1219
-  language_code: msa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: risiko jangkaan
   notes:
-    - >-
-      Expected risk is calculated by multiplying the probability of the types of
-      infringement by the cost of that infringement, summed up over all types of
+  - content: Expected risk is calculated by multiplying the probability of the types
+      of infringement by the cost of that infringement, summed up over all types of
       infringement.
   examples: []
+  language_code: msa
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19153:2014'
-    clause: '4.13'
-    link: 'https://www.iso.org/standard/32571.html'
-  lineage_source: Pusat Rujukan Persuratan Melayu (DBP)
-  date_accepted: '2014-02-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19153:2014
+      clause: '4.13'
+      link: https://www.iso.org/standard/32571.html
+  - type: lineage
+    origin:
+      ref: Pusat Rujukan Persuratan Melayu (DBP)
+  dates:
+  - type: accepted
+    date: '2014-02-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: risiko jangkaan
-      normative_status: preferred
   _revisions:
     current: c122a9
     tree:
@@ -131,23 +143,22 @@ msa:
           id: 1219
           language_code: msa
           notes:
-            - >-
-              Expected risk is calculated by multiplying the probability of the
-              types of infringement by the cost of that infringement, summed up
-              over all types of infringement.
+          - Expected risk is calculated by multiplying the probability of the types
+            of infringement by the cost of that infringement, summed up over all types
+            of infringement.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19153:2014'
+            ref: ISO 19153:2014
             clause: '4.13'
-            link: 'https://www.iso.org/standard/32571.html'
+            link: https://www.iso.org/standard/32571.html
           lineage_source: Pusat Rujukan Persuratan Melayu (DBP)
           date_accepted: '2014-02-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: risiko jangkaan
-              normative_status: preferred
+          - type: expression
+            designation: risiko jangkaan
+            normative_status: preferred
         parents: []
         timeCreated: '2014-02-15T00:00:00.000Z'
         author:
@@ -155,26 +166,31 @@ msa:
           email: glossarist@ribose.com
 rus:
   id: 1219
-  definition: ожидаемая величина (статистика) потерь
-  language_code: rus
-  notes:
-    - >-
-      Ожидаемый риск рассчитывается путём умножения вероятности возникновения
-      типов нарушений на стоимость данного нарушения, суммируемого по всем типам
-      нарушений.
-  examples: []
-  entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19153:2014'
-    clause: '4.13'
-    link: 'https://www.iso.org/standard/32571.html'
-  lineage_source: 'перевод ИСО 19153:2014'
-  date_accepted: '2014-02-15T00:00:00.000Z'
-  release: '3'
   terms:
-    - type: expression
-      designation: ожидаемый риск
-      normative_status: preferred
+  - type: expression
+    normative_status: preferred
+    designation: ожидаемый риск
+  definition:
+  - content: ожидаемая величина (статистика) потерь
+  notes:
+  - content: Ожидаемый риск рассчитывается путём умножения вероятности возникновения
+      типов нарушений на стоимость данного нарушения, суммируемого по всем типам нарушений.
+  examples: []
+  language_code: rus
+  entry_status: valid
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19153:2014
+      clause: '4.13'
+      link: https://www.iso.org/standard/32571.html
+  - type: lineage
+    origin:
+      ref: перевод ИСО 19153:2014
+  dates:
+  - type: accepted
+    date: '2014-02-15T00:00:00.000Z'
+  release: '3'
   _revisions:
     current: dd6d26
     tree:
@@ -184,23 +200,22 @@ rus:
           definition: ожидаемая величина (статистика) потерь
           language_code: rus
           notes:
-            - >-
-              Ожидаемый риск рассчитывается путём умножения вероятности
-              возникновения типов нарушений на стоимость данного нарушения,
-              суммируемого по всем типам нарушений.
+          - Ожидаемый риск рассчитывается путём умножения вероятности возникновения
+            типов нарушений на стоимость данного нарушения, суммируемого по всем типам
+            нарушений.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19153:2014'
+            ref: ISO 19153:2014
             clause: '4.13'
-            link: 'https://www.iso.org/standard/32571.html'
-          lineage_source: 'перевод ИСО 19153:2014'
+            link: https://www.iso.org/standard/32571.html
+          lineage_source: перевод ИСО 19153:2014
           date_accepted: '2014-02-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: ожидаемый риск
-              normative_status: preferred
+          - type: expression
+            designation: ожидаемый риск
+            normative_status: preferred
         parents: []
         timeCreated: '2014-02-15T00:00:00.000Z'
         author:
@@ -208,25 +223,29 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 1219
-  definition: valor (estadístico) esperado de pérdidas
-  language_code: spa
-  notes:
-    - >-
-      El riesgo esperado se calcula multiplicando la probabilidad de los tipos
-      de vulneración por el coste de esa vulneración, y sumando el total para
-      todos los tipos de vulneración.
-  examples: []
-  entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19153:2014'
-    clause: '4.13'
-    link: 'https://www.iso.org/standard/32571.html'
-  date_accepted: '2014-02-15T00:00:00.000Z'
-  release: '3'
   terms:
-    - type: expression
-      designation: riesgo esperado
-      normative_status: preferred
+  - type: expression
+    normative_status: preferred
+    designation: riesgo esperado
+  definition:
+  - content: valor (estadístico) esperado de pérdidas
+  notes:
+  - content: El riesgo esperado se calcula multiplicando la probabilidad de los tipos
+      de vulneración por el coste de esa vulneración, y sumando el total para todos
+      los tipos de vulneración.
+  examples: []
+  language_code: spa
+  entry_status: valid
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19153:2014
+      clause: '4.13'
+      link: https://www.iso.org/standard/32571.html
+  dates:
+  - type: accepted
+    date: '2014-02-15T00:00:00.000Z'
+  release: '3'
   _revisions:
     current: ac8446
     tree:
@@ -236,22 +255,21 @@ spa:
           definition: valor (estadístico) esperado de pérdidas
           language_code: spa
           notes:
-            - >-
-              El riesgo esperado se calcula multiplicando la probabilidad de los
-              tipos de vulneración por el coste de esa vulneración, y sumando el
-              total para todos los tipos de vulneración.
+          - El riesgo esperado se calcula multiplicando la probabilidad de los tipos
+            de vulneración por el coste de esa vulneración, y sumando el total para
+            todos los tipos de vulneración.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19153:2014'
+            ref: ISO 19153:2014
             clause: '4.13'
-            link: 'https://www.iso.org/standard/32571.html'
+            link: https://www.iso.org/standard/32571.html
           date_accepted: '2014-02-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: riesgo esperado
-              normative_status: preferred
+          - type: expression
+            designation: riesgo esperado
+            normative_status: preferred
         parents: []
         timeCreated: '2014-02-15T00:00:00.000Z'
         author:
