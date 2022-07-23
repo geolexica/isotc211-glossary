@@ -11,55 +11,15 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v3
-      with:
-        token: ${{ github.token }}
-        submodules: true
-
-    - uses: actions/upload-artifact@v3
-      if: startsWith(github.ref, 'refs/tags/v') || github.ref == 'refs/heads/main' || github.ref == 'refs/heads/staging'
-      with:
-        name: package
-        path: |
-          concepts
-          *.meta.yaml
-
-  release:
-    if: startsWith(github.ref, 'refs/tags/v')
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-    - uses: actions/download-artifact@v3
-      with:
-        name: package
-
-    - name: Display structure of downloaded files
-      run: ls -R
-
-    - name: Compress files
-      run: zip -9 -r package.zip ./*
-
-    - name: Upload release
-      id: upload-release-asset
-      uses: softprops/action-gh-release@v1
-      with:
-        body: Automatic release of ${{ github.ref }}
-        files: |
-          package.zip
+  build-release:
+    name: Build and release
+    uses: geolexica/ci/.github/workflows/glossary-build.yml@main
 
   trigger-deploy:
-    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/staging'
-    runs-on: ubuntu-latest
-    steps:
-
-    - name: Trigger dependent repositories
-      uses: peter-evans/repository-dispatch@v1
-      with:
-        token: ${{ secrets.GLOSSARIST_CI_PAT_TOKEN }}
-        repository: geolexica/isotc204.geolexica.org
-        event-type: deploy
-        client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
+    name: Trigger downstream repositories
+    needs: build-release
+    uses: geolexica/ci/.github/workflows/glossary-trigger.yml@main
+    with:
+      repository: geolexica/isotc204.geolexica.org
+    secrets:
+      token: ${{ secrets.GLOSSARIST_CI_PAT_TOKEN }}
