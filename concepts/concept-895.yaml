@@ -1,34 +1,41 @@
-term: subordinate concept
+---
 termid: 895
+term: subordinate concept
 eng:
   id: 895
-  definition: concept which is either a specific concept or a partitive concept
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: subordinate concept
+  - type: expression
+    designation: narrower concept
+  definition:
+  - content: concept which is either a specific concept or a partitive concept
   notes: []
   examples: []
+  language_code: eng
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 1087-1:2000'
-    clause: 3.2.14
-    link: 'https://www.iso.org/standard/20057.html'
-  lineage_source: 'ISO/TS 19104:2008, 4.14'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 1087-1:2000
+      clause: 3.2.14
+      link: https://www.iso.org/standard/20057.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19104:2008, 4.14
   lineage_source_similarity: 1
-  date_accepted: '2008-11-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2008-11-15T00:00:00.000Z'
   review_date: '2013-01-29T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2016-10-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19104:2016'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 1087-1:2000 to ISO 1087-1:2000,
-    3.2.14. Lineage source added as ISO/TS 19104:2008, 4.14
+  review_decision_event: Publication of ISO 19104:2016
+  review_decision_notes: Authoritative reference changed from ISO 1087-1:2000 to ISO
+    1087-1:2000, 3.2.14. Lineage source added as ISO/TS 19104:2008, 4.14
   release: '2'
-  terms:
-    - type: expression
-      designation: subordinate concept
-      normative_status: preferred
-    - designation: narrower concept
-      type: expression
   _revisions:
     current: cbee3c
     tree:
@@ -41,27 +48,27 @@ eng:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 1087-1:2000'
+            ref: ISO 1087-1:2000
             clause: 3.2.14
-            link: 'https://www.iso.org/standard/20057.html'
-          lineage_source: 'ISO/TS 19104:2008, 4.14'
+            link: https://www.iso.org/standard/20057.html
+          lineage_source: ISO/TS 19104:2008, 4.14
           lineage_source_similarity: 1
           date_accepted: '2008-11-15T00:00:00.000Z'
           review_date: '2013-01-29T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2016-10-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19104:2016'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 1087-1:2000 to ISO
-            1087-1:2000, 3.2.14. Lineage source added as ISO/TS 19104:2008, 4.14
+          review_decision_event: Publication of ISO 19104:2016
+          review_decision_notes: Authoritative reference changed from ISO 1087-1:2000
+            to ISO 1087-1:2000, 3.2.14. Lineage source added as ISO/TS 19104:2008,
+            4.14
           release: '2'
           terms:
-            - type: expression
-              designation: subordinate concept
-              normative_status: preferred
-            - designation: narrower concept
-              type: expression
+          - type: expression
+            designation: subordinate concept
+            normative_status: preferred
+          - designation: narrower concept
+            type: expression
         parents: []
         timeCreated: '2008-11-15T00:00:00.000Z'
         author:
@@ -69,33 +76,39 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 895
-  definition: مفهوم إما ان يكون مفهوما محددا أو مفهوما جزئي
-  language_code: ara
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: مفهوم ثانوي
+  - type: expression
+    designation: narrower concept
+  definition:
+  - content: مفهوم إما ان يكون مفهوما محددا أو مفهوما جزئي
   notes: []
   examples: []
+  language_code: ara
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 1087-1:2000'
-    clause: 3.2.14
-    link: 'https://www.iso.org/standard/20057.html'
-  lineage_source: 'ISO/TS 19104:2008, 4.14'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 1087-1:2000
+      clause: 3.2.14
+      link: https://www.iso.org/standard/20057.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19104:2008, 4.14
   lineage_source_similarity: 1
-  date_accepted: '2008-11-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2008-11-15T00:00:00.000Z'
   review_date: '2013-01-29T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2016-10-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19104:2016'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 1087-1:2000 to ISO 1087-1:2000,
-    3.2.14. Lineage source added as ISO/TS 19104:2008, 4.14
+  review_decision_event: Publication of ISO 19104:2016
+  review_decision_notes: Authoritative reference changed from ISO 1087-1:2000 to ISO
+    1087-1:2000, 3.2.14. Lineage source added as ISO/TS 19104:2008, 4.14
   release: '2'
-  terms:
-    - type: expression
-      designation: مفهوم ثانوي
-      normative_status: preferred
-    - designation: narrower concept
-      type: expression
   _revisions:
     current: 852a67
     tree:
@@ -108,27 +121,27 @@ ara:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 1087-1:2000'
+            ref: ISO 1087-1:2000
             clause: 3.2.14
-            link: 'https://www.iso.org/standard/20057.html'
-          lineage_source: 'ISO/TS 19104:2008, 4.14'
+            link: https://www.iso.org/standard/20057.html
+          lineage_source: ISO/TS 19104:2008, 4.14
           lineage_source_similarity: 1
           date_accepted: '2008-11-15T00:00:00.000Z'
           review_date: '2013-01-29T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2016-10-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19104:2016'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 1087-1:2000 to ISO
-            1087-1:2000, 3.2.14. Lineage source added as ISO/TS 19104:2008, 4.14
+          review_decision_event: Publication of ISO 19104:2016
+          review_decision_notes: Authoritative reference changed from ISO 1087-1:2000
+            to ISO 1087-1:2000, 3.2.14. Lineage source added as ISO/TS 19104:2008,
+            4.14
           release: '2'
           terms:
-            - type: expression
-              designation: مفهوم ثانوي
-              normative_status: preferred
-            - designation: narrower concept
-              type: expression
+          - type: expression
+            designation: مفهوم ثانوي
+            normative_status: preferred
+          - designation: narrower concept
+            type: expression
         parents: []
         timeCreated: '2008-11-15T00:00:00.000Z'
         author:
@@ -136,32 +149,37 @@ ara:
           email: glossarist@ribose.com
 deu:
   id: 895
-  language_code: deu
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: untergeordnetes Konzept
+  - type: expression
+    designation: narrower concept
   notes: []
   examples: []
+  language_code: deu
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 1087-1:2000'
-    clause: 3.2.14
-    link: 'https://www.iso.org/standard/20057.html'
-  lineage_source: 'ISO/TS 19104:2008, 4.14'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 1087-1:2000
+      clause: 3.2.14
+      link: https://www.iso.org/standard/20057.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19104:2008, 4.14
   lineage_source_similarity: 1
-  date_accepted: '2008-11-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2008-11-15T00:00:00.000Z'
   review_date: '2013-01-29T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2016-10-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19104:2016'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 1087-1:2000 to ISO 1087-1:2000,
-    3.2.14. Lineage source added as ISO/TS 19104:2008, 4.14
+  review_decision_event: Publication of ISO 19104:2016
+  review_decision_notes: Authoritative reference changed from ISO 1087-1:2000 to ISO
+    1087-1:2000, 3.2.14. Lineage source added as ISO/TS 19104:2008, 4.14
   release: '2'
-  terms:
-    - type: expression
-      designation: untergeordnetes Konzept
-      normative_status: preferred
-    - designation: narrower concept
-      type: expression
   _revisions:
     current: fb66ee
     tree:
@@ -173,27 +191,27 @@ deu:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 1087-1:2000'
+            ref: ISO 1087-1:2000
             clause: 3.2.14
-            link: 'https://www.iso.org/standard/20057.html'
-          lineage_source: 'ISO/TS 19104:2008, 4.14'
+            link: https://www.iso.org/standard/20057.html
+          lineage_source: ISO/TS 19104:2008, 4.14
           lineage_source_similarity: 1
           date_accepted: '2008-11-15T00:00:00.000Z'
           review_date: '2013-01-29T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2016-10-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19104:2016'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 1087-1:2000 to ISO
-            1087-1:2000, 3.2.14. Lineage source added as ISO/TS 19104:2008, 4.14
+          review_decision_event: Publication of ISO 19104:2016
+          review_decision_notes: Authoritative reference changed from ISO 1087-1:2000
+            to ISO 1087-1:2000, 3.2.14. Lineage source added as ISO/TS 19104:2008,
+            4.14
           release: '2'
           terms:
-            - type: expression
-              designation: untergeordnetes Konzept
-              normative_status: preferred
-            - designation: narrower concept
-              type: expression
+          - type: expression
+            designation: untergeordnetes Konzept
+            normative_status: preferred
+          - designation: narrower concept
+            type: expression
         parents: []
         timeCreated: '2008-11-15T00:00:00.000Z'
         author:
@@ -201,33 +219,39 @@ deu:
           email: glossarist@ribose.com
 kor:
   id: 895
-  definition: 부분사적 개념 또는 특정 개념을 뜻하는 개념
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 하위 개념
+  - type: expression
+    designation: narrower concept
+  definition:
+  - content: 부분사적 개념 또는 특정 개념을 뜻하는 개념
   notes: []
   examples: []
+  language_code: kor
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 1087-1:2000'
-    clause: 3.2.14
-    link: 'https://www.iso.org/standard/20057.html'
-  lineage_source: 'ISO/TS 19104:2008, 4.14'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 1087-1:2000
+      clause: 3.2.14
+      link: https://www.iso.org/standard/20057.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19104:2008, 4.14
   lineage_source_similarity: 1
-  date_accepted: '2008-11-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2008-11-15T00:00:00.000Z'
   review_date: '2013-01-29T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2016-10-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19104:2016'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 1087-1:2000 to ISO 1087-1:2000,
-    3.2.14. Lineage source added as ISO/TS 19104:2008, 4.14
+  review_decision_event: Publication of ISO 19104:2016
+  review_decision_notes: Authoritative reference changed from ISO 1087-1:2000 to ISO
+    1087-1:2000, 3.2.14. Lineage source added as ISO/TS 19104:2008, 4.14
   release: '2'
-  terms:
-    - type: expression
-      designation: 하위 개념
-      normative_status: preferred
-    - designation: narrower concept
-      type: expression
   _revisions:
     current: '774848'
     tree:
@@ -240,27 +264,27 @@ kor:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 1087-1:2000'
+            ref: ISO 1087-1:2000
             clause: 3.2.14
-            link: 'https://www.iso.org/standard/20057.html'
-          lineage_source: 'ISO/TS 19104:2008, 4.14'
+            link: https://www.iso.org/standard/20057.html
+          lineage_source: ISO/TS 19104:2008, 4.14
           lineage_source_similarity: 1
           date_accepted: '2008-11-15T00:00:00.000Z'
           review_date: '2013-01-29T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2016-10-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19104:2016'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 1087-1:2000 to ISO
-            1087-1:2000, 3.2.14. Lineage source added as ISO/TS 19104:2008, 4.14
+          review_decision_event: Publication of ISO 19104:2016
+          review_decision_notes: Authoritative reference changed from ISO 1087-1:2000
+            to ISO 1087-1:2000, 3.2.14. Lineage source added as ISO/TS 19104:2008,
+            4.14
           release: '2'
           terms:
-            - type: expression
-              designation: 하위 개념
-              normative_status: preferred
-            - designation: narrower concept
-              type: expression
+          - type: expression
+            designation: 하위 개념
+            normative_status: preferred
+          - designation: narrower concept
+            type: expression
         parents: []
         timeCreated: '2008-11-15T00:00:00.000Z'
         author:
@@ -268,52 +292,57 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 895
-  definition: >-
-    понятие, которое представляет собой либо специфическое понятие, либо
-    частичное понятие
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: подчиненное понятие
+  - type: expression
+    designation: более узкое понятие
+  definition:
+  - content: понятие, которое представляет собой либо специфическое понятие, либо
+      частичное понятие
   notes: []
   examples: []
+  language_code: rus
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 1087-1:2000'
-    link: 'https://www.iso.org/standard/20057.html'
-  lineage_source: 'ISO/TS 19104:2008'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 1087-1:2000
+      link: https://www.iso.org/standard/20057.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19104:2008
   lineage_source_similarity: 1
-  date_accepted: '2008-11-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2008-11-15T00:00:00.000Z'
   release: '2'
-  terms:
-    - type: expression
-      designation: подчиненное понятие
-      normative_status: preferred
-    - designation: более узкое понятие
-      type: expression
   _revisions:
     current: fd125a
     tree:
       fd125a:
         object:
           id: 895
-          definition: >-
-            понятие, которое представляет собой либо специфическое понятие, либо
-            частичное понятие
+          definition: понятие, которое представляет собой либо специфическое понятие,
+            либо частичное понятие
           language_code: rus
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 1087-1:2000'
-            link: 'https://www.iso.org/standard/20057.html'
-          lineage_source: 'ISO/TS 19104:2008'
+            ref: ISO 1087-1:2000
+            link: https://www.iso.org/standard/20057.html
+          lineage_source: ISO/TS 19104:2008
           lineage_source_similarity: 1
           date_accepted: '2008-11-15T00:00:00.000Z'
           release: '2'
           terms:
-            - type: expression
-              designation: подчиненное понятие
-              normative_status: preferred
-            - designation: более узкое понятие
-              type: expression
+          - type: expression
+            designation: подчиненное понятие
+            normative_status: preferred
+          - designation: более узкое понятие
+            type: expression
         parents: []
         timeCreated: '2008-11-15T00:00:00.000Z'
         author:
@@ -321,70 +350,74 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 895
-  definition: >-
-    concepto que corresponde a un concepto específico, o bien a un concepto
-    partitivo
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: concepto subordinado
+  - type: expression
+    designation: concepto restringido
+  definition:
+  - content: concepto que corresponde a un concepto específico, o bien a un concepto
+      partitivo
   notes: []
   examples: []
+  language_code: spa
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 1087-1:2000'
-    clause: 3.2.14
-    link: 'https://www.iso.org/standard/20057.html'
-  lineage_source: 'ISO/TS 19104:2008, 4.14'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 1087-1:2000
+      clause: 3.2.14
+      link: https://www.iso.org/standard/20057.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19104:2008, 4.14
   lineage_source_similarity: 1
-  date_accepted: '2008-11-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2008-11-15T00:00:00.000Z'
   review_date: '2013-01-29T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2016-10-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19104:2016'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 1087-1:2000 to ISO 1087-1:2000,
-    3.2.14. Lineage source added as ISO/TS 19104:2008, 4.14
+  review_decision_event: Publication of ISO 19104:2016
+  review_decision_notes: Authoritative reference changed from ISO 1087-1:2000 to ISO
+    1087-1:2000, 3.2.14. Lineage source added as ISO/TS 19104:2008, 4.14
   release: '2'
-  terms:
-    - type: expression
-      designation: concepto subordinado
-      normative_status: preferred
-    - designation: concepto restringido
-      type: expression
   _revisions:
     current: 98bc3a
     tree:
       98bc3a:
         object:
           id: 895
-          definition: >-
-            concepto que corresponde a un concepto específico, o bien a un
-            concepto partitivo
+          definition: concepto que corresponde a un concepto específico, o bien a
+            un concepto partitivo
           language_code: spa
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 1087-1:2000'
+            ref: ISO 1087-1:2000
             clause: 3.2.14
-            link: 'https://www.iso.org/standard/20057.html'
-          lineage_source: 'ISO/TS 19104:2008, 4.14'
+            link: https://www.iso.org/standard/20057.html
+          lineage_source: ISO/TS 19104:2008, 4.14
           lineage_source_similarity: 1
           date_accepted: '2008-11-15T00:00:00.000Z'
           review_date: '2013-01-29T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2016-10-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19104:2016'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 1087-1:2000 to ISO
-            1087-1:2000, 3.2.14. Lineage source added as ISO/TS 19104:2008, 4.14
+          review_decision_event: Publication of ISO 19104:2016
+          review_decision_notes: Authoritative reference changed from ISO 1087-1:2000
+            to ISO 1087-1:2000, 3.2.14. Lineage source added as ISO/TS 19104:2008,
+            4.14
           release: '2'
           terms:
-            - type: expression
-              designation: concepto subordinado
-              normative_status: preferred
-            - designation: concepto restringido
-              type: expression
+          - type: expression
+            designation: concepto subordinado
+            normative_status: preferred
+          - designation: concepto restringido
+            type: expression
         parents: []
         timeCreated: '2008-11-15T00:00:00.000Z'
         author:
@@ -392,33 +425,39 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 895
-  definition: concept which is either a specific concept or a partitive concept
-  language_code: swe
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: subordinate concept
+  - type: expression
+    designation: narrower concept
+  definition:
+  - content: concept which is either a specific concept or a partitive concept
   notes: []
   examples: []
+  language_code: swe
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 1087-1:2000'
-    clause: 3.2.14
-    link: 'https://www.iso.org/standard/20057.html'
-  lineage_source: 'ISO/TS 19104:2008, 4.14'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 1087-1:2000
+      clause: 3.2.14
+      link: https://www.iso.org/standard/20057.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19104:2008, 4.14
   lineage_source_similarity: 1
-  date_accepted: '2008-11-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2008-11-15T00:00:00.000Z'
   review_date: '2013-01-29T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2016-10-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19104:2016'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 1087-1:2000 to ISO 1087-1:2000,
-    3.2.14. Lineage source added as ISO/TS 19104:2008, 4.14
+  review_decision_event: Publication of ISO 19104:2016
+  review_decision_notes: Authoritative reference changed from ISO 1087-1:2000 to ISO
+    1087-1:2000, 3.2.14. Lineage source added as ISO/TS 19104:2008, 4.14
   release: '2'
-  terms:
-    - type: expression
-      designation: subordinate concept
-      normative_status: preferred
-    - designation: narrower concept
-      type: expression
   _revisions:
     current: 4ae63f
     tree:
@@ -431,27 +470,27 @@ swe:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 1087-1:2000'
+            ref: ISO 1087-1:2000
             clause: 3.2.14
-            link: 'https://www.iso.org/standard/20057.html'
-          lineage_source: 'ISO/TS 19104:2008, 4.14'
+            link: https://www.iso.org/standard/20057.html
+          lineage_source: ISO/TS 19104:2008, 4.14
           lineage_source_similarity: 1
           date_accepted: '2008-11-15T00:00:00.000Z'
           review_date: '2013-01-29T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2016-10-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19104:2016'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 1087-1:2000 to ISO
-            1087-1:2000, 3.2.14. Lineage source added as ISO/TS 19104:2008, 4.14
+          review_decision_event: Publication of ISO 19104:2016
+          review_decision_notes: Authoritative reference changed from ISO 1087-1:2000
+            to ISO 1087-1:2000, 3.2.14. Lineage source added as ISO/TS 19104:2008,
+            4.14
           release: '2'
           terms:
-            - type: expression
-              designation: subordinate concept
-              normative_status: preferred
-            - designation: narrower concept
-              type: expression
+          - type: expression
+            designation: subordinate concept
+            normative_status: preferred
+          - designation: narrower concept
+            type: expression
         parents: []
         timeCreated: '2008-11-15T00:00:00.000Z'
         author:

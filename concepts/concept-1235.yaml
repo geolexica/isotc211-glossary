@@ -1,26 +1,34 @@
-term: licensee
+---
 termid: 1235
+term: licensee
 eng:
   id: 1235
-  definition: one to whom a licence is given
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: licensee
+  definition:
+  - content: one to whom a licence is given
   notes: []
   examples: []
+  language_code: eng
   entry_status: valid
-  authoritative_source:
-    ref: FindLaw
-  lineage_source: 'ISO 19153:2014, 4.29'
+  sources:
+  - type: authoritative
+    origin:
+      ref: FindLaw
+  - type: lineage
+    origin:
+      ref: ISO 19153:2014, 4.29
   lineage_source_similarity: '1'
-  date_accepted: '2014-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2014-02-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: licensee
-      normative_status: preferred
   _revisions:
-    current: 0018e1
+    current: '0018e1'
     tree:
-      0018e1:
+      '0018e1':
         object:
           id: 1235
           definition: one to whom a licence is given
@@ -30,14 +38,14 @@ eng:
           entry_status: valid
           authoritative_source:
             ref: FindLaw
-          lineage_source: 'ISO 19153:2014, 4.29'
+          lineage_source: ISO 19153:2014, 4.29
           lineage_source_similarity: '1'
           date_accepted: '2014-02-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: licensee
-              normative_status: preferred
+          - type: expression
+            designation: licensee
+            normative_status: preferred
         parents: []
         timeCreated: '2014-02-15T00:00:00.000Z'
         author:
@@ -45,21 +53,28 @@ eng:
           email: glossarist@ribose.com
 kor:
   id: 1235
-  definition: 허가증을 수령한 자
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 사업자, 라이선시, 실사권자
+  definition:
+  - content: 허가증을 수령한 자
   notes: []
   examples: []
+  language_code: kor
   entry_status: valid
-  authoritative_source:
-    ref: FindLaw
-  lineage_source: 'ISO 19153:2014, 4.29'
+  sources:
+  - type: authoritative
+    origin:
+      ref: FindLaw
+  - type: lineage
+    origin:
+      ref: ISO 19153:2014, 4.29
   lineage_source_similarity: '1'
-  date_accepted: '2014-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2014-02-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: '사업자, 라이선시, 실사권자'
-      normative_status: preferred
   _revisions:
     current: 9c0032
     tree:
@@ -73,14 +88,14 @@ kor:
           entry_status: valid
           authoritative_source:
             ref: FindLaw
-          lineage_source: 'ISO 19153:2014, 4.29'
+          lineage_source: ISO 19153:2014, 4.29
           lineage_source_similarity: '1'
           date_accepted: '2014-02-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: '사업자, 라이선시, 실사권자'
-              normative_status: preferred
+          - type: expression
+            designation: 사업자, 라이선시, 실사권자
+            normative_status: preferred
         parents: []
         timeCreated: '2014-02-15T00:00:00.000Z'
         author:
@@ -88,19 +103,25 @@ kor:
           email: glossarist@ribose.com
 msa:
   id: 1235
-  language_code: msa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: pemegang lesen
   notes: []
   examples: []
+  language_code: msa
   entry_status: valid
-  authoritative_source:
-    ref: FindLaw
-  lineage_source: Pusat Rujukan Persuratan Melayu (DBP)
-  date_accepted: '2014-02-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: FindLaw
+  - type: lineage
+    origin:
+      ref: Pusat Rujukan Persuratan Melayu (DBP)
+  dates:
+  - type: accepted
+    date: '2014-02-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: pemegang lesen
-      normative_status: preferred
   _revisions:
     current: 8d66fc
     tree:
@@ -117,9 +138,9 @@ msa:
           date_accepted: '2014-02-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: pemegang lesen
-              normative_status: preferred
+          - type: expression
+            designation: pemegang lesen
+            normative_status: preferred
         parents: []
         timeCreated: '2014-02-15T00:00:00.000Z'
         author:
@@ -127,42 +148,49 @@ msa:
           email: glossarist@ribose.com
 rus:
   id: 1235
-  definition: 'тот, кому выдается лицензия'
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: лицензиат
+  definition:
+  - content: тот, кому выдается лицензия
   notes: []
   examples: []
+  language_code: rus
   entry_status: valid
-  authoritative_source:
-    ref: FindLaw
-  lineage_source: 'ISO 19153:2014, 4.29'
+  sources:
+  - type: authoritative
+    origin:
+      ref: FindLaw
+  - type: lineage
+    origin:
+      ref: ISO 19153:2014, 4.29
   lineage_source_similarity: '1'
-  date_accepted: '2014-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2014-02-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: лицензиат
-      normative_status: preferred
   _revisions:
     current: 1603f4
     tree:
       1603f4:
         object:
           id: 1235
-          definition: 'тот, кому выдается лицензия'
+          definition: тот, кому выдается лицензия
           language_code: rus
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
             ref: FindLaw
-          lineage_source: 'ISO 19153:2014, 4.29'
+          lineage_source: ISO 19153:2014, 4.29
           lineage_source_similarity: '1'
           date_accepted: '2014-02-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: лицензиат
-              normative_status: preferred
+          - type: expression
+            designation: лицензиат
+            normative_status: preferred
         parents: []
         timeCreated: '2014-02-15T00:00:00.000Z'
         author:
@@ -170,21 +198,28 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 1235
-  definition: titular al que se ha concedido una licencia
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: titular de la licencia
+  definition:
+  - content: titular al que se ha concedido una licencia
   notes: []
   examples: []
+  language_code: spa
   entry_status: valid
-  authoritative_source:
-    ref: FindLaw
-  lineage_source: 'ISO 19153:2014, 4.29'
+  sources:
+  - type: authoritative
+    origin:
+      ref: FindLaw
+  - type: lineage
+    origin:
+      ref: ISO 19153:2014, 4.29
   lineage_source_similarity: '1'
-  date_accepted: '2014-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2014-02-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: titular de la licencia
-      normative_status: preferred
   _revisions:
     current: abcfb9
     tree:
@@ -198,14 +233,14 @@ spa:
           entry_status: valid
           authoritative_source:
             ref: FindLaw
-          lineage_source: 'ISO 19153:2014, 4.29'
+          lineage_source: ISO 19153:2014, 4.29
           lineage_source_similarity: '1'
           date_accepted: '2014-02-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: titular de la licencia
-              normative_status: preferred
+          - type: expression
+            designation: titular de la licencia
+            normative_status: preferred
         parents: []
         timeCreated: '2014-02-15T00:00:00.000Z'
         author:

@@ -1,67 +1,68 @@
-term: signature
+---
 termid: 2185
+term: signature
 eng:
   id: 2185
-  definition: >-
-    text string that specifies the name and parameters required to invoke an
-    operation
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: signature
+  definition:
+  - content: text string that specifies the name and parameters required to invoke
+      an operation
   notes:
-    - >-
-      It may contain optional returned parameters. This signature is usually
-      derived from the formal definition. This is the equivalent of the UML
-      signature.
+  - content: It may contain optional returned parameters. This signature is usually
+      derived from the formal definition. This is the equivalent of the UML signature.
   examples: []
+  language_code: eng
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19110:2016'
-    clause: '3.9'
-    link: 'https://www.iso.org/standard/57303.html'
-  date_accepted: '2016-12-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19110:2016
+      clause: '3.9'
+      link: https://www.iso.org/standard/57303.html
+  dates:
+  - type: accepted
+    date: '2016-12-01T00:00:00.000Z'
   review_date: '2013-01-26T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2016-12-01T00:00:00.000Z'
   review_decision_event: Normal ISO processing
-  review_decision_notes: 'Publication of document ISO 19110:2016(E)'
+  review_decision_notes: Publication of document ISO 19110:2016(E)
   release: '4'
-  terms:
-    - type: expression
-      designation: signature
-      normative_status: preferred
   _revisions:
     current: 07b8bc
     tree:
       07b8bc:
         object:
           id: 2185
-          definition: >-
-            text string that specifies the name and parameters required to
-            invoke an operation
+          definition: text string that specifies the name and parameters required
+            to invoke an operation
           language_code: eng
           notes:
-            - >-
-              It may contain optional returned parameters. This signature is
-              usually derived from the formal definition. This is the equivalent
-              of the UML signature.
+          - It may contain optional returned parameters. This signature is usually
+            derived from the formal definition. This is the equivalent of the UML
+            signature.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19110:2016'
+            ref: ISO 19110:2016
             clause: '3.9'
-            link: 'https://www.iso.org/standard/57303.html'
+            link: https://www.iso.org/standard/57303.html
           date_accepted: '2016-12-01T00:00:00.000Z'
           review_date: '2013-01-26T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2016-12-01T00:00:00.000Z'
           review_decision_event: Normal ISO processing
-          review_decision_notes: 'Publication of document ISO 19110:2016(E)'
+          review_decision_notes: Publication of document ISO 19110:2016(E)
           release: '4'
           terms:
-            - type: expression
-              designation: signature
-              normative_status: preferred
+          - type: expression
+            designation: signature
+            normative_status: preferred
         parents: []
         timeCreated: '2016-12-01T00:00:00.000Z'
         author:
@@ -69,66 +70,65 @@ eng:
           email: glossarist@ribose.com
 spa:
   id: 2185
-  definition: >-
-    cadena de texto que especifica el nombre y los parámetros requeridos para
-    invocar una operación
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: signatura
+  definition:
+  - content: cadena de texto que especifica el nombre y los parámetros requeridos
+      para invocar una operación
   notes:
-    - >-
-      Puede contener parámetros opcionales de retorno. Esta signatura
-      normalmente se deriva de la definición formal. Es el equivalente a una
-      firma UML.
+  - content: Puede contener parámetros opcionales de retorno. Esta signatura normalmente
+      se deriva de la definición formal. Es el equivalente a una firma UML.
   examples: []
+  language_code: spa
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19110:2016'
-    clause: '3.9'
-    link: 'https://www.iso.org/standard/57303.html'
-  date_accepted: '2016-12-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19110:2016
+      clause: '3.9'
+      link: https://www.iso.org/standard/57303.html
+  dates:
+  - type: accepted
+    date: '2016-12-01T00:00:00.000Z'
   review_date: '2013-01-26T00:00:00.000Z'
   review_status: final
   review_decision: ''
   review_decision_date: '2016-12-01T00:00:00.000Z'
   review_decision_event: Normal ISO processing
-  review_decision_notes: 'Publication of document ISO 19110:2016(E)'
+  review_decision_notes: Publication of document ISO 19110:2016(E)
   release: '4'
-  terms:
-    - type: expression
-      designation: signatura
-      normative_status: preferred
   _revisions:
     current: 4af868
     tree:
       4af868:
         object:
           id: 2185
-          definition: >-
-            cadena de texto que especifica el nombre y los parámetros requeridos
+          definition: cadena de texto que especifica el nombre y los parámetros requeridos
             para invocar una operación
           language_code: spa
           notes:
-            - >-
-              Puede contener parámetros opcionales de retorno. Esta signatura
-              normalmente se deriva de la definición formal. Es el equivalente a
-              una firma UML.
+          - Puede contener parámetros opcionales de retorno. Esta signatura normalmente
+            se deriva de la definición formal. Es el equivalente a una firma UML.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19110:2016'
+            ref: ISO 19110:2016
             clause: '3.9'
-            link: 'https://www.iso.org/standard/57303.html'
+            link: https://www.iso.org/standard/57303.html
           date_accepted: '2016-12-01T00:00:00.000Z'
           review_date: '2013-01-26T00:00:00.000Z'
           review_status: final
           review_decision: ''
           review_decision_date: '2016-12-01T00:00:00.000Z'
           review_decision_event: Normal ISO processing
-          review_decision_notes: 'Publication of document ISO 19110:2016(E)'
+          review_decision_notes: Publication of document ISO 19110:2016(E)
           release: '4'
           terms:
-            - type: expression
-              designation: signatura
-              normative_status: preferred
+          - type: expression
+            designation: signatura
+            normative_status: preferred
         parents: []
         timeCreated: '2016-12-01T00:00:00.000Z'
         author:

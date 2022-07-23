@@ -1,26 +1,32 @@
-term: Place Identifier
+---
 termid: 1337
+term: PI
 eng:
   id: 1337
-  abbrev: PI
-  definition: reference that identifies a place
-  language_code: eng
+  terms:
+  - type: abbreviation
+    designation: PI
+  - type: expression
+    normative_status: preferred
+    designation: Place Identifier
+  definition:
+  - content: reference that identifies a place
   notes:
-    - >-
-      The same place may be referenced by multiple Place Identifier instances.
+  - content: The same place may be referenced by multiple Place Identifier instances.
       Each instance will be associated with a different reference system.
   examples: []
+  language_code: eng
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19155:2012'
-    clause: '4.9'
-    link: 'https://www.iso.org/standard/32573.html'
-  date_accepted: '2012-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19155:2012
+      clause: '4.9'
+      link: https://www.iso.org/standard/32573.html
+  dates:
+  - type: accepted
+    date: '2012-11-01T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: Place Identifier
-      normative_status: preferred
   _revisions:
     current: 05cbea
     tree:
@@ -31,22 +37,20 @@ eng:
           definition: reference that identifies a place
           language_code: eng
           notes:
-            - >-
-              The same place may be referenced by multiple Place Identifier
-              instances. Each instance will be associated with a different
-              reference system.
+          - The same place may be referenced by multiple Place Identifier instances.
+            Each instance will be associated with a different reference system.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19155:2012'
+            ref: ISO 19155:2012
             clause: '4.9'
-            link: 'https://www.iso.org/standard/32573.html'
+            link: https://www.iso.org/standard/32573.html
           date_accepted: '2012-11-01T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: Place Identifier
-              normative_status: preferred
+          - type: expression
+            designation: Place Identifier
+            normative_status: preferred
         parents: []
         timeCreated: '2012-11-01T00:00:00.000Z'
         author:
@@ -54,24 +58,28 @@ eng:
           email: glossarist@ribose.com
 kor:
   id: 1337
-  definition: 공간을 식별하는 참조
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 장소 식별자
+  definition:
+  - content: 공간을 식별하는 참조
   notes:
-    - >-
-      The same place may be referenced by multiple Place Identifier instances.
+  - content: The same place may be referenced by multiple Place Identifier instances.
       Each instance will be associated with a different reference system.
   examples: []
+  language_code: kor
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19155:2012'
-    clause: '4.9'
-    link: 'https://www.iso.org/standard/32573.html'
-  date_accepted: '2012-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19155:2012
+      clause: '4.9'
+      link: https://www.iso.org/standard/32573.html
+  dates:
+  - type: accepted
+    date: '2012-11-01T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: 장소 식별자
-      normative_status: preferred
   _revisions:
     current: 45a425
     tree:
@@ -81,22 +89,20 @@ kor:
           definition: 공간을 식별하는 참조
           language_code: kor
           notes:
-            - >-
-              The same place may be referenced by multiple Place Identifier
-              instances. Each instance will be associated with a different
-              reference system.
+          - The same place may be referenced by multiple Place Identifier instances.
+            Each instance will be associated with a different reference system.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19155:2012'
+            ref: ISO 19155:2012
             clause: '4.9'
-            link: 'https://www.iso.org/standard/32573.html'
+            link: https://www.iso.org/standard/32573.html
           date_accepted: '2012-11-01T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: 장소 식별자
-              normative_status: preferred
+          - type: expression
+            designation: 장소 식별자
+            normative_status: preferred
         parents: []
         timeCreated: '2012-11-01T00:00:00.000Z'
         author:
@@ -104,27 +110,33 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 1337
-  abbrev: PI
-  definition: 'Ссылка, которая идентифицирует место'
-  language_code: rus
-  notes:
-    - >-
-      на одно и то же место могут ссылаться несколько экземпляров
-      Идентификаторов Места. Каждый экземпляр будет связан с другой системы
-      отсчета
-  examples: []
-  entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19155:2012'
-    clause: '4.9'
-    link: 'https://www.iso.org/standard/32573.html'
-  lineage_source: 'ISO 19155:2012'
-  date_accepted: '2012-11-01T00:00:00.000Z'
-  release: '3'
   terms:
-    - type: expression
-      designation: Идентификатор Места
-      normative_status: preferred
+  - type: abbreviation
+    designation: PI
+  - type: expression
+    normative_status: preferred
+    designation: Идентификатор Места
+  definition:
+  - content: Ссылка, которая идентифицирует место
+  notes:
+  - content: на одно и то же место могут ссылаться несколько экземпляров Идентификаторов
+      Места. Каждый экземпляр будет связан с другой системы отсчета
+  examples: []
+  language_code: rus
+  entry_status: valid
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19155:2012
+      clause: '4.9'
+      link: https://www.iso.org/standard/32573.html
+  - type: lineage
+    origin:
+      ref: ISO 19155:2012
+  dates:
+  - type: accepted
+    date: '2012-11-01T00:00:00.000Z'
+  release: '3'
   _revisions:
     current: bc8d7b
     tree:
@@ -132,26 +144,24 @@ rus:
         object:
           id: 1337
           abbrev: PI
-          definition: 'Ссылка, которая идентифицирует место'
+          definition: Ссылка, которая идентифицирует место
           language_code: rus
           notes:
-            - >-
-              на одно и то же место могут ссылаться несколько экземпляров
-              Идентификаторов Места. Каждый экземпляр будет связан с другой
-              системы отсчета
+          - на одно и то же место могут ссылаться несколько экземпляров Идентификаторов
+            Места. Каждый экземпляр будет связан с другой системы отсчета
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19155:2012'
+            ref: ISO 19155:2012
             clause: '4.9'
-            link: 'https://www.iso.org/standard/32573.html'
-          lineage_source: 'ISO 19155:2012'
+            link: https://www.iso.org/standard/32573.html
+          lineage_source: ISO 19155:2012
           date_accepted: '2012-11-01T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: Идентификатор Места
-              normative_status: preferred
+          - type: expression
+            designation: Идентификатор Места
+            normative_status: preferred
         parents: []
         timeCreated: '2012-11-01T00:00:00.000Z'
         author:
@@ -159,26 +169,30 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 1337
-  abbrev: PI
-  definition: referencia que identifica un lugar
-  language_code: spa
-  notes:
-    - >-
-      El mismo lugar se puede referenciar por múltiples instancias de
-      identificador de lugar. Cada instancia estará asociado con un sistema de
-      referencia diferente.
-  examples: []
-  entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19155:2012'
-    clause: '4.9'
-    link: 'https://www.iso.org/standard/32573.html'
-  date_accepted: '2012-11-01T00:00:00.000Z'
-  release: '3'
   terms:
-    - type: expression
-      designation: identificador de lugar
-      normative_status: preferred
+  - type: abbreviation
+    designation: PI
+  - type: expression
+    normative_status: preferred
+    designation: identificador de lugar
+  definition:
+  - content: referencia que identifica un lugar
+  notes:
+  - content: El mismo lugar se puede referenciar por múltiples instancias de identificador
+      de lugar. Cada instancia estará asociado con un sistema de referencia diferente.
+  examples: []
+  language_code: spa
+  entry_status: valid
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19155:2012
+      clause: '4.9'
+      link: https://www.iso.org/standard/32573.html
+  dates:
+  - type: accepted
+    date: '2012-11-01T00:00:00.000Z'
+  release: '3'
   _revisions:
     current: 0a98b0
     tree:
@@ -189,22 +203,21 @@ spa:
           definition: referencia que identifica un lugar
           language_code: spa
           notes:
-            - >-
-              El mismo lugar se puede referenciar por múltiples instancias de
-              identificador de lugar. Cada instancia estará asociado con un
-              sistema de referencia diferente.
+          - El mismo lugar se puede referenciar por múltiples instancias de identificador
+            de lugar. Cada instancia estará asociado con un sistema de referencia
+            diferente.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19155:2012'
+            ref: ISO 19155:2012
             clause: '4.9'
-            link: 'https://www.iso.org/standard/32573.html'
+            link: https://www.iso.org/standard/32573.html
           date_accepted: '2012-11-01T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: identificador de lugar
-              normative_status: preferred
+          - type: expression
+            designation: identificador de lugar
+            normative_status: preferred
         parents: []
         timeCreated: '2012-11-01T00:00:00.000Z'
         author:
@@ -212,27 +225,34 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 1337
-  abbrev: PI
-  definition: referens för identifiering av en plats
-  country_code: swe
-  language_code: swe
+  terms:
+  - type: abbreviation
+    designation: PI
+  - type: expression
+    normative_status: preferred
+    designation: PI-referens
+  definition:
+  - content: referens för identifiering av en plats
   notes:
-    - >-
-      The same place may be referenced by multiple Place Identifier instances.
+  - content: The same place may be referenced by multiple Place Identifier instances.
       Each instance will be associated with a different reference system.
   examples: []
+  country_code: swe
+  language_code: swe
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19155:2012'
-    clause: '4.9'
-    link: 'https://www.iso.org/standard/32573.html'
-  lineage_source: (Type reference to national language document)
-  date_accepted: '2012-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19155:2012
+      clause: '4.9'
+      link: https://www.iso.org/standard/32573.html
+  - type: lineage
+    origin:
+      ref: "(Type reference to national language document)"
+  dates:
+  - type: accepted
+    date: '2012-11-01T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: PI-referens
-      normative_status: preferred
   _revisions:
     current: 5ddad9
     tree:
@@ -244,23 +264,21 @@ swe:
           country_code: swe
           language_code: swe
           notes:
-            - >-
-              The same place may be referenced by multiple Place Identifier
-              instances. Each instance will be associated with a different
-              reference system.
+          - The same place may be referenced by multiple Place Identifier instances.
+            Each instance will be associated with a different reference system.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19155:2012'
+            ref: ISO 19155:2012
             clause: '4.9'
-            link: 'https://www.iso.org/standard/32573.html'
-          lineage_source: (Type reference to national language document)
+            link: https://www.iso.org/standard/32573.html
+          lineage_source: "(Type reference to national language document)"
           date_accepted: '2012-11-01T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: PI-referens
-              normative_status: preferred
+          - type: expression
+            designation: PI-referens
+            normative_status: preferred
         parents: []
         timeCreated: '2012-11-01T00:00:00.000Z'
         author:

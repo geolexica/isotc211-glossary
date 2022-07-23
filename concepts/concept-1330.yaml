@@ -1,24 +1,32 @@
-term: customer
+---
 termid: 1330
+term: customer
 eng:
   id: 1330
-  definition: organization or person that receives a product
-  language_code: eng
-  notes:
-    - The customer can be internal or external to the supplier organisation.
-  examples: []
-  entry_status: valid
-  authoritative_source:
-    ref: 'ISO 9000:2005'
-    link: 'https://www.iso.org/standard/42180.html'
-  lineage_source: 'ISO/TS 19158:2012, 4.1'
-  lineage_source_similarity: 1
-  date_accepted: '2012-10-15T00:00:00.000Z'
-  release: '3'
   terms:
-    - type: expression
-      designation: customer
-      normative_status: preferred
+  - type: expression
+    normative_status: preferred
+    designation: customer
+  definition:
+  - content: organization or person that receives a product
+  notes:
+  - content: The customer can be internal or external to the supplier organisation.
+  examples: []
+  language_code: eng
+  entry_status: valid
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 9000:2005
+      link: https://www.iso.org/standard/42180.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19158:2012, 4.1
+  lineage_source_similarity: 1
+  dates:
+  - type: accepted
+    date: '2012-10-15T00:00:00.000Z'
+  release: '3'
   _revisions:
     current: 51145d
     tree:
@@ -28,22 +36,20 @@ eng:
           definition: organization or person that receives a product
           language_code: eng
           notes:
-            - >-
-              The customer can be internal or external to the supplier
-              organisation.
+          - The customer can be internal or external to the supplier organisation.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 9000:2005'
-            link: 'https://www.iso.org/standard/42180.html'
-          lineage_source: 'ISO/TS 19158:2012, 4.1'
+            ref: ISO 9000:2005
+            link: https://www.iso.org/standard/42180.html
+          lineage_source: ISO/TS 19158:2012, 4.1
           lineage_source_similarity: 1
           date_accepted: '2012-10-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: customer
-              normative_status: preferred
+          - type: expression
+            designation: customer
+            normative_status: preferred
         parents: []
         timeCreated: '2012-10-15T00:00:00.000Z'
         author:
@@ -51,23 +57,30 @@ eng:
           email: glossarist@ribose.com
 kor:
   id: 1330
-  definition: 제품을 수령하는 기관 또는 개인
-  language_code: kor
-  notes:
-    - The customer can be internal or external to the supplier organisation.
-  examples: []
-  entry_status: valid
-  authoritative_source:
-    ref: 'ISO 9000:2005'
-    link: 'https://www.iso.org/standard/42180.html'
-  lineage_source: 'ISO/TS 19158:2012, 4.1'
-  lineage_source_similarity: 1
-  date_accepted: '2012-10-15T00:00:00.000Z'
-  release: '3'
   terms:
-    - type: expression
-      designation: 고객
-      normative_status: preferred
+  - type: expression
+    normative_status: preferred
+    designation: 고객
+  definition:
+  - content: 제품을 수령하는 기관 또는 개인
+  notes:
+  - content: The customer can be internal or external to the supplier organisation.
+  examples: []
+  language_code: kor
+  entry_status: valid
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 9000:2005
+      link: https://www.iso.org/standard/42180.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19158:2012, 4.1
+  lineage_source_similarity: 1
+  dates:
+  - type: accepted
+    date: '2012-10-15T00:00:00.000Z'
+  release: '3'
   _revisions:
     current: 6db19f
     tree:
@@ -77,22 +90,20 @@ kor:
           definition: 제품을 수령하는 기관 또는 개인
           language_code: kor
           notes:
-            - >-
-              The customer can be internal or external to the supplier
-              organisation.
+          - The customer can be internal or external to the supplier organisation.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 9000:2005'
-            link: 'https://www.iso.org/standard/42180.html'
-          lineage_source: 'ISO/TS 19158:2012, 4.1'
+            ref: ISO 9000:2005
+            link: https://www.iso.org/standard/42180.html
+          lineage_source: ISO/TS 19158:2012, 4.1
           lineage_source_similarity: 1
           date_accepted: '2012-10-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: 고객
-              normative_status: preferred
+          - type: expression
+            designation: 고객
+            normative_status: preferred
         parents: []
         timeCreated: '2012-10-15T00:00:00.000Z'
         author:
@@ -100,50 +111,55 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 1330
-  definition: 'организация или лицо, которое получает продукт'
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: клиент
+  definition:
+  - content: организация или лицо, которое получает продукт
   notes:
-    - >-
-      Заказчик может быть внутренним или внешним по отношению к организации
+  - content: Заказчик может быть внутренним или внешним по отношению к организации
       поставщика.
   examples: []
+  language_code: rus
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 9000:2005'
-    link: 'https://www.iso.org/standard/42180.html'
-  lineage_source: 'ISO/TS 19158:2012, 4.1'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 9000:2005
+      link: https://www.iso.org/standard/42180.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19158:2012, 4.1
   lineage_source_similarity: 1
-  date_accepted: '2012-10-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2012-10-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: клиент
-      normative_status: preferred
   _revisions:
     current: bd96d7
     tree:
       bd96d7:
         object:
           id: 1330
-          definition: 'организация или лицо, которое получает продукт'
+          definition: организация или лицо, которое получает продукт
           language_code: rus
           notes:
-            - >-
-              Заказчик может быть внутренним или внешним по отношению к
-              организации поставщика.
+          - Заказчик может быть внутренним или внешним по отношению к организации
+            поставщика.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 9000:2005'
-            link: 'https://www.iso.org/standard/42180.html'
-          lineage_source: 'ISO/TS 19158:2012, 4.1'
+            ref: ISO 9000:2005
+            link: https://www.iso.org/standard/42180.html
+          lineage_source: ISO/TS 19158:2012, 4.1
           lineage_source_similarity: 1
           date_accepted: '2012-10-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: клиент
-              normative_status: preferred
+          - type: expression
+            designation: клиент
+            normative_status: preferred
         parents: []
         timeCreated: '2012-10-15T00:00:00.000Z'
         author:
@@ -151,48 +167,53 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 1330
-  definition: organización o persona que recibe un producto
-  language_code: spa
-  notes:
-    - El cliente puede ser interno o externo a la organización suministradora
-  examples: []
-  entry_status: valid
-  authoritative_source:
-    ref: 'ISO 9000:2005'
-    link: 'https://www.iso.org/standard/42180.html'
-  lineage_source: 'ISO/TS 19158:2012, 4.1'
-  lineage_source_similarity: 1
-  date_accepted: '2012-10-15T00:00:00.000Z'
-  release: '3'
   terms:
-    - type: expression
-      designation: cliente
-      normative_status: preferred
+  - type: expression
+    normative_status: preferred
+    designation: cliente
+  definition:
+  - content: organización o persona que recibe un producto
+  notes:
+  - content: El cliente puede ser interno o externo a la organización suministradora
+  examples: []
+  language_code: spa
+  entry_status: valid
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 9000:2005
+      link: https://www.iso.org/standard/42180.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19158:2012, 4.1
+  lineage_source_similarity: 1
+  dates:
+  - type: accepted
+    date: '2012-10-15T00:00:00.000Z'
+  release: '3'
   _revisions:
-    current: '422e65'
+    current: 422e65
     tree:
-      '422e65':
+      422e65:
         object:
           id: 1330
           definition: organización o persona que recibe un producto
           language_code: spa
           notes:
-            - >-
-              El cliente puede ser interno o externo a la organización
-              suministradora
+          - El cliente puede ser interno o externo a la organización suministradora
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 9000:2005'
-            link: 'https://www.iso.org/standard/42180.html'
-          lineage_source: 'ISO/TS 19158:2012, 4.1'
+            ref: ISO 9000:2005
+            link: https://www.iso.org/standard/42180.html
+          lineage_source: ISO/TS 19158:2012, 4.1
           lineage_source_similarity: 1
           date_accepted: '2012-10-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: cliente
-              normative_status: preferred
+          - type: expression
+            designation: cliente
+            normative_status: preferred
         parents: []
         timeCreated: '2012-10-15T00:00:00.000Z'
         author:
@@ -200,24 +221,31 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 1330
-  definition: organisation eller person som är mottagare av produkt
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: kund
+  definition:
+  - content: organisation eller person som är mottagare av produkt
+  notes:
+  - content: The customer can be internal or external to the supplier organisation.
+  examples: []
   country_code: swe
   language_code: swe
-  notes:
-    - The customer can be internal or external to the supplier organisation.
-  examples: []
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 9000:2005'
-    link: 'https://www.iso.org/standard/42180.html'
-  lineage_source: 'ISO/TS 19158:2012, 4.1'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 9000:2005
+      link: https://www.iso.org/standard/42180.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19158:2012, 4.1
   lineage_source_similarity: 1
-  date_accepted: '2012-10-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2012-10-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: kund
-      normative_status: preferred
   _revisions:
     current: c0f8fe
     tree:
@@ -228,22 +256,20 @@ swe:
           country_code: swe
           language_code: swe
           notes:
-            - >-
-              The customer can be internal or external to the supplier
-              organisation.
+          - The customer can be internal or external to the supplier organisation.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 9000:2005'
-            link: 'https://www.iso.org/standard/42180.html'
-          lineage_source: 'ISO/TS 19158:2012, 4.1'
+            ref: ISO 9000:2005
+            link: https://www.iso.org/standard/42180.html
+          lineage_source: ISO/TS 19158:2012, 4.1
           lineage_source_similarity: 1
           date_accepted: '2012-10-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: kund
-              normative_status: preferred
+          - type: expression
+            designation: kund
+            normative_status: preferred
         parents: []
         timeCreated: '2012-10-15T00:00:00.000Z'
         author:

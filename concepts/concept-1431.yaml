@@ -1,49 +1,57 @@
-term: feature instance
+---
 termid: 1431
+term: feature instance
 eng:
   id: 1431
-  definition: individual of a given feature type having specified feature attribute values
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: feature instance
+  definition:
+  - content: individual of a given feature type having specified feature attribute
+      values
   notes: []
   examples: []
+  language_code: eng
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19101-1:2014'
-    clause: 4.1.14
-    link: 'https://www.iso.org/standard/59164.html'
-  lineage_source: 'ISO 19157:2013'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101-1:2014
+      clause: 4.1.14
+      link: https://www.iso.org/standard/59164.html
+  - type: lineage
+    origin:
+      ref: ISO 19157:2013
   lineage_source_similarity: 1
-  date_accepted: '2013-12-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2013-12-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: feature instance
-      normative_status: preferred
   _revisions:
     current: 902d1a
     tree:
       902d1a:
         object:
           id: 1431
-          definition: >-
-            individual of a given feature type having specified feature
+          definition: individual of a given feature type having specified feature
             attribute values
           language_code: eng
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19101-1:2014'
+            ref: ISO 19101-1:2014
             clause: 4.1.14
-            link: 'https://www.iso.org/standard/59164.html'
-          lineage_source: 'ISO 19157:2013'
+            link: https://www.iso.org/standard/59164.html
+          lineage_source: ISO 19157:2013
           lineage_source_similarity: 1
           date_accepted: '2013-12-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: feature instance
-              normative_status: preferred
+          - type: expression
+            designation: feature instance
+            normative_status: preferred
         parents: []
         timeCreated: '2013-12-15T00:00:00.000Z'
         author:
@@ -51,23 +59,30 @@ eng:
           email: glossarist@ribose.com
 kor:
   id: 1431
-  definition: 특정 지형지물 속성값을 가진 개별 지형지물 유형
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 지형지물 인스턴스
+  definition:
+  - content: 특정 지형지물 속성값을 가진 개별 지형지물 유형
   notes: []
   examples: []
+  language_code: kor
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19101-1:2014'
-    clause: 4.1.14
-    link: 'https://www.iso.org/standard/59164.html'
-  lineage_source: 'ISO 19157:2013'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101-1:2014
+      clause: 4.1.14
+      link: https://www.iso.org/standard/59164.html
+  - type: lineage
+    origin:
+      ref: ISO 19157:2013
   lineage_source_similarity: 1
-  date_accepted: '2013-12-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2013-12-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: 지형지물 인스턴스
-      normative_status: preferred
   _revisions:
     current: ceda10
     tree:
@@ -80,17 +95,17 @@ kor:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19101-1:2014'
+            ref: ISO 19101-1:2014
             clause: 4.1.14
-            link: 'https://www.iso.org/standard/59164.html'
-          lineage_source: 'ISO 19157:2013'
+            link: https://www.iso.org/standard/59164.html
+          lineage_source: ISO 19157:2013
           lineage_source_similarity: 1
           date_accepted: '2013-12-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: 지형지물 인스턴스
-              normative_status: preferred
+          - type: expression
+            designation: 지형지물 인스턴스
+            normative_status: preferred
         parents: []
         timeCreated: '2013-12-15T00:00:00.000Z'
         author:
@@ -98,46 +113,54 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 1431
-  definition: 'объект данного типа, имеющий определённые значения атрибутов объекта'
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: экземпляр объекта
+  definition:
+  - content: объект данного типа, имеющий определённые значения атрибутов объекта
   notes: []
   examples: []
+  language_code: rus
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19101-1:2014'
-    clause: 4.1.14
-    link: 'https://www.iso.org/standard/59164.html'
-  lineage_source: 'ГОСТ Р 57773-2017 (ИСО 19157:2013)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101-1:2014
+      clause: 4.1.14
+      link: https://www.iso.org/standard/59164.html
+  - type: lineage
+    origin:
+      ref: ГОСТ Р 57773-2017 (ИСО 19157:2013)
   lineage_source_similarity: 1
-  date_accepted: '2013-12-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2013-12-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: экземпляр объекта
-      normative_status: preferred
   _revisions:
     current: d6e638
     tree:
       d6e638:
         object:
           id: 1431
-          definition: 'объект данного типа, имеющий определённые значения атрибутов объекта'
+          definition: объект данного типа, имеющий определённые значения атрибутов
+            объекта
           language_code: rus
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19101-1:2014'
+            ref: ISO 19101-1:2014
             clause: 4.1.14
-            link: 'https://www.iso.org/standard/59164.html'
-          lineage_source: 'ГОСТ Р 57773-2017 (ИСО 19157:2013)'
+            link: https://www.iso.org/standard/59164.html
+          lineage_source: ГОСТ Р 57773-2017 (ИСО 19157:2013)
           lineage_source_similarity: 1
           date_accepted: '2013-12-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: экземпляр объекта
-              normative_status: preferred
+          - type: expression
+            designation: экземпляр объекта
+            normative_status: preferred
         parents: []
         timeCreated: '2013-12-15T00:00:00.000Z'
         author:
@@ -145,50 +168,55 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 1431
-  definition: >-
-    individuo de un tipo de objeto geográfico que tiene especificados valores de
-    atributos de objeto geográfico
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: instancia de objeto geográfico
+  definition:
+  - content: individuo de un tipo de objeto geográfico que tiene especificados valores
+      de atributos de objeto geográfico
   notes: []
   examples: []
+  language_code: spa
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19101-1:2014'
-    clause: 4.1.14
-    link: 'https://www.iso.org/standard/59164.html'
-  lineage_source: 'ISO 19157:2013'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101-1:2014
+      clause: 4.1.14
+      link: https://www.iso.org/standard/59164.html
+  - type: lineage
+    origin:
+      ref: ISO 19157:2013
   lineage_source_similarity: 1
-  date_accepted: '2013-12-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2013-12-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: instancia de objeto geográfico
-      normative_status: preferred
   _revisions:
     current: f0aae4
     tree:
       f0aae4:
         object:
           id: 1431
-          definition: >-
-            individuo de un tipo de objeto geográfico que tiene especificados
+          definition: individuo de un tipo de objeto geográfico que tiene especificados
             valores de atributos de objeto geográfico
           language_code: spa
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19101-1:2014'
+            ref: ISO 19101-1:2014
             clause: 4.1.14
-            link: 'https://www.iso.org/standard/59164.html'
-          lineage_source: 'ISO 19157:2013'
+            link: https://www.iso.org/standard/59164.html
+          lineage_source: ISO 19157:2013
           lineage_source_similarity: 1
           date_accepted: '2013-12-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: instancia de objeto geográfico
-              normative_status: preferred
+          - type: expression
+            designation: instancia de objeto geográfico
+            normative_status: preferred
         parents: []
         timeCreated: '2013-12-15T00:00:00.000Z'
         author:
@@ -196,48 +224,56 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 1431
-  definition: förekomst av en viss objekttyp vars attribut har tilldelats värden
-  country_code: swe
-  language_code: swe
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: objekt
+  definition:
+  - content: förekomst av en viss objekttyp vars attribut har tilldelats värden
   notes: []
   examples: []
+  country_code: swe
+  language_code: swe
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19101-1:2014'
-    clause: 4.1.14
-    link: 'https://www.iso.org/standard/59164.html'
-  lineage_source: 'ISO 19157:2013'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101-1:2014
+      clause: 4.1.14
+      link: https://www.iso.org/standard/59164.html
+  - type: lineage
+    origin:
+      ref: ISO 19157:2013
   lineage_source_similarity: 1
-  date_accepted: '2013-12-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2013-12-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: objekt
-      normative_status: preferred
   _revisions:
     current: 33a1e3
     tree:
       33a1e3:
         object:
           id: 1431
-          definition: förekomst av en viss objekttyp vars attribut har tilldelats värden
+          definition: förekomst av en viss objekttyp vars attribut har tilldelats
+            värden
           country_code: swe
           language_code: swe
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19101-1:2014'
+            ref: ISO 19101-1:2014
             clause: 4.1.14
-            link: 'https://www.iso.org/standard/59164.html'
-          lineage_source: 'ISO 19157:2013'
+            link: https://www.iso.org/standard/59164.html
+          lineage_source: ISO 19157:2013
           lineage_source_similarity: 1
           date_accepted: '2013-12-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: objekt
-              normative_status: preferred
+          - type: expression
+            designation: objekt
+            normative_status: preferred
         parents: []
         timeCreated: '2013-12-15T00:00:00.000Z'
         author:

@@ -1,47 +1,51 @@
-term: pulse repetition frequency
+---
 termid: 1565
+term: pulse repetition frequency
 eng:
   id: 1565
-  definition: >-
-    number of times the system (e.g LIDAR) emits pulses over a given time
-    period, usually stated in kilohertz (kHz)
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: pulse repetition frequency
+  definition:
+  - content: number of times the system (e.g LIDAR) emits pulses over a given time
+      period, usually stated in kilohertz (kHz)
   notes: []
   examples: []
+  language_code: eng
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO/TS 19130-2:2014'
-    clause: '4.53'
-    link: 'https://www.iso.org/standard/56113.html'
-  date_accepted: '2014-01-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO/TS 19130-2:2014
+      clause: '4.53'
+      link: https://www.iso.org/standard/56113.html
+  dates:
+  - type: accepted
+    date: '2014-01-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: pulse repetition frequency
-      normative_status: preferred
   _revisions:
     current: ad2430
     tree:
       ad2430:
         object:
           id: 1565
-          definition: >-
-            number of times the system (e.g LIDAR) emits pulses over a given
+          definition: number of times the system (e.g LIDAR) emits pulses over a given
             time period, usually stated in kilohertz (kHz)
           language_code: eng
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO/TS 19130-2:2014'
+            ref: ISO/TS 19130-2:2014
             clause: '4.53'
-            link: 'https://www.iso.org/standard/56113.html'
+            link: https://www.iso.org/standard/56113.html
           date_accepted: '2014-01-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: pulse repetition frequency
-              normative_status: preferred
+          - type: expression
+            designation: pulse repetition frequency
+            normative_status: preferred
         parents: []
         timeCreated: '2014-01-15T00:00:00.000Z'
         author:
@@ -49,21 +53,26 @@ eng:
           email: glossarist@ribose.com
 kor:
   id: 1565
-  definition: 일반적으로 킬로헤르츠(kHz)로 표현된 일정시간 동안 시스템이 펄스를 방출하는 횟수(e.g.LIDAR)
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 펄스 반복주파수
+  definition:
+  - content: 일반적으로 킬로헤르츠(kHz)로 표현된 일정시간 동안 시스템이 펄스를 방출하는 횟수(e.g.LIDAR)
   notes: []
   examples: []
+  language_code: kor
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO/TS 19130-2:2014'
-    clause: '4.53'
-    link: 'https://www.iso.org/standard/56113.html'
-  date_accepted: '2014-01-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO/TS 19130-2:2014
+      clause: '4.53'
+      link: https://www.iso.org/standard/56113.html
+  dates:
+  - type: accepted
+    date: '2014-01-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: 펄스 반복주파수
-      normative_status: preferred
   _revisions:
     current: ad20a0
     tree:
@@ -76,15 +85,15 @@ kor:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO/TS 19130-2:2014'
+            ref: ISO/TS 19130-2:2014
             clause: '4.53'
-            link: 'https://www.iso.org/standard/56113.html'
+            link: https://www.iso.org/standard/56113.html
           date_accepted: '2014-01-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: 펄스 반복주파수
-              normative_status: preferred
+          - type: expression
+            designation: 펄스 반복주파수
+            normative_status: preferred
         parents: []
         timeCreated: '2014-01-15T00:00:00.000Z'
         author:
@@ -92,46 +101,52 @@ kor:
           email: glossarist@ribose.com
 msa:
   id: 1565
-  definition: 'Bilangan purata denyut dalam masa seunit. Sinonim: kadar ulangan denyut.'
-  language_code: msa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: frekuensi ulangan denyut
+  definition:
+  - content: 'Bilangan purata denyut dalam masa seunit. Sinonim: kadar ulangan denyut.'
   notes: []
   examples: []
+  language_code: msa
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO/TS 19130-2:2014'
-    clause: '4.53'
-    link: 'https://www.iso.org/standard/56113.html'
-  lineage_source: Pusat Rujukan Persuratan Melayu (DBP)
-  date_accepted: '2014-01-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO/TS 19130-2:2014
+      clause: '4.53'
+      link: https://www.iso.org/standard/56113.html
+  - type: lineage
+    origin:
+      ref: Pusat Rujukan Persuratan Melayu (DBP)
+  dates:
+  - type: accepted
+    date: '2014-01-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: frekuensi ulangan denyut
-      normative_status: preferred
   _revisions:
     current: 7c0adc
     tree:
       7c0adc:
         object:
           id: 1565
-          definition: >-
-            Bilangan purata denyut dalam masa seunit. Sinonim: kadar ulangan
-            denyut.
+          definition: 'Bilangan purata denyut dalam masa seunit. Sinonim: kadar ulangan
+            denyut.'
           language_code: msa
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO/TS 19130-2:2014'
+            ref: ISO/TS 19130-2:2014
             clause: '4.53'
-            link: 'https://www.iso.org/standard/56113.html'
+            link: https://www.iso.org/standard/56113.html
           lineage_source: Pusat Rujukan Persuratan Melayu (DBP)
           date_accepted: '2014-01-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: frekuensi ulangan denyut
-              normative_status: preferred
+          - type: expression
+            designation: frekuensi ulangan denyut
+            normative_status: preferred
         parents: []
         timeCreated: '2014-01-15T00:00:00.000Z'
         author:
@@ -139,48 +154,53 @@ msa:
           email: glossarist@ribose.com
 rus:
   id: 1565
-  definition: >-
-    количество раз, когда система (например, LIDAR) излучает импульсы за
-    определенный период времени, обычно указывается в килогерцах (кГц)
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: частота повторения импульсов
+  definition:
+  - content: количество раз, когда система (например, LIDAR) излучает импульсы за
+      определенный период времени, обычно указывается в килогерцах (кГц)
   notes: []
   examples: []
+  language_code: rus
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO/TS 19130-2:2014'
-    clause: '4.53'
-    link: 'https://www.iso.org/standard/56113.html'
-  lineage_source: 'ISO/TS 19130-2:2014'
-  date_accepted: '2014-01-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO/TS 19130-2:2014
+      clause: '4.53'
+      link: https://www.iso.org/standard/56113.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19130-2:2014
+  dates:
+  - type: accepted
+    date: '2014-01-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: частота повторения импульсов
-      normative_status: preferred
   _revisions:
     current: c71fff
     tree:
       c71fff:
         object:
           id: 1565
-          definition: >-
-            количество раз, когда система (например, LIDAR) излучает импульсы за
-            определенный период времени, обычно указывается в килогерцах (кГц)
+          definition: количество раз, когда система (например, LIDAR) излучает импульсы
+            за определенный период времени, обычно указывается в килогерцах (кГц)
           language_code: rus
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO/TS 19130-2:2014'
+            ref: ISO/TS 19130-2:2014
             clause: '4.53'
-            link: 'https://www.iso.org/standard/56113.html'
-          lineage_source: 'ISO/TS 19130-2:2014'
+            link: https://www.iso.org/standard/56113.html
+          lineage_source: ISO/TS 19130-2:2014
           date_accepted: '2014-01-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: частота повторения импульсов
-              normative_status: preferred
+          - type: expression
+            designation: частота повторения импульсов
+            normative_status: preferred
         parents: []
         timeCreated: '2014-01-15T00:00:00.000Z'
         author:
@@ -188,24 +208,29 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 1565
-  abbrev: PRF
-  definition: >-
-    número de veces que un sistema (p.e. lidar) emite pulsos en un periodo de
-    tiempo dado, normalmente en kilohercios (kHz)
-  language_code: spa
+  terms:
+  - type: abbreviation
+    designation: PRF
+  - type: expression
+    normative_status: preferred
+    designation: frecuencia de repetición de pulsos
+  definition:
+  - content: número de veces que un sistema (p.e. lidar) emite pulsos en un periodo
+      de tiempo dado, normalmente en kilohercios (kHz)
   notes: []
   examples: []
+  language_code: spa
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO/TS 19130-2:2014'
-    clause: '4.53'
-    link: 'https://www.iso.org/standard/56113.html'
-  date_accepted: '2014-01-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO/TS 19130-2:2014
+      clause: '4.53'
+      link: https://www.iso.org/standard/56113.html
+  dates:
+  - type: accepted
+    date: '2014-01-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: frecuencia de repetición de pulsos
-      normative_status: preferred
   _revisions:
     current: 73bd35
     tree:
@@ -213,23 +238,22 @@ spa:
         object:
           id: 1565
           abbrev: PRF
-          definition: >-
-            número de veces que un sistema (p.e. lidar) emite pulsos en un
-            periodo de tiempo dado, normalmente en kilohercios (kHz)
+          definition: número de veces que un sistema (p.e. lidar) emite pulsos en
+            un periodo de tiempo dado, normalmente en kilohercios (kHz)
           language_code: spa
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO/TS 19130-2:2014'
+            ref: ISO/TS 19130-2:2014
             clause: '4.53'
-            link: 'https://www.iso.org/standard/56113.html'
+            link: https://www.iso.org/standard/56113.html
           date_accepted: '2014-01-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: frecuencia de repetición de pulsos
-              normative_status: preferred
+          - type: expression
+            designation: frecuencia de repetición de pulsos
+            normative_status: preferred
         parents: []
         timeCreated: '2014-01-15T00:00:00.000Z'
         author:
@@ -237,46 +261,54 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 1565
-  definition: 'antal utsända pulser per tidsenhet, vanligtvis i enheten Hertz (Hz)'
-  country_code: swe
-  language_code: swe
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: pulsrepetitionsfrekvens
+  definition:
+  - content: antal utsända pulser per tidsenhet, vanligtvis i enheten Hertz (Hz)
   notes: []
   examples: []
+  country_code: swe
+  language_code: swe
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO/TS 19130-2:2014'
-    clause: '4.53'
-    link: 'https://www.iso.org/standard/56113.html'
-  lineage_source: (Type reference to national language document)
-  date_accepted: '2014-01-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO/TS 19130-2:2014
+      clause: '4.53'
+      link: https://www.iso.org/standard/56113.html
+  - type: lineage
+    origin:
+      ref: "(Type reference to national language document)"
+  dates:
+  - type: accepted
+    date: '2014-01-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: pulsrepetitionsfrekvens
-      normative_status: preferred
   _revisions:
     current: 852aca
     tree:
       852aca:
         object:
           id: 1565
-          definition: 'antal utsända pulser per tidsenhet, vanligtvis i enheten Hertz (Hz)'
+          definition: antal utsända pulser per tidsenhet, vanligtvis i enheten Hertz
+            (Hz)
           country_code: swe
           language_code: swe
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO/TS 19130-2:2014'
+            ref: ISO/TS 19130-2:2014
             clause: '4.53'
-            link: 'https://www.iso.org/standard/56113.html'
-          lineage_source: (Type reference to national language document)
+            link: https://www.iso.org/standard/56113.html
+          lineage_source: "(Type reference to national language document)"
           date_accepted: '2014-01-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: pulsrepetitionsfrekvens
-              normative_status: preferred
+          - type: expression
+            designation: pulsrepetitionsfrekvens
+            normative_status: preferred
         parents: []
         timeCreated: '2014-01-15T00:00:00.000Z'
         author:

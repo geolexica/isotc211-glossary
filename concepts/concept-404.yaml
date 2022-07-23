@@ -1,21 +1,27 @@
-term: server
+---
 termid: 404
+term: server
 eng:
   id: 404
-  definition: a particular instance of a service
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: server
+  definition:
+  - content: a particular instance of a service
   notes: []
   examples: []
+  language_code: eng
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19128:2005'
-    link: 'https://www.iso.org/standard/32546.html'
-  date_accepted: '2005-12-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19128:2005
+      link: https://www.iso.org/standard/32546.html
+  dates:
+  - type: accepted
+    date: '2005-12-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: server
-      normative_status: preferred
   _revisions:
     current: d67957
     tree:
@@ -28,14 +34,14 @@ eng:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19128:2005'
-            link: 'https://www.iso.org/standard/32546.html'
+            ref: ISO 19128:2005
+            link: https://www.iso.org/standard/32546.html
           date_accepted: '2005-12-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: server
-              normative_status: preferred
+          - type: expression
+            designation: server
+            normative_status: preferred
         parents: []
         timeCreated: '2005-12-01T00:00:00.000Z'
         author:
@@ -43,20 +49,25 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 404
-  definition: مثال محدد لخدمة
-  language_code: ara
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: خادم
+  definition:
+  - content: مثال محدد لخدمة
   notes: []
   examples: []
+  language_code: ara
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19128:2005'
-    link: 'https://www.iso.org/standard/32546.html'
-  date_accepted: '2005-12-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19128:2005
+      link: https://www.iso.org/standard/32546.html
+  dates:
+  - type: accepted
+    date: '2005-12-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: خادم
-      normative_status: preferred
   _revisions:
     current: 9a550f
     tree:
@@ -69,14 +80,14 @@ ara:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19128:2005'
-            link: 'https://www.iso.org/standard/32546.html'
+            ref: ISO 19128:2005
+            link: https://www.iso.org/standard/32546.html
           date_accepted: '2005-12-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: خادم
-              normative_status: preferred
+          - type: expression
+            designation: خادم
+            normative_status: preferred
         parents: []
         timeCreated: '2005-12-01T00:00:00.000Z'
         author:
@@ -84,19 +95,24 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 404
-  definition: 服务的特定实例。
-  language_code: zho
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 服务器
+  definition:
+  - content: 服务的特定实例。
   notes: []
   examples: []
+  language_code: zho
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19128:2005'
-    link: 'https://www.iso.org/standard/32546.html'
-  date_accepted: '2005-12-01T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: 服务器
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19128:2005
+      link: https://www.iso.org/standard/32546.html
+  dates:
+  - type: accepted
+    date: '2005-12-01T00:00:00.000Z'
   _revisions:
     current: 85861e
     tree:
@@ -109,13 +125,13 @@ zho:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19128:2005'
-            link: 'https://www.iso.org/standard/32546.html'
+            ref: ISO 19128:2005
+            link: https://www.iso.org/standard/32546.html
           date_accepted: '2005-12-01T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: 服务器
-              normative_status: preferred
+          - type: expression
+            designation: 服务器
+            normative_status: preferred
         parents: []
         timeCreated: '2005-12-01T00:00:00.000Z'
         author:
@@ -123,20 +139,27 @@ zho:
           email: glossarist@ribose.com
 fin:
   id: 404
-  definition: palvelun tietty ilmentymä
-  language_code: fin
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: palvelin
+  definition:
+  - content: palvelun tietty ilmentymä
   notes: []
   examples: []
+  language_code: fin
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19128:2005'
-    link: 'https://www.iso.org/standard/32546.html'
-  lineage_source: 'Jaakohuhta, Hannu: Tietotekniikan sanakirja suomi-englanti-suomi, 2007'
-  date_accepted: '2005-12-01T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: palvelin
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19128:2005
+      link: https://www.iso.org/standard/32546.html
+  - type: lineage
+    origin:
+      ref: 'Jaakohuhta, Hannu: Tietotekniikan sanakirja suomi-englanti-suomi, 2007'
+  dates:
+  - type: accepted
+    date: '2005-12-01T00:00:00.000Z'
   _revisions:
     current: b08784
     tree:
@@ -149,16 +172,15 @@ fin:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19128:2005'
-            link: 'https://www.iso.org/standard/32546.html'
-          lineage_source: >-
-            Jaakohuhta, Hannu: Tietotekniikan sanakirja suomi-englanti-suomi,
-            2007
+            ref: ISO 19128:2005
+            link: https://www.iso.org/standard/32546.html
+          lineage_source: 'Jaakohuhta, Hannu: Tietotekniikan sanakirja suomi-englanti-suomi,
+            2007'
           date_accepted: '2005-12-01T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: palvelin
-              normative_status: preferred
+          - type: expression
+            designation: palvelin
+            normative_status: preferred
         parents: []
         timeCreated: '2005-12-01T00:00:00.000Z'
         author:
@@ -166,20 +188,27 @@ fin:
           email: glossarist@ribose.com
 fra:
   id: 404
-  definition: une instance particulière d'un service
-  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: serveur
+  definition:
+  - content: une instance particulière d'un service
   notes: []
   examples: []
+  language_code: fra
   entry_status: valid
-  authoritative_source:
-    ref: ISO 19128
-    link: 'https://www.iso.org/standard/32546.html'
-  lineage_source: ''
-  date_accepted: '2005-12-01T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: serveur
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19128
+      link: https://www.iso.org/standard/32546.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2005-12-01T00:00:00.000Z'
   _revisions:
     current: bf5d31
     tree:
@@ -193,13 +222,13 @@ fra:
           entry_status: valid
           authoritative_source:
             ref: ISO 19128
-            link: 'https://www.iso.org/standard/32546.html'
+            link: https://www.iso.org/standard/32546.html
           lineage_source: ''
           date_accepted: '2005-12-01T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: serveur
-              normative_status: preferred
+          - type: expression
+            designation: serveur
+            normative_status: preferred
         parents: []
         timeCreated: '2005-12-01T00:00:00.000Z'
         author:
@@ -207,20 +236,25 @@ fra:
           email: glossarist@ribose.com
 deu:
   id: 404
-  definition: bestimmte Instanz eines Dienstes
-  language_code: deu
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Server
+  definition:
+  - content: bestimmte Instanz eines Dienstes
   notes: []
   examples: []
+  language_code: deu
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19128:2005'
-    link: 'https://www.iso.org/standard/32546.html'
-  date_accepted: '2005-12-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19128:2005
+      link: https://www.iso.org/standard/32546.html
+  dates:
+  - type: accepted
+    date: '2005-12-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: Server
-      normative_status: preferred
   _revisions:
     current: f79a2d
     tree:
@@ -233,14 +267,14 @@ deu:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19128:2005'
-            link: 'https://www.iso.org/standard/32546.html'
+            ref: ISO 19128:2005
+            link: https://www.iso.org/standard/32546.html
           date_accepted: '2005-12-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: Server
-              normative_status: preferred
+          - type: expression
+            designation: Server
+            normative_status: preferred
         parents: []
         timeCreated: '2005-12-01T00:00:00.000Z'
         author:
@@ -248,21 +282,28 @@ deu:
           email: glossarist@ribose.com
 kor:
   id: 404
-  definition: 서비스의 특정 인스턴스
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 서버
+  definition:
+  - content: 서비스의 특정 인스턴스
   notes: []
   examples: []
+  language_code: kor
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19128:2005'
-    link: 'https://www.iso.org/standard/32546.html'
-  lineage_source: KS X ISO 19128
-  date_accepted: '2009-12-29T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19128:2005
+      link: https://www.iso.org/standard/32546.html
+  - type: lineage
+    origin:
+      ref: KS X ISO 19128
+  dates:
+  - type: accepted
+    date: '2009-12-29T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: 서버
-      normative_status: preferred
   _revisions:
     current: '976814'
     tree:
@@ -275,15 +316,15 @@ kor:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19128:2005'
-            link: 'https://www.iso.org/standard/32546.html'
+            ref: ISO 19128:2005
+            link: https://www.iso.org/standard/32546.html
           lineage_source: KS X ISO 19128
           date_accepted: '2009-12-29T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: 서버
-              normative_status: preferred
+          - type: expression
+            designation: 서버
+            normative_status: preferred
         parents: []
         timeCreated: '2009-12-29T00:00:00.000Z'
         author:
@@ -291,57 +332,60 @@ kor:
           email: glossarist@ribose.com
 msa:
   id: 404
-  definition: >-
-    Atur cara yang menawarkan perkhidmatan daripada komputer pelayan kepada atur
-    cara lain pada komputer pelanggan. Penyambungan antara pelanggan dengan
-    pelayan adalah melalui suatu rangkaian komputer. Penyambungan ini
-    menggunakan protokol yang dapat mengekodkan permintaan pelanggan dan pelayan
-    dapat memberi maklum balas kepada pelanggan. Contoh pelayan ialah pelayan
-    fail, web dan e-mel, iaitu berdasarkan kepada jenis perkhidmatan yang
-    diberikan kepada komputer pelanggan.
-  language_code: msa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: pelayan
+  definition:
+  - content: Atur cara yang menawarkan perkhidmatan daripada komputer pelayan kepada
+      atur cara lain pada komputer pelanggan. Penyambungan antara pelanggan dengan
+      pelayan adalah melalui suatu rangkaian komputer. Penyambungan ini menggunakan
+      protokol yang dapat mengekodkan permintaan pelanggan dan pelayan dapat memberi
+      maklum balas kepada pelanggan. Contoh pelayan ialah pelayan fail, web dan e-mel,
+      iaitu berdasarkan kepada jenis perkhidmatan yang diberikan kepada komputer pelanggan.
   notes: []
   examples: []
+  language_code: msa
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19128:2005'
-    link: 'https://www.iso.org/standard/32546.html'
-  lineage_source: Pusat Rujukan Persuratan Melayu (DBP)
-  date_accepted: '2005-12-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19128:2005
+      link: https://www.iso.org/standard/32546.html
+  - type: lineage
+    origin:
+      ref: Pusat Rujukan Persuratan Melayu (DBP)
+  dates:
+  - type: accepted
+    date: '2005-12-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: pelayan
-      normative_status: preferred
   _revisions:
-    current: 068cef
+    current: '068cef'
     tree:
-      068cef:
+      '068cef':
         object:
           id: 404
-          definition: >-
-            Atur cara yang menawarkan perkhidmatan daripada komputer pelayan
-            kepada atur cara lain pada komputer pelanggan. Penyambungan antara
-            pelanggan dengan pelayan adalah melalui suatu rangkaian komputer.
-            Penyambungan ini menggunakan protokol yang dapat mengekodkan
-            permintaan pelanggan dan pelayan dapat memberi maklum balas kepada
-            pelanggan. Contoh pelayan ialah pelayan fail, web dan e-mel, iaitu
-            berdasarkan kepada jenis perkhidmatan yang diberikan kepada komputer
-            pelanggan.
+          definition: Atur cara yang menawarkan perkhidmatan daripada komputer pelayan
+            kepada atur cara lain pada komputer pelanggan. Penyambungan antara pelanggan
+            dengan pelayan adalah melalui suatu rangkaian komputer. Penyambungan ini
+            menggunakan protokol yang dapat mengekodkan permintaan pelanggan dan pelayan
+            dapat memberi maklum balas kepada pelanggan. Contoh pelayan ialah pelayan
+            fail, web dan e-mel, iaitu berdasarkan kepada jenis perkhidmatan yang
+            diberikan kepada komputer pelanggan.
           language_code: msa
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19128:2005'
-            link: 'https://www.iso.org/standard/32546.html'
+            ref: ISO 19128:2005
+            link: https://www.iso.org/standard/32546.html
           lineage_source: Pusat Rujukan Persuratan Melayu (DBP)
           date_accepted: '2005-12-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: pelayan
-              normative_status: preferred
+          - type: expression
+            designation: pelayan
+            normative_status: preferred
         parents: []
         timeCreated: '2005-12-01T00:00:00.000Z'
         author:
@@ -349,20 +393,27 @@ msa:
           email: glossarist@ribose.com
 pol:
   id: 404
-  definition: konkretna instancja usługi
-  language_code: pol
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: serwer
+  definition:
+  - content: konkretna instancja usługi
   notes: []
   examples: []
-  authoritative_source:
-    ref: 'ISO 19128:2005'
-    link: 'https://www.iso.org/standard/32546.html'
-  lineage_source: PN-EN-ISO 19128
-  date_accepted: '2005-12-01T00:00:00.000Z'
+  language_code: pol
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19128:2005
+      link: https://www.iso.org/standard/32546.html
+  - type: lineage
+    origin:
+      ref: PN-EN-ISO 19128
+  dates:
+  - type: accepted
+    date: '2005-12-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: serwer
-      normative_status: preferred
   _revisions:
     current: 8a3f25
     tree:
@@ -374,15 +425,15 @@ pol:
           notes: []
           examples: []
           authoritative_source:
-            ref: 'ISO 19128:2005'
-            link: 'https://www.iso.org/standard/32546.html'
+            ref: ISO 19128:2005
+            link: https://www.iso.org/standard/32546.html
           lineage_source: PN-EN-ISO 19128
           date_accepted: '2005-12-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: serwer
-              normative_status: preferred
+          - type: expression
+            designation: serwer
+            normative_status: preferred
         parents: []
         timeCreated: '2005-12-01T00:00:00.000Z'
         author:
@@ -390,20 +441,27 @@ pol:
           email: glossarist@ribose.com
 rus:
   id: 404
-  definition: конкретный экземпляр сервиса
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: сервер
+  definition:
+  - content: конкретный экземпляр сервиса
   notes: []
   examples: []
+  language_code: rus
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19128:2005'
-    link: 'https://www.iso.org/standard/32546.html'
-  lineage_source: Internet
-  date_accepted: '2005-12-01T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: сервер
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19128:2005
+      link: https://www.iso.org/standard/32546.html
+  - type: lineage
+    origin:
+      ref: Internet
+  dates:
+  - type: accepted
+    date: '2005-12-01T00:00:00.000Z'
   _revisions:
     current: a0cf16
     tree:
@@ -416,14 +474,14 @@ rus:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19128:2005'
-            link: 'https://www.iso.org/standard/32546.html'
+            ref: ISO 19128:2005
+            link: https://www.iso.org/standard/32546.html
           lineage_source: Internet
           date_accepted: '2005-12-01T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: сервер
-              normative_status: preferred
+          - type: expression
+            designation: сервер
+            normative_status: preferred
         parents: []
         timeCreated: '2005-12-01T00:00:00.000Z'
         author:
@@ -431,20 +489,25 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 404
-  definition: instancia particular de un servicio
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: servidor
+  definition:
+  - content: instancia particular de un servicio
   notes: []
   examples: []
+  language_code: spa
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19128:2005'
-    link: 'https://www.iso.org/standard/32546.html'
-  date_accepted: '2005-12-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19128:2005
+      link: https://www.iso.org/standard/32546.html
+  dates:
+  - type: accepted
+    date: '2005-12-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: servidor
-      normative_status: preferred
   _revisions:
     current: '867730'
     tree:
@@ -457,14 +520,14 @@ spa:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19128:2005'
-            link: 'https://www.iso.org/standard/32546.html'
+            ref: ISO 19128:2005
+            link: https://www.iso.org/standard/32546.html
           date_accepted: '2005-12-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: servidor
-              normative_status: preferred
+          - type: expression
+            designation: servidor
+            normative_status: preferred
         parents: []
         timeCreated: '2005-12-01T00:00:00.000Z'
         author:
@@ -472,30 +535,36 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 404
-  definition: program som tillhandahåller gemensamma servicefunktioner i ett datornät
-  country_code: swe
-  language_code: swe
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: server
+  definition:
+  - content: program som tillhandahåller gemensamma servicefunktioner i ett datornät
   notes: []
   examples: []
+  country_code: swe
+  language_code: swe
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19128:2005'
-    link: 'https://www.iso.org/standard/32546.html'
-  lineage_source: (Type reference to national language document)
-  date_accepted: '2005-12-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19128:2005
+      link: https://www.iso.org/standard/32546.html
+  - type: lineage
+    origin:
+      ref: "(Type reference to national language document)"
+  dates:
+  - type: accepted
+    date: '2005-12-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: server
-      normative_status: preferred
   _revisions:
-    current: 08b0bf
+    current: '08b0bf'
     tree:
-      08b0bf:
+      '08b0bf':
         object:
           id: 404
-          definition: >-
-            program som tillhandahåller gemensamma servicefunktioner i ett
+          definition: program som tillhandahåller gemensamma servicefunktioner i ett
             datornät
           country_code: swe
           language_code: swe
@@ -503,15 +572,15 @@ swe:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19128:2005'
-            link: 'https://www.iso.org/standard/32546.html'
-          lineage_source: (Type reference to national language document)
+            ref: ISO 19128:2005
+            link: https://www.iso.org/standard/32546.html
+          lineage_source: "(Type reference to national language document)"
           date_accepted: '2005-12-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: server
-              normative_status: preferred
+          - type: expression
+            designation: server
+            normative_status: preferred
         parents: []
         timeCreated: '2005-12-01T00:00:00.000Z'
         author:

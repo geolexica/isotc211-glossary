@@ -1,37 +1,45 @@
-term: data quality value unit
+---
 termid: 121
+term: data quality value unit
 eng:
   id: 121
-  definition: value unit for reporting a data quality result
-  language_code: eng
+  terms:
+  - type: expression
+    designation: data quality value unit
+  definition:
+  - content: value unit for reporting a data quality result
   notes:
-    - >-
-      A data quality value unit is provided only when applicable for a data
+  - content: A data quality value unit is provided only when applicable for a data
       quality result.
   examples:
-    - '"metre"'
+  - content: '"metre"'
+  language_code: eng
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19113:2002'
-    clause: '4.13'
-    link: 'https://www.iso.org/standard/26018.html'
-  lineage_source: ''
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19113:2002
+      clause: '4.13'
+      link: https://www.iso.org/standard/26018.html
+  - type: lineage
+    origin:
+      ref: ''
   lineage_source_similarity: 0
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2013-12-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2013-12-15T00:00:00.000Z'
   review_date: '2013-12-15T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2013-12-15T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19157:2013'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19157:2013).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: data quality value unit
-      normative_status: null
+  review_decision_event: Publication of ISO 19157:2013
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19157:2013).
+  release: "-1"
   _revisions:
     current: c95fc5
     tree:
@@ -41,17 +49,16 @@ eng:
           definition: value unit for reporting a data quality result
           language_code: eng
           notes:
-            - >-
-              A data quality value unit is provided only when applicable for a
-              data quality result.
+          - A data quality value unit is provided only when applicable for a data
+            quality result.
           examples:
-            - '"metre"'
+          - '"metre"'
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19113:2002'
+            ref: ISO 19113:2002
             clause: '4.13'
-            link: 'https://www.iso.org/standard/26018.html'
+            link: https://www.iso.org/standard/26018.html
           lineage_source: ''
           lineage_source_similarity: 0
           date_accepted: '2002-12-01T00:00:00.000Z'
@@ -61,15 +68,14 @@ eng:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2013-12-15T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19157:2013'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19157:2013
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19157:2013).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: data quality value unit
-              normative_status: null
+          - type: expression
+            designation: data quality value unit
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -77,34 +83,39 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 121
-  definition: وحدة القيمة الخاصة بالإبلاغ عن نتائج جودة البيانات
-  language_code: ara
+  terms:
+  - type: expression
+    designation: وحدة قيمة جودة البيانات
+  definition:
+  - content: وحدة القيمة الخاصة بالإبلاغ عن نتائج جودة البيانات
   notes:
-    - >-
-      يشار إلى وحدة جودة قيمة البيانات فقط عندما ينطبق ذلك على نتيجة لجودة
+  - content: يشار إلى وحدة جودة قيمة البيانات فقط عندما ينطبق ذلك على نتيجة لجودة
       البيانات.
   examples:
-    - '"متر"'
+  - content: '"متر"'
+  language_code: ara
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19113:2002'
-    clause: '4.13'
-    link: 'https://www.iso.org/standard/26018.html'
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2013-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19113:2002
+      clause: '4.13'
+      link: https://www.iso.org/standard/26018.html
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2013-12-15T00:00:00.000Z'
   review_date: '2013-12-15T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2013-12-15T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19157:2013'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19157:2013).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: وحدة قيمة جودة البيانات
-      normative_status: null
+  review_decision_event: Publication of ISO 19157:2013
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19157:2013).
+  release: "-1"
   _revisions:
     current: e7ef5f
     tree:
@@ -114,17 +125,15 @@ ara:
           definition: وحدة القيمة الخاصة بالإبلاغ عن نتائج جودة البيانات
           language_code: ara
           notes:
-            - >-
-              يشار إلى وحدة جودة قيمة البيانات فقط عندما ينطبق ذلك على نتيجة
-              لجودة البيانات.
+          - يشار إلى وحدة جودة قيمة البيانات فقط عندما ينطبق ذلك على نتيجة لجودة البيانات.
           examples:
-            - '"متر"'
+          - '"متر"'
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19113:2002'
+            ref: ISO 19113:2002
             clause: '4.13'
-            link: 'https://www.iso.org/standard/26018.html'
+            link: https://www.iso.org/standard/26018.html
           date_accepted: '2002-12-01T00:00:00.000Z'
           date_amended: '2013-12-15T00:00:00.000Z'
           review_date: '2013-12-15T00:00:00.000Z'
@@ -132,15 +141,14 @@ ara:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2013-12-15T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19157:2013'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19157:2013
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19157:2013).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: وحدة قيمة جودة البيانات
-              normative_status: null
+          - type: expression
+            designation: وحدة قيمة جودة البيانات
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -148,33 +156,41 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 121
-  definition: 记录数据质量结果的值的单位。
-  language_code: zho
+  terms:
+  - type: expression
+    designation: 数据质量值单位
+  definition:
+  - content: 记录数据质量结果的值的单位。
   notes:
-    - 仅当数据质量评价结果可应用时，才提供数据质量值单位。
+  - content: 仅当数据质量评价结果可应用时，才提供数据质量值单位。
   examples:
-    - “米”。
+  - content: "“米”。"
+  language_code: zho
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19113:2002'
-    clause: '4.13'
-    link: 'https://www.iso.org/standard/26018.html'
-  lineage_source: ''
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2013-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19113:2002
+      clause: '4.13'
+      link: https://www.iso.org/standard/26018.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2013-12-15T00:00:00.000Z'
   review_date: '2013-12-15T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2013-12-15T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19157:2013'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19157:2013).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: 数据质量值单位
-      normative_status: null
+  review_decision_event: Publication of ISO 19157:2013
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19157:2013).
+  release: "-1"
   _revisions:
     current: f039de
     tree:
@@ -184,15 +200,15 @@ zho:
           definition: 记录数据质量结果的值的单位。
           language_code: zho
           notes:
-            - 仅当数据质量评价结果可应用时，才提供数据质量值单位。
+          - 仅当数据质量评价结果可应用时，才提供数据质量值单位。
           examples:
-            - “米”。
+          - "“米”。"
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19113:2002'
+            ref: ISO 19113:2002
             clause: '4.13'
-            link: 'https://www.iso.org/standard/26018.html'
+            link: https://www.iso.org/standard/26018.html
           lineage_source: ''
           date_accepted: '2002-12-01T00:00:00.000Z'
           date_amended: '2013-12-15T00:00:00.000Z'
@@ -201,15 +217,14 @@ zho:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2013-12-15T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19157:2013'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19157:2013
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19157:2013).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: 数据质量值单位
-              normative_status: null
+          - type: expression
+            designation: 数据质量值单位
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -217,55 +232,61 @@ zho:
           email: glossarist@ribose.com
 dan:
   id: 121
-  definition: værdienhed til rapportering af et datakvalitetsresultat
-  language_code: dan
+  terms:
+  - type: expression
+    designation: værdienhed for datakvalitet
+  definition:
+  - content: værdienhed til rapportering af et datakvalitetsresultat
   notes:
-    - >-
-      Der anvendes kun en værdienhed for et datakvalitetsresultat, når det er
-      relevant.
+  - content: Der anvendes kun en værdienhed for et datakvalitetsresultat, når det
+      er relevant.
   examples:
-    - '"meter".'
+  - content: '"meter".'
+  language_code: dan
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19113:2002'
-    clause: '4.13'
-    link: 'https://www.iso.org/standard/26018.html'
-  lineage_source: ''
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2013-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19113:2002
+      clause: '4.13'
+      link: https://www.iso.org/standard/26018.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2013-12-15T00:00:00.000Z'
   review_date: '2013-12-15T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2013-12-15T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19157:2013'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19157:2013).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: værdienhed for datakvalitet
-      normative_status: null
+  review_decision_event: Publication of ISO 19157:2013
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19157:2013).
+  release: "-1"
   _revisions:
-    current: '365e51'
+    current: 365e51
     tree:
-      '365e51':
+      365e51:
         object:
           id: 121
           definition: værdienhed til rapportering af et datakvalitetsresultat
           language_code: dan
           notes:
-            - >-
-              Der anvendes kun en værdienhed for et datakvalitetsresultat, når
-              det er relevant.
+          - Der anvendes kun en værdienhed for et datakvalitetsresultat, når det er
+            relevant.
           examples:
-            - '"meter".'
+          - '"meter".'
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19113:2002'
+            ref: ISO 19113:2002
             clause: '4.13'
-            link: 'https://www.iso.org/standard/26018.html'
+            link: https://www.iso.org/standard/26018.html
           lineage_source: ''
           date_accepted: '2002-12-01T00:00:00.000Z'
           date_amended: '2013-12-15T00:00:00.000Z'
@@ -274,15 +295,14 @@ dan:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2013-12-15T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19157:2013'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19157:2013
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19157:2013).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: værdienhed for datakvalitet
-              normative_status: null
+          - type: expression
+            designation: værdienhed for datakvalitet
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -290,33 +310,41 @@ dan:
           email: glossarist@ribose.com
 fin:
   id: 121
-  definition: laatutuloksen raportoinnissa käytetty arvoyksikkö
-  language_code: fin
+  terms:
+  - type: expression
+    designation: laatuarvon yksikkö
+  definition:
+  - content: laatutuloksen raportoinnissa käytetty arvoyksikkö
   notes:
-    - Laatutulokselle annetaan arvoyksikkö vain soveltuvissa tapauksissa.
+  - content: Laatutulokselle annetaan arvoyksikkö vain soveltuvissa tapauksissa.
   examples:
-    - Metri.
+  - content: Metri.
+  language_code: fin
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19113:2002'
-    clause: '4.13'
-    link: 'https://www.iso.org/standard/26018.html'
-  lineage_source: ''
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2013-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19113:2002
+      clause: '4.13'
+      link: https://www.iso.org/standard/26018.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2013-12-15T00:00:00.000Z'
   review_date: '2013-12-15T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2013-12-15T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19157:2013'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19157:2013).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: laatuarvon yksikkö
-      normative_status: null
+  review_decision_event: Publication of ISO 19157:2013
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19157:2013).
+  release: "-1"
   _revisions:
     current: 7f997f
     tree:
@@ -326,17 +354,15 @@ fin:
           definition: laatutuloksen raportoinnissa käytetty arvoyksikkö
           language_code: fin
           notes:
-            - >-
-              Laatutulokselle annetaan arvoyksikkö vain soveltuvissa
-              tapauksissa.
+          - Laatutulokselle annetaan arvoyksikkö vain soveltuvissa tapauksissa.
           examples:
-            - Metri.
+          - Metri.
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19113:2002'
+            ref: ISO 19113:2002
             clause: '4.13'
-            link: 'https://www.iso.org/standard/26018.html'
+            link: https://www.iso.org/standard/26018.html
           lineage_source: ''
           date_accepted: '2002-12-01T00:00:00.000Z'
           date_amended: '2013-12-15T00:00:00.000Z'
@@ -345,15 +371,14 @@ fin:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2013-12-15T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19157:2013'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19157:2013
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19157:2013).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: laatuarvon yksikkö
-              normative_status: null
+          - type: expression
+            designation: laatuarvon yksikkö
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -361,39 +386,46 @@ fin:
           email: glossarist@ribose.com
 fra:
   id: 121
-  definition: unité de valeur destiné à rapporter un résultat de qualité des données
-  language_code: fra
+  terms:
+  - type: expression
+    designation: unité de valeur de qualité des données
+  definition:
+  - content: unité de valeur destiné à rapporter un résultat de qualité des données
   notes: []
   examples: []
+  language_code: fra
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19113:2002'
-    clause: '4.13'
-    link: 'https://www.iso.org/standard/26018.html'
-  lineage_source: ''
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2013-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19113:2002
+      clause: '4.13'
+      link: https://www.iso.org/standard/26018.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2013-12-15T00:00:00.000Z'
   review_date: '2013-12-15T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2013-12-15T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19157:2013'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19157:2013).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: unité de valeur de qualité des données
-      normative_status: null
+  review_decision_event: Publication of ISO 19157:2013
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19157:2013).
+  release: "-1"
   _revisions:
     current: 339e7a
     tree:
       339e7a:
         object:
           id: 121
-          definition: >-
-            unité de valeur destiné à rapporter un résultat de qualité des
+          definition: unité de valeur destiné à rapporter un résultat de qualité des
             données
           language_code: fra
           notes: []
@@ -401,9 +433,9 @@ fra:
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19113:2002'
+            ref: ISO 19113:2002
             clause: '4.13'
-            link: 'https://www.iso.org/standard/26018.html'
+            link: https://www.iso.org/standard/26018.html
           lineage_source: ''
           date_accepted: '2002-12-01T00:00:00.000Z'
           date_amended: '2013-12-15T00:00:00.000Z'
@@ -412,15 +444,14 @@ fra:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2013-12-15T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19157:2013'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19157:2013
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19157:2013).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: unité de valeur de qualité des données
-              normative_status: null
+          - type: expression
+            designation: unité de valeur de qualité des données
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -428,34 +459,40 @@ fra:
           email: glossarist@ribose.com
 deu:
   id: 121
-  language_code: deu
+  terms:
+  - type: expression
+    designation: Einheit der Datenqualitätsangabe
   notes:
-    - >-
-      A data quality value unit is provided only when applicable for a data
+  - content: A data quality value unit is provided only when applicable for a data
       quality result.
   examples:
-    - '"metre"'
+  - content: '"metre"'
+  language_code: deu
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19113:2002'
-    clause: '4.13'
-    link: 'https://www.iso.org/standard/26018.html'
-  lineage_source: ''
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2013-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19113:2002
+      clause: '4.13'
+      link: https://www.iso.org/standard/26018.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2013-12-15T00:00:00.000Z'
   review_date: '2013-12-15T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2013-12-15T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19157:2013'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19157:2013).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: Einheit der Datenqualitätsangabe
-      normative_status: null
+  review_decision_event: Publication of ISO 19157:2013
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19157:2013).
+  release: "-1"
   _revisions:
     current: 7a47a1
     tree:
@@ -464,17 +501,16 @@ deu:
           id: 121
           language_code: deu
           notes:
-            - >-
-              A data quality value unit is provided only when applicable for a
-              data quality result.
+          - A data quality value unit is provided only when applicable for a data
+            quality result.
           examples:
-            - '"metre"'
+          - '"metre"'
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19113:2002'
+            ref: ISO 19113:2002
             clause: '4.13'
-            link: 'https://www.iso.org/standard/26018.html'
+            link: https://www.iso.org/standard/26018.html
           lineage_source: ''
           date_accepted: '2002-12-01T00:00:00.000Z'
           date_amended: '2013-12-15T00:00:00.000Z'
@@ -483,15 +519,14 @@ deu:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2013-12-15T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19157:2013'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19157:2013
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19157:2013).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: Einheit der Datenqualitätsangabe
-              normative_status: null
+          - type: expression
+            designation: Einheit der Datenqualitätsangabe
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -499,33 +534,41 @@ deu:
           email: glossarist@ribose.com
 jpn:
   id: 121
-  definition: データ品質評価結果を報告するための値の単位。
-  language_code: jpn
+  terms:
+  - type: expression
+    designation: データ品質評価値単位
+  definition:
+  - content: データ品質評価結果を報告するための値の単位。
   notes:
-    - 　データ品質評価値単位は，データ品質評価結果に適用できるときだけ規定する。
+  - content: "　データ品質評価値単位は，データ品質評価結果に適用できるときだけ規定する。"
   examples:
-    - 　“メートル”
+  - content: "　“メートル”"
+  language_code: jpn
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19113:2002'
-    clause: '4.13'
-    link: 'https://www.iso.org/standard/26018.html'
-  lineage_source: ''
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2013-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19113:2002
+      clause: '4.13'
+      link: https://www.iso.org/standard/26018.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2013-12-15T00:00:00.000Z'
   review_date: '2013-12-15T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2013-12-15T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19157:2013'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19157:2013).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: データ品質評価値単位
-      normative_status: null
+  review_decision_event: Publication of ISO 19157:2013
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19157:2013).
+  release: "-1"
   _revisions:
     current: 6fd3aa
     tree:
@@ -535,15 +578,15 @@ jpn:
           definition: データ品質評価結果を報告するための値の単位。
           language_code: jpn
           notes:
-            - 　データ品質評価値単位は，データ品質評価結果に適用できるときだけ規定する。
+          - "　データ品質評価値単位は，データ品質評価結果に適用できるときだけ規定する。"
           examples:
-            - 　“メートル”
+          - "　“メートル”"
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19113:2002'
+            ref: ISO 19113:2002
             clause: '4.13'
-            link: 'https://www.iso.org/standard/26018.html'
+            link: https://www.iso.org/standard/26018.html
           lineage_source: ''
           date_accepted: '2002-12-01T00:00:00.000Z'
           date_amended: '2013-12-15T00:00:00.000Z'
@@ -552,15 +595,14 @@ jpn:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2013-12-15T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19157:2013'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19157:2013
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19157:2013).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: データ品質評価値単位
-              normative_status: null
+          - type: expression
+            designation: データ品質評価値単位
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -568,33 +610,41 @@ jpn:
           email: glossarist@ribose.com
 kor:
   id: 121
-  definition: 데이터 품질 결과를 보고하는 값의 단위
-  language_code: kor
+  terms:
+  - type: expression
+    designation: 데이터 품질 값 단위
+  definition:
+  - content: 데이터 품질 결과를 보고하는 값의 단위
   notes:
-    - 데이터 품질 값 단위는 데이터 품질 결과에 적용 가능할 때만 제공된다.
+  - content: 데이터 품질 값 단위는 데이터 품질 결과에 적용 가능할 때만 제공된다.
   examples:
-    - 미터
+  - content: 미터
+  language_code: kor
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19113:2002'
-    clause: '4.13'
-    link: 'https://www.iso.org/standard/26018.html'
-  lineage_source: ''
-  date_accepted: '2007-11-01T00:00:00.000Z'
-  date_amended: '2013-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19113:2002
+      clause: '4.13'
+      link: https://www.iso.org/standard/26018.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2007-11-01T00:00:00.000Z'
+  - type: amended
+    date: '2013-12-15T00:00:00.000Z'
   review_date: '2013-12-15T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2013-12-15T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19157:2013'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19157:2013).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: 데이터 품질 값 단위
-      normative_status: null
+  review_decision_event: Publication of ISO 19157:2013
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19157:2013).
+  release: "-1"
   _revisions:
     current: 940ce1
     tree:
@@ -604,15 +654,15 @@ kor:
           definition: 데이터 품질 결과를 보고하는 값의 단위
           language_code: kor
           notes:
-            - 데이터 품질 값 단위는 데이터 품질 결과에 적용 가능할 때만 제공된다.
+          - 데이터 품질 값 단위는 데이터 품질 결과에 적용 가능할 때만 제공된다.
           examples:
-            - 미터
+          - 미터
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19113:2002'
+            ref: ISO 19113:2002
             clause: '4.13'
-            link: 'https://www.iso.org/standard/26018.html'
+            link: https://www.iso.org/standard/26018.html
           lineage_source: ''
           date_accepted: '2007-11-01T00:00:00.000Z'
           date_amended: '2013-12-15T00:00:00.000Z'
@@ -621,15 +671,14 @@ kor:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2013-12-15T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19157:2013'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19157:2013
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19157:2013).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: 데이터 품질 값 단위
-              normative_status: null
+          - type: expression
+            designation: 데이터 품질 값 단위
+            normative_status:
         parents: []
         timeCreated: '2007-11-01T00:00:00.000Z'
         author:
@@ -637,34 +686,41 @@ kor:
           email: glossarist@ribose.com
 pol:
   id: 121
-  definition: jednostka wartości do przedstawiania wyniku oceny jakości danych
-  language_code: pol
+  terms:
+  - type: expression
+    designation: jednostka wartości jakości danych
+  definition:
+  - content: jednostka wartości do przedstawiania wyniku oceny jakości danych
   notes:
-    - >-
-      Jednostka wartości jakości danych jest określana tylko wtedy, gdy ma
+  - content: Jednostka wartości jakości danych jest określana tylko wtedy, gdy ma
       zastosowanie do wyniku oceny jakości danych.
   examples:
-    - '"metr"'
+  - content: '"metr"'
+  language_code: pol
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19113:2002'
-    clause: '4.13'
-    link: 'https://www.iso.org/standard/26018.html'
-  lineage_source: ''
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2013-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19113:2002
+      clause: '4.13'
+      link: https://www.iso.org/standard/26018.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2013-12-15T00:00:00.000Z'
   review_date: '2013-12-15T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2013-12-15T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19157:2013'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19157:2013).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: jednostka wartości jakości danych
-      normative_status: null
+  review_decision_event: Publication of ISO 19157:2013
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19157:2013).
+  release: "-1"
   _revisions:
     current: 963cd2
     tree:
@@ -674,16 +730,15 @@ pol:
           definition: jednostka wartości do przedstawiania wyniku oceny jakości danych
           language_code: pol
           notes:
-            - >-
-              Jednostka wartości jakości danych jest określana tylko wtedy, gdy
-              ma zastosowanie do wyniku oceny jakości danych.
+          - Jednostka wartości jakości danych jest określana tylko wtedy, gdy ma zastosowanie
+            do wyniku oceny jakości danych.
           examples:
-            - '"metr"'
+          - '"metr"'
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19113:2002'
+            ref: ISO 19113:2002
             clause: '4.13'
-            link: 'https://www.iso.org/standard/26018.html'
+            link: https://www.iso.org/standard/26018.html
           lineage_source: ''
           date_accepted: '2002-12-01T00:00:00.000Z'
           date_amended: '2013-12-15T00:00:00.000Z'
@@ -692,15 +747,14 @@ pol:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2013-12-15T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19157:2013'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19157:2013
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19157:2013).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: jednostka wartości jakości danych
-              normative_status: null
+          - type: expression
+            designation: jednostka wartości jakości danych
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -708,57 +762,62 @@ pol:
           email: glossarist@ribose.com
 rus:
   id: 121
-  definition: единица измерения для представления результатов оценки качества данных
-  language_code: rus
+  terms:
+  - type: expression
+    designation: единица измерения качества данных
+  definition:
+  - content: единица измерения для представления результатов оценки качества данных
   notes:
-    - >-
-      Единица измерения качества данных присутствует при условии ее применимости
+  - content: Единица измерения качества данных присутствует при условии ее применимости
       к результату оценки качества
   examples:
-    - «Метр»
+  - content: "«Метр»"
+  language_code: rus
   entry_status: изъятый
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19113:2002'
-    clause: '4.13'
-    link: 'https://www.iso.org/standard/26018.html'
-  lineage_source: ''
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2013-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19113:2002
+      clause: '4.13'
+      link: https://www.iso.org/standard/26018.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2013-12-15T00:00:00.000Z'
   review_date: '2013-12-15T00:00:00.000Z'
   review_status: ''
   review_type: ''
   review_decision: ''
   review_decision_date: '2013-12-15T00:00:00.000Z'
-  review_decision_event: 'Публикация ИСО 19157:2013'
-  review_decision_notes: 'Эта запись была опущена из заменяющего стандарта (ISO 19157: 2013).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: единица измерения качества данных
-      normative_status: null
+  review_decision_event: Публикация ИСО 19157:2013
+  review_decision_notes: 'Эта запись была опущена из заменяющего стандарта (ISO 19157:
+    2013).'
+  release: "-1"
   _revisions:
     current: f07086
     tree:
       f07086:
         object:
           id: 121
-          definition: >-
-            единица измерения для представления результатов оценки качества
+          definition: единица измерения для представления результатов оценки качества
             данных
           language_code: rus
           notes:
-            - >-
-              Единица измерения качества данных присутствует при условии ее
-              применимости к результату оценки качества
+          - Единица измерения качества данных присутствует при условии ее применимости
+            к результату оценки качества
           examples:
-            - «Метр»
+          - "«Метр»"
           entry_status: изъятый
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19113:2002'
+            ref: ISO 19113:2002
             clause: '4.13'
-            link: 'https://www.iso.org/standard/26018.html'
+            link: https://www.iso.org/standard/26018.html
           lineage_source: ''
           date_accepted: '2002-12-01T00:00:00.000Z'
           date_amended: '2013-12-15T00:00:00.000Z'
@@ -767,13 +826,14 @@ rus:
           review_type: ''
           review_decision: ''
           review_decision_date: '2013-12-15T00:00:00.000Z'
-          review_decision_event: 'Публикация ИСО 19157:2013'
-          review_decision_notes: 'Эта запись была опущена из заменяющего стандарта (ISO 19157: 2013).'
-          release: '-1'
+          review_decision_event: Публикация ИСО 19157:2013
+          review_decision_notes: 'Эта запись была опущена из заменяющего стандарта
+            (ISO 19157: 2013).'
+          release: "-1"
           terms:
-            - type: expression
-              designation: единица измерения качества данных
-              normative_status: null
+          - type: expression
+            designation: единица измерения качества данных
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -781,55 +841,61 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 121
-  definition: >-
-    unidad empleada para informar sobre un resultado de la calidad de un
-    conjunto de datos
-  language_code: spa
+  terms:
+  - type: expression
+    designation: unidad del valor de la calidad de datos
+  definition:
+  - content: unidad empleada para informar sobre un resultado de la calidad de un
+      conjunto de datos
   notes:
-    -  Sólo se ha de indicar una unidad cuando sea aplicable.
+  - content: " Sólo se ha de indicar una unidad cuando sea aplicable."
   examples:
-    - '"metro".'
+  - content: '"metro".'
+  language_code: spa
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19113:2002'
-    clause: '4.13'
-    link: 'https://www.iso.org/standard/26018.html'
-  lineage_source: ''
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2013-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19113:2002
+      clause: '4.13'
+      link: https://www.iso.org/standard/26018.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2013-12-15T00:00:00.000Z'
   review_date: '2013-12-15T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2013-12-15T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19157:2013'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19157:2013).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: unidad del valor de la calidad de datos
-      normative_status: null
+  review_decision_event: Publication of ISO 19157:2013
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19157:2013).
+  release: "-1"
   _revisions:
     current: '971428'
     tree:
       '971428':
         object:
           id: 121
-          definition: >-
-            unidad empleada para informar sobre un resultado de la calidad de un
-            conjunto de datos
+          definition: unidad empleada para informar sobre un resultado de la calidad
+            de un conjunto de datos
           language_code: spa
           notes:
-            -  Sólo se ha de indicar una unidad cuando sea aplicable.
+          - " Sólo se ha de indicar una unidad cuando sea aplicable."
           examples:
-            - '"metro".'
+          - '"metro".'
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19113:2002'
+            ref: ISO 19113:2002
             clause: '4.13'
-            link: 'https://www.iso.org/standard/26018.html'
+            link: https://www.iso.org/standard/26018.html
           lineage_source: ''
           date_accepted: '2002-12-01T00:00:00.000Z'
           date_amended: '2013-12-15T00:00:00.000Z'
@@ -838,15 +904,14 @@ spa:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2013-12-15T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19157:2013'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19157:2013
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19157:2013).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: unidad del valor de la calidad de datos
-              normative_status: null
+          - type: expression
+            designation: unidad del valor de la calidad de datos
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -854,37 +919,44 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 121
-  definition: måttenhet som används för att ange ett datakvalitetsresultat
-  country_code: swe
-  language_code: swe
+  terms:
+  - type: expression
+    designation: datakvalitetsresultatenhet
+  definition:
+  - content: måttenhet som används för att ange ett datakvalitetsresultat
   notes:
-    - >-
-      A data quality value unit is provided only when applicable for a data
+  - content: A data quality value unit is provided only when applicable for a data
       quality result.
   examples:
-    - '"metre"'
+  - content: '"metre"'
+  country_code: swe
+  language_code: swe
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19113:2002'
-    clause: '4.13'
-    link: 'https://www.iso.org/standard/26018.html'
-  lineage_source: ''
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19113:2002
+      clause: '4.13'
+      link: https://www.iso.org/standard/26018.html
+  - type: lineage
+    origin:
+      ref: ''
   lineage_source_similarity: 0
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2013-12-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2013-12-15T00:00:00.000Z'
   review_date: '2013-12-15T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2013-12-15T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19157:2013'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19157:2013).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: datakvalitetsresultatenhet
-      normative_status: null
+  review_decision_event: Publication of ISO 19157:2013
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19157:2013).
+  release: "-1"
   _revisions:
     current: da54dd
     tree:
@@ -895,17 +967,16 @@ swe:
           country_code: swe
           language_code: swe
           notes:
-            - >-
-              A data quality value unit is provided only when applicable for a
-              data quality result.
+          - A data quality value unit is provided only when applicable for a data
+            quality result.
           examples:
-            - '"metre"'
+          - '"metre"'
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19113:2002'
+            ref: ISO 19113:2002
             clause: '4.13'
-            link: 'https://www.iso.org/standard/26018.html'
+            link: https://www.iso.org/standard/26018.html
           lineage_source: ''
           lineage_source_similarity: 0
           date_accepted: '2002-12-01T00:00:00.000Z'
@@ -915,15 +986,14 @@ swe:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2013-12-15T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19157:2013'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19157:2013
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19157:2013).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: datakvalitetsresultatenhet
-              normative_status: null
+          - type: expression
+            designation: datakvalitetsresultatenhet
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:

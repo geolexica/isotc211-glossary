@@ -1,28 +1,33 @@
-term: resolution <coordinate>
+---
 termid: 904
+term: resolution <coordinate>
 eng:
   id: 904
-  definition: unit associated with the least significant digit of a coordinate
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: resolution <coordinate>
+  definition:
+  - content: unit associated with the least significant digit of a coordinate
   notes:
-    - >-
-      Coordinate resolution may have linear or angular units depending on the
+  - content: Coordinate resolution may have linear or angular units depending on the
       characteristics of the coordinate system
   examples: []
+  language_code: eng
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 6709:2008'
-    link: 'https://www.iso.org/standard/39242.html'
-  date_accepted: '2008-07-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 6709:2008
+      link: https://www.iso.org/standard/39242.html
+  dates:
+  - type: accepted
+    date: '2008-07-15T00:00:00.000Z'
   review_date: '2019-09-03T00:00:00.000Z'
   review_status: pending
   review_type: retirement
   release: '2'
-  terms:
-    - type: expression
-      designation: resolution <coordinate>
-      normative_status: preferred
   _revisions:
     current: 360d14
     tree:
@@ -32,24 +37,23 @@ eng:
           definition: unit associated with the least significant digit of a coordinate
           language_code: eng
           notes:
-            - >-
-              Coordinate resolution may have linear or angular units depending
-              on the characteristics of the coordinate system
+          - Coordinate resolution may have linear or angular units depending on the
+            characteristics of the coordinate system
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 6709:2008'
-            link: 'https://www.iso.org/standard/39242.html'
+            ref: ISO 6709:2008
+            link: https://www.iso.org/standard/39242.html
           date_accepted: '2008-07-15T00:00:00.000Z'
           review_date: '2019-09-03T00:00:00.000Z'
           review_status: pending
           review_type: retirement
           release: '2'
           terms:
-            - type: expression
-              designation: resolution <coordinate>
-              normative_status: preferred
+          - type: expression
+            designation: resolution <coordinate>
+            normative_status: preferred
         parents: []
         timeCreated: '2008-07-15T00:00:00.000Z'
         author:
@@ -57,27 +61,31 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 904
-  definition: وحدة مرتبطة بالخانة الصغرى للاحداثيات
-  language_code: ara
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: الوضوح (إحداثيات)
+  definition:
+  - content: وحدة مرتبطة بالخانة الصغرى للاحداثيات
   notes:
-    - >-
-      وضوح الإحداثي قد تكون له وحدات طولية أو وحدات زاويَّة حسب خصائص نظام
+  - content: وضوح الإحداثي قد تكون له وحدات طولية أو وحدات زاويَّة حسب خصائص نظام
       الإحداثيات.
   examples: []
+  language_code: ara
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 6709:2008'
-    link: 'https://www.iso.org/standard/39242.html'
-  date_accepted: '2008-07-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 6709:2008
+      link: https://www.iso.org/standard/39242.html
+  dates:
+  - type: accepted
+    date: '2008-07-15T00:00:00.000Z'
   review_date: '2019-09-03T00:00:00.000Z'
   review_status: pending
   review_type: retirement
   release: '2'
-  terms:
-    - type: expression
-      designation: الوضوح (إحداثيات)
-      normative_status: preferred
   _revisions:
     current: 73b524
     tree:
@@ -87,24 +95,22 @@ ara:
           definition: وحدة مرتبطة بالخانة الصغرى للاحداثيات
           language_code: ara
           notes:
-            - >-
-              وضوح الإحداثي قد تكون له وحدات طولية أو وحدات زاويَّة حسب خصائص
-              نظام الإحداثيات.
+          - وضوح الإحداثي قد تكون له وحدات طولية أو وحدات زاويَّة حسب خصائص نظام الإحداثيات.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 6709:2008'
-            link: 'https://www.iso.org/standard/39242.html'
+            ref: ISO 6709:2008
+            link: https://www.iso.org/standard/39242.html
           date_accepted: '2008-07-15T00:00:00.000Z'
           review_date: '2019-09-03T00:00:00.000Z'
           review_status: pending
           review_type: retirement
           release: '2'
           terms:
-            - type: expression
-              designation: الوضوح (إحداثيات)
-              normative_status: preferred
+          - type: expression
+            designation: الوضوح (إحداثيات)
+            normative_status: preferred
         parents: []
         timeCreated: '2008-07-15T00:00:00.000Z'
         author:
@@ -112,26 +118,29 @@ ara:
           email: glossarist@ribose.com
 deu:
   id: 904
-  language_code: deu
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Auflösung  <Koordinate>
   notes:
-    - >-
-      Coordinate resolution may have linear or angular units depending on the
+  - content: Coordinate resolution may have linear or angular units depending on the
       characteristics of the coordinate system
   examples: []
+  language_code: deu
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 6709:2008'
-    link: 'https://www.iso.org/standard/39242.html'
-  date_accepted: '2008-07-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 6709:2008
+      link: https://www.iso.org/standard/39242.html
+  dates:
+  - type: accepted
+    date: '2008-07-15T00:00:00.000Z'
   review_date: '2019-09-03T00:00:00.000Z'
   review_status: pending
   review_type: retirement
   release: '2'
-  terms:
-    - type: expression
-      designation: Auflösung  <Koordinate>
-      normative_status: preferred
   _revisions:
     current: b887c9
     tree:
@@ -140,24 +149,23 @@ deu:
           id: 904
           language_code: deu
           notes:
-            - >-
-              Coordinate resolution may have linear or angular units depending
-              on the characteristics of the coordinate system
+          - Coordinate resolution may have linear or angular units depending on the
+            characteristics of the coordinate system
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 6709:2008'
-            link: 'https://www.iso.org/standard/39242.html'
+            ref: ISO 6709:2008
+            link: https://www.iso.org/standard/39242.html
           date_accepted: '2008-07-15T00:00:00.000Z'
           review_date: '2019-09-03T00:00:00.000Z'
           review_status: pending
           review_type: retirement
           release: '2'
           terms:
-            - type: expression
-              designation: Auflösung  <Koordinate>
-              normative_status: preferred
+          - type: expression
+            designation: Auflösung  <Koordinate>
+            normative_status: preferred
         parents: []
         timeCreated: '2008-07-15T00:00:00.000Z'
         author:
@@ -165,27 +173,31 @@ deu:
           email: glossarist@ribose.com
 kor:
   id: 904
-  definition: 좌표내 최하위 숫자와 연관된 단위
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 해상도<좌표>
+  definition:
+  - content: 좌표내 최하위 숫자와 연관된 단위
   notes:
-    - >-
-      Coordinate resolution may have linear or angular units depending on the
+  - content: Coordinate resolution may have linear or angular units depending on the
       characteristics of the coordinate system
   examples: []
+  language_code: kor
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 6709:2008'
-    link: 'https://www.iso.org/standard/39242.html'
-  date_accepted: '2008-07-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 6709:2008
+      link: https://www.iso.org/standard/39242.html
+  dates:
+  - type: accepted
+    date: '2008-07-15T00:00:00.000Z'
   review_date: '2019-09-03T00:00:00.000Z'
   review_status: pending
   review_type: retirement
   release: '2'
-  terms:
-    - type: expression
-      designation: 해상도<좌표>
-      normative_status: preferred
   _revisions:
     current: df673d
     tree:
@@ -195,24 +207,23 @@ kor:
           definition: 좌표내 최하위 숫자와 연관된 단위
           language_code: kor
           notes:
-            - >-
-              Coordinate resolution may have linear or angular units depending
-              on the characteristics of the coordinate system
+          - Coordinate resolution may have linear or angular units depending on the
+            characteristics of the coordinate system
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 6709:2008'
-            link: 'https://www.iso.org/standard/39242.html'
+            ref: ISO 6709:2008
+            link: https://www.iso.org/standard/39242.html
           date_accepted: '2008-07-15T00:00:00.000Z'
           review_date: '2019-09-03T00:00:00.000Z'
           review_status: pending
           review_type: retirement
           release: '2'
           terms:
-            - type: expression
-              designation: 해상도<좌표>
-              normative_status: preferred
+          - type: expression
+            designation: 해상도<좌표>
+            normative_status: preferred
         parents: []
         timeCreated: '2008-07-15T00:00:00.000Z'
         author:
@@ -220,56 +231,59 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 904
-  definition: 'Единица, связанная с наименьшей значащей цифрой координаты'
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: разрешение <координата>
+  definition:
+  - content: Единица, связанная с наименьшей значащей цифрой координаты
   notes:
-    - >-
-      Координатное разрешение может иметь линейные, Coordinate resolution may
-      have linear or angular units depending on the characteristics of the
-      coordinate system
+  - content: Координатное разрешение может иметь линейные, Coordinate resolution may
+      have linear or angular units depending on the characteristics of the coordinate
+      system
   examples: []
+  language_code: rus
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 6709:2008'
-    link: 'https://www.iso.org/standard/39242.html'
-  date_accepted: '2008-07-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 6709:2008
+      link: https://www.iso.org/standard/39242.html
+  dates:
+  - type: accepted
+    date: '2008-07-15T00:00:00.000Z'
   review_date: '2019-09-03T00:00:00.000Z'
   review_status: pending
   review_type: retirement
   release: '2'
-  terms:
-    - type: expression
-      designation: разрешение <координата>
-      normative_status: preferred
   _revisions:
     current: 2443da
     tree:
       2443da:
         object:
           id: 904
-          definition: 'Единица, связанная с наименьшей значащей цифрой координаты'
+          definition: Единица, связанная с наименьшей значащей цифрой координаты
           language_code: rus
           notes:
-            - >-
-              Координатное разрешение может иметь линейные, Coordinate
-              resolution may have linear or angular units depending on the
-              characteristics of the coordinate system
+          - Координатное разрешение может иметь линейные, Coordinate resolution may
+            have linear or angular units depending on the characteristics of the coordinate
+            system
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 6709:2008'
-            link: 'https://www.iso.org/standard/39242.html'
+            ref: ISO 6709:2008
+            link: https://www.iso.org/standard/39242.html
           date_accepted: '2008-07-15T00:00:00.000Z'
           review_date: '2019-09-03T00:00:00.000Z'
           review_status: pending
           review_type: retirement
           release: '2'
           terms:
-            - type: expression
-              designation: разрешение <координата>
-              normative_status: preferred
+          - type: expression
+            designation: разрешение <координата>
+            normative_status: preferred
         parents: []
         timeCreated: '2008-07-15T00:00:00.000Z'
         author:
@@ -277,27 +291,31 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 904
-  definition: unidad asociada con el dígito menos significativo de una coordenada
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: resolución <coordenadas>
+  definition:
+  - content: unidad asociada con el dígito menos significativo de una coordenada
   notes:
-    - >-
-      La resolución de las coordenadas puede tener unidades angulares o lineales
+  - content: La resolución de las coordenadas puede tener unidades angulares o lineales
       dependiendo de las características del sistema de coordenadas
   examples: []
+  language_code: spa
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 6709:2008'
-    link: 'https://www.iso.org/standard/39242.html'
-  date_accepted: '2008-07-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 6709:2008
+      link: https://www.iso.org/standard/39242.html
+  dates:
+  - type: accepted
+    date: '2008-07-15T00:00:00.000Z'
   review_date: '2019-09-03T00:00:00.000Z'
   review_status: pending
   review_type: retirement
   release: '2'
-  terms:
-    - type: expression
-      designation: resolución <coordenadas>
-      normative_status: preferred
   _revisions:
     current: 249bd0
     tree:
@@ -307,25 +325,23 @@ spa:
           definition: unidad asociada con el dígito menos significativo de una coordenada
           language_code: spa
           notes:
-            - >-
-              La resolución de las coordenadas puede tener unidades angulares o
-              lineales dependiendo de las características del sistema de
-              coordenadas
+          - La resolución de las coordenadas puede tener unidades angulares o lineales
+            dependiendo de las características del sistema de coordenadas
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 6709:2008'
-            link: 'https://www.iso.org/standard/39242.html'
+            ref: ISO 6709:2008
+            link: https://www.iso.org/standard/39242.html
           date_accepted: '2008-07-15T00:00:00.000Z'
           review_date: '2019-09-03T00:00:00.000Z'
           review_status: pending
           review_type: retirement
           release: '2'
           terms:
-            - type: expression
-              designation: resolución <coordenadas>
-              normative_status: preferred
+          - type: expression
+            designation: resolución <coordenadas>
+            normative_status: preferred
         parents: []
         timeCreated: '2008-07-15T00:00:00.000Z'
         author:

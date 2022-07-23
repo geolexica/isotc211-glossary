@@ -1,23 +1,30 @@
-term: Place Identifier platform
+---
 termid: 1340
+term: PI platform
 eng:
   id: 1340
-  abbrev: PI platform
-  definition: group of service interfaces and data structures used for PI matching
-  language_code: eng
+  terms:
+  - type: abbreviation
+    designation: PI platform
+  - type: expression
+    normative_status: preferred
+    designation: Place Identifier platform
+  definition:
+  - content: group of service interfaces and data structures used for PI matching
   notes: []
   examples: []
+  language_code: eng
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19155:2012'
-    clause: '4.12'
-    link: 'https://www.iso.org/standard/32573.html'
-  date_accepted: '2012-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19155:2012
+      clause: '4.12'
+      link: https://www.iso.org/standard/32573.html
+  dates:
+  - type: accepted
+    date: '2012-11-01T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: Place Identifier platform
-      normative_status: preferred
   _revisions:
     current: b2a9f3
     tree:
@@ -25,21 +32,22 @@ eng:
         object:
           id: 1340
           abbrev: PI platform
-          definition: group of service interfaces and data structures used for PI matching
+          definition: group of service interfaces and data structures used for PI
+            matching
           language_code: eng
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19155:2012'
+            ref: ISO 19155:2012
             clause: '4.12'
-            link: 'https://www.iso.org/standard/32573.html'
+            link: https://www.iso.org/standard/32573.html
           date_accepted: '2012-11-01T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: Place Identifier platform
-              normative_status: preferred
+          - type: expression
+            designation: Place Identifier platform
+            normative_status: preferred
         parents: []
         timeCreated: '2012-11-01T00:00:00.000Z'
         author:
@@ -47,21 +55,26 @@ eng:
           email: glossarist@ribose.com
 kor:
   id: 1340
-  definition: PI매칭에 사용되는 서비스 인터페이스와 자료 구조 그룹
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 장소 식별자 플랫폼
+  definition:
+  - content: PI매칭에 사용되는 서비스 인터페이스와 자료 구조 그룹
   notes: []
   examples: []
+  language_code: kor
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19155:2012'
-    clause: '4.12'
-    link: 'https://www.iso.org/standard/32573.html'
-  date_accepted: '2012-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19155:2012
+      clause: '4.12'
+      link: https://www.iso.org/standard/32573.html
+  dates:
+  - type: accepted
+    date: '2012-11-01T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: 장소 식별자 플랫폼
-      normative_status: preferred
   _revisions:
     current: afa211
     tree:
@@ -74,15 +87,15 @@ kor:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19155:2012'
+            ref: ISO 19155:2012
             clause: '4.12'
-            link: 'https://www.iso.org/standard/32573.html'
+            link: https://www.iso.org/standard/32573.html
           date_accepted: '2012-11-01T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: 장소 식별자 플랫폼
-              normative_status: preferred
+          - type: expression
+            designation: 장소 식별자 플랫폼
+            normative_status: preferred
         parents: []
         timeCreated: '2012-11-01T00:00:00.000Z'
         author:
@@ -90,25 +103,32 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 1340
-  abbrev: PI platform
-  definition: >-
-    Группа сервисных интерфейсов и структур данных, используемых для
-    сопоставления ИМ (PI)
-  language_code: rus
+  terms:
+  - type: abbreviation
+    designation: PI platform
+  - type: expression
+    normative_status: preferred
+    designation: платформа Идентификатора Места
+  definition:
+  - content: Группа сервисных интерфейсов и структур данных, используемых для сопоставления
+      ИМ (PI)
   notes: []
   examples: []
+  language_code: rus
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19155:2012'
-    clause: '4.12'
-    link: 'https://www.iso.org/standard/32573.html'
-  lineage_source: 'ISO 19155:2012'
-  date_accepted: '2012-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19155:2012
+      clause: '4.12'
+      link: https://www.iso.org/standard/32573.html
+  - type: lineage
+    origin:
+      ref: ISO 19155:2012
+  dates:
+  - type: accepted
+    date: '2012-11-01T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: платформа Идентификатора Места
-      normative_status: preferred
   _revisions:
     current: ea7a78
     tree:
@@ -116,24 +136,23 @@ rus:
         object:
           id: 1340
           abbrev: PI platform
-          definition: >-
-            Группа сервисных интерфейсов и структур данных, используемых для
-            сопоставления ИМ (PI)
+          definition: Группа сервисных интерфейсов и структур данных, используемых
+            для сопоставления ИМ (PI)
           language_code: rus
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19155:2012'
+            ref: ISO 19155:2012
             clause: '4.12'
-            link: 'https://www.iso.org/standard/32573.html'
-          lineage_source: 'ISO 19155:2012'
+            link: https://www.iso.org/standard/32573.html
+          lineage_source: ISO 19155:2012
           date_accepted: '2012-11-01T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: платформа Идентификатора Места
-              normative_status: preferred
+          - type: expression
+            designation: платформа Идентификатора Места
+            normative_status: preferred
         parents: []
         timeCreated: '2012-11-01T00:00:00.000Z'
         author:
@@ -141,24 +160,29 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 1340
-  abbrev: PI platform
-  definition: >-
-    conjunto de interfaces de servicio y estructuras de datos utilizadas para la
-    correspondencia de PI
-  language_code: spa
+  terms:
+  - type: abbreviation
+    designation: PI platform
+  - type: expression
+    normative_status: preferred
+    designation: plataforma de identificación de lugares
+  definition:
+  - content: conjunto de interfaces de servicio y estructuras de datos utilizadas
+      para la correspondencia de PI
   notes: []
   examples: []
+  language_code: spa
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19155:2012'
-    clause: '4.12'
-    link: 'https://www.iso.org/standard/32573.html'
-  date_accepted: '2012-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19155:2012
+      clause: '4.12'
+      link: https://www.iso.org/standard/32573.html
+  dates:
+  - type: accepted
+    date: '2012-11-01T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: plataforma de identificación de lugares
-      normative_status: preferred
   _revisions:
     current: 1b8501
     tree:
@@ -166,23 +190,22 @@ spa:
         object:
           id: 1340
           abbrev: PI platform
-          definition: >-
-            conjunto de interfaces de servicio y estructuras de datos utilizadas
+          definition: conjunto de interfaces de servicio y estructuras de datos utilizadas
             para la correspondencia de PI
           language_code: spa
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19155:2012'
+            ref: ISO 19155:2012
             clause: '4.12'
-            link: 'https://www.iso.org/standard/32573.html'
+            link: https://www.iso.org/standard/32573.html
           date_accepted: '2012-11-01T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: plataforma de identificación de lugares
-              normative_status: preferred
+          - type: expression
+            designation: plataforma de identificación de lugares
+            normative_status: preferred
         parents: []
         timeCreated: '2012-11-01T00:00:00.000Z'
         author:
@@ -190,24 +213,32 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 1340
-  abbrev: PI platform
-  definition: samling tjänstegränssnitt och datastrukturer avsedda för PI-matchning
-  country_code: swe
-  language_code: swe
+  terms:
+  - type: abbreviation
+    designation: PI platform
+  - type: expression
+    normative_status: preferred
+    designation: PI-plattform
+  definition:
+  - content: samling tjänstegränssnitt och datastrukturer avsedda för PI-matchning
   notes: []
   examples: []
+  country_code: swe
+  language_code: swe
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19155:2012'
-    clause: '4.12'
-    link: 'https://www.iso.org/standard/32573.html'
-  lineage_source: (Type reference to national language document)
-  date_accepted: '2012-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19155:2012
+      clause: '4.12'
+      link: https://www.iso.org/standard/32573.html
+  - type: lineage
+    origin:
+      ref: "(Type reference to national language document)"
+  dates:
+  - type: accepted
+    date: '2012-11-01T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: PI-plattform
-      normative_status: preferred
   _revisions:
     current: '321189'
     tree:
@@ -215,25 +246,23 @@ swe:
         object:
           id: 1340
           abbrev: PI platform
-          definition: >-
-            samling tjänstegränssnitt och datastrukturer avsedda för
-            PI-matchning
+          definition: samling tjänstegränssnitt och datastrukturer avsedda för PI-matchning
           country_code: swe
           language_code: swe
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19155:2012'
+            ref: ISO 19155:2012
             clause: '4.12'
-            link: 'https://www.iso.org/standard/32573.html'
-          lineage_source: (Type reference to national language document)
+            link: https://www.iso.org/standard/32573.html
+          lineage_source: "(Type reference to national language document)"
           date_accepted: '2012-11-01T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: PI-plattform
-              normative_status: preferred
+          - type: expression
+            designation: PI-plattform
+            normative_status: preferred
         parents: []
         timeCreated: '2012-11-01T00:00:00.000Z'
         author:

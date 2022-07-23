@@ -1,23 +1,29 @@
-term: compound symbol
+---
 termid: 1513
+term: compound symbol
 eng:
   id: 1513
-  definition: symbol composed of other symbols of the same type
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: compound symbol
+  definition:
+  - content: symbol composed of other symbols of the same type
   notes: []
   examples:
-    - A point symbol that is composed of two point graphics.
+  - content: A point symbol that is composed of two point graphics.
+  language_code: eng
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19117:2012'
-    clause: '4.4'
-    link: 'https://www.iso.org/standard/46226.html'
-  date_accepted: '2012-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19117:2012
+      clause: '4.4'
+      link: https://www.iso.org/standard/46226.html
+  dates:
+  - type: accepted
+    date: '2012-12-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: compound symbol
-      normative_status: preferred
   _revisions:
     current: 7e940e
     tree:
@@ -28,18 +34,18 @@ eng:
           language_code: eng
           notes: []
           examples:
-            - A point symbol that is composed of two point graphics.
+          - A point symbol that is composed of two point graphics.
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19117:2012'
+            ref: ISO 19117:2012
             clause: '4.4'
-            link: 'https://www.iso.org/standard/46226.html'
+            link: https://www.iso.org/standard/46226.html
           date_accepted: '2012-12-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: compound symbol
-              normative_status: preferred
+          - type: expression
+            designation: compound symbol
+            normative_status: preferred
         parents: []
         timeCreated: '2012-12-15T00:00:00.000Z'
         author:
@@ -47,22 +53,27 @@ eng:
           email: glossarist@ribose.com
 kor:
   id: 1513
-  definition: 동일 유형의 기호들로 구성된 기호
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 복합 기호
+  definition:
+  - content: 동일 유형의 기호들로 구성된 기호
   notes: []
   examples:
-    - A point symbol that is composed of two point graphics.
+  - content: A point symbol that is composed of two point graphics.
+  language_code: kor
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19117:2012'
-    clause: '4.4'
-    link: 'https://www.iso.org/standard/46226.html'
-  date_accepted: '2012-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19117:2012
+      clause: '4.4'
+      link: https://www.iso.org/standard/46226.html
+  dates:
+  - type: accepted
+    date: '2012-12-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: 복합 기호
-      normative_status: preferred
   _revisions:
     current: bc534a
     tree:
@@ -73,18 +84,18 @@ kor:
           language_code: kor
           notes: []
           examples:
-            - A point symbol that is composed of two point graphics.
+          - A point symbol that is composed of two point graphics.
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19117:2012'
+            ref: ISO 19117:2012
             clause: '4.4'
-            link: 'https://www.iso.org/standard/46226.html'
+            link: https://www.iso.org/standard/46226.html
           date_accepted: '2012-12-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: 복합 기호
-              normative_status: preferred
+          - type: expression
+            designation: 복합 기호
+            normative_status: preferred
         parents: []
         timeCreated: '2012-12-15T00:00:00.000Z'
         author:
@@ -92,46 +103,53 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 1513
-  definition: 'символ, состоящий из других символов одного и того же типа'
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: составной символ
+  definition:
+  - content: символ, состоящий из других символов одного и того же типа
   notes: []
   examples:
-    - 'Точечный символ, состоящий из двух точечных графических элементов'
+  - content: Точечный символ, состоящий из двух точечных графических элементов
+  language_code: rus
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19117:2012'
-    clause: '4.4'
-    link: 'https://www.iso.org/standard/46226.html'
-  lineage_source: 'перевод ИСО 19117:2012'
-  date_accepted: '2012-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19117:2012
+      clause: '4.4'
+      link: https://www.iso.org/standard/46226.html
+  - type: lineage
+    origin:
+      ref: перевод ИСО 19117:2012
+  dates:
+  - type: accepted
+    date: '2012-12-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: составной символ
-      normative_status: preferred
   _revisions:
     current: '552334'
     tree:
       '552334':
         object:
           id: 1513
-          definition: 'символ, состоящий из других символов одного и того же типа'
+          definition: символ, состоящий из других символов одного и того же типа
           language_code: rus
           notes: []
           examples:
-            - 'Точечный символ, состоящий из двух точечных графических элементов'
+          - Точечный символ, состоящий из двух точечных графических элементов
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19117:2012'
+            ref: ISO 19117:2012
             clause: '4.4'
-            link: 'https://www.iso.org/standard/46226.html'
-          lineage_source: 'перевод ИСО 19117:2012'
+            link: https://www.iso.org/standard/46226.html
+          lineage_source: перевод ИСО 19117:2012
           date_accepted: '2012-12-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: составной символ
-              normative_status: preferred
+          - type: expression
+            designation: составной символ
+            normative_status: preferred
         parents: []
         timeCreated: '2012-12-15T00:00:00.000Z'
         author:
@@ -139,22 +157,27 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 1513
-  definition: símbolo compuesto por otros símbolos del mismo tipo
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: símbolo compuesto
+  definition:
+  - content: símbolo compuesto por otros símbolos del mismo tipo
   notes: []
   examples:
-    - Un símbolo puntual compuesto por dos puntos gráficos
+  - content: Un símbolo puntual compuesto por dos puntos gráficos
+  language_code: spa
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19117:2012'
-    clause: '4.4'
-    link: 'https://www.iso.org/standard/46226.html'
-  date_accepted: '2012-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19117:2012
+      clause: '4.4'
+      link: https://www.iso.org/standard/46226.html
+  dates:
+  - type: accepted
+    date: '2012-12-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: símbolo compuesto
-      normative_status: preferred
   _revisions:
     current: ff6c90
     tree:
@@ -165,18 +188,18 @@ spa:
           language_code: spa
           notes: []
           examples:
-            - Un símbolo puntual compuesto por dos puntos gráficos
+          - Un símbolo puntual compuesto por dos puntos gráficos
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19117:2012'
+            ref: ISO 19117:2012
             clause: '4.4'
-            link: 'https://www.iso.org/standard/46226.html'
+            link: https://www.iso.org/standard/46226.html
           date_accepted: '2012-12-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: símbolo compuesto
-              normative_status: preferred
+          - type: expression
+            designation: símbolo compuesto
+            normative_status: preferred
         parents: []
         timeCreated: '2012-12-15T00:00:00.000Z'
         author:
@@ -184,28 +207,35 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 1513
-  definition: symbol sammansatt av andra symboler av samma typ
-  country_code: swe
-  language_code: swe
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: sammansatt symbol
+  definition:
+  - content: symbol sammansatt av andra symboler av samma typ
   notes: []
   examples:
-    - A point symbol that is composed of two point graphics.
+  - content: A point symbol that is composed of two point graphics.
+  country_code: swe
+  language_code: swe
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19117:2012'
-    clause: '4.4'
-    link: 'https://www.iso.org/standard/46226.html'
-  lineage_source: (Type reference to national language document)
-  date_accepted: '2012-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19117:2012
+      clause: '4.4'
+      link: https://www.iso.org/standard/46226.html
+  - type: lineage
+    origin:
+      ref: "(Type reference to national language document)"
+  dates:
+  - type: accepted
+    date: '2012-12-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: sammansatt symbol
-      normative_status: preferred
   _revisions:
-    current: '613e84'
+    current: 613e84
     tree:
-      '613e84':
+      613e84:
         object:
           id: 1513
           definition: symbol sammansatt av andra symboler av samma typ
@@ -213,19 +243,19 @@ swe:
           language_code: swe
           notes: []
           examples:
-            - A point symbol that is composed of two point graphics.
+          - A point symbol that is composed of two point graphics.
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19117:2012'
+            ref: ISO 19117:2012
             clause: '4.4'
-            link: 'https://www.iso.org/standard/46226.html'
-          lineage_source: (Type reference to national language document)
+            link: https://www.iso.org/standard/46226.html
+          lineage_source: "(Type reference to national language document)"
           date_accepted: '2012-12-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: sammansatt symbol
-              normative_status: preferred
+          - type: expression
+            designation: sammansatt symbol
+            normative_status: preferred
         parents: []
         timeCreated: '2012-12-15T00:00:00.000Z'
         author:

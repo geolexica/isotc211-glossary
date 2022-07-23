@@ -1,37 +1,43 @@
-term: property <GML>
+---
 termid: 534
+term: property <GML>
 eng:
   id: 534
-  definition: a child element of a GML object
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: property <GML>
+  definition:
+  - content: a child element of a GML object
   notes:
-    - >-
-      It corresponds to feature attribute and feature association role in ISO
-      19109.  If a GML property of a feature has an xlink:href attribute that
-      references a feature, the property represents a feature association role.
+  - content: It corresponds to feature attribute and feature association role in ISO
+      19109.  If a GML property of a feature has an xlink:href attribute that references
+      a feature, the property represents a feature association role.
   examples: []
+  language_code: eng
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19136-1:2020'
-    clause: '(E), 3.1.49'
-    link: 'https://www.iso.org/standard/75676.html'
-  lineage_source: 'ISO 19136:2007(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19136-1:2020
+      clause: "(E), 3.1.49"
+      link: https://www.iso.org/standard/75676.html
+  - type: lineage
+    origin:
+      ref: ISO 19136:2007(E)
   lineage_source_similarity: 1
-  date_accepted: '2007-09-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2007-09-01T00:00:00.000Z'
   review_date: '2020-01-09T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2020-01-09T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19136-1:2020(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19136:2007 to ISO 19136-1:2020(E),
-    3.1.49. Lineage source added as ISO 19136:2007(E)
+  review_decision_event: Publication of ISO 19136-1:2020(E)
+  review_decision_notes: Authoritative reference changed from ISO 19136:2007 to ISO
+    19136-1:2020(E), 3.1.49. Lineage source added as ISO 19136:2007(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: property <GML>
-      normative_status: preferred
   _revisions:
     current: bd44b7
     tree:
@@ -41,34 +47,31 @@ eng:
           definition: a child element of a GML object
           language_code: eng
           notes:
-            - >-
-              It corresponds to feature attribute and feature association role
-              in ISO 19109.  If a GML property of a feature has an xlink:href
-              attribute that references a feature, the property represents a
-              feature association role.
+          - It corresponds to feature attribute and feature association role in ISO
+            19109.  If a GML property of a feature has an xlink:href attribute that
+            references a feature, the property represents a feature association role.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19136-1:2020'
-            clause: '(E), 3.1.49'
-            link: 'https://www.iso.org/standard/75676.html'
-          lineage_source: 'ISO 19136:2007(E)'
+            ref: ISO 19136-1:2020
+            clause: "(E), 3.1.49"
+            link: https://www.iso.org/standard/75676.html
+          lineage_source: ISO 19136:2007(E)
           lineage_source_similarity: 1
           date_accepted: '2007-09-01T00:00:00.000Z'
           review_date: '2020-01-09T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2020-01-09T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19136-1:2020(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19136:2007 to ISO
-            19136-1:2020(E), 3.1.49. Lineage source added as ISO 19136:2007(E)
+          review_decision_event: Publication of ISO 19136-1:2020(E)
+          review_decision_notes: Authoritative reference changed from ISO 19136:2007
+            to ISO 19136-1:2020(E), 3.1.49. Lineage source added as ISO 19136:2007(E)
           release: '1'
           terms:
-            - type: expression
-              designation: property <GML>
-              normative_status: preferred
+          - type: expression
+            designation: property <GML>
+            normative_status: preferred
         parents: []
         timeCreated: '2007-09-01T00:00:00.000Z'
         author:
@@ -76,36 +79,41 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 534
-  definition: عنصر وليد لكائن GML
-  language_code: ara
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: خاصية لغة <GML>
+  definition:
+  - content: عنصر وليد لكائن GML
   notes:
-    - >-
-      هي نظير لصفة المعلم و دور ربط المعلم في المقياس آيزو 19109. إذا كانت خاصية
-      المعلم في لغة GML تحتوي على صفة رابط XLink:href تشير إلى مرجع معلم ما، فإن
-      الخاصية المذكورة تمثل دور ربط للمعلم.
+  - content: هي نظير لصفة المعلم و دور ربط المعلم في المقياس آيزو 19109. إذا كانت
+      خاصية المعلم في لغة GML تحتوي على صفة رابط XLink:href تشير إلى مرجع معلم ما،
+      فإن الخاصية المذكورة تمثل دور ربط للمعلم.
   examples: []
+  language_code: ara
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19136-1:2020'
-    clause: '(E), 3.1.49'
-    link: 'https://www.iso.org/standard/75676.html'
-  lineage_source: 'ISO 19136:2007(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19136-1:2020
+      clause: "(E), 3.1.49"
+      link: https://www.iso.org/standard/75676.html
+  - type: lineage
+    origin:
+      ref: ISO 19136:2007(E)
   lineage_source_similarity: 1
-  date_accepted: '2007-09-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2007-09-01T00:00:00.000Z'
   review_date: '2020-01-09T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2020-01-09T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19136-1:2020(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19136:2007 to ISO 19136-1:2020(E),
-    3.1.49. Lineage source added as ISO 19136:2007(E)
+  review_decision_event: Publication of ISO 19136-1:2020(E)
+  review_decision_notes: Authoritative reference changed from ISO 19136:2007 to ISO
+    19136-1:2020(E), 3.1.49. Lineage source added as ISO 19136:2007(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: خاصية لغة <GML>
-      normative_status: preferred
   _revisions:
     current: e32acd
     tree:
@@ -115,33 +123,31 @@ ara:
           definition: عنصر وليد لكائن GML
           language_code: ara
           notes:
-            - >-
-              هي نظير لصفة المعلم و دور ربط المعلم في المقياس آيزو 19109. إذا
-              كانت خاصية المعلم في لغة GML تحتوي على صفة رابط XLink:href تشير
-              إلى مرجع معلم ما، فإن الخاصية المذكورة تمثل دور ربط للمعلم.
+          - هي نظير لصفة المعلم و دور ربط المعلم في المقياس آيزو 19109. إذا كانت خاصية
+            المعلم في لغة GML تحتوي على صفة رابط XLink:href تشير إلى مرجع معلم ما،
+            فإن الخاصية المذكورة تمثل دور ربط للمعلم.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19136-1:2020'
-            clause: '(E), 3.1.49'
-            link: 'https://www.iso.org/standard/75676.html'
-          lineage_source: 'ISO 19136:2007(E)'
+            ref: ISO 19136-1:2020
+            clause: "(E), 3.1.49"
+            link: https://www.iso.org/standard/75676.html
+          lineage_source: ISO 19136:2007(E)
           lineage_source_similarity: 1
           date_accepted: '2007-09-01T00:00:00.000Z'
           review_date: '2020-01-09T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2020-01-09T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19136-1:2020(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19136:2007 to ISO
-            19136-1:2020(E), 3.1.49. Lineage source added as ISO 19136:2007(E)
+          review_decision_event: Publication of ISO 19136-1:2020(E)
+          review_decision_notes: Authoritative reference changed from ISO 19136:2007
+            to ISO 19136-1:2020(E), 3.1.49. Lineage source added as ISO 19136:2007(E)
           release: '1'
           terms:
-            - type: expression
-              designation: خاصية لغة <GML>
-              normative_status: preferred
+          - type: expression
+            designation: خاصية لغة <GML>
+            normative_status: preferred
         parents: []
         timeCreated: '2007-09-01T00:00:00.000Z'
         author:
@@ -149,35 +155,39 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 534
-  definition: GML对象的子元素。
-  language_code: zho
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 特性<GML>
+  definition:
+  - content: GML对象的子元素。
   notes:
-    - >-
-      在ISO 19109中，特性<GML>与要素属性和要素关联角色相对应。如果一个要素的GML特性有一个xlink : href属性,
-      该属性参照一个要素，则特性表示要素关联角色。
+  - content: '在ISO 19109中，特性<GML>与要素属性和要素关联角色相对应。如果一个要素的GML特性有一个xlink : href属性, 该属性参照一个要素，则特性表示要素关联角色。'
   examples: []
+  language_code: zho
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19136-1:2020'
-    clause: '(E), 3.1.49'
-    link: 'https://www.iso.org/standard/75676.html'
-  lineage_source: 'ISO 19136:2007(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19136-1:2020
+      clause: "(E), 3.1.49"
+      link: https://www.iso.org/standard/75676.html
+  - type: lineage
+    origin:
+      ref: ISO 19136:2007(E)
   lineage_source_similarity: 1
-  date_accepted: '2007-09-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2007-09-01T00:00:00.000Z'
   review_date: '2020-01-09T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2020-01-09T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19136-1:2020(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19136:2007 to ISO 19136-1:2020(E),
-    3.1.49. Lineage source added as ISO 19136:2007(E)
+  review_decision_event: Publication of ISO 19136-1:2020(E)
+  review_decision_notes: Authoritative reference changed from ISO 19136:2007 to ISO
+    19136-1:2020(E), 3.1.49. Lineage source added as ISO 19136:2007(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: 特性<GML>
-      normative_status: preferred
   _revisions:
     current: adf39d
     tree:
@@ -187,32 +197,29 @@ zho:
           definition: GML对象的子元素。
           language_code: zho
           notes:
-            - >-
-              在ISO 19109中，特性<GML>与要素属性和要素关联角色相对应。如果一个要素的GML特性有一个xlink : href属性,
-              该属性参照一个要素，则特性表示要素关联角色。
+          - '在ISO 19109中，特性<GML>与要素属性和要素关联角色相对应。如果一个要素的GML特性有一个xlink : href属性, 该属性参照一个要素，则特性表示要素关联角色。'
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19136-1:2020'
-            clause: '(E), 3.1.49'
-            link: 'https://www.iso.org/standard/75676.html'
-          lineage_source: 'ISO 19136:2007(E)'
+            ref: ISO 19136-1:2020
+            clause: "(E), 3.1.49"
+            link: https://www.iso.org/standard/75676.html
+          lineage_source: ISO 19136:2007(E)
           lineage_source_similarity: 1
           date_accepted: '2007-09-01T00:00:00.000Z'
           review_date: '2020-01-09T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2020-01-09T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19136-1:2020(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19136:2007 to ISO
-            19136-1:2020(E), 3.1.49. Lineage source added as ISO 19136:2007(E)
+          review_decision_event: Publication of ISO 19136-1:2020(E)
+          review_decision_notes: Authoritative reference changed from ISO 19136:2007
+            to ISO 19136-1:2020(E), 3.1.49. Lineage source added as ISO 19136:2007(E)
           release: '1'
           terms:
-            - type: expression
-              designation: 特性<GML>
-              normative_status: preferred
+          - type: expression
+            designation: 特性<GML>
+            normative_status: preferred
         parents: []
         timeCreated: '2007-09-01T00:00:00.000Z'
         author:
@@ -220,37 +227,42 @@ zho:
           email: glossarist@ribose.com
 fin:
   id: 534
-  definition: GML-objektin lapsielementti
-  language_code: fin
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ominaisuus <GML>
+  definition:
+  - content: GML-objektin lapsielementti
   notes:
-    - >-
-      Käsite vastaa kohteen ominaisuuden ja kohteiden välisen assosiaatiosuhteen
-      roolia ISO 19109 -standardissa. Jos kohteen GML-ominaisuudella on
-      kohteeseen viittaava xlink:href-attribuutti, ominaisuus kuvaa kohteiden
-      välisen assosiaatiosuhteen roolia.
+  - content: Käsite vastaa kohteen ominaisuuden ja kohteiden välisen assosiaatiosuhteen
+      roolia ISO 19109 -standardissa. Jos kohteen GML-ominaisuudella on kohteeseen
+      viittaava xlink:href-attribuutti, ominaisuus kuvaa kohteiden välisen assosiaatiosuhteen
+      roolia.
   examples: []
+  language_code: fin
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19136-1:2020'
-    clause: '(E), 3.1.49'
-    link: 'https://www.iso.org/standard/75676.html'
-  lineage_source: 'ISO 19136:2007(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19136-1:2020
+      clause: "(E), 3.1.49"
+      link: https://www.iso.org/standard/75676.html
+  - type: lineage
+    origin:
+      ref: ISO 19136:2007(E)
   lineage_source_similarity: 1
-  date_accepted: '2007-09-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2007-09-01T00:00:00.000Z'
   review_date: '2020-01-09T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2020-01-09T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19136-1:2020(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19136:2007 to ISO 19136-1:2020(E),
-    3.1.49. Lineage source added as ISO 19136:2007(E)
+  review_decision_event: Publication of ISO 19136-1:2020(E)
+  review_decision_notes: Authoritative reference changed from ISO 19136:2007 to ISO
+    19136-1:2020(E), 3.1.49. Lineage source added as ISO 19136:2007(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: ominaisuus <GML>
-      normative_status: preferred
   _revisions:
     current: 50822d
     tree:
@@ -260,34 +272,32 @@ fin:
           definition: GML-objektin lapsielementti
           language_code: fin
           notes:
-            - >-
-              Käsite vastaa kohteen ominaisuuden ja kohteiden välisen
-              assosiaatiosuhteen roolia ISO 19109 -standardissa. Jos kohteen
-              GML-ominaisuudella on kohteeseen viittaava xlink:href-attribuutti,
-              ominaisuus kuvaa kohteiden välisen assosiaatiosuhteen roolia.
+          - Käsite vastaa kohteen ominaisuuden ja kohteiden välisen assosiaatiosuhteen
+            roolia ISO 19109 -standardissa. Jos kohteen GML-ominaisuudella on kohteeseen
+            viittaava xlink:href-attribuutti, ominaisuus kuvaa kohteiden välisen assosiaatiosuhteen
+            roolia.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19136-1:2020'
-            clause: '(E), 3.1.49'
-            link: 'https://www.iso.org/standard/75676.html'
-          lineage_source: 'ISO 19136:2007(E)'
+            ref: ISO 19136-1:2020
+            clause: "(E), 3.1.49"
+            link: https://www.iso.org/standard/75676.html
+          lineage_source: ISO 19136:2007(E)
           lineage_source_similarity: 1
           date_accepted: '2007-09-01T00:00:00.000Z'
           review_date: '2020-01-09T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2020-01-09T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19136-1:2020(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19136:2007 to ISO
-            19136-1:2020(E), 3.1.49. Lineage source added as ISO 19136:2007(E)
+          review_decision_event: Publication of ISO 19136-1:2020(E)
+          review_decision_notes: Authoritative reference changed from ISO 19136:2007
+            to ISO 19136-1:2020(E), 3.1.49. Lineage source added as ISO 19136:2007(E)
           release: '1'
           terms:
-            - type: expression
-              designation: ominaisuus <GML>
-              normative_status: preferred
+          - type: expression
+            designation: ominaisuus <GML>
+            normative_status: preferred
         parents: []
         timeCreated: '2007-09-01T00:00:00.000Z'
         author:
@@ -295,32 +305,38 @@ fin:
           email: glossarist@ribose.com
 fra:
   id: 534
-  definition: un élément fils d'un objet GML
-  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: propriété <GML>
+  definition:
+  - content: un élément fils d'un objet GML
   notes: []
   examples: []
+  language_code: fra
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19136-1:2020'
-    clause: '(E), 3.1.49'
-    link: 'https://www.iso.org/standard/75676.html'
-  lineage_source: 'ISO 19136:2007(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19136-1:2020
+      clause: "(E), 3.1.49"
+      link: https://www.iso.org/standard/75676.html
+  - type: lineage
+    origin:
+      ref: ISO 19136:2007(E)
   lineage_source_similarity: 1
-  date_accepted: '2007-09-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2007-09-01T00:00:00.000Z'
   review_date: '2020-01-09T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2020-01-09T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19136-1:2020(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19136:2007 to ISO 19136-1:2020(E),
-    3.1.49. Lineage source added as ISO 19136:2007(E)
+  review_decision_event: Publication of ISO 19136-1:2020(E)
+  review_decision_notes: Authoritative reference changed from ISO 19136:2007 to ISO
+    19136-1:2020(E), 3.1.49. Lineage source added as ISO 19136:2007(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: propriété <GML>
-      normative_status: preferred
   _revisions:
     current: 0d5498
     tree:
@@ -334,25 +350,24 @@ fra:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19136-1:2020'
-            clause: '(E), 3.1.49'
-            link: 'https://www.iso.org/standard/75676.html'
-          lineage_source: 'ISO 19136:2007(E)'
+            ref: ISO 19136-1:2020
+            clause: "(E), 3.1.49"
+            link: https://www.iso.org/standard/75676.html
+          lineage_source: ISO 19136:2007(E)
           lineage_source_similarity: 1
           date_accepted: '2007-09-01T00:00:00.000Z'
           review_date: '2020-01-09T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2020-01-09T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19136-1:2020(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19136:2007 to ISO
-            19136-1:2020(E), 3.1.49. Lineage source added as ISO 19136:2007(E)
+          review_decision_event: Publication of ISO 19136-1:2020(E)
+          review_decision_notes: Authoritative reference changed from ISO 19136:2007
+            to ISO 19136-1:2020(E), 3.1.49. Lineage source added as ISO 19136:2007(E)
           release: '1'
           terms:
-            - type: expression
-              designation: propriété <GML>
-              normative_status: preferred
+          - type: expression
+            designation: propriété <GML>
+            normative_status: preferred
         parents: []
         timeCreated: '2007-09-01T00:00:00.000Z'
         author:
@@ -360,36 +375,41 @@ fra:
           email: glossarist@ribose.com
 deu:
   id: 534
-  definition: Eigenschaft eines GML-Objekts
-  language_code: deu
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Eigenschaft <GML>
+  definition:
+  - content: Eigenschaft eines GML-Objekts
   notes:
-    - >-
-      It corresponds to feature attribute and feature association role in ISO
-      19109.  If a GML property of a feature has an xlink:href attribute that
-      references a feature, the property represents a feature association role.
+  - content: It corresponds to feature attribute and feature association role in ISO
+      19109.  If a GML property of a feature has an xlink:href attribute that references
+      a feature, the property represents a feature association role.
   examples: []
+  language_code: deu
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19136-1:2020'
-    clause: '(E), 3.1.49'
-    link: 'https://www.iso.org/standard/75676.html'
-  lineage_source: 'ISO 19136:2007(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19136-1:2020
+      clause: "(E), 3.1.49"
+      link: https://www.iso.org/standard/75676.html
+  - type: lineage
+    origin:
+      ref: ISO 19136:2007(E)
   lineage_source_similarity: 1
-  date_accepted: '2007-09-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2007-09-01T00:00:00.000Z'
   review_date: '2020-01-09T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2020-01-09T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19136-1:2020(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19136:2007 to ISO 19136-1:2020(E),
-    3.1.49. Lineage source added as ISO 19136:2007(E)
+  review_decision_event: Publication of ISO 19136-1:2020(E)
+  review_decision_notes: Authoritative reference changed from ISO 19136:2007 to ISO
+    19136-1:2020(E), 3.1.49. Lineage source added as ISO 19136:2007(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: Eigenschaft <GML>
-      normative_status: preferred
   _revisions:
     current: eb1c3a
     tree:
@@ -399,34 +419,31 @@ deu:
           definition: Eigenschaft eines GML-Objekts
           language_code: deu
           notes:
-            - >-
-              It corresponds to feature attribute and feature association role
-              in ISO 19109.  If a GML property of a feature has an xlink:href
-              attribute that references a feature, the property represents a
-              feature association role.
+          - It corresponds to feature attribute and feature association role in ISO
+            19109.  If a GML property of a feature has an xlink:href attribute that
+            references a feature, the property represents a feature association role.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19136-1:2020'
-            clause: '(E), 3.1.49'
-            link: 'https://www.iso.org/standard/75676.html'
-          lineage_source: 'ISO 19136:2007(E)'
+            ref: ISO 19136-1:2020
+            clause: "(E), 3.1.49"
+            link: https://www.iso.org/standard/75676.html
+          lineage_source: ISO 19136:2007(E)
           lineage_source_similarity: 1
           date_accepted: '2007-09-01T00:00:00.000Z'
           review_date: '2020-01-09T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2020-01-09T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19136-1:2020(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19136:2007 to ISO
-            19136-1:2020(E), 3.1.49. Lineage source added as ISO 19136:2007(E)
+          review_decision_event: Publication of ISO 19136-1:2020(E)
+          review_decision_notes: Authoritative reference changed from ISO 19136:2007
+            to ISO 19136-1:2020(E), 3.1.49. Lineage source added as ISO 19136:2007(E)
           release: '1'
           terms:
-            - type: expression
-              designation: Eigenschaft <GML>
-              normative_status: preferred
+          - type: expression
+            designation: Eigenschaft <GML>
+            normative_status: preferred
         parents: []
         timeCreated: '2007-09-01T00:00:00.000Z'
         author:
@@ -434,35 +451,40 @@ deu:
           email: glossarist@ribose.com
 kor:
   id: 534
-  definition: GML 객체의 자식 요소
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 속성 <GML>
+  definition:
+  - content: GML 객체의 자식 요소
   notes:
-    - >-
-      속성(property)은 KS X ISO 19109의 피처 속성, 피처 연관 규칙에 해당한다. 피처의 GML 속성은 피처를 참조하는
-      xlink:href 속성을 갖고, 그 속성은 피처 연관 규칙을 나타낸다.
+  - content: 속성(property)은 KS X ISO 19109의 피처 속성, 피처 연관 규칙에 해당한다. 피처의 GML 속성은 피처를
+      참조하는 xlink:href 속성을 갖고, 그 속성은 피처 연관 규칙을 나타낸다.
   examples: []
+  language_code: kor
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19136-1:2020'
-    clause: '(E), 3.1.49'
-    link: 'https://www.iso.org/standard/75676.html'
-  lineage_source: 'ISO 19136:2007(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19136-1:2020
+      clause: "(E), 3.1.49"
+      link: https://www.iso.org/standard/75676.html
+  - type: lineage
+    origin:
+      ref: ISO 19136:2007(E)
   lineage_source_similarity: 1
-  date_accepted: '2007-09-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2007-09-01T00:00:00.000Z'
   review_date: '2020-01-09T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2020-01-09T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19136-1:2020(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19136:2007 to ISO 19136-1:2020(E),
-    3.1.49. Lineage source added as ISO 19136:2007(E)
+  review_decision_event: Publication of ISO 19136-1:2020(E)
+  review_decision_notes: Authoritative reference changed from ISO 19136:2007 to ISO
+    19136-1:2020(E), 3.1.49. Lineage source added as ISO 19136:2007(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: 속성 <GML>
-      normative_status: preferred
   _revisions:
     current: c224c2
     tree:
@@ -472,32 +494,30 @@ kor:
           definition: GML 객체의 자식 요소
           language_code: kor
           notes:
-            - >-
-              속성(property)은 KS X ISO 19109의 피처 속성, 피처 연관 규칙에 해당한다. 피처의 GML 속성은
-              피처를 참조하는 xlink:href 속성을 갖고, 그 속성은 피처 연관 규칙을 나타낸다.
+          - 속성(property)은 KS X ISO 19109의 피처 속성, 피처 연관 규칙에 해당한다. 피처의 GML 속성은 피처를 참조하는
+            xlink:href 속성을 갖고, 그 속성은 피처 연관 규칙을 나타낸다.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19136-1:2020'
-            clause: '(E), 3.1.49'
-            link: 'https://www.iso.org/standard/75676.html'
-          lineage_source: 'ISO 19136:2007(E)'
+            ref: ISO 19136-1:2020
+            clause: "(E), 3.1.49"
+            link: https://www.iso.org/standard/75676.html
+          lineage_source: ISO 19136:2007(E)
           lineage_source_similarity: 1
           date_accepted: '2007-09-01T00:00:00.000Z'
           review_date: '2020-01-09T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2020-01-09T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19136-1:2020(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19136:2007 to ISO
-            19136-1:2020(E), 3.1.49. Lineage source added as ISO 19136:2007(E)
+          review_decision_event: Publication of ISO 19136-1:2020(E)
+          review_decision_notes: Authoritative reference changed from ISO 19136:2007
+            to ISO 19136-1:2020(E), 3.1.49. Lineage source added as ISO 19136:2007(E)
           release: '1'
           terms:
-            - type: expression
-              designation: 속성 <GML>
-              normative_status: preferred
+          - type: expression
+            designation: 속성 <GML>
+            normative_status: preferred
         parents: []
         timeCreated: '2007-09-01T00:00:00.000Z'
         author:
@@ -505,36 +525,41 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 534
-  definition: дочерний элемент   объекта в  GML
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: свойство <GML>
+  definition:
+  - content: дочерний элемент   объекта в  GML
   notes:
-    - >-
-      Соответствует атрибуту объекта и роли ассоциации объекта в ISO 19109.
-      Если свойство объекта в GML имеет атрибут xlink:href,  который относится к
-      объекту, то свойство представляет роль ассоциации объекта
+  - content: Соответствует атрибуту объекта и роли ассоциации объекта в ISO 19109.
+      Если свойство объекта в GML имеет атрибут xlink:href,  который относится к объекту,
+      то свойство представляет роль ассоциации объекта
   examples: []
+  language_code: rus
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19136-1:2020'
-    clause: '(E), 3.1.49'
-    link: 'https://www.iso.org/standard/75676.html'
-  lineage_source: 'ISO 19136:2007(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19136-1:2020
+      clause: "(E), 3.1.49"
+      link: https://www.iso.org/standard/75676.html
+  - type: lineage
+    origin:
+      ref: ISO 19136:2007(E)
   lineage_source_similarity: 1
-  date_accepted: '2007-09-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2007-09-01T00:00:00.000Z'
   review_date: '2020-01-09T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2020-01-09T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19136-1:2020(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19136:2007 to ISO 19136-1:2020(E),
-    3.1.49. Lineage source added as ISO 19136:2007(E)
+  review_decision_event: Publication of ISO 19136-1:2020(E)
+  review_decision_notes: Authoritative reference changed from ISO 19136:2007 to ISO
+    19136-1:2020(E), 3.1.49. Lineage source added as ISO 19136:2007(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: свойство <GML>
-      normative_status: preferred
   _revisions:
     current: 274e1a
     tree:
@@ -544,34 +569,31 @@ rus:
           definition: дочерний элемент   объекта в  GML
           language_code: rus
           notes:
-            - >-
-              Соответствует атрибуту объекта и роли ассоциации объекта в ISO
-              19109.  Если свойство объекта в GML имеет атрибут xlink:href,
-              который относится к объекту, то свойство представляет роль
-              ассоциации объекта
+          - Соответствует атрибуту объекта и роли ассоциации объекта в ISO 19109.  Если
+            свойство объекта в GML имеет атрибут xlink:href, который относится к объекту,
+            то свойство представляет роль ассоциации объекта
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19136-1:2020'
-            clause: '(E), 3.1.49'
-            link: 'https://www.iso.org/standard/75676.html'
-          lineage_source: 'ISO 19136:2007(E)'
+            ref: ISO 19136-1:2020
+            clause: "(E), 3.1.49"
+            link: https://www.iso.org/standard/75676.html
+          lineage_source: ISO 19136:2007(E)
           lineage_source_similarity: 1
           date_accepted: '2007-09-01T00:00:00.000Z'
           review_date: '2020-01-09T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2020-01-09T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19136-1:2020(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19136:2007 to ISO
-            19136-1:2020(E), 3.1.49. Lineage source added as ISO 19136:2007(E)
+          review_decision_event: Publication of ISO 19136-1:2020(E)
+          review_decision_notes: Authoritative reference changed from ISO 19136:2007
+            to ISO 19136-1:2020(E), 3.1.49. Lineage source added as ISO 19136:2007(E)
           release: '1'
           terms:
-            - type: expression
-              designation: свойство <GML>
-              normative_status: preferred
+          - type: expression
+            designation: свойство <GML>
+            normative_status: preferred
         parents: []
         timeCreated: '2007-09-01T00:00:00.000Z'
         author:
@@ -579,35 +601,40 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 534
-  definition: elemento hijo de un objeto GML
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: propiedad <GML>
+  definition:
+  - content: elemento hijo de un objeto GML
   notes:
-    - >-
-      Se corresponde con el rol atributo de objeto geográfico y asociación de
-      objeto geográfico en la Norma ISO 19109.
+  - content: Se corresponde con el rol atributo de objeto geográfico y asociación
+      de objeto geográfico en la Norma ISO 19109.
   examples: []
+  language_code: spa
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19136-1:2020'
-    clause: '(E), 3.1.49'
-    link: 'https://www.iso.org/standard/75676.html'
-  lineage_source: 'ISO 19136:2007(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19136-1:2020
+      clause: "(E), 3.1.49"
+      link: https://www.iso.org/standard/75676.html
+  - type: lineage
+    origin:
+      ref: ISO 19136:2007(E)
   lineage_source_similarity: 1
-  date_accepted: '2007-09-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2007-09-01T00:00:00.000Z'
   review_date: '2020-01-09T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2020-01-09T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19136-1:2020(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19136:2007 to ISO 19136-1:2020(E),
-    3.1.49. Lineage source added as ISO 19136:2007(E)
+  review_decision_event: Publication of ISO 19136-1:2020(E)
+  review_decision_notes: Authoritative reference changed from ISO 19136:2007 to ISO
+    19136-1:2020(E), 3.1.49. Lineage source added as ISO 19136:2007(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: propiedad <GML>
-      normative_status: preferred
   _revisions:
     current: 93926b
     tree:
@@ -617,32 +644,30 @@ spa:
           definition: elemento hijo de un objeto GML
           language_code: spa
           notes:
-            - >-
-              Se corresponde con el rol atributo de objeto geográfico y
-              asociación de objeto geográfico en la Norma ISO 19109.
+          - Se corresponde con el rol atributo de objeto geográfico y asociación de
+            objeto geográfico en la Norma ISO 19109.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19136-1:2020'
-            clause: '(E), 3.1.49'
-            link: 'https://www.iso.org/standard/75676.html'
-          lineage_source: 'ISO 19136:2007(E)'
+            ref: ISO 19136-1:2020
+            clause: "(E), 3.1.49"
+            link: https://www.iso.org/standard/75676.html
+          lineage_source: ISO 19136:2007(E)
           lineage_source_similarity: 1
           date_accepted: '2007-09-01T00:00:00.000Z'
           review_date: '2020-01-09T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2020-01-09T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19136-1:2020(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19136:2007 to ISO
-            19136-1:2020(E), 3.1.49. Lineage source added as ISO 19136:2007(E)
+          review_decision_event: Publication of ISO 19136-1:2020(E)
+          review_decision_notes: Authoritative reference changed from ISO 19136:2007
+            to ISO 19136-1:2020(E), 3.1.49. Lineage source added as ISO 19136:2007(E)
           release: '1'
           terms:
-            - type: expression
-              designation: propiedad <GML>
-              normative_status: preferred
+          - type: expression
+            designation: propiedad <GML>
+            normative_status: preferred
         parents: []
         timeCreated: '2007-09-01T00:00:00.000Z'
         author:

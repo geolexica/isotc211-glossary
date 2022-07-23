@@ -1,31 +1,37 @@
-term: geocentric terrestrial reference system
+---
 termid: 2397
+term: GTRS
 eng:
   id: 2397
-  abbrev: GTRS
-  definition: >-
-    system of geocentric space-time coordinates within the framework of General
-    Relativity, co-rotating with the Earth and related to the Geocentric
-    Celestial Reference System by a spatial rotation which takes into account
-    the Earth's orientation parameters
-  language_code: eng
+  terms:
+  - type: abbreviation
+    designation: GTRS
+  - type: expression
+    normative_status: preferred
+    designation: geocentric terrestrial reference system
+  definition:
+  - content: system of geocentric space-time coordinates within the framework of General
+      Relativity, co-rotating with the Earth and related to the Geocentric Celestial
+      Reference System by a spatial rotation which takes into account the Earth's
+      orientation parameters
   notes: []
   examples: []
+  language_code: eng
   entry_status: valid
-  authoritative_source:
-    ref: IAG and IUGG resolutions of 1991 and 2007
-  date_accepted: '2020-01-24T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: IAG and IUGG resolutions of 1991 and 2007
+  dates:
+  - type: accepted
+    date: '2020-01-24T00:00:00.000Z'
   review_date: '2020-01-24T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2020-01-24T00:00:00.000Z'
   review_decision_event: Normal ISO processing
-  review_decision_notes: 'Publication of document 19161-1:2020(E)'
+  review_decision_notes: Publication of document 19161-1:2020(E)
   release: '5'
-  terms:
-    - type: expression
-      designation: geocentric terrestrial reference system
-      normative_status: preferred
   _revisions:
     current: 12aa98
     tree:
@@ -33,11 +39,10 @@ eng:
         object:
           id: 2397
           abbrev: GTRS
-          definition: >-
-            system of geocentric space-time coordinates within the framework of
-            General Relativity, co-rotating with the Earth and related to the
-            Geocentric Celestial Reference System by a spatial rotation which
-            takes into account the Earth's orientation parameters
+          definition: system of geocentric space-time coordinates within the framework
+            of General Relativity, co-rotating with the Earth and related to the Geocentric
+            Celestial Reference System by a spatial rotation which takes into account
+            the Earth's orientation parameters
           language_code: eng
           notes: []
           examples: []
@@ -50,12 +55,12 @@ eng:
           review_decision: accepted
           review_decision_date: '2020-01-24T00:00:00.000Z'
           review_decision_event: Normal ISO processing
-          review_decision_notes: 'Publication of document 19161-1:2020(E)'
+          review_decision_notes: Publication of document 19161-1:2020(E)
           release: '5'
           terms:
-            - type: expression
-              designation: geocentric terrestrial reference system
-              normative_status: preferred
+          - type: expression
+            designation: geocentric terrestrial reference system
+            normative_status: preferred
         parents: []
         timeCreated: '2020-01-24T00:00:00.000Z'
         author:

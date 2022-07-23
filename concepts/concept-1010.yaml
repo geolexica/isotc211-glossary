@@ -1,36 +1,42 @@
-term: range resolution
+---
 termid: 1010
+term: range resolution
 eng:
   id: 1010
-  definition: spatial resolution in the range direction
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: range resolution
+  definition:
+  - content: spatial resolution in the range direction
   notes:
-    - >-
-      For a SAR sensor, it is usually measured in terms of the impulse response
-      of the sensor and processing system. It is a function of the bandwidth of
-      the pulse.
+  - content: For a SAR sensor, it is usually measured in terms of the impulse response
+      of the sensor and processing system. It is a function of the bandwidth of the
+      pulse.
   examples: []
+  language_code: eng
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19130-1:2018'
-    clause: '(E), 3.71'
-    link: 'https://www.iso.org/standard/66847.html'
-  lineage_source: 'ISO/TS 19130:2010(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19130-1:2018
+      clause: "(E), 3.71"
+      link: https://www.iso.org/standard/66847.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19130:2010(E)
   lineage_source_similarity: '1'
-  date_accepted: '2010-06-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2010-06-15T00:00:00.000Z'
   review_date: '2018-09-01T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2018-09-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/TS 19130:2010 to ISO
-    19130-1:2018(E), 3.71. Lineage source added as ISO/TS 19130:2010(E)
+  review_decision_event: Publication of ISO 19130-1:2018(E)
+  review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010 to
+    ISO 19130-1:2018(E), 3.71. Lineage source added as ISO/TS 19130:2010(E)
   release: '2'
-  terms:
-    - type: expression
-      designation: range resolution
-      normative_status: preferred
   _revisions:
     current: c8b6bc
     tree:
@@ -40,32 +46,30 @@ eng:
           definition: spatial resolution in the range direction
           language_code: eng
           notes:
-            - >-
-              For a SAR sensor, it is usually measured in terms of the impulse
-              response of the sensor and processing system. It is a function of
-              the bandwidth of the pulse.
+          - For a SAR sensor, it is usually measured in terms of the impulse response
+            of the sensor and processing system. It is a function of the bandwidth
+            of the pulse.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19130-1:2018'
-            clause: '(E), 3.71'
-            link: 'https://www.iso.org/standard/66847.html'
-          lineage_source: 'ISO/TS 19130:2010(E)'
+            ref: ISO 19130-1:2018
+            clause: "(E), 3.71"
+            link: https://www.iso.org/standard/66847.html
+          lineage_source: ISO/TS 19130:2010(E)
           lineage_source_similarity: '1'
           date_accepted: '2010-06-15T00:00:00.000Z'
           review_date: '2018-09-01T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2018-09-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/TS 19130:2010 to ISO
-            19130-1:2018(E), 3.71. Lineage source added as ISO/TS 19130:2010(E)
+          review_decision_event: Publication of ISO 19130-1:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010
+            to ISO 19130-1:2018(E), 3.71. Lineage source added as ISO/TS 19130:2010(E)
           release: '2'
           terms:
-            - type: expression
-              designation: range resolution
-              normative_status: preferred
+          - type: expression
+            designation: range resolution
+            normative_status: preferred
         parents: []
         timeCreated: '2010-06-15T00:00:00.000Z'
         author:
@@ -73,34 +77,39 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 1010
-  definition: الوضوح المكاني في اتجاه المدى
-  language_code: ara
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: وضوح المدى
+  definition:
+  - content: الوضوح المكاني في اتجاه المدى
   notes:
-    - >-
-      بالنسبة لجهاز استشعار الرادار "سار" ، يقاس (الوضوح) عادة من خلال استجابة
+  - content: بالنسبة لجهاز استشعار الرادار "سار" ، يقاس (الوضوح) عادة من خلال استجابة
       نبضات جهاز الاستشعار ونظام المعالجة. هو دالة تتعلق بعرض موجة النبضة.
   examples: []
+  language_code: ara
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19130-1:2018'
-    clause: '(E), 3.71'
-    link: 'https://www.iso.org/standard/66847.html'
-  lineage_source: 'ISO/TS 19130:2010(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19130-1:2018
+      clause: "(E), 3.71"
+      link: https://www.iso.org/standard/66847.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19130:2010(E)
   lineage_source_similarity: '1'
-  date_accepted: '2010-06-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2010-06-15T00:00:00.000Z'
   review_date: '2018-09-01T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2018-09-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/TS 19130:2010 to ISO
-    19130-1:2018(E), 3.71. Lineage source added as ISO/TS 19130:2010(E)
+  review_decision_event: Publication of ISO 19130-1:2018(E)
+  review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010 to
+    ISO 19130-1:2018(E), 3.71. Lineage source added as ISO/TS 19130:2010(E)
   release: '2'
-  terms:
-    - type: expression
-      designation: وضوح المدى
-      normative_status: preferred
   _revisions:
     current: a39522
     tree:
@@ -110,32 +119,29 @@ ara:
           definition: الوضوح المكاني في اتجاه المدى
           language_code: ara
           notes:
-            - >-
-              بالنسبة لجهاز استشعار الرادار "سار" ، يقاس (الوضوح) عادة من خلال
-              استجابة نبضات جهاز الاستشعار ونظام المعالجة. هو دالة تتعلق بعرض
-              موجة النبضة.
+          - بالنسبة لجهاز استشعار الرادار "سار" ، يقاس (الوضوح) عادة من خلال استجابة
+            نبضات جهاز الاستشعار ونظام المعالجة. هو دالة تتعلق بعرض موجة النبضة.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19130-1:2018'
-            clause: '(E), 3.71'
-            link: 'https://www.iso.org/standard/66847.html'
-          lineage_source: 'ISO/TS 19130:2010(E)'
+            ref: ISO 19130-1:2018
+            clause: "(E), 3.71"
+            link: https://www.iso.org/standard/66847.html
+          lineage_source: ISO/TS 19130:2010(E)
           lineage_source_similarity: '1'
           date_accepted: '2010-06-15T00:00:00.000Z'
           review_date: '2018-09-01T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2018-09-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/TS 19130:2010 to ISO
-            19130-1:2018(E), 3.71. Lineage source added as ISO/TS 19130:2010(E)
+          review_decision_event: Publication of ISO 19130-1:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010
+            to ISO 19130-1:2018(E), 3.71. Lineage source added as ISO/TS 19130:2010(E)
           release: '2'
           terms:
-            - type: expression
-              designation: وضوح المدى
-              normative_status: preferred
+          - type: expression
+            designation: وضوح المدى
+            normative_status: preferred
         parents: []
         timeCreated: '2010-06-15T00:00:00.000Z'
         author:
@@ -143,35 +149,40 @@ ara:
           email: glossarist@ribose.com
 deu:
   id: 1010
-  definition: Streckenauflösung des Radarstrahls
-  language_code: deu
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Streckenauflösung
+  definition:
+  - content: Streckenauflösung des Radarstrahls
   notes:
-    - >-
-      For a SAR sensor, it is usually measured in terms of the impulse response
-      of the sensor and processing system. It is a function of the bandwidth of
-      the pulse.
+  - content: For a SAR sensor, it is usually measured in terms of the impulse response
+      of the sensor and processing system. It is a function of the bandwidth of the
+      pulse.
   examples: []
+  language_code: deu
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19130-1:2018'
-    clause: '(E), 3.71'
-    link: 'https://www.iso.org/standard/66847.html'
-  lineage_source: 'ISO/TS 19130:2010(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19130-1:2018
+      clause: "(E), 3.71"
+      link: https://www.iso.org/standard/66847.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19130:2010(E)
   lineage_source_similarity: '1'
-  date_accepted: '2010-06-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2010-06-15T00:00:00.000Z'
   review_date: '2018-09-01T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2018-09-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/TS 19130:2010 to ISO
-    19130-1:2018(E), 3.71. Lineage source added as ISO/TS 19130:2010(E)
+  review_decision_event: Publication of ISO 19130-1:2018(E)
+  review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010 to
+    ISO 19130-1:2018(E), 3.71. Lineage source added as ISO/TS 19130:2010(E)
   release: '2'
-  terms:
-    - type: expression
-      designation: Streckenauflösung
-      normative_status: preferred
   _revisions:
     current: 5b7f0a
     tree:
@@ -181,32 +192,30 @@ deu:
           definition: Streckenauflösung des Radarstrahls
           language_code: deu
           notes:
-            - >-
-              For a SAR sensor, it is usually measured in terms of the impulse
-              response of the sensor and processing system. It is a function of
-              the bandwidth of the pulse.
+          - For a SAR sensor, it is usually measured in terms of the impulse response
+            of the sensor and processing system. It is a function of the bandwidth
+            of the pulse.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19130-1:2018'
-            clause: '(E), 3.71'
-            link: 'https://www.iso.org/standard/66847.html'
-          lineage_source: 'ISO/TS 19130:2010(E)'
+            ref: ISO 19130-1:2018
+            clause: "(E), 3.71"
+            link: https://www.iso.org/standard/66847.html
+          lineage_source: ISO/TS 19130:2010(E)
           lineage_source_similarity: '1'
           date_accepted: '2010-06-15T00:00:00.000Z'
           review_date: '2018-09-01T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2018-09-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/TS 19130:2010 to ISO
-            19130-1:2018(E), 3.71. Lineage source added as ISO/TS 19130:2010(E)
+          review_decision_event: Publication of ISO 19130-1:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010
+            to ISO 19130-1:2018(E), 3.71. Lineage source added as ISO/TS 19130:2010(E)
           release: '2'
           terms:
-            - type: expression
-              designation: Streckenauflösung
-              normative_status: preferred
+          - type: expression
+            designation: Streckenauflösung
+            normative_status: preferred
         parents: []
         timeCreated: '2010-06-15T00:00:00.000Z'
         author:
@@ -214,35 +223,40 @@ deu:
           email: glossarist@ribose.com
 kor:
   id: 1010
-  definition: 범위 방향내의 공간 해상도
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 거리 분해능
+  definition:
+  - content: 범위 방향내의 공간 해상도
   notes:
-    - >-
-      For a SAR sensor, it is usually measured in terms of the impulse response
-      of the sensor and processing system. It is a function of the bandwidth of
-      the pulse.
+  - content: For a SAR sensor, it is usually measured in terms of the impulse response
+      of the sensor and processing system. It is a function of the bandwidth of the
+      pulse.
   examples: []
+  language_code: kor
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19130-1:2018'
-    clause: '(E), 3.71'
-    link: 'https://www.iso.org/standard/66847.html'
-  lineage_source: 'ISO/TS 19130:2010(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19130-1:2018
+      clause: "(E), 3.71"
+      link: https://www.iso.org/standard/66847.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19130:2010(E)
   lineage_source_similarity: '1'
-  date_accepted: '2010-06-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2010-06-15T00:00:00.000Z'
   review_date: '2018-09-01T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2018-09-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/TS 19130:2010 to ISO
-    19130-1:2018(E), 3.71. Lineage source added as ISO/TS 19130:2010(E)
+  review_decision_event: Publication of ISO 19130-1:2018(E)
+  review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010 to
+    ISO 19130-1:2018(E), 3.71. Lineage source added as ISO/TS 19130:2010(E)
   release: '2'
-  terms:
-    - type: expression
-      designation: 거리 분해능
-      normative_status: preferred
   _revisions:
     current: 8ee66a
     tree:
@@ -252,32 +266,30 @@ kor:
           definition: 범위 방향내의 공간 해상도
           language_code: kor
           notes:
-            - >-
-              For a SAR sensor, it is usually measured in terms of the impulse
-              response of the sensor and processing system. It is a function of
-              the bandwidth of the pulse.
+          - For a SAR sensor, it is usually measured in terms of the impulse response
+            of the sensor and processing system. It is a function of the bandwidth
+            of the pulse.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19130-1:2018'
-            clause: '(E), 3.71'
-            link: 'https://www.iso.org/standard/66847.html'
-          lineage_source: 'ISO/TS 19130:2010(E)'
+            ref: ISO 19130-1:2018
+            clause: "(E), 3.71"
+            link: https://www.iso.org/standard/66847.html
+          lineage_source: ISO/TS 19130:2010(E)
           lineage_source_similarity: '1'
           date_accepted: '2010-06-15T00:00:00.000Z'
           review_date: '2018-09-01T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2018-09-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/TS 19130:2010 to ISO
-            19130-1:2018(E), 3.71. Lineage source added as ISO/TS 19130:2010(E)
+          review_decision_event: Publication of ISO 19130-1:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010
+            to ISO 19130-1:2018(E), 3.71. Lineage source added as ISO/TS 19130:2010(E)
           release: '2'
           terms:
-            - type: expression
-              designation: 거리 분해능
-              normative_status: preferred
+          - type: expression
+            designation: 거리 분해능
+            normative_status: preferred
         parents: []
         timeCreated: '2010-06-15T00:00:00.000Z'
         author:
@@ -285,35 +297,40 @@ kor:
           email: glossarist@ribose.com
 msa:
   id: 1010
-  definition: resolusi spatial dalam arah jarak
-  language_code: msa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: julat Resolusi
+  definition:
+  - content: resolusi spatial dalam arah jarak
   notes:
-    - >-
-      For a SAR sensor, it is usually measured in terms of the impulse response
-      of the sensor and processing system. It is a function of the bandwidth of
-      the pulse.
+  - content: For a SAR sensor, it is usually measured in terms of the impulse response
+      of the sensor and processing system. It is a function of the bandwidth of the
+      pulse.
   examples: []
+  language_code: msa
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19130-1:2018'
-    clause: '(E), 3.71'
-    link: 'https://www.iso.org/standard/66847.html'
-  lineage_source: 'ISO/TS 19130:2010(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19130-1:2018
+      clause: "(E), 3.71"
+      link: https://www.iso.org/standard/66847.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19130:2010(E)
   lineage_source_similarity: '1'
-  date_accepted: '2010-06-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2010-06-15T00:00:00.000Z'
   review_date: '2018-09-01T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2018-09-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/TS 19130:2010 to ISO
-    19130-1:2018(E), 3.71. Lineage source added as ISO/TS 19130:2010(E)
+  review_decision_event: Publication of ISO 19130-1:2018(E)
+  review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010 to
+    ISO 19130-1:2018(E), 3.71. Lineage source added as ISO/TS 19130:2010(E)
   release: '2'
-  terms:
-    - type: expression
-      designation: julat Resolusi
-      normative_status: preferred
   _revisions:
     current: '981713'
     tree:
@@ -323,32 +340,30 @@ msa:
           definition: resolusi spatial dalam arah jarak
           language_code: msa
           notes:
-            - >-
-              For a SAR sensor, it is usually measured in terms of the impulse
-              response of the sensor and processing system. It is a function of
-              the bandwidth of the pulse.
+          - For a SAR sensor, it is usually measured in terms of the impulse response
+            of the sensor and processing system. It is a function of the bandwidth
+            of the pulse.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19130-1:2018'
-            clause: '(E), 3.71'
-            link: 'https://www.iso.org/standard/66847.html'
-          lineage_source: 'ISO/TS 19130:2010(E)'
+            ref: ISO 19130-1:2018
+            clause: "(E), 3.71"
+            link: https://www.iso.org/standard/66847.html
+          lineage_source: ISO/TS 19130:2010(E)
           lineage_source_similarity: '1'
           date_accepted: '2010-06-15T00:00:00.000Z'
           review_date: '2018-09-01T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2018-09-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/TS 19130:2010 to ISO
-            19130-1:2018(E), 3.71. Lineage source added as ISO/TS 19130:2010(E)
+          review_decision_event: Publication of ISO 19130-1:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010
+            to ISO 19130-1:2018(E), 3.71. Lineage source added as ISO/TS 19130:2010(E)
           release: '2'
           terms:
-            - type: expression
-              designation: julat Resolusi
-              normative_status: preferred
+          - type: expression
+            designation: julat Resolusi
+            normative_status: preferred
         parents: []
         timeCreated: '2010-06-15T00:00:00.000Z'
         author:
@@ -356,35 +371,39 @@ msa:
           email: glossarist@ribose.com
 rus:
   id: 1010
-  definition: Пространственное разрешение в направлении вектора дальности
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Разрешение по дальности
+  definition:
+  - content: Пространственное разрешение в направлении вектора дальности
   notes:
-    - >-
-      для датчика SAR он обычно измеряется с точки зрения импульсной
-      характеристики датчика и системы обработки. Это функция полосы пропускания
-      импульса.
+  - content: для датчика SAR он обычно измеряется с точки зрения импульсной характеристики
+      датчика и системы обработки. Это функция полосы пропускания импульса.
   examples: []
+  language_code: rus
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19130-1:2018'
-    clause: '(E), 3.71'
-    link: 'https://www.iso.org/standard/66847.html'
-  lineage_source: 'ISO/TS 19130:2010(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19130-1:2018
+      clause: "(E), 3.71"
+      link: https://www.iso.org/standard/66847.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19130:2010(E)
   lineage_source_similarity: '1'
-  date_accepted: '2010-06-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2010-06-15T00:00:00.000Z'
   review_date: '2018-09-01T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2018-09-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/TS 19130:2010 to ISO
-    19130-1:2018(E), 3.71. Lineage source added as ISO/TS 19130:2010(E)
+  review_decision_event: Publication of ISO 19130-1:2018(E)
+  review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010 to
+    ISO 19130-1:2018(E), 3.71. Lineage source added as ISO/TS 19130:2010(E)
   release: '2'
-  terms:
-    - type: expression
-      designation: Разрешение по дальности
-      normative_status: preferred
   _revisions:
     current: f6ab40
     tree:
@@ -394,32 +413,29 @@ rus:
           definition: Пространственное разрешение в направлении вектора дальности
           language_code: rus
           notes:
-            - >-
-              для датчика SAR он обычно измеряется с точки зрения импульсной
-              характеристики датчика и системы обработки. Это функция полосы
-              пропускания импульса.
+          - для датчика SAR он обычно измеряется с точки зрения импульсной характеристики
+            датчика и системы обработки. Это функция полосы пропускания импульса.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19130-1:2018'
-            clause: '(E), 3.71'
-            link: 'https://www.iso.org/standard/66847.html'
-          lineage_source: 'ISO/TS 19130:2010(E)'
+            ref: ISO 19130-1:2018
+            clause: "(E), 3.71"
+            link: https://www.iso.org/standard/66847.html
+          lineage_source: ISO/TS 19130:2010(E)
           lineage_source_similarity: '1'
           date_accepted: '2010-06-15T00:00:00.000Z'
           review_date: '2018-09-01T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2018-09-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/TS 19130:2010 to ISO
-            19130-1:2018(E), 3.71. Lineage source added as ISO/TS 19130:2010(E)
+          review_decision_event: Publication of ISO 19130-1:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010
+            to ISO 19130-1:2018(E), 3.71. Lineage source added as ISO/TS 19130:2010(E)
           release: '2'
           terms:
-            - type: expression
-              designation: Разрешение по дальности
-              normative_status: preferred
+          - type: expression
+            designation: Разрешение по дальности
+            normative_status: preferred
         parents: []
         timeCreated: '2010-06-15T00:00:00.000Z'
         author:
@@ -427,35 +443,40 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 1010
-  definition: resolución espacial en la dirección del vector distancia
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: resolución de distancia (range resolucion) <SAR>
+  definition:
+  - content: resolución espacial en la dirección del vector distancia
   notes:
-    - >-
-      Para un sensor SAR, esto se mide normalmente en terminos de la respuesta
-      del impulso del sensor y el sistema de procesamiento. Es función del ancho
-      de banda del pulso.
+  - content: Para un sensor SAR, esto se mide normalmente en terminos de la respuesta
+      del impulso del sensor y el sistema de procesamiento. Es función del ancho de
+      banda del pulso.
   examples: []
+  language_code: spa
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19130-1:2018'
-    clause: '(E), 3.71'
-    link: 'https://www.iso.org/standard/66847.html'
-  lineage_source: 'ISO/TS 19130:2010(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19130-1:2018
+      clause: "(E), 3.71"
+      link: https://www.iso.org/standard/66847.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19130:2010(E)
   lineage_source_similarity: '1'
-  date_accepted: '2010-06-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2010-06-15T00:00:00.000Z'
   review_date: '2018-09-01T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2018-09-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/TS 19130:2010 to ISO
-    19130-1:2018(E), 3.71. Lineage source added as ISO/TS 19130:2010(E)
+  review_decision_event: Publication of ISO 19130-1:2018(E)
+  review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010 to
+    ISO 19130-1:2018(E), 3.71. Lineage source added as ISO/TS 19130:2010(E)
   release: '2'
-  terms:
-    - type: expression
-      designation: resolución de distancia (range resolucion) <SAR>
-      normative_status: preferred
   _revisions:
     current: 017b73
     tree:
@@ -465,32 +486,30 @@ spa:
           definition: resolución espacial en la dirección del vector distancia
           language_code: spa
           notes:
-            - >-
-              Para un sensor SAR, esto se mide normalmente en terminos de la
-              respuesta del impulso del sensor y el sistema de procesamiento. Es
-              función del ancho de banda del pulso.
+          - Para un sensor SAR, esto se mide normalmente en terminos de la respuesta
+            del impulso del sensor y el sistema de procesamiento. Es función del ancho
+            de banda del pulso.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19130-1:2018'
-            clause: '(E), 3.71'
-            link: 'https://www.iso.org/standard/66847.html'
-          lineage_source: 'ISO/TS 19130:2010(E)'
+            ref: ISO 19130-1:2018
+            clause: "(E), 3.71"
+            link: https://www.iso.org/standard/66847.html
+          lineage_source: ISO/TS 19130:2010(E)
           lineage_source_similarity: '1'
           date_accepted: '2010-06-15T00:00:00.000Z'
           review_date: '2018-09-01T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2018-09-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/TS 19130:2010 to ISO
-            19130-1:2018(E), 3.71. Lineage source added as ISO/TS 19130:2010(E)
+          review_decision_event: Publication of ISO 19130-1:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010
+            to ISO 19130-1:2018(E), 3.71. Lineage source added as ISO/TS 19130:2010(E)
           release: '2'
           terms:
-            - type: expression
-              designation: resolución de distancia (range resolucion) <SAR>
-              normative_status: preferred
+          - type: expression
+            designation: resolución de distancia (range resolucion) <SAR>
+            normative_status: preferred
         parents: []
         timeCreated: '2010-06-15T00:00:00.000Z'
         author:

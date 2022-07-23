@@ -1,55 +1,57 @@
-term: nominal value
+---
 termid: 863
+term: nominal value
 eng:
   id: 863
-  definition: 'name of an object, type, or category'
-  language_code: eng
-  notes:
-    - >-
-      Many feature attributes take nominal rather than numerical values.  The
-      value domain of such an attribute is usually specified as an enumeration
-      or a code list.
-  examples:
-    - >-
-      "Deciduous needle leaf" is a nominal value that identifies a vegetation
-      type.
-  entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19126:2009'
-    link: 'https://www.iso.org/standard/44875.html'
-  date_accepted: '2009-11-01T00:00:00.000Z'
-  release: '2'
   terms:
-    - type: expression
-      designation: nominal value
-      normative_status: preferred
+  - type: expression
+    normative_status: preferred
+    designation: nominal value
+  definition:
+  - content: name of an object, type, or category
+  notes:
+  - content: Many feature attributes take nominal rather than numerical values.  The
+      value domain of such an attribute is usually specified as an enumeration or
+      a code list.
+  examples:
+  - content: '"Deciduous needle leaf" is a nominal value that identifies a vegetation
+      type.'
+  language_code: eng
+  entry_status: valid
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19126:2009
+      link: https://www.iso.org/standard/44875.html
+  dates:
+  - type: accepted
+    date: '2009-11-01T00:00:00.000Z'
+  release: '2'
   _revisions:
     current: ae1084
     tree:
       ae1084:
         object:
           id: 863
-          definition: 'name of an object, type, or category'
+          definition: name of an object, type, or category
           language_code: eng
           notes:
-            - >-
-              Many feature attributes take nominal rather than numerical
-              values.  The value domain of such an attribute is usually
-              specified as an enumeration or a code list.
+          - Many feature attributes take nominal rather than numerical values.  The
+            value domain of such an attribute is usually specified as an enumeration
+            or a code list.
           examples:
-            - >-
-              "Deciduous needle leaf" is a nominal value that identifies a
-              vegetation type.
+          - '"Deciduous needle leaf" is a nominal value that identifies a vegetation
+            type.'
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19126:2009'
-            link: 'https://www.iso.org/standard/44875.html'
+            ref: ISO 19126:2009
+            link: https://www.iso.org/standard/44875.html
           date_accepted: '2009-11-01T00:00:00.000Z'
           release: '2'
           terms:
-            - type: expression
-              designation: nominal value
-              normative_status: preferred
+          - type: expression
+            designation: nominal value
+            normative_status: preferred
         parents: []
         timeCreated: '2009-11-01T00:00:00.000Z'
         author:
@@ -57,25 +59,29 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 863
-  definition: إسم لكائن أو نوع أو فئة.
-  language_code: ara
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: القيمة الإسمية
+  definition:
+  - content: إسم لكائن أو نوع أو فئة.
   notes:
-    - >-
-      كثير من البيانات الوصفية للمعالم تكون قيما إسمية وليس قيما رقمية. وعادة ما
-      يحدد الحيز المخصص للقيمة بالنسبة لهذه البيانات الوصفية بشكل جدول للتعداد
+  - content: كثير من البيانات الوصفية للمعالم تكون قيما إسمية وليس قيما رقمية. وعادة
+      ما يحدد الحيز المخصص للقيمة بالنسبة لهذه البيانات الوصفية بشكل جدول للتعداد
       أو إدخال الرموز.
   examples:
-    - '"أوراق النبات الدقيقة المتساقطة" قيمة إسمية تحدد نوعا من الغطاء النباتي.'
+  - content: '"أوراق النبات الدقيقة المتساقطة" قيمة إسمية تحدد نوعا من الغطاء النباتي.'
+  language_code: ara
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19126:2009'
-    link: 'https://www.iso.org/standard/44875.html'
-  date_accepted: '2009-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19126:2009
+      link: https://www.iso.org/standard/44875.html
+  dates:
+  - type: accepted
+    date: '2009-11-01T00:00:00.000Z'
   release: '2'
-  terms:
-    - type: expression
-      designation: القيمة الإسمية
-      normative_status: preferred
   _revisions:
     current: 8b4cca
     tree:
@@ -85,24 +91,21 @@ ara:
           definition: إسم لكائن أو نوع أو فئة.
           language_code: ara
           notes:
-            - >-
-              كثير من البيانات الوصفية للمعالم تكون قيما إسمية وليس قيما رقمية.
-              وعادة ما يحدد الحيز المخصص للقيمة بالنسبة لهذه البيانات الوصفية
-              بشكل جدول للتعداد أو إدخال الرموز.
+          - كثير من البيانات الوصفية للمعالم تكون قيما إسمية وليس قيما رقمية. وعادة
+            ما يحدد الحيز المخصص للقيمة بالنسبة لهذه البيانات الوصفية بشكل جدول للتعداد
+            أو إدخال الرموز.
           examples:
-            - >-
-              "أوراق النبات الدقيقة المتساقطة" قيمة إسمية تحدد نوعا من الغطاء
-              النباتي.
+          - '"أوراق النبات الدقيقة المتساقطة" قيمة إسمية تحدد نوعا من الغطاء النباتي.'
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19126:2009'
-            link: 'https://www.iso.org/standard/44875.html'
+            ref: ISO 19126:2009
+            link: https://www.iso.org/standard/44875.html
           date_accepted: '2009-11-01T00:00:00.000Z'
           release: '2'
           terms:
-            - type: expression
-              designation: القيمة الإسمية
-              normative_status: preferred
+          - type: expression
+            designation: القيمة الإسمية
+            normative_status: preferred
         parents: []
         timeCreated: '2009-11-01T00:00:00.000Z'
         author:
@@ -110,26 +113,28 @@ ara:
           email: glossarist@ribose.com
 deu:
   id: 863
-  language_code: deu
-  notes:
-    - >-
-      Many feature attributes take nominal rather than numerical values.  The
-      value domain of such an attribute is usually specified as an enumeration
-      or a code list.
-  examples:
-    - >-
-      "Deciduous needle leaf" is a nominal value that identifies a vegetation
-      type.
-  entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19126:2009'
-    link: 'https://www.iso.org/standard/44875.html'
-  date_accepted: '2009-11-01T00:00:00.000Z'
-  release: '2'
   terms:
-    - type: expression
-      designation: Nominalwert
-      normative_status: preferred
+  - type: expression
+    normative_status: preferred
+    designation: Nominalwert
+  notes:
+  - content: Many feature attributes take nominal rather than numerical values.  The
+      value domain of such an attribute is usually specified as an enumeration or
+      a code list.
+  examples:
+  - content: '"Deciduous needle leaf" is a nominal value that identifies a vegetation
+      type.'
+  language_code: deu
+  entry_status: valid
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19126:2009
+      link: https://www.iso.org/standard/44875.html
+  dates:
+  - type: accepted
+    date: '2009-11-01T00:00:00.000Z'
+  release: '2'
   _revisions:
     current: e6c8f9
     tree:
@@ -138,24 +143,22 @@ deu:
           id: 863
           language_code: deu
           notes:
-            - >-
-              Many feature attributes take nominal rather than numerical
-              values.  The value domain of such an attribute is usually
-              specified as an enumeration or a code list.
+          - Many feature attributes take nominal rather than numerical values.  The
+            value domain of such an attribute is usually specified as an enumeration
+            or a code list.
           examples:
-            - >-
-              "Deciduous needle leaf" is a nominal value that identifies a
-              vegetation type.
+          - '"Deciduous needle leaf" is a nominal value that identifies a vegetation
+            type.'
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19126:2009'
-            link: 'https://www.iso.org/standard/44875.html'
+            ref: ISO 19126:2009
+            link: https://www.iso.org/standard/44875.html
           date_accepted: '2009-11-01T00:00:00.000Z'
           release: '2'
           terms:
-            - type: expression
-              designation: Nominalwert
-              normative_status: preferred
+          - type: expression
+            designation: Nominalwert
+            normative_status: preferred
         parents: []
         timeCreated: '2009-11-01T00:00:00.000Z'
         author:
@@ -163,54 +166,55 @@ deu:
           email: glossarist@ribose.com
 kor:
   id: 863
-  definition: '범주, 유형, 개체의 명칭'
-  language_code: kor
-  notes:
-    - >-
-      Many feature attributes take nominal rather than numerical values.  The
-      value domain of such an attribute is usually specified as an enumeration
-      or a code list.
-  examples:
-    - >-
-      "Deciduous needle leaf" is a nominal value that identifies a vegetation
-      type.
-  entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19126:2009'
-    link: 'https://www.iso.org/standard/44875.html'
-  date_accepted: '2009-11-01T00:00:00.000Z'
-  release: '2'
   terms:
-    - type: expression
-      designation: 명칭값
-      normative_status: preferred
+  - type: expression
+    normative_status: preferred
+    designation: 명칭값
+  definition:
+  - content: 범주, 유형, 개체의 명칭
+  notes:
+  - content: Many feature attributes take nominal rather than numerical values.  The
+      value domain of such an attribute is usually specified as an enumeration or
+      a code list.
+  examples:
+  - content: '"Deciduous needle leaf" is a nominal value that identifies a vegetation
+      type.'
+  language_code: kor
+  entry_status: valid
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19126:2009
+      link: https://www.iso.org/standard/44875.html
+  dates:
+  - type: accepted
+    date: '2009-11-01T00:00:00.000Z'
+  release: '2'
   _revisions:
     current: 783c15
     tree:
       783c15:
         object:
           id: 863
-          definition: '범주, 유형, 개체의 명칭'
+          definition: 범주, 유형, 개체의 명칭
           language_code: kor
           notes:
-            - >-
-              Many feature attributes take nominal rather than numerical
-              values.  The value domain of such an attribute is usually
-              specified as an enumeration or a code list.
+          - Many feature attributes take nominal rather than numerical values.  The
+            value domain of such an attribute is usually specified as an enumeration
+            or a code list.
           examples:
-            - >-
-              "Deciduous needle leaf" is a nominal value that identifies a
-              vegetation type.
+          - '"Deciduous needle leaf" is a nominal value that identifies a vegetation
+            type.'
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19126:2009'
-            link: 'https://www.iso.org/standard/44875.html'
+            ref: ISO 19126:2009
+            link: https://www.iso.org/standard/44875.html
           date_accepted: '2009-11-01T00:00:00.000Z'
           release: '2'
           terms:
-            - type: expression
-              designation: 명칭값
-              normative_status: preferred
+          - type: expression
+            designation: 명칭값
+            normative_status: preferred
         parents: []
         timeCreated: '2009-11-01T00:00:00.000Z'
         author:
@@ -218,56 +222,59 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 863
-  definition: 'имя объекта, типа или категории'
-  language_code: rus
-  notes:
-    - >-
-      Многие атрибуты объектов принимают номинальные, а не числовые значения.
-      Домен значений такого атрибута обычно указывается как перечисление или
-      список кодов.
-  examples:
-    - >-
-      " лиственный игольчатый лист " - это номинальное значение, определяющее
-      тип растительности.
-  entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19126:2009'
-    link: 'https://www.iso.org/standard/44875.html'
-  lineage_source: 'перевод ИСО 19126:2009'
-  date_accepted: '2009-11-01T00:00:00.000Z'
-  release: '2'
   terms:
-    - type: expression
-      designation: номинальное значение
-      normative_status: preferred
+  - type: expression
+    normative_status: preferred
+    designation: номинальное значение
+  definition:
+  - content: имя объекта, типа или категории
+  notes:
+  - content: Многие атрибуты объектов принимают номинальные, а не числовые значения.
+      Домен значений такого атрибута обычно указывается как перечисление или список
+      кодов.
+  examples:
+  - content: '" лиственный игольчатый лист " - это номинальное значение, определяющее
+      тип растительности.'
+  language_code: rus
+  entry_status: valid
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19126:2009
+      link: https://www.iso.org/standard/44875.html
+  - type: lineage
+    origin:
+      ref: перевод ИСО 19126:2009
+  dates:
+  - type: accepted
+    date: '2009-11-01T00:00:00.000Z'
+  release: '2'
   _revisions:
     current: 3ecd77
     tree:
       3ecd77:
         object:
           id: 863
-          definition: 'имя объекта, типа или категории'
+          definition: имя объекта, типа или категории
           language_code: rus
           notes:
-            - >-
-              Многие атрибуты объектов принимают номинальные, а не числовые
-              значения.  Домен значений такого атрибута обычно указывается как
-              перечисление или список кодов.
+          - Многие атрибуты объектов принимают номинальные, а не числовые значения.  Домен
+            значений такого атрибута обычно указывается как перечисление или список
+            кодов.
           examples:
-            - >-
-              " лиственный игольчатый лист " - это номинальное значение,
-              определяющее тип растительности.
+          - '" лиственный игольчатый лист " - это номинальное значение, определяющее
+            тип растительности.'
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19126:2009'
-            link: 'https://www.iso.org/standard/44875.html'
-          lineage_source: 'перевод ИСО 19126:2009'
+            ref: ISO 19126:2009
+            link: https://www.iso.org/standard/44875.html
+          lineage_source: перевод ИСО 19126:2009
           date_accepted: '2009-11-01T00:00:00.000Z'
           release: '2'
           terms:
-            - type: expression
-              designation: номинальное значение
-              normative_status: preferred
+          - type: expression
+            designation: номинальное значение
+            normative_status: preferred
         parents: []
         timeCreated: '2009-11-01T00:00:00.000Z'
         author:
@@ -275,54 +282,55 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 863
-  definition: 'nombre de un objeto, tipo o categoría'
-  language_code: spa
-  notes:
-    - >-
-      Muchos atributos de fenómeno toman valores nominales en vez de numéricos.
-      El dominio de valores de un atributo de esta clase se suele especificar
-      como una enumeración o una lista controlada.
-  examples:
-    - >-
-      “Hoja caduca acicular” es un valor nominal que identifica un tipo de
-      vegetación.
-  entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19126:2009'
-    link: 'https://www.iso.org/standard/44875.html'
-  date_accepted: '2009-11-01T00:00:00.000Z'
-  release: '2'
   terms:
-    - type: expression
-      designation: valor nominal
-      normative_status: preferred
+  - type: expression
+    normative_status: preferred
+    designation: valor nominal
+  definition:
+  - content: nombre de un objeto, tipo o categoría
+  notes:
+  - content: Muchos atributos de fenómeno toman valores nominales en vez de numéricos.
+      El dominio de valores de un atributo de esta clase se suele especificar como
+      una enumeración o una lista controlada.
+  examples:
+  - content: "“Hoja caduca acicular” es un valor nominal que identifica un tipo de
+      vegetación."
+  language_code: spa
+  entry_status: valid
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19126:2009
+      link: https://www.iso.org/standard/44875.html
+  dates:
+  - type: accepted
+    date: '2009-11-01T00:00:00.000Z'
+  release: '2'
   _revisions:
     current: 6c8031
     tree:
       6c8031:
         object:
           id: 863
-          definition: 'nombre de un objeto, tipo o categoría'
+          definition: nombre de un objeto, tipo o categoría
           language_code: spa
           notes:
-            - >-
-              Muchos atributos de fenómeno toman valores nominales en vez de
-              numéricos. El dominio de valores de un atributo de esta clase se
-              suele especificar como una enumeración o una lista controlada.
+          - Muchos atributos de fenómeno toman valores nominales en vez de numéricos.
+            El dominio de valores de un atributo de esta clase se suele especificar
+            como una enumeración o una lista controlada.
           examples:
-            - >-
-              “Hoja caduca acicular” es un valor nominal que identifica un tipo
-              de vegetación.
+          - "“Hoja caduca acicular” es un valor nominal que identifica un tipo de
+            vegetación."
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19126:2009'
-            link: 'https://www.iso.org/standard/44875.html'
+            ref: ISO 19126:2009
+            link: https://www.iso.org/standard/44875.html
           date_accepted: '2009-11-01T00:00:00.000Z'
           release: '2'
           terms:
-            - type: expression
-              designation: valor nominal
-              normative_status: preferred
+          - type: expression
+            designation: valor nominal
+            normative_status: preferred
         parents: []
         timeCreated: '2009-11-01T00:00:00.000Z'
         author:
@@ -330,58 +338,61 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 863
-  definition: 'benämning för objekt, typ eller kategori'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: kodvärde
+  definition:
+  - content: benämning för objekt, typ eller kategori
+  notes:
+  - content: Many feature attributes take nominal rather than numerical values.  The
+      value domain of such an attribute is usually specified as an enumeration or
+      a code list.
+  examples:
+  - content: '"Deciduous needle leaf" is a nominal value that identifies a vegetation
+      type.'
   country_code: swe
   language_code: swe
-  notes:
-    - >-
-      Many feature attributes take nominal rather than numerical values.  The
-      value domain of such an attribute is usually specified as an enumeration
-      or a code list.
-  examples:
-    - >-
-      "Deciduous needle leaf" is a nominal value that identifies a vegetation
-      type.
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19126:2009'
-    link: 'https://www.iso.org/standard/44875.html'
-  lineage_source: (Type reference to national language document)
-  date_accepted: '2009-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19126:2009
+      link: https://www.iso.org/standard/44875.html
+  - type: lineage
+    origin:
+      ref: "(Type reference to national language document)"
+  dates:
+  - type: accepted
+    date: '2009-11-01T00:00:00.000Z'
   release: '2'
-  terms:
-    - type: expression
-      designation: kodvärde
-      normative_status: preferred
   _revisions:
     current: 4b00eb
     tree:
       4b00eb:
         object:
           id: 863
-          definition: 'benämning för objekt, typ eller kategori'
+          definition: benämning för objekt, typ eller kategori
           country_code: swe
           language_code: swe
           notes:
-            - >-
-              Many feature attributes take nominal rather than numerical
-              values.  The value domain of such an attribute is usually
-              specified as an enumeration or a code list.
+          - Many feature attributes take nominal rather than numerical values.  The
+            value domain of such an attribute is usually specified as an enumeration
+            or a code list.
           examples:
-            - >-
-              "Deciduous needle leaf" is a nominal value that identifies a
-              vegetation type.
+          - '"Deciduous needle leaf" is a nominal value that identifies a vegetation
+            type.'
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19126:2009'
-            link: 'https://www.iso.org/standard/44875.html'
-          lineage_source: (Type reference to national language document)
+            ref: ISO 19126:2009
+            link: https://www.iso.org/standard/44875.html
+          lineage_source: "(Type reference to national language document)"
           date_accepted: '2009-11-01T00:00:00.000Z'
           release: '2'
           terms:
-            - type: expression
-              designation: kodvärde
-              normative_status: preferred
+          - type: expression
+            designation: kodvärde
+            normative_status: preferred
         parents: []
         timeCreated: '2009-11-01T00:00:00.000Z'
         author:

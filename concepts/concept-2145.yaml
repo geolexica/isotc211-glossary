@@ -1,32 +1,38 @@
-term: swath
+---
 termid: 2145
+term: swath
 eng:
   id: 2145
-  definition: sensed data resulting from a single flightline of collection
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: swath
+  definition:
+  - content: sensed data resulting from a single flightline of collection
   notes: []
   examples: []
+  language_code: eng
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO/TS 19159-2:2016'
-    clause: '4.38'
-    link: 'https://www.iso.org/standard/64768.html'
-  date_accepted: '2016-04-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO/TS 19159-2:2016
+      clause: '4.38'
+      link: https://www.iso.org/standard/64768.html
+  dates:
+  - type: accepted
+    date: '2016-04-15T00:00:00.000Z'
   review_date: '2014-08-26T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2016-04-15T00:00:00.000Z'
   review_decision_event: Normal ISO processing
-  review_decision_notes: 'Publication of document ISO/TS 19159-2:2016(E)'
+  review_decision_notes: Publication of document ISO/TS 19159-2:2016(E)
   release: '4'
-  terms:
-    - type: expression
-      designation: swath
-      normative_status: preferred
   _revisions:
-    current: '1589e3'
+    current: 1589e3
     tree:
-      '1589e3':
+      1589e3:
         object:
           id: 2145
           definition: sensed data resulting from a single flightline of collection
@@ -35,21 +41,21 @@ eng:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO/TS 19159-2:2016'
+            ref: ISO/TS 19159-2:2016
             clause: '4.38'
-            link: 'https://www.iso.org/standard/64768.html'
+            link: https://www.iso.org/standard/64768.html
           date_accepted: '2016-04-15T00:00:00.000Z'
           review_date: '2014-08-26T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2016-04-15T00:00:00.000Z'
           review_decision_event: Normal ISO processing
-          review_decision_notes: 'Publication of document ISO/TS 19159-2:2016(E)'
+          review_decision_notes: Publication of document ISO/TS 19159-2:2016(E)
           release: '4'
           terms:
-            - type: expression
-              designation: swath
-              normative_status: preferred
+          - type: expression
+            designation: swath
+            normative_status: preferred
         parents: []
         timeCreated: '2016-04-15T00:00:00.000Z'
         author:
@@ -57,54 +63,60 @@ eng:
           email: glossarist@ribose.com
 spa:
   id: 2145
-  definition: datos detectados resultantes de una única línea de vuelo de captura
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: franja de barrido
+  definition:
+  - content: datos detectados resultantes de una única línea de vuelo de captura
   notes: []
   examples: []
+  language_code: spa
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO/TS 19159-2:2016'
-    clause: '4.38'
-    link: 'https://www.iso.org/standard/64768.html'
-  date_accepted: '2016-04-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO/TS 19159-2:2016
+      clause: '4.38'
+      link: https://www.iso.org/standard/64768.html
+  dates:
+  - type: accepted
+    date: '2016-04-15T00:00:00.000Z'
   review_date: '2014-08-26T00:00:00.000Z'
   review_status: final
   review_decision: ''
   review_decision_date: '2016-04-15T00:00:00.000Z'
   review_decision_event: Normal ISO processing
-  review_decision_notes: 'Publication of document ISO/TS 19159-2:2016(E)'
+  review_decision_notes: Publication of document ISO/TS 19159-2:2016(E)
   release: '4'
-  terms:
-    - type: expression
-      designation: franja de barrido
-      normative_status: preferred
   _revisions:
     current: 4407ca
     tree:
       4407ca:
         object:
           id: 2145
-          definition: datos detectados resultantes de una única línea de vuelo de captura
+          definition: datos detectados resultantes de una única línea de vuelo de
+            captura
           language_code: spa
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO/TS 19159-2:2016'
+            ref: ISO/TS 19159-2:2016
             clause: '4.38'
-            link: 'https://www.iso.org/standard/64768.html'
+            link: https://www.iso.org/standard/64768.html
           date_accepted: '2016-04-15T00:00:00.000Z'
           review_date: '2014-08-26T00:00:00.000Z'
           review_status: final
           review_decision: ''
           review_decision_date: '2016-04-15T00:00:00.000Z'
           review_decision_event: Normal ISO processing
-          review_decision_notes: 'Publication of document ISO/TS 19159-2:2016(E)'
+          review_decision_notes: Publication of document ISO/TS 19159-2:2016(E)
           release: '4'
           terms:
-            - type: expression
-              designation: franja de barrido
-              normative_status: preferred
+          - type: expression
+            designation: franja de barrido
+            normative_status: preferred
         parents: []
         timeCreated: '2016-04-15T00:00:00.000Z'
         author:

@@ -1,29 +1,37 @@
-term: subject field
+---
 termid: 1625
+term: subject field
 eng:
   id: 1625
-  definition: field of special knowledge
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: subject field
+  definition:
+  - content: field of special knowledge
   notes: []
   examples: []
+  language_code: eng
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 1087-1:2000'
-    clause: 3.1.2
-    link: 'https://www.iso.org/standard/20057.html'
-  lineage_source: 'ISO 19104:2016, 4.28'
-  date_accepted: '2016-10-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 1087-1:2000
+      clause: 3.1.2
+      link: https://www.iso.org/standard/20057.html
+  - type: lineage
+    origin:
+      ref: ISO 19104:2016, 4.28
+  dates:
+  - type: accepted
+    date: '2016-10-01T00:00:00.000Z'
   review_date: '2013-01-29T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2016-10-01T00:00:00.000Z'
   review_decision_event: Normal ISO processing
-  review_decision_notes: 'Publication of document ISO 19104:2016(E)'
+  review_decision_notes: Publication of document ISO 19104:2016(E)
   release: '4'
-  terms:
-    - type: expression
-      designation: subject field
-      normative_status: preferred
   _revisions:
     current: 461c12
     tree:
@@ -36,22 +44,22 @@ eng:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 1087-1:2000'
+            ref: ISO 1087-1:2000
             clause: 3.1.2
-            link: 'https://www.iso.org/standard/20057.html'
-          lineage_source: 'ISO 19104:2016, 4.28'
+            link: https://www.iso.org/standard/20057.html
+          lineage_source: ISO 19104:2016, 4.28
           date_accepted: '2016-10-01T00:00:00.000Z'
           review_date: '2013-01-29T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2016-10-01T00:00:00.000Z'
           review_decision_event: Normal ISO processing
-          review_decision_notes: 'Publication of document ISO 19104:2016(E)'
+          review_decision_notes: Publication of document ISO 19104:2016(E)
           release: '4'
           terms:
-            - type: expression
-              designation: subject field
-              normative_status: preferred
+          - type: expression
+            designation: subject field
+            normative_status: preferred
         parents: []
         timeCreated: '2016-10-01T00:00:00.000Z'
         author:
@@ -59,28 +67,35 @@ eng:
           email: glossarist@ribose.com
 spa:
   id: 1625
-  definition: campo de conocimiento especializado
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: campo temático
+  definition:
+  - content: campo de conocimiento especializado
   notes: []
   examples: []
+  language_code: spa
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 1087-1:2000'
-    clause: 3.1.2
-    link: 'https://www.iso.org/standard/20057.html'
-  lineage_source: 'ISO 19104:2016, 4.28'
-  date_accepted: '2016-10-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 1087-1:2000
+      clause: 3.1.2
+      link: https://www.iso.org/standard/20057.html
+  - type: lineage
+    origin:
+      ref: ISO 19104:2016, 4.28
+  dates:
+  - type: accepted
+    date: '2016-10-01T00:00:00.000Z'
   review_date: '2013-01-29T00:00:00.000Z'
   review_status: final
   review_decision: ''
   review_decision_date: '2016-10-01T00:00:00.000Z'
   review_decision_event: Normal ISO processing
-  review_decision_notes: 'Publication of document ISO 19104:2016(E)'
+  review_decision_notes: Publication of document ISO 19104:2016(E)
   release: '4'
-  terms:
-    - type: expression
-      designation: campo temático
-      normative_status: preferred
   _revisions:
     current: 61e58a
     tree:
@@ -93,22 +108,22 @@ spa:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 1087-1:2000'
+            ref: ISO 1087-1:2000
             clause: 3.1.2
-            link: 'https://www.iso.org/standard/20057.html'
-          lineage_source: 'ISO 19104:2016, 4.28'
+            link: https://www.iso.org/standard/20057.html
+          lineage_source: ISO 19104:2016, 4.28
           date_accepted: '2016-10-01T00:00:00.000Z'
           review_date: '2013-01-29T00:00:00.000Z'
           review_status: final
           review_decision: ''
           review_decision_date: '2016-10-01T00:00:00.000Z'
           review_decision_event: Normal ISO processing
-          review_decision_notes: 'Publication of document ISO 19104:2016(E)'
+          review_decision_notes: Publication of document ISO 19104:2016(E)
           release: '4'
           terms:
-            - type: expression
-              designation: campo temático
-              normative_status: preferred
+          - type: expression
+            designation: campo temático
+            normative_status: preferred
         parents: []
         timeCreated: '2016-10-01T00:00:00.000Z'
         author:

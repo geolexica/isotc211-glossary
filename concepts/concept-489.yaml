@@ -1,36 +1,42 @@
-term: value <UML>
+---
 termid: 489
+term: value <UML>
 eng:
   id: 489
-  definition: element of a type domain
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: value <UML>
+  definition:
+  - content: element of a type domain
   notes:
-    - >-
-      A value may consider a possible state of an object within a class or type
-      (domain).
-    - 'A data value is an instance of a data type, a value without identity'
+  - content: A value may consider a possible state of an object within a class or
+      type (domain).
+  - content: A data value is an instance of a data type, a value without identity
   examples: []
+  language_code: eng
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO/IEC 19501:2005'
-    clause: '0000_5'
-    link: 'https://www.iso.org/standard/32620.html'
-  lineage_source: 'ISO 19109:2015, 4.20'
-  date_accepted: '2005-07-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO/IEC 19501:2005
+      clause: '0000_5'
+      link: https://www.iso.org/standard/32620.html
+  - type: lineage
+    origin:
+      ref: ISO 19109:2015, 4.20
+  dates:
+  - type: accepted
+    date: '2005-07-15T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/IEC 19501:2005 (Adapted from) to
-    ISO/IEC 19501:2005, 0000_5. Lineage source added as This Record
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
+    from) to ISO/IEC 19501:2005, 0000_5. Lineage source added as This Record
   release: '1'
-  terms:
-    - type: expression
-      designation: value <UML>
-      normative_status: preferred
   _revisions:
     current: 0f70bb
     tree:
@@ -40,35 +46,31 @@ eng:
           definition: element of a type domain
           language_code: eng
           notes:
-            - >-
-              A value may consider a possible state of an object within a class
-              or type (domain).
-            - >-
-              A data value is an instance of a data type, a value without
-              identity
+          - A value may consider a possible state of an object within a class or type
+            (domain).
+          - A data value is an instance of a data type, a value without identity
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO/IEC 19501:2005'
+            ref: ISO/IEC 19501:2005
             clause: '0000_5'
-            link: 'https://www.iso.org/standard/32620.html'
-          lineage_source: 'ISO 19109:2015, 4.20'
+            link: https://www.iso.org/standard/32620.html
+          lineage_source: ISO 19109:2015, 4.20
           date_accepted: '2005-07-15T00:00:00.000Z'
           review_date: '2009-01-14T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
-            from) to ISO/IEC 19501:2005, 0000_5. Lineage source added as This
-            Record
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005
+            (Adapted from) to ISO/IEC 19501:2005, 0000_5. Lineage source added as
+            This Record
           release: '1'
           terms:
-            - type: expression
-              designation: value <UML>
-              normative_status: preferred
+          - type: expression
+            designation: value <UML>
+            normative_status: preferred
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
         author:
@@ -76,37 +78,41 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 489
-  definition: عنصر لنوع من المجالات
-  language_code: ara
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: قيمة > UML <
+  definition:
+  - content: عنصر لنوع من المجالات
   notes:
-    - >-
-      قد تقوم قيمة ما بالنظر في الحالة المحتملة لكيان معيَّن ضمن فئة محددة أو
-      نوع محدد (مجال).
-    - >-
-      القيمة المتعلقة بالبيانات هي عبارة عن مثال لنوع من أنواع البيانات ، أي هي
-      قيمة بلا هوية تعرِّفها.
+  - content: قد تقوم قيمة ما بالنظر في الحالة المحتملة لكيان معيَّن ضمن فئة محددة
+      أو نوع محدد (مجال).
+  - content: القيمة المتعلقة بالبيانات هي عبارة عن مثال لنوع من أنواع البيانات ، أي
+      هي قيمة بلا هوية تعرِّفها.
   examples: []
+  language_code: ara
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO/IEC 19501:2005'
-    clause: '0000_5'
-    link: 'https://www.iso.org/standard/32620.html'
-  lineage_source: 'ISO 19109:2015, 4.20'
-  date_accepted: '2005-07-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO/IEC 19501:2005
+      clause: '0000_5'
+      link: https://www.iso.org/standard/32620.html
+  - type: lineage
+    origin:
+      ref: ISO 19109:2015, 4.20
+  dates:
+  - type: accepted
+    date: '2005-07-15T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/IEC 19501:2005 (Adapted from) to
-    ISO/IEC 19501:2005, 0000_5. Lineage source added as This Record
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
+    from) to ISO/IEC 19501:2005, 0000_5. Lineage source added as This Record
   release: '1'
-  terms:
-    - type: expression
-      designation: قيمة > UML <
-      normative_status: preferred
   _revisions:
     current: 9360a8
     tree:
@@ -116,35 +122,32 @@ ara:
           definition: عنصر لنوع من المجالات
           language_code: ara
           notes:
-            - >-
-              قد تقوم قيمة ما بالنظر في الحالة المحتملة لكيان معيَّن ضمن فئة
-              محددة أو نوع محدد (مجال).
-            - >-
-              القيمة المتعلقة بالبيانات هي عبارة عن مثال لنوع من أنواع البيانات
-              ، أي هي قيمة بلا هوية تعرِّفها.
+          - قد تقوم قيمة ما بالنظر في الحالة المحتملة لكيان معيَّن ضمن فئة محددة أو
+            نوع محدد (مجال).
+          - القيمة المتعلقة بالبيانات هي عبارة عن مثال لنوع من أنواع البيانات ، أي
+            هي قيمة بلا هوية تعرِّفها.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO/IEC 19501:2005'
+            ref: ISO/IEC 19501:2005
             clause: '0000_5'
-            link: 'https://www.iso.org/standard/32620.html'
-          lineage_source: 'ISO 19109:2015, 4.20'
+            link: https://www.iso.org/standard/32620.html
+          lineage_source: ISO 19109:2015, 4.20
           date_accepted: '2005-07-15T00:00:00.000Z'
           review_date: '2009-01-14T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
-            from) to ISO/IEC 19501:2005, 0000_5. Lineage source added as This
-            Record
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005
+            (Adapted from) to ISO/IEC 19501:2005, 0000_5. Lineage source added as
+            This Record
           release: '1'
           terms:
-            - type: expression
-              designation: قيمة > UML <
-              normative_status: preferred
+          - type: expression
+            designation: قيمة > UML <
+            normative_status: preferred
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
         author:
@@ -152,33 +155,39 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 489
-  definition: 类型域的元素。
-  language_code: zho
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 值<UML>
+  definition:
+  - content: 类型域的元素。
   notes:
-    - 值可以认为是类或类型（域）中对象的可能状态。
-    - 数据值是数据类型的实例，是没有标识的值。
+  - content: 值可以认为是类或类型（域）中对象的可能状态。
+  - content: 数据值是数据类型的实例，是没有标识的值。
   examples: []
+  language_code: zho
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO/IEC 19501:2005'
-    clause: '0000_5'
-    link: 'https://www.iso.org/standard/32620.html'
-  lineage_source: 'ISO 19109:2015, 4.20'
-  date_accepted: '2005-07-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO/IEC 19501:2005
+      clause: '0000_5'
+      link: https://www.iso.org/standard/32620.html
+  - type: lineage
+    origin:
+      ref: ISO 19109:2015, 4.20
+  dates:
+  - type: accepted
+    date: '2005-07-15T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/IEC 19501:2005 (Adapted from) to
-    ISO/IEC 19501:2005, 0000_5. Lineage source added as This Record
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
+    from) to ISO/IEC 19501:2005, 0000_5. Lineage source added as This Record
   release: '1'
-  terms:
-    - type: expression
-      designation: 值<UML>
-      normative_status: preferred
   _revisions:
     current: 7e092b
     tree:
@@ -188,31 +197,30 @@ zho:
           definition: 类型域的元素。
           language_code: zho
           notes:
-            - 值可以认为是类或类型（域）中对象的可能状态。
-            - 数据值是数据类型的实例，是没有标识的值。
+          - 值可以认为是类或类型（域）中对象的可能状态。
+          - 数据值是数据类型的实例，是没有标识的值。
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO/IEC 19501:2005'
+            ref: ISO/IEC 19501:2005
             clause: '0000_5'
-            link: 'https://www.iso.org/standard/32620.html'
-          lineage_source: 'ISO 19109:2015, 4.20'
+            link: https://www.iso.org/standard/32620.html
+          lineage_source: ISO 19109:2015, 4.20
           date_accepted: '2005-07-15T00:00:00.000Z'
           review_date: '2009-01-14T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
-            from) to ISO/IEC 19501:2005, 0000_5. Lineage source added as This
-            Record
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005
+            (Adapted from) to ISO/IEC 19501:2005, 0000_5. Lineage source added as
+            This Record
           release: '1'
           terms:
-            - type: expression
-              designation: 值<UML>
-              normative_status: preferred
+          - type: expression
+            designation: 值<UML>
+            normative_status: preferred
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
         author:
@@ -220,35 +228,40 @@ zho:
           email: glossarist@ribose.com
 nld:
   id: 489
-  definition: element van het type domein
-  language_code: nld
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: value <UML>
+  definition:
+  - content: element van het type domein
   notes:
-    - >-
-      A value may consider a possible state of an object within a class or type
-      (domain).
-    - 'A data value is an instance of a data type, a value without identity'
+  - content: A value may consider a possible state of an object within a class or
+      type (domain).
+  - content: A data value is an instance of a data type, a value without identity
   examples: []
+  language_code: nld
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO/IEC 19501:2005'
-    clause: '0000_5'
-    link: 'https://www.iso.org/standard/32620.html'
-  lineage_source: 'ISO 19109:2015, 4.20'
-  date_accepted: '2005-07-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO/IEC 19501:2005
+      clause: '0000_5'
+      link: https://www.iso.org/standard/32620.html
+  - type: lineage
+    origin:
+      ref: ISO 19109:2015, 4.20
+  dates:
+  - type: accepted
+    date: '2005-07-15T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/IEC 19501:2005 (Adapted from) to
-    ISO/IEC 19501:2005, 0000_5. Lineage source added as This Record
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
+    from) to ISO/IEC 19501:2005, 0000_5. Lineage source added as This Record
   release: '1'
-  terms:
-    - type: expression
-      designation: value <UML>
-      normative_status: preferred
   _revisions:
     current: 63fca4
     tree:
@@ -258,35 +271,31 @@ nld:
           definition: element van het type domein
           language_code: nld
           notes:
-            - >-
-              A value may consider a possible state of an object within a class
-              or type (domain).
-            - >-
-              A data value is an instance of a data type, a value without
-              identity
+          - A value may consider a possible state of an object within a class or type
+            (domain).
+          - A data value is an instance of a data type, a value without identity
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO/IEC 19501:2005'
+            ref: ISO/IEC 19501:2005
             clause: '0000_5'
-            link: 'https://www.iso.org/standard/32620.html'
-          lineage_source: 'ISO 19109:2015, 4.20'
+            link: https://www.iso.org/standard/32620.html
+          lineage_source: ISO 19109:2015, 4.20
           date_accepted: '2005-07-15T00:00:00.000Z'
           review_date: '2009-01-14T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
-            from) to ISO/IEC 19501:2005, 0000_5. Lineage source added as This
-            Record
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005
+            (Adapted from) to ISO/IEC 19501:2005, 0000_5. Lineage source added as
+            This Record
           release: '1'
           terms:
-            - type: expression
-              designation: value <UML>
-              normative_status: preferred
+          - type: expression
+            designation: value <UML>
+            normative_status: preferred
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
         author:
@@ -294,35 +303,40 @@ nld:
           email: glossarist@ribose.com
 fin:
   id: 489
-  definition: tyyppijoukon alkio
-  language_code: fin
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: arvo <UML>
+  definition:
+  - content: tyyppijoukon alkio
   notes:
-    - >-
-      Arvo voi ottaa huomioon objektin mahdollisen tilan luokan tai tyypin
+  - content: Arvo voi ottaa huomioon objektin mahdollisen tilan luokan tai tyypin
       (määritysjoukon) sisällä.
-    - 'Tietoarvo on tietotyypin ilmentymä; arvo, jolla ei ole identiteettiä.'
+  - content: Tietoarvo on tietotyypin ilmentymä; arvo, jolla ei ole identiteettiä.
   examples: []
+  language_code: fin
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO/IEC 19501:2005'
-    clause: '0000_5'
-    link: 'https://www.iso.org/standard/32620.html'
-  lineage_source: 'ISO 19109:2015, 4.20'
-  date_accepted: '2005-07-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO/IEC 19501:2005
+      clause: '0000_5'
+      link: https://www.iso.org/standard/32620.html
+  - type: lineage
+    origin:
+      ref: ISO 19109:2015, 4.20
+  dates:
+  - type: accepted
+    date: '2005-07-15T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/IEC 19501:2005 (Adapted from) to
-    ISO/IEC 19501:2005, 0000_5. Lineage source added as This Record
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
+    from) to ISO/IEC 19501:2005, 0000_5. Lineage source added as This Record
   release: '1'
-  terms:
-    - type: expression
-      designation: arvo <UML>
-      normative_status: preferred
   _revisions:
     current: aba2cf
     tree:
@@ -332,35 +346,31 @@ fin:
           definition: tyyppijoukon alkio
           language_code: fin
           notes:
-            - >-
-              Arvo voi ottaa huomioon objektin mahdollisen tilan luokan tai
-              tyypin (määritysjoukon) sisällä.
-            - >-
-              Tietoarvo on tietotyypin ilmentymä; arvo, jolla ei ole
-              identiteettiä.
+          - Arvo voi ottaa huomioon objektin mahdollisen tilan luokan tai tyypin (määritysjoukon)
+            sisällä.
+          - Tietoarvo on tietotyypin ilmentymä; arvo, jolla ei ole identiteettiä.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO/IEC 19501:2005'
+            ref: ISO/IEC 19501:2005
             clause: '0000_5'
-            link: 'https://www.iso.org/standard/32620.html'
-          lineage_source: 'ISO 19109:2015, 4.20'
+            link: https://www.iso.org/standard/32620.html
+          lineage_source: ISO 19109:2015, 4.20
           date_accepted: '2005-07-15T00:00:00.000Z'
           review_date: '2009-01-14T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
-            from) to ISO/IEC 19501:2005, 0000_5. Lineage source added as This
-            Record
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005
+            (Adapted from) to ISO/IEC 19501:2005, 0000_5. Lineage source added as
+            This Record
           release: '1'
           terms:
-            - type: expression
-              designation: arvo <UML>
-              normative_status: preferred
+          - type: expression
+            designation: arvo <UML>
+            normative_status: preferred
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
         author:
@@ -368,31 +378,37 @@ fin:
           email: glossarist@ribose.com
 fra:
   id: 489
-  definition: élément du domaine d'un type
-  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: valeur <UML>
+  definition:
+  - content: élément du domaine d'un type
   notes: []
   examples: []
+  language_code: fra
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO/IEC 19501:2005'
-    clause: '0000_5'
-    link: 'https://www.iso.org/standard/32620.html'
-  lineage_source: 'ISO 19109:2015, 4.20'
-  date_accepted: '2005-07-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO/IEC 19501:2005
+      clause: '0000_5'
+      link: https://www.iso.org/standard/32620.html
+  - type: lineage
+    origin:
+      ref: ISO 19109:2015, 4.20
+  dates:
+  - type: accepted
+    date: '2005-07-15T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/IEC 19501:2005 (Adapted from) to
-    ISO/IEC 19501:2005, 0000_5. Lineage source added as This Record
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
+    from) to ISO/IEC 19501:2005, 0000_5. Lineage source added as This Record
   release: '1'
-  terms:
-    - type: expression
-      designation: valeur <UML>
-      normative_status: preferred
   _revisions:
     current: '395577'
     tree:
@@ -406,25 +422,24 @@ fra:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO/IEC 19501:2005'
+            ref: ISO/IEC 19501:2005
             clause: '0000_5'
-            link: 'https://www.iso.org/standard/32620.html'
-          lineage_source: 'ISO 19109:2015, 4.20'
+            link: https://www.iso.org/standard/32620.html
+          lineage_source: ISO 19109:2015, 4.20
           date_accepted: '2005-07-15T00:00:00.000Z'
           review_date: '2009-01-14T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
-            from) to ISO/IEC 19501:2005, 0000_5. Lineage source added as This
-            Record
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005
+            (Adapted from) to ISO/IEC 19501:2005, 0000_5. Lineage source added as
+            This Record
           release: '1'
           terms:
-            - type: expression
-              designation: valeur <UML>
-              normative_status: preferred
+          - type: expression
+            designation: valeur <UML>
+            normative_status: preferred
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
         author:
@@ -432,34 +447,38 @@ fra:
           email: glossarist@ribose.com
 deu:
   id: 489
-  language_code: deu
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Wert <UML>
   notes:
-    - >-
-      A value may consider a possible state of an object within a class or type
-      (domain).
-    - 'A data value is an instance of a data type, a value without identity'
+  - content: A value may consider a possible state of an object within a class or
+      type (domain).
+  - content: A data value is an instance of a data type, a value without identity
   examples: []
+  language_code: deu
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO/IEC 19501:2005'
-    clause: '0000_5'
-    link: 'https://www.iso.org/standard/32620.html'
-  lineage_source: 'ISO 19109:2015, 4.20'
-  date_accepted: '2005-07-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO/IEC 19501:2005
+      clause: '0000_5'
+      link: https://www.iso.org/standard/32620.html
+  - type: lineage
+    origin:
+      ref: ISO 19109:2015, 4.20
+  dates:
+  - type: accepted
+    date: '2005-07-15T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/IEC 19501:2005 (Adapted from) to
-    ISO/IEC 19501:2005, 0000_5. Lineage source added as This Record
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
+    from) to ISO/IEC 19501:2005, 0000_5. Lineage source added as This Record
   release: '1'
-  terms:
-    - type: expression
-      designation: Wert <UML>
-      normative_status: preferred
   _revisions:
     current: 9b053e
     tree:
@@ -468,35 +487,31 @@ deu:
           id: 489
           language_code: deu
           notes:
-            - >-
-              A value may consider a possible state of an object within a class
-              or type (domain).
-            - >-
-              A data value is an instance of a data type, a value without
-              identity
+          - A value may consider a possible state of an object within a class or type
+            (domain).
+          - A data value is an instance of a data type, a value without identity
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO/IEC 19501:2005'
+            ref: ISO/IEC 19501:2005
             clause: '0000_5'
-            link: 'https://www.iso.org/standard/32620.html'
-          lineage_source: 'ISO 19109:2015, 4.20'
+            link: https://www.iso.org/standard/32620.html
+          lineage_source: ISO 19109:2015, 4.20
           date_accepted: '2005-07-15T00:00:00.000Z'
           review_date: '2009-01-14T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
-            from) to ISO/IEC 19501:2005, 0000_5. Lineage source added as This
-            Record
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005
+            (Adapted from) to ISO/IEC 19501:2005, 0000_5. Lineage source added as
+            This Record
           release: '1'
           terms:
-            - type: expression
-              designation: Wert <UML>
-              normative_status: preferred
+          - type: expression
+            designation: Wert <UML>
+            normative_status: preferred
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
         author:
@@ -504,33 +519,39 @@ deu:
           email: glossarist@ribose.com
 kor:
   id: 489
-  definition: 유형 영역의 요소
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 값 <UML>
+  definition:
+  - content: 유형 영역의 요소
   notes:
-    - 값은 클래스 또는 유형(영역) 내에서 객체가 가질 수 있는 상태의 표현일 수 있다.
-    - '데이터 값은 데이터 유형의 인스턴스이며, 그 값은 식별특성을 갖지 않는다.'
+  - content: 값은 클래스 또는 유형(영역) 내에서 객체가 가질 수 있는 상태의 표현일 수 있다.
+  - content: 데이터 값은 데이터 유형의 인스턴스이며, 그 값은 식별특성을 갖지 않는다.
   examples: []
+  language_code: kor
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO/IEC 19501:2005'
-    clause: '0000_5'
-    link: 'https://www.iso.org/standard/32620.html'
-  lineage_source: 'ISO 19109:2015, 4.20'
-  date_accepted: '2005-07-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO/IEC 19501:2005
+      clause: '0000_5'
+      link: https://www.iso.org/standard/32620.html
+  - type: lineage
+    origin:
+      ref: ISO 19109:2015, 4.20
+  dates:
+  - type: accepted
+    date: '2005-07-15T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/IEC 19501:2005 (Adapted from) to
-    ISO/IEC 19501:2005, 0000_5. Lineage source added as This Record
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
+    from) to ISO/IEC 19501:2005, 0000_5. Lineage source added as This Record
   release: '1'
-  terms:
-    - type: expression
-      designation: 값 <UML>
-      normative_status: preferred
   _revisions:
     current: 74b620
     tree:
@@ -540,31 +561,30 @@ kor:
           definition: 유형 영역의 요소
           language_code: kor
           notes:
-            - 값은 클래스 또는 유형(영역) 내에서 객체가 가질 수 있는 상태의 표현일 수 있다.
-            - '데이터 값은 데이터 유형의 인스턴스이며, 그 값은 식별특성을 갖지 않는다.'
+          - 값은 클래스 또는 유형(영역) 내에서 객체가 가질 수 있는 상태의 표현일 수 있다.
+          - 데이터 값은 데이터 유형의 인스턴스이며, 그 값은 식별특성을 갖지 않는다.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO/IEC 19501:2005'
+            ref: ISO/IEC 19501:2005
             clause: '0000_5'
-            link: 'https://www.iso.org/standard/32620.html'
-          lineage_source: 'ISO 19109:2015, 4.20'
+            link: https://www.iso.org/standard/32620.html
+          lineage_source: ISO 19109:2015, 4.20
           date_accepted: '2005-07-15T00:00:00.000Z'
           review_date: '2009-01-14T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
-            from) to ISO/IEC 19501:2005, 0000_5. Lineage source added as This
-            Record
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005
+            (Adapted from) to ISO/IEC 19501:2005, 0000_5. Lineage source added as
+            This Record
           release: '1'
           terms:
-            - type: expression
-              designation: 값 <UML>
-              normative_status: preferred
+          - type: expression
+            designation: 값 <UML>
+            normative_status: preferred
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
         author:
@@ -572,28 +592,33 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 489
-  definition: экземпляр типа данных
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: значение <UML>
+  definition:
+  - content: экземпляр типа данных
   notes:
-    - >-
-      Значение может определяться возможным состоянием объекта внутри класса или
-      типа (домена)
-    - >-
-      Значение типа данных является экземпляром типа данных. Значение, не
-      имеющее индивидуальности
+  - content: Значение может определяться возможным состоянием объекта внутри класса
+      или типа (домена)
+  - content: Значение типа данных является экземпляром типа данных. Значение, не имеющее
+      индивидуальности
   examples: []
+  language_code: rus
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO/IEC 19501:2005 '
-    clause: (Adapted from)
-    link: 'https://www.iso.org/standard/32620.html'
-  lineage_source: Internet
-  date_accepted: '2005-07-15T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: значение <UML>
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: 'ISO/IEC 19501:2005 '
+      clause: "(Adapted from)"
+      link: https://www.iso.org/standard/32620.html
+  - type: lineage
+    origin:
+      ref: Internet
+  dates:
+  - type: accepted
+    date: '2005-07-15T00:00:00.000Z'
   _revisions:
     current: 1bc235
     tree:
@@ -603,25 +628,23 @@ rus:
           definition: экземпляр типа данных
           language_code: rus
           notes:
-            - >-
-              Значение может определяться возможным состоянием объекта внутри
-              класса или типа (домена)
-            - >-
-              Значение типа данных является экземпляром типа данных. Значение,
-              не имеющее индивидуальности
+          - Значение может определяться возможным состоянием объекта внутри класса
+            или типа (домена)
+          - Значение типа данных является экземпляром типа данных. Значение, не имеющее
+            индивидуальности
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
             ref: 'ISO/IEC 19501:2005 '
-            clause: (Adapted from)
-            link: 'https://www.iso.org/standard/32620.html'
+            clause: "(Adapted from)"
+            link: https://www.iso.org/standard/32620.html
           lineage_source: Internet
           date_accepted: '2005-07-15T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: значение <UML>
-              normative_status: preferred
+          - type: expression
+            designation: значение <UML>
+            normative_status: preferred
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
         author:
@@ -629,37 +652,41 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 489
-  definition: elemento de un dominio de tipos
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: valor <UML>
+  definition:
+  - content: elemento de un dominio de tipos
   notes:
-    - >-
-      Un valor puede considerar un estado posible de un objeto dentro de una
+  - content: Un valor puede considerar un estado posible de un objeto dentro de una
       clase o tipo (dominio)
-    - >-
-      Un valor de un dato es una instancia de un tipo de dato, un valor sin
+  - content: Un valor de un dato es una instancia de un tipo de dato, un valor sin
       identidad
   examples: []
+  language_code: spa
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO/IEC 19501:2005'
-    clause: '0000_5'
-    link: 'https://www.iso.org/standard/32620.html'
-  lineage_source: 'ISO 19109:2015, 4.20'
-  date_accepted: '2005-07-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO/IEC 19501:2005
+      clause: '0000_5'
+      link: https://www.iso.org/standard/32620.html
+  - type: lineage
+    origin:
+      ref: ISO 19109:2015, 4.20
+  dates:
+  - type: accepted
+    date: '2005-07-15T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/IEC 19501:2005 (Adapted from) to
-    ISO/IEC 19501:2005, 0000_5. Lineage source added as This Record
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
+    from) to ISO/IEC 19501:2005, 0000_5. Lineage source added as This Record
   release: '1'
-  terms:
-    - type: expression
-      designation: valor <UML>
-      normative_status: preferred
   _revisions:
     current: '314418'
     tree:
@@ -669,35 +696,32 @@ spa:
           definition: elemento de un dominio de tipos
           language_code: spa
           notes:
-            - >-
-              Un valor puede considerar un estado posible de un objeto dentro de
-              una clase o tipo (dominio)
-            - >-
-              Un valor de un dato es una instancia de un tipo de dato, un valor
-              sin identidad
+          - Un valor puede considerar un estado posible de un objeto dentro de una
+            clase o tipo (dominio)
+          - Un valor de un dato es una instancia de un tipo de dato, un valor sin
+            identidad
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO/IEC 19501:2005'
+            ref: ISO/IEC 19501:2005
             clause: '0000_5'
-            link: 'https://www.iso.org/standard/32620.html'
-          lineage_source: 'ISO 19109:2015, 4.20'
+            link: https://www.iso.org/standard/32620.html
+          lineage_source: ISO 19109:2015, 4.20
           date_accepted: '2005-07-15T00:00:00.000Z'
           review_date: '2009-01-14T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
-            from) to ISO/IEC 19501:2005, 0000_5. Lineage source added as This
-            Record
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005
+            (Adapted from) to ISO/IEC 19501:2005, 0000_5. Lineage source added as
+            This Record
           release: '1'
           terms:
-            - type: expression
-              designation: valor <UML>
-              normative_status: preferred
+          - type: expression
+            designation: valor <UML>
+            normative_status: preferred
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
         author:
@@ -705,73 +729,74 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 489
-  definition: element of a type domain
-  language_code: swe
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: value <UML>
+  definition:
+  - content: element of a type domain
   notes:
-    - >-
-      A value may consider a possible state of an object within a class or type
-      (domain).
-    - 'A data value is an instance of a data type, a value without identity'
+  - content: A value may consider a possible state of an object within a class or
+      type (domain).
+  - content: A data value is an instance of a data type, a value without identity
   examples: []
+  language_code: swe
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO/IEC 19501:2005'
-    clause: '0000_5'
-    link: 'https://www.iso.org/standard/32620.html'
-  lineage_source: 'ISO 19109:2015, 4.20'
-  date_accepted: '2005-07-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO/IEC 19501:2005
+      clause: '0000_5'
+      link: https://www.iso.org/standard/32620.html
+  - type: lineage
+    origin:
+      ref: ISO 19109:2015, 4.20
+  dates:
+  - type: accepted
+    date: '2005-07-15T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/IEC 19501:2005 (Adapted from) to
-    ISO/IEC 19501:2005, 0000_5. Lineage source added as This Record
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
+    from) to ISO/IEC 19501:2005, 0000_5. Lineage source added as This Record
   release: '1'
-  terms:
-    - type: expression
-      designation: value <UML>
-      normative_status: preferred
   _revisions:
-    current: '951e99'
+    current: 951e99
     tree:
-      '951e99':
+      951e99:
         object:
           id: 489
           definition: element of a type domain
           language_code: swe
           notes:
-            - >-
-              A value may consider a possible state of an object within a class
-              or type (domain).
-            - >-
-              A data value is an instance of a data type, a value without
-              identity
+          - A value may consider a possible state of an object within a class or type
+            (domain).
+          - A data value is an instance of a data type, a value without identity
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO/IEC 19501:2005'
+            ref: ISO/IEC 19501:2005
             clause: '0000_5'
-            link: 'https://www.iso.org/standard/32620.html'
-          lineage_source: 'ISO 19109:2015, 4.20'
+            link: https://www.iso.org/standard/32620.html
+          lineage_source: ISO 19109:2015, 4.20
           date_accepted: '2005-07-15T00:00:00.000Z'
           review_date: '2009-01-14T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
-            from) to ISO/IEC 19501:2005, 0000_5. Lineage source added as This
-            Record
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005
+            (Adapted from) to ISO/IEC 19501:2005, 0000_5. Lineage source added as
+            This Record
           release: '1'
           terms:
-            - type: expression
-              designation: value <UML>
-              normative_status: preferred
+          - type: expression
+            designation: value <UML>
+            normative_status: preferred
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
         author:

@@ -1,32 +1,36 @@
-term: Julian date
+---
 termid: 263
+term: Julian date
 eng:
   id: 263
-  definition: >-
-    Julian day number followed by the decimal fraction of the day elapsed since
-    the preceding noon
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Julian date
+  definition:
+  - content: Julian day number followed by the decimal fraction of the day elapsed
+      since the preceding noon
   notes: []
   examples: []
+  language_code: eng
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19108:2002'
-    link: 'https://www.iso.org/standard/26013.html'
-  date_accepted: '2002-09-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19108:2002
+      link: https://www.iso.org/standard/26013.html
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: Julian date
-      normative_status: preferred
   _revisions:
     current: 1257c7
     tree:
       1257c7:
         object:
           id: 263
-          definition: >-
-            Julian day number followed by the decimal fraction of the day
+          definition: Julian day number followed by the decimal fraction of the day
             elapsed since the preceding noon
           language_code: eng
           notes: []
@@ -34,14 +38,14 @@ eng:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19108:2002'
-            link: 'https://www.iso.org/standard/26013.html'
+            ref: ISO 19108:2002
+            link: https://www.iso.org/standard/26013.html
           date_accepted: '2002-09-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: Julian date
-              normative_status: preferred
+          - type: expression
+            designation: Julian date
+            normative_status: preferred
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:
@@ -49,46 +53,49 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 263
-  definition: >-
-    رقم اليوم اليوليوسي يتبعه كسر عشري يمثل الجزء الذي انصرم من اليوم منذ منتصف
-    نهار اليوم السابق
-  language_code: ara
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: تاريخ يوليوسي
+  definition:
+  - content: رقم اليوم اليوليوسي يتبعه كسر عشري يمثل الجزء الذي انصرم من اليوم منذ
+      منتصف نهار اليوم السابق
   notes: []
   examples: []
+  language_code: ara
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19108:2002'
-    link: 'https://www.iso.org/standard/26013.html'
-  date_accepted: '2002-09-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19108:2002
+      link: https://www.iso.org/standard/26013.html
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: تاريخ يوليوسي
-      normative_status: preferred
   _revisions:
     current: 0e72a4
     tree:
       0e72a4:
         object:
           id: 263
-          definition: >-
-            رقم اليوم اليوليوسي يتبعه كسر عشري يمثل الجزء الذي انصرم من اليوم
-            منذ منتصف نهار اليوم السابق
+          definition: رقم اليوم اليوليوسي يتبعه كسر عشري يمثل الجزء الذي انصرم من
+            اليوم منذ منتصف نهار اليوم السابق
           language_code: ara
           notes: []
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19108:2002'
-            link: 'https://www.iso.org/standard/26013.html'
+            ref: ISO 19108:2002
+            link: https://www.iso.org/standard/26013.html
           date_accepted: '2002-09-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: تاريخ يوليوسي
-              normative_status: preferred
+          - type: expression
+            designation: تاريخ يوليوسي
+            normative_status: preferred
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:
@@ -96,20 +103,25 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 263
-  definition: 儒略日数加上从前一个平正午起已经消逝的该日的十进制小数。
-  language_code: zho
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 儒略日期
+  definition:
+  - content: 儒略日数加上从前一个平正午起已经消逝的该日的十进制小数。
   notes: []
   examples: []
+  language_code: zho
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19108:2002'
-    link: 'https://www.iso.org/standard/26013.html'
-  date_accepted: '2002-09-01T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: 儒略日期
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19108:2002
+      link: https://www.iso.org/standard/26013.html
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   _revisions:
     current: 8c2cdb
     tree:
@@ -123,13 +135,13 @@ zho:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19108:2002'
-            link: 'https://www.iso.org/standard/26013.html'
+            ref: ISO 19108:2002
+            link: https://www.iso.org/standard/26013.html
           date_accepted: '2002-09-01T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: 儒略日期
-              normative_status: preferred
+          - type: expression
+            designation: 儒略日期
+            normative_status: preferred
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:
@@ -137,31 +149,36 @@ zho:
           email: glossarist@ribose.com
 fin:
   id: 263
-  definition: >-
-    juliaaninen päivännumero lisättynä edellisestä keskipäivästä kuluneen päivän
-    desimaaliosalla
-  language_code: fin
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: juliaaninen päivä
+  definition:
+  - content: juliaaninen päivännumero lisättynä edellisestä keskipäivästä kuluneen
+      päivän desimaaliosalla
   notes: []
   examples: []
+  language_code: fin
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19108:2002'
-    link: 'https://www.iso.org/standard/26013.html'
-  lineage_source: 'Ei lähdettä, käännetty'
-  date_accepted: '2002-09-01T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: juliaaninen päivä
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19108:2002
+      link: https://www.iso.org/standard/26013.html
+  - type: lineage
+    origin:
+      ref: Ei lähdettä, käännetty
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   _revisions:
     current: 4d6973
     tree:
       4d6973:
         object:
           id: 263
-          definition: >-
-            juliaaninen päivännumero lisättynä edellisestä keskipäivästä
+          definition: juliaaninen päivännumero lisättynä edellisestä keskipäivästä
             kuluneen päivän desimaaliosalla
           language_code: fin
           notes: []
@@ -169,14 +186,14 @@ fin:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19108:2002'
-            link: 'https://www.iso.org/standard/26013.html'
-          lineage_source: 'Ei lähdettä, käännetty'
+            ref: ISO 19108:2002
+            link: https://www.iso.org/standard/26013.html
+          lineage_source: Ei lähdettä, käännetty
           date_accepted: '2002-09-01T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: juliaaninen päivä
-              normative_status: preferred
+          - type: expression
+            designation: juliaaninen päivä
+            normative_status: preferred
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:
@@ -184,30 +201,35 @@ fin:
           email: glossarist@ribose.com
 fra:
   id: 263
-  definition: >-
-    numéro de jour du calendrier Julien suivi par la fraction décimale du jour
-    écoulée depuis le midi passé
-  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: date julienne
+  definition:
+  - content: numéro de jour du calendrier Julien suivi par la fraction décimale du
+      jour écoulée depuis le midi passé
   notes: []
   examples: []
+  language_code: fra
   entry_status: valid
-  authoritative_source:
-    ref: ISO 19108
-    link: 'https://www.iso.org/standard/26013.html'
-  lineage_source: ''
-  date_accepted: '2002-09-01T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: date julienne
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19108
+      link: https://www.iso.org/standard/26013.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   _revisions:
     current: 2925c5
     tree:
       2925c5:
         object:
           id: 263
-          definition: >-
-            numéro de jour du calendrier Julien suivi par la fraction décimale
+          definition: numéro de jour du calendrier Julien suivi par la fraction décimale
             du jour écoulée depuis le midi passé
           language_code: fra
           notes: []
@@ -215,13 +237,13 @@ fra:
           entry_status: valid
           authoritative_source:
             ref: ISO 19108
-            link: 'https://www.iso.org/standard/26013.html'
+            link: https://www.iso.org/standard/26013.html
           lineage_source: ''
           date_accepted: '2002-09-01T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: date julienne
-              normative_status: preferred
+          - type: expression
+            designation: date julienne
+            normative_status: preferred
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:
@@ -229,20 +251,24 @@ fra:
           email: glossarist@ribose.com
 deu:
   id: 263
-  language_code: deu
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: julianisches Datum
   notes: []
   examples: []
+  language_code: deu
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19108:2002'
-    link: 'https://www.iso.org/standard/26013.html'
-  date_accepted: '2002-09-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19108:2002
+      link: https://www.iso.org/standard/26013.html
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: julianisches Datum
-      normative_status: preferred
   _revisions:
     current: 76e6cc
     tree:
@@ -255,14 +281,14 @@ deu:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19108:2002'
-            link: 'https://www.iso.org/standard/26013.html'
+            ref: ISO 19108:2002
+            link: https://www.iso.org/standard/26013.html
           date_accepted: '2002-09-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: julianisches Datum
-              normative_status: preferred
+          - type: expression
+            designation: julianisches Datum
+            normative_status: preferred
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:
@@ -270,21 +296,28 @@ deu:
           email: glossarist@ribose.com
 jpn:
   id: 263
-  definition: 直前の正午からの経過を表す10進小数の日数を伴ったユリウス日数。
-  language_code: jpn
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ユリウス日
+  definition:
+  - content: 直前の正午からの経過を表す10進小数の日数を伴ったユリウス日数。
   notes: []
   examples: []
+  language_code: jpn
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19108:2002'
-    link: 'https://www.iso.org/standard/26013.html'
-  lineage_source: JIS X 7108
-  date_accepted: '2002-09-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19108:2002
+      link: https://www.iso.org/standard/26013.html
+  - type: lineage
+    origin:
+      ref: JIS X 7108
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: ユリウス日
-      normative_status: preferred
   _revisions:
     current: 2b5d03
     tree:
@@ -297,15 +330,15 @@ jpn:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19108:2002'
-            link: 'https://www.iso.org/standard/26013.html'
+            ref: ISO 19108:2002
+            link: https://www.iso.org/standard/26013.html
           lineage_source: JIS X 7108
           date_accepted: '2002-09-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: ユリウス日
-              normative_status: preferred
+          - type: expression
+            designation: ユリウス日
+            normative_status: preferred
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:
@@ -313,22 +346,29 @@ jpn:
           email: glossarist@ribose.com
 kor:
   id: 263
-  definition: 전날 정오 이후 경과한 날을 소수로 표현한 율리우스 일수
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 율리우스날짜
+  definition:
+  - content: 전날 정오 이후 경과한 날을 소수로 표현한 율리우스 일수
   notes: []
   examples: []
+  language_code: kor
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19108:2002'
-    link: 'https://www.iso.org/standard/26013.html'
-  lineage_source: KS X ISO 19108
-  date_accepted: '2007-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19108:2002
+      link: https://www.iso.org/standard/26013.html
+  - type: lineage
+    origin:
+      ref: KS X ISO 19108
+  dates:
+  - type: accepted
+    date: '2007-11-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: 율리우스날짜
-      normative_status: preferred
   _revisions:
     current: 74ac83
     tree:
@@ -342,15 +382,15 @@ kor:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19108:2002'
-            link: 'https://www.iso.org/standard/26013.html'
+            ref: ISO 19108:2002
+            link: https://www.iso.org/standard/26013.html
           lineage_source: KS X ISO 19108
           date_accepted: '2007-11-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: 율리우스날짜
-              normative_status: preferred
+          - type: expression
+            designation: 율리우스날짜
+            normative_status: preferred
         parents: []
         timeCreated: '2007-11-01T00:00:00.000Z'
         author:
@@ -358,46 +398,49 @@ kor:
           email: glossarist@ribose.com
 msa:
   id: 263
-  definition: >-
-    Nombor hari Julian diikuti oleh pecahan perpuluhan hari yang berlalu sejak
-    tengah hari sebelumnya
-  language_code: msa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: tarikh Julian
+  definition:
+  - content: Nombor hari Julian diikuti oleh pecahan perpuluhan hari yang berlalu
+      sejak tengah hari sebelumnya
   notes: []
   examples: []
+  language_code: msa
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19108:2002'
-    link: 'https://www.iso.org/standard/26013.html'
-  date_accepted: '2002-09-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19108:2002
+      link: https://www.iso.org/standard/26013.html
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: tarikh Julian
-      normative_status: preferred
   _revisions:
     current: 3bd08e
     tree:
       3bd08e:
         object:
           id: 263
-          definition: >-
-            Nombor hari Julian diikuti oleh pecahan perpuluhan hari yang berlalu
-            sejak tengah hari sebelumnya
+          definition: Nombor hari Julian diikuti oleh pecahan perpuluhan hari yang
+            berlalu sejak tengah hari sebelumnya
           language_code: msa
           notes: []
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19108:2002'
-            link: 'https://www.iso.org/standard/26013.html'
+            ref: ISO 19108:2002
+            link: https://www.iso.org/standard/26013.html
           date_accepted: '2002-09-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: tarikh Julian
-              normative_status: preferred
+          - type: expression
+            designation: tarikh Julian
+            normative_status: preferred
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:
@@ -405,44 +448,49 @@ msa:
           email: glossarist@ribose.com
 pol:
   id: 263
-  definition: >-
-    juliański numer dnia, po którym podany jest ułamek dziesiętny dnia, jaki
-    upłynął od poprzedniego południa
-  language_code: pol
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: data juliańska
+  definition:
+  - content: juliański numer dnia, po którym podany jest ułamek dziesiętny dnia, jaki
+      upłynął od poprzedniego południa
   notes: []
   examples: []
-  authoritative_source:
-    ref: 'ISO 19108:2002'
-    link: 'https://www.iso.org/standard/26013.html'
-  lineage_source: PN-EN ISO 19108
-  date_accepted: '2002-09-01T00:00:00.000Z'
+  language_code: pol
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19108:2002
+      link: https://www.iso.org/standard/26013.html
+  - type: lineage
+    origin:
+      ref: PN-EN ISO 19108
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: data juliańska
-      normative_status: preferred
   _revisions:
     current: e57905
     tree:
       e57905:
         object:
           id: 263
-          definition: >-
-            juliański numer dnia, po którym podany jest ułamek dziesiętny dnia,
-            jaki upłynął od poprzedniego południa
+          definition: juliański numer dnia, po którym podany jest ułamek dziesiętny
+            dnia, jaki upłynął od poprzedniego południa
           language_code: pol
           notes: []
           examples: []
           authoritative_source:
-            ref: 'ISO 19108:2002'
-            link: 'https://www.iso.org/standard/26013.html'
+            ref: ISO 19108:2002
+            link: https://www.iso.org/standard/26013.html
           lineage_source: PN-EN ISO 19108
           date_accepted: '2002-09-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: data juliańska
-              normative_status: preferred
+          - type: expression
+            designation: data juliańska
+            normative_status: preferred
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:
@@ -450,31 +498,36 @@ pol:
           email: glossarist@ribose.com
 rus:
   id: 263
-  definition: >-
-    номер Юлианского дня, за которым следует десятичная доля дня, прошедшая
-    после предыдущего полудня
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Юлианская  дата
+  definition:
+  - content: номер Юлианского дня, за которым следует десятичная доля дня, прошедшая
+      после предыдущего полудня
   notes: []
   examples: []
+  language_code: rus
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19108:2002'
-    link: 'https://www.iso.org/standard/26013.html'
-  lineage_source: Internet
-  date_accepted: '2002-09-01T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: Юлианская  дата
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19108:2002
+      link: https://www.iso.org/standard/26013.html
+  - type: lineage
+    origin:
+      ref: Internet
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   _revisions:
     current: 79c26f
     tree:
       79c26f:
         object:
           id: 263
-          definition: >-
-            номер Юлианского дня, за которым следует десятичная доля дня,
+          definition: номер Юлианского дня, за которым следует десятичная доля дня,
             прошедшая  после предыдущего полудня
           language_code: rus
           notes: []
@@ -482,14 +535,14 @@ rus:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19108:2002'
-            link: 'https://www.iso.org/standard/26013.html'
+            ref: ISO 19108:2002
+            link: https://www.iso.org/standard/26013.html
           lineage_source: Internet
           date_accepted: '2002-09-01T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: Юлианская  дата
-              normative_status: preferred
+          - type: expression
+            designation: Юлианская  дата
+            normative_status: preferred
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:
@@ -497,46 +550,49 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 263
-  definition: >-
-    número de días julianos, seguido de la fracción decimal del día,
-    transcurridos desde la luna precedente
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: fecha juliana
+  definition:
+  - content: número de días julianos, seguido de la fracción decimal del día, transcurridos
+      desde la luna precedente
   notes: []
   examples: []
+  language_code: spa
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19108:2002'
-    link: 'https://www.iso.org/standard/26013.html'
-  date_accepted: '2002-09-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19108:2002
+      link: https://www.iso.org/standard/26013.html
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: fecha juliana
-      normative_status: preferred
   _revisions:
-    current: '4e4079'
+    current: 4e4079
     tree:
-      '4e4079':
+      4e4079:
         object:
           id: 263
-          definition: >-
-            número de días julianos, seguido de la fracción decimal del día,
-            transcurridos desde la luna precedente
+          definition: número de días julianos, seguido de la fracción decimal del
+            día, transcurridos desde la luna precedente
           language_code: spa
           notes: []
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19108:2002'
-            link: 'https://www.iso.org/standard/26013.html'
+            ref: ISO 19108:2002
+            link: https://www.iso.org/standard/26013.html
           date_accepted: '2002-09-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: fecha juliana
-              normative_status: preferred
+          - type: expression
+            designation: fecha juliana
+            normative_status: preferred
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:

@@ -1,66 +1,70 @@
-term: sensor model
+---
 termid: 720
+term: sensor model
 eng:
   id: 720
-  definition: description of the radiometric and geometric characteristics of a sensor
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: sensor model
+  definition:
+  - content: description of the radiometric and geometric characteristics of a sensor
   notes: []
   examples: []
+  language_code: eng
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19101-2:2018'
-    clause: '(E), 3.37'
-    link: 'https://www.iso.org/standard/69325.html'
-  lineage_source: 'ISO/TS 19101-2:2008(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101-2:2018
+      clause: "(E), 3.37"
+      link: https://www.iso.org/standard/69325.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19101-2:2008(E)
   lineage_source_similarity: 1
-  date_accepted: '2008-06-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2008-06-01T00:00:00.000Z'
   review_date: '2018-05-01T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2018-05-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-2:2018(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/TS 19101-2:2008 to ISO
-    19101-2:2018(E), 3.37. Lineage source added as ISO/TS 19101-2:2008(E)
+  review_decision_event: Publication of ISO 19101-2:2018(E)
+  review_decision_notes: Authoritative reference changed from ISO/TS 19101-2:2008
+    to ISO 19101-2:2018(E), 3.37. Lineage source added as ISO/TS 19101-2:2008(E)
   release: '2'
-  terms:
-    - type: expression
-      designation: sensor model
-      normative_status: preferred
   _revisions:
     current: 0e011c
     tree:
       0e011c:
         object:
           id: 720
-          definition: >-
-            description of the radiometric and geometric characteristics of a
-            sensor
+          definition: description of the radiometric and geometric characteristics
+            of a sensor
           language_code: eng
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19101-2:2018'
-            clause: '(E), 3.37'
-            link: 'https://www.iso.org/standard/69325.html'
-          lineage_source: 'ISO/TS 19101-2:2008(E)'
+            ref: ISO 19101-2:2018
+            clause: "(E), 3.37"
+            link: https://www.iso.org/standard/69325.html
+          lineage_source: ISO/TS 19101-2:2008(E)
           lineage_source_similarity: 1
           date_accepted: '2008-06-01T00:00:00.000Z'
           review_date: '2018-05-01T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2018-05-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-2:2018(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/TS 19101-2:2008 to ISO
-            19101-2:2018(E), 3.37. Lineage source added as ISO/TS
-            19101-2:2008(E)
+          review_decision_event: Publication of ISO 19101-2:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO/TS 19101-2:2008
+            to ISO 19101-2:2018(E), 3.37. Lineage source added as ISO/TS 19101-2:2008(E)
           release: '2'
           terms:
-            - type: expression
-              designation: sensor model
-              normative_status: preferred
+          - type: expression
+            designation: sensor model
+            normative_status: preferred
         parents: []
         timeCreated: '2008-06-01T00:00:00.000Z'
         author:
@@ -68,31 +72,37 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 720
-  definition: وصف للخصائص الاشعاعية والهندسية لجهاز استشعار
-  language_code: ara
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: نموذج جهاز استشعار
+  definition:
+  - content: وصف للخصائص الاشعاعية والهندسية لجهاز استشعار
   notes: []
   examples: []
+  language_code: ara
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19101-2:2018'
-    clause: '(E), 3.37'
-    link: 'https://www.iso.org/standard/69325.html'
-  lineage_source: 'ISO/TS 19101-2:2008(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101-2:2018
+      clause: "(E), 3.37"
+      link: https://www.iso.org/standard/69325.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19101-2:2008(E)
   lineage_source_similarity: 1
-  date_accepted: '2008-06-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2008-06-01T00:00:00.000Z'
   review_date: '2018-05-01T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2018-05-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-2:2018(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/TS 19101-2:2008 to ISO
-    19101-2:2018(E), 3.37. Lineage source added as ISO/TS 19101-2:2008(E)
+  review_decision_event: Publication of ISO 19101-2:2018(E)
+  review_decision_notes: Authoritative reference changed from ISO/TS 19101-2:2008
+    to ISO 19101-2:2018(E), 3.37. Lineage source added as ISO/TS 19101-2:2008(E)
   release: '2'
-  terms:
-    - type: expression
-      designation: نموذج جهاز استشعار
-      normative_status: preferred
   _revisions:
     current: d36504
     tree:
@@ -105,26 +115,24 @@ ara:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19101-2:2018'
-            clause: '(E), 3.37'
-            link: 'https://www.iso.org/standard/69325.html'
-          lineage_source: 'ISO/TS 19101-2:2008(E)'
+            ref: ISO 19101-2:2018
+            clause: "(E), 3.37"
+            link: https://www.iso.org/standard/69325.html
+          lineage_source: ISO/TS 19101-2:2008(E)
           lineage_source_similarity: 1
           date_accepted: '2008-06-01T00:00:00.000Z'
           review_date: '2018-05-01T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2018-05-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-2:2018(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/TS 19101-2:2008 to ISO
-            19101-2:2018(E), 3.37. Lineage source added as ISO/TS
-            19101-2:2008(E)
+          review_decision_event: Publication of ISO 19101-2:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO/TS 19101-2:2008
+            to ISO 19101-2:2018(E), 3.37. Lineage source added as ISO/TS 19101-2:2008(E)
           release: '2'
           terms:
-            - type: expression
-              designation: نموذج جهاز استشعار
-              normative_status: preferred
+          - type: expression
+            designation: نموذج جهاز استشعار
+            normative_status: preferred
         parents: []
         timeCreated: '2008-06-01T00:00:00.000Z'
         author:
@@ -132,67 +140,69 @@ ara:
           email: glossarist@ribose.com
 deu:
   id: 720
-  definition: >-
-    Beschreibung der radiometrischen und geometrischen Eigenschaften eines
-    Sensors
-  language_code: deu
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Sensormodell
+  definition:
+  - content: Beschreibung der radiometrischen und geometrischen Eigenschaften eines
+      Sensors
   notes: []
   examples: []
+  language_code: deu
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19101-2:2018'
-    clause: '(E), 3.37'
-    link: 'https://www.iso.org/standard/69325.html'
-  lineage_source: 'ISO/TS 19101-2:2008(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101-2:2018
+      clause: "(E), 3.37"
+      link: https://www.iso.org/standard/69325.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19101-2:2008(E)
   lineage_source_similarity: 1
-  date_accepted: '2008-06-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2008-06-01T00:00:00.000Z'
   review_date: '2018-05-01T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2018-05-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-2:2018(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/TS 19101-2:2008 to ISO
-    19101-2:2018(E), 3.37. Lineage source added as ISO/TS 19101-2:2008(E)
+  review_decision_event: Publication of ISO 19101-2:2018(E)
+  review_decision_notes: Authoritative reference changed from ISO/TS 19101-2:2008
+    to ISO 19101-2:2018(E), 3.37. Lineage source added as ISO/TS 19101-2:2008(E)
   release: '2'
-  terms:
-    - type: expression
-      designation: Sensormodell
-      normative_status: preferred
   _revisions:
     current: f4cb35
     tree:
       f4cb35:
         object:
           id: 720
-          definition: >-
-            Beschreibung der radiometrischen und geometrischen Eigenschaften
+          definition: Beschreibung der radiometrischen und geometrischen Eigenschaften
             eines Sensors
           language_code: deu
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19101-2:2018'
-            clause: '(E), 3.37'
-            link: 'https://www.iso.org/standard/69325.html'
-          lineage_source: 'ISO/TS 19101-2:2008(E)'
+            ref: ISO 19101-2:2018
+            clause: "(E), 3.37"
+            link: https://www.iso.org/standard/69325.html
+          lineage_source: ISO/TS 19101-2:2008(E)
           lineage_source_similarity: 1
           date_accepted: '2008-06-01T00:00:00.000Z'
           review_date: '2018-05-01T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2018-05-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-2:2018(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/TS 19101-2:2008 to ISO
-            19101-2:2018(E), 3.37. Lineage source added as ISO/TS
-            19101-2:2008(E)
+          review_decision_event: Publication of ISO 19101-2:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO/TS 19101-2:2008
+            to ISO 19101-2:2018(E), 3.37. Lineage source added as ISO/TS 19101-2:2008(E)
           release: '2'
           terms:
-            - type: expression
-              designation: Sensormodell
-              normative_status: preferred
+          - type: expression
+            designation: Sensormodell
+            normative_status: preferred
         parents: []
         timeCreated: '2008-06-01T00:00:00.000Z'
         author:
@@ -200,31 +210,37 @@ deu:
           email: glossarist@ribose.com
 kor:
   id: 720
-  definition: 센서의 지리적 및 방사적 특징을 묘사한 것
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 센서/탐지 모델
+  definition:
+  - content: 센서의 지리적 및 방사적 특징을 묘사한 것
   notes: []
   examples: []
+  language_code: kor
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19101-2:2018'
-    clause: '(E), 3.37'
-    link: 'https://www.iso.org/standard/69325.html'
-  lineage_source: 'ISO/TS 19101-2:2008(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101-2:2018
+      clause: "(E), 3.37"
+      link: https://www.iso.org/standard/69325.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19101-2:2008(E)
   lineage_source_similarity: 1
-  date_accepted: '2008-06-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2008-06-01T00:00:00.000Z'
   review_date: '2018-05-01T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2018-05-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-2:2018(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/TS 19101-2:2008 to ISO
-    19101-2:2018(E), 3.37. Lineage source added as ISO/TS 19101-2:2008(E)
+  review_decision_event: Publication of ISO 19101-2:2018(E)
+  review_decision_notes: Authoritative reference changed from ISO/TS 19101-2:2008
+    to ISO 19101-2:2018(E), 3.37. Lineage source added as ISO/TS 19101-2:2008(E)
   release: '2'
-  terms:
-    - type: expression
-      designation: 센서/탐지 모델
-      normative_status: preferred
   _revisions:
     current: 8c77ec
     tree:
@@ -237,26 +253,24 @@ kor:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19101-2:2018'
-            clause: '(E), 3.37'
-            link: 'https://www.iso.org/standard/69325.html'
-          lineage_source: 'ISO/TS 19101-2:2008(E)'
+            ref: ISO 19101-2:2018
+            clause: "(E), 3.37"
+            link: https://www.iso.org/standard/69325.html
+          lineage_source: ISO/TS 19101-2:2008(E)
           lineage_source_similarity: 1
           date_accepted: '2008-06-01T00:00:00.000Z'
           review_date: '2018-05-01T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2018-05-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-2:2018(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/TS 19101-2:2008 to ISO
-            19101-2:2018(E), 3.37. Lineage source added as ISO/TS
-            19101-2:2008(E)
+          review_decision_event: Publication of ISO 19101-2:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO/TS 19101-2:2008
+            to ISO 19101-2:2018(E), 3.37. Lineage source added as ISO/TS 19101-2:2008(E)
           release: '2'
           terms:
-            - type: expression
-              designation: 센서/탐지 모델
-              normative_status: preferred
+          - type: expression
+            designation: 센서/탐지 모델
+            normative_status: preferred
         parents: []
         timeCreated: '2008-06-01T00:00:00.000Z'
         author:
@@ -264,31 +278,37 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 720
-  definition: описание радиометрических и геометрических характеристик датчика
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: модель датчика
+  definition:
+  - content: описание радиометрических и геометрических характеристик датчика
   notes: []
   examples: []
+  language_code: rus
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19101-2:2018'
-    clause: '(E), 3.37'
-    link: 'https://www.iso.org/standard/69325.html'
-  lineage_source: 'ISO/TS 19101-2:2008(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101-2:2018
+      clause: "(E), 3.37"
+      link: https://www.iso.org/standard/69325.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19101-2:2008(E)
   lineage_source_similarity: 1
-  date_accepted: '2008-06-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2008-06-01T00:00:00.000Z'
   review_date: '2018-05-01T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2018-05-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-2:2018(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/TS 19101-2:2008 to ISO
-    19101-2:2018(E), 3.37. Lineage source added as ISO/TS 19101-2:2008(E)
+  review_decision_event: Publication of ISO 19101-2:2018(E)
+  review_decision_notes: Authoritative reference changed from ISO/TS 19101-2:2008
+    to ISO 19101-2:2018(E), 3.37. Lineage source added as ISO/TS 19101-2:2008(E)
   release: '2'
-  terms:
-    - type: expression
-      designation: модель датчика
-      normative_status: preferred
   _revisions:
     current: a88a79
     tree:
@@ -301,26 +321,24 @@ rus:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19101-2:2018'
-            clause: '(E), 3.37'
-            link: 'https://www.iso.org/standard/69325.html'
-          lineage_source: 'ISO/TS 19101-2:2008(E)'
+            ref: ISO 19101-2:2018
+            clause: "(E), 3.37"
+            link: https://www.iso.org/standard/69325.html
+          lineage_source: ISO/TS 19101-2:2008(E)
           lineage_source_similarity: 1
           date_accepted: '2008-06-01T00:00:00.000Z'
           review_date: '2018-05-01T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2018-05-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-2:2018(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/TS 19101-2:2008 to ISO
-            19101-2:2018(E), 3.37. Lineage source added as ISO/TS
-            19101-2:2008(E)
+          review_decision_event: Publication of ISO 19101-2:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO/TS 19101-2:2008
+            to ISO 19101-2:2018(E), 3.37. Lineage source added as ISO/TS 19101-2:2008(E)
           release: '2'
           terms:
-            - type: expression
-              designation: модель датчика
-              normative_status: preferred
+          - type: expression
+            designation: модель датчика
+            normative_status: preferred
         parents: []
         timeCreated: '2008-06-01T00:00:00.000Z'
         author:
@@ -328,65 +346,69 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 720
-  definition: descripción de las características geométricas y radiométricas de un sensor
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: modelo de sensor
+  definition:
+  - content: descripción de las características geométricas y radiométricas de un
+      sensor
   notes: []
   examples: []
+  language_code: spa
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19101-2:2018'
-    clause: '(E), 3.37'
-    link: 'https://www.iso.org/standard/69325.html'
-  lineage_source: 'ISO/TS 19101-2:2008(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101-2:2018
+      clause: "(E), 3.37"
+      link: https://www.iso.org/standard/69325.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19101-2:2008(E)
   lineage_source_similarity: 1
-  date_accepted: '2008-06-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2008-06-01T00:00:00.000Z'
   review_date: '2018-05-01T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2018-05-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-2:2018(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/TS 19101-2:2008 to ISO
-    19101-2:2018(E), 3.37. Lineage source added as ISO/TS 19101-2:2008(E)
+  review_decision_event: Publication of ISO 19101-2:2018(E)
+  review_decision_notes: Authoritative reference changed from ISO/TS 19101-2:2008
+    to ISO 19101-2:2018(E), 3.37. Lineage source added as ISO/TS 19101-2:2008(E)
   release: '2'
-  terms:
-    - type: expression
-      designation: modelo de sensor
-      normative_status: preferred
   _revisions:
     current: 24945d
     tree:
       24945d:
         object:
           id: 720
-          definition: >-
-            descripción de las características geométricas y radiométricas de un
-            sensor
+          definition: descripción de las características geométricas y radiométricas
+            de un sensor
           language_code: spa
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19101-2:2018'
-            clause: '(E), 3.37'
-            link: 'https://www.iso.org/standard/69325.html'
-          lineage_source: 'ISO/TS 19101-2:2008(E)'
+            ref: ISO 19101-2:2018
+            clause: "(E), 3.37"
+            link: https://www.iso.org/standard/69325.html
+          lineage_source: ISO/TS 19101-2:2008(E)
           lineage_source_similarity: 1
           date_accepted: '2008-06-01T00:00:00.000Z'
           review_date: '2018-05-01T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2018-05-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-2:2018(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/TS 19101-2:2008 to ISO
-            19101-2:2018(E), 3.37. Lineage source added as ISO/TS
-            19101-2:2008(E)
+          review_decision_event: Publication of ISO 19101-2:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO/TS 19101-2:2008
+            to ISO 19101-2:2018(E), 3.37. Lineage source added as ISO/TS 19101-2:2008(E)
           release: '2'
           terms:
-            - type: expression
-              designation: modelo de sensor
-              normative_status: preferred
+          - type: expression
+            designation: modelo de sensor
+            normative_status: preferred
         parents: []
         timeCreated: '2008-06-01T00:00:00.000Z'
         author:
@@ -394,32 +416,38 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 720
-  definition: beskrivning av en sensors radiometriska och geometriska egenskaper
-  country_code: swe
-  language_code: swe
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: sensormodell
+  definition:
+  - content: beskrivning av en sensors radiometriska och geometriska egenskaper
   notes: []
   examples: []
+  country_code: swe
+  language_code: swe
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19101-2:2018'
-    clause: '(E), 3.37'
-    link: 'https://www.iso.org/standard/69325.html'
-  lineage_source: 'ISO/TS 19101-2:2008(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101-2:2018
+      clause: "(E), 3.37"
+      link: https://www.iso.org/standard/69325.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19101-2:2008(E)
   lineage_source_similarity: 1
-  date_accepted: '2008-06-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2008-06-01T00:00:00.000Z'
   review_date: '2018-05-01T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2018-05-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-2:2018(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/TS 19101-2:2008 to ISO
-    19101-2:2018(E), 3.37. Lineage source added as ISO/TS 19101-2:2008(E)
+  review_decision_event: Publication of ISO 19101-2:2018(E)
+  review_decision_notes: Authoritative reference changed from ISO/TS 19101-2:2008
+    to ISO 19101-2:2018(E), 3.37. Lineage source added as ISO/TS 19101-2:2008(E)
   release: '2'
-  terms:
-    - type: expression
-      designation: sensormodell
-      normative_status: preferred
   _revisions:
     current: e56d88
     tree:
@@ -433,26 +461,24 @@ swe:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19101-2:2018'
-            clause: '(E), 3.37'
-            link: 'https://www.iso.org/standard/69325.html'
-          lineage_source: 'ISO/TS 19101-2:2008(E)'
+            ref: ISO 19101-2:2018
+            clause: "(E), 3.37"
+            link: https://www.iso.org/standard/69325.html
+          lineage_source: ISO/TS 19101-2:2008(E)
           lineage_source_similarity: 1
           date_accepted: '2008-06-01T00:00:00.000Z'
           review_date: '2018-05-01T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2018-05-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-2:2018(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/TS 19101-2:2008 to ISO
-            19101-2:2018(E), 3.37. Lineage source added as ISO/TS
-            19101-2:2008(E)
+          review_decision_event: Publication of ISO 19101-2:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO/TS 19101-2:2008
+            to ISO 19101-2:2018(E), 3.37. Lineage source added as ISO/TS 19101-2:2008(E)
           release: '2'
           terms:
-            - type: expression
-              designation: sensormodell
-              normative_status: preferred
+          - type: expression
+            designation: sensormodell
+            normative_status: preferred
         parents: []
         timeCreated: '2008-06-01T00:00:00.000Z'
         author:

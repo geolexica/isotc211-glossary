@@ -1,32 +1,38 @@
-term: submission information package
+---
 termid: 2234
+term: SIP
 eng:
   id: 2234
-  abbrev: SIP
-  definition: >-
-    information package that is delivered by the producer to the OAIS for use in
-    the construction or update of one or more AIPs and/or the associated
-    descriptive information
-  language_code: eng
+  terms:
+  - type: abbreviation
+    designation: SIP
+  - type: expression
+    normative_status: preferred
+    designation: submission information package
+  definition:
+  - content: information package that is delivered by the producer to the OAIS for
+      use in the construction or update of one or more AIPs and/or the associated
+      descriptive information
   notes: []
   examples: []
+  language_code: eng
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 14721:2012'
-    clause: '1.7.2, modified'
-    link: 'https://www.iso.org/standard/57284.html'
-  date_accepted: '2018-05-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 14721:2012
+      clause: 1.7.2, modified
+      link: https://www.iso.org/standard/57284.html
+  dates:
+  - type: accepted
+    date: '2018-05-01T00:00:00.000Z'
   review_date: '2018-05-01T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2018-05-01T00:00:00.000Z'
   review_decision_event: Normal ISO processing
-  review_decision_notes: 'Publication of document ISO 19165-1:2018(E)'
+  review_decision_notes: Publication of document ISO 19165-1:2018(E)
   release: '5'
-  terms:
-    - type: expression
-      designation: submission information package
-      normative_status: preferred
   _revisions:
     current: 39b98e
     tree:
@@ -34,30 +40,29 @@ eng:
         object:
           id: 2234
           abbrev: SIP
-          definition: >-
-            information package that is delivered by the producer to the OAIS
-            for use in the construction or update of one or more AIPs and/or the
-            associated descriptive information
+          definition: information package that is delivered by the producer to the
+            OAIS for use in the construction or update of one or more AIPs and/or
+            the associated descriptive information
           language_code: eng
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 14721:2012'
-            clause: '1.7.2, modified'
-            link: 'https://www.iso.org/standard/57284.html'
+            ref: ISO 14721:2012
+            clause: 1.7.2, modified
+            link: https://www.iso.org/standard/57284.html
           date_accepted: '2018-05-01T00:00:00.000Z'
           review_date: '2018-05-01T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2018-05-01T00:00:00.000Z'
           review_decision_event: Normal ISO processing
-          review_decision_notes: 'Publication of document ISO 19165-1:2018(E)'
+          review_decision_notes: Publication of document ISO 19165-1:2018(E)
           release: '5'
           terms:
-            - type: expression
-              designation: submission information package
-              normative_status: preferred
+          - type: expression
+            designation: submission information package
+            normative_status: preferred
         parents: []
         timeCreated: '2018-05-01T00:00:00.000Z'
         author:

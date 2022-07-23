@@ -1,35 +1,42 @@
-term: dataset series
+---
 termid: 125
+term: dataset series
 eng:
   id: 125
-  definition: collection of datasets sharing the same product specification
-  language_code: eng
+  terms:
+  - type: expression
+    designation: dataset series
+  definition:
+  - content: collection of datasets sharing the same product specification
   notes: []
   examples: []
+  language_code: eng
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19115:2003'
-    clause: '4.3'
-    link: 'https://www.iso.org/standard/26020.html'
-  lineage_source: ISO 19113
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19115:2003
+      clause: '4.3'
+      link: https://www.iso.org/standard/26020.html
+  - type: lineage
+    origin:
+      ref: ISO 19113
   lineage_source_similarity: 1
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2014-04-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-04-01T00:00:00.000Z'
   review_date: '2011-01-01T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2014-04-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19115-1:2014'
-  review_decision_notes: >-
-    The entry has been superseded. An entry with a revised definition has been
-    published in ISO 19115-1:2014
-  release: '-1'
-  terms:
-    - type: expression
-      designation: dataset series
-      normative_status: null
+  review_decision_event: Publication of ISO 19115-1:2014
+  review_decision_notes: The entry has been superseded. An entry with a revised definition
+    has been published in ISO 19115-1:2014
+  release: "-1"
   _revisions:
     current: c04cb4
     tree:
@@ -43,9 +50,9 @@ eng:
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19115:2003'
+            ref: ISO 19115:2003
             clause: '4.3'
-            link: 'https://www.iso.org/standard/26020.html'
+            link: https://www.iso.org/standard/26020.html
           lineage_source: ISO 19113
           lineage_source_similarity: 1
           date_accepted: '2002-12-01T00:00:00.000Z'
@@ -55,15 +62,14 @@ eng:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2014-04-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19115-1:2014'
-          review_decision_notes: >-
-            The entry has been superseded. An entry with a revised definition
-            has been published in ISO 19115-1:2014
-          release: '-1'
+          review_decision_event: Publication of ISO 19115-1:2014
+          review_decision_notes: The entry has been superseded. An entry with a revised
+            definition has been published in ISO 19115-1:2014
+          release: "-1"
           terms:
-            - type: expression
-              designation: dataset series
-              normative_status: null
+          - type: expression
+            designation: dataset series
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -71,34 +77,40 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 125
-  definition: تجميع لمجموعة بيانات لها نفس مواصفات المنتج
-  language_code: ara
+  terms:
+  - type: expression
+    designation: سلسلة مجموعة بيانات
+  definition:
+  - content: تجميع لمجموعة بيانات لها نفس مواصفات المنتج
   notes: []
   examples: []
+  language_code: ara
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19115:2003'
-    clause: '4.3'
-    link: 'https://www.iso.org/standard/26020.html'
-  lineage_source: ISO 19113
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19115:2003
+      clause: '4.3'
+      link: https://www.iso.org/standard/26020.html
+  - type: lineage
+    origin:
+      ref: ISO 19113
   lineage_source_similarity: 1
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2014-04-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-04-01T00:00:00.000Z'
   review_date: '2011-01-01T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2014-04-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19115-1:2014'
-  review_decision_notes: >-
-    The entry has been superseded. An entry with a revised definition has been
-    published in ISO 19115-1:2014
-  release: '-1'
-  terms:
-    - type: expression
-      designation: سلسلة مجموعة بيانات
-      normative_status: null
+  review_decision_event: Publication of ISO 19115-1:2014
+  review_decision_notes: The entry has been superseded. An entry with a revised definition
+    has been published in ISO 19115-1:2014
+  release: "-1"
   _revisions:
     current: 4a9b92
     tree:
@@ -112,9 +124,9 @@ ara:
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19115:2003'
+            ref: ISO 19115:2003
             clause: '4.3'
-            link: 'https://www.iso.org/standard/26020.html'
+            link: https://www.iso.org/standard/26020.html
           lineage_source: ISO 19113
           lineage_source_similarity: 1
           date_accepted: '2002-12-01T00:00:00.000Z'
@@ -124,15 +136,14 @@ ara:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2014-04-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19115-1:2014'
-          review_decision_notes: >-
-            The entry has been superseded. An entry with a revised definition
-            has been published in ISO 19115-1:2014
-          release: '-1'
+          review_decision_event: Publication of ISO 19115-1:2014
+          review_decision_notes: The entry has been superseded. An entry with a revised
+            definition has been published in ISO 19115-1:2014
+          release: "-1"
           terms:
-            - type: expression
-              designation: سلسلة مجموعة بيانات
-              normative_status: null
+          - type: expression
+            designation: سلسلة مجموعة بيانات
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -140,34 +151,40 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 125
-  definition: 符合相同产品规范的数据集集合。
-  language_code: zho
+  terms:
+  - type: expression
+    designation: 数据集系列
+  definition:
+  - content: 符合相同产品规范的数据集集合。
   notes: []
   examples: []
+  language_code: zho
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19115:2003'
-    clause: '4.3'
-    link: 'https://www.iso.org/standard/26020.html'
-  lineage_source: ISO 19113
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19115:2003
+      clause: '4.3'
+      link: https://www.iso.org/standard/26020.html
+  - type: lineage
+    origin:
+      ref: ISO 19113
   lineage_source_similarity: 1
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2014-04-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-04-01T00:00:00.000Z'
   review_date: '2011-01-01T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2014-04-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19115-1:2014'
-  review_decision_notes: >-
-    The entry has been superseded. An entry with a revised definition has been
-    published in ISO 19115-1:2014
-  release: '-1'
-  terms:
-    - type: expression
-      designation: 数据集系列
-      normative_status: null
+  review_decision_event: Publication of ISO 19115-1:2014
+  review_decision_notes: The entry has been superseded. An entry with a revised definition
+    has been published in ISO 19115-1:2014
+  release: "-1"
   _revisions:
     current: ca9170
     tree:
@@ -181,9 +198,9 @@ zho:
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19115:2003'
+            ref: ISO 19115:2003
             clause: '4.3'
-            link: 'https://www.iso.org/standard/26020.html'
+            link: https://www.iso.org/standard/26020.html
           lineage_source: ISO 19113
           lineage_source_similarity: 1
           date_accepted: '2002-12-01T00:00:00.000Z'
@@ -193,15 +210,14 @@ zho:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2014-04-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19115-1:2014'
-          review_decision_notes: >-
-            The entry has been superseded. An entry with a revised definition
-            has been published in ISO 19115-1:2014
-          release: '-1'
+          review_decision_event: Publication of ISO 19115-1:2014
+          review_decision_notes: The entry has been superseded. An entry with a revised
+            definition has been published in ISO 19115-1:2014
+          release: "-1"
           terms:
-            - type: expression
-              designation: 数据集系列
-              normative_status: null
+          - type: expression
+            designation: 数据集系列
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -209,34 +225,40 @@ zho:
           email: glossarist@ribose.com
 dan:
   id: 125
-  definition: samling af datasæt med samme produktspecifikation
-  language_code: dan
+  terms:
+  - type: expression
+    designation: datasætserie
+  definition:
+  - content: samling af datasæt med samme produktspecifikation
   notes: []
   examples: []
+  language_code: dan
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19115:2003'
-    clause: '4.3'
-    link: 'https://www.iso.org/standard/26020.html'
-  lineage_source: ISO 19113
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19115:2003
+      clause: '4.3'
+      link: https://www.iso.org/standard/26020.html
+  - type: lineage
+    origin:
+      ref: ISO 19113
   lineage_source_similarity: 1
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2014-04-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-04-01T00:00:00.000Z'
   review_date: '2011-01-01T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2014-04-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19115-1:2014'
-  review_decision_notes: >-
-    The entry has been superseded. An entry with a revised definition has been
-    published in ISO 19115-1:2014
-  release: '-1'
-  terms:
-    - type: expression
-      designation: datasætserie
-      normative_status: null
+  review_decision_event: Publication of ISO 19115-1:2014
+  review_decision_notes: The entry has been superseded. An entry with a revised definition
+    has been published in ISO 19115-1:2014
+  release: "-1"
   _revisions:
     current: 2b1b36
     tree:
@@ -250,9 +272,9 @@ dan:
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19115:2003'
+            ref: ISO 19115:2003
             clause: '4.3'
-            link: 'https://www.iso.org/standard/26020.html'
+            link: https://www.iso.org/standard/26020.html
           lineage_source: ISO 19113
           lineage_source_similarity: 1
           date_accepted: '2002-12-01T00:00:00.000Z'
@@ -262,15 +284,14 @@ dan:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2014-04-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19115-1:2014'
-          review_decision_notes: >-
-            The entry has been superseded. An entry with a revised definition
-            has been published in ISO 19115-1:2014
-          release: '-1'
+          review_decision_event: Publication of ISO 19115-1:2014
+          review_decision_notes: The entry has been superseded. An entry with a revised
+            definition has been published in ISO 19115-1:2014
+          release: "-1"
           terms:
-            - type: expression
-              designation: datasætserie
-              normative_status: null
+          - type: expression
+            designation: datasætserie
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -278,52 +299,56 @@ dan:
           email: glossarist@ribose.com
 fin:
   id: 125
-  definition: 'kokoelma tietoaineistoja, joihin liittyy pääosin sama metatietosisältö'
-  language_code: fin
+  terms:
+  - type: expression
+    designation: tietoaineistosarja
+  definition:
+  - content: kokoelma tietoaineistoja, joihin liittyy pääosin sama metatietosisältö
   notes: []
   examples: []
+  language_code: fin
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19115:2003'
-    clause: '4.3'
-    link: 'https://www.iso.org/standard/26020.html'
-  lineage_source: ISO 19113
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19115:2003
+      clause: '4.3'
+      link: https://www.iso.org/standard/26020.html
+  - type: lineage
+    origin:
+      ref: ISO 19113
   lineage_source_similarity: 1
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2014-04-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-04-01T00:00:00.000Z'
   review_date: '2011-01-01T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2014-04-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19115-1:2014'
-  review_decision_notes: >-
-    The entry has been superseded. An entry with a revised definition has been
-    published in ISO 19115-1:2014
-  release: '-1'
-  terms:
-    - type: expression
-      designation: tietoaineistosarja
-      normative_status: null
+  review_decision_event: Publication of ISO 19115-1:2014
+  review_decision_notes: The entry has been superseded. An entry with a revised definition
+    has been published in ISO 19115-1:2014
+  release: "-1"
   _revisions:
     current: 2121ce
     tree:
       2121ce:
         object:
           id: 125
-          definition: >-
-            kokoelma tietoaineistoja, joihin liittyy pääosin sama
-            metatietosisältö
+          definition: kokoelma tietoaineistoja, joihin liittyy pääosin sama metatietosisältö
           language_code: fin
           notes: []
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19115:2003'
+            ref: ISO 19115:2003
             clause: '4.3'
-            link: 'https://www.iso.org/standard/26020.html'
+            link: https://www.iso.org/standard/26020.html
           lineage_source: ISO 19113
           lineage_source_similarity: 1
           date_accepted: '2002-12-01T00:00:00.000Z'
@@ -333,15 +358,14 @@ fin:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2014-04-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19115-1:2014'
-          review_decision_notes: >-
-            The entry has been superseded. An entry with a revised definition
-            has been published in ISO 19115-1:2014
-          release: '-1'
+          review_decision_event: Publication of ISO 19115-1:2014
+          review_decision_notes: The entry has been superseded. An entry with a revised
+            definition has been published in ISO 19115-1:2014
+          release: "-1"
           terms:
-            - type: expression
-              designation: tietoaineistosarja
-              normative_status: null
+          - type: expression
+            designation: tietoaineistosarja
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -349,52 +373,57 @@ fin:
           email: glossarist@ribose.com
 fra:
   id: 125
-  definition: collection de jeux de données partageant la même spécification de produit
-  language_code: fra
+  terms:
+  - type: expression
+    designation: série de jeux de données
+  definition:
+  - content: collection de jeux de données partageant la même spécification de produit
   notes: []
   examples: []
+  language_code: fra
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19115:2003'
-    clause: '4.3'
-    link: 'https://www.iso.org/standard/26020.html'
-  lineage_source: ISO 19113
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19115:2003
+      clause: '4.3'
+      link: https://www.iso.org/standard/26020.html
+  - type: lineage
+    origin:
+      ref: ISO 19113
   lineage_source_similarity: 1
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2014-04-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-04-01T00:00:00.000Z'
   review_date: '2011-01-01T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2014-04-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19115-1:2014'
-  review_decision_notes: >-
-    The entry has been superseded. An entry with a revised definition has been
-    published in ISO 19115-1:2014
-  release: '-1'
-  terms:
-    - type: expression
-      designation: série de jeux de données
-      normative_status: null
+  review_decision_event: Publication of ISO 19115-1:2014
+  review_decision_notes: The entry has been superseded. An entry with a revised definition
+    has been published in ISO 19115-1:2014
+  release: "-1"
   _revisions:
     current: 98a9b9
     tree:
       98a9b9:
         object:
           id: 125
-          definition: >-
-            collection de jeux de données partageant la même spécification de
-            produit
+          definition: collection de jeux de données partageant la même spécification
+            de produit
           language_code: fra
           notes: []
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19115:2003'
+            ref: ISO 19115:2003
             clause: '4.3'
-            link: 'https://www.iso.org/standard/26020.html'
+            link: https://www.iso.org/standard/26020.html
           lineage_source: ISO 19113
           lineage_source_similarity: 1
           date_accepted: '2002-12-01T00:00:00.000Z'
@@ -404,15 +433,14 @@ fra:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2014-04-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19115-1:2014'
-          review_decision_notes: >-
-            The entry has been superseded. An entry with a revised definition
-            has been published in ISO 19115-1:2014
-          release: '-1'
+          review_decision_event: Publication of ISO 19115-1:2014
+          review_decision_notes: The entry has been superseded. An entry with a revised
+            definition has been published in ISO 19115-1:2014
+          release: "-1"
           terms:
-            - type: expression
-              designation: série de jeux de données
-              normative_status: null
+          - type: expression
+            designation: série de jeux de données
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -420,34 +448,40 @@ fra:
           email: glossarist@ribose.com
 deu:
   id: 125
-  definition: Sammlung von Datensätzen mit gemeinsamer Datenproduktspezifikation
-  language_code: deu
+  terms:
+  - type: expression
+    designation: Serie von Datensätzen
+  definition:
+  - content: Sammlung von Datensätzen mit gemeinsamer Datenproduktspezifikation
   notes: []
   examples: []
+  language_code: deu
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19115:2003'
-    clause: '4.3'
-    link: 'https://www.iso.org/standard/26020.html'
-  lineage_source: ISO 19113
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19115:2003
+      clause: '4.3'
+      link: https://www.iso.org/standard/26020.html
+  - type: lineage
+    origin:
+      ref: ISO 19113
   lineage_source_similarity: 1
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2014-04-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-04-01T00:00:00.000Z'
   review_date: '2011-01-01T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2014-04-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19115-1:2014'
-  review_decision_notes: >-
-    The entry has been superseded. An entry with a revised definition has been
-    published in ISO 19115-1:2014
-  release: '-1'
-  terms:
-    - type: expression
-      designation: Serie von Datensätzen
-      normative_status: null
+  review_decision_event: Publication of ISO 19115-1:2014
+  review_decision_notes: The entry has been superseded. An entry with a revised definition
+    has been published in ISO 19115-1:2014
+  release: "-1"
   _revisions:
     current: 45312c
     tree:
@@ -461,9 +495,9 @@ deu:
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19115:2003'
+            ref: ISO 19115:2003
             clause: '4.3'
-            link: 'https://www.iso.org/standard/26020.html'
+            link: https://www.iso.org/standard/26020.html
           lineage_source: ISO 19113
           lineage_source_similarity: 1
           date_accepted: '2002-12-01T00:00:00.000Z'
@@ -473,15 +507,14 @@ deu:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2014-04-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19115-1:2014'
-          review_decision_notes: >-
-            The entry has been superseded. An entry with a revised definition
-            has been published in ISO 19115-1:2014
-          release: '-1'
+          review_decision_event: Publication of ISO 19115-1:2014
+          review_decision_notes: The entry has been superseded. An entry with a revised
+            definition has been published in ISO 19115-1:2014
+          release: "-1"
           terms:
-            - type: expression
-              designation: Serie von Datensätzen
-              normative_status: null
+          - type: expression
+            designation: Serie von Datensätzen
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -489,34 +522,40 @@ deu:
           email: glossarist@ribose.com
 jpn:
   id: 125
-  definition: 同じ製品仕様書を使って作成したデータ集合の集まり。
-  language_code: jpn
+  terms:
+  - type: expression
+    designation: データ集合系列
+  definition:
+  - content: 同じ製品仕様書を使って作成したデータ集合の集まり。
   notes: []
   examples: []
+  language_code: jpn
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19115:2003'
-    clause: '4.3'
-    link: 'https://www.iso.org/standard/26020.html'
-  lineage_source: ISO 19113
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19115:2003
+      clause: '4.3'
+      link: https://www.iso.org/standard/26020.html
+  - type: lineage
+    origin:
+      ref: ISO 19113
   lineage_source_similarity: 1
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2014-04-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-04-01T00:00:00.000Z'
   review_date: '2011-01-01T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2014-04-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19115-1:2014'
-  review_decision_notes: >-
-    The entry has been superseded. An entry with a revised definition has been
-    published in ISO 19115-1:2014
-  release: '-1'
-  terms:
-    - type: expression
-      designation: データ集合系列
-      normative_status: null
+  review_decision_event: Publication of ISO 19115-1:2014
+  review_decision_notes: The entry has been superseded. An entry with a revised definition
+    has been published in ISO 19115-1:2014
+  release: "-1"
   _revisions:
     current: 8752bd
     tree:
@@ -530,9 +569,9 @@ jpn:
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19115:2003'
+            ref: ISO 19115:2003
             clause: '4.3'
-            link: 'https://www.iso.org/standard/26020.html'
+            link: https://www.iso.org/standard/26020.html
           lineage_source: ISO 19113
           lineage_source_similarity: 1
           date_accepted: '2002-12-01T00:00:00.000Z'
@@ -542,15 +581,14 @@ jpn:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2014-04-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19115-1:2014'
-          review_decision_notes: >-
-            The entry has been superseded. An entry with a revised definition
-            has been published in ISO 19115-1:2014
-          release: '-1'
+          review_decision_event: Publication of ISO 19115-1:2014
+          review_decision_notes: The entry has been superseded. An entry with a revised
+            definition has been published in ISO 19115-1:2014
+          release: "-1"
           terms:
-            - type: expression
-              designation: データ集合系列
-              normative_status: null
+          - type: expression
+            designation: データ集合系列
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -558,34 +596,40 @@ jpn:
           email: glossarist@ribose.com
 kor:
   id: 125
-  definition: 동일한 제품 사양을 통해 작성된 데이터셋의 모음
-  language_code: kor
+  terms:
+  - type: expression
+    designation: 데이터셋 시리즈
+  definition:
+  - content: 동일한 제품 사양을 통해 작성된 데이터셋의 모음
   notes: []
   examples: []
+  language_code: kor
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19115:2003'
-    clause: '4.3'
-    link: 'https://www.iso.org/standard/26020.html'
-  lineage_source: ISO 19113
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19115:2003
+      clause: '4.3'
+      link: https://www.iso.org/standard/26020.html
+  - type: lineage
+    origin:
+      ref: ISO 19113
   lineage_source_similarity: 1
-  date_accepted: '2008-12-30T00:00:00.000Z'
-  date_amended: '2014-04-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2008-12-30T00:00:00.000Z'
+  - type: amended
+    date: '2014-04-01T00:00:00.000Z'
   review_date: '2011-01-01T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2014-04-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19115-1:2014'
-  review_decision_notes: >-
-    The entry has been superseded. An entry with a revised definition has been
-    published in ISO 19115-1:2014
-  release: '-1'
-  terms:
-    - type: expression
-      designation: 데이터셋 시리즈
-      normative_status: null
+  review_decision_event: Publication of ISO 19115-1:2014
+  review_decision_notes: The entry has been superseded. An entry with a revised definition
+    has been published in ISO 19115-1:2014
+  release: "-1"
   _revisions:
     current: 5306a9
     tree:
@@ -599,9 +643,9 @@ kor:
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19115:2003'
+            ref: ISO 19115:2003
             clause: '4.3'
-            link: 'https://www.iso.org/standard/26020.html'
+            link: https://www.iso.org/standard/26020.html
           lineage_source: ISO 19113
           lineage_source_similarity: 1
           date_accepted: '2008-12-30T00:00:00.000Z'
@@ -611,15 +655,14 @@ kor:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2014-04-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19115-1:2014'
-          review_decision_notes: >-
-            The entry has been superseded. An entry with a revised definition
-            has been published in ISO 19115-1:2014
-          release: '-1'
+          review_decision_event: Publication of ISO 19115-1:2014
+          review_decision_notes: The entry has been superseded. An entry with a revised
+            definition has been published in ISO 19115-1:2014
+          release: "-1"
           terms:
-            - type: expression
-              designation: 데이터셋 시리즈
-              normative_status: null
+          - type: expression
+            designation: 데이터셋 시리즈
+            normative_status:
         parents: []
         timeCreated: '2008-12-30T00:00:00.000Z'
         author:
@@ -627,33 +670,39 @@ kor:
           email: glossarist@ribose.com
 msa:
   id: 125
-  definition: kumpulan dataset yang menggunakan spesifikasi produk yang sama
-  language_code: msa
+  terms:
+  - type: expression
+    designation: siri data
+  definition:
+  - content: kumpulan dataset yang menggunakan spesifikasi produk yang sama
   notes: []
   examples: []
+  language_code: msa
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19115:2003'
-    clause: '4.3'
-    link: 'https://www.iso.org/standard/26020.html'
-  lineage_source: garis panduan dan penyediaan spesifikasi produk data geospatial
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2014-04-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19115:2003
+      clause: '4.3'
+      link: https://www.iso.org/standard/26020.html
+  - type: lineage
+    origin:
+      ref: garis panduan dan penyediaan spesifikasi produk data geospatial
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-04-01T00:00:00.000Z'
   review_date: '2011-01-01T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2014-04-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19115-1:2014'
-  review_decision_notes: >-
-    The entry has been superseded. An entry with a revised definition has been
-    published in ISO 19115-1:2014
-  release: '-1'
-  terms:
-    - type: expression
-      designation: siri data
-      normative_status: null
+  review_decision_event: Publication of ISO 19115-1:2014
+  review_decision_notes: The entry has been superseded. An entry with a revised definition
+    has been published in ISO 19115-1:2014
+  release: "-1"
   _revisions:
     current: 061b5e
     tree:
@@ -667,9 +716,9 @@ msa:
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19115:2003'
+            ref: ISO 19115:2003
             clause: '4.3'
-            link: 'https://www.iso.org/standard/26020.html'
+            link: https://www.iso.org/standard/26020.html
           lineage_source: garis panduan dan penyediaan spesifikasi produk data geospatial
           date_accepted: '2002-12-01T00:00:00.000Z'
           date_amended: '2014-04-01T00:00:00.000Z'
@@ -678,15 +727,14 @@ msa:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2014-04-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19115-1:2014'
-          review_decision_notes: >-
-            The entry has been superseded. An entry with a revised definition
-            has been published in ISO 19115-1:2014
-          release: '-1'
+          review_decision_event: Publication of ISO 19115-1:2014
+          review_decision_notes: The entry has been superseded. An entry with a revised
+            definition has been published in ISO 19115-1:2014
+          release: "-1"
           terms:
-            - type: expression
-              designation: siri data
-              normative_status: null
+          - type: expression
+            designation: siri data
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -694,33 +742,39 @@ msa:
           email: glossarist@ribose.com
 pol:
   id: 125
-  definition: kolekcja zbiorów danych zgodnych z tą samą specyfikacją produktu
-  language_code: pol
+  terms:
+  - type: expression
+    designation: seria zbiorów danych
+  definition:
+  - content: kolekcja zbiorów danych zgodnych z tą samą specyfikacją produktu
   notes: []
   examples: []
+  language_code: pol
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19115:2003'
-    clause: '4.3'
-    link: 'https://www.iso.org/standard/26020.html'
-  lineage_source: ISO 19113
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19115:2003
+      clause: '4.3'
+      link: https://www.iso.org/standard/26020.html
+  - type: lineage
+    origin:
+      ref: ISO 19113
   lineage_source_similarity: 1
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2014-04-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-04-01T00:00:00.000Z'
   review_date: '2011-01-01T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2014-04-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19115-1:2014'
-  review_decision_notes: >-
-    The entry has been superseded. An entry with a revised definition has been
-    published in ISO 19115-1:2014
-  release: '-1'
-  terms:
-    - type: expression
-      designation: seria zbiorów danych
-      normative_status: null
+  review_decision_event: Publication of ISO 19115-1:2014
+  review_decision_notes: The entry has been superseded. An entry with a revised definition
+    has been published in ISO 19115-1:2014
+  release: "-1"
   _revisions:
     current: 3f7656
     tree:
@@ -733,9 +787,9 @@ pol:
           examples: []
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19115:2003'
+            ref: ISO 19115:2003
             clause: '4.3'
-            link: 'https://www.iso.org/standard/26020.html'
+            link: https://www.iso.org/standard/26020.html
           lineage_source: ISO 19113
           lineage_source_similarity: 1
           date_accepted: '2002-12-01T00:00:00.000Z'
@@ -745,15 +799,14 @@ pol:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2014-04-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19115-1:2014'
-          review_decision_notes: >-
-            The entry has been superseded. An entry with a revised definition
-            has been published in ISO 19115-1:2014
-          release: '-1'
+          review_decision_event: Publication of ISO 19115-1:2014
+          review_decision_notes: The entry has been superseded. An entry with a revised
+            definition has been published in ISO 19115-1:2014
+          release: "-1"
           terms:
-            - type: expression
-              designation: seria zbiorów danych
-              normative_status: null
+          - type: expression
+            designation: seria zbiorów danych
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -761,34 +814,40 @@ pol:
           email: glossarist@ribose.com
 rus:
   id: 125
-  definition: совокупность наборов данных на основе общей спецификации продукта
-  language_code: rus
+  terms:
+  - type: expression
+    designation: комплект наборов данных
+  definition:
+  - content: совокупность наборов данных на основе общей спецификации продукта
   notes: []
   examples: []
+  language_code: rus
   entry_status: изъятый
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19115:2003'
-    clause: '4.3'
-    link: 'https://www.iso.org/standard/26020.html'
-  lineage_source: ISO 19113
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19115:2003
+      clause: '4.3'
+      link: https://www.iso.org/standard/26020.html
+  - type: lineage
+    origin:
+      ref: ISO 19113
   lineage_source_similarity: 1
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2014-04-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-04-01T00:00:00.000Z'
   review_date: '2011-01-01T00:00:00.000Z'
   review_status: ''
   review_type: ''
   review_decision: ''
   review_decision_date: '2014-04-01T00:00:00.000Z'
-  review_decision_event: 'Публикация ИСО 19115-1:2014'
-  review_decision_notes: >-
-    Запись была заменена. Запись с пересмотренным определением была опубликована
-    в ISO 19115-1:2014
-  release: '-1'
-  terms:
-    - type: expression
-      designation: комплект наборов данных
-      normative_status: null
+  review_decision_event: Публикация ИСО 19115-1:2014
+  review_decision_notes: Запись была заменена. Запись с пересмотренным определением
+    была опубликована в ISO 19115-1:2014
+  release: "-1"
   _revisions:
     current: c331a9
     tree:
@@ -802,9 +861,9 @@ rus:
           entry_status: изъятый
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19115:2003'
+            ref: ISO 19115:2003
             clause: '4.3'
-            link: 'https://www.iso.org/standard/26020.html'
+            link: https://www.iso.org/standard/26020.html
           lineage_source: ISO 19113
           lineage_source_similarity: 1
           date_accepted: '2002-12-01T00:00:00.000Z'
@@ -814,15 +873,14 @@ rus:
           review_type: ''
           review_decision: ''
           review_decision_date: '2014-04-01T00:00:00.000Z'
-          review_decision_event: 'Публикация ИСО 19115-1:2014'
-          review_decision_notes: >-
-            Запись была заменена. Запись с пересмотренным определением была
-            опубликована в ISO 19115-1:2014
-          release: '-1'
+          review_decision_event: Публикация ИСО 19115-1:2014
+          review_decision_notes: Запись была заменена. Запись с пересмотренным определением
+            была опубликована в ISO 19115-1:2014
+          release: "-1"
           terms:
-            - type: expression
-              designation: комплект наборов данных
-              normative_status: null
+          - type: expression
+            designation: комплект наборов данных
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -830,54 +888,58 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 125
-  definition: >-
-    colección de conjuntos de datos que comparten una misma especificación de
-    producto
-  language_code: spa
+  terms:
+  - type: expression
+    designation: serie de conjuntos de datos
+  definition:
+  - content: colección de conjuntos de datos que comparten una misma especificación
+      de producto
   notes: []
   examples: []
+  language_code: spa
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19115:2003'
-    clause: '4.3'
-    link: 'https://www.iso.org/standard/26020.html'
-  lineage_source: ISO 19113
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19115:2003
+      clause: '4.3'
+      link: https://www.iso.org/standard/26020.html
+  - type: lineage
+    origin:
+      ref: ISO 19113
   lineage_source_similarity: 1
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2014-04-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-04-01T00:00:00.000Z'
   review_date: '2011-01-01T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2014-04-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19115-1:2014'
-  review_decision_notes: >-
-    The entry has been superseded. An entry with a revised definition has been
-    published in ISO 19115-1:2014
-  release: '-1'
-  terms:
-    - type: expression
-      designation: serie de conjuntos de datos
-      normative_status: null
+  review_decision_event: Publication of ISO 19115-1:2014
+  review_decision_notes: The entry has been superseded. An entry with a revised definition
+    has been published in ISO 19115-1:2014
+  release: "-1"
   _revisions:
     current: 4f5343
     tree:
       4f5343:
         object:
           id: 125
-          definition: >-
-            colección de conjuntos de datos que comparten una misma
-            especificación de producto
+          definition: colección de conjuntos de datos que comparten una misma especificación
+            de producto
           language_code: spa
           notes: []
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19115:2003'
+            ref: ISO 19115:2003
             clause: '4.3'
-            link: 'https://www.iso.org/standard/26020.html'
+            link: https://www.iso.org/standard/26020.html
           lineage_source: ISO 19113
           lineage_source_similarity: 1
           date_accepted: '2002-12-01T00:00:00.000Z'
@@ -887,15 +949,14 @@ spa:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2014-04-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19115-1:2014'
-          review_decision_notes: >-
-            The entry has been superseded. An entry with a revised definition
-            has been published in ISO 19115-1:2014
-          release: '-1'
+          review_decision_event: Publication of ISO 19115-1:2014
+          review_decision_notes: The entry has been superseded. An entry with a revised
+            definition has been published in ISO 19115-1:2014
+          release: "-1"
           terms:
-            - type: expression
-              designation: serie de conjuntos de datos
-              normative_status: null
+          - type: expression
+            designation: serie de conjuntos de datos
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -903,35 +964,41 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 125
-  definition: uppsättning datamängder som har samma dataproduktspecifikation
-  country_code: swe
-  language_code: swe
+  terms:
+  - type: expression
+    designation: datamängdsserie
+  definition:
+  - content: uppsättning datamängder som har samma dataproduktspecifikation
   notes: []
   examples: []
+  country_code: swe
+  language_code: swe
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19115:2003'
-    clause: '4.3'
-    link: 'https://www.iso.org/standard/26020.html'
-  lineage_source: ISO 19113
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19115:2003
+      clause: '4.3'
+      link: https://www.iso.org/standard/26020.html
+  - type: lineage
+    origin:
+      ref: ISO 19113
   lineage_source_similarity: 1
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2014-04-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-04-01T00:00:00.000Z'
   review_date: '2011-01-01T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2014-04-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19115-1:2014'
-  review_decision_notes: >-
-    The entry has been superseded. An entry with a revised definition has been
-    published in ISO 19115-1:2014
-  release: '-1'
-  terms:
-    - type: expression
-      designation: datamängdsserie
-      normative_status: null
+  review_decision_event: Publication of ISO 19115-1:2014
+  review_decision_notes: The entry has been superseded. An entry with a revised definition
+    has been published in ISO 19115-1:2014
+  release: "-1"
   _revisions:
     current: e5f64c
     tree:
@@ -946,9 +1013,9 @@ swe:
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19115:2003'
+            ref: ISO 19115:2003
             clause: '4.3'
-            link: 'https://www.iso.org/standard/26020.html'
+            link: https://www.iso.org/standard/26020.html
           lineage_source: ISO 19113
           lineage_source_similarity: 1
           date_accepted: '2002-12-01T00:00:00.000Z'
@@ -958,15 +1025,14 @@ swe:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2014-04-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19115-1:2014'
-          review_decision_notes: >-
-            The entry has been superseded. An entry with a revised definition
-            has been published in ISO 19115-1:2014
-          release: '-1'
+          review_decision_event: Publication of ISO 19115-1:2014
+          review_decision_notes: The entry has been superseded. An entry with a revised
+            definition has been published in ISO 19115-1:2014
+          release: "-1"
           terms:
-            - type: expression
-              designation: datamängdsserie
-              normative_status: null
+          - type: expression
+            designation: datamängdsserie
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:

@@ -1,23 +1,29 @@
-term: transfer unit
+---
 termid: 800
+term: transfer unit
 eng:
   id: 800
-  definition: collection of data for the purpose of a data transfer
-  language_code: eng
-  notes:
-    - A transfer unit does not have to be identifiable like a dataset.
-  examples: []
-  entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19118:2011'
-    clause: '4.32'
-    link: 'https://www.iso.org/standard/44212.html'
-  date_accepted: '2011-10-15T00:00:00.000Z'
-  release: '3'
   terms:
-    - type: expression
-      designation: transfer unit
-      normative_status: preferred
+  - type: expression
+    normative_status: preferred
+    designation: transfer unit
+  definition:
+  - content: collection of data for the purpose of a data transfer
+  notes:
+  - content: A transfer unit does not have to be identifiable like a dataset.
+  examples: []
+  language_code: eng
+  entry_status: valid
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19118:2011
+      clause: '4.32'
+      link: https://www.iso.org/standard/44212.html
+  dates:
+  - type: accepted
+    date: '2011-10-15T00:00:00.000Z'
+  release: '3'
   _revisions:
     current: b7fe3b
     tree:
@@ -27,19 +33,19 @@ eng:
           definition: collection of data for the purpose of a data transfer
           language_code: eng
           notes:
-            - A transfer unit does not have to be identifiable like a dataset.
+          - A transfer unit does not have to be identifiable like a dataset.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19118:2011'
+            ref: ISO 19118:2011
             clause: '4.32'
-            link: 'https://www.iso.org/standard/44212.html'
+            link: https://www.iso.org/standard/44212.html
           date_accepted: '2011-10-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: transfer unit
-              normative_status: preferred
+          - type: expression
+            designation: transfer unit
+            normative_status: preferred
         parents: []
         timeCreated: '2011-10-15T00:00:00.000Z'
         author:
@@ -47,22 +53,27 @@ eng:
           email: glossarist@ribose.com
 kor:
   id: 800
-  definition: 자료 전송을 목적으로 한 자료 수집 집합
-  language_code: kor
-  notes:
-    - A transfer unit does not have to be identifiable like a dataset.
-  examples: []
-  entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19118:2011'
-    clause: '4.32'
-    link: 'https://www.iso.org/standard/44212.html'
-  date_accepted: '2011-10-15T00:00:00.000Z'
-  release: '3'
   terms:
-    - type: expression
-      designation: 전송 단위
-      normative_status: preferred
+  - type: expression
+    normative_status: preferred
+    designation: 전송 단위
+  definition:
+  - content: 자료 전송을 목적으로 한 자료 수집 집합
+  notes:
+  - content: A transfer unit does not have to be identifiable like a dataset.
+  examples: []
+  language_code: kor
+  entry_status: valid
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19118:2011
+      clause: '4.32'
+      link: https://www.iso.org/standard/44212.html
+  dates:
+  - type: accepted
+    date: '2011-10-15T00:00:00.000Z'
+  release: '3'
   _revisions:
     current: 7bbb68
     tree:
@@ -72,19 +83,19 @@ kor:
           definition: 자료 전송을 목적으로 한 자료 수집 집합
           language_code: kor
           notes:
-            - A transfer unit does not have to be identifiable like a dataset.
+          - A transfer unit does not have to be identifiable like a dataset.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19118:2011'
+            ref: ISO 19118:2011
             clause: '4.32'
-            link: 'https://www.iso.org/standard/44212.html'
+            link: https://www.iso.org/standard/44212.html
           date_accepted: '2011-10-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: 전송 단위
-              normative_status: preferred
+          - type: expression
+            designation: 전송 단위
+            normative_status: preferred
         parents: []
         timeCreated: '2011-10-15T00:00:00.000Z'
         author:
@@ -92,22 +103,28 @@ kor:
           email: glossarist@ribose.com
 msa:
   id: 800
-  language_code: msa
-  notes:
-    - A transfer unit does not have to be identifiable like a dataset.
-  examples: []
-  entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19118:2011'
-    clause: '4.32'
-    link: 'https://www.iso.org/standard/44212.html'
-  lineage_source: Pusat Rujukan Persuratan Melayu (DBP)
-  date_accepted: '2011-10-15T00:00:00.000Z'
-  release: '3'
   terms:
-    - type: expression
-      designation: unit perpindahan/ pemindahan
-      normative_status: preferred
+  - type: expression
+    normative_status: preferred
+    designation: unit perpindahan/ pemindahan
+  notes:
+  - content: A transfer unit does not have to be identifiable like a dataset.
+  examples: []
+  language_code: msa
+  entry_status: valid
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19118:2011
+      clause: '4.32'
+      link: https://www.iso.org/standard/44212.html
+  - type: lineage
+    origin:
+      ref: Pusat Rujukan Persuratan Melayu (DBP)
+  dates:
+  - type: accepted
+    date: '2011-10-15T00:00:00.000Z'
+  release: '3'
   _revisions:
     current: '104760'
     tree:
@@ -116,20 +133,20 @@ msa:
           id: 800
           language_code: msa
           notes:
-            - A transfer unit does not have to be identifiable like a dataset.
+          - A transfer unit does not have to be identifiable like a dataset.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19118:2011'
+            ref: ISO 19118:2011
             clause: '4.32'
-            link: 'https://www.iso.org/standard/44212.html'
+            link: https://www.iso.org/standard/44212.html
           lineage_source: Pusat Rujukan Persuratan Melayu (DBP)
           date_accepted: '2011-10-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: unit perpindahan/ pemindahan
-              normative_status: preferred
+          - type: expression
+            designation: unit perpindahan/ pemindahan
+            normative_status: preferred
         parents: []
         timeCreated: '2011-10-15T00:00:00.000Z'
         author:
@@ -137,23 +154,30 @@ msa:
           email: glossarist@ribose.com
 rus:
   id: 800
-  definition: совокупность данных для цели передачи данных
-  language_code: rus
-  notes:
-    - Блок передачи не обязательно должен идентифицироваться как набор данных.
-  examples: []
-  entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19118:2011'
-    clause: '4.32'
-    link: 'https://www.iso.org/standard/44212.html'
-  lineage_source: 'перевод ИСО 19118:2011'
-  date_accepted: '2011-10-15T00:00:00.000Z'
-  release: '3'
   terms:
-    - type: expression
-      designation: блок передачи
-      normative_status: preferred
+  - type: expression
+    normative_status: preferred
+    designation: блок передачи
+  definition:
+  - content: совокупность данных для цели передачи данных
+  notes:
+  - content: Блок передачи не обязательно должен идентифицироваться как набор данных.
+  examples: []
+  language_code: rus
+  entry_status: valid
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19118:2011
+      clause: '4.32'
+      link: https://www.iso.org/standard/44212.html
+  - type: lineage
+    origin:
+      ref: перевод ИСО 19118:2011
+  dates:
+  - type: accepted
+    date: '2011-10-15T00:00:00.000Z'
+  release: '3'
   _revisions:
     current: aeecda
     tree:
@@ -163,22 +187,20 @@ rus:
           definition: совокупность данных для цели передачи данных
           language_code: rus
           notes:
-            - >-
-              Блок передачи не обязательно должен идентифицироваться как набор
-              данных.
+          - Блок передачи не обязательно должен идентифицироваться как набор данных.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19118:2011'
+            ref: ISO 19118:2011
             clause: '4.32'
-            link: 'https://www.iso.org/standard/44212.html'
-          lineage_source: 'перевод ИСО 19118:2011'
+            link: https://www.iso.org/standard/44212.html
+          lineage_source: перевод ИСО 19118:2011
           date_accepted: '2011-10-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: блок передачи
-              normative_status: preferred
+          - type: expression
+            designation: блок передачи
+            normative_status: preferred
         parents: []
         timeCreated: '2011-10-15T00:00:00.000Z'
         author:
@@ -186,24 +208,28 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 800
-  definition: conjunto de datos destinados a las transferencia de datos
-  language_code: spa
-  notes:
-    - >-
-      Una unidad de transferencia no tiene que ser identificable como un
-      conjunto de datos.
-  examples: []
-  entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19118:2011'
-    clause: '4.32'
-    link: 'https://www.iso.org/standard/44212.html'
-  date_accepted: '2011-10-15T00:00:00.000Z'
-  release: '3'
   terms:
-    - type: expression
-      designation: unidad de transferencia
-      normative_status: preferred
+  - type: expression
+    normative_status: preferred
+    designation: unidad de transferencia
+  definition:
+  - content: conjunto de datos destinados a las transferencia de datos
+  notes:
+  - content: Una unidad de transferencia no tiene que ser identificable como un conjunto
+      de datos.
+  examples: []
+  language_code: spa
+  entry_status: valid
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19118:2011
+      clause: '4.32'
+      link: https://www.iso.org/standard/44212.html
+  dates:
+  - type: accepted
+    date: '2011-10-15T00:00:00.000Z'
+  release: '3'
   _revisions:
     current: 68ab67
     tree:
@@ -213,21 +239,20 @@ spa:
           definition: conjunto de datos destinados a las transferencia de datos
           language_code: spa
           notes:
-            - >-
-              Una unidad de transferencia no tiene que ser identificable como un
-              conjunto de datos.
+          - Una unidad de transferencia no tiene que ser identificable como un conjunto
+            de datos.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19118:2011'
+            ref: ISO 19118:2011
             clause: '4.32'
-            link: 'https://www.iso.org/standard/44212.html'
+            link: https://www.iso.org/standard/44212.html
           date_accepted: '2011-10-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: unidad de transferencia
-              normative_status: preferred
+          - type: expression
+            designation: unidad de transferencia
+            normative_status: preferred
         parents: []
         timeCreated: '2011-10-15T00:00:00.000Z'
         author:

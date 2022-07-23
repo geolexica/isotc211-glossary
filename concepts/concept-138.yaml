@@ -1,80 +1,81 @@
-term: directed node
+---
 termid: 138
+term: directed node
 eng:
   id: 138
-  definition: >-
-    directed topological object that represents an association between a node
-    and one of its orientations
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: directed node
+  definition:
+  - content: directed topological object that represents an association between a
+      node and one of its orientations
   notes:
-    - >-
-      Directed nodes are used in the coboundary relation to maintain the spatial
-      association between edge and node. The orientation of a node is with
-      respect to an edge, "+" for end node, "-" for start node. This is
-      consistent with the vector notion of "result = end - start".
+  - content: Directed nodes are used in the coboundary relation to maintain the spatial
+      association between edge and node. The orientation of a node is with respect
+      to an edge, "+" for end node, "-" for start node. This is consistent with the
+      vector notion of "result = end - start".
   examples: []
+  language_code: eng
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19107:2019'
-    clause: '(E), 3.25'
-    link: 'https://www.iso.org/standard/66175.html'
-  lineage_source: 'ISO 19107:2003(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19107:2019
+      clause: "(E), 3.25"
+      link: https://www.iso.org/standard/66175.html
+  - type: lineage
+    origin:
+      ref: ISO 19107:2003(E)
   lineage_source_similarity: 1
-  date_accepted: '2003-05-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
   review_date: '2019-12-02T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-12-02T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19107:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19107:2003 to ISO 19107:2019(E),
-    3.25. Lineage source added as ISO 19107:2003(E)
+  review_decision_event: Publication of ISO 19107:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19107:2003 to ISO
+    19107:2019(E), 3.25. Lineage source added as ISO 19107:2003(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: directed node
-      normative_status: preferred
   _revisions:
     current: 3c8f05
     tree:
       3c8f05:
         object:
           id: 138
-          definition: >-
-            directed topological object that represents an association between a
-            node and one of its orientations
+          definition: directed topological object that represents an association between
+            a node and one of its orientations
           language_code: eng
           notes:
-            - >-
-              Directed nodes are used in the coboundary relation to maintain the
-              spatial association between edge and node. The orientation of a
-              node is with respect to an edge, "+" for end node, "-" for start
-              node. This is consistent with the vector notion of "result = end -
-              start".
+          - Directed nodes are used in the coboundary relation to maintain the spatial
+            association between edge and node. The orientation of a node is with respect
+            to an edge, "+" for end node, "-" for start node. This is consistent with
+            the vector notion of "result = end - start".
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19107:2019'
-            clause: '(E), 3.25'
-            link: 'https://www.iso.org/standard/66175.html'
-          lineage_source: 'ISO 19107:2003(E)'
+            ref: ISO 19107:2019
+            clause: "(E), 3.25"
+            link: https://www.iso.org/standard/66175.html
+          lineage_source: ISO 19107:2003(E)
           lineage_source_similarity: 1
           date_accepted: '2003-05-01T00:00:00.000Z'
           review_date: '2019-12-02T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-12-02T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19107:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19107:2003 to ISO
-            19107:2019(E), 3.25. Lineage source added as ISO 19107:2003(E)
+          review_decision_event: Publication of ISO 19107:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19107:2003
+            to ISO 19107:2019(E), 3.25. Lineage source added as ISO 19107:2003(E)
           release: '1'
           terms:
-            - type: expression
-              designation: directed node
-              normative_status: preferred
+          - type: expression
+            designation: directed node
+            normative_status: preferred
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -82,38 +83,42 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 138
-  definition: كائن طوبولوجي موجه يمثل ربطاً بين عقدة معينة وأحد اتجاهاتها
-  language_code: ara
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: عقدة موجهة
+  definition:
+  - content: كائن طوبولوجي موجه يمثل ربطاً بين عقدة معينة وأحد اتجاهاتها
   notes:
-    - >-
-      تستخدم العقد الموجهة في علاقة الحدود المشتركة للمحافظة على العلاقة
-      المكانية التي تربط بين الحافة والعقدة. اتجاه عقدة ما فيما يتصل بأي حافة
-      يكون موجبا "+" بالنسبة للعقدة النهائية ، ويكون سالبا "-" بالنسبة لعقدة
-      البداية. وهذا ينسجم مع فكرة المتجهات التي تقول بأن" النتيجة = النهاية –
-      البداية".
+  - content: تستخدم العقد الموجهة في علاقة الحدود المشتركة للمحافظة على العلاقة المكانية
+      التي تربط بين الحافة والعقدة. اتجاه عقدة ما فيما يتصل بأي حافة يكون موجبا "+"
+      بالنسبة للعقدة النهائية ، ويكون سالبا "-" بالنسبة لعقدة البداية. وهذا ينسجم
+      مع فكرة المتجهات التي تقول بأن" النتيجة = النهاية – البداية".
   examples: []
+  language_code: ara
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19107:2019'
-    clause: '(E), 3.25'
-    link: 'https://www.iso.org/standard/66175.html'
-  lineage_source: 'ISO 19107:2003(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19107:2019
+      clause: "(E), 3.25"
+      link: https://www.iso.org/standard/66175.html
+  - type: lineage
+    origin:
+      ref: ISO 19107:2003(E)
   lineage_source_similarity: 1
-  date_accepted: '2003-05-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
   review_date: '2019-12-02T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-12-02T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19107:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19107:2003 to ISO 19107:2019(E),
-    3.25. Lineage source added as ISO 19107:2003(E)
+  review_decision_event: Publication of ISO 19107:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19107:2003 to ISO
+    19107:2019(E), 3.25. Lineage source added as ISO 19107:2003(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: عقدة موجهة
-      normative_status: preferred
   _revisions:
     current: 66ea77
     tree:
@@ -123,35 +128,32 @@ ara:
           definition: كائن طوبولوجي موجه يمثل ربطاً بين عقدة معينة وأحد اتجاهاتها
           language_code: ara
           notes:
-            - >-
-              تستخدم العقد الموجهة في علاقة الحدود المشتركة للمحافظة على العلاقة
-              المكانية التي تربط بين الحافة والعقدة. اتجاه عقدة ما فيما يتصل بأي
-              حافة يكون موجبا "+" بالنسبة للعقدة النهائية ، ويكون سالبا "-"
-              بالنسبة لعقدة البداية. وهذا ينسجم مع فكرة المتجهات التي تقول بأن"
-              النتيجة = النهاية – البداية".
+          - تستخدم العقد الموجهة في علاقة الحدود المشتركة للمحافظة على العلاقة المكانية
+            التي تربط بين الحافة والعقدة. اتجاه عقدة ما فيما يتصل بأي حافة يكون موجبا
+            "+" بالنسبة للعقدة النهائية ، ويكون سالبا "-" بالنسبة لعقدة البداية. وهذا
+            ينسجم مع فكرة المتجهات التي تقول بأن" النتيجة = النهاية – البداية".
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19107:2019'
-            clause: '(E), 3.25'
-            link: 'https://www.iso.org/standard/66175.html'
-          lineage_source: 'ISO 19107:2003(E)'
+            ref: ISO 19107:2019
+            clause: "(E), 3.25"
+            link: https://www.iso.org/standard/66175.html
+          lineage_source: ISO 19107:2003(E)
           lineage_source_similarity: 1
           date_accepted: '2003-05-01T00:00:00.000Z'
           review_date: '2019-12-02T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-12-02T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19107:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19107:2003 to ISO
-            19107:2019(E), 3.25. Lineage source added as ISO 19107:2003(E)
+          review_decision_event: Publication of ISO 19107:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19107:2003
+            to ISO 19107:2019(E), 3.25. Lineage source added as ISO 19107:2003(E)
           release: '1'
           terms:
-            - type: expression
-              designation: عقدة موجهة
-              normative_status: preferred
+          - type: expression
+            designation: عقدة موجهة
+            normative_status: preferred
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -159,34 +161,39 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 138
-  definition: 有向拓扑对象，表达结点和它的一个方向之间的关联。
-  language_code: zho
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 有向结点
+  definition:
+  - content: 有向拓扑对象，表达结点和它的一个方向之间的关联。
   notes:
-    - >-
-      有向结点用在余边界中以维持边与结点间的空间关联。结点的方向与边的方向相对应，终结点为“+”，起结点为“-”，这与“结果=结束-起始”的矢量概念相一致。
+  - content: 有向结点用在余边界中以维持边与结点间的空间关联。结点的方向与边的方向相对应，终结点为“+”，起结点为“-”，这与“结果=结束-起始”的矢量概念相一致。
   examples: []
+  language_code: zho
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19107:2019'
-    clause: '(E), 3.25'
-    link: 'https://www.iso.org/standard/66175.html'
-  lineage_source: 'ISO 19107:2003(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19107:2019
+      clause: "(E), 3.25"
+      link: https://www.iso.org/standard/66175.html
+  - type: lineage
+    origin:
+      ref: ISO 19107:2003(E)
   lineage_source_similarity: 1
-  date_accepted: '2003-05-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
   review_date: '2019-12-02T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-12-02T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19107:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19107:2003 to ISO 19107:2019(E),
-    3.25. Lineage source added as ISO 19107:2003(E)
+  review_decision_event: Publication of ISO 19107:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19107:2003 to ISO
+    19107:2019(E), 3.25. Lineage source added as ISO 19107:2003(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: 有向结点
-      normative_status: preferred
   _revisions:
     current: 7a083b
     tree:
@@ -196,31 +203,29 @@ zho:
           definition: 有向拓扑对象，表达结点和它的一个方向之间的关联。
           language_code: zho
           notes:
-            - >-
-              有向结点用在余边界中以维持边与结点间的空间关联。结点的方向与边的方向相对应，终结点为“+”，起结点为“-”，这与“结果=结束-起始”的矢量概念相一致。
+          - 有向结点用在余边界中以维持边与结点间的空间关联。结点的方向与边的方向相对应，终结点为“+”，起结点为“-”，这与“结果=结束-起始”的矢量概念相一致。
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19107:2019'
-            clause: '(E), 3.25'
-            link: 'https://www.iso.org/standard/66175.html'
-          lineage_source: 'ISO 19107:2003(E)'
+            ref: ISO 19107:2019
+            clause: "(E), 3.25"
+            link: https://www.iso.org/standard/66175.html
+          lineage_source: ISO 19107:2003(E)
           lineage_source_similarity: 1
           date_accepted: '2003-05-01T00:00:00.000Z'
           review_date: '2019-12-02T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-12-02T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19107:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19107:2003 to ISO
-            19107:2019(E), 3.25. Lineage source added as ISO 19107:2003(E)
+          review_decision_event: Publication of ISO 19107:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19107:2003
+            to ISO 19107:2019(E), 3.25. Lineage source added as ISO 19107:2003(E)
           release: '1'
           terms:
-            - type: expression
-              designation: 有向结点
-              normative_status: preferred
+          - type: expression
+            designation: 有向结点
+            normative_status: preferred
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -228,78 +233,76 @@ zho:
           email: glossarist@ribose.com
 dan:
   id: 138
-  definition: >-
-    retningsbestemt topologisk objekt, der repræsenterer en forbindelse mellem
-    en knude og en af dens orienteringer
-  language_code: dan
+  terms:
+  - type: expression
+    designation: retningsbestemt knude
+  definition:
+  - content: retningsbestemt topologisk objekt, der repræsenterer en forbindelse mellem
+      en knude og en af dens orienteringer
   notes:
-    - >-
-      Retningsbestemte knuder benyttes i fællesgrænse-relationen til at
-      opretholde den rumlige relation mellem kant og knude. Orenteringen af en
-      knude i forhold til en kant er "+" for en slutknude og "-" for en
-      startknude. Dette stemmer overens med vektornotationen: at "resultatet =
-      slut - start".
+  - content: 'Retningsbestemte knuder benyttes i fællesgrænse-relationen til at opretholde
+      den rumlige relation mellem kant og knude. Orenteringen af en knude i forhold
+      til en kant er "+" for en slutknude og "-" for en startknude. Dette stemmer
+      overens med vektornotationen: at "resultatet = slut - start".'
   examples: []
+  language_code: dan
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19107:2019'
-    clause: '(E), 3.25'
-    link: 'https://www.iso.org/standard/66175.html'
-  lineage_source: 'ISO 19107:2003(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19107:2019
+      clause: "(E), 3.25"
+      link: https://www.iso.org/standard/66175.html
+  - type: lineage
+    origin:
+      ref: ISO 19107:2003(E)
   lineage_source_similarity: 1
-  date_accepted: '2003-05-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
   review_date: '2019-12-02T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-12-02T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19107:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19107:2003 to ISO 19107:2019(E),
-    3.25. Lineage source added as ISO 19107:2003(E)
+  review_decision_event: Publication of ISO 19107:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19107:2003 to ISO
+    19107:2019(E), 3.25. Lineage source added as ISO 19107:2003(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: retningsbestemt knude
-      normative_status: null
   _revisions:
     current: b3917e
     tree:
       b3917e:
         object:
           id: 138
-          definition: >-
-            retningsbestemt topologisk objekt, der repræsenterer en forbindelse
+          definition: retningsbestemt topologisk objekt, der repræsenterer en forbindelse
             mellem en knude og en af dens orienteringer
           language_code: dan
           notes:
-            - >-
-              Retningsbestemte knuder benyttes i fællesgrænse-relationen til at
-              opretholde den rumlige relation mellem kant og knude. Orenteringen
-              af en knude i forhold til en kant er "+" for en slutknude og "-"
-              for en startknude. Dette stemmer overens med vektornotationen: at
-              "resultatet = slut - start".
+          - 'Retningsbestemte knuder benyttes i fællesgrænse-relationen til at opretholde
+            den rumlige relation mellem kant og knude. Orenteringen af en knude i
+            forhold til en kant er "+" for en slutknude og "-" for en startknude.
+            Dette stemmer overens med vektornotationen: at "resultatet = slut - start".'
           examples: []
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19107:2019'
-            clause: '(E), 3.25'
-            link: 'https://www.iso.org/standard/66175.html'
-          lineage_source: 'ISO 19107:2003(E)'
+            ref: ISO 19107:2019
+            clause: "(E), 3.25"
+            link: https://www.iso.org/standard/66175.html
+          lineage_source: ISO 19107:2003(E)
           lineage_source_similarity: 1
           date_accepted: '2003-05-01T00:00:00.000Z'
           review_date: '2019-12-02T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-12-02T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19107:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19107:2003 to ISO
-            19107:2019(E), 3.25. Lineage source added as ISO 19107:2003(E)
+          review_decision_event: Publication of ISO 19107:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19107:2003
+            to ISO 19107:2019(E), 3.25. Lineage source added as ISO 19107:2003(E)
           release: '1'
           terms:
-            - type: expression
-              designation: retningsbestemt knude
-              normative_status: null
+          - type: expression
+            designation: retningsbestemt knude
+            normative_status:
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -307,79 +310,79 @@ dan:
           email: glossarist@ribose.com
 fin:
   id: 138
-  definition: >-
-    suunnattu topologinen objekti, joka kuvaa solmupisteen ja jonkin sen suunnan
-    välistä yhteyttä
-  language_code: fin
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: suunnattu solmu
+  definition:
+  - content: suunnattu topologinen objekti, joka kuvaa solmupisteen ja jonkin sen
+      suunnan välistä yhteyttä
   notes:
-    - >-
-      Suunnattuja solmuja käytetään yhteisrajauksessa ylläpitämään linkin ja
-      solmupisteen sijaintiyhteyttä. Suhteessa linkkiin solmupisteen suunta on
-      loppusolmun suuntaan + ja alkusolmun suuntaan -. Tämä on yhdenmukaista
-      vektoreihin liittyvän käsitteen "tulos = loppu - alku" kanssa.
+  - content: Suunnattuja solmuja käytetään yhteisrajauksessa ylläpitämään linkin ja
+      solmupisteen sijaintiyhteyttä. Suhteessa linkkiin solmupisteen suunta on loppusolmun
+      suuntaan + ja alkusolmun suuntaan -. Tämä on yhdenmukaista vektoreihin liittyvän
+      käsitteen "tulos = loppu - alku" kanssa.
   examples: []
+  language_code: fin
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19107:2019'
-    clause: '(E), 3.25'
-    link: 'https://www.iso.org/standard/66175.html'
-  lineage_source: 'ISO 19107:2003(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19107:2019
+      clause: "(E), 3.25"
+      link: https://www.iso.org/standard/66175.html
+  - type: lineage
+    origin:
+      ref: ISO 19107:2003(E)
   lineage_source_similarity: 1
-  date_accepted: '2003-05-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
   review_date: '2019-12-02T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-12-02T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19107:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19107:2003 to ISO 19107:2019(E),
-    3.25. Lineage source added as ISO 19107:2003(E)
+  review_decision_event: Publication of ISO 19107:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19107:2003 to ISO
+    19107:2019(E), 3.25. Lineage source added as ISO 19107:2003(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: suunnattu solmu
-      normative_status: preferred
   _revisions:
     current: db474c
     tree:
       db474c:
         object:
           id: 138
-          definition: >-
-            suunnattu topologinen objekti, joka kuvaa solmupisteen ja jonkin sen
-            suunnan välistä yhteyttä
+          definition: suunnattu topologinen objekti, joka kuvaa solmupisteen ja jonkin
+            sen suunnan välistä yhteyttä
           language_code: fin
           notes:
-            - >-
-              Suunnattuja solmuja käytetään yhteisrajauksessa ylläpitämään
-              linkin ja solmupisteen sijaintiyhteyttä. Suhteessa linkkiin
-              solmupisteen suunta on loppusolmun suuntaan + ja alkusolmun
-              suuntaan -. Tämä on yhdenmukaista vektoreihin liittyvän käsitteen
-              "tulos = loppu - alku" kanssa.
+          - Suunnattuja solmuja käytetään yhteisrajauksessa ylläpitämään linkin ja
+            solmupisteen sijaintiyhteyttä. Suhteessa linkkiin solmupisteen suunta
+            on loppusolmun suuntaan + ja alkusolmun suuntaan -. Tämä on yhdenmukaista
+            vektoreihin liittyvän käsitteen "tulos = loppu - alku" kanssa.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19107:2019'
-            clause: '(E), 3.25'
-            link: 'https://www.iso.org/standard/66175.html'
-          lineage_source: 'ISO 19107:2003(E)'
+            ref: ISO 19107:2019
+            clause: "(E), 3.25"
+            link: https://www.iso.org/standard/66175.html
+          lineage_source: ISO 19107:2003(E)
           lineage_source_similarity: 1
           date_accepted: '2003-05-01T00:00:00.000Z'
           review_date: '2019-12-02T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-12-02T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19107:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19107:2003 to ISO
-            19107:2019(E), 3.25. Lineage source added as ISO 19107:2003(E)
+          review_decision_event: Publication of ISO 19107:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19107:2003
+            to ISO 19107:2019(E), 3.25. Lineage source added as ISO 19107:2003(E)
           release: '1'
           terms:
-            - type: expression
-              designation: suunnattu solmu
-              normative_status: preferred
+          - type: expression
+            designation: suunnattu solmu
+            normative_status: preferred
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -387,68 +390,71 @@ fin:
           email: glossarist@ribose.com
 fra:
   id: 138
-  definition: >-
-    objet topologique orienté représentant une association entre un noeud et une
-    de ses orientations
-  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: nœud orienté
+  definition:
+  - content: objet topologique orienté représentant une association entre un noeud
+      et une de ses orientations
   notes: []
   examples: []
+  language_code: fra
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19107:2019'
-    clause: '(E), 3.25'
-    link: 'https://www.iso.org/standard/66175.html'
-  lineage_source: 'ISO 19107:2003(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19107:2019
+      clause: "(E), 3.25"
+      link: https://www.iso.org/standard/66175.html
+  - type: lineage
+    origin:
+      ref: ISO 19107:2003(E)
   lineage_source_similarity: 1
-  date_accepted: '2003-05-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
   review_date: '2019-12-02T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-12-02T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19107:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19107:2003 to ISO 19107:2019(E),
-    3.25. Lineage source added as ISO 19107:2003(E)
+  review_decision_event: Publication of ISO 19107:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19107:2003 to ISO
+    19107:2019(E), 3.25. Lineage source added as ISO 19107:2003(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: nœud orienté
-      normative_status: preferred
   _revisions:
     current: a37523
     tree:
       a37523:
         object:
           id: 138
-          definition: >-
-            objet topologique orienté représentant une association entre un
-            noeud et une de ses orientations
+          definition: objet topologique orienté représentant une association entre
+            un noeud et une de ses orientations
           language_code: fra
           notes: []
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19107:2019'
-            clause: '(E), 3.25'
-            link: 'https://www.iso.org/standard/66175.html'
-          lineage_source: 'ISO 19107:2003(E)'
+            ref: ISO 19107:2019
+            clause: "(E), 3.25"
+            link: https://www.iso.org/standard/66175.html
+          lineage_source: ISO 19107:2003(E)
           lineage_source_similarity: 1
           date_accepted: '2003-05-01T00:00:00.000Z'
           review_date: '2019-12-02T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-12-02T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19107:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19107:2003 to ISO
-            19107:2019(E), 3.25. Lineage source added as ISO 19107:2003(E)
+          review_decision_event: Publication of ISO 19107:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19107:2003
+            to ISO 19107:2019(E), 3.25. Lineage source added as ISO 19107:2003(E)
           release: '1'
           terms:
-            - type: expression
-              designation: nœud orienté
-              normative_status: preferred
+          - type: expression
+            designation: nœud orienté
+            normative_status: preferred
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -456,36 +462,40 @@ fra:
           email: glossarist@ribose.com
 deu:
   id: 138
-  language_code: deu
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: gerichteter Knoten
   notes:
-    - >-
-      Directed nodes are used in the coboundary relation to maintain the spatial
-      association between edge and node. The orientation of a node is with
-      respect to an edge, "+" for end node, "-" for start node. This is
-      consistent with the vector notion of "result = end - start".
+  - content: Directed nodes are used in the coboundary relation to maintain the spatial
+      association between edge and node. The orientation of a node is with respect
+      to an edge, "+" for end node, "-" for start node. This is consistent with the
+      vector notion of "result = end - start".
   examples: []
+  language_code: deu
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19107:2019'
-    clause: '(E), 3.25'
-    link: 'https://www.iso.org/standard/66175.html'
-  lineage_source: 'ISO 19107:2003(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19107:2019
+      clause: "(E), 3.25"
+      link: https://www.iso.org/standard/66175.html
+  - type: lineage
+    origin:
+      ref: ISO 19107:2003(E)
   lineage_source_similarity: 1
-  date_accepted: '2003-05-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
   review_date: '2019-12-02T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-12-02T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19107:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19107:2003 to ISO 19107:2019(E),
-    3.25. Lineage source added as ISO 19107:2003(E)
+  review_decision_event: Publication of ISO 19107:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19107:2003 to ISO
+    19107:2019(E), 3.25. Lineage source added as ISO 19107:2003(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: gerichteter Knoten
-      normative_status: preferred
   _revisions:
     current: f021f3
     tree:
@@ -494,35 +504,32 @@ deu:
           id: 138
           language_code: deu
           notes:
-            - >-
-              Directed nodes are used in the coboundary relation to maintain the
-              spatial association between edge and node. The orientation of a
-              node is with respect to an edge, "+" for end node, "-" for start
-              node. This is consistent with the vector notion of "result = end -
-              start".
+          - Directed nodes are used in the coboundary relation to maintain the spatial
+            association between edge and node. The orientation of a node is with respect
+            to an edge, "+" for end node, "-" for start node. This is consistent with
+            the vector notion of "result = end - start".
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19107:2019'
-            clause: '(E), 3.25'
-            link: 'https://www.iso.org/standard/66175.html'
-          lineage_source: 'ISO 19107:2003(E)'
+            ref: ISO 19107:2019
+            clause: "(E), 3.25"
+            link: https://www.iso.org/standard/66175.html
+          lineage_source: ISO 19107:2003(E)
           lineage_source_similarity: 1
           date_accepted: '2003-05-01T00:00:00.000Z'
           review_date: '2019-12-02T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-12-02T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19107:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19107:2003 to ISO
-            19107:2019(E), 3.25. Lineage source added as ISO 19107:2003(E)
+          review_decision_event: Publication of ISO 19107:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19107:2003
+            to ISO 19107:2019(E), 3.25. Lineage source added as ISO 19107:2003(E)
           release: '1'
           terms:
-            - type: expression
-              designation: gerichteter Knoten
-              normative_status: preferred
+          - type: expression
+            designation: gerichteter Knoten
+            normative_status: preferred
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -530,34 +537,39 @@ deu:
           email: glossarist@ribose.com
 jpn:
   id: 138
-  definition: ノードとその向きの一つとの間の関連を表す有向位相オブジェクト。
-  language_code: jpn
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 有向ノード
+  definition:
+  - content: ノードとその向きの一つとの間の関連を表す有向位相オブジェクト。
   notes:
-    - >-
-      有向ノードは，双対境界関係においてエッジとノードとの間の空間的な関連を保持するために用いる。一つのエッジに関するノードの向きは，そのエッジの終点ノードでは“+”，始点ノードでは“-”になる。これは，“ベクトル＝終点－始点”というベクトルの概念と整合している。
+  - content: 有向ノードは，双対境界関係においてエッジとノードとの間の空間的な関連を保持するために用いる。一つのエッジに関するノードの向きは，そのエッジの終点ノードでは“+”，始点ノードでは“-”になる。これは，“ベクトル＝終点－始点”というベクトルの概念と整合している。
   examples: []
+  language_code: jpn
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19107:2019'
-    clause: '(E), 3.25'
-    link: 'https://www.iso.org/standard/66175.html'
-  lineage_source: 'ISO 19107:2003(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19107:2019
+      clause: "(E), 3.25"
+      link: https://www.iso.org/standard/66175.html
+  - type: lineage
+    origin:
+      ref: ISO 19107:2003(E)
   lineage_source_similarity: 1
-  date_accepted: '2003-05-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
   review_date: '2019-12-02T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-12-02T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19107:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19107:2003 to ISO 19107:2019(E),
-    3.25. Lineage source added as ISO 19107:2003(E)
+  review_decision_event: Publication of ISO 19107:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19107:2003 to ISO
+    19107:2019(E), 3.25. Lineage source added as ISO 19107:2003(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: 有向ノード
-      normative_status: preferred
   _revisions:
     current: bf25e1
     tree:
@@ -567,31 +579,29 @@ jpn:
           definition: ノードとその向きの一つとの間の関連を表す有向位相オブジェクト。
           language_code: jpn
           notes:
-            - >-
-              有向ノードは，双対境界関係においてエッジとノードとの間の空間的な関連を保持するために用いる。一つのエッジに関するノードの向きは，そのエッジの終点ノードでは“+”，始点ノードでは“-”になる。これは，“ベクトル＝終点－始点”というベクトルの概念と整合している。
+          - 有向ノードは，双対境界関係においてエッジとノードとの間の空間的な関連を保持するために用いる。一つのエッジに関するノードの向きは，そのエッジの終点ノードでは“+”，始点ノードでは“-”になる。これは，“ベクトル＝終点－始点”というベクトルの概念と整合している。
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19107:2019'
-            clause: '(E), 3.25'
-            link: 'https://www.iso.org/standard/66175.html'
-          lineage_source: 'ISO 19107:2003(E)'
+            ref: ISO 19107:2019
+            clause: "(E), 3.25"
+            link: https://www.iso.org/standard/66175.html
+          lineage_source: ISO 19107:2003(E)
           lineage_source_similarity: 1
           date_accepted: '2003-05-01T00:00:00.000Z'
           review_date: '2019-12-02T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-12-02T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19107:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19107:2003 to ISO
-            19107:2019(E), 3.25. Lineage source added as ISO 19107:2003(E)
+          review_decision_event: Publication of ISO 19107:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19107:2003
+            to ISO 19107:2019(E), 3.25. Lineage source added as ISO 19107:2003(E)
           release: '1'
           terms:
-            - type: expression
-              designation: 有向ノード
-              normative_status: preferred
+          - type: expression
+            designation: 有向ノード
+            normative_status: preferred
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -599,35 +609,40 @@ jpn:
           email: glossarist@ribose.com
 kor:
   id: 138
-  definition: 하나의 절점과 그 절점이 갖는 방향성 간의 연관으로 표현된 방향성 위상 객체
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 방향성 절점
+  definition:
+  - content: 하나의 절점과 그 절점이 갖는 방향성 간의 연관으로 표현된 방향성 위상 객체
   notes:
-    - >-
-      방향성 절점은 변과 절점 간의 공간적인 관계를 유지하기 위해 공유 경계 측면에서 사용된다. 절점의 방향성은 변에 따르며, "+"는 끝
-      절점, "-"는 시작 절점에 부여된다. 이것은 다음의 벡터 기술법과도 일치한다. "방향 = 종점 - 시점".
+  - content: 방향성 절점은 변과 절점 간의 공간적인 관계를 유지하기 위해 공유 경계 측면에서 사용된다. 절점의 방향성은 변에 따르며, "+"는
+      끝 절점, "-"는 시작 절점에 부여된다. 이것은 다음의 벡터 기술법과도 일치한다. "방향 = 종점 - 시점".
   examples: []
+  language_code: kor
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19107:2019'
-    clause: '(E), 3.25'
-    link: 'https://www.iso.org/standard/66175.html'
-  lineage_source: 'ISO 19107:2003(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19107:2019
+      clause: "(E), 3.25"
+      link: https://www.iso.org/standard/66175.html
+  - type: lineage
+    origin:
+      ref: ISO 19107:2003(E)
   lineage_source_similarity: 1
-  date_accepted: '2003-05-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
   review_date: '2019-12-02T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-12-02T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19107:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19107:2003 to ISO 19107:2019(E),
-    3.25. Lineage source added as ISO 19107:2003(E)
+  review_decision_event: Publication of ISO 19107:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19107:2003 to ISO
+    19107:2019(E), 3.25. Lineage source added as ISO 19107:2003(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: 방향성 절점
-      normative_status: preferred
   _revisions:
     current: 30ca73
     tree:
@@ -637,33 +652,30 @@ kor:
           definition: 하나의 절점과 그 절점이 갖는 방향성 간의 연관으로 표현된 방향성 위상 객체
           language_code: kor
           notes:
-            - >-
-              방향성 절점은 변과 절점 간의 공간적인 관계를 유지하기 위해 공유 경계 측면에서 사용된다. 절점의 방향성은 변에
-              따르며, "+"는 끝 절점, "-"는 시작 절점에 부여된다. 이것은 다음의 벡터 기술법과도 일치한다. "방향 = 종점
-              - 시점".
+          - 방향성 절점은 변과 절점 간의 공간적인 관계를 유지하기 위해 공유 경계 측면에서 사용된다. 절점의 방향성은 변에 따르며, "+"는
+            끝 절점, "-"는 시작 절점에 부여된다. 이것은 다음의 벡터 기술법과도 일치한다. "방향 = 종점 - 시점".
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19107:2019'
-            clause: '(E), 3.25'
-            link: 'https://www.iso.org/standard/66175.html'
-          lineage_source: 'ISO 19107:2003(E)'
+            ref: ISO 19107:2019
+            clause: "(E), 3.25"
+            link: https://www.iso.org/standard/66175.html
+          lineage_source: ISO 19107:2003(E)
           lineage_source_similarity: 1
           date_accepted: '2003-05-01T00:00:00.000Z'
           review_date: '2019-12-02T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-12-02T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19107:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19107:2003 to ISO
-            19107:2019(E), 3.25. Lineage source added as ISO 19107:2003(E)
+          review_decision_event: Publication of ISO 19107:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19107:2003
+            to ISO 19107:2019(E), 3.25. Lineage source added as ISO 19107:2003(E)
           release: '1'
           terms:
-            - type: expression
-              designation: 방향성 절점
-              normative_status: preferred
+          - type: expression
+            designation: 방향성 절점
+            normative_status: preferred
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -671,79 +683,79 @@ kor:
           email: glossarist@ribose.com
 pol:
   id: 138
-  definition: >-
-    skierowany obiekt topologiczny, który reprezentuje powiązanie między węzłem
-    a jedną z jego orientacji
-  language_code: pol
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: węzeł skierowany
+  definition:
+  - content: skierowany obiekt topologiczny, który reprezentuje powiązanie między
+      węzłem a jedną z jego orientacji
   notes:
-    - >-
-      Węzły skierowane są wykorzystywane w zależnościach współgranicy w celu
-      określenia powiązania przestrzennego pomiędzy krawędzią a węzłem.
-      Orientacja węzła określana jest na podstawie jego położenia względem
-      krawędzi."+" dla węzła końcowego, "-", dla węzła początkowego. Jest to
-      spójne z wektorową notacją"wynik= koniec - początek".
+  - content: Węzły skierowane są wykorzystywane w zależnościach współgranicy w celu
+      określenia powiązania przestrzennego pomiędzy krawędzią a węzłem. Orientacja
+      węzła określana jest na podstawie jego położenia względem krawędzi."+" dla węzła
+      końcowego, "-", dla węzła początkowego. Jest to spójne z wektorową notacją"wynik=
+      koniec - początek".
   examples: []
+  language_code: pol
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19107:2019'
-    clause: '(E), 3.25'
-    link: 'https://www.iso.org/standard/66175.html'
-  lineage_source: 'ISO 19107:2003(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19107:2019
+      clause: "(E), 3.25"
+      link: https://www.iso.org/standard/66175.html
+  - type: lineage
+    origin:
+      ref: ISO 19107:2003(E)
   lineage_source_similarity: 1
-  date_accepted: '2003-05-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
   review_date: '2019-12-02T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-12-02T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19107:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19107:2003 to ISO 19107:2019(E),
-    3.25. Lineage source added as ISO 19107:2003(E)
+  review_decision_event: Publication of ISO 19107:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19107:2003 to ISO
+    19107:2019(E), 3.25. Lineage source added as ISO 19107:2003(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: węzeł skierowany
-      normative_status: preferred
   _revisions:
     current: a62790
     tree:
       a62790:
         object:
           id: 138
-          definition: >-
-            skierowany obiekt topologiczny, który reprezentuje powiązanie między
-            węzłem a jedną z jego orientacji
+          definition: skierowany obiekt topologiczny, który reprezentuje powiązanie
+            między węzłem a jedną z jego orientacji
           language_code: pol
           notes:
-            - >-
-              Węzły skierowane są wykorzystywane w zależnościach współgranicy w
-              celu określenia powiązania przestrzennego pomiędzy krawędzią a
-              węzłem. Orientacja węzła określana jest na podstawie jego
-              położenia względem krawędzi."+" dla węzła końcowego, "-", dla
-              węzła początkowego. Jest to spójne z wektorową notacją"wynik=
-              koniec - początek".
+          - Węzły skierowane są wykorzystywane w zależnościach współgranicy w celu
+            określenia powiązania przestrzennego pomiędzy krawędzią a węzłem. Orientacja
+            węzła określana jest na podstawie jego położenia względem krawędzi."+"
+            dla węzła końcowego, "-", dla węzła początkowego. Jest to spójne z wektorową
+            notacją"wynik= koniec - początek".
           examples: []
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19107:2019'
-            clause: '(E), 3.25'
-            link: 'https://www.iso.org/standard/66175.html'
-          lineage_source: 'ISO 19107:2003(E)'
+            ref: ISO 19107:2019
+            clause: "(E), 3.25"
+            link: https://www.iso.org/standard/66175.html
+          lineage_source: ISO 19107:2003(E)
           lineage_source_similarity: 1
           date_accepted: '2003-05-01T00:00:00.000Z'
           review_date: '2019-12-02T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-12-02T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19107:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19107:2003 to ISO
-            19107:2019(E), 3.25. Lineage source added as ISO 19107:2003(E)
+          review_decision_event: Publication of ISO 19107:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19107:2003
+            to ISO 19107:2019(E), 3.25. Lineage source added as ISO 19107:2003(E)
           release: '1'
           terms:
-            - type: expression
-              designation: węzeł skierowany
-              normative_status: preferred
+          - type: expression
+            designation: węzeł skierowany
+            normative_status: preferred
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -751,79 +763,79 @@ pol:
           email: glossarist@ribose.com
 rus:
   id: 138
-  definition: >-
-    ориентированный топологический объект, который представляет связь между
-    узлом и одним из его направлений
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ориентированный узел
+  definition:
+  - content: ориентированный топологический объект, который представляет связь между
+      узлом и одним из его направлений
   notes:
-    - >-
-      Ориентированные узлы используют в кограничной  связи для поддержки
-      пространственной ассоциации между ребом и узлом. Направление узла
-      соотносится с ребром, «+» для концевого узла, «-» - для начального. Это
-      соответствует записи в векторной нотации  «result = end – start».
+  - content: Ориентированные узлы используют в кограничной  связи для поддержки пространственной
+      ассоциации между ребом и узлом. Направление узла соотносится с ребром, «+» для
+      концевого узла, «-» - для начального. Это соответствует записи в векторной нотации  «result
+      = end – start».
   examples: []
+  language_code: rus
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19107:2019'
-    clause: '(E), 3.25'
-    link: 'https://www.iso.org/standard/66175.html'
-  lineage_source: 'ISO 19107:2003(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19107:2019
+      clause: "(E), 3.25"
+      link: https://www.iso.org/standard/66175.html
+  - type: lineage
+    origin:
+      ref: ISO 19107:2003(E)
   lineage_source_similarity: 1
-  date_accepted: '2003-05-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
   review_date: '2019-12-02T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-12-02T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19107:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19107:2003 to ISO 19107:2019(E),
-    3.25. Lineage source added as ISO 19107:2003(E)
+  review_decision_event: Publication of ISO 19107:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19107:2003 to ISO
+    19107:2019(E), 3.25. Lineage source added as ISO 19107:2003(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: ориентированный узел
-      normative_status: preferred
   _revisions:
     current: 375db7
     tree:
       375db7:
         object:
           id: 138
-          definition: >-
-            ориентированный топологический объект, который представляет связь
-            между узлом и одним из его направлений
+          definition: ориентированный топологический объект, который представляет
+            связь между узлом и одним из его направлений
           language_code: rus
           notes:
-            - >-
-              Ориентированные узлы используют в кограничной  связи для поддержки
-              пространственной ассоциации между ребом и узлом. Направление узла
-              соотносится с ребром, «+» для концевого узла, «-» - для
-              начального. Это соответствует записи в векторной нотации  «result
-              = end – start».
+          - Ориентированные узлы используют в кограничной  связи для поддержки пространственной
+            ассоциации между ребом и узлом. Направление узла соотносится с ребром,
+            «+» для концевого узла, «-» - для начального. Это соответствует записи
+            в векторной нотации  «result = end – start».
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19107:2019'
-            clause: '(E), 3.25'
-            link: 'https://www.iso.org/standard/66175.html'
-          lineage_source: 'ISO 19107:2003(E)'
+            ref: ISO 19107:2019
+            clause: "(E), 3.25"
+            link: https://www.iso.org/standard/66175.html
+          lineage_source: ISO 19107:2003(E)
           lineage_source_similarity: 1
           date_accepted: '2003-05-01T00:00:00.000Z'
           review_date: '2019-12-02T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-12-02T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19107:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19107:2003 to ISO
-            19107:2019(E), 3.25. Lineage source added as ISO 19107:2003(E)
+          review_decision_event: Publication of ISO 19107:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19107:2003
+            to ISO 19107:2019(E), 3.25. Lineage source added as ISO 19107:2003(E)
           release: '1'
           terms:
-            - type: expression
-              designation: ориентированный узел
-              normative_status: preferred
+          - type: expression
+            designation: ориентированный узел
+            normative_status: preferred
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -831,79 +843,79 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 138
-  definition: >-
-    objeto topológico orientado que representa una asociación entre un nodo y
-    una de sus orientaciones
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: nodo orientado
+  definition:
+  - content: objeto topológico orientado que representa una asociación entre un nodo
+      y una de sus orientaciones
   notes:
-    - >-
-      Los nodos orientados se usan en la relación de cofrontera para mantener la
-      asociación espacial entre arco y nodo. La orientación de un nodo con
-      respecto a un arco es "+" para el nodo final y "-" para el nodo inicial.
-      Esto es coherente con la noción de vector "resultado = final - inicial".
+  - content: Los nodos orientados se usan en la relación de cofrontera para mantener
+      la asociación espacial entre arco y nodo. La orientación de un nodo con respecto
+      a un arco es "+" para el nodo final y "-" para el nodo inicial. Esto es coherente
+      con la noción de vector "resultado = final - inicial".
   examples: []
+  language_code: spa
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19107:2019'
-    clause: '(E), 3.25'
-    link: 'https://www.iso.org/standard/66175.html'
-  lineage_source: 'ISO 19107:2003(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19107:2019
+      clause: "(E), 3.25"
+      link: https://www.iso.org/standard/66175.html
+  - type: lineage
+    origin:
+      ref: ISO 19107:2003(E)
   lineage_source_similarity: 1
-  date_accepted: '2003-05-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
   review_date: '2019-12-02T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-12-02T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19107:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19107:2003 to ISO 19107:2019(E),
-    3.25. Lineage source added as ISO 19107:2003(E)
+  review_decision_event: Publication of ISO 19107:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19107:2003 to ISO
+    19107:2019(E), 3.25. Lineage source added as ISO 19107:2003(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: nodo orientado
-      normative_status: preferred
   _revisions:
     current: b7b27c
     tree:
       b7b27c:
         object:
           id: 138
-          definition: >-
-            objeto topológico orientado que representa una asociación entre un
-            nodo y una de sus orientaciones
+          definition: objeto topológico orientado que representa una asociación entre
+            un nodo y una de sus orientaciones
           language_code: spa
           notes:
-            - >-
-              Los nodos orientados se usan en la relación de cofrontera para
-              mantener la asociación espacial entre arco y nodo. La orientación
-              de un nodo con respecto a un arco es "+" para el nodo final y "-"
-              para el nodo inicial. Esto es coherente con la noción de vector
-              "resultado = final - inicial".
+          - Los nodos orientados se usan en la relación de cofrontera para mantener
+            la asociación espacial entre arco y nodo. La orientación de un nodo con
+            respecto a un arco es "+" para el nodo final y "-" para el nodo inicial.
+            Esto es coherente con la noción de vector "resultado = final - inicial".
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19107:2019'
-            clause: '(E), 3.25'
-            link: 'https://www.iso.org/standard/66175.html'
-          lineage_source: 'ISO 19107:2003(E)'
+            ref: ISO 19107:2019
+            clause: "(E), 3.25"
+            link: https://www.iso.org/standard/66175.html
+          lineage_source: ISO 19107:2003(E)
           lineage_source_similarity: 1
           date_accepted: '2003-05-01T00:00:00.000Z'
           review_date: '2019-12-02T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-12-02T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19107:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19107:2003 to ISO
-            19107:2019(E), 3.25. Lineage source added as ISO 19107:2003(E)
+          review_decision_event: Publication of ISO 19107:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19107:2003
+            to ISO 19107:2019(E), 3.25. Lineage source added as ISO 19107:2003(E)
           release: '1'
           terms:
-            - type: expression
-              designation: nodo orientado
-              normative_status: preferred
+          - type: expression
+            designation: nodo orientado
+            normative_status: preferred
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -911,81 +923,81 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 138
-  definition: >-
-    orienterat topologiskt objekt som anger sambandet mellan en nod och en av
-    dess orienteringar
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: orienterad nod
+  definition:
+  - content: orienterat topologiskt objekt som anger sambandet mellan en nod och en
+      av dess orienteringar
+  notes:
+  - content: Directed nodes are used in the coboundary relation to maintain the spatial
+      association between edge and node. The orientation of a node is with respect
+      to an edge, "+" for end node, "-" for start node. This is consistent with the
+      vector notion of "result = end - start".
+  examples: []
   country_code: swe
   language_code: swe
-  notes:
-    - >-
-      Directed nodes are used in the coboundary relation to maintain the spatial
-      association between edge and node. The orientation of a node is with
-      respect to an edge, "+" for end node, "-" for start node. This is
-      consistent with the vector notion of "result = end - start".
-  examples: []
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19107:2019'
-    clause: '(E), 3.25'
-    link: 'https://www.iso.org/standard/66175.html'
-  lineage_source: 'ISO 19107:2003(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19107:2019
+      clause: "(E), 3.25"
+      link: https://www.iso.org/standard/66175.html
+  - type: lineage
+    origin:
+      ref: ISO 19107:2003(E)
   lineage_source_similarity: 1
-  date_accepted: '2003-05-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
   review_date: '2019-12-02T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-12-02T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19107:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19107:2003 to ISO 19107:2019(E),
-    3.25. Lineage source added as ISO 19107:2003(E)
+  review_decision_event: Publication of ISO 19107:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19107:2003 to ISO
+    19107:2019(E), 3.25. Lineage source added as ISO 19107:2003(E)
   release: '1'
-  terms:
-    - type: expression
-      designation: orienterad nod
-      normative_status: preferred
   _revisions:
     current: 63f92a
     tree:
       63f92a:
         object:
           id: 138
-          definition: >-
-            orienterat topologiskt objekt som anger sambandet mellan en nod och
-            en av dess orienteringar
+          definition: orienterat topologiskt objekt som anger sambandet mellan en
+            nod och en av dess orienteringar
           country_code: swe
           language_code: swe
           notes:
-            - >-
-              Directed nodes are used in the coboundary relation to maintain the
-              spatial association between edge and node. The orientation of a
-              node is with respect to an edge, "+" for end node, "-" for start
-              node. This is consistent with the vector notion of "result = end -
-              start".
+          - Directed nodes are used in the coboundary relation to maintain the spatial
+            association between edge and node. The orientation of a node is with respect
+            to an edge, "+" for end node, "-" for start node. This is consistent with
+            the vector notion of "result = end - start".
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19107:2019'
-            clause: '(E), 3.25'
-            link: 'https://www.iso.org/standard/66175.html'
-          lineage_source: 'ISO 19107:2003(E)'
+            ref: ISO 19107:2019
+            clause: "(E), 3.25"
+            link: https://www.iso.org/standard/66175.html
+          lineage_source: ISO 19107:2003(E)
           lineage_source_similarity: 1
           date_accepted: '2003-05-01T00:00:00.000Z'
           review_date: '2019-12-02T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-12-02T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19107:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19107:2003 to ISO
-            19107:2019(E), 3.25. Lineage source added as ISO 19107:2003(E)
+          review_decision_event: Publication of ISO 19107:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19107:2003
+            to ISO 19107:2019(E), 3.25. Lineage source added as ISO 19107:2003(E)
           release: '1'
           terms:
-            - type: expression
-              designation: orienterad nod
-              normative_status: preferred
+          - type: expression
+            designation: orienterad nod
+            normative_status: preferred
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:

@@ -1,21 +1,27 @@
-term: filter expression
+---
 termid: 1020
+term: filter expression
 eng:
   id: 1020
-  definition: predicate expression encoded using XML
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: filter expression
+  definition:
+  - content: predicate expression encoded using XML
   notes: []
   examples: []
+  language_code: eng
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19143:2010'
-    link: 'https://www.iso.org/standard/42137.html'
-  date_accepted: '2010-10-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19143:2010
+      link: https://www.iso.org/standard/42137.html
+  dates:
+  - type: accepted
+    date: '2010-10-15T00:00:00.000Z'
   release: '2'
-  terms:
-    - type: expression
-      designation: filter expression
-      normative_status: preferred
   _revisions:
     current: cf20fc
     tree:
@@ -28,14 +34,14 @@ eng:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19143:2010'
-            link: 'https://www.iso.org/standard/42137.html'
+            ref: ISO 19143:2010
+            link: https://www.iso.org/standard/42137.html
           date_accepted: '2010-10-15T00:00:00.000Z'
           release: '2'
           terms:
-            - type: expression
-              designation: filter expression
-              normative_status: preferred
+          - type: expression
+            designation: filter expression
+            normative_status: preferred
         parents: []
         timeCreated: '2010-10-15T00:00:00.000Z'
         author:
@@ -43,20 +49,25 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 1020
-  definition: تعبير افتراضي مشفر باستخام  XML
-  language_code: ara
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: تعبير فلترة
+  definition:
+  - content: تعبير افتراضي مشفر باستخام  XML
   notes: []
   examples: []
+  language_code: ara
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19143:2010'
-    link: 'https://www.iso.org/standard/42137.html'
-  date_accepted: '2010-10-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19143:2010
+      link: https://www.iso.org/standard/42137.html
+  dates:
+  - type: accepted
+    date: '2010-10-15T00:00:00.000Z'
   release: '2'
-  terms:
-    - type: expression
-      designation: تعبير فلترة
-      normative_status: preferred
   _revisions:
     current: 9b95c3
     tree:
@@ -69,14 +80,14 @@ ara:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19143:2010'
-            link: 'https://www.iso.org/standard/42137.html'
+            ref: ISO 19143:2010
+            link: https://www.iso.org/standard/42137.html
           date_accepted: '2010-10-15T00:00:00.000Z'
           release: '2'
           terms:
-            - type: expression
-              designation: تعبير فلترة
-              normative_status: preferred
+          - type: expression
+            designation: تعبير فلترة
+            normative_status: preferred
         parents: []
         timeCreated: '2010-10-15T00:00:00.000Z'
         author:
@@ -84,44 +95,47 @@ ara:
           email: glossarist@ribose.com
 deu:
   id: 1020
-  definition: >-
-    in XML kodierter Ausdruck zur Selektion bestimmter Feature auf Grund ihrer
-    Eigenschaften
-  language_code: deu
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Filterausdruck
+  definition:
+  - content: in XML kodierter Ausdruck zur Selektion bestimmter Feature auf Grund
+      ihrer Eigenschaften
   notes: []
   examples: []
+  language_code: deu
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19143:2010'
-    link: 'https://www.iso.org/standard/42137.html'
-  date_accepted: '2010-10-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19143:2010
+      link: https://www.iso.org/standard/42137.html
+  dates:
+  - type: accepted
+    date: '2010-10-15T00:00:00.000Z'
   release: '2'
-  terms:
-    - type: expression
-      designation: Filterausdruck
-      normative_status: preferred
   _revisions:
     current: d27e24
     tree:
       d27e24:
         object:
           id: 1020
-          definition: >-
-            in XML kodierter Ausdruck zur Selektion bestimmter Feature auf Grund
-            ihrer Eigenschaften
+          definition: in XML kodierter Ausdruck zur Selektion bestimmter Feature auf
+            Grund ihrer Eigenschaften
           language_code: deu
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19143:2010'
-            link: 'https://www.iso.org/standard/42137.html'
+            ref: ISO 19143:2010
+            link: https://www.iso.org/standard/42137.html
           date_accepted: '2010-10-15T00:00:00.000Z'
           release: '2'
           terms:
-            - type: expression
-              designation: Filterausdruck
-              normative_status: preferred
+          - type: expression
+            designation: Filterausdruck
+            normative_status: preferred
         parents: []
         timeCreated: '2010-10-15T00:00:00.000Z'
         author:
@@ -129,20 +143,25 @@ deu:
           email: glossarist@ribose.com
 kor:
   id: 1020
-  definition: XML을 사용하여 부호화된 서술적 표현
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 필터 표현
+  definition:
+  - content: XML을 사용하여 부호화된 서술적 표현
   notes: []
   examples: []
+  language_code: kor
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19143:2010'
-    link: 'https://www.iso.org/standard/42137.html'
-  date_accepted: '2010-10-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19143:2010
+      link: https://www.iso.org/standard/42137.html
+  dates:
+  - type: accepted
+    date: '2010-10-15T00:00:00.000Z'
   release: '2'
-  terms:
-    - type: expression
-      designation: 필터 표현
-      normative_status: preferred
   _revisions:
     current: f3f16e
     tree:
@@ -155,14 +174,14 @@ kor:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19143:2010'
-            link: 'https://www.iso.org/standard/42137.html'
+            ref: ISO 19143:2010
+            link: https://www.iso.org/standard/42137.html
           date_accepted: '2010-10-15T00:00:00.000Z'
           release: '2'
           terms:
-            - type: expression
-              designation: 필터 표현
-              normative_status: preferred
+          - type: expression
+            designation: 필터 표현
+            normative_status: preferred
         parents: []
         timeCreated: '2010-10-15T00:00:00.000Z'
         author:
@@ -170,42 +189,49 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 1020
-  definition: 'условное выражение, закодированное с использованием XML'
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: выражение фильтра
+  definition:
+  - content: условное выражение, закодированное с использованием XML
   notes: []
   examples: []
+  language_code: rus
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19143:2010'
-    link: 'https://www.iso.org/standard/42137.html'
-  lineage_source: 'ISO 19143:2010'
-  date_accepted: '2010-10-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19143:2010
+      link: https://www.iso.org/standard/42137.html
+  - type: lineage
+    origin:
+      ref: ISO 19143:2010
+  dates:
+  - type: accepted
+    date: '2010-10-15T00:00:00.000Z'
   release: '2'
-  terms:
-    - type: expression
-      designation: выражение фильтра
-      normative_status: preferred
   _revisions:
     current: baeac6
     tree:
       baeac6:
         object:
           id: 1020
-          definition: 'условное выражение, закодированное с использованием XML'
+          definition: условное выражение, закодированное с использованием XML
           language_code: rus
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19143:2010'
-            link: 'https://www.iso.org/standard/42137.html'
-          lineage_source: 'ISO 19143:2010'
+            ref: ISO 19143:2010
+            link: https://www.iso.org/standard/42137.html
+          lineage_source: ISO 19143:2010
           date_accepted: '2010-10-15T00:00:00.000Z'
           release: '2'
           terms:
-            - type: expression
-              designation: выражение фильтра
-              normative_status: preferred
+          - type: expression
+            designation: выражение фильтра
+            normative_status: preferred
         parents: []
         timeCreated: '2010-10-15T00:00:00.000Z'
         author:
@@ -213,20 +239,25 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 1020
-  definition: expresión de predicado codificada en XML
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: expresión de filtrado
+  definition:
+  - content: expresión de predicado codificada en XML
   notes: []
   examples: []
+  language_code: spa
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19143:2010'
-    link: 'https://www.iso.org/standard/42137.html'
-  date_accepted: '2010-10-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19143:2010
+      link: https://www.iso.org/standard/42137.html
+  dates:
+  - type: accepted
+    date: '2010-10-15T00:00:00.000Z'
   release: '2'
-  terms:
-    - type: expression
-      designation: expresión de filtrado
-      normative_status: preferred
   _revisions:
     current: 7d41c6
     tree:
@@ -239,14 +270,14 @@ spa:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19143:2010'
-            link: 'https://www.iso.org/standard/42137.html'
+            ref: ISO 19143:2010
+            link: https://www.iso.org/standard/42137.html
           date_accepted: '2010-10-15T00:00:00.000Z'
           release: '2'
           terms:
-            - type: expression
-              designation: expresión de filtrado
-              normative_status: preferred
+          - type: expression
+            designation: expresión de filtrado
+            normative_status: preferred
         parents: []
         timeCreated: '2010-10-15T00:00:00.000Z'
         author:
@@ -254,22 +285,29 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 1020
-  definition: XML-kodade testuttryck
-  country_code: swe
-  language_code: swe
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: urvalssats
+  definition:
+  - content: XML-kodade testuttryck
   notes: []
   examples: []
+  country_code: swe
+  language_code: swe
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19143:2010'
-    link: 'https://www.iso.org/standard/42137.html'
-  lineage_source: (Type reference to national language document)
-  date_accepted: '2010-10-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19143:2010
+      link: https://www.iso.org/standard/42137.html
+  - type: lineage
+    origin:
+      ref: "(Type reference to national language document)"
+  dates:
+  - type: accepted
+    date: '2010-10-15T00:00:00.000Z'
   release: '2'
-  terms:
-    - type: expression
-      designation: urvalssats
-      normative_status: preferred
   _revisions:
     current: db637d
     tree:
@@ -283,15 +321,15 @@ swe:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19143:2010'
-            link: 'https://www.iso.org/standard/42137.html'
-          lineage_source: (Type reference to national language document)
+            ref: ISO 19143:2010
+            link: https://www.iso.org/standard/42137.html
+          lineage_source: "(Type reference to national language document)"
           date_accepted: '2010-10-15T00:00:00.000Z'
           release: '2'
           terms:
-            - type: expression
-              designation: urvalssats
-              normative_status: preferred
+          - type: expression
+            designation: urvalssats
+            normative_status: preferred
         parents: []
         timeCreated: '2010-10-15T00:00:00.000Z'
         author:

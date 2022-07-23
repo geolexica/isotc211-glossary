@@ -1,35 +1,41 @@
-term: cycle<geometry>
+---
 termid: 103
+term: cycle<geometry>
 eng:
   id: 103
-  definition: spatial object without a boundary
-  language_code: eng
+  terms:
+  - type: expression
+    designation: cycle<geometry>
+  definition:
+  - content: spatial object without a boundary
   notes:
-    - >-
-      Cycles are used to describe boundary components (see shell, ring). A cycle
-      has no boundary because it closes on itself, but it is bounded (i.e., it
-      does not have infinite extent).  A circle or a sphere, for example, has no
+  - content: Cycles are used to describe boundary components (see shell, ring). A
+      cycle has no boundary because it closes on itself, but it is bounded (i.e.,
+      it does not have infinite extent).  A circle or a sphere, for example, has no
       boundary, but is bounded.
   examples: []
+  language_code: eng
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19107:2003'
-    link: 'https://www.iso.org/standard/26012.html'
-  date_accepted: '2003-05-01T00:00:00.000Z'
-  date_amended: '2019-12-02T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19107:2003
+      link: https://www.iso.org/standard/26012.html
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
+  - type: amended
+    date: '2019-12-02T00:00:00.000Z'
   review_date: '2019-12-02T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2019-12-02T00:00:00.000Z'
-  review_decision_event: 'Publication of documentISO 19107:2019(E)'
-  review_decision_notes: 'This entry has been omitted from the superseding standard ISO 19107:2019(E)'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: cycle<geometry>
-      normative_status: null
+  review_decision_event: Publication of documentISO 19107:2019(E)
+  review_decision_notes: This entry has been omitted from the superseding standard
+    ISO 19107:2019(E)
+  release: "-1"
   _revisions:
     current: 9b244a
     tree:
@@ -39,17 +45,16 @@ eng:
           definition: spatial object without a boundary
           language_code: eng
           notes:
-            - >-
-              Cycles are used to describe boundary components (see shell, ring).
-              A cycle has no boundary because it closes on itself, but it is
-              bounded (i.e., it does not have infinite extent).  A circle or a
-              sphere, for example, has no boundary, but is bounded.
+          - Cycles are used to describe boundary components (see shell, ring). A cycle
+            has no boundary because it closes on itself, but it is bounded (i.e.,
+            it does not have infinite extent).  A circle or a sphere, for example,
+            has no boundary, but is bounded.
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19107:2003'
-            link: 'https://www.iso.org/standard/26012.html'
+            ref: ISO 19107:2003
+            link: https://www.iso.org/standard/26012.html
           date_accepted: '2003-05-01T00:00:00.000Z'
           date_amended: '2019-12-02T00:00:00.000Z'
           review_date: '2019-12-02T00:00:00.000Z'
@@ -57,15 +62,14 @@ eng:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2019-12-02T00:00:00.000Z'
-          review_decision_event: 'Publication of documentISO 19107:2019(E)'
-          review_decision_notes: >-
-            This entry has been omitted from the superseding standard ISO
-            19107:2019(E)
-          release: '-1'
+          review_decision_event: Publication of documentISO 19107:2019(E)
+          review_decision_notes: This entry has been omitted from the superseding
+            standard ISO 19107:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: cycle<geometry>
-              normative_status: null
+          - type: expression
+            designation: cycle<geometry>
+            normative_status:
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -73,34 +77,39 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 103
-  definition: كيان مكاني بلا حدود
-  language_code: ara
+  terms:
+  - type: expression
+    designation: دورة <هندسة>
+  definition:
+  - content: كيان مكاني بلا حدود
   notes:
-    - >-
-      تستخدم الحلقات لوصف مكونات الحدود الخارجية (انظر هيكل واجهة shell وطوق
-      ring ). والحلقة ليس لها حد خارجي لأنها تنغلق على ذاتها , لكنها محددة (أي
-      أنها ليست ممتدة امتدادا لامتناهيا). والدائرة أو الكرة , مثلاً , ليس لها حد
-      خارجي ولكنها محددة كذلك.
+  - content: تستخدم الحلقات لوصف مكونات الحدود الخارجية (انظر هيكل واجهة shell وطوق
+      ring ). والحلقة ليس لها حد خارجي لأنها تنغلق على ذاتها , لكنها محددة (أي أنها
+      ليست ممتدة امتدادا لامتناهيا). والدائرة أو الكرة , مثلاً , ليس لها حد خارجي
+      ولكنها محددة كذلك.
   examples: []
+  language_code: ara
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19107:2003'
-    link: 'https://www.iso.org/standard/26012.html'
-  date_accepted: '2003-05-01T00:00:00.000Z'
-  date_amended: '2019-12-02T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19107:2003
+      link: https://www.iso.org/standard/26012.html
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
+  - type: amended
+    date: '2019-12-02T00:00:00.000Z'
   review_date: '2019-12-02T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2019-12-02T00:00:00.000Z'
-  review_decision_event: 'Publication of documentISO 19107:2019(E)'
-  review_decision_notes: 'This entry has been omitted from the superseding standard ISO 19107:2019(E)'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: دورة <هندسة>
-      normative_status: null
+  review_decision_event: Publication of documentISO 19107:2019(E)
+  review_decision_notes: This entry has been omitted from the superseding standard
+    ISO 19107:2019(E)
+  release: "-1"
   _revisions:
     current: 1ddcb4
     tree:
@@ -110,17 +119,16 @@ ara:
           definition: كيان مكاني بلا حدود
           language_code: ara
           notes:
-            - >-
-              تستخدم الحلقات لوصف مكونات الحدود الخارجية (انظر هيكل واجهة shell
-              وطوق  ring ). والحلقة ليس لها حد خارجي لأنها تنغلق على ذاتها ,
-              لكنها محددة (أي أنها ليست ممتدة امتدادا لامتناهيا). والدائرة أو
-              الكرة , مثلاً , ليس لها حد خارجي ولكنها محددة كذلك.
+          - تستخدم الحلقات لوصف مكونات الحدود الخارجية (انظر هيكل واجهة shell وطوق  ring
+            ). والحلقة ليس لها حد خارجي لأنها تنغلق على ذاتها , لكنها محددة (أي أنها
+            ليست ممتدة امتدادا لامتناهيا). والدائرة أو الكرة , مثلاً , ليس لها حد
+            خارجي ولكنها محددة كذلك.
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19107:2003'
-            link: 'https://www.iso.org/standard/26012.html'
+            ref: ISO 19107:2003
+            link: https://www.iso.org/standard/26012.html
           date_accepted: '2003-05-01T00:00:00.000Z'
           date_amended: '2019-12-02T00:00:00.000Z'
           review_date: '2019-12-02T00:00:00.000Z'
@@ -128,15 +136,14 @@ ara:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2019-12-02T00:00:00.000Z'
-          review_decision_event: 'Publication of documentISO 19107:2019(E)'
-          review_decision_notes: >-
-            This entry has been omitted from the superseding standard ISO
-            19107:2019(E)
-          release: '-1'
+          review_decision_event: Publication of documentISO 19107:2019(E)
+          review_decision_notes: This entry has been omitted from the superseding
+            standard ISO 19107:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: دورة <هندسة>
-              normative_status: null
+          - type: expression
+            designation: دورة <هندسة>
+            normative_status:
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -144,47 +151,52 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 103
-  definition: <几何学>没有边界的空间对象。
-  language_code: zho
+  terms:
+  - type: expression
+    designation: 圈
+  definition:
+  - content: "<几何学>没有边界的空间对象。"
   notes:
-    - 圈用来描述边界组成部分（参见壳、环）。圈没有边界，因为它自身闭合，但它是有界的（即它不具有无限的外延）。例如，圆环或球，没有边界，但却是有界的。
+  - content: 圈用来描述边界组成部分（参见壳、环）。圈没有边界，因为它自身闭合，但它是有界的（即它不具有无限的外延）。例如，圆环或球，没有边界，但却是有界的。
   examples: []
+  language_code: zho
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19107:2003'
-    link: 'https://www.iso.org/standard/26012.html'
-  date_accepted: '2003-05-01T00:00:00.000Z'
-  date_amended: '2019-12-02T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19107:2003
+      link: https://www.iso.org/standard/26012.html
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
+  - type: amended
+    date: '2019-12-02T00:00:00.000Z'
   review_date: '2019-12-02T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2019-12-02T00:00:00.000Z'
-  review_decision_event: 'Publication of documentISO 19107:2019(E)'
-  review_decision_notes: 'This entry has been omitted from the superseding standard ISO 19107:2019(E)'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: 圈
-      normative_status: null
+  review_decision_event: Publication of documentISO 19107:2019(E)
+  review_decision_notes: This entry has been omitted from the superseding standard
+    ISO 19107:2019(E)
+  release: "-1"
   _revisions:
     current: ee3e06
     tree:
       ee3e06:
         object:
           id: 103
-          definition: <几何学>没有边界的空间对象。
+          definition: "<几何学>没有边界的空间对象。"
           language_code: zho
           notes:
-            - >-
-              圈用来描述边界组成部分（参见壳、环）。圈没有边界，因为它自身闭合，但它是有界的（即它不具有无限的外延）。例如，圆环或球，没有边界，但却是有界的。
+          - 圈用来描述边界组成部分（参见壳、环）。圈没有边界，因为它自身闭合，但它是有界的（即它不具有无限的外延）。例如，圆环或球，没有边界，但却是有界的。
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19107:2003'
-            link: 'https://www.iso.org/standard/26012.html'
+            ref: ISO 19107:2003
+            link: https://www.iso.org/standard/26012.html
           date_accepted: '2003-05-01T00:00:00.000Z'
           date_amended: '2019-12-02T00:00:00.000Z'
           review_date: '2019-12-02T00:00:00.000Z'
@@ -192,15 +204,14 @@ zho:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2019-12-02T00:00:00.000Z'
-          review_decision_event: 'Publication of documentISO 19107:2019(E)'
-          review_decision_notes: >-
-            This entry has been omitted from the superseding standard ISO
-            19107:2019(E)
-          release: '-1'
+          review_decision_event: Publication of documentISO 19107:2019(E)
+          review_decision_notes: This entry has been omitted from the superseding
+            standard ISO 19107:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: 圈
-              normative_status: null
+          - type: expression
+            designation: 圈
+            normative_status:
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -208,34 +219,39 @@ zho:
           email: glossarist@ribose.com
 dan:
   id: 103
-  definition: om rumligt objekt uden en grænse
-  language_code: dan
+  terms:
+  - type: expression
+    designation: lukket<geometri>
+  definition:
+  - content: om rumligt objekt uden en grænse
   notes:
-    - >-
-      Egenskaben lukket anvendes til at beskrive grænsekomponenter (se rand).
-      Når et objekt er lukket, har det ingen grænse, da det afslutter sig selv,
-      men det er afgrænset (dvs. det har ikke uendelig udbredelse).  En cirkel
-      eller kugle har eksempelvis ingen grænse, men er afgrænset.
+  - content: Egenskaben lukket anvendes til at beskrive grænsekomponenter (se rand).
+      Når et objekt er lukket, har det ingen grænse, da det afslutter sig selv, men
+      det er afgrænset (dvs. det har ikke uendelig udbredelse).  En cirkel eller kugle
+      har eksempelvis ingen grænse, men er afgrænset.
   examples: []
+  language_code: dan
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19107:2003'
-    link: 'https://www.iso.org/standard/26012.html'
-  date_accepted: '2003-05-01T00:00:00.000Z'
-  date_amended: '2019-12-02T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19107:2003
+      link: https://www.iso.org/standard/26012.html
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
+  - type: amended
+    date: '2019-12-02T00:00:00.000Z'
   review_date: '2019-12-02T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2019-12-02T00:00:00.000Z'
-  review_decision_event: 'Publication of documentISO 19107:2019(E)'
-  review_decision_notes: 'This entry has been omitted from the superseding standard ISO 19107:2019(E)'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: lukket<geometri>
-      normative_status: null
+  review_decision_event: Publication of documentISO 19107:2019(E)
+  review_decision_notes: This entry has been omitted from the superseding standard
+    ISO 19107:2019(E)
+  release: "-1"
   _revisions:
     current: 97f7f5
     tree:
@@ -245,18 +261,16 @@ dan:
           definition: om rumligt objekt uden en grænse
           language_code: dan
           notes:
-            - >-
-              Egenskaben lukket anvendes til at beskrive grænsekomponenter (se
-              rand). Når et objekt er lukket, har det ingen grænse, da det
-              afslutter sig selv, men det er afgrænset (dvs. det har ikke
-              uendelig udbredelse).  En cirkel eller kugle har eksempelvis ingen
-              grænse, men er afgrænset.
+          - Egenskaben lukket anvendes til at beskrive grænsekomponenter (se rand).
+            Når et objekt er lukket, har det ingen grænse, da det afslutter sig selv,
+            men det er afgrænset (dvs. det har ikke uendelig udbredelse).  En cirkel
+            eller kugle har eksempelvis ingen grænse, men er afgrænset.
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19107:2003'
-            link: 'https://www.iso.org/standard/26012.html'
+            ref: ISO 19107:2003
+            link: https://www.iso.org/standard/26012.html
           date_accepted: '2003-05-01T00:00:00.000Z'
           date_amended: '2019-12-02T00:00:00.000Z'
           review_date: '2019-12-02T00:00:00.000Z'
@@ -264,15 +278,14 @@ dan:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2019-12-02T00:00:00.000Z'
-          review_decision_event: 'Publication of documentISO 19107:2019(E)'
-          review_decision_notes: >-
-            This entry has been omitted from the superseding standard ISO
-            19107:2019(E)
-          release: '-1'
+          review_decision_event: Publication of documentISO 19107:2019(E)
+          review_decision_notes: This entry has been omitted from the superseding
+            standard ISO 19107:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: lukket<geometri>
-              normative_status: null
+          - type: expression
+            designation: lukket<geometri>
+            normative_status:
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -280,55 +293,58 @@ dan:
           email: glossarist@ribose.com
 fin:
   id: 103
-  definition: 'sijaintiobjekti, jolla ei ole rajausta'
-  language_code: fin
+  terms:
+  - type: expression
+    designation: silmukka <geometria>
+  definition:
+  - content: sijaintiobjekti, jolla ei ole rajausta
   notes:
-    - >-
-      Silmukoita käytetään rajauskomponenttien (katso käsitteet kuori ja piiri)
-      kuvaamiseen. Silmukalla ei ole rajausta, sillä se sulkeutuu itseensä,
-      mutta se on rajattu (eli sen laajuus ei ole ääretön). Esimerkiksi
-      ympyrällä tai pallolla ei ole rajausta, mutta ne ovat rajattuja.
+  - content: Silmukoita käytetään rajauskomponenttien (katso käsitteet kuori ja piiri)
+      kuvaamiseen. Silmukalla ei ole rajausta, sillä se sulkeutuu itseensä, mutta
+      se on rajattu (eli sen laajuus ei ole ääretön). Esimerkiksi ympyrällä tai pallolla
+      ei ole rajausta, mutta ne ovat rajattuja.
   examples: []
+  language_code: fin
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19107:2003'
-    link: 'https://www.iso.org/standard/26012.html'
-  date_accepted: '2003-05-01T00:00:00.000Z'
-  date_amended: '2019-12-02T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19107:2003
+      link: https://www.iso.org/standard/26012.html
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
+  - type: amended
+    date: '2019-12-02T00:00:00.000Z'
   review_date: '2019-12-02T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2019-12-02T00:00:00.000Z'
-  review_decision_event: 'Publication of documentISO 19107:2019(E)'
-  review_decision_notes: 'This entry has been omitted from the superseding standard ISO 19107:2019(E)'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: silmukka <geometria>
-      normative_status: null
+  review_decision_event: Publication of documentISO 19107:2019(E)
+  review_decision_notes: This entry has been omitted from the superseding standard
+    ISO 19107:2019(E)
+  release: "-1"
   _revisions:
     current: 560eb3
     tree:
       560eb3:
         object:
           id: 103
-          definition: 'sijaintiobjekti, jolla ei ole rajausta'
+          definition: sijaintiobjekti, jolla ei ole rajausta
           language_code: fin
           notes:
-            - >-
-              Silmukoita käytetään rajauskomponenttien (katso käsitteet kuori ja
-              piiri) kuvaamiseen. Silmukalla ei ole rajausta, sillä se sulkeutuu
-              itseensä, mutta se on rajattu (eli sen laajuus ei ole ääretön).
-              Esimerkiksi ympyrällä tai pallolla ei ole rajausta, mutta ne ovat
-              rajattuja.
+          - Silmukoita käytetään rajauskomponenttien (katso käsitteet kuori ja piiri)
+            kuvaamiseen. Silmukalla ei ole rajausta, sillä se sulkeutuu itseensä,
+            mutta se on rajattu (eli sen laajuus ei ole ääretön). Esimerkiksi ympyrällä
+            tai pallolla ei ole rajausta, mutta ne ovat rajattuja.
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19107:2003'
-            link: 'https://www.iso.org/standard/26012.html'
+            ref: ISO 19107:2003
+            link: https://www.iso.org/standard/26012.html
           date_accepted: '2003-05-01T00:00:00.000Z'
           date_amended: '2019-12-02T00:00:00.000Z'
           review_date: '2019-12-02T00:00:00.000Z'
@@ -336,15 +352,14 @@ fin:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2019-12-02T00:00:00.000Z'
-          review_decision_event: 'Publication of documentISO 19107:2019(E)'
-          review_decision_notes: >-
-            This entry has been omitted from the superseding standard ISO
-            19107:2019(E)
-          release: '-1'
+          review_decision_event: Publication of documentISO 19107:2019(E)
+          review_decision_notes: This entry has been omitted from the superseding
+            standard ISO 19107:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: silmukka <geometria>
-              normative_status: null
+          - type: expression
+            designation: silmukka <geometria>
+            normative_status:
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -352,29 +367,35 @@ fin:
           email: glossarist@ribose.com
 fra:
   id: 103
-  definition: objet spatial sans frontière
-  language_code: fra
+  terms:
+  - type: expression
+    designation: cycle <géométrie>
+  definition:
+  - content: objet spatial sans frontière
   notes: []
   examples: []
+  language_code: fra
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19107:2003'
-    link: 'https://www.iso.org/standard/26012.html'
-  date_accepted: '2003-05-01T00:00:00.000Z'
-  date_amended: '2019-12-02T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19107:2003
+      link: https://www.iso.org/standard/26012.html
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
+  - type: amended
+    date: '2019-12-02T00:00:00.000Z'
   review_date: '2019-12-02T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2019-12-02T00:00:00.000Z'
-  review_decision_event: 'Publication of documentISO 19107:2019(E)'
-  review_decision_notes: 'This entry has been omitted from the superseding standard ISO 19107:2019(E)'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: cycle <géométrie>
-      normative_status: null
+  review_decision_event: Publication of documentISO 19107:2019(E)
+  review_decision_notes: This entry has been omitted from the superseding standard
+    ISO 19107:2019(E)
+  release: "-1"
   _revisions:
     current: 60d2f3
     tree:
@@ -388,8 +409,8 @@ fra:
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19107:2003'
-            link: 'https://www.iso.org/standard/26012.html'
+            ref: ISO 19107:2003
+            link: https://www.iso.org/standard/26012.html
           date_accepted: '2003-05-01T00:00:00.000Z'
           date_amended: '2019-12-02T00:00:00.000Z'
           review_date: '2019-12-02T00:00:00.000Z'
@@ -397,15 +418,14 @@ fra:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2019-12-02T00:00:00.000Z'
-          review_decision_event: 'Publication of documentISO 19107:2019(E)'
-          review_decision_notes: >-
-            This entry has been omitted from the superseding standard ISO
-            19107:2019(E)
-          release: '-1'
+          review_decision_event: Publication of documentISO 19107:2019(E)
+          review_decision_notes: This entry has been omitted from the superseding
+            standard ISO 19107:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: cycle <géométrie>
-              normative_status: null
+          - type: expression
+            designation: cycle <géométrie>
+            normative_status:
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -413,33 +433,37 @@ fra:
           email: glossarist@ribose.com
 deu:
   id: 103
-  language_code: deu
+  terms:
+  - type: expression
+    designation: Ring <Geometrie>
   notes:
-    - >-
-      Cycles are used to describe boundary components (see shell, ring). A cycle
-      has no boundary because it closes on itself, but it is bounded (i.e., it
-      does not have infinite extent).  A circle or a sphere, for example, has no
+  - content: Cycles are used to describe boundary components (see shell, ring). A
+      cycle has no boundary because it closes on itself, but it is bounded (i.e.,
+      it does not have infinite extent).  A circle or a sphere, for example, has no
       boundary, but is bounded.
   examples: []
+  language_code: deu
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19107:2003'
-    link: 'https://www.iso.org/standard/26012.html'
-  date_accepted: '2003-05-01T00:00:00.000Z'
-  date_amended: '2019-12-02T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19107:2003
+      link: https://www.iso.org/standard/26012.html
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
+  - type: amended
+    date: '2019-12-02T00:00:00.000Z'
   review_date: '2019-12-02T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2019-12-02T00:00:00.000Z'
-  review_decision_event: 'Publication of documentISO 19107:2019(E)'
-  review_decision_notes: 'This entry has been omitted from the superseding standard ISO 19107:2019(E)'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: Ring <Geometrie>
-      normative_status: null
+  review_decision_event: Publication of documentISO 19107:2019(E)
+  review_decision_notes: This entry has been omitted from the superseding standard
+    ISO 19107:2019(E)
+  release: "-1"
   _revisions:
     current: 0e2ece
     tree:
@@ -448,17 +472,16 @@ deu:
           id: 103
           language_code: deu
           notes:
-            - >-
-              Cycles are used to describe boundary components (see shell, ring).
-              A cycle has no boundary because it closes on itself, but it is
-              bounded (i.e., it does not have infinite extent).  A circle or a
-              sphere, for example, has no boundary, but is bounded.
+          - Cycles are used to describe boundary components (see shell, ring). A cycle
+            has no boundary because it closes on itself, but it is bounded (i.e.,
+            it does not have infinite extent).  A circle or a sphere, for example,
+            has no boundary, but is bounded.
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19107:2003'
-            link: 'https://www.iso.org/standard/26012.html'
+            ref: ISO 19107:2003
+            link: https://www.iso.org/standard/26012.html
           date_accepted: '2003-05-01T00:00:00.000Z'
           date_amended: '2019-12-02T00:00:00.000Z'
           review_date: '2019-12-02T00:00:00.000Z'
@@ -466,15 +489,14 @@ deu:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2019-12-02T00:00:00.000Z'
-          review_decision_event: 'Publication of documentISO 19107:2019(E)'
-          review_decision_notes: >-
-            This entry has been omitted from the superseding standard ISO
-            19107:2019(E)
-          release: '-1'
+          review_decision_event: Publication of documentISO 19107:2019(E)
+          review_decision_notes: This entry has been omitted from the superseding
+            standard ISO 19107:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: Ring <Geometrie>
-              normative_status: null
+          - type: expression
+            designation: Ring <Geometrie>
+            normative_status:
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -482,31 +504,36 @@ deu:
           email: glossarist@ribose.com
 jpn:
   id: 103
-  definition: 境界をもたない空間オブジェクト。
-  language_code: jpn
+  terms:
+  - type: expression
+    designation: 輪体
+  definition:
+  - content: 境界をもたない空間オブジェクト。
   notes:
-    - >-
-      輪体は境界の構成要素［殻(shell)及び輪(ring)を参照］を記述するために使用する。輪体は，それ自身の上で閉じているため境界をもたないが，有界である（すなわち，範囲は無限ではない）。例えば，円周又は球面は，境界をもたないが有界である。
+  - content: 輪体は境界の構成要素［殻(shell)及び輪(ring)を参照］を記述するために使用する。輪体は，それ自身の上で閉じているため境界をもたないが，有界である（すなわち，範囲は無限ではない）。例えば，円周又は球面は，境界をもたないが有界である。
   examples: []
+  language_code: jpn
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19107:2003'
-    link: 'https://www.iso.org/standard/26012.html'
-  date_accepted: '2003-05-01T00:00:00.000Z'
-  date_amended: '2019-12-02T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19107:2003
+      link: https://www.iso.org/standard/26012.html
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
+  - type: amended
+    date: '2019-12-02T00:00:00.000Z'
   review_date: '2019-12-02T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2019-12-02T00:00:00.000Z'
-  review_decision_event: 'Publication of documentISO 19107:2019(E)'
-  review_decision_notes: 'This entry has been omitted from the superseding standard ISO 19107:2019(E)'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: 輪体
-      normative_status: null
+  review_decision_event: Publication of documentISO 19107:2019(E)
+  review_decision_notes: This entry has been omitted from the superseding standard
+    ISO 19107:2019(E)
+  release: "-1"
   _revisions:
     current: 2ae00f
     tree:
@@ -516,14 +543,13 @@ jpn:
           definition: 境界をもたない空間オブジェクト。
           language_code: jpn
           notes:
-            - >-
-              輪体は境界の構成要素［殻(shell)及び輪(ring)を参照］を記述するために使用する。輪体は，それ自身の上で閉じているため境界をもたないが，有界である（すなわち，範囲は無限ではない）。例えば，円周又は球面は，境界をもたないが有界である。
+          - 輪体は境界の構成要素［殻(shell)及び輪(ring)を参照］を記述するために使用する。輪体は，それ自身の上で閉じているため境界をもたないが，有界である（すなわち，範囲は無限ではない）。例えば，円周又は球面は，境界をもたないが有界である。
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19107:2003'
-            link: 'https://www.iso.org/standard/26012.html'
+            ref: ISO 19107:2003
+            link: https://www.iso.org/standard/26012.html
           date_accepted: '2003-05-01T00:00:00.000Z'
           date_amended: '2019-12-02T00:00:00.000Z'
           review_date: '2019-12-02T00:00:00.000Z'
@@ -531,15 +557,14 @@ jpn:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2019-12-02T00:00:00.000Z'
-          review_decision_event: 'Publication of documentISO 19107:2019(E)'
-          review_decision_notes: >-
-            This entry has been omitted from the superseding standard ISO
-            19107:2019(E)
-          release: '-1'
+          review_decision_event: Publication of documentISO 19107:2019(E)
+          review_decision_notes: This entry has been omitted from the superseding
+            standard ISO 19107:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: 輪体
-              normative_status: null
+          - type: expression
+            designation: 輪体
+            normative_status:
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -547,32 +572,37 @@ jpn:
           email: glossarist@ribose.com
 kor:
   id: 103
-  definition: 경계가 없는 공간 객체
-  language_code: kor
+  terms:
+  - type: expression
+    designation: 순환<기하>
+  definition:
+  - content: 경계가 없는 공간 객체
   notes:
-    - >-
-      순환은 경계 컴포넌트(외면, 링)의 기술에 사용된다. 순환은 스스로 완결되어 있지만 묶여 있기 때문에 경계가 없다. 예를 들어 원이나
-      구는 경계가 없지만 묶여 있다.
+  - content: 순환은 경계 컴포넌트(외면, 링)의 기술에 사용된다. 순환은 스스로 완결되어 있지만 묶여 있기 때문에 경계가 없다. 예를 들어
+      원이나 구는 경계가 없지만 묶여 있다.
   examples: []
+  language_code: kor
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19107:2003'
-    link: 'https://www.iso.org/standard/26012.html'
-  date_accepted: '2003-05-01T00:00:00.000Z'
-  date_amended: '2019-12-02T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19107:2003
+      link: https://www.iso.org/standard/26012.html
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
+  - type: amended
+    date: '2019-12-02T00:00:00.000Z'
   review_date: '2019-12-02T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2019-12-02T00:00:00.000Z'
-  review_decision_event: 'Publication of documentISO 19107:2019(E)'
-  review_decision_notes: 'This entry has been omitted from the superseding standard ISO 19107:2019(E)'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: 순환<기하>
-      normative_status: null
+  review_decision_event: Publication of documentISO 19107:2019(E)
+  review_decision_notes: This entry has been omitted from the superseding standard
+    ISO 19107:2019(E)
+  release: "-1"
   _revisions:
     current: 92173b
     tree:
@@ -582,15 +612,14 @@ kor:
           definition: 경계가 없는 공간 객체
           language_code: kor
           notes:
-            - >-
-              순환은 경계 컴포넌트(외면, 링)의 기술에 사용된다. 순환은 스스로 완결되어 있지만 묶여 있기 때문에 경계가 없다.
-              예를 들어 원이나 구는 경계가 없지만 묶여 있다.
+          - 순환은 경계 컴포넌트(외면, 링)의 기술에 사용된다. 순환은 스스로 완결되어 있지만 묶여 있기 때문에 경계가 없다. 예를 들어
+            원이나 구는 경계가 없지만 묶여 있다.
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19107:2003'
-            link: 'https://www.iso.org/standard/26012.html'
+            ref: ISO 19107:2003
+            link: https://www.iso.org/standard/26012.html
           date_accepted: '2003-05-01T00:00:00.000Z'
           date_amended: '2019-12-02T00:00:00.000Z'
           review_date: '2019-12-02T00:00:00.000Z'
@@ -598,15 +627,14 @@ kor:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2019-12-02T00:00:00.000Z'
-          review_decision_event: 'Publication of documentISO 19107:2019(E)'
-          review_decision_notes: >-
-            This entry has been omitted from the superseding standard ISO
-            19107:2019(E)
-          release: '-1'
+          review_decision_event: Publication of documentISO 19107:2019(E)
+          review_decision_notes: This entry has been omitted from the superseding
+            standard ISO 19107:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: 순환<기하>
-              normative_status: null
+          - type: expression
+            designation: 순환<기하>
+            normative_status:
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -614,52 +642,56 @@ kor:
           email: glossarist@ribose.com
 pol:
   id: 103
-  definition: <geometria> obiekt przestrzenny bez granicy
-  language_code: pol
+  terms:
+  - type: expression
+    designation: cykl
+  definition:
+  - content: "<geometria> obiekt przestrzenny bez granicy"
   notes:
-    - >-
-      Cykle są wykorzystywane do opisu składników granic (patrz powłoka,
-      pierścień). Cykl nie ma granicy, ponieważ zamyka się sam na sobie, jest
-      jednak ograniczony (to znaczy nie ma nieskończonego zasięgu). Na przykład,
-      okrąg i sfera nie mają granicy, lecz są ograniczone.
+  - content: Cykle są wykorzystywane do opisu składników granic (patrz powłoka, pierścień).
+      Cykl nie ma granicy, ponieważ zamyka się sam na sobie, jest jednak ograniczony
+      (to znaczy nie ma nieskończonego zasięgu). Na przykład, okrąg i sfera nie mają
+      granicy, lecz są ograniczone.
   examples: []
+  language_code: pol
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19107:2003'
-    link: 'https://www.iso.org/standard/26012.html'
-  date_accepted: '2003-05-01T00:00:00.000Z'
-  date_amended: '2019-12-02T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19107:2003
+      link: https://www.iso.org/standard/26012.html
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
+  - type: amended
+    date: '2019-12-02T00:00:00.000Z'
   review_date: '2019-12-02T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2019-12-02T00:00:00.000Z'
-  review_decision_event: 'Publication of documentISO 19107:2019(E)'
-  review_decision_notes: 'This entry has been omitted from the superseding standard ISO 19107:2019(E)'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: cykl
-      normative_status: null
+  review_decision_event: Publication of documentISO 19107:2019(E)
+  review_decision_notes: This entry has been omitted from the superseding standard
+    ISO 19107:2019(E)
+  release: "-1"
   _revisions:
     current: eef809
     tree:
       eef809:
         object:
           id: 103
-          definition: <geometria> obiekt przestrzenny bez granicy
+          definition: "<geometria> obiekt przestrzenny bez granicy"
           language_code: pol
           notes:
-            - >-
-              Cykle są wykorzystywane do opisu składników granic (patrz powłoka,
-              pierścień). Cykl nie ma granicy, ponieważ zamyka się sam na sobie,
-              jest jednak ograniczony (to znaczy nie ma nieskończonego zasięgu).
-              Na przykład, okrąg i sfera nie mają granicy, lecz są ograniczone.
+          - Cykle są wykorzystywane do opisu składników granic (patrz powłoka, pierścień).
+            Cykl nie ma granicy, ponieważ zamyka się sam na sobie, jest jednak ograniczony
+            (to znaczy nie ma nieskończonego zasięgu). Na przykład, okrąg i sfera
+            nie mają granicy, lecz są ograniczone.
           examples: []
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19107:2003'
-            link: 'https://www.iso.org/standard/26012.html'
+            ref: ISO 19107:2003
+            link: https://www.iso.org/standard/26012.html
           date_accepted: '2003-05-01T00:00:00.000Z'
           date_amended: '2019-12-02T00:00:00.000Z'
           review_date: '2019-12-02T00:00:00.000Z'
@@ -667,15 +699,14 @@ pol:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2019-12-02T00:00:00.000Z'
-          review_decision_event: 'Publication of documentISO 19107:2019(E)'
-          review_decision_notes: >-
-            This entry has been omitted from the superseding standard ISO
-            19107:2019(E)
-          release: '-1'
+          review_decision_event: Publication of documentISO 19107:2019(E)
+          review_decision_notes: This entry has been omitted from the superseding
+            standard ISO 19107:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: cykl
-              normative_status: null
+          - type: expression
+            designation: cykl
+            normative_status:
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -683,55 +714,58 @@ pol:
           email: glossarist@ribose.com
 rus:
   id: 103
-  definition: 'пространственный объект, не имеющий границы'
-  language_code: rus
+  terms:
+  - type: expression
+    designation: цикл <геометрия>
+  definition:
+  - content: пространственный объект, не имеющий границы
   notes:
-    - >-
-      Циклы используют для описания граничных компонентов (см.: оболочка,
-      кольцо). Цикл не имеет границы, поскольку замыкается на себе, тем не
-      менее, он ограничен (т.е.  не бесконечен в пространстве). Например,
-      окружность или сфера не имеют границ, но они ограничены
+  - content: 'Циклы используют для описания граничных компонентов (см.: оболочка,
+      кольцо). Цикл не имеет границы, поскольку замыкается на себе, тем не менее,
+      он ограничен (т.е.  не бесконечен в пространстве). Например, окружность или
+      сфера не имеют границ, но они ограничены'
   examples: []
+  language_code: rus
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19107:2003'
-    link: 'https://www.iso.org/standard/26012.html'
-  date_accepted: '2003-05-01T00:00:00.000Z'
-  date_amended: '2019-12-02T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19107:2003
+      link: https://www.iso.org/standard/26012.html
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
+  - type: amended
+    date: '2019-12-02T00:00:00.000Z'
   review_date: '2019-12-02T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2019-12-02T00:00:00.000Z'
-  review_decision_event: 'Publication of documentISO 19107:2019(E)'
-  review_decision_notes: 'This entry has been omitted from the superseding standard ISO 19107:2019(E)'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: цикл <геометрия>
-      normative_status: null
+  review_decision_event: Publication of documentISO 19107:2019(E)
+  review_decision_notes: This entry has been omitted from the superseding standard
+    ISO 19107:2019(E)
+  release: "-1"
   _revisions:
     current: c376c9
     tree:
       c376c9:
         object:
           id: 103
-          definition: 'пространственный объект, не имеющий границы'
+          definition: пространственный объект, не имеющий границы
           language_code: rus
           notes:
-            - >-
-              Циклы используют для описания граничных компонентов (см.:
-              оболочка, кольцо). Цикл не имеет границы, поскольку замыкается на
-              себе, тем не менее, он ограничен (т.е.  не бесконечен в
-              пространстве). Например, окружность или сфера не имеют границ, но
-              они ограничены
+          - 'Циклы используют для описания граничных компонентов (см.: оболочка, кольцо).
+            Цикл не имеет границы, поскольку замыкается на себе, тем не менее, он
+            ограничен (т.е.  не бесконечен в пространстве). Например, окружность или
+            сфера не имеют границ, но они ограничены'
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19107:2003'
-            link: 'https://www.iso.org/standard/26012.html'
+            ref: ISO 19107:2003
+            link: https://www.iso.org/standard/26012.html
           date_accepted: '2003-05-01T00:00:00.000Z'
           date_amended: '2019-12-02T00:00:00.000Z'
           review_date: '2019-12-02T00:00:00.000Z'
@@ -739,15 +773,14 @@ rus:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2019-12-02T00:00:00.000Z'
-          review_decision_event: 'Publication of documentISO 19107:2019(E)'
-          review_decision_notes: >-
-            This entry has been omitted from the superseding standard ISO
-            19107:2019(E)
-          release: '-1'
+          review_decision_event: Publication of documentISO 19107:2019(E)
+          review_decision_notes: This entry has been omitted from the superseding
+            standard ISO 19107:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: цикл <геометрия>
-              normative_status: null
+          - type: expression
+            designation: цикл <геометрия>
+            normative_status:
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -755,35 +788,39 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 103
-  definition: objeto espacial sin frontera
-  language_code: spa
+  terms:
+  - type: expression
+    designation: ciclo <geometría>
+  definition:
+  - content: objeto espacial sin frontera
   notes:
-    - >-
-      Los ciclos se usan para describir componentes de los límites (ver
-      definición de armazón, anillo). Un ciclo no tiene límite porque cierra
-      consigo mismo, aunque está acotado (es decir, no tiene una extensión
-      infinita). Un círculo o una esfera, por ejemplo, no tienen límite, pero
-      están acotados.
+  - content: Los ciclos se usan para describir componentes de los límites (ver definición
+      de armazón, anillo). Un ciclo no tiene límite porque cierra consigo mismo, aunque
+      está acotado (es decir, no tiene una extensión infinita). Un círculo o una esfera,
+      por ejemplo, no tienen límite, pero están acotados.
   examples: []
+  language_code: spa
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19107:2003'
-    link: 'https://www.iso.org/standard/26012.html'
-  date_accepted: '2003-05-01T00:00:00.000Z'
-  date_amended: '2019-12-02T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19107:2003
+      link: https://www.iso.org/standard/26012.html
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
+  - type: amended
+    date: '2019-12-02T00:00:00.000Z'
   review_date: '2019-12-02T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2019-12-02T00:00:00.000Z'
-  review_decision_event: 'Publication of documentISO 19107:2019(E)'
-  review_decision_notes: 'This entry has been omitted from the superseding standard ISO 19107:2019(E)'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: ciclo <geometría>
-      normative_status: null
+  review_decision_event: Publication of documentISO 19107:2019(E)
+  review_decision_notes: This entry has been omitted from the superseding standard
+    ISO 19107:2019(E)
+  release: "-1"
   _revisions:
     current: 83b039
     tree:
@@ -793,18 +830,16 @@ spa:
           definition: objeto espacial sin frontera
           language_code: spa
           notes:
-            - >-
-              Los ciclos se usan para describir componentes de los límites (ver
-              definición de armazón, anillo). Un ciclo no tiene límite porque
-              cierra consigo mismo, aunque está acotado (es decir, no tiene una
-              extensión infinita). Un círculo o una esfera, por ejemplo, no
-              tienen límite, pero están acotados.
+          - Los ciclos se usan para describir componentes de los límites (ver definición
+            de armazón, anillo). Un ciclo no tiene límite porque cierra consigo mismo,
+            aunque está acotado (es decir, no tiene una extensión infinita). Un círculo
+            o una esfera, por ejemplo, no tienen límite, pero están acotados.
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19107:2003'
-            link: 'https://www.iso.org/standard/26012.html'
+            ref: ISO 19107:2003
+            link: https://www.iso.org/standard/26012.html
           date_accepted: '2003-05-01T00:00:00.000Z'
           date_amended: '2019-12-02T00:00:00.000Z'
           review_date: '2019-12-02T00:00:00.000Z'
@@ -812,15 +847,14 @@ spa:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2019-12-02T00:00:00.000Z'
-          review_decision_event: 'Publication of documentISO 19107:2019(E)'
-          review_decision_notes: >-
-            This entry has been omitted from the superseding standard ISO
-            19107:2019(E)
-          release: '-1'
+          review_decision_event: Publication of documentISO 19107:2019(E)
+          review_decision_notes: This entry has been omitted from the superseding
+            standard ISO 19107:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: ciclo <geometría>
-              normative_status: null
+          - type: expression
+            designation: ciclo <geometría>
+            normative_status:
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:
@@ -828,31 +862,37 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 103
-  definition: rumsligt objekt med ändlig utsträckning men utan avgränsning
+  terms:
+  - type: expression
+    designation: cykliskt objekt
+  definition:
+  - content: rumsligt objekt med ändlig utsträckning men utan avgränsning
+  notes:
+  - content: Begränsningsytan hos ett klot är ett cykliskt objekt.
+  examples: []
   country_code: swe
   language_code: swe
-  notes:
-    - Begränsningsytan hos ett klot är ett cykliskt objekt.
-  examples: []
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19107:2003'
-    link: 'https://www.iso.org/standard/26012.html'
-  date_accepted: '2003-05-01T00:00:00.000Z'
-  date_amended: '2019-12-02T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19107:2003
+      link: https://www.iso.org/standard/26012.html
+  dates:
+  - type: accepted
+    date: '2003-05-01T00:00:00.000Z'
+  - type: amended
+    date: '2019-12-02T00:00:00.000Z'
   review_date: '2019-12-02T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2019-12-02T00:00:00.000Z'
-  review_decision_event: 'Publication of documentISO 19107:2019(E)'
-  review_decision_notes: 'This entry has been omitted from the superseding standard ISO 19107:2019(E)'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: cykliskt objekt
-      normative_status: null
+  review_decision_event: Publication of documentISO 19107:2019(E)
+  review_decision_notes: This entry has been omitted from the superseding standard
+    ISO 19107:2019(E)
+  release: "-1"
   _revisions:
     current: 6f129e
     tree:
@@ -863,13 +903,13 @@ swe:
           country_code: swe
           language_code: swe
           notes:
-            - Begränsningsytan hos ett klot är ett cykliskt objekt.
+          - Begränsningsytan hos ett klot är ett cykliskt objekt.
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19107:2003'
-            link: 'https://www.iso.org/standard/26012.html'
+            ref: ISO 19107:2003
+            link: https://www.iso.org/standard/26012.html
           date_accepted: '2003-05-01T00:00:00.000Z'
           date_amended: '2019-12-02T00:00:00.000Z'
           review_date: '2019-12-02T00:00:00.000Z'
@@ -877,15 +917,14 @@ swe:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2019-12-02T00:00:00.000Z'
-          review_decision_event: 'Publication of documentISO 19107:2019(E)'
-          review_decision_notes: >-
-            This entry has been omitted from the superseding standard ISO
-            19107:2019(E)
-          release: '-1'
+          review_decision_event: Publication of documentISO 19107:2019(E)
+          review_decision_notes: This entry has been omitted from the superseding
+            standard ISO 19107:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: cykliskt objekt
-              normative_status: null
+          - type: expression
+            designation: cykliskt objekt
+            normative_status:
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
         author:

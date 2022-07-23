@@ -1,59 +1,59 @@
-term: linear segment
+---
 termid: 1173
+term: linear segment
 eng:
   id: 1173
-  definition: >-
-    part of a linear feature that is distinguished from the remainder of that
-    feature by a subset of attributes, each having a single value for the entire
-    part
-  language_code: eng
-  notes:
-    - A linear segment is a one-dimensional object without explicit geometry.
-    - >-
-      The implicit geometry of the linear segment can be derived from the
-      geometry of the parent feature.
-  examples: []
-  entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19148:2012'
-    clause: '4.13'
-    link: 'https://www.iso.org/standard/32566.html'
-  date_accepted: '2012-02-15T00:00:00.000Z'
-  release: '3'
   terms:
-    - type: expression
-      designation: linear segment
-      normative_status: preferred
+  - type: expression
+    normative_status: preferred
+    designation: linear segment
+  definition:
+  - content: part of a linear feature that is distinguished from the remainder of
+      that feature by a subset of attributes, each having a single value for the entire
+      part
+  notes:
+  - content: A linear segment is a one-dimensional object without explicit geometry.
+  - content: The implicit geometry of the linear segment can be derived from the geometry
+      of the parent feature.
+  examples: []
+  language_code: eng
+  entry_status: valid
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19148:2012
+      clause: '4.13'
+      link: https://www.iso.org/standard/32566.html
+  dates:
+  - type: accepted
+    date: '2012-02-15T00:00:00.000Z'
+  release: '3'
   _revisions:
     current: 45806d
     tree:
       45806d:
         object:
           id: 1173
-          definition: >-
-            part of a linear feature that is distinguished from the remainder of
-            that feature by a subset of attributes, each having a single value
+          definition: part of a linear feature that is distinguished from the remainder
+            of that feature by a subset of attributes, each having a single value
             for the entire part
           language_code: eng
           notes:
-            - >-
-              A linear segment is a one-dimensional object without explicit
-              geometry.
-            - >-
-              The implicit geometry of the linear segment can be derived from
-              the geometry of the parent feature.
+          - A linear segment is a one-dimensional object without explicit geometry.
+          - The implicit geometry of the linear segment can be derived from the geometry
+            of the parent feature.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19148:2012'
+            ref: ISO 19148:2012
             clause: '4.13'
-            link: 'https://www.iso.org/standard/32566.html'
+            link: https://www.iso.org/standard/32566.html
           date_accepted: '2012-02-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: linear segment
-              normative_status: preferred
+          - type: expression
+            designation: linear segment
+            normative_status: preferred
         parents: []
         timeCreated: '2012-02-15T00:00:00.000Z'
         author:
@@ -61,25 +61,29 @@ eng:
           email: glossarist@ribose.com
 kor:
   id: 1173
-  definition: 각각이 전체의 일부에 대해 단일값을 가진 하위 속성들이 지형지물의 나머지 부분과 차별화된 선형 지형지물의 일부
-  language_code: kor
-  notes:
-    - A linear segment is a one-dimensional object without explicit geometry.
-    - >-
-      The implicit geometry of the linear segment can be derived from the
-      geometry of the parent feature.
-  examples: []
-  entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19148:2012'
-    clause: '4.13'
-    link: 'https://www.iso.org/standard/32566.html'
-  date_accepted: '2012-02-15T00:00:00.000Z'
-  release: '3'
   terms:
-    - type: expression
-      designation: 선형 세그먼트
-      normative_status: preferred
+  - type: expression
+    normative_status: preferred
+    designation: 선형 세그먼트
+  definition:
+  - content: 각각이 전체의 일부에 대해 단일값을 가진 하위 속성들이 지형지물의 나머지 부분과 차별화된 선형 지형지물의 일부
+  notes:
+  - content: A linear segment is a one-dimensional object without explicit geometry.
+  - content: The implicit geometry of the linear segment can be derived from the geometry
+      of the parent feature.
+  examples: []
+  language_code: kor
+  entry_status: valid
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19148:2012
+      clause: '4.13'
+      link: https://www.iso.org/standard/32566.html
+  dates:
+  - type: accepted
+    date: '2012-02-15T00:00:00.000Z'
+  release: '3'
   _revisions:
     current: 8ed4d3
     tree:
@@ -89,24 +93,21 @@ kor:
           definition: 각각이 전체의 일부에 대해 단일값을 가진 하위 속성들이 지형지물의 나머지 부분과 차별화된 선형 지형지물의 일부
           language_code: kor
           notes:
-            - >-
-              A linear segment is a one-dimensional object without explicit
-              geometry.
-            - >-
-              The implicit geometry of the linear segment can be derived from
-              the geometry of the parent feature.
+          - A linear segment is a one-dimensional object without explicit geometry.
+          - The implicit geometry of the linear segment can be derived from the geometry
+            of the parent feature.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19148:2012'
+            ref: ISO 19148:2012
             clause: '4.13'
-            link: 'https://www.iso.org/standard/32566.html'
+            link: https://www.iso.org/standard/32566.html
           date_accepted: '2012-02-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: 선형 세그먼트
-              normative_status: preferred
+          - type: expression
+            designation: 선형 세그먼트
+            normative_status: preferred
         parents: []
         timeCreated: '2012-02-15T00:00:00.000Z'
         author:
@@ -114,60 +115,61 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 1173
-  definition: >-
-    часть линейного объекта, которая отличается от остальной части этого объекта
-    подмножеством атрибутов, каждый из которых имеет отдельное значение для всей
-    этой части
-  language_code: rus
-  notes:
-    - Линейный сегмент представляет собой одномерный объект без чёткой геометрии
-    - >-
-      Точную  геометрию линейного сегмента можно получить из геометрии
-      родительского (исходного) объекта
-  examples: []
-  entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19148:2012'
-    clause: '4.13'
-    link: 'https://www.iso.org/standard/32566.html'
-  lineage_source: 'перевод ИСО 19148:2012'
-  date_accepted: '2012-02-15T00:00:00.000Z'
-  release: '3'
   terms:
-    - type: expression
-      designation: линейный сегмент
-      normative_status: preferred
+  - type: expression
+    normative_status: preferred
+    designation: линейный сегмент
+  definition:
+  - content: часть линейного объекта, которая отличается от остальной части этого
+      объекта подмножеством атрибутов, каждый из которых имеет отдельное значение
+      для всей этой части
+  notes:
+  - content: Линейный сегмент представляет собой одномерный объект без чёткой геометрии
+  - content: Точную  геометрию линейного сегмента можно получить из геометрии родительского
+      (исходного) объекта
+  examples: []
+  language_code: rus
+  entry_status: valid
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19148:2012
+      clause: '4.13'
+      link: https://www.iso.org/standard/32566.html
+  - type: lineage
+    origin:
+      ref: перевод ИСО 19148:2012
+  dates:
+  - type: accepted
+    date: '2012-02-15T00:00:00.000Z'
+  release: '3'
   _revisions:
     current: bc3b32
     tree:
       bc3b32:
         object:
           id: 1173
-          definition: >-
-            часть линейного объекта, которая отличается от остальной части этого
-            объекта подмножеством атрибутов, каждый из которых имеет отдельное
+          definition: часть линейного объекта, которая отличается от остальной части
+            этого объекта подмножеством атрибутов, каждый из которых имеет отдельное
             значение для всей этой части
           language_code: rus
           notes:
-            - >-
-              Линейный сегмент представляет собой одномерный объект без чёткой
-              геометрии
-            - >-
-              Точную  геометрию линейного сегмента можно получить из геометрии
-              родительского (исходного) объекта
+          - Линейный сегмент представляет собой одномерный объект без чёткой геометрии
+          - Точную  геометрию линейного сегмента можно получить из геометрии родительского
+            (исходного) объекта
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19148:2012'
+            ref: ISO 19148:2012
             clause: '4.13'
-            link: 'https://www.iso.org/standard/32566.html'
-          lineage_source: 'перевод ИСО 19148:2012'
+            link: https://www.iso.org/standard/32566.html
+          lineage_source: перевод ИСО 19148:2012
           date_accepted: '2012-02-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: линейный сегмент
-              normative_status: preferred
+          - type: expression
+            designation: линейный сегмент
+            normative_status: preferred
         parents: []
         timeCreated: '2012-02-15T00:00:00.000Z'
         author:
@@ -175,58 +177,57 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 1173
-  definition: >-
-    parte de un fenómeno lineal que se distingue del resto de ese fenómeno por
-    un subconjunto de atributos, teniendo cada uno un único valor para la parte
-    completa
-  language_code: spa
-  notes:
-    - Un segmento lineal es un objeto unidimensional sin geometría explícita
-    - >-
-      La geometría implícita de un segmento lineal puede derivarse de la
-      geometría del fenómeno padre
-  examples: []
-  entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19148:2012'
-    clause: '4.13'
-    link: 'https://www.iso.org/standard/32566.html'
-  date_accepted: '2012-02-15T00:00:00.000Z'
-  release: '3'
   terms:
-    - type: expression
-      designation: segmento lineal
-      normative_status: preferred
+  - type: expression
+    normative_status: preferred
+    designation: segmento lineal
+  definition:
+  - content: parte de un fenómeno lineal que se distingue del resto de ese fenómeno
+      por un subconjunto de atributos, teniendo cada uno un único valor para la parte
+      completa
+  notes:
+  - content: Un segmento lineal es un objeto unidimensional sin geometría explícita
+  - content: La geometría implícita de un segmento lineal puede derivarse de la geometría
+      del fenómeno padre
+  examples: []
+  language_code: spa
+  entry_status: valid
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19148:2012
+      clause: '4.13'
+      link: https://www.iso.org/standard/32566.html
+  dates:
+  - type: accepted
+    date: '2012-02-15T00:00:00.000Z'
+  release: '3'
   _revisions:
     current: 04a16d
     tree:
       04a16d:
         object:
           id: 1173
-          definition: >-
-            parte de un fenómeno lineal que se distingue del resto de ese
-            fenómeno por un subconjunto de atributos, teniendo cada uno un único
-            valor para la parte completa
+          definition: parte de un fenómeno lineal que se distingue del resto de ese
+            fenómeno por un subconjunto de atributos, teniendo cada uno un único valor
+            para la parte completa
           language_code: spa
           notes:
-            - >-
-              Un segmento lineal es un objeto unidimensional sin geometría
-              explícita
-            - >-
-              La geometría implícita de un segmento lineal puede derivarse de la
-              geometría del fenómeno padre
+          - Un segmento lineal es un objeto unidimensional sin geometría explícita
+          - La geometría implícita de un segmento lineal puede derivarse de la geometría
+            del fenómeno padre
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19148:2012'
+            ref: ISO 19148:2012
             clause: '4.13'
-            link: 'https://www.iso.org/standard/32566.html'
+            link: https://www.iso.org/standard/32566.html
           date_accepted: '2012-02-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: segmento lineal
-              normative_status: preferred
+          - type: expression
+            designation: segmento lineal
+            normative_status: preferred
         parents: []
         timeCreated: '2012-02-15T00:00:00.000Z'
         author:
@@ -234,61 +235,62 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 1173
-  definition: >-
-    del av ett linjeobjekt som kan särskiljas från resten av linjeobjektet genom
-    att vart och ett av ett antal attribut har ett enda värde för den delen
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: linjeobjektsegment
+  definition:
+  - content: del av ett linjeobjekt som kan särskiljas från resten av linjeobjektet
+      genom att vart och ett av ett antal attribut har ett enda värde för den delen
+  notes:
+  - content: A linear segment is a one-dimensional object without explicit geometry.
+  - content: The implicit geometry of the linear segment can be derived from the geometry
+      of the parent feature.
+  examples: []
   country_code: swe
   language_code: swe
-  notes:
-    - A linear segment is a one-dimensional object without explicit geometry.
-    - >-
-      The implicit geometry of the linear segment can be derived from the
-      geometry of the parent feature.
-  examples: []
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19148:2012'
-    clause: '4.13'
-    link: 'https://www.iso.org/standard/32566.html'
-  lineage_source: (Type reference to national language document)
-  date_accepted: '2012-02-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19148:2012
+      clause: '4.13'
+      link: https://www.iso.org/standard/32566.html
+  - type: lineage
+    origin:
+      ref: "(Type reference to national language document)"
+  dates:
+  - type: accepted
+    date: '2012-02-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: linjeobjektsegment
-      normative_status: preferred
   _revisions:
     current: 98baee
     tree:
       98baee:
         object:
           id: 1173
-          definition: >-
-            del av ett linjeobjekt som kan särskiljas från resten av
-            linjeobjektet genom att vart och ett av ett antal attribut har ett
-            enda värde för den delen
+          definition: del av ett linjeobjekt som kan särskiljas från resten av linjeobjektet
+            genom att vart och ett av ett antal attribut har ett enda värde för den
+            delen
           country_code: swe
           language_code: swe
           notes:
-            - >-
-              A linear segment is a one-dimensional object without explicit
-              geometry.
-            - >-
-              The implicit geometry of the linear segment can be derived from
-              the geometry of the parent feature.
+          - A linear segment is a one-dimensional object without explicit geometry.
+          - The implicit geometry of the linear segment can be derived from the geometry
+            of the parent feature.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19148:2012'
+            ref: ISO 19148:2012
             clause: '4.13'
-            link: 'https://www.iso.org/standard/32566.html'
-          lineage_source: (Type reference to national language document)
+            link: https://www.iso.org/standard/32566.html
+          lineage_source: "(Type reference to national language document)"
           date_accepted: '2012-02-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: linjeobjektsegment
-              normative_status: preferred
+          - type: expression
+            designation: linjeobjektsegment
+            normative_status: preferred
         parents: []
         timeCreated: '2012-02-15T00:00:00.000Z'
         author:

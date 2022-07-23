@@ -1,33 +1,42 @@
-term: data quality date
+---
 termid: 112
+term: data quality date
 eng:
   id: 112
-  definition: date or range of dates on which a data quality measure is applied
-  language_code: eng
+  terms:
+  - type: expression
+    designation: data quality date
+  definition:
+  - content: date or range of dates on which a data quality measure is applied
   notes: []
   examples: []
+  language_code: eng
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19113:2002'
-    clause: '4.4'
-    link: 'https://www.iso.org/standard/26018.html'
-  lineage_source: ''
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19113:2002
+      clause: '4.4'
+      link: https://www.iso.org/standard/26018.html
+  - type: lineage
+    origin:
+      ref: ''
   lineage_source_similarity: 0
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2013-12-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2013-12-15T00:00:00.000Z'
   review_date: '2013-12-15T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2013-12-15T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19157:2013'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19157:2013).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: data quality date
-      normative_status: null
+  review_decision_event: Publication of ISO 19157:2013
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19157:2013).
+  release: "-1"
   _revisions:
     current: 69122f
     tree:
@@ -41,9 +50,9 @@ eng:
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19113:2002'
+            ref: ISO 19113:2002
             clause: '4.4'
-            link: 'https://www.iso.org/standard/26018.html'
+            link: https://www.iso.org/standard/26018.html
           lineage_source: ''
           lineage_source_similarity: 0
           date_accepted: '2002-12-01T00:00:00.000Z'
@@ -53,15 +62,14 @@ eng:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2013-12-15T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19157:2013'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19157:2013
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19157:2013).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: data quality date
-              normative_status: null
+          - type: expression
+            designation: data quality date
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -69,30 +77,36 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 112
-  definition: التاريخ أو النطاق الزمني الذي طبق فيه قياس جودة البيانات
-  language_code: ara
+  terms:
+  - type: expression
+    designation: تاريخ جودة البيانات
+  definition:
+  - content: التاريخ أو النطاق الزمني الذي طبق فيه قياس جودة البيانات
   notes: []
   examples: []
+  language_code: ara
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19113:2002'
-    clause: '4.4'
-    link: 'https://www.iso.org/standard/26018.html'
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2013-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19113:2002
+      clause: '4.4'
+      link: https://www.iso.org/standard/26018.html
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2013-12-15T00:00:00.000Z'
   review_date: '2013-12-15T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2013-12-15T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19157:2013'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19157:2013).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: تاريخ جودة البيانات
-      normative_status: null
+  review_decision_event: Publication of ISO 19157:2013
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19157:2013).
+  release: "-1"
   _revisions:
     current: ccf827
     tree:
@@ -106,9 +120,9 @@ ara:
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19113:2002'
+            ref: ISO 19113:2002
             clause: '4.4'
-            link: 'https://www.iso.org/standard/26018.html'
+            link: https://www.iso.org/standard/26018.html
           date_accepted: '2002-12-01T00:00:00.000Z'
           date_amended: '2013-12-15T00:00:00.000Z'
           review_date: '2013-12-15T00:00:00.000Z'
@@ -116,15 +130,14 @@ ara:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2013-12-15T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19157:2013'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19157:2013
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19157:2013).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: تاريخ جودة البيانات
-              normative_status: null
+          - type: expression
+            designation: تاريخ جودة البيانات
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -132,31 +145,39 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 112
-  definition: 衡量数据质量的日期或日期范围。
-  language_code: zho
+  terms:
+  - type: expression
+    designation: 数据质量日期
+  definition:
+  - content: 衡量数据质量的日期或日期范围。
   notes: []
   examples: []
+  language_code: zho
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19113:2002'
-    clause: '4.4'
-    link: 'https://www.iso.org/standard/26018.html'
-  lineage_source: ''
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2013-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19113:2002
+      clause: '4.4'
+      link: https://www.iso.org/standard/26018.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2013-12-15T00:00:00.000Z'
   review_date: '2013-12-15T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2013-12-15T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19157:2013'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19157:2013).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: 数据质量日期
-      normative_status: null
+  review_decision_event: Publication of ISO 19157:2013
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19157:2013).
+  release: "-1"
   _revisions:
     current: fca538
     tree:
@@ -170,9 +191,9 @@ zho:
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19113:2002'
+            ref: ISO 19113:2002
             clause: '4.4'
-            link: 'https://www.iso.org/standard/26018.html'
+            link: https://www.iso.org/standard/26018.html
           lineage_source: ''
           date_accepted: '2002-12-01T00:00:00.000Z'
           date_amended: '2013-12-15T00:00:00.000Z'
@@ -181,15 +202,14 @@ zho:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2013-12-15T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19157:2013'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19157:2013
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19157:2013).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: 数据质量日期
-              normative_status: null
+          - type: expression
+            designation: 数据质量日期
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -197,31 +217,39 @@ zho:
           email: glossarist@ribose.com
 dan:
   id: 112
-  definition: dato eller periode hvor et mål for datakvalitet foretages
-  language_code: dan
+  terms:
+  - type: expression
+    designation: datakvalitet, dato for
+  definition:
+  - content: dato eller periode hvor et mål for datakvalitet foretages
   notes: []
   examples: []
+  language_code: dan
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19113:2002'
-    clause: '4.4'
-    link: 'https://www.iso.org/standard/26018.html'
-  lineage_source: ''
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2013-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19113:2002
+      clause: '4.4'
+      link: https://www.iso.org/standard/26018.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2013-12-15T00:00:00.000Z'
   review_date: '2013-12-15T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2013-12-15T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19157:2013'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19157:2013).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: 'datakvalitet, dato for'
-      normative_status: null
+  review_decision_event: Publication of ISO 19157:2013
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19157:2013).
+  release: "-1"
   _revisions:
     current: 47abba
     tree:
@@ -235,9 +263,9 @@ dan:
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19113:2002'
+            ref: ISO 19113:2002
             clause: '4.4'
-            link: 'https://www.iso.org/standard/26018.html'
+            link: https://www.iso.org/standard/26018.html
           lineage_source: ''
           date_accepted: '2002-12-01T00:00:00.000Z'
           date_amended: '2013-12-15T00:00:00.000Z'
@@ -246,15 +274,14 @@ dan:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2013-12-15T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19157:2013'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19157:2013
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19157:2013).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: 'datakvalitet, dato for'
-              normative_status: null
+          - type: expression
+            designation: datakvalitet, dato for
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -262,47 +289,55 @@ dan:
           email: glossarist@ribose.com
 fin:
   id: 112
-  definition: 'päiväys tai aikaväli, jona laatumittaria sovelletaan'
-  language_code: fin
+  terms:
+  - type: expression
+    designation: laatumittauksen päiväys
+  definition:
+  - content: päiväys tai aikaväli, jona laatumittaria sovelletaan
   notes: []
   examples: []
+  language_code: fin
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19113:2002'
-    clause: '4.4'
-    link: 'https://www.iso.org/standard/26018.html'
-  lineage_source: ''
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2013-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19113:2002
+      clause: '4.4'
+      link: https://www.iso.org/standard/26018.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2013-12-15T00:00:00.000Z'
   review_date: '2013-12-15T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2013-12-15T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19157:2013'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19157:2013).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: laatumittauksen päiväys
-      normative_status: null
+  review_decision_event: Publication of ISO 19157:2013
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19157:2013).
+  release: "-1"
   _revisions:
     current: f3cf85
     tree:
       f3cf85:
         object:
           id: 112
-          definition: 'päiväys tai aikaväli, jona laatumittaria sovelletaan'
+          definition: päiväys tai aikaväli, jona laatumittaria sovelletaan
           language_code: fin
           notes: []
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19113:2002'
+            ref: ISO 19113:2002
             clause: '4.4'
-            link: 'https://www.iso.org/standard/26018.html'
+            link: https://www.iso.org/standard/26018.html
           lineage_source: ''
           date_accepted: '2002-12-01T00:00:00.000Z'
           date_amended: '2013-12-15T00:00:00.000Z'
@@ -311,15 +346,14 @@ fin:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2013-12-15T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19157:2013'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19157:2013
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19157:2013).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: laatumittauksen päiväys
-              normative_status: null
+          - type: expression
+            designation: laatumittauksen päiväys
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -327,51 +361,57 @@ fin:
           email: glossarist@ribose.com
 fra:
   id: 112
-  definition: >-
-    date ou gamme de dates à laquelle la mesure de qualité de donnée est
-    effectuée
-  language_code: fra
+  terms:
+  - type: expression
+    designation: date de la qualité des données
+  definition:
+  - content: date ou gamme de dates à laquelle la mesure de qualité de donnée est
+      effectuée
   notes: []
   examples: []
+  language_code: fra
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19113:2002'
-    clause: '4.4'
-    link: 'https://www.iso.org/standard/26018.html'
-  lineage_source: ''
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2013-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19113:2002
+      clause: '4.4'
+      link: https://www.iso.org/standard/26018.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2013-12-15T00:00:00.000Z'
   review_date: '2013-12-15T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2013-12-15T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19157:2013'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19157:2013).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: date de la qualité des données
-      normative_status: null
+  review_decision_event: Publication of ISO 19157:2013
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19157:2013).
+  release: "-1"
   _revisions:
     current: 1f452c
     tree:
       1f452c:
         object:
           id: 112
-          definition: >-
-            date ou gamme de dates à laquelle la mesure de qualité de donnée est
-            effectuée
+          definition: date ou gamme de dates à laquelle la mesure de qualité de donnée
+            est effectuée
           language_code: fra
           notes: []
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19113:2002'
+            ref: ISO 19113:2002
             clause: '4.4'
-            link: 'https://www.iso.org/standard/26018.html'
+            link: https://www.iso.org/standard/26018.html
           lineage_source: ''
           date_accepted: '2002-12-01T00:00:00.000Z'
           date_amended: '2013-12-15T00:00:00.000Z'
@@ -380,15 +420,14 @@ fra:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2013-12-15T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19157:2013'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19157:2013
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19157:2013).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: date de la qualité des données
-              normative_status: null
+          - type: expression
+            designation: date de la qualité des données
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -396,30 +435,37 @@ fra:
           email: glossarist@ribose.com
 deu:
   id: 112
-  language_code: deu
+  terms:
+  - type: expression
+    designation: Datum der Datenqualitätsangabe
   notes: []
   examples: []
+  language_code: deu
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19113:2002'
-    clause: '4.4'
-    link: 'https://www.iso.org/standard/26018.html'
-  lineage_source: ''
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2013-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19113:2002
+      clause: '4.4'
+      link: https://www.iso.org/standard/26018.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2013-12-15T00:00:00.000Z'
   review_date: '2013-12-15T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2013-12-15T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19157:2013'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19157:2013).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: Datum der Datenqualitätsangabe
-      normative_status: null
+  review_decision_event: Publication of ISO 19157:2013
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19157:2013).
+  release: "-1"
   _revisions:
     current: e902d8
     tree:
@@ -432,9 +478,9 @@ deu:
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19113:2002'
+            ref: ISO 19113:2002
             clause: '4.4'
-            link: 'https://www.iso.org/standard/26018.html'
+            link: https://www.iso.org/standard/26018.html
           lineage_source: ''
           date_accepted: '2002-12-01T00:00:00.000Z'
           date_amended: '2013-12-15T00:00:00.000Z'
@@ -443,15 +489,14 @@ deu:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2013-12-15T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19157:2013'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19157:2013
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19157:2013).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: Datum der Datenqualitätsangabe
-              normative_status: null
+          - type: expression
+            designation: Datum der Datenqualitätsangabe
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -459,31 +504,39 @@ deu:
           email: glossarist@ribose.com
 jpn:
   id: 112
-  definition: あるデータ品質評価尺度を適用した日付又は期間。
-  language_code: jpn
+  terms:
+  - type: expression
+    designation: データ品質評価日付
+  definition:
+  - content: あるデータ品質評価尺度を適用した日付又は期間。
   notes: []
   examples: []
+  language_code: jpn
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19113:2002'
-    clause: '4.4'
-    link: 'https://www.iso.org/standard/26018.html'
-  lineage_source: ''
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2013-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19113:2002
+      clause: '4.4'
+      link: https://www.iso.org/standard/26018.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2013-12-15T00:00:00.000Z'
   review_date: '2013-12-15T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2013-12-15T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19157:2013'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19157:2013).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: データ品質評価日付
-      normative_status: null
+  review_decision_event: Publication of ISO 19157:2013
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19157:2013).
+  release: "-1"
   _revisions:
     current: 36ea2a
     tree:
@@ -497,9 +550,9 @@ jpn:
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19113:2002'
+            ref: ISO 19113:2002
             clause: '4.4'
-            link: 'https://www.iso.org/standard/26018.html'
+            link: https://www.iso.org/standard/26018.html
           lineage_source: ''
           date_accepted: '2002-12-01T00:00:00.000Z'
           date_amended: '2013-12-15T00:00:00.000Z'
@@ -508,15 +561,14 @@ jpn:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2013-12-15T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19157:2013'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19157:2013
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19157:2013).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: データ品質評価日付
-              normative_status: null
+          - type: expression
+            designation: データ品質評価日付
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -524,31 +576,39 @@ jpn:
           email: glossarist@ribose.com
 kor:
   id: 112
-  definition: 데이터 품질 측정을 실시한 일자 또는 범위
-  language_code: kor
+  terms:
+  - type: expression
+    designation: 데이터 품질 일자
+  definition:
+  - content: 데이터 품질 측정을 실시한 일자 또는 범위
   notes: []
   examples: []
+  language_code: kor
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19113:2002'
-    clause: '4.4'
-    link: 'https://www.iso.org/standard/26018.html'
-  lineage_source: ''
-  date_accepted: '2007-11-01T00:00:00.000Z'
-  date_amended: '2013-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19113:2002
+      clause: '4.4'
+      link: https://www.iso.org/standard/26018.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2007-11-01T00:00:00.000Z'
+  - type: amended
+    date: '2013-12-15T00:00:00.000Z'
   review_date: '2013-12-15T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2013-12-15T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19157:2013'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19157:2013).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: 데이터 품질 일자
-      normative_status: null
+  review_decision_event: Publication of ISO 19157:2013
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19157:2013).
+  release: "-1"
   _revisions:
     current: ecba05
     tree:
@@ -562,9 +622,9 @@ kor:
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19113:2002'
+            ref: ISO 19113:2002
             clause: '4.4'
-            link: 'https://www.iso.org/standard/26018.html'
+            link: https://www.iso.org/standard/26018.html
           lineage_source: ''
           date_accepted: '2007-11-01T00:00:00.000Z'
           date_amended: '2013-12-15T00:00:00.000Z'
@@ -573,15 +633,14 @@ kor:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2013-12-15T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19157:2013'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19157:2013
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19157:2013).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: 데이터 품질 일자
-              normative_status: null
+          - type: expression
+            designation: 데이터 품질 일자
+            normative_status:
         parents: []
         timeCreated: '2007-11-01T00:00:00.000Z'
         author:
@@ -589,45 +648,53 @@ kor:
           email: glossarist@ribose.com
 pol:
   id: 112
-  definition: 'data lub zakres dat, do których odnosi się pomiar jakości danych'
-  language_code: pol
+  terms:
+  - type: expression
+    designation: data oceny jakości danych
+  definition:
+  - content: data lub zakres dat, do których odnosi się pomiar jakości danych
   notes: []
   examples: []
+  language_code: pol
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19113:2002'
-    clause: '4.4'
-    link: 'https://www.iso.org/standard/26018.html'
-  lineage_source: ''
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2013-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19113:2002
+      clause: '4.4'
+      link: https://www.iso.org/standard/26018.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2013-12-15T00:00:00.000Z'
   review_date: '2013-12-15T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2013-12-15T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19157:2013'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19157:2013).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: data oceny jakości danych
-      normative_status: null
+  review_decision_event: Publication of ISO 19157:2013
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19157:2013).
+  release: "-1"
   _revisions:
     current: 79ba6f
     tree:
       79ba6f:
         object:
           id: 112
-          definition: 'data lub zakres dat, do których odnosi się pomiar jakości danych'
+          definition: data lub zakres dat, do których odnosi się pomiar jakości danych
           language_code: pol
           notes: []
           examples: []
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19113:2002'
+            ref: ISO 19113:2002
             clause: '4.4'
-            link: 'https://www.iso.org/standard/26018.html'
+            link: https://www.iso.org/standard/26018.html
           lineage_source: ''
           date_accepted: '2002-12-01T00:00:00.000Z'
           date_amended: '2013-12-15T00:00:00.000Z'
@@ -636,15 +703,14 @@ pol:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2013-12-15T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19157:2013'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19157:2013
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19157:2013).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: data oceny jakości danych
-              normative_status: null
+          - type: expression
+            designation: data oceny jakości danych
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -652,47 +718,55 @@ pol:
           email: glossarist@ribose.com
 rus:
   id: 112
-  definition: 'дата или период, к которым относится мера качества данных'
-  language_code: rus
+  terms:
+  - type: expression
+    designation: период действия меры качества данных
+  definition:
+  - content: дата или период, к которым относится мера качества данных
   notes: []
   examples: []
+  language_code: rus
   entry_status: изъятый
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19113:2002'
-    clause: '4.4'
-    link: 'https://www.iso.org/standard/26018.html'
-  lineage_source: ''
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2013-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19113:2002
+      clause: '4.4'
+      link: https://www.iso.org/standard/26018.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2013-12-15T00:00:00.000Z'
   review_date: '2013-12-15T00:00:00.000Z'
   review_status: ''
   review_type: ''
   review_decision: ''
   review_decision_date: '2013-12-15T00:00:00.000Z'
-  review_decision_event: 'Публикация ИСО19157:2013'
-  review_decision_notes: 'Эта запись была опущена из заменяющего стандарта (ISO 19157: 2013).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: период действия меры качества данных
-      normative_status: null
+  review_decision_event: Публикация ИСО19157:2013
+  review_decision_notes: 'Эта запись была опущена из заменяющего стандарта (ISO 19157:
+    2013).'
+  release: "-1"
   _revisions:
     current: 15a7ab
     tree:
       15a7ab:
         object:
           id: 112
-          definition: 'дата или период, к которым относится мера качества данных'
+          definition: дата или период, к которым относится мера качества данных
           language_code: rus
           notes: []
           examples: []
           entry_status: изъятый
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19113:2002'
+            ref: ISO 19113:2002
             clause: '4.4'
-            link: 'https://www.iso.org/standard/26018.html'
+            link: https://www.iso.org/standard/26018.html
           lineage_source: ''
           date_accepted: '2002-12-01T00:00:00.000Z'
           date_amended: '2013-12-15T00:00:00.000Z'
@@ -701,13 +775,14 @@ rus:
           review_type: ''
           review_decision: ''
           review_decision_date: '2013-12-15T00:00:00.000Z'
-          review_decision_event: 'Публикация ИСО19157:2013'
-          review_decision_notes: 'Эта запись была опущена из заменяющего стандарта (ISO 19157: 2013).'
-          release: '-1'
+          review_decision_event: Публикация ИСО19157:2013
+          review_decision_notes: 'Эта запись была опущена из заменяющего стандарта
+            (ISO 19157: 2013).'
+          release: "-1"
           terms:
-            - type: expression
-              designation: период действия меры качества данных
-              normative_status: null
+          - type: expression
+            designation: период действия меры качества данных
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -715,49 +790,57 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 112
-  definition: fecha o rango de fechas en las que se realiza una medida de calidad de datos
-  language_code: spa
+  terms:
+  - type: expression
+    designation: fecha de la calidad de datos
+  definition:
+  - content: fecha o rango de fechas en las que se realiza una medida de calidad de
+      datos
   notes: []
   examples: []
+  language_code: spa
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19113:2002'
-    clause: '4.4'
-    link: 'https://www.iso.org/standard/26018.html'
-  lineage_source: ''
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2013-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19113:2002
+      clause: '4.4'
+      link: https://www.iso.org/standard/26018.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2013-12-15T00:00:00.000Z'
   review_date: '2013-12-15T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2013-12-15T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19157:2013'
-  review_decision_notes: 'The entry has been omitted from the superseding standard  (ISO 19157:2013).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: fecha de la calidad de datos
-      normative_status: null
+  review_decision_event: Publication of ISO 19157:2013
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19157:2013).
+  release: "-1"
   _revisions:
     current: b8c89c
     tree:
       b8c89c:
         object:
           id: 112
-          definition: >-
-            fecha o rango de fechas en las que se realiza una medida de calidad
-            de datos
+          definition: fecha o rango de fechas en las que se realiza una medida de
+            calidad de datos
           language_code: spa
           notes: []
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19113:2002'
+            ref: ISO 19113:2002
             clause: '4.4'
-            link: 'https://www.iso.org/standard/26018.html'
+            link: https://www.iso.org/standard/26018.html
           lineage_source: ''
           date_accepted: '2002-12-01T00:00:00.000Z'
           date_amended: '2013-12-15T00:00:00.000Z'
@@ -766,15 +849,14 @@ spa:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2013-12-15T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19157:2013'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19157:2013
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19157:2013).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: fecha de la calidad de datos
-              normative_status: null
+          - type: expression
+            designation: fecha de la calidad de datos
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:

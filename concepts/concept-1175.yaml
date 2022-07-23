@@ -1,22 +1,28 @@
-term: linearly referenced location
+---
 termid: 1175
+term: linearly referenced location
 eng:
   id: 1175
-  definition: location whose position is specified using linear referencing
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: linearly referenced location
+  definition:
+  - content: location whose position is specified using linear referencing
   notes: []
   examples: []
+  language_code: eng
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19148:2012'
-    clause: '4.16'
-    link: 'https://www.iso.org/standard/32566.html'
-  date_accepted: '2012-02-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19148:2012
+      clause: '4.16'
+      link: https://www.iso.org/standard/32566.html
+  dates:
+  - type: accepted
+    date: '2012-02-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: linearly referenced location
-      normative_status: preferred
   _revisions:
     current: 553f89
     tree:
@@ -29,15 +35,15 @@ eng:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19148:2012'
+            ref: ISO 19148:2012
             clause: '4.16'
-            link: 'https://www.iso.org/standard/32566.html'
+            link: https://www.iso.org/standard/32566.html
           date_accepted: '2012-02-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: linearly referenced location
-              normative_status: preferred
+          - type: expression
+            designation: linearly referenced location
+            normative_status: preferred
         parents: []
         timeCreated: '2012-02-15T00:00:00.000Z'
         author:
@@ -45,21 +51,26 @@ eng:
           email: glossarist@ribose.com
 kor:
   id: 1175
-  definition: 선형 참조를 사용하여 명시된 위치
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 선형적 참조 위치
+  definition:
+  - content: 선형 참조를 사용하여 명시된 위치
   notes: []
   examples: []
+  language_code: kor
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19148:2012'
-    clause: '4.16'
-    link: 'https://www.iso.org/standard/32566.html'
-  date_accepted: '2012-02-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19148:2012
+      clause: '4.16'
+      link: https://www.iso.org/standard/32566.html
+  dates:
+  - type: accepted
+    date: '2012-02-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: 선형적 참조 위치
-      normative_status: preferred
   _revisions:
     current: 67dadd
     tree:
@@ -72,15 +83,15 @@ kor:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19148:2012'
+            ref: ISO 19148:2012
             clause: '4.16'
-            link: 'https://www.iso.org/standard/32566.html'
+            link: https://www.iso.org/standard/32566.html
           date_accepted: '2012-02-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: 선형적 참조 위치
-              normative_status: preferred
+          - type: expression
+            designation: 선형적 참조 위치
+            normative_status: preferred
         parents: []
         timeCreated: '2012-02-15T00:00:00.000Z'
         author:
@@ -88,46 +99,52 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 1175
-  definition: 'Местоположение, позиция которого задается с использованием линейной привязки'
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: линейно привязанное местоположение
+  definition:
+  - content: Местоположение, позиция которого задается с использованием линейной привязки
   notes: []
   examples: []
+  language_code: rus
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19148:2012'
-    clause: '4.16'
-    link: 'https://www.iso.org/standard/32566.html'
-  lineage_source: 'перевод ИСО 19148:2012'
-  date_accepted: '2012-02-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19148:2012
+      clause: '4.16'
+      link: https://www.iso.org/standard/32566.html
+  - type: lineage
+    origin:
+      ref: перевод ИСО 19148:2012
+  dates:
+  - type: accepted
+    date: '2012-02-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: линейно привязанное местоположение
-      normative_status: preferred
   _revisions:
     current: 006d58
     tree:
       006d58:
         object:
           id: 1175
-          definition: >-
-            Местоположение, позиция которого задается с использованием линейной
+          definition: Местоположение, позиция которого задается с использованием линейной
             привязки
           language_code: rus
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19148:2012'
+            ref: ISO 19148:2012
             clause: '4.16'
-            link: 'https://www.iso.org/standard/32566.html'
-          lineage_source: 'перевод ИСО 19148:2012'
+            link: https://www.iso.org/standard/32566.html
+          lineage_source: перевод ИСО 19148:2012
           date_accepted: '2012-02-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: линейно привязанное местоположение
-              normative_status: preferred
+          - type: expression
+            designation: линейно привязанное местоположение
+            normative_status: preferred
         parents: []
         timeCreated: '2012-02-15T00:00:00.000Z'
         author:
@@ -135,44 +152,48 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 1175
-  definition: localización cuya posición se realiza utilizando la referencia lineal
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: localización referenciada linealmente
+  definition:
+  - content: localización cuya posición se realiza utilizando la referencia lineal
   notes: []
   examples: []
+  language_code: spa
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19148:2012'
-    clause: '4.16'
-    link: 'https://www.iso.org/standard/32566.html'
-  date_accepted: '2012-02-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19148:2012
+      clause: '4.16'
+      link: https://www.iso.org/standard/32566.html
+  dates:
+  - type: accepted
+    date: '2012-02-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: localización referenciada linealmente
-      normative_status: preferred
   _revisions:
     current: a4e8f4
     tree:
       a4e8f4:
         object:
           id: 1175
-          definition: >-
-            localización cuya posición se realiza utilizando la referencia
+          definition: localización cuya posición se realiza utilizando la referencia
             lineal
           language_code: spa
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19148:2012'
+            ref: ISO 19148:2012
             clause: '4.16'
-            link: 'https://www.iso.org/standard/32566.html'
+            link: https://www.iso.org/standard/32566.html
           date_accepted: '2012-02-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: localización referenciada linealmente
-              normative_status: preferred
+          - type: expression
+            designation: localización referenciada linealmente
+            normative_status: preferred
         parents: []
         timeCreated: '2012-02-15T00:00:00.000Z'
         author:
@@ -180,23 +201,30 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 1175
-  definition: läge vars position specificeras med linjerelativ lägesbestämning
-  country_code: swe
-  language_code: swe
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: linjerelativt läge
+  definition:
+  - content: läge vars position specificeras med linjerelativ lägesbestämning
   notes: []
   examples: []
+  country_code: swe
+  language_code: swe
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19148:2012'
-    clause: '4.16'
-    link: 'https://www.iso.org/standard/32566.html'
-  lineage_source: (Type reference to national language document)
-  date_accepted: '2012-02-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19148:2012
+      clause: '4.16'
+      link: https://www.iso.org/standard/32566.html
+  - type: lineage
+    origin:
+      ref: "(Type reference to national language document)"
+  dates:
+  - type: accepted
+    date: '2012-02-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: linjerelativt läge
-      normative_status: preferred
   _revisions:
     current: a75ccd
     tree:
@@ -210,16 +238,16 @@ swe:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19148:2012'
+            ref: ISO 19148:2012
             clause: '4.16'
-            link: 'https://www.iso.org/standard/32566.html'
-          lineage_source: (Type reference to national language document)
+            link: https://www.iso.org/standard/32566.html
+          lineage_source: "(Type reference to national language document)"
           date_accepted: '2012-02-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: linjerelativt läge
-              normative_status: preferred
+          - type: expression
+            designation: linjerelativt läge
+            normative_status: preferred
         parents: []
         timeCreated: '2012-02-15T00:00:00.000Z'
         author:

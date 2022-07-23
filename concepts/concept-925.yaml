@@ -1,34 +1,42 @@
-term: aperture reference point
+---
 termid: 925
+term: ARP
 eng:
   id: 925
-  abbrev: ARP
-  definition: 3D location of the centre of the synthetic aperture
-  language_code: eng
+  terms:
+  - type: abbreviation
+    designation: ARP
+  - type: expression
+    normative_status: preferred
+    designation: aperture reference point
+  definition:
+  - content: 3D location of the centre of the synthetic aperture
   notes:
-    - It is usually expressed in ECEF coordinates in metres.
+  - content: It is usually expressed in ECEF coordinates in metres.
   examples: []
+  language_code: eng
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19130-1:2018'
-    clause: '(E), 3.4'
-    link: 'https://www.iso.org/standard/66847.html'
-  lineage_source: 'ISO/TS 19130:2010(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19130-1:2018
+      clause: "(E), 3.4"
+      link: https://www.iso.org/standard/66847.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19130:2010(E)
   lineage_source_similarity: '1'
-  date_accepted: '2010-06-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2010-06-15T00:00:00.000Z'
   review_date: '2018-09-01T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2018-09-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/TS 19130:2010 to ISO
-    19130-1:2018(E), 3.4. Lineage source added as ISO/TS 19130:2010(E)
+  review_decision_event: Publication of ISO 19130-1:2018(E)
+  review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010 to
+    ISO 19130-1:2018(E), 3.4. Lineage source added as ISO/TS 19130:2010(E)
   release: '2'
-  terms:
-    - type: expression
-      designation: aperture reference point
-      normative_status: preferred
   _revisions:
     current: 254f04
     tree:
@@ -39,29 +47,28 @@ eng:
           definition: 3D location of the centre of the synthetic aperture
           language_code: eng
           notes:
-            - It is usually expressed in ECEF coordinates in metres.
+          - It is usually expressed in ECEF coordinates in metres.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19130-1:2018'
-            clause: '(E), 3.4'
-            link: 'https://www.iso.org/standard/66847.html'
-          lineage_source: 'ISO/TS 19130:2010(E)'
+            ref: ISO 19130-1:2018
+            clause: "(E), 3.4"
+            link: https://www.iso.org/standard/66847.html
+          lineage_source: ISO/TS 19130:2010(E)
           lineage_source_similarity: '1'
           date_accepted: '2010-06-15T00:00:00.000Z'
           review_date: '2018-09-01T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2018-09-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/TS 19130:2010 to ISO
-            19130-1:2018(E), 3.4. Lineage source added as ISO/TS 19130:2010(E)
+          review_decision_event: Publication of ISO 19130-1:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010
+            to ISO 19130-1:2018(E), 3.4. Lineage source added as ISO/TS 19130:2010(E)
           release: '2'
           terms:
-            - type: expression
-              designation: aperture reference point
-              normative_status: preferred
+          - type: expression
+            designation: aperture reference point
+            normative_status: preferred
         parents: []
         timeCreated: '2010-06-15T00:00:00.000Z'
         author:
@@ -69,35 +76,41 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 925
-  abbrev: ن م ف
-  definition: موقع ثلاثي الأبعاد لمركز فتحة العدسة الصناعية
-  language_code: ara
+  terms:
+  - type: abbreviation
+    designation: ن م ف
+  - type: expression
+    normative_status: preferred
+    designation: نقطة المرجع لفتحة العدسة
+  definition:
+  - content: موقع ثلاثي الأبعاد لمركز فتحة العدسة الصناعية
   notes:
-    - >-
-      يعبر عنها عادة بالأمتار على نظام الإحداثيات ECEF .(نظام إحداثيات ديكارتي
+  - content: يعبر عنها عادة بالأمتار على نظام الإحداثيات ECEF .(نظام إحداثيات ديكارتي
       مركزه الأرض ومثبَّت أرضيا.
   examples: []
+  language_code: ara
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19130-1:2018'
-    clause: '(E), 3.4'
-    link: 'https://www.iso.org/standard/66847.html'
-  lineage_source: 'ISO/TS 19130:2010(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19130-1:2018
+      clause: "(E), 3.4"
+      link: https://www.iso.org/standard/66847.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19130:2010(E)
   lineage_source_similarity: '1'
-  date_accepted: '2010-06-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2010-06-15T00:00:00.000Z'
   review_date: '2018-09-01T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2018-09-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/TS 19130:2010 to ISO
-    19130-1:2018(E), 3.4. Lineage source added as ISO/TS 19130:2010(E)
+  review_decision_event: Publication of ISO 19130-1:2018(E)
+  review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010 to
+    ISO 19130-1:2018(E), 3.4. Lineage source added as ISO/TS 19130:2010(E)
   release: '2'
-  terms:
-    - type: expression
-      designation: نقطة المرجع لفتحة العدسة
-      normative_status: preferred
   _revisions:
     current: b4d010
     tree:
@@ -108,31 +121,29 @@ ara:
           definition: موقع ثلاثي الأبعاد لمركز فتحة العدسة الصناعية
           language_code: ara
           notes:
-            - >-
-              يعبر عنها عادة بالأمتار على نظام الإحداثيات ECEF .(نظام إحداثيات
-              ديكارتي مركزه الأرض ومثبَّت أرضيا.
+          - يعبر عنها عادة بالأمتار على نظام الإحداثيات ECEF .(نظام إحداثيات ديكارتي
+            مركزه الأرض ومثبَّت أرضيا.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19130-1:2018'
-            clause: '(E), 3.4'
-            link: 'https://www.iso.org/standard/66847.html'
-          lineage_source: 'ISO/TS 19130:2010(E)'
+            ref: ISO 19130-1:2018
+            clause: "(E), 3.4"
+            link: https://www.iso.org/standard/66847.html
+          lineage_source: ISO/TS 19130:2010(E)
           lineage_source_similarity: '1'
           date_accepted: '2010-06-15T00:00:00.000Z'
           review_date: '2018-09-01T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2018-09-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/TS 19130:2010 to ISO
-            19130-1:2018(E), 3.4. Lineage source added as ISO/TS 19130:2010(E)
+          review_decision_event: Publication of ISO 19130-1:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010
+            to ISO 19130-1:2018(E), 3.4. Lineage source added as ISO/TS 19130:2010(E)
           release: '2'
           terms:
-            - type: expression
-              designation: نقطة المرجع لفتحة العدسة
-              normative_status: preferred
+          - type: expression
+            designation: نقطة المرجع لفتحة العدسة
+            normative_status: preferred
         parents: []
         timeCreated: '2010-06-15T00:00:00.000Z'
         author:
@@ -140,33 +151,40 @@ ara:
           email: glossarist@ribose.com
 deu:
   id: 925
-  abbrev: ARP
-  definition: räumliche Position des Zentrums der virtuellen Blende
-  language_code: deu
+  terms:
+  - type: abbreviation
+    designation: ARP
+  - type: expression
+    normative_status: preferred
+    designation: Blendenreferenzpunkt
+  definition:
+  - content: räumliche Position des Zentrums der virtuellen Blende
   notes:
-    - It is usually expressed in ECEF coordinates in metres.
+  - content: It is usually expressed in ECEF coordinates in metres.
   examples: []
+  language_code: deu
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19130-1:2018'
-    clause: '(E), 3.4'
-    link: 'https://www.iso.org/standard/66847.html'
-  lineage_source: 'ISO/TS 19130:2010(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19130-1:2018
+      clause: "(E), 3.4"
+      link: https://www.iso.org/standard/66847.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19130:2010(E)
   lineage_source_similarity: '1'
-  date_accepted: '2010-06-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2010-06-15T00:00:00.000Z'
   review_date: '2018-09-01T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2018-09-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/TS 19130:2010 to ISO
-    19130-1:2018(E), 3.4. Lineage source added as ISO/TS 19130:2010(E)
+  review_decision_event: Publication of ISO 19130-1:2018(E)
+  review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010 to
+    ISO 19130-1:2018(E), 3.4. Lineage source added as ISO/TS 19130:2010(E)
   release: '2'
-  terms:
-    - type: expression
-      designation: Blendenreferenzpunkt
-      normative_status: preferred
   _revisions:
     current: 86c155
     tree:
@@ -177,29 +195,28 @@ deu:
           definition: räumliche Position des Zentrums der virtuellen Blende
           language_code: deu
           notes:
-            - It is usually expressed in ECEF coordinates in metres.
+          - It is usually expressed in ECEF coordinates in metres.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19130-1:2018'
-            clause: '(E), 3.4'
-            link: 'https://www.iso.org/standard/66847.html'
-          lineage_source: 'ISO/TS 19130:2010(E)'
+            ref: ISO 19130-1:2018
+            clause: "(E), 3.4"
+            link: https://www.iso.org/standard/66847.html
+          lineage_source: ISO/TS 19130:2010(E)
           lineage_source_similarity: '1'
           date_accepted: '2010-06-15T00:00:00.000Z'
           review_date: '2018-09-01T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2018-09-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/TS 19130:2010 to ISO
-            19130-1:2018(E), 3.4. Lineage source added as ISO/TS 19130:2010(E)
+          review_decision_event: Publication of ISO 19130-1:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010
+            to ISO 19130-1:2018(E), 3.4. Lineage source added as ISO/TS 19130:2010(E)
           release: '2'
           terms:
-            - type: expression
-              designation: Blendenreferenzpunkt
-              normative_status: preferred
+          - type: expression
+            designation: Blendenreferenzpunkt
+            normative_status: preferred
         parents: []
         timeCreated: '2010-06-15T00:00:00.000Z'
         author:
@@ -207,32 +224,38 @@ deu:
           email: glossarist@ribose.com
 kor:
   id: 925
-  definition: 합성개구 중심의 3차원 위치
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ARP
+  definition:
+  - content: 합성개구 중심의 3차원 위치
   notes:
-    - It is usually expressed in ECEF coordinates in metres.
+  - content: It is usually expressed in ECEF coordinates in metres.
   examples: []
+  language_code: kor
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19130-1:2018'
-    clause: '(E), 3.4'
-    link: 'https://www.iso.org/standard/66847.html'
-  lineage_source: 'ISO/TS 19130:2010(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19130-1:2018
+      clause: "(E), 3.4"
+      link: https://www.iso.org/standard/66847.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19130:2010(E)
   lineage_source_similarity: '1'
-  date_accepted: '2010-06-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2010-06-15T00:00:00.000Z'
   review_date: '2018-09-01T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2018-09-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/TS 19130:2010 to ISO
-    19130-1:2018(E), 3.4. Lineage source added as ISO/TS 19130:2010(E)
+  review_decision_event: Publication of ISO 19130-1:2018(E)
+  review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010 to
+    ISO 19130-1:2018(E), 3.4. Lineage source added as ISO/TS 19130:2010(E)
   release: '2'
-  terms:
-    - type: expression
-      designation: ARP
-      normative_status: preferred
   _revisions:
     current: 9a1c83
     tree:
@@ -242,29 +265,28 @@ kor:
           definition: 합성개구 중심의 3차원 위치
           language_code: kor
           notes:
-            - It is usually expressed in ECEF coordinates in metres.
+          - It is usually expressed in ECEF coordinates in metres.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19130-1:2018'
-            clause: '(E), 3.4'
-            link: 'https://www.iso.org/standard/66847.html'
-          lineage_source: 'ISO/TS 19130:2010(E)'
+            ref: ISO 19130-1:2018
+            clause: "(E), 3.4"
+            link: https://www.iso.org/standard/66847.html
+          lineage_source: ISO/TS 19130:2010(E)
           lineage_source_similarity: '1'
           date_accepted: '2010-06-15T00:00:00.000Z'
           review_date: '2018-09-01T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2018-09-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/TS 19130:2010 to ISO
-            19130-1:2018(E), 3.4. Lineage source added as ISO/TS 19130:2010(E)
+          review_decision_event: Publication of ISO 19130-1:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010
+            to ISO 19130-1:2018(E), 3.4. Lineage source added as ISO/TS 19130:2010(E)
           release: '2'
           terms:
-            - type: expression
-              designation: ARP
-              normative_status: preferred
+          - type: expression
+            designation: ARP
+            normative_status: preferred
         parents: []
         timeCreated: '2010-06-15T00:00:00.000Z'
         author:
@@ -272,33 +294,40 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 925
-  abbrev: ARP
-  definition: 3D-расположение центра синтетической апертуры
-  language_code: rus
+  terms:
+  - type: abbreviation
+    designation: ARP
+  - type: expression
+    normative_status: preferred
+    designation: Контрольная точка апертуры
+  definition:
+  - content: 3D-расположение центра синтетической апертуры
   notes:
-    - Обычно выражается в координатах  ECEF в метрах
+  - content: Обычно выражается в координатах  ECEF в метрах
   examples: []
+  language_code: rus
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19130-1:2018'
-    clause: '(E), 3.4'
-    link: 'https://www.iso.org/standard/66847.html'
-  lineage_source: 'ISO/TS 19130:2010(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19130-1:2018
+      clause: "(E), 3.4"
+      link: https://www.iso.org/standard/66847.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19130:2010(E)
   lineage_source_similarity: '1'
-  date_accepted: '2010-06-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2010-06-15T00:00:00.000Z'
   review_date: '2018-09-01T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2018-09-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/TS 19130:2010 to ISO
-    19130-1:2018(E), 3.4. Lineage source added as ISO/TS 19130:2010(E)
+  review_decision_event: Publication of ISO 19130-1:2018(E)
+  review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010 to
+    ISO 19130-1:2018(E), 3.4. Lineage source added as ISO/TS 19130:2010(E)
   release: '2'
-  terms:
-    - type: expression
-      designation: Контрольная точка апертуры
-      normative_status: preferred
   _revisions:
     current: '301918'
     tree:
@@ -309,29 +338,28 @@ rus:
           definition: 3D-расположение центра синтетической апертуры
           language_code: rus
           notes:
-            - Обычно выражается в координатах  ECEF в метрах
+          - Обычно выражается в координатах  ECEF в метрах
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19130-1:2018'
-            clause: '(E), 3.4'
-            link: 'https://www.iso.org/standard/66847.html'
-          lineage_source: 'ISO/TS 19130:2010(E)'
+            ref: ISO 19130-1:2018
+            clause: "(E), 3.4"
+            link: https://www.iso.org/standard/66847.html
+          lineage_source: ISO/TS 19130:2010(E)
           lineage_source_similarity: '1'
           date_accepted: '2010-06-15T00:00:00.000Z'
           review_date: '2018-09-01T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2018-09-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/TS 19130:2010 to ISO
-            19130-1:2018(E), 3.4. Lineage source added as ISO/TS 19130:2010(E)
+          review_decision_event: Publication of ISO 19130-1:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010
+            to ISO 19130-1:2018(E), 3.4. Lineage source added as ISO/TS 19130:2010(E)
           release: '2'
           terms:
-            - type: expression
-              designation: Контрольная точка апертуры
-              normative_status: preferred
+          - type: expression
+            designation: Контрольная точка апертуры
+            normative_status: preferred
         parents: []
         timeCreated: '2010-06-15T00:00:00.000Z'
         author:
@@ -339,33 +367,40 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 925
-  abbrev: ARP
-  definition: localización tridimensional del centro de la apertura sintética
-  language_code: spa
+  terms:
+  - type: abbreviation
+    designation: ARP
+  - type: expression
+    normative_status: preferred
+    designation: punto de referencia de la apertura
+  definition:
+  - content: localización tridimensional del centro de la apertura sintética
   notes:
-    - Normalmente se expresa en coordenadas ECEF en metros.
+  - content: Normalmente se expresa en coordenadas ECEF en metros.
   examples: []
+  language_code: spa
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19130-1:2018'
-    clause: '(E), 3.4'
-    link: 'https://www.iso.org/standard/66847.html'
-  lineage_source: 'ISO/TS 19130:2010(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19130-1:2018
+      clause: "(E), 3.4"
+      link: https://www.iso.org/standard/66847.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19130:2010(E)
   lineage_source_similarity: '1'
-  date_accepted: '2010-06-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2010-06-15T00:00:00.000Z'
   review_date: '2018-09-01T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2018-09-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/TS 19130:2010 to ISO
-    19130-1:2018(E), 3.4. Lineage source added as ISO/TS 19130:2010(E)
+  review_decision_event: Publication of ISO 19130-1:2018(E)
+  review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010 to
+    ISO 19130-1:2018(E), 3.4. Lineage source added as ISO/TS 19130:2010(E)
   release: '2'
-  terms:
-    - type: expression
-      designation: punto de referencia de la apertura
-      normative_status: preferred
   _revisions:
     current: c830a4
     tree:
@@ -376,29 +411,28 @@ spa:
           definition: localización tridimensional del centro de la apertura sintética
           language_code: spa
           notes:
-            - Normalmente se expresa en coordenadas ECEF en metros.
+          - Normalmente se expresa en coordenadas ECEF en metros.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19130-1:2018'
-            clause: '(E), 3.4'
-            link: 'https://www.iso.org/standard/66847.html'
-          lineage_source: 'ISO/TS 19130:2010(E)'
+            ref: ISO 19130-1:2018
+            clause: "(E), 3.4"
+            link: https://www.iso.org/standard/66847.html
+          lineage_source: ISO/TS 19130:2010(E)
           lineage_source_similarity: '1'
           date_accepted: '2010-06-15T00:00:00.000Z'
           review_date: '2018-09-01T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2018-09-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/TS 19130:2010 to ISO
-            19130-1:2018(E), 3.4. Lineage source added as ISO/TS 19130:2010(E)
+          review_decision_event: Publication of ISO 19130-1:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010
+            to ISO 19130-1:2018(E), 3.4. Lineage source added as ISO/TS 19130:2010(E)
           release: '2'
           terms:
-            - type: expression
-              designation: punto de referencia de la apertura
-              normative_status: preferred
+          - type: expression
+            designation: punto de referencia de la apertura
+            normative_status: preferred
         parents: []
         timeCreated: '2010-06-15T00:00:00.000Z'
         author:
@@ -406,37 +440,42 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 925
-  abbrev: ARP
-  definition: >-
-    begränsad, företrädesvis plan, tväryta vid eller nära framför en riktantenn,
-    i vilken yta fältet kan användas för bestämning av antennens
-    strålningsfunktion
+  terms:
+  - type: abbreviation
+    designation: ARP
+  - type: expression
+    normative_status: preferred
+    designation: apertur referenspunkt
+  definition:
+  - content: begränsad, företrädesvis plan, tväryta vid eller nära framför en riktantenn,
+      i vilken yta fältet kan användas för bestämning av antennens strålningsfunktion
+  notes:
+  - content: It is usually expressed in ECEF coordinates in metres.
+  examples: []
   country_code: swe
   language_code: swe
-  notes:
-    - It is usually expressed in ECEF coordinates in metres.
-  examples: []
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19130-1:2018'
-    clause: '(E), 3.4'
-    link: 'https://www.iso.org/standard/66847.html'
-  lineage_source: 'ISO/TS 19130:2010(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19130-1:2018
+      clause: "(E), 3.4"
+      link: https://www.iso.org/standard/66847.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19130:2010(E)
   lineage_source_similarity: '1'
-  date_accepted: '2010-06-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2010-06-15T00:00:00.000Z'
   review_date: '2018-09-01T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2018-09-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/TS 19130:2010 to ISO
-    19130-1:2018(E), 3.4. Lineage source added as ISO/TS 19130:2010(E)
+  review_decision_event: Publication of ISO 19130-1:2018(E)
+  review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010 to
+    ISO 19130-1:2018(E), 3.4. Lineage source added as ISO/TS 19130:2010(E)
   release: '2'
-  terms:
-    - type: expression
-      designation: apertur referenspunkt
-      normative_status: preferred
   _revisions:
     current: 8637c6
     tree:
@@ -444,36 +483,34 @@ swe:
         object:
           id: 925
           abbrev: ARP
-          definition: >-
-            begränsad, företrädesvis plan, tväryta vid eller nära framför en
-            riktantenn, i vilken yta fältet kan användas för bestämning av
-            antennens strålningsfunktion
+          definition: begränsad, företrädesvis plan, tväryta vid eller nära framför
+            en riktantenn, i vilken yta fältet kan användas för bestämning av antennens
+            strålningsfunktion
           country_code: swe
           language_code: swe
           notes:
-            - It is usually expressed in ECEF coordinates in metres.
+          - It is usually expressed in ECEF coordinates in metres.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19130-1:2018'
-            clause: '(E), 3.4'
-            link: 'https://www.iso.org/standard/66847.html'
-          lineage_source: 'ISO/TS 19130:2010(E)'
+            ref: ISO 19130-1:2018
+            clause: "(E), 3.4"
+            link: https://www.iso.org/standard/66847.html
+          lineage_source: ISO/TS 19130:2010(E)
           lineage_source_similarity: '1'
           date_accepted: '2010-06-15T00:00:00.000Z'
           review_date: '2018-09-01T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2018-09-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/TS 19130:2010 to ISO
-            19130-1:2018(E), 3.4. Lineage source added as ISO/TS 19130:2010(E)
+          review_decision_event: Publication of ISO 19130-1:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010
+            to ISO 19130-1:2018(E), 3.4. Lineage source added as ISO/TS 19130:2010(E)
           release: '2'
           terms:
-            - type: expression
-              designation: apertur referenspunkt
-              normative_status: preferred
+          - type: expression
+            designation: apertur referenspunkt
+            normative_status: preferred
         parents: []
         timeCreated: '2010-06-15T00:00:00.000Z'
         author:

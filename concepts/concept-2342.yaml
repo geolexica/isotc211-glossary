@@ -1,26 +1,32 @@
-term: property <RDF>
+---
 termid: 2342
+term: property <RDF>
 eng:
   id: 2342
-  definition: relation between subject resources and object resources
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: property <RDF>
+  definition:
+  - content: relation between subject resources and object resources
   notes: []
   examples: []
+  language_code: eng
   entry_status: valid
-  authoritative_source:
-    ref: RDF
-  date_accepted: '2019-05-22T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: RDF
+  dates:
+  - type: accepted
+    date: '2019-05-22T00:00:00.000Z'
   review_date: '2019-05-22T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-05-22T00:00:00.000Z'
   review_decision_event: Normal ISO processing
-  review_decision_notes: 'Publication of document ISO 19150-4:2019(E)'
+  review_decision_notes: Publication of document ISO 19150-4:2019(E)
   release: '5'
-  terms:
-    - type: expression
-      designation: property <RDF>
-      normative_status: preferred
   _revisions:
     current: 7b0fd5
     tree:
@@ -40,12 +46,12 @@ eng:
           review_decision: accepted
           review_decision_date: '2019-05-22T00:00:00.000Z'
           review_decision_event: Normal ISO processing
-          review_decision_notes: 'Publication of document ISO 19150-4:2019(E)'
+          review_decision_notes: Publication of document ISO 19150-4:2019(E)
           release: '5'
           terms:
-            - type: expression
-              designation: property <RDF>
-              normative_status: preferred
+          - type: expression
+            designation: property <RDF>
+            normative_status: preferred
         parents: []
         timeCreated: '2019-05-22T00:00:00.000Z'
         author:

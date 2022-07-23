@@ -1,27 +1,35 @@
-term: field of view
+---
 termid: 1388
+term: FOV
 eng:
   id: 1388
-  abbrev: FOV
-  definition: 'instantaneous region seen by a sensor, provided in angular measure'
-  language_code: eng
-  notes:
-    - >-
-      In the airborne case, this would be swath width for a linear array, ground
-      footprint for an area array, and for a whiskbroom scanner it refers to the
-      swath width.
-  examples: []
-  entry_status: valid
-  authoritative_source:
-    ref: Manual of Photogrammetry
-  lineage_source: 'ISO/TS 19130-2:2014, 4.20'
-  lineage_source_similarity: 1
-  date_accepted: '2014-01-15T00:00:00.000Z'
-  release: '3'
   terms:
-    - type: expression
-      designation: field of view
-      normative_status: preferred
+  - type: abbreviation
+    designation: FOV
+  - type: expression
+    normative_status: preferred
+    designation: field of view
+  definition:
+  - content: instantaneous region seen by a sensor, provided in angular measure
+  notes:
+  - content: In the airborne case, this would be swath width for a linear array, ground
+      footprint for an area array, and for a whiskbroom scanner it refers to the swath
+      width.
+  examples: []
+  language_code: eng
+  entry_status: valid
+  sources:
+  - type: authoritative
+    origin:
+      ref: Manual of Photogrammetry
+  - type: lineage
+    origin:
+      ref: ISO/TS 19130-2:2014, 4.20
+  lineage_source_similarity: 1
+  dates:
+  - type: accepted
+    date: '2014-01-15T00:00:00.000Z'
+  release: '3'
   _revisions:
     current: 35e71f
     tree:
@@ -29,25 +37,24 @@ eng:
         object:
           id: 1388
           abbrev: FOV
-          definition: 'instantaneous region seen by a sensor, provided in angular measure'
+          definition: instantaneous region seen by a sensor, provided in angular measure
           language_code: eng
           notes:
-            - >-
-              In the airborne case, this would be swath width for a linear
-              array, ground footprint for an area array, and for a whiskbroom
-              scanner it refers to the swath width.
+          - In the airborne case, this would be swath width for a linear array, ground
+            footprint for an area array, and for a whiskbroom scanner it refers to
+            the swath width.
           examples: []
           entry_status: valid
           authoritative_source:
             ref: Manual of Photogrammetry
-          lineage_source: 'ISO/TS 19130-2:2014, 4.20'
+          lineage_source: ISO/TS 19130-2:2014, 4.20
           lineage_source_similarity: 1
           date_accepted: '2014-01-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: field of view
-              normative_status: preferred
+          - type: expression
+            designation: field of view
+            normative_status: preferred
         parents: []
         timeCreated: '2014-01-15T00:00:00.000Z'
         author:
@@ -55,50 +62,55 @@ eng:
           email: glossarist@ribose.com
 kor:
   id: 1388
-  definition: 각도로 제공되는 센서에 의해 보여지는 즉각적 지역
-  language_code: kor
-  notes:
-    - >-
-      In the airborne case, this would be swath width for a linear array, ground
-      footprint for an area array, and for a whiskbroom scanner it refers to the
-      swath width.
-  examples: []
-  entry_status: valid
-  authoritative_source:
-    ref: Manual of Photogrammetry
-  lineage_source: 'ISO/TS 19130-2:2014, 4.20'
-  lineage_source_similarity: 1
-  date_accepted: '2014-01-15T00:00:00.000Z'
-  release: '3'
   terms:
-    - type: expression
-      designation: 시계
-      normative_status: preferred
+  - type: expression
+    normative_status: preferred
+    designation: 시계
+  definition:
+  - content: 각도로 제공되는 센서에 의해 보여지는 즉각적 지역
+  notes:
+  - content: In the airborne case, this would be swath width for a linear array, ground
+      footprint for an area array, and for a whiskbroom scanner it refers to the swath
+      width.
+  examples: []
+  language_code: kor
+  entry_status: valid
+  sources:
+  - type: authoritative
+    origin:
+      ref: Manual of Photogrammetry
+  - type: lineage
+    origin:
+      ref: ISO/TS 19130-2:2014, 4.20
+  lineage_source_similarity: 1
+  dates:
+  - type: accepted
+    date: '2014-01-15T00:00:00.000Z'
+  release: '3'
   _revisions:
-    current: '235e94'
+    current: 235e94
     tree:
-      '235e94':
+      235e94:
         object:
           id: 1388
           definition: 각도로 제공되는 센서에 의해 보여지는 즉각적 지역
           language_code: kor
           notes:
-            - >-
-              In the airborne case, this would be swath width for a linear
-              array, ground footprint for an area array, and for a whiskbroom
-              scanner it refers to the swath width.
+          - In the airborne case, this would be swath width for a linear array, ground
+            footprint for an area array, and for a whiskbroom scanner it refers to
+            the swath width.
           examples: []
           entry_status: valid
           authoritative_source:
             ref: Manual of Photogrammetry
-          lineage_source: 'ISO/TS 19130-2:2014, 4.20'
+          lineage_source: ISO/TS 19130-2:2014, 4.20
           lineage_source_similarity: 1
           date_accepted: '2014-01-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: 시계
-              normative_status: preferred
+          - type: expression
+            designation: 시계
+            normative_status: preferred
         parents: []
         timeCreated: '2014-01-15T00:00:00.000Z'
         author:
@@ -106,26 +118,33 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 1388
-  abbrev: FOV
-  definition: 'мгновенная область, видимая датчиком, установленная в угловой мере'
-  language_code: rus
-  notes:
-    - >-
-      В случае бортового прибора это будет ширина полосы для линейного комплекта
-      , наземная площадь для площадного комплекта,  а для поперечного сканера
-      он относится к ширине полосы.
-  examples: []
-  entry_status: valid
-  authoritative_source:
-    ref: Manual of Photogrammetry
-  lineage_source: 'ISO/TS 19130-2:2014, 4.20'
-  lineage_source_similarity: 1
-  date_accepted: '2014-01-15T00:00:00.000Z'
-  release: '3'
   terms:
-    - type: expression
-      designation: угол поля зрения
-      normative_status: preferred
+  - type: abbreviation
+    designation: FOV
+  - type: expression
+    normative_status: preferred
+    designation: угол поля зрения
+  definition:
+  - content: мгновенная область, видимая датчиком, установленная в угловой мере
+  notes:
+  - content: В случае бортового прибора это будет ширина полосы для линейного комплекта
+      , наземная площадь для площадного комплекта,  а для поперечного сканера он относится
+      к ширине полосы.
+  examples: []
+  language_code: rus
+  entry_status: valid
+  sources:
+  - type: authoritative
+    origin:
+      ref: Manual of Photogrammetry
+  - type: lineage
+    origin:
+      ref: ISO/TS 19130-2:2014, 4.20
+  lineage_source_similarity: 1
+  dates:
+  - type: accepted
+    date: '2014-01-15T00:00:00.000Z'
+  release: '3'
   _revisions:
     current: 2e246f
     tree:
@@ -133,25 +152,25 @@ rus:
         object:
           id: 1388
           abbrev: FOV
-          definition: 'мгновенная область, видимая датчиком, установленная в угловой мере'
+          definition: мгновенная область, видимая датчиком, установленная в угловой
+            мере
           language_code: rus
           notes:
-            - >-
-              В случае бортового прибора это будет ширина полосы для линейного
-              комплекта , наземная площадь для площадного комплекта,  а для
-              поперечного сканера  он относится к ширине полосы.
+          - В случае бортового прибора это будет ширина полосы для линейного комплекта
+            , наземная площадь для площадного комплекта,  а для поперечного сканера  он
+            относится к ширине полосы.
           examples: []
           entry_status: valid
           authoritative_source:
             ref: Manual of Photogrammetry
-          lineage_source: 'ISO/TS 19130-2:2014, 4.20'
+          lineage_source: ISO/TS 19130-2:2014, 4.20
           lineage_source_similarity: 1
           date_accepted: '2014-01-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: угол поля зрения
-              normative_status: preferred
+          - type: expression
+            designation: угол поля зрения
+            normative_status: preferred
         parents: []
         timeCreated: '2014-01-15T00:00:00.000Z'
         author:
@@ -159,26 +178,33 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 1388
-  abbrev: FOV
-  definition: 'region instantánea visible por un sensor, expresada en unidades angulares'
-  language_code: spa
-  notes:
-    - >-
-      En el caso de sistemas areotransportados, el campo de visión sería el
-      ancho de franja para sistemas lineales, la huella en el terreno  para
-      sistemas matriciales y para un escáner whiskbroom la anchura de la franja.
-  examples: []
-  entry_status: valid
-  authoritative_source:
-    ref: Manual of Photogrammetry
-  lineage_source: 'ISO/TS 19130-2:2014, 4.20'
-  lineage_source_similarity: 1
-  date_accepted: '2014-01-15T00:00:00.000Z'
-  release: '3'
   terms:
-    - type: expression
-      designation: campo de visión
-      normative_status: preferred
+  - type: abbreviation
+    designation: FOV
+  - type: expression
+    normative_status: preferred
+    designation: campo de visión
+  definition:
+  - content: region instantánea visible por un sensor, expresada en unidades angulares
+  notes:
+  - content: En el caso de sistemas areotransportados, el campo de visión sería el
+      ancho de franja para sistemas lineales, la huella en el terreno  para sistemas
+      matriciales y para un escáner whiskbroom la anchura de la franja.
+  examples: []
+  language_code: spa
+  entry_status: valid
+  sources:
+  - type: authoritative
+    origin:
+      ref: Manual of Photogrammetry
+  - type: lineage
+    origin:
+      ref: ISO/TS 19130-2:2014, 4.20
+  lineage_source_similarity: 1
+  dates:
+  - type: accepted
+    date: '2014-01-15T00:00:00.000Z'
+  release: '3'
   _revisions:
     current: c028bb
     tree:
@@ -186,28 +212,25 @@ spa:
         object:
           id: 1388
           abbrev: FOV
-          definition: >-
-            region instantánea visible por un sensor, expresada en unidades
+          definition: region instantánea visible por un sensor, expresada en unidades
             angulares
           language_code: spa
           notes:
-            - >-
-              En el caso de sistemas areotransportados, el campo de visión sería
-              el ancho de franja para sistemas lineales, la huella en el
-              terreno  para sistemas matriciales y para un escáner whiskbroom la
-              anchura de la franja.
+          - En el caso de sistemas areotransportados, el campo de visión sería el
+            ancho de franja para sistemas lineales, la huella en el terreno  para
+            sistemas matriciales y para un escáner whiskbroom la anchura de la franja.
           examples: []
           entry_status: valid
           authoritative_source:
             ref: Manual of Photogrammetry
-          lineage_source: 'ISO/TS 19130-2:2014, 4.20'
+          lineage_source: ISO/TS 19130-2:2014, 4.20
           lineage_source_similarity: 1
           date_accepted: '2014-01-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: campo de visión
-              normative_status: preferred
+          - type: expression
+            designation: campo de visión
+            normative_status: preferred
         parents: []
         timeCreated: '2014-01-15T00:00:00.000Z'
         author:

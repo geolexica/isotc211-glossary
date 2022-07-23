@@ -1,21 +1,27 @@
-term: property
+---
 termid: 809
+term: property
 eng:
   id: 809
-  definition: facet or attribute of an object referenced by a name
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: property
+  definition:
+  - content: facet or attribute of an object referenced by a name
   notes: []
   examples: []
+  language_code: eng
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19143:2010'
-    link: 'https://www.iso.org/standard/42137.html'
-  date_accepted: '2010-10-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19143:2010
+      link: https://www.iso.org/standard/42137.html
+  dates:
+  - type: accepted
+    date: '2010-10-15T00:00:00.000Z'
   release: '2'
-  terms:
-    - type: expression
-      designation: property
-      normative_status: preferred
   _revisions:
     current: 24abe9
     tree:
@@ -28,14 +34,14 @@ eng:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19143:2010'
-            link: 'https://www.iso.org/standard/42137.html'
+            ref: ISO 19143:2010
+            link: https://www.iso.org/standard/42137.html
           date_accepted: '2010-10-15T00:00:00.000Z'
           release: '2'
           terms:
-            - type: expression
-              designation: property
-              normative_status: preferred
+          - type: expression
+            designation: property
+            normative_status: preferred
         parents: []
         timeCreated: '2010-10-15T00:00:00.000Z'
         author:
@@ -43,20 +49,25 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 809
-  definition: جانب أو صفة لكيان يشار إليه باسم يعرف به.
-  language_code: ara
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: خاصية
+  definition:
+  - content: جانب أو صفة لكيان يشار إليه باسم يعرف به.
   notes: []
   examples: []
+  language_code: ara
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19143:2010'
-    link: 'https://www.iso.org/standard/42137.html'
-  date_accepted: '2010-10-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19143:2010
+      link: https://www.iso.org/standard/42137.html
+  dates:
+  - type: accepted
+    date: '2010-10-15T00:00:00.000Z'
   release: '2'
-  terms:
-    - type: expression
-      designation: خاصية
-      normative_status: preferred
   _revisions:
     current: 85c6cf
     tree:
@@ -69,14 +80,14 @@ ara:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19143:2010'
-            link: 'https://www.iso.org/standard/42137.html'
+            ref: ISO 19143:2010
+            link: https://www.iso.org/standard/42137.html
           date_accepted: '2010-10-15T00:00:00.000Z'
           release: '2'
           terms:
-            - type: expression
-              designation: خاصية
-              normative_status: preferred
+          - type: expression
+            designation: خاصية
+            normative_status: preferred
         parents: []
         timeCreated: '2010-10-15T00:00:00.000Z'
         author:
@@ -84,48 +95,49 @@ ara:
           email: glossarist@ribose.com
 deu:
   id: 809
-  definition: >-
-    Aspekt oder Attribut eines Objekts, referenziert durch einen Namen
-
-    Portele (bei Prüfung von 19109): "benannter Aspekt oder benanntes Attribut
-    eines Objekts", da referenziert verwirrend ist
-  language_code: deu
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Eigenschaft
+  definition:
+  - content: |-
+      Aspekt oder Attribut eines Objekts, referenziert durch einen Namen
+      Portele (bei Prüfung von 19109): "benannter Aspekt oder benanntes Attribut eines Objekts", da referenziert verwirrend ist
   notes: []
   examples: []
+  language_code: deu
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19143:2010'
-    link: 'https://www.iso.org/standard/42137.html'
-  date_accepted: '2010-10-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19143:2010
+      link: https://www.iso.org/standard/42137.html
+  dates:
+  - type: accepted
+    date: '2010-10-15T00:00:00.000Z'
   release: '2'
-  terms:
-    - type: expression
-      designation: Eigenschaft
-      normative_status: preferred
   _revisions:
     current: 8cc451
     tree:
       8cc451:
         object:
           id: 809
-          definition: >-
+          definition: |-
             Aspekt oder Attribut eines Objekts, referenziert durch einen Namen
-
-            Portele (bei Prüfung von 19109): "benannter Aspekt oder benanntes
-            Attribut eines Objekts", da referenziert verwirrend ist
+            Portele (bei Prüfung von 19109): "benannter Aspekt oder benanntes Attribut eines Objekts", da referenziert verwirrend ist
           language_code: deu
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19143:2010'
-            link: 'https://www.iso.org/standard/42137.html'
+            ref: ISO 19143:2010
+            link: https://www.iso.org/standard/42137.html
           date_accepted: '2010-10-15T00:00:00.000Z'
           release: '2'
           terms:
-            - type: expression
-              designation: Eigenschaft
-              normative_status: preferred
+          - type: expression
+            designation: Eigenschaft
+            normative_status: preferred
         parents: []
         timeCreated: '2010-10-15T00:00:00.000Z'
         author:
@@ -133,20 +145,25 @@ deu:
           email: glossarist@ribose.com
 kor:
   id: 809
-  definition: 이름에 의해 참조될 수 있는 개체의 특성 또는 양상
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 특질
+  definition:
+  - content: 이름에 의해 참조될 수 있는 개체의 특성 또는 양상
   notes: []
   examples: []
+  language_code: kor
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19143:2010'
-    link: 'https://www.iso.org/standard/42137.html'
-  date_accepted: '2010-10-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19143:2010
+      link: https://www.iso.org/standard/42137.html
+  dates:
+  - type: accepted
+    date: '2010-10-15T00:00:00.000Z'
   release: '2'
-  terms:
-    - type: expression
-      designation: 특질
-      normative_status: preferred
   _revisions:
     current: 91310d
     tree:
@@ -159,14 +176,14 @@ kor:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19143:2010'
-            link: 'https://www.iso.org/standard/42137.html'
+            ref: ISO 19143:2010
+            link: https://www.iso.org/standard/42137.html
           date_accepted: '2010-10-15T00:00:00.000Z'
           release: '2'
           terms:
-            - type: expression
-              designation: 특질
-              normative_status: preferred
+          - type: expression
+            designation: 특질
+            normative_status: preferred
         parents: []
         timeCreated: '2010-10-15T00:00:00.000Z'
         author:
@@ -174,20 +191,25 @@ kor:
           email: glossarist@ribose.com
 msa:
   id: 809
-  definition: atribut objek yang dirujuk dengan nama
-  language_code: msa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: sifat
+  definition:
+  - content: atribut objek yang dirujuk dengan nama
   notes: []
   examples: []
+  language_code: msa
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19143:2010'
-    link: 'https://www.iso.org/standard/42137.html'
-  date_accepted: '2010-10-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19143:2010
+      link: https://www.iso.org/standard/42137.html
+  dates:
+  - type: accepted
+    date: '2010-10-15T00:00:00.000Z'
   release: '2'
-  terms:
-    - type: expression
-      designation: sifat
-      normative_status: preferred
   _revisions:
     current: 8ac4a6
     tree:
@@ -200,14 +222,14 @@ msa:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19143:2010'
-            link: 'https://www.iso.org/standard/42137.html'
+            ref: ISO 19143:2010
+            link: https://www.iso.org/standard/42137.html
           date_accepted: '2010-10-15T00:00:00.000Z'
           release: '2'
           terms:
-            - type: expression
-              designation: sifat
-              normative_status: preferred
+          - type: expression
+            designation: sifat
+            normative_status: preferred
         parents: []
         timeCreated: '2010-10-15T00:00:00.000Z'
         author:
@@ -215,42 +237,49 @@ msa:
           email: glossarist@ribose.com
 rus:
   id: 809
-  definition: 'аспект или атрибут объекта, на который ссылаются по имени'
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: свойство
+  definition:
+  - content: аспект или атрибут объекта, на который ссылаются по имени
   notes: []
   examples: []
+  language_code: rus
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19143:2010'
-    link: 'https://www.iso.org/standard/42137.html'
-  lineage_source: 'ISO 19143:2010'
-  date_accepted: '2010-10-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19143:2010
+      link: https://www.iso.org/standard/42137.html
+  - type: lineage
+    origin:
+      ref: ISO 19143:2010
+  dates:
+  - type: accepted
+    date: '2010-10-15T00:00:00.000Z'
   release: '2'
-  terms:
-    - type: expression
-      designation: свойство
-      normative_status: preferred
   _revisions:
     current: f48085
     tree:
       f48085:
         object:
           id: 809
-          definition: 'аспект или атрибут объекта, на который ссылаются по имени'
+          definition: аспект или атрибут объекта, на который ссылаются по имени
           language_code: rus
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19143:2010'
-            link: 'https://www.iso.org/standard/42137.html'
-          lineage_source: 'ISO 19143:2010'
+            ref: ISO 19143:2010
+            link: https://www.iso.org/standard/42137.html
+          lineage_source: ISO 19143:2010
           date_accepted: '2010-10-15T00:00:00.000Z'
           release: '2'
           terms:
-            - type: expression
-              designation: свойство
-              normative_status: preferred
+          - type: expression
+            designation: свойство
+            normative_status: preferred
         parents: []
         timeCreated: '2010-10-15T00:00:00.000Z'
         author:
@@ -258,20 +287,25 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 809
-  definition: característica o atributo de un objeto referenciado por un nombre
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: propiedad
+  definition:
+  - content: característica o atributo de un objeto referenciado por un nombre
   notes: []
   examples: []
+  language_code: spa
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19143:2010'
-    link: 'https://www.iso.org/standard/42137.html'
-  date_accepted: '2010-10-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19143:2010
+      link: https://www.iso.org/standard/42137.html
+  dates:
+  - type: accepted
+    date: '2010-10-15T00:00:00.000Z'
   release: '2'
-  terms:
-    - type: expression
-      designation: propiedad
-      normative_status: preferred
   _revisions:
     current: a988f1
     tree:
@@ -284,14 +318,14 @@ spa:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19143:2010'
-            link: 'https://www.iso.org/standard/42137.html'
+            ref: ISO 19143:2010
+            link: https://www.iso.org/standard/42137.html
           date_accepted: '2010-10-15T00:00:00.000Z'
           release: '2'
           terms:
-            - type: expression
-              designation: propiedad
-              normative_status: preferred
+          - type: expression
+            designation: propiedad
+            normative_status: preferred
         parents: []
         timeCreated: '2010-10-15T00:00:00.000Z'
         author:
@@ -299,22 +333,29 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 809
-  definition: namngiven datauppgift hos en objekttyp
-  country_code: swe
-  language_code: swe
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: datauppgift
+  definition:
+  - content: namngiven datauppgift hos en objekttyp
   notes: []
   examples: []
+  country_code: swe
+  language_code: swe
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19143:2010'
-    link: 'https://www.iso.org/standard/42137.html'
-  lineage_source: (Type reference to national language document)
-  date_accepted: '2010-10-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19143:2010
+      link: https://www.iso.org/standard/42137.html
+  - type: lineage
+    origin:
+      ref: "(Type reference to national language document)"
+  dates:
+  - type: accepted
+    date: '2010-10-15T00:00:00.000Z'
   release: '2'
-  terms:
-    - type: expression
-      designation: datauppgift
-      normative_status: preferred
   _revisions:
     current: e2e830
     tree:
@@ -328,15 +369,15 @@ swe:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19143:2010'
-            link: 'https://www.iso.org/standard/42137.html'
-          lineage_source: (Type reference to national language document)
+            ref: ISO 19143:2010
+            link: https://www.iso.org/standard/42137.html
+          lineage_source: "(Type reference to national language document)"
           date_accepted: '2010-10-15T00:00:00.000Z'
           release: '2'
           terms:
-            - type: expression
-              designation: datauppgift
-              normative_status: preferred
+          - type: expression
+            designation: datauppgift
+            normative_status: preferred
         parents: []
         timeCreated: '2010-10-15T00:00:00.000Z'
         author:

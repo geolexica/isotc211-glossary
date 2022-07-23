@@ -1,36 +1,43 @@
-term: range bin <SAR>
+---
 termid: 965
+term: range bin <SAR>
 eng:
   id: 965
-  definition: group of radar returns that all have the same range
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: range bin <SAR>
+  definition:
+  - content: group of radar returns that all have the same range
   notes: []
   examples: []
+  language_code: eng
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19130-1:2018'
-    clause: '(E), 3.69'
-    link: 'https://www.iso.org/standard/66847.html'
-  lineage_source: 'ISO/TS 19130:2010(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19130-1:2018
+      clause: "(E), 3.69"
+      link: https://www.iso.org/standard/66847.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19130:2010(E)
   lineage_source_similarity: '1'
-  date_accepted: '2010-06-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2010-06-15T00:00:00.000Z'
   review_date: '2018-09-01T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2018-09-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/TS 19130:2010 to ISO
-    19130-1:2018(E), 3.69. Lineage source added as ISO/TS 19130:2010(E)
+  review_decision_event: Publication of ISO 19130-1:2018(E)
+  review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010 to
+    ISO 19130-1:2018(E), 3.69. Lineage source added as ISO/TS 19130:2010(E)
   release: '2'
-  terms:
-    - type: expression
-      designation: range bin <SAR>
-      normative_status: preferred
   _revisions:
-    current: 09350a
+    current: '09350a'
     tree:
-      09350a:
+      '09350a':
         object:
           id: 965
           definition: group of radar returns that all have the same range
@@ -39,25 +46,24 @@ eng:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19130-1:2018'
-            clause: '(E), 3.69'
-            link: 'https://www.iso.org/standard/66847.html'
-          lineage_source: 'ISO/TS 19130:2010(E)'
+            ref: ISO 19130-1:2018
+            clause: "(E), 3.69"
+            link: https://www.iso.org/standard/66847.html
+          lineage_source: ISO/TS 19130:2010(E)
           lineage_source_similarity: '1'
           date_accepted: '2010-06-15T00:00:00.000Z'
           review_date: '2018-09-01T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2018-09-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/TS 19130:2010 to ISO
-            19130-1:2018(E), 3.69. Lineage source added as ISO/TS 19130:2010(E)
+          review_decision_event: Publication of ISO 19130-1:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010
+            to ISO 19130-1:2018(E), 3.69. Lineage source added as ISO/TS 19130:2010(E)
           release: '2'
           terms:
-            - type: expression
-              designation: range bin <SAR>
-              normative_status: preferred
+          - type: expression
+            designation: range bin <SAR>
+            normative_status: preferred
         parents: []
         timeCreated: '2010-06-15T00:00:00.000Z'
         author:
@@ -65,31 +71,37 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 965
-  definition: مجموعة من ارتدادات الرادار التي لها نفس المدى
-  language_code: ara
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: خانة المدى < تقنية رادار الرصد المركب"سار">
+  definition:
+  - content: مجموعة من ارتدادات الرادار التي لها نفس المدى
   notes: []
   examples: []
+  language_code: ara
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19130-1:2018'
-    clause: '(E), 3.69'
-    link: 'https://www.iso.org/standard/66847.html'
-  lineage_source: 'ISO/TS 19130:2010(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19130-1:2018
+      clause: "(E), 3.69"
+      link: https://www.iso.org/standard/66847.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19130:2010(E)
   lineage_source_similarity: '1'
-  date_accepted: '2010-06-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2010-06-15T00:00:00.000Z'
   review_date: '2018-09-01T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2018-09-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/TS 19130:2010 to ISO
-    19130-1:2018(E), 3.69. Lineage source added as ISO/TS 19130:2010(E)
+  review_decision_event: Publication of ISO 19130-1:2018(E)
+  review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010 to
+    ISO 19130-1:2018(E), 3.69. Lineage source added as ISO/TS 19130:2010(E)
   release: '2'
-  terms:
-    - type: expression
-      designation: خانة المدى < تقنية رادار الرصد المركب"سار">
-      normative_status: preferred
   _revisions:
     current: 12cc30
     tree:
@@ -102,25 +114,24 @@ ara:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19130-1:2018'
-            clause: '(E), 3.69'
-            link: 'https://www.iso.org/standard/66847.html'
-          lineage_source: 'ISO/TS 19130:2010(E)'
+            ref: ISO 19130-1:2018
+            clause: "(E), 3.69"
+            link: https://www.iso.org/standard/66847.html
+          lineage_source: ISO/TS 19130:2010(E)
           lineage_source_similarity: '1'
           date_accepted: '2010-06-15T00:00:00.000Z'
           review_date: '2018-09-01T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2018-09-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/TS 19130:2010 to ISO
-            19130-1:2018(E), 3.69. Lineage source added as ISO/TS 19130:2010(E)
+          review_decision_event: Publication of ISO 19130-1:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010
+            to ISO 19130-1:2018(E), 3.69. Lineage source added as ISO/TS 19130:2010(E)
           release: '2'
           terms:
-            - type: expression
-              designation: خانة المدى < تقنية رادار الرصد المركب"سار">
-              normative_status: preferred
+          - type: expression
+            designation: خانة المدى < تقنية رادار الرصد المركب"سار">
+            normative_status: preferred
         parents: []
         timeCreated: '2010-06-15T00:00:00.000Z'
         author:
@@ -128,62 +139,67 @@ ara:
           email: glossarist@ribose.com
 deu:
   id: 965
-  definition: 'Radarechos, die die gleiche Messentfernung darstellen'
-  language_code: deu
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Streckenbündel <SAR>
+  definition:
+  - content: Radarechos, die die gleiche Messentfernung darstellen
   notes: []
   examples: []
+  language_code: deu
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19130-1:2018'
-    clause: '(E), 3.69'
-    link: 'https://www.iso.org/standard/66847.html'
-  lineage_source: 'ISO/TS 19130:2010(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19130-1:2018
+      clause: "(E), 3.69"
+      link: https://www.iso.org/standard/66847.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19130:2010(E)
   lineage_source_similarity: '1'
-  date_accepted: '2010-06-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2010-06-15T00:00:00.000Z'
   review_date: '2018-09-01T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2018-09-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/TS 19130:2010 to ISO
-    19130-1:2018(E), 3.69. Lineage source added as ISO/TS 19130:2010(E)
+  review_decision_event: Publication of ISO 19130-1:2018(E)
+  review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010 to
+    ISO 19130-1:2018(E), 3.69. Lineage source added as ISO/TS 19130:2010(E)
   release: '2'
-  terms:
-    - type: expression
-      designation: Streckenbündel <SAR>
-      normative_status: preferred
   _revisions:
     current: 4e6fee
     tree:
       4e6fee:
         object:
           id: 965
-          definition: 'Radarechos, die die gleiche Messentfernung darstellen'
+          definition: Radarechos, die die gleiche Messentfernung darstellen
           language_code: deu
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19130-1:2018'
-            clause: '(E), 3.69'
-            link: 'https://www.iso.org/standard/66847.html'
-          lineage_source: 'ISO/TS 19130:2010(E)'
+            ref: ISO 19130-1:2018
+            clause: "(E), 3.69"
+            link: https://www.iso.org/standard/66847.html
+          lineage_source: ISO/TS 19130:2010(E)
           lineage_source_similarity: '1'
           date_accepted: '2010-06-15T00:00:00.000Z'
           review_date: '2018-09-01T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2018-09-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/TS 19130:2010 to ISO
-            19130-1:2018(E), 3.69. Lineage source added as ISO/TS 19130:2010(E)
+          review_decision_event: Publication of ISO 19130-1:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010
+            to ISO 19130-1:2018(E), 3.69. Lineage source added as ISO/TS 19130:2010(E)
           release: '2'
           terms:
-            - type: expression
-              designation: Streckenbündel <SAR>
-              normative_status: preferred
+          - type: expression
+            designation: Streckenbündel <SAR>
+            normative_status: preferred
         parents: []
         timeCreated: '2010-06-15T00:00:00.000Z'
         author:
@@ -191,31 +207,37 @@ deu:
           email: glossarist@ribose.com
 kor:
   id: 965
-  definition: 전부 동일한 범위를 가진 레이더 회신 그룹
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 범위 빈
+  definition:
+  - content: 전부 동일한 범위를 가진 레이더 회신 그룹
   notes: []
   examples: []
+  language_code: kor
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19130-1:2018'
-    clause: '(E), 3.69'
-    link: 'https://www.iso.org/standard/66847.html'
-  lineage_source: 'ISO/TS 19130:2010(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19130-1:2018
+      clause: "(E), 3.69"
+      link: https://www.iso.org/standard/66847.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19130:2010(E)
   lineage_source_similarity: '1'
-  date_accepted: '2010-06-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2010-06-15T00:00:00.000Z'
   review_date: '2018-09-01T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2018-09-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/TS 19130:2010 to ISO
-    19130-1:2018(E), 3.69. Lineage source added as ISO/TS 19130:2010(E)
+  review_decision_event: Publication of ISO 19130-1:2018(E)
+  review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010 to
+    ISO 19130-1:2018(E), 3.69. Lineage source added as ISO/TS 19130:2010(E)
   release: '2'
-  terms:
-    - type: expression
-      designation: 범위 빈
-      normative_status: preferred
   _revisions:
     current: ee6d5d
     tree:
@@ -228,25 +250,24 @@ kor:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19130-1:2018'
-            clause: '(E), 3.69'
-            link: 'https://www.iso.org/standard/66847.html'
-          lineage_source: 'ISO/TS 19130:2010(E)'
+            ref: ISO 19130-1:2018
+            clause: "(E), 3.69"
+            link: https://www.iso.org/standard/66847.html
+          lineage_source: ISO/TS 19130:2010(E)
           lineage_source_similarity: '1'
           date_accepted: '2010-06-15T00:00:00.000Z'
           review_date: '2018-09-01T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2018-09-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/TS 19130:2010 to ISO
-            19130-1:2018(E), 3.69. Lineage source added as ISO/TS 19130:2010(E)
+          review_decision_event: Publication of ISO 19130-1:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010
+            to ISO 19130-1:2018(E), 3.69. Lineage source added as ISO/TS 19130:2010(E)
           release: '2'
           terms:
-            - type: expression
-              designation: 범위 빈
-              normative_status: preferred
+          - type: expression
+            designation: 범위 빈
+            normative_status: preferred
         parents: []
         timeCreated: '2010-06-15T00:00:00.000Z'
         author:
@@ -254,66 +275,69 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 965
-  definition: >-
-    группа отраженных радиолокационных сигналов, которые имеют одинаковую
-    дальность
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: элемент разрешения по дальности <SAR>
+  definition:
+  - content: группа отраженных радиолокационных сигналов, которые имеют одинаковую
+      дальность
   notes: []
   examples: []
+  language_code: rus
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19130-1:2018'
-    clause: '(E), 3.69'
-    link: 'https://www.iso.org/standard/66847.html'
-  lineage_source: 'ISO/TS 19130:2010(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19130-1:2018
+      clause: "(E), 3.69"
+      link: https://www.iso.org/standard/66847.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19130:2010(E)
   lineage_source_similarity: '1'
-  date_accepted: '2010-06-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2010-06-15T00:00:00.000Z'
   review_date: '2018-09-01T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2018-09-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/TS 19130:2010 to ISO
-    19130-1:2018(E), 3.69. Lineage source added as ISO/TS 19130:2010(E)
+  review_decision_event: Publication of ISO 19130-1:2018(E)
+  review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010 to
+    ISO 19130-1:2018(E), 3.69. Lineage source added as ISO/TS 19130:2010(E)
   release: '2'
-  terms:
-    - type: expression
-      designation: элемент разрешения по дальности <SAR>
-      normative_status: preferred
   _revisions:
     current: 48bf4b
     tree:
       48bf4b:
         object:
           id: 965
-          definition: >-
-            группа отраженных радиолокационных сигналов, которые имеют
-            одинаковую дальность
+          definition: группа отраженных радиолокационных сигналов, которые имеют одинаковую
+            дальность
           language_code: rus
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19130-1:2018'
-            clause: '(E), 3.69'
-            link: 'https://www.iso.org/standard/66847.html'
-          lineage_source: 'ISO/TS 19130:2010(E)'
+            ref: ISO 19130-1:2018
+            clause: "(E), 3.69"
+            link: https://www.iso.org/standard/66847.html
+          lineage_source: ISO/TS 19130:2010(E)
           lineage_source_similarity: '1'
           date_accepted: '2010-06-15T00:00:00.000Z'
           review_date: '2018-09-01T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2018-09-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/TS 19130:2010 to ISO
-            19130-1:2018(E), 3.69. Lineage source added as ISO/TS 19130:2010(E)
+          review_decision_event: Publication of ISO 19130-1:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010
+            to ISO 19130-1:2018(E), 3.69. Lineage source added as ISO/TS 19130:2010(E)
           release: '2'
           terms:
-            - type: expression
-              designation: элемент разрешения по дальности <SAR>
-              normative_status: preferred
+          - type: expression
+            designation: элемент разрешения по дальности <SAR>
+            normative_status: preferred
         parents: []
         timeCreated: '2010-06-15T00:00:00.000Z'
         author:
@@ -321,31 +345,37 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 965
-  definition: grupo de ecos de radar con el mismo vector distancia
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: perfiles de distancia <SAR>
+  definition:
+  - content: grupo de ecos de radar con el mismo vector distancia
   notes: []
   examples: []
+  language_code: spa
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19130-1:2018'
-    clause: '(E), 3.69'
-    link: 'https://www.iso.org/standard/66847.html'
-  lineage_source: 'ISO/TS 19130:2010(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19130-1:2018
+      clause: "(E), 3.69"
+      link: https://www.iso.org/standard/66847.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19130:2010(E)
   lineage_source_similarity: '1'
-  date_accepted: '2010-06-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2010-06-15T00:00:00.000Z'
   review_date: '2018-09-01T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2018-09-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/TS 19130:2010 to ISO
-    19130-1:2018(E), 3.69. Lineage source added as ISO/TS 19130:2010(E)
+  review_decision_event: Publication of ISO 19130-1:2018(E)
+  review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010 to
+    ISO 19130-1:2018(E), 3.69. Lineage source added as ISO/TS 19130:2010(E)
   release: '2'
-  terms:
-    - type: expression
-      designation: perfiles de distancia <SAR>
-      normative_status: preferred
   _revisions:
     current: 87deb9
     tree:
@@ -358,25 +388,24 @@ spa:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19130-1:2018'
-            clause: '(E), 3.69'
-            link: 'https://www.iso.org/standard/66847.html'
-          lineage_source: 'ISO/TS 19130:2010(E)'
+            ref: ISO 19130-1:2018
+            clause: "(E), 3.69"
+            link: https://www.iso.org/standard/66847.html
+          lineage_source: ISO/TS 19130:2010(E)
           lineage_source_similarity: '1'
           date_accepted: '2010-06-15T00:00:00.000Z'
           review_date: '2018-09-01T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2018-09-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/TS 19130:2010 to ISO
-            19130-1:2018(E), 3.69. Lineage source added as ISO/TS 19130:2010(E)
+          review_decision_event: Publication of ISO 19130-1:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010
+            to ISO 19130-1:2018(E), 3.69. Lineage source added as ISO/TS 19130:2010(E)
           release: '2'
           terms:
-            - type: expression
-              designation: perfiles de distancia <SAR>
-              normative_status: preferred
+          - type: expression
+            designation: perfiles de distancia <SAR>
+            normative_status: preferred
         parents: []
         timeCreated: '2010-06-15T00:00:00.000Z'
         author:
@@ -384,32 +413,38 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 965
-  definition: element i ett kvantiserat avståndsområde.
-  country_code: swe
-  language_code: swe
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: avståndsfålla <SAR>
+  definition:
+  - content: element i ett kvantiserat avståndsområde.
   notes: []
   examples: []
+  country_code: swe
+  language_code: swe
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19130-1:2018'
-    clause: '(E), 3.69'
-    link: 'https://www.iso.org/standard/66847.html'
-  lineage_source: 'ISO/TS 19130:2010(E)'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19130-1:2018
+      clause: "(E), 3.69"
+      link: https://www.iso.org/standard/66847.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19130:2010(E)
   lineage_source_similarity: '1'
-  date_accepted: '2010-06-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2010-06-15T00:00:00.000Z'
   review_date: '2018-09-01T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2018-09-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/TS 19130:2010 to ISO
-    19130-1:2018(E), 3.69. Lineage source added as ISO/TS 19130:2010(E)
+  review_decision_event: Publication of ISO 19130-1:2018(E)
+  review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010 to
+    ISO 19130-1:2018(E), 3.69. Lineage source added as ISO/TS 19130:2010(E)
   release: '2'
-  terms:
-    - type: expression
-      designation: avståndsfålla <SAR>
-      normative_status: preferred
   _revisions:
     current: 93336f
     tree:
@@ -423,25 +458,24 @@ swe:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19130-1:2018'
-            clause: '(E), 3.69'
-            link: 'https://www.iso.org/standard/66847.html'
-          lineage_source: 'ISO/TS 19130:2010(E)'
+            ref: ISO 19130-1:2018
+            clause: "(E), 3.69"
+            link: https://www.iso.org/standard/66847.html
+          lineage_source: ISO/TS 19130:2010(E)
           lineage_source_similarity: '1'
           date_accepted: '2010-06-15T00:00:00.000Z'
           review_date: '2018-09-01T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2018-09-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19130-1:2018(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/TS 19130:2010 to ISO
-            19130-1:2018(E), 3.69. Lineage source added as ISO/TS 19130:2010(E)
+          review_decision_event: Publication of ISO 19130-1:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010
+            to ISO 19130-1:2018(E), 3.69. Lineage source added as ISO/TS 19130:2010(E)
           release: '2'
           terms:
-            - type: expression
-              designation: avståndsfålla <SAR>
-              normative_status: preferred
+          - type: expression
+            designation: avståndsfålla <SAR>
+            normative_status: preferred
         parents: []
         timeCreated: '2010-06-15T00:00:00.000Z'
         author:

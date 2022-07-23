@@ -1,23 +1,29 @@
-term: executable test case
+---
 termid: 161
+term: executable test case
 eng:
   id: 161
-  definition: specific test of an implementation to meet particular requirements
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: executable test case
+  definition:
+  - content: specific test of an implementation to meet particular requirements
   notes:
-    - Instantiation of an abstract test case with values.
+  - content: Instantiation of an abstract test case with values.
   examples: []
+  language_code: eng
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19105:2000'
-    link: 'https://www.iso.org/standard/26010.html'
-  date_accepted: '2000-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19105:2000
+      link: https://www.iso.org/standard/26010.html
+  dates:
+  - type: accepted
+    date: '2000-12-15T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: executable test case
-      normative_status: preferred
   _revisions:
     current: 918ee1
     tree:
@@ -27,19 +33,19 @@ eng:
           definition: specific test of an implementation to meet particular requirements
           language_code: eng
           notes:
-            - Instantiation of an abstract test case with values.
+          - Instantiation of an abstract test case with values.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19105:2000'
-            link: 'https://www.iso.org/standard/26010.html'
+            ref: ISO 19105:2000
+            link: https://www.iso.org/standard/26010.html
           date_accepted: '2000-12-15T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: executable test case
-              normative_status: preferred
+          - type: expression
+            designation: executable test case
+            normative_status: preferred
         parents: []
         timeCreated: '2000-12-15T00:00:00.000Z'
         author:
@@ -47,22 +53,27 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 161
-  definition: اختبار محدد للتنفيذ لتلبية متطلبات محددة
-  language_code: ara
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: حالة اختبار قابلة للتنفيذ
+  definition:
+  - content: اختبار محدد للتنفيذ لتلبية متطلبات محددة
   notes:
-    - تمثيل حالة اختبار تجريدي بالقيم.
+  - content: تمثيل حالة اختبار تجريدي بالقيم.
   examples: []
+  language_code: ara
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19105:2000'
-    link: 'https://www.iso.org/standard/26010.html'
-  date_accepted: '2000-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19105:2000
+      link: https://www.iso.org/standard/26010.html
+  dates:
+  - type: accepted
+    date: '2000-12-15T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: حالة اختبار قابلة للتنفيذ
-      normative_status: preferred
   _revisions:
     current: 4a3387
     tree:
@@ -72,19 +83,19 @@ ara:
           definition: اختبار محدد للتنفيذ لتلبية متطلبات محددة
           language_code: ara
           notes:
-            - تمثيل حالة اختبار تجريدي بالقيم.
+          - تمثيل حالة اختبار تجريدي بالقيم.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19105:2000'
-            link: 'https://www.iso.org/standard/26010.html'
+            ref: ISO 19105:2000
+            link: https://www.iso.org/standard/26010.html
           date_accepted: '2000-12-15T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: حالة اختبار قابلة للتنفيذ
-              normative_status: preferred
+          - type: expression
+            designation: حالة اختبار قابلة للتنفيذ
+            normative_status: preferred
         parents: []
         timeCreated: '2000-12-15T00:00:00.000Z'
         author:
@@ -92,21 +103,26 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 161
-  definition: 为满足特定要求，对实现所进行的专门测试。
-  language_code: zho
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 可执行测试用例
+  definition:
+  - content: 为满足特定要求，对实现所进行的专门测试。
   notes:
-    - 带有值的抽象测试用例的实例化。
+  - content: 带有值的抽象测试用例的实例化。
   examples: []
+  language_code: zho
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19105:2000'
-    link: 'https://www.iso.org/standard/26010.html'
-  date_accepted: '2000-12-15T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: 可执行测试用例
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19105:2000
+      link: https://www.iso.org/standard/26010.html
+  dates:
+  - type: accepted
+    date: '2000-12-15T00:00:00.000Z'
   _revisions:
     current: ee3568
     tree:
@@ -116,18 +132,18 @@ zho:
           definition: 为满足特定要求，对实现所进行的专门测试。
           language_code: zho
           notes:
-            - 带有值的抽象测试用例的实例化。
+          - 带有值的抽象测试用例的实例化。
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19105:2000'
-            link: 'https://www.iso.org/standard/26010.html'
+            ref: ISO 19105:2000
+            link: https://www.iso.org/standard/26010.html
           date_accepted: '2000-12-15T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: 可执行测试用例
-              normative_status: preferred
+          - type: expression
+            designation: 可执行测试用例
+            normative_status: preferred
         parents: []
         timeCreated: '2000-12-15T00:00:00.000Z'
         author:
@@ -135,20 +151,24 @@ zho:
           email: glossarist@ribose.com
 dan:
   id: 161
-  definition: specifik test af en implementering for at opfylde bestemte krav
-  language_code: dan
-  notes:
-    - Instantiering af et abstrakt testforløb med værdier.
-  examples: []
-  authoritative_source:
-    ref: 'ISO 19105:2000'
-    link: 'https://www.iso.org/standard/26010.html'
-  date_accepted: '2000-12-15T00:00:00.000Z'
-  release: '1'
   terms:
-    - type: expression
-      designation: eksekverbar testcase
-      normative_status: null
+  - type: expression
+    designation: eksekverbar testcase
+  definition:
+  - content: specifik test af en implementering for at opfylde bestemte krav
+  notes:
+  - content: Instantiering af et abstrakt testforløb med værdier.
+  examples: []
+  language_code: dan
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19105:2000
+      link: https://www.iso.org/standard/26010.html
+  dates:
+  - type: accepted
+    date: '2000-12-15T00:00:00.000Z'
+  release: '1'
   _revisions:
     current: 4b63da
     tree:
@@ -158,17 +178,17 @@ dan:
           definition: specifik test af en implementering for at opfylde bestemte krav
           language_code: dan
           notes:
-            - Instantiering af et abstrakt testforløb med værdier.
+          - Instantiering af et abstrakt testforløb med værdier.
           examples: []
           authoritative_source:
-            ref: 'ISO 19105:2000'
-            link: 'https://www.iso.org/standard/26010.html'
+            ref: ISO 19105:2000
+            link: https://www.iso.org/standard/26010.html
           date_accepted: '2000-12-15T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: eksekverbar testcase
-              normative_status: null
+          - type: expression
+            designation: eksekverbar testcase
+            normative_status:
         parents: []
         timeCreated: '2000-12-15T00:00:00.000Z'
         author:
@@ -176,48 +196,53 @@ dan:
           email: glossarist@ribose.com
 fin:
   id: 161
-  definition: >-
-    toteutukselle suoritettava erityinen testi tiettyjen vaatimusten täyttymisen
-    toteamiseksi
-  language_code: fin
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: suoritettavissa oleva testitapaus
+  definition:
+  - content: toteutukselle suoritettava erityinen testi tiettyjen vaatimusten täyttymisen
+      toteamiseksi
   notes:
-    - Kyseessä on abstraktin testitapauksen konkretisoiminen arvoilla.
+  - content: Kyseessä on abstraktin testitapauksen konkretisoiminen arvoilla.
   examples: []
+  language_code: fin
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19105:2000'
-    link: 'https://www.iso.org/standard/26010.html'
-  lineage_source: 'Ei lähdettä, käännetty'
-  date_accepted: '2000-12-15T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: suoritettavissa oleva testitapaus
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19105:2000
+      link: https://www.iso.org/standard/26010.html
+  - type: lineage
+    origin:
+      ref: Ei lähdettä, käännetty
+  dates:
+  - type: accepted
+    date: '2000-12-15T00:00:00.000Z'
   _revisions:
     current: f16210
     tree:
       f16210:
         object:
           id: 161
-          definition: >-
-            toteutukselle suoritettava erityinen testi tiettyjen vaatimusten
+          definition: toteutukselle suoritettava erityinen testi tiettyjen vaatimusten
             täyttymisen toteamiseksi
           language_code: fin
           notes:
-            - Kyseessä on abstraktin testitapauksen konkretisoiminen arvoilla.
+          - Kyseessä on abstraktin testitapauksen konkretisoiminen arvoilla.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19105:2000'
-            link: 'https://www.iso.org/standard/26010.html'
-          lineage_source: 'Ei lähdettä, käännetty'
+            ref: ISO 19105:2000
+            link: https://www.iso.org/standard/26010.html
+          lineage_source: Ei lähdettä, käännetty
           date_accepted: '2000-12-15T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: suoritettavissa oleva testitapaus
-              normative_status: preferred
+          - type: expression
+            designation: suoritettavissa oleva testitapaus
+            normative_status: preferred
         parents: []
         timeCreated: '2000-12-15T00:00:00.000Z'
         author:
@@ -225,30 +250,35 @@ fin:
           email: glossarist@ribose.com
 fra:
   id: 161
-  definition: >-
-    test spécifique d'une implémentation destiné à satisfaire des exigences
-    particulières
-  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: cas de test exécutable
+  definition:
+  - content: test spécifique d'une implémentation destiné à satisfaire des exigences
+      particulières
   notes: []
   examples: []
+  language_code: fra
   entry_status: valid
-  authoritative_source:
-    ref: ISO 19105
-    link: 'https://www.iso.org/standard/26010.html'
-  lineage_source: ''
-  date_accepted: '2000-11-16T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: cas de test exécutable
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19105
+      link: https://www.iso.org/standard/26010.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2000-11-16T00:00:00.000Z'
   _revisions:
-    current: 01991d
+    current: '01991d'
     tree:
-      01991d:
+      '01991d':
         object:
           id: 161
-          definition: >-
-            test spécifique d'une implémentation destiné à satisfaire des
+          definition: test spécifique d'une implémentation destiné à satisfaire des
             exigences particulières
           language_code: fra
           notes: []
@@ -256,13 +286,13 @@ fra:
           entry_status: valid
           authoritative_source:
             ref: ISO 19105
-            link: 'https://www.iso.org/standard/26010.html'
+            link: https://www.iso.org/standard/26010.html
           lineage_source: ''
           date_accepted: '2000-11-16T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: cas de test exécutable
-              normative_status: preferred
+          - type: expression
+            designation: cas de test exécutable
+            normative_status: preferred
         parents: []
         timeCreated: '2000-11-16T00:00:00.000Z'
         author:
@@ -270,21 +300,25 @@ fra:
           email: glossarist@ribose.com
 deu:
   id: 161
-  language_code: deu
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ausführbarer Testfall
   notes:
-    - Instantiation of an abstract test case with values.
+  - content: Instantiation of an abstract test case with values.
   examples: []
+  language_code: deu
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19105:2000'
-    link: 'https://www.iso.org/standard/26010.html'
-  date_accepted: '2000-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19105:2000
+      link: https://www.iso.org/standard/26010.html
+  dates:
+  - type: accepted
+    date: '2000-12-15T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: ausführbarer Testfall
-      normative_status: preferred
   _revisions:
     current: ef405d
     tree:
@@ -293,19 +327,19 @@ deu:
           id: 161
           language_code: deu
           notes:
-            - Instantiation of an abstract test case with values.
+          - Instantiation of an abstract test case with values.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19105:2000'
-            link: 'https://www.iso.org/standard/26010.html'
+            ref: ISO 19105:2000
+            link: https://www.iso.org/standard/26010.html
           date_accepted: '2000-12-15T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: ausführbarer Testfall
-              normative_status: preferred
+          - type: expression
+            designation: ausführbarer Testfall
+            normative_status: preferred
         parents: []
         timeCreated: '2000-12-15T00:00:00.000Z'
         author:
@@ -313,22 +347,29 @@ deu:
           email: glossarist@ribose.com
 jpn:
   id: 161
-  definition: 特定の要件を満たす実装に固有の試験。
-  language_code: jpn
-  notes:
-    - 抽象試験項目に値を入れて具体化したもの。
-  examples: []
-  entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19105:2000'
-    link: 'https://www.iso.org/standard/26010.html'
-  lineage_source: JIS X 7105
-  date_accepted: '2000-12-15T00:00:00.000Z'
-  release: '1'
   terms:
-    - type: expression
-      designation: 実行可能試験項目
-      normative_status: preferred
+  - type: expression
+    normative_status: preferred
+    designation: 実行可能試験項目
+  definition:
+  - content: 特定の要件を満たす実装に固有の試験。
+  notes:
+  - content: 抽象試験項目に値を入れて具体化したもの。
+  examples: []
+  language_code: jpn
+  entry_status: valid
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19105:2000
+      link: https://www.iso.org/standard/26010.html
+  - type: lineage
+    origin:
+      ref: JIS X 7105
+  dates:
+  - type: accepted
+    date: '2000-12-15T00:00:00.000Z'
+  release: '1'
   _revisions:
     current: '902039'
     tree:
@@ -338,19 +379,19 @@ jpn:
           definition: 特定の要件を満たす実装に固有の試験。
           language_code: jpn
           notes:
-            - 抽象試験項目に値を入れて具体化したもの。
+          - 抽象試験項目に値を入れて具体化したもの。
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19105:2000'
-            link: 'https://www.iso.org/standard/26010.html'
+            ref: ISO 19105:2000
+            link: https://www.iso.org/standard/26010.html
           lineage_source: JIS X 7105
           date_accepted: '2000-12-15T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: 実行可能試験項目
-              normative_status: preferred
+          - type: expression
+            designation: 実行可能試験項目
+            normative_status: preferred
         parents: []
         timeCreated: '2000-12-15T00:00:00.000Z'
         author:
@@ -358,23 +399,30 @@ jpn:
           email: glossarist@ribose.com
 kor:
   id: 161
-  definition: 특정 요구 사항을 만족하는 구현 시험
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 실행 가능 시험 케이스
+  definition:
+  - content: 특정 요구 사항을 만족하는 구현 시험
   notes:
-    - 추상 시험 케이스를 값을 통해 실체화 시킴
+  - content: 추상 시험 케이스를 값을 통해 실체화 시킴
   examples: []
+  language_code: kor
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19105:2000'
-    link: 'https://www.iso.org/standard/26010.html'
-  lineage_source: KS X ISO 19105
-  date_accepted: '2007-06-29T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19105:2000
+      link: https://www.iso.org/standard/26010.html
+  - type: lineage
+    origin:
+      ref: KS X ISO 19105
+  dates:
+  - type: accepted
+    date: '2007-06-29T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: 실행 가능 시험 케이스
-      normative_status: preferred
   _revisions:
     current: 1d0bad
     tree:
@@ -384,20 +432,20 @@ kor:
           definition: 특정 요구 사항을 만족하는 구현 시험
           language_code: kor
           notes:
-            - 추상 시험 케이스를 값을 통해 실체화 시킴
+          - 추상 시험 케이스를 값을 통해 실체화 시킴
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19105:2000'
-            link: 'https://www.iso.org/standard/26010.html'
+            ref: ISO 19105:2000
+            link: https://www.iso.org/standard/26010.html
           lineage_source: KS X ISO 19105
           date_accepted: '2007-06-29T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: 실행 가능 시험 케이스
-              normative_status: preferred
+          - type: expression
+            designation: 실행 가능 시험 케이스
+            normative_status: preferred
         parents: []
         timeCreated: '2007-06-29T00:00:00.000Z'
         author:
@@ -405,22 +453,29 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 161
-  definition: конкретный тест на соответствие реализации определенным требованиям
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: исполняемый тест
+  definition:
+  - content: конкретный тест на соответствие реализации определенным требованиям
   notes:
-    - Реализация абстрактного теста со значениями
+  - content: Реализация абстрактного теста со значениями
   examples: []
+  language_code: rus
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19105:2000'
-    link: 'https://www.iso.org/standard/26010.html'
-  lineage_source: Internet
-  date_accepted: '2000-12-15T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: исполняемый тест
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19105:2000
+      link: https://www.iso.org/standard/26010.html
+  - type: lineage
+    origin:
+      ref: Internet
+  dates:
+  - type: accepted
+    date: '2000-12-15T00:00:00.000Z'
   _revisions:
     current: ae145f
     tree:
@@ -430,19 +485,19 @@ rus:
           definition: конкретный тест на соответствие реализации определенным требованиям
           language_code: rus
           notes:
-            - Реализация абстрактного теста со значениями
+          - Реализация абстрактного теста со значениями
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19105:2000'
-            link: 'https://www.iso.org/standard/26010.html'
+            ref: ISO 19105:2000
+            link: https://www.iso.org/standard/26010.html
           lineage_source: Internet
           date_accepted: '2000-12-15T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: исполняемый тест
-              normative_status: preferred
+          - type: expression
+            designation: исполняемый тест
+            normative_status: preferred
         parents: []
         timeCreated: '2000-12-15T00:00:00.000Z'
         author:
@@ -450,46 +505,49 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 161
-  definition: >-
-    prueba específica de una implementación para satisfacer requerimientos
-    particulares
-  language_code: spa
-  notes:
-    - Instanciación de una de prueba genérica con valores concretos.
-  examples: []
-  entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19105:2000'
-    link: 'https://www.iso.org/standard/26010.html'
-  date_accepted: '2000-12-15T00:00:00.000Z'
-  release: '1'
   terms:
-    - type: expression
-      designation: caso de prueba ejecutable
-      normative_status: preferred
+  - type: expression
+    normative_status: preferred
+    designation: caso de prueba ejecutable
+  definition:
+  - content: prueba específica de una implementación para satisfacer requerimientos
+      particulares
+  notes:
+  - content: Instanciación de una de prueba genérica con valores concretos.
+  examples: []
+  language_code: spa
+  entry_status: valid
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19105:2000
+      link: https://www.iso.org/standard/26010.html
+  dates:
+  - type: accepted
+    date: '2000-12-15T00:00:00.000Z'
+  release: '1'
   _revisions:
     current: 30283b
     tree:
       30283b:
         object:
           id: 161
-          definition: >-
-            prueba específica de una implementación para satisfacer
-            requerimientos particulares
+          definition: prueba específica de una implementación para satisfacer requerimientos
+            particulares
           language_code: spa
           notes:
-            - Instanciación de una de prueba genérica con valores concretos.
+          - Instanciación de una de prueba genérica con valores concretos.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19105:2000'
-            link: 'https://www.iso.org/standard/26010.html'
+            ref: ISO 19105:2000
+            link: https://www.iso.org/standard/26010.html
           date_accepted: '2000-12-15T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: caso de prueba ejecutable
-              normative_status: preferred
+          - type: expression
+            designation: caso de prueba ejecutable
+            normative_status: preferred
         parents: []
         timeCreated: '2000-12-15T00:00:00.000Z'
         author:
@@ -497,52 +555,57 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 161
-  definition: >-
-    test för att avgöra om ett visst krav är uppfyllt eller ej genom att
-    konkreta värden anges
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: utförbart testfall
+  definition:
+  - content: test för att avgöra om ett visst krav är uppfyllt eller ej genom att
+      konkreta värden anges
+  notes:
+  - content: Instantiation of an abstract test case with values.
+  examples: []
   country_code: swe
   language_code: swe
-  notes:
-    - Instantiation of an abstract test case with values.
-  examples: []
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19105:2000'
-    link: 'https://www.iso.org/standard/26010.html'
-  lineage_source: (Type reference to national language document)
-  date_accepted: '2000-12-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19105:2000
+      link: https://www.iso.org/standard/26010.html
+  - type: lineage
+    origin:
+      ref: "(Type reference to national language document)"
+  dates:
+  - type: accepted
+    date: '2000-12-15T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: utförbart testfall
-      normative_status: preferred
   _revisions:
     current: 001fee
     tree:
       001fee:
         object:
           id: 161
-          definition: >-
-            test för att avgöra om ett visst krav är uppfyllt eller ej genom att
-            konkreta värden anges
+          definition: test för att avgöra om ett visst krav är uppfyllt eller ej genom
+            att konkreta värden anges
           country_code: swe
           language_code: swe
           notes:
-            - Instantiation of an abstract test case with values.
+          - Instantiation of an abstract test case with values.
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19105:2000'
-            link: 'https://www.iso.org/standard/26010.html'
-          lineage_source: (Type reference to national language document)
+            ref: ISO 19105:2000
+            link: https://www.iso.org/standard/26010.html
+          lineage_source: "(Type reference to national language document)"
           date_accepted: '2000-12-15T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: utförbart testfall
-              normative_status: preferred
+          - type: expression
+            designation: utförbart testfall
+            normative_status: preferred
         parents: []
         timeCreated: '2000-12-15T00:00:00.000Z'
         author:

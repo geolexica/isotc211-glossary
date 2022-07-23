@@ -1,35 +1,40 @@
-term: vertical reference system
+---
 termid: 2381
+term: VRS
 eng:
   id: 2381
-  abbrev: VRS
-  definition: >-
-    set of conventions defining the origin, scale, orientation and time
-    evolution that describes the relationship of gravity-related heights or
-    depths to the Earth
-  language_code: eng
+  terms:
+  - type: abbreviation
+    designation: VRS
+  - type: expression
+    normative_status: preferred
+    designation: vertical reference system
+  definition:
+  - content: set of conventions defining the origin, scale, orientation and time evolution
+      that describes the relationship of gravity-related heights or depths to the
+      Earth
   notes:
-    - >-
-      The abstract concept of a VRS is realised through a vertical reference
+  - content: The abstract concept of a VRS is realised through a vertical reference
       frame.
   examples: []
+  language_code: eng
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.73'
-    link: 'https://www.iso.org/standard/74039.html'
-  date_accepted: '2019-01-31T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.73"
+      link: https://www.iso.org/standard/74039.html
+  dates:
+  - type: accepted
+    date: '2019-01-31T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
   review_decision_event: Normal ISO processing
-  review_decision_notes: 'Publication of document ISO 19111:2019(E)'
+  review_decision_notes: Publication of document ISO 19111:2019(E)
   release: '5'
-  terms:
-    - type: expression
-      designation: vertical reference system
-      normative_status: preferred
   _revisions:
     current: f8d137
     tree:
@@ -37,33 +42,31 @@ eng:
         object:
           id: 2381
           abbrev: VRS
-          definition: >-
-            set of conventions defining the origin, scale, orientation and time
-            evolution that describes the relationship of gravity-related heights
+          definition: set of conventions defining the origin, scale, orientation and
+            time evolution that describes the relationship of gravity-related heights
             or depths to the Earth
           language_code: eng
           notes:
-            - >-
-              The abstract concept of a VRS is realised through a vertical
-              reference frame.
+          - The abstract concept of a VRS is realised through a vertical reference
+            frame.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.73'
-            link: 'https://www.iso.org/standard/74039.html'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.73"
+            link: https://www.iso.org/standard/74039.html
           date_accepted: '2019-01-31T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
           review_decision_event: Normal ISO processing
-          review_decision_notes: 'Publication of document ISO 19111:2019(E)'
+          review_decision_notes: Publication of document ISO 19111:2019(E)
           release: '5'
           terms:
-            - type: expression
-              designation: vertical reference system
-              normative_status: preferred
+          - type: expression
+            designation: vertical reference system
+            normative_status: preferred
         parents: []
         timeCreated: '2019-01-31T00:00:00.000Z'
         author:

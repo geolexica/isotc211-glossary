@@ -1,54 +1,59 @@
-term: accuracy
+---
 termid: 8
+term: accuracy
 eng:
   id: 8
-  definition: >-
-    closeness of agreement between a test result and the accepted reference
-    value
-  language_code: eng
+  terms:
+  - type: expression
+    designation: accuracy
+  definition:
+  - content: closeness of agreement between a test result and the accepted reference
+      value
   notes:
-    - A test result can be observations or measurements.
+  - content: A test result can be observations or measurements.
   examples: []
+  language_code: eng
   entry_status: superseded
-  authoritative_source:
-    ref: 'ISO 3534-1:1993'
-    link: 'https://www.iso.org/standard/8919.html'
-  lineage_source: 'ISO 19113:2002'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 3534-1:1993
+      link: https://www.iso.org/standard/8919.html
+  - type: lineage
+    origin:
+      ref: ISO 19113:2002
   lineage_source_similarity: 1
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2008-07-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2008-07-15T00:00:00.000Z'
   review_date: '2007-12-07T00:00:00.000Z'
   review_status: ''
   review_type: ''
   review_decision: ''
   review_decision_date: '2008-05-22'
-  review_decision_event: 'Result of FDIS Ballot for ISO 6709:2008'
-  review_decision_notes: >-
-    Definition originally taken from ISO 3534-1 was later superseded by
-    definition in ISO 3534-2:2006
-  release: '-1'
-  terms:
-    - type: expression
-      designation: accuracy
-      normative_status: null
+  review_decision_event: Result of FDIS Ballot for ISO 6709:2008
+  review_decision_notes: Definition originally taken from ISO 3534-1 was later superseded
+    by definition in ISO 3534-2:2006
+  release: "-1"
   _revisions:
     current: 5b1c61
     tree:
       5b1c61:
         object:
           id: 8
-          definition: >-
-            closeness of agreement between a test result and the accepted
+          definition: closeness of agreement between a test result and the accepted
             reference value
           language_code: eng
           notes:
-            - A test result can be observations or measurements.
+          - A test result can be observations or measurements.
           examples: []
           entry_status: superseded
           authoritative_source:
-            ref: 'ISO 3534-1:1993'
-            link: 'https://www.iso.org/standard/8919.html'
-          lineage_source: 'ISO 19113:2002'
+            ref: ISO 3534-1:1993
+            link: https://www.iso.org/standard/8919.html
+          lineage_source: ISO 19113:2002
           lineage_source_similarity: 1
           date_accepted: '2002-12-01T00:00:00.000Z'
           date_amended: '2008-07-15T00:00:00.000Z'
@@ -57,15 +62,14 @@ eng:
           review_type: ''
           review_decision: ''
           review_decision_date: '2008-05-22'
-          review_decision_event: 'Result of FDIS Ballot for ISO 6709:2008'
-          review_decision_notes: >-
-            Definition originally taken from ISO 3534-1 was later superseded by
-            definition in ISO 3534-2:2006
-          release: '-1'
+          review_decision_event: Result of FDIS Ballot for ISO 6709:2008
+          review_decision_notes: Definition originally taken from ISO 3534-1 was later
+            superseded by definition in ISO 3534-2:2006
+          release: "-1"
           terms:
-            - type: expression
-              designation: accuracy
-              normative_status: null
+          - type: expression
+            designation: accuracy
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -73,31 +77,35 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 8
-  definition: درجة اقتراب نتيجة الاختبار من القيمة المرجعية المعتمدة
-  language_code: ara
+  terms:
+  - type: expression
+    designation: الدقة
+  definition:
+  - content: درجة اقتراب نتيجة الاختبار من القيمة المرجعية المعتمدة
   notes:
-    - نتيجة الاختبار يمكن أن تكون عملية مراقبة ورصد أو عملية قياس
+  - content: نتيجة الاختبار يمكن أن تكون عملية مراقبة ورصد أو عملية قياس
   examples: []
+  language_code: ara
   entry_status: superseded
-  authoritative_source:
-    ref: 'ISO 3534-1:1993'
-    link: 'https://www.iso.org/standard/8919.html'
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2008-07-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 3534-1:1993
+      link: https://www.iso.org/standard/8919.html
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2008-07-15T00:00:00.000Z'
   review_date: '2007-12-07T00:00:00.000Z'
   review_status: ''
   review_type: ''
   review_decision: ''
   review_decision_date: '2008-05-22'
-  review_decision_event: 'Result of FDIS Ballot for ISO 6709:2008'
-  review_decision_notes: >-
-    Definition originally taken from ISO 3534-1 was later superseded by
-    definition in ISO 3534-2:2006
-  release: '-1'
-  terms:
-    - type: expression
-      designation: الدقة
-      normative_status: null
+  review_decision_event: Result of FDIS Ballot for ISO 6709:2008
+  review_decision_notes: Definition originally taken from ISO 3534-1 was later superseded
+    by definition in ISO 3534-2:2006
+  release: "-1"
   _revisions:
     current: f858ca
     tree:
@@ -107,12 +115,12 @@ ara:
           definition: درجة اقتراب نتيجة الاختبار من القيمة المرجعية المعتمدة
           language_code: ara
           notes:
-            - نتيجة الاختبار يمكن أن تكون عملية مراقبة ورصد أو عملية قياس
+          - نتيجة الاختبار يمكن أن تكون عملية مراقبة ورصد أو عملية قياس
           examples: []
           entry_status: superseded
           authoritative_source:
-            ref: 'ISO 3534-1:1993'
-            link: 'https://www.iso.org/standard/8919.html'
+            ref: ISO 3534-1:1993
+            link: https://www.iso.org/standard/8919.html
           date_accepted: '2002-12-01T00:00:00.000Z'
           date_amended: '2008-07-15T00:00:00.000Z'
           review_date: '2007-12-07T00:00:00.000Z'
@@ -120,15 +128,14 @@ ara:
           review_type: ''
           review_decision: ''
           review_decision_date: '2008-05-22'
-          review_decision_event: 'Result of FDIS Ballot for ISO 6709:2008'
-          review_decision_notes: >-
-            Definition originally taken from ISO 3534-1 was later superseded by
-            definition in ISO 3534-2:2006
-          release: '-1'
+          review_decision_event: Result of FDIS Ballot for ISO 6709:2008
+          review_decision_notes: Definition originally taken from ISO 3534-1 was later
+            superseded by definition in ISO 3534-2:2006
+          release: "-1"
           terms:
-            - type: expression
-              designation: الدقة
-              normative_status: null
+          - type: expression
+            designation: الدقة
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -136,31 +143,35 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 8
-  definition: 测试结果与公认的参考值间的接近程度。
-  language_code: zho
+  terms:
+  - type: expression
+    designation: 准确度
+  definition:
+  - content: 测试结果与公认的参考值间的接近程度。
   notes:
-    - 测试结果可以是观测结果或量测结果。
+  - content: 测试结果可以是观测结果或量测结果。
   examples: []
+  language_code: zho
   entry_status: superseded
-  authoritative_source:
-    ref: 'ISO 3534-1:1993'
-    link: 'https://www.iso.org/standard/8919.html'
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2008-07-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 3534-1:1993
+      link: https://www.iso.org/standard/8919.html
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2008-07-15T00:00:00.000Z'
   review_date: '2007-12-07T00:00:00.000Z'
   review_status: ''
   review_type: ''
   review_decision: ''
   review_decision_date: '2008-05-22'
-  review_decision_event: 'Result of FDIS Ballot for ISO 6709:2008'
-  review_decision_notes: >-
-    Definition originally taken from ISO 3534-1 was later superseded by
-    definition in ISO 3534-2:2006
-  release: '-1'
-  terms:
-    - type: expression
-      designation: 准确度
-      normative_status: null
+  review_decision_event: Result of FDIS Ballot for ISO 6709:2008
+  review_decision_notes: Definition originally taken from ISO 3534-1 was later superseded
+    by definition in ISO 3534-2:2006
+  release: "-1"
   _revisions:
     current: 2c4482
     tree:
@@ -170,12 +181,12 @@ zho:
           definition: 测试结果与公认的参考值间的接近程度。
           language_code: zho
           notes:
-            - 测试结果可以是观测结果或量测结果。
+          - 测试结果可以是观测结果或量测结果。
           examples: []
           entry_status: superseded
           authoritative_source:
-            ref: 'ISO 3534-1:1993'
-            link: 'https://www.iso.org/standard/8919.html'
+            ref: ISO 3534-1:1993
+            link: https://www.iso.org/standard/8919.html
           date_accepted: '2002-12-01T00:00:00.000Z'
           date_amended: '2008-07-15T00:00:00.000Z'
           review_date: '2007-12-07T00:00:00.000Z'
@@ -183,15 +194,14 @@ zho:
           review_type: ''
           review_decision: ''
           review_decision_date: '2008-05-22'
-          review_decision_event: 'Result of FDIS Ballot for ISO 6709:2008'
-          review_decision_notes: >-
-            Definition originally taken from ISO 3534-1 was later superseded by
-            definition in ISO 3534-2:2006
-          release: '-1'
+          review_decision_event: Result of FDIS Ballot for ISO 6709:2008
+          review_decision_notes: Definition originally taken from ISO 3534-1 was later
+            superseded by definition in ISO 3534-2:2006
+          release: "-1"
           terms:
-            - type: expression
-              designation: 准确度
-              normative_status: null
+          - type: expression
+            designation: 准确度
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -199,50 +209,51 @@ zho:
           email: glossarist@ribose.com
 dan:
   id: 8
-  definition: >-
-    grad af overensstemmelse mellem et testresultat og den accepterede
-    referenceværdi
-  language_code: dan
+  terms:
+  - type: expression
+    designation: nøjagtighed
+  definition:
+  - content: grad af overensstemmelse mellem et testresultat og den accepterede referenceværdi
   notes:
-    - Et testresultat kan være observationer eller målinger.
+  - content: Et testresultat kan være observationer eller målinger.
   examples: []
+  language_code: dan
   entry_status: superseded
-  authoritative_source:
-    ref: 'ISO 3534-1:1993'
-    link: 'https://www.iso.org/standard/8919.html'
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2008-07-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 3534-1:1993
+      link: https://www.iso.org/standard/8919.html
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2008-07-15T00:00:00.000Z'
   review_date: '2007-12-07T00:00:00.000Z'
   review_status: ''
   review_type: ''
   review_decision: ''
   review_decision_date: '2008-05-22'
-  review_decision_event: 'Result of FDIS Ballot for ISO 6709:2008'
-  review_decision_notes: >-
-    Definition originally taken from ISO 3534-1 was later superseded by
-    definition in ISO 3534-2:2006
-  release: '-1'
-  terms:
-    - type: expression
-      designation: nøjagtighed
-      normative_status: null
+  review_decision_event: Result of FDIS Ballot for ISO 6709:2008
+  review_decision_notes: Definition originally taken from ISO 3534-1 was later superseded
+    by definition in ISO 3534-2:2006
+  release: "-1"
   _revisions:
     current: e91c6e
     tree:
       e91c6e:
         object:
           id: 8
-          definition: >-
-            grad af overensstemmelse mellem et testresultat og den accepterede
+          definition: grad af overensstemmelse mellem et testresultat og den accepterede
             referenceværdi
           language_code: dan
           notes:
-            - Et testresultat kan være observationer eller målinger.
+          - Et testresultat kan være observationer eller målinger.
           examples: []
           entry_status: superseded
           authoritative_source:
-            ref: 'ISO 3534-1:1993'
-            link: 'https://www.iso.org/standard/8919.html'
+            ref: ISO 3534-1:1993
+            link: https://www.iso.org/standard/8919.html
           date_accepted: '2002-12-01T00:00:00.000Z'
           date_amended: '2008-07-15T00:00:00.000Z'
           review_date: '2007-12-07T00:00:00.000Z'
@@ -250,15 +261,14 @@ dan:
           review_type: ''
           review_decision: ''
           review_decision_date: '2008-05-22'
-          review_decision_event: 'Result of FDIS Ballot for ISO 6709:2008'
-          review_decision_notes: >-
-            Definition originally taken from ISO 3534-1 was later superseded by
-            definition in ISO 3534-2:2006
-          release: '-1'
+          review_decision_event: Result of FDIS Ballot for ISO 6709:2008
+          review_decision_notes: Definition originally taken from ISO 3534-1 was later
+            superseded by definition in ISO 3534-2:2006
+          release: "-1"
           terms:
-            - type: expression
-              designation: nøjagtighed
-              normative_status: null
+          - type: expression
+            designation: nøjagtighed
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -266,32 +276,38 @@ dan:
           email: glossarist@ribose.com
 fin:
   id: 8
-  definition: testituloksen ja hyväksytyn viitearvon yhtäpitävyys
-  language_code: fin
+  terms:
+  - type: expression
+    designation: ulkoinen tarkkuus
+  definition:
+  - content: testituloksen ja hyväksytyn viitearvon yhtäpitävyys
   notes:
-    - Testitulos voi olla havainto tai mittaus.
+  - content: Testitulos voi olla havainto tai mittaus.
   examples: []
+  language_code: fin
   entry_status: superseded
-  authoritative_source:
-    ref: 'ISO 3534-1:1993'
-    link: 'https://www.iso.org/standard/8919.html'
-  lineage_source: Maanmittauslaitos
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2008-07-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 3534-1:1993
+      link: https://www.iso.org/standard/8919.html
+  - type: lineage
+    origin:
+      ref: Maanmittauslaitos
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2008-07-15T00:00:00.000Z'
   review_date: '2007-12-07T00:00:00.000Z'
   review_status: ''
   review_type: ''
   review_decision: ''
   review_decision_date: '2008-05-22'
-  review_decision_event: 'ISO 6709:2008 FDIS äänestystulos'
-  review_decision_notes: >-
-    Standardista ISO 3534-1 peräisin oleva määritelmä on korvattu ISO
-    3534-2:2006 määritelmällä
-  release: '-1'
-  terms:
-    - type: expression
-      designation: ulkoinen tarkkuus
-      normative_status: null
+  review_decision_event: ISO 6709:2008 FDIS äänestystulos
+  review_decision_notes: Standardista ISO 3534-1 peräisin oleva määritelmä on korvattu
+    ISO 3534-2:2006 määritelmällä
+  release: "-1"
   _revisions:
     current: 48fc46
     tree:
@@ -301,12 +317,12 @@ fin:
           definition: testituloksen ja hyväksytyn viitearvon yhtäpitävyys
           language_code: fin
           notes:
-            - Testitulos voi olla havainto tai mittaus.
+          - Testitulos voi olla havainto tai mittaus.
           examples: []
           entry_status: superseded
           authoritative_source:
-            ref: 'ISO 3534-1:1993'
-            link: 'https://www.iso.org/standard/8919.html'
+            ref: ISO 3534-1:1993
+            link: https://www.iso.org/standard/8919.html
           lineage_source: Maanmittauslaitos
           date_accepted: '2002-12-01T00:00:00.000Z'
           date_amended: '2008-07-15T00:00:00.000Z'
@@ -315,15 +331,14 @@ fin:
           review_type: ''
           review_decision: ''
           review_decision_date: '2008-05-22'
-          review_decision_event: 'ISO 6709:2008 FDIS äänestystulos'
-          review_decision_notes: >-
-            Standardista ISO 3534-1 peräisin oleva määritelmä on korvattu ISO
-            3534-2:2006 määritelmällä
-          release: '-1'
+          review_decision_event: ISO 6709:2008 FDIS äänestystulos
+          review_decision_notes: Standardista ISO 3534-1 peräisin oleva määritelmä
+            on korvattu ISO 3534-2:2006 määritelmällä
+          release: "-1"
           terms:
-            - type: expression
-              designation: ulkoinen tarkkuus
-              normative_status: null
+          - type: expression
+            designation: ulkoinen tarkkuus
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -331,48 +346,53 @@ fin:
           email: glossarist@ribose.com
 fra:
   id: 8
-  definition: justesse de l'accord entre un résultat de test et la valeur de référence
-  language_code: fra
+  terms:
+  - type: expression
+    designation: exactitude
+  definition:
+  - content: justesse de l'accord entre un résultat de test et la valeur de référence
   notes: []
   examples: []
+  language_code: fra
   entry_status: superseded
-  authoritative_source:
-    ref: ISO 3534-1
-    link: 'https://www.iso.org/standard/40145.html'
-  lineage_source: ISO 19113
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 3534-1
+      link: https://www.iso.org/standard/40145.html
+  - type: lineage
+    origin:
+      ref: ISO 19113
   lineage_source_similarity: 1
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2008-07-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2008-07-15T00:00:00.000Z'
   review_date: '2007-12-07T00:00:00.000Z'
   review_status: ''
   review_type: ''
   review_decision: ''
   review_decision_date: '2008-05-22'
-  review_decision_event: 'Result of FDIS Ballot for ISO 6709:2008'
-  review_decision_notes: >-
-    Definition originally taken from ISO 3534-1 was later superseded by
-    definition in ISO 3534-2:2006
-  release: '-1'
-  terms:
-    - type: expression
-      designation: exactitude
-      normative_status: null
+  review_decision_event: Result of FDIS Ballot for ISO 6709:2008
+  review_decision_notes: Definition originally taken from ISO 3534-1 was later superseded
+    by definition in ISO 3534-2:2006
+  release: "-1"
   _revisions:
     current: 1a6742
     tree:
       1a6742:
         object:
           id: 8
-          definition: >-
-            justesse de l'accord entre un résultat de test et la valeur de
-            référence
+          definition: justesse de l'accord entre un résultat de test et la valeur
+            de référence
           language_code: fra
           notes: []
           examples: []
           entry_status: superseded
           authoritative_source:
             ref: ISO 3534-1
-            link: 'https://www.iso.org/standard/40145.html'
+            link: https://www.iso.org/standard/40145.html
           lineage_source: ISO 19113
           lineage_source_similarity: 1
           date_accepted: '2002-12-01T00:00:00.000Z'
@@ -382,15 +402,14 @@ fra:
           review_type: ''
           review_decision: ''
           review_decision_date: '2008-05-22'
-          review_decision_event: 'Result of FDIS Ballot for ISO 6709:2008'
-          review_decision_notes: >-
-            Definition originally taken from ISO 3534-1 was later superseded by
-            definition in ISO 3534-2:2006
-          release: '-1'
+          review_decision_event: Result of FDIS Ballot for ISO 6709:2008
+          review_decision_notes: Definition originally taken from ISO 3534-1 was later
+            superseded by definition in ISO 3534-2:2006
+          release: "-1"
           terms:
-            - type: expression
-              designation: exactitude
-              normative_status: null
+          - type: expression
+            designation: exactitude
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -398,33 +417,39 @@ fra:
           email: glossarist@ribose.com
 jpn:
   id: 8
-  definition: 品質評価の試験結果得られた値と参照値との近さ。
-  language_code: jpn
+  terms:
+  - type: expression
+    designation: 正確度
+  definition:
+  - content: 品質評価の試験結果得られた値と参照値との近さ。
   notes:
-    - 試験結果は，観測値又は測定値として得ることができる。
-    - 参照値は，論議領域を実現するものとして採択された値である。
+  - content: 試験結果は，観測値又は測定値として得ることができる。
+  - content: 参照値は，論議領域を実現するものとして採択された値である。
   examples: []
+  language_code: jpn
   entry_status: superseded
-  authoritative_source:
-    ref: 'ISO 3534-1:1993'
-    link: 'https://www.iso.org/standard/8919.html'
-  lineage_source: JIS X 7113
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2008-07-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 3534-1:1993
+      link: https://www.iso.org/standard/8919.html
+  - type: lineage
+    origin:
+      ref: JIS X 7113
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2008-07-15T00:00:00.000Z'
   review_date: '2007-12-07T00:00:00.000Z'
   review_status: ''
   review_type: ''
   review_decision: ''
   review_decision_date: '2008-05-22'
-  review_decision_event: 'Result of FDIS Ballot for ISO 6709:2008'
-  review_decision_notes: >-
-    Definition originally taken from ISO 3534-1 was later superseded by
-    definition in ISO 3534-2:2006
-  release: '-1'
-  terms:
-    - type: expression
-      designation: 正確度
-      normative_status: null
+  review_decision_event: Result of FDIS Ballot for ISO 6709:2008
+  review_decision_notes: Definition originally taken from ISO 3534-1 was later superseded
+    by definition in ISO 3534-2:2006
+  release: "-1"
   _revisions:
     current: eaeb55
     tree:
@@ -434,13 +459,13 @@ jpn:
           definition: 品質評価の試験結果得られた値と参照値との近さ。
           language_code: jpn
           notes:
-            - 試験結果は，観測値又は測定値として得ることができる。
-            - 参照値は，論議領域を実現するものとして採択された値である。
+          - 試験結果は，観測値又は測定値として得ることができる。
+          - 参照値は，論議領域を実現するものとして採択された値である。
           examples: []
           entry_status: superseded
           authoritative_source:
-            ref: 'ISO 3534-1:1993'
-            link: 'https://www.iso.org/standard/8919.html'
+            ref: ISO 3534-1:1993
+            link: https://www.iso.org/standard/8919.html
           lineage_source: JIS X 7113
           date_accepted: '2002-12-01T00:00:00.000Z'
           date_amended: '2008-07-15T00:00:00.000Z'
@@ -449,15 +474,14 @@ jpn:
           review_type: ''
           review_decision: ''
           review_decision_date: '2008-05-22'
-          review_decision_event: 'Result of FDIS Ballot for ISO 6709:2008'
-          review_decision_notes: >-
-            Definition originally taken from ISO 3534-1 was later superseded by
-            definition in ISO 3534-2:2006
-          release: '-1'
+          review_decision_event: Result of FDIS Ballot for ISO 6709:2008
+          review_decision_notes: Definition originally taken from ISO 3534-1 was later
+            superseded by definition in ISO 3534-2:2006
+          release: "-1"
           terms:
-            - type: expression
-              designation: 正確度
-              normative_status: null
+          - type: expression
+            designation: 正確度
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -465,32 +489,38 @@ jpn:
           email: glossarist@ribose.com
 kor:
   id: 8
-  definition: 시험 결과와 기준 값 간의 일치도를 표시하는 척도
-  language_code: kor
+  terms:
+  - type: expression
+    designation: 정확도
+  definition:
+  - content: 시험 결과와 기준 값 간의 일치도를 표시하는 척도
   notes:
-    - 시험 결과는 관측 값 또는 측정 값이 될 수 있다.
+  - content: 시험 결과는 관측 값 또는 측정 값이 될 수 있다.
   examples: []
+  language_code: kor
   entry_status: superseded
-  authoritative_source:
-    ref: 'ISO 3534-1:1993'
-    link: 'https://www.iso.org/standard/8919.html'
-  lineage_source: KS X ISO 19104
-  date_accepted: '2008-12-19T00:00:00.000Z'
-  date_amended: '2008-07-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 3534-1:1993
+      link: https://www.iso.org/standard/8919.html
+  - type: lineage
+    origin:
+      ref: KS X ISO 19104
+  dates:
+  - type: accepted
+    date: '2008-12-19T00:00:00.000Z'
+  - type: amended
+    date: '2008-07-15T00:00:00.000Z'
   review_date: '2007-12-07T00:00:00.000Z'
   review_status: ''
   review_type: ''
   review_decision: ''
   review_decision_date: '2008-05-22'
-  review_decision_event: 'Result of FDIS Ballot for ISO 6709:2008'
-  review_decision_notes: >-
-    Definition originally taken from ISO 3534-1 was later superseded by
-    definition in ISO 3534-2:2006
-  release: '-1'
-  terms:
-    - type: expression
-      designation: 정확도
-      normative_status: null
+  review_decision_event: Result of FDIS Ballot for ISO 6709:2008
+  review_decision_notes: Definition originally taken from ISO 3534-1 was later superseded
+    by definition in ISO 3534-2:2006
+  release: "-1"
   _revisions:
     current: 8361fb
     tree:
@@ -500,12 +530,12 @@ kor:
           definition: 시험 결과와 기준 값 간의 일치도를 표시하는 척도
           language_code: kor
           notes:
-            - 시험 결과는 관측 값 또는 측정 값이 될 수 있다.
+          - 시험 결과는 관측 값 또는 측정 값이 될 수 있다.
           examples: []
           entry_status: superseded
           authoritative_source:
-            ref: 'ISO 3534-1:1993'
-            link: 'https://www.iso.org/standard/8919.html'
+            ref: ISO 3534-1:1993
+            link: https://www.iso.org/standard/8919.html
           lineage_source: KS X ISO 19104
           date_accepted: '2008-12-19T00:00:00.000Z'
           date_amended: '2008-07-15T00:00:00.000Z'
@@ -514,15 +544,14 @@ kor:
           review_type: ''
           review_decision: ''
           review_decision_date: '2008-05-22'
-          review_decision_event: 'Result of FDIS Ballot for ISO 6709:2008'
-          review_decision_notes: >-
-            Definition originally taken from ISO 3534-1 was later superseded by
-            definition in ISO 3534-2:2006
-          release: '-1'
+          review_decision_event: Result of FDIS Ballot for ISO 6709:2008
+          review_decision_notes: Definition originally taken from ISO 3534-1 was later
+            superseded by definition in ISO 3534-2:2006
+          release: "-1"
           terms:
-            - type: expression
-              designation: 정확도
-              normative_status: null
+          - type: expression
+            designation: 정확도
+            normative_status:
         parents: []
         timeCreated: '2008-12-19T00:00:00.000Z'
         author:
@@ -530,49 +559,54 @@ kor:
           email: glossarist@ribose.com
 msa:
   id: 8
-  definition: Nilai pengukuran yang sama atau menghampiri nilai kiraan atau jangkaan
-  language_code: msa
+  terms:
+  - type: expression
+    designation: ketepatan
+  definition:
+  - content: Nilai pengukuran yang sama atau menghampiri nilai kiraan atau jangkaan
   notes:
-    - A test result can be observations or measurements.
+  - content: A test result can be observations or measurements.
   examples: []
+  language_code: msa
   entry_status: superseded
-  authoritative_source:
-    ref: 'ISO 3534-1:1993'
-    link: 'https://www.iso.org/standard/8919.html'
-  lineage_source: Pusat Rujukan Persuratan Melayu (DBP)
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2008-07-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 3534-1:1993
+      link: https://www.iso.org/standard/8919.html
+  - type: lineage
+    origin:
+      ref: Pusat Rujukan Persuratan Melayu (DBP)
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2008-07-15T00:00:00.000Z'
   review_date: '2007-12-07T00:00:00.000Z'
   review_status: ''
   review_type: ''
   review_decision: ''
   review_decision_date: '2008-05-22'
-  review_decision_event: 'Result of FDIS Ballot for ISO 6709:2008'
-  review_decision_notes: >-
-    Definition originally taken from ISO 3534-1 was later superseded by
-    definition in ISO 3534-2:2006
-  release: '-1'
-  terms:
-    - type: expression
-      designation: ketepatan
-      normative_status: null
+  review_decision_event: Result of FDIS Ballot for ISO 6709:2008
+  review_decision_notes: Definition originally taken from ISO 3534-1 was later superseded
+    by definition in ISO 3534-2:2006
+  release: "-1"
   _revisions:
     current: 8fe7bd
     tree:
       8fe7bd:
         object:
           id: 8
-          definition: >-
-            Nilai pengukuran yang sama atau menghampiri nilai kiraan atau
+          definition: Nilai pengukuran yang sama atau menghampiri nilai kiraan atau
             jangkaan
           language_code: msa
           notes:
-            - A test result can be observations or measurements.
+          - A test result can be observations or measurements.
           examples: []
           entry_status: superseded
           authoritative_source:
-            ref: 'ISO 3534-1:1993'
-            link: 'https://www.iso.org/standard/8919.html'
+            ref: ISO 3534-1:1993
+            link: https://www.iso.org/standard/8919.html
           lineage_source: Pusat Rujukan Persuratan Melayu (DBP)
           date_accepted: '2002-12-01T00:00:00.000Z'
           date_amended: '2008-07-15T00:00:00.000Z'
@@ -581,15 +615,14 @@ msa:
           review_type: ''
           review_decision: ''
           review_decision_date: '2008-05-22'
-          review_decision_event: 'Result of FDIS Ballot for ISO 6709:2008'
-          review_decision_notes: >-
-            Definition originally taken from ISO 3534-1 was later superseded by
-            definition in ISO 3534-2:2006
-          release: '-1'
+          review_decision_event: Result of FDIS Ballot for ISO 6709:2008
+          review_decision_notes: Definition originally taken from ISO 3534-1 was later
+            superseded by definition in ISO 3534-2:2006
+          release: "-1"
           terms:
-            - type: expression
-              designation: ketepatan
-              normative_status: null
+          - type: expression
+            designation: ketepatan
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -597,51 +630,54 @@ msa:
           email: glossarist@ribose.com
 rus:
   id: 8
-  definition: близость результата проверки к принятому нормальному значению величины
-  language_code: rus
+  terms:
+  - type: expression
+    designation: точность
+  definition:
+  - content: близость результата проверки к принятому нормальному значению величины
   notes:
-    - Результат проверки может быть получен путем наблюдения или измерения
+  - content: Результат проверки может быть получен путем наблюдения или измерения
   examples: []
+  language_code: rus
   entry_status: замененный
-  authoritative_source:
-    ref: 'ISO 3534-1:1993'
-    link: 'https://www.iso.org/standard/8919.html'
-  lineage_source: ГОСТ Р 50779.10-2000 (ИСО 3534.1-93)
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2008-07-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 3534-1:1993
+      link: https://www.iso.org/standard/8919.html
+  - type: lineage
+    origin:
+      ref: ГОСТ Р 50779.10-2000 (ИСО 3534.1-93)
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2008-07-15T00:00:00.000Z'
   review_date: '2007-12-07T00:00:00.000Z'
   review_status: ''
   review_type: ''
   review_decision: ''
   review_decision_date: '2008-05-22'
-  review_decision_event: 'результат FDIS голосования по  ISO 6709:2008'
-  review_decision_notes: >-
-    Определение, первоначально взятое из ISO 3534-1, позднее было заменено
-    определением в ISO 3534-2:2006
-  release: '-1'
-  terms:
-    - type: expression
-      designation: точность
-      normative_status: null
+  review_decision_event: результат FDIS голосования по  ISO 6709:2008
+  review_decision_notes: Определение, первоначально взятое из ISO 3534-1, позднее
+    было заменено определением в ISO 3534-2:2006
+  release: "-1"
   _revisions:
     current: ff2191
     tree:
       ff2191:
         object:
           id: 8
-          definition: >-
-            близость результата проверки к принятому нормальному значению
+          definition: близость результата проверки к принятому нормальному значению
             величины
           language_code: rus
           notes:
-            - >-
-              Результат проверки может быть получен путем наблюдения или
-              измерения
+          - Результат проверки может быть получен путем наблюдения или измерения
           examples: []
           entry_status: замененный
           authoritative_source:
-            ref: 'ISO 3534-1:1993'
-            link: 'https://www.iso.org/standard/8919.html'
+            ref: ISO 3534-1:1993
+            link: https://www.iso.org/standard/8919.html
           lineage_source: ГОСТ Р 50779.10-2000 (ИСО 3534.1-93)
           date_accepted: '2002-12-01T00:00:00.000Z'
           date_amended: '2008-07-15T00:00:00.000Z'
@@ -650,15 +686,14 @@ rus:
           review_type: ''
           review_decision: ''
           review_decision_date: '2008-05-22'
-          review_decision_event: 'результат FDIS голосования по  ISO 6709:2008'
-          review_decision_notes: >-
-            Определение, первоначально взятое из ISO 3534-1, позднее было
-            заменено определением в ISO 3534-2:2006
-          release: '-1'
+          review_decision_event: результат FDIS голосования по  ISO 6709:2008
+          review_decision_notes: Определение, первоначально взятое из ISO 3534-1,
+            позднее было заменено определением в ISO 3534-2:2006
+          release: "-1"
           terms:
-            - type: expression
-              designation: точность
-              normative_status: null
+          - type: expression
+            designation: точность
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -666,50 +701,52 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 8
-  definition: >-
-    grado de acuerdo entre el resultado de una prueba y el valor de referencia
-    aceptado
-  language_code: spa
+  terms:
+  - type: expression
+    designation: exactitud
+  definition:
+  - content: grado de acuerdo entre el resultado de una prueba y el valor de referencia
+      aceptado
   notes:
-    - Un resultado pueden ser observaciones o medidas
+  - content: Un resultado pueden ser observaciones o medidas
   examples: []
+  language_code: spa
   entry_status: superseded
-  authoritative_source:
-    ref: 'ISO 3534-1:1993'
-    link: 'https://www.iso.org/standard/8919.html'
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2008-07-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 3534-1:1993
+      link: https://www.iso.org/standard/8919.html
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2008-07-15T00:00:00.000Z'
   review_date: '2007-12-07T00:00:00.000Z'
   review_status: ''
   review_type: ''
   review_decision: ''
   review_decision_date: '2008-05-22'
-  review_decision_event: 'Result of FDIS Ballot for ISO 6709:2008'
-  review_decision_notes: >-
-    Definition originally taken from ISO 3534-1 was later superseded by
-    definition in ISO 3534-2:2006
-  release: '-1'
-  terms:
-    - type: expression
-      designation: exactitud
-      normative_status: null
+  review_decision_event: Result of FDIS Ballot for ISO 6709:2008
+  review_decision_notes: Definition originally taken from ISO 3534-1 was later superseded
+    by definition in ISO 3534-2:2006
+  release: "-1"
   _revisions:
     current: 13d4db
     tree:
       13d4db:
         object:
           id: 8
-          definition: >-
-            grado de acuerdo entre el resultado de una prueba y el valor de
-            referencia aceptado
+          definition: grado de acuerdo entre el resultado de una prueba y el valor
+            de referencia aceptado
           language_code: spa
           notes:
-            - Un resultado pueden ser observaciones o medidas
+          - Un resultado pueden ser observaciones o medidas
           examples: []
           entry_status: superseded
           authoritative_source:
-            ref: 'ISO 3534-1:1993'
-            link: 'https://www.iso.org/standard/8919.html'
+            ref: ISO 3534-1:1993
+            link: https://www.iso.org/standard/8919.html
           date_accepted: '2002-12-01T00:00:00.000Z'
           date_amended: '2008-07-15T00:00:00.000Z'
           review_date: '2007-12-07T00:00:00.000Z'
@@ -717,15 +754,14 @@ spa:
           review_type: ''
           review_decision: ''
           review_decision_date: '2008-05-22'
-          review_decision_event: 'Result of FDIS Ballot for ISO 6709:2008'
-          review_decision_notes: >-
-            Definition originally taken from ISO 3534-1 was later superseded by
-            definition in ISO 3534-2:2006
-          release: '-1'
+          review_decision_event: Result of FDIS Ballot for ISO 6709:2008
+          review_decision_notes: Definition originally taken from ISO 3534-1 was later
+            superseded by definition in ISO 3534-2:2006
+          release: "-1"
           terms:
-            - type: expression
-              designation: exactitud
-              normative_status: null
+          - type: expression
+            designation: exactitud
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:
@@ -733,59 +769,61 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 8
-  definition: >-
-    graden av överensstämmelse mellan ett observerat, beräknat eller skattat
-    värde och ett värde som betraktas som sant
-  country_code: swe
-  language_code: swe
+  terms:
+  - type: expression
+    designation: noggrannhet
+  definition:
+  - content: graden av överensstämmelse mellan ett observerat, beräknat eller skattat
+      värde och ett värde som betraktas som sant
   notes:
-    - >-
-      Ibland talar man hellre om onoggrannhet istället för noggrannhet, om
+  - content: Ibland talar man hellre om onoggrannhet istället för noggrannhet, om
       medelfelet ökar, ökar också onoggrannheten.
   examples: []
+  country_code: swe
+  language_code: swe
   entry_status: superseded
-  authoritative_source:
-    ref: 'ISO 3534-1:1993'
-    link: 'https://www.iso.org/standard/8919.html'
-  lineage_source: 'ISO 19113:2002'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 3534-1:1993
+      link: https://www.iso.org/standard/8919.html
+  - type: lineage
+    origin:
+      ref: ISO 19113:2002
   lineage_source_similarity: 1
-  date_accepted: '2002-12-01T00:00:00.000Z'
-  date_amended: '2008-07-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2002-12-01T00:00:00.000Z'
+  - type: amended
+    date: '2008-07-15T00:00:00.000Z'
   review_date: '2007-12-07T00:00:00.000Z'
   review_status: ''
   review_type: ''
   review_decision: ''
   review_decision_date: '2008-05-22'
-  review_decision_event: 'Result of FDIS Ballot for ISO 6709:2008'
-  review_decision_notes: >-
-    Definition originally taken from ISO 3534-1 was later superseded by
-    definition in ISO 3534-2:2006
-  release: '-1'
-  terms:
-    - type: expression
-      designation: noggrannhet
-      normative_status: null
+  review_decision_event: Result of FDIS Ballot for ISO 6709:2008
+  review_decision_notes: Definition originally taken from ISO 3534-1 was later superseded
+    by definition in ISO 3534-2:2006
+  release: "-1"
   _revisions:
     current: 462def
     tree:
       462def:
         object:
           id: 8
-          definition: >-
-            graden av överensstämmelse mellan ett observerat, beräknat eller
+          definition: graden av överensstämmelse mellan ett observerat, beräknat eller
             skattat värde och ett värde som betraktas som sant
           country_code: swe
           language_code: swe
           notes:
-            - >-
-              Ibland talar man hellre om onoggrannhet istället för noggrannhet,
-              om medelfelet ökar, ökar också onoggrannheten.
+          - Ibland talar man hellre om onoggrannhet istället för noggrannhet, om medelfelet
+            ökar, ökar också onoggrannheten.
           examples: []
           entry_status: superseded
           authoritative_source:
-            ref: 'ISO 3534-1:1993'
-            link: 'https://www.iso.org/standard/8919.html'
-          lineage_source: 'ISO 19113:2002'
+            ref: ISO 3534-1:1993
+            link: https://www.iso.org/standard/8919.html
+          lineage_source: ISO 19113:2002
           lineage_source_similarity: 1
           date_accepted: '2002-12-01T00:00:00.000Z'
           date_amended: '2008-07-15T00:00:00.000Z'
@@ -794,15 +832,14 @@ swe:
           review_type: ''
           review_decision: ''
           review_decision_date: '2008-05-22'
-          review_decision_event: 'Result of FDIS Ballot for ISO 6709:2008'
-          review_decision_notes: >-
-            Definition originally taken from ISO 3534-1 was later superseded by
-            definition in ISO 3534-2:2006
-          release: '-1'
+          review_decision_event: Result of FDIS Ballot for ISO 6709:2008
+          review_decision_notes: Definition originally taken from ISO 3534-1 was later
+            superseded by definition in ISO 3534-2:2006
+          release: "-1"
           terms:
-            - type: expression
-              designation: noggrannhet
-              normative_status: null
+          - type: expression
+            designation: noggrannhet
+            normative_status:
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
         author:

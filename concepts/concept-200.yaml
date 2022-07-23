@@ -1,38 +1,45 @@
-term: geodetic latitude
+---
 termid: 200
+term: j
 eng:
   id: 200
-  abbrev: j
-  definition: >-
-    angle from the equatorial plane to the perpendicular to the ellipsoid
-    through a given point, northwards treated as positive
-  language_code: eng
+  terms:
+  - type: abbreviation
+    designation: j
+  - type: expression
+    normative_status: preferred
+    designation: geodetic latitude
+  - type: expression
+    designation: ellipsoidal latitude
+  definition:
+  - content: angle from the equatorial plane to the perpendicular to the ellipsoid
+      through a given point, northwards treated as positive
   notes: []
   examples: []
+  language_code: eng
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.32'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.32"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.32. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.32. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: geodetic latitude
-      normative_status: preferred
-    - designation: ellipsoidal latitude
-      type: expression
   _revisions:
     current: a4ca78
     tree:
@@ -40,8 +47,7 @@ eng:
         object:
           id: 200
           abbrev: j
-          definition: >-
-            angle from the equatorial plane to the perpendicular to the
+          definition: angle from the equatorial plane to the perpendicular to the
             ellipsoid through a given point, northwards treated as positive
           language_code: eng
           notes: []
@@ -49,27 +55,26 @@ eng:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.32'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.32"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.32. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.32. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: geodetic latitude
-              normative_status: preferred
-            - designation: ellipsoidal latitude
-              type: expression
+          - type: expression
+            designation: geodetic latitude
+            normative_status: preferred
+          - designation: ellipsoidal latitude
+            type: expression
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -77,37 +82,43 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 200
-  abbrev: j
-  definition: >-
-    الزاوية من مستوى خط الاستواء إلى الخط المتعامد مع القطع الناقص عبر نقطة
-    معينة باتجاه الشمال حيث تعتبر موجبة
-  language_code: ara
+  terms:
+  - type: abbreviation
+    designation: j
+  - type: expression
+    normative_status: preferred
+    designation: خط العرض الجيوديسي
+  - type: expression
+    designation: ellipsoidal latitude
+  definition:
+  - content: الزاوية من مستوى خط الاستواء إلى الخط المتعامد مع القطع الناقص عبر نقطة
+      معينة باتجاه الشمال حيث تعتبر موجبة
   notes: []
   examples: []
+  language_code: ara
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.32'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.32"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.32. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.32. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: خط العرض الجيوديسي
-      normative_status: preferred
-    - designation: ellipsoidal latitude
-      type: expression
   _revisions:
     current: ab0f62
     tree:
@@ -115,36 +126,34 @@ ara:
         object:
           id: 200
           abbrev: j
-          definition: >-
-            الزاوية من مستوى خط الاستواء إلى الخط المتعامد مع القطع الناقص عبر
-            نقطة معينة باتجاه الشمال حيث تعتبر موجبة
+          definition: الزاوية من مستوى خط الاستواء إلى الخط المتعامد مع القطع الناقص
+            عبر نقطة معينة باتجاه الشمال حيث تعتبر موجبة
           language_code: ara
           notes: []
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.32'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.32"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.32. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.32. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: خط العرض الجيوديسي
-              normative_status: preferred
-            - designation: ellipsoidal latitude
-              type: expression
+          - type: expression
+            designation: خط العرض الجيوديسي
+            normative_status: preferred
+          - designation: ellipsoidal latitude
+            type: expression
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -152,39 +161,46 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 200
-  abbrev: j
-  definition: 从赤道平面与通过给定点的椭球法线间的夹角，向北为正。
-  language_code: zho
+  terms:
+  - type: abbreviation
+    designation: j
+  - type: expression
+    normative_status: preferred
+    designation: 大地纬度
+  - type: expression
+    designation: ellipsoidal latitude
+  definition:
+  - content: 从赤道平面与通过给定点的椭球法线间的夹角，向北为正。
   notes: []
   examples: []
+  language_code: zho
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.32'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.32"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.32. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.32. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: 大地纬度
-      normative_status: preferred
-    - designation: ellipsoidal latitude
-      type: expression
   _revisions:
-    current: 08e297
+    current: '08e297'
     tree:
-      08e297:
+      '08e297':
         object:
           id: 200
           abbrev: j
@@ -195,27 +211,26 @@ zho:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.32'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.32"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.32. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.32. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: 大地纬度
-              normative_status: preferred
-            - designation: ellipsoidal latitude
-              type: expression
+          - type: expression
+            designation: 大地纬度
+            normative_status: preferred
+          - designation: ellipsoidal latitude
+            type: expression
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -223,34 +238,39 @@ zho:
           email: glossarist@ribose.com
 dan:
   id: 200
-  abbrev: ϕ
-  definition: >-
-    vinkel mellem ækvitorialfladen og den vinkelrette på ellipsoiden gennem et
-    givet punkt, hvor nord regnes positiv
-  language_code: dan
+  terms:
+  - type: abbreviation
+    designation: ϕ
+  - type: expression
+    designation: geodætisk bredde
+  definition:
+  - content: vinkel mellem ækvitorialfladen og den vinkelrette på ellipsoiden gennem
+      et givet punkt, hvor nord regnes positiv
   notes: []
   examples: []
+  language_code: dan
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.32'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.32"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.32. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.32. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: geodætisk bredde
-      normative_status: null
   _revisions:
     current: b77ad8
     tree:
@@ -258,33 +278,31 @@ dan:
         object:
           id: 200
           abbrev: ϕ
-          definition: >-
-            vinkel mellem ækvitorialfladen og den vinkelrette på ellipsoiden
+          definition: vinkel mellem ækvitorialfladen og den vinkelrette på ellipsoiden
             gennem et givet punkt, hvor nord regnes positiv
           language_code: dan
           notes: []
           examples: []
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.32'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.32"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.32. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.32. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: geodætisk bredde
-              normative_status: null
+          - type: expression
+            designation: geodætisk bredde
+            normative_status:
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -292,37 +310,43 @@ dan:
           email: glossarist@ribose.com
 nld:
   id: 200
-  abbrev: j
-  definition: >-
-    hoek vanaf het equatoriale vlak van de ellipsoïde door een gegeven punt,
-    noordwaarts wordt als positief genomen
-  language_code: nld
+  terms:
+  - type: abbreviation
+    designation: j
+  - type: expression
+    normative_status: preferred
+    designation: geodetische breedte
+  - type: expression
+    designation: ellipsoïde breedte
+  definition:
+  - content: hoek vanaf het equatoriale vlak van de ellipsoïde door een gegeven punt,
+      noordwaarts wordt als positief genomen
   notes: []
   examples: []
+  language_code: nld
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.32'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.32"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.32. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.32. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: geodetische breedte
-      normative_status: preferred
-    - designation: ellipsoïde breedte
-      type: expression
   _revisions:
     current: '211485'
     tree:
@@ -330,8 +354,7 @@ nld:
         object:
           id: 200
           abbrev: j
-          definition: >-
-            hoek vanaf het equatoriale vlak van de ellipsoïde door een gegeven
+          definition: hoek vanaf het equatoriale vlak van de ellipsoïde door een gegeven
             punt, noordwaarts wordt als positief genomen
           language_code: nld
           notes: []
@@ -339,27 +362,26 @@ nld:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.32'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.32"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.32. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.32. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: geodetische breedte
-              normative_status: preferred
-            - designation: ellipsoïde breedte
-              type: expression
+          - type: expression
+            designation: geodetische breedte
+            normative_status: preferred
+          - designation: ellipsoïde breedte
+            type: expression
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -367,37 +389,43 @@ nld:
           email: glossarist@ribose.com
 fin:
   id: 200
-  abbrev: φ
-  definition: >-
-    pisteen kautta kulkevan ellipsoidin normaalin ja päiväntasaajatason välinen
-    kulma ; positiivinen pohjoisella pallonpuoliskolla
-  language_code: fin
+  terms:
+  - type: abbreviation
+    designation: φ
+  - type: expression
+    normative_status: preferred
+    designation: geodeettinen leveysaste
+  - type: expression
+    designation: ellipsoidinen latitudi
+  definition:
+  - content: pisteen kautta kulkevan ellipsoidin normaalin ja päiväntasaajatason välinen
+      kulma ; positiivinen pohjoisella pallonpuoliskolla
   notes: []
   examples: []
+  language_code: fin
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.32'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.32"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.32. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.32. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: geodeettinen leveysaste
-      normative_status: preferred
-    - designation: ellipsoidinen latitudi
-      type: expression
   _revisions:
     current: 11ba84
     tree:
@@ -405,8 +433,7 @@ fin:
         object:
           id: 200
           abbrev: φ
-          definition: >-
-            pisteen kautta kulkevan ellipsoidin normaalin ja päiväntasaajatason
+          definition: pisteen kautta kulkevan ellipsoidin normaalin ja päiväntasaajatason
             välinen kulma ; positiivinen pohjoisella pallonpuoliskolla
           language_code: fin
           notes: []
@@ -414,27 +441,26 @@ fin:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.32'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.32"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.32. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.32. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: geodeettinen leveysaste
-              normative_status: preferred
-            - designation: ellipsoidinen latitudi
-              type: expression
+          - type: expression
+            designation: geodeettinen leveysaste
+            normative_status: preferred
+          - designation: ellipsoidinen latitudi
+            type: expression
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -442,72 +468,75 @@ fin:
           email: glossarist@ribose.com
 fra:
   id: 200
-  definition: >-
-    angle entre le plan équatorial et la normale à l'ellipsoïde passant par un
-    point donné, orienté positivement vers le nord
-  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: latitude géodésique
+  - type: expression
+    designation: ellipsoidal latitude
+  definition:
+  - content: angle entre le plan équatorial et la normale à l'ellipsoïde passant par
+      un point donné, orienté positivement vers le nord
   notes: []
   examples: []
+  language_code: fra
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.32'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.32"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.32. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.32. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: latitude géodésique
-      normative_status: preferred
-    - designation: ellipsoidal latitude
-      type: expression
   _revisions:
     current: f5f672
     tree:
       f5f672:
         object:
           id: 200
-          definition: >-
-            angle entre le plan équatorial et la normale à l'ellipsoïde passant
-            par un point donné, orienté positivement vers le nord
+          definition: angle entre le plan équatorial et la normale à l'ellipsoïde
+            passant par un point donné, orienté positivement vers le nord
           language_code: fra
           notes: []
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.32'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.32"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.32. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.32. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: latitude géodésique
-              normative_status: preferred
-            - designation: ellipsoidal latitude
-              type: expression
+          - type: expression
+            designation: latitude géodésique
+            normative_status: preferred
+          - designation: ellipsoidal latitude
+            type: expression
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -515,37 +544,43 @@ fra:
           email: glossarist@ribose.com
 deu:
   id: 200
-  abbrev: j
-  definition: >-
-    Winkel von der Äquatorebene zur Ellipsoidsenkrechten durch einen gegebenen
-    Punkt; nordwärts mit positiven Werten
-  language_code: deu
+  terms:
+  - type: abbreviation
+    designation: j
+  - type: expression
+    normative_status: preferred
+    designation: geodätische Breite
+  - type: expression
+    designation: ellipsoidal latitude
+  definition:
+  - content: Winkel von der Äquatorebene zur Ellipsoidsenkrechten durch einen gegebenen
+      Punkt; nordwärts mit positiven Werten
   notes: []
   examples: []
+  language_code: deu
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.32'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.32"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.32. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.32. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: geodätische Breite
-      normative_status: preferred
-    - designation: ellipsoidal latitude
-      type: expression
   _revisions:
     current: a67f9a
     tree:
@@ -553,8 +588,7 @@ deu:
         object:
           id: 200
           abbrev: j
-          definition: >-
-            Winkel von der Äquatorebene zur Ellipsoidsenkrechten durch einen
+          definition: Winkel von der Äquatorebene zur Ellipsoidsenkrechten durch einen
             gegebenen Punkt; nordwärts mit positiven Werten
           language_code: deu
           notes: []
@@ -562,27 +596,26 @@ deu:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.32'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.32"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.32. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.32. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: geodätische Breite
-              normative_status: preferred
-            - designation: ellipsoidal latitude
-              type: expression
+          - type: expression
+            designation: geodätische Breite
+            normative_status: preferred
+          - designation: ellipsoidal latitude
+            type: expression
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -590,33 +623,40 @@ deu:
           email: glossarist@ribose.com
 kor:
   id: 200
-  abbrev: j
-  definition: '적도면과 주어진 점을 통과하는 타원체 법선이 이루는 각도(ϕ)로써, 북으로 향하는 것을 정(+)으로 함'
-  language_code: kor
+  terms:
+  - type: abbreviation
+    designation: j
+  - type: expression
+    normative_status: preferred
+    designation: 측지 위도
+  definition:
+  - content: 적도면과 주어진 점을 통과하는 타원체 법선이 이루는 각도(ϕ)로써, 북으로 향하는 것을 정(+)으로 함
   notes: []
   examples: []
+  language_code: kor
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.32'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.32"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.32. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.32. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: 측지 위도
-      normative_status: preferred
   _revisions:
     current: '972917'
     tree:
@@ -624,32 +664,31 @@ kor:
         object:
           id: 200
           abbrev: j
-          definition: '적도면과 주어진 점을 통과하는 타원체 법선이 이루는 각도(ϕ)로써, 북으로 향하는 것을 정(+)으로 함'
+          definition: 적도면과 주어진 점을 통과하는 타원체 법선이 이루는 각도(ϕ)로써, 북으로 향하는 것을 정(+)으로 함
           language_code: kor
           notes: []
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.32'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.32"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.32. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.32. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: 측지 위도
-              normative_status: preferred
+          - type: expression
+            designation: 측지 위도
+            normative_status: preferred
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -657,38 +696,44 @@ kor:
           email: glossarist@ribose.com
 pol:
   id: 200
-  abbrev: j
-  definition: >-
-    kąt między płaszczyzną równika a normalną do elipsoidy, przechodzącą przez
-    dany punkt, liczony od równika w kierunku bieguna północnego
-  language_code: pol
+  terms:
+  - type: abbreviation
+    designation: j
+  - type: expression
+    normative_status: preferred
+    designation: |-
+      szerokość geodezyjna
+      szerokość elipsoidalna φ
+  - type: expression
+    designation: szerokość elipsoidalna
+  definition:
+  - content: kąt między płaszczyzną równika a normalną do elipsoidy, przechodzącą
+      przez dany punkt, liczony od równika w kierunku bieguna północnego
   notes: []
   examples: []
+  language_code: pol
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.32'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.32"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.32. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.32. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: |-
-        szerokość geodezyjna
-        szerokość elipsoidalna φ
-      normative_status: preferred
-    - designation: szerokość elipsoidalna
-      type: expression
   _revisions:
     current: 89ee42
     tree:
@@ -696,37 +741,35 @@ pol:
         object:
           id: 200
           abbrev: j
-          definition: >-
-            kąt między płaszczyzną równika a normalną do elipsoidy, przechodzącą
+          definition: kąt między płaszczyzną równika a normalną do elipsoidy, przechodzącą
             przez dany punkt, liczony od równika w kierunku bieguna północnego
           language_code: pol
           notes: []
           examples: []
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.32'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.32"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.32. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.32. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: |-
-                szerokość geodezyjna
-                szerokość elipsoidalna φ
-              normative_status: preferred
-            - designation: szerokość elipsoidalna
-              type: expression
+          - type: expression
+            designation: |-
+              szerokość geodezyjna
+              szerokość elipsoidalna φ
+            normative_status: preferred
+          - designation: szerokość elipsoidalna
+            type: expression
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -734,38 +777,44 @@ pol:
           email: glossarist@ribose.com
 rus:
   id: 200
-  abbrev: B
-  definition: >-
-    острый угол, образованный нормалью к поверхности эллипсоида в данной точке и
-    плоскостью экватора, положительный по направлению к северу и отрацательный –
-    к югу
-  language_code: rus
+  terms:
+  - type: abbreviation
+    designation: B
+  - type: expression
+    normative_status: preferred
+    designation: геодезическая широта
+  - type: expression
+    designation: элипсоидальная широта
+  definition:
+  - content: острый угол, образованный нормалью к поверхности эллипсоида в данной
+      точке и плоскостью экватора, положительный по направлению к северу и отрацательный
+      – к югу
   notes: []
   examples: []
+  language_code: rus
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.32'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.32"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.32. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.32. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: геодезическая широта
-      normative_status: preferred
-    - designation: элипсоидальная широта
-      type: expression
   _revisions:
     current: 0c66bd
     tree:
@@ -773,37 +822,35 @@ rus:
         object:
           id: 200
           abbrev: B
-          definition: >-
-            острый угол, образованный нормалью к поверхности эллипсоида в данной
-            точке и плоскостью экватора, положительный по направлению к северу и
-            отрацательный – к югу
+          definition: острый угол, образованный нормалью к поверхности эллипсоида
+            в данной точке и плоскостью экватора, положительный по направлению к северу
+            и отрацательный – к югу
           language_code: rus
           notes: []
           examples: []
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.32'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.32"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.32. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.32. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: геодезическая широта
-              normative_status: preferred
-            - designation: элипсоидальная широта
-              type: expression
+          - type: expression
+            designation: геодезическая широта
+            normative_status: preferred
+          - designation: элипсоидальная широта
+            type: expression
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -811,37 +858,43 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 200
-  abbrev: j
-  definition: >-
-    ángulo que forma el plano ecuatorial con la normal al elipsoide desde un
-    punto dado, se toma positiva hacia el norte
-  language_code: spa
+  terms:
+  - type: abbreviation
+    designation: j
+  - type: expression
+    normative_status: preferred
+    designation: latitud geodésica
+  - type: expression
+    designation: latitud elipsoidal
+  definition:
+  - content: ángulo que forma el plano ecuatorial con la normal al elipsoide desde
+      un punto dado, se toma positiva hacia el norte
   notes: []
   examples: []
+  language_code: spa
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.32'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.32"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.32. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.32. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: latitud geodésica
-      normative_status: preferred
-    - designation: latitud elipsoidal
-      type: expression
   _revisions:
     current: '399861'
     tree:
@@ -849,8 +902,7 @@ spa:
         object:
           id: 200
           abbrev: j
-          definition: >-
-            ángulo que forma el plano ecuatorial con la normal al elipsoide
+          definition: ángulo que forma el plano ecuatorial con la normal al elipsoide
             desde un punto dado, se toma positiva hacia el norte
           language_code: spa
           notes: []
@@ -858,27 +910,26 @@ spa:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.32'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.32"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.32. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.32. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: latitud geodésica
-              normative_status: preferred
-            - designation: latitud elipsoidal
-              type: expression
+          - type: expression
+            designation: latitud geodésica
+            normative_status: preferred
+          - designation: latitud elipsoidal
+            type: expression
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:
@@ -886,38 +937,45 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 200
-  abbrev: j
-  definition: |-
-    vinkel mellan referensellipsoidens normal
-    och referenselipsoidens ekvatorsplan, positiv norrut
-  country_code: swe
-  language_code: swe
+  terms:
+  - type: abbreviation
+    designation: j
+  - type: expression
+    normative_status: preferred
+    designation: geodetiskt latitud
+  - type: expression
+    designation: ellipsoidal latitude
+  definition:
+  - content: |-
+      vinkel mellan referensellipsoidens normal
+      och referenselipsoidens ekvatorsplan, positiv norrut
   notes: []
   examples: []
+  country_code: swe
+  language_code: swe
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.32'
-    link: 'https://www.iso.org/standard/74039.html'
-  lineage_source: 'ISO 19111:2003'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.32"
+      link: https://www.iso.org/standard/74039.html
+  - type: lineage
+    origin:
+      ref: ISO 19111:2003
   lineage_source_similarity: 1
-  date_accepted: '2003-02-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2003-02-15T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19111:2019(E)'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO 19111:2007 to ISO 19111:2019(E),
-    3.1.32. Lineage source added as ISO 19111:2003
+  review_decision_event: Publication of ISO 19111:2019(E)
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.32. Lineage source added as ISO 19111:2003
   release: '1'
-  terms:
-    - type: expression
-      designation: geodetiskt latitud
-      normative_status: preferred
-    - designation: ellipsoidal latitude
-      type: expression
   _revisions:
     current: 71f72d
     tree:
@@ -935,27 +993,26 @@ swe:
           entry_status: valid
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.32'
-            link: 'https://www.iso.org/standard/74039.html'
-          lineage_source: 'ISO 19111:2003'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.32"
+            link: https://www.iso.org/standard/74039.html
+          lineage_source: ISO 19111:2003
           lineage_source_similarity: 1
           date_accepted: '2003-02-15T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19111:2019(E)'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO 19111:2007 to ISO
-            19111:2019(E), 3.1.32. Lineage source added as ISO 19111:2003
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.32. Lineage source added as ISO 19111:2003
           release: '1'
           terms:
-            - type: expression
-              designation: geodetiskt latitud
-              normative_status: preferred
-            - designation: ellipsoidal latitude
-              type: expression
+          - type: expression
+            designation: geodetiskt latitud
+            normative_status: preferred
+          - designation: ellipsoidal latitude
+            type: expression
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
         author:

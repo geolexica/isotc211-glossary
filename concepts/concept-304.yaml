@@ -1,76 +1,79 @@
-term: multiplicity <UML>
+---
 termid: 304
+term: multiplicity <UML>
 eng:
   id: 304
-  definition: specification of the range of allowable cardinalities that a set may assume
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: multiplicity <UML>
+  definition:
+  - content: specification of the range of allowable cardinalities that a set may
+      assume
   notes:
-    - >-
-      Multiplicity specifications may be given for roles within associations,
-      parts within composites, repetitions and other purposes. Essentially a
-      multiplicity is a (possibly infinite) subset of the non-negative integers.
-      Contrast: cardinality.
+  - content: 'Multiplicity specifications may be given for roles within associations,
+      parts within composites, repetitions and other purposes. Essentially a multiplicity
+      is a (possibly infinite) subset of the non-negative integers. Contrast: cardinality.'
   examples: []
+  language_code: eng
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19103:2015'
-    clause: '4.24'
-    link: 'https://www.iso.org/standard/56734.html'
-  lineage_source: 'ISO/TS 19103:2005'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19103:2015
+      clause: '4.24'
+      link: https://www.iso.org/standard/56734.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19103:2005
   lineage_source_similarity: 1
-  date_accepted: '2005-07-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2005-07-15T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/IEC 19501:2005 (Adapted from) to
-    ISO 19103:2015, 4.24. Lineage source added as ISO/TS 19103:2005
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
+    from) to ISO 19103:2015, 4.24. Lineage source added as ISO/TS 19103:2005
   release: '1'
-  terms:
-    - type: expression
-      designation: multiplicity <UML>
-      normative_status: preferred
   _revisions:
     current: e4441c
     tree:
       e4441c:
         object:
           id: 304
-          definition: >-
-            specification of the range of allowable cardinalities that a set may
-            assume
+          definition: specification of the range of allowable cardinalities that a
+            set may assume
           language_code: eng
           notes:
-            - >-
-              Multiplicity specifications may be given for roles within
-              associations, parts within composites, repetitions and other
-              purposes. Essentially a multiplicity is a (possibly infinite)
-              subset of the non-negative integers. Contrast: cardinality.
+          - 'Multiplicity specifications may be given for roles within associations,
+            parts within composites, repetitions and other purposes. Essentially a
+            multiplicity is a (possibly infinite) subset of the non-negative integers.
+            Contrast: cardinality.'
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19103:2015'
+            ref: ISO 19103:2015
             clause: '4.24'
-            link: 'https://www.iso.org/standard/56734.html'
-          lineage_source: 'ISO/TS 19103:2005'
+            link: https://www.iso.org/standard/56734.html
+          lineage_source: ISO/TS 19103:2005
           lineage_source_similarity: 1
           date_accepted: '2005-07-15T00:00:00.000Z'
           review_date: '2009-01-14T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
-            from) to ISO 19103:2015, 4.24. Lineage source added as ISO/TS
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005
+            (Adapted from) to ISO 19103:2015, 4.24. Lineage source added as ISO/TS
             19103:2005
           release: '1'
           terms:
-            - type: expression
-              designation: multiplicity <UML>
-              normative_status: preferred
+          - type: expression
+            designation: multiplicity <UML>
+            normative_status: preferred
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
         author:
@@ -78,36 +81,41 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 304
-  definition: تحديد نطاق الأعداد المسموح لمجموعة رياضية باتخاذها
-  language_code: ara
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: تعدد <UML>
+  definition:
+  - content: تحديد نطاق الأعداد المسموح لمجموعة رياضية باتخاذها
   notes:
-    - >-
-      يمكن إعطاء مواصفات تعددية لتوصيف أدوار في إطار جمعيات أو اتحادات , وتوصيف
-      أجزاء من مركبَّات ، وتوصيف حالات التكرار ولأغراض أخرى غير ما ذكر. وبشكل
-      أساسي , التعددية هو عبارة عن مجموعة فرعية (يمكن أن تكون لا متناهية)
-      للأعداد الصحيحة غير السالبة. نقيض التعددية هو: خاصية الأعداد الأساسية.
+  - content: 'يمكن إعطاء مواصفات تعددية لتوصيف أدوار في إطار جمعيات أو اتحادات , وتوصيف
+      أجزاء من مركبَّات ، وتوصيف حالات التكرار ولأغراض أخرى غير ما ذكر. وبشكل أساسي
+      , التعددية هو عبارة عن مجموعة فرعية (يمكن أن تكون لا متناهية) للأعداد الصحيحة
+      غير السالبة. نقيض التعددية هو: خاصية الأعداد الأساسية.'
   examples: []
+  language_code: ara
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19103:2015'
-    clause: '4.24'
-    link: 'https://www.iso.org/standard/56734.html'
-  lineage_source: 'ISO/TS 19103:2005'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19103:2015
+      clause: '4.24'
+      link: https://www.iso.org/standard/56734.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19103:2005
   lineage_source_similarity: 1
-  date_accepted: '2005-07-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2005-07-15T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/IEC 19501:2005 (Adapted from) to
-    ISO 19103:2015, 4.24. Lineage source added as ISO/TS 19103:2005
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
+    from) to ISO 19103:2015, 4.24. Lineage source added as ISO/TS 19103:2005
   release: '1'
-  terms:
-    - type: expression
-      designation: تعدد <UML>
-      normative_status: preferred
   _revisions:
     current: '842117'
     tree:
@@ -117,35 +125,32 @@ ara:
           definition: تحديد نطاق الأعداد المسموح لمجموعة رياضية باتخاذها
           language_code: ara
           notes:
-            - >-
-              يمكن إعطاء مواصفات تعددية لتوصيف أدوار في إطار جمعيات أو اتحادات ,
-              وتوصيف أجزاء من مركبَّات ، وتوصيف حالات التكرار ولأغراض أخرى غير
-              ما ذكر. وبشكل أساسي , التعددية هو عبارة عن مجموعة فرعية (يمكن أن
-              تكون لا متناهية) للأعداد الصحيحة غير السالبة. نقيض التعددية هو:
-              خاصية الأعداد الأساسية.
+          - 'يمكن إعطاء مواصفات تعددية لتوصيف أدوار في إطار جمعيات أو اتحادات , وتوصيف
+            أجزاء من مركبَّات ، وتوصيف حالات التكرار ولأغراض أخرى غير ما ذكر. وبشكل
+            أساسي , التعددية هو عبارة عن مجموعة فرعية (يمكن أن تكون لا متناهية) للأعداد
+            الصحيحة غير السالبة. نقيض التعددية هو: خاصية الأعداد الأساسية.'
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19103:2015'
+            ref: ISO 19103:2015
             clause: '4.24'
-            link: 'https://www.iso.org/standard/56734.html'
-          lineage_source: 'ISO/TS 19103:2005'
+            link: https://www.iso.org/standard/56734.html
+          lineage_source: ISO/TS 19103:2005
           lineage_source_similarity: 1
           date_accepted: '2005-07-15T00:00:00.000Z'
           review_date: '2009-01-14T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
-            from) to ISO 19103:2015, 4.24. Lineage source added as ISO/TS
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005
+            (Adapted from) to ISO 19103:2015, 4.24. Lineage source added as ISO/TS
             19103:2005
           release: '1'
           terms:
-            - type: expression
-              designation: تعدد <UML>
-              normative_status: preferred
+          - type: expression
+            designation: تعدد <UML>
+            normative_status: preferred
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
         author:
@@ -153,32 +158,38 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 304
-  definition: 一个集合可以假设的、允许的基数范围说明。
-  language_code: zho
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 多重性<UML>
+  definition:
+  - content: 一个集合可以假设的、允许的基数范围说明。
   notes:
-    - 多重性规定在关联中可以赋予角色，组成中赋予部分、副本和其他目的。本质上，多重性是非负整数的一个（可能是无限的）子集。对比：基数。
+  - content: 多重性规定在关联中可以赋予角色，组成中赋予部分、副本和其他目的。本质上，多重性是非负整数的一个（可能是无限的）子集。对比：基数。
   examples: []
+  language_code: zho
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19103:2015'
-    clause: '4.24'
-    link: 'https://www.iso.org/standard/56734.html'
-  lineage_source: 'ISO/TS 19103:2005'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19103:2015
+      clause: '4.24'
+      link: https://www.iso.org/standard/56734.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19103:2005
   lineage_source_similarity: 1
-  date_accepted: '2005-07-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2005-07-15T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/IEC 19501:2005 (Adapted from) to
-    ISO 19103:2015, 4.24. Lineage source added as ISO/TS 19103:2005
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
+    from) to ISO 19103:2015, 4.24. Lineage source added as ISO/TS 19103:2005
   release: '1'
-  terms:
-    - type: expression
-      designation: 多重性<UML>
-      normative_status: preferred
   _revisions:
     current: 480af7
     tree:
@@ -188,30 +199,29 @@ zho:
           definition: 一个集合可以假设的、允许的基数范围说明。
           language_code: zho
           notes:
-            - 多重性规定在关联中可以赋予角色，组成中赋予部分、副本和其他目的。本质上，多重性是非负整数的一个（可能是无限的）子集。对比：基数。
+          - 多重性规定在关联中可以赋予角色，组成中赋予部分、副本和其他目的。本质上，多重性是非负整数的一个（可能是无限的）子集。对比：基数。
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19103:2015'
+            ref: ISO 19103:2015
             clause: '4.24'
-            link: 'https://www.iso.org/standard/56734.html'
-          lineage_source: 'ISO/TS 19103:2005'
+            link: https://www.iso.org/standard/56734.html
+          lineage_source: ISO/TS 19103:2005
           lineage_source_similarity: 1
           date_accepted: '2005-07-15T00:00:00.000Z'
           review_date: '2009-01-14T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
-            from) to ISO 19103:2015, 4.24. Lineage source added as ISO/TS
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005
+            (Adapted from) to ISO 19103:2015, 4.24. Lineage source added as ISO/TS
             19103:2005
           release: '1'
           terms:
-            - type: expression
-              designation: 多重性<UML>
-              normative_status: preferred
+          - type: expression
+            designation: 多重性<UML>
+            normative_status: preferred
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
         author:
@@ -219,78 +229,78 @@ zho:
           email: glossarist@ribose.com
 fin:
   id: 304
-  definition: >-
-    sääntö, joka määrää, kuinka monta kertaa tietyn tietoelementin saa liittää
-    kohteeseen tai metatietoon
-  language_code: fin
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: kerrannaisuus <UML>
+  definition:
+  - content: sääntö, joka määrää, kuinka monta kertaa tietyn tietoelementin saa liittää
+      kohteeseen tai metatietoon
   notes:
-    - >-
-      Kerrannaisuusmäärittelyjä voidaan tehdä muun muassa assosiaatiosuhteisiin
-      liittyville rooleille, vahvan koosteen osille ja toistoille. Kerrannaisuus
-      on (mahdollisesti ääretön) ei-negatiivisten kokonaislukujen osajoukko.
-      Huomaa ero käsitteeseen kardinaliteetti (mahtavuus).
+  - content: Kerrannaisuusmäärittelyjä voidaan tehdä muun muassa assosiaatiosuhteisiin
+      liittyville rooleille, vahvan koosteen osille ja toistoille. Kerrannaisuus on
+      (mahdollisesti ääretön) ei-negatiivisten kokonaislukujen osajoukko. Huomaa ero
+      käsitteeseen kardinaliteetti (mahtavuus).
   examples: []
+  language_code: fin
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19103:2015'
-    clause: '4.24'
-    link: 'https://www.iso.org/standard/56734.html'
-  lineage_source: 'ISO/TS 19103:2005'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19103:2015
+      clause: '4.24'
+      link: https://www.iso.org/standard/56734.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19103:2005
   lineage_source_similarity: 1
-  date_accepted: '2005-07-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2005-07-15T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/IEC 19501:2005 (Adapted from) to
-    ISO 19103:2015, 4.24. Lineage source added as ISO/TS 19103:2005
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
+    from) to ISO 19103:2015, 4.24. Lineage source added as ISO/TS 19103:2005
   release: '1'
-  terms:
-    - type: expression
-      designation: kerrannaisuus <UML>
-      normative_status: preferred
   _revisions:
     current: 5c9731
     tree:
       5c9731:
         object:
           id: 304
-          definition: >-
-            sääntö, joka määrää, kuinka monta kertaa tietyn tietoelementin saa
-            liittää kohteeseen tai metatietoon
+          definition: sääntö, joka määrää, kuinka monta kertaa tietyn tietoelementin
+            saa liittää kohteeseen tai metatietoon
           language_code: fin
           notes:
-            - >-
-              Kerrannaisuusmäärittelyjä voidaan tehdä muun muassa
-              assosiaatiosuhteisiin liittyville rooleille, vahvan koosteen
-              osille ja toistoille. Kerrannaisuus on (mahdollisesti ääretön)
-              ei-negatiivisten kokonaislukujen osajoukko. Huomaa ero
-              käsitteeseen kardinaliteetti (mahtavuus).
+          - Kerrannaisuusmäärittelyjä voidaan tehdä muun muassa assosiaatiosuhteisiin
+            liittyville rooleille, vahvan koosteen osille ja toistoille. Kerrannaisuus
+            on (mahdollisesti ääretön) ei-negatiivisten kokonaislukujen osajoukko.
+            Huomaa ero käsitteeseen kardinaliteetti (mahtavuus).
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19103:2015'
+            ref: ISO 19103:2015
             clause: '4.24'
-            link: 'https://www.iso.org/standard/56734.html'
-          lineage_source: 'ISO/TS 19103:2005'
+            link: https://www.iso.org/standard/56734.html
+          lineage_source: ISO/TS 19103:2005
           lineage_source_similarity: 1
           date_accepted: '2005-07-15T00:00:00.000Z'
           review_date: '2009-01-14T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
-            from) to ISO 19103:2015, 4.24. Lineage source added as ISO/TS
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005
+            (Adapted from) to ISO 19103:2015, 4.24. Lineage source added as ISO/TS
             19103:2005
           release: '1'
           terms:
-            - type: expression
-              designation: kerrannaisuus <UML>
-              normative_status: preferred
+          - type: expression
+            designation: kerrannaisuus <UML>
+            normative_status: preferred
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
         author:
@@ -298,67 +308,70 @@ fin:
           email: glossarist@ribose.com
 fra:
   id: 304
-  definition: >-
-    spécification de la gamme de cardinalités autorisées qu'un ensemble peut
-    prendre
-  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: multiplicité <UML>
+  definition:
+  - content: spécification de la gamme de cardinalités autorisées qu'un ensemble peut
+      prendre
   notes: []
   examples: []
+  language_code: fra
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19103:2015'
-    clause: '4.24'
-    link: 'https://www.iso.org/standard/56734.html'
-  lineage_source: 'ISO/TS 19103:2005'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19103:2015
+      clause: '4.24'
+      link: https://www.iso.org/standard/56734.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19103:2005
   lineage_source_similarity: 1
-  date_accepted: '2005-07-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2005-07-15T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/IEC 19501:2005 (Adapted from) to
-    ISO 19103:2015, 4.24. Lineage source added as ISO/TS 19103:2005
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
+    from) to ISO 19103:2015, 4.24. Lineage source added as ISO/TS 19103:2005
   release: '1'
-  terms:
-    - type: expression
-      designation: multiplicité <UML>
-      normative_status: preferred
   _revisions:
     current: da7862
     tree:
       da7862:
         object:
           id: 304
-          definition: >-
-            spécification de la gamme de cardinalités autorisées qu'un ensemble
+          definition: spécification de la gamme de cardinalités autorisées qu'un ensemble
             peut prendre
           language_code: fra
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19103:2015'
+            ref: ISO 19103:2015
             clause: '4.24'
-            link: 'https://www.iso.org/standard/56734.html'
-          lineage_source: 'ISO/TS 19103:2005'
+            link: https://www.iso.org/standard/56734.html
+          lineage_source: ISO/TS 19103:2005
           lineage_source_similarity: 1
           date_accepted: '2005-07-15T00:00:00.000Z'
           review_date: '2009-01-14T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
-            from) to ISO 19103:2015, 4.24. Lineage source added as ISO/TS
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005
+            (Adapted from) to ISO 19103:2015, 4.24. Lineage source added as ISO/TS
             19103:2005
           release: '1'
           terms:
-            - type: expression
-              designation: multiplicité <UML>
-              normative_status: preferred
+          - type: expression
+            designation: multiplicité <UML>
+            normative_status: preferred
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
         author:
@@ -366,35 +379,38 @@ fra:
           email: glossarist@ribose.com
 deu:
   id: 304
-  language_code: deu
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Multiplizität <UML>
   notes:
-    - >-
-      Multiplicity specifications may be given for roles within associations,
-      parts within composites, repetitions and other purposes. Essentially a
-      multiplicity is a (possibly infinite) subset of the non-negative integers.
-      Contrast: cardinality.
+  - content: 'Multiplicity specifications may be given for roles within associations,
+      parts within composites, repetitions and other purposes. Essentially a multiplicity
+      is a (possibly infinite) subset of the non-negative integers. Contrast: cardinality.'
   examples: []
+  language_code: deu
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19103:2015'
-    clause: '4.24'
-    link: 'https://www.iso.org/standard/56734.html'
-  lineage_source: 'ISO/TS 19103:2005'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19103:2015
+      clause: '4.24'
+      link: https://www.iso.org/standard/56734.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19103:2005
   lineage_source_similarity: 1
-  date_accepted: '2005-07-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2005-07-15T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/IEC 19501:2005 (Adapted from) to
-    ISO 19103:2015, 4.24. Lineage source added as ISO/TS 19103:2005
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
+    from) to ISO 19103:2015, 4.24. Lineage source added as ISO/TS 19103:2005
   release: '1'
-  terms:
-    - type: expression
-      designation: Multiplizität <UML>
-      normative_status: preferred
   _revisions:
     current: 63cea0
     tree:
@@ -403,34 +419,32 @@ deu:
           id: 304
           language_code: deu
           notes:
-            - >-
-              Multiplicity specifications may be given for roles within
-              associations, parts within composites, repetitions and other
-              purposes. Essentially a multiplicity is a (possibly infinite)
-              subset of the non-negative integers. Contrast: cardinality.
+          - 'Multiplicity specifications may be given for roles within associations,
+            parts within composites, repetitions and other purposes. Essentially a
+            multiplicity is a (possibly infinite) subset of the non-negative integers.
+            Contrast: cardinality.'
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19103:2015'
+            ref: ISO 19103:2015
             clause: '4.24'
-            link: 'https://www.iso.org/standard/56734.html'
-          lineage_source: 'ISO/TS 19103:2005'
+            link: https://www.iso.org/standard/56734.html
+          lineage_source: ISO/TS 19103:2005
           lineage_source_similarity: 1
           date_accepted: '2005-07-15T00:00:00.000Z'
           review_date: '2009-01-14T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
-            from) to ISO 19103:2015, 4.24. Lineage source added as ISO/TS
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005
+            (Adapted from) to ISO 19103:2015, 4.24. Lineage source added as ISO/TS
             19103:2005
           release: '1'
           terms:
-            - type: expression
-              designation: Multiplizität <UML>
-              normative_status: preferred
+          - type: expression
+            designation: Multiplizität <UML>
+            normative_status: preferred
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
         author:
@@ -438,34 +452,39 @@ deu:
           email: glossarist@ribose.com
 kor:
   id: 304
-  definition: 집합에서 허용 가능한 관계수의 범위에 대한 사양
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 다중성 <UML>
+  definition:
+  - content: 집합에서 허용 가능한 관계수의 범위에 대한 사양
   notes:
-    - >-
-      다중성 명세는 연관의 역할로, 합성 및 반복 또는 목적의 부분으로 주어질 수 있다. 필수적으로 다중성은 음이 아닌 정수의 부분
+  - content: 다중성 명세는 연관의 역할로, 합성 및 반복 또는 목적의 부분으로 주어질 수 있다. 필수적으로 다중성은 음이 아닌 정수의 부분
       집합(무한대 가능)이다. 관계수와 비교
   examples: []
+  language_code: kor
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19103:2015'
-    clause: '4.24'
-    link: 'https://www.iso.org/standard/56734.html'
-  lineage_source: 'ISO/TS 19103:2005'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19103:2015
+      clause: '4.24'
+      link: https://www.iso.org/standard/56734.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19103:2005
   lineage_source_similarity: 1
-  date_accepted: '2005-07-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2005-07-15T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/IEC 19501:2005 (Adapted from) to
-    ISO 19103:2015, 4.24. Lineage source added as ISO/TS 19103:2005
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
+    from) to ISO 19103:2015, 4.24. Lineage source added as ISO/TS 19103:2005
   release: '1'
-  terms:
-    - type: expression
-      designation: 다중성 <UML>
-      normative_status: preferred
   _revisions:
     current: '274242'
     tree:
@@ -475,32 +494,30 @@ kor:
           definition: 집합에서 허용 가능한 관계수의 범위에 대한 사양
           language_code: kor
           notes:
-            - >-
-              다중성 명세는 연관의 역할로, 합성 및 반복 또는 목적의 부분으로 주어질 수 있다. 필수적으로 다중성은 음이 아닌
-              정수의 부분 집합(무한대 가능)이다. 관계수와 비교
+          - 다중성 명세는 연관의 역할로, 합성 및 반복 또는 목적의 부분으로 주어질 수 있다. 필수적으로 다중성은 음이 아닌 정수의 부분
+            집합(무한대 가능)이다. 관계수와 비교
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19103:2015'
+            ref: ISO 19103:2015
             clause: '4.24'
-            link: 'https://www.iso.org/standard/56734.html'
-          lineage_source: 'ISO/TS 19103:2005'
+            link: https://www.iso.org/standard/56734.html
+          lineage_source: ISO/TS 19103:2005
           lineage_source_similarity: 1
           date_accepted: '2005-07-15T00:00:00.000Z'
           review_date: '2009-01-14T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
-            from) to ISO 19103:2015, 4.24. Lineage source added as ISO/TS
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005
+            (Adapted from) to ISO 19103:2015, 4.24. Lineage source added as ISO/TS
             19103:2005
           release: '1'
           terms:
-            - type: expression
-              designation: 다중성 <UML>
-              normative_status: preferred
+          - type: expression
+            designation: 다중성 <UML>
+            normative_status: preferred
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
         author:
@@ -508,58 +525,56 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 304
-  definition: определение диапазона допустимых кардинальных значений (размера) множества
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: множественность <UML>
+  definition:
+  - content: определение диапазона допустимых кардинальных значений (размера) множества
   notes:
-    - >-
-      Спецификации множественности могут указываться для ролей в пределах
-      ассоциаций, частей внутри композиций, повторов сообщений и в других целях.
-      По сути, множественность является подмножеством (возможно, бесконечным)
-      неотрицательных целых чисел.
-
+  - content: |-
+      Спецификации множественности могут указываться для ролей в пределах ассоциаций, частей внутри композиций, повторов сообщений и в других целях. По сути, множественность является подмножеством (возможно, бесконечным) неотрицательных целых чисел.
       См. для сравнения термин «кардинальное число»
   examples: []
+  language_code: rus
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO/IEC 19501:2005 '
-    clause: (Adapted from)
-    link: 'https://www.iso.org/standard/32620.html'
-  lineage_source: Internet
-  date_accepted: '2005-07-15T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: множественность <UML>
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: 'ISO/IEC 19501:2005 '
+      clause: "(Adapted from)"
+      link: https://www.iso.org/standard/32620.html
+  - type: lineage
+    origin:
+      ref: Internet
+  dates:
+  - type: accepted
+    date: '2005-07-15T00:00:00.000Z'
   _revisions:
     current: ff5617
     tree:
       ff5617:
         object:
           id: 304
-          definition: >-
-            определение диапазона допустимых кардинальных значений (размера)
+          definition: определение диапазона допустимых кардинальных значений (размера)
             множества
           language_code: rus
           notes:
-            - >-
-              Спецификации множественности могут указываться для ролей в
-              пределах ассоциаций, частей внутри композиций, повторов сообщений
-              и в других целях. По сути, множественность является подмножеством
-              (возможно, бесконечным) неотрицательных целых чисел.
-
-              См. для сравнения термин «кардинальное число»
+          - |-
+            Спецификации множественности могут указываться для ролей в пределах ассоциаций, частей внутри композиций, повторов сообщений и в других целях. По сути, множественность является подмножеством (возможно, бесконечным) неотрицательных целых чисел.
+            См. для сравнения термин «кардинальное число»
           examples: []
           entry_status: valid
           authoritative_source:
             ref: 'ISO/IEC 19501:2005 '
-            clause: (Adapted from)
-            link: 'https://www.iso.org/standard/32620.html'
+            clause: "(Adapted from)"
+            link: https://www.iso.org/standard/32620.html
           lineage_source: Internet
           date_accepted: '2005-07-15T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: множественность <UML>
-              normative_status: preferred
+          - type: expression
+            designation: множественность <UML>
+            normative_status: preferred
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
         author:
@@ -567,77 +582,78 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 304
-  definition: >-
-    especificación del rango de cardinalidades permisibles que un conjunto puede
-    asumir
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: multiplicidad <UML>
+  definition:
+  - content: especificación del rango de cardinalidades permisibles que un conjunto
+      puede asumir
   notes:
-    - >-
-      Se pueden dar especificaciones de multiplicidad entre roles de asociación,
-      partes dentro de compuestos, repeticiones y otros. Esencialmente, una
-      multiplicidad es un subconjunto (posiblemente finito) de enteros no
-      negativos. Contratar con: cardinalidad.
+  - content: 'Se pueden dar especificaciones de multiplicidad entre roles de asociación,
+      partes dentro de compuestos, repeticiones y otros. Esencialmente, una multiplicidad
+      es un subconjunto (posiblemente finito) de enteros no negativos. Contratar con:
+      cardinalidad.'
   examples: []
+  language_code: spa
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19103:2015'
-    clause: '4.24'
-    link: 'https://www.iso.org/standard/56734.html'
-  lineage_source: 'ISO/TS 19103:2005'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19103:2015
+      clause: '4.24'
+      link: https://www.iso.org/standard/56734.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19103:2005
   lineage_source_similarity: 1
-  date_accepted: '2005-07-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2005-07-15T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/IEC 19501:2005 (Adapted from) to
-    ISO 19103:2015, 4.24. Lineage source added as ISO/TS 19103:2005
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
+    from) to ISO 19103:2015, 4.24. Lineage source added as ISO/TS 19103:2005
   release: '1'
-  terms:
-    - type: expression
-      designation: multiplicidad <UML>
-      normative_status: preferred
   _revisions:
     current: 01160f
     tree:
       01160f:
         object:
           id: 304
-          definition: >-
-            especificación del rango de cardinalidades permisibles que un
+          definition: especificación del rango de cardinalidades permisibles que un
             conjunto puede asumir
           language_code: spa
           notes:
-            - >-
-              Se pueden dar especificaciones de multiplicidad entre roles de
-              asociación, partes dentro de compuestos, repeticiones y otros.
-              Esencialmente, una multiplicidad es un subconjunto (posiblemente
-              finito) de enteros no negativos. Contratar con: cardinalidad.
+          - 'Se pueden dar especificaciones de multiplicidad entre roles de asociación,
+            partes dentro de compuestos, repeticiones y otros. Esencialmente, una
+            multiplicidad es un subconjunto (posiblemente finito) de enteros no negativos.
+            Contratar con: cardinalidad.'
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19103:2015'
+            ref: ISO 19103:2015
             clause: '4.24'
-            link: 'https://www.iso.org/standard/56734.html'
-          lineage_source: 'ISO/TS 19103:2005'
+            link: https://www.iso.org/standard/56734.html
+          lineage_source: ISO/TS 19103:2005
           lineage_source_similarity: 1
           date_accepted: '2005-07-15T00:00:00.000Z'
           review_date: '2009-01-14T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
-            from) to ISO 19103:2015, 4.24. Lineage source added as ISO/TS
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005
+            (Adapted from) to ISO 19103:2015, 4.24. Lineage source added as ISO/TS
             19103:2005
           release: '1'
           terms:
-            - type: expression
-              designation: multiplicidad <UML>
-              normative_status: preferred
+          - type: expression
+            designation: multiplicidad <UML>
+            normative_status: preferred
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
         author:
@@ -645,75 +661,77 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 304
-  definition: specification of the range of allowable cardinalities that a set may assume
-  language_code: swe
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: multiplicity <UML>
+  definition:
+  - content: specification of the range of allowable cardinalities that a set may
+      assume
   notes:
-    - >-
-      Multiplicity specifications may be given for roles within associations,
-      parts within composites, repetitions and other purposes. Essentially a
-      multiplicity is a (possibly infinite) subset of the non-negative integers.
-      Contrast: cardinality.
+  - content: 'Multiplicity specifications may be given for roles within associations,
+      parts within composites, repetitions and other purposes. Essentially a multiplicity
+      is a (possibly infinite) subset of the non-negative integers. Contrast: cardinality.'
   examples: []
+  language_code: swe
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19103:2015'
-    clause: '4.24'
-    link: 'https://www.iso.org/standard/56734.html'
-  lineage_source: 'ISO/TS 19103:2005'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19103:2015
+      clause: '4.24'
+      link: https://www.iso.org/standard/56734.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19103:2005
   lineage_source_similarity: 1
-  date_accepted: '2005-07-15T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2005-07-15T00:00:00.000Z'
   review_date: '2009-01-14T00:00:00.000Z'
   review_status: final
   review_decision: accepted
   review_decision_date: '2015-12-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19103:2015'
-  review_decision_notes: >-
-    Authoritative reference changed from ISO/IEC 19501:2005 (Adapted from) to
-    ISO 19103:2015, 4.24. Lineage source added as ISO/TS 19103:2005
+  review_decision_event: Publication of ISO 19103:2015
+  review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
+    from) to ISO 19103:2015, 4.24. Lineage source added as ISO/TS 19103:2005
   release: '1'
-  terms:
-    - type: expression
-      designation: multiplicity <UML>
-      normative_status: preferred
   _revisions:
     current: 0f77aa
     tree:
       0f77aa:
         object:
           id: 304
-          definition: >-
-            specification of the range of allowable cardinalities that a set may
-            assume
+          definition: specification of the range of allowable cardinalities that a
+            set may assume
           language_code: swe
           notes:
-            - >-
-              Multiplicity specifications may be given for roles within
-              associations, parts within composites, repetitions and other
-              purposes. Essentially a multiplicity is a (possibly infinite)
-              subset of the non-negative integers. Contrast: cardinality.
+          - 'Multiplicity specifications may be given for roles within associations,
+            parts within composites, repetitions and other purposes. Essentially a
+            multiplicity is a (possibly infinite) subset of the non-negative integers.
+            Contrast: cardinality.'
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19103:2015'
+            ref: ISO 19103:2015
             clause: '4.24'
-            link: 'https://www.iso.org/standard/56734.html'
-          lineage_source: 'ISO/TS 19103:2005'
+            link: https://www.iso.org/standard/56734.html
+          lineage_source: ISO/TS 19103:2005
           lineage_source_similarity: 1
           date_accepted: '2005-07-15T00:00:00.000Z'
           review_date: '2009-01-14T00:00:00.000Z'
           review_status: final
           review_decision: accepted
           review_decision_date: '2015-12-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19103:2015'
-          review_decision_notes: >-
-            Authoritative reference changed from ISO/IEC 19501:2005 (Adapted
-            from) to ISO 19103:2015, 4.24. Lineage source added as ISO/TS
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: Authoritative reference changed from ISO/IEC 19501:2005
+            (Adapted from) to ISO 19103:2015, 4.24. Lineage source added as ISO/TS
             19103:2005
           release: '1'
           terms:
-            - type: expression
-              designation: multiplicity <UML>
-              normative_status: preferred
+          - type: expression
+            designation: multiplicity <UML>
+            normative_status: preferred
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
         author:

@@ -1,22 +1,28 @@
-term: conversion service
+---
 termid: 1162
+term: conversion service
 eng:
   id: 1162
-  definition: service that invokes a converter
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: conversion service
+  definition:
+  - content: service that invokes a converter
   notes: []
   examples: []
+  language_code: eng
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19145:2013'
-    clause: 4.1.4
-    link: 'https://www.iso.org/standard/32563.html'
-  date_accepted: '2013-02-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19145:2013
+      clause: 4.1.4
+      link: https://www.iso.org/standard/32563.html
+  dates:
+  - type: accepted
+    date: '2013-02-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: conversion service
-      normative_status: preferred
   _revisions:
     current: 10c780
     tree:
@@ -29,15 +35,15 @@ eng:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19145:2013'
+            ref: ISO 19145:2013
             clause: 4.1.4
-            link: 'https://www.iso.org/standard/32563.html'
+            link: https://www.iso.org/standard/32563.html
           date_accepted: '2013-02-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: conversion service
-              normative_status: preferred
+          - type: expression
+            designation: conversion service
+            normative_status: preferred
         parents: []
         timeCreated: '2013-02-15T00:00:00.000Z'
         author:
@@ -45,21 +51,26 @@ eng:
           email: glossarist@ribose.com
 kor:
   id: 1162
-  definition: 변환기를 작동시키는 행위
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 변환 행위
+  definition:
+  - content: 변환기를 작동시키는 행위
   notes: []
   examples: []
+  language_code: kor
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19145:2013'
-    clause: 4.1.4
-    link: 'https://www.iso.org/standard/32563.html'
-  date_accepted: '2013-02-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19145:2013
+      clause: 4.1.4
+      link: https://www.iso.org/standard/32563.html
+  dates:
+  - type: accepted
+    date: '2013-02-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: 변환 행위
-      normative_status: preferred
   _revisions:
     current: 1a461a
     tree:
@@ -72,15 +83,15 @@ kor:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19145:2013'
+            ref: ISO 19145:2013
             clause: 4.1.4
-            link: 'https://www.iso.org/standard/32563.html'
+            link: https://www.iso.org/standard/32563.html
           date_accepted: '2013-02-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: 변환 행위
-              normative_status: preferred
+          - type: expression
+            designation: 변환 행위
+            normative_status: preferred
         parents: []
         timeCreated: '2013-02-15T00:00:00.000Z'
         author:
@@ -88,44 +99,51 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 1162
-  definition: 'сервис, вызывающий конвертор'
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: сервис конвертации
+  definition:
+  - content: сервис, вызывающий конвертор
   notes: []
   examples: []
+  language_code: rus
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19145:2013'
-    clause: 4.1.4
-    link: 'https://www.iso.org/standard/32563.html'
-  lineage_source: 'ISO 19145:2013'
-  date_accepted: '2013-02-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19145:2013
+      clause: 4.1.4
+      link: https://www.iso.org/standard/32563.html
+  - type: lineage
+    origin:
+      ref: ISO 19145:2013
+  dates:
+  - type: accepted
+    date: '2013-02-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: сервис конвертации
-      normative_status: preferred
   _revisions:
     current: a9552c
     tree:
       a9552c:
         object:
           id: 1162
-          definition: 'сервис, вызывающий конвертор'
+          definition: сервис, вызывающий конвертор
           language_code: rus
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19145:2013'
+            ref: ISO 19145:2013
             clause: 4.1.4
-            link: 'https://www.iso.org/standard/32563.html'
-          lineage_source: 'ISO 19145:2013'
+            link: https://www.iso.org/standard/32563.html
+          lineage_source: ISO 19145:2013
           date_accepted: '2013-02-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: сервис конвертации
-              normative_status: preferred
+          - type: expression
+            designation: сервис конвертации
+            normative_status: preferred
         parents: []
         timeCreated: '2013-02-15T00:00:00.000Z'
         author:
@@ -133,21 +151,26 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 1162
-  definition: servicio que invoca un conversor
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: servicio de conversión
+  definition:
+  - content: servicio que invoca un conversor
   notes: []
   examples: []
+  language_code: spa
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19145:2013'
-    clause: 4.1.4
-    link: 'https://www.iso.org/standard/32563.html'
-  date_accepted: '2013-02-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19145:2013
+      clause: 4.1.4
+      link: https://www.iso.org/standard/32563.html
+  dates:
+  - type: accepted
+    date: '2013-02-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: servicio de conversión
-      normative_status: preferred
   _revisions:
     current: ed91ae
     tree:
@@ -160,15 +183,15 @@ spa:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19145:2013'
+            ref: ISO 19145:2013
             clause: 4.1.4
-            link: 'https://www.iso.org/standard/32563.html'
+            link: https://www.iso.org/standard/32563.html
           date_accepted: '2013-02-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: servicio de conversión
-              normative_status: preferred
+          - type: expression
+            designation: servicio de conversión
+            normative_status: preferred
         parents: []
         timeCreated: '2013-02-15T00:00:00.000Z'
         author:
@@ -176,23 +199,30 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 1162
-  definition: tjänst som anropar en konverterare
-  country_code: swe
-  language_code: swe
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: konverteringstjänst
+  definition:
+  - content: tjänst som anropar en konverterare
   notes: []
   examples: []
+  country_code: swe
+  language_code: swe
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19145:2013'
-    clause: 4.1.4
-    link: 'https://www.iso.org/standard/32563.html'
-  lineage_source: (Type reference to national language document)
-  date_accepted: '2013-02-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19145:2013
+      clause: 4.1.4
+      link: https://www.iso.org/standard/32563.html
+  - type: lineage
+    origin:
+      ref: "(Type reference to national language document)"
+  dates:
+  - type: accepted
+    date: '2013-02-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: konverteringstjänst
-      normative_status: preferred
   _revisions:
     current: c476fb
     tree:
@@ -206,16 +236,16 @@ swe:
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19145:2013'
+            ref: ISO 19145:2013
             clause: 4.1.4
-            link: 'https://www.iso.org/standard/32563.html'
-          lineage_source: (Type reference to national language document)
+            link: https://www.iso.org/standard/32563.html
+          lineage_source: "(Type reference to national language document)"
           date_accepted: '2013-02-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: konverteringstjänst
-              normative_status: preferred
+          - type: expression
+            designation: konverteringstjänst
+            normative_status: preferred
         parents: []
         timeCreated: '2013-02-15T00:00:00.000Z'
         author:

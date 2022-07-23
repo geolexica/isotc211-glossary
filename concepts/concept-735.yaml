@@ -1,36 +1,40 @@
-term: coordinate tuple
+---
 termid: 735
+term: coordinate tuple
 eng:
   id: 735
-  definition: tuple composed of a sequence of coordinates
-  language_code: eng
+  terms:
+  - type: expression
+    designation: coordinate tuple
+  definition:
+  - content: tuple composed of a sequence of coordinates
   notes:
-    - >-
-      The number of coordinates in the coordinate tuple equals the dimension of
-      the coordinate system; the order of coordinates in the coordinate tuple is
+  - content: The number of coordinates in the coordinate tuple equals the dimension
+      of the coordinate system; the order of coordinates in the coordinate tuple is
       identical to the order of the axes of the coordinate system.
   examples: []
+  language_code: eng
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2007'
-    link: 'https://www.iso.org/standard/41126.html'
-  date_accepted: '2007-07-01T00:00:00.000Z'
-  date_amended: '2019-01-31T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2007
+      link: https://www.iso.org/standard/41126.html
+  dates:
+  - type: accepted
+    date: '2007-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2019-01-31T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of document ISO 19111:2019(E)'
-  review_decision_notes: >-
-    This entry is superseded by the entry for coordinate tuple in ISO
-    19111:2019(E)
-  release: '-1'
-  terms:
-    - type: expression
-      designation: coordinate tuple
-      normative_status: null
+  review_decision_event: Publication of document ISO 19111:2019(E)
+  review_decision_notes: This entry is superseded by the entry for coordinate tuple
+    in ISO 19111:2019(E)
+  release: "-1"
   _revisions:
     current: 59174f
     tree:
@@ -40,17 +44,15 @@ eng:
           definition: tuple composed of a sequence of coordinates
           language_code: eng
           notes:
-            - >-
-              The number of coordinates in the coordinate tuple equals the
-              dimension of the coordinate system; the order of coordinates in
-              the coordinate tuple is identical to the order of the axes of the
-              coordinate system.
+          - The number of coordinates in the coordinate tuple equals the dimension
+            of the coordinate system; the order of coordinates in the coordinate tuple
+            is identical to the order of the axes of the coordinate system.
           examples: []
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2007'
-            link: 'https://www.iso.org/standard/41126.html'
+            ref: ISO 19111:2007
+            link: https://www.iso.org/standard/41126.html
           date_accepted: '2007-07-01T00:00:00.000Z'
           date_amended: '2019-01-31T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
@@ -58,15 +60,14 @@ eng:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of document ISO 19111:2019(E)'
-          review_decision_notes: >-
-            This entry is superseded by the entry for coordinate tuple in ISO
-            19111:2019(E)
-          release: '-1'
+          review_decision_event: Publication of document ISO 19111:2019(E)
+          review_decision_notes: This entry is superseded by the entry for coordinate
+            tuple in ISO 19111:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: coordinate tuple
-              normative_status: null
+          - type: expression
+            designation: coordinate tuple
+            normative_status:
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
         author:
@@ -74,35 +75,37 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 735
-  definition: مجموعة ترابطية مكونة من سلسلة إحداثيات متتابعة
-  language_code: ara
+  terms:
+  - type: expression
+    designation: مجموعة إحداثيات ترابطية
+  definition:
+  - content: مجموعة ترابطية مكونة من سلسلة إحداثيات متتابعة
   notes:
-    - >-
-      عدد الإحداثيات في مجموعة الإحداثيات الترابطية مساوٍ لبعد النظام الإحداثي؛
-      ترتيب الإحداثيات في مجموعة الإحداثيات الترابطية مطابق لترتيب محاور النظام
-      الإحداثي.
+  - content: عدد الإحداثيات في مجموعة الإحداثيات الترابطية مساوٍ لبعد النظام الإحداثي؛
+      ترتيب الإحداثيات في مجموعة الإحداثيات الترابطية مطابق لترتيب محاور النظام الإحداثي.
   examples: []
+  language_code: ara
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2007'
-    link: 'https://www.iso.org/standard/41126.html'
-  date_accepted: '2007-07-01T00:00:00.000Z'
-  date_amended: '2019-01-31T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2007
+      link: https://www.iso.org/standard/41126.html
+  dates:
+  - type: accepted
+    date: '2007-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2019-01-31T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of document ISO 19111:2019(E)'
-  review_decision_notes: >-
-    This entry is superseded by the entry for coordinate tuple in ISO
-    19111:2019(E)
-  release: '-1'
-  terms:
-    - type: expression
-      designation: مجموعة إحداثيات ترابطية
-      normative_status: null
+  review_decision_event: Publication of document ISO 19111:2019(E)
+  review_decision_notes: This entry is superseded by the entry for coordinate tuple
+    in ISO 19111:2019(E)
+  release: "-1"
   _revisions:
     current: f804ea
     tree:
@@ -112,16 +115,14 @@ ara:
           definition: مجموعة ترابطية مكونة من سلسلة إحداثيات متتابعة
           language_code: ara
           notes:
-            - >-
-              عدد الإحداثيات في مجموعة الإحداثيات الترابطية مساوٍ لبعد النظام
-              الإحداثي؛  ترتيب الإحداثيات في مجموعة الإحداثيات الترابطية مطابق
-              لترتيب محاور النظام الإحداثي.
+          - عدد الإحداثيات في مجموعة الإحداثيات الترابطية مساوٍ لبعد النظام الإحداثي؛  ترتيب
+            الإحداثيات في مجموعة الإحداثيات الترابطية مطابق لترتيب محاور النظام الإحداثي.
           examples: []
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2007'
-            link: 'https://www.iso.org/standard/41126.html'
+            ref: ISO 19111:2007
+            link: https://www.iso.org/standard/41126.html
           date_accepted: '2007-07-01T00:00:00.000Z'
           date_amended: '2019-01-31T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
@@ -129,15 +130,14 @@ ara:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of document ISO 19111:2019(E)'
-          review_decision_notes: >-
-            This entry is superseded by the entry for coordinate tuple in ISO
-            19111:2019(E)
-          release: '-1'
+          review_decision_event: Publication of document ISO 19111:2019(E)
+          review_decision_notes: This entry is superseded by the entry for coordinate
+            tuple in ISO 19111:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: مجموعة إحداثيات ترابطية
-              normative_status: null
+          - type: expression
+            designation: مجموعة إحداثيات ترابطية
+            normative_status:
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
         author:
@@ -145,32 +145,36 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 735
-  definition: 由有顺序的坐标所构成的坐标串。
-  language_code: zho
+  terms:
+  - type: expression
+    designation: 坐标元组
+  definition:
+  - content: 由有顺序的坐标所构成的坐标串。
   notes:
-    - 在坐标元组中，坐标个数等同于坐标系的维数；坐标的顺序等同于坐标系轴的顺序。
+  - content: 在坐标元组中，坐标个数等同于坐标系的维数；坐标的顺序等同于坐标系轴的顺序。
   examples: []
+  language_code: zho
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2007'
-    link: 'https://www.iso.org/standard/41126.html'
-  date_accepted: '2007-07-01T00:00:00.000Z'
-  date_amended: '2019-01-31T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2007
+      link: https://www.iso.org/standard/41126.html
+  dates:
+  - type: accepted
+    date: '2007-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2019-01-31T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of document ISO 19111:2019(E)'
-  review_decision_notes: >-
-    This entry is superseded by the entry for coordinate tuple in ISO
-    19111:2019(E)
-  release: '-1'
-  terms:
-    - type: expression
-      designation: 坐标元组
-      normative_status: null
+  review_decision_event: Publication of document ISO 19111:2019(E)
+  review_decision_notes: This entry is superseded by the entry for coordinate tuple
+    in ISO 19111:2019(E)
+  release: "-1"
   _revisions:
     current: 70de42
     tree:
@@ -180,13 +184,13 @@ zho:
           definition: 由有顺序的坐标所构成的坐标串。
           language_code: zho
           notes:
-            - 在坐标元组中，坐标个数等同于坐标系的维数；坐标的顺序等同于坐标系轴的顺序。
+          - 在坐标元组中，坐标个数等同于坐标系的维数；坐标的顺序等同于坐标系轴的顺序。
           examples: []
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2007'
-            link: 'https://www.iso.org/standard/41126.html'
+            ref: ISO 19111:2007
+            link: https://www.iso.org/standard/41126.html
           date_accepted: '2007-07-01T00:00:00.000Z'
           date_amended: '2019-01-31T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
@@ -194,15 +198,14 @@ zho:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of document ISO 19111:2019(E)'
-          review_decision_notes: >-
-            This entry is superseded by the entry for coordinate tuple in ISO
-            19111:2019(E)
-          release: '-1'
+          review_decision_event: Publication of document ISO 19111:2019(E)
+          review_decision_notes: This entry is superseded by the entry for coordinate
+            tuple in ISO 19111:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: 坐标元组
-              normative_status: null
+          - type: expression
+            designation: 坐标元组
+            normative_status:
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
         author:
@@ -210,56 +213,56 @@ zho:
           email: glossarist@ribose.com
 nld:
   id: 735
-  definition: tupel bestaande uit een serie coördinaten
-  language_code: nld
+  terms:
+  - type: expression
+    designation: coördinaattupel
+  definition:
+  - content: tupel bestaande uit een serie coördinaten
   notes:
-    - >-
-      Het aantal coördinaten in een coördinaattupel is gelijk aan de dimensie
-      van het coördinaatsysteem; de volgorde van de coördinaten in een
-      coördinaattupel is gelijk aan de volgorde van de assen van het
-      coördinaatsysteem.
+  - content: Het aantal coördinaten in een coördinaattupel is gelijk aan de dimensie
+      van het coördinaatsysteem; de volgorde van de coördinaten in een coördinaattupel
+      is gelijk aan de volgorde van de assen van het coördinaatsysteem.
   examples: []
+  language_code: nld
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2007'
-    link: 'https://www.iso.org/standard/41126.html'
-  date_accepted: '2007-07-01T00:00:00.000Z'
-  date_amended: '2019-01-31T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2007
+      link: https://www.iso.org/standard/41126.html
+  dates:
+  - type: accepted
+    date: '2007-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2019-01-31T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of document ISO 19111:2019(E)'
-  review_decision_notes: >-
-    This entry is superseded by the entry for coordinate tuple in ISO
-    19111:2019(E)
-  release: '-1'
-  terms:
-    - type: expression
-      designation: coördinaattupel
-      normative_status: null
+  review_decision_event: Publication of document ISO 19111:2019(E)
+  review_decision_notes: This entry is superseded by the entry for coordinate tuple
+    in ISO 19111:2019(E)
+  release: "-1"
   _revisions:
-    current: '893e65'
+    current: 893e65
     tree:
-      '893e65':
+      893e65:
         object:
           id: 735
           definition: tupel bestaande uit een serie coördinaten
           language_code: nld
           notes:
-            - >-
-              Het aantal coördinaten in een coördinaattupel is gelijk aan de
-              dimensie van het coördinaatsysteem; de volgorde van de coördinaten
-              in een coördinaattupel is gelijk aan de volgorde van de assen van
-              het coördinaatsysteem.
+          - Het aantal coördinaten in een coördinaattupel is gelijk aan de dimensie
+            van het coördinaatsysteem; de volgorde van de coördinaten in een coördinaattupel
+            is gelijk aan de volgorde van de assen van het coördinaatsysteem.
           examples: []
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2007'
-            link: 'https://www.iso.org/standard/41126.html'
+            ref: ISO 19111:2007
+            link: https://www.iso.org/standard/41126.html
           date_accepted: '2007-07-01T00:00:00.000Z'
           date_amended: '2019-01-31T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
@@ -267,15 +270,14 @@ nld:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of document ISO 19111:2019(E)'
-          review_decision_notes: >-
-            This entry is superseded by the entry for coordinate tuple in ISO
-            19111:2019(E)
-          release: '-1'
+          review_decision_event: Publication of document ISO 19111:2019(E)
+          review_decision_notes: This entry is superseded by the entry for coordinate
+            tuple in ISO 19111:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: coördinaattupel
-              normative_status: null
+          - type: expression
+            designation: coördinaattupel
+            normative_status:
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
         author:
@@ -283,54 +285,55 @@ nld:
           email: glossarist@ribose.com
 fin:
   id: 735
-  definition: 'monikko, joka koostuu koordinaattien jonosta'
-  language_code: fin
+  terms:
+  - type: expression
+    designation: koordinaattimonikko
+  definition:
+  - content: monikko, joka koostuu koordinaattien jonosta
   notes:
-    - >-
-      Koordinaattimonikon koordinaattien lukumäärä on yhtä suuri kuin
-      koordinaatiston ulottuvuus, ja niiden järjestys on sama kuin
-      koordinaatiston akseleiden järjestys.
+  - content: Koordinaattimonikon koordinaattien lukumäärä on yhtä suuri kuin koordinaatiston
+      ulottuvuus, ja niiden järjestys on sama kuin koordinaatiston akseleiden järjestys.
   examples: []
+  language_code: fin
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2007'
-    link: 'https://www.iso.org/standard/41126.html'
-  date_accepted: '2007-07-01T00:00:00.000Z'
-  date_amended: '2019-01-31T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2007
+      link: https://www.iso.org/standard/41126.html
+  dates:
+  - type: accepted
+    date: '2007-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2019-01-31T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of document ISO 19111:2019(E)'
-  review_decision_notes: >-
-    This entry is superseded by the entry for coordinate tuple in ISO
-    19111:2019(E)
-  release: '-1'
-  terms:
-    - type: expression
-      designation: koordinaattimonikko
-      normative_status: null
+  review_decision_event: Publication of document ISO 19111:2019(E)
+  review_decision_notes: This entry is superseded by the entry for coordinate tuple
+    in ISO 19111:2019(E)
+  release: "-1"
   _revisions:
     current: 2cd6f5
     tree:
       2cd6f5:
         object:
           id: 735
-          definition: 'monikko, joka koostuu koordinaattien jonosta'
+          definition: monikko, joka koostuu koordinaattien jonosta
           language_code: fin
           notes:
-            - >-
-              Koordinaattimonikon koordinaattien lukumäärä on yhtä suuri kuin
-              koordinaatiston ulottuvuus, ja niiden järjestys on sama kuin
-              koordinaatiston akseleiden järjestys.
+          - Koordinaattimonikon koordinaattien lukumäärä on yhtä suuri kuin koordinaatiston
+            ulottuvuus, ja niiden järjestys on sama kuin koordinaatiston akseleiden
+            järjestys.
           examples: []
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2007'
-            link: 'https://www.iso.org/standard/41126.html'
+            ref: ISO 19111:2007
+            link: https://www.iso.org/standard/41126.html
           date_accepted: '2007-07-01T00:00:00.000Z'
           date_amended: '2019-01-31T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
@@ -338,15 +341,14 @@ fin:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of document ISO 19111:2019(E)'
-          review_decision_notes: >-
-            This entry is superseded by the entry for coordinate tuple in ISO
-            19111:2019(E)
-          release: '-1'
+          review_decision_event: Publication of document ISO 19111:2019(E)
+          review_decision_notes: This entry is superseded by the entry for coordinate
+            tuple in ISO 19111:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: koordinaattimonikko
-              normative_status: null
+          - type: expression
+            designation: koordinaattimonikko
+            normative_status:
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
         author:
@@ -354,31 +356,35 @@ fin:
           email: glossarist@ribose.com
 fra:
   id: 735
-  definition: n-uplet composé d'une séquence de coordonnées
-  language_code: fra
+  terms:
+  - type: expression
+    designation: n-uplet de coordonnées
+  definition:
+  - content: n-uplet composé d'une séquence de coordonnées
   notes: []
   examples: []
+  language_code: fra
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2007'
-    link: 'https://www.iso.org/standard/41126.html'
-  date_accepted: '2007-07-01T00:00:00.000Z'
-  date_amended: '2019-01-31T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2007
+      link: https://www.iso.org/standard/41126.html
+  dates:
+  - type: accepted
+    date: '2007-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2019-01-31T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of document ISO 19111:2019(E)'
-  review_decision_notes: >-
-    This entry is superseded by the entry for coordinate tuple in ISO
-    19111:2019(E)
-  release: '-1'
-  terms:
-    - type: expression
-      designation: n-uplet de coordonnées
-      normative_status: null
+  review_decision_event: Publication of document ISO 19111:2019(E)
+  review_decision_notes: This entry is superseded by the entry for coordinate tuple
+    in ISO 19111:2019(E)
+  release: "-1"
   _revisions:
     current: e083c2
     tree:
@@ -392,8 +398,8 @@ fra:
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2007'
-            link: 'https://www.iso.org/standard/41126.html'
+            ref: ISO 19111:2007
+            link: https://www.iso.org/standard/41126.html
           date_accepted: '2007-07-01T00:00:00.000Z'
           date_amended: '2019-01-31T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
@@ -401,15 +407,14 @@ fra:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of document ISO 19111:2019(E)'
-          review_decision_notes: >-
-            This entry is superseded by the entry for coordinate tuple in ISO
-            19111:2019(E)
-          release: '-1'
+          review_decision_event: Publication of document ISO 19111:2019(E)
+          review_decision_notes: This entry is superseded by the entry for coordinate
+            tuple in ISO 19111:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: n-uplet de coordonnées
-              normative_status: null
+          - type: expression
+            designation: n-uplet de coordonnées
+            normative_status:
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
         author:
@@ -417,55 +422,56 @@ fra:
           email: glossarist@ribose.com
 deu:
   id: 735
-  definition: 'Tupel, zusammengesetzt aus einer Folge von Koordinaten'
-  language_code: deu
+  terms:
+  - type: expression
+    designation: Koordinatentupel
+  definition:
+  - content: Tupel, zusammengesetzt aus einer Folge von Koordinaten
   notes:
-    - >-
-      The number of coordinates in the coordinate tuple equals the dimension of
-      the coordinate system; the order of coordinates in the coordinate tuple is
+  - content: The number of coordinates in the coordinate tuple equals the dimension
+      of the coordinate system; the order of coordinates in the coordinate tuple is
       identical to the order of the axes of the coordinate system.
   examples: []
+  language_code: deu
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2007'
-    link: 'https://www.iso.org/standard/41126.html'
-  date_accepted: '2007-07-01T00:00:00.000Z'
-  date_amended: '2019-01-31T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2007
+      link: https://www.iso.org/standard/41126.html
+  dates:
+  - type: accepted
+    date: '2007-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2019-01-31T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of document ISO 19111:2019(E)'
-  review_decision_notes: >-
-    This entry is superseded by the entry for coordinate tuple in ISO
-    19111:2019(E)
-  release: '-1'
-  terms:
-    - type: expression
-      designation: Koordinatentupel
-      normative_status: null
+  review_decision_event: Publication of document ISO 19111:2019(E)
+  review_decision_notes: This entry is superseded by the entry for coordinate tuple
+    in ISO 19111:2019(E)
+  release: "-1"
   _revisions:
     current: cd54ae
     tree:
       cd54ae:
         object:
           id: 735
-          definition: 'Tupel, zusammengesetzt aus einer Folge von Koordinaten'
+          definition: Tupel, zusammengesetzt aus einer Folge von Koordinaten
           language_code: deu
           notes:
-            - >-
-              The number of coordinates in the coordinate tuple equals the
-              dimension of the coordinate system; the order of coordinates in
-              the coordinate tuple is identical to the order of the axes of the
-              coordinate system.
+          - The number of coordinates in the coordinate tuple equals the dimension
+            of the coordinate system; the order of coordinates in the coordinate tuple
+            is identical to the order of the axes of the coordinate system.
           examples: []
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2007'
-            link: 'https://www.iso.org/standard/41126.html'
+            ref: ISO 19111:2007
+            link: https://www.iso.org/standard/41126.html
           date_accepted: '2007-07-01T00:00:00.000Z'
           date_amended: '2019-01-31T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
@@ -473,15 +479,14 @@ deu:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of document ISO 19111:2019(E)'
-          review_decision_notes: >-
-            This entry is superseded by the entry for coordinate tuple in ISO
-            19111:2019(E)
-          release: '-1'
+          review_decision_event: Publication of document ISO 19111:2019(E)
+          review_decision_notes: This entry is superseded by the entry for coordinate
+            tuple in ISO 19111:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: Koordinatentupel
-              normative_status: null
+          - type: expression
+            designation: Koordinatentupel
+            normative_status:
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
         author:
@@ -489,32 +494,36 @@ deu:
           email: glossarist@ribose.com
 kor:
   id: 735
-  definition: 좌표의 연속으로 구성된 튜플
-  language_code: kor
+  terms:
+  - type: expression
+    designation: 좌표 튜플
+  definition:
+  - content: 좌표의 연속으로 구성된 튜플
   notes:
-    - 좌표 튜플의 좌표 개수는 좌표 체계의 차원과 같다. 좌표 튜플의 좌표 순서는 좌표 체계의 축 순서와 같다.
+  - content: 좌표 튜플의 좌표 개수는 좌표 체계의 차원과 같다. 좌표 튜플의 좌표 순서는 좌표 체계의 축 순서와 같다.
   examples: []
+  language_code: kor
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2007'
-    link: 'https://www.iso.org/standard/41126.html'
-  date_accepted: '2007-07-01T00:00:00.000Z'
-  date_amended: '2019-01-31T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2007
+      link: https://www.iso.org/standard/41126.html
+  dates:
+  - type: accepted
+    date: '2007-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2019-01-31T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of document ISO 19111:2019(E)'
-  review_decision_notes: >-
-    This entry is superseded by the entry for coordinate tuple in ISO
-    19111:2019(E)
-  release: '-1'
-  terms:
-    - type: expression
-      designation: 좌표 튜플
-      normative_status: null
+  review_decision_event: Publication of document ISO 19111:2019(E)
+  review_decision_notes: This entry is superseded by the entry for coordinate tuple
+    in ISO 19111:2019(E)
+  release: "-1"
   _revisions:
     current: 1a7955
     tree:
@@ -524,13 +533,13 @@ kor:
           definition: 좌표의 연속으로 구성된 튜플
           language_code: kor
           notes:
-            - 좌표 튜플의 좌표 개수는 좌표 체계의 차원과 같다. 좌표 튜플의 좌표 순서는 좌표 체계의 축 순서와 같다.
+          - 좌표 튜플의 좌표 개수는 좌표 체계의 차원과 같다. 좌표 튜플의 좌표 순서는 좌표 체계의 축 순서와 같다.
           examples: []
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2007'
-            link: 'https://www.iso.org/standard/41126.html'
+            ref: ISO 19111:2007
+            link: https://www.iso.org/standard/41126.html
           date_accepted: '2007-07-01T00:00:00.000Z'
           date_amended: '2019-01-31T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
@@ -538,15 +547,14 @@ kor:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of document ISO 19111:2019(E)'
-          review_decision_notes: >-
-            This entry is superseded by the entry for coordinate tuple in ISO
-            19111:2019(E)
-          release: '-1'
+          review_decision_event: Publication of document ISO 19111:2019(E)
+          review_decision_notes: This entry is superseded by the entry for coordinate
+            tuple in ISO 19111:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: 좌표 튜플
-              normative_status: null
+          - type: expression
+            designation: 좌표 튜플
+            normative_status:
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
         author:
@@ -554,34 +562,37 @@ kor:
           email: glossarist@ribose.com
 pol:
   id: 735
-  definition: krotka składająca się z sekwencji współrzędnych
-  language_code: pol
+  terms:
+  - type: expression
+    designation: krotka współrzędnych
+  definition:
+  - content: krotka składająca się z sekwencji współrzędnych
   notes:
-    - >-
-      Liczba współrzędnych w krotce współrzędnych jest równa wymiarowi systemu
-      współrzędnych. Kolejność współrzędnych w zestawie jest taka sama jak
-      kolejność osi w układzie współrzędnych.
+  - content: Liczba współrzędnych w krotce współrzędnych jest równa wymiarowi systemu
+      współrzędnych. Kolejność współrzędnych w zestawie jest taka sama jak kolejność
+      osi w układzie współrzędnych.
   examples: []
+  language_code: pol
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2007'
-    link: 'https://www.iso.org/standard/41126.html'
-  date_accepted: '2007-07-01T00:00:00.000Z'
-  date_amended: '2019-01-31T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2007
+      link: https://www.iso.org/standard/41126.html
+  dates:
+  - type: accepted
+    date: '2007-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2019-01-31T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of document ISO 19111:2019(E)'
-  review_decision_notes: >-
-    This entry is superseded by the entry for coordinate tuple in ISO
-    19111:2019(E)
-  release: '-1'
-  terms:
-    - type: expression
-      designation: krotka współrzędnych
-      normative_status: null
+  review_decision_event: Publication of document ISO 19111:2019(E)
+  review_decision_notes: This entry is superseded by the entry for coordinate tuple
+    in ISO 19111:2019(E)
+  release: "-1"
   _revisions:
     current: ddadd8
     tree:
@@ -591,15 +602,14 @@ pol:
           definition: krotka składająca się z sekwencji współrzędnych
           language_code: pol
           notes:
-            - >-
-              Liczba współrzędnych w krotce współrzędnych jest równa wymiarowi
-              systemu współrzędnych. Kolejność współrzędnych w zestawie jest
-              taka sama jak kolejność osi w układzie współrzędnych.
+          - Liczba współrzędnych w krotce współrzędnych jest równa wymiarowi systemu
+            współrzędnych. Kolejność współrzędnych w zestawie jest taka sama jak kolejność
+            osi w układzie współrzędnych.
           examples: []
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2007'
-            link: 'https://www.iso.org/standard/41126.html'
+            ref: ISO 19111:2007
+            link: https://www.iso.org/standard/41126.html
           date_accepted: '2007-07-01T00:00:00.000Z'
           date_amended: '2019-01-31T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
@@ -607,15 +617,14 @@ pol:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of document ISO 19111:2019(E)'
-          review_decision_notes: >-
-            This entry is superseded by the entry for coordinate tuple in ISO
-            19111:2019(E)
-          release: '-1'
+          review_decision_event: Publication of document ISO 19111:2019(E)
+          review_decision_notes: This entry is superseded by the entry for coordinate
+            tuple in ISO 19111:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: krotka współrzędnych
-              normative_status: null
+          - type: expression
+            designation: krotka współrzędnych
+            normative_status:
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
         author:
@@ -623,53 +632,54 @@ pol:
           email: glossarist@ribose.com
 rus:
   id: 735
-  definition: 'кортеж, состоящий из последовательности координат'
-  language_code: rus
+  terms:
+  - type: expression
+    designation: кортеж координат
+  definition:
+  - content: кортеж, состоящий из последовательности координат
   notes:
-    - >-
-      Число координат в кортеже  соответствует размерности системы координат;
+  - content: Число координат в кортеже  соответствует размерности системы координат;
       порядок координат в кортеже  идентичен порядку осей в системе координат
   examples: []
+  language_code: rus
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2007'
-    link: 'https://www.iso.org/standard/41126.html'
-  date_accepted: '2007-07-01T00:00:00.000Z'
-  date_amended: '2019-01-31T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2007
+      link: https://www.iso.org/standard/41126.html
+  dates:
+  - type: accepted
+    date: '2007-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2019-01-31T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of document ISO 19111:2019(E)'
-  review_decision_notes: >-
-    This entry is superseded by the entry for coordinate tuple in ISO
-    19111:2019(E)
-  release: '-1'
-  terms:
-    - type: expression
-      designation: кортеж координат
-      normative_status: null
+  review_decision_event: Publication of document ISO 19111:2019(E)
+  review_decision_notes: This entry is superseded by the entry for coordinate tuple
+    in ISO 19111:2019(E)
+  release: "-1"
   _revisions:
     current: 1f80b2
     tree:
       1f80b2:
         object:
           id: 735
-          definition: 'кортеж, состоящий из последовательности координат'
+          definition: кортеж, состоящий из последовательности координат
           language_code: rus
           notes:
-            - >-
-              Число координат в кортеже  соответствует размерности системы
-              координат; порядок координат в кортеже  идентичен порядку осей в
-              системе координат
+          - Число координат в кортеже  соответствует размерности системы координат;
+            порядок координат в кортеже  идентичен порядку осей в системе координат
           examples: []
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2007'
-            link: 'https://www.iso.org/standard/41126.html'
+            ref: ISO 19111:2007
+            link: https://www.iso.org/standard/41126.html
           date_accepted: '2007-07-01T00:00:00.000Z'
           date_amended: '2019-01-31T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
@@ -677,15 +687,14 @@ rus:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of document ISO 19111:2019(E)'
-          review_decision_notes: >-
-            This entry is superseded by the entry for coordinate tuple in ISO
-            19111:2019(E)
-          release: '-1'
+          review_decision_event: Publication of document ISO 19111:2019(E)
+          review_decision_notes: This entry is superseded by the entry for coordinate
+            tuple in ISO 19111:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: кортеж координат
-              normative_status: null
+          - type: expression
+            designation: кортеж координат
+            normative_status:
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
         author:
@@ -693,36 +702,38 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 735
-  definition: tupla compuesta por una secuencia de coordenadas
-  language_code: spa
+  terms:
+  - type: expression
+    designation: tupla de coordenadas
+  definition:
+  - content: tupla compuesta por una secuencia de coordenadas
   notes:
-    - >-
-      El número de coordenadas en la tupla de coordenadas es igual a la
-      dimensión del sistema de coordenadas; el orden de las coordenadas en la
-      tupla de coordenadas es idéntico al orden de los ejes del sistema de
-      coordenadas.
+  - content: El número de coordenadas en la tupla de coordenadas es igual a la dimensión
+      del sistema de coordenadas; el orden de las coordenadas en la tupla de coordenadas
+      es idéntico al orden de los ejes del sistema de coordenadas.
   examples: []
+  language_code: spa
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2007'
-    link: 'https://www.iso.org/standard/41126.html'
-  date_accepted: '2007-07-01T00:00:00.000Z'
-  date_amended: '2019-01-31T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2007
+      link: https://www.iso.org/standard/41126.html
+  dates:
+  - type: accepted
+    date: '2007-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2019-01-31T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of document ISO 19111:2019(E)'
-  review_decision_notes: >-
-    This entry is superseded by the entry for coordinate tuple in ISO
-    19111:2019(E)
-  release: '-1'
-  terms:
-    - type: expression
-      designation: tupla de coordenadas
-      normative_status: null
+  review_decision_event: Publication of document ISO 19111:2019(E)
+  review_decision_notes: This entry is superseded by the entry for coordinate tuple
+    in ISO 19111:2019(E)
+  release: "-1"
   _revisions:
     current: 7c9d39
     tree:
@@ -732,17 +743,15 @@ spa:
           definition: tupla compuesta por una secuencia de coordenadas
           language_code: spa
           notes:
-            - >-
-              El número de coordenadas en la tupla de coordenadas es igual a la
-              dimensión del sistema de coordenadas; el orden de las coordenadas
-              en la tupla de coordenadas es idéntico al orden de los ejes del
-              sistema de coordenadas.
+          - El número de coordenadas en la tupla de coordenadas es igual a la dimensión
+            del sistema de coordenadas; el orden de las coordenadas en la tupla de
+            coordenadas es idéntico al orden de los ejes del sistema de coordenadas.
           examples: []
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2007'
-            link: 'https://www.iso.org/standard/41126.html'
+            ref: ISO 19111:2007
+            link: https://www.iso.org/standard/41126.html
           date_accepted: '2007-07-01T00:00:00.000Z'
           date_amended: '2019-01-31T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
@@ -750,15 +759,14 @@ spa:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of document ISO 19111:2019(E)'
-          review_decision_notes: >-
-            This entry is superseded by the entry for coordinate tuple in ISO
-            19111:2019(E)
-          release: '-1'
+          review_decision_event: Publication of document ISO 19111:2019(E)
+          review_decision_notes: This entry is superseded by the entry for coordinate
+            tuple in ISO 19111:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: tupla de coordenadas
-              normative_status: null
+          - type: expression
+            designation: tupla de coordenadas
+            normative_status:
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
         author:
@@ -766,38 +774,41 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 735
-  definition: |-
-    ordnade tal som entydigt anger positionen
-    för en punkt i ett koordinatsystem
-  country_code: swe
-  language_code: swe
+  terms:
+  - type: expression
+    designation: koordinater
+  definition:
+  - content: |-
+      ordnade tal som entydigt anger positionen
+      för en punkt i ett koordinatsystem
   notes:
-    - >-
-      The number of coordinates in the coordinate tuple equals the dimension of
-      the coordinate system; the order of coordinates in the coordinate tuple is
+  - content: The number of coordinates in the coordinate tuple equals the dimension
+      of the coordinate system; the order of coordinates in the coordinate tuple is
       identical to the order of the axes of the coordinate system.
   examples: []
+  country_code: swe
+  language_code: swe
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2007'
-    link: 'https://www.iso.org/standard/41126.html'
-  date_accepted: '2007-07-01T00:00:00.000Z'
-  date_amended: '2019-01-31T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2007
+      link: https://www.iso.org/standard/41126.html
+  dates:
+  - type: accepted
+    date: '2007-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2019-01-31T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of document ISO 19111:2019(E)'
-  review_decision_notes: >-
-    This entry is superseded by the entry for coordinate tuple in ISO
-    19111:2019(E)
-  release: '-1'
-  terms:
-    - type: expression
-      designation: koordinater
-      normative_status: null
+  review_decision_event: Publication of document ISO 19111:2019(E)
+  review_decision_notes: This entry is superseded by the entry for coordinate tuple
+    in ISO 19111:2019(E)
+  release: "-1"
   _revisions:
     current: 690d5e
     tree:
@@ -810,17 +821,15 @@ swe:
           country_code: swe
           language_code: swe
           notes:
-            - >-
-              The number of coordinates in the coordinate tuple equals the
-              dimension of the coordinate system; the order of coordinates in
-              the coordinate tuple is identical to the order of the axes of the
-              coordinate system.
+          - The number of coordinates in the coordinate tuple equals the dimension
+            of the coordinate system; the order of coordinates in the coordinate tuple
+            is identical to the order of the axes of the coordinate system.
           examples: []
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2007'
-            link: 'https://www.iso.org/standard/41126.html'
+            ref: ISO 19111:2007
+            link: https://www.iso.org/standard/41126.html
           date_accepted: '2007-07-01T00:00:00.000Z'
           date_amended: '2019-01-31T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
@@ -828,15 +837,14 @@ swe:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of document ISO 19111:2019(E)'
-          review_decision_notes: >-
-            This entry is superseded by the entry for coordinate tuple in ISO
-            19111:2019(E)
-          release: '-1'
+          review_decision_event: Publication of document ISO 19111:2019(E)
+          review_decision_notes: This entry is superseded by the entry for coordinate
+            tuple in ISO 19111:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: koordinater
-              normative_status: null
+          - type: expression
+            designation: koordinater
+            normative_status:
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
         author:

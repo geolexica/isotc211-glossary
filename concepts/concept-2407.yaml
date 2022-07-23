@@ -1,40 +1,45 @@
-term: geodetic height
+---
 termid: 2407
+term: h
 eng:
   id: 2407
-  abbrev: h
-  definition: >-
-    distance of a point from the reference ellipsoid along the perpendicular
-    from the reference ellipsoid to this point, positive if upwards or outside
-    of the reference ellipsoid
-  language_code: eng
+  terms:
+  - type: abbreviation
+    designation: h
+  - type: expression
+    normative_status: admitted
+    designation: geodetic height
+  - type: expression
+    designation: ellipsoidal height
+  definition:
+  - content: distance of a point from the reference ellipsoid along the perpendicular
+      from the reference ellipsoid to this point, positive if upwards or outside of
+      the reference ellipsoid
   notes:
-    - >-
-      Only used as part of a three-dimensional ellipsoidal coordinate system or
-      as part of a three-dimensional Cartesian coordinate system in a
-      three-dimensional projected coordinate reference system, but never on its
-      own.
+  - content: Only used as part of a three-dimensional ellipsoidal coordinate system
+      or as part of a three-dimensional Cartesian coordinate system in a three-dimensional
+      projected coordinate reference system, but never on its own.
   examples: []
+  language_code: eng
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO 19111:2019'
-    clause: '(E), 3.1.24'
-    link: 'https://www.iso.org/standard/74039.html'
-  date_accepted: '2019-01-31T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.24"
+      link: https://www.iso.org/standard/74039.html
+  dates:
+  - type: accepted
+    date: '2019-01-31T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of document ISO 19111:2019(E)'
-  review_decision_notes: 'This entry supersedes the entry for geodetic height in ISO 19111:2007(E)'
+  review_decision_event: Publication of document ISO 19111:2019(E)
+  review_decision_notes: This entry supersedes the entry for geodetic height in ISO
+    19111:2007(E)
   release: '5'
-  terms:
-    - type: expression
-      designation: geodetic height
-      normative_status: admitted
-    - designation: ellipsoidal height
-      type: expression
   _revisions:
     current: 1e0d3a
     tree:
@@ -42,40 +47,36 @@ eng:
         object:
           id: 2407
           abbrev: h
-          definition: >-
-            distance of a point from the reference ellipsoid along the
-            perpendicular from the reference ellipsoid to this point, positive
-            if upwards or outside of the reference ellipsoid
+          definition: distance of a point from the reference ellipsoid along the perpendicular
+            from the reference ellipsoid to this point, positive if upwards or outside
+            of the reference ellipsoid
           language_code: eng
           notes:
-            - >-
-              Only used as part of a three-dimensional ellipsoidal coordinate
-              system or as part of a three-dimensional Cartesian coordinate
-              system in a three-dimensional projected coordinate reference
-              system, but never on its own.
+          - Only used as part of a three-dimensional ellipsoidal coordinate system
+            or as part of a three-dimensional Cartesian coordinate system in a three-dimensional
+            projected coordinate reference system, but never on its own.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO 19111:2019'
-            clause: '(E), 3.1.24'
-            link: 'https://www.iso.org/standard/74039.html'
+            ref: ISO 19111:2019
+            clause: "(E), 3.1.24"
+            link: https://www.iso.org/standard/74039.html
           date_accepted: '2019-01-31T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
           review_status: final
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of document ISO 19111:2019(E)'
-          review_decision_notes: >-
-            This entry supersedes the entry for geodetic height in ISO
-            19111:2007(E)
+          review_decision_event: Publication of document ISO 19111:2019(E)
+          review_decision_notes: This entry supersedes the entry for geodetic height
+            in ISO 19111:2007(E)
           release: '5'
           terms:
-            - type: expression
-              designation: geodetic height
-              normative_status: admitted
-            - designation: ellipsoidal height
-              type: expression
+          - type: expression
+            designation: geodetic height
+            normative_status: admitted
+          - designation: ellipsoidal height
+            type: expression
         parents: []
         timeCreated: '2019-01-31T00:00:00.000Z'
         author:

@@ -1,53 +1,55 @@
-term: dark current
+---
 termid: 1450
+term: dark current
 eng:
   id: 1450
-  definition: >-
-    output current of a photoelectric detector (or of its cathode) in the
-    absence of incident radiation
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dark current
+  definition:
+  - content: output current of a photoelectric detector (or of its cathode) in the
+      absence of incident radiation
   notes:
-    - >-
-      For calibration of optical sensors dark current is measured by the absence
+  - content: For calibration of optical sensors dark current is measured by the absence
       of incident optical radiation.
   examples: []
+  language_code: eng
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO/TS 19159-1:2014'
-    clause: '4.6'
-    link: 'https://www.iso.org/standard/60080.html'
-  date_accepted: '2014-07-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO/TS 19159-1:2014
+      clause: '4.6'
+      link: https://www.iso.org/standard/60080.html
+  dates:
+  - type: accepted
+    date: '2014-07-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: dark current
-      normative_status: preferred
   _revisions:
     current: 95db9e
     tree:
       95db9e:
         object:
           id: 1450
-          definition: >-
-            output current of a photoelectric detector (or of its cathode) in
-            the absence of incident radiation
+          definition: output current of a photoelectric detector (or of its cathode)
+            in the absence of incident radiation
           language_code: eng
           notes:
-            - >-
-              For calibration of optical sensors dark current is measured by the
-              absence of incident optical radiation.
+          - For calibration of optical sensors dark current is measured by the absence
+            of incident optical radiation.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO/TS 19159-1:2014'
+            ref: ISO/TS 19159-1:2014
             clause: '4.6'
-            link: 'https://www.iso.org/standard/60080.html'
+            link: https://www.iso.org/standard/60080.html
           date_accepted: '2014-07-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: dark current
-              normative_status: preferred
+          - type: expression
+            designation: dark current
+            normative_status: preferred
         parents: []
         timeCreated: '2014-07-15T00:00:00.000Z'
         author:
@@ -55,24 +57,28 @@ eng:
           email: glossarist@ribose.com
 kor:
   id: 1450
-  definition: 입사 방사선의 부재시 광전식 감지기(또는 음극선)의 출력 전류
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 암전류
+  definition:
+  - content: 입사 방사선의 부재시 광전식 감지기(또는 음극선)의 출력 전류
   notes:
-    - >-
-      For calibration of optical sensors dark current is measured by the absence
+  - content: For calibration of optical sensors dark current is measured by the absence
       of incident optical radiation.
   examples: []
+  language_code: kor
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO/TS 19159-1:2014'
-    clause: '4.6'
-    link: 'https://www.iso.org/standard/60080.html'
-  date_accepted: '2014-07-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO/TS 19159-1:2014
+      clause: '4.6'
+      link: https://www.iso.org/standard/60080.html
+  dates:
+  - type: accepted
+    date: '2014-07-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: 암전류
-      normative_status: preferred
   _revisions:
     current: f88235
     tree:
@@ -82,21 +88,20 @@ kor:
           definition: 입사 방사선의 부재시 광전식 감지기(또는 음극선)의 출력 전류
           language_code: kor
           notes:
-            - >-
-              For calibration of optical sensors dark current is measured by the
-              absence of incident optical radiation.
+          - For calibration of optical sensors dark current is measured by the absence
+            of incident optical radiation.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO/TS 19159-1:2014'
+            ref: ISO/TS 19159-1:2014
             clause: '4.6'
-            link: 'https://www.iso.org/standard/60080.html'
+            link: https://www.iso.org/standard/60080.html
           date_accepted: '2014-07-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: 암전류
-              normative_status: preferred
+          - type: expression
+            designation: 암전류
+            normative_status: preferred
         parents: []
         timeCreated: '2014-07-15T00:00:00.000Z'
         author:
@@ -104,54 +109,57 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 1450
-  definition: >-
-    Выходной ток фотоэлектрического детектора (или его катода) при отсутствии
-    падающего излучения
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Темновой ток
+  definition:
+  - content: Выходной ток фотоэлектрического детектора (или его катода) при отсутствии
+      падающего излучения
   notes:
-    - >-
-      Для калибровки оптических датчиков темный ток измеряется по отсутствию
+  - content: Для калибровки оптических датчиков темный ток измеряется по отсутствию
       падающего оптического излучения.
   examples: []
+  language_code: rus
   entry_status: valid
-  authoritative_source:
-    ref: 'ISO/TS 19159-1:2014'
-    clause: '4.6'
-    link: 'https://www.iso.org/standard/60080.html'
-  lineage_source: 'ISO/TS 19159-1:2014'
-  date_accepted: '2014-07-15T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO/TS 19159-1:2014
+      clause: '4.6'
+      link: https://www.iso.org/standard/60080.html
+  - type: lineage
+    origin:
+      ref: ISO/TS 19159-1:2014
+  dates:
+  - type: accepted
+    date: '2014-07-15T00:00:00.000Z'
   release: '3'
-  terms:
-    - type: expression
-      designation: Темновой ток
-      normative_status: preferred
   _revisions:
     current: a69e3a
     tree:
       a69e3a:
         object:
           id: 1450
-          definition: >-
-            Выходной ток фотоэлектрического детектора (или его катода) при
+          definition: Выходной ток фотоэлектрического детектора (или его катода) при
             отсутствии падающего излучения
           language_code: rus
           notes:
-            - >-
-              Для калибровки оптических датчиков темный ток измеряется по
-              отсутствию падающего оптического излучения.
+          - Для калибровки оптических датчиков темный ток измеряется по отсутствию
+            падающего оптического излучения.
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO/TS 19159-1:2014'
+            ref: ISO/TS 19159-1:2014
             clause: '4.6'
-            link: 'https://www.iso.org/standard/60080.html'
-          lineage_source: 'ISO/TS 19159-1:2014'
+            link: https://www.iso.org/standard/60080.html
+          lineage_source: ISO/TS 19159-1:2014
           date_accepted: '2014-07-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: Темновой ток
-              normative_status: preferred
+          - type: expression
+            designation: Темновой ток
+            normative_status: preferred
         parents: []
         timeCreated: '2014-07-15T00:00:00.000Z'
         author:
@@ -159,52 +167,53 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 1450
-  definition: >-
-    corriente de salida de un detector fotoeléctrico (o su cátodo) en ausencia
-    de una radiación incidente
-  language_code: spa
-  notes:
-    - >-
-      Para la calibración óptica de un sensor de corriente oscura se mide por la
-      ausencia de radiación óptica incidente
-  examples: []
-  entry_status: valid
-  authoritative_source:
-    ref: 'ISO/TS 19159-1:2014'
-    clause: '4.6'
-    link: 'https://www.iso.org/standard/60080.html'
-  date_accepted: '2014-07-15T00:00:00.000Z'
-  release: '3'
   terms:
-    - type: expression
-      designation: corriente oscura
-      normative_status: preferred
+  - type: expression
+    normative_status: preferred
+    designation: corriente oscura
+  definition:
+  - content: corriente de salida de un detector fotoeléctrico (o su cátodo) en ausencia
+      de una radiación incidente
+  notes:
+  - content: Para la calibración óptica de un sensor de corriente oscura se mide por
+      la ausencia de radiación óptica incidente
+  examples: []
+  language_code: spa
+  entry_status: valid
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO/TS 19159-1:2014
+      clause: '4.6'
+      link: https://www.iso.org/standard/60080.html
+  dates:
+  - type: accepted
+    date: '2014-07-15T00:00:00.000Z'
+  release: '3'
   _revisions:
     current: cf54c5
     tree:
       cf54c5:
         object:
           id: 1450
-          definition: >-
-            corriente de salida de un detector fotoeléctrico (o su cátodo) en
-            ausencia de una radiación incidente
+          definition: corriente de salida de un detector fotoeléctrico (o su cátodo)
+            en ausencia de una radiación incidente
           language_code: spa
           notes:
-            - >-
-              Para la calibración óptica de un sensor de corriente oscura se
-              mide por la ausencia de radiación óptica incidente
+          - Para la calibración óptica de un sensor de corriente oscura se mide por
+            la ausencia de radiación óptica incidente
           examples: []
           entry_status: valid
           authoritative_source:
-            ref: 'ISO/TS 19159-1:2014'
+            ref: ISO/TS 19159-1:2014
             clause: '4.6'
-            link: 'https://www.iso.org/standard/60080.html'
+            link: https://www.iso.org/standard/60080.html
           date_accepted: '2014-07-15T00:00:00.000Z'
           release: '3'
           terms:
-            - type: expression
-              designation: corriente oscura
-              normative_status: preferred
+          - type: expression
+            designation: corriente oscura
+            normative_status: preferred
         parents: []
         timeCreated: '2014-07-15T00:00:00.000Z'
         author:

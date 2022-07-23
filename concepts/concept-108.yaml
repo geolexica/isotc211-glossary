@@ -1,35 +1,42 @@
-term: data level
+---
 termid: 108
+term: data level
 eng:
   id: 108
-  definition: level containing data describing specific instances
-  language_code: eng
+  terms:
+  - type: expression
+    designation: data level
+  definition:
+  - content: level containing data describing specific instances
   notes: []
   examples: []
+  language_code: eng
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101:2002'
-    clause: '4.8'
-    link: 'https://www.iso.org/standard/26002.html'
-  lineage_source: ''
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101:2002
+      clause: '4.8'
+      link: https://www.iso.org/standard/26002.html
+  - type: lineage
+    origin:
+      ref: ''
   lineage_source_similarity: 0
-  date_accepted: '2002-07-01T00:00:00.000Z'
-  date_amended: '2014-11-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2002-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-11-01T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-1:2014'
-  review_decision_notes: >-
-    The entry has been omitted from the superseding standard  (ISO
+  review_decision_event: Publication of ISO 19101-1:2014
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
     19101-1:2014).
-  release: '-1'
-  terms:
-    - type: expression
-      designation: data level
-      normative_status: null
+  release: "-1"
   _revisions:
     current: 1b26b0
     tree:
@@ -43,9 +50,9 @@ eng:
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101:2002'
+            ref: ISO 19101:2002
             clause: '4.8'
-            link: 'https://www.iso.org/standard/26002.html'
+            link: https://www.iso.org/standard/26002.html
           lineage_source: ''
           lineage_source_similarity: 0
           date_accepted: '2002-07-01T00:00:00.000Z'
@@ -55,15 +62,14 @@ eng:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-1:2014'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19101-1:2014).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: data level
-              normative_status: null
+          - type: expression
+            designation: data level
+            normative_status:
         parents: []
         timeCreated: '2002-07-01T00:00:00.000Z'
         author:
@@ -71,32 +77,36 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 108
-  definition: مستوى يحتوي على بيانات تصف حالات محددة
-  language_code: ara
+  terms:
+  - type: expression
+    designation: مستوى البيانات
+  definition:
+  - content: مستوى يحتوي على بيانات تصف حالات محددة
   notes: []
   examples: []
+  language_code: ara
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101:2002'
-    clause: '4.8'
-    link: 'https://www.iso.org/standard/26002.html'
-  date_accepted: '2002-07-01T00:00:00.000Z'
-  date_amended: '2014-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101:2002
+      clause: '4.8'
+      link: https://www.iso.org/standard/26002.html
+  dates:
+  - type: accepted
+    date: '2002-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-11-01T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-1:2014'
-  review_decision_notes: >-
-    The entry has been omitted from the superseding standard  (ISO
+  review_decision_event: Publication of ISO 19101-1:2014
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
     19101-1:2014).
-  release: '-1'
-  terms:
-    - type: expression
-      designation: مستوى البيانات
-      normative_status: null
+  release: "-1"
   _revisions:
     current: fd41dc
     tree:
@@ -110,9 +120,9 @@ ara:
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101:2002'
+            ref: ISO 19101:2002
             clause: '4.8'
-            link: 'https://www.iso.org/standard/26002.html'
+            link: https://www.iso.org/standard/26002.html
           date_accepted: '2002-07-01T00:00:00.000Z'
           date_amended: '2014-11-01T00:00:00.000Z'
           review_date: '2010-10-12T00:00:00.000Z'
@@ -120,15 +130,14 @@ ara:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-1:2014'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19101-1:2014).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: مستوى البيانات
-              normative_status: null
+          - type: expression
+            designation: مستوى البيانات
+            normative_status:
         parents: []
         timeCreated: '2002-07-01T00:00:00.000Z'
         author:
@@ -136,33 +145,39 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 108
-  definition: 含有描述特定实例数据的层。
-  language_code: zho
+  terms:
+  - type: expression
+    designation: 数据层
+  definition:
+  - content: 含有描述特定实例数据的层。
   notes: []
   examples: []
+  language_code: zho
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101:2002'
-    clause: '4.8'
-    link: 'https://www.iso.org/standard/26002.html'
-  lineage_source: ''
-  date_accepted: '2002-07-01T00:00:00.000Z'
-  date_amended: '2014-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101:2002
+      clause: '4.8'
+      link: https://www.iso.org/standard/26002.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-11-01T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-1:2014'
-  review_decision_notes: >-
-    The entry has been omitted from the superseding standard  (ISO
+  review_decision_event: Publication of ISO 19101-1:2014
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
     19101-1:2014).
-  release: '-1'
-  terms:
-    - type: expression
-      designation: 数据层
-      normative_status: null
+  release: "-1"
   _revisions:
     current: 1e81d5
     tree:
@@ -176,9 +191,9 @@ zho:
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101:2002'
+            ref: ISO 19101:2002
             clause: '4.8'
-            link: 'https://www.iso.org/standard/26002.html'
+            link: https://www.iso.org/standard/26002.html
           lineage_source: ''
           date_accepted: '2002-07-01T00:00:00.000Z'
           date_amended: '2014-11-01T00:00:00.000Z'
@@ -187,15 +202,14 @@ zho:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-1:2014'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19101-1:2014).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: 数据层
-              normative_status: null
+          - type: expression
+            designation: 数据层
+            normative_status:
         parents: []
         timeCreated: '2002-07-01T00:00:00.000Z'
         author:
@@ -203,49 +217,55 @@ zho:
           email: glossarist@ribose.com
 dan:
   id: 108
-  definition: 'niveau med data, der beskriver specifikke instanser'
-  language_code: dan
+  terms:
+  - type: expression
+    designation: dataniveau
+  definition:
+  - content: niveau med data, der beskriver specifikke instanser
   notes: []
   examples: []
+  language_code: dan
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101:2002'
-    clause: '4.8'
-    link: 'https://www.iso.org/standard/26002.html'
-  lineage_source: ''
-  date_accepted: '2002-07-01T00:00:00.000Z'
-  date_amended: '2014-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101:2002
+      clause: '4.8'
+      link: https://www.iso.org/standard/26002.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-11-01T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-1:2014'
-  review_decision_notes: >-
-    The entry has been omitted from the superseding standard  (ISO
+  review_decision_event: Publication of ISO 19101-1:2014
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
     19101-1:2014).
-  release: '-1'
-  terms:
-    - type: expression
-      designation: dataniveau
-      normative_status: null
+  release: "-1"
   _revisions:
     current: fcac4d
     tree:
       fcac4d:
         object:
           id: 108
-          definition: 'niveau med data, der beskriver specifikke instanser'
+          definition: niveau med data, der beskriver specifikke instanser
           language_code: dan
           notes: []
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101:2002'
+            ref: ISO 19101:2002
             clause: '4.8'
-            link: 'https://www.iso.org/standard/26002.html'
+            link: https://www.iso.org/standard/26002.html
           lineage_source: ''
           date_accepted: '2002-07-01T00:00:00.000Z'
           date_amended: '2014-11-01T00:00:00.000Z'
@@ -254,15 +274,14 @@ dan:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-1:2014'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19101-1:2014).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: dataniveau
-              normative_status: null
+          - type: expression
+            designation: dataniveau
+            normative_status:
         parents: []
         timeCreated: '2002-07-01T00:00:00.000Z'
         author:
@@ -270,49 +289,55 @@ dan:
           email: glossarist@ribose.com
 fin:
   id: 108
-  definition: 'taso, joka koostuu tiettyjä ilmentymiä kuvaavasta tiedosta'
-  language_code: fin
+  terms:
+  - type: expression
+    designation: tietotaso
+  definition:
+  - content: taso, joka koostuu tiettyjä ilmentymiä kuvaavasta tiedosta
   notes: []
   examples: []
+  language_code: fin
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101:2002'
-    clause: '4.8'
-    link: 'https://www.iso.org/standard/26002.html'
-  lineage_source: ''
-  date_accepted: '2002-07-01T00:00:00.000Z'
-  date_amended: '2014-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101:2002
+      clause: '4.8'
+      link: https://www.iso.org/standard/26002.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-11-01T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-1:2014'
-  review_decision_notes: >-
-    The entry has been omitted from the superseding standard  (ISO
+  review_decision_event: Publication of ISO 19101-1:2014
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
     19101-1:2014).
-  release: '-1'
-  terms:
-    - type: expression
-      designation: tietotaso
-      normative_status: null
+  release: "-1"
   _revisions:
     current: 78ef0e
     tree:
       78ef0e:
         object:
           id: 108
-          definition: 'taso, joka koostuu tiettyjä ilmentymiä kuvaavasta tiedosta'
+          definition: taso, joka koostuu tiettyjä ilmentymiä kuvaavasta tiedosta
           language_code: fin
           notes: []
           examples: []
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101:2002'
+            ref: ISO 19101:2002
             clause: '4.8'
-            link: 'https://www.iso.org/standard/26002.html'
+            link: https://www.iso.org/standard/26002.html
           lineage_source: ''
           date_accepted: '2002-07-01T00:00:00.000Z'
           date_amended: '2014-11-01T00:00:00.000Z'
@@ -321,15 +346,14 @@ fin:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-1:2014'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19101-1:2014).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: tietotaso
-              normative_status: null
+          - type: expression
+            designation: tietotaso
+            normative_status:
         parents: []
         timeCreated: '2002-07-01T00:00:00.000Z'
         author:
@@ -337,33 +361,39 @@ fin:
           email: glossarist@ribose.com
 fra:
   id: 108
-  definition: niveau contenant des données décrivant des instances spécifiques
-  language_code: fra
+  terms:
+  - type: expression
+    designation: niveau des données
+  definition:
+  - content: niveau contenant des données décrivant des instances spécifiques
   notes: []
   examples: []
+  language_code: fra
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101:2002'
-    clause: '4.8'
-    link: 'https://www.iso.org/standard/26002.html'
-  lineage_source: ''
-  date_accepted: '2002-07-01T00:00:00.000Z'
-  date_amended: '2014-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101:2002
+      clause: '4.8'
+      link: https://www.iso.org/standard/26002.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-11-01T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-1:2014'
-  review_decision_notes: >-
-    The entry has been omitted from the superseding standard  (ISO
+  review_decision_event: Publication of ISO 19101-1:2014
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
     19101-1:2014).
-  release: '-1'
-  terms:
-    - type: expression
-      designation: niveau des données
-      normative_status: null
+  release: "-1"
   _revisions:
     current: 4a998a
     tree:
@@ -377,9 +407,9 @@ fra:
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101:2002'
+            ref: ISO 19101:2002
             clause: '4.8'
-            link: 'https://www.iso.org/standard/26002.html'
+            link: https://www.iso.org/standard/26002.html
           lineage_source: ''
           date_accepted: '2002-07-01T00:00:00.000Z'
           date_amended: '2014-11-01T00:00:00.000Z'
@@ -388,15 +418,14 @@ fra:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-1:2014'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19101-1:2014).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: niveau des données
-              normative_status: null
+          - type: expression
+            designation: niveau des données
+            normative_status:
         parents: []
         timeCreated: '2002-07-01T00:00:00.000Z'
         author:
@@ -404,32 +433,37 @@ fra:
           email: glossarist@ribose.com
 deu:
   id: 108
-  language_code: deu
+  terms:
+  - type: expression
+    designation: Datenebene
   notes: []
   examples: []
+  language_code: deu
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101:2002'
-    clause: '4.8'
-    link: 'https://www.iso.org/standard/26002.html'
-  lineage_source: ''
-  date_accepted: '2002-07-01T00:00:00.000Z'
-  date_amended: '2014-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101:2002
+      clause: '4.8'
+      link: https://www.iso.org/standard/26002.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-11-01T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-1:2014'
-  review_decision_notes: >-
-    The entry has been omitted from the superseding standard  (ISO
+  review_decision_event: Publication of ISO 19101-1:2014
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
     19101-1:2014).
-  release: '-1'
-  terms:
-    - type: expression
-      designation: Datenebene
-      normative_status: null
+  release: "-1"
   _revisions:
     current: f8ac22
     tree:
@@ -442,9 +476,9 @@ deu:
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101:2002'
+            ref: ISO 19101:2002
             clause: '4.8'
-            link: 'https://www.iso.org/standard/26002.html'
+            link: https://www.iso.org/standard/26002.html
           lineage_source: ''
           date_accepted: '2002-07-01T00:00:00.000Z'
           date_amended: '2014-11-01T00:00:00.000Z'
@@ -453,15 +487,14 @@ deu:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-1:2014'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19101-1:2014).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: Datenebene
-              normative_status: null
+          - type: expression
+            designation: Datenebene
+            normative_status:
         parents: []
         timeCreated: '2002-07-01T00:00:00.000Z'
         author:
@@ -469,35 +502,41 @@ deu:
           email: glossarist@ribose.com
 kor:
   id: 108
-  definition: 특정 인스턴스를 기술하고 있는 데이터가 포함된 레벨
-  language_code: kor
+  terms:
+  - type: expression
+    designation: 데이터 층위
+  - type: expression
+    designation: 데이터 레벨
+  definition:
+  - content: 특정 인스턴스를 기술하고 있는 데이터가 포함된 레벨
   notes: []
   examples: []
+  language_code: kor
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101:2002'
-    clause: '4.8'
-    link: 'https://www.iso.org/standard/26002.html'
-  lineage_source: ''
-  date_accepted: '2008-12-30T00:00:00.000Z'
-  date_amended: '2014-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101:2002
+      clause: '4.8'
+      link: https://www.iso.org/standard/26002.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2008-12-30T00:00:00.000Z'
+  - type: amended
+    date: '2014-11-01T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-1:2014'
-  review_decision_notes: >-
-    The entry has been omitted from the superseding standard  (ISO
+  review_decision_event: Publication of ISO 19101-1:2014
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
     19101-1:2014).
-  release: '-1'
-  terms:
-    - type: expression
-      designation: 데이터 층위
-      normative_status: null
-    - designation: 데이터 레벨
-      type: expression
+  release: "-1"
   _revisions:
     current: f72eac
     tree:
@@ -511,9 +550,9 @@ kor:
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101:2002'
+            ref: ISO 19101:2002
             clause: '4.8'
-            link: 'https://www.iso.org/standard/26002.html'
+            link: https://www.iso.org/standard/26002.html
           lineage_source: ''
           date_accepted: '2008-12-30T00:00:00.000Z'
           date_amended: '2014-11-01T00:00:00.000Z'
@@ -522,17 +561,16 @@ kor:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-1:2014'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19101-1:2014).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: 데이터 층위
-              normative_status: null
-            - designation: 데이터 레벨
-              type: expression
+          - type: expression
+            designation: 데이터 층위
+            normative_status:
+          - designation: 데이터 레벨
+            type: expression
         parents: []
         timeCreated: '2008-12-30T00:00:00.000Z'
         author:
@@ -540,47 +578,55 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 108
-  definition: 'уровень, содержащий данные, описывающие конкретные экземпляры'
-  language_code: rus
+  terms:
+  - type: expression
+    designation: уровень данных
+  definition:
+  - content: уровень, содержащий данные, описывающие конкретные экземпляры
   notes: []
   examples: []
+  language_code: rus
   entry_status: изъятый
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101:2002'
-    clause: '4.8'
-    link: 'https://www.iso.org/standard/26002.html'
-  lineage_source: ''
-  date_accepted: '2002-07-01T00:00:00.000Z'
-  date_amended: '2014-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101:2002
+      clause: '4.8'
+      link: https://www.iso.org/standard/26002.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-11-01T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: ''
   review_type: ''
   review_decision: ''
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Публикация ИСО19101-1:2014'
-  review_decision_notes: 'Эта запись была опущена из заменяющего стандарта (ISO 19101-1: 2014).'
-  release: '-1'
-  terms:
-    - type: expression
-      designation: уровень данных
-      normative_status: null
+  review_decision_event: Публикация ИСО19101-1:2014
+  review_decision_notes: 'Эта запись была опущена из заменяющего стандарта (ISO 19101-1:
+    2014).'
+  release: "-1"
   _revisions:
     current: ba891f
     tree:
       ba891f:
         object:
           id: 108
-          definition: 'уровень, содержащий данные, описывающие конкретные экземпляры'
+          definition: уровень, содержащий данные, описывающие конкретные экземпляры
           language_code: rus
           notes: []
           examples: []
           entry_status: изъятый
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101:2002'
+            ref: ISO 19101:2002
             clause: '4.8'
-            link: 'https://www.iso.org/standard/26002.html'
+            link: https://www.iso.org/standard/26002.html
           lineage_source: ''
           date_accepted: '2002-07-01T00:00:00.000Z'
           date_amended: '2014-11-01T00:00:00.000Z'
@@ -589,15 +635,14 @@ rus:
           review_type: ''
           review_decision: ''
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Публикация ИСО19101-1:2014'
-          review_decision_notes: >-
-            Эта запись была опущена из заменяющего стандарта (ISO 19101-1:
-            2014).
-          release: '-1'
+          review_decision_event: Публикация ИСО19101-1:2014
+          review_decision_notes: 'Эта запись была опущена из заменяющего стандарта
+            (ISO 19101-1: 2014).'
+          release: "-1"
           terms:
-            - type: expression
-              designation: уровень данных
-              normative_status: null
+          - type: expression
+            designation: уровень данных
+            normative_status:
         parents: []
         timeCreated: '2002-07-01T00:00:00.000Z'
         author:
@@ -605,33 +650,39 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 108
-  definition: nivel que contiene datos que describen instancias específicas
-  language_code: spa
+  terms:
+  - type: expression
+    designation: nivel de datos
+  definition:
+  - content: nivel que contiene datos que describen instancias específicas
   notes: []
   examples: []
+  language_code: spa
   entry_status: retired
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19101:2002'
-    clause: '4.8'
-    link: 'https://www.iso.org/standard/26002.html'
-  lineage_source: ''
-  date_accepted: '2002-07-01T00:00:00.000Z'
-  date_amended: '2014-11-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19101:2002
+      clause: '4.8'
+      link: https://www.iso.org/standard/26002.html
+  - type: lineage
+    origin:
+      ref: ''
+  dates:
+  - type: accepted
+    date: '2002-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2014-11-01T00:00:00.000Z'
   review_date: '2010-10-12T00:00:00.000Z'
   review_status: final
   review_type: retirement
   review_decision: accepted
   review_decision_date: '2014-11-01T00:00:00.000Z'
-  review_decision_event: 'Publication of ISO 19101-1:2014'
-  review_decision_notes: >-
-    The entry has been omitted from the superseding standard  (ISO
+  review_decision_event: Publication of ISO 19101-1:2014
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
     19101-1:2014).
-  release: '-1'
-  terms:
-    - type: expression
-      designation: nivel de datos
-      normative_status: null
+  release: "-1"
   _revisions:
     current: 989b61
     tree:
@@ -645,9 +696,9 @@ spa:
           entry_status: retired
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19101:2002'
+            ref: ISO 19101:2002
             clause: '4.8'
-            link: 'https://www.iso.org/standard/26002.html'
+            link: https://www.iso.org/standard/26002.html
           lineage_source: ''
           date_accepted: '2002-07-01T00:00:00.000Z'
           date_amended: '2014-11-01T00:00:00.000Z'
@@ -656,15 +707,14 @@ spa:
           review_type: retirement
           review_decision: accepted
           review_decision_date: '2014-11-01T00:00:00.000Z'
-          review_decision_event: 'Publication of ISO 19101-1:2014'
-          review_decision_notes: >-
-            The entry has been omitted from the superseding standard  (ISO
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
             19101-1:2014).
-          release: '-1'
+          release: "-1"
           terms:
-            - type: expression
-              designation: nivel de datos
-              normative_status: null
+          - type: expression
+            designation: nivel de datos
+            normative_status:
         parents: []
         timeCreated: '2002-07-01T00:00:00.000Z'
         author:

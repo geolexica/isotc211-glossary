@@ -1,67 +1,65 @@
-term: coordinate conversion
+---
 termid: 762
+term: coordinate conversion
 eng:
   id: 762
-  definition: >-
-    coordinate operation in which both coordinate reference systems are based on
-    the same datum
-  language_code: eng
+  terms:
+  - type: expression
+    designation: coordinate conversion
+  definition:
+  - content: coordinate operation in which both coordinate reference systems are based
+      on the same datum
   notes:
-    - >-
-      A coordinate conversion uses parameters which have specified values that
+  - content: A coordinate conversion uses parameters which have specified values that
       are not determined empirically.
   examples:
-    - >-
-      Conversion from an ellipsoidal coordinate reference system based on the
-      WGS84 datum to a Cartesian coordinate reference system also based on the
-      WGS84 datum, or change of units such as from radians to degrees or feet to
-      metres.
+  - content: Conversion from an ellipsoidal coordinate reference system based on the
+      WGS84 datum to a Cartesian coordinate reference system also based on the WGS84
+      datum, or change of units such as from radians to degrees or feet to metres.
+  language_code: eng
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2007'
-    link: 'https://www.iso.org/standard/41126.html'
-  date_accepted: '2007-07-01T00:00:00.000Z'
-  date_amended: '2019-01-31T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2007
+      link: https://www.iso.org/standard/41126.html
+  dates:
+  - type: accepted
+    date: '2007-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2019-01-31T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of document ISO 19111:2019(E)'
-  review_decision_notes: >-
-    This entry is superseded by the entry for coordinate conversion in ISO
-    19111:2019(E)
-  release: '-1'
-  terms:
-    - type: expression
-      designation: coordinate conversion
-      normative_status: null
+  review_decision_event: Publication of document ISO 19111:2019(E)
+  review_decision_notes: This entry is superseded by the entry for coordinate conversion
+    in ISO 19111:2019(E)
+  release: "-1"
   _revisions:
     current: a4a279
     tree:
       a4a279:
         object:
           id: 762
-          definition: >-
-            coordinate operation in which both coordinate reference systems are
-            based on the same datum
+          definition: coordinate operation in which both coordinate reference systems
+            are based on the same datum
           language_code: eng
           notes:
-            - >-
-              A coordinate conversion uses parameters which have specified
-              values that are not determined empirically.
+          - A coordinate conversion uses parameters which have specified values that
+            are not determined empirically.
           examples:
-            - >-
-              Conversion from an ellipsoidal coordinate reference system based
-              on the WGS84 datum to a Cartesian coordinate reference system also
-              based on the WGS84 datum, or change of units such as from radians
-              to degrees or feet to metres.
+          - Conversion from an ellipsoidal coordinate reference system based on the
+            WGS84 datum to a Cartesian coordinate reference system also based on the
+            WGS84 datum, or change of units such as from radians to degrees or feet
+            to metres.
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2007'
-            link: 'https://www.iso.org/standard/41126.html'
+            ref: ISO 19111:2007
+            link: https://www.iso.org/standard/41126.html
           date_accepted: '2007-07-01T00:00:00.000Z'
           date_amended: '2019-01-31T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
@@ -69,15 +67,14 @@ eng:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of document ISO 19111:2019(E)'
-          review_decision_notes: >-
-            This entry is superseded by the entry for coordinate conversion in
-            ISO 19111:2019(E)
-          release: '-1'
+          review_decision_event: Publication of document ISO 19111:2019(E)
+          review_decision_notes: This entry is superseded by the entry for coordinate
+            conversion in ISO 19111:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: coordinate conversion
-              normative_status: null
+          - type: expression
+            designation: coordinate conversion
+            normative_status:
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
         author:
@@ -85,66 +82,64 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 762
-  definition: >-
-    عملية إحداثية يكون نظاما الإحداثيات المرجعية فيهما مبنيين على مرجع إسناد
-    واحد (Datum)
-  language_code: ara
+  terms:
+  - type: expression
+    designation: تحويل إحداثي
+  definition:
+  - content: عملية إحداثية يكون نظاما الإحداثيات المرجعية فيهما مبنيين على مرجع إسناد
+      واحد (Datum)
   notes:
-    - >-
-      التحويل الإحداثي يستخدم متغيِّرات ذات قيم محددة لا يتم تحديدها بالتجربة
+  - content: التحويل الإحداثي يستخدم متغيِّرات ذات قيم محددة لا يتم تحديدها بالتجربة
       العملية.
   examples:
-    - >-
-      التحويل من نظام إحداثيات مرجعية كروية مبني على مرجع إسناد النظام الجيوديسي
-      العالمي WGS84 إلى نظام إحداثيات مرجعي ديكارتي مبني أيضاً على مرجع إسناد
-      نظام WGS84 , أو تغيير الوحدات مثلاً من زوايا نصف قطرية إلى درجات أو من
-      أقدام إلى أمتار.
+  - content: التحويل من نظام إحداثيات مرجعية كروية مبني على مرجع إسناد النظام الجيوديسي
+      العالمي WGS84 إلى نظام إحداثيات مرجعي ديكارتي مبني أيضاً على مرجع إسناد نظام
+      WGS84 , أو تغيير الوحدات مثلاً من زوايا نصف قطرية إلى درجات أو من أقدام إلى
+      أمتار.
+  language_code: ara
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2007'
-    link: 'https://www.iso.org/standard/41126.html'
-  date_accepted: '2007-07-01T00:00:00.000Z'
-  date_amended: '2019-01-31T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2007
+      link: https://www.iso.org/standard/41126.html
+  dates:
+  - type: accepted
+    date: '2007-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2019-01-31T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of document ISO 19111:2019(E)'
-  review_decision_notes: >-
-    This entry is superseded by the entry for coordinate conversion in ISO
-    19111:2019(E)
-  release: '-1'
-  terms:
-    - type: expression
-      designation: تحويل إحداثي
-      normative_status: null
+  review_decision_event: Publication of document ISO 19111:2019(E)
+  review_decision_notes: This entry is superseded by the entry for coordinate conversion
+    in ISO 19111:2019(E)
+  release: "-1"
   _revisions:
     current: d1c685
     tree:
       d1c685:
         object:
           id: 762
-          definition: >-
-            عملية إحداثية يكون نظاما الإحداثيات المرجعية فيهما مبنيين على مرجع
-            إسناد واحد (Datum)
+          definition: عملية إحداثية يكون نظاما الإحداثيات المرجعية فيهما مبنيين على
+            مرجع إسناد واحد (Datum)
           language_code: ara
           notes:
-            - >-
-              التحويل الإحداثي يستخدم متغيِّرات ذات قيم محددة لا يتم تحديدها
-              بالتجربة العملية.
+          - التحويل الإحداثي يستخدم متغيِّرات ذات قيم محددة لا يتم تحديدها بالتجربة
+            العملية.
           examples:
-            - >-
-              التحويل من نظام إحداثيات مرجعية كروية مبني على مرجع إسناد النظام
-              الجيوديسي العالمي WGS84 إلى نظام إحداثيات مرجعي ديكارتي مبني أيضاً
-              على مرجع إسناد نظام WGS84 , أو تغيير الوحدات مثلاً من زوايا نصف
-              قطرية إلى درجات أو من أقدام إلى أمتار.
+          - التحويل من نظام إحداثيات مرجعية كروية مبني على مرجع إسناد النظام الجيوديسي
+            العالمي WGS84 إلى نظام إحداثيات مرجعي ديكارتي مبني أيضاً على مرجع إسناد
+            نظام WGS84 , أو تغيير الوحدات مثلاً من زوايا نصف قطرية إلى درجات أو من
+            أقدام إلى أمتار.
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2007'
-            link: 'https://www.iso.org/standard/41126.html'
+            ref: ISO 19111:2007
+            link: https://www.iso.org/standard/41126.html
           date_accepted: '2007-07-01T00:00:00.000Z'
           date_amended: '2019-01-31T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
@@ -152,15 +147,14 @@ ara:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of document ISO 19111:2019(E)'
-          review_decision_notes: >-
-            This entry is superseded by the entry for coordinate conversion in
-            ISO 19111:2019(E)
-          release: '-1'
+          review_decision_event: Publication of document ISO 19111:2019(E)
+          review_decision_notes: This entry is superseded by the entry for coordinate
+            conversion in ISO 19111:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: تحويل إحداثي
-              normative_status: null
+          - type: expression
+            designation: تحويل إحداثي
+            normative_status:
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
         author:
@@ -168,33 +162,37 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 762
-  definition: 基于同一基准的，从一个坐标参照系到另一个坐标参照系一一对应的坐标操作。
-  language_code: zho
+  terms:
+  - type: expression
+    designation: 坐标转换
+  definition:
+  - content: 基于同一基准的，从一个坐标参照系到另一个坐标参照系一一对应的坐标操作。
   notes:
-    - 坐标转换使用具有明确值的参数，这些值不是凭经验决定的。
+  - content: 坐标转换使用具有明确值的参数，这些值不是凭经验决定的。
   examples:
-    - 大地坐标系和笛卡尔坐标系之间的改变，或大地坐标和投影坐标之间的改变，或度量单位的改变，如从弧度到度，或从英尺到米。
+  - content: 大地坐标系和笛卡尔坐标系之间的改变，或大地坐标和投影坐标之间的改变，或度量单位的改变，如从弧度到度，或从英尺到米。
+  language_code: zho
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2007'
-    link: 'https://www.iso.org/standard/41126.html'
-  date_accepted: '2007-07-01T00:00:00.000Z'
-  date_amended: '2019-01-31T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2007
+      link: https://www.iso.org/standard/41126.html
+  dates:
+  - type: accepted
+    date: '2007-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2019-01-31T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of document ISO 19111:2019(E)'
-  review_decision_notes: >-
-    This entry is superseded by the entry for coordinate conversion in ISO
-    19111:2019(E)
-  release: '-1'
-  terms:
-    - type: expression
-      designation: 坐标转换
-      normative_status: null
+  review_decision_event: Publication of document ISO 19111:2019(E)
+  review_decision_notes: This entry is superseded by the entry for coordinate conversion
+    in ISO 19111:2019(E)
+  release: "-1"
   _revisions:
     current: 599d5a
     tree:
@@ -204,14 +202,14 @@ zho:
           definition: 基于同一基准的，从一个坐标参照系到另一个坐标参照系一一对应的坐标操作。
           language_code: zho
           notes:
-            - 坐标转换使用具有明确值的参数，这些值不是凭经验决定的。
+          - 坐标转换使用具有明确值的参数，这些值不是凭经验决定的。
           examples:
-            - 大地坐标系和笛卡尔坐标系之间的改变，或大地坐标和投影坐标之间的改变，或度量单位的改变，如从弧度到度，或从英尺到米。
+          - 大地坐标系和笛卡尔坐标系之间的改变，或大地坐标和投影坐标之间的改变，或度量单位的改变，如从弧度到度，或从英尺到米。
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2007'
-            link: 'https://www.iso.org/standard/41126.html'
+            ref: ISO 19111:2007
+            link: https://www.iso.org/standard/41126.html
           date_accepted: '2007-07-01T00:00:00.000Z'
           date_amended: '2019-01-31T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
@@ -219,15 +217,14 @@ zho:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of document ISO 19111:2019(E)'
-          review_decision_notes: >-
-            This entry is superseded by the entry for coordinate conversion in
-            ISO 19111:2019(E)
-          release: '-1'
+          review_decision_event: Publication of document ISO 19111:2019(E)
+          review_decision_notes: This entry is superseded by the entry for coordinate
+            conversion in ISO 19111:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: 坐标转换
-              normative_status: null
+          - type: expression
+            designation: 坐标转换
+            normative_status:
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
         author:
@@ -235,62 +232,60 @@ zho:
           email: glossarist@ribose.com
 dan:
   id: 762
-  definition: >-
-    ændring af koordinater baseret på en 1 til 1-relation fra et koordinatsystem
-    til et andet baseret på samme datum
-  language_code: dan
+  terms:
+  - type: expression
+    designation: koordinatkonvertering
+  definition:
+  - content: ændring af koordinater baseret på en 1 til 1-relation fra et koordinatsystem
+      til et andet baseret på samme datum
   notes:
-    - Ved en koordinatkonvertering anvendes parametre med konstante værdier.
+  - content: Ved en koordinatkonvertering anvendes parametre med konstante værdier.
   examples:
-    - >-
-      Mellem geodætiske og kartesiske koordinatsystemer, eller mellem geodætiske
-      og projicerede koordinater, eller ændring af enheder fx fra radianer til
-      grader eller fra fod til meter.
+  - content: Mellem geodætiske og kartesiske koordinatsystemer, eller mellem geodætiske
+      og projicerede koordinater, eller ændring af enheder fx fra radianer til grader
+      eller fra fod til meter.
+  language_code: dan
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2007'
-    link: 'https://www.iso.org/standard/41126.html'
-  date_accepted: '2007-07-01T00:00:00.000Z'
-  date_amended: '2019-01-31T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2007
+      link: https://www.iso.org/standard/41126.html
+  dates:
+  - type: accepted
+    date: '2007-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2019-01-31T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of document ISO 19111:2019(E)'
-  review_decision_notes: >-
-    This entry is superseded by the entry for coordinate conversion in ISO
-    19111:2019(E)
-  release: '-1'
-  terms:
-    - type: expression
-      designation: koordinatkonvertering
-      normative_status: null
+  review_decision_event: Publication of document ISO 19111:2019(E)
+  review_decision_notes: This entry is superseded by the entry for coordinate conversion
+    in ISO 19111:2019(E)
+  release: "-1"
   _revisions:
     current: 2b8036
     tree:
       2b8036:
         object:
           id: 762
-          definition: >-
-            ændring af koordinater baseret på en 1 til 1-relation fra et
+          definition: ændring af koordinater baseret på en 1 til 1-relation fra et
             koordinatsystem til et andet baseret på samme datum
           language_code: dan
           notes:
-            - >-
-              Ved en koordinatkonvertering anvendes parametre med konstante
-              værdier.
+          - Ved en koordinatkonvertering anvendes parametre med konstante værdier.
           examples:
-            - >-
-              Mellem geodætiske og kartesiske koordinatsystemer, eller mellem
-              geodætiske og projicerede koordinater, eller ændring af enheder fx
-              fra radianer til grader eller fra fod til meter.
+          - Mellem geodætiske og kartesiske koordinatsystemer, eller mellem geodætiske
+            og projicerede koordinater, eller ændring af enheder fx fra radianer til
+            grader eller fra fod til meter.
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2007'
-            link: 'https://www.iso.org/standard/41126.html'
+            ref: ISO 19111:2007
+            link: https://www.iso.org/standard/41126.html
           date_accepted: '2007-07-01T00:00:00.000Z'
           date_amended: '2019-01-31T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
@@ -298,15 +293,14 @@ dan:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of document ISO 19111:2019(E)'
-          review_decision_notes: >-
-            This entry is superseded by the entry for coordinate conversion in
-            ISO 19111:2019(E)
-          release: '-1'
+          review_decision_event: Publication of document ISO 19111:2019(E)
+          review_decision_notes: This entry is superseded by the entry for coordinate
+            conversion in ISO 19111:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: koordinatkonvertering
-              normative_status: null
+          - type: expression
+            designation: koordinatkonvertering
+            normative_status:
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
         author:
@@ -314,67 +308,64 @@ dan:
           email: glossarist@ribose.com
 nld:
   id: 762
-  definition: >-
-    coördinaatbewerking waarbij beide coördinaatreferentiesystemen op hetzelfde
-    datum gebaseerd zijn.
-  language_code: nld
+  terms:
+  - type: expression
+    designation: Coördinaat conversie
+  definition:
+  - content: coördinaatbewerking waarbij beide coördinaatreferentiesystemen op hetzelfde
+      datum gebaseerd zijn.
   notes:
-    - >-
-      Een coördinaat conversie gebruikt parameters die gespecificeerde waarden
+  - content: Een coördinaat conversie gebruikt parameters die gespecificeerde waarden
       hebben die niet empirisch bepaald zijn.
   examples:
-    - >-
-      Conversie van een ellipsoidaal coördinaatreferentiesysteem op basis van
-      het WGS84 datum naar een Cartesiaans coördinaatreferentiesysteem wat ook
-      op het WGS84 datum is gebaseerd of een verandering in eenheden zoals van
-      radialen naar graden of voeten naar meters.
+  - content: Conversie van een ellipsoidaal coördinaatreferentiesysteem op basis van
+      het WGS84 datum naar een Cartesiaans coördinaatreferentiesysteem wat ook op
+      het WGS84 datum is gebaseerd of een verandering in eenheden zoals van radialen
+      naar graden of voeten naar meters.
+  language_code: nld
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2007'
-    link: 'https://www.iso.org/standard/41126.html'
-  date_accepted: '2007-07-01T00:00:00.000Z'
-  date_amended: '2019-01-31T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2007
+      link: https://www.iso.org/standard/41126.html
+  dates:
+  - type: accepted
+    date: '2007-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2019-01-31T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of document ISO 19111:2019(E)'
-  review_decision_notes: >-
-    This entry is superseded by the entry for coordinate conversion in ISO
-    19111:2019(E)
-  release: '-1'
-  terms:
-    - type: expression
-      designation: Coördinaat conversie
-      normative_status: null
+  review_decision_event: Publication of document ISO 19111:2019(E)
+  review_decision_notes: This entry is superseded by the entry for coordinate conversion
+    in ISO 19111:2019(E)
+  release: "-1"
   _revisions:
     current: 989c07
     tree:
       989c07:
         object:
           id: 762
-          definition: >-
-            coördinaatbewerking waarbij beide coördinaatreferentiesystemen op
-            hetzelfde datum gebaseerd zijn.
+          definition: coördinaatbewerking waarbij beide coördinaatreferentiesystemen
+            op hetzelfde datum gebaseerd zijn.
           language_code: nld
           notes:
-            - >-
-              Een coördinaat conversie gebruikt parameters die gespecificeerde
-              waarden hebben die niet empirisch bepaald zijn.
+          - Een coördinaat conversie gebruikt parameters die gespecificeerde waarden
+            hebben die niet empirisch bepaald zijn.
           examples:
-            - >-
-              Conversie van een ellipsoidaal coördinaatreferentiesysteem op
-              basis van het WGS84 datum naar een Cartesiaans
-              coördinaatreferentiesysteem wat ook op het WGS84 datum is
-              gebaseerd of een verandering in eenheden zoals van radialen naar
-              graden of voeten naar meters.
+          - Conversie van een ellipsoidaal coördinaatreferentiesysteem op basis van
+            het WGS84 datum naar een Cartesiaans coördinaatreferentiesysteem wat ook
+            op het WGS84 datum is gebaseerd of een verandering in eenheden zoals van
+            radialen naar graden of voeten naar meters.
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2007'
-            link: 'https://www.iso.org/standard/41126.html'
+            ref: ISO 19111:2007
+            link: https://www.iso.org/standard/41126.html
           date_accepted: '2007-07-01T00:00:00.000Z'
           date_amended: '2019-01-31T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
@@ -382,15 +373,14 @@ nld:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of document ISO 19111:2019(E)'
-          review_decision_notes: >-
-            This entry is superseded by the entry for coordinate conversion in
-            ISO 19111:2019(E)
-          release: '-1'
+          review_decision_event: Publication of document ISO 19111:2019(E)
+          review_decision_notes: This entry is superseded by the entry for coordinate
+            conversion in ISO 19111:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: Coördinaat conversie
-              normative_status: null
+          - type: expression
+            designation: Coördinaat conversie
+            normative_status:
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
         author:
@@ -398,66 +388,62 @@ nld:
           email: glossarist@ribose.com
 fin:
   id: 762
-  definition: >-
-    menetelmä, jolla muunnetaan koordinaatteja kahden samaan datumiin perustuvan
-    koordinaattijärjestelmän välillä
-  language_code: fin
+  terms:
+  - type: expression
+    designation: koordinaattikonversio
+  definition:
+  - content: menetelmä, jolla muunnetaan koordinaatteja kahden samaan datumiin perustuvan
+      koordinaattijärjestelmän välillä
   notes:
-    - >-
-      Koordinaattikonversiossa käytetään parametreja, joilla on tietyt, ei
+  - content: Koordinaattikonversiossa käytetään parametreja, joilla on tietyt, ei
       kokemusperäisesti määritetyt arvot.
   examples:
-    - >-
-      Konversio WGS84-datumiin perustuvasta ellipsoidisesta
-      koordinaattijärjestelmästä karteesiseen, samaan datumiin perustuvaan
-      koordinaattijärjestelmään tai yksikkömuunnos, kuten muunnos radiaaneista
-      asteiksi tai jaloista metreiksi.
+  - content: Konversio WGS84-datumiin perustuvasta ellipsoidisesta koordinaattijärjestelmästä
+      karteesiseen, samaan datumiin perustuvaan koordinaattijärjestelmään tai yksikkömuunnos,
+      kuten muunnos radiaaneista asteiksi tai jaloista metreiksi.
+  language_code: fin
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2007'
-    link: 'https://www.iso.org/standard/41126.html'
-  date_accepted: '2007-07-01T00:00:00.000Z'
-  date_amended: '2019-01-31T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2007
+      link: https://www.iso.org/standard/41126.html
+  dates:
+  - type: accepted
+    date: '2007-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2019-01-31T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of document ISO 19111:2019(E)'
-  review_decision_notes: >-
-    This entry is superseded by the entry for coordinate conversion in ISO
-    19111:2019(E)
-  release: '-1'
-  terms:
-    - type: expression
-      designation: koordinaattikonversio
-      normative_status: null
+  review_decision_event: Publication of document ISO 19111:2019(E)
+  review_decision_notes: This entry is superseded by the entry for coordinate conversion
+    in ISO 19111:2019(E)
+  release: "-1"
   _revisions:
     current: fa5553
     tree:
       fa5553:
         object:
           id: 762
-          definition: >-
-            menetelmä, jolla muunnetaan koordinaatteja kahden samaan datumiin
+          definition: menetelmä, jolla muunnetaan koordinaatteja kahden samaan datumiin
             perustuvan koordinaattijärjestelmän välillä
           language_code: fin
           notes:
-            - >-
-              Koordinaattikonversiossa käytetään parametreja, joilla on tietyt,
-              ei kokemusperäisesti määritetyt arvot.
+          - Koordinaattikonversiossa käytetään parametreja, joilla on tietyt, ei kokemusperäisesti
+            määritetyt arvot.
           examples:
-            - >-
-              Konversio WGS84-datumiin perustuvasta ellipsoidisesta
-              koordinaattijärjestelmästä karteesiseen, samaan datumiin
-              perustuvaan koordinaattijärjestelmään tai yksikkömuunnos, kuten
-              muunnos radiaaneista asteiksi tai jaloista metreiksi.
+          - Konversio WGS84-datumiin perustuvasta ellipsoidisesta koordinaattijärjestelmästä
+            karteesiseen, samaan datumiin perustuvaan koordinaattijärjestelmään tai
+            yksikkömuunnos, kuten muunnos radiaaneista asteiksi tai jaloista metreiksi.
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2007'
-            link: 'https://www.iso.org/standard/41126.html'
+            ref: ISO 19111:2007
+            link: https://www.iso.org/standard/41126.html
           date_accepted: '2007-07-01T00:00:00.000Z'
           date_amended: '2019-01-31T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
@@ -465,15 +451,14 @@ fin:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of document ISO 19111:2019(E)'
-          review_decision_notes: >-
-            This entry is superseded by the entry for coordinate conversion in
-            ISO 19111:2019(E)
-          release: '-1'
+          review_decision_event: Publication of document ISO 19111:2019(E)
+          review_decision_notes: This entry is superseded by the entry for coordinate
+            conversion in ISO 19111:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: koordinaattikonversio
-              normative_status: null
+          - type: expression
+            designation: koordinaattikonversio
+            normative_status:
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
         author:
@@ -481,50 +466,52 @@ fin:
           email: glossarist@ribose.com
 fra:
   id: 762
-  definition: >-
-    opération sur les coordonnées dans laquelle les deux systèmes de coordonnées
-    de référence sont basés sur le même référentiel
-  language_code: fra
+  terms:
+  - type: expression
+    designation: conversion de coordonnées
+  definition:
+  - content: opération sur les coordonnées dans laquelle les deux systèmes de coordonnées
+      de référence sont basés sur le même référentiel
   notes: []
   examples: []
+  language_code: fra
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2007'
-    link: 'https://www.iso.org/standard/41126.html'
-  date_accepted: '2007-07-01T00:00:00.000Z'
-  date_amended: '2019-01-31T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2007
+      link: https://www.iso.org/standard/41126.html
+  dates:
+  - type: accepted
+    date: '2007-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2019-01-31T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of document ISO 19111:2019(E)'
-  review_decision_notes: >-
-    This entry is superseded by the entry for coordinate conversion in ISO
-    19111:2019(E)
-  release: '-1'
-  terms:
-    - type: expression
-      designation: conversion de coordonnées
-      normative_status: null
+  review_decision_event: Publication of document ISO 19111:2019(E)
+  review_decision_notes: This entry is superseded by the entry for coordinate conversion
+    in ISO 19111:2019(E)
+  release: "-1"
   _revisions:
     current: '239969'
     tree:
       '239969':
         object:
           id: 762
-          definition: >-
-            opération sur les coordonnées dans laquelle les deux systèmes de
-            coordonnées de référence sont basés sur le même référentiel
+          definition: opération sur les coordonnées dans laquelle les deux systèmes
+            de coordonnées de référence sont basés sur le même référentiel
           language_code: fra
           notes: []
           examples: []
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2007'
-            link: 'https://www.iso.org/standard/41126.html'
+            ref: ISO 19111:2007
+            link: https://www.iso.org/standard/41126.html
           date_accepted: '2007-07-01T00:00:00.000Z'
           date_amended: '2019-01-31T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
@@ -532,15 +519,14 @@ fra:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of document ISO 19111:2019(E)'
-          review_decision_notes: >-
-            This entry is superseded by the entry for coordinate conversion in
-            ISO 19111:2019(E)
-          release: '-1'
+          review_decision_event: Publication of document ISO 19111:2019(E)
+          review_decision_notes: This entry is superseded by the entry for coordinate
+            conversion in ISO 19111:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: conversion de coordonnées
-              normative_status: null
+          - type: expression
+            designation: conversion de coordonnées
+            normative_status:
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
         author:
@@ -548,66 +534,63 @@ fra:
           email: glossarist@ribose.com
 deu:
   id: 762
-  definition: >-
-    Umrechnung von Koordinaten (Koordinatenkonversion), deren
-    Koordinatenreferenzsysteme auf dem gleichen Datum basieren
-  language_code: deu
+  terms:
+  - type: expression
+    designation: Koordinatenumwandlung
+  definition:
+  - content: Umrechnung von Koordinaten (Koordinatenkonversion), deren Koordinatenreferenzsysteme
+      auf dem gleichen Datum basieren
   notes:
-    - >-
-      A coordinate conversion uses parameters which have specified values that
+  - content: A coordinate conversion uses parameters which have specified values that
       are not determined empirically.
   examples:
-    - >-
-      Conversion from an ellipsoidal coordinate reference system based on the
-      WGS84 datum to a Cartesian coordinate reference system also based on the
-      WGS84 datum, or change of units such as from radians to degrees or feet to
-      metres.
+  - content: Conversion from an ellipsoidal coordinate reference system based on the
+      WGS84 datum to a Cartesian coordinate reference system also based on the WGS84
+      datum, or change of units such as from radians to degrees or feet to metres.
+  language_code: deu
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2007'
-    link: 'https://www.iso.org/standard/41126.html'
-  date_accepted: '2007-07-01T00:00:00.000Z'
-  date_amended: '2019-01-31T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2007
+      link: https://www.iso.org/standard/41126.html
+  dates:
+  - type: accepted
+    date: '2007-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2019-01-31T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of document ISO 19111:2019(E)'
-  review_decision_notes: >-
-    This entry is superseded by the entry for coordinate conversion in ISO
-    19111:2019(E)
-  release: '-1'
-  terms:
-    - type: expression
-      designation: Koordinatenumwandlung
-      normative_status: null
+  review_decision_event: Publication of document ISO 19111:2019(E)
+  review_decision_notes: This entry is superseded by the entry for coordinate conversion
+    in ISO 19111:2019(E)
+  release: "-1"
   _revisions:
     current: 9ac1e0
     tree:
       9ac1e0:
         object:
           id: 762
-          definition: >-
-            Umrechnung von Koordinaten (Koordinatenkonversion), deren
-            Koordinatenreferenzsysteme auf dem gleichen Datum basieren
+          definition: Umrechnung von Koordinaten (Koordinatenkonversion), deren Koordinatenreferenzsysteme
+            auf dem gleichen Datum basieren
           language_code: deu
           notes:
-            - >-
-              A coordinate conversion uses parameters which have specified
-              values that are not determined empirically.
+          - A coordinate conversion uses parameters which have specified values that
+            are not determined empirically.
           examples:
-            - >-
-              Conversion from an ellipsoidal coordinate reference system based
-              on the WGS84 datum to a Cartesian coordinate reference system also
-              based on the WGS84 datum, or change of units such as from radians
-              to degrees or feet to metres.
+          - Conversion from an ellipsoidal coordinate reference system based on the
+            WGS84 datum to a Cartesian coordinate reference system also based on the
+            WGS84 datum, or change of units such as from radians to degrees or feet
+            to metres.
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2007'
-            link: 'https://www.iso.org/standard/41126.html'
+            ref: ISO 19111:2007
+            link: https://www.iso.org/standard/41126.html
           date_accepted: '2007-07-01T00:00:00.000Z'
           date_amended: '2019-01-31T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
@@ -615,15 +598,14 @@ deu:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of document ISO 19111:2019(E)'
-          review_decision_notes: >-
-            This entry is superseded by the entry for coordinate conversion in
-            ISO 19111:2019(E)
-          release: '-1'
+          review_decision_event: Publication of document ISO 19111:2019(E)
+          review_decision_notes: This entry is superseded by the entry for coordinate
+            conversion in ISO 19111:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: Koordinatenumwandlung
-              normative_status: null
+          - type: expression
+            designation: Koordinatenumwandlung
+            normative_status:
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
         author:
@@ -631,35 +613,38 @@ deu:
           email: glossarist@ribose.com
 kor:
   id: 762
-  definition: 동일한 데이텀을 기준으로 하는 두 개의 좌표 참조 체계에서의 좌표 연산
-  language_code: kor
+  terms:
+  - type: expression
+    designation: 좌표 전환
+  definition:
+  - content: 동일한 데이텀을 기준으로 하는 두 개의 좌표 참조 체계에서의 좌표 연산
   notes:
-    - 좌표 전환은 경험적으로 산출된 값이 아닌 특정 값을 매개 변수로 사용한다.
+  - content: 좌표 전환은 경험적으로 산출된 값이 아닌 특정 값을 매개 변수로 사용한다.
   examples:
-    - >-
-      WGS84 데이텀 기준 타원체 좌표 참조 체계에서 WGS84 데이텀 기준 수직 좌표 참조 체계로의 변환, 또는  라디안에서 각도로,
-      또는 피트에서 미터로의 단위 변경
+  - content: WGS84 데이텀 기준 타원체 좌표 참조 체계에서 WGS84 데이텀 기준 수직 좌표 참조 체계로의 변환, 또는  라디안에서
+      각도로, 또는 피트에서 미터로의 단위 변경
+  language_code: kor
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2007'
-    link: 'https://www.iso.org/standard/41126.html'
-  date_accepted: '2007-07-01T00:00:00.000Z'
-  date_amended: '2019-01-31T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2007
+      link: https://www.iso.org/standard/41126.html
+  dates:
+  - type: accepted
+    date: '2007-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2019-01-31T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of document ISO 19111:2019(E)'
-  review_decision_notes: >-
-    This entry is superseded by the entry for coordinate conversion in ISO
-    19111:2019(E)
-  release: '-1'
-  terms:
-    - type: expression
-      designation: 좌표 전환
-      normative_status: null
+  review_decision_event: Publication of document ISO 19111:2019(E)
+  review_decision_notes: This entry is superseded by the entry for coordinate conversion
+    in ISO 19111:2019(E)
+  release: "-1"
   _revisions:
     current: 358d19
     tree:
@@ -669,16 +654,15 @@ kor:
           definition: 동일한 데이텀을 기준으로 하는 두 개의 좌표 참조 체계에서의 좌표 연산
           language_code: kor
           notes:
-            - 좌표 전환은 경험적으로 산출된 값이 아닌 특정 값을 매개 변수로 사용한다.
+          - 좌표 전환은 경험적으로 산출된 값이 아닌 특정 값을 매개 변수로 사용한다.
           examples:
-            - >-
-              WGS84 데이텀 기준 타원체 좌표 참조 체계에서 WGS84 데이텀 기준 수직 좌표 참조 체계로의 변환, 또는
-              라디안에서 각도로, 또는 피트에서 미터로의 단위 변경
+          - WGS84 데이텀 기준 타원체 좌표 참조 체계에서 WGS84 데이텀 기준 수직 좌표 참조 체계로의 변환, 또는 라디안에서 각도로,
+            또는 피트에서 미터로의 단위 변경
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2007'
-            link: 'https://www.iso.org/standard/41126.html'
+            ref: ISO 19111:2007
+            link: https://www.iso.org/standard/41126.html
           date_accepted: '2007-07-01T00:00:00.000Z'
           date_amended: '2019-01-31T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
@@ -686,15 +670,14 @@ kor:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of document ISO 19111:2019(E)'
-          review_decision_notes: >-
-            This entry is superseded by the entry for coordinate conversion in
-            ISO 19111:2019(E)
-          release: '-1'
+          review_decision_event: Publication of document ISO 19111:2019(E)
+          review_decision_notes: This entry is superseded by the entry for coordinate
+            conversion in ISO 19111:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: 좌표 전환
-              normative_status: null
+          - type: expression
+            designation: 좌표 전환
+            normative_status:
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
         author:
@@ -702,64 +685,60 @@ kor:
           email: glossarist@ribose.com
 pol:
   id: 762
-  definition: >-
-    operacja na współrzędnych, gdy oba systemy odniesienia oparte są na tym
-    samym układzie odniesienia
-  language_code: pol
+  terms:
+  - type: expression
+    designation: konwersja wspólrzędnych
+  definition:
+  - content: operacja na współrzędnych, gdy oba systemy odniesienia oparte są na tym
+      samym układzie odniesienia
   notes:
-    - >-
-      W konwersji współrzędnych użyte parametry nie są określane w sposób
-      empiryczny.
+  - content: W konwersji współrzędnych użyte parametry nie są określane w sposób empiryczny.
   examples:
-    - >-
-      Konwersja z elipsoidalnego układu współrzędnych bazującego na układzie
-      odniesienia WGS 84 do kartezjańskiego układu współrzędnych, również
-      bazującego na układzie odniesienia WGS 84, lub zamiana jednostek z
-      radianów na stopnie lub stóp na metry.
+  - content: Konwersja z elipsoidalnego układu współrzędnych bazującego na układzie
+      odniesienia WGS 84 do kartezjańskiego układu współrzędnych, również bazującego
+      na układzie odniesienia WGS 84, lub zamiana jednostek z radianów na stopnie
+      lub stóp na metry.
+  language_code: pol
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2007'
-    link: 'https://www.iso.org/standard/41126.html'
-  date_accepted: '2007-07-01T00:00:00.000Z'
-  date_amended: '2019-01-31T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2007
+      link: https://www.iso.org/standard/41126.html
+  dates:
+  - type: accepted
+    date: '2007-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2019-01-31T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of document ISO 19111:2019(E)'
-  review_decision_notes: >-
-    This entry is superseded by the entry for coordinate conversion in ISO
-    19111:2019(E)
-  release: '-1'
-  terms:
-    - type: expression
-      designation: konwersja wspólrzędnych
-      normative_status: null
+  review_decision_event: Publication of document ISO 19111:2019(E)
+  review_decision_notes: This entry is superseded by the entry for coordinate conversion
+    in ISO 19111:2019(E)
+  release: "-1"
   _revisions:
     current: ffc072
     tree:
       ffc072:
         object:
           id: 762
-          definition: >-
-            operacja na współrzędnych, gdy oba systemy odniesienia oparte są na
-            tym samym układzie odniesienia
+          definition: operacja na współrzędnych, gdy oba systemy odniesienia oparte
+            są na tym samym układzie odniesienia
           language_code: pol
           notes:
-            - >-
-              W konwersji współrzędnych użyte parametry nie są określane w
-              sposób empiryczny.
+          - W konwersji współrzędnych użyte parametry nie są określane w sposób empiryczny.
           examples:
-            - >-
-              Konwersja z elipsoidalnego układu współrzędnych bazującego na
-              układzie odniesienia WGS 84 do kartezjańskiego układu
-              współrzędnych, również bazującego na układzie odniesienia WGS 84,
-              lub zamiana jednostek z radianów na stopnie lub stóp na metry.
+          - Konwersja z elipsoidalnego układu współrzędnych bazującego na układzie
+            odniesienia WGS 84 do kartezjańskiego układu współrzędnych, również bazującego
+            na układzie odniesienia WGS 84, lub zamiana jednostek z radianów na stopnie
+            lub stóp na metry.
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2007'
-            link: 'https://www.iso.org/standard/41126.html'
+            ref: ISO 19111:2007
+            link: https://www.iso.org/standard/41126.html
           date_accepted: '2007-07-01T00:00:00.000Z'
           date_amended: '2019-01-31T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
@@ -767,15 +746,14 @@ pol:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of document ISO 19111:2019(E)'
-          review_decision_notes: >-
-            This entry is superseded by the entry for coordinate conversion in
-            ISO 19111:2019(E)
-          release: '-1'
+          review_decision_event: Publication of document ISO 19111:2019(E)
+          review_decision_notes: This entry is superseded by the entry for coordinate
+            conversion in ISO 19111:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: konwersja wspólrzędnych
-              normative_status: null
+          - type: expression
+            designation: konwersja wspólrzędnych
+            normative_status:
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
         author:
@@ -783,69 +761,66 @@ pol:
           email: glossarist@ribose.com
 rus:
   id: 762
-  definition: >-
-    операция с координатами пространственных объектов, основанная на
-    математически строго определенной связи, при переходе из одной системы
-    координат в другую, используя одни и и те же исходные геодезические даты
-  language_code: rus
+  terms:
+  - type: expression
+    designation: перевычисление координат
+  definition:
+  - content: операция с координатами пространственных объектов, основанная на математически
+      строго определенной связи, при переходе из одной системы координат в другую,
+      используя одни и и те же исходные геодезические даты
   notes:
-    - >-
-      При перевычислении координат используют параметры, являющиеся постоянными
+  - content: При перевычислении координат используют параметры, являющиеся постоянными
       величинами
   examples:
-    - >-
-      Перевычисление из геодезической системы координат, основанной на исходных
-      данных WGS84,  в прямоугольную систему координат, также основанную на
-      исходных данных WGS84, или перевод единиц измерения из радиан в градусы
-      или из футов в метры
+  - content: Перевычисление из геодезической системы координат, основанной на исходных
+      данных WGS84,  в прямоугольную систему координат, также основанную на исходных
+      данных WGS84, или перевод единиц измерения из радиан в градусы или из футов
+      в метры
+  language_code: rus
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2007'
-    link: 'https://www.iso.org/standard/41126.html'
-  date_accepted: '2007-07-01T00:00:00.000Z'
-  date_amended: '2019-01-31T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2007
+      link: https://www.iso.org/standard/41126.html
+  dates:
+  - type: accepted
+    date: '2007-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2019-01-31T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of document ISO 19111:2019(E)'
-  review_decision_notes: >-
-    This entry is superseded by the entry for coordinate conversion in ISO
-    19111:2019(E)
-  release: '-1'
-  terms:
-    - type: expression
-      designation: перевычисление координат
-      normative_status: null
+  review_decision_event: Publication of document ISO 19111:2019(E)
+  review_decision_notes: This entry is superseded by the entry for coordinate conversion
+    in ISO 19111:2019(E)
+  release: "-1"
   _revisions:
-    current: '8014e4'
+    current: 8014e4
     tree:
-      '8014e4':
+      8014e4:
         object:
           id: 762
-          definition: >-
-            операция с координатами пространственных объектов, основанная на
-            математически строго определенной связи, при переходе из одной
-            системы координат в другую, используя одни и и те же исходные
-            геодезические даты
+          definition: операция с координатами пространственных объектов, основанная
+            на математически строго определенной связи, при переходе из одной системы
+            координат в другую, используя одни и и те же исходные геодезические даты
           language_code: rus
           notes:
-            - >-
-              При перевычислении координат используют параметры, являющиеся
-              постоянными величинами
+          - При перевычислении координат используют параметры, являющиеся постоянными
+            величинами
           examples:
-            - >-
-              Перевычисление из геодезической системы координат, основанной на
-              исходных данных WGS84,  в прямоугольную систему координат, также
-              основанную на исходных данных WGS84, или перевод единиц измерения
-              из радиан в градусы или из футов в метры
+          - Перевычисление из геодезической системы координат, основанной на исходных
+            данных WGS84,  в прямоугольную систему координат, также основанную на
+            исходных данных WGS84, или перевод единиц измерения из радиан в градусы
+            или из футов в метры
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2007'
-            link: 'https://www.iso.org/standard/41126.html'
+            ref: ISO 19111:2007
+            link: https://www.iso.org/standard/41126.html
           date_accepted: '2007-07-01T00:00:00.000Z'
           date_amended: '2019-01-31T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
@@ -853,15 +828,14 @@ rus:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of document ISO 19111:2019(E)'
-          review_decision_notes: >-
-            This entry is superseded by the entry for coordinate conversion in
-            ISO 19111:2019(E)
-          release: '-1'
+          review_decision_event: Publication of document ISO 19111:2019(E)
+          review_decision_notes: This entry is superseded by the entry for coordinate
+            conversion in ISO 19111:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: перевычисление координат
-              normative_status: null
+          - type: expression
+            designation: перевычисление координат
+            normative_status:
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
         author:
@@ -869,66 +843,64 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 762
-  definition: >-
-    operación de coordenadas en la que ambos sistemas de referencia de
-    coordenadas están basados en el mismo datum
-  language_code: spa
+  terms:
+  - type: expression
+    designation: conversión de coordenadas
+  definition:
+  - content: operación de coordenadas en la que ambos sistemas de referencia de coordenadas
+      están basados en el mismo datum
   notes:
-    - >-
-      Una conversión de coordenadas usa parámetros que tienen valores
-      especificados que no son determinados empíricamente.
+  - content: Una conversión de coordenadas usa parámetros que tienen valores especificados
+      que no son determinados empíricamente.
   examples:
-    - >-
-      Conversión de un sistema de referencia de coordenadas elipsoidales basado
-      en el datum WGS84 a un sistema de referencia de coordenadas cartesianas
-      también basado en el datum WGS84, o cambio de unidades tales como de
-      radianes a grados o de pies a metros.
+  - content: Conversión de un sistema de referencia de coordenadas elipsoidales basado
+      en el datum WGS84 a un sistema de referencia de coordenadas cartesianas también
+      basado en el datum WGS84, o cambio de unidades tales como de radianes a grados
+      o de pies a metros.
+  language_code: spa
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2007'
-    link: 'https://www.iso.org/standard/41126.html'
-  date_accepted: '2007-07-01T00:00:00.000Z'
-  date_amended: '2019-01-31T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2007
+      link: https://www.iso.org/standard/41126.html
+  dates:
+  - type: accepted
+    date: '2007-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2019-01-31T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of document ISO 19111:2019(E)'
-  review_decision_notes: >-
-    This entry is superseded by the entry for coordinate conversion in ISO
-    19111:2019(E)
-  release: '-1'
-  terms:
-    - type: expression
-      designation: conversión de coordenadas
-      normative_status: null
+  review_decision_event: Publication of document ISO 19111:2019(E)
+  review_decision_notes: This entry is superseded by the entry for coordinate conversion
+    in ISO 19111:2019(E)
+  release: "-1"
   _revisions:
     current: 25f814
     tree:
       25f814:
         object:
           id: 762
-          definition: >-
-            operación de coordenadas en la que ambos sistemas de referencia de
-            coordenadas están basados en el mismo datum
+          definition: operación de coordenadas en la que ambos sistemas de referencia
+            de coordenadas están basados en el mismo datum
           language_code: spa
           notes:
-            - >-
-              Una conversión de coordenadas usa parámetros que tienen valores
-              especificados que no son determinados empíricamente.
+          - Una conversión de coordenadas usa parámetros que tienen valores especificados
+            que no son determinados empíricamente.
           examples:
-            - >-
-              Conversión de un sistema de referencia de coordenadas elipsoidales
-              basado en el datum WGS84 a un sistema de referencia de coordenadas
-              cartesianas también basado en el datum WGS84, o cambio de unidades
-              tales como de radianes a grados o de pies a metros.
+          - Conversión de un sistema de referencia de coordenadas elipsoidales basado
+            en el datum WGS84 a un sistema de referencia de coordenadas cartesianas
+            también basado en el datum WGS84, o cambio de unidades tales como de radianes
+            a grados o de pies a metros.
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2007'
-            link: 'https://www.iso.org/standard/41126.html'
+            ref: ISO 19111:2007
+            link: https://www.iso.org/standard/41126.html
           date_accepted: '2007-07-01T00:00:00.000Z'
           date_amended: '2019-01-31T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
@@ -936,15 +908,14 @@ spa:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of document ISO 19111:2019(E)'
-          review_decision_notes: >-
-            This entry is superseded by the entry for coordinate conversion in
-            ISO 19111:2019(E)
-          release: '-1'
+          review_decision_event: Publication of document ISO 19111:2019(E)
+          review_decision_notes: This entry is superseded by the entry for coordinate
+            conversion in ISO 19111:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: conversión de coordenadas
-              normative_status: null
+          - type: expression
+            designation: conversión de coordenadas
+            normative_status:
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
         author:
@@ -952,68 +923,65 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 762
-  definition: >-
-    koordinatomräkning där de  två koordinatbaserade referenssystemen har samma
-    datum
-  country_code: swe
-  language_code: swe
+  terms:
+  - type: expression
+    designation: koordinatkonvertering
+  definition:
+  - content: koordinatomräkning där de  två koordinatbaserade referenssystemen har
+      samma datum
   notes:
-    - >-
-      A coordinate conversion uses parameters which have specified values that
+  - content: A coordinate conversion uses parameters which have specified values that
       are not determined empirically.
   examples:
-    - >-
-      Conversion from an ellipsoidal coordinate reference system based on the
-      WGS84 datum to a Cartesian coordinate reference system also based on the
-      WGS84 datum, or change of units such as from radians to degrees or feet to
-      metres.
+  - content: Conversion from an ellipsoidal coordinate reference system based on the
+      WGS84 datum to a Cartesian coordinate reference system also based on the WGS84
+      datum, or change of units such as from radians to degrees or feet to metres.
+  country_code: swe
+  language_code: swe
   entry_status: superseded
   review_indicator: ''
-  authoritative_source:
-    ref: 'ISO 19111:2007'
-    link: 'https://www.iso.org/standard/41126.html'
-  date_accepted: '2007-07-01T00:00:00.000Z'
-  date_amended: '2019-01-31T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: ISO 19111:2007
+      link: https://www.iso.org/standard/41126.html
+  dates:
+  - type: accepted
+    date: '2007-07-01T00:00:00.000Z'
+  - type: amended
+    date: '2019-01-31T00:00:00.000Z'
   review_date: '2019-01-31T00:00:00.000Z'
   review_status: final
   review_type: supersession
   review_decision: accepted
   review_decision_date: '2019-01-31T00:00:00.000Z'
-  review_decision_event: 'Publication of document ISO 19111:2019(E)'
-  review_decision_notes: >-
-    This entry is superseded by the entry for coordinate conversion in ISO
-    19111:2019(E)
-  release: '-1'
-  terms:
-    - type: expression
-      designation: koordinatkonvertering
-      normative_status: null
+  review_decision_event: Publication of document ISO 19111:2019(E)
+  review_decision_notes: This entry is superseded by the entry for coordinate conversion
+    in ISO 19111:2019(E)
+  release: "-1"
   _revisions:
     current: b0230f
     tree:
       b0230f:
         object:
           id: 762
-          definition: >-
-            koordinatomräkning där de  två koordinatbaserade referenssystemen
+          definition: koordinatomräkning där de  två koordinatbaserade referenssystemen
             har samma datum
           country_code: swe
           language_code: swe
           notes:
-            - >-
-              A coordinate conversion uses parameters which have specified
-              values that are not determined empirically.
+          - A coordinate conversion uses parameters which have specified values that
+            are not determined empirically.
           examples:
-            - >-
-              Conversion from an ellipsoidal coordinate reference system based
-              on the WGS84 datum to a Cartesian coordinate reference system also
-              based on the WGS84 datum, or change of units such as from radians
-              to degrees or feet to metres.
+          - Conversion from an ellipsoidal coordinate reference system based on the
+            WGS84 datum to a Cartesian coordinate reference system also based on the
+            WGS84 datum, or change of units such as from radians to degrees or feet
+            to metres.
           entry_status: superseded
           review_indicator: ''
           authoritative_source:
-            ref: 'ISO 19111:2007'
-            link: 'https://www.iso.org/standard/41126.html'
+            ref: ISO 19111:2007
+            link: https://www.iso.org/standard/41126.html
           date_accepted: '2007-07-01T00:00:00.000Z'
           date_amended: '2019-01-31T00:00:00.000Z'
           review_date: '2019-01-31T00:00:00.000Z'
@@ -1021,15 +989,14 @@ swe:
           review_type: supersession
           review_decision: accepted
           review_decision_date: '2019-01-31T00:00:00.000Z'
-          review_decision_event: 'Publication of document ISO 19111:2019(E)'
-          review_decision_notes: >-
-            This entry is superseded by the entry for coordinate conversion in
-            ISO 19111:2019(E)
-          release: '-1'
+          review_decision_event: Publication of document ISO 19111:2019(E)
+          review_decision_notes: This entry is superseded by the entry for coordinate
+            conversion in ISO 19111:2019(E)
+          release: "-1"
           terms:
-            - type: expression
-              designation: koordinatkonvertering
-              normative_status: null
+          - type: expression
+            designation: koordinatkonvertering
+            normative_status:
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
         author:

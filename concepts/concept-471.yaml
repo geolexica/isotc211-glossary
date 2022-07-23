@@ -1,24 +1,32 @@
-term: transaction time
+---
 termid: 471
+term: transaction time
 eng:
   id: 471
-  definition: time when a fact is current in a database and may be retrieved
-  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: transaction time
+  definition:
+  - content: time when a fact is current in a database and may be retrieved
   notes: []
   examples: []
+  language_code: eng
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'Jensen et al. '
-    clause: (1994)
-  lineage_source: 'ISO 19108:2002'
+  sources:
+  - type: authoritative
+    origin:
+      ref: 'Jensen et al. '
+      clause: "(1994)"
+  - type: lineage
+    origin:
+      ref: ISO 19108:2002
   lineage_source_similarity: 1
-  date_accepted: '2002-09-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: transaction time
-      normative_status: preferred
   _revisions:
     current: '617079'
     tree:
@@ -33,15 +41,15 @@ eng:
           review_indicator: ''
           authoritative_source:
             ref: 'Jensen et al. '
-            clause: (1994)
-          lineage_source: 'ISO 19108:2002'
+            clause: "(1994)"
+          lineage_source: ISO 19108:2002
           lineage_source_similarity: 1
           date_accepted: '2002-09-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: transaction time
-              normative_status: preferred
+          - type: expression
+            designation: transaction time
+            normative_status: preferred
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:
@@ -49,31 +57,34 @@ eng:
           email: glossarist@ribose.com
 ara:
   id: 471
-  definition: >-
-    الوقت الذي تكون فيه إحدى الحقائق في قاعدة للبيانات محدثة ويمكن بالتالي
-    استرجاعها
-  language_code: ara
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: وقت انجاز العملية
+  definition:
+  - content: الوقت الذي تكون فيه إحدى الحقائق في قاعدة للبيانات محدثة ويمكن بالتالي
+      استرجاعها
   notes: []
   examples: []
+  language_code: ara
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'Jensen et al. '
-    clause: (1994)
-  date_accepted: '2002-09-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: 'Jensen et al. '
+      clause: "(1994)"
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: وقت انجاز العملية
-      normative_status: preferred
   _revisions:
     current: e47da2
     tree:
       e47da2:
         object:
           id: 471
-          definition: >-
-            الوقت الذي تكون فيه إحدى الحقائق في قاعدة للبيانات محدثة ويمكن
+          definition: الوقت الذي تكون فيه إحدى الحقائق في قاعدة للبيانات محدثة ويمكن
             بالتالي استرجاعها
           language_code: ara
           notes: []
@@ -82,13 +93,13 @@ ara:
           review_indicator: ''
           authoritative_source:
             ref: 'Jensen et al. '
-            clause: (1994)
+            clause: "(1994)"
           date_accepted: '2002-09-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: وقت انجاز العملية
-              normative_status: preferred
+          - type: expression
+            designation: وقت انجاز العملية
+            normative_status: preferred
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:
@@ -96,20 +107,25 @@ ara:
           email: glossarist@ribose.com
 zho:
   id: 471
-  definition: 对数据库中现存事实检索的时间。
-  language_code: zho
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 事务处理时间
+  definition:
+  - content: 对数据库中现存事实检索的时间。
   notes: []
   examples: []
+  language_code: zho
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'Jensen et al. '
-    clause: (1994)
-  date_accepted: '2002-09-01T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: 事务处理时间
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: 'Jensen et al. '
+      clause: "(1994)"
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   _revisions:
     current: 9964b4
     tree:
@@ -124,12 +140,12 @@ zho:
           review_indicator: ''
           authoritative_source:
             ref: 'Jensen et al. '
-            clause: (1994)
+            clause: "(1994)"
           date_accepted: '2002-09-01T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: 事务处理时间
-              normative_status: preferred
+          - type: expression
+            designation: 事务处理时间
+            normative_status: preferred
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:
@@ -137,34 +153,38 @@ zho:
           email: glossarist@ribose.com
 fin:
   id: 471
-  definition: 'aika, jolloin tapahtuma on tietokannassa ajankohtainen ja haettavissa'
-  language_code: fin
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: tapahtuma-aika
+  - type: expression
+    designation: tallennushetki
+  definition:
+  - content: aika, jolloin tapahtuma on tietokannassa ajankohtainen ja haettavissa
   notes: []
   examples: []
+  language_code: fin
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'Jensen et al. '
-    clause: (1994)
-  lineage_source: >-
-    Jaakohuhta, Hannu: Tietotekniikan sanakirja suomi-englanti-suomi, 2007; MOT
-    Enteka 4.0
-  date_accepted: '2002-09-01T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: tapahtuma-aika
-      normative_status: preferred
-    - designation: tallennushetki
-      type: expression
+  sources:
+  - type: authoritative
+    origin:
+      ref: 'Jensen et al. '
+      clause: "(1994)"
+  - type: lineage
+    origin:
+      ref: 'Jaakohuhta, Hannu: Tietotekniikan sanakirja suomi-englanti-suomi, 2007;
+        MOT Enteka 4.0'
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   _revisions:
     current: 14b5f6
     tree:
       14b5f6:
         object:
           id: 471
-          definition: >-
-            aika, jolloin tapahtuma on tietokannassa ajankohtainen ja
-            haettavissa
+          definition: aika, jolloin tapahtuma on tietokannassa ajankohtainen ja haettavissa
           language_code: fin
           notes: []
           examples: []
@@ -172,17 +192,16 @@ fin:
           review_indicator: ''
           authoritative_source:
             ref: 'Jensen et al. '
-            clause: (1994)
-          lineage_source: >-
-            Jaakohuhta, Hannu: Tietotekniikan sanakirja suomi-englanti-suomi,
-            2007; MOT Enteka 4.0
+            clause: "(1994)"
+          lineage_source: 'Jaakohuhta, Hannu: Tietotekniikan sanakirja suomi-englanti-suomi,
+            2007; MOT Enteka 4.0'
           date_accepted: '2002-09-01T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: tapahtuma-aika
-              normative_status: preferred
-            - designation: tallennushetki
-              type: expression
+          - type: expression
+            designation: tapahtuma-aika
+            normative_status: preferred
+          - designation: tallennushetki
+            type: expression
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:
@@ -190,44 +209,50 @@ fin:
           email: glossarist@ribose.com
 fra:
   id: 471
-  definition: temps où un fait est en cours dans une base de données et peut être récupéré
-  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: temps de transaction
+  definition:
+  - content: temps où un fait est en cours dans une base de données et peut être récupéré
   notes: []
   examples: []
+  language_code: fra
   entry_status: valid
-  authoritative_source:
-    ref: 'Jensen et al. '
-    clause: (1994)
-  lineage_source: ISO 19108
+  sources:
+  - type: authoritative
+    origin:
+      ref: 'Jensen et al. '
+      clause: "(1994)"
+  - type: lineage
+    origin:
+      ref: ISO 19108
   lineage_source_similarity: 1
-  date_accepted: '2002-09-01T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: temps de transaction
-      normative_status: preferred
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   _revisions:
     current: 6bda58
     tree:
       6bda58:
         object:
           id: 471
-          definition: >-
-            temps où un fait est en cours dans une base de données et peut être
-            récupéré
+          definition: temps où un fait est en cours dans une base de données et peut
+            être récupéré
           language_code: fra
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
             ref: 'Jensen et al. '
-            clause: (1994)
+            clause: "(1994)"
           lineage_source: ISO 19108
           lineage_source_similarity: 1
           date_accepted: '2002-09-01T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: temps de transaction
-              normative_status: preferred
+          - type: expression
+            designation: temps de transaction
+            normative_status: preferred
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:
@@ -235,42 +260,49 @@ fra:
           email: glossarist@ribose.com
 jpn:
   id: 471
-  definition: 'ある事実がデータベース内に存続し，検索が可能になっている時間[Jensenなど(1994)]。'
-  language_code: jpn
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: トランザクション時間
+  definition:
+  - content: ある事実がデータベース内に存続し，検索が可能になっている時間[Jensenなど(1994)]。
   notes: []
   examples: []
+  language_code: jpn
   entry_status: valid
-  authoritative_source:
-    ref: 'Jensen et al. '
-    clause: (1994)
-  lineage_source: JIS X 7108
-  date_accepted: '2002-09-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: 'Jensen et al. '
+      clause: "(1994)"
+  - type: lineage
+    origin:
+      ref: JIS X 7108
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: トランザクション時間
-      normative_status: preferred
   _revisions:
     current: 8b8e44
     tree:
       8b8e44:
         object:
           id: 471
-          definition: 'ある事実がデータベース内に存続し，検索が可能になっている時間[Jensenなど(1994)]。'
+          definition: ある事実がデータベース内に存続し，検索が可能になっている時間[Jensenなど(1994)]。
           language_code: jpn
           notes: []
           examples: []
           entry_status: valid
           authoritative_source:
             ref: 'Jensen et al. '
-            clause: (1994)
+            clause: "(1994)"
           lineage_source: JIS X 7108
           date_accepted: '2002-09-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: トランザクション時間
-              normative_status: preferred
+          - type: expression
+            designation: トランザクション時間
+            normative_status: preferred
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:
@@ -278,29 +310,36 @@ jpn:
           email: glossarist@ribose.com
 kor:
   id: 471
-  definition: '한 정보가 데이터 베이스 내에 현존하며, 수정될 수 있는 시간'
-  language_code: kor
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 처리 시간
+  definition:
+  - content: 한 정보가 데이터 베이스 내에 현존하며, 수정될 수 있는 시간
   notes: []
   examples: []
+  language_code: kor
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'Jensen et al. '
-    clause: (1994)
-  lineage_source: KS X ISO 19104
-  date_accepted: '2008-12-19T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: 'Jensen et al. '
+      clause: "(1994)"
+  - type: lineage
+    origin:
+      ref: KS X ISO 19104
+  dates:
+  - type: accepted
+    date: '2008-12-19T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: 처리 시간
-      normative_status: preferred
   _revisions:
     current: 191a29
     tree:
       191a29:
         object:
           id: 471
-          definition: '한 정보가 데이터 베이스 내에 현존하며, 수정될 수 있는 시간'
+          definition: 한 정보가 데이터 베이스 내에 현존하며, 수정될 수 있는 시간
           language_code: kor
           notes: []
           examples: []
@@ -308,14 +347,14 @@ kor:
           review_indicator: ''
           authoritative_source:
             ref: 'Jensen et al. '
-            clause: (1994)
+            clause: "(1994)"
           lineage_source: KS X ISO 19104
           date_accepted: '2008-12-19T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: 처리 시간
-              normative_status: preferred
+          - type: expression
+            designation: 처리 시간
+            normative_status: preferred
         parents: []
         timeCreated: '2008-12-19T00:00:00.000Z'
         author:
@@ -323,28 +362,35 @@ kor:
           email: glossarist@ribose.com
 rus:
   id: 471
-  definition: 'время, когда некий факт зафиксирован в базе данных'
-  language_code: rus
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: время транзакции
+  definition:
+  - content: время, когда некий факт зафиксирован в базе данных
   notes: []
   examples: []
+  language_code: rus
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'Jensen et al. '
-    clause: (1994)
-  lineage_source: Internet
-  date_accepted: '2002-09-01T00:00:00.000Z'
-  terms:
-    - type: expression
-      designation: время транзакции
-      normative_status: preferred
+  sources:
+  - type: authoritative
+    origin:
+      ref: 'Jensen et al. '
+      clause: "(1994)"
+  - type: lineage
+    origin:
+      ref: Internet
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   _revisions:
     current: b267e7
     tree:
       b267e7:
         object:
           id: 471
-          definition: 'время, когда некий факт зафиксирован в базе данных'
+          definition: время, когда некий факт зафиксирован в базе данных
           language_code: rus
           notes: []
           examples: []
@@ -352,13 +398,13 @@ rus:
           review_indicator: ''
           authoritative_source:
             ref: 'Jensen et al. '
-            clause: (1994)
+            clause: "(1994)"
           lineage_source: Internet
           date_accepted: '2002-09-01T00:00:00.000Z'
           terms:
-            - type: expression
-              designation: время транзакции
-              normative_status: preferred
+          - type: expression
+            designation: время транзакции
+            normative_status: preferred
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:
@@ -366,32 +412,35 @@ rus:
           email: glossarist@ribose.com
 spa:
   id: 471
-  definition: >-
-    tiempo durante el cual un hecho está almacenado en una base de datos, y
-    puede recuperarse
-  language_code: spa
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: tiempo de transacción
+  definition:
+  - content: tiempo durante el cual un hecho está almacenado en una base de datos,
+      y puede recuperarse
   notes: []
   examples: []
+  language_code: spa
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'Jensen et al. '
-    clause: (1994)
-  date_accepted: '2002-09-01T00:00:00.000Z'
+  sources:
+  - type: authoritative
+    origin:
+      ref: 'Jensen et al. '
+      clause: "(1994)"
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: tiempo de transacción
-      normative_status: preferred
   _revisions:
     current: 160f74
     tree:
       160f74:
         object:
           id: 471
-          definition: >-
-            tiempo durante el cual un hecho está almacenado en una base de
-            datos, y puede recuperarse
+          definition: tiempo durante el cual un hecho está almacenado en una base
+            de datos, y puede recuperarse
           language_code: spa
           notes: []
           examples: []
@@ -399,13 +448,13 @@ spa:
           review_indicator: ''
           authoritative_source:
             ref: 'Jensen et al. '
-            clause: (1994)
+            clause: "(1994)"
           date_accepted: '2002-09-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: tiempo de transacción
-              normative_status: preferred
+          - type: expression
+            designation: tiempo de transacción
+            normative_status: preferred
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:
@@ -413,24 +462,31 @@ spa:
           email: glossarist@ribose.com
 swe:
   id: 471
-  definition: den tidpunkt då en transaktion genomförs i ett sytem
-  country_code: swe
-  language_code: swe
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: transaktionstidpunkt
+  definition:
+  - content: den tidpunkt då en transaktion genomförs i ett sytem
   notes: []
   examples: []
+  country_code: swe
+  language_code: swe
   entry_status: valid
   review_indicator: ''
-  authoritative_source:
-    ref: 'Jensen et al. '
-    clause: (1994)
-  lineage_source: 'ISO 19108:2002'
+  sources:
+  - type: authoritative
+    origin:
+      ref: 'Jensen et al. '
+      clause: "(1994)"
+  - type: lineage
+    origin:
+      ref: ISO 19108:2002
   lineage_source_similarity: 1
-  date_accepted: '2002-09-01T00:00:00.000Z'
+  dates:
+  - type: accepted
+    date: '2002-09-01T00:00:00.000Z'
   release: '1'
-  terms:
-    - type: expression
-      designation: transaktionstidpunkt
-      normative_status: preferred
   _revisions:
     current: 3f6b3e
     tree:
@@ -446,15 +502,15 @@ swe:
           review_indicator: ''
           authoritative_source:
             ref: 'Jensen et al. '
-            clause: (1994)
-          lineage_source: 'ISO 19108:2002'
+            clause: "(1994)"
+          lineage_source: ISO 19108:2002
           lineage_source_similarity: 1
           date_accepted: '2002-09-01T00:00:00.000Z'
           release: '1'
           terms:
-            - type: expression
-              designation: transaktionstidpunkt
-              normative_status: preferred
+          - type: expression
+            designation: transaktionstidpunkt
+            normative_status: preferred
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
         author:
