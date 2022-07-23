@@ -20,6 +20,6 @@ jobs:
     needs: build-release
     uses: geolexica/ci/.github/workflows/glossary-trigger.yml@main
     with:
-      repository: geolexica/isotc204.geolexica.org
+      repository: geolexica/isotc211.geolexica.org
     secrets:
       token: ${{ secrets.GLOSSARIST_CI_PAT_TOKEN }}
