@@ -34,42 +34,16 @@ data:
           review_indicator: ''
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: 공유 경계
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: 공유 경계
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: 공유 경계
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2003-05-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2003-05-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2003-05-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''특정 위상 객체를 구성하는 높은 위상 차원의 위상 원시 객체 집합으로, 이 위상 객체는 위상
     원시 객체의 각 경계에 존재함''}]'
   examples: []
@@ -77,20 +51,9 @@ data:
   language_code: kor
   lineage_source_similarity: 1
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: 만약 절점이 변의 경계에 위치한다면, 변은 절점의 공유 경계에 위치한다. 이러한 관계를 갖는 하나의 방향 매개 변수는 또한
-        반대의 경우와도 연관된다. 절점이 (양의 방향성 변의 끝으로 정의된) 변의 끝 절점이라면, (양의 방향성 절점으로 정의된) 절점의 양의
-        방향이 그 공유 경계상의 변을 가질 수 있다(KS X ISO 19107 그림35 참조).
-    state:
-      _dict:
-        content: 만약 절점이 변의 경계에 위치한다면, 변은 절점의 공유 경계에 위치한다. 이러한 관계를 갖는 하나의 방향 매개 변수는
-          또한 반대의 경우와도 연관된다. 절점이 (양의 방향성 변의 끝으로 정의된) 변의 끝 절점이라면, (양의 방향성 절점으로 정의된)
-          절점의 양의 방향이 그 공유 경계상의 변을 가질 수 있다(KS X ISO 19107 그림35 참조).
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: 만약 절점이 변의 경계에 위치한다면, 변은 절점의 공유 경계에 위치한다. 이러한 관계를 갖는 하나의 방향 매개 변수는 또한
+      반대의 경우와도 연관된다. 절점이 (양의 방향성 변의 끝으로 정의된) 변의 끝 절점이라면, (양의 방향성 절점으로 정의된) 절점의 양의
+      방향이 그 공유 경계상의 변을 가질 수 있다(KS X ISO 19107 그림35 참조).
   release: '1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02
@@ -101,49 +64,18 @@ data:
   review_indicator: ''
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: (E), 3.9
-        link: https://www.iso.org/standard/66175.html
-        ref: ISO 19107:2019
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19107:2003(E)
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: (E), 3.9
+      link: https://www.iso.org/standard/66175.html
+      ref: ISO 19107:2019
+    type: authoritative
+  - origin:
+      ref: ISO 19107:2003(E)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: 공유 경계
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: 공유 경계
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: 공유 경계
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 548cb5be-72cb-51c2-a619-452c018e0470
 status: valid

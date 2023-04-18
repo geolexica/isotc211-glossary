@@ -21,54 +21,18 @@ data:
           lineage_source_similarity: 1
           notes: []
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: méridien origine
-              normative_status: admitted
-              type: expression
-            state:
-              _dict:
-                designation: méridien origine
-                normative_status: admitted
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: prime meridian
-              type: expression
-            state:
-              _dict:
-                designation: prime meridian
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: méridien origine
+            normative_status: admitted
+            type: expression
+          - designation: prime meridian
+            type: expression
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2003-02-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2003-02-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2003-02-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''méridien à partir duquel les longitudes des autres
     méridiens sont mesurées''}]'
   examples: []
@@ -77,60 +41,19 @@ data:
   lineage_source_similarity: 1
   notes: []
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/74039.html
-        ref: ISO 19111
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19111:2003
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/74039.html
+      ref: ISO 19111
+    type: authoritative
+  - origin:
+      ref: ISO 19111:2003
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: méridien origine
-      normative_status: admitted
-      type: expression
-    state:
-      _dict:
-        designation: méridien origine
-        normative_status: admitted
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: prime meridian
-      type: expression
-    state:
-      _dict:
-        designation: prime meridian
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: méridien origine
+    normative_status: admitted
+    type: expression
+  - designation: prime meridian
+    type: expression
+dateAccepted: 2018-11-17
 id: 5deb71ba-6ccc-5d0e-9390-a50e85551a21
 status: valid

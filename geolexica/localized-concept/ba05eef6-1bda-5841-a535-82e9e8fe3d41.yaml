@@ -39,54 +39,18 @@ data:
           review_status: final
           review_type: retirement
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: data quality scope
-              normative_status: null
-              type: expression
-            state:
-              _dict:
-                designation: data quality scope
-                normative_status: null
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: data quality scope
+            normative_status: null
+            type: expression
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2002-12-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2002-12-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2013-12-15T00:00:00.000Z'
-      type: amended
-    state:
-      _dict:
-        date: '2013-12-15T00:00:00.000Z'
-        type: amended
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2002-12-01T00:00:00.000Z'
+    type: accepted
+  - date: '2013-12-15T00:00:00.000Z'
+    type: amended
   definition: '[{''content'': ''extent or characteristic(s) of the data for which
     quality information is reported''}]'
   examples: []
@@ -94,26 +58,12 @@ data:
   language_code: eng
   lineage_source_similarity: 0
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: A data quality scope for a dataset can comprise a dataset series to
-        which the dataset belongs, the dataset itself, or a smaller grouping of data
-        located physically within the dataset sharing common characteristics. Common
-        characteristics can be an identified feature type, feature attribute, or feature
-        relationship; data collection criteria; original source; or a specified geographic
-        or temporal extent.
-    state:
-      _dict:
-        content: A data quality scope for a dataset can comprise a dataset series
-          to which the dataset belongs, the dataset itself, or a smaller grouping
-          of data located physically within the dataset sharing common characteristics.
-          Common characteristics can be an identified feature type, feature attribute,
-          or feature relationship; data collection criteria; original source; or a
-          specified geographic or temporal extent.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: A data quality scope for a dataset can comprise a dataset series to which
+      the dataset belongs, the dataset itself, or a smaller grouping of data located
+      physically within the dataset sharing common characteristics. Common characteristics
+      can be an identified feature type, feature attribute, or feature relationship;
+      data collection criteria; original source; or a specified geographic or temporal
+      extent.
   release: '-1'
   reviewDate: 2013-12-15
   reviewDecisionDate: 2013-12-15
@@ -125,47 +75,17 @@ data:
   review_status: final
   review_type: retirement
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: '4.10'
-        link: https://www.iso.org/standard/26018.html
-        ref: ISO 19113:2002
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ''
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: '4.10'
+      link: https://www.iso.org/standard/26018.html
+      ref: ISO 19113:2002
+    type: authoritative
+  - origin:
+      ref: ''
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: data quality scope
-      type: expression
-    state:
-      _dict:
-        designation: data quality scope
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: data quality scope
+    type: expression
+dateAccepted: 2018-11-17
 id: ba05eef6-1bda-5841-a535-82e9e8fe3d41
 status: retired

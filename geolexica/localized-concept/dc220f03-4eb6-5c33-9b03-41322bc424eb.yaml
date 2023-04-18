@@ -26,42 +26,16 @@ data:
           review_decision_notes: Publication of document ISO/TS 19159-2:2016(E)
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: nadir
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: nadir
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: nadir
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2016-04-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2016-04-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2016-04-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2016-04-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''point directly beneath a position''}]'
   examples: []
   id: 1942
@@ -75,36 +49,15 @@ data:
   review_decision_notes: Publication of document ISO/TS 19159-2:2016(E)
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: '4.26'
-        link: https://www.iso.org/standard/64768.html
-        ref: ISO/TS 19159-2:2016
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: '4.26'
+      link: https://www.iso.org/standard/64768.html
+      ref: ISO/TS 19159-2:2016
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: nadir
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: nadir
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: nadir
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: dc220f03-4eb6-5c33-9b03-41322bc424eb
 status: valid

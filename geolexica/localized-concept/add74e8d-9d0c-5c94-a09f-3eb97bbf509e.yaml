@@ -21,42 +21,16 @@ data:
           release: '1'
           review_indicator: ''
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: 0도 자오선
-              normative_status: admitted
-              type: expression
-            state:
-              _dict:
-                designation: 0도 자오선
-                normative_status: admitted
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: 0도 자오선
+            normative_status: admitted
+            type: expression
         parents: []
         timeCreated: '2007-11-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2007-11-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2007-11-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2007-11-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''본초 자오선, 다른 자오선의 경도 정량화에 사용되는 기준 자오선''}]'
   examples: []
   id: 505
@@ -65,48 +39,17 @@ data:
   release: '1'
   review_indicator: ''
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/41126.html
-        ref: ISO 19111:2007
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: KS X ISO 19111
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/41126.html
+      ref: ISO 19111:2007
+    type: authoritative
+  - origin:
+      ref: KS X ISO 19111
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: 0도 자오선
-      normative_status: admitted
-      type: expression
-    state:
-      _dict:
-        designation: 0도 자오선
-        normative_status: admitted
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: 0도 자오선
+    normative_status: admitted
+    type: expression
+dateAccepted: 2018-11-17
 id: add74e8d-9d0c-5c94-a09f-3eb97bbf509e
 status: valid

@@ -31,54 +31,18 @@ data:
           review_status: final
           review_type: retirement
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: 数据质量评价过程
-              normative_status: null
-              type: expression
-            state:
-              _dict:
-                designation: 数据质量评价过程
-                normative_status: null
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: 数据质量评价过程
+            normative_status: null
+            type: expression
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2002-12-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2002-12-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '41623'
-      type: amended
-    state:
-      _dict:
-        date: '41623'
-        type: amended
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2002-12-01T00:00:00.000Z'
+    type: accepted
+  - date: '41623'
+    type: amended
   definition: '[{''content'': ''应用和报告质量评价方法及评价结果的操作。''}]'
   examples: []
   id: 114
@@ -95,47 +59,17 @@ data:
   review_status: final
   review_type: retirement
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: '4.6'
-        link: https://www.iso.org/standard/26018.html
-        ref: ISO 19113:2002
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ''
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: '4.6'
+      link: https://www.iso.org/standard/26018.html
+      ref: ISO 19113:2002
+    type: authoritative
+  - origin:
+      ref: ''
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: 数据质量评价过程
-      type: expression
-    state:
-      _dict:
-        designation: 数据质量评价过程
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: 数据质量评价过程
+    type: expression
+dateAccepted: 2018-11-17
 id: ae81f02c-7f27-564d-b196-feb112d6de97
 status: retired

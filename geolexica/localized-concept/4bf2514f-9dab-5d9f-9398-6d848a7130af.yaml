@@ -28,60 +28,24 @@ data:
           review_indicator: ''
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: 측정단위
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: 측정단위
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: 측정단위
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2004-07-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2004-07-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2004-07-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2004-07-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''단위 등가 집단으로부터 선택된 참조 양''}]'
   examples: []
   id: 483
   language_code: kor
   lineage_source_similarity: 1
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: 측위 서비스에서 측정 단위는 각 단위 또는 선형 단위이다. 측위 서비스의 구현에서는 국제 표준 단위를 사용하는지, 사용하지
-        않는지를 명확하게 구분해야 한다. 국제 표준 단위를 사용하지 않는 경우는 국제 표준 단위와의 관계를 명시해야 한다.
-    state:
-      _dict:
-        content: 측위 서비스에서 측정 단위는 각 단위 또는 선형 단위이다. 측위 서비스의 구현에서는 국제 표준 단위를 사용하는지, 사용하지
-          않는지를 명확하게 구분해야 한다. 국제 표준 단위를 사용하지 않는 경우는 국제 표준 단위와의 관계를 명시해야 한다.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: 측위 서비스에서 측정 단위는 각 단위 또는 선형 단위이다. 측위 서비스의 구현에서는 국제 표준 단위를 사용하는지, 사용하지
+      않는지를 명확하게 구분해야 한다. 국제 표준 단위를 사용하지 않는 경우는 국제 표준 단위와의 관계를 명시해야 한다.
   release: '1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02
@@ -92,34 +56,13 @@ data:
   review_indicator: ''
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        ref: ISO 19116:2004(E)
-      type: lineage
-    state:
-      _dict:
-        origin: *id001
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      ref: ISO 19116:2004(E)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: 측정단위
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: 측정단위
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: 측정단위
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 4bf2514f-9dab-5d9f-9398-6d848a7130af
 status: valid

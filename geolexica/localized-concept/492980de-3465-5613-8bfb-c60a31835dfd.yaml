@@ -23,42 +23,16 @@ data:
           notes: []
           release: '3'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: ссылка
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: ссылка
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: ссылка
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2014-04-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2014-04-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2014-04-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2014-04-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''информационный объект, содержащий информацию, которая
     направляет внимание читателя или пользователя с одного ресурса на другой''}]'
   examples: []
@@ -68,49 +42,18 @@ data:
   notes: []
   release: '3'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: 3.1.16
-        link: https://www.iso.org/standard/37333.html
-        ref: ISO 24619:2011
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ГОСТ Р 57668-2017 (ИСО 19115-1-2014)
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: 3.1.16
+      link: https://www.iso.org/standard/37333.html
+      ref: ISO 24619:2011
+    type: authoritative
+  - origin:
+      ref: ГОСТ Р 57668-2017 (ИСО 19115-1-2014)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: ссылка
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: ссылка
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: ссылка
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 492980de-3465-5613-8bfb-c60a31835dfd
 status: valid

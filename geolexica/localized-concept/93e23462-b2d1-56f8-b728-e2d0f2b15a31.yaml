@@ -31,42 +31,16 @@ data:
           review_indicator: ''
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: section de métadonnées
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: section de métadonnées
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: section de métadonnées
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2003-05-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2003-05-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2003-05-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': "sous-ensemble de métadonnées consistant en une collection
     d''entités et d''éléments de métadonnées liés"}]'
   examples: []
@@ -84,49 +58,18 @@ data:
   review_indicator: ''
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: '4.13'
-        link: https://www.iso.org/standard/53798.html
-        ref: ISO 19115-1:2014
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19115:2003
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: '4.13'
+      link: https://www.iso.org/standard/53798.html
+      ref: ISO 19115-1:2014
+    type: authoritative
+  - origin:
+      ref: ISO 19115:2003
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: section de métadonnées
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: section de métadonnées
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: section de métadonnées
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 93e23462-b2d1-56f8-b728-e2d0f2b15a31
 status: valid

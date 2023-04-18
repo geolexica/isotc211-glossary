@@ -21,42 +21,16 @@ data:
           notes: []
           release: '3'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: prosedur cerapan
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: prosedur cerapan
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: prosedur cerapan
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2011-12-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2011-12-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2011-12-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2011-12-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''kaedah, algoritma atau instrumen, atau sistem ini,
     yang boleh digunakan untuk membuat cerapan''}]'
   examples: []
@@ -65,36 +39,15 @@ data:
   notes: []
   release: '3'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: '4.12'
-        link: https://www.iso.org/standard/32574.html
-        ref: ISO 19156:2011
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: '4.12'
+      link: https://www.iso.org/standard/32574.html
+      ref: ISO 19156:2011
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: prosedur cerapan
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: prosedur cerapan
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: prosedur cerapan
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: f866d254-4ba4-5094-8979-59e703742995
 status: valid

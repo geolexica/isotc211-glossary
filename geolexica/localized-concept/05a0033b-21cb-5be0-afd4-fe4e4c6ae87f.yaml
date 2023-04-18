@@ -20,42 +20,16 @@ data:
           notes: []
           release: '2'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: Filterausdruck
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: Filterausdruck
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: Filterausdruck
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2010-10-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2010-10-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2010-10-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2010-10-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''in XML kodierter Ausdruck zur Selektion bestimmter
     Feature auf Grund ihrer Eigenschaften''}]'
   examples: []
@@ -64,35 +38,14 @@ data:
   notes: []
   release: '2'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/42137.html
-        ref: ISO 19143:2010
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/42137.html
+      ref: ISO 19143:2010
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: Filterausdruck
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: Filterausdruck
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: Filterausdruck
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 05a0033b-21cb-5be0-afd4-fe4e4c6ae87f
 status: valid

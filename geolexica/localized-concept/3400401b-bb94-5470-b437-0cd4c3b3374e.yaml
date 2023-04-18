@@ -30,42 +30,16 @@ data:
             from) to ISO 19135-1:2015, 4.1.5. Lineage source added as ISO/19135:2005
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: المعرِّف
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: المعرِّف
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: المعرِّف
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2005-10-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2005-10-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2005-10-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2005-10-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''تسلسل مستقل لغويا لحروف قادرة على تحديد فريد وبشكل
     دائم مع أي شيء هي مرتبطة''}]'
   examples: []
@@ -82,49 +56,18 @@ data:
     from) to ISO 19135-1:2015, 4.1.5. Lineage source added as ISO/19135:2005
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: 4.1.5
-        link: https://www.iso.org/standard/54721.html
-        ref: ISO 19135-1:2015
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO/19135:2005
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: 4.1.5
+      link: https://www.iso.org/standard/54721.html
+      ref: ISO 19135-1:2015
+    type: authoritative
+  - origin:
+      ref: ISO/19135:2005
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: المعرِّف
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: المعرِّف
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: المعرِّف
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 3400401b-bb94-5470-b437-0cd4c3b3374e
 status: valid

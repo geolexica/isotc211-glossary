@@ -24,103 +24,36 @@ data:
             during which, the attribute value applied
           release: '3'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: 속성 사건
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: 속성 사건
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: 속성 사건
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2012-02-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2012-02-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2012-02-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2012-02-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''지형지물의 일부에만 적용 될 수 있는 지형지물의 속성값''}]'
   examples: []
   id: 1169
   language_code: kor
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: An attribute event includes the linearly referenced location where
-        the attribute value applies along the attributed feature
-    state:
-      _dict:
-        content: An attribute event includes the linearly referenced location where
-          the attribute value applies along the attributed feature
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: An attribute event may be qualified by the instant in which, or period
-        during which, the attribute value applied
-    state:
-      _dict:
-        content: An attribute event may be qualified by the instant in which, or period
-          during which, the attribute value applied
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: An attribute event includes the linearly referenced location where the
+      attribute value applies along the attributed feature
+  - content: An attribute event may be qualified by the instant in which, or period
+      during which, the attribute value applied
   release: '3'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: '4.1'
-        link: https://www.iso.org/standard/32566.html
-        ref: ISO 19148:2012
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: '4.1'
+      link: https://www.iso.org/standard/32566.html
+      ref: ISO 19148:2012
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: 속성 사건
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: 속성 사건
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: 속성 사건
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: aea70f92-53a2-5515-aa39-8be697e6e464
 status: valid

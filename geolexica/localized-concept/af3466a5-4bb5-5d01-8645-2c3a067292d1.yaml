@@ -33,62 +33,25 @@ data:
           review_indicator: ''
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: avregistrering
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: avregistrering
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: avregistrering
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2005-10-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   country_code: swe
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2005-10-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2005-10-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2005-10-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''information om att objektet har upphört att gälla''}]'
   examples: []
   id: 509
   language_code: swe
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: The status of the retired item changes from 'valid' to 'retired'. A
-        retired item is kept in the register to support the interpretation of data
-        produced before its retirement.
-    state:
-      _dict:
-        content: The status of the retired item changes from 'valid' to 'retired'.
-          A retired item is kept in the register to support the interpretation of
-          data produced before its retirement.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: The status of the retired item changes from 'valid' to 'retired'. A retired
+      item is kept in the register to support the interpretation of data produced
+      before its retirement.
   release: '1'
   reviewDate: 2010-10-19
   reviewDecisionDate: 2015-10-01
@@ -99,49 +62,18 @@ data:
   review_indicator: ''
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: 4.1.14
-        link: https://www.iso.org/standard/54721.html
-        ref: ISO 19135-1:2015
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19135:2005
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: 4.1.14
+      link: https://www.iso.org/standard/54721.html
+      ref: ISO 19135-1:2015
+    type: authoritative
+  - origin:
+      ref: ISO 19135:2005
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: avregistrering
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: avregistrering
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: avregistrering
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: af3466a5-4bb5-5d01-8645-2c3a067292d1
 status: valid

@@ -24,42 +24,16 @@ data:
             to as a range image.
           release: '3'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: frame<LIDAR>
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: frame<LIDAR>
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: frame<LIDAR>
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2014-01-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2014-01-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2014-01-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2014-01-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''data collected by the receiver as a result of all
     returns from a single emitted pulse''}]'
   examples: []
@@ -67,63 +41,21 @@ data:
   language_code: eng
   lineage_source_similarity: 1
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: A complete 3D data sample of the world produced by a LIDAR taken at
-        a certain time, place, and orientation. A single LIDAR frame is also referred
-        to as a range image.
-    state:
-      _dict:
-        content: A complete 3D data sample of the world produced by a LIDAR taken
-          at a certain time, place, and orientation. A single LIDAR frame is also
-          referred to as a range image.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: A complete 3D data sample of the world produced by a LIDAR taken at a
+      certain time, place, and orientation. A single LIDAR frame is also referred
+      to as a range image.
   release: '3'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        ref: Adapted from NISTIR 7117
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO/TS 19130-2:2014, 4.22
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      ref: Adapted from NISTIR 7117
+    type: authoritative
+  - origin:
+      ref: ISO/TS 19130-2:2014, 4.22
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: frame<LIDAR>
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: frame<LIDAR>
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: frame<LIDAR>
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 13fa325b-b085-578a-a5ab-d3a2fc2d6e57
 status: valid

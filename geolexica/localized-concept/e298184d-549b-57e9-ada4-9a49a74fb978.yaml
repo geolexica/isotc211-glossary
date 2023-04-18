@@ -27,58 +27,23 @@ data:
           review_indicator: ''
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: 量测单位
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: 量测单位
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: 量测单位
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2004-07-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2004-07-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2004-07-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2004-07-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''选自一个等价组单位的参照量。''}]'
   examples: []
   id: 483
   language_code: zho
   lineage_source_similarity: 1
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: 在定位服务中，通常的量测单位是角度单位和长度单位。定位服务的实现必须清楚地区分SI单位和非SI单位。当使用非SI单位时，必须说明它与SI单位的关系。
-    state:
-      _dict:
-        content: 在定位服务中，通常的量测单位是角度单位和长度单位。定位服务的实现必须清楚地区分SI单位和非SI单位。当使用非SI单位时，必须说明它与SI单位的关系。
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: 在定位服务中，通常的量测单位是角度单位和长度单位。定位服务的实现必须清楚地区分SI单位和非SI单位。当使用非SI单位时，必须说明它与SI单位的关系。
   release: '1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02
@@ -89,34 +54,13 @@ data:
   review_indicator: ''
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        ref: ISO 19116:2004(E)
-      type: lineage
-    state:
-      _dict:
-        origin: *id001
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      ref: ISO 19116:2004(E)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: 量测单位
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: 量测单位
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: 量测单位
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: e298184d-549b-57e9-ada4-9a49a74fb978
 status: valid

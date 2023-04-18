@@ -31,42 +31,16 @@ data:
           review_indicator: ''
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: data transfer
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: data transfer
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: data transfer
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2005-07-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2005-07-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2005-07-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''movement of data from one point to another over a
     medium''}]'
   examples: []
@@ -74,16 +48,7 @@ data:
   language_code: eng
   lineage_source_similarity: 1
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Transfer of information implies transfer of data.
-    state:
-      _dict:
-        content: Transfer of information implies transfer of data.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Transfer of information implies transfer of data.
   release: '1'
   reviewDate: 2007-01-23
   reviewDecisionDate: 2011-10-15
@@ -94,49 +59,18 @@ data:
   review_indicator: ''
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: '4.10'
-        link: https://www.iso.org/standard/44212.html
-        ref: ISO 19118:2011
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19118:2005
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: '4.10'
+      link: https://www.iso.org/standard/44212.html
+      ref: ISO 19118:2011
+    type: authoritative
+  - origin:
+      ref: ISO 19118:2005
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: data transfer
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: data transfer
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: data transfer
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 75c4e5ef-1438-5568-a405-2efbcbf2102f
 status: valid

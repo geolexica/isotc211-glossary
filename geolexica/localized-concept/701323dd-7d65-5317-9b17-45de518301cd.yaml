@@ -34,75 +34,28 @@ data:
           review_status: final
           review_type: retirement
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: relativ lägesnoggrannhet
-              normative_status: null
-              type: expression
-            state:
-              _dict:
-                designation: relativ lägesnoggrannhet
-                normative_status: null
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: relativ lägesnoggrannhet
+            normative_status: null
+            type: expression
         parents: []
         timeCreated: '2004-07-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   country_code: swe
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2004-07-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2004-07-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2019-12-02T00:00:00.000Z'
-      type: amended
-    state:
-      _dict:
-        date: '2019-12-02T00:00:00.000Z'
-        type: amended
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2004-07-01T00:00:00.000Z'
+    type: accepted
+  - date: '2019-12-02T00:00:00.000Z'
+    type: amended
   definition: '[{''content'': ''lägesnoggrannhet hos ett objekt i förhållande till
     ett begränsat antal andra lägesbestämda objekt i den närmaste omgivningen''}]'
   examples: []
   id: 378
   language_code: swe
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Closely related terms such as local accuracy are employed in various
-        countries, agencies and application groups.  Where such terms are utilized,
-        it is necessary to provide a description of the term.
-    state:
-      _dict:
-        content: Closely related terms such as local accuracy are employed in various
-          countries, agencies and application groups.  Where such terms are utilized,
-          it is necessary to provide a description of the term.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Closely related terms such as local accuracy are employed in various
+      countries, agencies and application groups.  Where such terms are utilized,
+      it is necessary to provide a description of the term.
   release: '-1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02
@@ -114,33 +67,13 @@ data:
   review_status: final
   review_type: retirement
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/37805.html
-        ref: ISO 19116:2004
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/37805.html
+      ref: ISO 19116:2004
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: relativ lägesnoggrannhet
-      type: expression
-    state:
-      _dict:
-        designation: relativ lägesnoggrannhet
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: relativ lägesnoggrannhet
+    type: expression
+dateAccepted: 2018-11-17
 id: 701323dd-7d65-5317-9b17-45de518301cd
 status: retired

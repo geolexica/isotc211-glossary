@@ -26,42 +26,16 @@ data:
           review_status: pending
           review_type: supersession
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: geodezyjny układ odniesienia
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: geodezyjny układ odniesienia
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: geodezyjny układ odniesienia
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2007-07-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2007-07-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2007-07-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''układ odniesienia opisujący związek dwu lub trójwymiarowego
     układu współrzędnych z Ziemią''}]'
   examples: []
@@ -77,35 +51,14 @@ data:
   review_status: pending
   review_type: supersession
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/41126.html
-        ref: ISO 19111:2007
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/41126.html
+      ref: ISO 19111:2007
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: geodezyjny układ odniesienia
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: geodezyjny układ odniesienia
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: geodezyjny układ odniesienia
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 03b205da-b42c-5633-8c6f-19f373024e41
 status: valid

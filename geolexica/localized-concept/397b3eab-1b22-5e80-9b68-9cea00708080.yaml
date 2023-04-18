@@ -23,116 +23,39 @@ data:
           release: '1'
           review_indicator: ''
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: kenderaan
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: kenderaan
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: traveller
-              type: expression
-            state:
-              _dict:
-                designation: traveller
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: kenderaan
+            normative_status: preferred
+            type: expression
+          - designation: traveller
+            type: expression
         parents: []
         timeCreated: '2005-10-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2005-10-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2005-10-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2005-10-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''mesin, biasanya dengan roda dan enjin, digunakan untuk
     mengangkut orang atau barangan di darat''}]'
   examples: []
   id: 745
   language_code: msa
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Includes pedestrians. See ISO 14825. In this International Standard,
-        vehicle can be replaced by traveller without any change of intent.
-    state:
-      _dict:
-        content: Includes pedestrians. See ISO 14825. In this International Standard,
-          vehicle can be replaced by traveller without any change of intent.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Includes pedestrians. See ISO 14825. In this International Standard,
+      vehicle can be replaced by traveller without any change of intent.
   release: '1'
   review_indicator: ''
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/32551.html
-        ref: ISO 19133:2005
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/32551.html
+      ref: ISO 19133:2005
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: kenderaan
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: kenderaan
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: traveller
-      type: expression
-    state:
-      _dict:
-        designation: traveller
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: kenderaan
+    normative_status: preferred
+    type: expression
+  - designation: traveller
+    type: expression
+dateAccepted: 2018-11-17
 id: 397b3eab-1b22-5e80-9b68-9cea00708080
 status: valid

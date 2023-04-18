@@ -23,104 +23,37 @@ data:
             графическом отображении информации, интересующей сообщество.
           release: '3'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: набор символов
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: набор символов
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: набор символов
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2012-12-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2012-12-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2012-12-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2012-12-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''коллекция символов''}]'
   examples: []
   id: 1329
   language_code: rus
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Наборы символов, обычно, создаются для сообщества, заинтересованного
-        в графическом отображении информации, интересующей сообщество.
-    state:
-      _dict:
-        content: Наборы символов, обычно, создаются для сообщества, заинтересованного
-          в графическом отображении информации, интересующей сообщество.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Наборы символов, обычно, создаются для сообщества, заинтересованного
+      в графическом отображении информации, интересующей сообщество.
   release: '3'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: '4.35'
-        link: https://www.iso.org/standard/46226.html
-        ref: ISO 19117:2012
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: перевод ИСО 19117:2012,
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: '4.35'
+      link: https://www.iso.org/standard/46226.html
+      ref: ISO 19117:2012
+    type: authoritative
+  - origin:
+      ref: перевод ИСО 19117:2012,
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: набор символов
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: набор символов
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: набор символов
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: e572482b-0d7c-51a2-9b67-1bef1de75e24
 status: valid

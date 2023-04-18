@@ -22,42 +22,16 @@ data:
           notes: []
           release: '3'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: ссылка на символ
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: ссылка на символ
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: ссылка на символ
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2012-12-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2012-12-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2012-12-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2012-12-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''указатель в функции отображения объекта, который связывает
     тип объекта с определенным символом''}]'
   examples: []
@@ -66,49 +40,18 @@ data:
   notes: []
   release: '3'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: '4.34'
-        link: https://www.iso.org/standard/46226.html
-        ref: ISO 19117:2012
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: перевод ИСО 19117:2012,
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: '4.34'
+      link: https://www.iso.org/standard/46226.html
+      ref: ISO 19117:2012
+    type: authoritative
+  - origin:
+      ref: перевод ИСО 19117:2012,
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: ссылка на символ
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: ссылка на символ
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: ссылка на символ
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 8a41f213-f856-59e4-b130-03890239df13
 status: valid

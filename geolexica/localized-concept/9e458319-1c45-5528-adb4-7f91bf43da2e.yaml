@@ -29,54 +29,18 @@ data:
           review_status: final
           review_type: supersession
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: 데이텀
-              normative_status: null
-              type: expression
-            state:
-              _dict:
-                designation: 데이텀
-                normative_status: null
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: 데이텀
+            normative_status: null
+            type: expression
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2007-07-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2007-07-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2019-01-31T00:00:00.000Z'
-      type: amended
-    state:
-      _dict:
-        date: '2019-01-31T00:00:00.000Z'
-        type: amended
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2007-07-01T00:00:00.000Z'
+    type: accepted
+  - date: '2019-01-31T00:00:00.000Z'
+    type: amended
   definition: '[{''content'': ''좌표 체계의 기점, 축척, 방향을 정의하는 매개 변수 또는 매개 변수의 집합''}]'
   examples: []
   id: 704
@@ -92,33 +56,13 @@ data:
   review_status: final
   review_type: supersession
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/41126.html
-        ref: ISO 19111:2007
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/41126.html
+      ref: ISO 19111:2007
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: 데이텀
-      type: expression
-    state:
-      _dict:
-        designation: 데이텀
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: 데이텀
+    type: expression
+dateAccepted: 2018-11-17
 id: 9e458319-1c45-5528-adb4-7f91bf43da2e
 status: superseded

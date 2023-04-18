@@ -24,42 +24,16 @@ data:
           review_status: pending
           review_type: retirement
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: processus d'évaluation de conformité
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: processus d'évaluation de conformité
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: processus d'évaluation de conformité
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2000-12-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2000-12-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2000-12-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2000-12-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': "processus évaluant la conformité d''une implémentation
     d''une Norme Internationale"}]'
   examples: []
@@ -72,35 +46,14 @@ data:
   review_status: pending
   review_type: retirement
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/26010.html
-        ref: ISO 19105:2000
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/26010.html
+      ref: ISO 19105:2000
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: processus d'évaluation de conformité
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: processus d'évaluation de conformité
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: processus d'évaluation de conformité
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 889b1f34-ec02-5872-85e4-00ad66d0f248
 status: valid

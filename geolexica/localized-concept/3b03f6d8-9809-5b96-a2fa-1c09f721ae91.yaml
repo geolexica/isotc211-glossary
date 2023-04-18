@@ -29,61 +29,24 @@ data:
           review_decision_notes: Publication of document ISO 19147:2015(E)
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: accessibility information
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: accessibility information
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: accessibility information
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2015-06-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2015-06-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2015-06-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2015-06-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''information about accessibility issues''}]'
   examples: []
   id: 1489
   language_code: eng
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: According to the concept of universal design, accessibility information
-        should be addressed in a neutral way, i.e. not directed towards people with
-        specific disabilities.
-    state:
-      _dict:
-        content: According to the concept of universal design, accessibility information
-          should be addressed in a neutral way, i.e. not directed towards people with
-          specific disabilities.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: According to the concept of universal design, accessibility information
+      should be addressed in a neutral way, i.e. not directed towards people with
+      specific disabilities.
   release: '4'
   reviewDate: 2009-06-20
   reviewDecisionDate: 2015-06-15
@@ -92,36 +55,15 @@ data:
   review_decision_notes: Publication of document ISO 19147:2015(E)
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: '3.3'
-        link: https://www.iso.org/standard/44874.html
-        ref: ISO 19147:2015
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: '3.3'
+      link: https://www.iso.org/standard/44874.html
+      ref: ISO 19147:2015
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: accessibility information
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: accessibility information
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: accessibility information
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 3b03f6d8-9809-5b96-a2fa-1c09f721ae91
 status: valid

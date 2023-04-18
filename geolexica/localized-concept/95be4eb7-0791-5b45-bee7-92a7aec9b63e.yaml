@@ -34,90 +34,27 @@ data:
           review_status: final
           review_type: supersession
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: 연산 <UML>
-              normative_status: null
-              type: expression
-            state:
-              _dict:
-                designation: 연산 <UML>
-                normative_status: null
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: 연산 <UML>
+            normative_status: null
+            type: expression
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2005-07-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2005-07-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2015-07-01T00:00:00.000Z'
-      type: amended
-    state:
-      _dict:
-        date: '2015-07-01T00:00:00.000Z'
-        type: amended
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2005-07-15T00:00:00.000Z'
+    type: accepted
+  - date: '2015-07-01T00:00:00.000Z'
+    type: amended
   definition: '[{''content'': ''행태에 영향을 주기 위하여 객체로 부터 요청될 수 있는 서비스''}]'
   examples: []
   id: 319
   language_code: kor
   lineage_source_similarity: 1
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: 연산은 가능한 실제 매개 변수를 제약할 수 있는 서명을 갖는다.
-    state:
-      _dict:
-        content: 연산은 가능한 실제 매개 변수를 제약할 수 있는 서명을 갖는다.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: 'UML 참조 매뉴얼에서의 정의: 객체 실행을 호출할 수 있는 변환 및 질의 사양'
-    state:
-      _dict:
-        content: 'UML 참조 매뉴얼에서의 정의: 객체 실행을 호출할 수 있는 변환 및 질의 사양'
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: 연산은 이름과 매개 변수의 목록을 갖는다. 방법은 연산을 구현하는 절차이며, 알고리듬 또는 절차 설명을 갖는다.
-    state:
-      _dict:
-        content: 연산은 이름과 매개 변수의 목록을 갖는다. 방법은 연산을 구현하는 절차이며, 알고리듬 또는 절차 설명을 갖는다.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: 연산은 가능한 실제 매개 변수를 제약할 수 있는 서명을 갖는다.
+  - content: 'UML 참조 매뉴얼에서의 정의: 객체 실행을 호출할 수 있는 변환 및 질의 사양'
+  - content: 연산은 이름과 매개 변수의 목록을 갖는다. 방법은 연산을 구현하는 절차이며, 알고리듬 또는 절차 설명을 갖는다.
   release: '-1'
   reviewDate: 2009-01-14
   reviewDecisionDate: 2015-12-01
@@ -129,46 +66,16 @@ data:
   review_status: final
   review_type: supersession
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/32620.html
-        ref: ISO/IEC 19501
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO/TS 19103:2005 ,4.2.21
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/32620.html
+      ref: ISO/IEC 19501
+    type: authoritative
+  - origin:
+      ref: ISO/TS 19103:2005 ,4.2.21
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: 연산 <UML>
-      type: expression
-    state:
-      _dict:
-        designation: 연산 <UML>
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: 연산 <UML>
+    type: expression
+dateAccepted: 2018-11-17
 id: 95be4eb7-0791-5b45-bee7-92a7aec9b63e
 status: superseded

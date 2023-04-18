@@ -27,57 +27,22 @@ data:
             (Adapted from) to UML 1. Lineage source added as ISO/TS 19103:2005
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: 类型<UML>
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: 类型<UML>
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: 类型<UML>
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2005-07-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2005-07-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2005-07-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''类的一种构造型，用于规定对象的域，以及可应用于这些对象的操作，但不定义这些对象的物理实现。''}]'
   examples: []
   id: 728
   language_code: zho
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: 类型可有属性和关联。
-    state:
-      _dict:
-        content: 类型可有属性和关联。
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: 类型可有属性和关联。
   release: '1'
   reviewDate: 2009-01-14
   reviewDecisionDate: 2015-12-01
@@ -87,47 +52,16 @@ data:
     from) to UML 1. Lineage source added as ISO/TS 19103:2005
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        ref: UML 1
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO/TS 19103:2005
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      ref: UML 1
+    type: authoritative
+  - origin:
+      ref: ISO/TS 19103:2005
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: 类型<UML>
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: 类型<UML>
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: 类型<UML>
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 8dd2510a-61c6-58bd-b8e7-977f192088c6
 status: valid

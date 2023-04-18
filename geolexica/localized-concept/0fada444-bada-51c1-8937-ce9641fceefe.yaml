@@ -34,64 +34,26 @@ data:
           review_indicator: ''
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: powierzchnia
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: powierzchnia
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: powierzchnia
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2003-05-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2003-05-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2003-05-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''2-wymiarowy prosty element geometryczny, lokalnie
     reprzentujący ciągły obraz części płaszczyzny''}]'
   examples: []
   id: 437
   language_code: pol
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Granicą powierzchni jest zbiór zorientowanych krzywych zamkniętych,
-        które wyznaczają zasięg tej powierzchni.Powierzchnie izomorficzne względem
-        sfery lub n-torusa (sfery topologicznej z n "uchwytami") nie mają granicy.
-        Takie powierzchnie są nazywane cyklami.
-    state:
-      _dict:
-        content: Granicą powierzchni jest zbiór zorientowanych krzywych zamkniętych,
-          które wyznaczają zasięg tej powierzchni.Powierzchnie izomorficzne względem
-          sfery lub n-torusa (sfery topologicznej z n "uchwytami") nie mają granicy.
-          Takie powierzchnie są nazywane cyklami.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Granicą powierzchni jest zbiór zorientowanych krzywych zamkniętych, które
+      wyznaczają zasięg tej powierzchni.Powierzchnie izomorficzne względem sfery lub
+      n-torusa (sfery topologicznej z n "uchwytami") nie mają granicy. Takie powierzchnie
+      są nazywane cyklami.
   release: '1'
   reviewDate: 2018-06-08
   reviewDecisionDate: 2020-01-09
@@ -102,49 +64,18 @@ data:
   review_indicator: ''
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: (E), 3.1.57
-        link: https://www.iso.org/standard/75676.html
-        ref: ISO 19136-1:2020
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19107:2003
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: (E), 3.1.57
+      link: https://www.iso.org/standard/75676.html
+      ref: ISO 19136-1:2020
+    type: authoritative
+  - origin:
+      ref: ISO 19107:2003
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: powierzchnia
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: powierzchnia
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: powierzchnia
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 0fada444-bada-51c1-8937-ce9641fceefe
 status: valid

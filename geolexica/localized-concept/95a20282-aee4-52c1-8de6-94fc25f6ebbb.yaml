@@ -33,62 +33,25 @@ data:
           review_indicator: ''
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: إخراج من الخدمة
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: إخراج من الخدمة
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: إخراج من الخدمة
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2005-10-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2005-10-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2005-10-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2005-10-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''إعلان أن بندا معيناً في السجل لم يعد مناسبا للاستخدام
     في إنتاج بيانات جديدة''}]'
   examples: []
   id: 509
   language_code: ara
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: تتغير وضعية البند "المخرج من الخدمة" من بند "فعال" إلى بند "مخرج من
-        الخدمة" ويتم الاحتفاظ بالبند المخرج من الخدمة في السجل للمساعدة على تفسير
-        البيانات المنتجة قبل خروجه من الخدمة.
-    state:
-      _dict:
-        content: تتغير وضعية البند "المخرج من الخدمة" من بند "فعال" إلى بند "مخرج
-          من الخدمة" ويتم الاحتفاظ بالبند المخرج من الخدمة في السجل للمساعدة على تفسير
-          البيانات المنتجة قبل خروجه من الخدمة.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: تتغير وضعية البند "المخرج من الخدمة" من بند "فعال" إلى بند "مخرج من الخدمة"
+      ويتم الاحتفاظ بالبند المخرج من الخدمة في السجل للمساعدة على تفسير البيانات المنتجة
+      قبل خروجه من الخدمة.
   release: '1'
   reviewDate: 2010-10-19
   reviewDecisionDate: 2015-10-01
@@ -99,49 +62,18 @@ data:
   review_indicator: ''
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: 4.1.14
-        link: https://www.iso.org/standard/54721.html
-        ref: ISO 19135-1:2015
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19135:2005
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: 4.1.14
+      link: https://www.iso.org/standard/54721.html
+      ref: ISO 19135-1:2015
+    type: authoritative
+  - origin:
+      ref: ISO 19135:2005
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: إخراج من الخدمة
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: إخراج من الخدمة
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: إخراج من الخدمة
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 95a20282-aee4-52c1-8de6-94fc25f6ebbb
 status: valid

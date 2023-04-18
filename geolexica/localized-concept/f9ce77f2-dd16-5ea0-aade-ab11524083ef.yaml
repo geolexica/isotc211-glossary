@@ -23,104 +23,37 @@ data:
             de licencias.
           release: '3'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: entidad adjudicataria
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: entidad adjudicataria
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: entidad adjudicataria
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2014-02-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2014-02-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2014-02-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2014-02-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''el que otorga una licencia''}]'
   examples: []
   id: 1237
   language_code: spa
   lineage_source_similarity: 1
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: El licenciador es o bien un propietario de contenidos o bien un agente
-        de licencias.
-    state:
-      _dict:
-        content: El licenciador es o bien un propietario de contenidos o bien un agente
-          de licencias.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: El licenciador es o bien un propietario de contenidos o bien un agente
+      de licencias.
   release: '3'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: modified
-        ref: FindLaw
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19153:2014, 4.31
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: modified
+      ref: FindLaw
+    type: authoritative
+  - origin:
+      ref: ISO 19153:2014, 4.31
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: entidad adjudicataria
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: entidad adjudicataria
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: entidad adjudicataria
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: f9ce77f2-dd16-5ea0-aade-ab11524083ef
 status: valid

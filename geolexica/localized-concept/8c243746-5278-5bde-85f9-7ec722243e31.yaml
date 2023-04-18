@@ -37,42 +37,16 @@ data:
             to ISO 19101-2:2018(E), 3.14. Lineage source added as ISO/TS 19101-2:2008(E)
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: изображения
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: изображения
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: изображения
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2008-06-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2008-06-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2008-06-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2008-06-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''представление явлений в виде изображений, выполненное
     электронными и/или оптическими методами''}]'
   examples: []
@@ -80,28 +54,13 @@ data:
   language_code: rus
   lineage_source_similarity: 1
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: 'In this Technical Specification, it is assumed that the phenomena
-        have been sensed or detected by one or more devices such as radar, cameras,
-        photometers, and infrared and multispectral scanners
+  - content: 'In this Technical Specification, it is assumed that the phenomena have
+      been sensed or detected by one or more devices such as radar, cameras, photometers,
+      and infrared and multispectral scanners
 
-        : в настоящей технической спецификации предполагается, что эти явления были
-        обнаружены  одним или несколькими устройствами, такими, как радар, камеры,
-        фотометры и инфракрасные и мультиспектральные сканеры'
-    state:
-      _dict:
-        content: 'In this Technical Specification, it is assumed that the phenomena
-          have been sensed or detected by one or more devices such as radar, cameras,
-          photometers, and infrared and multispectral scanners
-
-          : в настоящей технической спецификации предполагается, что эти явления были
-          обнаружены  одним или несколькими устройствами, такими, как радар, камеры,
-          фотометры и инфракрасные и мультиспектральные сканеры'
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+      : в настоящей технической спецификации предполагается, что эти явления были
+      обнаружены  одним или несколькими устройствами, такими, как радар, камеры, фотометры
+      и инфракрасные и мультиспектральные сканеры'
   release: '2'
   reviewDate: 2018-05-01
   reviewDecisionDate: 2018-05-01
@@ -111,49 +70,18 @@ data:
     to ISO 19101-2:2018(E), 3.14. Lineage source added as ISO/TS 19101-2:2008(E)
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: (E), 3.14
-        link: https://www.iso.org/standard/69325.html
-        ref: ISO 19101-2:2018
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO/TS 19101-2:2008(E)
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: (E), 3.14
+      link: https://www.iso.org/standard/69325.html
+      ref: ISO 19101-2:2018
+    type: authoritative
+  - origin:
+      ref: ISO/TS 19101-2:2008(E)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: изображения
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: изображения
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: изображения
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 8c243746-5278-5bde-85f9-7ec722243e31
 status: valid

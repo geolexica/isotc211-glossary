@@ -22,115 +22,38 @@ data:
           release: '1'
           review_indicator: ''
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: vehículo
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: vehículo
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: viajero
-              type: expression
-            state:
-              _dict:
-                designation: viajero
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: vehículo
+            normative_status: preferred
+            type: expression
+          - designation: viajero
+            type: expression
         parents: []
         timeCreated: '2005-10-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2005-10-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2005-10-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2005-10-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''objeto sujeto a navegación o seguimiento''}]'
   examples: []
   id: 745
   language_code: spa
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Incluye a peatones. Véase la Norma ISO 14825. En esta norma internacional,
-        vehículo se puede sustituir por viajero sin ningún cambio de sentido
-    state:
-      _dict:
-        content: Incluye a peatones. Véase la Norma ISO 14825. En esta norma internacional,
-          vehículo se puede sustituir por viajero sin ningún cambio de sentido
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Incluye a peatones. Véase la Norma ISO 14825. En esta norma internacional,
+      vehículo se puede sustituir por viajero sin ningún cambio de sentido
   release: '1'
   review_indicator: ''
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/32551.html
-        ref: ISO 19133:2005
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/32551.html
+      ref: ISO 19133:2005
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: vehículo
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: vehículo
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: viajero
-      type: expression
-    state:
-      _dict:
-        designation: viajero
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: vehículo
+    normative_status: preferred
+    type: expression
+  - designation: viajero
+    type: expression
+dateAccepted: 2018-11-17
 id: 2de6618a-5288-5432-8c04-668080ddad68
 status: valid

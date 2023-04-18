@@ -32,54 +32,18 @@ data:
           review_status: final
           review_type: supersession
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: composant <UML>
-              normative_status: null
-              type: expression
-            state:
-              _dict:
-                designation: composant <UML>
-                normative_status: null
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: composant <UML>
+            normative_status: null
+            type: expression
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2005-07-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2005-07-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2015-12-01T00:00:00.000Z'
-      type: amended
-    state:
-      _dict:
-        date: '2015-12-01T00:00:00.000Z'
-        type: amended
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2005-07-15T00:00:00.000Z'
+    type: accepted
+  - date: '2015-12-01T00:00:00.000Z'
+    type: amended
   definition: '[{''content'': "élément modulaire, déployable et remplaçable d''un
     système qui encapsule l''implémentation et expose un ensemble d''interfaces"}]'
   examples: []
@@ -98,46 +62,16 @@ data:
   review_status: final
   review_type: supersession
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/32620.html
-        ref: ISO/IEC 19501
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO/TS 19103:2005 ,4.2.9
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/32620.html
+      ref: ISO/IEC 19501
+    type: authoritative
+  - origin:
+      ref: ISO/TS 19103:2005 ,4.2.9
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: composant <UML>
-      type: expression
-    state:
-      _dict:
-        designation: composant <UML>
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: composant <UML>
+    type: expression
+dateAccepted: 2018-11-17
 id: 407550b4-8cb6-50bf-8c11-eff922f2a14f
 status: superseded

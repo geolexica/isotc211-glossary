@@ -31,58 +31,23 @@ data:
           review_indicator: ''
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: 메타데이터 섹션
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: 메타데이터 섹션
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: 메타데이터 섹션
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2008-12-30T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2008-12-30T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2008-12-30T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2008-12-30T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''관련된 메터데이터 개체와 메타데이터 요소의 모음으로 구성된 메터데이터의 하위 집합''}]'
   examples: []
   id: 293
   language_code: kor
   lineage_source_similarity: 1
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: UML 용어에서 패키지에 대응되는 용어이다.
-    state:
-      _dict:
-        content: UML 용어에서 패키지에 대응되는 용어이다.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: UML 용어에서 패키지에 대응되는 용어이다.
   release: '1'
   reviewDate: 2011-01-01
   reviewDecisionDate: 2014-04-01
@@ -93,49 +58,18 @@ data:
   review_indicator: ''
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: '4.13'
-        link: https://www.iso.org/standard/53798.html
-        ref: ISO 19115-1:2014
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19115:2003
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: '4.13'
+      link: https://www.iso.org/standard/53798.html
+      ref: ISO 19115-1:2014
+    type: authoritative
+  - origin:
+      ref: ISO 19115:2003
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: 메타데이터 섹션
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: 메타데이터 섹션
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: 메타데이터 섹션
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 53f131bf-bebf-5fbe-b018-84df89a51354
 status: valid

@@ -21,90 +21,34 @@ data:
           - Generally referring to an airborne LIDAR system
           release: '3'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: topographic LIDAR
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: topographic LIDAR
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: topographic LIDAR
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2014-01-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2014-01-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2014-01-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2014-01-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''LIDAR system used to measure the topography of the
     ground surface''}]'
   examples: []
   id: 1427
   language_code: eng
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Generally referring to an airborne LIDAR system
-    state:
-      _dict:
-        content: Generally referring to an airborne LIDAR system
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Generally referring to an airborne LIDAR system
   release: '3'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: '4.80'
-        link: https://www.iso.org/standard/56113.html
-        ref: ISO/TS 19130-2:2014
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: '4.80'
+      link: https://www.iso.org/standard/56113.html
+      ref: ISO/TS 19130-2:2014
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: topographic LIDAR
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: topographic LIDAR
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: topographic LIDAR
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 9e0b1085-d888-5de2-abda-a568235b0081
 status: valid

@@ -30,70 +30,24 @@ data:
           review_status: final
           review_type: retirement
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: Kurvenabschnitt
-              normative_status: null
-              type: expression
-            state:
-              _dict:
-                designation: Kurvenabschnitt
-                normative_status: null
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: Kurvenabschnitt
+            normative_status: null
+            type: expression
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2003-05-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2003-05-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2019-12-02T00:00:00.000Z'
-      type: amended
-    state:
-      _dict:
-        date: '2019-12-02T00:00:00.000Z'
-        type: amended
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2003-05-01T00:00:00.000Z'
+    type: accepted
+  - date: '2019-12-02T00:00:00.000Z'
+    type: amended
   examples: []
   id: 102
   language_code: deu
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: The geometric set represented by a single curve segment is equivalent
-        to a curve.
-    state:
-      _dict:
-        content: The geometric set represented by a single curve segment is equivalent
-          to a curve.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: The geometric set represented by a single curve segment is equivalent
+      to a curve.
   release: '-1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02
@@ -105,33 +59,13 @@ data:
   review_status: final
   review_type: retirement
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/26012.html
-        ref: ISO 19107:2003
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/26012.html
+      ref: ISO 19107:2003
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: Kurvenabschnitt
-      type: expression
-    state:
-      _dict:
-        designation: Kurvenabschnitt
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: Kurvenabschnitt
+    type: expression
+dateAccepted: 2018-11-17
 id: 05064d26-56eb-57cf-8f84-83d127d2eae3
 status: retired

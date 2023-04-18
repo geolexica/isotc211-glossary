@@ -29,42 +29,16 @@ data:
             ISO 80000-7:2008, 7-6. Lineage source added as ISO/TS 19101-2:2008(E)
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: tenaga sinaran
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: tenaga sinaran
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: tenaga sinaran
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2008-06-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2008-06-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2008-06-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2008-06-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''tenaga yang dipancar, pindah atau terima sebagai radiasi''}]'
   examples: []
   id: 572
@@ -80,49 +54,18 @@ data:
     7-6. Lineage source added as ISO/TS 19101-2:2008(E)
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: 7-6
-        link: https://www.iso.org/standard/31892.html
-        ref: ISO 80000-7:2008
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO/TS 19101-2:2008(E)
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: 7-6
+      link: https://www.iso.org/standard/31892.html
+      ref: ISO 80000-7:2008
+    type: authoritative
+  - origin:
+      ref: ISO/TS 19101-2:2008(E)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: tenaga sinaran
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: tenaga sinaran
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: tenaga sinaran
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 5635e80a-3305-5fd2-84bf-e34c7ad03f7b
 status: valid

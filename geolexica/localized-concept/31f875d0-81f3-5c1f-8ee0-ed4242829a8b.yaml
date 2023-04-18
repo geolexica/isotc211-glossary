@@ -32,54 +32,18 @@ data:
           review_status: final
           review_type: supersession
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: 메타데이터
-              normative_status: null
-              type: expression
-            state:
-              _dict:
-                designation: 메타데이터
-                normative_status: null
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: 메타데이터
+            normative_status: null
+            type: expression
         parents: []
         timeCreated: '2008-12-30T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2008-12-30T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2008-12-30T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2014-04-01T00:00:00.000Z'
-      type: amended
-    state:
-      _dict:
-        date: '2014-04-01T00:00:00.000Z'
-        type: amended
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2008-12-30T00:00:00.000Z'
+    type: accepted
+  - date: '2014-04-01T00:00:00.000Z'
+    type: amended
   definition: '[{''content'': ''데이터에 관한 데이터''}]'
   examples: []
   id: 289
@@ -97,47 +61,17 @@ data:
   review_status: final
   review_type: supersession
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: '4.5'
-        link: https://www.iso.org/standard/26020.html
-        ref: ISO 19115:2003
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19113
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: '4.5'
+      link: https://www.iso.org/standard/26020.html
+      ref: ISO 19115:2003
+    type: authoritative
+  - origin:
+      ref: ISO 19113
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: 메타데이터
-      type: expression
-    state:
-      _dict:
-        designation: 메타데이터
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: 메타데이터
+    type: expression
+dateAccepted: 2018-11-17
 id: 31f875d0-81f3-5c1f-8ee0-ed4242829a8b
 status: superseded

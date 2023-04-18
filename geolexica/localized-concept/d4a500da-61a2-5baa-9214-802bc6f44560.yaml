@@ -22,43 +22,17 @@ data:
           release: '1'
           review_indicator: ''
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: klient
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: klient
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: klient
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2005-12-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   country_code: swe
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2005-12-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2005-12-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2005-12-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''program som kan begära en tjänst från en server''}]'
   examples: []
   id: 45
@@ -67,48 +41,17 @@ data:
   release: '1'
   review_indicator: ''
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/32546.html
-        ref: ISO 19128:2005
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: (Type reference to national language document)
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/32546.html
+      ref: ISO 19128:2005
+    type: authoritative
+  - origin:
+      ref: (Type reference to national language document)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: klient
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: klient
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: klient
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: d4a500da-61a2-5baa-9214-802bc6f44560
 status: valid

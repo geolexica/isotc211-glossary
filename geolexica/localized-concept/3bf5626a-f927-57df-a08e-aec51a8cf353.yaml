@@ -29,42 +29,16 @@ data:
             (Adapted from) to UML 1. Lineage source added as ISO/TS 19103:2005
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: tyyppi <UML>
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: tyyppi <UML>
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: tyyppi <UML>
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2005-07-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2005-07-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2005-07-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''stereotyypitetty luokka, joka määrittelee objektijoukon
     sekä objekteihin sovellettavissa olevat operaatiot, mutta ei objektien fyysistä
     toteutusta''}]'
@@ -72,16 +46,7 @@ data:
   id: 728
   language_code: fin
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Tyypillä voi olla attribuutteja ja assosiaatioita.
-    state:
-      _dict:
-        content: Tyypillä voi olla attribuutteja ja assosiaatioita.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Tyypillä voi olla attribuutteja ja assosiaatioita.
   release: '1'
   reviewDate: 2009-01-14
   reviewDecisionDate: 2015-12-01
@@ -91,47 +56,16 @@ data:
     from) to UML 1. Lineage source added as ISO/TS 19103:2005
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        ref: UML 1
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO/TS 19103:2005
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      ref: UML 1
+    type: authoritative
+  - origin:
+      ref: ISO/TS 19103:2005
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: tyyppi <UML>
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: tyyppi <UML>
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: tyyppi <UML>
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 3bf5626a-f927-57df-a08e-aec51a8cf353
 status: valid

@@ -35,54 +35,18 @@ data:
           review_status: final
           review_type: supersession
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: مكوِّن <UML>
-              normative_status: null
-              type: expression
-            state:
-              _dict:
-                designation: مكوِّن <UML>
-                normative_status: null
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: مكوِّن <UML>
+            normative_status: null
+            type: expression
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2005-07-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2005-07-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2015-12-01T00:00:00.000Z'
-      type: amended
-    state:
-      _dict:
-        date: '2015-12-01T00:00:00.000Z'
-        type: amended
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2005-07-15T00:00:00.000Z'
+    type: accepted
+  - date: '2015-12-01T00:00:00.000Z'
+    type: amended
   definition: '[{''content'': ''جزء من نظام قابل للاستعمال والاستبدال ويغلق عملية
     التنفيذ ويعض مجموعة من الواجهات التطبيقية''}]'
   examples: []
@@ -90,20 +54,9 @@ data:
   language_code: ara
   lineage_source_similarity: 1
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: المكون يمثل جزءاً ملموساً من تنفيذ نظام ما بما في ذلك شفرة البرنامج
-        (سواء كانت مصدرية أو ثنائية أو قابلة للتنفيذ) أو ما يعادلها مثل النصوص الكتابية
-        أو ملفات الأوامر.
-    state:
-      _dict:
-        content: المكون يمثل جزءاً ملموساً من تنفيذ نظام ما بما في ذلك شفرة البرنامج
-          (سواء كانت مصدرية أو ثنائية أو قابلة للتنفيذ) أو ما يعادلها مثل النصوص الكتابية
-          أو ملفات الأوامر.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: المكون يمثل جزءاً ملموساً من تنفيذ نظام ما بما في ذلك شفرة البرنامج (سواء
+      كانت مصدرية أو ثنائية أو قابلة للتنفيذ) أو ما يعادلها مثل النصوص الكتابية أو
+      ملفات الأوامر.
   release: '-1'
   reviewDate: 2009-01-14
   reviewDecisionDate: 2015-12-01
@@ -115,46 +68,16 @@ data:
   review_status: final
   review_type: supersession
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/32620.html
-        ref: ISO/IEC 19501
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO/TS 19103:2005 ,4.2.9
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/32620.html
+      ref: ISO/IEC 19501
+    type: authoritative
+  - origin:
+      ref: ISO/TS 19103:2005 ,4.2.9
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: مكوِّن <UML>
-      type: expression
-    state:
-      _dict:
-        designation: مكوِّن <UML>
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: مكوِّن <UML>
+    type: expression
+dateAccepted: 2018-11-17
 id: 9b1de844-c22a-5475-b831-4895e53c3b4a
 status: superseded

@@ -31,54 +31,18 @@ data:
           review_status: final
           review_type: retirement
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: إجراءات تقييم جودة البيانات
-              normative_status: null
-              type: expression
-            state:
-              _dict:
-                designation: إجراءات تقييم جودة البيانات
-                normative_status: null
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: إجراءات تقييم جودة البيانات
+            normative_status: null
+            type: expression
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2002-12-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2002-12-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2013-12-15T00:00:00.000Z'
-      type: amended
-    state:
-      _dict:
-        date: '2013-12-15T00:00:00.000Z'
-        type: amended
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2002-12-01T00:00:00.000Z'
+    type: accepted
+  - date: '2013-12-15T00:00:00.000Z'
+    type: amended
   definition: '[{''content'': ''عملية (أو عمليات) تستخدم في تطبيق طرق تقييم الجودة
     ونتائجها والإبلاغ عن ذلك''}]'
   examples: []
@@ -96,34 +60,14 @@ data:
   review_status: final
   review_type: retirement
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: '4.6'
-        link: https://www.iso.org/standard/26018.html
-        ref: ISO 19113:2002
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: '4.6'
+      link: https://www.iso.org/standard/26018.html
+      ref: ISO 19113:2002
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: إجراءات تقييم جودة البيانات
-      type: expression
-    state:
-      _dict:
-        designation: إجراءات تقييم جودة البيانات
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: إجراءات تقييم جودة البيانات
+    type: expression
+dateAccepted: 2018-11-17
 id: 5de1f067-2309-5f4e-92d3-53493c4d4133
 status: retired

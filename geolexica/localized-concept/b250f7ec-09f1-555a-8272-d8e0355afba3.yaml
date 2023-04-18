@@ -37,42 +37,16 @@ data:
           review_status: final
           review_type: supersession
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: geometric dimension <geometry, topology>
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: geometric dimension <geometry, topology>
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: geometric dimension <geometry, topology>
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2019-12-02T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2019-12-02T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2019-12-02T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2019-12-02T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''largest number n such that each point in a set of
     points can be associated with a subset that has that point in its interior and
     is topologically isomorphic to 𝔼n, Euclidean n-space''}]'
@@ -80,28 +54,13 @@ data:
   id: 2163
   language_code: eng
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Curves, because they are continuous images of a portion of the real
-        line, have geometric dimension 1. Surfaces cannot always be mapped to `RR^2`
-        in their entirety, but around each point position, a small neighborhood can
-        be found that resembles (under continuous functions) the interior of the unit
-        circle in `RR^2`, and are therefore 2-dimensional. In this document, most
-        surfaces (instances of Surface) are mapped to portions of `RR^2` by their
-        defining interpolation mechanisms.
-    state:
-      _dict:
-        content: Curves, because they are continuous images of a portion of the real
-          line, have geometric dimension 1. Surfaces cannot always be mapped to `RR^2`
-          in their entirety, but around each point position, a small neighborhood
-          can be found that resembles (under continuous functions) the interior of
-          the unit circle in `RR^2`, and are therefore 2-dimensional. In this document,
-          most surfaces (instances of Surface) are mapped to portions of `RR^2` by
-          their defining interpolation mechanisms.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Curves, because they are continuous images of a portion of the real line,
+      have geometric dimension 1. Surfaces cannot always be mapped to `RR^2` in their
+      entirety, but around each point position, a small neighborhood can be found
+      that resembles (under continuous functions) the interior of the unit circle
+      in `RR^2`, and are therefore 2-dimensional. In this document, most surfaces
+      (instances of Surface) are mapped to portions of `RR^2` by their defining interpolation
+      mechanisms.
   release: '5'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02
@@ -112,36 +71,15 @@ data:
   review_status: final
   review_type: supersession
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: (E), 3.48
-        link: https://www.iso.org/standard/66175.html
-        ref: ISO 19107:2019
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: (E), 3.48
+      link: https://www.iso.org/standard/66175.html
+      ref: ISO 19107:2019
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: geometric dimension <geometry, topology>
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: geometric dimension <geometry, topology>
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: geometric dimension <geometry, topology>
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: b250f7ec-09f1-555a-8272-d8e0355afba3
 status: valid

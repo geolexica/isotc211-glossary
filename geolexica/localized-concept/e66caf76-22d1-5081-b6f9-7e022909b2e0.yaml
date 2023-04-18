@@ -32,70 +32,25 @@ data:
           review_status: final
           review_type: supersession
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: 坐标操作
-              normative_status: null
-              type: expression
-            state:
-              _dict:
-                designation: 坐标操作
-                normative_status: null
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: 坐标操作
+            normative_status: null
+            type: expression
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2003-02-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2003-02-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2019-01-31T00:00:00.000Z'
-      type: amended
-    state:
-      _dict:
-        date: '2019-01-31T00:00:00.000Z'
-        type: amended
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2003-02-15T00:00:00.000Z'
+    type: accepted
+  - date: '2019-01-31T00:00:00.000Z'
+    type: amended
   definition: '[{''content'': ''从一个坐标参照系到另一个参照坐标系一一对应的坐标改变。''}]'
   examples: []
   id: 91
   language_code: zho
   lineage_source_similarity: 1
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: 坐标变换和坐标转换的父类型。
-    state:
-      _dict:
-        content: 坐标变换和坐标转换的父类型。
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: 坐标变换和坐标转换的父类型。
   release: '-1'
   reviewDate: 2019-01-31
   reviewDecisionDate: 2019-01-31
@@ -107,46 +62,16 @@ data:
   review_status: final
   review_type: supersession
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/41126.html
-        ref: ISO 19111:2007
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19111:2003
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/41126.html
+      ref: ISO 19111:2007
+    type: authoritative
+  - origin:
+      ref: ISO 19111:2003
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: 坐标操作
-      type: expression
-    state:
-      _dict:
-        designation: 坐标操作
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: 坐标操作
+    type: expression
+dateAccepted: 2018-11-17
 id: e66caf76-22d1-5081-b6f9-7e022909b2e0
 status: superseded

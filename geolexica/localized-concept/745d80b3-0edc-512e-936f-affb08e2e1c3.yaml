@@ -22,102 +22,36 @@ data:
           - лицензиар является владельцем контента или лицензионным агентом.
           release: '3'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: лицензиар
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: лицензиар
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: лицензиар
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2014-02-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2014-02-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2014-02-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2014-02-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''тот, кто выдает лицензию''}]'
   examples: []
   id: 1237
   language_code: rus
   lineage_source_similarity: 1
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: лицензиар является владельцем контента или лицензионным агентом.
-    state:
-      _dict:
-        content: лицензиар является владельцем контента или лицензионным агентом.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: лицензиар является владельцем контента или лицензионным агентом.
   release: '3'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: modified
-        ref: FindLaw
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19153:2014, 4.31
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: modified
+      ref: FindLaw
+    type: authoritative
+  - origin:
+      ref: ISO 19153:2014, 4.31
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: лицензиар
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: лицензиар
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: лицензиар
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 745d80b3-0edc-512e-936f-affb08e2e1c3
 status: valid

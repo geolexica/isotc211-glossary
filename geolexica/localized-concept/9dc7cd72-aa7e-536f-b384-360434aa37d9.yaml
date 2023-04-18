@@ -26,117 +26,40 @@ data:
             или периоду (4.20), в течение которого применялось значение атрибута.
           release: '3'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: атрибутивное событие
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: атрибутивное событие
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: атрибутивное событие
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2012-02-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2012-02-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2012-02-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2012-02-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''значение атрибута объекта, которое может относиться
     только к части объекта''}]'
   examples: []
   id: 1169
   language_code: rus
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Событие атрибута включает участок с линейной привязкой, где значение
-        атрибута распространяется только на объект с атрибутом .
-    state:
-      _dict:
-        content: Событие атрибута включает участок с линейной привязкой, где значение
-          атрибута распространяется только на объект с атрибутом .
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Событие атрибута можно квалифицировать по моменту (4.8), при котором,
-        или периоду (4.20), в течение которого применялось значение атрибута.
-    state:
-      _dict:
-        content: Событие атрибута можно квалифицировать по моменту (4.8), при котором,
-          или периоду (4.20), в течение которого применялось значение атрибута.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Событие атрибута включает участок с линейной привязкой, где значение
+      атрибута распространяется только на объект с атрибутом .
+  - content: Событие атрибута можно квалифицировать по моменту (4.8), при котором,
+      или периоду (4.20), в течение которого применялось значение атрибута.
   release: '3'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: '4.1'
-        link: https://www.iso.org/standard/32566.html
-        ref: ISO 19148:2012
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19148:2012
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: '4.1'
+      link: https://www.iso.org/standard/32566.html
+      ref: ISO 19148:2012
+    type: authoritative
+  - origin:
+      ref: ISO 19148:2012
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: атрибутивное событие
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: атрибутивное событие
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: атрибутивное событие
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 9dc7cd72-aa7e-536f-b384-360434aa37d9
 status: valid

@@ -30,59 +30,23 @@ data:
             to ISO 1087-1:2000, 3.2.7. Lineage source added as ISO 19146:2010(E)
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: einschränkendes Merkmal
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: einschränkendes Merkmal
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: einschränkendes Merkmal
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2010-11-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2010-11-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2010-11-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2010-11-01T00:00:00.000Z'
+    type: accepted
   examples: []
   id: 876
   language_code: deu
   lineage_source_similarity: 1
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: The delimiting characteristic support for the back may be used for
-        distinguishing the concepts "stool" and "chair".
-    state:
-      _dict:
-        content: The delimiting characteristic support for the back may be used for
-          distinguishing the concepts "stool" and "chair".
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: The delimiting characteristic support for the back may be used for distinguishing
+      the concepts "stool" and "chair".
   release: '2'
   reviewDate: 2018-06-01
   reviewDecisionDate: 2018-06-01
@@ -92,49 +56,18 @@ data:
     1087-1:2000, 3.2.7. Lineage source added as ISO 19146:2010(E)
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: 3.2.7
-        link: https://www.iso.org/standard/20057.html
-        ref: ISO 1087-1:2000
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19146:2010(E)
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: 3.2.7
+      link: https://www.iso.org/standard/20057.html
+      ref: ISO 1087-1:2000
+    type: authoritative
+  - origin:
+      ref: ISO 19146:2010(E)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: einschränkendes Merkmal
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: einschränkendes Merkmal
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: einschränkendes Merkmal
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 950bc5a5-77dc-5743-870f-2028f3bb7c64
 status: valid

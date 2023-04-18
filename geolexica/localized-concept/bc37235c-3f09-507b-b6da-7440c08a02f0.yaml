@@ -21,42 +21,16 @@ data:
           notes: []
           release: '2'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: diccionario conceptual de objetos geográficos
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: diccionario conceptual de objetos geográficos
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: diccionario conceptual de objetos geográficos
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2009-08-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2009-08-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2009-08-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2009-08-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''diccionario que contiene definiciones e información
     descriptiva relacionada sobre conceptos que se pueden especificar en detalle en
     un catálogo de objetos geográficos''}]'
@@ -66,35 +40,14 @@ data:
   notes: []
   release: '2'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/44875.html
-        ref: ISO 19126:2009
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/44875.html
+      ref: ISO 19126:2009
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: diccionario conceptual de objetos geográficos
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: diccionario conceptual de objetos geográficos
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: diccionario conceptual de objetos geográficos
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: bc37235c-3f09-507b-b6da-7440c08a02f0
 status: valid

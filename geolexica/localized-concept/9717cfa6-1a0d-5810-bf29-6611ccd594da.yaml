@@ -20,42 +20,16 @@ data:
           release: '1'
           review_indicator: ''
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: kompleks fitur
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: kompleks fitur
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: kompleks fitur
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2005-06-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2005-06-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2005-06-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2005-06-15T00:00:00.000Z'
+    type: accepted
   examples: []
   id: 52
   language_code: msa
@@ -63,48 +37,17 @@ data:
   release: '1'
   review_indicator: ''
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/39891.html
-        ref: ISO 19109:2005
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: Pusat Rujukan Persuratan Melayu (DBP)
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/39891.html
+      ref: ISO 19109:2005
+    type: authoritative
+  - origin:
+      ref: Pusat Rujukan Persuratan Melayu (DBP)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: kompleks fitur
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: kompleks fitur
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: kompleks fitur
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 9717cfa6-1a0d-5810-bf29-6611ccd594da
 status: valid

@@ -33,54 +33,18 @@ data:
           review_status: final
           review_type: retirement
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: сегмент кривой
-              normative_status: null
-              type: expression
-            state:
-              _dict:
-                designation: сегмент кривой
-                normative_status: null
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: сегмент кривой
+            normative_status: null
+            type: expression
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2003-05-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2003-05-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2019-12-02T00:00:00.000Z'
-      type: amended
-    state:
-      _dict:
-        date: '2019-12-02T00:00:00.000Z'
-        type: amended
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2003-05-01T00:00:00.000Z'
+    type: accepted
+  - date: '2019-12-02T00:00:00.000Z'
+    type: amended
   definition: '[{''content'': ''одномерный геометрический объект, используемый для
     представления непрерывного отрезка кривой с применением методов однородной интерполяции
     и определения''}]'
@@ -88,18 +52,8 @@ data:
   id: 102
   language_code: rus
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Геометрическое множество, представленное  единственным сегментом кривой,
-        эквивалентно кривой
-    state:
-      _dict:
-        content: Геометрическое множество, представленное  единственным сегментом
-          кривой, эквивалентно кривой
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Геометрическое множество, представленное  единственным сегментом кривой,
+      эквивалентно кривой
   release: '-1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02
@@ -111,33 +65,13 @@ data:
   review_status: final
   review_type: retirement
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/26012.html
-        ref: ISO 19107:2003
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/26012.html
+      ref: ISO 19107:2003
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: сегмент кривой
-      type: expression
-    state:
-      _dict:
-        designation: сегмент кривой
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: сегмент кривой
+    type: expression
+dateAccepted: 2018-11-17
 id: e2d600c1-95ff-574a-887d-e85733c124be
 status: retired

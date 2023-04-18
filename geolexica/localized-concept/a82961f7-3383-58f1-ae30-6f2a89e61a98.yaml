@@ -31,54 +31,18 @@ data:
           review_indicator: ''
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: geodetic coordinate system
-              normative_status: admitted
-              type: expression
-            state:
-              _dict:
-                designation: geodetic coordinate system
-                normative_status: admitted
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: elipsoidalny układ współrzędnych
-              type: expression
-            state:
-              _dict:
-                designation: elipsoidalny układ współrzędnych
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: geodetic coordinate system
+            normative_status: admitted
+            type: expression
+          - designation: elipsoidalny układ współrzędnych
+            type: expression
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2003-02-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2003-02-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2003-02-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''coordinate system in which position is specified by
     geodetic latitude, geodetic longitude and (in the three-dimensional case) ellipsoidal
     height''}]'
@@ -97,61 +61,20 @@ data:
   review_indicator: ''
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: (E), 3.1.23
-        link: https://www.iso.org/standard/74039.html
-        ref: ISO 19111:2019
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19111:2003
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: (E), 3.1.23
+      link: https://www.iso.org/standard/74039.html
+      ref: ISO 19111:2019
+    type: authoritative
+  - origin:
+      ref: ISO 19111:2003
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: geodetic coordinate system
-      normative_status: admitted
-      type: expression
-    state:
-      _dict:
-        designation: geodetic coordinate system
-        normative_status: admitted
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: elipsoidalny układ współrzędnych
-      type: expression
-    state:
-      _dict:
-        designation: elipsoidalny układ współrzędnych
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: geodetic coordinate system
+    normative_status: admitted
+    type: expression
+  - designation: elipsoidalny układ współrzędnych
+    type: expression
+dateAccepted: 2018-11-17
 id: a82961f7-3383-58f1-ae30-6f2a89e61a98
 status: valid

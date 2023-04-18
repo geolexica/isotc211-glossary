@@ -31,58 +31,23 @@ data:
           review_indicator: ''
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: 공간 참조
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: 공간 참조
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: 공간 참조
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2003-02-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2003-02-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2003-02-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''실세계에서의 위치에 대한 기술''}]'
   examples: []
   id: 421
   language_code: kor
   lineage_source_similarity: 1
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: 공간 참조는 라벨, 코드 또는 좌표 튜플의 형태를 가질 수 있다.
-    state:
-      _dict:
-        content: 공간 참조는 라벨, 코드 또는 좌표 튜플의 형태를 가질 수 있다.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: 공간 참조는 라벨, 코드 또는 좌표 튜플의 형태를 가질 수 있다.
   release: '1'
   reviewDate: 2019-01-31
   reviewDecisionDate: 2019-01-31
@@ -93,49 +58,18 @@ data:
   review_indicator: ''
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: (E), 3.1.56
-        link: https://www.iso.org/standard/74039.html
-        ref: ISO 19111:2019
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19111:2003
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: (E), 3.1.56
+      link: https://www.iso.org/standard/74039.html
+      ref: ISO 19111:2019
+    type: authoritative
+  - origin:
+      ref: ISO 19111:2003
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: 공간 참조
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: 공간 참조
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: 공간 참조
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 6e53034f-a141-5b3a-8a37-49a334d9bc20
 status: valid

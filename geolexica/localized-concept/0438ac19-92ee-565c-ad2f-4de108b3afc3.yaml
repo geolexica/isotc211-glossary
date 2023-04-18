@@ -34,42 +34,16 @@ data:
             to ISO 19130-1:2018(E), 3.77. Lineage source added as ISO/TS 19130:2010(E)
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: режим сканирования
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: режим сканирования
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: режим сканирования
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2010-06-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2010-06-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2010-06-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2010-06-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''Режим SAR, в котором луч антенны управляется, так
     чтобы осветить полосу земли под различными углами относительно траектории полета
     по всей территории сбора''}]'
@@ -78,20 +52,9 @@ data:
   language_code: rus
   lineage_source_similarity: '1'
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: управление антенной также позволяет увеличить время пребывания и обеспечивает
-        возможность сбора полос под углами, не параллельными направлению полета и
-        с лучшим разрешением, чем режим Stripmap.
-    state:
-      _dict:
-        content: управление антенной также позволяет увеличить время пребывания и
-          обеспечивает возможность сбора полос под углами, не параллельными направлению
-          полета и с лучшим разрешением, чем режим Stripmap.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: управление антенной также позволяет увеличить время пребывания и обеспечивает
+      возможность сбора полос под углами, не параллельными направлению полета и с
+      лучшим разрешением, чем режим Stripmap.
   release: '2'
   reviewDate: 2018-09-01
   reviewDecisionDate: 2018-09-01
@@ -101,49 +64,18 @@ data:
     ISO 19130-1:2018(E), 3.77. Lineage source added as ISO/TS 19130:2010(E)
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: (E), 3.77
-        link: https://www.iso.org/standard/66847.html
-        ref: ISO 19130-1:2018
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO/TS 19130:2010(E)
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: (E), 3.77
+      link: https://www.iso.org/standard/66847.html
+      ref: ISO 19130-1:2018
+    type: authoritative
+  - origin:
+      ref: ISO/TS 19130:2010(E)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: режим сканирования
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: режим сканирования
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: режим сканирования
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 0438ac19-92ee-565c-ad2f-4de108b3afc3
 status: valid

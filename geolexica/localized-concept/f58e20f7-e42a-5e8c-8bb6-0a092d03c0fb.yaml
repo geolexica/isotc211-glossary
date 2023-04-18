@@ -23,92 +23,35 @@ data:
             B.3.2.
           release: '3'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: 요소
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: 요소
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: 요소
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2012-12-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2012-12-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2012-12-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2012-12-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''토지관리(LA) 객체(권리, 제약, 책임, 기본 관리 단위, 관계자 또는 공간 단위)가 기반한
     법적, 행정적 사실을 제공하는 문서''}]'
   examples: []
   id: 1574
   language_code: kor
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Any kind of document may be added as a source according to ISO 19115:2003,
-        B.3.2.
-    state:
-      _dict:
-        content: Any kind of document may be added as a source according to ISO 19115:2003,
-          B.3.2.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Any kind of document may be added as a source according to ISO 19115:2003,
+      B.3.2.
   release: '3'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: 4.1.21
-        link: https://www.iso.org/standard/51206.html
-        ref: ISO 19152:2012
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: 4.1.21
+      link: https://www.iso.org/standard/51206.html
+      ref: ISO 19152:2012
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: 요소
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: 요소
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: 요소
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: f58e20f7-e42a-5e8c-8bb6-0a092d03c0fb
 status: valid

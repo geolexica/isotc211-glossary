@@ -23,42 +23,16 @@ data:
           notes: []
           release: '3'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: format
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: format
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: format
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2013-02-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2013-02-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2013-02-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2013-02-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''language construct that specifies the representation,
     in character form, of data objects in a record, file, message, storage device,
     or transmission channel''}]'
@@ -69,48 +43,17 @@ data:
   notes: []
   release: '3'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/7257.html
-        ref: ISO/IEC 2382-15:1999
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19145:2013, 4.1.9
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/7257.html
+      ref: ISO/IEC 2382-15:1999
+    type: authoritative
+  - origin:
+      ref: ISO 19145:2013, 4.1.9
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: format
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: format
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: format
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: fe543442-70a2-5a41-81d0-4b5565dd0e00
 status: valid

@@ -22,42 +22,16 @@ data:
           notes: []
           release: '2'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: Словарь понятий объектов
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: Словарь понятий объектов
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: Словарь понятий объектов
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2009-08-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2009-08-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2009-08-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2009-08-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''Словарь, содержащий определения и связанные с ними
     описательные сведения о понятиях, которые могут быть подробно указаны в каталоге
     объектов''}]'
@@ -68,48 +42,17 @@ data:
   notes: []
   release: '2'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/44875.html
-        ref: ISO 19126:2009
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19144-1:2009
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/44875.html
+      ref: ISO 19126:2009
+    type: authoritative
+  - origin:
+      ref: ISO 19144-1:2009
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: Словарь понятий объектов
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: Словарь понятий объектов
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: Словарь понятий объектов
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: a03e6370-e726-542e-8305-2ef5f7aae7c5
 status: valid

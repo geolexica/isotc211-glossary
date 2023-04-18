@@ -23,92 +23,35 @@ data:
             of incident optical radiation.
           release: '3'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: dark current
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: dark current
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: dark current
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2014-07-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2014-07-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2014-07-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2014-07-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''output current of a photoelectric detector (or of
     its cathode) in the absence of incident radiation''}]'
   examples: []
   id: 1450
   language_code: eng
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: For calibration of optical sensors dark current is measured by the
-        absence of incident optical radiation.
-    state:
-      _dict:
-        content: For calibration of optical sensors dark current is measured by the
-          absence of incident optical radiation.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: For calibration of optical sensors dark current is measured by the absence
+      of incident optical radiation.
   release: '3'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: '4.6'
-        link: https://www.iso.org/standard/60080.html
-        ref: ISO/TS 19159-1:2014
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: '4.6'
+      link: https://www.iso.org/standard/60080.html
+      ref: ISO/TS 19159-1:2014
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: dark current
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: dark current
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: dark current
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 7b914f0e-c7ee-57f1-b04e-2c42a4bc6117
 status: valid

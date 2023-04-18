@@ -38,93 +38,33 @@ data:
           review_decision_notes: Publication of document ISO 19111:2019(E)
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: datum ensemble
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: datum ensemble
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: datum ensemble
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2019-01-31T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2019-01-31T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2019-01-31T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2019-01-31T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''group of multiple realizations of the same terrestrial
     or vertical reference system that, for approximate spatial referencing purposes,
     are not significantly different''}]'
   examples:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: WGS 84 as an undifferentiated group of realizations including WGS 84
-        (TRANSIT), WGS 84 (G730), WGS 84 (G873), WGS 84 (G1150), WGS 84 (G1674) and
-        WGS 84 (G1762). At the surface of the Earth these have changed on average
-        by 0.7 m between the TRANSIT and G730 realizations, a further 0.2 m between
-        G730 and G873, 0.06 m between G873 and G1150, 0.2 m between G1150 and G1674
-        and 0.02 m between G1674 and G1762).
-    state:
-      _dict:
-        content: WGS 84 as an undifferentiated group of realizations including WGS
-          84 (TRANSIT), WGS 84 (G730), WGS 84 (G873), WGS 84 (G1150), WGS 84 (G1674)
-          and WGS 84 (G1762). At the surface of the Earth these have changed on average
-          by 0.7 m between the TRANSIT and G730 realizations, a further 0.2 m between
-          G730 and G873, 0.06 m between G873 and G1150, 0.2 m between G1150 and G1674
-          and 0.02 m between G1674 and G1762).
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: WGS 84 as an undifferentiated group of realizations including WGS 84
+      (TRANSIT), WGS 84 (G730), WGS 84 (G873), WGS 84 (G1150), WGS 84 (G1674) and
+      WGS 84 (G1762). At the surface of the Earth these have changed on average by
+      0.7 m between the TRANSIT and G730 realizations, a further 0.2 m between G730
+      and G873, 0.06 m between G873 and G1150, 0.2 m between G1150 and G1674 and 0.02
+      m between G1674 and G1762).
   id: 2358
   language_code: eng
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Datasets referenced to the different realizations within a datum ensemble
-        may be merged without coordinate transformation.
-    state:
-      _dict:
-        content: Datasets referenced to the different realizations within a datum
-          ensemble may be merged without coordinate transformation.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: '''Approximate'' is for users to define and typically is in the order
-        of under 1 decimetre but may be up to 2 metres.'
-    state:
-      _dict:
-        content: '''Approximate'' is for users to define and typically is in the order
-          of under 1 decimetre but may be up to 2 metres.'
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Datasets referenced to the different realizations within a datum ensemble
+      may be merged without coordinate transformation.
+  - content: '''Approximate'' is for users to define and typically is in the order
+      of under 1 decimetre but may be up to 2 metres.'
   release: '5'
   reviewDate: 2019-01-31
   reviewDecisionDate: 2019-01-31
@@ -133,36 +73,15 @@ data:
   review_decision_notes: Publication of document ISO 19111:2019(E)
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: (E), 3.1.16
-        link: https://www.iso.org/standard/74039.html
-        ref: ISO 19111:2019
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: (E), 3.1.16
+      link: https://www.iso.org/standard/74039.html
+      ref: ISO 19111:2019
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: datum ensemble
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: datum ensemble
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: datum ensemble
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: dd3fe15b-d69b-540c-b1dc-07874b4190e5
 status: valid

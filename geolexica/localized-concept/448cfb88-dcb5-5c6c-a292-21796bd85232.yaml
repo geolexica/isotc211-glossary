@@ -32,42 +32,16 @@ data:
           review_indicator: ''
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: workflow (flux de travaux)
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: workflow (flux de travaux)
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: workflow (flux de travaux)
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2005-02-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2005-02-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2005-02-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2005-02-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''automatisation d\''un processus "business", global
     ou partiel, pour lequel des documents, informations ou tâches sont transférés
     d\''un participant à un autre pour action, selon un ensemble de règles procédurales''}]'
@@ -86,49 +60,18 @@ data:
   review_indicator: ''
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: 4.1.16
-        link: https://www.iso.org/standard/59221.html
-        ref: ISO 19119:2016
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19119:2005
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: 4.1.16
+      link: https://www.iso.org/standard/59221.html
+      ref: ISO 19119:2016
+    type: authoritative
+  - origin:
+      ref: ISO 19119:2005
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: workflow (flux de travaux)
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: workflow (flux de travaux)
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: workflow (flux de travaux)
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 448cfb88-dcb5-5c6c-a292-21796bd85232
 status: valid

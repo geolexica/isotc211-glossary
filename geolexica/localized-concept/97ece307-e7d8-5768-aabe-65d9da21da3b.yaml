@@ -26,54 +26,18 @@ data:
           review_status: pending
           review_type: supersession
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: 측지 원점
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: 측지 원점
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: 측지 데이텀
-              type: expression
-            state:
-              _dict:
-                designation: 측지 데이텀
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: 측지 원점
+            normative_status: preferred
+            type: expression
+          - designation: 측지 데이텀
+            type: expression
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2007-07-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2007-07-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2007-07-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''지구에 대한 2차원 또는 3차원 좌표 체계의 관계를 기술하는 데이텀''}]'
   examples: []
   id: 708
@@ -88,47 +52,16 @@ data:
   review_status: pending
   review_type: supersession
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/41126.html
-        ref: ISO 19111:2007
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/41126.html
+      ref: ISO 19111:2007
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: 측지 원점
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: 측지 원점
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: 측지 데이텀
-      type: expression
-    state:
-      _dict:
-        designation: 측지 데이텀
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: 측지 원점
+    normative_status: preferred
+    type: expression
+  - designation: 측지 데이텀
+    type: expression
+dateAccepted: 2018-11-17
 id: 97ece307-e7d8-5768-aabe-65d9da21da3b
 status: valid

@@ -39,54 +39,18 @@ data:
           review_status: final
           review_type: retirement
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: laatukuvauksen laajuus
-              normative_status: null
-              type: expression
-            state:
-              _dict:
-                designation: laatukuvauksen laajuus
-                normative_status: null
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: laatukuvauksen laajuus
+            normative_status: null
+            type: expression
         parents: []
         timeCreated: '2013-07-03T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2013-07-03T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2013-07-03T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2013-12-15T00:00:00.000Z'
-      type: amended
-    state:
-      _dict:
-        date: '2013-12-15T00:00:00.000Z'
-        type: amended
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2013-07-03T00:00:00.000Z'
+    type: accepted
+  - date: '2013-12-15T00:00:00.000Z'
+    type: amended
   definition: '[{''content'': ''tiedot, joihin tiedon laadun arviointi kohdistuu ja
     jotka on valittu sijainnillisen tai ajallisen kattavuuden ja/tai yhteisten ominaisuuksien
     perusteella''}]'
@@ -94,26 +58,12 @@ data:
   id: 118
   language_code: fin
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Tietoaineiston laatukuvauksen laajuus voi kattaa tietoaineistosarjan,
-        jonka osa tietoaineisto on, tietoaineiston itsensä tai tietoaineiston sisäisen
-        pienemmän tietoryhmän, jonka jäseniä yhdistävät tietyt piirteet. Tällaisia
-        yhteisiä piirteitä voivat olla kohdetyyppi, kohteen ominaisuus tai kohteiden
-        välinen suhde, tiedon keruukriteerit, alkuperäinen lähde tai maantieteellinen
-        tai ajallinen laajuus.
-    state:
-      _dict:
-        content: Tietoaineiston laatukuvauksen laajuus voi kattaa tietoaineistosarjan,
-          jonka osa tietoaineisto on, tietoaineiston itsensä tai tietoaineiston sisäisen
-          pienemmän tietoryhmän, jonka jäseniä yhdistävät tietyt piirteet. Tällaisia
-          yhteisiä piirteitä voivat olla kohdetyyppi, kohteen ominaisuus tai kohteiden
-          välinen suhde, tiedon keruukriteerit, alkuperäinen lähde tai maantieteellinen
-          tai ajallinen laajuus.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Tietoaineiston laatukuvauksen laajuus voi kattaa tietoaineistosarjan,
+      jonka osa tietoaineisto on, tietoaineiston itsensä tai tietoaineiston sisäisen
+      pienemmän tietoryhmän, jonka jäseniä yhdistävät tietyt piirteet. Tällaisia yhteisiä
+      piirteitä voivat olla kohdetyyppi, kohteen ominaisuus tai kohteiden välinen
+      suhde, tiedon keruukriteerit, alkuperäinen lähde tai maantieteellinen tai ajallinen
+      laajuus.
   release: '-1'
   reviewDate: 2013-12-15
   reviewDecisionDate: 2013-12-15
@@ -125,47 +75,17 @@ data:
   review_status: final
   review_type: retirement
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: '4.10'
-        link: https://www.iso.org/standard/26018.html
-        ref: ISO 19113:2002
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ''
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: '4.10'
+      link: https://www.iso.org/standard/26018.html
+      ref: ISO 19113:2002
+    type: authoritative
+  - origin:
+      ref: ''
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: laatukuvauksen laajuus
-      type: expression
-    state:
-      _dict:
-        designation: laatukuvauksen laajuus
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: laatukuvauksen laajuus
+    type: expression
+dateAccepted: 2018-11-17
 id: 672cf5cd-68ab-5b53-8c15-ce2e5af5474a
 status: retired

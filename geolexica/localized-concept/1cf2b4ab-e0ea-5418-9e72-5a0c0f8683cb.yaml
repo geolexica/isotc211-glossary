@@ -30,42 +30,16 @@ data:
           review_indicator: ''
           review_status: ''
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: концептуальная модель
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: концептуальная модель
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: концептуальная модель
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2002-07-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2002-07-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2002-07-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2002-07-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''модель, определяющая понятия предметной области''}]'
   examples: []
   id: 68
@@ -82,49 +56,18 @@ data:
   review_indicator: ''
   review_status: ''
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: 4.1.5
-        link: https://www.iso.org/standard/59164.html
-        ref: ISO 19101-1:2014
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: перевод ИСО 19101-1:2014,
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: 4.1.5
+      link: https://www.iso.org/standard/59164.html
+      ref: ISO 19101-1:2014
+    type: authoritative
+  - origin:
+      ref: перевод ИСО 19101-1:2014,
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: концептуальная модель
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: концептуальная модель
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: концептуальная модель
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 1cf2b4ab-e0ea-5418-9e72-5a0c0f8683cb
 status: valid

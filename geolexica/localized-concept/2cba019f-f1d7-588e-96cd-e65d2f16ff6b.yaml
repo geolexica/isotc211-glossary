@@ -22,102 +22,36 @@ data:
           - в настоящем стандарте типами сущностей являются типы ресурсов.
           release: '2'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: предикат соединения
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: предикат соединения
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: предикат соединения
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2010-10-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2010-10-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2010-10-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2010-10-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''выражение фильтра, включающее одно или несколько условий,
     ограничивающих свойства двух различных типов сущностей''}]'
   examples: []
   id: 1299
   language_code: rus
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: в настоящем стандарте типами сущностей являются типы ресурсов.
-    state:
-      _dict:
-        content: в настоящем стандарте типами сущностей являются типы ресурсов.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: в настоящем стандарте типами сущностей являются типы ресурсов.
   release: '2'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/42137.html
-        ref: ISO 19143:2010
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19143:2010
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/42137.html
+      ref: ISO 19143:2010
+    type: authoritative
+  - origin:
+      ref: ISO 19143:2010
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: предикат соединения
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: предикат соединения
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: предикат соединения
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 2cba019f-f1d7-588e-96cd-e65d2f16ff6b
 status: valid

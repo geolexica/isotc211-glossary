@@ -30,58 +30,23 @@ data:
           review_status: final
           review_type: supersession
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: polar coordinate system
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: polar coordinate system
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: polar coordinate system
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2019-01-31T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2019-01-31T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2019-01-31T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2019-01-31T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''two-dimensional coordinate system in Euclidean space
     in which position is specified by one distance coordinate and one angular coordinate''}]'
   examples: []
   id: 2374
   language_code: eng
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: For the three-dimensional case, see spherical coordinate system.
-    state:
-      _dict:
-        content: For the three-dimensional case, see spherical coordinate system.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: For the three-dimensional case, see spherical coordinate system.
   release: '5'
   reviewDate: 2019-01-31
   reviewDecisionDate: 2019-01-31
@@ -92,36 +57,15 @@ data:
   review_status: final
   review_type: supersession
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: (E), 3.1.49
-        link: https://www.iso.org/standard/74039.html
-        ref: ISO 19111:2019
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: (E), 3.1.49
+      link: https://www.iso.org/standard/74039.html
+      ref: ISO 19111:2019
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: polar coordinate system
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: polar coordinate system
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: polar coordinate system
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 38560187-16e0-50e3-bfde-4384207b43a2
 status: valid

@@ -38,42 +38,16 @@ data:
           review_indicator: ''
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: współgranica,  kogranica
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: współgranica,  kogranica
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: współgranica,  kogranica
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2003-05-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2003-05-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2003-05-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''zbiór prostych elementów topologicznych o większym
     wymiarze topologicznym, powiązanych z danym obiektem topologicznym w taki sposób,
     że ten topologiczny obiekt należy do granicy każdego z nich''}]'
@@ -82,28 +56,13 @@ data:
   language_code: pol
   lineage_source_similarity: 1
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Jeśli węzeł jest na granicy pewnej krawędzi, wówczas krawędź ta jest
-        na współgranicy tego węzła. Każdy parametr orientacji powiązany z jedną z
-        tych relacji powinien być powiązany także z drugą. A zatem, jeśli dany węzeł
-        jest węzłem końcowym krawędzi (czyli zdefiniowanym jako koniec krawędzi skierowanej
-        dodatnio), wówczas dodatnia orientacja tego węzła (czyli węzła zdefiniowanego
-        jako węzeł skierowany dodatnio) powinna mieć tę krawędź na swojej współgranicy.patrz
-        Rysunek35.
-    state:
-      _dict:
-        content: Jeśli węzeł jest na granicy pewnej krawędzi, wówczas krawędź ta jest
-          na współgranicy tego węzła. Każdy parametr orientacji powiązany z jedną
-          z tych relacji powinien być powiązany także z drugą. A zatem, jeśli dany
-          węzeł jest węzłem końcowym krawędzi (czyli zdefiniowanym jako koniec krawędzi
-          skierowanej dodatnio), wówczas dodatnia orientacja tego węzła (czyli węzła
-          zdefiniowanego jako węzeł skierowany dodatnio) powinna mieć tę krawędź na
-          swojej współgranicy.patrz Rysunek35.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Jeśli węzeł jest na granicy pewnej krawędzi, wówczas krawędź ta jest
+      na współgranicy tego węzła. Każdy parametr orientacji powiązany z jedną z tych
+      relacji powinien być powiązany także z drugą. A zatem, jeśli dany węzeł jest
+      węzłem końcowym krawędzi (czyli zdefiniowanym jako koniec krawędzi skierowanej
+      dodatnio), wówczas dodatnia orientacja tego węzła (czyli węzła zdefiniowanego
+      jako węzeł skierowany dodatnio) powinna mieć tę krawędź na swojej współgranicy.patrz
+      Rysunek35.
   release: '1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02
@@ -114,49 +73,18 @@ data:
   review_indicator: ''
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: (E), 3.9
-        link: https://www.iso.org/standard/66175.html
-        ref: ISO 19107:2019
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19107:2003(E)
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: (E), 3.9
+      link: https://www.iso.org/standard/66175.html
+      ref: ISO 19107:2019
+    type: authoritative
+  - origin:
+      ref: ISO 19107:2003(E)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: współgranica,  kogranica
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: współgranica,  kogranica
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: współgranica,  kogranica
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 97ad1269-fc81-57a0-825f-49e4b81f103a
 status: valid

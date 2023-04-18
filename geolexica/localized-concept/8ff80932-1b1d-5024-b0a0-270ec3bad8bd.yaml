@@ -32,42 +32,16 @@ data:
             to ISO 1087-1:2000, 3.2.1. Lineage source added as ISO/TS 19104:2008
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: concept
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: concept
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: concept
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2008-11-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2008-11-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2008-11-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2008-11-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''unit of knowledge created by a unique combination
     of characteristics''}]'
   examples: []
@@ -75,20 +49,9 @@ data:
   language_code: eng
   lineage_source_similarity: 1
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Concepts are not necessarily bound to particular languages.  They are,
-        however, influenced by the social or cultural background which often leads
-        to different categorizations.
-    state:
-      _dict:
-        content: Concepts are not necessarily bound to particular languages.  They
-          are, however, influenced by the social or cultural background which often
-          leads to different categorizations.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Concepts are not necessarily bound to particular languages.  They are,
+      however, influenced by the social or cultural background which often leads to
+      different categorizations.
   release: '2'
   reviewDate: 2013-01-29
   reviewDecisionDate: 2016-10-01
@@ -98,49 +61,18 @@ data:
     1087-1:2000, 3.2.1. Lineage source added as ISO/TS 19104:2008
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: 3.2.1
-        link: https://www.iso.org/standard/20057.html
-        ref: ISO 1087-1:2000
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO/TS 19104:2008
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: 3.2.1
+      link: https://www.iso.org/standard/20057.html
+      ref: ISO 1087-1:2000
+    type: authoritative
+  - origin:
+      ref: ISO/TS 19104:2008
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: concept
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: concept
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: concept
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 8ff80932-1b1d-5024-b0a0-270ec3bad8bd
 status: valid

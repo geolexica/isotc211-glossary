@@ -35,42 +35,16 @@ data:
           review_indicator: ''
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: nodo orientado
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: nodo orientado
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: nodo orientado
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2003-05-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2003-05-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2003-05-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''objeto topológico orientado que representa una asociación
     entre un nodo y una de sus orientaciones''}]'
   examples: []
@@ -78,22 +52,10 @@ data:
   language_code: spa
   lineage_source_similarity: 1
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Los nodos orientados se usan en la relación de cofrontera para mantener
-        la asociación espacial entre arco y nodo. La orientación de un nodo con respecto
-        a un arco es "+" para el nodo final y "-" para el nodo inicial. Esto es coherente
-        con la noción de vector "resultado = final - inicial".
-    state:
-      _dict:
-        content: Los nodos orientados se usan en la relación de cofrontera para mantener
-          la asociación espacial entre arco y nodo. La orientación de un nodo con
-          respecto a un arco es "+" para el nodo final y "-" para el nodo inicial.
-          Esto es coherente con la noción de vector "resultado = final - inicial".
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Los nodos orientados se usan en la relación de cofrontera para mantener
+      la asociación espacial entre arco y nodo. La orientación de un nodo con respecto
+      a un arco es "+" para el nodo final y "-" para el nodo inicial. Esto es coherente
+      con la noción de vector "resultado = final - inicial".
   release: '1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02
@@ -104,49 +66,18 @@ data:
   review_indicator: ''
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: (E), 3.25
-        link: https://www.iso.org/standard/66175.html
-        ref: ISO 19107:2019
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19107:2003(E)
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: (E), 3.25
+      link: https://www.iso.org/standard/66175.html
+      ref: ISO 19107:2019
+    type: authoritative
+  - origin:
+      ref: ISO 19107:2003(E)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: nodo orientado
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: nodo orientado
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: nodo orientado
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 20ad04ef-2265-5114-9a6c-410a35388c9a
 status: valid

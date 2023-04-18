@@ -30,42 +30,16 @@ data:
           review_indicator: ''
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: 直接评价法
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: 直接评价法
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: 直接评价法
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2003-08-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2003-08-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2003-08-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2003-08-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''以数据集内部检验单元检验为基础的数据集质量评价方法。''}]'
   examples: []
   id: 134
@@ -82,49 +56,18 @@ data:
   review_indicator: ''
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: '4.10'
-        link: https://www.iso.org/standard/32575.html
-        ref: ISO 19157:2013
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19114:2003
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: '4.10'
+      link: https://www.iso.org/standard/32575.html
+      ref: ISO 19157:2013
+    type: authoritative
+  - origin:
+      ref: ISO 19114:2003
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: 直接评价法
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: 直接评价法
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: 直接评价法
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: c8312202-283e-5142-9128-f96f24cb9a4c
 status: valid

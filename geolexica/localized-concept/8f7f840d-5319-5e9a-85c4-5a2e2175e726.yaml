@@ -23,105 +23,37 @@ data:
             to different categorizations.
           release: '2'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: Konsep
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: Konsep
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: Konsep
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2008-11-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2008-11-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2008-11-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2008-11-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''pengertian am atau idea yg mendasari sesuatu''}]'
   examples: []
   id: 64
   language_code: msa
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Concepts are not necessarily bound to particular languages.  They are,
-        however, influenced by the social or cultural background which often leads
-        to different categorizations.
-    state:
-      _dict:
-        content: Concepts are not necessarily bound to particular languages.  They
-          are, however, influenced by the social or cultural background which often
-          leads to different categorizations.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Concepts are not necessarily bound to particular languages.  They are,
+      however, influenced by the social or cultural background which often leads to
+      different categorizations.
   release: '2'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/20057.html
-        ref: ISO 1087-1:2000
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: Pusat Rujukan Persuratan Melayu (DBP)
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/20057.html
+      ref: ISO 1087-1:2000
+    type: authoritative
+  - origin:
+      ref: Pusat Rujukan Persuratan Melayu (DBP)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: Konsep
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: Konsep
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: Konsep
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 8f7f840d-5319-5e9a-85c4-5a2e2175e726
 status: valid

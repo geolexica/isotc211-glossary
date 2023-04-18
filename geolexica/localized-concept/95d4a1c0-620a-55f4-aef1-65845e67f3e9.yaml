@@ -36,65 +36,27 @@ data:
           review_indicator: ''
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: yta
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: yta
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: yta
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   country_code: swe
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2003-05-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2003-05-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2003-05-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''tvådimensionellt geometriskt grundelement som är sammanhängande
     och begränsat''}]'
   examples: []
   id: 437
   language_code: swe
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: The boundary of a surface is the set of oriented, closed curves that
-        delineate the limits of the surface. Surfaces that are isomorphic to a sphere,
-        or to an n-torus (a topological sphere with n "handles") have no boundary.
-        Such surfaces are called cycles.
-    state:
-      _dict:
-        content: The boundary of a surface is the set of oriented, closed curves that
-          delineate the limits of the surface. Surfaces that are isomorphic to a sphere,
-          or to an n-torus (a topological sphere with n "handles") have no boundary.
-          Such surfaces are called cycles.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: The boundary of a surface is the set of oriented, closed curves that
+      delineate the limits of the surface. Surfaces that are isomorphic to a sphere,
+      or to an n-torus (a topological sphere with n "handles") have no boundary. Such
+      surfaces are called cycles.
   release: '1'
   reviewDate: 2018-06-08
   reviewDecisionDate: 2020-01-09
@@ -105,49 +67,18 @@ data:
   review_indicator: ''
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: (E), 3.1.57
-        link: https://www.iso.org/standard/75676.html
-        ref: ISO 19136-1:2020
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19107:2003
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: (E), 3.1.57
+      link: https://www.iso.org/standard/75676.html
+      ref: ISO 19136-1:2020
+    type: authoritative
+  - origin:
+      ref: ISO 19107:2003
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: yta
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: yta
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: yta
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 95d4a1c0-620a-55f4-aef1-65845e67f3e9
 status: valid

@@ -33,57 +33,21 @@ data:
           review_indicator: ''
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: схема <XML- схема>
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: схема <XML- схема>
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: схема <XML- схема>
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2007-09-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2007-09-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2007-09-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2007-09-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''совокупность компонентов схемы в пределах одного целевого
     пространства имен''}]'
   examples:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Компонентами схемы W3C XML- схемы являются типы, элементы, атрибуты,
-        группы и т.п.
-    state:
-      _dict:
-        content: Компонентами схемы W3C XML- схемы являются типы, элементы, атрибуты,
-          группы и т.п.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Компонентами схемы W3C XML- схемы являются типы, элементы, атрибуты,
+      группы и т.п.
   id: 698
   language_code: rus
   lineage_source_similarity: 1
@@ -98,49 +62,18 @@ data:
   review_indicator: ''
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: (E), 3.1.53
-        link: https://www.iso.org/standard/75676.html
-        ref: ISO 19136-1:2020
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19136:2007(E)
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: (E), 3.1.53
+      link: https://www.iso.org/standard/75676.html
+      ref: ISO 19136-1:2020
+    type: authoritative
+  - origin:
+      ref: ISO 19136:2007(E)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: схема <XML- схема>
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: схема <XML- схема>
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: схема <XML- схема>
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 10313b04-0e35-5e19-920e-d8f21d5a160d
 status: valid

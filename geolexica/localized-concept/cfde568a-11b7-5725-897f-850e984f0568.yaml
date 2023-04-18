@@ -32,42 +32,16 @@ data:
             to ISO 19130-1:2018(E), 3.76. Lineage source added as ISO/TS 19130:2010(E)
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: 합성개구(구경) 레이더
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: 합성개구(구경) 레이더
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: 합성개구(구경) 레이더
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2010-06-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2010-06-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2010-06-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2010-06-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''실제 안테나가 트랙을 따라 이동하는 동안 각 목표들로부터 각종 회신을 수집함으로써 물리적
     장안테나를 사용하는 것을 가상적으로 보여주는 영상 레이더 시스템''}]'
   examples: []
@@ -75,18 +49,8 @@ data:
   language_code: kor
   lineage_source_similarity: '1'
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: The electromagnetic radiation is at microwave frequencies and is sent
-        in pulses.
-    state:
-      _dict:
-        content: The electromagnetic radiation is at microwave frequencies and is
-          sent in pulses.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: The electromagnetic radiation is at microwave frequencies and is sent
+      in pulses.
   release: '2'
   reviewDate: 2018-09-01
   reviewDecisionDate: 2018-09-01
@@ -96,49 +60,18 @@ data:
     ISO 19130-1:2018(E), 3.76. Lineage source added as ISO/TS 19130:2010(E)
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: (E), 3.76
-        link: https://www.iso.org/standard/66847.html
-        ref: ISO 19130-1:2018
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO/TS 19130:2010(E)
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: (E), 3.76
+      link: https://www.iso.org/standard/66847.html
+      ref: ISO 19130-1:2018
+    type: authoritative
+  - origin:
+      ref: ISO/TS 19130:2010(E)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: 합성개구(구경) 레이더
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: 합성개구(구경) 레이더
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: 합성개구(구경) 레이더
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: cfde568a-11b7-5725-897f-850e984f0568
 status: valid

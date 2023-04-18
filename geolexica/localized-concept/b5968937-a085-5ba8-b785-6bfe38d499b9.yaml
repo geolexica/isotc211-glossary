@@ -33,121 +33,44 @@ data:
             the proprietary rights of material.
           release: '3'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: 일반 대중 허가증
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: 일반 대중 허가증
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: 일반 대중 허가증
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2014-02-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2014-02-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2014-02-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2014-02-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''기존의 계약없이 일반 대중에게 부여된 허가증''}]'
   examples: []
   id: 1221
   language_code: kor
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: GPLs can be granted by the owner of a resource or can be applied to
-        a resource by law, usually as part of the copyright law. The most obvious
-        GPL concept is fair use in the United States for copyrighted material. Other
-        GPL rights can be demanded by the source of the resource or other “public
-        good” considerations.
-    state:
-      _dict:
-        content: GPLs can be granted by the owner of a resource or can be applied
-          to a resource by law, usually as part of the copyright law. The most obvious
-          GPL concept is fair use in the United States for copyrighted material. Other
-          GPL rights can be demanded by the source of the resource or other “public
-          good” considerations.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: The most widespread use of GPL is in reference to the GNU GPL, which
-        is commonly abbreviated simply as GPL when it is understood that the term
-        refers to the GNU GPL. One of the basic tenets of the GPL is that anyone who
-        acquires the material shall make it available to anyone else under the same
-        licensing agreement. The GPL does not cover activities other than the copying,
-        distributing, and modifying of the source code. A GPL is also referred to
-        as a copyleft, in contrast to a copyright, which identifies the proprietary
-        rights of material.
-    state:
-      _dict:
-        content: The most widespread use of GPL is in reference to the GNU GPL, which
-          is commonly abbreviated simply as GPL when it is understood that the term
-          refers to the GNU GPL. One of the basic tenets of the GPL is that anyone
-          who acquires the material shall make it available to anyone else under the
-          same licensing agreement. The GPL does not cover activities other than the
-          copying, distributing, and modifying of the source code. A GPL is also referred
-          to as a copyleft, in contrast to a copyright, which identifies the proprietary
-          rights of material.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: GPLs can be granted by the owner of a resource or can be applied to a
+      resource by law, usually as part of the copyright law. The most obvious GPL
+      concept is fair use in the United States for copyrighted material. Other GPL
+      rights can be demanded by the source of the resource or other “public good”
+      considerations.
+  - content: The most widespread use of GPL is in reference to the GNU GPL, which
+      is commonly abbreviated simply as GPL when it is understood that the term refers
+      to the GNU GPL. One of the basic tenets of the GPL is that anyone who acquires
+      the material shall make it available to anyone else under the same licensing
+      agreement. The GPL does not cover activities other than the copying, distributing,
+      and modifying of the source code. A GPL is also referred to as a copyleft, in
+      contrast to a copyright, which identifies the proprietary rights of material.
   release: '3'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: '4.15'
-        link: https://www.iso.org/standard/32571.html
-        ref: ISO 19153:2014
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: '4.15'
+      link: https://www.iso.org/standard/32571.html
+      ref: ISO 19153:2014
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: 일반 대중 허가증
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: 일반 대중 허가증
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: 일반 대중 허가증
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: b5968937-a085-5ba8-b785-6bfe38d499b9
 status: valid

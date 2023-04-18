@@ -33,119 +33,45 @@ data:
           release: '1'
           review_indicator: ''
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: passivt objekt
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: passivt objekt
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: passivt objekt
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2007-10-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   country_code: swe
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2007-10-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2007-10-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2007-10-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''<i samband med programutveckling> objekt som\nexekverar
     genom anrop från andra objekt''}]'
   examples: []
   id: 677
   language_code: swe
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: A passive object is usually accessed through an external interface,
-        through which it receives requests, processes those requests and returns data
-        as a response to that request. Since objects can implement more than one type,
-        it is possible for a single object to pass through active and passive states.
-        For example, a tracking service can lie dormant until a tracking request activates
-        a period where the internals of the object initiate tracking activities based
-        on internal triggers as specified within the request. When the tracking request
-        is deactivated, the object may return to a passive state.
-    state:
-      _dict:
-        content: A passive object is usually accessed through an external interface,
-          through which it receives requests, processes those requests and returns
-          data as a response to that request. Since objects can implement more than
-          one type, it is possible for a single object to pass through active and
-          passive states. For example, a tracking service can lie dormant until a
-          tracking request activates a period where the internals of the object initiate
-          tracking activities based on internal triggers as specified within the request.
-          When the tracking request is deactivated, the object may return to a passive
-          state.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: A passive object is usually accessed through an external interface, through
+      which it receives requests, processes those requests and returns data as a response
+      to that request. Since objects can implement more than one type, it is possible
+      for a single object to pass through active and passive states. For example,
+      a tracking service can lie dormant until a tracking request activates a period
+      where the internals of the object initiate tracking activities based on internal
+      triggers as specified within the request. When the tracking request is deactivated,
+      the object may return to a passive state.
   release: '1'
   review_indicator: ''
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/40601.html
-        ref: ISO 19132:2007
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: (Type reference to national language document)
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/40601.html
+      ref: ISO 19132:2007
+    type: authoritative
+  - origin:
+      ref: (Type reference to national language document)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: passivt objekt
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: passivt objekt
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: passivt objekt
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 39dd2a1e-28cb-5db7-b08b-ec7336969342
 status: valid

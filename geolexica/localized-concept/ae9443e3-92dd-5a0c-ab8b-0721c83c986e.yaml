@@ -21,54 +21,18 @@ data:
           release: '1'
           review_indicator: ''
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: meridiano cero
-              normative_status: admitted
-              type: expression
-            state:
-              _dict:
-                designation: meridiano cero
-                normative_status: admitted
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: meridiano principal
-              type: expression
-            state:
-              _dict:
-                designation: meridiano principal
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: meridiano cero
+            normative_status: admitted
+            type: expression
+          - designation: meridiano principal
+            type: expression
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2003-02-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2003-02-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2003-02-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''meridiano desde el cual se cuantifican las longitudes
     de los otros meridianos''}]'
   examples: []
@@ -78,47 +42,16 @@ data:
   release: '1'
   review_indicator: ''
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/41126.html
-        ref: ISO 19111:2007
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/41126.html
+      ref: ISO 19111:2007
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: meridiano cero
-      normative_status: admitted
-      type: expression
-    state:
-      _dict:
-        designation: meridiano cero
-        normative_status: admitted
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: meridiano principal
-      type: expression
-    state:
-      _dict:
-        designation: meridiano principal
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: meridiano cero
+    normative_status: admitted
+    type: expression
+  - designation: meridiano principal
+    type: expression
+dateAccepted: 2018-11-17
 id: ae9443e3-92dd-5a0c-ab8b-0721c83c986e
 status: valid

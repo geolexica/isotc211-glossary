@@ -31,57 +31,22 @@ data:
           review_indicator: ''
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: 曲面
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: 曲面
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: 曲面
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2003-05-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2003-05-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2003-05-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''二维几何单形，局部表示某平面的一个区域的连续映像。''}]'
   examples: []
   id: 437
   language_code: zho
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: 曲面的边界是定义曲面界限的有向、闭合曲线的集合。与一个球面或n-圆环面（具有n个把柄的拓扑球面）同构的曲面没有边界，这样的曲面被称之为圈。
-    state:
-      _dict:
-        content: 曲面的边界是定义曲面界限的有向、闭合曲线的集合。与一个球面或n-圆环面（具有n个把柄的拓扑球面）同构的曲面没有边界，这样的曲面被称之为圈。
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: 曲面的边界是定义曲面界限的有向、闭合曲线的集合。与一个球面或n-圆环面（具有n个把柄的拓扑球面）同构的曲面没有边界，这样的曲面被称之为圈。
   release: '1'
   reviewDate: 2018-06-08
   reviewDecisionDate: 2020-01-09
@@ -92,49 +57,18 @@ data:
   review_indicator: ''
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: (E), 3.1.57
-        link: https://www.iso.org/standard/75676.html
-        ref: ISO 19136-1:2020
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19107:2003
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: (E), 3.1.57
+      link: https://www.iso.org/standard/75676.html
+      ref: ISO 19136-1:2020
+    type: authoritative
+  - origin:
+      ref: ISO 19107:2003
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: 曲面
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: 曲面
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: 曲面
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 085f44a2-e821-5494-b242-f1ddd5f43079
 status: valid

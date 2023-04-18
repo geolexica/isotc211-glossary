@@ -22,42 +22,16 @@ data:
           notes: []
           release: '3'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: sistem maklumat
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: sistem maklumat
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: sistem maklumat
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2014-11-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2014-11-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2014-11-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2014-11-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''Sistem yang berkaitan dengan pengumpulan, pemasukan,
     penyimpanan, pemprosesan, pengeluaran, dan penyebaran maklumat.''}]'
   examples: []
@@ -66,49 +40,18 @@ data:
   notes: []
   release: '3'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: 01.01.22
-        link: https://www.iso.org/standard/7229.html
-        ref: ISO/IEC 2382-1:1993
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: Pusat Rujukan Persuratan Melayu (DBP)
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: 01.01.22
+      link: https://www.iso.org/standard/7229.html
+      ref: ISO/IEC 2382-1:1993
+    type: authoritative
+  - origin:
+      ref: Pusat Rujukan Persuratan Melayu (DBP)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: sistem maklumat
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: sistem maklumat
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: sistem maklumat
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 0184c654-bc62-5885-8664-81b3c31df2b8
 status: valid

@@ -24,105 +24,38 @@ data:
             законных запросов.
           release: '3'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: необходимость
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: необходимость
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: необходимость
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2014-02-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2014-02-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2014-02-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2014-02-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''способность распознавать и надлежащим образом реагировать
     на все допустимые запросы, определяемые требованиями системы''}]'
   examples: []
   id: 1240
   language_code: rus
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Все аспекты системы DRM необходимы, если они не препятствуют выполнению
-        законных запросов.
-    state:
-      _dict:
-        content: Все аспекты системы DRM необходимы, если они не препятствуют выполнению
-          законных запросов.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Все аспекты системы DRM необходимы, если они не препятствуют выполнению
+      законных запросов.
   release: '3'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: '4.33'
-        link: https://www.iso.org/standard/32571.html
-        ref: ISO 19153:2014
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: перевод ИСО 19153:2014
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: '4.33'
+      link: https://www.iso.org/standard/32571.html
+      ref: ISO 19153:2014
+    type: authoritative
+  - origin:
+      ref: перевод ИСО 19153:2014
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: необходимость
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: необходимость
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: необходимость
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 0f6aea5c-77ea-5c09-86d5-a106cfca391c
 status: valid

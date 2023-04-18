@@ -32,71 +32,25 @@ data:
           review_status: final
           review_type: supersession
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: depth
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: depth
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: depth
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2019-01-31T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2019-01-31T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2019-01-31T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2019-01-31T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''distance of a point from a chosen vertical reference
     surface downward along a line that is perpendicular to that surface''}]'
   examples: []
   id: 2401
   language_code: eng
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: The line direction may be straight, or be dependent on the Earth's
-        gravity field or other physical phenomena.
-    state:
-      _dict:
-        content: The line direction may be straight, or be dependent on the Earth's
-          gravity field or other physical phenomena.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: A depth above the vertical reference surface will have a negative value.
-    state:
-      _dict:
-        content: A depth above the vertical reference surface will have a negative
-          value.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: The line direction may be straight, or be dependent on the Earth's gravity
+      field or other physical phenomena.
+  - content: A depth above the vertical reference surface will have a negative value.
   release: '5'
   reviewDate: 2019-01-31
   reviewDecisionDate: 2019-01-31
@@ -106,36 +60,15 @@ data:
   review_status: final
   review_type: supersession
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: (E), 3.1.17
-        link: https://www.iso.org/standard/74039.html
-        ref: ISO 19111:2019
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: (E), 3.1.17
+      link: https://www.iso.org/standard/74039.html
+      ref: ISO 19111:2019
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: depth
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: depth
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: depth
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 4b1c6778-7436-5414-83f3-c8f98f91c601
 status: valid

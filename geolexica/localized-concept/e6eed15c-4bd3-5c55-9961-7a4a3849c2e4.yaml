@@ -30,42 +30,16 @@ data:
           review_indicator: ''
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: عملية متسلسلة
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: عملية متسلسلة
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: عملية متسلسلة
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2007-07-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2007-07-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2007-07-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''عملية إحداثية تتكون من تطبيقات متتابعة لعمليات إحداثية
     متعددة''}]'
   examples: []
@@ -83,49 +57,18 @@ data:
   review_indicator: ''
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: (E), 3.1.4
-        link: https://www.iso.org/standard/74039.html
-        ref: ISO 19111:2019
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19111:2007(E)
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: (E), 3.1.4
+      link: https://www.iso.org/standard/74039.html
+      ref: ISO 19111:2019
+    type: authoritative
+  - origin:
+      ref: ISO 19111:2007(E)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: عملية متسلسلة
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: عملية متسلسلة
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: عملية متسلسلة
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: e6eed15c-4bd3-5c55-9961-7a4a3849c2e4
 status: valid

@@ -19,90 +19,33 @@ data:
           lineage_source: ''
           notes: []
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: réseau irrégulier triangulé
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: réseau irrégulier triangulé
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: réseau irrégulier triangulé
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2005-08-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2005-08-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2005-08-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2005-08-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''partition composée de triangles''}]'
   examples: []
   id: 476
   language_code: fra
   notes: []
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/40121.html
-        ref: ISO 19123
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ''
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/40121.html
+      ref: ISO 19123
+    type: authoritative
+  - origin:
+      ref: ''
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: réseau irrégulier triangulé
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: réseau irrégulier triangulé
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: réseau irrégulier triangulé
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 72f66e38-7fd2-5a00-a1c0-492cc6a97981
 status: valid
