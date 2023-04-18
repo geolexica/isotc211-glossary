@@ -1,0 +1,109 @@
+data:
+  _revisions:
+    current: 7a595b
+    tree:
+      7a595b:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/42137.html
+            ref: ISO 19143:2010
+          date_accepted: '2010-10-15T00:00:00.000Z'
+          definition: filter expression that includes one or more clauses that constrain
+            properties from two different entity types
+          entry_status: valid
+          examples: []
+          id: 1299
+          language_code: eng
+          notes:
+          - In this International Standard, the entity types are resource types.
+          release: '2'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: join predicate
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: join predicate
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2010-10-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2010-10-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2010-10-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''filter expression that includes one or more clauses
+    that constrain properties from two different entity types''}]'
+  examples: []
+  id: 1299
+  language_code: eng
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: In this International Standard, the entity types are resource types.
+    state:
+      _dict:
+        content: In this International Standard, the entity types are resource types.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '2'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/42137.html
+        ref: ISO 19143:2010
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: join predicate
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: join predicate
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 303598f9-d22d-5508-a192-32cf45c11da7
+status: valid

@@ -1,0 +1,109 @@
+data:
+  _revisions:
+    current: 51d263
+    tree:
+      51d263:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/26010.html
+            ref: ISO 19105
+          date_accepted: '2000-11-16T00:00:00.000Z'
+          definition: échec de l'accomplissement d'une ou plusieurs exigences spécifiées
+          entry_status: valid
+          examples: []
+          id: 310
+          language_code: fra
+          lineage_source: ''
+          notes: []
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: non-conformité
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: non-conformité
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2000-11-16T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2000-11-16T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2000-11-16T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': "échec de l''accomplissement d''une ou plusieurs exigences
+    spécifiées"}]'
+  examples: []
+  id: 310
+  language_code: fra
+  notes: []
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/26010.html
+        ref: ISO 19105
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ''
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: non-conformité
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: non-conformité
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 862e491e-6129-5638-9edf-4216841feb7f
+status: valid

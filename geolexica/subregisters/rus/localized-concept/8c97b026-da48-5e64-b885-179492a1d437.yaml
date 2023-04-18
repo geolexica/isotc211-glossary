@@ -1,0 +1,179 @@
+data:
+  _revisions:
+    current: f14048
+    tree:
+      f14048:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: 4.1.23
+            link: https://www.iso.org/standard/51206.html
+            ref: ISO 19152:2012
+          date_accepted: '2012-12-01T00:00:00.000Z'
+          definition: отдельная  область (или несколько областей) земли и / или воды,
+            или одного объема (или несколько объемов) пространства
+          entry_status: valid
+          examples: []
+          id: 1363
+          language_code: rus
+          lineage_source: ISO 19152:2012
+          notes:
+          - Отдельная область является нормой, а множественные области - исключением
+          - пространственные единицы структурированы таким образом, чтобы поддерживать
+            создание базовых административных единиц и управление ими
+          - настоящий международный стандарт [ISO 19152:2012] поддерживает либо 2-мерные
+            (2D), 3-мерные (3D), либо смешанные (2D и 3D) представления пространственных
+            единиц, которые могут быть описаны в тексте (“от этого дерева до той реки”),
+            либо основаны на одной точке, либо представлены в виде набора неструктурированных
+            линий, либо в виде поверхности, либо в виде трехмерного объема.
+          - в дополнение к пространственным единицам, представленным одной точкой,
+            текстом или набором неструктурированных линий, пространственная единица
+            может иметь площадь, равную нулю, по административным причинам.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: пространственная единица
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: пространственная единица
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2012-12-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2012-12-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2012-12-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''отдельная область (или несколько областей) земли и
+    / или воды, или одного объема (или несколько объемов) пространства''}]'
+  examples: []
+  id: 1363
+  language_code: rus
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Отдельная область является нормой, а множественные области - исключением
+    state:
+      _dict:
+        content: Отдельная область является нормой, а множественные области - исключением
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: пространственные единицы структурированы таким образом, чтобы поддерживать
+        создание базовых административных единиц и управление ими
+    state:
+      _dict:
+        content: пространственные единицы структурированы таким образом, чтобы поддерживать
+          создание базовых административных единиц и управление ими
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: настоящий международный стандарт [ISO 19152:2012] поддерживает либо
+        2-мерные (2D), 3-мерные (3D), либо смешанные (2D и 3D) представления пространственных
+        единиц, которые могут быть описаны в тексте (“от этого дерева до той реки”),
+        либо основаны на одной точке, либо представлены в виде набора неструктурированных
+        линий, либо в виде поверхности, либо в виде трехмерного объема.
+    state:
+      _dict:
+        content: настоящий международный стандарт [ISO 19152:2012] поддерживает либо
+          2-мерные (2D), 3-мерные (3D), либо смешанные (2D и 3D) представления пространственных
+          единиц, которые могут быть описаны в тексте (“от этого дерева до той реки”),
+          либо основаны на одной точке, либо представлены в виде набора неструктурированных
+          линий, либо в виде поверхности, либо в виде трехмерного объема.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: в дополнение к пространственным единицам, представленным одной точкой,
+        текстом или набором неструктурированных линий, пространственная единица может
+        иметь площадь, равную нулю, по административным причинам.
+    state:
+      _dict:
+        content: в дополнение к пространственным единицам, представленным одной точкой,
+          текстом или набором неструктурированных линий, пространственная единица
+          может иметь площадь, равную нулю, по административным причинам.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: 4.1.23
+        link: https://www.iso.org/standard/51206.html
+        ref: ISO 19152:2012
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19152:2012
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: пространственная единица
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: пространственная единица
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 8c97b026-da48-5e64-b885-179492a1d437
+status: valid

@@ -1,0 +1,107 @@
+data:
+  _revisions:
+    current: d07015
+    tree:
+      d07015:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32551.html
+            ref: ISO 19133:2005
+          date_accepted: '2005-10-15T00:00:00.000Z'
+          definition: 两个结点（连接点）之间有向的拓扑连接，由一条边和一个方向组成。
+          entry_status: valid
+          examples: []
+          id: 274
+          language_code: zho
+          notes:
+          - 有向路段是有向边的别名。
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 有向路段
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 有向路段
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-10-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-10-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-10-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''两个结点（连接点）之间有向的拓扑连接，由一条边和一个方向组成。''}]'
+  examples: []
+  id: 274
+  language_code: zho
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: 有向路段是有向边的别名。
+    state:
+      _dict:
+        content: 有向路段是有向边的别名。
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/32551.html
+        ref: ISO 19133:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 有向路段
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 有向路段
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 91a7a6fa-cf1a-563f-b5db-0ee399b30f9e
+status: valid

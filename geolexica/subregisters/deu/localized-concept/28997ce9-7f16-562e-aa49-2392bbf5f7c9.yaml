@@ -1,0 +1,165 @@
+data:
+  _revisions:
+    current: c94925
+    tree:
+      c94925:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            clause: '4.10'
+            link: https://www.iso.org/standard/26018.html
+            ref: ISO 19113:2002
+          date_accepted: '2002-12-01T00:00:00.000Z'
+          date_amended: '2013-12-15T00:00:00.000Z'
+          entry_status: retired
+          examples: []
+          id: 118
+          language_code: deu
+          lineage_source: ''
+          notes:
+          - A data quality scope for a dataset can comprise a dataset series to which
+            the dataset belongs, the dataset itself, or a smaller grouping of data
+            located physically within the dataset sharing common characteristics.
+            Common characteristics can be an identified feature type, feature attribute,
+            or feature relationship; data collection criteria; original source; or
+            a specified geographic or temporal extent.
+          release: '-1'
+          review_date: '2013-12-15T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2013-12-15T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19157:2013
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+            19157:2013).
+          review_indicator: ''
+          review_status: final
+          review_type: retirement
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: Geltungsbereich der Datenqualitätsangabe
+              normative_status: null
+              type: expression
+            state:
+              _dict:
+                designation: Geltungsbereich der Datenqualitätsangabe
+                normative_status: null
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2002-12-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2002-12-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2002-12-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2013-12-15T00:00:00.000Z'
+      type: amended
+    state:
+      _dict:
+        date: '2013-12-15T00:00:00.000Z'
+        type: amended
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  examples: []
+  id: 118
+  language_code: deu
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: A data quality scope for a dataset can comprise a dataset series to
+        which the dataset belongs, the dataset itself, or a smaller grouping of data
+        located physically within the dataset sharing common characteristics. Common
+        characteristics can be an identified feature type, feature attribute, or feature
+        relationship; data collection criteria; original source; or a specified geographic
+        or temporal extent.
+    state:
+      _dict:
+        content: A data quality scope for a dataset can comprise a dataset series
+          to which the dataset belongs, the dataset itself, or a smaller grouping
+          of data located physically within the dataset sharing common characteristics.
+          Common characteristics can be an identified feature type, feature attribute,
+          or feature relationship; data collection criteria; original source; or a
+          specified geographic or temporal extent.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '-1'
+  reviewDate: 2013-12-15
+  reviewDecisionDate: 2013-12-15
+  reviewDecisionEvent: Publication of ISO 19157:2013
+  review_decision: accepted
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19157:2013).
+  review_indicator: ''
+  review_status: final
+  review_type: retirement
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.10'
+        link: https://www.iso.org/standard/26018.html
+        ref: ISO 19113:2002
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ''
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: Geltungsbereich der Datenqualitätsangabe
+      type: expression
+    state:
+      _dict:
+        designation: Geltungsbereich der Datenqualitätsangabe
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 28997ce9-7f16-562e-aa49-2392bbf5f7c9
+status: retired

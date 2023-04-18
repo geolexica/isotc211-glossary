@@ -1,0 +1,123 @@
+data:
+  _revisions:
+    current: 36fc36
+    tree:
+      36fc36:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            ref: ANSI T1.523-2001
+          date_accepted: '2009-04-01T00:00:00.000Z'
+          entry_status: valid
+          examples: []
+          id: 916
+          language_code: deu
+          notes:
+          - Whereas data compaction reduces the amount of data used to represent a
+            given amount of information, data compression does not.
+          - Data compaction can be done through aggregation of like values in adjacent
+            grid cells, tiling schemes or other means of eliminating information that
+            is not relevant.
+          release: '2'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: Datenverdichtung
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: Datenverdichtung
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2009-04-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2009-04-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2009-04-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  examples: []
+  id: 916
+  language_code: deu
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Whereas data compaction reduces the amount of data used to represent
+        a given amount of information, data compression does not.
+    state:
+      _dict:
+        content: Whereas data compaction reduces the amount of data used to represent
+          a given amount of information, data compression does not.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Data compaction can be done through aggregation of like values in adjacent
+        grid cells, tiling schemes or other means of eliminating information that
+        is not relevant.
+    state:
+      _dict:
+        content: Data compaction can be done through aggregation of like values in
+          adjacent grid cells, tiling schemes or other means of eliminating information
+          that is not relevant.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '2'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        ref: ANSI T1.523-2001
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: Datenverdichtung
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: Datenverdichtung
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: f19855a6-9780-5be3-9bdc-3a584f37a316
+status: valid

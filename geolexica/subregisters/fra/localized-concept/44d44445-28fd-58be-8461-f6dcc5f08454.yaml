@@ -1,0 +1,112 @@
+data:
+  _revisions:
+    current: d39ff7
+    tree:
+      d39ff7:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/36760.html
+            ref: ISO 19131
+          date_accepted: '2007-04-15T00:00:00.000Z'
+          definition: description détaillée d'un jeu de données ou d'une série de
+            jeux de données comprenant également des informations supplémentaires
+            permettant leur création, fourniture  et utilisation par une tierce partie
+          entry_status: valid
+          examples: []
+          id: 111
+          language_code: fra
+          lineage_source: ''
+          notes: []
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: spécification de produit (de données)
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: spécification de produit (de données)
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2007-04-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2007-04-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2007-04-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': "description détaillée d''un jeu de données ou d''une
+    série de jeux de données comprenant également des informations supplémentaires
+    permettant leur création, fourniture et utilisation par une tierce partie"}]'
+  examples: []
+  id: 111
+  language_code: fra
+  notes: []
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/36760.html
+        ref: ISO 19131
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ''
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: spécification de produit (de données)
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: spécification de produit (de données)
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 44d44445-28fd-58be-8461-f6dcc5f08454
+status: valid

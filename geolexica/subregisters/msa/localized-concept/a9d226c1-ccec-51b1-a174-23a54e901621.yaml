@@ -1,0 +1,155 @@
+data:
+  _revisions:
+    current: 710e30
+    tree:
+      710e30:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          abbrev: www
+          authoritative_source:
+            clause: 4.1.40
+            link: https://www.iso.org/standard/59164.html
+            ref: ISO 19101-1:2014
+          date_accepted: '2014-11-01T00:00:00.000Z'
+          definition: Koleksi jutaan tapak web dan laman web yang popular di kalangan
+            pengguna Internet yang merupakan sumber maklumat elektronik yang terbanyak
+            dalam Internet. Secara teknikal, semua sumber dan pengguna Internet menggunakan
+            protokol http .
+          entry_status: valid
+          examples: []
+          id: 1435
+          language_code: msa
+          lineage_source: Pusat Rujukan Persuratan Melayu (DBP)
+          notes: []
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: Jaringan Sejagat
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: Jaringan Sejagat
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: Web
+              type: expression
+            state:
+              _dict:
+                designation: Web
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-11-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-11-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-11-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''Koleksi jutaan tapak web dan laman web yang popular
+    di kalangan pengguna Internet yang merupakan sumber maklumat elektronik yang terbanyak
+    dalam Internet. Secara teknikal, semua sumber dan pengguna Internet menggunakan
+    protokol http .''}]'
+  examples: []
+  id: 1435
+  language_code: msa
+  notes: []
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: 4.1.40
+        link: https://www.iso.org/standard/59164.html
+        ref: ISO 19101-1:2014
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: Pusat Rujukan Persuratan Melayu (DBP)
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: www
+      type: abbreviation
+    state:
+      _dict:
+        designation: www
+        type: abbreviation
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: Jaringan Sejagat
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: Jaringan Sejagat
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: Web
+      type: expression
+    state:
+      _dict:
+        designation: Web
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: a9d226c1-ccec-51b1-a174-23a54e901621
+status: valid

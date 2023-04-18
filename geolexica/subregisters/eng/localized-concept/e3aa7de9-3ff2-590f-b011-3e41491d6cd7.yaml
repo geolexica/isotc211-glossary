@@ -1,0 +1,132 @@
+data:
+  _revisions:
+    current: 51610d
+    tree:
+      51610d:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.18'
+            link: https://www.iso.org/standard/64768.html
+            ref: ISO/TS 19159-2:2016
+          date_accepted: '2016-04-15T00:00:00.000Z'
+          definition: relative position vector of one sensor with respect to another
+            in a direct georeferencing system
+          entry_status: valid
+          examples: []
+          id: 1940
+          language_code: eng
+          notes:
+          - For example, with aerial mapping cameras, there are lever arms between
+            the inertial centre of the Inertial Measurement Unit (IMU) and the phase
+            centre of the Global Navigation Satellite System (GNSS) antenna, each
+            with respect to the camera perspective centre within the lens of the camera.
+          release: '4'
+          review_date: '2014-08-26T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2016-04-15T00:00:00.000Z'
+          review_decision_event: Normal ISO processing
+          review_decision_notes: Publication of document ISO/TS 19159-2:2016(E)
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: lever arm
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: lever arm
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2016-04-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2016-04-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2016-04-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''relative position vector of one sensor with respect
+    to another in a direct georeferencing system''}]'
+  examples: []
+  id: 1940
+  language_code: eng
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: For example, with aerial mapping cameras, there are lever arms between
+        the inertial centre of the Inertial Measurement Unit (IMU) and the phase centre
+        of the Global Navigation Satellite System (GNSS) antenna, each with respect
+        to the camera perspective centre within the lens of the camera.
+    state:
+      _dict:
+        content: For example, with aerial mapping cameras, there are lever arms between
+          the inertial centre of the Inertial Measurement Unit (IMU) and the phase
+          centre of the Global Navigation Satellite System (GNSS) antenna, each with
+          respect to the camera perspective centre within the lens of the camera.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '4'
+  reviewDate: 2014-08-26
+  reviewDecisionDate: 2016-04-15
+  reviewDecisionEvent: Normal ISO processing
+  review_decision: accepted
+  review_decision_notes: Publication of document ISO/TS 19159-2:2016(E)
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.18'
+        link: https://www.iso.org/standard/64768.html
+        ref: ISO/TS 19159-2:2016
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: lever arm
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: lever arm
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: e3aa7de9-3ff2-590f-b011-3e41491d6cd7
+status: valid

@@ -1,0 +1,134 @@
+data:
+  _revisions:
+    current: 025cd9
+    tree:
+      025cd9:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32551.html
+            ref: ISO 19133:2005
+          date_accepted: '2005-10-15T00:00:00.000Z'
+          entry_status: valid
+          examples: []
+          id: 745
+          language_code: deu
+          notes:
+          - Includes pedestrians. See ISO 14825. In this International Standard, vehicle
+            can be replaced by traveller without any change of intent.
+          release: '1'
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: zu navigierendes Fahrzeug
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: zu navigierendes Fahrzeug
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: traveller
+              type: expression
+            state:
+              _dict:
+                designation: traveller
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-10-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-10-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-10-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  examples: []
+  id: 745
+  language_code: deu
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Includes pedestrians. See ISO 14825. In this International Standard,
+        vehicle can be replaced by traveller without any change of intent.
+    state:
+      _dict:
+        content: Includes pedestrians. See ISO 14825. In this International Standard,
+          vehicle can be replaced by traveller without any change of intent.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/32551.html
+        ref: ISO 19133:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: zu navigierendes Fahrzeug
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: zu navigierendes Fahrzeug
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: traveller
+      type: expression
+    state:
+      _dict:
+        designation: traveller
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 9f9016fb-39d5-5f50-a245-1b980ab93316
+status: valid

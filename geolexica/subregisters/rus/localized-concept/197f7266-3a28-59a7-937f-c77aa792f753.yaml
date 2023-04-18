@@ -1,0 +1,126 @@
+data:
+  _revisions:
+    current: 919f9f
+    tree:
+      919f9f:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (Adapted from)
+            link: https://www.iso.org/standard/32620.html
+            ref: 'ISO/IEC 19501:2005 '
+          date_accepted: '2003-05-01T00:00:00.000Z'
+          definition: описание множества объектов, обладающих общими атрибутами, операциями,
+            методами,  отношениями и семантикой
+          entry_status: valid
+          examples: []
+          id: 43
+          language_code: rus
+          lineage_source: Internet
+          notes:
+          - Класс может использовать множество интерфейсов для определения набора
+            операций, которые он обеспечивает для своей среды. См. термин «интерфейс»
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: класс <UML>
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: класс <UML>
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2003-05-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2003-05-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2003-05-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''описание множества объектов, обладающих общими атрибутами,
+    операциями, методами, отношениями и семантикой''}]'
+  examples: []
+  id: 43
+  language_code: rus
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Класс может использовать множество интерфейсов для определения набора
+        операций, которые он обеспечивает для своей среды. См. термин «интерфейс»
+    state:
+      _dict:
+        content: Класс может использовать множество интерфейсов для определения набора
+          операций, которые он обеспечивает для своей среды. См. термин «интерфейс»
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: (Adapted from)
+        link: https://www.iso.org/standard/32620.html
+        ref: 'ISO/IEC 19501:2005 '
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: Internet
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: класс <UML>
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: класс <UML>
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 197f7266-3a28-59a7-937f-c77aa792f753
+status: valid

@@ -1,0 +1,124 @@
+data:
+  _revisions:
+    current: 907b86
+    tree:
+      907b86:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/40121.html
+            ref: ISO 19123:2005
+          date_accepted: '2003-05-01T00:00:00.000Z'
+          definition: siatka złożona co najmniej z dwóch zbiorów krzywych, w taki
+            sposób, że krzywe każdego zbioru przecinają krzywe innego zbioru w sposób
+            algorytmiczny [ISO 19123]
+          examples: []
+          id: 221
+          language_code: pol
+          lineage_source: PN-EN-ISO 19123
+          notes:
+          - Krzywe dzielą przestrzeń na oczka (komórki) siatki.
+          release: '1'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: siatka
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: siatka
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2003-05-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2003-05-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2003-05-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''siatka złożona co najmniej z dwóch zbiorów krzywych,
+    w taki sposób, że krzywe każdego zbioru przecinają krzywe innego zbioru w sposób
+    algorytmiczny [ISO 19123]''}]'
+  examples: []
+  id: 221
+  language_code: pol
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Krzywe dzielą przestrzeń na oczka (komórki) siatki.
+    state:
+      _dict:
+        content: Krzywe dzielą przestrzeń na oczka (komórki) siatki.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/40121.html
+        ref: ISO 19123:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: PN-EN-ISO 19123
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: siatka
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: siatka
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 52323c25-fd94-5922-b611-2ce11dfe11e6
+status: valid

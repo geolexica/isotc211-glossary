@@ -1,0 +1,126 @@
+data:
+  _revisions:
+    current: 0a98b0
+    tree:
+      0a98b0:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          abbrev: PI
+          authoritative_source:
+            clause: '4.9'
+            link: https://www.iso.org/standard/32573.html
+            ref: ISO 19155:2012
+          date_accepted: '2012-11-01T00:00:00.000Z'
+          definition: referencia que identifica un lugar
+          entry_status: valid
+          examples: []
+          id: 1337
+          language_code: spa
+          notes:
+          - El mismo lugar se puede referenciar por múltiples instancias de identificador
+            de lugar. Cada instancia estará asociado con un sistema de referencia
+            diferente.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: identificador de lugar
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: identificador de lugar
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2012-11-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2012-11-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2012-11-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''referencia que identifica un lugar''}]'
+  examples: []
+  id: 1337
+  language_code: spa
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: El mismo lugar se puede referenciar por múltiples instancias de identificador
+        de lugar. Cada instancia estará asociado con un sistema de referencia diferente.
+    state:
+      _dict:
+        content: El mismo lugar se puede referenciar por múltiples instancias de identificador
+          de lugar. Cada instancia estará asociado con un sistema de referencia diferente.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.9'
+        link: https://www.iso.org/standard/32573.html
+        ref: ISO 19155:2012
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: PI
+      type: abbreviation
+    state:
+      _dict:
+        designation: PI
+        type: abbreviation
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: identificador de lugar
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: identificador de lugar
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 6d8e4fae-6187-53e0-8bf8-1c54b74bfbdf
+status: valid

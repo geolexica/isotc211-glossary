@@ -1,0 +1,111 @@
+data:
+  _revisions:
+    current: f3bf16
+    tree:
+      f3bf16:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32551.html
+            ref: ISO 19133:2005
+          date_accepted: '2005-10-15T00:00:00.000Z'
+          definition: directed topological connection between two nodes (junctions),
+            consisting of an edge and a direction
+          entry_status: valid
+          examples: []
+          id: 274
+          language_code: eng
+          notes:
+          - Link is an alias for directed edge.
+          release: '1'
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: link
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: link
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-10-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-10-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-10-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''directed topological connection between two nodes
+    (junctions), consisting of an edge and a direction''}]'
+  examples: []
+  id: 274
+  language_code: eng
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Link is an alias for directed edge.
+    state:
+      _dict:
+        content: Link is an alias for directed edge.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/32551.html
+        ref: ISO 19133:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: link
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: link
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: d5102ab0-9597-58b9-bbbe-a774778ec462
+status: valid

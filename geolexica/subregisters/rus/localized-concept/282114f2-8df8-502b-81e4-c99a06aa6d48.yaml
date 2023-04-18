@@ -1,0 +1,122 @@
+data:
+  _revisions:
+    current: e3f6eb
+    tree:
+      e3f6eb:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/37800.html
+            ref: ISO/TS 19103:2005
+          date_accepted: '2005-07-15T00:00:00.000Z'
+          definition: множество допустимых значений
+          entry_status: valid
+          examples:
+          - Область 3-28, все - целые числа, любой символ кодировки  ASCII, перечисление
+            всех допустимых значений (зеленый, голубой, белый)
+          id: 490
+          language_code: rus
+          lineage_source: Internet
+          notes: []
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: область значений
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: область значений
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-07-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-07-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-07-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''множество допустимых значений''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Область 3-28, все - целые числа, любой символ кодировки  ASCII, перечисление
+        всех допустимых значений (зеленый, голубой, белый)
+    state:
+      _dict:
+        content: Область 3-28, все - целые числа, любой символ кодировки  ASCII, перечисление
+          всех допустимых значений (зеленый, голубой, белый)
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 490
+  language_code: rus
+  notes: []
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/37800.html
+        ref: ISO/TS 19103:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: Internet
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: область значений
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: область значений
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 282114f2-8df8-502b-81e4-c99a06aa6d48
+status: valid

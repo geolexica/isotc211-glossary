@@ -1,0 +1,127 @@
+data:
+  _revisions:
+    current: fe6f07
+    tree:
+      fe6f07:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          abbrev: LBS- сервис
+          authoritative_source:
+            link: https://www.iso.org/standard/32551.html
+            ref: ISO 19133:2005
+          date_accepted: '2005-10-15T00:00:00.000Z'
+          definition: сервис, который  дает ответ на запрос клиента, либо другого
+            предмета, объекта или лица, о его местоположении и других обстоятельствах,
+            зависимых от его местоположения
+          entry_status: valid
+          examples: []
+          id: 278
+          language_code: rus
+          lineage_source: Internet
+          notes: []
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: сервис, основанный на местоположении
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: сервис, основанный на местоположении
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-10-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-10-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-10-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''сервис, который дает ответ на запрос клиента, либо
+    другого предмета, объекта или лица, о его местоположении и других обстоятельствах,
+    зависимых от его местоположения''}]'
+  examples: []
+  id: 278
+  language_code: rus
+  notes: []
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/32551.html
+        ref: ISO 19133:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: Internet
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: LBS- сервис
+      type: abbreviation
+    state:
+      _dict:
+        designation: LBS- сервис
+        type: abbreviation
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: сервис, основанный на местоположении
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: сервис, основанный на местоположении
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 29b9686e-4000-5d04-bc86-54fc4c4b2e91
+status: valid

@@ -1,0 +1,114 @@
+data:
+  _revisions:
+    current: a7de74
+    tree:
+      a7de74:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: 4.1.1.10
+            link: https://www.iso.org/standard/33636.html
+            ref: ISO 5127:2001
+          date_accepted: '2014-04-01T00:00:00.000Z'
+          definition: 기록을 생성, 수집, 유지 및 사용하는 개인 또는 기관
+          entry_status: valid
+          examples: []
+          id: 1439
+          language_code: kor
+          lineage_source: ISO 19115-1:2014, 4.16
+          lineage_source_similarity: '1'
+          notes: []
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 기원, 출처, 유래
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 기원, 출처, 유래
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-04-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-04-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-04-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''기록을 생성, 수집, 유지 및 사용하는 개인 또는 기관''}]'
+  examples: []
+  id: 1439
+  language_code: kor
+  lineage_source_similarity: '1'
+  notes: []
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: 4.1.1.10
+        link: https://www.iso.org/standard/33636.html
+        ref: ISO 5127:2001
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19115-1:2014, 4.16
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 기원, 출처, 유래
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 기원, 출처, 유래
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: b03c3722-a57a-54e6-850e-b2ad564a2ade
+status: valid

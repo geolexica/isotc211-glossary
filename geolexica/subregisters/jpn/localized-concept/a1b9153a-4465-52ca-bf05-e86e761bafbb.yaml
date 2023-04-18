@@ -1,0 +1,117 @@
+data:
+  _revisions:
+    current: 7e6338
+    tree:
+      7e6338:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          abbrev: SUT
+          authoritative_source:
+            link: https://www.iso.org/standard/26010.html
+            ref: ISO 19105:2000
+          date_accepted: '2000-12-15T00:00:00.000Z'
+          definition: 試験対象(IUT)を支援するために必要な計算機のハードウェア，ソフトウェア及び通信網。
+          entry_status: valid
+          examples: []
+          id: 440
+          language_code: jpn
+          notes: []
+          release: '1'
+          review_date: '2019-07-05T00:00:00.000Z'
+          review_indicator: ''
+          review_status: pending
+          review_type: retirement
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 試験対象システム，SUT
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 試験対象システム，SUT
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2000-12-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2000-12-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2000-12-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''試験対象(IUT)を支援するために必要な計算機のハードウェア，ソフトウェア及び通信網。''}]'
+  examples: []
+  id: 440
+  language_code: jpn
+  notes: []
+  release: '1'
+  reviewDate: 2019-07-05
+  review_indicator: ''
+  review_status: pending
+  review_type: retirement
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/26010.html
+        ref: ISO 19105:2000
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: SUT
+      type: abbreviation
+    state:
+      _dict:
+        designation: SUT
+        type: abbreviation
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 試験対象システム，SUT
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 試験対象システム，SUT
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: a1b9153a-4465-52ca-bf05-e86e761bafbb
+status: valid

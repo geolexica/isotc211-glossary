@@ -1,0 +1,96 @@
+data:
+  _revisions:
+    current: 2bceb1
+    tree:
+      2bceb1:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/26010.html
+            ref: ISO 19105:2000
+          date_accepted: '2000-12-15T00:00:00.000Z'
+          definition: 满足要求的实现。
+          entry_status: valid
+          examples: []
+          id: 77
+          language_code: zho
+          notes: []
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 一致性实现
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 一致性实现
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2000-12-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2000-12-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2000-12-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''满足要求的实现。''}]'
+  examples: []
+  id: 77
+  language_code: zho
+  notes: []
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/26010.html
+        ref: ISO 19105:2000
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 一致性实现
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 一致性实现
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 4b76d754-4b2c-5be3-a2a4-47e7d34956b4
+status: valid

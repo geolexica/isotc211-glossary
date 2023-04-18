@@ -1,0 +1,107 @@
+data:
+  _revisions:
+    current: 9d2107
+    tree:
+      9d2107:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/40121.html
+            ref: ISO 19123:2005
+          date_accepted: '2003-05-01T00:00:00.000Z'
+          definition: 由两个或多个曲线集所组成的网络，曲线集中的成员按某种算法相交。
+          entry_status: valid
+          examples: []
+          id: 221
+          language_code: zho
+          notes:
+          - 曲线集把空间分割成格网单元。
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 格网
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 格网
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2003-05-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2003-05-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2003-05-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''由两个或多个曲线集所组成的网络，曲线集中的成员按某种算法相交。''}]'
+  examples: []
+  id: 221
+  language_code: zho
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: 曲线集把空间分割成格网单元。
+    state:
+      _dict:
+        content: 曲线集把空间分割成格网单元。
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/40121.html
+        ref: ISO 19123:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 格网
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 格网
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 12a5c051-f1c9-5c33-a4da-ed2d3205260a
+status: valid

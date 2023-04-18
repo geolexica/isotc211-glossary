@@ -1,0 +1,141 @@
+data:
+  _revisions:
+    current: 5de4b8
+    tree:
+      5de4b8:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.24
+            link: https://www.iso.org/standard/66175.html
+            ref: ISO 19107:2019
+          date_accepted: '2003-05-01T00:00:00.000Z'
+          definition: フェイスとその向きの一つとの間の関連を表す有向位相オブジェクト。
+          entry_status: valid
+          examples: []
+          id: 137
+          language_code: jpn
+          lineage_source: ISO 19107:2003(E)
+          lineage_source_similarity: 1
+          notes:
+          - 有向フェイスの外部境界を構成する有向エッジの向きは，この有向フェイスの正の側からみて，正の向きが決まる。位相立体の境界を示す有向フェイスの向きは，この位相立体から離れる方向を指す。隣接する位相立体では，それらが共有する境界には異なる向きを付けることになるが，これは，隣接するフェイスとそれらが共有するエッジとの間の同種の関連と整合している。有向フェイスは，双対境界関係においてフェイスとエッジとの間の空間的な関係を保持するために用いる。
+          release: '1'
+          review_date: '2019-12-02T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-12-02T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19107:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19107:2003
+            to ISO 19107:2019(E), 3.24. Lineage source added as ISO 19107:2003(E)
+          review_indicator: ''
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 有向フェイス
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 有向フェイス
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2003-05-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2003-05-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2003-05-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''フェイスとその向きの一つとの間の関連を表す有向位相オブジェクト。''}]'
+  examples: []
+  id: 137
+  language_code: jpn
+  lineage_source_similarity: 1
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: 有向フェイスの外部境界を構成する有向エッジの向きは，この有向フェイスの正の側からみて，正の向きが決まる。位相立体の境界を示す有向フェイスの向きは，この位相立体から離れる方向を指す。隣接する位相立体では，それらが共有する境界には異なる向きを付けることになるが，これは，隣接するフェイスとそれらが共有するエッジとの間の同種の関連と整合している。有向フェイスは，双対境界関係においてフェイスとエッジとの間の空間的な関係を保持するために用いる。
+    state:
+      _dict:
+        content: 有向フェイスの外部境界を構成する有向エッジの向きは，この有向フェイスの正の側からみて，正の向きが決まる。位相立体の境界を示す有向フェイスの向きは，この位相立体から離れる方向を指す。隣接する位相立体では，それらが共有する境界には異なる向きを付けることになるが，これは，隣接するフェイスとそれらが共有するエッジとの間の同種の関連と整合している。有向フェイスは，双対境界関係においてフェイスとエッジとの間の空間的な関係を保持するために用いる。
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  reviewDate: 2019-12-02
+  reviewDecisionDate: 2019-12-02
+  reviewDecisionEvent: Publication of ISO 19107:2019(E)
+  review_decision: accepted
+  review_decision_notes: Authoritative reference changed from ISO 19107:2003 to ISO
+    19107:2019(E), 3.24. Lineage source added as ISO 19107:2003(E)
+  review_indicator: ''
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: (E), 3.24
+        link: https://www.iso.org/standard/66175.html
+        ref: ISO 19107:2019
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19107:2003(E)
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 有向フェイス
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 有向フェイス
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 849d218e-5278-5794-b619-b48cf5e968d3
+status: valid

@@ -1,0 +1,131 @@
+data:
+  _revisions:
+    current: b06275
+    tree:
+      b06275:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/40121.html
+            ref: ISO 19123:2005
+          date_accepted: '2003-05-01T00:00:00.000Z'
+          definition: 1. Permukaan yang dirintangi silangan garis mendatar dan mengufuk
+            yang sekata. 2. Jadual hamparan elektronik yang terdiri daripada lajur
+            dan baris. 3. Garis paksi-X dan paksi-Y yang berjarak sekata pada carta
+            atau graf untuk membantu pemplotan titik data. 4. Garis yang menyusur
+            keluar dari pusat carta pai.
+          entry_status: valid
+          examples: []
+          id: 221
+          language_code: msa
+          lineage_source: Pusat Rujukan Persuratan Melayu (DBP)
+          notes:
+          - The curves partition a space into grid cells.
+          release: '1'
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: grid
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: grid
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2003-05-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2003-05-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2003-05-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''1. Permukaan yang dirintangi silangan garis mendatar
+    dan mengufuk yang sekata. 2. Jadual hamparan elektronik yang terdiri daripada
+    lajur dan baris. 3. Garis paksi-X dan paksi-Y yang berjarak sekata pada carta
+    atau graf untuk membantu pemplotan titik data. 4. Garis yang menyusur keluar dari
+    pusat carta pai.''}]'
+  examples: []
+  id: 221
+  language_code: msa
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: The curves partition a space into grid cells.
+    state:
+      _dict:
+        content: The curves partition a space into grid cells.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/40121.html
+        ref: ISO 19123:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: Pusat Rujukan Persuratan Melayu (DBP)
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: grid
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: grid
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 6c7299ae-930d-5513-acf6-de1ecce83237
+status: valid

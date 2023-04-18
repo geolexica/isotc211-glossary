@@ -1,0 +1,208 @@
+data:
+  _revisions:
+    current: 7c9739
+    tree:
+      7c9739:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '2.15'
+            link: https://www.iso.org/standard/45324.html
+            ref: ISO/IEC Guide 99:2007
+          date_accepted: '2014-07-15T00:00:00.000Z'
+          definition: nivel de concordancia entre valores obtenidos por repetición
+            de medidas en iguales o similares condiciones de toma
+          entry_status: valid
+          examples: []
+          id: 1465
+          language_code: spa
+          lineage_source: ISO/TS 19159-1:2014, 4.19
+          lineage_source_similarity: 1
+          notes:
+          - la precisión de la medida se expresa generalmente de manera numérica por
+            medidas de imprecisión, como la desvisación estándar, la varianza o el
+            coeficiente de variación de las condiciones especificadas en la medida.
+          - Las " condiciones específicadas" pueden ser, por ejemplo, las condiciones
+            de repetibilidad de la medida , las condiciones de precisión intermedia
+            de la medición o las condiciones de reproducibilidad de la medición (véase
+            la norma ISO 5725-3 ) .
+          - La precisión de la medida se utiliza para definir repetibilidad de la
+            medició , la precisión de medición intermedia y la reproducibilidad de
+            la medición.
+          - A veces "precisión de la medida" se utiliza erróneamente en el sentido
+            de exactitud de la medida.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: precisión de una medición
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: precisión de una medición
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: precision
+              type: expression
+            state:
+              _dict:
+                designation: precision
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-07-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-07-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-07-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''nivel de concordancia entre valores obtenidos por
+    repetición de medidas en iguales o similares condiciones de toma''}]'
+  examples: []
+  id: 1465
+  language_code: spa
+  lineage_source_similarity: 1
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: la precisión de la medida se expresa generalmente de manera numérica
+        por medidas de imprecisión, como la desvisación estándar, la varianza o el
+        coeficiente de variación de las condiciones especificadas en la medida.
+    state:
+      _dict:
+        content: la precisión de la medida se expresa generalmente de manera numérica
+          por medidas de imprecisión, como la desvisación estándar, la varianza o
+          el coeficiente de variación de las condiciones especificadas en la medida.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Las " condiciones específicadas" pueden ser, por ejemplo, las condiciones
+        de repetibilidad de la medida , las condiciones de precisión intermedia de
+        la medición o las condiciones de reproducibilidad de la medición (véase la
+        norma ISO 5725-3 ) .
+    state:
+      _dict:
+        content: Las " condiciones específicadas" pueden ser, por ejemplo, las condiciones
+          de repetibilidad de la medida , las condiciones de precisión intermedia
+          de la medición o las condiciones de reproducibilidad de la medición (véase
+          la norma ISO 5725-3 ) .
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: La precisión de la medida se utiliza para definir repetibilidad de
+        la medició , la precisión de medición intermedia y la reproducibilidad de
+        la medición.
+    state:
+      _dict:
+        content: La precisión de la medida se utiliza para definir repetibilidad de
+          la medició , la precisión de medición intermedia y la reproducibilidad de
+          la medición.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: A veces "precisión de la medida" se utiliza erróneamente en el sentido
+        de exactitud de la medida.
+    state:
+      _dict:
+        content: A veces "precisión de la medida" se utiliza erróneamente en el sentido
+          de exactitud de la medida.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '2.15'
+        link: https://www.iso.org/standard/45324.html
+        ref: ISO/IEC Guide 99:2007
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO/TS 19159-1:2014, 4.19
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: precisión de una medición
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: precisión de una medición
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: precision
+      type: expression
+    state:
+      _dict:
+        designation: precision
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: d71ccc58-1c4d-5bc5-bdc7-b569de03b5b7
+status: valid

@@ -1,0 +1,117 @@
+data:
+  _revisions:
+    current: 8a906a
+    tree:
+      8a906a:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/26012.html
+            ref: ISO 19107:2003
+          date_accepted: '2003-05-01T00:00:00.000Z'
+          definition: مجموعة محددة  من العناصر المسماه  ( كائنات أو قيم )   ذات ارتباط
+            فيما بينها
+          entry_status: valid
+          examples: []
+          id: 366
+          language_code: ara
+          notes:
+          - منطقياً , السجل هو مجموعة من الأزواج < اسم , مفردة >.
+          release: '1'
+          review_date: '2016-02-15T00:00:00.000Z'
+          review_indicator: ''
+          review_status: pending
+          review_type: retirement
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: بيان
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: بيان
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2003-05-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2003-05-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2003-05-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''مجموعة محددة من العناصر المسماه ( كائنات أو قيم )
+    ذات ارتباط فيما بينها''}]'
+  examples: []
+  id: 366
+  language_code: ara
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: منطقياً , السجل هو مجموعة من الأزواج < اسم , مفردة >.
+    state:
+      _dict:
+        content: منطقياً , السجل هو مجموعة من الأزواج < اسم , مفردة >.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  reviewDate: 2016-02-15
+  review_indicator: ''
+  review_status: pending
+  review_type: retirement
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/26012.html
+        ref: ISO 19107:2003
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: بيان
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: بيان
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: c71fb530-a8cb-5132-975b-409e853e1660
+status: valid

@@ -1,0 +1,129 @@
+data:
+  _revisions:
+    current: fa8412
+    tree:
+      fa8412:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.41'
+            link: https://www.iso.org/standard/32571.html
+            ref: ISO 19153:2014
+          date_accepted: '2014-02-15T00:00:00.000Z'
+          definition: действие или процесс устранения ошибки или недостатка
+          entry_status: valid
+          examples: []
+          id: 1249
+          language_code: rus
+          lineage_source: ISO 19153:2014
+          notes:
+          - исправление позволяет повысить доверие, поскольку снижает ожидаемый риск.
+            Первым действием в последовательности исправления является обнаружение
+            неисправности.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: Исправление
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: Исправление
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-02-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-02-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-02-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''действие или процесс устранения ошибки или недостатка''}]'
+  examples: []
+  id: 1249
+  language_code: rus
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: исправление позволяет повысить доверие, поскольку снижает ожидаемый
+        риск. Первым действием в последовательности исправления является обнаружение
+        неисправности.
+    state:
+      _dict:
+        content: исправление позволяет повысить доверие, поскольку снижает ожидаемый
+          риск. Первым действием в последовательности исправления является обнаружение
+          неисправности.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.41'
+        link: https://www.iso.org/standard/32571.html
+        ref: ISO 19153:2014
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19153:2014
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: Исправление
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: Исправление
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: e35f023e-48ee-55fd-8b5d-63e8891e64b9
+status: valid

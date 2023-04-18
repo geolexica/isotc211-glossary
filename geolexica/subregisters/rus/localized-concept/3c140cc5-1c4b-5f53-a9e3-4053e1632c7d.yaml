@@ -1,0 +1,134 @@
+data:
+  _revisions:
+    current: 606d11
+    tree:
+      606d11:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            ref: '19153'
+          date_accepted: '2012-12-01T00:00:00.000Z'
+          definition: источник с административным описанием (когда это применимо)
+            участвующих сторон, прав, ограничений и обязанностей, созданный и затронутый
+            в основных административных единицах
+          entry_status: valid
+          examples:
+          - Доказательство прав стороны на базовую административную единицу
+          - Документ, описывающий сделку (акт), или суждение владельца реестра.
+          id: 1286
+          language_code: rus
+          lineage_source: перевод ИСО 19153:2014
+          notes: []
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: административный источник
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: административный источник
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2012-12-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2012-12-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2012-12-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''источник с административным описанием (когда это применимо)
+    участвующих сторон, прав, ограничений и обязанностей, созданный и затронутый в
+    основных административных единицах''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Доказательство прав стороны на базовую административную единицу
+    state:
+      _dict:
+        content: Доказательство прав стороны на базовую административную единицу
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Документ, описывающий сделку (акт), или суждение владельца реестра.
+    state:
+      _dict:
+        content: Документ, описывающий сделку (акт), или суждение владельца реестра.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 1286
+  language_code: rus
+  notes: []
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        ref: '19153'
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: перевод ИСО 19153:2014
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: административный источник
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: административный источник
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 3c140cc5-1c4b-5f53-a9e3-4053e1632c7d
+status: valid

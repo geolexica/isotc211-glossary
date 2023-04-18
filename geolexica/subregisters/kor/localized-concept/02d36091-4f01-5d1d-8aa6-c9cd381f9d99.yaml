@@ -1,0 +1,155 @@
+data:
+  _revisions:
+    current: 4ede5b
+    tree:
+      4ede5b:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.9'
+            link: https://www.iso.org/standard/26002.html
+            ref: ISO 19101:2002
+          date_accepted: '2008-12-30T00:00:00.000Z'
+          date_amended: '2014-11-01T00:00:00.000Z'
+          definition: 품질정보를 기술하는 데이터셋의 정량적 컴포넌트
+          entry_status: retired
+          examples: []
+          id: 113
+          language_code: kor
+          lineage_source: ''
+          notes:
+          - 데이터셋에 대한 데이터 품질 요소의 적용 여부는 데이터셋의 내용과 그 제품 사양 모두에 달려 있다. 모든 데이터 요소를 모든
+            데이터셋에 적용하는 것은 어려울 수 있다.
+          release: '-1'
+          review_date: '2010-10-12T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2014-11-01T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+            19101-1:2014).
+          review_indicator: ''
+          review_status: final
+          review_type: retirement
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 데이터 품질 요소
+              normative_status: null
+              type: expression
+            state:
+              _dict:
+                designation: 데이터 품질 요소
+                normative_status: null
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2008-12-30T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2008-12-30T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2008-12-30T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-11-01T00:00:00.000Z'
+      type: amended
+    state:
+      _dict:
+        date: '2014-11-01T00:00:00.000Z'
+        type: amended
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''품질정보를 기술하는 데이터셋의 정량적 컴포넌트''}]'
+  examples: []
+  id: 113
+  language_code: kor
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: 데이터셋에 대한 데이터 품질 요소의 적용 여부는 데이터셋의 내용과 그 제품 사양 모두에 달려 있다. 모든 데이터 요소를
+        모든 데이터셋에 적용하는 것은 어려울 수 있다.
+    state:
+      _dict:
+        content: 데이터셋에 대한 데이터 품질 요소의 적용 여부는 데이터셋의 내용과 그 제품 사양 모두에 달려 있다. 모든 데이터 요소를
+          모든 데이터셋에 적용하는 것은 어려울 수 있다.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '-1'
+  reviewDate: 2010-10-12
+  reviewDecisionDate: 2014-11-01
+  reviewDecisionEvent: Publication of ISO 19101-1:2014
+  review_decision: accepted
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19101-1:2014).
+  review_indicator: ''
+  review_status: final
+  review_type: retirement
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.9'
+        link: https://www.iso.org/standard/26002.html
+        ref: ISO 19101:2002
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ''
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 데이터 품질 요소
+      type: expression
+    state:
+      _dict:
+        designation: 데이터 품질 요소
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 02d36091-4f01-5d1d-8aa6-c9cd381f9d99
+status: retired

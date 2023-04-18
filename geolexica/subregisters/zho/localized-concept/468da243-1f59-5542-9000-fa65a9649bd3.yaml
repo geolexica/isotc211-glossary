@@ -1,0 +1,144 @@
+data:
+  _revisions:
+    current: 6e61e4
+    tree:
+      6e61e4:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            clause: (E), 3.9
+            link: https://www.iso.org/standard/66175.html
+            ref: ISO 19107:2019
+          date_accepted: '2003-05-01T00:00:00.000Z'
+          definition: 与特定的拓扑对象相关联，具有更高维数的拓扑单形的集合，这个拓扑对象在这些更高维数的拓扑单形的边界上。
+          entry_status: valid
+          examples: []
+          id: 48
+          language_code: zho
+          lineage_source: ISO 19107:2003(E)
+          lineage_source_similarity: 1
+          notes:
+          - 如果一个结点在边的边界上，则这个边就在这个结点的余边界上。任何方向参数，只要与这些关系中的一个相关联也就与其他的关系相关联。所以，如果一个结点是一条边的终结点（定义为边的正方向的终点），那么这个结点的正方向（定义为正向结点）将有边在它的余边界上。见
+            ISO 19107 图35。
+          release: '1'
+          review_date: '2019-12-02T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-12-02T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19107:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19107:2003
+            to ISO 19107:2019(E), 3.9. Lineage source added as ISO 19107:2003(E)
+          review_indicator: ''
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 余边界
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 余边界
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2003-05-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2003-05-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2003-05-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''与特定的拓扑对象相关联，具有更高维数的拓扑单形的集合，这个拓扑对象在这些更高维数的拓扑单形的边界上。''}]'
+  examples: []
+  id: 48
+  language_code: zho
+  lineage_source_similarity: 1
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: 如果一个结点在边的边界上，则这个边就在这个结点的余边界上。任何方向参数，只要与这些关系中的一个相关联也就与其他的关系相关联。所以，如果一个结点是一条边的终结点（定义为边的正方向的终点），那么这个结点的正方向（定义为正向结点）将有边在它的余边界上。见
+        ISO 19107 图35。
+    state:
+      _dict:
+        content: 如果一个结点在边的边界上，则这个边就在这个结点的余边界上。任何方向参数，只要与这些关系中的一个相关联也就与其他的关系相关联。所以，如果一个结点是一条边的终结点（定义为边的正方向的终点），那么这个结点的正方向（定义为正向结点）将有边在它的余边界上。见
+          ISO 19107 图35。
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  reviewDate: 2019-12-02
+  reviewDecisionDate: 2019-12-02
+  reviewDecisionEvent: Publication of ISO 19107:2019(E)
+  review_decision: accepted
+  review_decision_notes: Authoritative reference changed from ISO 19107:2003 to ISO
+    19107:2019(E), 3.9. Lineage source added as ISO 19107:2003(E)
+  review_indicator: ''
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: (E), 3.9
+        link: https://www.iso.org/standard/66175.html
+        ref: ISO 19107:2019
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19107:2003(E)
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 余边界
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 余边界
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 468da243-1f59-5542-9000-fa65a9649bd3
+status: valid

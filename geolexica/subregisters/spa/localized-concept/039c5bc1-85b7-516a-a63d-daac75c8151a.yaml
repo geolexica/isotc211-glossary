@@ -1,0 +1,136 @@
+data:
+  _revisions:
+    current: e2787c
+    tree:
+      e2787c:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32551.html
+            ref: ISO 19133:2005
+          date_accepted: '2005-10-15T00:00:00.000Z'
+          definition: persona sujeta a navegación o seguimiento
+          entry_status: valid
+          examples: []
+          id: 744
+          language_code: spa
+          notes:
+          - Incluye a peatones. Véase la Norma ISO 14825. En esta norma internacional,
+            viajero se puede sustituir por vehículo sin ningún cambio de sentido.
+          release: '1'
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: viajero
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: viajero
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: vehículo
+              type: expression
+            state:
+              _dict:
+                designation: vehículo
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-10-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-10-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-10-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''persona sujeta a navegación o seguimiento''}]'
+  examples: []
+  id: 744
+  language_code: spa
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Incluye a peatones. Véase la Norma ISO 14825. En esta norma internacional,
+        viajero se puede sustituir por vehículo sin ningún cambio de sentido.
+    state:
+      _dict:
+        content: Incluye a peatones. Véase la Norma ISO 14825. En esta norma internacional,
+          viajero se puede sustituir por vehículo sin ningún cambio de sentido.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/32551.html
+        ref: ISO 19133:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: viajero
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: viajero
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: vehículo
+      type: expression
+    state:
+      _dict:
+        designation: vehículo
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 039c5bc1-85b7-516a-a63d-daac75c8151a
+status: valid

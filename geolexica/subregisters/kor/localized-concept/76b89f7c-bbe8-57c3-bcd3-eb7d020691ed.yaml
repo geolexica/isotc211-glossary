@@ -1,0 +1,136 @@
+data:
+  _revisions:
+    current: d7b6a2
+    tree:
+      d7b6a2:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32551.html
+            ref: ISO 19133:2005
+          date_accepted: '2006-12-01T00:00:00.000Z'
+          definition: 요청된 라우팅을 잠정적으로 만족시키는, 후보 경로의 선택 역할을 담당하는 네트워크상 위치
+          entry_status: valid
+          examples: []
+          id: 498
+          language_code: kor
+          lineage_source: KS X ISO 19133
+          notes: []
+          release: '1'
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 경로점
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 경로점
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 경유점
+              type: expression
+            state:
+              _dict:
+                designation: 경유점
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2006-12-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2006-12-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2006-12-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''요청된 라우팅을 잠정적으로 만족시키는, 후보 경로의 선택 역할을 담당하는 네트워크상 위치''}]'
+  examples: []
+  id: 498
+  language_code: kor
+  notes: []
+  release: '1'
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/32551.html
+        ref: ISO 19133:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: KS X ISO 19133
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 경로점
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 경로점
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 경유점
+      type: expression
+    state:
+      _dict:
+        designation: 경유점
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 76b89f7c-bbe8-57c3-bcd3-eb7d020691ed
+status: valid

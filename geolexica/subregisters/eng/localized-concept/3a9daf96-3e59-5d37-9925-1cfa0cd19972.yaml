@@ -1,0 +1,123 @@
+data:
+  _revisions:
+    current: d703c4
+    tree:
+      d703c4:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/26012.html
+            ref: ISO 19107:2003
+          date_accepted: '2003-05-01T00:00:00.000Z'
+          definition: 3-dimensional geometric primitive, representing the continuous
+            image of a region of Euclidean 3 space
+          entry_status: valid
+          examples: []
+          id: 416
+          language_code: eng
+          notes:
+          - A solid is realizable locally as a three parameter set of direct positions.
+            The boundary of a solid is the set of oriented, closed surfaces that comprise
+            the limits of the solid.
+          release: '1'
+          review_date: '2016-02-15T00:00:00.000Z'
+          review_indicator: ''
+          review_status: pending
+          review_type: retirement
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: solid
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: solid
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2003-05-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2003-05-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2003-05-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''3-dimensional geometric primitive, representing the
+    continuous image of a region of Euclidean 3 space''}]'
+  examples: []
+  id: 416
+  language_code: eng
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: A solid is realizable locally as a three parameter set of direct positions.
+        The boundary of a solid is the set of oriented, closed surfaces that comprise
+        the limits of the solid.
+    state:
+      _dict:
+        content: A solid is realizable locally as a three parameter set of direct
+          positions. The boundary of a solid is the set of oriented, closed surfaces
+          that comprise the limits of the solid.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  reviewDate: 2016-02-15
+  review_indicator: ''
+  review_status: pending
+  review_type: retirement
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/26012.html
+        ref: ISO 19107:2003
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: solid
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: solid
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 3a9daf96-3e59-5d37-9925-1cfa0cd19972
+status: valid

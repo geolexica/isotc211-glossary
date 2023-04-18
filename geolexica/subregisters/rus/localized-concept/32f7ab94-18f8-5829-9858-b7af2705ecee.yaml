@@ -1,0 +1,140 @@
+data:
+  _revisions:
+    current: 9d1485
+    tree:
+      9d1485:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.10'
+            link: https://www.iso.org/standard/32576.html
+            ref: ISO/TS 19158:2012
+          date_accepted: '2012-10-15T00:00:00.000Z'
+          definition: составные части процесса
+          entry_status: valid
+          examples:
+          - В случае фотограмметрической съемк и воздушная триангуляция может рассматриваться
+            как подпроцесс
+          id: 1111
+          language_code: rus
+          lineage_source: ISO/TS 19158:2012
+          notes:
+          - Подпроцесс может быть разбит еще далее при необходимости обеспечить контроль
+            качества процесса
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: подпроцесс
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: подпроцесс
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2012-10-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2012-10-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2012-10-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''составные части процесса''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: В случае фотограмметрической съемк и воздушная триангуляция может рассматриваться
+        как подпроцесс
+    state:
+      _dict:
+        content: В случае фотограмметрической съемк и воздушная триангуляция может
+          рассматриваться как подпроцесс
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 1111
+  language_code: rus
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Подпроцесс может быть разбит еще далее при необходимости обеспечить
+        контроль качества процесса
+    state:
+      _dict:
+        content: Подпроцесс может быть разбит еще далее при необходимости обеспечить
+          контроль качества процесса
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.10'
+        link: https://www.iso.org/standard/32576.html
+        ref: ISO/TS 19158:2012
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO/TS 19158:2012
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: подпроцесс
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: подпроцесс
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 32f7ab94-18f8-5829-9858-b7af2705ecee
+status: valid

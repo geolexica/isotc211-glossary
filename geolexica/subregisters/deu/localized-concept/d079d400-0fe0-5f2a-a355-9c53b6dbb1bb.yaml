@@ -1,0 +1,113 @@
+data:
+  _revisions:
+    current: 0d5327
+    tree:
+      0d5327:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/40121.html
+            ref: ISO 19123:2005
+          date_accepted: '2003-05-01T00:00:00.000Z'
+          definition: Netz aus zwei oder mehr Kurvenscharen, wobei die Elemente einer
+            Schar jeweils die Elemente der anderen Scharen auf algorithmische Weise
+            schneiden
+          entry_status: valid
+          examples: []
+          id: 221
+          language_code: deu
+          notes:
+          - The curves partition a space into grid cells.
+          release: '1'
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: Gitter
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: Gitter
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2003-05-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2003-05-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2003-05-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''Netz aus zwei oder mehr Kurvenscharen, wobei die Elemente
+    einer Schar jeweils die Elemente der anderen Scharen auf algorithmische Weise
+    schneiden''}]'
+  examples: []
+  id: 221
+  language_code: deu
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: The curves partition a space into grid cells.
+    state:
+      _dict:
+        content: The curves partition a space into grid cells.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/40121.html
+        ref: ISO 19123:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: Gitter
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: Gitter
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: d079d400-0fe0-5f2a-a355-9c53b6dbb1bb
+status: valid

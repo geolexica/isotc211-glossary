@@ -1,0 +1,149 @@
+data:
+  _revisions:
+    current: 32c9a6
+    tree:
+      32c9a6:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.1'
+            link: https://www.iso.org/standard/26019.html
+            ref: ISO 19114:2003
+          date_accepted: '2002-12-01T00:00:00.000Z'
+          date_amended: '2013-12-15T00:00:00.000Z'
+          definition: valeur seuil ou ensemble de valeurs seuil devant être atteint
+            par des résultats d'évaluation de la qualité et utilisé pour déterminer
+            dans quelle mesure un jeu de données respecte les critères exposés dans
+            sa spécification de produit ou les exigences utilisateur
+          entry_status: retired
+          examples: []
+          id: 74
+          language_code: fra
+          lineage_source: ISO 19113
+          lineage_source_similarity: 1
+          notes: []
+          release: '-1'
+          review_date: '2010-07-09T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2013-12-15'
+          review_decision_event: Publication of ISO 19157:2013
+          review_decision_notes: The entry has been superseded. An entry with a revised
+            definition has been published in ISO 19157:2013
+          review_indicator: ''
+          review_status: final
+          review_type: supersession
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: niveau de conformité
+              normative_status: null
+              type: expression
+            state:
+              _dict:
+                designation: niveau de conformité
+                normative_status: null
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2002-12-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2002-12-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2002-12-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2013-12-15T00:00:00.000Z'
+      type: amended
+    state:
+      _dict:
+        date: '2013-12-15T00:00:00.000Z'
+        type: amended
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': "valeur seuil ou ensemble de valeurs seuil devant être
+    atteint par des résultats d''évaluation de la qualité et utilisé pour déterminer
+    dans quelle mesure un jeu de données respecte les critères exposés dans sa spécification
+    de produit ou les exigences utilisateur"}]'
+  examples: []
+  id: 74
+  language_code: fra
+  lineage_source_similarity: 1
+  notes: []
+  release: '-1'
+  reviewDate: 2010-07-09
+  reviewDecisionDate: 2013-12-15
+  reviewDecisionEvent: Publication of ISO 19157:2013
+  review_decision: accepted
+  review_decision_notes: The entry has been superseded. An entry with a revised definition
+    has been published in ISO 19157:2013
+  review_indicator: ''
+  review_status: final
+  review_type: supersession
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.1'
+        link: https://www.iso.org/standard/26019.html
+        ref: ISO 19114:2003
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19113
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: niveau de conformité
+      type: expression
+    state:
+      _dict:
+        designation: niveau de conformité
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 50739e42-f8ea-50b7-80e3-bc92a10cb033
+status: retired

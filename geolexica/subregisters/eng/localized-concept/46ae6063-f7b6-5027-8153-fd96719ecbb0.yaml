@@ -1,0 +1,129 @@
+data:
+  _revisions:
+    current: 33e56a
+    tree:
+      33e56a:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: Fifth Edition
+            ref: IHO Hydrographic Dictionary S-32
+          date_accepted: '2014-01-15T00:00:00.000Z'
+          definition: wide swath echo sounder for use in seabed mapping and surveying
+            using the multi-beam principle
+          entry_status: valid
+          examples: []
+          id: 1563
+          language_code: eng
+          lineage_source: ISO/TS 19130-2:2014, 4.44
+          lineage_source_similarity: '1'
+          notes:
+          - Depths are measured directly below and transverse to the ship's track.
+            The width of the swath is a function of the number of beams and their
+            aperture.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: multibeam SONAR
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: multibeam SONAR
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-01-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-01-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-01-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''wide swath echo sounder for use in seabed mapping
+    and surveying using the multi-beam principle''}]'
+  examples: []
+  id: 1563
+  language_code: eng
+  lineage_source_similarity: '1'
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Depths are measured directly below and transverse to the ship's track.
+        The width of the swath is a function of the number of beams and their aperture.
+    state:
+      _dict:
+        content: Depths are measured directly below and transverse to the ship's track.
+          The width of the swath is a function of the number of beams and their aperture.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: Fifth Edition
+        ref: IHO Hydrographic Dictionary S-32
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO/TS 19130-2:2014, 4.44
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: multibeam SONAR
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: multibeam SONAR
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 46ae6063-f7b6-5027-8153-fd96719ecbb0
+status: valid

@@ -1,0 +1,232 @@
+data:
+  _revisions:
+    current: 57dfe1
+    tree:
+      57dfe1:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          abbrev: baunit
+          authoritative_source:
+            clause: 4.1.2
+            link: https://www.iso.org/standard/51206.html
+            ref: ISO 19152:2012
+          date_accepted: '2012-12-01T00:00:00.000Z'
+          definition: entidad administrativa, sujeta a registro (por ley), o inscripción
+            (por derecho no formalizado, o derecho consuetudinario u otra relación
+            social de tenencia), consistente en cero o más unidades espaciales  a
+            la que se asocia como entidad completa, (uno o más) derechos (por ejemplo,
+            derecho de propiedad o derecho de uso del terreno), responsabilidades  o
+            restricciones únicos y homogéneos, tal y como se incluye en el sistema
+            de administración del territorio
+          entry_status: valid
+          examples:
+          - Una unidad de condominio que comprende dos unidades espaciales (por ejemplo,
+            un apartamento y un garaje), una granja que comprende una unidad espacial
+            (por ejemplo, una parcela de terreno), una servidumbre que comprenda una
+            unidad espacial (por ejemplo, una carretera que representa el derecho
+            de paso), un área de consolidación del terreno, o una unidad de derecho
+            de uso con varios titulares del derecho y con objetos delimitados
+          id: 1570
+          language_code: spa
+          notes:
+          - '"Único" significa que un derecho, restricción o responsabilidad se ostenta
+            por una o más partes (por ejemplo, propietarios o usuarios) para toda
+            la unidad básica administrativa. "Homogéneo" significa que un derecho,
+            restricción o responsabilidad (por ejemplo, propiedad, uso, tenencia social,
+            alquiler, o servidumbre) afecta a la unidad básica administrativa completa.
+            Para las restricciones es posible que haya cero partes'
+          - Una unidad básica administrativa puede jugar el papel de parte, por ejemplo,
+            cuando el titular del derecho es una unidad básica administrativa (y no
+            una persona u organización)
+          - Una baunit debería tener un identificador único cuando se registra o almacena
+          - Una baunit puede consistir en cero unidades espaciales, cuando existe
+            un registro y no se ha catastrado el objeto
+          - Las restricciones y las responsabilidades se pueden asociar a sus propias
+            baunits, cada una con su propio tipo de unidad espacial
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: unidad básica administrativa
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: unidad básica administrativa
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2012-12-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2012-12-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2012-12-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''entidad administrativa, sujeta a registro (por ley),
+    o inscripción (por derecho no formalizado, o derecho consuetudinario u otra relación
+    social de tenencia), consistente en cero o más unidades espaciales a la que se
+    asocia como entidad completa, (uno o más) derechos (por ejemplo, derecho de propiedad
+    o derecho de uso del terreno), responsabilidades o restricciones únicos y homogéneos,
+    tal y como se incluye en el sistema de administración del territorio''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Una unidad de condominio que comprende dos unidades espaciales (por
+        ejemplo, un apartamento y un garaje), una granja que comprende una unidad
+        espacial (por ejemplo, una parcela de terreno), una servidumbre que comprenda
+        una unidad espacial (por ejemplo, una carretera que representa el derecho
+        de paso), un área de consolidación del terreno, o una unidad de derecho de
+        uso con varios titulares del derecho y con objetos delimitados
+    state:
+      _dict:
+        content: Una unidad de condominio que comprende dos unidades espaciales (por
+          ejemplo, un apartamento y un garaje), una granja que comprende una unidad
+          espacial (por ejemplo, una parcela de terreno), una servidumbre que comprenda
+          una unidad espacial (por ejemplo, una carretera que representa el derecho
+          de paso), un área de consolidación del terreno, o una unidad de derecho
+          de uso con varios titulares del derecho y con objetos delimitados
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 1570
+  language_code: spa
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: '"Único" significa que un derecho, restricción o responsabilidad se
+        ostenta por una o más partes (por ejemplo, propietarios o usuarios) para toda
+        la unidad básica administrativa. "Homogéneo" significa que un derecho, restricción
+        o responsabilidad (por ejemplo, propiedad, uso, tenencia social, alquiler,
+        o servidumbre) afecta a la unidad básica administrativa completa. Para las
+        restricciones es posible que haya cero partes'
+    state:
+      _dict:
+        content: '"Único" significa que un derecho, restricción o responsabilidad
+          se ostenta por una o más partes (por ejemplo, propietarios o usuarios) para
+          toda la unidad básica administrativa. "Homogéneo" significa que un derecho,
+          restricción o responsabilidad (por ejemplo, propiedad, uso, tenencia social,
+          alquiler, o servidumbre) afecta a la unidad básica administrativa completa.
+          Para las restricciones es posible que haya cero partes'
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Una unidad básica administrativa puede jugar el papel de parte, por
+        ejemplo, cuando el titular del derecho es una unidad básica administrativa
+        (y no una persona u organización)
+    state:
+      _dict:
+        content: Una unidad básica administrativa puede jugar el papel de parte, por
+          ejemplo, cuando el titular del derecho es una unidad básica administrativa
+          (y no una persona u organización)
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Una baunit debería tener un identificador único cuando se registra
+        o almacena
+    state:
+      _dict:
+        content: Una baunit debería tener un identificador único cuando se registra
+          o almacena
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Una baunit puede consistir en cero unidades espaciales, cuando existe
+        un registro y no se ha catastrado el objeto
+    state:
+      _dict:
+        content: Una baunit puede consistir en cero unidades espaciales, cuando existe
+          un registro y no se ha catastrado el objeto
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Las restricciones y las responsabilidades se pueden asociar a sus propias
+        baunits, cada una con su propio tipo de unidad espacial
+    state:
+      _dict:
+        content: Las restricciones y las responsabilidades se pueden asociar a sus
+          propias baunits, cada una con su propio tipo de unidad espacial
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: 4.1.2
+        link: https://www.iso.org/standard/51206.html
+        ref: ISO 19152:2012
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: baunit
+      type: abbreviation
+    state:
+      _dict:
+        designation: baunit
+        type: abbreviation
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: unidad básica administrativa
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: unidad básica administrativa
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 3a59e8a0-2687-5846-b8bd-0fd1fb2fb563
+status: valid

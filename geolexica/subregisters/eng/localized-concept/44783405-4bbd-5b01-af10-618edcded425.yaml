@@ -1,0 +1,135 @@
+data:
+  _revisions:
+    current: 9f92ea
+    tree:
+      9f92ea:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.92
+            link: https://www.iso.org/standard/66175.html
+            ref: ISO 19107:2019
+          date_accepted: '2019-12-02T00:00:00.000Z'
+          definition: direction indicating the instantaneous direction of a curve
+            at a point
+          entry_status: valid
+          examples: []
+          id: 2091
+          language_code: eng
+          notes:
+          - The tangent is usually calculated by differentiation of a functional representation
+            of a curve but it may be approximated by a secant (double intersection)
+            line from the point passing through another nearby point on the curve.
+            The closer the second point is to the first, the better the approximation
+            of the tangent's direction.
+          release: '5'
+          review_date: '2019-12-02T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-12-02T00:00:00.000Z'
+          review_decision_event: Normal ISO processing
+          review_decision_notes: Publication of document ISO 19107:2019(E)
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: tangent <differential geometry, calculus>
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: tangent <differential geometry, calculus>
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2019-12-02T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2019-12-02T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2019-12-02T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''direction indicating the instantaneous direction of
+    a curve at a point''}]'
+  examples: []
+  id: 2091
+  language_code: eng
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: The tangent is usually calculated by differentiation of a functional
+        representation of a curve but it may be approximated by a secant (double intersection)
+        line from the point passing through another nearby point on the curve. The
+        closer the second point is to the first, the better the approximation of the
+        tangent's direction.
+    state:
+      _dict:
+        content: The tangent is usually calculated by differentiation of a functional
+          representation of a curve but it may be approximated by a secant (double
+          intersection) line from the point passing through another nearby point on
+          the curve. The closer the second point is to the first, the better the approximation
+          of the tangent's direction.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '5'
+  reviewDate: 2019-12-02
+  reviewDecisionDate: 2019-12-02
+  reviewDecisionEvent: Normal ISO processing
+  review_decision: accepted
+  review_decision_notes: Publication of document ISO 19107:2019(E)
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: (E), 3.92
+        link: https://www.iso.org/standard/66175.html
+        ref: ISO 19107:2019
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: tangent <differential geometry, calculus>
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: tangent <differential geometry, calculus>
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 44783405-4bbd-5b01-af10-618edcded425
+status: valid

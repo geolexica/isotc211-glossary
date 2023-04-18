@@ -1,0 +1,144 @@
+data:
+  _revisions:
+    current: 767c26
+    tree:
+      767c26:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: Fourth Edition, Oxford University Press
+            ref: Dictionary of Computing
+          country_code: swe
+          date_accepted: '2003-05-01T00:00:00.000Z'
+          definition: punktmängd sådan att varje punkt längs en sträcka mellan två
+            godtyckligt valda punkter i mängden också ligger i mängden
+          entry_status: valid
+          examples: []
+          id: 87
+          language_code: swe
+          lineage_source: ISO 19107:2003
+          lineage_source_similarity: 1
+          notes:
+          - Convex sets are "simply connected", meaning that they have no interior
+            holes, and can normally be considered topologically isomorphic to a Euclidean
+            ball of the appropriate dimension. So the surface of a sphere can be considered
+            to be geodesically convex.
+          release: '1'
+          review_date: '2016-02-15T00:00:00.000Z'
+          review_indicator: ''
+          review_status: pending
+          review_type: retirement
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: konvex mängd
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: konvex mängd
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2003-05-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  country_code: swe
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2003-05-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2003-05-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''punktmängd sådan att varje punkt längs en sträcka
+    mellan två godtyckligt valda punkter i mängden också ligger i mängden''}]'
+  examples: []
+  id: 87
+  language_code: swe
+  lineage_source_similarity: 1
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Convex sets are "simply connected", meaning that they have no interior
+        holes, and can normally be considered topologically isomorphic to a Euclidean
+        ball of the appropriate dimension. So the surface of a sphere can be considered
+        to be geodesically convex.
+    state:
+      _dict:
+        content: Convex sets are "simply connected", meaning that they have no interior
+          holes, and can normally be considered topologically isomorphic to a Euclidean
+          ball of the appropriate dimension. So the surface of a sphere can be considered
+          to be geodesically convex.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  reviewDate: 2016-02-15
+  review_indicator: ''
+  review_status: pending
+  review_type: retirement
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: Fourth Edition, Oxford University Press
+        ref: Dictionary of Computing
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19107:2003
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: konvex mängd
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: konvex mängd
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 6d51f6d3-6dbe-5ffc-a9dc-8c7a33e7db63
+status: valid

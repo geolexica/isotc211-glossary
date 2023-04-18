@@ -1,0 +1,175 @@
+data:
+  _revisions:
+    current: 4c05d6
+    tree:
+      4c05d6:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          abbrev: max <mathematics>
+          authoritative_source:
+            clause: (E), 3.60
+            link: https://www.iso.org/standard/66175.html
+            ref: ISO 19107:2019
+          date_accepted: '2019-12-02T00:00:00.000Z'
+          definition: smallest element larger than or equal to all elements of a set
+            contained in an ordered domain <<math>>
+          entry_status: valid
+          examples: []
+          id: 2070
+          language_code: eng
+          notes:
+          - \[[\forall a \in A \implies max(A) \geq a] \implies [\forall b \ni [(b
+            \ni [\forall a \in A \implies b \geq a] \implies [max(a) \leq b]]\] Any
+            number is an upper bound of `O/` (empty set) as a set of numbers, because
+            any given number is greater than any number in `O/` (an admitted vacuous
+            statement since there is no number in `O/`, but true nonetheless). This
+            means that the `max(O/)` must be smaller than any number; thus `-oo`.
+          release: '5'
+          review_date: '2019-12-02T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-12-02T00:00:00.000Z'
+          review_decision_event: Normal ISO processing
+          review_decision_notes: Publication of document ISO 19107:2019(E)
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: maximum <mathematics>
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: maximum <mathematics>
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: least upper bound <mathematics>
+              type: expression
+            state:
+              _dict:
+                designation: least upper bound <mathematics>
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2019-12-02T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2019-12-02T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2019-12-02T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''smallest element larger than or equal to all elements
+    of a set contained in an ordered domain <<math>>''}]'
+  examples: []
+  id: 2070
+  language_code: eng
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: \[[\forall a \in A \implies max(A) \geq a] \implies [\forall b \ni
+        [(b \ni [\forall a \in A \implies b \geq a] \implies [max(a) \leq b]]\] Any
+        number is an upper bound of `O/` (empty set) as a set of numbers, because
+        any given number is greater than any number in `O/` (an admitted vacuous statement
+        since there is no number in `O/`, but true nonetheless). This means that the
+        `max(O/)` must be smaller than any number; thus `-oo`.
+    state:
+      _dict:
+        content: \[[\forall a \in A \implies max(A) \geq a] \implies [\forall b \ni
+          [(b \ni [\forall a \in A \implies b \geq a] \implies [max(a) \leq b]]\]
+          Any number is an upper bound of `O/` (empty set) as a set of numbers, because
+          any given number is greater than any number in `O/` (an admitted vacuous
+          statement since there is no number in `O/`, but true nonetheless). This
+          means that the `max(O/)` must be smaller than any number; thus `-oo`.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '5'
+  reviewDate: 2019-12-02
+  reviewDecisionDate: 2019-12-02
+  reviewDecisionEvent: Normal ISO processing
+  review_decision: accepted
+  review_decision_notes: Publication of document ISO 19107:2019(E)
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: (E), 3.60
+        link: https://www.iso.org/standard/66175.html
+        ref: ISO 19107:2019
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: max <mathematics>
+      type: abbreviation
+    state:
+      _dict:
+        designation: max <mathematics>
+        type: abbreviation
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: maximum <mathematics>
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: maximum <mathematics>
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: least upper bound <mathematics>
+      type: expression
+    state:
+      _dict:
+        designation: least upper bound <mathematics>
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 3d22c9b2-3410-52ae-9938-989bca134eb1
+status: valid

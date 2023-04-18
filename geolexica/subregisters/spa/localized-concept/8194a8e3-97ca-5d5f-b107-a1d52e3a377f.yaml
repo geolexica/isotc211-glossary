@@ -1,0 +1,111 @@
+data:
+  _revisions:
+    current: 7bc78c
+    tree:
+      7bc78c:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.13'
+            link: https://www.iso.org/standard/56113.html
+            ref: ISO/TS 19130-2:2014
+          date_accepted: '2014-01-15T00:00:00.000Z'
+          definition: ángulo vertical desde el plano horizontal de la plataforma hacia
+            la dirección oblicua, normalmente medido en ARP
+          entry_status: valid
+          examples: []
+          id: 1384
+          language_code: spa
+          notes:
+          - Aproximadamente el complemento del ángulo de observación
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: ángulo de depresión
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: ángulo de depresión
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-01-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-01-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-01-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''ángulo vertical desde el plano horizontal de la plataforma
+    hacia la dirección oblicua, normalmente medido en ARP''}]'
+  examples: []
+  id: 1384
+  language_code: spa
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Aproximadamente el complemento del ángulo de observación
+    state:
+      _dict:
+        content: Aproximadamente el complemento del ángulo de observación
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.13'
+        link: https://www.iso.org/standard/56113.html
+        ref: ISO/TS 19130-2:2014
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: ángulo de depresión
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: ángulo de depresión
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 8194a8e3-97ca-5d5f-b107-a1d52e3a377f
+status: valid

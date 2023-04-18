@@ -1,0 +1,123 @@
+data:
+  _revisions:
+    current: d2bab3
+    tree:
+      d2bab3:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/39242.html
+            ref: ISO 6709:2008
+          date_accepted: '2008-07-15T00:00:00.000Z'
+          definition: ángulo representado por una secuencia de valores expresados
+            en grados, minutos y segundos
+          entry_status: valid
+          examples:
+          - ',079 572 5 grados se representa como 50º40''46,461" en grados sexagesimales'
+          id: 905
+          language_code: spa
+          notes:
+          - En el caso de la latitud o longitud, también puede incluir un carácter
+            que indique el hemisferio
+          release: '2'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: grados sexagesimales
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: grados sexagesimales
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2008-07-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2008-07-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2008-07-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''ángulo representado por una secuencia de valores expresados
+    en grados, minutos y segundos''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: ',079 572 5 grados se representa como 50º40''46,461" en grados sexagesimales'
+    state:
+      _dict:
+        content: ',079 572 5 grados se representa como 50º40''46,461" en grados sexagesimales'
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 905
+  language_code: spa
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: En el caso de la latitud o longitud, también puede incluir un carácter
+        que indique el hemisferio
+    state:
+      _dict:
+        content: En el caso de la latitud o longitud, también puede incluir un carácter
+          que indique el hemisferio
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '2'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/39242.html
+        ref: ISO 6709:2008
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: grados sexagesimales
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: grados sexagesimales
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: f407acba-56eb-591e-bfce-1a6fc6c3ca20
+status: valid

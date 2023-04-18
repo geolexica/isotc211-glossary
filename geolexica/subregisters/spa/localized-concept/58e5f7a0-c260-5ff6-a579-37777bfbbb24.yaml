@@ -1,0 +1,118 @@
+data:
+  _revisions:
+    current: c0f295
+    tree:
+      c0f295:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: modified
+            ref: FindLaw
+          date_accepted: '2014-02-15T00:00:00.000Z'
+          definition: 'alguien con un interés y dominio sobre contenidos como: a)
+            propietario legal, b) alguien con el derecho exclusivo de uso, control
+            o posesión de los contenidos, c) un comprador bajo un contrato de venta
+            de un contenido real'
+          entry_status: valid
+          examples: []
+          id: 1241
+          language_code: spa
+          lineage_source: ISO 19153:2014, 4.34
+          lineage_source_similarity: '1'
+          notes: []
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: propietario
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: propietario
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-02-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-02-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-02-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''alguien con un interés y dominio sobre contenidos
+    como: a) propietario legal, b) alguien con el derecho exclusivo de uso, control
+    o posesión de los contenidos, c) un comprador bajo un contrato de venta de un
+    contenido real''}]'
+  examples: []
+  id: 1241
+  language_code: spa
+  lineage_source_similarity: '1'
+  notes: []
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: modified
+        ref: FindLaw
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19153:2014, 4.34
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: propietario
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: propietario
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 58e5f7a0-c260-5ff6-a579-37777bfbbb24
+status: valid

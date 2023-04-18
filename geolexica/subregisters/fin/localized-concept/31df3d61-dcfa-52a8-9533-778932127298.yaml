@@ -1,0 +1,137 @@
+data:
+  _revisions:
+    current: 14b5f6
+    tree:
+      14b5f6:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (1994)
+            ref: 'Jensen et al. '
+          date_accepted: '2002-09-01T00:00:00.000Z'
+          definition: aika, jolloin tapahtuma on tietokannassa ajankohtainen ja haettavissa
+          entry_status: valid
+          examples: []
+          id: 471
+          language_code: fin
+          lineage_source: 'Jaakohuhta, Hannu: Tietotekniikan sanakirja suomi-englanti-suomi,
+            2007; MOT Enteka 4.0'
+          notes: []
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: tapahtuma-aika
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: tapahtuma-aika
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: tallennushetki
+              type: expression
+            state:
+              _dict:
+                designation: tallennushetki
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2002-09-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2002-09-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2002-09-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''aika, jolloin tapahtuma on tietokannassa ajankohtainen
+    ja haettavissa''}]'
+  examples: []
+  id: 471
+  language_code: fin
+  notes: []
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: (1994)
+        ref: 'Jensen et al. '
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: 'Jaakohuhta, Hannu: Tietotekniikan sanakirja suomi-englanti-suomi, 2007;
+          MOT Enteka 4.0'
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: tapahtuma-aika
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: tapahtuma-aika
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: tallennushetki
+      type: expression
+    state:
+      _dict:
+        designation: tallennushetki
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 31df3d61-dcfa-52a8-9533-778932127298
+status: valid

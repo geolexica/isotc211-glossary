@@ -1,0 +1,120 @@
+data:
+  _revisions:
+    current: c8630d
+    tree:
+      c8630d:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.75'
+            link: https://www.iso.org/standard/56113.html
+            ref: ISO/TS 19130-2:2014
+          date_accepted: '2014-01-15T00:00:00.000Z'
+          definition: área del terreno de la que se recogen datos de retorno durante
+            el funcionamiento continuo del lidar aerotransportado
+          entry_status: valid
+          examples: []
+          id: 1422
+          language_code: spa
+          notes:
+          - Una típica misión de vuelo puede consistir en múltiples franjas adyacentes,
+            con cierta superposición, donde el operador se apagará el láser mientras
+            la aeronave se orienta para la siguiente pasada. Este término también
+            puede ser denominado como un pasada.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: franja de barrido <LIDAR>
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: franja de barrido <LIDAR>
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-01-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-01-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-01-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''área del terreno de la que se recogen datos de retorno
+    durante el funcionamiento continuo del lidar aerotransportado''}]'
+  examples: []
+  id: 1422
+  language_code: spa
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Una típica misión de vuelo puede consistir en múltiples franjas adyacentes,
+        con cierta superposición, donde el operador se apagará el láser mientras la
+        aeronave se orienta para la siguiente pasada. Este término también puede ser
+        denominado como un pasada.
+    state:
+      _dict:
+        content: Una típica misión de vuelo puede consistir en múltiples franjas adyacentes,
+          con cierta superposición, donde el operador se apagará el láser mientras
+          la aeronave se orienta para la siguiente pasada. Este término también puede
+          ser denominado como un pasada.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.75'
+        link: https://www.iso.org/standard/56113.html
+        ref: ISO/TS 19130-2:2014
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: franja de barrido <LIDAR>
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: franja de barrido <LIDAR>
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 5956669d-37f4-5c09-a731-13ec5b365c16
+status: valid

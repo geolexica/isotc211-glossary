@@ -1,0 +1,131 @@
+data:
+  _revisions:
+    current: e49a28
+    tree:
+      e49a28:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/44875.html
+            ref: ISO 19126:2009
+          country_code: swe
+          date_accepted: '2009-11-01T00:00:00.000Z'
+          definition: begrepp som kan specificeras i detalj som en eller flera typer
+            av objektoperationer
+          entry_status: valid
+          examples:
+          - A "traffic flow" operation might return the number of persons or vehicles
+            expected to move on or through some kind of transportation feature during
+            a period of time specified as input to the operation.
+          id: 857
+          language_code: swe
+          lineage_source: (Type reference to national language document)
+          notes: []
+          release: '2'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: objektoperationsbeskrivande begrepp
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: objektoperationsbeskrivande begrepp
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2009-11-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  country_code: swe
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2009-11-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2009-11-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''begrepp som kan specificeras i detalj som en eller
+    flera typer av objektoperationer''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: A "traffic flow" operation might return the number of persons or vehicles
+        expected to move on or through some kind of transportation feature during
+        a period of time specified as input to the operation.
+    state:
+      _dict:
+        content: A "traffic flow" operation might return the number of persons or
+          vehicles expected to move on or through some kind of transportation feature
+          during a period of time specified as input to the operation.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 857
+  language_code: swe
+  notes: []
+  release: '2'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/44875.html
+        ref: ISO 19126:2009
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: (Type reference to national language document)
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: objektoperationsbeskrivande begrepp
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: objektoperationsbeskrivande begrepp
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: ae4f9ec4-cbf9-5790-9373-27afa3227eb0
+status: valid

@@ -1,0 +1,123 @@
+data:
+  _revisions:
+    current: f0be93
+    tree:
+      f0be93:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.15'
+            link: https://www.iso.org/standard/63541.html
+            ref: ISO 19104:2016
+          date_accepted: '2016-10-01T00:00:00.000Z'
+          definition: one of two or more words that are pronounced the same but differ
+            in meaning, origin, and sometimes spelling
+          entry_status: valid
+          examples:
+          - night and knight.
+          id: 1689
+          language_code: eng
+          notes: []
+          release: '4'
+          review_date: '2013-01-29T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2016-10-01T00:00:00.000Z'
+          review_decision_event: Normal ISO processing
+          review_decision_notes: Publication of document ISO 19104:2016(E)
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: homophone
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: homophone
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2016-10-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2016-10-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2016-10-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''one of two or more words that are pronounced the same
+    but differ in meaning, origin, and sometimes spelling''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: night and knight.
+    state:
+      _dict:
+        content: night and knight.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 1689
+  language_code: eng
+  notes: []
+  release: '4'
+  reviewDate: 2013-01-29
+  reviewDecisionDate: 2016-10-01
+  reviewDecisionEvent: Normal ISO processing
+  review_decision: accepted
+  review_decision_notes: Publication of document ISO 19104:2016(E)
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.15'
+        link: https://www.iso.org/standard/63541.html
+        ref: ISO 19104:2016
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: homophone
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: homophone
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 8f90d953-d4fa-52f4-90fa-9589d95a62e7
+status: valid

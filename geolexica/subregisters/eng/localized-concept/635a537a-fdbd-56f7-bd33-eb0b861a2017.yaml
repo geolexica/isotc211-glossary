@@ -1,0 +1,130 @@
+data:
+  _revisions:
+    current: 7db232
+    tree:
+      7db232:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: 1.7.2, modified — Supporting content has been relocated to an
+              example.
+            link: https://www.iso.org/standard/57284.html
+            ref: ISO 14721:2012
+          date_accepted: '2018-05-01T00:00:00.000Z'
+          definition: information used to bind and identify the components of an information
+            package
+          entry_status: valid
+          examples:
+          - The ISO 9660 volume and directory information is used on a CD-ROM to provide
+            the content of several files containing content information and preservation
+            description information.
+          id: 2275
+          language_code: eng
+          notes: []
+          release: '5'
+          review_date: '2018-05-01T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2018-05-01T00:00:00.000Z'
+          review_decision_event: Normal ISO processing
+          review_decision_notes: Publication of document ISO 19165-1:2018(E)
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: packaging information
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: packaging information
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2018-05-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2018-05-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2018-05-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''information used to bind and identify the components
+    of an information package''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: The ISO 9660 volume and directory information is used on a CD-ROM to
+        provide the content of several files containing content information and preservation
+        description information.
+    state:
+      _dict:
+        content: The ISO 9660 volume and directory information is used on a CD-ROM
+          to provide the content of several files containing content information and
+          preservation description information.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 2275
+  language_code: eng
+  notes: []
+  release: '5'
+  reviewDate: 2018-05-01
+  reviewDecisionDate: 2018-05-01
+  reviewDecisionEvent: Normal ISO processing
+  review_decision: accepted
+  review_decision_notes: Publication of document ISO 19165-1:2018(E)
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: 1.7.2, modified — Supporting content has been relocated to an example.
+        link: https://www.iso.org/standard/57284.html
+        ref: ISO 14721:2012
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: packaging information
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: packaging information
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 635a537a-fdbd-56f7-bd33-eb0b861a2017
+status: valid

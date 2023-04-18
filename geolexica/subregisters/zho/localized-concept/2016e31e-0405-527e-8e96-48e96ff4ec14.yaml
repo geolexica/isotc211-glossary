@@ -1,0 +1,96 @@
+data:
+  _revisions:
+    current: 1b572f
+    tree:
+      1b572f:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/40601.html
+            ref: ISO 19132:2007
+          date_accepted: '2007-10-15T00:00:00.000Z'
+          definition: 用户不需要了解各功能单元的独立特性就能够在各功能单元间通讯、执行程序或转换数据。
+          entry_status: valid
+          examples: []
+          id: 669
+          language_code: zho
+          notes: []
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 互操作
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 互操作
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2007-10-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2007-10-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2007-10-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''用户不需要了解各功能单元的独立特性就能够在各功能单元间通讯、执行程序或转换数据。''}]'
+  examples: []
+  id: 669
+  language_code: zho
+  notes: []
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/40601.html
+        ref: ISO 19132:2007
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 互操作
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 互操作
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 2016e31e-0405-527e-8e96-48e96ff4ec14
+status: valid

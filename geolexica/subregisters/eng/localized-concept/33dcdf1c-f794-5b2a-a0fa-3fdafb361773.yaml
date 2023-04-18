@@ -1,0 +1,129 @@
+data:
+  _revisions:
+    current: b3b0cd
+    tree:
+      b3b0cd:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            ref: Adapted from the Manual of Photogrammetry
+          date_accepted: '2014-01-15T00:00:00.000Z'
+          definition: total angular extent over which the field of view (FOV) may
+            be positioned
+          entry_status: valid
+          examples: []
+          id: 1560
+          language_code: eng
+          lineage_source: ISO/TS 19130-2:2014, 4.19
+          lineage_source_similarity: '1'
+          notes:
+          - The field of regard is the area that is potentially able to be viewed
+            by a system at an instant in time. It is determined by the system’s  FOV  and
+            the range  of directions in which the system is able to point.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: field of regard
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: field of regard
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-01-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-01-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-01-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''total angular extent over which the field of view
+    (FOV) may be positioned''}]'
+  examples: []
+  id: 1560
+  language_code: eng
+  lineage_source_similarity: '1'
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: The field of regard is the area that is potentially able to be viewed
+        by a system at an instant in time. It is determined by the system’s  FOV  and
+        the range  of directions in which the system is able to point.
+    state:
+      _dict:
+        content: The field of regard is the area that is potentially able to be viewed
+          by a system at an instant in time. It is determined by the system’s  FOV  and
+          the range  of directions in which the system is able to point.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        ref: Adapted from the Manual of Photogrammetry
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO/TS 19130-2:2014, 4.19
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: field of regard
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: field of regard
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 33dcdf1c-f794-5b2a-a0fa-3fdafb361773
+status: valid

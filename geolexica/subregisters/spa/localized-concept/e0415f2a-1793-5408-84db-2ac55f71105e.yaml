@@ -1,0 +1,124 @@
+data:
+  _revisions:
+    current: 30f465
+    tree:
+      30f465:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/40601.html
+            ref: ISO 19132
+          date_accepted: '2007-10-15T00:00:00.000Z'
+          definition: servicio que proporciona una función básica a otros servicios
+            o aplicaciones de un modo funcional
+          entry_status: valid
+          examples: []
+          id: 658
+          language_code: spa
+          notes:
+          - compárese con interoperar (4.18).Los servicios básicos carecen tanto de
+            cualquier persistencia como de información de estado específica del usuario
+            entre las invocaciones, y no están pensados para que los usuarios accedan
+            a ellos directamente. Debido a que actúan de una manera funcional, son
+            fácilmente reemplazables en tiempo de ejecución por otros servicios que
+            utilicen las mismas interfaces.
+          release: '1'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: servicio básico
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: servicio básico
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2007-10-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2007-10-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2007-10-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''servicio que proporciona una función básica a otros
+    servicios o aplicaciones de un modo funcional''}]'
+  examples: []
+  id: 658
+  language_code: spa
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: compárese con interoperar (4.18).Los servicios básicos carecen tanto
+        de cualquier persistencia como de información de estado específica del usuario
+        entre las invocaciones, y no están pensados para que los usuarios accedan
+        a ellos directamente. Debido a que actúan de una manera funcional, son fácilmente
+        reemplazables en tiempo de ejecución por otros servicios que utilicen las
+        mismas interfaces.
+    state:
+      _dict:
+        content: compárese con interoperar (4.18).Los servicios básicos carecen tanto
+          de cualquier persistencia como de información de estado específica del usuario
+          entre las invocaciones, y no están pensados para que los usuarios accedan
+          a ellos directamente. Debido a que actúan de una manera funcional, son fácilmente
+          reemplazables en tiempo de ejecución por otros servicios que utilicen las
+          mismas interfaces.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/40601.html
+        ref: ISO 19132
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: servicio básico
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: servicio básico
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: e0415f2a-1793-5408-84db-2ac55f71105e
+status: valid

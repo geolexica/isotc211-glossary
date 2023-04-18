@@ -1,0 +1,129 @@
+data:
+  _revisions:
+    current: 618bc9
+    tree:
+      618bc9:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32551.html
+            ref: ISO 19133:2005
+          date_accepted: '2005-10-15T00:00:00.000Z'
+          definition: funktion, der forbinder et mål (omkostning) med en rute
+          examples: []
+          id: 97
+          language_code: dan
+          notes:
+          - Den normale mekanisme er at tilskrive hver del af en rute  en omkostning
+            og at definere de totale ruteomkostninger som summen af delenes omkostninger.
+            Dette er nødvendigt for at de mest almindelige navigationsalgoritmer kan
+            fungere. Omkostningsfunktionernes enheder er ikke udelukkende begrænset
+            til penge og værdier, men omfatter også sådanne mål som tid, afstand og
+            andre forhold. Det eneste krav er, at funktionen er additiv og i det mindste
+            ikke-negativ. Der kan slækkes på dette sidste kriterium, så længe ingen
+            omkostning på nul eller mindre forbindes med et loop i netværket, da dette
+            vil betyde at der ikke kan være en "minimal-omkostnings-rute".
+          release: '1'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: omkostningsfunktion
+              normative_status: null
+              type: expression
+            state:
+              _dict:
+                designation: omkostningsfunktion
+                normative_status: null
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-10-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-10-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-10-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''funktion, der forbinder et mål (omkostning) med en
+    rute''}]'
+  examples: []
+  id: 97
+  language_code: dan
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Den normale mekanisme er at tilskrive hver del af en rute  en omkostning
+        og at definere de totale ruteomkostninger som summen af delenes omkostninger.
+        Dette er nødvendigt for at de mest almindelige navigationsalgoritmer kan fungere.
+        Omkostningsfunktionernes enheder er ikke udelukkende begrænset til penge og
+        værdier, men omfatter også sådanne mål som tid, afstand og andre forhold.
+        Det eneste krav er, at funktionen er additiv og i det mindste ikke-negativ.
+        Der kan slækkes på dette sidste kriterium, så længe ingen omkostning på nul
+        eller mindre forbindes med et loop i netværket, da dette vil betyde at der
+        ikke kan være en "minimal-omkostnings-rute".
+    state:
+      _dict:
+        content: Den normale mekanisme er at tilskrive hver del af en rute  en omkostning
+          og at definere de totale ruteomkostninger som summen af delenes omkostninger.
+          Dette er nødvendigt for at de mest almindelige navigationsalgoritmer kan
+          fungere. Omkostningsfunktionernes enheder er ikke udelukkende begrænset
+          til penge og værdier, men omfatter også sådanne mål som tid, afstand og
+          andre forhold. Det eneste krav er, at funktionen er additiv og i det mindste
+          ikke-negativ. Der kan slækkes på dette sidste kriterium, så længe ingen
+          omkostning på nul eller mindre forbindes med et loop i netværket, da dette
+          vil betyde at der ikke kan være en "minimal-omkostnings-rute".
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/32551.html
+        ref: ISO 19133:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: omkostningsfunktion
+      type: expression
+    state:
+      _dict:
+        designation: omkostningsfunktion
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: d7aba292-d6b8-5e14-8885-ed6a1b236687
+status: valid

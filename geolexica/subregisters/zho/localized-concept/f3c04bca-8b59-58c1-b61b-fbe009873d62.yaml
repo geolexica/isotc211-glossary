@@ -1,0 +1,139 @@
+data:
+  _revisions:
+    current: a02db9
+    tree:
+      a02db9:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            clause: 4.1.14
+            link: https://www.iso.org/standard/54721.html
+            ref: ISO 19135-1:2015
+          date_accepted: '2005-10-15T00:00:00.000Z'
+          definition: 某一注册项不再适用于新数据生产的声明。
+          entry_status: valid
+          examples: []
+          id: 509
+          language_code: zho
+          lineage_source: ISO 19135:2005
+          notes:
+          - 停用项目的状态从有效变为停用。停用项目保留在注册表中，以支持对在其停用前生产数据的解释。
+          release: '1'
+          review_date: '2010-10-19T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2015-10-01T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19135-1:2015
+          review_decision_notes: Authoritative reference changed from ISO 19135:2005
+            to ISO 19135-1:2015, 4.1.14. Lineage source added as ISO 19135:2005
+          review_indicator: ''
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 停用
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 停用
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-10-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-10-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-10-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''某一注册项不再适用于新数据生产的声明。''}]'
+  examples: []
+  id: 509
+  language_code: zho
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: 停用项目的状态从有效变为停用。停用项目保留在注册表中，以支持对在其停用前生产数据的解释。
+    state:
+      _dict:
+        content: 停用项目的状态从有效变为停用。停用项目保留在注册表中，以支持对在其停用前生产数据的解释。
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  reviewDate: 2010-10-19
+  reviewDecisionDate: 2015-10-01
+  reviewDecisionEvent: Publication of ISO 19135-1:2015
+  review_decision: accepted
+  review_decision_notes: Authoritative reference changed from ISO 19135:2005 to ISO
+    19135-1:2015, 4.1.14. Lineage source added as ISO 19135:2005
+  review_indicator: ''
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: 4.1.14
+        link: https://www.iso.org/standard/54721.html
+        ref: ISO 19135-1:2015
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19135:2005
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 停用
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 停用
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: f3c04bca-8b59-58c1-b61b-fbe009873d62
+status: valid

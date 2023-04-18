@@ -1,0 +1,127 @@
+data:
+  _revisions:
+    current: 4e1aee
+    tree:
+      4e1aee:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: LLP; (FindLaw)
+            ref: Derived from Palmer & Dodge
+          date_accepted: '2014-02-15T00:00:00.000Z'
+          definition: лицензия, выданная первоначальным лицензиатом третьей стороне
+            в соответствии с условиями первоначальной лицензии, выданной первоначальному
+            лицензиату его лицензиаром
+          entry_status: valid
+          examples: []
+          id: 1254
+          language_code: rus
+          lineage_source: ISO 19153:2014, 4.46
+          lineage_source_similarity: 1
+          notes:
+          - Это по-существу право одолжить чью-то лицензию другому принципалу
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: сублицензия
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: сублицензия
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-02-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-02-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-02-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''лицензия, выданная первоначальным лицензиатом третьей
+    стороне в соответствии с условиями первоначальной лицензии, выданной первоначальному
+    лицензиату его лицензиаром''}]'
+  examples: []
+  id: 1254
+  language_code: rus
+  lineage_source_similarity: 1
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Это по-существу право одолжить чью-то лицензию другому принципалу
+    state:
+      _dict:
+        content: Это по-существу право одолжить чью-то лицензию другому принципалу
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: LLP; (FindLaw)
+        ref: Derived from Palmer & Dodge
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19153:2014, 4.46
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: сублицензия
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: сублицензия
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: c8cca638-908e-59ef-919f-710b4e07b88d
+status: valid

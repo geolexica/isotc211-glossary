@@ -1,0 +1,112 @@
+data:
+  _revisions:
+    current: 18b936
+    tree:
+      18b936:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            ref: Adapted from ASTM E2544
+          date_accepted: '2014-01-15T00:00:00.000Z'
+          definition: múltiples señales devueltas y detectadas para un impulso emitido,
+            como cuando un haz láser golpea varios objetos separados y se divide
+          entry_status: valid
+          examples: []
+          id: 1564
+          language_code: spa
+          lineage_source: ISO/TS 19130-2:2014, 4.45
+          lineage_source_similarity: 1
+          notes: []
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: retornos múltiples
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: retornos múltiples
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-01-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-01-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-01-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''múltiples señales devueltas y detectadas para un impulso
+    emitido, como cuando un haz láser golpea varios objetos separados y se divide''}]'
+  examples: []
+  id: 1564
+  language_code: spa
+  lineage_source_similarity: 1
+  notes: []
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        ref: Adapted from ASTM E2544
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO/TS 19130-2:2014, 4.45
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: retornos múltiples
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: retornos múltiples
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: ae34ea52-b54b-598b-be14-ea733d6c2f75
+status: valid

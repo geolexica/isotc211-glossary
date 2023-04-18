@@ -1,0 +1,133 @@
+data:
+  _revisions:
+    current: 961eb0
+    tree:
+      961eb0:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32620.html
+            ref: ISO/IEC 19501
+          date_accepted: '2005-07-15T00:00:00.000Z'
+          definition: cущность, обладающая уникальной индивидуальностью, набором применимых
+            к ней операций и состоянием, сохраняющим результаты операций
+          entry_status: valid
+          examples: []
+          id: 727
+          language_code: rus
+          lineage_source: ISO/TS 19103:2005 ,4.2.15
+          lineage_source_similarity: 1
+          notes:
+          - См. термин « объект»
+          release: '1'
+          review_date: '2009-08-31T00:00:00.000Z'
+          review_indicator: ''
+          review_status: ''
+          review_type: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: экземпляр <UML>
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: экземпляр <UML>
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-07-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-07-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-07-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''cущность, обладающая уникальной индивидуальностью,
+    набором применимых к ней операций и состоянием, сохраняющим результаты операций''}]'
+  examples: []
+  id: 727
+  language_code: rus
+  lineage_source_similarity: 1
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: См. термин « объект»
+    state:
+      _dict:
+        content: См. термин « объект»
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  reviewDate: 2009-08-31
+  review_indicator: ''
+  review_status: ''
+  review_type: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/32620.html
+        ref: ISO/IEC 19501
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO/TS 19103:2005 ,4.2.15
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: экземпляр <UML>
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: экземпляр <UML>
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 3423a501-fe70-58d8-8879-640405b13f26
+status: valid

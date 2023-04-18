@@ -1,0 +1,115 @@
+data:
+  _revisions:
+    current: 708cfb
+    tree:
+      708cfb:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/26012.html
+            ref: ISO 19107:2003
+          date_accepted: '2003-05-01T00:00:00.000Z'
+          definition: 相关项（对象或值）的有限和有名称的集合。
+          entry_status: valid
+          examples: []
+          id: 366
+          language_code: zho
+          notes:
+          - 逻辑上，记录是<名称,项>对的集合。
+          release: '1'
+          review_date: '2016-02-15T00:00:00.000Z'
+          review_indicator: ''
+          review_status: pending
+          review_type: retirement
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 记录
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 记录
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2003-05-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2003-05-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2003-05-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''相关项（对象或值）的有限和有名称的集合。''}]'
+  examples: []
+  id: 366
+  language_code: zho
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: 逻辑上，记录是<名称,项>对的集合。
+    state:
+      _dict:
+        content: 逻辑上，记录是<名称,项>对的集合。
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  reviewDate: 2016-02-15
+  review_indicator: ''
+  review_status: pending
+  review_type: retirement
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/26012.html
+        ref: ISO 19107:2003
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 记录
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 记录
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 248e08bf-5522-58f5-a5c6-7effd3f65146
+status: valid

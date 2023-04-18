@@ -1,0 +1,141 @@
+data:
+  _revisions:
+    current: ea9e4f
+    tree:
+      ea9e4f:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.18
+            link: https://www.iso.org/standard/70882.html
+            ref: ISO 19116:2019
+          date_accepted: '2004-07-01T00:00:00.000Z'
+          definition: 특정 기준계에서 좌표 값의 변화로 표현되는 시간에 따른 객체의 위치변화
+          entry_status: valid
+          examples:
+          - 차량 또는 플랫폼에 탑재된 측위 센서의 이동 또는 측위 시스템에 의해 추적된 객체의 이동
+          id: 301
+          language_code: kor
+          lineage_source: ISO 19116:2004(E)
+          lineage_source_similarity: 1
+          notes: []
+          release: '1'
+          review_date: '2019-12-02T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-12-02T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19116:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19116:2004
+            to ISO 19116:2019(E), 3.18. Lineage source added as ISO 19116:2004(E)
+          review_indicator: ''
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 이동
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 이동
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2004-07-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2004-07-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2004-07-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''특정 기준계에서 좌표 값의 변화로 표현되는 시간에 따른 객체의 위치변화''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: 차량 또는 플랫폼에 탑재된 측위 센서의 이동 또는 측위 시스템에 의해 추적된 객체의 이동
+    state:
+      _dict:
+        content: 차량 또는 플랫폼에 탑재된 측위 센서의 이동 또는 측위 시스템에 의해 추적된 객체의 이동
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 301
+  language_code: kor
+  lineage_source_similarity: 1
+  notes: []
+  release: '1'
+  reviewDate: 2019-12-02
+  reviewDecisionDate: 2019-12-02
+  reviewDecisionEvent: Publication of ISO 19116:2019(E)
+  review_decision: accepted
+  review_decision_notes: Authoritative reference changed from ISO 19116:2004 to ISO
+    19116:2019(E), 3.18. Lineage source added as ISO 19116:2004(E)
+  review_indicator: ''
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: (E), 3.18
+        link: https://www.iso.org/standard/70882.html
+        ref: ISO 19116:2019
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19116:2004(E)
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 이동
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 이동
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 83a7c5e3-d33d-578f-b31f-ef6b889d7462
+status: valid

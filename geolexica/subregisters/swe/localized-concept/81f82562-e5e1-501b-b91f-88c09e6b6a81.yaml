@@ -1,0 +1,142 @@
+data:
+  _revisions:
+    current: bd0c69
+    tree:
+      bd0c69:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.1.47
+            link: https://www.iso.org/standard/74039.html
+            ref: ISO 19111:2019
+          country_code: swe
+          date_accepted: '2009-08-15T00:00:00.000Z'
+          definition: datum som specificerar relationen mellan ett parametriskt koordinatsystem
+            och ett objekt
+          entry_status: valid
+          examples: []
+          id: 843
+          language_code: swe
+          lineage_source: ISO 19111-2:2009, 4.3
+          notes:
+          - The object is normally the Earth.
+          release: '2'
+          review_date: '2017-06-28T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-01-31T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111-2:2009
+            to ISO 19111:2019(E), 3.1.47. Lineage source added as ISO 19111-2:2009,
+            4.3
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: parametriskt datum
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: parametriskt datum
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2009-08-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  country_code: swe
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2009-08-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2009-08-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''datum som specificerar relationen mellan ett parametriskt
+    koordinatsystem och ett objekt''}]'
+  examples: []
+  id: 843
+  language_code: swe
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: The object is normally the Earth.
+    state:
+      _dict:
+        content: The object is normally the Earth.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '2'
+  reviewDate: 2017-06-28
+  reviewDecisionDate: 2019-01-31
+  reviewDecisionEvent: Publication of ISO 19111:2019(E)
+  review_decision: accepted
+  review_decision_notes: Authoritative reference changed from ISO 19111-2:2009 to
+    ISO 19111:2019(E), 3.1.47. Lineage source added as ISO 19111-2:2009, 4.3
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: (E), 3.1.47
+        link: https://www.iso.org/standard/74039.html
+        ref: ISO 19111:2019
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19111-2:2009, 4.3
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: parametriskt datum
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: parametriskt datum
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 81f82562-e5e1-501b-b91f-88c09e6b6a81
+status: valid

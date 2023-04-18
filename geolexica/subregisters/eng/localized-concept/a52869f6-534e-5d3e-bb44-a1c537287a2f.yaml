@@ -1,0 +1,126 @@
+data:
+  _revisions:
+    current: '869206'
+    tree:
+      '869206':
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32551.html
+            ref: ISO 19133:2005
+          date_accepted: '2005-10-15T00:00:00.000Z'
+          definition: to represent (an abstraction) by the creation of a concrete
+            instance or to create the ability to create an instance
+          entry_status: valid
+          examples: []
+          id: 248
+          language_code: eng
+          notes:
+          - A class or data element definition instantiates a type if it creates the
+            ability to create objects or data elements respectively, that can represent
+            the concepts (instance data and /or operations) defined by that type.
+            A class is instantiated by an object if the class defines that object's
+            structure and function. A data schema is instantiated by a data element
+            if the data schema defines that element's structure.
+          release: '1'
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: instantiate
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: instantiate
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-10-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-10-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-10-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''to represent (an abstraction) by the creation of a
+    concrete instance or to create the ability to create an instance''}]'
+  examples: []
+  id: 248
+  language_code: eng
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: A class or data element definition instantiates a type if it creates
+        the ability to create objects or data elements respectively, that can represent
+        the concepts (instance data and /or operations) defined by that type. A class
+        is instantiated by an object if the class defines that object's structure
+        and function. A data schema is instantiated by a data element if the data
+        schema defines that element's structure.
+    state:
+      _dict:
+        content: A class or data element definition instantiates a type if it creates
+          the ability to create objects or data elements respectively, that can represent
+          the concepts (instance data and /or operations) defined by that type. A
+          class is instantiated by an object if the class defines that object's structure
+          and function. A data schema is instantiated by a data element if the data
+          schema defines that element's structure.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/32551.html
+        ref: ISO 19133:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: instantiate
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: instantiate
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: a52869f6-534e-5d3e-bb44-a1c537287a2f
+status: valid

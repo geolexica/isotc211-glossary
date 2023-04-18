@@ -1,0 +1,96 @@
+data:
+  _revisions:
+    current: d67957
+    tree:
+      d67957:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32546.html
+            ref: ISO 19128:2005
+          date_accepted: '2005-12-01T00:00:00.000Z'
+          definition: a particular instance of a service
+          entry_status: valid
+          examples: []
+          id: 404
+          language_code: eng
+          notes: []
+          release: '1'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: server
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: server
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-12-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-12-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-12-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''a particular instance of a service''}]'
+  examples: []
+  id: 404
+  language_code: eng
+  notes: []
+  release: '1'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/32546.html
+        ref: ISO 19128:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: server
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: server
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: e7b58ea9-abd4-556e-b389-c2d992129a39
+status: valid

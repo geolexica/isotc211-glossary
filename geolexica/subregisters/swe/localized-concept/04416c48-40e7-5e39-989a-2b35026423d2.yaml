@@ -1,0 +1,143 @@
+data:
+  _revisions:
+    current: 98baee
+    tree:
+      98baee:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.13'
+            link: https://www.iso.org/standard/32566.html
+            ref: ISO 19148:2012
+          country_code: swe
+          date_accepted: '2012-02-15T00:00:00.000Z'
+          definition: del av ett linjeobjekt som kan särskiljas från resten av linjeobjektet
+            genom att vart och ett av ett antal attribut har ett enda värde för den
+            delen
+          entry_status: valid
+          examples: []
+          id: 1173
+          language_code: swe
+          lineage_source: (Type reference to national language document)
+          notes:
+          - A linear segment is a one-dimensional object without explicit geometry.
+          - The implicit geometry of the linear segment can be derived from the geometry
+            of the parent feature.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: linjeobjektsegment
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: linjeobjektsegment
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2012-02-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  country_code: swe
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2012-02-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2012-02-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''del av ett linjeobjekt som kan särskiljas från resten
+    av linjeobjektet genom att vart och ett av ett antal attribut har ett enda värde
+    för den delen''}]'
+  examples: []
+  id: 1173
+  language_code: swe
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: A linear segment is a one-dimensional object without explicit geometry.
+    state:
+      _dict:
+        content: A linear segment is a one-dimensional object without explicit geometry.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: The implicit geometry of the linear segment can be derived from the
+        geometry of the parent feature.
+    state:
+      _dict:
+        content: The implicit geometry of the linear segment can be derived from the
+          geometry of the parent feature.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.13'
+        link: https://www.iso.org/standard/32566.html
+        ref: ISO 19148:2012
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: (Type reference to national language document)
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: linjeobjektsegment
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: linjeobjektsegment
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 04416c48-40e7-5e39-989a-2b35026423d2
+status: valid

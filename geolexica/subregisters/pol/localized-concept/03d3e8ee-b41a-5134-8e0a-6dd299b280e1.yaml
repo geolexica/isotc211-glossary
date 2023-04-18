@@ -1,0 +1,199 @@
+data:
+  _revisions:
+    current: bf9930
+    tree:
+      bf9930:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          abbrev: h
+          authoritative_source:
+            link: https://www.iso.org/standard/41126.html
+            ref: ISO 19111:2007
+          date_accepted: '2003-02-15T00:00:00.000Z'
+          date_amended: '2019-01-31T00:00:00.000Z'
+          definition: odległość punktu od elipsoidy mierzona wzdłuż normalnej do elipsoidy,
+            dodatnia gdy punkt znajduje się na zewnątrz elipsoidy
+          examples: []
+          id: 150
+          language_code: pol
+          lineage_source: ISO 19111:2003
+          lineage_source_similarity: 1
+          notes:
+          - Używana tylko jako część trójwymiarowego geodezyjnego układu współrzędnych,
+            a nigdy osobno.
+          release: '-1'
+          review_date: '2019-01-31T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-01-31T00:00:00.000Z'
+          review_decision_event: Publication of document ISO 19111:2019(E)
+          review_decision_notes: This entry is superseded by the entry for ellipsoidal
+            height in ISO 19111:2019(E)
+          review_status: final
+          review_type: supersession
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 'wysokość elipsoidalna
+
+                wysokość geodezyjna h'
+              normative_status: null
+              type: expression
+            state:
+              _dict:
+                designation: 'wysokość elipsoidalna
+
+                  wysokość geodezyjna h'
+                normative_status: null
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: wysokość geodezyjna
+              type: expression
+            state:
+              _dict:
+                designation: wysokość geodezyjna
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2003-02-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2003-02-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2003-02-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2019-01-31T00:00:00.000Z'
+      type: amended
+    state:
+      _dict:
+        date: '2019-01-31T00:00:00.000Z'
+        type: amended
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''odległość punktu od elipsoidy mierzona wzdłuż normalnej
+    do elipsoidy, dodatnia gdy punkt znajduje się na zewnątrz elipsoidy''}]'
+  examples: []
+  id: 150
+  language_code: pol
+  lineage_source_similarity: 1
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Używana tylko jako część trójwymiarowego geodezyjnego układu współrzędnych,
+        a nigdy osobno.
+    state:
+      _dict:
+        content: Używana tylko jako część trójwymiarowego geodezyjnego układu współrzędnych,
+          a nigdy osobno.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '-1'
+  reviewDate: 2019-01-31
+  reviewDecisionDate: 2019-01-31
+  reviewDecisionEvent: Publication of document ISO 19111:2019(E)
+  review_decision: accepted
+  review_decision_notes: This entry is superseded by the entry for ellipsoidal height
+    in ISO 19111:2019(E)
+  review_status: final
+  review_type: supersession
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/41126.html
+        ref: ISO 19111:2007
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19111:2003
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: h
+      type: abbreviation
+    state:
+      _dict:
+        designation: h
+        type: abbreviation
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 'wysokość elipsoidalna
+
+        wysokość geodezyjna h'
+      type: expression
+    state:
+      _dict:
+        designation: 'wysokość elipsoidalna
+
+          wysokość geodezyjna h'
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: wysokość geodezyjna
+      type: expression
+    state:
+      _dict:
+        designation: wysokość geodezyjna
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 03d3e8ee-b41a-5134-8e0a-6dd299b280e1
+status: valid

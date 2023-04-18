@@ -1,0 +1,132 @@
+data:
+  _revisions:
+    current: 0f2beb
+    tree:
+      0f2beb:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32551.html
+            ref: ISO 19133:2005
+          date_accepted: '2005-10-15T00:00:00.000Z'
+          definition: тип  транспортного средства, определяемый его конструктивными
+            особенностями и целевым назначением
+          entry_status: valid
+          examples: []
+          id: 493
+          language_code: rus
+          lineage_source: Internet
+          notes:
+          - Классификации на основе конструктивных особенностей включают автомобиль,  грузовой
+            автомобиль, автобус, велосипед и т.п. Классификации по признаку назначение
+            включают такси, транспортные средства скорой помощи и т.п. Классификацию
+            транспортных средств можно использовать для определения применения навигационных
+            ограничений
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: класс транспортного средства
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: класс транспортного средства
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-10-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-10-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-10-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''тип транспортного средства, определяемый его конструктивными
+    особенностями и целевым назначением''}]'
+  examples: []
+  id: 493
+  language_code: rus
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Классификации на основе конструктивных особенностей включают автомобиль,
+        грузовой автомобиль, автобус, велосипед и т.п. Классификации по признаку назначение
+        включают такси, транспортные средства скорой помощи и т.п. Классификацию транспортных
+        средств можно использовать для определения применения навигационных ограничений
+    state:
+      _dict:
+        content: Классификации на основе конструктивных особенностей включают автомобиль,
+          грузовой автомобиль, автобус, велосипед и т.п. Классификации по признаку
+          назначение включают такси, транспортные средства скорой помощи и т.п. Классификацию
+          транспортных средств можно использовать для определения применения навигационных
+          ограничений
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/32551.html
+        ref: ISO 19133:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: Internet
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: класс транспортного средства
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: класс транспортного средства
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: a495b64e-edb4-5430-8505-bbfa61e7afba
+status: valid

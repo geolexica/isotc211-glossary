@@ -1,0 +1,100 @@
+data:
+  _revisions:
+    current: a1e51a
+    tree:
+      a1e51a:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.12'
+            link: https://www.iso.org/standard/32574.html
+            ref: ISO 19156:2011
+          date_accepted: '2011-12-15T00:00:00.000Z'
+          definition: method, algorithm or instrument, or system of these, which may
+            be used in making an observation
+          entry_status: valid
+          examples: []
+          id: 1305
+          language_code: eng
+          notes: []
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: observation procedure
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: observation procedure
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2011-12-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2011-12-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2011-12-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''method, algorithm or instrument, or system of these,
+    which may be used in making an observation''}]'
+  examples: []
+  id: 1305
+  language_code: eng
+  notes: []
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.12'
+        link: https://www.iso.org/standard/32574.html
+        ref: ISO 19156:2011
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: observation procedure
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: observation procedure
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: d6f1ad8b-6486-58e4-9a74-2d2ade1f3ff7
+status: valid

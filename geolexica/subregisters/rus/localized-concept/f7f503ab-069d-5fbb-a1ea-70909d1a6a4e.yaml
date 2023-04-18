@@ -1,0 +1,149 @@
+data:
+  _revisions:
+    current: b26a68
+    tree:
+      b26a68:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.8
+            link: https://www.iso.org/standard/66847.html
+            ref: ISO 19130-1:2018
+          date_accepted: '2010-06-15T00:00:00.000Z'
+          definition: используемая угловая ширина пучка электромагнитной энергии
+          entry_status: valid
+          examples: []
+          id: 928
+          language_code: rus
+          lineage_source: ISO/TS 19130:2010(E)
+          lineage_source_similarity: '1'
+          notes:
+          - Ширина луча обычно измеряется в радианах и как угловая ширина между двумя
+            точками, которые имеют 50% мощности (3 дБ ниже) центра луча. Это свойство
+            антенны. Мощность, излучаемая вне этого угла, слишком мала, чтобы обеспечить
+            полезную отдачу.
+          release: '2'
+          review_date: '2018-09-01T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2018-09-01T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19130-1:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010
+            to ISO 19130-1:2018(E), 3.8. Lineage source added as ISO/TS 19130:2010(E)
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: ширина луча <SAR>
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: ширина луча <SAR>
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2010-06-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2010-06-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2010-06-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''используемая угловая ширина пучка электромагнитной
+    энергии''}]'
+  examples: []
+  id: 928
+  language_code: rus
+  lineage_source_similarity: '1'
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Ширина луча обычно измеряется в радианах и как угловая ширина между
+        двумя точками, которые имеют 50% мощности (3 дБ ниже) центра луча. Это свойство
+        антенны. Мощность, излучаемая вне этого угла, слишком мала, чтобы обеспечить
+        полезную отдачу.
+    state:
+      _dict:
+        content: Ширина луча обычно измеряется в радианах и как угловая ширина между
+          двумя точками, которые имеют 50% мощности (3 дБ ниже) центра луча. Это свойство
+          антенны. Мощность, излучаемая вне этого угла, слишком мала, чтобы обеспечить
+          полезную отдачу.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '2'
+  reviewDate: 2018-09-01
+  reviewDecisionDate: 2018-09-01
+  reviewDecisionEvent: Publication of ISO 19130-1:2018(E)
+  review_decision: accepted
+  review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010 to
+    ISO 19130-1:2018(E), 3.8. Lineage source added as ISO/TS 19130:2010(E)
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: (E), 3.8
+        link: https://www.iso.org/standard/66847.html
+        ref: ISO 19130-1:2018
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO/TS 19130:2010(E)
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: ширина луча <SAR>
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: ширина луча <SAR>
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: f7f503ab-069d-5fbb-a1ea-70909d1a6a4e
+status: valid

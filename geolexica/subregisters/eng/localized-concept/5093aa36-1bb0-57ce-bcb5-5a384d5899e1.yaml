@@ -1,0 +1,114 @@
+data:
+  _revisions:
+    current: d2c8e4
+    tree:
+      d2c8e4:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: modified
+            ref: New Concepts in BASIS Licensing
+          date_accepted: '2014-02-15T00:00:00.000Z'
+          definition: application that tracks licences available within an organization
+            and coordinates the issuing of these licences to requesting clients
+          entry_status: valid
+          examples: []
+          id: 1234
+          language_code: eng
+          lineage_source: ISO 19153:2014, 4.28
+          lineage_source_similarity: '1'
+          notes: []
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: licence manager
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: licence manager
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-02-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-02-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-02-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''application that tracks licences available within
+    an organization and coordinates the issuing of these licences to requesting clients''}]'
+  examples: []
+  id: 1234
+  language_code: eng
+  lineage_source_similarity: '1'
+  notes: []
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: modified
+        ref: New Concepts in BASIS Licensing
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19153:2014, 4.28
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: licence manager
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: licence manager
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 5093aa36-1bb0-57ce-bcb5-5a384d5899e1
+status: valid

@@ -1,0 +1,141 @@
+data:
+  _revisions:
+    current: f777b5
+    tree:
+      f777b5:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32551.html
+            ref: ISO 19133:2005
+          date_accepted: '2005-10-15T00:00:00.000Z'
+          definition: kokoelma toisiinsa liittyviä linkkejä ja käännöksiä, joiden
+            yhdistelmää käytetään reitillä
+          entry_status: valid
+          examples: []
+          id: 281
+          language_code: fin
+          lineage_source: Ei lähdettä, käännetty
+          notes:
+          - Manöövereillä käännökset liitetään toisiinsa sopiviksi ja laillisiksi
+            yhdistelmiksi. Manööveri voi olla yksinkertainen, esimerkiksi vain yhdestä
+            käännöksestä koostuva, tai yhdistelmä nopeita käännöksiä (Yhdysvaltojen
+            keskilännessä käännökseen ja sitä välittömästi seuraavaan vastakkaissuuntaiseen
+            käännökseen viitataan sanalla jog) tai erittäin monimutkainen yhdistelmä,
+            joka koostuu sisääntulo- ja poistumisteistä ja niitä yhdistävistä ajoteistä
+            (Isossa-Britanniassa "magic roundabout").
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: manööveri
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: manööveri
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-10-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-10-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-10-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''kokoelma toisiinsa liittyviä linkkejä ja käännöksiä,
+    joiden yhdistelmää käytetään reitillä''}]'
+  examples: []
+  id: 281
+  language_code: fin
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Manöövereillä käännökset liitetään toisiinsa sopiviksi ja laillisiksi
+        yhdistelmiksi. Manööveri voi olla yksinkertainen, esimerkiksi vain yhdestä
+        käännöksestä koostuva, tai yhdistelmä nopeita käännöksiä (Yhdysvaltojen keskilännessä
+        käännökseen ja sitä välittömästi seuraavaan vastakkaissuuntaiseen käännökseen
+        viitataan sanalla jog) tai erittäin monimutkainen yhdistelmä, joka koostuu
+        sisääntulo- ja poistumisteistä ja niitä yhdistävistä ajoteistä (Isossa-Britanniassa
+        "magic roundabout").
+    state:
+      _dict:
+        content: Manöövereillä käännökset liitetään toisiinsa sopiviksi ja laillisiksi
+          yhdistelmiksi. Manööveri voi olla yksinkertainen, esimerkiksi vain yhdestä
+          käännöksestä koostuva, tai yhdistelmä nopeita käännöksiä (Yhdysvaltojen
+          keskilännessä käännökseen ja sitä välittömästi seuraavaan vastakkaissuuntaiseen
+          käännökseen viitataan sanalla jog) tai erittäin monimutkainen yhdistelmä,
+          joka koostuu sisääntulo- ja poistumisteistä ja niitä yhdistävistä ajoteistä
+          (Isossa-Britanniassa "magic roundabout").
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/32551.html
+        ref: ISO 19133:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: Ei lähdettä, käännetty
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: manööveri
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: manööveri
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: ccb2ff57-e1a8-5b8c-9278-ff8e950755b8
+status: valid

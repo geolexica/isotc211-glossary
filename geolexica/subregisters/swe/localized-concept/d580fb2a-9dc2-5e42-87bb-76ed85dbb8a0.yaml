@@ -1,0 +1,120 @@
+data:
+  _revisions:
+    current: bec2cb
+    tree:
+      bec2cb:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: 01.01.22
+            link: https://www.iso.org/standard/7229.html
+            ref: ISO/IEC 2382-1:1993
+          country_code: swe
+          date_accepted: '2014-11-01T00:00:00.000Z'
+          definition: system för bearbetning av information och som, med tillhörande
+            organisationella resurser såsom mänskliga, tekniska och finansiella resurser,
+            tillhandahåller och distribuerar information
+          entry_status: valid
+          examples: []
+          id: 1344
+          language_code: swe
+          lineage_source: ISO 19101-1:2014, 4.1.23
+          lineage_source_similarity: 1
+          notes: []
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: informationssystem
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: informationssystem
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-11-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  country_code: swe
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-11-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-11-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''system för bearbetning av information och som, med
+    tillhörande organisationella resurser såsom mänskliga, tekniska och finansiella
+    resurser, tillhandahåller och distribuerar information''}]'
+  examples: []
+  id: 1344
+  language_code: swe
+  lineage_source_similarity: 1
+  notes: []
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: 01.01.22
+        link: https://www.iso.org/standard/7229.html
+        ref: ISO/IEC 2382-1:1993
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19101-1:2014, 4.1.23
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: informationssystem
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: informationssystem
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: d580fb2a-9dc2-5e42-87bb-76ed85dbb8a0
+status: valid

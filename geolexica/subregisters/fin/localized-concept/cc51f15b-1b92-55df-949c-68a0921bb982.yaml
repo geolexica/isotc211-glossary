@@ -1,0 +1,192 @@
+data:
+  _revisions:
+    current: cbfa2c
+    tree:
+      cbfa2c:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          abbrev: h
+          authoritative_source:
+            link: https://www.iso.org/standard/41126.html
+            ref: ISO 19111:2007
+          date_accepted: '2003-02-15T00:00:00.000Z'
+          date_amended: '2019-01-31T00:00:00.000Z'
+          definition: pisteen ja vertausellipsoidin välinen etäisyys vertausellipsoidin
+            normaalia pitkin laskettuna
+          entry_status: superseded
+          examples: []
+          id: 150
+          language_code: fin
+          lineage_source: ISO 19111:2003
+          lineage_source_similarity: 1
+          notes:
+          - Käytetään osana kolmiulotteista ellipsoidista koordinaatistoa, ei koskaan
+            yksin.
+          release: '-1'
+          review_date: '2019-01-31T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-01-31T00:00:00.000Z'
+          review_decision_event: Publication of document ISO 19111:2019(E)
+          review_decision_notes: This entry is superseded by the entry for ellipsoidal
+            height in ISO 19111:2019(E)
+          review_status: final
+          review_type: supersession
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: ellipsoidinen korkeus
+              normative_status: null
+              type: expression
+            state:
+              _dict:
+                designation: ellipsoidinen korkeus
+                normative_status: null
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: geodeettinen korkeus
+              type: expression
+            state:
+              _dict:
+                designation: geodeettinen korkeus
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2003-02-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2003-02-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2003-02-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2019-01-31T00:00:00.000Z'
+      type: amended
+    state:
+      _dict:
+        date: '2019-01-31T00:00:00.000Z'
+        type: amended
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''pisteen ja vertausellipsoidin välinen etäisyys vertausellipsoidin
+    normaalia pitkin laskettuna''}]'
+  examples: []
+  id: 150
+  language_code: fin
+  lineage_source_similarity: 1
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Käytetään osana kolmiulotteista ellipsoidista koordinaatistoa, ei koskaan
+        yksin.
+    state:
+      _dict:
+        content: Käytetään osana kolmiulotteista ellipsoidista koordinaatistoa, ei
+          koskaan yksin.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '-1'
+  reviewDate: 2019-01-31
+  reviewDecisionDate: 2019-01-31
+  reviewDecisionEvent: Publication of document ISO 19111:2019(E)
+  review_decision: accepted
+  review_decision_notes: This entry is superseded by the entry for ellipsoidal height
+    in ISO 19111:2019(E)
+  review_status: final
+  review_type: supersession
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/41126.html
+        ref: ISO 19111:2007
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19111:2003
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: h
+      type: abbreviation
+    state:
+      _dict:
+        designation: h
+        type: abbreviation
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: ellipsoidinen korkeus
+      type: expression
+    state:
+      _dict:
+        designation: ellipsoidinen korkeus
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: geodeettinen korkeus
+      type: expression
+    state:
+      _dict:
+        designation: geodeettinen korkeus
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: cc51f15b-1b92-55df-949c-68a0921bb982
+status: superseded

@@ -1,0 +1,107 @@
+data:
+  _revisions:
+    current: 1b48f6
+    tree:
+      1b48f6:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32551.html
+            ref: ISO 19133:2005
+          date_accepted: '2005-10-15T00:00:00.000Z'
+          definition: 通过创建具体的实例或者创建实例的能力来表示抽象的事物。
+          entry_status: valid
+          examples: []
+          id: 248
+          language_code: zho
+          notes:
+          - 如果一种类型具有分别创建数据元素或创建对象能力，一个类或者数据元素定义就例示了这种类型，用类型定义来表示概念（实例数据以及运算）。如果类定义了对象的结构和函数，那么就用一个对象对该类作例示。如果数据模式定了数据元素的结构，那么就用一个数据元素对该数据模式作例示。
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 例示
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 例示
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-10-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-10-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-10-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''通过创建具体的实例或者创建实例的能力来表示抽象的事物。''}]'
+  examples: []
+  id: 248
+  language_code: zho
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: 如果一种类型具有分别创建数据元素或创建对象能力，一个类或者数据元素定义就例示了这种类型，用类型定义来表示概念（实例数据以及运算）。如果类定义了对象的结构和函数，那么就用一个对象对该类作例示。如果数据模式定了数据元素的结构，那么就用一个数据元素对该数据模式作例示。
+    state:
+      _dict:
+        content: 如果一种类型具有分别创建数据元素或创建对象能力，一个类或者数据元素定义就例示了这种类型，用类型定义来表示概念（实例数据以及运算）。如果类定义了对象的结构和函数，那么就用一个对象对该类作例示。如果数据模式定了数据元素的结构，那么就用一个数据元素对该数据模式作例示。
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/32551.html
+        ref: ISO 19133:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 例示
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 例示
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 53e62837-2d14-5a0a-86c1-b3b43a62846d
+status: valid

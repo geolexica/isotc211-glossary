@@ -1,0 +1,122 @@
+data:
+  _revisions:
+    current: 3f70ab
+    tree:
+      3f70ab:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (Adapted from)
+            ref: Booch 1999
+          date_accepted: '2007-04-15T00:00:00.000Z'
+          definition: семантическая связь между классификаторами, один из которых
+            формулирует условия контракта, а другой обязуется его выполнять
+          entry_status: valid
+          examples: []
+          id: 839
+          language_code: rus
+          lineage_source: ISO/TS 19139:2007 ,4.3
+          lineage_source_similarity: 1
+          notes: []
+          release: '1'
+          review_date: '2009-08-31T00:00:00.000Z'
+          review_indicator: ''
+          review_status: ''
+          review_type: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: отношение реализации
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: отношение реализации
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2007-04-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2007-04-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2007-04-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''семантическая связь между классификаторами, один из
+    которых формулирует условия контракта, а другой обязуется его выполнять''}]'
+  examples: []
+  id: 839
+  language_code: rus
+  lineage_source_similarity: 1
+  notes: []
+  release: '1'
+  reviewDate: 2009-08-31
+  review_indicator: ''
+  review_status: ''
+  review_type: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: (Adapted from)
+        ref: Booch 1999
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO/TS 19139:2007 ,4.3
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: отношение реализации
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: отношение реализации
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 10c4fddb-42f0-5627-9785-015afc0361f9
+status: valid

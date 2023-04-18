@@ -1,0 +1,128 @@
+data:
+  _revisions:
+    current: 848cea
+    tree:
+      848cea:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/40121.html
+            ref: ISO 19123:2005
+          date_accepted: '2005-08-15T00:00:00.000Z'
+          definition: معلم يعمل كوظيفة لإعادة القيم من نطاق تفاوته بالنسبة لأي موقع
+            مباشر يقع ضمن نطاقه المكاني أو نطاقه الزماني أو نطاقه المكاني-الزماني
+          entry_status: valid
+          examples:
+          - الأمثلة تشمل صورة متجهات , أو شفافة مضلعات أو مصفوفة ارتفاعات رقمية.
+          id: 99
+          language_code: ara
+          notes:
+          - وبعبارة أخرى التغطية هي عبارة عن معلم له قيم متعددة لكل نوع من الصفات,
+            بحيث أن كل موقع مباشر يقع ضمن التمثيل الهندسي للمعلم تكون له قيمة واحدة
+            لكل نوع من الصفات.
+          release: '1'
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: التغطية
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: التغطية
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-08-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-08-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-08-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''معلم يعمل كوظيفة لإعادة القيم من نطاق تفاوته بالنسبة
+    لأي موقع مباشر يقع ضمن نطاقه المكاني أو نطاقه الزماني أو نطاقه المكاني-الزماني''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: الأمثلة تشمل صورة متجهات , أو شفافة مضلعات أو مصفوفة ارتفاعات رقمية.
+    state:
+      _dict:
+        content: الأمثلة تشمل صورة متجهات , أو شفافة مضلعات أو مصفوفة ارتفاعات رقمية.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 99
+  language_code: ara
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: وبعبارة أخرى التغطية هي عبارة عن معلم له قيم متعددة لكل نوع من الصفات,
+        بحيث أن كل موقع مباشر يقع ضمن التمثيل الهندسي للمعلم تكون له قيمة واحدة لكل
+        نوع من الصفات.
+    state:
+      _dict:
+        content: وبعبارة أخرى التغطية هي عبارة عن معلم له قيم متعددة لكل نوع من الصفات,
+          بحيث أن كل موقع مباشر يقع ضمن التمثيل الهندسي للمعلم تكون له قيمة واحدة
+          لكل نوع من الصفات.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/40121.html
+        ref: ISO 19123:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: التغطية
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: التغطية
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: f850df56-fc18-568b-a9fe-aefd6edb9c31
+status: valid

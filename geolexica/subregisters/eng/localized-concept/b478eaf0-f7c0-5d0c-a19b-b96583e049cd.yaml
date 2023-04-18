@@ -1,0 +1,124 @@
+data:
+  _revisions:
+    current: fa2463
+    tree:
+      fa2463:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            ref: UML 2
+          date_accepted: '2015-07-01T00:00:00.000Z'
+          definition: aggregation where the composite object (whole) has responsibility
+            for the existence and storage of the composed objects (parts)
+          entry_status: valid
+          examples: []
+          id: 1146
+          language_code: eng
+          lineage_source: ISO 19150-2:2015, 4.1.12
+          notes: []
+          release: '4'
+          review_date: '2009-01-14T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2015-12-01T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: This entry supersedes the entry for "composition
+            <UML>" in ISO/TS 19103:2005
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: composition <UML>
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: composition <UML>
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2015-07-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2015-07-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2015-07-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''aggregation where the composite object (whole) has
+    responsibility for the existence and storage of the composed objects (parts)''}]'
+  examples: []
+  id: 1146
+  language_code: eng
+  notes: []
+  release: '4'
+  reviewDate: 2009-01-14
+  reviewDecisionDate: 2015-12-01
+  reviewDecisionEvent: Publication of ISO 19103:2015
+  review_decision: accepted
+  review_decision_notes: This entry supersedes the entry for "composition <UML>" in
+    ISO/TS 19103:2005
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        ref: UML 2
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19150-2:2015, 4.1.12
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: composition <UML>
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: composition <UML>
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: b478eaf0-f7c0-5d0c-a19b-b96583e049cd
+status: valid

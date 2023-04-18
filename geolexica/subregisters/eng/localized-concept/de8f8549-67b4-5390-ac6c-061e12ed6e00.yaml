@@ -1,0 +1,161 @@
+data:
+  _revisions:
+    current: 967c28
+    tree:
+      967c28:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.9'
+            link: https://www.iso.org/standard/26002.html
+            ref: ISO 19101:2002
+          date_accepted: '2002-07-01T00:00:00.000Z'
+          date_amended: '2014-11-01T00:00:00.000Z'
+          definition: quantitative component documenting the quality of a dataset
+          entry_status: retired
+          examples: []
+          id: 113
+          language_code: eng
+          lineage_source: ''
+          lineage_source_similarity: 0
+          notes:
+          - The applicability of a data quality element to a dataset depends on both
+            the dataset's content and its product specification; the result being
+            that all data elements may not be applicable to all datasets.
+          release: '-1'
+          review_date: '2010-10-12T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2014-11-01T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+            19101-1:2014).
+          review_indicator: ''
+          review_status: final
+          review_type: retirement
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: data quality element
+              normative_status: null
+              type: expression
+            state:
+              _dict:
+                designation: data quality element
+                normative_status: null
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2002-07-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2002-07-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2002-07-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-11-01T00:00:00.000Z'
+      type: amended
+    state:
+      _dict:
+        date: '2014-11-01T00:00:00.000Z'
+        type: amended
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''quantitative component documenting the quality of
+    a dataset''}]'
+  examples: []
+  id: 113
+  language_code: eng
+  lineage_source_similarity: 0
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: The applicability of a data quality element to a dataset depends on
+        both the dataset's content and its product specification; the result being
+        that all data elements may not be applicable to all datasets.
+    state:
+      _dict:
+        content: The applicability of a data quality element to a dataset depends
+          on both the dataset's content and its product specification; the result
+          being that all data elements may not be applicable to all datasets.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '-1'
+  reviewDate: 2010-10-12
+  reviewDecisionDate: 2014-11-01
+  reviewDecisionEvent: Publication of ISO 19101-1:2014
+  review_decision: accepted
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19101-1:2014).
+  review_indicator: ''
+  review_status: final
+  review_type: retirement
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.9'
+        link: https://www.iso.org/standard/26002.html
+        ref: ISO 19101:2002
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ''
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: data quality element
+      type: expression
+    state:
+      _dict:
+        designation: data quality element
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: de8f8549-67b4-5390-ac6c-061e12ed6e00
+status: retired

@@ -1,0 +1,114 @@
+data:
+  _revisions:
+    current: 9cb43b
+    tree:
+      9cb43b:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/20057.html
+            ref: ISO 1087-1:2000
+          date_accepted: '2008-11-15T00:00:00.000Z'
+          definition: термин, оцененный по шкале рейтинга приемлемости термина как
+            нежелательный
+          entry_status: valid
+          examples: []
+          id: 131
+          language_code: rus
+          lineage_source: ISO/TS 19104:2008
+          lineage_source_similarity: 1
+          notes: []
+          release: '2'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: нерекомендуемый термин
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: нерекомендуемый термин
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2008-11-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2008-11-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2008-11-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''термин, оцененный по шкале рейтинга приемлемости термина
+    как нежелательный''}]'
+  examples: []
+  id: 131
+  language_code: rus
+  lineage_source_similarity: 1
+  notes: []
+  release: '2'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/20057.html
+        ref: ISO 1087-1:2000
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO/TS 19104:2008
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: нерекомендуемый термин
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: нерекомендуемый термин
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 57b05910-9dbc-53d8-97f8-a15c179fe38f
+status: valid

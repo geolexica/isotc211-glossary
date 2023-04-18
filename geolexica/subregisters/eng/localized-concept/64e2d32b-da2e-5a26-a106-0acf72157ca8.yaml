@@ -1,0 +1,127 @@
+data:
+  _revisions:
+    current: 64d102
+    tree:
+      64d102:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.1.44
+            link: https://www.iso.org/standard/74039.html
+            ref: ISO 19111:2019
+          date_accepted: '2019-01-31T00:00:00.000Z'
+          definition: epoch at which the parameter values of a time-dependent coordinate
+            transformation are valid
+          entry_status: valid
+          examples: []
+          id: 2372
+          language_code: eng
+          notes:
+          - The transformation parameter values first need to be propagated to the
+            epoch of the coordinates before the coordinate transformation can be applied.
+          release: '5'
+          review_date: '2019-01-31T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-01-31T00:00:00.000Z'
+          review_decision_event: Normal ISO processing
+          review_decision_notes: Publication of document ISO 19111:2019(E)
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: parameter reference epoch
+              normative_status: admitted
+              type: expression
+            state:
+              _dict:
+                designation: parameter reference epoch
+                normative_status: admitted
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2019-01-31T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2019-01-31T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2019-01-31T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''epoch at which the parameter values of a time-dependent
+    coordinate transformation are valid''}]'
+  examples: []
+  id: 2372
+  language_code: eng
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: The transformation parameter values first need to be propagated to
+        the epoch of the coordinates before the coordinate transformation can be applied.
+    state:
+      _dict:
+        content: The transformation parameter values first need to be propagated to
+          the epoch of the coordinates before the coordinate transformation can be
+          applied.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '5'
+  reviewDate: 2019-01-31
+  reviewDecisionDate: 2019-01-31
+  reviewDecisionEvent: Normal ISO processing
+  review_decision: accepted
+  review_decision_notes: Publication of document ISO 19111:2019(E)
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: (E), 3.1.44
+        link: https://www.iso.org/standard/74039.html
+        ref: ISO 19111:2019
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: parameter reference epoch
+      normative_status: admitted
+      type: expression
+    state:
+      _dict:
+        designation: parameter reference epoch
+        normative_status: admitted
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 64e2d32b-da2e-5a26-a106-0acf72157ca8
+status: valid

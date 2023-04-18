@@ -1,0 +1,137 @@
+data:
+  _revisions:
+    current: 56474c
+    tree:
+      56474c:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.37'
+            link: https://www.iso.org/standard/56113.html
+            ref: ISO/TS 19130-2:2014
+          date_accepted: '2014-01-15T00:00:00.000Z'
+          definition: мощность на единицу телесного угла от точечного источника в
+            определенном направлении
+          entry_status: valid
+          examples: []
+          id: 1397
+          language_code: rus
+          lineage_source: ISO/TS 19130-2:2014
+          notes:
+          - Как правило, для лидара калибровка не проводится в достаточной степени
+            для расчета абсолютной интенсивности, поэтому обычно сообщается об относительной
+            интенсивности.  В системах линейного режима это значение обычно предоставляется
+            в виде целого числа в результате сопоставления мощности сигнала возврата
+            с целочисленным значением через таблицу подстановки.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: интенсивность
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: интенсивность
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-01-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-01-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-01-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''мощность на единицу телесного угла от точечного источника
+    в определенном направлении''}]'
+  examples: []
+  id: 1397
+  language_code: rus
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Как правило, для лидара калибровка не проводится в достаточной степени
+        для расчета абсолютной интенсивности, поэтому обычно сообщается об относительной
+        интенсивности.  В системах линейного режима это значение обычно предоставляется
+        в виде целого числа в результате сопоставления мощности сигнала возврата с
+        целочисленным значением через таблицу подстановки.
+    state:
+      _dict:
+        content: Как правило, для лидара калибровка не проводится в достаточной степени
+          для расчета абсолютной интенсивности, поэтому обычно сообщается об относительной
+          интенсивности.  В системах линейного режима это значение обычно предоставляется
+          в виде целого числа в результате сопоставления мощности сигнала возврата
+          с целочисленным значением через таблицу подстановки.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.37'
+        link: https://www.iso.org/standard/56113.html
+        ref: ISO/TS 19130-2:2014
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO/TS 19130-2:2014
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: интенсивность
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: интенсивность
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: dda6879d-636a-5148-8b0c-9627021073bd
+status: valid

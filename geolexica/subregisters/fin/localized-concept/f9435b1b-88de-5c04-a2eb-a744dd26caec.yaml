@@ -1,0 +1,147 @@
+data:
+  _revisions:
+    current: e8e87f
+    tree:
+      e8e87f:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/26012.html
+            ref: ISO 19107:2003
+          date_accepted: '2003-05-01T00:00:00.000Z'
+          definition: äärellinen, järjestetty kokoelma yhteenliittyviä tietokohteita
+            (objekteja tai arvoja), jotka voivat toistua
+          entry_status: valid
+          examples: []
+          id: 403
+          language_code: fin
+          notes:
+          - Sekvenssi on joukko <tietokohde, offset?>-pareja. Tässä kansainvälisessä
+            standardissa käytetään LISP-syntaksia, jossa sekvenssit rajataan suluilla
+            ja sekvenssin elementit erotetaan toisistaan pilkuilla.
+          release: '1'
+          review_date: '2016-02-15T00:00:00.000Z'
+          review_indicator: ''
+          review_status: pending
+          review_type: retirement
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: sekvenssi
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: sekvenssi
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: jono
+              type: expression
+            state:
+              _dict:
+                designation: jono
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2003-05-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2003-05-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2003-05-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''äärellinen, järjestetty kokoelma yhteenliittyviä tietokohteita
+    (objekteja tai arvoja), jotka voivat toistua''}]'
+  examples: []
+  id: 403
+  language_code: fin
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Sekvenssi on joukko <tietokohde, offset?>-pareja. Tässä kansainvälisessä
+        standardissa käytetään LISP-syntaksia, jossa sekvenssit rajataan suluilla
+        ja sekvenssin elementit erotetaan toisistaan pilkuilla.
+    state:
+      _dict:
+        content: Sekvenssi on joukko <tietokohde, offset?>-pareja. Tässä kansainvälisessä
+          standardissa käytetään LISP-syntaksia, jossa sekvenssit rajataan suluilla
+          ja sekvenssin elementit erotetaan toisistaan pilkuilla.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  reviewDate: 2016-02-15
+  review_indicator: ''
+  review_status: pending
+  review_type: retirement
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/26012.html
+        ref: ISO 19107:2003
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: sekvenssi
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: sekvenssi
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: jono
+      type: expression
+    state:
+      _dict:
+        designation: jono
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: f9435b1b-88de-5c04-a2eb-a744dd26caec
+status: valid

@@ -1,0 +1,136 @@
+data:
+  _revisions:
+    current: bea287
+    tree:
+      bea287:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.37'
+            link: https://www.iso.org/standard/60080.html
+            ref: ISO/TS 19159-1:2014
+          date_accepted: '2014-07-15T00:00:00.000Z'
+          definition: электромагнитное излучение, которое было обнаружено, но не попало
+            непосредственно из IFOV
+          entry_status: valid
+          examples: []
+          id: 1609
+          language_code: rus
+          lineage_source: ISO/TS 19159-1:2014
+          notes:
+          - рассеянный свет может быть отраженным светом в телескопе.
+          - это определение применимо к оптической части наблюдаемого спектра.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: рассеянный свет
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: рассеянный свет
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-07-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-07-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-07-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''электромагнитное излучение, которое было обнаружено,
+    но не попало непосредственно из IFOV''}]'
+  examples: []
+  id: 1609
+  language_code: rus
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: рассеянный свет может быть отраженным светом в телескопе.
+    state:
+      _dict:
+        content: рассеянный свет может быть отраженным светом в телескопе.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: это определение применимо к оптической части наблюдаемого спектра.
+    state:
+      _dict:
+        content: это определение применимо к оптической части наблюдаемого спектра.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.37'
+        link: https://www.iso.org/standard/60080.html
+        ref: ISO/TS 19159-1:2014
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO/TS 19159-1:2014
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: рассеянный свет
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: рассеянный свет
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 302f063f-0fca-5c88-8cb5-d047b2c2e332
+status: valid

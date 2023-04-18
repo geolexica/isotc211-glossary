@@ -1,0 +1,159 @@
+data:
+  _revisions:
+    current: f17b9c
+    tree:
+      f17b9c:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.15'
+            link: https://www.iso.org/standard/42137.html
+            ref: ISO 19143:2010
+          date_accepted: '2015-07-01T00:00:00.000Z'
+          definition: valor constante especificado explícitamente
+          entry_status: valid
+          examples:
+          - '"1"^^xsd:integer, "abc"^^xsd:string'
+          id: 1644
+          language_code: spa
+          notes:
+          - A diferencia del valor que se determina resolviendo una cadena de sustituciones
+            (por ejemplo, una variable).
+          release: '4'
+          review_date: '2012-05-25T00:00:00.000Z'
+          review_decision: ''
+          review_decision_date: '2015-07-01T00:00:00.000Z'
+          review_decision_event: Normal ISO processing
+          review_decision_notes: Publication of document ISO 19150-2:2015(E)
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: valor literal
+              normative_status: admitted
+              type: expression
+            state:
+              _dict:
+                designation: valor literal
+                normative_status: admitted
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: valor literal
+              type: expression
+            state:
+              _dict:
+                designation: valor literal
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2015-07-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2015-07-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2015-07-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''valor constante especificado explícitamente''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: '"1"^^xsd:integer, "abc"^^xsd:string'
+    state:
+      _dict:
+        content: '"1"^^xsd:integer, "abc"^^xsd:string'
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 1644
+  language_code: spa
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: A diferencia del valor que se determina resolviendo una cadena de sustituciones
+        (por ejemplo, una variable).
+    state:
+      _dict:
+        content: A diferencia del valor que se determina resolviendo una cadena de
+          sustituciones (por ejemplo, una variable).
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '4'
+  reviewDate: 2012-05-25
+  reviewDecisionDate: 2015-07-01
+  reviewDecisionEvent: Normal ISO processing
+  review_decision: ''
+  review_decision_notes: Publication of document ISO 19150-2:2015(E)
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.15'
+        link: https://www.iso.org/standard/42137.html
+        ref: ISO 19143:2010
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: valor literal
+      normative_status: admitted
+      type: expression
+    state:
+      _dict:
+        designation: valor literal
+        normative_status: admitted
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: valor literal
+      type: expression
+    state:
+      _dict:
+        designation: valor literal
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: da33055d-b3c7-50a2-8173-ecafe8acea53
+status: valid

@@ -1,0 +1,138 @@
+data:
+  _revisions:
+    current: 5e162b
+    tree:
+      5e162b:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/40121.html
+            ref: ISO 19123:2005
+          date_accepted: '2007-11-01T00:00:00.000Z'
+          definition: 시공간 영역(공간, 시간, 시공간) 내에서 함수처럼 그 범위 내의 특정 직접 위치에 대한 값을 반환하는 피처
+          entry_status: valid
+          examples:
+          - 래스터 이미지, 다각형 중첩, DEM
+          id: 99
+          language_code: kor
+          lineage_source: KS X ISO 19123
+          notes:
+          - 커버리지는 다른 말로 각각의 속성 유형에 대한 다양한 값을 갖는 피처이며, 피처의 기하학적 표현 내에서 각각의 직접 위치는 각
+            속성 유형별로 하나의 값을 갖는다.
+          release: '1'
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 커버리지
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 커버리지
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2007-11-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2007-11-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2007-11-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''시공간 영역(공간, 시간, 시공간) 내에서 함수처럼 그 범위 내의 특정 직접 위치에 대한
+    값을 반환하는 피처''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: 래스터 이미지, 다각형 중첩, DEM
+    state:
+      _dict:
+        content: 래스터 이미지, 다각형 중첩, DEM
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 99
+  language_code: kor
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: 커버리지는 다른 말로 각각의 속성 유형에 대한 다양한 값을 갖는 피처이며, 피처의 기하학적 표현 내에서 각각의 직접 위치는
+        각 속성 유형별로 하나의 값을 갖는다.
+    state:
+      _dict:
+        content: 커버리지는 다른 말로 각각의 속성 유형에 대한 다양한 값을 갖는 피처이며, 피처의 기하학적 표현 내에서 각각의 직접
+          위치는 각 속성 유형별로 하나의 값을 갖는다.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/40121.html
+        ref: ISO 19123:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: KS X ISO 19123
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 커버리지
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 커버리지
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 90b6c476-4c87-525e-81bb-854230d4e3a0
+status: valid

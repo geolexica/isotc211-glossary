@@ -1,0 +1,129 @@
+data:
+  _revisions:
+    current: b43ead
+    tree:
+      b43ead:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32562.html
+            ref: ISO 19144-1:2009
+          country_code: swe
+          date_accepted: '2009-08-15T00:00:00.000Z'
+          definition: resultat som erhålls vid tillämpning av klassificering
+          entry_status: valid
+          examples: []
+          id: 861
+          language_code: swe
+          lineage_source: (Type reference to national language document)
+          notes:
+          - The result of a classification process is termed legend class in this
+            part of ISO 19144 in order to avoid confusion with the term "class" as
+            used in UML modelling.
+          release: '2'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: indelningsklass
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: indelningsklass
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2009-08-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  country_code: swe
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2009-08-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2009-08-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''resultat som erhålls vid tillämpning av klassificering''}]'
+  examples: []
+  id: 861
+  language_code: swe
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: The result of a classification process is termed legend class in this
+        part of ISO 19144 in order to avoid confusion with the term "class" as used
+        in UML modelling.
+    state:
+      _dict:
+        content: The result of a classification process is termed legend class in
+          this part of ISO 19144 in order to avoid confusion with the term "class"
+          as used in UML modelling.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '2'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/32562.html
+        ref: ISO 19144-1:2009
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: (Type reference to national language document)
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: indelningsklass
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: indelningsklass
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 5e09c0cf-d95a-5a58-b0cb-ef7234b0bd14
+status: valid

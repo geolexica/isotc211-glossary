@@ -1,0 +1,140 @@
+data:
+  _revisions:
+    current: c7b139
+    tree:
+      c7b139:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.7'
+            link: https://www.iso.org/standard/32571.html
+            ref: ISO 19153:2014
+          date_accepted: '2014-02-15T00:00:00.000Z'
+          definition: последовательность агентирования, где агент в каждом отношении
+            является принципалом следующего в цепочке
+          entry_status: valid
+          examples: []
+          id: 1213
+          language_code: rus
+          lineage_source: перевод ИСО 19153:2014
+          notes:
+          - Цепочка агентства с надлежащими соглашениями на каждом этапе образует
+            промежуточное агентство между агентом первого звена и субъектом последнего.
+            Эту цепочку можно составить в любом направлении, то есть как «субъект
+            → агент = субъект → агент» (нормальный порядок или порядок предоставления),
+            либо «агент → субъект = агент → субъект» (обратный порядок, порядок приёмки,
+            проверки или трассировки).
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: цепочка агентирования
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: цепочка агентирования
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-02-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-02-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-02-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''последовательность агентирования, где агент в каждом
+    отношении является принципалом следующего в цепочке''}]'
+  examples: []
+  id: 1213
+  language_code: rus
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Цепочка агентства с надлежащими соглашениями на каждом этапе образует
+        промежуточное агентство между агентом первого звена и субъектом последнего.
+        Эту цепочку можно составить в любом направлении, то есть как «субъект → агент
+        = субъект → агент» (нормальный порядок или порядок предоставления), либо «агент
+        → субъект = агент → субъект» (обратный порядок, порядок приёмки, проверки
+        или трассировки).
+    state:
+      _dict:
+        content: Цепочка агентства с надлежащими соглашениями на каждом этапе образует
+          промежуточное агентство между агентом первого звена и субъектом последнего.
+          Эту цепочку можно составить в любом направлении, то есть как «субъект →
+          агент = субъект → агент» (нормальный порядок или порядок предоставления),
+          либо «агент → субъект = агент → субъект» (обратный порядок, порядок приёмки,
+          проверки или трассировки).
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.7'
+        link: https://www.iso.org/standard/32571.html
+        ref: ISO 19153:2014
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: перевод ИСО 19153:2014
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: цепочка агентирования
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: цепочка агентирования
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: a6d1d03f-ecb2-504d-b85b-12ecc52052f7
+status: valid

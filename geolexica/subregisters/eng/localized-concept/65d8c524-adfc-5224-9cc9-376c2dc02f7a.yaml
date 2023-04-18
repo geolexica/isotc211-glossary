@@ -1,0 +1,126 @@
+data:
+  _revisions:
+    current: fa8e85
+    tree:
+      fa8e85:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            ref: W3C XML
+          date_accepted: '2007-04-15T00:00:00.000Z'
+          definition: collection of names, identified by a URI reference, that are
+            used in XML documents as element names and attribute names
+          entry_status: valid
+          examples: []
+          id: 838
+          language_code: eng
+          lineage_source: ISO/TS 19139:2007(E)
+          lineage_source_similarity: 1
+          notes: []
+          release: '1'
+          review_date: '2019-03-01T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-03-01T00:00:00.000Z'
+          review_decision_event: Publication of ISO/TS 19139-1:2019(E)
+          review_decision_notes: Authoritative reference changed from W3C XML to W3C
+            XML. Lineage source added as ISO/TS 19139:2007(E)
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: namespace
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: namespace
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2007-04-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2007-04-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2007-04-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''collection of names, identified by a URI reference,
+    that are used in XML documents as element names and attribute names''}]'
+  examples: []
+  id: 838
+  language_code: eng
+  lineage_source_similarity: 1
+  notes: []
+  release: '1'
+  reviewDate: 2019-03-01
+  reviewDecisionDate: 2019-03-01
+  reviewDecisionEvent: Publication of ISO/TS 19139-1:2019(E)
+  review_decision: accepted
+  review_decision_notes: Authoritative reference changed from W3C XML to W3C XML.
+    Lineage source added as ISO/TS 19139:2007(E)
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        ref: W3C XML
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO/TS 19139:2007(E)
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: namespace
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: namespace
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 65d8c524-adfc-5224-9cc9-376c2dc02f7a
+status: valid

@@ -1,0 +1,130 @@
+data:
+  _revisions:
+    current: '727582'
+    tree:
+      '727582':
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/26017.html
+            ref: ISO 19112:2003
+          date_accepted: '2003-10-15T00:00:00.000Z'
+          definition: model (systeem) voor identificatie van een positie (locatie)
+            in de werkelijkheid
+          entry_status: valid
+          examples: []
+          id: 422
+          language_code: nld
+          lineage_source: NEN 3610
+          lineage_source_similarity: 1
+          notes:
+          - Identificatie van een positie kan door coördinaten (directe locatie) en
+            door geografische identificatoren (indirecte locatie).
+          release: '1'
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: ruimtelijk referentiesysteem
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: ruimtelijk referentiesysteem
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2003-10-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2003-10-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2003-10-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''model (systeem) voor identificatie van een positie
+    (locatie) in de werkelijkheid''}]'
+  examples: []
+  id: 422
+  language_code: nld
+  lineage_source_similarity: 1
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Identificatie van een positie kan door coördinaten (directe locatie)
+        en door geografische identificatoren (indirecte locatie).
+    state:
+      _dict:
+        content: Identificatie van een positie kan door coördinaten (directe locatie)
+          en door geografische identificatoren (indirecte locatie).
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/26017.html
+        ref: ISO 19112:2003
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: NEN 3610
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: ruimtelijk referentiesysteem
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: ruimtelijk referentiesysteem
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: b2393b90-2af7-5645-80ee-5e649263bcc9
+status: valid

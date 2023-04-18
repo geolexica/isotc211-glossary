@@ -1,0 +1,116 @@
+data:
+  _revisions:
+    current: 204b2b
+    tree:
+      204b2b:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/44875.html
+            ref: ISO 19126:2009
+          date_accepted: '2009-08-15T00:00:00.000Z'
+          definition: dictionary that contains definitions of, and related descriptive
+            information about, concepts that may be specified in detail in a feature
+            catalogue
+          entry_status: valid
+          examples: []
+          id: 856
+          language_code: eng
+          lineage_source: ISO 19144-1:2009
+          lineage_source_similarity: '1'
+          notes: []
+          release: '2'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: feature concept dictionary
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: feature concept dictionary
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2009-08-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2009-08-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2009-08-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''dictionary that contains definitions of, and related
+    descriptive information about, concepts that may be specified in detail in a feature
+    catalogue''}]'
+  examples: []
+  id: 856
+  language_code: eng
+  lineage_source_similarity: '1'
+  notes: []
+  release: '2'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/44875.html
+        ref: ISO 19126:2009
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19144-1:2009
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: feature concept dictionary
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: feature concept dictionary
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 3393a222-5dd9-5d8c-85c7-76d38909761f
+status: valid

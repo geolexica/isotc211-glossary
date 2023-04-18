@@ -1,0 +1,112 @@
+data:
+  _revisions:
+    current: e643b1
+    tree:
+      e643b1:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/26010.html
+            ref: ISO 19105:2000
+          date_accepted: '2007-06-29T00:00:00.000Z'
+          definition: 통과 또는 실패로 판정할 수 없는 경우의 시험 판정
+          entry_status: valid
+          examples: []
+          id: 238
+          language_code: kor
+          lineage_source: KS X ISO 19105
+          notes: []
+          release: '1'
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 판정 보류
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 판정 보류
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2007-06-29T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2007-06-29T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2007-06-29T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''통과 또는 실패로 판정할 수 없는 경우의 시험 판정''}]'
+  examples: []
+  id: 238
+  language_code: kor
+  notes: []
+  release: '1'
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/26010.html
+        ref: ISO 19105:2000
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: KS X ISO 19105
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 판정 보류
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 판정 보류
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: cc75a2b1-c211-508c-9391-421725bb3421
+status: valid

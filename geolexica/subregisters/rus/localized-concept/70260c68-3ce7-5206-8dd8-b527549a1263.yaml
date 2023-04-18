@@ -1,0 +1,124 @@
+data:
+  _revisions:
+    current: aeecda
+    tree:
+      aeecda:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.32'
+            link: https://www.iso.org/standard/44212.html
+            ref: ISO 19118:2011
+          date_accepted: '2011-10-15T00:00:00.000Z'
+          definition: совокупность данных для цели передачи данных
+          entry_status: valid
+          examples: []
+          id: 800
+          language_code: rus
+          lineage_source: перевод ИСО 19118:2011
+          notes:
+          - Блок передачи не обязательно должен идентифицироваться как набор данных.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: блок передачи
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: блок передачи
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2011-10-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2011-10-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2011-10-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''совокупность данных для цели передачи данных''}]'
+  examples: []
+  id: 800
+  language_code: rus
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Блок передачи не обязательно должен идентифицироваться как набор данных.
+    state:
+      _dict:
+        content: Блок передачи не обязательно должен идентифицироваться как набор
+          данных.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.32'
+        link: https://www.iso.org/standard/44212.html
+        ref: ISO 19118:2011
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: перевод ИСО 19118:2011
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: блок передачи
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: блок передачи
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 70260c68-3ce7-5206-8dd8-b527549a1263
+status: valid

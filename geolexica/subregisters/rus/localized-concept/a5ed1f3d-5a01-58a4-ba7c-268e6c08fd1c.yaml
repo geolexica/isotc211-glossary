@@ -1,0 +1,139 @@
+data:
+  _revisions:
+    current: 6f8cd9
+    tree:
+      6f8cd9:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (derived from)
+            link: https://www.iso.org/standard/2517.html
+            ref: 'ISO 12620:1999 '
+          date_accepted: '2010-11-01T00:00:00.000Z'
+          definition: отдельная область человеческих знаний, к которой относится терминологическая
+            запись
+          entry_status: valid
+          examples: []
+          id: 879
+          language_code: rus
+          lineage_source: ISO 19146:2010
+          notes:
+          - Адаптировано из  ISO 12620:1999
+          - в базе данных или другой терминологической коллекции обычно определяется
+            набор доменов. С данным понятием может быть связано несколько доменов.
+          release: '2'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: домен (общая лексика)
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: домен (общая лексика)
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2010-11-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2010-11-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2010-11-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''отдельная область человеческих знаний, к которой относится
+    терминологическая запись''}]'
+  examples: []
+  id: 879
+  language_code: rus
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Адаптировано из  ISO 12620:1999
+    state:
+      _dict:
+        content: Адаптировано из  ISO 12620:1999
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: в базе данных или другой терминологической коллекции обычно определяется
+        набор доменов. С данным понятием может быть связано несколько доменов.
+    state:
+      _dict:
+        content: в базе данных или другой терминологической коллекции обычно определяется
+          набор доменов. С данным понятием может быть связано несколько доменов.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '2'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: (derived from)
+        link: https://www.iso.org/standard/2517.html
+        ref: 'ISO 12620:1999 '
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19146:2010
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: домен (общая лексика)
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: домен (общая лексика)
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: a5ed1f3d-5a01-58a4-ba7c-268e6c08fd1c
+status: valid

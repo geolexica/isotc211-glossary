@@ -1,0 +1,112 @@
+data:
+  _revisions:
+    current: c44f3c
+    tree:
+      c44f3c:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            ref: ISO 21000-1
+          date_accepted: '2005-10-17T00:00:00.000Z'
+          definition: objet digital structuré [actif, travail, service, donnée ou
+            information] avec une représentation standard, une identification et une
+            structure de métadonnées
+          entry_status: valid
+          examples: []
+          id: 661
+          language_code: fra
+          lineage_source: ISO 19132
+          lineage_source_similarity: 1
+          notes: []
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: élément numérique
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: élément numérique
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-10-17T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-10-17T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-10-17T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''objet digital structuré [actif, travail, service,
+    donnée ou information] avec une représentation standard, une identification et
+    une structure de métadonnées''}]'
+  examples: []
+  id: 661
+  language_code: fra
+  lineage_source_similarity: 1
+  notes: []
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        ref: ISO 21000-1
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19132
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: élément numérique
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: élément numérique
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: bddbb696-32a8-5fad-8b37-f8d5e7f971e0
+status: valid

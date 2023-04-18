@@ -1,0 +1,124 @@
+data:
+  _revisions:
+    current: 61e58a
+    tree:
+      61e58a:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: 3.1.2
+            link: https://www.iso.org/standard/20057.html
+            ref: ISO 1087-1:2000
+          date_accepted: '2016-10-01T00:00:00.000Z'
+          definition: campo de conocimiento especializado
+          entry_status: valid
+          examples: []
+          id: 1625
+          language_code: spa
+          lineage_source: ISO 19104:2016, 4.28
+          notes: []
+          release: '4'
+          review_date: '2013-01-29T00:00:00.000Z'
+          review_decision: ''
+          review_decision_date: '2016-10-01T00:00:00.000Z'
+          review_decision_event: Normal ISO processing
+          review_decision_notes: Publication of document ISO 19104:2016(E)
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: campo temático
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: campo temático
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2016-10-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2016-10-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2016-10-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''campo de conocimiento especializado''}]'
+  examples: []
+  id: 1625
+  language_code: spa
+  notes: []
+  release: '4'
+  reviewDate: 2013-01-29
+  reviewDecisionDate: 2016-10-01
+  reviewDecisionEvent: Normal ISO processing
+  review_decision: ''
+  review_decision_notes: Publication of document ISO 19104:2016(E)
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: 3.1.2
+        link: https://www.iso.org/standard/20057.html
+        ref: ISO 1087-1:2000
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19104:2016, 4.28
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: campo temático
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: campo temático
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 9517bc60-a369-54b5-ab9c-8fac895fb0c6
+status: valid

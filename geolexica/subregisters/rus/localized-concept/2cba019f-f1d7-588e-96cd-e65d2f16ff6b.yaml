@@ -1,0 +1,123 @@
+data:
+  _revisions:
+    current: afdf5b
+    tree:
+      afdf5b:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/42137.html
+            ref: ISO 19143:2010
+          date_accepted: '2010-10-15T00:00:00.000Z'
+          definition: выражение фильтра, включающее одно или несколько условий, ограничивающих
+            свойства двух различных типов сущностей
+          entry_status: valid
+          examples: []
+          id: 1299
+          language_code: rus
+          lineage_source: ISO 19143:2010
+          notes:
+          - в настоящем стандарте типами сущностей являются типы ресурсов.
+          release: '2'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: предикат соединения
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: предикат соединения
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2010-10-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2010-10-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2010-10-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''выражение фильтра, включающее одно или несколько условий,
+    ограничивающих свойства двух различных типов сущностей''}]'
+  examples: []
+  id: 1299
+  language_code: rus
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: в настоящем стандарте типами сущностей являются типы ресурсов.
+    state:
+      _dict:
+        content: в настоящем стандарте типами сущностей являются типы ресурсов.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '2'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/42137.html
+        ref: ISO 19143:2010
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19143:2010
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: предикат соединения
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: предикат соединения
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 2cba019f-f1d7-588e-96cd-e65d2f16ff6b
+status: valid

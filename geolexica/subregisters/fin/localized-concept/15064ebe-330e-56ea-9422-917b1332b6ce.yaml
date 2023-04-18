@@ -1,0 +1,155 @@
+data:
+  _revisions:
+    current: '749317'
+    tree:
+      '749317':
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: 4.1.7
+            link: https://www.iso.org/standard/59164.html
+            ref: ISO 19101-1:2014
+          date_accepted: '2002-07-01T00:00:00.000Z'
+          definition: määrämuotoinen kieli käsiteskeemojen tuottamista varten
+          entry_status: valid
+          examples:
+          - UML, EXPRESS ja IDEFIX.
+          id: 70
+          language_code: fin
+          lineage_source: ISO 19101:2002
+          lineage_source_similarity: 1
+          notes:
+          - Käsitemallinnuskieli voi olla leksikaalinen tai graafinen. Eri mallinnuskielet
+            saattavat perustua samaan käsitteelliseen formalismiin.
+          release: '1'
+          review_date: '2010-10-12T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2014-11-01T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: Authoritative reference changed from ISO 19101:2002
+            to ISO 19101-1:2014. Lineage source added as ISO 19101:2002.
+          review_indicator: ''
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: mallinnuskieli
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: mallinnuskieli
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2002-07-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2002-07-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2002-07-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''määrämuotoinen kieli käsiteskeemojen tuottamista varten''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: UML, EXPRESS ja IDEFIX.
+    state:
+      _dict:
+        content: UML, EXPRESS ja IDEFIX.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 70
+  language_code: fin
+  lineage_source_similarity: 1
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Käsitemallinnuskieli voi olla leksikaalinen tai graafinen. Eri mallinnuskielet
+        saattavat perustua samaan käsitteelliseen formalismiin.
+    state:
+      _dict:
+        content: Käsitemallinnuskieli voi olla leksikaalinen tai graafinen. Eri mallinnuskielet
+          saattavat perustua samaan käsitteelliseen formalismiin.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  reviewDate: 2010-10-12
+  reviewDecisionDate: 2014-11-01
+  reviewDecisionEvent: Publication of ISO 19101-1:2014
+  review_decision: accepted
+  review_decision_notes: Authoritative reference changed from ISO 19101:2002 to ISO
+    19101-1:2014. Lineage source added as ISO 19101:2002.
+  review_indicator: ''
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: 4.1.7
+        link: https://www.iso.org/standard/59164.html
+        ref: ISO 19101-1:2014
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19101:2002
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: mallinnuskieli
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: mallinnuskieli
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 15064ebe-330e-56ea-9422-917b1332b6ce
+status: valid

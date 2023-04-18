@@ -1,0 +1,107 @@
+data:
+  _revisions:
+    current: 724d7a
+    tree:
+      724d7a:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/40121.html
+            ref: ISO 19123:2005
+          date_accepted: '2005-08-15T00:00:00.000Z'
+          definition: 格网坐标和外部坐标参照系坐标之间存在仿射变换的格网。
+          entry_status: valid
+          examples: []
+          id: 367
+          language_code: zho
+          notes:
+          - 如果某个坐标参照系通过基准与地球相关，该格网就是地理校正格网。
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 校正格网
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 校正格网
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-08-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-08-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-08-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''格网坐标和外部坐标参照系坐标之间存在仿射变换的格网。''}]'
+  examples: []
+  id: 367
+  language_code: zho
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: 如果某个坐标参照系通过基准与地球相关，该格网就是地理校正格网。
+    state:
+      _dict:
+        content: 如果某个坐标参照系通过基准与地球相关，该格网就是地理校正格网。
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/40121.html
+        ref: ISO 19123:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 校正格网
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 校正格网
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 9b3f43ae-bcfc-5efd-a0ff-3a2d59d4c849
+status: valid

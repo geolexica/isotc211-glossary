@@ -1,0 +1,132 @@
+data:
+  _revisions:
+    current: f8e11e
+    tree:
+      f8e11e:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/40121.html
+            ref: ISO 19123:2005
+          date_accepted: '2005-08-15T00:00:00.000Z'
+          definition: Unsur yang mempunyai sifat arah dan magnitud
+          entry_status: valid
+          examples: []
+          id: 491
+          language_code: msa
+          lineage_source: Pusat Rujukan Persuratan Melayu (DBP)
+          notes:
+          - A directed line segment represents a vector if the length and direction
+            of the line segment are equal to the magnitude and direction of the vector.  The
+            term vector data refers to data that represents the spatial configuration
+            of features as a set of directed line segments.
+          release: '1'
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: vektor
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: vektor
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-08-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-08-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-08-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''Unsur yang mempunyai sifat arah dan magnitud''}]'
+  examples: []
+  id: 491
+  language_code: msa
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: A directed line segment represents a vector if the length and direction
+        of the line segment are equal to the magnitude and direction of the vector.
+        The term vector data refers to data that represents the spatial configuration
+        of features as a set of directed line segments.
+    state:
+      _dict:
+        content: A directed line segment represents a vector if the length and direction
+          of the line segment are equal to the magnitude and direction of the vector.
+          The term vector data refers to data that represents the spatial configuration
+          of features as a set of directed line segments.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/40121.html
+        ref: ISO 19123:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: Pusat Rujukan Persuratan Melayu (DBP)
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: vektor
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: vektor
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 8ee66793-db20-5516-a971-5d62a44a6c38
+status: valid

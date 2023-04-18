@@ -1,0 +1,115 @@
+data:
+  _revisions:
+    current: 522b9f
+    tree:
+      522b9f:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.8'
+            link: https://www.iso.org/standard/32571.html
+            ref: ISO 19153:2014
+          date_accepted: '2014-02-15T00:00:00.000Z'
+          definition: sequence of licences that traces a chain of agency, where a
+            licence is granted at each link of the chain, allowing the agent at that
+            link to act as the principal in the next
+          entry_status: valid
+          examples: []
+          id: 1214
+          language_code: eng
+          notes:
+          - As with the chain of agency, this chain can be spoken of in either direction.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: chain of licence
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: chain of licence
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-02-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-02-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-02-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''sequence of licences that traces a chain of agency,
+    where a licence is granted at each link of the chain, allowing the agent at that
+    link to act as the principal in the next''}]'
+  examples: []
+  id: 1214
+  language_code: eng
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: As with the chain of agency, this chain can be spoken of in either
+        direction.
+    state:
+      _dict:
+        content: As with the chain of agency, this chain can be spoken of in either
+          direction.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.8'
+        link: https://www.iso.org/standard/32571.html
+        ref: ISO 19153:2014
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: chain of licence
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: chain of licence
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 894b7598-e0ba-53c3-b6f2-0a99f3bcecee
+status: valid

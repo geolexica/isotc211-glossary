@@ -1,0 +1,134 @@
+data:
+  _revisions:
+    current: e467ae
+    tree:
+      e467ae:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/41126.html
+            ref: ISO 19111:2007
+          date_accepted: '2003-02-15T00:00:00.000Z'
+          entry_status: valid
+          examples: []
+          id: 505
+          language_code: msa
+          lineage_source: Istilah ukur dan Pemetaan (DBP, 1992)
+          notes: []
+          release: '1'
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: meridian sifar
+              normative_status: admitted
+              type: expression
+            state:
+              _dict:
+                designation: meridian sifar
+                normative_status: admitted
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: prime meridian
+              type: expression
+            state:
+              _dict:
+                designation: prime meridian
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2003-02-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2003-02-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2003-02-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  examples: []
+  id: 505
+  language_code: msa
+  notes: []
+  release: '1'
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/41126.html
+        ref: ISO 19111:2007
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: Istilah ukur dan Pemetaan (DBP, 1992)
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: meridian sifar
+      normative_status: admitted
+      type: expression
+    state:
+      _dict:
+        designation: meridian sifar
+        normative_status: admitted
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: prime meridian
+      type: expression
+    state:
+      _dict:
+        designation: prime meridian
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: d7129442-5f75-5d34-8388-c0b9c4856777
+status: valid

@@ -1,0 +1,130 @@
+data:
+  _revisions:
+    current: 537f06
+    tree:
+      537f06:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.5'
+            link: https://www.iso.org/standard/32566.html
+            ref: ISO 19148:2012
+          date_accepted: '2012-02-15T00:00:00.000Z'
+          definition: información sobre la ocurrencia de un objeto geográfico localizado
+            a lo largo de un objeto geográfico de localización
+          entry_status: valid
+          examples: []
+          id: 1171
+          language_code: spa
+          notes:
+          - Un evento de objeto geográfico incluye la localización referenciada linealmente
+            del objeto geográfico localizado a lo largo del objeto geográfico de localización
+          - Un evento de fenómeno se puede calificar por el instante (4.8) o el periodo
+            (4.20) en el que ocurre el evento de fenómeno
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: evento de objeto geográfico
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: evento de objeto geográfico
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2012-02-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2012-02-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2012-02-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''información sobre la ocurrencia de un objeto geográfico
+    localizado a lo largo de un objeto geográfico de localización''}]'
+  examples: []
+  id: 1171
+  language_code: spa
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Un evento de objeto geográfico incluye la localización referenciada
+        linealmente del objeto geográfico localizado a lo largo del objeto geográfico
+        de localización
+    state:
+      _dict:
+        content: Un evento de objeto geográfico incluye la localización referenciada
+          linealmente del objeto geográfico localizado a lo largo del objeto geográfico
+          de localización
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Un evento de fenómeno se puede calificar por el instante (4.8) o el
+        periodo (4.20) en el que ocurre el evento de fenómeno
+    state:
+      _dict:
+        content: Un evento de fenómeno se puede calificar por el instante (4.8) o
+          el periodo (4.20) en el que ocurre el evento de fenómeno
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.5'
+        link: https://www.iso.org/standard/32566.html
+        ref: ISO 19148:2012
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: evento de objeto geográfico
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: evento de objeto geográfico
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 7bee2fc5-31a7-58d9-88d2-7cd154a4708a
+status: valid

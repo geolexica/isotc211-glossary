@@ -1,0 +1,141 @@
+data:
+  _revisions:
+    current: 7cad03
+    tree:
+      7cad03:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            clause: (E), 3.1.3
+            link: https://www.iso.org/standard/74039.html
+            ref: ISO 19111:2019
+          date_accepted: '2007-07-01T00:00:00.000Z'
+          definition: 用两个相互独立的坐标参照系描述位置的坐标参照系。
+          entry_status: valid
+          examples: []
+          id: 702
+          language_code: zho
+          lineage_source: ISO 19111:2007(E)
+          lineage_source_similarity: 1
+          notes:
+          - 两个坐标参照系相互对立的，在一个坐标参照系中的坐标值是不能转换或变换到另一个坐标参照系中的坐标值。
+          release: '1'
+          review_date: '2019-01-31T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-01-31T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.3. Lineage source added as ISO 19111:2007(E)
+          review_indicator: ''
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 复合坐标参照系
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 复合坐标参照系
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2007-07-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2007-07-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2007-07-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''用两个相互独立的坐标参照系描述位置的坐标参照系。''}]'
+  examples: []
+  id: 702
+  language_code: zho
+  lineage_source_similarity: 1
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: 两个坐标参照系相互对立的，在一个坐标参照系中的坐标值是不能转换或变换到另一个坐标参照系中的坐标值。
+    state:
+      _dict:
+        content: 两个坐标参照系相互对立的，在一个坐标参照系中的坐标值是不能转换或变换到另一个坐标参照系中的坐标值。
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  reviewDate: 2019-01-31
+  reviewDecisionDate: 2019-01-31
+  reviewDecisionEvent: Publication of ISO 19111:2019(E)
+  review_decision: accepted
+  review_decision_notes: Authoritative reference changed from ISO 19111:2007 to ISO
+    19111:2019(E), 3.1.3. Lineage source added as ISO 19111:2007(E)
+  review_indicator: ''
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: (E), 3.1.3
+        link: https://www.iso.org/standard/74039.html
+        ref: ISO 19111:2019
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19111:2007(E)
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 复合坐标参照系
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 复合坐标参照系
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 16a94275-c441-51cc-b31c-44dd184c94ac
+status: valid

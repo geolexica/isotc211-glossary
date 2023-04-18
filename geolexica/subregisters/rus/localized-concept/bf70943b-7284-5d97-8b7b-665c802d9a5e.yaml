@@ -1,0 +1,140 @@
+data:
+  _revisions:
+    current: '334474'
+    tree:
+      '334474':
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/39965.html
+            ref: ISO 19110:2005
+          date_accepted: '2002-07-01T00:00:00.000Z'
+          definition: операция, которую может выполнить любой экземпляр некоторого
+            типа пространственных объектов
+          entry_status: valid
+          examples:
+          - Операция объекта над дамбой - поднятие дамбы. Результатом операции является  повышение
+            высоты дамбы и уровня воды в водохранилище
+          id: 177
+          language_code: rus
+          lineage_source: Internet
+          notes:
+          - Иногда операции пространственного объекта обеспечивают основу для определения
+            типа объекта
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: операция  пространственного объекта
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: операция  пространственного объекта
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2002-07-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2002-07-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2002-07-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''операция, которую может выполнить любой экземпляр
+    некоторого типа пространственных объектов''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Операция объекта над дамбой - поднятие дамбы. Результатом операции
+        является  повышение высоты дамбы и уровня воды в водохранилище
+    state:
+      _dict:
+        content: Операция объекта над дамбой - поднятие дамбы. Результатом операции
+          является  повышение высоты дамбы и уровня воды в водохранилище
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 177
+  language_code: rus
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Иногда операции пространственного объекта обеспечивают основу для определения
+        типа объекта
+    state:
+      _dict:
+        content: Иногда операции пространственного объекта обеспечивают основу для
+          определения типа объекта
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/39965.html
+        ref: ISO 19110:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: Internet
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: операция  пространственного объекта
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: операция  пространственного объекта
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: bf70943b-7284-5d97-8b7b-665c802d9a5e
+status: valid

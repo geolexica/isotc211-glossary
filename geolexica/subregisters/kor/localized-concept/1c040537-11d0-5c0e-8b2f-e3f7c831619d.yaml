@@ -1,0 +1,137 @@
+data:
+  _revisions:
+    current: 53a373
+    tree:
+      53a373:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.15'
+            link: https://www.iso.org/standard/32566.html
+            ref: ISO 19148:2012
+          date_accepted: '2012-02-15T00:00:00.000Z'
+          definition: 속성값 또는 다른 지형지물의 지형지물을 따라 발생하는 사건
+          entry_status: valid
+          examples: []
+          id: 1174
+          language_code: kor
+          notes:
+          - The event location is specified using linearly referenced locations.
+          - A linearly located event may be qualified by the instant in which, or
+            period during which, the linearly located event occurred.
+          - ISO 19108 limits events to a single instant in time and does not include
+            the specification of a location.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 선형적 위치 사건
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 선형적 위치 사건
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2012-02-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2012-02-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2012-02-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''속성값 또는 다른 지형지물의 지형지물을 따라 발생하는 사건''}]'
+  examples: []
+  id: 1174
+  language_code: kor
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: The event location is specified using linearly referenced locations.
+    state:
+      _dict:
+        content: The event location is specified using linearly referenced locations.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: A linearly located event may be qualified by the instant in which,
+        or period during which, the linearly located event occurred.
+    state:
+      _dict:
+        content: A linearly located event may be qualified by the instant in which,
+          or period during which, the linearly located event occurred.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: ISO 19108 limits events to a single instant in time and does not include
+        the specification of a location.
+    state:
+      _dict:
+        content: ISO 19108 limits events to a single instant in time and does not
+          include the specification of a location.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.15'
+        link: https://www.iso.org/standard/32566.html
+        ref: ISO 19148:2012
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 선형적 위치 사건
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 선형적 위치 사건
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 1c040537-11d0-5c0e-8b2f-e3f7c831619d
+status: valid

@@ -1,0 +1,119 @@
+data:
+  _revisions:
+    current: e65546
+    tree:
+      e65546:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/39242.html
+            ref: ISO 6709:2008
+          date_accepted: '2008-07-15T00:00:00.000Z'
+          entry_status: valid
+          examples:
+          - 079 572 5 degrees is represented as 50º04'46.461" sexagesimal degrees.
+          id: 905
+          language_code: deu
+          notes:
+          - In the case of latitude or longitude, it may also include a character
+            indicating hemisphere
+          release: '2'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: Sexagesimalgrad
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: Sexagesimalgrad
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2008-07-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2008-07-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2008-07-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: 079 572 5 degrees is represented as 50º04'46.461" sexagesimal degrees.
+    state:
+      _dict:
+        content: 079 572 5 degrees is represented as 50º04'46.461" sexagesimal degrees.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 905
+  language_code: deu
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: In the case of latitude or longitude, it may also include a character
+        indicating hemisphere
+    state:
+      _dict:
+        content: In the case of latitude or longitude, it may also include a character
+          indicating hemisphere
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '2'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/39242.html
+        ref: ISO 6709:2008
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: Sexagesimalgrad
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: Sexagesimalgrad
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 0bee1741-42f1-57ea-9142-2339f4cd10b7
+status: valid

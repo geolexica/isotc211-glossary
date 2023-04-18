@@ -1,0 +1,121 @@
+data:
+  _revisions:
+    current: 5aaabe
+    tree:
+      5aaabe:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.3'
+            link: https://www.iso.org/standard/46226.html
+            ref: ISO 19117:2012
+          date_accepted: '2012-12-15T00:00:00.000Z'
+          entry_status: valid
+          examples:
+          - A dashed line symbol with a point symbol repeated at an interval.
+          id: 1512
+          language_code: msa
+          lineage_source: Pusat Rujukan Persuratan Melayu (DBP)
+          notes: []
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: komples simbol
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: komples simbol
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2012-12-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2012-12-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2012-12-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: A dashed line symbol with a point symbol repeated at an interval.
+    state:
+      _dict:
+        content: A dashed line symbol with a point symbol repeated at an interval.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 1512
+  language_code: msa
+  notes: []
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.3'
+        link: https://www.iso.org/standard/46226.html
+        ref: ISO 19117:2012
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: Pusat Rujukan Persuratan Melayu (DBP)
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: komples simbol
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: komples simbol
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: ca50f2a0-a87b-5e24-b7ee-a76688a265ee
+status: valid

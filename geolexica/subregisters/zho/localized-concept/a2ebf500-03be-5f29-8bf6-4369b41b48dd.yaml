@@ -1,0 +1,96 @@
+data:
+  _revisions:
+    current: c8052e
+    tree:
+      c8052e:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/40121.html
+            ref: ISO 19123:2005
+          date_accepted: '2005-08-15T00:00:00.000Z'
+          definition: 由空间对象、时间对象或时空对象和要素属性值记录组成的有序数值对。
+          entry_status: valid
+          examples: []
+          id: 758
+          language_code: zho
+          notes: []
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 几何数值对
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 几何数值对
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-08-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-08-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-08-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''由空间对象、时间对象或时空对象和要素属性值记录组成的有序数值对。''}]'
+  examples: []
+  id: 758
+  language_code: zho
+  notes: []
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/40121.html
+        ref: ISO 19123:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 几何数值对
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 几何数值对
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: a2ebf500-03be-5f29-8bf6-4369b41b48dd
+status: valid

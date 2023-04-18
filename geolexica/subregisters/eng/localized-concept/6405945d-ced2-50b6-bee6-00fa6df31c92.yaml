@@ -1,0 +1,127 @@
+data:
+  _revisions:
+    current: 0df741
+    tree:
+      0df741:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: 4.1.1
+            link: https://www.iso.org/standard/51206.html
+            ref: ISO 19152:2012
+          date_accepted: '2012-12-01T00:00:00.000Z'
+          definition: source with the administrative description (where applicable)
+            of the parties involved, the rights, restrictions and responsibilities
+            created and the basic administrative units affected
+          entry_status: valid
+          examples:
+          - It is the evidence of a party’s right to a basic administrative unit.
+          - A document describing a transaction (a deed), or a judgement of the register
+            holder.
+          id: 1286
+          language_code: eng
+          notes: []
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: administrative source
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: administrative source
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2012-12-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2012-12-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2012-12-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''source with the administrative description (where
+    applicable) of the parties involved, the rights, restrictions and responsibilities
+    created and the basic administrative units affected''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: It is the evidence of a party’s right to a basic administrative unit.
+    state:
+      _dict:
+        content: It is the evidence of a party’s right to a basic administrative unit.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: A document describing a transaction (a deed), or a judgement of the
+        register holder.
+    state:
+      _dict:
+        content: A document describing a transaction (a deed), or a judgement of the
+          register holder.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 1286
+  language_code: eng
+  notes: []
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: 4.1.1
+        link: https://www.iso.org/standard/51206.html
+        ref: ISO 19152:2012
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: administrative source
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: administrative source
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 6405945d-ced2-50b6-bee6-00fa6df31c92
+status: valid

@@ -1,0 +1,130 @@
+data:
+  _revisions:
+    current: dca02b
+    tree:
+      dca02b:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            clause: '4.5'
+            link: https://www.iso.org/standard/32575.html
+            ref: ISO 19157:2013
+          date_accepted: '2006-12-01T00:00:00.000Z'
+          definition: 与论域一致。
+          entry_status: valid
+          examples: []
+          id: 736
+          language_code: zho
+          lineage_source: ISO 19138:2006
+          lineage_source_similarity: 1
+          notes: []
+          release: '1'
+          review_date: '2010-07-09T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2013-12-15T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19157:2013
+          review_decision_notes: Authoritative reference changed from ISO 19138:2006
+            to ISO 19157:2013. Lineage source added as ISO 19138:2006.
+          review_indicator: ''
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 正确性
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 正确性
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2006-12-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2006-12-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2006-12-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''与论域一致。''}]'
+  examples: []
+  id: 736
+  language_code: zho
+  lineage_source_similarity: 1
+  notes: []
+  release: '1'
+  reviewDate: 2010-07-09
+  reviewDecisionDate: 2013-12-15
+  reviewDecisionEvent: Publication of ISO 19157:2013
+  review_decision: accepted
+  review_decision_notes: Authoritative reference changed from ISO 19138:2006 to ISO
+    19157:2013. Lineage source added as ISO 19138:2006.
+  review_indicator: ''
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.5'
+        link: https://www.iso.org/standard/32575.html
+        ref: ISO 19157:2013
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19138:2006
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 正确性
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 正确性
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: f30b310d-5c88-51fc-8761-11c5df5c2c38
+status: valid

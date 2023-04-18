@@ -1,0 +1,113 @@
+data:
+  _revisions:
+    current: 10aec4
+    tree:
+      10aec4:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/26010.html
+            ref: ISO 19105:2000
+          date_accepted: '2000-12-15T00:00:00.000Z'
+          definition: veredicto de prueba de no-conformidad
+          entry_status: valid
+          examples: []
+          id: 166
+          language_code: spa
+          notes:
+          - La no-conformidad puede ser o bien respecto al propósito de la prueba
+            o bien respecto al menos a uno de los requisitos de conformidad de la(s)
+            norma(s) relevante(s).
+          release: '1'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: veredicto de fallo
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: veredicto de fallo
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2000-12-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2000-12-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2000-12-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''veredicto de prueba de no-conformidad''}]'
+  examples: []
+  id: 166
+  language_code: spa
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: La no-conformidad puede ser o bien respecto al propósito de la prueba
+        o bien respecto al menos a uno de los requisitos de conformidad de la(s) norma(s)
+        relevante(s).
+    state:
+      _dict:
+        content: La no-conformidad puede ser o bien respecto al propósito de la prueba
+          o bien respecto al menos a uno de los requisitos de conformidad de la(s)
+          norma(s) relevante(s).
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/26010.html
+        ref: ISO 19105:2000
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: veredicto de fallo
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: veredicto de fallo
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 8eb7e16e-3952-514f-9ce5-469e848cd174
+status: valid

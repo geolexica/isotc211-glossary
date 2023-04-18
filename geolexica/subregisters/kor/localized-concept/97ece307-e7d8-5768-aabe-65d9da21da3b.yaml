@@ -1,0 +1,134 @@
+data:
+  _revisions:
+    current: 1478bf
+    tree:
+      1478bf:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/41126.html
+            ref: ISO 19111:2007
+          date_accepted: '2007-07-01T00:00:00.000Z'
+          definition: 지구에 대한 2차원 또는 3차원 좌표 체계의 관계를 기술하는 데이텀
+          entry_status: valid
+          examples: []
+          id: 708
+          language_code: kor
+          notes: []
+          release: '1'
+          review_date: '2017-06-28T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2007-07-01T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19111:2007
+          review_indicator: ''
+          review_status: pending
+          review_type: supersession
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 측지 원점
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 측지 원점
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 측지 데이텀
+              type: expression
+            state:
+              _dict:
+                designation: 측지 데이텀
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2007-07-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2007-07-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2007-07-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''지구에 대한 2차원 또는 3차원 좌표 체계의 관계를 기술하는 데이텀''}]'
+  examples: []
+  id: 708
+  language_code: kor
+  notes: []
+  release: '1'
+  reviewDate: 2017-06-28
+  reviewDecisionDate: 2007-07-01
+  reviewDecisionEvent: Publication of ISO 19111:2007
+  review_decision: accepted
+  review_indicator: ''
+  review_status: pending
+  review_type: supersession
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/41126.html
+        ref: ISO 19111:2007
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 측지 원점
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 측지 원점
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 측지 데이텀
+      type: expression
+    state:
+      _dict:
+        designation: 측지 데이텀
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 97ece307-e7d8-5768-aabe-65d9da21da3b
+status: valid

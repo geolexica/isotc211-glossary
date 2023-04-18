@@ -1,0 +1,162 @@
+data:
+  _revisions:
+    current: 1071f8
+    tree:
+      1071f8:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '3.7'
+            link: https://www.iso.org/standard/57303.html
+            ref: ISO 19110:2016
+          date_accepted: '2002-07-01T00:00:00.000Z'
+          definition: operacja, którą może wykonać dowolna instancja typu obiektu
+            (4.1)
+          examples:
+          - Operacją obiektu na obiekcie 'tama' jest podniesienie tamy. Wynikiem tej
+            operacji jest wzrost wysokości 'tamy' oraz wzrost poziomu wody w 'zbiorniku
+            wodnym'.
+          id: 177
+          language_code: pol
+          lineage_source: ISO 19101:2002
+          lineage_source_similarity: 1
+          notes:
+          - W niektórych przypadkach operacje obiektów mogą dawać podstawę do definiowania
+            typów obiektów.
+          release: '1'
+          review_date: '2012-01-27T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2016-12-01T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19110:2016
+          review_decision_notes: Authoritative reference changed from ISO 19110:2005
+            to ISO 19110:2016, 3.7. Lineage source added as ISO 19101:2002
+          review_indicator: ''
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: operacja obiektu
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: operacja obiektu
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2002-07-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2002-07-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2002-07-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''operacja, którą może wykonać dowolna instancja typu
+    obiektu (4.1)''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Operacją obiektu na obiekcie 'tama' jest podniesienie tamy. Wynikiem
+        tej operacji jest wzrost wysokości 'tamy' oraz wzrost poziomu wody w 'zbiorniku
+        wodnym'.
+    state:
+      _dict:
+        content: Operacją obiektu na obiekcie 'tama' jest podniesienie tamy. Wynikiem
+          tej operacji jest wzrost wysokości 'tamy' oraz wzrost poziomu wody w 'zbiorniku
+          wodnym'.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 177
+  language_code: pol
+  lineage_source_similarity: 1
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: W niektórych przypadkach operacje obiektów mogą dawać podstawę do definiowania
+        typów obiektów.
+    state:
+      _dict:
+        content: W niektórych przypadkach operacje obiektów mogą dawać podstawę do
+          definiowania typów obiektów.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  reviewDate: 2012-01-27
+  reviewDecisionDate: 2016-12-01
+  reviewDecisionEvent: Publication of ISO 19110:2016
+  review_decision: accepted
+  review_decision_notes: Authoritative reference changed from ISO 19110:2005 to ISO
+    19110:2016, 3.7. Lineage source added as ISO 19101:2002
+  review_indicator: ''
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '3.7'
+        link: https://www.iso.org/standard/57303.html
+        ref: ISO 19110:2016
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19101:2002
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: operacja obiektu
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: operacja obiektu
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: cbc60f60-f69e-5e58-923b-65d034631030
+status: valid

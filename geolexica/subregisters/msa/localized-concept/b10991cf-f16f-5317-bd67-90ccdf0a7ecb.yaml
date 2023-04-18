@@ -1,0 +1,127 @@
+data:
+  _revisions:
+    current: c122a9
+    tree:
+      c122a9:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.13'
+            link: https://www.iso.org/standard/32571.html
+            ref: ISO 19153:2014
+          date_accepted: '2014-02-15T00:00:00.000Z'
+          entry_status: valid
+          examples: []
+          id: 1219
+          language_code: msa
+          lineage_source: Pusat Rujukan Persuratan Melayu (DBP)
+          notes:
+          - Expected risk is calculated by multiplying the probability of the types
+            of infringement by the cost of that infringement, summed up over all types
+            of infringement.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: risiko jangkaan
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: risiko jangkaan
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-02-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-02-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-02-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  examples: []
+  id: 1219
+  language_code: msa
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Expected risk is calculated by multiplying the probability of the types
+        of infringement by the cost of that infringement, summed up over all types
+        of infringement.
+    state:
+      _dict:
+        content: Expected risk is calculated by multiplying the probability of the
+          types of infringement by the cost of that infringement, summed up over all
+          types of infringement.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.13'
+        link: https://www.iso.org/standard/32571.html
+        ref: ISO 19153:2014
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: Pusat Rujukan Persuratan Melayu (DBP)
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: risiko jangkaan
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: risiko jangkaan
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: b10991cf-f16f-5317-bd67-90ccdf0a7ecb
+status: valid

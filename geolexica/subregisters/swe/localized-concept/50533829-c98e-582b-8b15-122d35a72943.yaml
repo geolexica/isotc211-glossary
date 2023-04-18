@@ -1,0 +1,140 @@
+data:
+  _revisions:
+    current: 828a98
+    tree:
+      828a98:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32551.html
+            ref: ISO 19133:2005
+          country_code: swe
+          date_accepted: '2005-10-15T00:00:00.000Z'
+          definition: skapa objekt från objekttyper eller klasser
+          entry_status: valid
+          examples: []
+          id: 248
+          language_code: swe
+          lineage_source: (Type reference to national language document)
+          notes:
+          - A class or data element definition instantiates a type if it creates the
+            ability to create objects or data elements respectively, that can represent
+            the concepts (instance data and /or operations) defined by that type.
+            A class is instantiated by an object if the class defines that object's
+            structure and function. A data schema is instantiated by a data element
+            if the data schema defines that element's structure.
+          release: '1'
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: instantiera
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: instantiera
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-10-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  country_code: swe
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-10-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-10-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''skapa objekt från objekttyper eller klasser''}]'
+  examples: []
+  id: 248
+  language_code: swe
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: A class or data element definition instantiates a type if it creates
+        the ability to create objects or data elements respectively, that can represent
+        the concepts (instance data and /or operations) defined by that type. A class
+        is instantiated by an object if the class defines that object's structure
+        and function. A data schema is instantiated by a data element if the data
+        schema defines that element's structure.
+    state:
+      _dict:
+        content: A class or data element definition instantiates a type if it creates
+          the ability to create objects or data elements respectively, that can represent
+          the concepts (instance data and /or operations) defined by that type. A
+          class is instantiated by an object if the class defines that object's structure
+          and function. A data schema is instantiated by a data element if the data
+          schema defines that element's structure.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/32551.html
+        ref: ISO 19133:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: (Type reference to national language document)
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: instantiera
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: instantiera
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 50533829-c98e-582b-8b15-122d35a72943
+status: valid

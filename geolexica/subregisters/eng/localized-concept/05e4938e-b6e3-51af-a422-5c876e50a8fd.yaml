@@ -1,0 +1,117 @@
+data:
+  _revisions:
+    current: 73183c
+    tree:
+      73183c:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/40601.html
+            ref: ISO 19132:2007
+          date_accepted: '2007-10-15T00:00:00.000Z'
+          definition: complete representation of an object at a given instance in
+            time
+          entry_status: valid
+          examples: []
+          id: 746
+          language_code: eng
+          notes:
+          - Temporal versions differ from samples in that a complete description is
+            required. In this sense a version is a complete sample able to be considered
+            outside the domain of the temporal sequence to which it may belong.
+          release: '1'
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: version (temporal)
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: version (temporal)
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2007-10-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2007-10-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2007-10-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''complete representation of an object at a given instance
+    in time''}]'
+  examples: []
+  id: 746
+  language_code: eng
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Temporal versions differ from samples in that a complete description
+        is required. In this sense a version is a complete sample able to be considered
+        outside the domain of the temporal sequence to which it may belong.
+    state:
+      _dict:
+        content: Temporal versions differ from samples in that a complete description
+          is required. In this sense a version is a complete sample able to be considered
+          outside the domain of the temporal sequence to which it may belong.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/40601.html
+        ref: ISO 19132:2007
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: version (temporal)
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: version (temporal)
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 05e4938e-b6e3-51af-a422-5c876e50a8fd
+status: valid

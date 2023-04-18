@@ -1,0 +1,136 @@
+data:
+  _revisions:
+    current: 2a2d59
+    tree:
+      2a2d59:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32551.html
+            ref: ISO 19133:2005
+          date_accepted: '2005-10-15T00:00:00.000Z'
+          definition: epäsuoran sijainnin muuntaminen suoraksi sijainniksi
+          entry_status: valid
+          examples: []
+          id: 195
+          language_code: fin
+          lineage_source: 'Sanastokeskus TSK: Geoinformatiikan sanasto (TSK 32), 2005'
+          notes:
+          - Geokoodauksella viitataan tavallisesti osoitteen tai risteyksen muuntamiseen
+            suoraksi sijainniksi. Useat palveluntuottajat ovat sisällyttäneet geokoodauspalveluunsa
+            käänteisen geokoodauksen rajapinnan ja laajentaneet näin palvelun määritelmää
+            yleiseksi sijainnin muuntajaksi. Koska reitityspalveluissa käytetään sisäistä
+            sijainnin koodausta, joka ei normaalisti ole muiden saatavissa, geokoodaus
+            on reitityspalvelun kiinteä osa.
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: geokoodaus
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: geokoodaus
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-10-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-10-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-10-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''epäsuoran sijainnin muuntaminen suoraksi sijainniksi''}]'
+  examples: []
+  id: 195
+  language_code: fin
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Geokoodauksella viitataan tavallisesti osoitteen tai risteyksen muuntamiseen
+        suoraksi sijainniksi. Useat palveluntuottajat ovat sisällyttäneet geokoodauspalveluunsa
+        käänteisen geokoodauksen rajapinnan ja laajentaneet näin palvelun määritelmää
+        yleiseksi sijainnin muuntajaksi. Koska reitityspalveluissa käytetään sisäistä
+        sijainnin koodausta, joka ei normaalisti ole muiden saatavissa, geokoodaus
+        on reitityspalvelun kiinteä osa.
+    state:
+      _dict:
+        content: Geokoodauksella viitataan tavallisesti osoitteen tai risteyksen muuntamiseen
+          suoraksi sijainniksi. Useat palveluntuottajat ovat sisällyttäneet geokoodauspalveluunsa
+          käänteisen geokoodauksen rajapinnan ja laajentaneet näin palvelun määritelmää
+          yleiseksi sijainnin muuntajaksi. Koska reitityspalveluissa käytetään sisäistä
+          sijainnin koodausta, joka ei normaalisti ole muiden saatavissa, geokoodaus
+          on reitityspalvelun kiinteä osa.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/32551.html
+        ref: ISO 19133:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: 'Sanastokeskus TSK: Geoinformatiikan sanasto (TSK 32), 2005'
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: geokoodaus
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: geokoodaus
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 1c47ff39-f723-5240-9af4-5a58fe034507
+status: valid

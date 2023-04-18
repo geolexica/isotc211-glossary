@@ -1,0 +1,126 @@
+data:
+  _revisions:
+    current: bd133f
+    tree:
+      bd133f:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32551.html
+            ref: ISO 19133:2005
+          date_accepted: '2005-10-15T00:00:00.000Z'
+          definition: condition of a link or turn that allows or restricts all traffic's
+            traversal, as opposed to a more detailed navigation constraint
+          entry_status: valid
+          examples: []
+          id: 474
+          language_code: eng
+          notes:
+          - Traversability is usually a function of physical, cultural, or legal conditions.
+            If traversable is false, then the object cannot be navigated. This effectively
+            removes a link from the usable network. In the case of a node, it effectively
+            removes the node and all associated links from the useable network. In
+            the case of a turn, it simply removes it from any viable route. Non-traversable
+            entities are not included in maneuvers or routes.
+          release: '1'
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: traversable
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: traversable
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-10-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-10-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-10-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': "condition of a link or turn that allows or restricts
+    all traffic''s traversal, as opposed to a more detailed navigation constraint"}]'
+  examples: []
+  id: 474
+  language_code: eng
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Traversability is usually a function of physical, cultural, or legal
+        conditions. If traversable is false, then the object cannot be navigated.
+        This effectively removes a link from the usable network. In the case of a
+        node, it effectively removes the node and all associated links from the useable
+        network. In the case of a turn, it simply removes it from any viable route.  Non-traversable
+        entities are not included in maneuvers or routes.
+    state:
+      _dict:
+        content: Traversability is usually a function of physical, cultural, or legal
+          conditions. If traversable is false, then the object cannot be navigated.
+          This effectively removes a link from the usable network. In the case of
+          a node, it effectively removes the node and all associated links from the
+          useable network. In the case of a turn, it simply removes it from any viable
+          route.  Non-traversable entities are not included in maneuvers or routes.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/32551.html
+        ref: ISO 19133:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: traversable
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: traversable
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 12f2521e-a1e7-5dca-8b25-57c18228f424
+status: valid

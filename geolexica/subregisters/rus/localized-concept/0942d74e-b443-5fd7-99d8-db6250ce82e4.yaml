@@ -1,0 +1,150 @@
+data:
+  _revisions:
+    current: f0e0e3
+    tree:
+      f0e0e3:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/20057.html
+            ref: ISO 1087-1:2000
+          date_accepted: '2008-11-15T00:00:00.000Z'
+          definition: представление понятия обозначающим его знаком
+          entry_status: valid
+          examples: []
+          id: 909
+          language_code: rus
+          lineage_source: ISO/TS 19104:2008
+          lineage_source_similarity: 1
+          notes:
+          - 'При проведении терминологической работы используются обозначения трёх
+            типов: символы, наименования и термины.'
+          release: '2'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: указатель
+              normative_status: admitted
+              type: expression
+            state:
+              _dict:
+                designation: указатель
+                normative_status: admitted
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: обозначение
+              type: expression
+            state:
+              _dict:
+                designation: обозначение
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2008-11-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2008-11-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2008-11-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''представление понятия обозначающим его знаком''}]'
+  examples: []
+  id: 909
+  language_code: rus
+  lineage_source_similarity: 1
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: 'При проведении терминологической работы используются обозначения трёх
+        типов: символы, наименования и термины.'
+    state:
+      _dict:
+        content: 'При проведении терминологической работы используются обозначения
+          трёх типов: символы, наименования и термины.'
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '2'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/20057.html
+        ref: ISO 1087-1:2000
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO/TS 19104:2008
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: указатель
+      normative_status: admitted
+      type: expression
+    state:
+      _dict:
+        designation: указатель
+        normative_status: admitted
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: обозначение
+      type: expression
+    state:
+      _dict:
+        designation: обозначение
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 0942d74e-b443-5fd7-99d8-db6250ce82e4
+status: valid

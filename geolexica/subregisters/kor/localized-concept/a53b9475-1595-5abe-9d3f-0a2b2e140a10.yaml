@@ -1,0 +1,118 @@
+data:
+  _revisions:
+    current: 8ad7cf
+    tree:
+      8ad7cf:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/39229.html
+            ref: ISO 19115-2:2009
+          date_accepted: '2009-02-15T00:00:00.000Z'
+          definition: 전자기 스펙트럼 내의 특정 파장 간격
+          entry_status: valid
+          examples:
+          - Band 1 of Landsat TM lies between 0.45 and 0.52 um in the visible part
+            of the spectrum.
+          id: 835
+          language_code: kor
+          notes: []
+          release: '2'
+          review_date: '2016-09-30T00:00:00.000Z'
+          review_indicator: ''
+          review_status: pending
+          review_type: retirement
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 분광 해상도
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 분광 해상도
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2009-02-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2009-02-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2009-02-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''전자기 스펙트럼 내의 특정 파장 간격''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Band 1 of Landsat TM lies between 0.45 and 0.52 um in the visible part
+        of the spectrum.
+    state:
+      _dict:
+        content: Band 1 of Landsat TM lies between 0.45 and 0.52 um in the visible
+          part of the spectrum.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 835
+  language_code: kor
+  notes: []
+  release: '2'
+  reviewDate: 2016-09-30
+  review_indicator: ''
+  review_status: pending
+  review_type: retirement
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/39229.html
+        ref: ISO 19115-2:2009
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 분광 해상도
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 분광 해상도
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: a53b9475-1595-5abe-9d3f-0a2b2e140a10
+status: valid

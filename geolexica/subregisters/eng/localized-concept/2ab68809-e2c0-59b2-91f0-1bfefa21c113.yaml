@@ -1,0 +1,114 @@
+data:
+  _revisions:
+    current: 54131e
+    tree:
+      54131e:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.8'
+            link: https://www.iso.org/standard/32576.html
+            ref: ISO/TS 19158:2012
+          date_accepted: '2012-10-15T00:00:00.000Z'
+          definition: assurance level achieved is an outcome of the quality assessment
+            procedure
+          entry_status: valid
+          examples: []
+          id: 1579
+          language_code: eng
+          notes:
+          - 'Three quality assurance levels can be achieved as part of the quality
+            assurance framework: basic, operational and full.'
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: quality assurance level
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: quality assurance level
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2012-10-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2012-10-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2012-10-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''assurance level achieved is an outcome of the quality
+    assessment procedure''}]'
+  examples: []
+  id: 1579
+  language_code: eng
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: 'Three quality assurance levels can be achieved as part of the quality
+        assurance framework: basic, operational and full.'
+    state:
+      _dict:
+        content: 'Three quality assurance levels can be achieved as part of the quality
+          assurance framework: basic, operational and full.'
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.8'
+        link: https://www.iso.org/standard/32576.html
+        ref: ISO/TS 19158:2012
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: quality assurance level
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: quality assurance level
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 2ab68809-e2c0-59b2-91f0-1bfefa21c113
+status: valid

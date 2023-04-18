@@ -1,0 +1,170 @@
+data:
+  _revisions:
+    current: ee35bb
+    tree:
+      ee35bb:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.5'
+            link: https://www.iso.org/standard/64768.html
+            ref: ISO/TS 19159-2:2016
+          date_accepted: '2016-04-15T00:00:00.000Z'
+          definition: objeto geográfico lineal que describe un cambio en la suavidad
+            o continuidad de una superficie
+          entry_status: valid
+          examples: []
+          id: 1932
+          language_code: spa
+          notes:
+          - Una línea de quiebre suave garantiza que sobre un objeto geografíco lineal
+            se mantengan los valores conocidos de z (por ejemplo, elevaciones a lo
+            largo de una tubería, el eje de una carretera o una acequia de drenaje),
+            y asegura que los objetos geográficos lineales y los bordes de los polígonos
+            se mantengan en un modelo de superficie de Red Irregular de Triángulos
+            (TIN), por medio de forzar las lineas de quiebre como bordes del TIN.
+            En general, son sinónimo de las líneas de quiebre tridimensionales porque
+            se representan con series de coordenadas x/y/z. De cierto modo, las crestas
+            redondeadas o las depresiones de drenaje se pueden capturar utilizando
+            lineas de quiebre suaves.
+          - Una línea de quiebre fuerte define interrupciones enla suavidad de la
+            superficie por ejemplo, para definir cauces, líneas de costa, represas,
+            crestas, plantas de edificios y otras ubicaciones con cambios abruptos
+            en la superficie.
+          release: '4'
+          review_date: '2014-08-26T00:00:00.000Z'
+          review_decision: ''
+          review_decision_date: '2016-04-15T00:00:00.000Z'
+          review_decision_event: Normal ISO processing
+          review_decision_notes: Publication of document ISO/TS 19159-2:2016(E)
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: línea de quiebre
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: línea de quiebre
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2016-04-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2016-04-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2016-04-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''objeto geográfico lineal que describe un cambio en
+    la suavidad o continuidad de una superficie''}]'
+  examples: []
+  id: 1932
+  language_code: spa
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Una línea de quiebre suave garantiza que sobre un objeto geografíco
+        lineal se mantengan los valores conocidos de z (por ejemplo, elevaciones a
+        lo largo de una tubería, el eje de una carretera o una acequia de drenaje),
+        y asegura que los objetos geográficos lineales y los bordes de los polígonos
+        se mantengan en un modelo de superficie de Red Irregular de Triángulos (TIN),
+        por medio de forzar las lineas de quiebre como bordes del TIN. En general,
+        son sinónimo de las líneas de quiebre tridimensionales porque se representan
+        con series de coordenadas x/y/z. De cierto modo, las crestas redondeadas o
+        las depresiones de drenaje se pueden capturar utilizando lineas de quiebre
+        suaves.
+    state:
+      _dict:
+        content: Una línea de quiebre suave garantiza que sobre un objeto geografíco
+          lineal se mantengan los valores conocidos de z (por ejemplo, elevaciones
+          a lo largo de una tubería, el eje de una carretera o una acequia de drenaje),
+          y asegura que los objetos geográficos lineales y los bordes de los polígonos
+          se mantengan en un modelo de superficie de Red Irregular de Triángulos (TIN),
+          por medio de forzar las lineas de quiebre como bordes del TIN. En general,
+          son sinónimo de las líneas de quiebre tridimensionales porque se representan
+          con series de coordenadas x/y/z. De cierto modo, las crestas redondeadas
+          o las depresiones de drenaje se pueden capturar utilizando lineas de quiebre
+          suaves.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Una línea de quiebre fuerte define interrupciones enla suavidad de
+        la superficie por ejemplo, para definir cauces, líneas de costa, represas,
+        crestas, plantas de edificios y otras ubicaciones con cambios abruptos en
+        la superficie.
+    state:
+      _dict:
+        content: Una línea de quiebre fuerte define interrupciones enla suavidad de
+          la superficie por ejemplo, para definir cauces, líneas de costa, represas,
+          crestas, plantas de edificios y otras ubicaciones con cambios abruptos en
+          la superficie.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '4'
+  reviewDate: 2014-08-26
+  reviewDecisionDate: 2016-04-15
+  reviewDecisionEvent: Normal ISO processing
+  review_decision: ''
+  review_decision_notes: Publication of document ISO/TS 19159-2:2016(E)
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.5'
+        link: https://www.iso.org/standard/64768.html
+        ref: ISO/TS 19159-2:2016
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: línea de quiebre
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: línea de quiebre
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 33498a37-188e-5112-aa85-61880b0b13c6
+status: valid

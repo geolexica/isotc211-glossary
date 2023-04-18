@@ -1,0 +1,111 @@
+data:
+  _revisions:
+    current: db8a3e
+    tree:
+      db8a3e:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/26013.html
+            ref: ISO 19108:2002
+          date_accepted: '2002-09-01T00:00:00.000Z'
+          definition: nulldimensionales geometrisches Primitiv, das eine zeitliche
+            Position darstellt
+          entry_status: valid
+          examples: []
+          id: 247
+          language_code: deu
+          notes:
+          - The geometry of time is discussed in 5.2. [of ISO 19108:2002]
+          release: '1'
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: Zeitpunkt
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: Zeitpunkt
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2002-09-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2002-09-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2002-09-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''nulldimensionales geometrisches Primitiv, das eine
+    zeitliche Position darstellt''}]'
+  examples: []
+  id: 247
+  language_code: deu
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: The geometry of time is discussed in 5.2. [of ISO 19108:2002]
+    state:
+      _dict:
+        content: The geometry of time is discussed in 5.2. [of ISO 19108:2002]
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/26013.html
+        ref: ISO 19108:2002
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: Zeitpunkt
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: Zeitpunkt
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: d2b4136b-be9d-5c8c-b583-b237a2d132da
+status: valid

@@ -1,0 +1,116 @@
+data:
+  _revisions:
+    current: 795a9b
+    tree:
+      795a9b:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/26013.html
+            ref: ISO 19108:2002
+          date_accepted: '2002-09-01T00:00:00.000Z'
+          definition: feature succession in which a previously existing feature is
+            replaced by two or more distinct feature instances of the same feature
+            type
+          entry_status: valid
+          examples:
+          - An instance of the feature type "land parcel" is replaced by two instances
+            of the same type when the parcel is legally subdivided.
+          id: 174
+          language_code: eng
+          notes: []
+          release: '1'
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: feature division
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: feature division
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2002-09-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2002-09-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2002-09-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''feature succession in which a previously existing
+    feature is replaced by two or more distinct feature instances of the same feature
+    type''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: An instance of the feature type "land parcel" is replaced by two instances
+        of the same type when the parcel is legally subdivided.
+    state:
+      _dict:
+        content: An instance of the feature type "land parcel" is replaced by two
+          instances of the same type when the parcel is legally subdivided.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 174
+  language_code: eng
+  notes: []
+  release: '1'
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/26013.html
+        ref: ISO 19108:2002
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: feature division
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: feature division
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: d1b20ae5-096e-5552-ab87-1185fa950b03
+status: valid

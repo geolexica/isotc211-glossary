@@ -1,0 +1,111 @@
+data:
+  _revisions:
+    current: 1a3ceb
+    tree:
+      1a3ceb:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.5'
+            link: https://www.iso.org/standard/32574.html
+            ref: ISO 19156:2011
+          date_accepted: '2011-12-15T00:00:00.000Z'
+          definition: referido al estudio, mantenimiento o conservación de un espécimen
+            o población separado de su entorno natural
+          entry_status: valid
+          examples: []
+          id: 1441
+          language_code: spa
+          notes:
+          - Es el antónimo de in situ
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: ex situ
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: ex situ
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2011-12-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2011-12-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2011-12-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''referido al estudio, mantenimiento o conservación
+    de un espécimen o población separado de su entorno natural''}]'
+  examples: []
+  id: 1441
+  language_code: spa
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Es el antónimo de in situ
+    state:
+      _dict:
+        content: Es el antónimo de in situ
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.5'
+        link: https://www.iso.org/standard/32574.html
+        ref: ISO 19156:2011
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: ex situ
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: ex situ
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: f3f9576e-e335-5827-8763-33c314599fca
+status: valid

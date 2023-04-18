@@ -1,0 +1,110 @@
+data:
+  _revisions:
+    current: 2b2b16
+    tree:
+      2b2b16:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/41126.html
+            ref: ISO 19111:2007
+          date_accepted: '2007-07-01T00:00:00.000Z'
+          definition: 描述地球二维或三维坐标系关系的基准。
+          entry_status: valid
+          examples: []
+          id: 708
+          language_code: zho
+          notes: []
+          release: '1'
+          review_date: '2017-06-28T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2007-07-01T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19111:2007
+          review_indicator: ''
+          review_status: pending
+          review_type: supersession
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 大地基准
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 大地基准
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2007-07-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2007-07-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2007-07-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''描述地球二维或三维坐标系关系的基准。''}]'
+  examples: []
+  id: 708
+  language_code: zho
+  notes: []
+  release: '1'
+  reviewDate: 2017-06-28
+  reviewDecisionDate: 2007-07-01
+  reviewDecisionEvent: Publication of ISO 19111:2007
+  review_decision: accepted
+  review_indicator: ''
+  review_status: pending
+  review_type: supersession
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/41126.html
+        ref: ISO 19111:2007
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 大地基准
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 大地基准
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 9550713a-20b7-5231-a8e2-6639e1f9af17
+status: valid

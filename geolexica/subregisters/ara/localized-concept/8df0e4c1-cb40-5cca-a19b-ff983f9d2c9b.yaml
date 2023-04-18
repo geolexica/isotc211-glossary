@@ -1,0 +1,121 @@
+data:
+  _revisions:
+    current: a82aba
+    tree:
+      a82aba:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/39242.html
+            ref: ISO 6709:2008
+          date_accepted: '2008-07-15T00:00:00.000Z'
+          definition: زاوية تمثل بسلسلة من القيم بالدرجات والدقائق والثواني
+          entry_status: valid
+          examples:
+          - 'القيمة 50.0795725 يتم تمثيلها على النحو التالي :  50º 04׳ 46.461″'
+          id: 905
+          language_code: ara
+          notes:
+          - في حالة الإشارة إلى خطوط الطول ودوائر العرض فيمكن للقيم المذكورة أن تحتوي
+            كذلك على حرف يتحدد به نصف الكرة المعني .
+          release: '2'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: الدرجة الستينية
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: الدرجة الستينية
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2008-07-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2008-07-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2008-07-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''زاوية تمثل بسلسلة من القيم بالدرجات والدقائق والثواني''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: 'القيمة 50.0795725 يتم تمثيلها على النحو التالي :  50º 04׳ 46.461″'
+    state:
+      _dict:
+        content: 'القيمة 50.0795725 يتم تمثيلها على النحو التالي :  50º 04׳ 46.461″'
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 905
+  language_code: ara
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: في حالة الإشارة إلى خطوط الطول ودوائر العرض فيمكن للقيم المذكورة أن
+        تحتوي كذلك على حرف يتحدد به نصف الكرة المعني .
+    state:
+      _dict:
+        content: في حالة الإشارة إلى خطوط الطول ودوائر العرض فيمكن للقيم المذكورة
+          أن تحتوي كذلك على حرف يتحدد به نصف الكرة المعني .
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '2'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/39242.html
+        ref: ISO 6709:2008
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: الدرجة الستينية
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: الدرجة الستينية
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 8df0e4c1-cb40-5cca-a19b-ff983f9d2c9b
+status: valid

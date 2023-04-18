@@ -1,0 +1,132 @@
+data:
+  _revisions:
+    current: 8e918b
+    tree:
+      8e918b:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/42136.html
+            ref: ISO 19142:2010
+          date_accepted: '2010-12-15T00:00:00.000Z'
+          definition: Обновить ссылку на ресурс, который был перемещен или скопирован
+            в новое место
+          entry_status: valid
+          examples:
+          - сервер генерирует ответ на запрос GetFeature, он должен скопировать ссылочный
+            компонент в документ ответа, и сервер должен "переместить" исходную ссылку,
+            содержащуюся в ссылочном компоненте, в копию, размещенную в документе
+            ответа.
+          id: 1036
+          language_code: rus
+          lineage_source: ISO 19142:2010
+          notes: []
+          release: '2'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: переместить <ссылка>
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: переместить <ссылка>
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2010-12-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2010-12-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2010-12-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''Обновить ссылку на ресурс, который был перемещен или
+    скопирован в новое место''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: сервер генерирует ответ на запрос GetFeature, он должен скопировать
+        ссылочный компонент в документ ответа, и сервер должен "переместить" исходную
+        ссылку, содержащуюся в ссылочном компоненте, в копию, размещенную в документе
+        ответа.
+    state:
+      _dict:
+        content: сервер генерирует ответ на запрос GetFeature, он должен скопировать
+          ссылочный компонент в документ ответа, и сервер должен "переместить" исходную
+          ссылку, содержащуюся в ссылочном компоненте, в копию, размещенную в документе
+          ответа.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 1036
+  language_code: rus
+  notes: []
+  release: '2'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/42136.html
+        ref: ISO 19142:2010
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19142:2010
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: переместить <ссылка>
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: переместить <ссылка>
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: a0baa7cc-56cd-5d23-b90b-4de2a5ef35b3
+status: valid

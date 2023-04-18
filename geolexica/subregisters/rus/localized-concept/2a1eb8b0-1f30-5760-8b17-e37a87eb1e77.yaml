@@ -1,0 +1,148 @@
+data:
+  _revisions:
+    current: 3bc0f6
+    tree:
+      3bc0f6:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/40121.html
+            ref: ISO 19123:2005
+          date_accepted: '2005-08-15T00:00:00.000Z'
+          definition: модель объекта, представляющая собой функцию, возвращающую значения
+            из диапазона допустимых значений для каждой точки в пространственной,
+            временнóй или пространственно-временнóй области определения
+          entry_status: valid
+          examples:
+          - ами являются растровое изображение, полигональный оверлей или цифровая
+            матрица высот
+          id: 99
+          language_code: rus
+          lineage_source: Internet
+          notes:
+          - Иными словами, покрытие является пространственным  объектом, который имеет
+            многочисленные значения для каждого типа атрибута, где  каждая точка внутри  геометрического
+            представления пространственного объекта имеет одно и то же значение для
+            каждого типа атрибута
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: покрытие
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: покрытие
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-08-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-08-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-08-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''модель объекта, представляющая собой функцию, возвращающую
+    значения из диапазона допустимых значений для каждой точки в пространственной,
+    временнóй или пространственно-временнóй области определения''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: ами являются растровое изображение, полигональный оверлей или цифровая
+        матрица высот
+    state:
+      _dict:
+        content: ами являются растровое изображение, полигональный оверлей или цифровая
+          матрица высот
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 99
+  language_code: rus
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Иными словами, покрытие является пространственным  объектом, который
+        имеет многочисленные значения для каждого типа атрибута, где  каждая точка
+        внутри  геометрического представления пространственного объекта имеет одно
+        и то же значение для каждого типа атрибута
+    state:
+      _dict:
+        content: Иными словами, покрытие является пространственным  объектом, который
+          имеет многочисленные значения для каждого типа атрибута, где  каждая точка
+          внутри  геометрического представления пространственного объекта имеет одно
+          и то же значение для каждого типа атрибута
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/40121.html
+        ref: ISO 19123:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: Internet
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: покрытие
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: покрытие
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 2a1eb8b0-1f30-5760-8b17-e37a87eb1e77
+status: valid

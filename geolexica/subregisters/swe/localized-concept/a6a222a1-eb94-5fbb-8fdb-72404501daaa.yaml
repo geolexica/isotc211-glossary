@@ -1,0 +1,129 @@
+data:
+  _revisions:
+    current: e17aa5
+    tree:
+      e17aa5:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/40121.html
+            ref: ISO 19123:2005
+          country_code: swe
+          date_accepted: '2005-08-15T00:00:00.000Z'
+          definition: kombinationen av ett rumsligt, temporalt eller rumstemporalt
+            objekt som ingår i ett domänobjekt och de uppgifter som gäller där
+          entry_status: valid
+          examples: []
+          id: 758
+          language_code: swe
+          lineage_source: (Type reference to national language document)
+          notes:
+          - Ett exempel är en punkt där nederbörden har uppmätts till ett visst värde.
+          release: '1'
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: geometri-värdepar
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: geometri-värdepar
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-08-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  country_code: swe
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-08-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-08-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''kombinationen av ett rumsligt, temporalt eller rumstemporalt
+    objekt som ingår i ett domänobjekt och de uppgifter som gäller där''}]'
+  examples: []
+  id: 758
+  language_code: swe
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Ett exempel är en punkt där nederbörden har uppmätts till ett visst
+        värde.
+    state:
+      _dict:
+        content: Ett exempel är en punkt där nederbörden har uppmätts till ett visst
+          värde.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/40121.html
+        ref: ISO 19123:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: (Type reference to national language document)
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: geometri-värdepar
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: geometri-värdepar
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: a6a222a1-eb94-5fbb-8fdb-72404501daaa
+status: valid

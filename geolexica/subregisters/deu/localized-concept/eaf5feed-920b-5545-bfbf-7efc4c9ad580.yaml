@@ -1,0 +1,112 @@
+data:
+  _revisions:
+    current: 9d32f3
+    tree:
+      9d32f3:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/42136.html
+            ref: ISO 19142:2010
+          date_accepted: '2010-12-15T00:00:00.000Z'
+          definition: Attribut, dessen Wert eine Referenz auf eine lokale Ressource
+            oder abgesetzte Ressource ist
+          entry_status: valid
+          examples: []
+          id: 1335
+          language_code: deu
+          notes:
+          - In XML, this attribute is commonly called an href and contains a URI reference
+            to the remote resource (see W3C XLink)
+          release: '2'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: Lokalisierungsattribut
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: Lokalisierungsattribut
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2010-12-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2010-12-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2010-12-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''Attribut, dessen Wert eine Referenz auf eine lokale
+    Ressource oder abgesetzte Ressource ist''}]'
+  examples: []
+  id: 1335
+  language_code: deu
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: In XML, this attribute is commonly called an href and contains a URI
+        reference to the remote resource (see W3C XLink)
+    state:
+      _dict:
+        content: In XML, this attribute is commonly called an href and contains a
+          URI reference to the remote resource (see W3C XLink)
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '2'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/42136.html
+        ref: ISO 19142:2010
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: Lokalisierungsattribut
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: Lokalisierungsattribut
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: eaf5feed-920b-5545-bfbf-7efc4c9ad580
+status: valid

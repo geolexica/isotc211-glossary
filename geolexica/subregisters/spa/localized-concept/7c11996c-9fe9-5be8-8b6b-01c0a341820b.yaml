@@ -1,0 +1,118 @@
+data:
+  _revisions:
+    current: 0cc5af
+    tree:
+      0cc5af:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/30726.html
+            ref: ISO/IEC TR 10000-1:1998
+          date_accepted: '2004-07-01T00:00:00.000Z'
+          definition: conjunto de una o más normas base, o subconjunto de normas base
+            y, cuando sea aplicable, identificación de apartados, clases, opciones
+            y parámetros seleccionados de esas normas base que son necesarios para
+            cumplir una determinada función
+          entry_status: valid
+          examples: []
+          id: 356
+          language_code: spa
+          notes:
+          - Un perfil procede de normas de base, de modo que, por definición, la conformidad
+            con un perfil implica la conformidad con las normas base de las que deriva.
+          release: '2'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: perfil
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: perfil
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2004-07-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2004-07-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2004-07-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''conjunto de una o más normas base, o subconjunto de
+    normas base y, cuando sea aplicable, identificación de apartados, clases, opciones
+    y parámetros seleccionados de esas normas base que son necesarios para cumplir
+    una determinada función''}]'
+  examples: []
+  id: 356
+  language_code: spa
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Un perfil procede de normas de base, de modo que, por definición, la
+        conformidad con un perfil implica la conformidad con las normas base de las
+        que deriva.
+    state:
+      _dict:
+        content: Un perfil procede de normas de base, de modo que, por definición,
+          la conformidad con un perfil implica la conformidad con las normas base
+          de las que deriva.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '2'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/30726.html
+        ref: ISO/IEC TR 10000-1:1998
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: perfil
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: perfil
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 7c11996c-9fe9-5be8-8b6b-01c0a341820b
+status: valid

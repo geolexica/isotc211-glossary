@@ -1,0 +1,112 @@
+data:
+  _revisions:
+    current: 05f348
+    tree:
+      05f348:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/7257.html
+            ref: ISO/IEC 2382-15:1999
+          date_accepted: '2013-02-15T00:00:00.000Z'
+          definition: Susunan yang telah ditetapkan bagi paparan, penyimpanan atau
+            penggunaan data, suruhan, kata, aksara atau fail.
+          entry_status: valid
+          examples: []
+          id: 1165
+          language_code: msa
+          lineage_source: Pusat Rujukan Persuratan Melayu (DBP)
+          notes: []
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: format
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: format
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2013-02-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2013-02-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2013-02-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''Susunan yang telah ditetapkan bagi paparan, penyimpanan
+    atau penggunaan data, suruhan, kata, aksara atau fail.''}]'
+  examples: []
+  id: 1165
+  language_code: msa
+  notes: []
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/7257.html
+        ref: ISO/IEC 2382-15:1999
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: Pusat Rujukan Persuratan Melayu (DBP)
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: format
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: format
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 293848c2-4e13-56da-8d14-be5f4cdcab14
+status: valid

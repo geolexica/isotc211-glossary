@@ -1,0 +1,129 @@
+data:
+  _revisions:
+    current: 83cc2d
+    tree:
+      83cc2d:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: 4.1.5
+            link: https://www.iso.org/standard/54721.html
+            ref: ISO 19135-1:2015
+          date_accepted: '2005-10-15T00:00:00.000Z'
+          definition: 각 문자들이 어디와 연관되어 있는지를 유일 및 영구히 밝힐 수 있는 언어적으로 독립된 문자들의 연속
+          entry_status: valid
+          examples: []
+          id: 801
+          language_code: kor
+          lineage_source: ISO/19135:2005
+          lineage_source_similarity: 1
+          notes: []
+          release: '2'
+          review_date: '2010-10-19T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2015-10-01T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19135-1:2015
+          review_decision_notes: Authoritative reference changed from ISO/IEC 11179-3:2003(Adapted
+            from) to ISO 19135-1:2015, 4.1.5. Lineage source added as ISO/19135:2005
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 식별자
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 식별자
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-10-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-10-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-10-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''각 문자들이 어디와 연관되어 있는지를 유일 및 영구히 밝힐 수 있는 언어적으로 독립된 문자들의
+    연속''}]'
+  examples: []
+  id: 801
+  language_code: kor
+  lineage_source_similarity: 1
+  notes: []
+  release: '2'
+  reviewDate: 2010-10-19
+  reviewDecisionDate: 2015-10-01
+  reviewDecisionEvent: Publication of ISO 19135-1:2015
+  review_decision: accepted
+  review_decision_notes: Authoritative reference changed from ISO/IEC 11179-3:2003(Adapted
+    from) to ISO 19135-1:2015, 4.1.5. Lineage source added as ISO/19135:2005
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: 4.1.5
+        link: https://www.iso.org/standard/54721.html
+        ref: ISO 19135-1:2015
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO/19135:2005
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 식별자
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 식별자
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: e7e3d88e-ffff-5940-ab62-f8fd2a32e0a2
+status: valid

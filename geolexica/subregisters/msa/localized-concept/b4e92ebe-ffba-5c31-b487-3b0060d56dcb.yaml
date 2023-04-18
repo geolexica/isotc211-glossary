@@ -1,0 +1,128 @@
+data:
+  _revisions:
+    current: 08bd8f
+    tree:
+      08bd8f:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/30726.html
+            ref: ISO/IEC TR 10000-1:1998
+          date_accepted: '2004-07-01T00:00:00.000Z'
+          definition: Satu atau lebih piawai asas atau subset bagi piawai asas, dan
+            apabila perlu, penentuan klausa terpilih, kelas-kelas, pilihan dan parameter
+            piawai asas tersebut, yang diperlukan untuk mencapai fungsi tertentu
+          entry_status: valid
+          examples: []
+          id: 356
+          language_code: msa
+          lineage_source: ISO 19106:2004
+          notes:
+          - A profile is derived from base standards so that by definition, conformance
+            to a profile is conformance to the base standards from which it is derived.
+          release: '2'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: profil
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: profil
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2004-07-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2004-07-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2004-07-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''Satu atau lebih piawai asas atau subset bagi piawai
+    asas, dan apabila perlu, penentuan klausa terpilih, kelas-kelas, pilihan dan parameter
+    piawai asas tersebut, yang diperlukan untuk mencapai fungsi tertentu''}]'
+  examples: []
+  id: 356
+  language_code: msa
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: A profile is derived from base standards so that by definition, conformance
+        to a profile is conformance to the base standards from which it is derived.
+    state:
+      _dict:
+        content: A profile is derived from base standards so that by definition, conformance
+          to a profile is conformance to the base standards from which it is derived.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '2'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/30726.html
+        ref: ISO/IEC TR 10000-1:1998
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19106:2004
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: profil
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: profil
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: b4e92ebe-ffba-5c31-b487-3b0060d56dcb
+status: valid

@@ -1,0 +1,128 @@
+data:
+  _revisions:
+    current: ef7ac5
+    tree:
+      ef7ac5:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.10'
+            link: https://www.iso.org/standard/32566.html
+            ref: ISO 19148:2012
+          date_accepted: '2012-02-15T00:00:00.000Z'
+          definition: спецификация местоположения относительно линейного элемента
+            как измерение вдоль (и, возможно, со смещением от) этого элемента
+          entry_status: valid
+          examples: []
+          id: 1172
+          language_code: rus
+          lineage_source: перевод ИСО 19148:2012
+          notes:
+          - Альтернатива определению местоположения в виде двух или трехмерного пространственного
+            положения
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: линейная привязка
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: линейная привязка
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2012-02-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2012-02-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2012-02-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''спецификация местоположения относительно линейного
+    элемента как измерение вдоль (и, возможно, со смещением от) этого элемента''}]'
+  examples: []
+  id: 1172
+  language_code: rus
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Альтернатива определению местоположения в виде двух или трехмерного
+        пространственного положения
+    state:
+      _dict:
+        content: Альтернатива определению местоположения в виде двух или трехмерного
+          пространственного положения
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.10'
+        link: https://www.iso.org/standard/32566.html
+        ref: ISO 19148:2012
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: перевод ИСО 19148:2012
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: линейная привязка
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: линейная привязка
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 2b747772-d1d8-5067-aa93-ebddb2e2b113
+status: valid

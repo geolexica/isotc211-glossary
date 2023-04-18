@@ -1,0 +1,126 @@
+data:
+  _revisions:
+    current: d9c8be
+    tree:
+      d9c8be:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.50'
+            link: https://www.iso.org/standard/32571.html
+            ref: ISO 19153:2014
+          date_accepted: '2014-02-15T00:00:00.000Z'
+          definition: suma total de todos los factores mitigantes respecto a un licenciatario
+            particular que reducen el riesgo esperado
+          entry_status: valid
+          examples: []
+          id: 1258
+          language_code: spa
+          notes:
+          - La confianza permite a un usuario (o a su agente) actuar con un riesgo
+            potencial más alto porque el riesgo esperado ha sido rebajado. Eso es
+            ligeramente diferente a la "confianza" en el lenguaje común. Normalmente,
+            la confianza requiere algo, pero si el principal en riesgo decide que
+            no hay riesgo, entonces la confianza existe (en este sentido) porque el
+            riesgo se ha deducido, por las razones que sean.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: confianza
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: confianza
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-02-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-02-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-02-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''suma total de todos los factores mitigantes respecto
+    a un licenciatario particular que reducen el riesgo esperado''}]'
+  examples: []
+  id: 1258
+  language_code: spa
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: La confianza permite a un usuario (o a su agente) actuar con un riesgo
+        potencial más alto porque el riesgo esperado ha sido rebajado. Eso es ligeramente
+        diferente a la "confianza" en el lenguaje común. Normalmente, la confianza
+        requiere algo, pero si el principal en riesgo decide que no hay riesgo, entonces
+        la confianza existe (en este sentido) porque el riesgo se ha deducido, por
+        las razones que sean.
+    state:
+      _dict:
+        content: La confianza permite a un usuario (o a su agente) actuar con un riesgo
+          potencial más alto porque el riesgo esperado ha sido rebajado. Eso es ligeramente
+          diferente a la "confianza" en el lenguaje común. Normalmente, la confianza
+          requiere algo, pero si el principal en riesgo decide que no hay riesgo,
+          entonces la confianza existe (en este sentido) porque el riesgo se ha deducido,
+          por las razones que sean.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.50'
+        link: https://www.iso.org/standard/32571.html
+        ref: ISO 19153:2014
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: confianza
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: confianza
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 86472351-4e82-507d-9282-ebcd2ad72099
+status: valid

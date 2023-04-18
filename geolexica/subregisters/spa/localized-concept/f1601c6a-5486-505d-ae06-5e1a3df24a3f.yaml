@@ -1,0 +1,144 @@
+data:
+  _revisions:
+    current: '766237'
+    tree:
+      '766237':
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.48'
+            link: https://www.iso.org/standard/56113.html
+            ref: ISO/TS 19130-2:2014
+          date_accepted: '2014-01-15T00:00:00.000Z'
+          definition: información de la señal bruta de retorno de radar después de
+            ser demulada
+          entry_status: valid
+          examples: []
+          id: 1429
+          language_code: spa
+          notes:
+          - 'Generalmente se almacena como una serie de líneas de rango, donde cada
+            una contiene información de un rango específico. PHD se puede definir
+            como una tabla de cinco columnas: señal de fase, señal de cuadratura,
+            rango, ángulo Doppler y hora.'
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: datos de la historia de video fase
+              normative_status: admitted
+              type: expression
+            state:
+              _dict:
+                designation: datos de la historia de video fase
+                normative_status: admitted
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: datos de la historia de fase
+              type: expression
+            state:
+              _dict:
+                designation: datos de la historia de fase
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-01-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-01-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-01-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''información de la señal bruta de retorno de radar
+    después de ser demulada''}]'
+  examples: []
+  id: 1429
+  language_code: spa
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: 'Generalmente se almacena como una serie de líneas de rango, donde
+        cada una contiene información de un rango específico. PHD se puede definir
+        como una tabla de cinco columnas: señal de fase, señal de cuadratura, rango,
+        ángulo Doppler y hora.'
+    state:
+      _dict:
+        content: 'Generalmente se almacena como una serie de líneas de rango, donde
+          cada una contiene información de un rango específico. PHD se puede definir
+          como una tabla de cinco columnas: señal de fase, señal de cuadratura, rango,
+          ángulo Doppler y hora.'
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.48'
+        link: https://www.iso.org/standard/56113.html
+        ref: ISO/TS 19130-2:2014
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: datos de la historia de video fase
+      normative_status: admitted
+      type: expression
+    state:
+      _dict:
+        designation: datos de la historia de video fase
+        normative_status: admitted
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: datos de la historia de fase
+      type: expression
+    state:
+      _dict:
+        designation: datos de la historia de fase
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: f1601c6a-5486-505d-ae06-5e1a3df24a3f
+status: valid

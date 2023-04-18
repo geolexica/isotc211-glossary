@@ -1,0 +1,112 @@
+data:
+  _revisions:
+    current: 0b5793
+    tree:
+      0b5793:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.59'
+            link: https://www.iso.org/standard/56113.html
+            ref: ISO/TS 19130-2:2014
+          date_accepted: '2014-01-15T00:00:00.000Z'
+          definition: 신호 탐지 및 기록을 위해 사용되는 하드웨어
+          entry_status: valid
+          examples: []
+          id: 1567
+          language_code: kor
+          notes:
+          - In LIDAR and SONAR systems, the receiver detects and records reflected
+            pulse returns.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 수신기, 리시버
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 수신기, 리시버
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-01-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-01-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-01-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''신호 탐지 및 기록을 위해 사용되는 하드웨어''}]'
+  examples: []
+  id: 1567
+  language_code: kor
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: In LIDAR and SONAR systems, the receiver detects and records reflected
+        pulse returns.
+    state:
+      _dict:
+        content: In LIDAR and SONAR systems, the receiver detects and records reflected
+          pulse returns.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.59'
+        link: https://www.iso.org/standard/56113.html
+        ref: ISO/TS 19130-2:2014
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 수신기, 리시버
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 수신기, 리시버
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 0d6bccc7-a3e4-521e-beda-96a1d89d9e24
+status: valid

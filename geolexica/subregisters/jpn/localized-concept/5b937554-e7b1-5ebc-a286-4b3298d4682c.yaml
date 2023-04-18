@@ -1,0 +1,132 @@
+data:
+  _revisions:
+    current: 127f1a
+    tree:
+      127f1a:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/26010.html
+            ref: ISO 19105:2000
+          date_accepted: '2000-12-15T00:00:00.000Z'
+          definition: ある実装が利用者の受入基準を満たすかどうかを決定し，利用者がそれを受け入れるかどうかを判断するための試験。
+          entry_status: valid
+          examples: []
+          id: 7
+          language_code: jpn
+          lineage_source: JIS X 7105
+          notes:
+          - 受入試験には，実装が利用者の要求を満たしていることを立証するための，種々の試験（機能性試験，数量試験，性能試験など）の計画及び実行が含まれる。
+          - 受入試験は，適合性試験の一部ではない。
+          release: '1'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 受入試験
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 受入試験
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2000-12-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2000-12-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2000-12-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''ある実装が利用者の受入基準を満たすかどうかを決定し，利用者がそれを受け入れるかどうかを判断するための試験。''}]'
+  examples: []
+  id: 7
+  language_code: jpn
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: 受入試験には，実装が利用者の要求を満たしていることを立証するための，種々の試験（機能性試験，数量試験，性能試験など）の計画及び実行が含まれる。
+    state:
+      _dict:
+        content: 受入試験には，実装が利用者の要求を満たしていることを立証するための，種々の試験（機能性試験，数量試験，性能試験など）の計画及び実行が含まれる。
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: 受入試験は，適合性試験の一部ではない。
+    state:
+      _dict:
+        content: 受入試験は，適合性試験の一部ではない。
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/26010.html
+        ref: ISO 19105:2000
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: JIS X 7105
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 受入試験
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 受入試験
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 5b937554-e7b1-5ebc-a286-4b3298d4682c
+status: valid

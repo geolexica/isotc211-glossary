@@ -1,0 +1,141 @@
+data:
+  _revisions:
+    current: 571c57
+    tree:
+      571c57:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: Fifth Edition
+            ref: IHO Hydrographic Dictionary S-32
+          date_accepted: '2014-01-15T00:00:00.000Z'
+          definition: general lowering in level of a moving vessel, relative to what
+            its level would be were it motionless, due to the regional depression
+            of the surface of the water in which the ship moves
+          entry_status: valid
+          examples: []
+          id: 1568
+          language_code: eng
+          lineage_source: ISO/TS 19130-2:2014, 4.67
+          lineage_source_similarity: '1'
+          notes:
+          - Settlement is not an increase in displacement.
+          - Settlement is measured as an angular tilt about the centre of gravity
+            of the vessel.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: settlement
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: settlement
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-01-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-01-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-01-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''general lowering in level of a moving vessel, relative
+    to what its level would be were it motionless, due to the regional depression
+    of the surface of the water in which the ship moves''}]'
+  examples: []
+  id: 1568
+  language_code: eng
+  lineage_source_similarity: '1'
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Settlement is not an increase in displacement.
+    state:
+      _dict:
+        content: Settlement is not an increase in displacement.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Settlement is measured as an angular tilt about the centre of gravity
+        of the vessel.
+    state:
+      _dict:
+        content: Settlement is measured as an angular tilt about the centre of gravity
+          of the vessel.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: Fifth Edition
+        ref: IHO Hydrographic Dictionary S-32
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO/TS 19130-2:2014, 4.67
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: settlement
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: settlement
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: fdf3a731-0044-5d10-a824-8eecd7a7b6c6
+status: valid

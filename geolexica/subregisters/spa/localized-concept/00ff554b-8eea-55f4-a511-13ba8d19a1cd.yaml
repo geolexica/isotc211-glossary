@@ -1,0 +1,115 @@
+data:
+  _revisions:
+    current: 332bcc
+    tree:
+      332bcc:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: modified
+            ref: New Concepts in BASIS Licensing
+          date_accepted: '2014-02-15T00:00:00.000Z'
+          definition: aplicación que monitoriza las licencias disponibles en una organización
+            y coordina la asignación de esas licencias a los usuarios que las solicitan
+          entry_status: valid
+          examples: []
+          id: 1234
+          language_code: spa
+          lineage_source: ISO 19153:2014, 4.28
+          lineage_source_similarity: '1'
+          notes: []
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: gestor de licencias
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: gestor de licencias
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-02-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-02-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-02-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''aplicación que monitoriza las licencias disponibles
+    en una organización y coordina la asignación de esas licencias a los usuarios
+    que las solicitan''}]'
+  examples: []
+  id: 1234
+  language_code: spa
+  lineage_source_similarity: '1'
+  notes: []
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: modified
+        ref: New Concepts in BASIS Licensing
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19153:2014, 4.28
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: gestor de licencias
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: gestor de licencias
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 00ff554b-8eea-55f4-a511-13ba8d19a1cd
+status: valid

@@ -1,0 +1,132 @@
+data:
+  _revisions:
+    current: '721210'
+    tree:
+      '721210':
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.1.35
+            link: https://www.iso.org/standard/75676.html
+            ref: ISO 19136-1:2020
+          date_accepted: '2007-09-01T00:00:00.000Z'
+          definition: XML-документ, содержащий в качестве корневого один из элементов
+            AbstractFeature, Dictionary или TopoComplex, определенные в схеме GML,
+            либо любой элемент из групп замещения вышеперечисленных элементов
+          entry_status: valid
+          examples: []
+          id: 824
+          language_code: rus
+          lineage_source: ISO 19136:2007(E)
+          lineage_source_similarity: 1
+          notes: []
+          release: '1'
+          review_date: '2020-01-09T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2020-01-09T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19136-1:2020(E)
+          review_decision_notes: Authoritative reference changed from ISO 19136:2007
+            to ISO 19136-1:2020(E), 3.1.35. Lineage source added as ISO 19136:2007(E)
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: GML- документ
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: GML- документ
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2007-09-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2007-09-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2007-09-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''XML-документ, содержащий в качестве корневого один
+    из элементов AbstractFeature, Dictionary или TopoComplex, определенные в схеме
+    GML, либо любой элемент из групп замещения вышеперечисленных элементов''}]'
+  examples: []
+  id: 824
+  language_code: rus
+  lineage_source_similarity: 1
+  notes: []
+  release: '1'
+  reviewDate: 2020-01-09
+  reviewDecisionDate: 2020-01-09
+  reviewDecisionEvent: Publication of ISO 19136-1:2020(E)
+  review_decision: accepted
+  review_decision_notes: Authoritative reference changed from ISO 19136:2007 to ISO
+    19136-1:2020(E), 3.1.35. Lineage source added as ISO 19136:2007(E)
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: (E), 3.1.35
+        link: https://www.iso.org/standard/75676.html
+        ref: ISO 19136-1:2020
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19136:2007(E)
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: GML- документ
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: GML- документ
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 2f803819-5feb-50f3-aa83-35252e92425b
+status: valid

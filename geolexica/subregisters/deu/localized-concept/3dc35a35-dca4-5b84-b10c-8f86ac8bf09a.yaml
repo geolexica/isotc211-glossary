@@ -1,0 +1,116 @@
+data:
+  _revisions:
+    current: d650c2
+    tree:
+      d650c2:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/40121.html
+            ref: ISO 19123:2005
+          date_accepted: '2005-08-15T00:00:00.000Z'
+          entry_status: valid
+          examples: []
+          id: 491
+          language_code: deu
+          notes:
+          - A directed line segment represents a vector if the length and direction
+            of the line segment are equal to the magnitude and direction of the vector.  The
+            term vector data refers to data that represents the spatial configuration
+            of features as a set of directed line segments.
+          release: '1'
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: Vektor
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: Vektor
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-08-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-08-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-08-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  examples: []
+  id: 491
+  language_code: deu
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: A directed line segment represents a vector if the length and direction
+        of the line segment are equal to the magnitude and direction of the vector.
+        The term vector data refers to data that represents the spatial configuration
+        of features as a set of directed line segments.
+    state:
+      _dict:
+        content: A directed line segment represents a vector if the length and direction
+          of the line segment are equal to the magnitude and direction of the vector.
+          The term vector data refers to data that represents the spatial configuration
+          of features as a set of directed line segments.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/40121.html
+        ref: ISO 19123:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: Vektor
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: Vektor
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 3dc35a35-dca4-5b84-b10c-8f86ac8bf09a
+status: valid

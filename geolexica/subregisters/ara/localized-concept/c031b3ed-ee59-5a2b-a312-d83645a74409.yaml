@@ -1,0 +1,108 @@
+data:
+  _revisions:
+    current: f96153
+    tree:
+      f96153:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32562.html
+            ref: ISO 19144-1:2009
+          date_accepted: '2009-08-15T00:00:00.000Z'
+          definition: تعريف يستخدم لتعيين  الكائنات في فئات مفهرسة
+          entry_status: valid
+          examples: []
+          id: 850
+          language_code: ara
+          notes:
+          - يمكن تعريف المصنفات خوارزميا أو وفقا لمجموعة قواعد محددة في نظام للتصنيف
+          release: '2'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: مصنِّف
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: مصنِّف
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2009-08-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2009-08-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2009-08-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''تعريف يستخدم لتعيين الكائنات في فئات مفهرسة''}]'
+  examples: []
+  id: 850
+  language_code: ara
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: يمكن تعريف المصنفات خوارزميا أو وفقا لمجموعة قواعد محددة في نظام للتصنيف
+    state:
+      _dict:
+        content: يمكن تعريف المصنفات خوارزميا أو وفقا لمجموعة قواعد محددة في نظام
+          للتصنيف
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '2'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/32562.html
+        ref: ISO 19144-1:2009
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: مصنِّف
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: مصنِّف
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: c031b3ed-ee59-5a2b-a312-d83645a74409
+status: valid

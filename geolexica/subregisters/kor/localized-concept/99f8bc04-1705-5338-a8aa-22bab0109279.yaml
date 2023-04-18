@@ -1,0 +1,113 @@
+data:
+  _revisions:
+    current: 48fecb
+    tree:
+      48fecb:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/40121.html
+            ref: ISO 19123:2005
+          date_accepted: '2007-11-01T00:00:00.000Z'
+          definition: 삼각형을 구성하는 세 개의 정점을 지나는 원의 내부에 다른 삼각형의 어느 정점도 포함하지 않는 삼각망
+          entry_status: valid
+          examples: []
+          id: 129
+          language_code: kor
+          lineage_source: KS X ISO 19123
+          notes: []
+          release: '1'
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 델로니 삼각 분할
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 델로니 삼각 분할
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2007-11-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2007-11-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2007-11-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''삼각형을 구성하는 세 개의 정점을 지나는 원의 내부에 다른 삼각형의 어느 정점도 포함하지
+    않는 삼각망''}]'
+  examples: []
+  id: 129
+  language_code: kor
+  notes: []
+  release: '1'
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/40121.html
+        ref: ISO 19123:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: KS X ISO 19123
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 델로니 삼각 분할
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 델로니 삼각 분할
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 99f8bc04-1705-5338-a8aa-22bab0109279
+status: valid

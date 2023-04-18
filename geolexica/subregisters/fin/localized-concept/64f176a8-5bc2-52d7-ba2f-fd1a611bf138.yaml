@@ -1,0 +1,137 @@
+data:
+  _revisions:
+    current: 38f518
+    tree:
+      38f518:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          date_accepted: '2004-07-01T00:00:00.000Z'
+          definition: koetulokseen liitettävä tunnusluku, joka luonnehtii mitattuun
+            suureeseen kohtuudella liitettävissä olevaa hajontaa (SFS-ENV ISO 13843)
+          entry_status: valid
+          examples: []
+          id: 480
+          language_code: fin
+          lineage_source: ISO 19116:2004(E)
+          lineage_source_similarity: 1
+          notes:
+          - Kun mitattujen arvojen, esimerkiksi koordinaattien, ulkoisen tai sisäisen
+            tarkkuuden laatua on luonnehdittava määrällisesti, tunnuslukuna käytetään
+            arviota mittaustulosten epävarmuudesta. Ulkoinen tarkkuus on laadullinen
+            käsite, joten sitä ei tulisi käyttää määrällisesti eli sille ei tulisi
+            antaa lukuarvoa; sen sijaan lukuarvon voi antaa epävarmuudelle.
+          release: '1'
+          review_date: '2019-12-02T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-12-02T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19116:2019(E)
+          review_decision_notes: Authoritative reference changed from Guide to the
+            Expression of Uncertainty in Measurement (GUM), 1995 to . Lineage source
+            added as ISO 19116:2004(E)
+          review_indicator: ''
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: epävarmuus
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: epävarmuus
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2004-07-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2004-07-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2004-07-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''koetulokseen liitettävä tunnusluku, joka luonnehtii
+    mitattuun suureeseen kohtuudella liitettävissä olevaa hajontaa (SFS-ENV ISO 13843)''}]'
+  examples: []
+  id: 480
+  language_code: fin
+  lineage_source_similarity: 1
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Kun mitattujen arvojen, esimerkiksi koordinaattien, ulkoisen tai sisäisen
+        tarkkuuden laatua on luonnehdittava määrällisesti, tunnuslukuna käytetään
+        arviota mittaustulosten epävarmuudesta. Ulkoinen tarkkuus on laadullinen käsite,
+        joten sitä ei tulisi käyttää määrällisesti eli sille ei tulisi antaa lukuarvoa;
+        sen sijaan lukuarvon voi antaa epävarmuudelle.
+    state:
+      _dict:
+        content: Kun mitattujen arvojen, esimerkiksi koordinaattien, ulkoisen tai
+          sisäisen tarkkuuden laatua on luonnehdittava määrällisesti, tunnuslukuna
+          käytetään arviota mittaustulosten epävarmuudesta. Ulkoinen tarkkuus on laadullinen
+          käsite, joten sitä ei tulisi käyttää määrällisesti eli sille ei tulisi antaa
+          lukuarvoa; sen sijaan lukuarvon voi antaa epävarmuudelle.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  reviewDate: 2019-12-02
+  reviewDecisionDate: 2019-12-02
+  reviewDecisionEvent: Publication of ISO 19116:2019(E)
+  review_decision: accepted
+  review_decision_notes: Authoritative reference changed from Guide to the Expression
+    of Uncertainty in Measurement (GUM), 1995 to . Lineage source added as ISO 19116:2004(E)
+  review_indicator: ''
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        ref: ISO 19116:2004(E)
+      type: lineage
+    state:
+      _dict:
+        origin: *id001
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: epävarmuus
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: epävarmuus
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 64f176a8-5bc2-52d7-ba2f-fd1a611bf138
+status: valid

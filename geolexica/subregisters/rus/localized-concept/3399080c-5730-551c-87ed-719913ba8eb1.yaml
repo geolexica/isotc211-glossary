@@ -1,0 +1,166 @@
+data:
+  _revisions:
+    current: 2194c9
+    tree:
+      2194c9:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/26012.html
+            ref: ISO 19107:2003
+          date_accepted: '2003-05-01T00:00:00.000Z'
+          definition: минимальное число независимых переменных, нужное, чтобы различить
+            близлежащие позиции геометрического объекта
+          entry_status: valid
+          examples: []
+          id: 463
+          language_code: rus
+          lineage_source: Internet
+          notes:
+          - Упомянутые независимые переменные можно в большинстве случаев рассматривать
+            как локальную координатную систему. В трехмерном координатном пространстве
+            плоскость может быть описана как P(u, v) = A + u X + v Y, где u и v –
+            действительные числа,  A – любая точка на плоскости, а  X и Y – два вектора,
+            касательные к плоскости. Поскольку положения на плоскости могут быть определены
+            величинами u и v (здесь в общем виде), плоскость является двумерной и
+            (u, v) – это координатная система для точек плоскости. Для поверхностей
+            же в общем случае невозможно получить такую универсальную систему. Если
+            взять плоскость, касательную к поверхности, и спроецировать точки данной
+            поверхности на эту плоскость, можно получить лишь локальный изоморфизм
+            для небольшой окрестности около точки касания. Эта «локальная координатная
+            система» для лежащей в ее основе поверхности достаточна для представления
+            поверхности как двумерного топологического объекта. Поскольку  ISO 19107
+            регламентирует  положения, связанные только с пространственными координатами,
+            любой трехмерный объект может опираться на координаты для установления
+            его топологической размерности.
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: топологическая размерность
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: топологическая размерность
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2003-05-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2003-05-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2003-05-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''минимальное число независимых переменных, нужное,
+    чтобы различить близлежащие позиции геометрического объекта''}]'
+  examples: []
+  id: 463
+  language_code: rus
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Упомянутые независимые переменные можно в большинстве случаев рассматривать
+        как локальную координатную систему. В трехмерном координатном пространстве
+        плоскость может быть описана как P(u, v) = A + u X + v Y, где u и v – действительные
+        числа,  A – любая точка на плоскости, а  X и Y – два вектора, касательные
+        к плоскости. Поскольку положения на плоскости могут быть определены величинами
+        u и v (здесь в общем виде), плоскость является двумерной и (u, v) – это координатная
+        система для точек плоскости. Для поверхностей же в общем случае невозможно
+        получить такую универсальную систему. Если взять плоскость, касательную к
+        поверхности, и спроецировать точки данной поверхности на эту плоскость, можно
+        получить лишь локальный изоморфизм для небольшой окрестности около точки касания.
+        Эта «локальная координатная система» для лежащей в ее основе поверхности достаточна
+        для представления поверхности как двумерного топологического объекта. Поскольку  ISO
+        19107 регламентирует  положения, связанные только с пространственными координатами,
+        любой трехмерный объект может опираться на координаты для установления его
+        топологической размерности.
+    state:
+      _dict:
+        content: Упомянутые независимые переменные можно в большинстве случаев рассматривать
+          как локальную координатную систему. В трехмерном координатном пространстве
+          плоскость может быть описана как P(u, v) = A + u X + v Y, где u и v – действительные
+          числа,  A – любая точка на плоскости, а  X и Y – два вектора, касательные
+          к плоскости. Поскольку положения на плоскости могут быть определены величинами
+          u и v (здесь в общем виде), плоскость является двумерной и (u, v) – это
+          координатная система для точек плоскости. Для поверхностей же в общем случае
+          невозможно получить такую универсальную систему. Если взять плоскость, касательную
+          к поверхности, и спроецировать точки данной поверхности на эту плоскость,
+          можно получить лишь локальный изоморфизм для небольшой окрестности около
+          точки касания. Эта «локальная координатная система» для лежащей в ее основе
+          поверхности достаточна для представления поверхности как двумерного топологического
+          объекта. Поскольку  ISO 19107 регламентирует  положения, связанные только
+          с пространственными координатами, любой трехмерный объект может опираться
+          на координаты для установления его топологической размерности.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/26012.html
+        ref: ISO 19107:2003
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: Internet
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: топологическая размерность
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: топологическая размерность
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 3399080c-5730-551c-87ed-719913ba8eb1
+status: valid

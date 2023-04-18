@@ -1,0 +1,169 @@
+data:
+  _revisions:
+    current: b88042
+    tree:
+      b88042:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: 4.1.10
+            link: https://www.iso.org/standard/59221.html
+            ref: ISO 19119:2016
+          date_accepted: '2005-02-15T00:00:00.000Z'
+          definition: specyfikacja przekształcenia lub zapytania, którego wykonania
+            można zażądać od obiektu
+          examples:
+          - 'UWAGA 1 Operacja ma swoją nazwę oraz listę parametrów.
+
+
+            UWAGA 2  Omówienie operacji, patrz 7.2.'
+          id: 318
+          language_code: pol
+          lineage_source: ISO 19119:2005, 4.3
+          notes:
+          - Operacja posiada nazwę i liste parametrów.
+          - Zob. p.  7.2 [z ISO 19119] dla omówienia operacji.
+          release: '1'
+          review_date: '2012-08-11T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2016-01-15T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19119:2016
+          review_decision_notes: Authoritative reference changed from ISO 19119:2005
+            to ISO 19119:2016, 4.1.10. Lineage source added as ISO 19119:2005, 4.3
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: operacja
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: operacja
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-02-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-02-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-02-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''specyfikacja przekształcenia lub zapytania, którego
+    wykonania można zażądać od obiektu''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: 'UWAGA 1 Operacja ma swoją nazwę oraz listę parametrów.
+
+
+        UWAGA 2  Omówienie operacji, patrz 7.2.'
+    state:
+      _dict:
+        content: 'UWAGA 1 Operacja ma swoją nazwę oraz listę parametrów.
+
+
+          UWAGA 2  Omówienie operacji, patrz 7.2.'
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 318
+  language_code: pol
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Operacja posiada nazwę i liste parametrów.
+    state:
+      _dict:
+        content: Operacja posiada nazwę i liste parametrów.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Zob. p.  7.2 [z ISO 19119] dla omówienia operacji.
+    state:
+      _dict:
+        content: Zob. p.  7.2 [z ISO 19119] dla omówienia operacji.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  reviewDate: 2012-08-11
+  reviewDecisionDate: 2016-01-15
+  reviewDecisionEvent: Publication of ISO 19119:2016
+  review_decision: accepted
+  review_decision_notes: Authoritative reference changed from ISO 19119:2005 to ISO
+    19119:2016, 4.1.10. Lineage source added as ISO 19119:2005, 4.3
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: 4.1.10
+        link: https://www.iso.org/standard/59221.html
+        ref: ISO 19119:2016
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19119:2005, 4.3
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: operacja
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: operacja
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: d6c9a7e7-c15e-56f0-9ca8-18fb8e1b87dd
+status: valid

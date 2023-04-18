@@ -1,0 +1,114 @@
+data:
+  _revisions:
+    current: b4bf93
+    tree:
+      b4bf93:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/40121.html
+            ref: ISO 19123:2005
+          date_accepted: '2005-08-15T00:00:00.000Z'
+          definition: cobertura que devuelve los mismos valores de los atributos de
+            objetos geográficos para cada posición directa dentro de cualquier objeto
+            espacial, objeto temporal, u objeto espacio-temporal único en su dominio
+          entry_status: valid
+          examples: []
+          id: 141
+          language_code: spa
+          notes:
+          - El dominio de una cobertura discreta consta de un conjunto finito de objetos
+            espaciales, temporales o espacio-temporales.
+          release: '1'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: cobertura discreta
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: cobertura discreta
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-08-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-08-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-08-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''cobertura que devuelve los mismos valores de los atributos
+    de objetos geográficos para cada posición directa dentro de cualquier objeto espacial,
+    objeto temporal, u objeto espacio-temporal único en su dominio''}]'
+  examples: []
+  id: 141
+  language_code: spa
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: El dominio de una cobertura discreta consta de un conjunto finito de
+        objetos espaciales, temporales o espacio-temporales.
+    state:
+      _dict:
+        content: El dominio de una cobertura discreta consta de un conjunto finito
+          de objetos espaciales, temporales o espacio-temporales.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/40121.html
+        ref: ISO 19123:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: cobertura discreta
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: cobertura discreta
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: c6eebf60-1c28-57df-89f0-2a4477488477
+status: valid

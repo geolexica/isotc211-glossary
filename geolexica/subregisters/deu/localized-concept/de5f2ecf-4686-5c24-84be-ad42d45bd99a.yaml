@@ -1,0 +1,150 @@
+data:
+  _revisions:
+    current: e9d43d
+    tree:
+      e9d43d:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            clause: (E), 3.27
+            link: https://www.iso.org/standard/66847.html
+            ref: ISO 19130-1:2018
+          date_accepted: '2010-06-15T00:00:00.000Z'
+          definition: mit dem Rand des Kamerakörpers von Filmkameras fest verbundene
+            mechanische Zeichen, in der Regel vier oder acht, die bei der Aufnahme
+            auf dem Film abgebildet werden und der Realisierung des Bildkoordinatenreferenzsystems
+            dienen
+          entry_status: valid
+          examples: []
+          id: 994
+          language_code: deu
+          lineage_source: ISO/TS 19130:2010(E)
+          lineage_source_similarity: '1'
+          notes:
+          - When a camera is calibrated the distances between fiducial marks are precisely
+            measured and assigned coordinates that assist in correcting for film distortion.
+          release: '2'
+          review_date: '2018-09-01T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2018-09-01T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19130-1:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010
+            to ISO 19130-1:2018(E), 3.27. Lineage source added as ISO/TS 19130:2010(E)
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: Rahmenmarke
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: Rahmenmarke
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2010-06-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2010-06-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2010-06-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''mit dem Rand des Kamerakörpers von Filmkameras fest
+    verbundene mechanische Zeichen, in der Regel vier oder acht, die bei der Aufnahme
+    auf dem Film abgebildet werden und der Realisierung des Bildkoordinatenreferenzsystems
+    dienen''}]'
+  examples: []
+  id: 994
+  language_code: deu
+  lineage_source_similarity: '1'
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: When a camera is calibrated the distances between fiducial marks are
+        precisely measured and assigned coordinates that assist in correcting for
+        film distortion.
+    state:
+      _dict:
+        content: When a camera is calibrated the distances between fiducial marks
+          are precisely measured and assigned coordinates that assist in correcting
+          for film distortion.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '2'
+  reviewDate: 2018-09-01
+  reviewDecisionDate: 2018-09-01
+  reviewDecisionEvent: Publication of ISO 19130-1:2018(E)
+  review_decision: accepted
+  review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010 to
+    ISO 19130-1:2018(E), 3.27. Lineage source added as ISO/TS 19130:2010(E)
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: (E), 3.27
+        link: https://www.iso.org/standard/66847.html
+        ref: ISO 19130-1:2018
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO/TS 19130:2010(E)
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: Rahmenmarke
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: Rahmenmarke
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: de5f2ecf-4686-5c24-84be-ad42d45bd99a
+status: valid

@@ -1,0 +1,158 @@
+data:
+  _revisions:
+    current: 117ac9
+    tree:
+      117ac9:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.35'
+            link: https://www.iso.org/standard/32571.html
+            ref: ISO 19153:2014
+          date_accepted: '2014-02-15T00:00:00.000Z'
+          definition: person or organization that plays a role in a rights transaction
+          entry_status: valid
+          examples:
+          - In some legal traditions, “party” refers to person in a legal dispute,
+            while “principal” can be the entity initiating a contract, such as an
+            agency.
+          id: 1245
+          language_code: eng
+          notes:
+          - These two terms [principal and party] are used as near synonyms from ORDL
+            and ISO 21000. There will be no distinction between these two terms made
+            here, but there can be distinctions in legal documents depending on local
+            laws.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: principal
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: principal
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: party
+              type: expression
+            state:
+              _dict:
+                designation: party
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-02-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-02-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-02-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''person or organization that plays a role in a rights
+    transaction''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: In some legal traditions, “party” refers to person in a legal dispute,
+        while “principal” can be the entity initiating a contract, such as an agency.
+    state:
+      _dict:
+        content: In some legal traditions, “party” refers to person in a legal dispute,
+          while “principal” can be the entity initiating a contract, such as an agency.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 1245
+  language_code: eng
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: These two terms [principal and party] are used as near synonyms from
+        ORDL and ISO 21000. There will be no distinction between these two terms made
+        here, but there can be distinctions in legal documents depending on local
+        laws.
+    state:
+      _dict:
+        content: These two terms [principal and party] are used as near synonyms from
+          ORDL and ISO 21000. There will be no distinction between these two terms
+          made here, but there can be distinctions in legal documents depending on
+          local laws.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.35'
+        link: https://www.iso.org/standard/32571.html
+        ref: ISO 19153:2014
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: principal
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: principal
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: party
+      type: expression
+    state:
+      _dict:
+        designation: party
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: e2218583-12d5-5ea3-bb8b-93247931814f
+status: valid

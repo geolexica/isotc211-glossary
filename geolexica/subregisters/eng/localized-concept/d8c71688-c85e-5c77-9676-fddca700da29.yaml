@@ -1,0 +1,119 @@
+data:
+  _revisions:
+    current: 8d2fb9
+    tree:
+      8d2fb9:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/40121.html
+            ref: ISO 19123:2005
+          date_accepted: '2005-08-15T00:00:00.000Z'
+          definition: coverage that returns different values for the same feature
+            attribute at different direct positions within a single spatial object,
+            temporal object, or spatiotemporal object in its domain
+          entry_status: valid
+          examples: []
+          id: 83
+          language_code: eng
+          notes:
+          - Although the domain of a continuous coverage is ordinarily bounded in
+            terms of its spatial and/or temporal extent, it can be subdivided into
+            an infinite number of direct positions.
+          release: '1'
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: continuous coverage
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: continuous coverage
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-08-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-08-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-08-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''coverage that returns different values for the same
+    feature attribute at different direct positions within a single spatial object,
+    temporal object, or spatiotemporal object in its domain''}]'
+  examples: []
+  id: 83
+  language_code: eng
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Although the domain of a continuous coverage is ordinarily bounded
+        in terms of its spatial and/or temporal extent, it can be subdivided into
+        an infinite number of direct positions.
+    state:
+      _dict:
+        content: Although the domain of a continuous coverage is ordinarily bounded
+          in terms of its spatial and/or temporal extent, it can be subdivided into
+          an infinite number of direct positions.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/40121.html
+        ref: ISO 19123:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: continuous coverage
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: continuous coverage
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: d8c71688-c85e-5c77-9676-fddca700da29
+status: valid

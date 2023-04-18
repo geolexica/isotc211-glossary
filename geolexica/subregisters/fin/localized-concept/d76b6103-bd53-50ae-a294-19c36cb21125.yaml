@@ -1,0 +1,160 @@
+data:
+  _revisions:
+    current: 29573b
+    tree:
+      29573b:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.9
+            link: https://www.iso.org/standard/66175.html
+            ref: ISO 19107:2019
+          date_accepted: '2003-05-01T00:00:00.000Z'
+          definition: joukko korkeamman topologisen ulottuvuuden omaavia topologisia
+            primitiivejä, jotka liittyvät tiettyyn topologiseen objektiin siten, että
+            tämä topologinen objekti on mukana jokaisen primitiivin rajauksessa
+          entry_status: valid
+          examples: []
+          id: 48
+          language_code: fin
+          lineage_source: ISO 19107:2003(E)
+          lineage_source_similarity: 1
+          notes:
+          - Jos solmupiste on linkin rajauksella, kyseinen linkki on kyseisen solmupisteen
+            yhteisrajauksella. Suuntaparametri, joka liittyy jompaan kumpaan näistä
+            suhteista, liittyy myös toiseen suhteeseen. Jos siis kyseinen solmupiste
+            on linkin loppusolmu (määritelmän mukaan positiivisen suunnatun linkin
+            loppupää), positiivinen suunta solmupisteellä olisi kyseiseen linkkiin
+            yhteisrajauksella. Katso ISO 19107 -standardin kuva 35.
+          release: '1'
+          review_date: '2019-12-02T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-12-02T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19107:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19107:2003
+            to ISO 19107:2019(E), 3.9. Lineage source added as ISO 19107:2003(E)
+          review_indicator: ''
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: yhteisrajaus
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: yhteisrajaus
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2003-05-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2003-05-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2003-05-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''joukko korkeamman topologisen ulottuvuuden omaavia
+    topologisia primitiivejä, jotka liittyvät tiettyyn topologiseen objektiin siten,
+    että tämä topologinen objekti on mukana jokaisen primitiivin rajauksessa''}]'
+  examples: []
+  id: 48
+  language_code: fin
+  lineage_source_similarity: 1
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Jos solmupiste on linkin rajauksella, kyseinen linkki on kyseisen solmupisteen
+        yhteisrajauksella. Suuntaparametri, joka liittyy jompaan kumpaan näistä suhteista,
+        liittyy myös toiseen suhteeseen. Jos siis kyseinen solmupiste on linkin loppusolmu
+        (määritelmän mukaan positiivisen suunnatun linkin loppupää), positiivinen
+        suunta solmupisteellä olisi kyseiseen linkkiin yhteisrajauksella. Katso ISO
+        19107 -standardin kuva 35.
+    state:
+      _dict:
+        content: Jos solmupiste on linkin rajauksella, kyseinen linkki on kyseisen
+          solmupisteen yhteisrajauksella. Suuntaparametri, joka liittyy jompaan kumpaan
+          näistä suhteista, liittyy myös toiseen suhteeseen. Jos siis kyseinen solmupiste
+          on linkin loppusolmu (määritelmän mukaan positiivisen suunnatun linkin loppupää),
+          positiivinen suunta solmupisteellä olisi kyseiseen linkkiin yhteisrajauksella.
+          Katso ISO 19107 -standardin kuva 35.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  reviewDate: 2019-12-02
+  reviewDecisionDate: 2019-12-02
+  reviewDecisionEvent: Publication of ISO 19107:2019(E)
+  review_decision: accepted
+  review_decision_notes: Authoritative reference changed from ISO 19107:2003 to ISO
+    19107:2019(E), 3.9. Lineage source added as ISO 19107:2003(E)
+  review_indicator: ''
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: (E), 3.9
+        link: https://www.iso.org/standard/66175.html
+        ref: ISO 19107:2019
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19107:2003(E)
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: yhteisrajaus
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: yhteisrajaus
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: d76b6103-bd53-50ae-a294-19c36cb21125
+status: valid

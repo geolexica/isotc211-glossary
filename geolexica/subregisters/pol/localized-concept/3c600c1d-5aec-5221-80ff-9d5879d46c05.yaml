@@ -1,0 +1,127 @@
+data:
+  _revisions:
+    current: 6946f3
+    tree:
+      6946f3:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/26013.html
+            ref: ISO 19108:2002
+          date_accepted: '2002-09-01T00:00:00.000Z'
+          definition: sukcesja obiektu, w której co najmniej  istniejące wcześniej
+            instancje pewnego typu obiektu są zastępowane jedną instancją tego samego
+            typu obiektu
+          examples:
+          - Po usunięciu płotu pomiędzy pastwiskami dwie instancje typu obiektu 'pastwisko'
+            zostają zastapione jedną instancją tego samego typu.
+          id: 175
+          language_code: pol
+          lineage_source: PN-EN ISO 19108
+          notes: []
+          release: '1'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: zespolenie obiektów
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: zespolenie obiektów
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2002-09-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2002-09-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2002-09-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''sukcesja obiektu, w której co najmniej istniejące
+    wcześniej instancje pewnego typu obiektu są zastępowane jedną instancją tego samego
+    typu obiektu''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Po usunięciu płotu pomiędzy pastwiskami dwie instancje typu obiektu
+        'pastwisko' zostają zastapione jedną instancją tego samego typu.
+    state:
+      _dict:
+        content: Po usunięciu płotu pomiędzy pastwiskami dwie instancje typu obiektu
+          'pastwisko' zostają zastapione jedną instancją tego samego typu.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 175
+  language_code: pol
+  notes: []
+  release: '1'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/26013.html
+        ref: ISO 19108:2002
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: PN-EN ISO 19108
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: zespolenie obiektów
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: zespolenie obiektów
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 3c600c1d-5aec-5221-80ff-9d5879d46c05
+status: valid

@@ -1,0 +1,132 @@
+data:
+  _revisions:
+    current: 4ca88d
+    tree:
+      4ca88d:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: 3.8, modified — EXAMPLES and NOTE deleted.
+            link: https://www.iso.org/standard/45324.html
+            ref: ISO/IEC Guide 99:2007
+          date_accepted: '2009-02-15T00:00:00.000Z'
+          definition: element of a measuring system that is directly affected by a
+            phenomenon, body, or substance carrying a quantity to be measured
+          entry_status: valid
+          examples: []
+          id: 1108
+          language_code: eng
+          lineage_source: ISO 19115-2:2009(E)
+          lineage_source_similarity: 1
+          notes: []
+          release: '2'
+          review_date: '2019-01-01T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-01-01T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19115-2:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO/IEC GUIDE
+            99:2007 to ISO/IEC Guide 99:2007, 3.8, modified — EXAMPLES and NOTE deleted..
+            Lineage source added as ISO 19115-2:2009(E)
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: sensor
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: sensor
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2009-02-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2009-02-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2009-02-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''element of a measuring system that is directly affected
+    by a phenomenon, body, or substance carrying a quantity to be measured''}]'
+  examples: []
+  id: 1108
+  language_code: eng
+  lineage_source_similarity: 1
+  notes: []
+  release: '2'
+  reviewDate: 2019-01-01
+  reviewDecisionDate: 2019-01-01
+  reviewDecisionEvent: Publication of ISO 19115-2:2019(E)
+  review_decision: accepted
+  review_decision_notes: Authoritative reference changed from ISO/IEC GUIDE 99:2007
+    to ISO/IEC Guide 99:2007, 3.8, modified — EXAMPLES and NOTE deleted.. Lineage
+    source added as ISO 19115-2:2009(E)
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: 3.8, modified — EXAMPLES and NOTE deleted.
+        link: https://www.iso.org/standard/45324.html
+        ref: ISO/IEC Guide 99:2007
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19115-2:2009(E)
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: sensor
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: sensor
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: a826894c-120a-5f88-aaed-ac9ea9841edf
+status: valid

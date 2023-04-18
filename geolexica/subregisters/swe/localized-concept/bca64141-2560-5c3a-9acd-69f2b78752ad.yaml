@@ -1,0 +1,123 @@
+data:
+  _revisions:
+    current: 8af252
+    tree:
+      8af252:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            ref: UNFAO LCCS 2:2005
+          country_code: swe
+          date_accepted: '2012-07-01T00:00:00.000Z'
+          definition: iakttaget biologiskt-fysiskt täcke på jordens yta
+          entry_status: valid
+          examples: []
+          id: 819
+          language_code: swe
+          lineage_source: ISO 19144-2:2012, 4.1.7
+          lineage_source_similarity: 1
+          notes:
+          - Land cover is distinct from land use.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: marktäcke
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: marktäcke
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2012-07-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  country_code: swe
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2012-07-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2012-07-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''iakttaget biologiskt-fysiskt täcke på jordens yta''}]'
+  examples: []
+  id: 819
+  language_code: swe
+  lineage_source_similarity: 1
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Land cover is distinct from land use.
+    state:
+      _dict:
+        content: Land cover is distinct from land use.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        ref: UNFAO LCCS 2:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19144-2:2012, 4.1.7
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: marktäcke
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: marktäcke
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: bca64141-2560-5c3a-9acd-69f2b78752ad
+status: valid

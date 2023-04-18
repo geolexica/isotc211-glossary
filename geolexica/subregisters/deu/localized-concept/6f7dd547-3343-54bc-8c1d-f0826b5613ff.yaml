@@ -1,0 +1,153 @@
+data:
+  _revisions:
+    current: 78c8f1
+    tree:
+      78c8f1:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            clause: '4.10'
+            link: https://www.iso.org/standard/26020.html
+            ref: ISO 19115:2003
+          date_accepted: '2003-05-01T00:00:00.000Z'
+          date_amended: '2014-04-01T00:00:00.000Z'
+          definition: Komponente oder Mittel, die bzw. das eine Anforderung erfüllt
+          entry_status: superseded
+          examples:
+          - Dataset, service, document, person or organization.
+          id: 383
+          language_code: deu
+          lineage_source: ''
+          notes: []
+          release: '-1'
+          review_date: '2011-01-01T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2014-04-01T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19115-1:2014
+          review_decision_notes: The entry has been superseded. An entry with a revised
+            definition has been published in ISO 19115-1:2014
+          review_indicator: ''
+          review_status: final
+          review_type: supersession
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: Ressource
+              normative_status: null
+              type: expression
+            state:
+              _dict:
+                designation: Ressource
+                normative_status: null
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2003-05-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2003-05-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2003-05-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-04-01T00:00:00.000Z'
+      type: amended
+    state:
+      _dict:
+        date: '2014-04-01T00:00:00.000Z'
+        type: amended
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''Komponente oder Mittel, die bzw. das eine Anforderung
+    erfüllt''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Dataset, service, document, person or organization.
+    state:
+      _dict:
+        content: Dataset, service, document, person or organization.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 383
+  language_code: deu
+  notes: []
+  release: '-1'
+  reviewDate: 2011-01-01
+  reviewDecisionDate: 2014-04-01
+  reviewDecisionEvent: Publication of ISO 19115-1:2014
+  review_decision: accepted
+  review_decision_notes: The entry has been superseded. An entry with a revised definition
+    has been published in ISO 19115-1:2014
+  review_indicator: ''
+  review_status: final
+  review_type: supersession
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.10'
+        link: https://www.iso.org/standard/26020.html
+        ref: ISO 19115:2003
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ''
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: Ressource
+      type: expression
+    state:
+      _dict:
+        designation: Ressource
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 6f7dd547-3343-54bc-8c1d-f0826b5613ff
+status: superseded

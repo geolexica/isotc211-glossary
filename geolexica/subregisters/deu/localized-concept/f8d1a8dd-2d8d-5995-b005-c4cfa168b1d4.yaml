@@ -1,0 +1,161 @@
+data:
+  _revisions:
+    current: 9ac1e0
+    tree:
+      9ac1e0:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/41126.html
+            ref: ISO 19111:2007
+          date_accepted: '2007-07-01T00:00:00.000Z'
+          date_amended: '2019-01-31T00:00:00.000Z'
+          definition: Umrechnung von Koordinaten (Koordinatenkonversion), deren Koordinatenreferenzsysteme
+            auf dem gleichen Datum basieren
+          entry_status: superseded
+          examples:
+          - Conversion from an ellipsoidal coordinate reference system based on the
+            WGS84 datum to a Cartesian coordinate reference system also based on the
+            WGS84 datum, or change of units such as from radians to degrees or feet
+            to metres.
+          id: 762
+          language_code: deu
+          notes:
+          - A coordinate conversion uses parameters which have specified values that
+            are not determined empirically.
+          release: '-1'
+          review_date: '2019-01-31T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-01-31T00:00:00.000Z'
+          review_decision_event: Publication of document ISO 19111:2019(E)
+          review_decision_notes: This entry is superseded by the entry for coordinate
+            conversion in ISO 19111:2019(E)
+          review_indicator: ''
+          review_status: final
+          review_type: supersession
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: Koordinatenumwandlung
+              normative_status: null
+              type: expression
+            state:
+              _dict:
+                designation: Koordinatenumwandlung
+                normative_status: null
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2007-07-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2007-07-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2007-07-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2019-01-31T00:00:00.000Z'
+      type: amended
+    state:
+      _dict:
+        date: '2019-01-31T00:00:00.000Z'
+        type: amended
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''Umrechnung von Koordinaten (Koordinatenkonversion),
+    deren Koordinatenreferenzsysteme auf dem gleichen Datum basieren''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Conversion from an ellipsoidal coordinate reference system based on
+        the WGS84 datum to a Cartesian coordinate reference system also based on the
+        WGS84 datum, or change of units such as from radians to degrees or feet to
+        metres.
+    state:
+      _dict:
+        content: Conversion from an ellipsoidal coordinate reference system based
+          on the WGS84 datum to a Cartesian coordinate reference system also based
+          on the WGS84 datum, or change of units such as from radians to degrees or
+          feet to metres.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 762
+  language_code: deu
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: A coordinate conversion uses parameters which have specified values
+        that are not determined empirically.
+    state:
+      _dict:
+        content: A coordinate conversion uses parameters which have specified values
+          that are not determined empirically.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '-1'
+  reviewDate: 2019-01-31
+  reviewDecisionDate: 2019-01-31
+  reviewDecisionEvent: Publication of document ISO 19111:2019(E)
+  review_decision: accepted
+  review_decision_notes: This entry is superseded by the entry for coordinate conversion
+    in ISO 19111:2019(E)
+  review_indicator: ''
+  review_status: final
+  review_type: supersession
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/41126.html
+        ref: ISO 19111:2007
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: Koordinatenumwandlung
+      type: expression
+    state:
+      _dict:
+        designation: Koordinatenumwandlung
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: f8d1a8dd-2d8d-5995-b005-c4cfa168b1d4
+status: superseded

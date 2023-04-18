@@ -1,0 +1,124 @@
+data:
+  _revisions:
+    current: 4f059a
+    tree:
+      4f059a:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32553.html
+            ref: ISO 19135:2005
+          date_accepted: '2005-10-15T00:00:00.000Z'
+          definition: множество элементов с общими свойствами
+          entry_status: valid
+          examples: []
+          id: 261
+          language_code: rus
+          lineage_source: Internet
+          notes:
+          - В данном контексте понятие «класс» используется по отношению к набору
+            экземпляров, а не в абстрактном по отношению к нему понятии
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: класс элементов
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: класс элементов
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-10-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-10-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-10-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''множество элементов с общими свойствами''}]'
+  examples: []
+  id: 261
+  language_code: rus
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: В данном контексте понятие «класс» используется по отношению к набору
+        экземпляров, а не в абстрактном по отношению к нему понятии
+    state:
+      _dict:
+        content: В данном контексте понятие «класс» используется по отношению к набору
+          экземпляров, а не в абстрактном по отношению к нему понятии
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/32553.html
+        ref: ISO 19135:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: Internet
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: класс элементов
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: класс элементов
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 60e969f7-481a-5b4a-ad1b-bc1088693e99
+status: valid

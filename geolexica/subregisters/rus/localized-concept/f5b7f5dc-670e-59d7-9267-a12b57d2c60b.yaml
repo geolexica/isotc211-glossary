@@ -1,0 +1,129 @@
+data:
+  _revisions:
+    current: 10cf7e
+    tree:
+      10cf7e:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/55723.html
+            ref: ISO/IEC 10746-2
+          date_accepted: '2005-02-15T00:00:00.000Z'
+          definition: свойство скрывать от конкретного пользователя  возможное поведение
+            некоторых частей распределенной системы
+          entry_status: valid
+          examples: []
+          id: 143
+          language_code: rus
+          lineage_source: Internet
+          notes:
+          - Прозрачность распределенности системы позволяет скрывать поведение некоторых
+            частей системы, связанные с распределенностью,  от приложений, где они
+            нерелевантны своим целям
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: прозрачность распределенности системы
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: прозрачность распределенности системы
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-02-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-02-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-02-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''свойство скрывать от конкретного пользователя возможное
+    поведение некоторых частей распределенной системы''}]'
+  examples: []
+  id: 143
+  language_code: rus
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Прозрачность распределенности системы позволяет скрывать  поведение
+        некоторых частей системы, связанные с распределенностью,  от приложений, где
+        они нерелевантны своим целям
+    state:
+      _dict:
+        content: Прозрачность распределенности системы позволяет скрывать  поведение
+          некоторых частей системы, связанные с распределенностью,  от приложений,
+          где они нерелевантны своим целям
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/55723.html
+        ref: ISO/IEC 10746-2
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: Internet
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: прозрачность распределенности системы
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: прозрачность распределенности системы
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: f5b7f5dc-670e-59d7-9267-a12b57d2c60b
+status: valid

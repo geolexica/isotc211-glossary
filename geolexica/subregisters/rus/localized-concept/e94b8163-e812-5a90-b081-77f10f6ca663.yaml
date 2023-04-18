@@ -1,0 +1,129 @@
+data:
+  _revisions:
+    current: 857e2d
+    tree:
+      857e2d:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/26012.html
+            ref: ISO 19107:2003
+          date_accepted: '2003-05-01T00:00:00.000Z'
+          definition: конечная упорядоченная  совокупность родственных элементов (объектов
+            или значений), которые могут повторяться
+          entry_status: valid
+          examples: []
+          id: 403
+          language_code: rus
+          lineage_source: Internet
+          notes:
+          - Логически, последовательность является набором пар < item, offset >. В
+            ISO 19107 используется синтаксис языка LISP, который заключает последовательности
+            в круглые скобки и разделяет элементы последовательности запятыми
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: последовательность
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: последовательность
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2003-05-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2003-05-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2003-05-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''конечная упорядоченная совокупность родственных элементов
+    (объектов или значений), которые могут повторяться''}]'
+  examples: []
+  id: 403
+  language_code: rus
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Логически, последовательность является набором пар < item, offset >.
+        В ISO 19107 используется синтаксис языка LISP, который заключает последовательности
+        в круглые скобки и разделяет элементы последовательности запятыми
+    state:
+      _dict:
+        content: Логически, последовательность является набором пар < item, offset
+          >. В ISO 19107 используется синтаксис языка LISP, который заключает последовательности
+          в круглые скобки и разделяет элементы последовательности запятыми
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/26012.html
+        ref: ISO 19107:2003
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: Internet
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: последовательность
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: последовательность
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: e94b8163-e812-5a90-b081-77f10f6ca663
+status: valid

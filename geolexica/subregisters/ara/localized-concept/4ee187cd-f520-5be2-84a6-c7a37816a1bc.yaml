@@ -1,0 +1,125 @@
+data:
+  _revisions:
+    current: 8b4cca
+    tree:
+      8b4cca:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/44875.html
+            ref: ISO 19126:2009
+          date_accepted: '2009-11-01T00:00:00.000Z'
+          definition: إسم لكائن أو نوع أو فئة.
+          entry_status: valid
+          examples:
+          - '"أوراق النبات الدقيقة المتساقطة" قيمة إسمية تحدد نوعا من الغطاء النباتي.'
+          id: 863
+          language_code: ara
+          notes:
+          - كثير من البيانات الوصفية للمعالم تكون قيما إسمية وليس قيما رقمية. وعادة
+            ما يحدد الحيز المخصص للقيمة بالنسبة لهذه البيانات الوصفية بشكل جدول للتعداد
+            أو إدخال الرموز.
+          release: '2'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: القيمة الإسمية
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: القيمة الإسمية
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2009-11-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2009-11-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2009-11-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''إسم لكائن أو نوع أو فئة.''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: '"أوراق النبات الدقيقة المتساقطة" قيمة إسمية تحدد نوعا من الغطاء النباتي.'
+    state:
+      _dict:
+        content: '"أوراق النبات الدقيقة المتساقطة" قيمة إسمية تحدد نوعا من الغطاء
+          النباتي.'
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 863
+  language_code: ara
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: كثير من البيانات الوصفية للمعالم تكون قيما إسمية وليس قيما رقمية. وعادة
+        ما يحدد الحيز المخصص للقيمة بالنسبة لهذه البيانات الوصفية بشكل جدول للتعداد
+        أو إدخال الرموز.
+    state:
+      _dict:
+        content: كثير من البيانات الوصفية للمعالم تكون قيما إسمية وليس قيما رقمية.
+          وعادة ما يحدد الحيز المخصص للقيمة بالنسبة لهذه البيانات الوصفية بشكل جدول
+          للتعداد أو إدخال الرموز.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '2'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/44875.html
+        ref: ISO 19126:2009
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: القيمة الإسمية
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: القيمة الإسمية
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 4ee187cd-f520-5be2-84a6-c7a37816a1bc
+status: valid

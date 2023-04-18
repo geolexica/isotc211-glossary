@@ -1,0 +1,113 @@
+data:
+  _revisions:
+    current: e8d5ef
+    tree:
+      e8d5ef:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32551.html
+            ref: ISO 19133:2005
+          date_accepted: '2005-10-15T00:00:00.000Z'
+          definition: combination of routing, route traversal and tracking
+          entry_status: valid
+          examples: []
+          id: 306
+          language_code: eng
+          notes:
+          - This is essentially the common term navigation, but the definition decomposes
+            the process in terms used in the packages defined in this International
+            Standard.
+          release: '1'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: navigation
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: navigation
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-10-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-10-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-10-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''combination of routing, route traversal and tracking''}]'
+  examples: []
+  id: 306
+  language_code: eng
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: This is essentially the common term navigation, but the definition
+        decomposes the process in terms used in the packages defined in this International
+        Standard.
+    state:
+      _dict:
+        content: This is essentially the common term navigation, but the definition
+          decomposes the process in terms used in the packages defined in this International
+          Standard.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/32551.html
+        ref: ISO 19133:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: navigation
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: navigation
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 6d825178-e8e4-59c1-90da-db5544b32abf
+status: valid

@@ -1,0 +1,126 @@
+data:
+  _revisions:
+    current: a45e4d
+    tree:
+      a45e4d:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32551.html
+            ref: ISO 19133:2005
+          date_accepted: '2005-10-15T00:00:00.000Z'
+          definition: positively weighted directed graph appropriately configured
+            to execute a shortest path search
+          entry_status: valid
+          examples: []
+          id: 133
+          language_code: eng
+          notes:
+          - The term comes from the most commonly known algorithm for finding a shortest
+            path in a positively weighted graph, from E. Dijkstra's paper [7]. Although
+            this algorithm is not the only one in use, the requirements for the graph
+            are common to most. The most common relaxation of the requirement is the
+            "positive weights," which are not needed in the Bellman-Ford algorithm
+            [4], [8].
+          release: '1'
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: Dijkstra graph
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: Dijkstra graph
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-10-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-10-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-10-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''positively weighted directed graph appropriately configured
+    to execute a shortest path search''}]'
+  examples: []
+  id: 133
+  language_code: eng
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: The term comes from the most commonly known algorithm for finding a
+        shortest path in a positively weighted graph, from E. Dijkstra's paper [7].
+        Although this algorithm is not the only one in use, the requirements for the
+        graph are common to most. The most common relaxation of the requirement is
+        the "positive weights," which are not needed in the Bellman-Ford algorithm
+        [4], [8].
+    state:
+      _dict:
+        content: The term comes from the most commonly known algorithm for finding
+          a shortest path in a positively weighted graph, from E. Dijkstra's paper
+          [7]. Although this algorithm is not the only one in use, the requirements
+          for the graph are common to most. The most common relaxation of the requirement
+          is the "positive weights," which are not needed in the Bellman-Ford algorithm
+          [4], [8].
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/32551.html
+        ref: ISO 19133:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: Dijkstra graph
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: Dijkstra graph
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 9a10a6ea-ed6a-5ce6-9838-2e80acef3fa0
+status: valid

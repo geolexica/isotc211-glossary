@@ -1,0 +1,140 @@
+data:
+  _revisions:
+    current: 6e6201
+    tree:
+      6e6201:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/39242.html
+            ref: ISO 6709:2008
+          date_accepted: '2008-07-15T00:00:00.000Z'
+          definition: угол, представляемый последовательностью значений в градусах,
+            минутах и секундах
+          entry_status: valid
+          examples:
+          - ',079 572 5 градусов представлен как 50º04''46,461" шестидесятеричных
+            градусов.'
+          id: 905
+          language_code: rus
+          lineage_source: перевод ИСО 6709:2008
+          notes:
+          - В случае широты или долготы он может также включать знак, указывающий
+            полушарие.
+          release: '2'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: шестидесятеричный градус
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: шестидесятеричный градус
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2008-07-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2008-07-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2008-07-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''угол, представляемый последовательностью значений
+    в градусах, минутах и секундах''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: ',079 572 5 градусов представлен как 50º04''46,461" шестидесятеричных
+        градусов.'
+    state:
+      _dict:
+        content: ',079 572 5 градусов представлен как 50º04''46,461" шестидесятеричных
+          градусов.'
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 905
+  language_code: rus
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: В случае широты или долготы он может также включать знак, указывающий
+        полушарие.
+    state:
+      _dict:
+        content: В случае широты или долготы он может также включать знак, указывающий
+          полушарие.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '2'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/39242.html
+        ref: ISO 6709:2008
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: перевод ИСО 6709:2008
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: шестидесятеричный градус
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: шестидесятеричный градус
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 8db97ee8-f0d1-5a25-8777-f0092cf5be34
+status: valid

@@ -1,0 +1,156 @@
+data:
+  _revisions:
+    current: 7ded46
+    tree:
+      7ded46:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: 4.1.18
+            link: https://www.iso.org/standard/32553.html
+            ref: ISO 19135:2005
+          country_code: swe
+          date_accepted: '2005-10-15T00:00:00.000Z'
+          date_amended: '2015-10-01T00:00:00.000Z'
+          definition: sätta i stället för något som tas bort
+          entry_status: superseded
+          examples: []
+          id: 510
+          language_code: swe
+          lineage_source: ''
+          lineage_source_similarity: 0
+          notes:
+          - The status of the replaced item changes from "valid" to "superseded."
+          release: '-1'
+          review_date: '2010-10-19T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2015-10-01T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19135-1:2015
+          review_decision_notes: The entry has been superseded. An entry with a revised
+            definition has been published in ISO 19135-1:2015
+          review_indicator: ''
+          review_status: final
+          review_type: supersession
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: ersättning
+              normative_status: null
+              type: expression
+            state:
+              _dict:
+                designation: ersättning
+                normative_status: null
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-10-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  country_code: swe
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-10-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-10-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2015-10-01T00:00:00.000Z'
+      type: amended
+    state:
+      _dict:
+        date: '2015-10-01T00:00:00.000Z'
+        type: amended
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''sätta i stället för något som tas bort''}]'
+  examples: []
+  id: 510
+  language_code: swe
+  lineage_source_similarity: 0
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: The status of the replaced item changes from "valid" to "superseded."
+    state:
+      _dict:
+        content: The status of the replaced item changes from "valid" to "superseded."
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '-1'
+  reviewDate: 2010-10-19
+  reviewDecisionDate: 2015-10-01
+  reviewDecisionEvent: Publication of ISO 19135-1:2015
+  review_decision: accepted
+  review_decision_notes: The entry has been superseded. An entry with a revised definition
+    has been published in ISO 19135-1:2015
+  review_indicator: ''
+  review_status: final
+  review_type: supersession
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: 4.1.18
+        link: https://www.iso.org/standard/32553.html
+        ref: ISO 19135:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ''
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: ersättning
+      type: expression
+    state:
+      _dict:
+        designation: ersättning
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 5d42f18d-5628-5f6e-9324-1883abdb8ddc
+status: superseded

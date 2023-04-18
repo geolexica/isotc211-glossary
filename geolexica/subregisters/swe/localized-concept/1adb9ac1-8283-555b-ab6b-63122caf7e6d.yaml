@@ -1,0 +1,145 @@
+data:
+  _revisions:
+    current: 075ecf
+    tree:
+      075ecf:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          abbrev: OSE
+          authoritative_source:
+            link: https://www.iso.org/standard/30726.html
+            ref: ISO/IEC TR 10000-1:1998
+          country_code: swe
+          date_accepted: '2004-07-01T00:00:00.000Z'
+          definition: uppsättning av definitioner för standardiserade tjänster, protokoll
+            och datastrukturer som möjliggör sammankoppling av system
+          entry_status: valid
+          examples: []
+          id: 316
+          language_code: swe
+          lineage_source: ISO 19106:2004
+          lineage_source_similarity: 1
+          notes:
+          - 'Enligt OSI: system som vid kommunikation följer OSI-standard och därför
+            kan anslutas till andra system som följer samma standard.'
+          release: '1'
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: öppen systemiljö
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: öppen systemiljö
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2004-07-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  country_code: swe
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2004-07-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2004-07-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''uppsättning av definitioner för standardiserade tjänster,
+    protokoll och datastrukturer som möjliggör sammankoppling av system''}]'
+  examples: []
+  id: 316
+  language_code: swe
+  lineage_source_similarity: 1
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: 'Enligt OSI: system som vid kommunikation följer OSI-standard och därför
+        kan anslutas till andra system som följer samma standard.'
+    state:
+      _dict:
+        content: 'Enligt OSI: system som vid kommunikation följer OSI-standard och
+          därför kan anslutas till andra system som följer samma standard.'
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/30726.html
+        ref: ISO/IEC TR 10000-1:1998
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19106:2004
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: OSE
+      type: abbreviation
+    state:
+      _dict:
+        designation: OSE
+        type: abbreviation
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: öppen systemiljö
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: öppen systemiljö
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 1adb9ac1-8283-555b-ab6b-63122caf7e6d
+status: valid

@@ -1,0 +1,110 @@
+data:
+  _revisions:
+    current: 6011bd
+    tree:
+      6011bd:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/26012.html
+            ref: ISO 19107:2003
+          country_code: swe
+          date_accepted: '2003-05-01T00:00:00.000Z'
+          definition: positionsmängd som innehåller en specificerad position i sin
+            innanförmängd och som dessutom innehåller alla positioner inom ett visst
+            avstånd från denna position
+          entry_status: valid
+          examples: []
+          id: 307
+          language_code: swe
+          notes: []
+          release: '1'
+          review_date: '2016-02-15T00:00:00.000Z'
+          review_indicator: ''
+          review_status: pending
+          review_type: supersession
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: grannskap
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: grannskap
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2003-05-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  country_code: swe
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2003-05-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2003-05-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''positionsmängd som innehåller en specificerad position
+    i sin innanförmängd och som dessutom innehåller alla positioner inom ett visst
+    avstånd från denna position''}]'
+  examples: []
+  id: 307
+  language_code: swe
+  notes: []
+  release: '1'
+  reviewDate: 2016-02-15
+  review_indicator: ''
+  review_status: pending
+  review_type: supersession
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/26012.html
+        ref: ISO 19107:2003
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: grannskap
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: grannskap
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 565645d6-491f-536b-acd6-33ef3c857991
+status: valid

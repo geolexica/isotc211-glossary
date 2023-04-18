@@ -1,0 +1,107 @@
+data:
+  _revisions:
+    current: 7d574f
+    tree:
+      7d574f:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32551.html
+            ref: ISO 19133:2005
+          date_accepted: '2005-10-15T00:00:00.000Z'
+          definition: 在转向处采用的路径指令准则；在结点处采用的缺省指令。
+          entry_status: valid
+          examples: []
+          id: 280
+          language_code: zho
+          notes:
+          - 假设已经确定入口路段，这一规则描述了在结点（交叉口）处“最自然”的做法。最常见的规则是“尽可能直行”，或者选择进入最明显延伸方向的街道入口，通常情况下进出路口的两条街道名称相同，但也并非总是这样。在路径上的每一个结点的导航要么采用节点的相关指令，要么采用主路规则。
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 主路规则
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 主路规则
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-10-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-10-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-10-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''在转向处采用的路径指令准则；在结点处采用的缺省指令。''}]'
+  examples: []
+  id: 280
+  language_code: zho
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: 假设已经确定入口路段，这一规则描述了在结点（交叉口）处“最自然”的做法。最常见的规则是“尽可能直行”，或者选择进入最明显延伸方向的街道入口，通常情况下进出路口的两条街道名称相同，但也并非总是这样。在路径上的每一个结点的导航要么采用节点的相关指令，要么采用主路规则。
+    state:
+      _dict:
+        content: 假设已经确定入口路段，这一规则描述了在结点（交叉口）处“最自然”的做法。最常见的规则是“尽可能直行”，或者选择进入最明显延伸方向的街道入口，通常情况下进出路口的两条街道名称相同，但也并非总是这样。在路径上的每一个结点的导航要么采用节点的相关指令，要么采用主路规则。
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/32551.html
+        ref: ISO 19133:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 主路规则
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 主路规则
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: e3107c34-9048-5178-b0c8-75a05e062d63
+status: valid

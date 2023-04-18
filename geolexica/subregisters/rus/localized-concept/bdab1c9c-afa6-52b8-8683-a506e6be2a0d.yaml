@@ -1,0 +1,129 @@
+data:
+  _revisions:
+    current: e8376a
+    tree:
+      e8376a:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/42180.html
+            ref: ISO 9000:2005
+          date_accepted: '2011-04-27T00:00:00.000Z'
+          definition: степень, в которой набор собственных характеристик удовлетворяет
+            требованиям
+          entry_status: valid
+          examples: []
+          id: 1102
+          language_code: rus
+          lineage_source: ISO/TS 19158
+          notes:
+          - 'Для целей настоящей спецификации качественные характеристики продукта
+            включают: Качество данных (элементы которых описаны в ИСО 19157), Объем
+            поставки, График поставки, Стоимость продукции и/или обновления.'
+          release: '2'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: качество
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: качество
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2011-04-27T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2011-04-27T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2011-04-27T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''степень, в которой набор собственных характеристик
+    удовлетворяет требованиям''}]'
+  examples: []
+  id: 1102
+  language_code: rus
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: 'Для целей настоящей спецификации качественные характеристики продукта
+        включают: Качество данных (элементы которых описаны в ИСО 19157), Объем поставки,
+        График поставки, Стоимость продукции и/или обновления.'
+    state:
+      _dict:
+        content: 'Для целей настоящей спецификации качественные характеристики продукта
+          включают: Качество данных (элементы которых описаны в ИСО 19157), Объем
+          поставки, График поставки, Стоимость продукции и/или обновления.'
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '2'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/42180.html
+        ref: ISO 9000:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO/TS 19158
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: качество
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: качество
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: bdab1c9c-afa6-52b8-8683-a506e6be2a0d
+status: valid

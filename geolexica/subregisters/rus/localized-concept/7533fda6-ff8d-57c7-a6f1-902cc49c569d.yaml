@@ -1,0 +1,145 @@
+data:
+  _revisions:
+    current: 873bff
+    tree:
+      873bff:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: 3.4, modified – Original Example has been removed. Note 1 to entry
+              has been added.
+            link: https://www.iso.org/standard/39295.html
+            ref: ISO 2859-5:2005
+          date_accepted: '2013-12-15T00:00:00.000Z'
+          definition: все, что можно описать и рассмотреть отдельно
+          entry_status: valid
+          examples: []
+          id: 1298
+          language_code: rus
+          lineage_source: ISO 19157:2013, 4.18
+          lineage_source_similarity: 1
+          notes:
+          - элементом может быть любая часть набора данных, например объект, отношение
+            объекта, атрибут объекта или их комбинация.
+          release: '3'
+          review_date: '2010-07-09T00:00:00.000Z'
+          review_decision: ''
+          review_decision_date: '2013-12-15'
+          review_decision_event: Публикация ИСО 19157:2013
+          review_decision_notes: 'Эта запись заменяет запись для "элемента" в ISO
+            19114: 2003'
+          review_status: ''
+          review_type: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: элемент
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: элемент
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2013-12-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2013-12-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2013-12-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''все, что можно описать и рассмотреть отдельно''}]'
+  examples: []
+  id: 1298
+  language_code: rus
+  lineage_source_similarity: 1
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: элементом может быть любая часть набора данных, например объект, отношение
+        объекта, атрибут объекта или их комбинация.
+    state:
+      _dict:
+        content: элементом может быть любая часть набора данных, например объект,
+          отношение объекта, атрибут объекта или их комбинация.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  reviewDate: 2010-07-09
+  reviewDecisionDate: 2013-12-15
+  reviewDecisionEvent: Публикация ИСО 19157:2013
+  review_decision: ''
+  review_decision_notes: 'Эта запись заменяет запись для "элемента" в ISO 19114: 2003'
+  review_status: ''
+  review_type: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: 3.4, modified – Original Example has been removed. Note 1 to entry
+          has been added.
+        link: https://www.iso.org/standard/39295.html
+        ref: ISO 2859-5:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19157:2013, 4.18
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: элемент
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: элемент
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 7533fda6-ff8d-57c7-a6f1-902cc49c569d
+status: valid

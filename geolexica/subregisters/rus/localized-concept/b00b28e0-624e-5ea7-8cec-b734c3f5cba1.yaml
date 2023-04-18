@@ -1,0 +1,130 @@
+data:
+  _revisions:
+    current: cd2946
+    tree:
+      cd2946:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: 4.1.6
+            link: https://www.iso.org/standard/59164.html
+            ref: ISO 19101-1:2014
+          date_accepted: '2002-07-01T00:00:00.000Z'
+          definition: формальное описание концептуальной модели
+          entry_status: valid
+          examples: []
+          id: 69
+          language_code: rus
+          lineage_source: перевод ИСО 19101-1:2014,
+          lineage_source_similarity: '1'
+          notes: []
+          release: '1'
+          review_date: '2010-10-12T00:00:00.000Z'
+          review_decision: ''
+          review_decision_date: '2014-11-01T00:00:00.000Z'
+          review_decision_event: Публикация ИСО19101-1:2014
+          review_decision_notes: 'Авторитетная ссылка изменена с ISO 19101: 2002 на
+            ISO 19101-1: 2014. Источник происхождения добавлен как ISO 19101: 2002.'
+          review_indicator: ''
+          review_status: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: концептуальня схема
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: концептуальня схема
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2002-07-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2002-07-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2002-07-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''формальное описание концептуальной модели''}]'
+  examples: []
+  id: 69
+  language_code: rus
+  lineage_source_similarity: '1'
+  notes: []
+  release: '1'
+  reviewDate: 2010-10-12
+  reviewDecisionDate: 2014-11-01
+  reviewDecisionEvent: Публикация ИСО19101-1:2014
+  review_decision: ''
+  review_decision_notes: 'Авторитетная ссылка изменена с ISO 19101: 2002 на ISO 19101-1:
+    2014. Источник происхождения добавлен как ISO 19101: 2002.'
+  review_indicator: ''
+  review_status: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: 4.1.6
+        link: https://www.iso.org/standard/59164.html
+        ref: ISO 19101-1:2014
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: перевод ИСО 19101-1:2014,
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: концептуальня схема
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: концептуальня схема
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: b00b28e0-624e-5ea7-8cec-b734c3f5cba1
+status: valid

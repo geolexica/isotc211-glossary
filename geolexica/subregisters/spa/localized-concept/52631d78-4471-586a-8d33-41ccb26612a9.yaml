@@ -1,0 +1,133 @@
+data:
+  _revisions:
+    current: 7070e1
+    tree:
+      7070e1:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.9'
+            link: https://www.iso.org/standard/32566.html
+            ref: ISO 19148:2012
+          date_accepted: '2012-02-15T00:00:00.000Z'
+          definition: objeto unidimensional que sirve como eje a lo largo del cual
+            se realiza la referencia lineal
+          entry_status: valid
+          examples:
+          - 'S Fenómeno (4.4), tal como "carretera": geometría curva; primitiva topológica
+            de arcos dirigidos'
+          id: 1073
+          language_code: spa
+          notes:
+          - También conocido como elemento curvilíneo
+          release: '3'
+          review_date: '2019-11-22T00:00:00.000Z'
+          review_indicator: ''
+          review_status: pending
+          review_type: retirement
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: elemento lineal
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: elemento lineal
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2012-02-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2012-02-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2012-02-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''objeto unidimensional que sirve como eje a lo largo
+    del cual se realiza la referencia lineal''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: 'S Fenómeno (4.4), tal como "carretera": geometría curva; primitiva
+        topológica de arcos dirigidos'
+    state:
+      _dict:
+        content: 'S Fenómeno (4.4), tal como "carretera": geometría curva; primitiva
+          topológica de arcos dirigidos'
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 1073
+  language_code: spa
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: También conocido como elemento curvilíneo
+    state:
+      _dict:
+        content: También conocido como elemento curvilíneo
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  reviewDate: 2019-11-22
+  review_indicator: ''
+  review_status: pending
+  review_type: retirement
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.9'
+        link: https://www.iso.org/standard/32566.html
+        ref: ISO 19148:2012
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: elemento lineal
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: elemento lineal
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 52631d78-4471-586a-8d33-41ccb26612a9
+status: valid

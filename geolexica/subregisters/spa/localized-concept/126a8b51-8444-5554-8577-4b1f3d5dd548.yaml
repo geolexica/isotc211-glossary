@@ -1,0 +1,115 @@
+data:
+  _revisions:
+    current: ac8446
+    tree:
+      ac8446:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.13'
+            link: https://www.iso.org/standard/32571.html
+            ref: ISO 19153:2014
+          date_accepted: '2014-02-15T00:00:00.000Z'
+          definition: valor (estadístico) esperado de pérdidas
+          entry_status: valid
+          examples: []
+          id: 1219
+          language_code: spa
+          notes:
+          - El riesgo esperado se calcula multiplicando la probabilidad de los tipos
+            de vulneración por el coste de esa vulneración, y sumando el total para
+            todos los tipos de vulneración.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: riesgo esperado
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: riesgo esperado
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-02-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-02-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-02-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''valor (estadístico) esperado de pérdidas''}]'
+  examples: []
+  id: 1219
+  language_code: spa
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: El riesgo esperado se calcula multiplicando la probabilidad de los
+        tipos de vulneración por el coste de esa vulneración, y sumando el total para
+        todos los tipos de vulneración.
+    state:
+      _dict:
+        content: El riesgo esperado se calcula multiplicando la probabilidad de los
+          tipos de vulneración por el coste de esa vulneración, y sumando el total
+          para todos los tipos de vulneración.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.13'
+        link: https://www.iso.org/standard/32571.html
+        ref: ISO 19153:2014
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: riesgo esperado
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: riesgo esperado
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 126a8b51-8444-5554-8577-4b1f3d5dd548
+status: valid

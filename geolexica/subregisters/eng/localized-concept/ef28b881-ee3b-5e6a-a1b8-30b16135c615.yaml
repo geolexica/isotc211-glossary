@@ -1,0 +1,159 @@
+data:
+  _revisions:
+    current: '991094'
+    tree:
+      '991094':
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.1.18
+            link: https://www.iso.org/standard/74039.html
+            ref: ISO 19111:2019
+          date_accepted: '2019-01-31T00:00:00.000Z'
+          definition: coordinate reference system that is defined through the application
+            of a specified coordinate conversion to the coordinates within a previously
+            established coordinate reference system
+          entry_status: valid
+          examples: []
+          id: 2402
+          language_code: eng
+          notes:
+          - The previously established coordinate reference system is referred to
+            as the base coordinate reference system.
+          - A derived coordinate reference system inherits its datum or reference
+            frame from its base coordinate reference system.
+          - The coordinate conversion between the base and derived coordinate reference
+            system is implemented using the parameters and formula(s) specified in
+            the definition of the coordinate conversion.
+          release: '5'
+          review_date: '2019-01-31T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-01-31T00:00:00.000Z'
+          review_decision_event: Normal ISO processing
+          review_decision_notes: Publication of document ISO 19111:2019(E)
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: derived coordinate reference system
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: derived coordinate reference system
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2019-01-31T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2019-01-31T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2019-01-31T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''coordinate reference system that is defined through
+    the application of a specified coordinate conversion to the coordinates within
+    a previously established coordinate reference system''}]'
+  examples: []
+  id: 2402
+  language_code: eng
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: The previously established coordinate reference system is referred
+        to as the base coordinate reference system.
+    state:
+      _dict:
+        content: The previously established coordinate reference system is referred
+          to as the base coordinate reference system.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: A derived coordinate reference system inherits its datum or reference
+        frame from its base coordinate reference system.
+    state:
+      _dict:
+        content: A derived coordinate reference system inherits its datum or reference
+          frame from its base coordinate reference system.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: The coordinate conversion between the base and derived coordinate reference
+        system is implemented using the parameters and formula(s) specified in the
+        definition of the coordinate conversion.
+    state:
+      _dict:
+        content: The coordinate conversion between the base and derived coordinate
+          reference system is implemented using the parameters and formula(s) specified
+          in the definition of the coordinate conversion.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '5'
+  reviewDate: 2019-01-31
+  reviewDecisionDate: 2019-01-31
+  reviewDecisionEvent: Normal ISO processing
+  review_decision: accepted
+  review_decision_notes: Publication of document ISO 19111:2019(E)
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: (E), 3.1.18
+        link: https://www.iso.org/standard/74039.html
+        ref: ISO 19111:2019
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: derived coordinate reference system
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: derived coordinate reference system
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: ef28b881-ee3b-5e6a-a1b8-30b16135c615
+status: valid

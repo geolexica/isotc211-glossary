@@ -1,0 +1,142 @@
+data:
+  _revisions:
+    current: df7094
+    tree:
+      df7094:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/41126.html
+            ref: ISO 19111:2007
+          date_accepted: '2007-07-01T00:00:00.000Z'
+          date_amended: '2019-01-31T00:00:00.000Z'
+          definition: coordinate operation in which the two coordinate reference systems
+            are based on different datums
+          entry_status: superseded
+          examples: []
+          id: 763
+          language_code: eng
+          notes:
+          - A coordinate transformation uses parameters which are derived empirically
+            by a set of points with known coordinates in both coordinate reference
+            systems.
+          release: '-1'
+          review_date: '2019-01-31T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-01-31T00:00:00.000Z'
+          review_decision_event: Publication of document ISO 19111:2019(E)
+          review_decision_notes: This entry is superseded by the entry for coordinate
+            transformation in ISO 19111:2019(E)
+          review_indicator: ''
+          review_status: final
+          review_type: supersession
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: coordinate transformation
+              normative_status: null
+              type: expression
+            state:
+              _dict:
+                designation: coordinate transformation
+                normative_status: null
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2007-07-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2007-07-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2007-07-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2019-01-31T00:00:00.000Z'
+      type: amended
+    state:
+      _dict:
+        date: '2019-01-31T00:00:00.000Z'
+        type: amended
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''coordinate operation in which the two coordinate reference
+    systems are based on different datums''}]'
+  examples: []
+  id: 763
+  language_code: eng
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: A coordinate transformation uses parameters which are derived empirically
+        by a set of points with known coordinates in both coordinate reference systems.
+    state:
+      _dict:
+        content: A coordinate transformation uses parameters which are derived empirically
+          by a set of points with known coordinates in both coordinate reference systems.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '-1'
+  reviewDate: 2019-01-31
+  reviewDecisionDate: 2019-01-31
+  reviewDecisionEvent: Publication of document ISO 19111:2019(E)
+  review_decision: accepted
+  review_decision_notes: This entry is superseded by the entry for coordinate transformation
+    in ISO 19111:2019(E)
+  review_indicator: ''
+  review_status: final
+  review_type: supersession
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/41126.html
+        ref: ISO 19111:2007
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: coordinate transformation
+      type: expression
+    state:
+      _dict:
+        designation: coordinate transformation
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 57d2451c-9789-5d56-9d2b-0604117b8042
+status: superseded

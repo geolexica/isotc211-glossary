@@ -1,0 +1,159 @@
+data:
+  _revisions:
+    current: 4c4d75
+    tree:
+      4c4d75:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.81
+            link: https://www.iso.org/standard/66175.html
+            ref: ISO 19107:2019
+          date_accepted: '2019-12-02T00:00:00.000Z'
+          definition: storage mechanism for multidimensional array in linear memory,
+            organized such that each row is stored in consecutive locations and such
+            that the complete rows are the stored one after the other and continuing
+            on is a similar fashion of each additional index
+          entry_status: valid
+          examples: []
+          id: 2176
+          language_code: eng
+          notes:
+          - 'If the indexes are `(i, j)` with the number of rows `r` and columns `c`,
+            then the mapping between the multidimensional locations to the linear
+            storage locations is given by: \[[i,j \in \mathbb{Z} \backepsilon 1 \leq
+            i \leq r; 1 \leq j \leq c] \implies [(i,j) \rightarrow (i-1)c + j]\] \[[i,j,k
+            \in \mathbb{Z} \backepsilon 1 \leq i \leq r; 1 \leq j \leq c; 1 \leq k
+            \leq f] \implies [(i,j,k) \rightarrow ((i-1)c + j -1)f + k]\]'
+          - 'The matrix `[[1,2,3],[4,5,6],[7,8,9]]` in row major form is stored as
+            `[1, 2, 3, 4, 5, 6, 7, 8, 9]`. For higher dimensions, the same pattern
+            is applied recursively:'
+          release: '5'
+          review_date: '2019-12-02T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-12-02T00:00:00.000Z'
+          review_decision_event: Normal ISO processing
+          review_decision_notes: Publication of document ISO 19107:2019(E)
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: row-major form <mathematics, computer science>
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: row-major form <mathematics, computer science>
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2019-12-02T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2019-12-02T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2019-12-02T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''storage mechanism for multidimensional array in linear
+    memory, organized such that each row is stored in consecutive locations and such
+    that the complete rows are the stored one after the other and continuing on is
+    a similar fashion of each additional index''}]'
+  examples: []
+  id: 2176
+  language_code: eng
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: 'If the indexes are `(i, j)` with the number of rows `r` and columns
+        `c`, then the mapping between the multidimensional locations to the linear
+        storage locations is given by: \[[i,j \in \mathbb{Z} \backepsilon 1 \leq i
+        \leq r; 1 \leq j \leq c] \implies [(i,j) \rightarrow (i-1)c + j]\] \[[i,j,k
+        \in \mathbb{Z} \backepsilon 1 \leq i \leq r; 1 \leq j \leq c; 1 \leq k \leq
+        f] \implies [(i,j,k) \rightarrow ((i-1)c + j -1)f + k]\]'
+    state:
+      _dict:
+        content: 'If the indexes are `(i, j)` with the number of rows `r` and columns
+          `c`, then the mapping between the multidimensional locations to the linear
+          storage locations is given by: \[[i,j \in \mathbb{Z} \backepsilon 1 \leq
+          i \leq r; 1 \leq j \leq c] \implies [(i,j) \rightarrow (i-1)c + j]\] \[[i,j,k
+          \in \mathbb{Z} \backepsilon 1 \leq i \leq r; 1 \leq j \leq c; 1 \leq k \leq
+          f] \implies [(i,j,k) \rightarrow ((i-1)c + j -1)f + k]\]'
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: 'The matrix `[[1,2,3],[4,5,6],[7,8,9]]` in row major form is stored
+        as `[1, 2, 3, 4, 5, 6, 7, 8, 9]`. For higher dimensions, the same pattern
+        is applied recursively:'
+    state:
+      _dict:
+        content: 'The matrix `[[1,2,3],[4,5,6],[7,8,9]]` in row major form is stored
+          as `[1, 2, 3, 4, 5, 6, 7, 8, 9]`. For higher dimensions, the same pattern
+          is applied recursively:'
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '5'
+  reviewDate: 2019-12-02
+  reviewDecisionDate: 2019-12-02
+  reviewDecisionEvent: Normal ISO processing
+  review_decision: accepted
+  review_decision_notes: Publication of document ISO 19107:2019(E)
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: (E), 3.81
+        link: https://www.iso.org/standard/66175.html
+        ref: ISO 19107:2019
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: row-major form <mathematics, computer science>
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: row-major form <mathematics, computer science>
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: ed37bf34-6c71-507e-9d60-4d769a1e3c9a
+status: valid

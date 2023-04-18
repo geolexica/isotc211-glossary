@@ -1,0 +1,129 @@
+data:
+  _revisions:
+    current: dd6d26
+    tree:
+      dd6d26:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.13'
+            link: https://www.iso.org/standard/32571.html
+            ref: ISO 19153:2014
+          date_accepted: '2014-02-15T00:00:00.000Z'
+          definition: ожидаемая величина (статистика) потерь
+          entry_status: valid
+          examples: []
+          id: 1219
+          language_code: rus
+          lineage_source: перевод ИСО 19153:2014
+          notes:
+          - Ожидаемый риск рассчитывается путём умножения вероятности возникновения
+            типов нарушений на стоимость данного нарушения, суммируемого по всем типам
+            нарушений.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: ожидаемый риск
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: ожидаемый риск
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-02-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-02-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-02-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''ожидаемая величина (статистика) потерь''}]'
+  examples: []
+  id: 1219
+  language_code: rus
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Ожидаемый риск рассчитывается путём умножения вероятности возникновения
+        типов нарушений на стоимость данного нарушения, суммируемого по всем типам
+        нарушений.
+    state:
+      _dict:
+        content: Ожидаемый риск рассчитывается путём умножения вероятности возникновения
+          типов нарушений на стоимость данного нарушения, суммируемого по всем типам
+          нарушений.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.13'
+        link: https://www.iso.org/standard/32571.html
+        ref: ISO 19153:2014
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: перевод ИСО 19153:2014
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: ожидаемый риск
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: ожидаемый риск
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 7dadf986-857d-5708-a9eb-4147b205e242
+status: valid

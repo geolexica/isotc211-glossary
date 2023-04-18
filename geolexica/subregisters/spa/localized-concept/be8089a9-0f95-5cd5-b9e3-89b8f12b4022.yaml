@@ -1,0 +1,144 @@
+data:
+  _revisions:
+    current: ab6e7e
+    tree:
+      ab6e7e:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: Fourth Edition, Oxford University Press
+            ref: Dictionary of Computing
+          date_accepted: '2003-05-01T00:00:00.000Z'
+          definition: conjunto geométrico en el que cualquier posición directa del
+            segmento que une dos posiciones directas cualesquiera del conjunto geométrico,
+            también está contenida en el conjunto geométrico
+          entry_status: valid
+          examples: []
+          id: 87
+          language_code: spa
+          lineage_source: ISO 19107:2003
+          lineage_source_similarity: 1
+          notes:
+          - Los conjuntos convexos están "simplemente conectados", esto significa
+            que no tienen agujeros interiores, y, normalmente, pueden considerarse
+            topológicamente isomórficos al espacio Euclídeo de la dimensión apropiada.
+            Así, la superficie de una esfera se puede considerar geodésicamente convexa.
+          release: '1'
+          review_date: '2016-02-15T00:00:00.000Z'
+          review_indicator: ''
+          review_status: pending
+          review_type: retirement
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: conjunto convexo
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: conjunto convexo
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2003-05-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2003-05-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2003-05-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''conjunto geométrico en el que cualquier posición directa
+    del segmento que une dos posiciones directas cualesquiera del conjunto geométrico,
+    también está contenida en el conjunto geométrico''}]'
+  examples: []
+  id: 87
+  language_code: spa
+  lineage_source_similarity: 1
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Los conjuntos convexos están "simplemente conectados", esto significa
+        que no tienen agujeros interiores, y, normalmente, pueden considerarse topológicamente
+        isomórficos al espacio Euclídeo de la dimensión apropiada. Así, la superficie
+        de una esfera se puede considerar geodésicamente convexa.
+    state:
+      _dict:
+        content: Los conjuntos convexos están "simplemente conectados", esto significa
+          que no tienen agujeros interiores, y, normalmente, pueden considerarse topológicamente
+          isomórficos al espacio Euclídeo de la dimensión apropiada. Así, la superficie
+          de una esfera se puede considerar geodésicamente convexa.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  reviewDate: 2016-02-15
+  review_indicator: ''
+  review_status: pending
+  review_type: retirement
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: Fourth Edition, Oxford University Press
+        ref: Dictionary of Computing
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19107:2003
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: conjunto convexo
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: conjunto convexo
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: be8089a9-0f95-5cd5-b9e3-89b8f12b4022
+status: valid

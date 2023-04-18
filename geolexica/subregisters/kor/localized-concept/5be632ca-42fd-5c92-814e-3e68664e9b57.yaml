@@ -1,0 +1,117 @@
+data:
+  _revisions:
+    current: 0020f9
+    tree:
+      0020f9:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.75'
+            link: https://www.iso.org/standard/56113.html
+            ref: ISO/TS 19130-2:2014
+          date_accepted: '2014-01-15T00:00:00.000Z'
+          definition: 지속적 공중 LIDAR 작업 수행 중 회신 자료가 수집되는 지상의 지역
+          entry_status: valid
+          examples: []
+          id: 1422
+          language_code: kor
+          notes:
+          - A typical mapping mission may consist of multiple adjacent swaths, with
+            some overlap, and the operator will turn off the laser while the aircraft
+            is oriented for the next swath.  This term may also be referred to as
+            a Pass.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 스웨스
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 스웨스
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-01-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-01-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-01-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''지속적 공중 LIDAR 작업 수행 중 회신 자료가 수집되는 지상의 지역''}]'
+  examples: []
+  id: 1422
+  language_code: kor
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: A typical mapping mission may consist of multiple adjacent swaths,
+        with some overlap, and the operator will turn off the laser while the aircraft
+        is oriented for the next swath.  This term may also be referred to as a Pass.
+    state:
+      _dict:
+        content: A typical mapping mission may consist of multiple adjacent swaths,
+          with some overlap, and the operator will turn off the laser while the aircraft
+          is oriented for the next swath.  This term may also be referred to as a
+          Pass.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.75'
+        link: https://www.iso.org/standard/56113.html
+        ref: ISO/TS 19130-2:2014
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 스웨스
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 스웨스
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 5be632ca-42fd-5c92-814e-3e68664e9b57
+status: valid

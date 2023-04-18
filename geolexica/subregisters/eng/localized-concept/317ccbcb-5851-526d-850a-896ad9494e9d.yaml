@@ -1,0 +1,131 @@
+data:
+  _revisions:
+    current: 0747bf
+    tree:
+      0747bf:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: Section 107
+            ref: U.S. legal term derived from Title 17 of the United States Code
+          date_accepted: '2014-02-15T00:00:00.000Z'
+          definition: uses of content that are considered valid defences to copyright
+            infringement, such as for criticism or educational purposes
+          entry_status: valid
+          examples: []
+          id: 1220
+          language_code: eng
+          lineage_source: ISO 19153:2014, 4.14
+          lineage_source_similarity: '1'
+          notes:
+          - Fair use is based on case-law precedents derived from general principles.
+            The term is often misapplied to refer to the reasonable expectations of
+            consumers to be able to use purchased content on all owned devices.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: fair use
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: fair use
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-02-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-02-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-02-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''uses of content that are considered valid defences
+    to copyright infringement, such as for criticism or educational purposes''}]'
+  examples: []
+  id: 1220
+  language_code: eng
+  lineage_source_similarity: '1'
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Fair use is based on case-law precedents derived from general principles.
+        The term is often misapplied to refer to the reasonable expectations of consumers
+        to be able to use purchased content on all owned devices.
+    state:
+      _dict:
+        content: Fair use is based on case-law precedents derived from general principles.
+          The term is often misapplied to refer to the reasonable expectations of
+          consumers to be able to use purchased content on all owned devices.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: Section 107
+        ref: U.S. legal term derived from Title 17 of the United States Code
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19153:2014, 4.14
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: fair use
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: fair use
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 317ccbcb-5851-526d-850a-896ad9494e9d
+status: valid

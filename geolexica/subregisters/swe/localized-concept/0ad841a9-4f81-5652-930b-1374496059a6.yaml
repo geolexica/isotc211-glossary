@@ -1,0 +1,139 @@
+data:
+  _revisions:
+    current: 6b65c1
+    tree:
+      6b65c1:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32551.html
+            ref: ISO 19133:2005
+          country_code: swe
+          date_accepted: '2005-10-15T00:00:00.000Z'
+          definition: sekvens av länkar och svängar som kombineras för att använda
+            i en ruttinstruktion
+          entry_status: valid
+          examples: []
+          id: 281
+          language_code: swe
+          lineage_source: (Type reference to national language document)
+          notes:
+          - Maneuvers are used to cluster turns into convenient and legal combinations.
+            They may be as simple as a single turn, a combination of quick turns ("jogs"
+            in the American mid-west consisting of a turn followed immediately by
+            a turn in the opposite direction) or very complex combinations consisting
+            of entry, exit, and connecting roadways  ("magic roundabouts" in the UK).
+          release: '1'
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: manöver
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: manöver
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-10-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  country_code: swe
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-10-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-10-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''sekvens av länkar och svängar som kombineras för att
+    använda i en ruttinstruktion''}]'
+  examples: []
+  id: 281
+  language_code: swe
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Maneuvers are used to cluster turns into convenient and legal combinations.
+        They may be as simple as a single turn, a combination of quick turns ("jogs"
+        in the American mid-west consisting of a turn followed immediately by a turn
+        in the opposite direction) or very complex combinations consisting of entry,
+        exit, and connecting roadways  ("magic roundabouts" in the UK).
+    state:
+      _dict:
+        content: Maneuvers are used to cluster turns into convenient and legal combinations.
+          They may be as simple as a single turn, a combination of quick turns ("jogs"
+          in the American mid-west consisting of a turn followed immediately by a
+          turn in the opposite direction) or very complex combinations consisting
+          of entry, exit, and connecting roadways  ("magic roundabouts" in the UK).
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/32551.html
+        ref: ISO 19133:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: (Type reference to national language document)
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: manöver
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: manöver
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 0ad841a9-4f81-5652-930b-1374496059a6
+status: valid

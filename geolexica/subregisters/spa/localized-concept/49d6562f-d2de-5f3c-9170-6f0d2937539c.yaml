@@ -1,0 +1,116 @@
+data:
+  _revisions:
+    current: 99a339
+    tree:
+      99a339:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: 3.3.10, modified - Note has been deleted.
+            link: https://www.iso.org/standard/34006.html
+            ref: ISO 10303-227:2005
+          date_accepted: '2013-12-15T00:00:00.000Z'
+          definition: colección de ítems, o documento en papel o electrónico, que
+            contiene información acerca de la colección de ítems
+          entry_status: valid
+          examples: []
+          id: 1291
+          language_code: spa
+          lineage_source: ISO 19157:2013, 4.2
+          lineage_source_similarity: 1
+          notes: []
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: catálogo
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: catálogo
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2013-12-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2013-12-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2013-12-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''colección de ítems, o documento en papel o electrónico,
+    que contiene información acerca de la colección de ítems''}]'
+  examples: []
+  id: 1291
+  language_code: spa
+  lineage_source_similarity: 1
+  notes: []
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: 3.3.10, modified - Note has been deleted.
+        link: https://www.iso.org/standard/34006.html
+        ref: ISO 10303-227:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19157:2013, 4.2
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: catálogo
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: catálogo
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 49d6562f-d2de-5f3c-9170-6f0d2937539c
+status: valid

@@ -1,0 +1,156 @@
+data:
+  _revisions:
+    current: 3c7156
+    tree:
+      3c7156:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: 4.1.4
+            link: https://www.iso.org/standard/51206.html
+            ref: ISO 19152:2012
+          country_code: swe
+          date_accepted: '2012-12-01T00:00:00.000Z'
+          definition: tredimensionell yta som används som avgränsning av ett gränssatt
+            område
+          entry_status: valid
+          examples: []
+          id: 1359
+          language_code: swe
+          lineage_source: (Type reference to national language document)
+          notes:
+          - Boundary faces are used when the implied vertical and unbounded faces
+            of a boundary face string are not sufficient to describe 3D spatial units.
+            Boundary faces close volumes in height (e.g. every apartment floor), or
+            in depth (e.g. an underground parking garage), or in all other directions
+            to form a bounded volume. The volumes represent legal space (in contrast
+            with physical space).
+          - D-gränsytor avgränsar med ”golv” och/eller ”tak”, eller på annat sätt
+            för att definiera var rättigheter, skyldigheter och ansvar gäller.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 3D-gränsyta
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 3D-gränsyta
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2012-12-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  country_code: swe
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2012-12-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2012-12-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''tredimensionell yta som används som avgränsning av
+    ett gränssatt område''}]'
+  examples: []
+  id: 1359
+  language_code: swe
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Boundary faces are used when the implied vertical and unbounded faces
+        of a boundary face string are not sufficient to describe 3D spatial units.
+        Boundary faces close volumes in height (e.g. every apartment floor), or in
+        depth (e.g. an underground parking garage), or in all other directions to
+        form a bounded volume. The volumes represent legal space (in contrast with
+        physical space).
+    state:
+      _dict:
+        content: Boundary faces are used when the implied vertical and unbounded faces
+          of a boundary face string are not sufficient to describe 3D spatial units.
+          Boundary faces close volumes in height (e.g. every apartment floor), or
+          in depth (e.g. an underground parking garage), or in all other directions
+          to form a bounded volume. The volumes represent legal space (in contrast
+          with physical space).
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: D-gränsytor avgränsar med ”golv” och/eller ”tak”, eller på annat sätt
+        för att definiera var rättigheter, skyldigheter och ansvar gäller.
+    state:
+      _dict:
+        content: D-gränsytor avgränsar med ”golv” och/eller ”tak”, eller på annat
+          sätt för att definiera var rättigheter, skyldigheter och ansvar gäller.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: 4.1.4
+        link: https://www.iso.org/standard/51206.html
+        ref: ISO 19152:2012
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: (Type reference to national language document)
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 3D-gränsyta
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 3D-gränsyta
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 9ed5380d-df25-5606-878e-8861b1681c3e
+status: valid

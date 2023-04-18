@@ -1,0 +1,131 @@
+data:
+  _revisions:
+    current: 5d66c6
+    tree:
+      5d66c6:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.17'
+            link: https://www.iso.org/standard/46226.html
+            ref: ISO 19117:2012
+          date_accepted: '2012-12-15T00:00:00.000Z'
+          definition: функция, которая отображает географический объект в параметризованный
+            символ
+          entry_status: valid
+          examples: []
+          id: 1322
+          language_code: rus
+          lineage_source: перевод ИСО 19117:2012
+          notes:
+          - Параметризованная функция изображения пространственного объекта передает
+            соответствующие значения атрибутов из экземпляра объекта параметризованному
+            символу  для использования в качестве входных данных.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: Параметризованная функция отображения объектов
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: Параметризованная функция отображения объектов
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2012-12-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2012-12-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2012-12-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''функция, которая отображает географический объект
+    в параметризованный символ''}]'
+  examples: []
+  id: 1322
+  language_code: rus
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Параметризованная функция изображения пространственного объекта передает
+        соответствующие значения атрибутов из экземпляра объекта параметризованному
+        символу  для использования в качестве входных данных.
+    state:
+      _dict:
+        content: Параметризованная функция изображения пространственного объекта передает
+          соответствующие значения атрибутов из экземпляра объекта параметризованному
+          символу  для использования в качестве входных данных.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.17'
+        link: https://www.iso.org/standard/46226.html
+        ref: ISO 19117:2012
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: перевод ИСО 19117:2012
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: Параметризованная функция отображения объектов
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: Параметризованная функция отображения объектов
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: a352c763-e97b-5119-8f62-0c56372c4989
+status: valid

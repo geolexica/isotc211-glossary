@@ -1,0 +1,130 @@
+data:
+  _revisions:
+    current: a8ffa4
+    tree:
+      a8ffa4:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            clause: (E), 3.1.58
+            link: https://www.iso.org/standard/74039.html
+            ref: ISO 19111:2019
+          date_accepted: '2009-08-15T00:00:00.000Z'
+          definition: kombiniertes Koordinatenreferenzsystem, das aus räumlichen,
+            parametrischen und zeitbezogenen Koordinatenreferenzsystemen zusammengesetzt
+            ist
+          entry_status: valid
+          examples: []
+          id: 845
+          language_code: deu
+          lineage_source: ISO 19111-2:2009, 4.5
+          notes: []
+          release: '2'
+          review_date: '2017-06-28T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-01-31T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111-2:2009
+            to ISO 19111:2019(E), 3.1.58. Lineage source added as ISO 19111-2:2009,
+            4.5
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: räumlich-parametrisch-zeitbezogenes Koordinatenreferenzsystem
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: räumlich-parametrisch-zeitbezogenes Koordinatenreferenzsystem
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2009-08-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2009-08-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2009-08-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''kombiniertes Koordinatenreferenzsystem, das aus räumlichen,
+    parametrischen und zeitbezogenen Koordinatenreferenzsystemen zusammengesetzt ist''}]'
+  examples: []
+  id: 845
+  language_code: deu
+  notes: []
+  release: '2'
+  reviewDate: 2017-06-28
+  reviewDecisionDate: 2019-01-31
+  reviewDecisionEvent: Publication of ISO 19111:2019(E)
+  review_decision: accepted
+  review_decision_notes: Authoritative reference changed from ISO 19111-2:2009 to
+    ISO 19111:2019(E), 3.1.58. Lineage source added as ISO 19111-2:2009, 4.5
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: (E), 3.1.58
+        link: https://www.iso.org/standard/74039.html
+        ref: ISO 19111:2019
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19111-2:2009, 4.5
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: räumlich-parametrisch-zeitbezogenes Koordinatenreferenzsystem
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: räumlich-parametrisch-zeitbezogenes Koordinatenreferenzsystem
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 0b43dc13-5c86-5a0f-9028-427c43abfe22
+status: valid

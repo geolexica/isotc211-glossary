@@ -1,0 +1,152 @@
+data:
+  _revisions:
+    current: 6b8529
+    tree:
+      6b8529:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32551.html
+            ref: ISO 19133:2005
+          date_accepted: '2005-10-15T00:00:00.000Z'
+          definition: лицо или объект, являющиеся предметом навигации или слежения
+          entry_status: valid
+          examples: []
+          id: 744
+          language_code: rus
+          lineage_source: Internet
+          notes:
+          - Включает в себя также и пешеходов. См. ISO 14825. В данном документе  понятие
+            «пешеход» может быть заменено на понятие «транспортное средство» без искажения
+            смысла
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: участник дорожного движения
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: участник дорожного движения
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: транспортное средство
+              type: expression
+            state:
+              _dict:
+                designation: транспортное средство
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-10-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-10-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-10-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''лицо или объект, являющиеся предметом навигации или
+    слежения''}]'
+  examples: []
+  id: 744
+  language_code: rus
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Включает в себя также и пешеходов. См. ISO 14825. В данном документе
+        понятие «пешеход» может быть заменено на понятие «транспортное средство» без
+        искажения смысла
+    state:
+      _dict:
+        content: Включает в себя также и пешеходов. См. ISO 14825. В данном документе
+          понятие «пешеход» может быть заменено на понятие «транспортное средство»
+          без искажения смысла
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/32551.html
+        ref: ISO 19133:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: Internet
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: участник дорожного движения
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: участник дорожного движения
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: транспортное средство
+      type: expression
+    state:
+      _dict:
+        designation: транспортное средство
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: f3642467-fc5b-5674-a555-a396b4ca19dd
+status: valid

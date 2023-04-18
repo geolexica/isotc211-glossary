@@ -1,0 +1,122 @@
+data:
+  _revisions:
+    current: '576163'
+    tree:
+      '576163':
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/39229.html
+            ref: ISO 19115-2:2009
+          date_accepted: '2009-02-15T00:00:00.000Z'
+          definition: определенный интервал длин волн в электромагнитном спектре
+          entry_status: valid
+          examples:
+          - полоса 1 Landsat TM лежит между 0,45 и 0,52 мкм в видимой части спектра.
+          id: 835
+          language_code: rus
+          lineage_source: ГОСТ Р 57656-2017 (ИСО 19115-2-2009)
+          notes: []
+          release: '2'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: спектральное разрешение
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: спектральное разрешение
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2009-02-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2009-02-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2009-02-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''определенный интервал длин волн в электромагнитном
+    спектре''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: полоса 1 Landsat TM лежит между 0,45 и 0,52 мкм в видимой части спектра.
+    state:
+      _dict:
+        content: полоса 1 Landsat TM лежит между 0,45 и 0,52 мкм в видимой части спектра.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 835
+  language_code: rus
+  notes: []
+  release: '2'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/39229.html
+        ref: ISO 19115-2:2009
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ГОСТ Р 57656-2017 (ИСО 19115-2-2009)
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: спектральное разрешение
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: спектральное разрешение
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: f070554f-20ff-5c8f-9068-c247aa4b25ec
+status: valid

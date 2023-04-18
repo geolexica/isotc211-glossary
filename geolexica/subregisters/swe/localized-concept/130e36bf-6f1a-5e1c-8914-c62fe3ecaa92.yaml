@@ -1,0 +1,123 @@
+data:
+  _revisions:
+    current: 97d4b6
+    tree:
+      97d4b6:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/26012.html
+            ref: ISO 19107:2003
+          country_code: swe
+          date_accepted: '2003-05-01T00:00:00.000Z'
+          definition: ordnad, ändlig mängd av samhörande element
+          entry_status: valid
+          examples: []
+          id: 403
+          language_code: swe
+          notes:
+          - Logically, a sequence is a set of pairs <item, offset>. LISP syntax, which
+            delimits sequences with parentheses and separates elements in the sequence
+            with commas, is used in this International Standard.
+          release: '1'
+          review_date: '2016-02-15T00:00:00.000Z'
+          review_indicator: ''
+          review_status: pending
+          review_type: retirement
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: sekvens
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: sekvens
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2003-05-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  country_code: swe
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2003-05-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2003-05-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''ordnad, ändlig mängd av samhörande element''}]'
+  examples: []
+  id: 403
+  language_code: swe
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Logically, a sequence is a set of pairs <item, offset>. LISP syntax,
+        which delimits sequences with parentheses and separates elements in the sequence
+        with commas, is used in this International Standard.
+    state:
+      _dict:
+        content: Logically, a sequence is a set of pairs <item, offset>. LISP syntax,
+          which delimits sequences with parentheses and separates elements in the
+          sequence with commas, is used in this International Standard.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  reviewDate: 2016-02-15
+  review_indicator: ''
+  review_status: pending
+  review_type: retirement
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/26012.html
+        ref: ISO 19107:2003
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: sekvens
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: sekvens
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 130e36bf-6f1a-5e1c-8914-c62fe3ecaa92
+status: valid

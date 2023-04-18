@@ -1,0 +1,127 @@
+data:
+  _revisions:
+    current: d8d8ee
+    tree:
+      d8d8ee:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/40121.html
+            ref: ISO 19123:2005
+          date_accepted: '2005-08-15T00:00:00.000Z'
+          definition: siatka, dla której istnieje transformacja afiniczna między jej
+            współrzędnymi a współrzędnymi jakiegoś zewnętrznego systemu odniesień
+            przestrzennych
+          examples: []
+          id: 367
+          language_code: pol
+          lineage_source: PN-EN ISO 19123
+          notes:
+          - Jeśli ten system odniesień przestrzennych jest powiązany z Ziemią przez
+            układ odniesienia, to siatka jest siatką georektyfikowaną.
+          release: '1'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: siatka zrektyfikowana
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: siatka zrektyfikowana
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-08-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-08-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-08-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''siatka, dla której istnieje transformacja afiniczna
+    między jej współrzędnymi a współrzędnymi jakiegoś zewnętrznego systemu odniesień
+    przestrzennych''}]'
+  examples: []
+  id: 367
+  language_code: pol
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Jeśli ten system odniesień przestrzennych jest powiązany z Ziemią przez
+        układ odniesienia, to siatka jest siatką georektyfikowaną.
+    state:
+      _dict:
+        content: Jeśli ten system odniesień przestrzennych jest powiązany z Ziemią
+          przez układ odniesienia, to siatka jest siatką georektyfikowaną.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/40121.html
+        ref: ISO 19123:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: PN-EN ISO 19123
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: siatka zrektyfikowana
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: siatka zrektyfikowana
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: da4ba130-3b32-5bdb-bfb6-c306a21ac5bc
+status: valid

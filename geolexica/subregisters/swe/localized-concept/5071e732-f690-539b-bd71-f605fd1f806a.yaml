@@ -1,0 +1,116 @@
+data:
+  _revisions:
+    current: d4820b
+    tree:
+      d4820b:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/44316.html
+            ref: ISO/TS 27790:2009
+          country_code: swe
+          date_accepted: '2012-11-15T00:00:00.000Z'
+          definition: logisk struktur för att klassificera och organisera komplex
+            information
+          entry_status: valid
+          examples: []
+          id: 1547
+          language_code: swe
+          lineage_source: ISO/TS 19150-1:2012, 4.6
+          lineage_source_similarity: 1
+          notes: []
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: ramverk
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: ramverk
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2012-11-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  country_code: swe
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2012-11-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2012-11-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''logisk struktur för att klassificera och organisera
+    komplex information''}]'
+  examples: []
+  id: 1547
+  language_code: swe
+  lineage_source_similarity: 1
+  notes: []
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/44316.html
+        ref: ISO/TS 27790:2009
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO/TS 19150-1:2012, 4.6
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: ramverk
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: ramverk
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 5071e732-f690-539b-bd71-f605fd1f806a
+status: valid

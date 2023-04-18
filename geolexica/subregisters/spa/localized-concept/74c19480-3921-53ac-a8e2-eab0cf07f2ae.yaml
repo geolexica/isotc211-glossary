@@ -1,0 +1,111 @@
+data:
+  _revisions:
+    current: 10fe11
+    tree:
+      10fe11:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32562.html
+            ref: ISO 19144-1:2009
+          date_accepted: '2009-08-15T00:00:00.000Z'
+          definition: definicion usada para asignar objetos a las clases de leyenda
+          entry_status: valid
+          examples: []
+          id: 850
+          language_code: spa
+          notes:
+          - Los clasificadores se pueden definir algorítmicamente o según un conjunto
+            de reglas especificas de sistemas de clasificación.
+          release: '2'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: clasificador
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: clasificador
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2009-08-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2009-08-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2009-08-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''definicion usada para asignar objetos a las clases
+    de leyenda''}]'
+  examples: []
+  id: 850
+  language_code: spa
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Los clasificadores se pueden definir algorítmicamente o según un conjunto
+        de reglas especificas de sistemas de clasificación.
+    state:
+      _dict:
+        content: Los clasificadores se pueden definir algorítmicamente o según un
+          conjunto de reglas especificas de sistemas de clasificación.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '2'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/32562.html
+        ref: ISO 19144-1:2009
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: clasificador
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: clasificador
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 74c19480-3921-53ac-a8e2-eab0cf07f2ae
+status: valid

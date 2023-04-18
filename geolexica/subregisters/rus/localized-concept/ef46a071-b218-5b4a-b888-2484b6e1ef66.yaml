@@ -1,0 +1,133 @@
+data:
+  _revisions:
+    current: c1603f
+    tree:
+      c1603f:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.9'
+            link: https://www.iso.org/standard/32566.html
+            ref: ISO 19148:2012
+          date_accepted: '2012-02-15T00:00:00.000Z'
+          definition: 1-мерный объект, который служит осью, по которой выполняется
+            линейная привязка
+          entry_status: valid
+          examples:
+          - Объект (4.4), например, “дорога”; геометрия кривой; топологический простейший
+            элемент направленного ребра
+          id: 1073
+          language_code: rus
+          notes:
+          - Также известен как криволинейный элемент.
+          release: '3'
+          review_date: '2019-11-22T00:00:00.000Z'
+          review_indicator: ''
+          review_status: pending
+          review_type: retirement
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: линейный элемент
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: линейный элемент
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2012-02-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2012-02-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2012-02-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''1-мерный объект, который служит осью, по которой выполняется
+    линейная привязка''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Объект (4.4), например, “дорога”; геометрия кривой; топологический
+        простейший элемент направленного ребра
+    state:
+      _dict:
+        content: Объект (4.4), например, “дорога”; геометрия кривой; топологический
+          простейший элемент направленного ребра
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 1073
+  language_code: rus
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Также известен как криволинейный элемент.
+    state:
+      _dict:
+        content: Также известен как криволинейный элемент.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  reviewDate: 2019-11-22
+  review_indicator: ''
+  review_status: pending
+  review_type: retirement
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.9'
+        link: https://www.iso.org/standard/32566.html
+        ref: ISO 19148:2012
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: линейный элемент
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: линейный элемент
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: ef46a071-b218-5b4a-b888-2484b6e1ef66
+status: valid

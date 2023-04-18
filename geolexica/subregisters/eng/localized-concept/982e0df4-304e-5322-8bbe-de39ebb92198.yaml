@@ -1,0 +1,131 @@
+data:
+  _revisions:
+    current: 8598bb
+    tree:
+      8598bb:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            ref: Adapted from the OWL Web Ontology Language Guide
+          date_accepted: '2015-07-01T00:00:00.000Z'
+          definition: instance of a class
+          entry_status: valid
+          examples: []
+          id: 1585
+          language_code: eng
+          lineage_source: ISO 19150-2:2015, 4.1.20
+          notes:
+          - It refers to a resource belonging to the extension of the class.
+          release: '4'
+          review_date: '2012-05-25T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2015-07-01T00:00:00.000Z'
+          review_decision_event: Normal ISO processing
+          review_decision_notes: Publication of document ISO 19150-2:2015(E)
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: individual
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: individual
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2015-07-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2015-07-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2015-07-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''instance of a class''}]'
+  examples: []
+  id: 1585
+  language_code: eng
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: It refers to a resource belonging to the extension of the class.
+    state:
+      _dict:
+        content: It refers to a resource belonging to the extension of the class.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '4'
+  reviewDate: 2012-05-25
+  reviewDecisionDate: 2015-07-01
+  reviewDecisionEvent: Normal ISO processing
+  review_decision: accepted
+  review_decision_notes: Publication of document ISO 19150-2:2015(E)
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        ref: Adapted from the OWL Web Ontology Language Guide
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19150-2:2015, 4.1.20
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: individual
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: individual
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 982e0df4-304e-5322-8bbe-de39ebb92198
+status: valid

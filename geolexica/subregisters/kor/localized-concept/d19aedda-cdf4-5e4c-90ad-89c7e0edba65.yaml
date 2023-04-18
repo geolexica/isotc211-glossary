@@ -1,0 +1,112 @@
+data:
+  _revisions:
+    current: 9ed4bf
+    tree:
+      9ed4bf:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/30726.html
+            ref: ISO/IEC TR 10000-1:1998
+          date_accepted: '2004-07-01T00:00:00.000Z'
+          definition: 하나 이상의 기반 표준 집합 또는 기반 표준의 하위 집합. 적용가능한 경우에는 특정 함수 계산에 필요한 기반
+            표준의 선택 조항, 클래스, 옵션과 매개변수
+          entry_status: valid
+          examples: []
+          id: 356
+          language_code: kor
+          notes:
+          - A profile is derived from base standards so that by definition, conformance
+            to a profile is conformance to the base standards from which it is derived.
+          release: '2'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 프로필, 프로파일
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 프로필, 프로파일
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2004-07-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2004-07-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2004-07-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''하나 이상의 기반 표준 집합 또는 기반 표준의 하위 집합. 적용가능한 경우에는 특정 함수
+    계산에 필요한 기반 표준의 선택 조항, 클래스, 옵션과 매개변수''}]'
+  examples: []
+  id: 356
+  language_code: kor
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: A profile is derived from base standards so that by definition, conformance
+        to a profile is conformance to the base standards from which it is derived.
+    state:
+      _dict:
+        content: A profile is derived from base standards so that by definition, conformance
+          to a profile is conformance to the base standards from which it is derived.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '2'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/30726.html
+        ref: ISO/IEC TR 10000-1:1998
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 프로필, 프로파일
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 프로필, 프로파일
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: d19aedda-cdf4-5e4c-90ad-89c7e0edba65
+status: valid

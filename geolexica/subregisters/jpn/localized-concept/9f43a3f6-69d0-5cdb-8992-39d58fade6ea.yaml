@@ -1,0 +1,141 @@
+data:
+  _revisions:
+    current: e2cd94
+    tree:
+      e2cd94:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.1.2
+            link: https://www.iso.org/standard/70742.html
+            ref: ISO 19112:2019
+          date_accepted: '2003-10-15T00:00:00.000Z'
+          definition: 場所の識別のための，ラベル又はコードの形式による空間参照。
+          entry_status: valid
+          examples:
+          - “日本”は，国名の例である。“102-0083”は，郵便番号の例である。
+          id: 204
+          language_code: jpn
+          lineage_source: ISO 19112:2003(E)
+          lineage_source_similarity: 1
+          notes: []
+          release: '1'
+          review_date: '2019-02-14T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-02-14T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19112:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19112:2003
+            to ISO 19112:2019(E), 3.1.2. Lineage source added as ISO 19112:2003(E)
+          review_indicator: ''
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 地理識別子
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 地理識別子
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2003-10-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2003-10-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2003-10-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''場所の識別のための，ラベル又はコードの形式による空間参照。''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: “日本”は，国名の例である。“102-0083”は，郵便番号の例である。
+    state:
+      _dict:
+        content: “日本”は，国名の例である。“102-0083”は，郵便番号の例である。
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 204
+  language_code: jpn
+  lineage_source_similarity: 1
+  notes: []
+  release: '1'
+  reviewDate: 2019-02-14
+  reviewDecisionDate: 2019-02-14
+  reviewDecisionEvent: Publication of ISO 19112:2019(E)
+  review_decision: accepted
+  review_decision_notes: Authoritative reference changed from ISO 19112:2003 to ISO
+    19112:2019(E), 3.1.2. Lineage source added as ISO 19112:2003(E)
+  review_indicator: ''
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: (E), 3.1.2
+        link: https://www.iso.org/standard/70742.html
+        ref: ISO 19112:2019
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19112:2003(E)
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 地理識別子
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 地理識別子
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 9f43a3f6-69d0-5cdb-8992-39d58fade6ea
+status: valid

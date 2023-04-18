@@ -1,0 +1,130 @@
+data:
+  _revisions:
+    current: 424e70
+    tree:
+      424e70:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: 4.1.41
+            link: https://www.iso.org/standard/59164.html
+            ref: ISO 19101-1:2014
+          country_code: swe
+          date_accepted: '2012-11-15T00:00:00.000Z'
+          definition: tjänst som tillgängliggjorts via webben
+          entry_status: valid
+          examples: []
+          id: 1434
+          language_code: swe
+          lineage_source: ISO/TS 19150-1:2012
+          lineage_source_similarity: '1'
+          notes:
+          - A Web service usually includes some combination of programming and data.
+            It can also include human resources.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: webbtjänst
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: webbtjänst
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2012-11-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  country_code: swe
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2012-11-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2012-11-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''tjänst som tillgängliggjorts via webben''}]'
+  examples: []
+  id: 1434
+  language_code: swe
+  lineage_source_similarity: '1'
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: A Web service usually includes some combination of programming and
+        data. It can also include human resources.
+    state:
+      _dict:
+        content: A Web service usually includes some combination of programming and
+          data. It can also include human resources.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: 4.1.41
+        link: https://www.iso.org/standard/59164.html
+        ref: ISO 19101-1:2014
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO/TS 19150-1:2012
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: webbtjänst
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: webbtjänst
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: f5c6ca83-4b4f-5978-bbd2-6f7edf4acc00
+status: valid

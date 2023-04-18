@@ -1,0 +1,114 @@
+data:
+  _revisions:
+    current: 4bface
+    tree:
+      4bface:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.13'
+            link: https://www.iso.org/standard/32574.html
+            ref: ISO 19156:2011
+          date_accepted: '2011-12-15T00:00:00.000Z'
+          definition: сочетание стратегии выборки и процедуры наблюдения, используемой
+            при проведении наблюдения
+          entry_status: valid
+          examples: []
+          id: 1306
+          language_code: rus
+          lineage_source: ISO 19156:2011
+          notes: []
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: протокол наблюдения
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: протокол наблюдения
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2011-12-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2011-12-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2011-12-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''сочетание стратегии выборки и процедуры наблюдения,
+    используемой при проведении наблюдения''}]'
+  examples: []
+  id: 1306
+  language_code: rus
+  notes: []
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.13'
+        link: https://www.iso.org/standard/32574.html
+        ref: ISO 19156:2011
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19156:2011
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: протокол наблюдения
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: протокол наблюдения
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 3cef4bbb-5c78-5828-954a-61e0cbe405db
+status: valid

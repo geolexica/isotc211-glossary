@@ -1,0 +1,122 @@
+data:
+  _revisions:
+    current: b2201a
+    tree:
+      b2201a:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/26013.html
+            ref: ISO 19108:2002
+          date_accepted: '2002-09-01T00:00:00.000Z'
+          definition: yksiulotteinen geometrinen primitiivi, joka kuvaa aikaulottuvuutta
+          entry_status: valid
+          examples: []
+          id: 330
+          language_code: fin
+          lineage_source: MOT Englanti 4.6
+          notes:
+          - Jaksoa rajoittaa kaksi eri temporaalista sijaintia.
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: jakso
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: jakso
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2002-09-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2002-09-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2002-09-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''yksiulotteinen geometrinen primitiivi, joka kuvaa
+    aikaulottuvuutta''}]'
+  examples: []
+  id: 330
+  language_code: fin
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Jaksoa rajoittaa kaksi eri temporaalista sijaintia.
+    state:
+      _dict:
+        content: Jaksoa rajoittaa kaksi eri temporaalista sijaintia.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/26013.html
+        ref: ISO 19108:2002
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: MOT Englanti 4.6
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: jakso
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: jakso
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: cb8790fb-b407-53aa-9598-980ecaab0ea6
+status: valid

@@ -1,0 +1,100 @@
+data:
+  _revisions:
+    current: c88003
+    tree:
+      c88003:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32546.html
+            ref: ISO 19128:2005
+          date_accepted: '2005-12-01T00:00:00.000Z'
+          definition: Software-Komponente, die eine Operation von einem Server aufrufen
+            kann
+          entry_status: valid
+          examples: []
+          id: 45
+          language_code: deu
+          notes: []
+          release: '1'
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: Client
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: Client
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-12-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-12-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-12-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''Software-Komponente, die eine Operation von einem
+    Server aufrufen kann''}]'
+  examples: []
+  id: 45
+  language_code: deu
+  notes: []
+  release: '1'
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/32546.html
+        ref: ISO 19128:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: Client
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: Client
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 36ffc028-6ad6-5a2b-8f23-f9127cffb709
+status: valid

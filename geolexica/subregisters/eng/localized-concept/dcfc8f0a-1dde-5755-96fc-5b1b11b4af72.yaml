@@ -1,0 +1,135 @@
+data:
+  _revisions:
+    current: dfe64e
+    tree:
+      dfe64e:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.1.3
+            link: https://www.iso.org/standard/70742.html
+            ref: ISO 19112:2019
+          date_accepted: '2019-02-14T00:00:00.000Z'
+          definition: particular place or position
+          entry_status: valid
+          examples:
+          - '"Madrid", "California".'
+          id: 2345
+          language_code: eng
+          notes:
+          - A location identifies a geographic place.
+          release: '5'
+          review_date: '2019-02-14T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-02-14T00:00:00.000Z'
+          review_decision_event: Publication of document ISO 19112:2019(E)
+          review_decision_notes: This entry supersedes the entry for location in ISO
+            19112:2003(E)
+          review_status: final
+          review_type: supersession
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: location
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: location
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2019-02-14T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2019-02-14T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2019-02-14T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''particular place or position''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: '"Madrid", "California".'
+    state:
+      _dict:
+        content: '"Madrid", "California".'
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 2345
+  language_code: eng
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: A location identifies a geographic place.
+    state:
+      _dict:
+        content: A location identifies a geographic place.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '5'
+  reviewDate: 2019-02-14
+  reviewDecisionDate: 2019-02-14
+  reviewDecisionEvent: Publication of document ISO 19112:2019(E)
+  review_decision: accepted
+  review_decision_notes: This entry supersedes the entry for location in ISO 19112:2003(E)
+  review_status: final
+  review_type: supersession
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: (E), 3.1.3
+        link: https://www.iso.org/standard/70742.html
+        ref: ISO 19112:2019
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: location
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: location
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: dcfc8f0a-1dde-5755-96fc-5b1b11b4af72
+status: valid

@@ -1,0 +1,146 @@
+data:
+  _revisions:
+    current: 4c19eb
+    tree:
+      4c19eb:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.78
+            link: https://www.iso.org/standard/66175.html
+            ref: ISO 19107:2019
+          date_accepted: '2019-12-02T00:00:00.000Z'
+          definition: distance measure on a 𝔼n coordinate space using a root-mean
+            sum of the differences between the individual coordinate offsets
+          entry_status: valid
+          examples: []
+          id: 2081
+          language_code: eng
+          notes:
+          - '`P = (p_i), Q = (q_i), "distance"(P,Q) = sqrt( sum_{i=1}^n (p_i - q_i)^2)`.
+            The proofs of the Pythagorean metrics all depend on the local "flatness"
+            of the space. Cartesian coordinate space which have Pythagorean metrics
+            are called Euclidean spaces (`bbb"E"^n`). In the realm of coordinate reference
+            systems, only "Engineering Coordinate Systems" are Euclidean. Any CRS
+            using a curved Datum are by definition non-Euclidean, and cannot "truthfully"
+            use Pythagorean metrics except for approximation. These approximations
+            are valid for topological statements, but not for real world measures
+            without adjustments.'
+          release: '5'
+          review_date: '2019-12-02T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-12-02T00:00:00.000Z'
+          review_decision_event: Normal ISO processing
+          review_decision_notes: Publication of document ISO 19107:2019(E)
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: Pythagorean metric <Euclidean geometry>
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: Pythagorean metric <Euclidean geometry>
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2019-12-02T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2019-12-02T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2019-12-02T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''distance measure on a 𝔼n coordinate space using a
+    root-mean sum of the differences between the individual coordinate offsets''}]'
+  examples: []
+  id: 2081
+  language_code: eng
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: '`P = (p_i), Q = (q_i), "distance"(P,Q) = sqrt( sum_{i=1}^n (p_i -
+        q_i)^2)`. The proofs of the Pythagorean metrics all depend on the local "flatness"
+        of the space. Cartesian coordinate space which have Pythagorean metrics are
+        called Euclidean spaces (`bbb"E"^n`). In the realm of coordinate reference
+        systems, only "Engineering Coordinate Systems" are Euclidean. Any CRS using
+        a curved Datum are by definition non-Euclidean, and cannot "truthfully" use
+        Pythagorean metrics except for approximation. These approximations are valid
+        for topological statements, but not for real world measures without adjustments.'
+    state:
+      _dict:
+        content: '`P = (p_i), Q = (q_i), "distance"(P,Q) = sqrt( sum_{i=1}^n (p_i
+          - q_i)^2)`. The proofs of the Pythagorean metrics all depend on the local
+          "flatness" of the space. Cartesian coordinate space which have Pythagorean
+          metrics are called Euclidean spaces (`bbb"E"^n`). In the realm of coordinate
+          reference systems, only "Engineering Coordinate Systems" are Euclidean.
+          Any CRS using a curved Datum are by definition non-Euclidean, and cannot
+          "truthfully" use Pythagorean metrics except for approximation. These approximations
+          are valid for topological statements, but not for real world measures without
+          adjustments.'
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '5'
+  reviewDate: 2019-12-02
+  reviewDecisionDate: 2019-12-02
+  reviewDecisionEvent: Normal ISO processing
+  review_decision: accepted
+  review_decision_notes: Publication of document ISO 19107:2019(E)
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: (E), 3.78
+        link: https://www.iso.org/standard/66175.html
+        ref: ISO 19107:2019
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: Pythagorean metric <Euclidean geometry>
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: Pythagorean metric <Euclidean geometry>
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 016afc3d-3ce6-5257-8c29-30c5b524143b
+status: valid

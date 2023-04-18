@@ -1,0 +1,134 @@
+data:
+  _revisions:
+    current: bdd0ba
+    tree:
+      bdd0ba:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: Fourth Edition, Oxford University Press
+            ref: Dictionary of Computing
+          date_accepted: '2003-05-01T00:00:00.000Z'
+          definition: геометрическое множество, в котором любой отрезок прямой, соединяющий
+            две любые точки данного множества, также принадлежит этому геометрическому
+            множеству
+          entry_status: valid
+          examples: []
+          id: 87
+          language_code: rus
+          lineage_source: Internet
+          notes:
+          - Выпуклые множества являются простыми связными в том смысле, что они не
+            имеют внутренних полостей (отверстий) и могут считаться топологически
+            изоморфными Евклидову шару соответствующей размерности. Таким образом,
+            поверхность сферы можно рассматривать как геодезически выпуклую
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: выпуклое множество
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: выпуклое множество
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2003-05-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2003-05-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2003-05-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''геометрическое множество, в котором любой отрезок
+    прямой, соединяющий две любые точки данного множества, также принадлежит этому
+    геометрическому множеству''}]'
+  examples: []
+  id: 87
+  language_code: rus
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Выпуклые множества являются простыми связными в том смысле, что они
+        не имеют внутренних полостей (отверстий) и могут считаться топологически изоморфными
+        Евклидову шару соответствующей размерности. Таким образом, поверхность сферы
+        можно рассматривать как геодезически выпуклую
+    state:
+      _dict:
+        content: Выпуклые множества являются простыми связными в том смысле, что они
+          не имеют внутренних полостей (отверстий) и могут считаться топологически
+          изоморфными Евклидову шару соответствующей размерности. Таким образом, поверхность
+          сферы можно рассматривать как геодезически выпуклую
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: Fourth Edition, Oxford University Press
+        ref: Dictionary of Computing
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: Internet
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: выпуклое множество
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: выпуклое множество
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 42a61185-4f58-5db6-9d79-43be6ac28203
+status: valid

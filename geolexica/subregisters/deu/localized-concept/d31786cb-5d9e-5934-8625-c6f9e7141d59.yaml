@@ -1,0 +1,135 @@
+data:
+  _revisions:
+    current: 3faa13
+    tree:
+      3faa13:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            ref: https://searchcio.techtarget.com/
+          date_accepted: '2007-04-15T00:00:00.000Z'
+          entry_status: valid
+          examples: []
+          id: 840
+          language_code: deu
+          lineage_source: ISO/TS 19139:2007(E)
+          lineage_source_similarity: 1
+          notes:
+          - There are several different kinds of polymorphism
+          release: '1'
+          review_date: '2019-03-01T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-03-01T00:00:00.000Z'
+          review_decision_event: Publication of ISO/TS 19139-1:2019(E)
+          review_decision_notes: Authoritative reference changed from http://searchsmallbizit.techtarget.com
+            to https://searchcio.techtarget.com/. Lineage source added as ISO/TS 19139:2007(E)
+          review_indicator: ''
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: Polymorphismus
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: Polymorphismus
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2007-04-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2007-04-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2007-04-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  examples: []
+  id: 840
+  language_code: deu
+  lineage_source_similarity: 1
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: There are several different kinds of polymorphism
+    state:
+      _dict:
+        content: There are several different kinds of polymorphism
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  reviewDate: 2019-03-01
+  reviewDecisionDate: 2019-03-01
+  reviewDecisionEvent: Publication of ISO/TS 19139-1:2019(E)
+  review_decision: accepted
+  review_decision_notes: Authoritative reference changed from http://searchsmallbizit.techtarget.com
+    to https://searchcio.techtarget.com/. Lineage source added as ISO/TS 19139:2007(E)
+  review_indicator: ''
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        ref: https://searchcio.techtarget.com/
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO/TS 19139:2007(E)
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: Polymorphismus
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: Polymorphismus
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: d31786cb-5d9e-5934-8625-c6f9e7141d59
+status: valid

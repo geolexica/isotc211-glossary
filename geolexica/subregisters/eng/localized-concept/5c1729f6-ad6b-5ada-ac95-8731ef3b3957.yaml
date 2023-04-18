@@ -1,0 +1,131 @@
+data:
+  _revisions:
+    current: a9bc60
+    tree:
+      a9bc60:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.14
+            link: https://www.iso.org/standard/66175.html
+            ref: ISO 19107:2019
+          date_accepted: '2019-12-02T00:00:00.000Z'
+          definition: containing all points on a "line" joining two interior points
+          entry_status: valid
+          examples: []
+          id: 2239
+          language_code: eng
+          notes:
+          - The definition of convex requires a definition of line. For coordinate
+            systems, this is the usual linear interpolated arc, but in context, the
+            "line" on a geometric reference surface will be a "geodesic arc". The
+            default in this document is the linear interpolate.
+          release: '5'
+          review_date: '2019-12-02T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-12-02T00:00:00.000Z'
+          review_decision_event: Normal ISO processing
+          review_decision_notes: Publication of document ISO 19107:2019(E)
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: convex <geometry>
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: convex <geometry>
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2019-12-02T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2019-12-02T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2019-12-02T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''containing all points on a "line" joining two interior
+    points''}]'
+  examples: []
+  id: 2239
+  language_code: eng
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: The definition of convex requires a definition of line. For coordinate
+        systems, this is the usual linear interpolated arc, but in context, the "line"
+        on a geometric reference surface will be a "geodesic arc". The default in
+        this document is the linear interpolate.
+    state:
+      _dict:
+        content: The definition of convex requires a definition of line. For coordinate
+          systems, this is the usual linear interpolated arc, but in context, the
+          "line" on a geometric reference surface will be a "geodesic arc". The default
+          in this document is the linear interpolate.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '5'
+  reviewDate: 2019-12-02
+  reviewDecisionDate: 2019-12-02
+  reviewDecisionEvent: Normal ISO processing
+  review_decision: accepted
+  review_decision_notes: Publication of document ISO 19107:2019(E)
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: (E), 3.14
+        link: https://www.iso.org/standard/66175.html
+        ref: ISO 19107:2019
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: convex <geometry>
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: convex <geometry>
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 5c1729f6-ad6b-5ada-ac95-8731ef3b3957
+status: valid

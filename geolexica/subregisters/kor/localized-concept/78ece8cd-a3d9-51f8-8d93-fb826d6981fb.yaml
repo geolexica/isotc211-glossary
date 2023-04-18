@@ -1,0 +1,154 @@
+data:
+  _revisions:
+    current: 3bebf9
+    tree:
+      3bebf9:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: 3.4.24
+            link: https://www.iso.org/standard/20057.html
+            ref: ISO 1087-1:2000
+          date_accepted: '2010-11-01T00:00:00.000Z'
+          definition: 일정 특징들을 공유하는 두 개 또는 그 이상의 개념을 대표하는 하나의 지정된 개념과 지정된 것 사의의 관계
+          entry_status: valid
+          examples: []
+          id: 893
+          language_code: kor
+          lineage_source: ISO 19146:2010(E)
+          lineage_source_similarity: 1
+          notes:
+          - 'An example of polysemy is:   bridge   1  "structure to carry traffic
+            over a gap"    2  "part of a string instrument"    3 "dental plate"'
+          - The designation in the relation of polysemy are called polysemes.
+          release: '2'
+          review_date: '2018-06-01T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2018-06-01T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19146:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO 1087-1:2000
+            to ISO 1087-1:2000, 3.4.24. Lineage source added as ISO 19146:2010(E)
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 다의성
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 다의성
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2010-11-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2010-11-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2010-11-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''일정 특징들을 공유하는 두 개 또는 그 이상의 개념을 대표하는 하나의 지정된 개념과 지정된
+    것 사의의 관계''}]'
+  examples: []
+  id: 893
+  language_code: kor
+  lineage_source_similarity: 1
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: 'An example of polysemy is:   bridge   1  "structure to carry traffic
+        over a gap"    2  "part of a string instrument"    3  "dental plate"'
+    state:
+      _dict:
+        content: 'An example of polysemy is:   bridge   1  "structure to carry traffic
+          over a gap"    2  "part of a string instrument"    3  "dental plate"'
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: The designation in the relation of polysemy are called polysemes.
+    state:
+      _dict:
+        content: The designation in the relation of polysemy are called polysemes.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '2'
+  reviewDate: 2018-06-01
+  reviewDecisionDate: 2018-06-01
+  reviewDecisionEvent: Publication of ISO 19146:2018(E)
+  review_decision: accepted
+  review_decision_notes: Authoritative reference changed from ISO 1087-1:2000 to ISO
+    1087-1:2000, 3.4.24. Lineage source added as ISO 19146:2010(E)
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: 3.4.24
+        link: https://www.iso.org/standard/20057.html
+        ref: ISO 1087-1:2000
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19146:2010(E)
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 다의성
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 다의성
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 78ece8cd-a3d9-51f8-8d93-fb826d6981fb
+status: valid

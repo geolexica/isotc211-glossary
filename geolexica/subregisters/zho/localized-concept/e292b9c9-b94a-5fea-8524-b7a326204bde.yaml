@@ -1,0 +1,94 @@
+data:
+  _revisions:
+    current: 85861e
+    tree:
+      85861e:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32546.html
+            ref: ISO 19128:2005
+          date_accepted: '2005-12-01T00:00:00.000Z'
+          definition: 服务的特定实例。
+          entry_status: valid
+          examples: []
+          id: 404
+          language_code: zho
+          notes: []
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 服务器
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 服务器
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-12-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-12-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-12-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''服务的特定实例。''}]'
+  examples: []
+  id: 404
+  language_code: zho
+  notes: []
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/32546.html
+        ref: ISO 19128:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 服务器
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 服务器
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: e292b9c9-b94a-5fea-8524-b7a326204bde
+status: valid

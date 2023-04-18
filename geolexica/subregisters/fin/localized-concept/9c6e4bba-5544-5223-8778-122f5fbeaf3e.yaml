@@ -1,0 +1,112 @@
+data:
+  _revisions:
+    current: 9a5d10
+    tree:
+      9a5d10:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/26011.html
+            ref: ISO 19106:2004
+          date_accepted: '2004-07-01T00:00:00.000Z'
+          definition: paikkatietoa koskeva ISO-standardi tai muu tietotekniikkastandardi,
+            jota voidaan käyttää profiilin laatimisen perustana
+          entry_status: valid
+          examples: []
+          id: 26
+          language_code: fin
+          lineage_source: Geodeettinen laitos, Maanmittauslaitos
+          notes: []
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: perusstandardi
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: perusstandardi
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2004-07-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2004-07-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2004-07-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''paikkatietoa koskeva ISO-standardi tai muu tietotekniikkastandardi,
+    jota voidaan käyttää profiilin laatimisen perustana''}]'
+  examples: []
+  id: 26
+  language_code: fin
+  notes: []
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/26011.html
+        ref: ISO 19106:2004
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: Geodeettinen laitos, Maanmittauslaitos
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: perusstandardi
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: perusstandardi
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 9c6e4bba-5544-5223-8778-122f5fbeaf3e
+status: valid

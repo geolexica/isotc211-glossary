@@ -1,0 +1,129 @@
+data:
+  _revisions:
+    current: 39f61a
+    tree:
+      39f61a:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (Adapted from)
+            link: https://www.iso.org/standard/26780.html
+            ref: 'ISO 8601:2000 '
+          date_accepted: '2007-11-01T00:00:00.000Z'
+          definition: 율리우스력(曆)에 비하여 회귀 연도에 보다 근사하게 윤년을 정의하는, 1582년에 최초로 도입된 범용달력
+          entry_status: valid
+          examples: []
+          id: 220
+          language_code: kor
+          lineage_source: KS X ISO 19108
+          notes:
+          - 그레고리안 달력은 율리우스력의 누적된 오차를 보정하기 위해 도입되었다. 그레고리안 달력에서는 대개 1년은 365일을 가지고 윤년은
+            366일을 가지며 12개의 연속적인 달로 나뉜다.
+          release: '1'
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 그레고리안 달력
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 그레고리안 달력
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2007-11-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2007-11-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2007-11-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''율리우스력(曆)에 비하여 회귀 연도에 보다 근사하게 윤년을 정의하는, 1582년에 최초로
+    도입된 범용달력''}]'
+  examples: []
+  id: 220
+  language_code: kor
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: 그레고리안 달력은 율리우스력의 누적된 오차를 보정하기 위해 도입되었다. 그레고리안 달력에서는 대개 1년은 365일을 가지고
+        윤년은 366일을 가지며 12개의 연속적인 달로 나뉜다.
+    state:
+      _dict:
+        content: 그레고리안 달력은 율리우스력의 누적된 오차를 보정하기 위해 도입되었다. 그레고리안 달력에서는 대개 1년은 365일을
+          가지고 윤년은 366일을 가지며 12개의 연속적인 달로 나뉜다.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: (Adapted from)
+        link: https://www.iso.org/standard/26780.html
+        ref: 'ISO 8601:2000 '
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: KS X ISO 19108
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 그레고리안 달력
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 그레고리안 달력
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: b939f494-af2b-59a6-a5e9-6565670a5a5b
+status: valid

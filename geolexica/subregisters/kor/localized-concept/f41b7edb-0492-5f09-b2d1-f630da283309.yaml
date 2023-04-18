@@ -1,0 +1,126 @@
+data:
+  _revisions:
+    current: '558623'
+    tree:
+      '558623':
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32551.html
+            ref: ISO 19133:2005
+          date_accepted: '2006-12-01T00:00:00.000Z'
+          definition: 운행 가능한 경로 네트워크 상의 점에 필요한 정보
+          entry_status: valid
+          examples: []
+          id: 389
+          language_code: kor
+          lineage_source: KS X ISO 19133
+          notes:
+          - 경로 운행에 필요한 지시를 최소화하기 위해 기본지시는 특별한 지시가 없는 교차점을 가질 수 있다. 이 기본 지시를 주요 도로
+            규칙이라 한다.
+          release: '1'
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 경로 지시
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 경로 지시
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2006-12-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2006-12-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2006-12-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''운행 가능한 경로 네트워크 상의 점에 필요한 정보''}]'
+  examples: []
+  id: 389
+  language_code: kor
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: 경로 운행에 필요한 지시를 최소화하기 위해 기본지시는 특별한 지시가 없는 교차점을 가질 수 있다. 이 기본 지시를 주요
+        도로 규칙이라 한다.
+    state:
+      _dict:
+        content: 경로 운행에 필요한 지시를 최소화하기 위해 기본지시는 특별한 지시가 없는 교차점을 가질 수 있다. 이 기본 지시를 주요
+          도로 규칙이라 한다.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/32551.html
+        ref: ISO 19133:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: KS X ISO 19133
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 경로 지시
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 경로 지시
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: f41b7edb-0492-5f09-b2d1-f630da283309
+status: valid

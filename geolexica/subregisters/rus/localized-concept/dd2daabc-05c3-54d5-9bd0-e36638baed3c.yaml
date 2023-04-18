@@ -1,0 +1,142 @@
+data:
+  _revisions:
+    current: 2e246f
+    tree:
+      2e246f:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          abbrev: FOV
+          authoritative_source:
+            ref: Manual of Photogrammetry
+          date_accepted: '2014-01-15T00:00:00.000Z'
+          definition: мгновенная область, видимая датчиком, установленная в угловой
+            мере
+          entry_status: valid
+          examples: []
+          id: 1388
+          language_code: rus
+          lineage_source: ISO/TS 19130-2:2014, 4.20
+          lineage_source_similarity: 1
+          notes:
+          - В случае бортового прибора это будет ширина полосы для линейного комплекта
+            , наземная площадь для площадного комплекта,  а для поперечного сканера  он
+            относится к ширине полосы.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: угол поля зрения
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: угол поля зрения
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-01-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-01-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-01-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''мгновенная область, видимая датчиком, установленная
+    в угловой мере''}]'
+  examples: []
+  id: 1388
+  language_code: rus
+  lineage_source_similarity: 1
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: В случае бортового прибора это будет ширина полосы для линейного комплекта
+        , наземная площадь для площадного комплекта,  а для поперечного сканера он
+        относится к ширине полосы.
+    state:
+      _dict:
+        content: В случае бортового прибора это будет ширина полосы для линейного
+          комплекта , наземная площадь для площадного комплекта,  а для поперечного
+          сканера он относится к ширине полосы.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        ref: Manual of Photogrammetry
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO/TS 19130-2:2014, 4.20
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: FOV
+      type: abbreviation
+    state:
+      _dict:
+        designation: FOV
+        type: abbreviation
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: угол поля зрения
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: угол поля зрения
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: dd2daabc-05c3-54d5-9bd0-e36638baed3c
+status: valid

@@ -1,0 +1,126 @@
+data:
+  _revisions:
+    current: c2a51e
+    tree:
+      c2a51e:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.10'
+            link: https://www.iso.org/standard/32576.html
+            ref: ISO/TS 19158:2012
+          date_accepted: '2012-10-15T00:00:00.000Z'
+          definition: elementos de actividad de un proceso
+          entry_status: valid
+          examples:
+          - En el caso de un levantamiento fotogramétrico, la aerotriangulación puede
+            considerarse como un subproceso
+          id: 1111
+          language_code: spa
+          notes:
+          - Los subprocesos pueden a su vez subdividirse con tanto detalle como sea
+            necesario para controlar la calidad del proceso.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: subproceso
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: subproceso
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2012-10-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2012-10-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2012-10-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''elementos de actividad de un proceso''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: En el caso de un levantamiento fotogramétrico, la aerotriangulación
+        puede considerarse como un subproceso
+    state:
+      _dict:
+        content: En el caso de un levantamiento fotogramétrico, la aerotriangulación
+          puede considerarse como un subproceso
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 1111
+  language_code: spa
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Los subprocesos pueden a su vez subdividirse con tanto detalle como
+        sea necesario para controlar la calidad del proceso.
+    state:
+      _dict:
+        content: Los subprocesos pueden a su vez subdividirse con tanto detalle como
+          sea necesario para controlar la calidad del proceso.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.10'
+        link: https://www.iso.org/standard/32576.html
+        ref: ISO/TS 19158:2012
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: subproceso
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: subproceso
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: c075b257-4612-527a-ab54-64fc31a7eb74
+status: valid

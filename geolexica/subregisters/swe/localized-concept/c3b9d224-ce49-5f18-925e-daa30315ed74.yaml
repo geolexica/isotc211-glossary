@@ -1,0 +1,191 @@
+data:
+  _revisions:
+    current: 943db7
+    tree:
+      943db7:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: 4.1.12
+            link: https://www.iso.org/standard/59164.html
+            ref: ISO 19101-1:2014
+          country_code: swe
+          date_accepted: '2002-07-01T00:00:00.000Z'
+          definition: egenskap hos ett objekt
+          entry_status: valid
+          examples:
+          - A feature attribute named 'colour' may have an attribute value 'green'
+            which belongs to the data type 'text'.
+          - A feature attribute named 'length' may have an attribute value '82.4'
+            which belongs to the data type 'real'.
+          id: 170
+          language_code: swe
+          lineage_source: ISO 19101:2002
+          lineage_source_similarity: 1
+          notes:
+          - A feature attribute has a name, a data type, and a value domain associated
+            to it.  A feature attribute for a feature instance also has an attribute
+            value taken from the value domain.
+          - In a feature catalogue, a feature attribute may include a value domain
+            but does not specify attribute values for feature instances.
+          release: '1'
+          review_date: '2010-10-12T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2014-11-01T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: Authoritative reference changed from ISO 19101:2002
+            to ISO 19101-1:2014. Lineage source added as ISO 19101:2002.
+          review_indicator: ''
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: attribut
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: attribut
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2002-07-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  country_code: swe
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2002-07-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2002-07-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''egenskap hos ett objekt''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: A feature attribute named 'colour' may have an attribute value 'green'
+        which belongs to the data type 'text'.
+    state:
+      _dict:
+        content: A feature attribute named 'colour' may have an attribute value 'green'
+          which belongs to the data type 'text'.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: A feature attribute named 'length' may have an attribute value '82.4'
+        which belongs to the data type 'real'.
+    state:
+      _dict:
+        content: A feature attribute named 'length' may have an attribute value '82.4'
+          which belongs to the data type 'real'.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 170
+  language_code: swe
+  lineage_source_similarity: 1
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: A feature attribute has a name, a data type, and a value domain associated
+        to it.  A feature attribute for a feature instance also has an attribute value
+        taken from the value domain.
+    state:
+      _dict:
+        content: A feature attribute has a name, a data type, and a value domain associated
+          to it.  A feature attribute for a feature instance also has an attribute
+          value taken from the value domain.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: In a feature catalogue, a feature attribute may include a value domain
+        but does not specify attribute values for feature instances.
+    state:
+      _dict:
+        content: In a feature catalogue, a feature attribute may include a value domain
+          but does not specify attribute values for feature instances.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  reviewDate: 2010-10-12
+  reviewDecisionDate: 2014-11-01
+  reviewDecisionEvent: Publication of ISO 19101-1:2014
+  review_decision: accepted
+  review_decision_notes: Authoritative reference changed from ISO 19101:2002 to ISO
+    19101-1:2014. Lineage source added as ISO 19101:2002.
+  review_indicator: ''
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: 4.1.12
+        link: https://www.iso.org/standard/59164.html
+        ref: ISO 19101-1:2014
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19101:2002
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: attribut
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: attribut
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: c3b9d224-ce49-5f18-925e-daa30315ed74
+status: valid

@@ -1,0 +1,152 @@
+data:
+  _revisions:
+    current: 9158b4
+    tree:
+      9158b4:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            clause: '4.7'
+            link: https://www.iso.org/standard/26018.html
+            ref: ISO 19113:2002
+          date_accepted: '2002-12-01T00:00:00.000Z'
+          date_amended: '41623'
+          definition: 数据质量子元素的取值。
+          entry_status: retired
+          examples:
+          - 属性值正确的百分率。
+          id: 115
+          language_code: zho
+          lineage_source: ''
+          notes: []
+          release: '-1'
+          review_date: '2013-12-15T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2013-12-15T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19157:2013
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+            19157:2013).
+          review_indicator: ''
+          review_status: final
+          review_type: retirement
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 数据质量度量
+              normative_status: null
+              type: expression
+            state:
+              _dict:
+                designation: 数据质量度量
+                normative_status: null
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2002-12-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2002-12-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2002-12-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '41623'
+      type: amended
+    state:
+      _dict:
+        date: '41623'
+        type: amended
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''数据质量子元素的取值。''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: 属性值正确的百分率。
+    state:
+      _dict:
+        content: 属性值正确的百分率。
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 115
+  language_code: zho
+  notes: []
+  release: '-1'
+  reviewDate: 2013-12-15
+  reviewDecisionDate: 2013-12-15
+  reviewDecisionEvent: Publication of ISO 19157:2013
+  review_decision: accepted
+  review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+    19157:2013).
+  review_indicator: ''
+  review_status: final
+  review_type: retirement
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.7'
+        link: https://www.iso.org/standard/26018.html
+        ref: ISO 19113:2002
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ''
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 数据质量度量
+      type: expression
+    state:
+      _dict:
+        designation: 数据质量度量
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: e3bdab4a-6381-5ff1-a6f6-14a772133009
+status: retired

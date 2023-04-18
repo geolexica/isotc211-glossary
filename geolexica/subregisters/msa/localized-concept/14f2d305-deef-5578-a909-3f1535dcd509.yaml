@@ -1,0 +1,140 @@
+data:
+  _revisions:
+    current: 70ff8a
+    tree:
+      70ff8a:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          date_accepted: '2004-07-01T00:00:00.000Z'
+          definition: parameter yang tidak pasti yang berkait dengan hasil pengukuran
+            yang berdasarkan nilai karakter yang diukur
+          entry_status: valid
+          examples: []
+          id: 480
+          language_code: msa
+          lineage_source: ISO 19116:2004(E)
+          lineage_source_similarity: 1
+          notes:
+          - When the quality of accuracy or precision of measured values, such as
+            coordinates, is to be characterized quantitatively, the quality parameter
+            is an estimate of the uncertainty of the measurement results. Because
+            accuracy is a qualitative concept, one should not use it quantitatively,
+            that is associate numbers with it; numbers should be associated with measures
+            of uncertainty instead.
+          release: '1'
+          review_date: '2019-12-02T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-12-02T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19116:2019(E)
+          review_decision_notes: Authoritative reference changed from Guide to the
+            Expression of Uncertainty in Measurement (GUM), 1995 to . Lineage source
+            added as ISO 19116:2004(E)
+          review_indicator: ''
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: ketidakpastian
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: ketidakpastian
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2004-07-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2004-07-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2004-07-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''parameter yang tidak pasti yang berkait dengan hasil
+    pengukuran yang berdasarkan nilai karakter yang diukur''}]'
+  examples: []
+  id: 480
+  language_code: msa
+  lineage_source_similarity: 1
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: When the quality of accuracy or precision of measured values, such
+        as coordinates, is to be characterized quantitatively, the quality parameter
+        is an estimate of the uncertainty of the measurement results. Because accuracy
+        is a qualitative concept, one should not use it quantitatively, that is associate
+        numbers with it; numbers should be associated with measures of uncertainty
+        instead.
+    state:
+      _dict:
+        content: When the quality of accuracy or precision of measured values, such
+          as coordinates, is to be characterized quantitatively, the quality parameter
+          is an estimate of the uncertainty of the measurement results. Because accuracy
+          is a qualitative concept, one should not use it quantitatively, that is
+          associate numbers with it; numbers should be associated with measures of
+          uncertainty instead.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  reviewDate: 2019-12-02
+  reviewDecisionDate: 2019-12-02
+  reviewDecisionEvent: Publication of ISO 19116:2019(E)
+  review_decision: accepted
+  review_decision_notes: Authoritative reference changed from Guide to the Expression
+    of Uncertainty in Measurement (GUM), 1995 to . Lineage source added as ISO 19116:2004(E)
+  review_indicator: ''
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        ref: ISO 19116:2004(E)
+      type: lineage
+    state:
+      _dict:
+        origin: *id001
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: ketidakpastian
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: ketidakpastian
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 14f2d305-deef-5578-a909-3f1535dcd509
+status: valid

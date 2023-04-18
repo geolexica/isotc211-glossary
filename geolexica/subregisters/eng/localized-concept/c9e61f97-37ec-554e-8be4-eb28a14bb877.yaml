@@ -1,0 +1,220 @@
+data:
+  _revisions:
+    current: 6c9404
+    tree:
+      6c9404:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          abbrev: baunit
+          authoritative_source:
+            clause: 4.1.2
+            link: https://www.iso.org/standard/51206.html
+            ref: ISO 19152:2012
+          date_accepted: '2012-12-01T00:00:00.000Z'
+          definition: administrative entity, subject to registration (by law), or
+            recordation [by informal right , or customary right, or another social
+            tenure relationship], consisting of zero or more spatial units against
+            which (one or more) unique and homogeneous rights [e.g. ownership right
+            or land  use right], responsibilities or restrictions are associated to
+            the whole entity, as included in a land administration system
+          entry_status: valid
+          examples:
+          - A condominium unit comprising two spatial units (e.g. an apartment and
+            a garage), a farm lot comprising one spatial unit (e.g. parcel of land),
+            a servitude comprising one spatial unit (e.g. the road representing the
+            right-of-way), a land consolidation area, or a right-of-use unit with
+            several right holders and restricted objects.
+          id: 1570
+          language_code: eng
+          notes:
+          - '''Unique'' means that a right, restriction, or responsibility is held
+            by one or more parties (e.g. owners or users) for the whole basic administrative
+            unit. ''Homogeneous'' means that a right, restriction or responsibility
+            (e.g. ownership, use, social tenure, lease, or easement) affects the whole
+            basic administrative unit. For a restriction, zero parties are a possibility.'
+          - A basic administrative unit may play the role of party, e.g. when the
+            right holder is a basic administrative unit (and not a person or organization).
+          - A baunit should get a unique identifier when registered, or recorded.
+          - A baunit can consist of zero spatial units, when a registry exists, and
+            not a cadastre.
+          - Restrictions and responsibilities can be associated with their own baunits,
+            each with their own type of spatial unit.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: basic administrative unit
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: basic administrative unit
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2012-12-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2012-12-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2012-12-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''administrative entity, subject to registration (by
+    law), or recordation [by informal right , or customary right, or another social
+    tenure relationship], consisting of zero or more spatial units against which (one
+    or more) unique and homogeneous rights [e.g. ownership right or land use right],
+    responsibilities or restrictions are associated to the whole entity, as included
+    in a land administration system''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: A condominium unit comprising two spatial units (e.g. an apartment
+        and a garage), a farm lot comprising one spatial unit (e.g. parcel of land),
+        a servitude comprising one spatial unit (e.g. the road representing the right-of-way),
+        a land consolidation area, or a right-of-use unit with several right holders
+        and restricted objects.
+    state:
+      _dict:
+        content: A condominium unit comprising two spatial units (e.g. an apartment
+          and a garage), a farm lot comprising one spatial unit (e.g. parcel of land),
+          a servitude comprising one spatial unit (e.g. the road representing the
+          right-of-way), a land consolidation area, or a right-of-use unit with several
+          right holders and restricted objects.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 1570
+  language_code: eng
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: '''Unique'' means that a right, restriction, or responsibility is held
+        by one or more parties (e.g. owners or users) for the whole basic administrative
+        unit. ''Homogeneous'' means that a right, restriction or responsibility (e.g.
+        ownership, use, social tenure, lease, or easement) affects the whole basic
+        administrative unit. For a restriction, zero parties are a possibility.'
+    state:
+      _dict:
+        content: '''Unique'' means that a right, restriction, or responsibility is
+          held by one or more parties (e.g. owners or users) for the whole basic administrative
+          unit. ''Homogeneous'' means that a right, restriction or responsibility
+          (e.g. ownership, use, social tenure, lease, or easement) affects the whole
+          basic administrative unit. For a restriction, zero parties are a possibility.'
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: A basic administrative unit may play the role of party, e.g. when the
+        right holder is a basic administrative unit (and not a person or organization).
+    state:
+      _dict:
+        content: A basic administrative unit may play the role of party, e.g. when
+          the right holder is a basic administrative unit (and not a person or organization).
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: A baunit should get a unique identifier when registered, or recorded.
+    state:
+      _dict:
+        content: A baunit should get a unique identifier when registered, or recorded.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: A baunit can consist of zero spatial units, when a registry exists,
+        and not a cadastre.
+    state:
+      _dict:
+        content: A baunit can consist of zero spatial units, when a registry exists,
+          and not a cadastre.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Restrictions and responsibilities can be associated with their own
+        baunits, each with their own type of spatial unit.
+    state:
+      _dict:
+        content: Restrictions and responsibilities can be associated with their own
+          baunits, each with their own type of spatial unit.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: 4.1.2
+        link: https://www.iso.org/standard/51206.html
+        ref: ISO 19152:2012
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: baunit
+      type: abbreviation
+    state:
+      _dict:
+        designation: baunit
+        type: abbreviation
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: basic administrative unit
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: basic administrative unit
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: c9e61f97-37ec-554e-8be4-eb28a14bb877
+status: valid

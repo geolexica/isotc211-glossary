@@ -1,0 +1,112 @@
+data:
+  _revisions:
+    current: 66e76d
+    tree:
+      66e76d:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: Fifth Edition
+            ref: IHO Hydrographic Dictionary S-32
+          date_accepted: '2014-01-15T00:00:00.000Z'
+          definition: 조사선이 경로를 따라 항해시 다중빔 측심기에 의해 스캐닝되는 지상의 토지 조각 또는 도로
+          entry_status: valid
+          examples: []
+          id: 1394
+          language_code: kor
+          lineage_source: ISO/TS 19130-2:2014, 4.32
+          lineage_source_similarity: 1
+          notes: []
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 수로학, 수로 측량, 해황 스웨스
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 수로학, 수로 측량, 해황 스웨스
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-01-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-01-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-01-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''조사선이 경로를 따라 항해시 다중빔 측심기에 의해 스캐닝되는 지상의 토지 조각 또는 도로''}]'
+  examples: []
+  id: 1394
+  language_code: kor
+  lineage_source_similarity: 1
+  notes: []
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: Fifth Edition
+        ref: IHO Hydrographic Dictionary S-32
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO/TS 19130-2:2014, 4.32
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 수로학, 수로 측량, 해황 스웨스
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 수로학, 수로 측량, 해황 스웨스
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 9b10f270-3343-560b-b837-339299c25e95
+status: valid

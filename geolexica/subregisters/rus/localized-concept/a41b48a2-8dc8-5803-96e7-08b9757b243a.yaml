@@ -1,0 +1,131 @@
+data:
+  _revisions:
+    current: 2d29a9
+    tree:
+      2d29a9:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.5'
+            link: https://www.iso.org/standard/32571.html
+            ref: ISO 19153:2014
+          date_accepted: '2014-02-15T00:00:00.000Z'
+          definition: определение того, разрешено ли субъекту иметь указанные типы
+            доступа к определенному ресурсу
+          entry_status: valid
+          examples: []
+          id: 1211
+          language_code: rus
+          lineage_source: перевод ИСО 19153:2014
+          notes:
+          - Как правило, авторизация выполняется в контексте аутентификации (4.4).
+            Как только объект аутентифицирован, ему может быть разрешено выполнять
+            различные типы доступа
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: авторизация
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: авторизация
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-02-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-02-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-02-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''определение того, разрешено ли субъекту иметь указанные
+    типы доступа к определенному ресурсу''}]'
+  examples: []
+  id: 1211
+  language_code: rus
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Как правило, авторизация выполняется в контексте аутентификации (4.4).
+        Как только объект аутентифицирован, ему может быть разрешено выполнять различные
+        типы доступа
+    state:
+      _dict:
+        content: Как правило, авторизация выполняется в контексте аутентификации (4.4).
+          Как только объект аутентифицирован, ему может быть разрешено выполнять различные
+          типы доступа
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.5'
+        link: https://www.iso.org/standard/32571.html
+        ref: ISO 19153:2014
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: перевод ИСО 19153:2014
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: авторизация
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: авторизация
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: a41b48a2-8dc8-5803-96e7-08b9757b243a
+status: valid

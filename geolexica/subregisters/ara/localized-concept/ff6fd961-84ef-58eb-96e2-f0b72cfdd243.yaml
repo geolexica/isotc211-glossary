@@ -1,0 +1,111 @@
+data:
+  _revisions:
+    current: b6058e
+    tree:
+      b6058e:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/40121.html
+            ref: ISO 19123:2005
+          date_accepted: '2003-05-01T00:00:00.000Z'
+          definition: شبكة مؤلفة من مجموعتين أو أكثر من المنحنيات بحيث أن أعضاء كل
+            مجموعة فيها تتقاطع مع أعضاء المجموعات الأخرى بطريقة خوارزمية
+          entry_status: valid
+          examples: []
+          id: 221
+          language_code: ara
+          notes:
+          - المنحنيات تقسِّم الفراغ إلى خلايا شبكية.
+          release: '1'
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: شبكة
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: شبكة
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2003-05-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2003-05-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2003-05-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''شبكة مؤلفة من مجموعتين أو أكثر من المنحنيات بحيث أن
+    أعضاء كل مجموعة فيها تتقاطع مع أعضاء المجموعات الأخرى بطريقة خوارزمية''}]'
+  examples: []
+  id: 221
+  language_code: ara
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: المنحنيات تقسِّم الفراغ إلى خلايا شبكية.
+    state:
+      _dict:
+        content: المنحنيات تقسِّم الفراغ إلى خلايا شبكية.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/40121.html
+        ref: ISO 19123:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: شبكة
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: شبكة
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: ff6fd961-84ef-58eb-96e2-f0b72cfdd243
+status: valid

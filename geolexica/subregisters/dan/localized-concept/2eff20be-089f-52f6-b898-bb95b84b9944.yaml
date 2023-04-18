@@ -1,0 +1,94 @@
+data:
+  _revisions:
+    current: 16bd48
+    tree:
+      16bd48:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32546.html
+            ref: ISO 19128:2005
+          date_accepted: '2005-12-01T00:00:00.000Z'
+          definition: softewarekomponent, der kan aktivere en operation fra en server
+          examples: []
+          id: 45
+          language_code: dan
+          notes: []
+          release: '1'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: klient
+              normative_status: null
+              type: expression
+            state:
+              _dict:
+                designation: klient
+                normative_status: null
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-12-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-12-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-12-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''softewarekomponent, der kan aktivere en operation
+    fra en server''}]'
+  examples: []
+  id: 45
+  language_code: dan
+  notes: []
+  release: '1'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/32546.html
+        ref: ISO 19128:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: klient
+      type: expression
+    state:
+      _dict:
+        designation: klient
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 2eff20be-089f-52f6-b898-bb95b84b9944
+status: valid

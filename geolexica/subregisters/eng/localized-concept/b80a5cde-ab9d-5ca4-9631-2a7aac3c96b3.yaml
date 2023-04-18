@@ -1,0 +1,117 @@
+data:
+  _revisions:
+    current: 368e24
+    tree:
+      368e24:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.40'
+            link: https://www.iso.org/standard/32571.html
+            ref: ISO 19153:2014
+          date_accepted: '2014-02-15T00:00:00.000Z'
+          definition: entity that is protected by a licence
+          entry_status: valid
+          examples: []
+          id: 1248
+          language_code: eng
+          notes:
+          - In general, a resource is data, metadata (a type of data describing other
+            resources), or some service or process that can be invoked on other resources.
+            Licences describe rights on resources and, as such, are resources in themselves.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: resource <GeoDRM>
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: resource <GeoDRM>
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-02-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-02-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-02-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''entity that is protected by a licence''}]'
+  examples: []
+  id: 1248
+  language_code: eng
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: In general, a resource is data, metadata (a type of data describing
+        other resources), or some service or process that can be invoked on other
+        resources. Licences describe rights on resources and, as such, are resources
+        in themselves.
+    state:
+      _dict:
+        content: In general, a resource is data, metadata (a type of data describing
+          other resources), or some service or process that can be invoked on other
+          resources. Licences describe rights on resources and, as such, are resources
+          in themselves.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.40'
+        link: https://www.iso.org/standard/32571.html
+        ref: ISO 19153:2014
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: resource <GeoDRM>
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: resource <GeoDRM>
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: b80a5cde-ab9d-5ca4-9631-2a7aac3c96b3
+status: valid

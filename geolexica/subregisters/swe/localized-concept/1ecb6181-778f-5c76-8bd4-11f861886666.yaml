@@ -1,0 +1,137 @@
+data:
+  _revisions:
+    current: 418c97
+    tree:
+      418c97:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.37'
+            link: https://www.iso.org/standard/56113.html
+            ref: ISO/TS 19130-2:2014
+          country_code: swe
+          date_accepted: '2014-01-15T00:00:00.000Z'
+          definition: en punktkällas effekt per rymdvinkelenhet i en viss riktning
+          entry_status: valid
+          examples: []
+          id: 1397
+          language_code: swe
+          lineage_source: (Type reference to national language document)
+          notes:
+          - Typically for LIDAR, sufficient calibration has not been done to calculate
+            absolute intensity, so relative intensity is usually reported.  In linear
+            mode systems, this value is typically provided as an integer, resulting
+            from a mapping of the return’s signal power to an integer value via a
+            lookup table.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: intensitet
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: intensitet
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-01-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  country_code: swe
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-01-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-01-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''en punktkällas effekt per rymdvinkelenhet i en viss
+    riktning''}]'
+  examples: []
+  id: 1397
+  language_code: swe
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Typically for LIDAR, sufficient calibration has not been done to calculate
+        absolute intensity, so relative intensity is usually reported.  In linear
+        mode systems, this value is typically provided as an integer, resulting from
+        a mapping of the return’s signal power to an integer value via a lookup table.
+    state:
+      _dict:
+        content: Typically for LIDAR, sufficient calibration has not been done to
+          calculate absolute intensity, so relative intensity is usually reported.  In
+          linear mode systems, this value is typically provided as an integer, resulting
+          from a mapping of the return’s signal power to an integer value via a lookup
+          table.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.37'
+        link: https://www.iso.org/standard/56113.html
+        ref: ISO/TS 19130-2:2014
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: (Type reference to national language document)
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: intensitet
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: intensitet
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 1ecb6181-778f-5c76-8bd4-11f861886666
+status: valid

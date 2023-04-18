@@ -1,0 +1,126 @@
+data:
+  _revisions:
+    current: 05ea4e
+    tree:
+      05ea4e:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32551.html
+            ref: ISO 19133:2005
+          date_accepted: '2005-10-15T00:00:00.000Z'
+          definition: grafo dirigido positivamente ponderado y  configurado de manera
+            apropiada para ejecutar una búsqueda del camino más corto
+          entry_status: valid
+          examples: []
+          id: 133
+          language_code: spa
+          notes:
+          - El término proviene del algoritmo más conocido para encontrar el camino
+            más corto en un grafo positivamente ponderado, de la publicación de E.
+            Dijkstra [7]. Aunque este algoritmo no es el único en uso, los requisitos
+            para los grafos son comunes para la mayoría. La relajación más común de
+            los requisitos es la "ponderada positiva" que no es necesaria en el algoritmo
+            de Bellman-Ford [4], [8].
+          release: '1'
+          review_decision_event: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: grafo de Dijkstra
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: grafo de Dijkstra
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-10-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-10-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-10-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''grafo dirigido positivamente ponderado y configurado
+    de manera apropiada para ejecutar una búsqueda del camino más corto''}]'
+  examples: []
+  id: 133
+  language_code: spa
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: El término proviene del algoritmo más conocido para encontrar el camino
+        más corto en un grafo positivamente ponderado, de la publicación de E. Dijkstra
+        [7]. Aunque este algoritmo no es el único en uso, los requisitos para los
+        grafos son comunes para la mayoría. La relajación más común de los requisitos
+        es la "ponderada positiva" que no es necesaria en el algoritmo de Bellman-Ford
+        [4], [8].
+    state:
+      _dict:
+        content: El término proviene del algoritmo más conocido para encontrar el
+          camino más corto en un grafo positivamente ponderado, de la publicación
+          de E. Dijkstra [7]. Aunque este algoritmo no es el único en uso, los requisitos
+          para los grafos son comunes para la mayoría. La relajación más común de
+          los requisitos es la "ponderada positiva" que no es necesaria en el algoritmo
+          de Bellman-Ford [4], [8].
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  reviewDecisionEvent: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/32551.html
+        ref: ISO 19133:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: grafo de Dijkstra
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: grafo de Dijkstra
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: d0d82b0c-13f4-5933-b455-19abbebd31bf
+status: valid

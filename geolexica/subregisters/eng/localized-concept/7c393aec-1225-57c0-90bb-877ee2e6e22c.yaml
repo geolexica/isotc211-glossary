@@ -1,0 +1,111 @@
+data:
+  _revisions:
+    current: 867a0e
+    tree:
+      867a0e:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.5'
+            link: https://www.iso.org/standard/32574.html
+            ref: ISO 19156:2011
+          date_accepted: '2011-12-15T00:00:00.000Z'
+          definition: referring to the study, maintenance or conservation of a specimen
+            or population away from its natural surroundings
+          entry_status: valid
+          examples: []
+          id: 1441
+          language_code: eng
+          notes:
+          - Opposite of in-situ.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: ex-situ
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: ex-situ
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2011-12-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2011-12-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2011-12-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''referring to the study, maintenance or conservation
+    of a specimen or population away from its natural surroundings''}]'
+  examples: []
+  id: 1441
+  language_code: eng
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Opposite of in-situ.
+    state:
+      _dict:
+        content: Opposite of in-situ.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.5'
+        link: https://www.iso.org/standard/32574.html
+        ref: ISO 19156:2011
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: ex-situ
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: ex-situ
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 7c393aec-1225-57c0-90bb-877ee2e6e22c
+status: valid

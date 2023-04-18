@@ -1,0 +1,134 @@
+data:
+  _revisions:
+    current: '987014'
+    tree:
+      '987014':
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/26010.html
+            ref: ISO 19105:2000
+          country_code: swe
+          date_accepted: '2000-12-15T00:00:00.000Z'
+          definition: "specifikation av de åtgärder som ska vidtas för\n att avgöra\
+            \ om ett visst krav är uppfyllt eller ej"
+          entry_status: valid
+          examples: []
+          id: 3
+          language_code: swe
+          notes:
+          - An abstract test case is a formal basis for deriving executable test cases
+            One or more test purposes are encapsulated in the abstract test case.
+            An abstract test case is independent of both the implementation and the
+            values. It should be complete in the sense that it is sufficient to enable
+            a test verdict to be assigned unambiguously to each potentially observable
+            test outcome (i.e. sequence of test events).
+          release: '1'
+          review_date: '2019-07-05T00:00:00.000Z'
+          review_indicator: ''
+          review_status: pending
+          review_type: retirement
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: abstrakt testfall
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: abstrakt testfall
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2000-12-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  country_code: swe
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2000-12-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2000-12-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''specifikation av de åtgärder som ska vidtas för\n
+    att avgöra om ett visst krav är uppfyllt eller ej''}]'
+  examples: []
+  id: 3
+  language_code: swe
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: An abstract test case is a formal basis for deriving executable test
+        cases One or more test purposes are encapsulated in the abstract test case.
+        An abstract test case is independent of both the implementation and the values.
+        It should be complete in the sense that it is sufficient to enable a test
+        verdict to be assigned unambiguously to each potentially observable test outcome
+        (i.e. sequence of test events).
+    state:
+      _dict:
+        content: An abstract test case is a formal basis for deriving executable test
+          cases One or more test purposes are encapsulated in the abstract test case.
+          An abstract test case is independent of both the implementation and the
+          values. It should be complete in the sense that it is sufficient to enable
+          a test verdict to be assigned unambiguously to each potentially observable
+          test outcome (i.e. sequence of test events).
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  reviewDate: 2019-07-05
+  review_indicator: ''
+  review_status: pending
+  review_type: retirement
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/26010.html
+        ref: ISO 19105:2000
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: abstrakt testfall
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: abstrakt testfall
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: e8068ae1-9a12-59b9-b6ff-cf16b8d4d1c6
+status: valid

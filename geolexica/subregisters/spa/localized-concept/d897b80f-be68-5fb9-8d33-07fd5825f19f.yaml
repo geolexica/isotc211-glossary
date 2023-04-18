@@ -1,0 +1,155 @@
+data:
+  _revisions:
+    current: 3342fa
+    tree:
+      3342fa:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            ref: UNFAO LCCS 2:2005
+          date_accepted: '2012-07-01T00:00:00.000Z'
+          definition: gestiones, actividades y acciones que la gente desarrolla sobre
+            un tipo concreto de cubierta terrestre para mantenerla o generar un cambio
+          entry_status: valid
+          examples:
+          - '"Áreas recreativas" es un término de uso del suelo que puede ser aplicado
+            para diferenciar tipos de cubierta terrestre tales como playas sobre superficies
+            de arena, parques recreativos sobre areas construidas o explotaciones
+            madereras en bosques, etc.'
+          id: 1028
+          language_code: spa
+          lineage_source: ISO 19144-2:2012, 4.1.9
+          lineage_source_similarity: '1'
+          notes:
+          - La definición de uso del suelo en este sentido establece una conexión
+            directa con la cubierta del suelo y las acciones que la gente desarrolla.
+            Pueden coexistir multiples usos del suelo en el mismo emplazamiento (por
+            ejemplo, forestal y recreativo), contrariamente a las clases de cubierta
+            terrestre que son mutualmente exclusivas.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: uso del suelo
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: uso del suelo
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2012-07-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2012-07-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2012-07-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''gestiones, actividades y acciones que la gente desarrolla
+    sobre un tipo concreto de cubierta terrestre para mantenerla o generar un cambio''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: '"Áreas recreativas" es un término de uso del suelo que puede ser aplicado
+        para diferenciar tipos de cubierta terrestre tales como playas sobre superficies
+        de arena, parques recreativos sobre areas construidas o explotaciones madereras
+        en bosques, etc.'
+    state:
+      _dict:
+        content: '"Áreas recreativas" es un término de uso del suelo que puede ser
+          aplicado para diferenciar tipos de cubierta terrestre tales como playas
+          sobre superficies de arena, parques recreativos sobre areas construidas
+          o explotaciones madereras en bosques, etc.'
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 1028
+  language_code: spa
+  lineage_source_similarity: '1'
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: La definición de uso del suelo en este sentido establece una conexión
+        directa con la cubierta del suelo y las acciones que la gente desarrolla.
+        Pueden coexistir multiples usos del suelo en el mismo emplazamiento (por ejemplo,
+        forestal y recreativo), contrariamente a las clases de cubierta terrestre
+        que son mutualmente exclusivas.
+    state:
+      _dict:
+        content: La definición de uso del suelo en este sentido establece una conexión
+          directa con la cubierta del suelo y las acciones que la gente desarrolla.
+          Pueden coexistir multiples usos del suelo en el mismo emplazamiento (por
+          ejemplo, forestal y recreativo), contrariamente a las clases de cubierta
+          terrestre que son mutualmente exclusivas.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        ref: UNFAO LCCS 2:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19144-2:2012, 4.1.9
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: uso del suelo
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: uso del suelo
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: d897b80f-be68-5fb9-8d33-07fd5825f19f
+status: valid

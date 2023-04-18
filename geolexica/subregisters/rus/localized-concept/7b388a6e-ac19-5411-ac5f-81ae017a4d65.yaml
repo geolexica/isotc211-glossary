@@ -1,0 +1,129 @@
+data:
+  _revisions:
+    current: eb149a
+    tree:
+      eb149a:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/37805.html
+            ref: ISO 19116:2004
+          date_accepted: '2004-07-01T00:00:00.000Z'
+          definition: изменение положения объекта c течением времени, выражающееся
+            через изменение значений координат в конкретной системе отсчета
+          entry_status: valid
+          examples:
+          - Это может быть изменение положения датчика на транспортном средстве или
+            другой платформе, или изменение положения объекта, отслеживаемого системой
+            позиционирования
+          id: 301
+          language_code: rus
+          lineage_source: Internet
+          notes: []
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: перемещение
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: перемещение
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2004-07-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2004-07-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2004-07-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''изменение положения объекта c течением времени, выражающееся
+    через изменение значений координат в конкретной системе отсчета''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Это может быть изменение положения датчика на транспортном средстве
+        или другой платформе, или изменение положения объекта, отслеживаемого системой
+        позиционирования
+    state:
+      _dict:
+        content: Это может быть изменение положения датчика на транспортном средстве
+          или другой платформе, или изменение положения объекта, отслеживаемого системой
+          позиционирования
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 301
+  language_code: rus
+  notes: []
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/37805.html
+        ref: ISO 19116:2004
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: Internet
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: перемещение
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: перемещение
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 7b388a6e-ac19-5411-ac5f-81ae017a4d65
+status: valid

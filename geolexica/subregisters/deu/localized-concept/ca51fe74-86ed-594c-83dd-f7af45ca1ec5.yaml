@@ -1,0 +1,154 @@
+data:
+  _revisions:
+    current: 01415f
+    tree:
+      01415f:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            clause: (E), 3.9
+            link: https://www.iso.org/standard/66175.html
+            ref: ISO 19107:2019
+          date_accepted: '2003-05-01T00:00:00.000Z'
+          entry_status: valid
+          examples: []
+          id: 48
+          language_code: deu
+          lineage_source: ISO 19107:2003(E)
+          lineage_source_similarity: 1
+          notes:
+          - If a node is on the boundary of an edge, that edge is on the coboundary
+            of that node. Any orientation parameter associated to one of these relations
+            would also be associated to the other. So that if the node is the end
+            node of the edge (defined as the end of the positive directed edge), then
+            the positive orientation of the node (defined as the positive directed
+            node) would have the edge on its coboundary, see ISO 19107 Figure 35.
+          release: '1'
+          review_date: '2019-12-02T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-12-02T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19107:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19107:2003
+            to ISO 19107:2019(E), 3.9. Lineage source added as ISO 19107:2003(E)
+          review_indicator: ''
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: kettenartig verknüpfte Grenze
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: kettenartig verknüpfte Grenze
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2003-05-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2003-05-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2003-05-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  examples: []
+  id: 48
+  language_code: deu
+  lineage_source_similarity: 1
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: If a node is on the boundary of an edge, that edge is on the coboundary
+        of that node. Any orientation parameter associated to one of these relations
+        would also be associated to the other. So that if the node is the end node
+        of the edge (defined as the end of the positive directed edge), then the positive
+        orientation of the node (defined as the positive directed node) would have
+        the edge on its coboundary, see ISO 19107 Figure 35.
+    state:
+      _dict:
+        content: If a node is on the boundary of an edge, that edge is on the coboundary
+          of that node. Any orientation parameter associated to one of these relations
+          would also be associated to the other. So that if the node is the end node
+          of the edge (defined as the end of the positive directed edge), then the
+          positive orientation of the node (defined as the positive directed node)
+          would have the edge on its coboundary, see ISO 19107 Figure 35.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  reviewDate: 2019-12-02
+  reviewDecisionDate: 2019-12-02
+  reviewDecisionEvent: Publication of ISO 19107:2019(E)
+  review_decision: accepted
+  review_decision_notes: Authoritative reference changed from ISO 19107:2003 to ISO
+    19107:2019(E), 3.9. Lineage source added as ISO 19107:2003(E)
+  review_indicator: ''
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: (E), 3.9
+        link: https://www.iso.org/standard/66175.html
+        ref: ISO 19107:2019
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19107:2003(E)
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: kettenartig verknüpfte Grenze
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: kettenartig verknüpfte Grenze
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: ca51fe74-86ed-594c-83dd-f7af45ca1ec5
+status: valid

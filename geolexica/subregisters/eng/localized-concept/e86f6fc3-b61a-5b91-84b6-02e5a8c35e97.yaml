@@ -1,0 +1,186 @@
+data:
+  _revisions:
+    current: c53f73
+    tree:
+      c53f73:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '2.42'
+            link: https://www.iso.org/standard/45324.html
+            ref: ISO/IEC Guide 99:2007
+          date_accepted: '2014-07-15T00:00:00.000Z'
+          definition: sequence of measurement standards and calibrations that is used
+            to relate a measurement result to a reference
+          entry_status: valid
+          examples: []
+          id: 1483
+          language_code: eng
+          lineage_source: ISO/TS 19159-1:2014, 4.21
+          lineage_source_similarity: 1
+          notes:
+          - A metrological traceability chain is defined through a calibration hierarchy.
+          - A metrological traceability chain is used to establish metrological traceability
+            of a measurement result.
+          - A comparison between two measurement standards may be viewed as a calibration
+            if the comparison is used to check and, if necessary, correct the quantity
+            value and measurement uncertainty attributed to one of the measurement
+            standards.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: traceability chain
+              normative_status: admitted
+              type: expression
+            state:
+              _dict:
+                designation: traceability chain
+                normative_status: admitted
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: metrological traceability chain
+              type: expression
+            state:
+              _dict:
+                designation: metrological traceability chain
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-07-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-07-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-07-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''sequence of measurement standards and calibrations
+    that is used to relate a measurement result to a reference''}]'
+  examples: []
+  id: 1483
+  language_code: eng
+  lineage_source_similarity: 1
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: A metrological traceability chain is defined through a calibration
+        hierarchy.
+    state:
+      _dict:
+        content: A metrological traceability chain is defined through a calibration
+          hierarchy.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: A metrological traceability chain is used to establish metrological
+        traceability of a measurement result.
+    state:
+      _dict:
+        content: A metrological traceability chain is used to establish metrological
+          traceability of a measurement result.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: A comparison between two measurement standards may be viewed as a calibration
+        if the comparison is used to check and, if necessary, correct the quantity
+        value and measurement uncertainty attributed to one of the measurement standards.
+    state:
+      _dict:
+        content: A comparison between two measurement standards may be viewed as a
+          calibration if the comparison is used to check and, if necessary, correct
+          the quantity value and measurement uncertainty attributed to one of the
+          measurement standards.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '2.42'
+        link: https://www.iso.org/standard/45324.html
+        ref: ISO/IEC Guide 99:2007
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO/TS 19159-1:2014, 4.21
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: traceability chain
+      normative_status: admitted
+      type: expression
+    state:
+      _dict:
+        designation: traceability chain
+        normative_status: admitted
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: metrological traceability chain
+      type: expression
+    state:
+      _dict:
+        designation: metrological traceability chain
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: e86f6fc3-b61a-5b91-84b6-02e5a8c35e97
+status: valid

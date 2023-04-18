@@ -1,0 +1,133 @@
+data:
+  _revisions:
+    current: b443fc
+    tree:
+      b443fc:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/40121.html
+            ref: ISO 19123:2005
+          date_accepted: '2005-08-15T00:00:00.000Z'
+          definition: Feature, das in Form einer Funktion für jeden räumlichen, zeitlichen
+            oder raum-zeitlichen Punkt innerhalb seines Definitionsbereichs einen
+            Wertevektor liefert
+          entry_status: valid
+          examples:
+          - Examples include a raster image, polygon overlay, or digital elevation
+            matrix.
+          id: 99
+          language_code: deu
+          notes:
+          - In other words, a coverage is a feature that has multiple values for each
+            attribute type, where each direct position within the geometric representation
+            of the feature has a single value for each attribute type.
+          release: '1'
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: Coverage
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: Coverage
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-08-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-08-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-08-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''Feature, das in Form einer Funktion für jeden räumlichen,
+    zeitlichen oder raum-zeitlichen Punkt innerhalb seines Definitionsbereichs einen
+    Wertevektor liefert''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Examples include a raster image, polygon overlay, or digital elevation
+        matrix.
+    state:
+      _dict:
+        content: Examples include a raster image, polygon overlay, or digital elevation
+          matrix.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 99
+  language_code: deu
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: In other words, a coverage is a feature that has multiple values for
+        each attribute type, where each direct position within the geometric representation
+        of the feature has a single value for each attribute type.
+    state:
+      _dict:
+        content: In other words, a coverage is a feature that has multiple values
+          for each attribute type, where each direct position within the geometric
+          representation of the feature has a single value for each attribute type.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/40121.html
+        ref: ISO 19123:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: Coverage
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: Coverage
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: b45d377f-8bdc-5bc7-b806-dc22607b94cb
+status: valid

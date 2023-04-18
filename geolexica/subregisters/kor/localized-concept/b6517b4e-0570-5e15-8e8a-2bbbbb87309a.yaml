@@ -1,0 +1,112 @@
+data:
+  _revisions:
+    current: 0f01c8
+    tree:
+      0f01c8:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: modified
+            ref: New Concepts in BASIS Licensing
+          date_accepted: '2014-02-15T00:00:00.000Z'
+          definition: 조직내 사용가능 허가증을 추적하고 허가증들을 요청 고객에게 발행하는 일을 조정하는 어플리케이션
+          entry_status: valid
+          examples: []
+          id: 1234
+          language_code: kor
+          lineage_source: ISO 19153:2014, 4.28
+          lineage_source_similarity: '1'
+          notes: []
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 허가증 매니저
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 허가증 매니저
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-02-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-02-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-02-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''조직내 사용가능 허가증을 추적하고 허가증들을 요청 고객에게 발행하는 일을 조정하는 어플리케이션''}]'
+  examples: []
+  id: 1234
+  language_code: kor
+  lineage_source_similarity: '1'
+  notes: []
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: modified
+        ref: New Concepts in BASIS Licensing
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19153:2014, 4.28
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 허가증 매니저
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 허가증 매니저
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: b6517b4e-0570-5e15-8e8a-2bbbbb87309a
+status: valid

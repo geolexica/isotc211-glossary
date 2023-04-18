@@ -1,0 +1,154 @@
+data:
+  _revisions:
+    current: 862e15
+    tree:
+      862e15:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            clause: '4.14'
+            link: https://www.iso.org/standard/56734.html
+            ref: ISO 19103:2015
+          date_accepted: '2003-05-01T00:00:00.000Z'
+          definition: Festlegung eines Wertebereichs mit Operationen, die für Werte
+            in diesem Bereich zulässig sind
+          entry_status: valid
+          examples:
+          - Integer, Real, Boolean, String, Date and SG Point (conversion of data
+            into a series of codes).
+          id: 123
+          language_code: deu
+          lineage_source: ISO/TS 19103:2005, 4.1.5
+          notes:
+          - Data types include primitive predefined types and user-definable types.
+          release: '1'
+          review_date: '2009-01-14T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2015-12-01T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: Authoritative reference changed from ISO/TS 19103:2005
+            to ISO 19103:2015, 4.14. Lineage source added as ISO/TS 19103:2005, 4.1.5
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: Datentyp
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: Datentyp
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2003-05-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2003-05-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2003-05-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''Festlegung eines Wertebereichs mit Operationen, die
+    für Werte in diesem Bereich zulässig sind''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Integer, Real, Boolean, String, Date and SG Point (conversion of data
+        into a series of codes).
+    state:
+      _dict:
+        content: Integer, Real, Boolean, String, Date and SG Point (conversion of
+          data into a series of codes).
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 123
+  language_code: deu
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Data types include primitive predefined types and user-definable types.
+    state:
+      _dict:
+        content: Data types include primitive predefined types and user-definable
+          types.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  reviewDate: 2009-01-14
+  reviewDecisionDate: 2015-12-01
+  reviewDecisionEvent: Publication of ISO 19103:2015
+  review_decision: accepted
+  review_decision_notes: Authoritative reference changed from ISO/TS 19103:2005 to
+    ISO 19103:2015, 4.14. Lineage source added as ISO/TS 19103:2005, 4.1.5
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.14'
+        link: https://www.iso.org/standard/56734.html
+        ref: ISO 19103:2015
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO/TS 19103:2005, 4.1.5
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: Datentyp
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: Datentyp
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 2e6856bf-5ee3-559c-9d1f-92ed2ea2b65a
+status: valid

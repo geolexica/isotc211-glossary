@@ -1,0 +1,141 @@
+data:
+  _revisions:
+    current: df5723
+    tree:
+      df5723:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: Fourth Edition, Oxford University Press
+            ref: Dictionary of Computing
+          date_accepted: '2003-05-01T00:00:00.000Z'
+          definition: geometrisk mængde, i hvilket det gælder, at uanset hvilke to
+            punkter vi tager i mængden og tager linjestykket mellem disse, er linjestykket
+            fuldt indeholdt i mængden.
+          examples: []
+          id: 87
+          language_code: dan
+          lineage_source: ISO 19107:2003
+          lineage_source_similarity: 1
+          notes:
+          - Konvekse mængder er "simpelt forbundne", dvs. at de ikke har indre huller,
+            og de kan derfor normalt betragtes som værende topologisk isomorfe i forhold
+            til en euklidisk bold af en passende størrelse. Derfor kan overfladen
+            af en kugle anses for at være geodætisk konveks.
+          release: '1'
+          review_date: '2016-02-15T00:00:00.000Z'
+          review_indicator: ''
+          review_status: pending
+          review_type: retirement
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: konveks mængde
+              normative_status: null
+              type: expression
+            state:
+              _dict:
+                designation: konveks mængde
+                normative_status: null
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2003-05-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2003-05-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2003-05-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''geometrisk mængde, i hvilket det gælder, at uanset
+    hvilke to punkter vi tager i mængden og tager linjestykket mellem disse, er linjestykket
+    fuldt indeholdt i mængden.''}]'
+  examples: []
+  id: 87
+  language_code: dan
+  lineage_source_similarity: 1
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Konvekse mængder er "simpelt forbundne", dvs. at de ikke har indre
+        huller, og de kan derfor normalt betragtes som værende topologisk isomorfe
+        i forhold til en euklidisk bold af en passende størrelse. Derfor kan overfladen
+        af en kugle anses for at være geodætisk konveks.
+    state:
+      _dict:
+        content: Konvekse mængder er "simpelt forbundne", dvs. at de ikke har indre
+          huller, og de kan derfor normalt betragtes som værende topologisk isomorfe
+          i forhold til en euklidisk bold af en passende størrelse. Derfor kan overfladen
+          af en kugle anses for at være geodætisk konveks.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  reviewDate: 2016-02-15
+  review_indicator: ''
+  review_status: pending
+  review_type: retirement
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: Fourth Edition, Oxford University Press
+        ref: Dictionary of Computing
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19107:2003
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: konveks mængde
+      type: expression
+    state:
+      _dict:
+        designation: konveks mængde
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: eb677321-cfe4-5c2f-81a4-031b6320a579
+status: valid

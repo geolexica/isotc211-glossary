@@ -1,0 +1,162 @@
+data:
+  _revisions:
+    current: 69ced7
+    tree:
+      69ced7:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.9
+            link: https://www.iso.org/standard/66175.html
+            ref: ISO 19107:2019
+          date_accepted: '2003-05-01T00:00:00.000Z'
+          definition: zbiór prostych elementów topologicznych o większym wymiarze
+            topologicznym, powiązanych z danym obiektem topologicznym w taki sposób,
+            że ten topologiczny obiekt należy do granicy każdego z nich
+          examples: []
+          id: 48
+          language_code: pol
+          lineage_source: ISO 19107:2003(E)
+          lineage_source_similarity: 1
+          notes:
+          - Jeśli węzeł jest na granicy pewnej krawędzi, wówczas krawędź ta jest na
+            współgranicy tego węzła. Każdy parametr orientacji powiązany z jedną z
+            tych relacji powinien być powiązany także z drugą. A zatem, jeśli dany
+            węzeł jest węzłem końcowym krawędzi (czyli zdefiniowanym jako koniec krawędzi
+            skierowanej dodatnio), wówczas dodatnia orientacja tego węzła (czyli węzła
+            zdefiniowanego jako węzeł skierowany dodatnio) powinna mieć tę krawędź
+            na swojej współgranicy.patrz Rysunek35.
+          release: '1'
+          review_date: '2019-12-02T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-12-02T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19107:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19107:2003
+            to ISO 19107:2019(E), 3.9. Lineage source added as ISO 19107:2003(E)
+          review_indicator: ''
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: współgranica,  kogranica
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: współgranica,  kogranica
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2003-05-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2003-05-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2003-05-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''zbiór prostych elementów topologicznych o większym
+    wymiarze topologicznym, powiązanych z danym obiektem topologicznym w taki sposób,
+    że ten topologiczny obiekt należy do granicy każdego z nich''}]'
+  examples: []
+  id: 48
+  language_code: pol
+  lineage_source_similarity: 1
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Jeśli węzeł jest na granicy pewnej krawędzi, wówczas krawędź ta jest
+        na współgranicy tego węzła. Każdy parametr orientacji powiązany z jedną z
+        tych relacji powinien być powiązany także z drugą. A zatem, jeśli dany węzeł
+        jest węzłem końcowym krawędzi (czyli zdefiniowanym jako koniec krawędzi skierowanej
+        dodatnio), wówczas dodatnia orientacja tego węzła (czyli węzła zdefiniowanego
+        jako węzeł skierowany dodatnio) powinna mieć tę krawędź na swojej współgranicy.patrz
+        Rysunek35.
+    state:
+      _dict:
+        content: Jeśli węzeł jest na granicy pewnej krawędzi, wówczas krawędź ta jest
+          na współgranicy tego węzła. Każdy parametr orientacji powiązany z jedną
+          z tych relacji powinien być powiązany także z drugą. A zatem, jeśli dany
+          węzeł jest węzłem końcowym krawędzi (czyli zdefiniowanym jako koniec krawędzi
+          skierowanej dodatnio), wówczas dodatnia orientacja tego węzła (czyli węzła
+          zdefiniowanego jako węzeł skierowany dodatnio) powinna mieć tę krawędź na
+          swojej współgranicy.patrz Rysunek35.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  reviewDate: 2019-12-02
+  reviewDecisionDate: 2019-12-02
+  reviewDecisionEvent: Publication of ISO 19107:2019(E)
+  review_decision: accepted
+  review_decision_notes: Authoritative reference changed from ISO 19107:2003 to ISO
+    19107:2019(E), 3.9. Lineage source added as ISO 19107:2003(E)
+  review_indicator: ''
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: (E), 3.9
+        link: https://www.iso.org/standard/66175.html
+        ref: ISO 19107:2019
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19107:2003(E)
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: współgranica,  kogranica
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: współgranica,  kogranica
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 97ad1269-fc81-57a0-825f-49e4b81f103a
+status: valid

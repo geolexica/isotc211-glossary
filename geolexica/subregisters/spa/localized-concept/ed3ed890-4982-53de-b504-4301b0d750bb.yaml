@@ -1,0 +1,124 @@
+data:
+  _revisions:
+    current: 9fbe02
+    tree:
+      9fbe02:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            ref: OWL
+          date_accepted: '2015-07-01T00:00:00.000Z'
+          definition: Restricción de la cardinalidad que se aplica a literales o individuos
+            que están conectados mediante una propiedad de datos o una propiedad de
+            objeto y son instancia de un rango calificado [tipo de datos o clase]
+          entry_status: valid
+          examples: []
+          id: 1592
+          language_code: spa
+          lineage_source: ISO 19150-2:2015, 4.1.33
+          notes: []
+          release: '4'
+          review_date: '2012-05-25T00:00:00.000Z'
+          review_decision: ''
+          review_decision_date: '2015-07-01T00:00:00.000Z'
+          review_decision_event: Normal ISO processing
+          review_decision_notes: Publication of document ISO 19150-2:2015(E)
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: cardinalidad calificada <OWL>
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: cardinalidad calificada <OWL>
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2015-07-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2015-07-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2015-07-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''Restricción de la cardinalidad que se aplica a literales
+    o individuos que están conectados mediante una propiedad de datos o una propiedad
+    de objeto y son instancia de un rango calificado [tipo de datos o clase]''}]'
+  examples: []
+  id: 1592
+  language_code: spa
+  notes: []
+  release: '4'
+  reviewDate: 2012-05-25
+  reviewDecisionDate: 2015-07-01
+  reviewDecisionEvent: Normal ISO processing
+  review_decision: ''
+  review_decision_notes: Publication of document ISO 19150-2:2015(E)
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        ref: OWL
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19150-2:2015, 4.1.33
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: cardinalidad calificada <OWL>
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: cardinalidad calificada <OWL>
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: ed3ed890-4982-53de-b504-4301b0d750bb
+status: valid

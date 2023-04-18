@@ -1,0 +1,114 @@
+data:
+  _revisions:
+    current: '217919'
+    tree:
+      '217919':
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: modified
+            ref: FindLaw
+          date_accepted: '2014-02-15T00:00:00.000Z'
+          definition: 상표권, 상표 이름 또는 트레이드 드레스의 보호사항, 저작권, 특허물질에 승인받지 않고 접속하거나 사용하는
+            사건 또는 행위
+          entry_status: valid
+          examples: []
+          id: 1226
+          language_code: kor
+          lineage_source: ISO 19153:2014, 4.20
+          lineage_source_similarity: '1'
+          notes: []
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 지오허가증 침해
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 지오허가증 침해
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-02-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-02-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-02-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''상표권, 상표 이름 또는 트레이드 드레스의 보호사항, 저작권, 특허물질에 승인받지 않고 접속하거나
+    사용하는 사건 또는 행위''}]'
+  examples: []
+  id: 1226
+  language_code: kor
+  lineage_source_similarity: '1'
+  notes: []
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: modified
+        ref: FindLaw
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19153:2014, 4.20
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 지오허가증 침해
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 지오허가증 침해
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: a906de3d-84ca-5540-9a6a-be27c38eddc6
+status: valid

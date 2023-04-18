@@ -1,0 +1,129 @@
+data:
+  _revisions:
+    current: 9bc5af
+    tree:
+      9bc5af:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.10'
+            link: https://www.iso.org/standard/32571.html
+            ref: ISO 19153:2014
+          date_accepted: '2014-02-15T00:00:00.000Z'
+          definition: лицензия, сопровождающая некоторое программное обеспечение с
+            открытым исходным кодом, которая подробно описывает, каким образом программное
+            обеспечение и его исходный код могут свободно копироваться, распространяться
+            и модифицироваться
+          entry_status: valid
+          examples: []
+          id: 1216
+          language_code: rus
+          lineage_source: перевод ИСО 19153:2014
+          notes:
+          - Копилефт – это форма универсальной общественной лицензии
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: copyleft
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: copyleft
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-02-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-02-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-02-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''лицензия, сопровождающая некоторое программное обеспечение
+    с открытым исходным кодом, которая подробно описывает, каким образом программное
+    обеспечение и его исходный код могут свободно копироваться, распространяться и
+    модифицироваться''}]'
+  examples: []
+  id: 1216
+  language_code: rus
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Копилефт – это форма универсальной общественной лицензии
+    state:
+      _dict:
+        content: Копилефт – это форма универсальной общественной лицензии
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.10'
+        link: https://www.iso.org/standard/32571.html
+        ref: ISO 19153:2014
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: перевод ИСО 19153:2014
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: copyleft
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: copyleft
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: f4a2a8d8-f2c3-50de-91e3-c09dc5666b18
+status: valid

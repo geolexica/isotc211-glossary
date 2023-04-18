@@ -1,0 +1,138 @@
+data:
+  _revisions:
+    current: bb9649
+    tree:
+      bb9649:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/37800.html
+            ref: ISO/TS 19103:2005
+          date_accepted: '2003-05-01T00:00:00.000Z'
+          definition: комплекс характеристик, наличие которых у группы данных позволяет
+            выделить ее из множества других данных
+          entry_status: valid
+          examples:
+          - Integer, Real, Boolean, String, Date и SG Point (перевычисление данных
+            в наборы кодов)
+          id: 123
+          language_code: rus
+          lineage_source: ГОСТ Р 52573-2006
+          notes:
+          - Типы данных включают первичные предопределенные типы и типы, определяемые
+            пользователем
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: тип данных
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: тип данных
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2003-05-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2003-05-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2003-05-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''комплекс характеристик, наличие которых у группы данных
+    позволяет выделить ее из множества других данных''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Integer, Real, Boolean, String, Date и SG Point (перевычисление данных
+        в наборы кодов)
+    state:
+      _dict:
+        content: Integer, Real, Boolean, String, Date и SG Point (перевычисление данных
+          в наборы кодов)
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 123
+  language_code: rus
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Типы данных включают первичные предопределенные типы и типы, определяемые
+        пользователем
+    state:
+      _dict:
+        content: Типы данных включают первичные предопределенные типы и типы, определяемые
+          пользователем
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/37800.html
+        ref: ISO/TS 19103:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ГОСТ Р 52573-2006
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: тип данных
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: тип данных
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: ce0f0d79-0c30-534f-9248-44dbab0c9242
+status: valid

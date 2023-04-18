@@ -1,0 +1,129 @@
+data:
+  _revisions:
+    current: 3381f1
+    tree:
+      3381f1:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/41445.html
+            ref: ISO 19141:2008
+          date_accepted: '2008-06-01T00:00:00.000Z'
+          definition: representation, using a local origin and local ordinate vectors,
+            of a geometric object at a given reference time
+          entry_status: valid
+          examples: []
+          id: 717
+          language_code: eng
+          notes:
+          - A rigid geometric object may undergo translation or rotation, but remains
+            congruent with its base representation.
+          - The local origin and ordinate vectors establish an engineering coordinate
+            reference system (ISO 19111), also called a local frame or a local Euclidean
+            coordinate system.
+          release: '2'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: base representation <moving features>
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: base representation <moving features>
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2008-06-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2008-06-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2008-06-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''representation, using a local origin and local ordinate
+    vectors, of a geometric object at a given reference time''}]'
+  examples: []
+  id: 717
+  language_code: eng
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: A rigid geometric object may undergo translation or rotation, but remains
+        congruent with its base representation.
+    state:
+      _dict:
+        content: A rigid geometric object may undergo translation or rotation, but
+          remains congruent with its base representation.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: The local origin and ordinate vectors establish an engineering coordinate
+        reference system (ISO 19111), also called a local frame or a local Euclidean
+        coordinate system.
+    state:
+      _dict:
+        content: The local origin and ordinate vectors establish an engineering coordinate
+          reference system (ISO 19111), also called a local frame or a local Euclidean
+          coordinate system.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '2'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/41445.html
+        ref: ISO 19141:2008
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: base representation <moving features>
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: base representation <moving features>
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 2a2dc30b-2705-5504-b835-54c3918767bd
+status: valid

@@ -1,0 +1,125 @@
+data:
+  _revisions:
+    current: 530f48
+    tree:
+      530f48:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (Adapted from)
+            link: https://www.iso.org/standard/23985.html
+            ref: 'ISO/IEC TR 14252 '
+          date_accepted: '2005-02-15T00:00:00.000Z'
+          definition: особая часть функциональности, представляемая некоторой сущностью
+            через интерфейсы
+          entry_status: valid
+          examples: []
+          id: 405
+          language_code: rus
+          lineage_source: Internet
+          notes:
+          - См. 7.2  ISO 19119 для обсуждения сервисов
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: сервис
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: сервис
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-02-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-02-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-02-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''особая часть функциональности, представляемая некоторой
+    сущностью через интерфейсы''}]'
+  examples: []
+  id: 405
+  language_code: rus
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: См. 7.2  ISO 19119 для обсуждения сервисов
+    state:
+      _dict:
+        content: См. 7.2  ISO 19119 для обсуждения сервисов
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: (Adapted from)
+        link: https://www.iso.org/standard/23985.html
+        ref: 'ISO/IEC TR 14252 '
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: Internet
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: сервис
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: сервис
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 7243fe4d-68d3-528d-9bb0-f534b95a199c
+status: valid

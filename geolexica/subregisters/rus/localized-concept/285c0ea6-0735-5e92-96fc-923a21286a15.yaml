@@ -1,0 +1,127 @@
+data:
+  _revisions:
+    current: 72c6ba
+    tree:
+      72c6ba:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          abbrev: UTS
+          authoritative_source:
+            clause: (1997)
+            ref: 'ITU-R Rec.TF.686-1 '
+          date_accepted: '2002-09-01T00:00:00.000Z'
+          definition: шкала времени, утвержденная Международным бюро мер и весов (МБМВ)
+            и Международной службой вращения Земли (МСВЗ), и служащая основой скоординированной
+            передачи стандартных частот и трансляции сигналов времени
+          entry_status: valid
+          examples: []
+          id: 96
+          language_code: rus
+          lineage_source: Internet
+          notes: []
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: всемирное координированное время
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: всемирное координированное время
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2002-09-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2002-09-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2002-09-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''шкала времени, утвержденная Международным бюро мер
+    и весов (МБМВ) и Международной службой вращения Земли (МСВЗ), и служащая основой
+    скоординированной передачи стандартных частот и трансляции сигналов времени''}]'
+  examples: []
+  id: 96
+  language_code: rus
+  notes: []
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: (1997)
+        ref: 'ITU-R Rec.TF.686-1 '
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: Internet
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: UTS
+      type: abbreviation
+    state:
+      _dict:
+        designation: UTS
+        type: abbreviation
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: всемирное координированное время
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: всемирное координированное время
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 285c0ea6-0735-5e92-96fc-923a21286a15
+status: valid

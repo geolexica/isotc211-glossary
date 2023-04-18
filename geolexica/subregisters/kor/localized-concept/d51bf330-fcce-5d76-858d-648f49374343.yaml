@@ -1,0 +1,127 @@
+data:
+  _revisions:
+    current: ac359a
+    tree:
+      ac359a:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/41445.html
+            ref: ISO 19141:2008
+          date_accepted: '2008-06-01T00:00:00.000Z'
+          definition: 특정 기준시간에 기하 객체의 지역 원점과 지역 종좌표 벡터를 이용한 표현
+          entry_status: valid
+          examples: []
+          id: 717
+          language_code: kor
+          notes:
+          - A rigid geometric object may undergo translation or rotation, but remains
+            congruent with its base representation.
+          - The local origin and ordinate vectors establish an engineering coordinate
+            reference system (ISO 19111), also called a local frame or a local Euclidean
+            coordinate system.
+          release: '2'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 기저 표현 <이동 특성>
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 기저 표현 <이동 특성>
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2008-06-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2008-06-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2008-06-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''특정 기준시간에 기하 객체의 지역 원점과 지역 종좌표 벡터를 이용한 표현''}]'
+  examples: []
+  id: 717
+  language_code: kor
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: A rigid geometric object may undergo translation or rotation, but remains
+        congruent with its base representation.
+    state:
+      _dict:
+        content: A rigid geometric object may undergo translation or rotation, but
+          remains congruent with its base representation.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: The local origin and ordinate vectors establish an engineering coordinate
+        reference system (ISO 19111), also called a local frame or a local Euclidean
+        coordinate system.
+    state:
+      _dict:
+        content: The local origin and ordinate vectors establish an engineering coordinate
+          reference system (ISO 19111), also called a local frame or a local Euclidean
+          coordinate system.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '2'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/41445.html
+        ref: ISO 19141:2008
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 기저 표현 <이동 특성>
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 기저 표현 <이동 특성>
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: d51bf330-fcce-5d76-858d-648f49374343
+status: valid

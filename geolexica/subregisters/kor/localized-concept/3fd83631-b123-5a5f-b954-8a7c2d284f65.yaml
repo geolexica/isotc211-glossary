@@ -1,0 +1,127 @@
+data:
+  _revisions:
+    current: 38eda6
+    tree:
+      38eda6:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            ref: Adapted from NISTIR 7117
+          date_accepted: '2014-01-15T00:00:00.000Z'
+          definition: 단일 방출 펄스로부터 회신된 결과치를 전부 모은 수신자의 수집 자료
+          entry_status: valid
+          examples: []
+          id: 1390
+          language_code: kor
+          lineage_source: ISO/TS 19130-2:2014, 4.22
+          lineage_source_similarity: 1
+          notes:
+          - A complete 3D data sample of the world produced by a LIDAR taken at a
+            certain time, place, and orientation. A single LIDAR frame is also referred
+            to as a range image.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 프레임
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 프레임
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-01-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-01-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-01-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''단일 방출 펄스로부터 회신된 결과치를 전부 모은 수신자의 수집 자료''}]'
+  examples: []
+  id: 1390
+  language_code: kor
+  lineage_source_similarity: 1
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: A complete 3D data sample of the world produced by a LIDAR taken at
+        a certain time, place, and orientation. A single LIDAR frame is also referred
+        to as a range image.
+    state:
+      _dict:
+        content: A complete 3D data sample of the world produced by a LIDAR taken
+          at a certain time, place, and orientation. A single LIDAR frame is also
+          referred to as a range image.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        ref: Adapted from NISTIR 7117
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO/TS 19130-2:2014, 4.22
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 프레임
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 프레임
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 3fd83631-b123-5a5f-b954-8a7c2d284f65
+status: valid

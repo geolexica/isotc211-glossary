@@ -1,0 +1,126 @@
+data:
+  _revisions:
+    current: 826e0f
+    tree:
+      826e0f:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (Adapted from)
+            link: https://www.iso.org/standard/32620.html
+            ref: 'ISO/IEC 19501:2005 '
+          date_accepted: '2005-07-15T00:00:00.000Z'
+          definition: механизм общего назначения, служащий для организации элементов
+            в группы
+          entry_status: valid
+          examples: []
+          id: 325
+          language_code: rus
+          lineage_source: Internet
+          notes:
+          - Пакеты могут быть вложены в другие пакеты. В пакете могут находиться как
+            элементы модели, так и диаграммы
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: пакет <UML>
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: пакет <UML>
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-07-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-07-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-07-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''механизм общего назначения, служащий для организации
+    элементов в группы''}]'
+  examples: []
+  id: 325
+  language_code: rus
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Пакеты могут быть вложены в другие пакеты. В пакете могут находиться
+        как элементы модели, так и диаграммы
+    state:
+      _dict:
+        content: Пакеты могут быть вложены в другие пакеты. В пакете могут находиться
+          как элементы модели, так и диаграммы
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: (Adapted from)
+        link: https://www.iso.org/standard/32620.html
+        ref: 'ISO/IEC 19501:2005 '
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: Internet
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: пакет <UML>
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: пакет <UML>
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: c412ef2e-1116-53d7-87ab-8d2e68fe1e89
+status: valid

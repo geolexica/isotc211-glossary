@@ -1,0 +1,123 @@
+data:
+  _revisions:
+    current: f92c0b
+    tree:
+      f92c0b:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.27'
+            link: https://www.iso.org/standard/63541.html
+            ref: ISO 19104:2016
+          date_accepted: '2016-10-01T00:00:00.000Z'
+          definition: register containing items of a single item class
+          entry_status: valid
+          examples:
+          - A register containing terminological entries in a single specified language.
+          id: 1670
+          language_code: eng
+          notes: []
+          release: '4'
+          review_date: '2013-01-29T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2016-10-01T00:00:00.000Z'
+          review_decision_event: Normal ISO processing
+          review_decision_notes: Publication of document ISO 19104:2016(E)
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: simple register
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: simple register
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2016-10-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2016-10-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2016-10-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''register containing items of a single item class''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: A register containing terminological entries in a single specified
+        language.
+    state:
+      _dict:
+        content: A register containing terminological entries in a single specified
+          language.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 1670
+  language_code: eng
+  notes: []
+  release: '4'
+  reviewDate: 2013-01-29
+  reviewDecisionDate: 2016-10-01
+  reviewDecisionEvent: Normal ISO processing
+  review_decision: accepted
+  review_decision_notes: Publication of document ISO 19104:2016(E)
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.27'
+        link: https://www.iso.org/standard/63541.html
+        ref: ISO 19104:2016
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: simple register
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: simple register
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 907efafc-3dd6-501e-b523-0ee2d4c5a318
+status: valid

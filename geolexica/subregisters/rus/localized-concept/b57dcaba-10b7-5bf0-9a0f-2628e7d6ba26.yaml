@@ -1,0 +1,128 @@
+data:
+  _revisions:
+    current: ad362b
+    tree:
+      ad362b:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: Fifth Edition
+            ref: IHO Hydrographic Dictionary S-32
+          date_accepted: '2014-01-15T00:00:00.000Z'
+          definition: Широкополосный эхолот для использования при картографировани
+            морского дна и съемке с  помощью многолучевого источника
+          entry_status: valid
+          examples: []
+          id: 1563
+          language_code: rus
+          lineage_source: ISO/TS 19130-2:2014, 4.44
+          lineage_source_similarity: '1'
+          notes:
+          - глубины измеряются непосредственно под и поперек судовой колеи. Ширина
+            полосы зависит от количества лучей и их апертуры.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: многолучевой SONAR
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: многолучевой SONAR
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-01-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-01-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-01-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''Широкополосный эхолот для использования при картографировани
+    морского дна и съемке с помощью многолучевого источника''}]'
+  examples: []
+  id: 1563
+  language_code: rus
+  lineage_source_similarity: '1'
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: глубины измеряются непосредственно под и поперек судовой колеи. Ширина
+        полосы зависит от количества лучей и их апертуры.
+    state:
+      _dict:
+        content: глубины измеряются непосредственно под и поперек судовой колеи. Ширина
+          полосы зависит от количества лучей и их апертуры.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: Fifth Edition
+        ref: IHO Hydrographic Dictionary S-32
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO/TS 19130-2:2014, 4.44
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: многолучевой SONAR
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: многолучевой SONAR
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: b57dcaba-10b7-5bf0-9a0f-2628e7d6ba26
+status: valid

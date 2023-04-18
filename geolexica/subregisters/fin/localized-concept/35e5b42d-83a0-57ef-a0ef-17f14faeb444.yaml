@@ -1,0 +1,150 @@
+data:
+  _revisions:
+    current: '408823'
+    tree:
+      '408823':
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/40601.html
+            ref: ISO 19132:2007
+          date_accepted: '2007-10-15T00:00:00.000Z'
+          definition: attribuuttiarvon muutos, jonka voidaan olettaa tapahtuneen ilman
+            kahden tunnetun mittauksen välillä olevia arvoja
+          entry_status: valid
+          examples: []
+          id: 662
+          language_code: fin
+          lineage_source: Internet
+          notes:
+          - Kiinteistöjä koskevat juridiset muutokset ovat diskreettejä, kun ne ovat
+            tapahtuneet tiettyinä aikoina.
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: diskreetti muutos
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: diskreetti muutos
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: epäjatkuva muutos
+              type: expression
+            state:
+              _dict:
+                designation: epäjatkuva muutos
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2007-10-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2007-10-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2007-10-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''attribuuttiarvon muutos, jonka voidaan olettaa tapahtuneen
+    ilman kahden tunnetun mittauksen välillä olevia arvoja''}]'
+  examples: []
+  id: 662
+  language_code: fin
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Kiinteistöjä koskevat juridiset muutokset ovat diskreettejä, kun ne
+        ovat tapahtuneet tiettyinä aikoina.
+    state:
+      _dict:
+        content: Kiinteistöjä koskevat juridiset muutokset ovat diskreettejä, kun
+          ne ovat tapahtuneet tiettyinä aikoina.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/40601.html
+        ref: ISO 19132:2007
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: Internet
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: diskreetti muutos
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: diskreetti muutos
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: epäjatkuva muutos
+      type: expression
+    state:
+      _dict:
+        designation: epäjatkuva muutos
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 35e5b42d-83a0-57ef-a0ef-17f14faeb444
+status: valid

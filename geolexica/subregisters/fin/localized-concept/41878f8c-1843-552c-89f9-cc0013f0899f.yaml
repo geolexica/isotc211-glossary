@@ -1,0 +1,162 @@
+data:
+  _revisions:
+    current: 722f62
+    tree:
+      722f62:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32551.html
+            ref: ISO 19133:2005
+          date_accepted: '2005-10-15T00:00:00.000Z'
+          definition: positiivisesti painotettu suunnattu verkko, joka on konfiguroitu
+            hakemaan suorin reitti
+          entry_status: valid
+          examples: []
+          id: 133
+          language_code: fin
+          lineage_source: 'Sanastokeskus TSK: Geoinformatiikan sanasto (TSK 32), 2005'
+          notes:
+          - Termi on peräisin tunnetuimmasta algoritmista, jonka tarkoituksena on
+            löytää lyhyin reitti positiivisesti painotetussa verkossa, ks. E. Dijkstran
+            artikkeli [7]. Tämä algoritmi ei ole ainoa käytössä oleva, mutta Dijkstran
+            verkkoa koskevat ehdot ovat yhteisiä useimmille algoritmeille. Yleisin
+            ehtoja koskeva lievennys liittyy positiivisiin painoihin; positiivisia
+            painoja ei tarvita Bellman-Ford -algoritmissa [4], [8].
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: Dijkstran verkko
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: Dijkstran verkko
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: Dijkstran graafi
+              type: expression
+            state:
+              _dict:
+                designation: Dijkstran graafi
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-10-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-10-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-10-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''positiivisesti painotettu suunnattu verkko, joka on
+    konfiguroitu hakemaan suorin reitti''}]'
+  examples: []
+  id: 133
+  language_code: fin
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Termi on peräisin tunnetuimmasta algoritmista, jonka tarkoituksena
+        on löytää lyhyin reitti positiivisesti painotetussa verkossa, ks. E. Dijkstran
+        artikkeli [7]. Tämä algoritmi ei ole ainoa käytössä oleva, mutta Dijkstran
+        verkkoa koskevat ehdot ovat yhteisiä useimmille algoritmeille. Yleisin ehtoja
+        koskeva lievennys liittyy positiivisiin painoihin; positiivisia painoja ei
+        tarvita Bellman-Ford -algoritmissa [4], [8].
+    state:
+      _dict:
+        content: Termi on peräisin tunnetuimmasta algoritmista, jonka tarkoituksena
+          on löytää lyhyin reitti positiivisesti painotetussa verkossa, ks. E. Dijkstran
+          artikkeli [7]. Tämä algoritmi ei ole ainoa käytössä oleva, mutta Dijkstran
+          verkkoa koskevat ehdot ovat yhteisiä useimmille algoritmeille. Yleisin ehtoja
+          koskeva lievennys liittyy positiivisiin painoihin; positiivisia painoja
+          ei tarvita Bellman-Ford -algoritmissa [4], [8].
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/32551.html
+        ref: ISO 19133:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: 'Sanastokeskus TSK: Geoinformatiikan sanasto (TSK 32), 2005'
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: Dijkstran verkko
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: Dijkstran verkko
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: Dijkstran graafi
+      type: expression
+    state:
+      _dict:
+        designation: Dijkstran graafi
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 41878f8c-1843-552c-89f9-cc0013f0899f
+status: valid

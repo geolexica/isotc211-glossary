@@ -1,0 +1,133 @@
+data:
+  _revisions:
+    current: 5ddf23
+    tree:
+      5ddf23:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/44875.html
+            ref: ISO 19126:2009
+          country_code: swe
+          date_accepted: '2009-11-01T00:00:00.000Z'
+          definition: 'registry containing multiple registers that share the same
+            item classes and coordinated management of a common characteristic
+
+            registersytem med flera register vilka delar samma företeelseklasser och
+            samma samordnade hantering av ett gemensamt kännetecken'
+          entry_status: valid
+          examples: []
+          id: 851
+          language_code: swe
+          lineage_source: (Type reference to national language document)
+          notes:
+          - The common characteristic may be a shared namespace for the assignment
+            of names and/or codes.
+          release: '2'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: sammansatt registersystem
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: sammansatt registersystem
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2009-11-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  country_code: swe
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2009-11-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2009-11-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''registry containing multiple registers that share
+    the same item classes and coordinated management of a common characteristic\nregistersytem
+    med flera register vilka delar samma företeelseklasser och samma samordnade hantering
+    av ett gemensamt kännetecken''}]'
+  examples: []
+  id: 851
+  language_code: swe
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: The common characteristic may be a shared namespace for the assignment
+        of names and/or codes.
+    state:
+      _dict:
+        content: The common characteristic may be a shared namespace for the assignment
+          of names and/or codes.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '2'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/44875.html
+        ref: ISO 19126:2009
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: (Type reference to national language document)
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: sammansatt registersystem
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: sammansatt registersystem
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: bcf2f8e5-0121-5cb1-baa0-3919dbce3d52
+status: valid

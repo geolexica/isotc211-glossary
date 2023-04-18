@@ -1,0 +1,135 @@
+data:
+  _revisions:
+    current: aa87b8
+    tree:
+      aa87b8:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: 1.7.2, modified
+            link: https://www.iso.org/standard/57284.html
+            ref: ISO 14721:2012
+          date_accepted: '2014-11-01T00:00:00.000Z'
+          definition: основа для понимания значимых взаимосвязей между сущностями
+            определенной  среды и для разработки совместимых стандартов или спецификаций,
+            поддерживающих эту среду
+          entry_status: valid
+          examples: []
+          id: 1432
+          language_code: rus
+          lineage_source: перевод ИСО 19101-1:2014,
+          lineage_source_similarity: '1'
+          notes:
+          - Эталонная модель построена на основе небольшого количества унифицированных
+            понятий и может использоваться в качестве базиса при обучении или разъяснении
+            положений стандартов неспециалисту.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: эталонная модель
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: эталонная модель
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-11-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-11-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-11-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''основа для понимания значимых взаимосвязей между сущностями
+    определенной среды и для разработки совместимых стандартов или спецификаций, поддерживающих
+    эту среду''}]'
+  examples: []
+  id: 1432
+  language_code: rus
+  lineage_source_similarity: '1'
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Эталонная модель построена на основе небольшого количества унифицированных
+        понятий и может использоваться в качестве базиса при обучении или разъяснении
+        положений стандартов неспециалисту.
+    state:
+      _dict:
+        content: Эталонная модель построена на основе небольшого количества унифицированных
+          понятий и может использоваться в качестве базиса при обучении или разъяснении
+          положений стандартов неспециалисту.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: 1.7.2, modified
+        link: https://www.iso.org/standard/57284.html
+        ref: ISO 14721:2012
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: перевод ИСО 19101-1:2014,
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: эталонная модель
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: эталонная модель
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: ecf7e21f-2abb-5d20-893e-57e8b228642c
+status: valid

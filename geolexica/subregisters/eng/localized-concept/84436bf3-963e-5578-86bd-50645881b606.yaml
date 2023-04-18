@@ -1,0 +1,122 @@
+data:
+  _revisions:
+    current: b28126
+    tree:
+      b28126:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32562.html
+            ref: ISO 19144-1:2009
+          date_accepted: '2009-08-15T00:00:00.000Z'
+          definition: classification scheme based upon definition of classes after
+            clustering the field samples collected
+          entry_status: valid
+          examples: []
+          id: 815
+          language_code: eng
+          notes:
+          - Taken from FAO LCCS version 2 (see Reference [2] in ISO 19144-1)
+          - See Annex B [of ISO 19144-1] for an examination of this and a priori classification
+          release: '2'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: a posteriori classification
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: a posteriori classification
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2009-08-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2009-08-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2009-08-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''classification scheme based upon definition of classes
+    after clustering the field samples collected''}]'
+  examples: []
+  id: 815
+  language_code: eng
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Taken from FAO LCCS version 2 (see Reference [2] in ISO 19144-1)
+    state:
+      _dict:
+        content: Taken from FAO LCCS version 2 (see Reference [2] in ISO 19144-1)
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: See Annex B [of ISO 19144-1] for an examination of this and a priori
+        classification
+    state:
+      _dict:
+        content: See Annex B [of ISO 19144-1] for an examination of this and a priori
+          classification
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '2'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/32562.html
+        ref: ISO 19144-1:2009
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: a posteriori classification
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: a posteriori classification
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 84436bf3-963e-5578-86bd-50645881b606
+status: valid

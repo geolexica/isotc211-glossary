@@ -1,0 +1,137 @@
+data:
+  _revisions:
+    current: 332c5d
+    tree:
+      332c5d:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: Web Services Glossary
+            ref: W3C
+          date_accepted: '2014-02-15T00:00:00.000Z'
+          definition: mechanism to defeat the purpose of a subsystem by avoiding its
+            invocation
+          entry_status: valid
+          examples: []
+          id: 1212
+          language_code: eng
+          lineage_source: ISO 19153:2014, 4.6
+          lineage_source_similarity: 1
+          notes:
+          - Security systems are bypassed usually by using security faults in the
+            operating system. Such infringements are more an aspect of the operating
+            system than of the security system. To correct this, the relationship
+            between the security system and the operating system shall be modified
+            to prevent bypass mechanisms.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: bypass
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: bypass
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-02-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-02-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-02-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''mechanism to defeat the purpose of a subsystem by
+    avoiding its invocation''}]'
+  examples: []
+  id: 1212
+  language_code: eng
+  lineage_source_similarity: 1
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Security systems are bypassed usually by using security faults in the
+        operating system. Such infringements are more an aspect of the operating system
+        than of the security system. To correct this, the relationship between the
+        security system and the operating system shall be modified to prevent bypass
+        mechanisms.
+    state:
+      _dict:
+        content: Security systems are bypassed usually by using security faults in
+          the operating system. Such infringements are more an aspect of the operating
+          system than of the security system. To correct this, the relationship between
+          the security system and the operating system shall be modified to prevent
+          bypass mechanisms.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: Web Services Glossary
+        ref: W3C
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19153:2014, 4.6
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: bypass
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: bypass
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 0b927216-4b95-56a5-9f5d-4fc634a2b759
+status: valid

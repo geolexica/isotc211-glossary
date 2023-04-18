@@ -1,0 +1,124 @@
+data:
+  _revisions:
+    current: 678fb9
+    tree:
+      678fb9:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32551.html
+            ref: ISO 19133:2005
+          date_accepted: '2005-10-15T00:00:00.000Z'
+          definition: estructura abstracta consistente en un conjunto de objetos adimensionales,
+            llamados cruces, y en un conjunto de objetos unidimensionales llamados
+            enlaces que conectan los cruces, y cada enlace lleva asociado un cruce
+            de inicio (origen, fuente) y un cruce fin (destino, sumidero)
+          entry_status: valid
+          examples: []
+          id: 308
+          language_code: spa
+          notes:
+          - La red es esencialmente el universo del discurso para el problema de la
+            navegación. Las redes son una variedad de complejos topológicos unidimensionales.
+            De esta forma, cruce y nodo topológico son sinónimos, como lo son enlace
+            y arco orientado.
+          release: '1'
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: red
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: red
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2005-10-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2005-10-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2005-10-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''estructura abstracta consistente en un conjunto de
+    objetos adimensionales, llamados cruces, y en un conjunto de objetos unidimensionales
+    llamados enlaces que conectan los cruces, y cada enlace lleva asociado un cruce
+    de inicio (origen, fuente) y un cruce fin (destino, sumidero)''}]'
+  examples: []
+  id: 308
+  language_code: spa
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: La red es esencialmente el universo del discurso para el problema de
+        la navegación. Las redes son una variedad de complejos topológicos unidimensionales.
+        De esta forma, cruce y nodo topológico son sinónimos, como lo son enlace y
+        arco orientado.
+    state:
+      _dict:
+        content: La red es esencialmente el universo del discurso para el problema
+          de la navegación. Las redes son una variedad de complejos topológicos unidimensionales.
+          De esta forma, cruce y nodo topológico son sinónimos, como lo son enlace
+          y arco orientado.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/32551.html
+        ref: ISO 19133:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: red
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: red
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 254b68aa-cba9-5432-aa88-62928e10f5e6
+status: valid

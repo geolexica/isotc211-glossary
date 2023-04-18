@@ -1,0 +1,134 @@
+data:
+  _revisions:
+    current: d0162f
+    tree:
+      d0162f:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.12
+            link: https://www.iso.org/standard/70882.html
+            ref: ISO 19116:2019
+          date_accepted: '2004-07-01T00:00:00.000Z'
+          definition: sistema de posicionamiento que emplea acelerómetros, giróscopos,
+            y ordenadores como componentes integrales para determinar coordenadas
+            de puntos u objetos relativos a un punto inicial de referencia conocido
+          entry_status: valid
+          examples: []
+          id: 240
+          language_code: spa
+          lineage_source: ISO 19116:2004(E)
+          lineage_source_similarity: 1
+          notes: []
+          release: '1'
+          review_date: '2019-12-02T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-12-02T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19116:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19116:2004
+            to ISO 19116:2019(E), 3.12. Lineage source added as ISO 19116:2004(E)
+          review_indicator: ''
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: sistema de posicionamiento inercial
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: sistema de posicionamiento inercial
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2004-07-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2004-07-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2004-07-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''sistema de posicionamiento que emplea acelerómetros,
+    giróscopos, y ordenadores como componentes integrales para determinar coordenadas
+    de puntos u objetos relativos a un punto inicial de referencia conocido''}]'
+  examples: []
+  id: 240
+  language_code: spa
+  lineage_source_similarity: 1
+  notes: []
+  release: '1'
+  reviewDate: 2019-12-02
+  reviewDecisionDate: 2019-12-02
+  reviewDecisionEvent: Publication of ISO 19116:2019(E)
+  review_decision: accepted
+  review_decision_notes: Authoritative reference changed from ISO 19116:2004 to ISO
+    19116:2019(E), 3.12. Lineage source added as ISO 19116:2004(E)
+  review_indicator: ''
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: (E), 3.12
+        link: https://www.iso.org/standard/70882.html
+        ref: ISO 19116:2019
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19116:2004(E)
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: sistema de posicionamiento inercial
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: sistema de posicionamiento inercial
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 9b1b87cd-d90d-5d11-a304-deb077550d4d
+status: valid

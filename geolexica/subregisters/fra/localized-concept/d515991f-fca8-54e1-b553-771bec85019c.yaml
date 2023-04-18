@@ -1,0 +1,114 @@
+data:
+  _revisions:
+    current: 81048c
+    tree:
+      81048c:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (1997)
+            ref: 'ITU-R Rec.TF.686-1 '
+          date_accepted: '2002-09-01T00:00:00.000Z'
+          definition: échelle de temps maintenue par le Bureau international des Poids
+            et Mesures et l'International Earth Rotation Service (IERS) qui forme
+            la base d'une diffusion coordonnée des fréquences étalon et de l'heure
+          entry_status: valid
+          examples: []
+          id: 96
+          language_code: fra
+          lineage_source: ISO 19108
+          lineage_source_similarity: 1
+          notes: []
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: Temps Universel Coordonné (UTC)
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: Temps Universel Coordonné (UTC)
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2002-09-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2002-09-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2002-09-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': "échelle de temps maintenue par le Bureau international
+    des Poids et Mesures et l''International Earth Rotation Service (IERS) qui forme
+    la base d''une diffusion coordonnée des fréquences étalon et de l''heure"}]'
+  examples: []
+  id: 96
+  language_code: fra
+  lineage_source_similarity: 1
+  notes: []
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: (1997)
+        ref: 'ITU-R Rec.TF.686-1 '
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19108
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: Temps Universel Coordonné (UTC)
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: Temps Universel Coordonné (UTC)
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: d515991f-fca8-54e1-b553-771bec85019c
+status: valid

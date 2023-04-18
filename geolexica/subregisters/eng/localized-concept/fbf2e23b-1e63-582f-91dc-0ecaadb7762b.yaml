@@ -1,0 +1,130 @@
+data:
+  _revisions:
+    current: fd0d45
+    tree:
+      fd0d45:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/30726.html
+            ref: ISO/IEC TR 10000-1:1998
+          date_accepted: '2004-07-01T00:00:00.000Z'
+          definition: set of one or more base standards or subsets of base standards,
+            and, where applicable, the identification of chosen clauses, classes,
+            options and parameters of those base standards, that are necessary for
+            accomplishing a particular function
+          entry_status: valid
+          examples: []
+          id: 356
+          language_code: eng
+          lineage_source: ISO 19106:2004
+          notes:
+          - A profile is derived from base standards so that by definition, conformance
+            to a profile is conformance to the base standards from which it is derived.
+          release: '2'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: profile
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: profile
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2004-07-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2004-07-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2004-07-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''set of one or more base standards or subsets of base
+    standards, and, where applicable, the identification of chosen clauses, classes,
+    options and parameters of those base standards, that are necessary for accomplishing
+    a particular function''}]'
+  examples: []
+  id: 356
+  language_code: eng
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: A profile is derived from base standards so that by definition, conformance
+        to a profile is conformance to the base standards from which it is derived.
+    state:
+      _dict:
+        content: A profile is derived from base standards so that by definition, conformance
+          to a profile is conformance to the base standards from which it is derived.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '2'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/30726.html
+        ref: ISO/IEC TR 10000-1:1998
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19106:2004
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: profile
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: profile
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: fbf2e23b-1e63-582f-91dc-0ecaadb7762b
+status: valid

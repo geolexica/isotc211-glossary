@@ -1,0 +1,130 @@
+data:
+  _revisions:
+    current: 4ba3f9
+    tree:
+      4ba3f9:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            ref: ANSI T1.523-2001
+          date_accepted: '2009-04-01T00:00:00.000Z'
+          definition: تقليص عدد عناصر البيانات ، وعرض النطاق الترددي ، والتكلفة ،
+            والوقت المستغرق في إنتاج ونقل وتخزين البيانات دون  فقدان المعلومات ، من
+            خلال القضاء على  التكرار الغير لازم و إزالة ما ليس له صلة أو استخدام ترميز
+            خاص
+          entry_status: valid
+          examples: []
+          id: 916
+          language_code: ara
+          notes:
+          - بينما يؤدي رص البيانات إلى تقليص كم البيانات المستخدمة لتمثيل كم محدد
+            من المعلومات فإن ضغط البيانات لا يؤدي إلى هذه النتيجة. .
+          - يمكن تدميج البيانات عن طريق تجميع القيم المتماثلة في الخلايا الشبكية المتجاورة
+            ، أو مخططات التبليط أو أي طريقة أخرى للتخلص من المعلومات التي لا صلة لها
+            ..
+          release: '2'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: رص البيانات
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: رص البيانات
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2009-04-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2009-04-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2009-04-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''تقليص عدد عناصر البيانات ، وعرض النطاق الترددي ، والتكلفة
+    ، والوقت المستغرق في إنتاج ونقل وتخزين البيانات دون فقدان المعلومات ، من خلال
+    القضاء على التكرار الغير لازم و إزالة ما ليس له صلة أو استخدام ترميز خاص''}]'
+  examples: []
+  id: 916
+  language_code: ara
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: بينما يؤدي رص البيانات إلى تقليص كم البيانات المستخدمة لتمثيل كم محدد
+        من المعلومات فإن ضغط البيانات لا يؤدي إلى هذه النتيجة. .
+    state:
+      _dict:
+        content: بينما يؤدي رص البيانات إلى تقليص كم البيانات المستخدمة لتمثيل كم
+          محدد من المعلومات فإن ضغط البيانات لا يؤدي إلى هذه النتيجة. .
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: يمكن تدميج البيانات عن طريق تجميع القيم المتماثلة في الخلايا الشبكية
+        المتجاورة ، أو مخططات التبليط أو أي طريقة أخرى للتخلص من المعلومات التي لا
+        صلة لها ..
+    state:
+      _dict:
+        content: يمكن تدميج البيانات عن طريق تجميع القيم المتماثلة في الخلايا الشبكية
+          المتجاورة ، أو مخططات التبليط أو أي طريقة أخرى للتخلص من المعلومات التي
+          لا صلة لها ..
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '2'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        ref: ANSI T1.523-2001
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: رص البيانات
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: رص البيانات
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 49e9de73-194e-5a00-8c75-ec75fb138b57
+status: valid

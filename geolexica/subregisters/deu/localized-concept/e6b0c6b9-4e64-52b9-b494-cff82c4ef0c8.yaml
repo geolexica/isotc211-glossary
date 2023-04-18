@@ -1,0 +1,125 @@
+data:
+  _revisions:
+    current: e6c8f9
+    tree:
+      e6c8f9:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/44875.html
+            ref: ISO 19126:2009
+          date_accepted: '2009-11-01T00:00:00.000Z'
+          entry_status: valid
+          examples:
+          - '"Deciduous needle leaf" is a nominal value that identifies a vegetation
+            type.'
+          id: 863
+          language_code: deu
+          notes:
+          - Many feature attributes take nominal rather than numerical values.  The
+            value domain of such an attribute is usually specified as an enumeration
+            or a code list.
+          release: '2'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: Nominalwert
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: Nominalwert
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2009-11-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2009-11-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2009-11-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: '"Deciduous needle leaf" is a nominal value that identifies a vegetation
+        type.'
+    state:
+      _dict:
+        content: '"Deciduous needle leaf" is a nominal value that identifies a vegetation
+          type.'
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 863
+  language_code: deu
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Many feature attributes take nominal rather than numerical values.  The
+        value domain of such an attribute is usually specified as an enumeration or
+        a code list.
+    state:
+      _dict:
+        content: Many feature attributes take nominal rather than numerical values.  The
+          value domain of such an attribute is usually specified as an enumeration
+          or a code list.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '2'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/44875.html
+        ref: ISO 19126:2009
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: Nominalwert
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: Nominalwert
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: e6b0c6b9-4e64-52b9-b494-cff82c4ef0c8
+status: valid

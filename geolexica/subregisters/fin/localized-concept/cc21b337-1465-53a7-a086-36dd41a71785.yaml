@@ -1,0 +1,136 @@
+data:
+  _revisions:
+    current: '763789'
+    tree:
+      '763789':
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32546.html
+            ref: ISO 19128:2005
+          date_accepted: '2013-07-03T00:00:00.000Z'
+          definition: tietokoneen tai ohjelman toiselle tietokoneelle tai ohjelmalle
+            palauttama toiminnon tulos
+          entry_status: valid
+          examples: []
+          id: 384
+          language_code: fin
+          lineage_source: 'Sanastokeskus TSK: Geoinformatiikan sanasto (TSK 45), 2013'
+          notes: []
+          review_indicator: ''
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: vastaus
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: vastaus
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: vaste
+              type: expression
+            state:
+              _dict:
+                designation: vaste
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2013-07-03T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2013-07-03T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2013-07-03T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''tietokoneen tai ohjelman toiselle tietokoneelle tai
+    ohjelmalle palauttama toiminnon tulos''}]'
+  examples: []
+  id: 384
+  language_code: fin
+  notes: []
+  review_indicator: ''
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/32546.html
+        ref: ISO 19128:2005
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: 'Sanastokeskus TSK: Geoinformatiikan sanasto (TSK 45), 2013'
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: vastaus
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: vastaus
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: vaste
+      type: expression
+    state:
+      _dict:
+        designation: vaste
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: cc21b337-1465-53a7-a086-36dd41a71785
+status: valid

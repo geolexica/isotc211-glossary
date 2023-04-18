@@ -1,0 +1,214 @@
+data:
+  _revisions:
+    current: a29ec1
+    tree:
+      a29ec1:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.17'
+            link: https://www.iso.org/standard/60080.html
+            ref: ISO/TS 19159-1:2014
+          date_accepted: '2014-07-15T00:00:00.000Z'
+          definition: близость измеренного значения к истинному значению измеряемой
+            величины
+          entry_status: valid
+          examples: []
+          id: 1607
+          language_code: rus
+          lineage_source: ISO 6709:2008, 4.1, modified – The preferred term is "measurement
+            accuracy" rather than "accuracy" and Notes 1 to 3 have been added.
+          lineage_source_similarity: 1
+          notes:
+          - Понятие "точность измерений" не является величиной и ей не может быть
+            присвоено числовое значение величины. Считается, что измерений является
+            более точным, если оно имеет меньшую погрешность измерения.
+          - Термин "точность измерений" не следует использовать для обозначения правильности
+            измерений, а термин "прецизионность измерений" - для обозначения точности
+            измерений, хотя она имеет связь с двумя этими понятиями.
+          - Под "точностью измерений" иногла понимают близость между значениями величины,
+            приписываемыми измеряемой величине.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: точность (результата) измерения
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: точность (результата) измерения
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: точность измерения
+              type: expression
+            state:
+              _dict:
+                designation: точность измерения
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: точность
+              type: expression
+            state:
+              _dict:
+                designation: точность
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-07-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-07-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-07-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''близость измеренного значения к истинному значению
+    измеряемой величины''}]'
+  examples: []
+  id: 1607
+  language_code: rus
+  lineage_source_similarity: 1
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Понятие "точность измерений" не является величиной и ей не может быть
+        присвоено числовое значение величины. Считается, что измерений является более
+        точным, если оно имеет меньшую погрешность измерения.
+    state:
+      _dict:
+        content: Понятие "точность измерений" не является величиной и ей не может
+          быть присвоено числовое значение величины. Считается, что измерений является
+          более точным, если оно имеет меньшую погрешность измерения.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Термин "точность измерений" не следует использовать для обозначения
+        правильности измерений, а термин "прецизионность измерений" - для обозначения
+        точности измерений, хотя она имеет связь с двумя этими понятиями.
+    state:
+      _dict:
+        content: Термин "точность измерений" не следует использовать для обозначения
+          правильности измерений, а термин "прецизионность измерений" - для обозначения
+          точности измерений, хотя она имеет связь с двумя этими понятиями.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Под "точностью измерений" иногла понимают близость между значениями
+        величины, приписываемыми измеряемой величине.
+    state:
+      _dict:
+        content: Под "точностью измерений" иногла понимают близость между значениями
+          величины, приписываемыми измеряемой величине.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.17'
+        link: https://www.iso.org/standard/60080.html
+        ref: ISO/TS 19159-1:2014
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 6709:2008, 4.1, modified – The preferred term is "measurement accuracy"
+          rather than "accuracy" and Notes 1 to 3 have been added.
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: точность (результата) измерения
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: точность (результата) измерения
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: точность измерения
+      type: expression
+    state:
+      _dict:
+        designation: точность измерения
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: точность
+      type: expression
+    state:
+      _dict:
+        designation: точность
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 66a6d347-9a3a-5ab1-a979-9288f3bbf2e1
+status: valid

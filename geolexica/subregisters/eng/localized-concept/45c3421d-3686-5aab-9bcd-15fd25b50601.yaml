@@ -1,0 +1,116 @@
+data:
+  _revisions:
+    current: 3833c3
+    tree:
+      3833c3:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.5'
+            link: https://www.iso.org/standard/32571.html
+            ref: ISO 19153:2014
+          date_accepted: '2014-02-15T00:00:00.000Z'
+          definition: determination whether a subject is allowed to have the specified
+            types of access to a particular resource
+          entry_status: valid
+          examples: []
+          id: 1211
+          language_code: eng
+          notes:
+          - Usually, authorization is in the context of authentication. Once a subject
+            is authenticated, it can be authorized to perform different types of access.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: authorization
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: authorization
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-02-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-02-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-02-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''determination whether a subject is allowed to have
+    the specified types of access to a particular resource''}]'
+  examples: []
+  id: 1211
+  language_code: eng
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Usually, authorization is in the context of authentication. Once a
+        subject is authenticated, it can be authorized to perform different types
+        of access.
+    state:
+      _dict:
+        content: Usually, authorization is in the context of authentication. Once
+          a subject is authenticated, it can be authorized to perform different types
+          of access.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.5'
+        link: https://www.iso.org/standard/32571.html
+        ref: ISO 19153:2014
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: authorization
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: authorization
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 45c3421d-3686-5aab-9bcd-15fd25b50601
+status: valid

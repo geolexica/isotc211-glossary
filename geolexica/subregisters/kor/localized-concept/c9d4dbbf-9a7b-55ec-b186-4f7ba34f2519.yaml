@@ -1,0 +1,130 @@
+data:
+  _revisions:
+    current: d33376
+    tree:
+      d33376:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          date_accepted: '2004-07-01T00:00:00.000Z'
+          definition: 측정 결과와 관련, 측정량을 합리적으로 속성화할 수 있는 특징적인 분산 값을 나타내는 매개 변수
+          entry_status: valid
+          examples: []
+          id: 480
+          language_code: kor
+          lineage_source: ISO 19116:2004(E)
+          lineage_source_similarity: 1
+          notes:
+          - 좌표와 같은 측정값의 정밀도와 정확도의 품질이 정량적 특성을 지닐 때, 품질 매개 변수는 측정 결과 불확실성의 하나의 추정치이다.
+            정확도는 정성적인 개념이기 때문에, 이를 정량적으로 사용해서는 안 된다. 즉, 불확실성을 가진 연관수이다. 대신 그 수는 불확실성의
+            측정과 연관되어야 한다.
+          release: '1'
+          review_date: '2019-12-02T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-12-02T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19116:2019(E)
+          review_decision_notes: Authoritative reference changed from Guide to the
+            Expression of Uncertainty in Measurement (GUM), 1995 to . Lineage source
+            added as ISO 19116:2004(E)
+          review_indicator: ''
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 불확실성
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 불확실성
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2004-07-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2004-07-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2004-07-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''측정 결과와 관련, 측정량을 합리적으로 속성화할 수 있는 특징적인 분산 값을 나타내는 매개
+    변수''}]'
+  examples: []
+  id: 480
+  language_code: kor
+  lineage_source_similarity: 1
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: 좌표와 같은 측정값의 정밀도와 정확도의 품질이 정량적 특성을 지닐 때, 품질 매개 변수는 측정 결과 불확실성의 하나의 추정치이다.
+        정확도는 정성적인 개념이기 때문에, 이를 정량적으로 사용해서는 안 된다. 즉, 불확실성을 가진 연관수이다. 대신 그 수는 불확실성의
+        측정과 연관되어야 한다.
+    state:
+      _dict:
+        content: 좌표와 같은 측정값의 정밀도와 정확도의 품질이 정량적 특성을 지닐 때, 품질 매개 변수는 측정 결과 불확실성의 하나의
+          추정치이다. 정확도는 정성적인 개념이기 때문에, 이를 정량적으로 사용해서는 안 된다. 즉, 불확실성을 가진 연관수이다. 대신 그
+          수는 불확실성의 측정과 연관되어야 한다.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  reviewDate: 2019-12-02
+  reviewDecisionDate: 2019-12-02
+  reviewDecisionEvent: Publication of ISO 19116:2019(E)
+  review_decision: accepted
+  review_decision_notes: Authoritative reference changed from Guide to the Expression
+    of Uncertainty in Measurement (GUM), 1995 to . Lineage source added as ISO 19116:2004(E)
+  review_indicator: ''
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        ref: ISO 19116:2004(E)
+      type: lineage
+    state:
+      _dict:
+        origin: *id001
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 불확실성
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 불확실성
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: c9d4dbbf-9a7b-55ec-b186-4f7ba34f2519
+status: valid

@@ -1,0 +1,145 @@
+data:
+  _revisions:
+    current: c18d68
+    tree:
+      c18d68:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/43041.html
+            ref: ISO/TS 19129:2009
+          date_accepted: '2009-04-01T00:00:00.000Z'
+          definition: уменьшение  объема пространства, необходимого для хранения заданного
+            объема данных, либо длины сообщения, требуемого для передачи определенного
+            объема информации
+          entry_status: valid
+          examples: []
+          id: 1118
+          language_code: rus
+          lineage_source: перевод ИСО/ТС 19129:2009
+          notes:
+          - Адаптировано из ANSI T1.523-2001.
+          - Сжатие данных является вероятностным по характеру в зависимости от конкретных
+            вариантов изображения, данных с географической привязкой или данных масштаба,
+            и связано с кодированием, в связи с чем не входит в область применения
+            данных Технических условий.
+          release: '2'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: Сжатие данных
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: Сжатие данных
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2009-04-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2009-04-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2009-04-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''уменьшение объема пространства, необходимого для хранения
+    заданного объема данных, либо длины сообщения, требуемого для передачи определенного
+    объема информации''}]'
+  examples: []
+  id: 1118
+  language_code: rus
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Адаптировано из ANSI T1.523-2001.
+    state:
+      _dict:
+        content: Адаптировано из ANSI T1.523-2001.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Сжатие данных является вероятностным по характеру в зависимости от
+        конкретных вариантов изображения, данных с географической привязкой или данных
+        масштаба, и связано с кодированием, в связи с чем не входит в область применения
+        данных Технических условий.
+    state:
+      _dict:
+        content: Сжатие данных является вероятностным по характеру в зависимости от
+          конкретных вариантов изображения, данных с географической привязкой или
+          данных масштаба, и связано с кодированием, в связи с чем не входит в область
+          применения данных Технических условий.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '2'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/43041.html
+        ref: ISO/TS 19129:2009
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: перевод ИСО/ТС 19129:2009
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: Сжатие данных
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: Сжатие данных
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: bc1255dc-6ce4-52bf-b452-9f6b8792e48b
+status: valid

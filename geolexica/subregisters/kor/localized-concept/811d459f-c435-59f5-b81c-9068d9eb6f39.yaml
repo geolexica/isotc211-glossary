@@ -1,0 +1,112 @@
+data:
+  _revisions:
+    current: dbed09
+    tree:
+      dbed09:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: “Law Dictionary,” FindLaw, for legal professionals, 2010, available
+              at <http://dictionary.lp.findlaw.com/>, Modified
+            ref: Thomson Reuters
+          date_accepted: '2014-02-15T00:00:00.000Z'
+          definition: 콘텐츠, 권리, 허가증, 관련 정보를 추적 및 통제하는 행위
+          entry_status: valid
+          examples: []
+          id: 1252
+          language_code: kor
+          lineage_source: ISO 19153:2014, 4.44
+          notes: []
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 권한 관리
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 권한 관리
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-02-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-02-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-02-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''콘텐츠, 권리, 허가증, 관련 정보를 추적 및 통제하는 행위''}]'
+  examples: []
+  id: 1252
+  language_code: kor
+  notes: []
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: “Law Dictionary,” FindLaw, for legal professionals, 2010, available
+          at <http://dictionary.lp.findlaw.com/>, Modified
+        ref: Thomson Reuters
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19153:2014, 4.44
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 권한 관리
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 권한 관리
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 811d459f-c435-59f5-b81c-9068d9eb6f39
+status: valid

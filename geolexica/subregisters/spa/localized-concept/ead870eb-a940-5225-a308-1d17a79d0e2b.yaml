@@ -1,0 +1,139 @@
+data:
+  _revisions:
+    current: 4aed5f
+    tree:
+      4aed5f:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.22'
+            link: https://www.iso.org/standard/46226.html
+            ref: ISO 19117:2012
+          date_accepted: '2012-12-15T00:00:00.000Z'
+          definition: circunstancias impuestas por factores extrínsecos a un conjunto
+            de datos geográficos que afectan a la representación de dicho conjunto
+            de datos
+          entry_status: valid
+          examples:
+          - Los factores que contribuyen al contexto de representación pueden incluir
+            el dispositivo de visualización propuesto, la escala de mapa, las condiciones
+            de visibilidad (día, noche, crepúsculo) y los requerimientos de orientación
+            del dispositivo de visualización (la no necesidad de tener el norte en
+            la parte de arriba de la pantalla o página) entre otros
+          id: 1325
+          language_code: spa
+          notes:
+          - El contexto de representación puede influir en la selección de las funciones
+            de representación y la construcción de los símbolos
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: contexto de representación
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: contexto de representación
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2012-12-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2012-12-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2012-12-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''circunstancias impuestas por factores extrínsecos
+    a un conjunto de datos geográficos que afectan a la representación de dicho conjunto
+    de datos''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Los factores que contribuyen al contexto de representación pueden incluir
+        el dispositivo de visualización propuesto, la escala de mapa, las condiciones
+        de visibilidad (día, noche, crepúsculo) y los requerimientos de orientación
+        del dispositivo de visualización (la no necesidad de tener el norte en la
+        parte de arriba de la pantalla o página) entre otros
+    state:
+      _dict:
+        content: Los factores que contribuyen al contexto de representación pueden
+          incluir el dispositivo de visualización propuesto, la escala de mapa, las
+          condiciones de visibilidad (día, noche, crepúsculo) y los requerimientos
+          de orientación del dispositivo de visualización (la no necesidad de tener
+          el norte en la parte de arriba de la pantalla o página) entre otros
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 1325
+  language_code: spa
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: El contexto de representación puede influir en la selección de las
+        funciones de representación y la construcción de los símbolos
+    state:
+      _dict:
+        content: El contexto de representación puede influir en la selección de las
+          funciones de representación y la construcción de los símbolos
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.22'
+        link: https://www.iso.org/standard/46226.html
+        ref: ISO 19117:2012
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: contexto de representación
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: contexto de representación
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: ead870eb-a940-5225-a308-1d17a79d0e2b
+status: valid

@@ -1,0 +1,98 @@
+data:
+  _revisions:
+    current: 32ae22
+    tree:
+      32ae22:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/41445.html
+            ref: ISO 19141:2008
+          date_accepted: '2008-06-01T00:00:00.000Z'
+          definition: engineering coordinate reference system in which the base representation
+            of a moving object is specified
+          entry_status: valid
+          examples: []
+          id: 754
+          language_code: eng
+          notes: []
+          release: '2'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: design coordinate reference system
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: design coordinate reference system
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2008-06-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2008-06-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2008-06-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''engineering coordinate reference system in which the
+    base representation of a moving object is specified''}]'
+  examples: []
+  id: 754
+  language_code: eng
+  notes: []
+  release: '2'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://www.iso.org/standard/41445.html
+        ref: ISO 19141:2008
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: design coordinate reference system
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: design coordinate reference system
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: b35f86f1-2a2c-56af-bd2b-a3e107d732c7
+status: valid

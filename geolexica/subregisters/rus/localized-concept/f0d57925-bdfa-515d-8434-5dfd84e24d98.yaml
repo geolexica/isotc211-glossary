@@ -1,0 +1,138 @@
+data:
+  _revisions:
+    current: 6534b1
+    tree:
+      6534b1:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          abbrev: DSNU
+          authoritative_source:
+            clause: '4.8'
+            link: https://www.iso.org/standard/60080.html
+            ref: ISO/TS 19159-1:2014
+          date_accepted: '2014-07-15T00:00:00.000Z'
+          definition: реакция элемента детектора при отсутствии видимого или инфракрасного
+            света
+          entry_status: valid
+          examples: []
+          id: 1452
+          language_code: rus
+          lineage_source: ISO/TS 19159-1:2014
+          notes:
+          - Эта активация в основном вызвана несовершенством детектора.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: Неравномерность темнового сигнала
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: Неравномерность темнового сигнала
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-07-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-07-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-07-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''реакция элемента детектора при отсутствии видимого
+    или инфракрасного света''}]'
+  examples: []
+  id: 1452
+  language_code: rus
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Эта активация в основном вызвана несовершенством детектора.
+    state:
+      _dict:
+        content: Эта активация в основном вызвана несовершенством детектора.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.8'
+        link: https://www.iso.org/standard/60080.html
+        ref: ISO/TS 19159-1:2014
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO/TS 19159-1:2014
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: DSNU
+      type: abbreviation
+    state:
+      _dict:
+        designation: DSNU
+        type: abbreviation
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: Неравномерность темнового сигнала
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: Неравномерность темнового сигнала
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: f0d57925-bdfa-515d-8434-5dfd84e24d98
+status: valid

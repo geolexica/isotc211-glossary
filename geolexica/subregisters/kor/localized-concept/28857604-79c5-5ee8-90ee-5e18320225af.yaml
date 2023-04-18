@@ -1,0 +1,112 @@
+data:
+  _revisions:
+    current: e2033f
+    tree:
+      e2033f:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.24'
+            link: https://www.iso.org/standard/32571.html
+            ref: ISO 19153:2014
+          date_accepted: '2014-02-15T00:00:00.000Z'
+          definition: 정해진 기간 동안 자원을 사용할 수 있도록 허가해 주고 추후 회수 받는 행위
+          entry_status: valid
+          examples: []
+          id: 1230
+          language_code: kor
+          notes:
+          - During this period, the resource is only available to the lessee. Temporal
+            constraints are required for downstream use.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 임대차 계약
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 임대차 계약
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-02-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-02-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-02-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''정해진 기간 동안 자원을 사용할 수 있도록 허가해 주고 추후 회수 받는 행위''}]'
+  examples: []
+  id: 1230
+  language_code: kor
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: During this period, the resource is only available to the lessee. Temporal
+        constraints are required for downstream use.
+    state:
+      _dict:
+        content: During this period, the resource is only available to the lessee.
+          Temporal constraints are required for downstream use.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.24'
+        link: https://www.iso.org/standard/32571.html
+        ref: ISO 19153:2014
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 임대차 계약
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 임대차 계약
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 28857604-79c5-5ee8-90ee-5e18320225af
+status: valid

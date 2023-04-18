@@ -1,0 +1,145 @@
+data:
+  _revisions:
+    current: 8a6126
+    tree:
+      8a6126:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            ref: OWL
+          date_accepted: '2015-07-01T00:00:00.000Z'
+          definition: entities that refer to a set of concrete data values
+          entry_status: valid
+          examples:
+          - xsd:string, xsd:integer, xsd:decimal
+          id: 1584
+          language_code: eng
+          lineage_source: ISO 19150-2:2015, 4.1.18
+          notes:
+          - Datatypes are distinct from classes of individuals, the latter are denoted
+            by URIs and may be used by reference.
+          release: '4'
+          review_date: '2012-05-25T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2015-07-01T00:00:00.000Z'
+          review_decision_event: Normal ISO processing
+          review_decision_notes: Publication of document ISO 19150-2:2015(E)
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: datatype <OWL>
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: datatype <OWL>
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2015-07-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2015-07-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2015-07-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''entities that refer to a set of concrete data values''}]'
+  examples:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: xsd:string, xsd:integer, xsd:decimal
+    state:
+      _dict:
+        content: xsd:string, xsd:integer, xsd:decimal
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  id: 1584
+  language_code: eng
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Datatypes are distinct from classes of individuals, the latter are
+        denoted by URIs and may be used by reference.
+    state:
+      _dict:
+        content: Datatypes are distinct from classes of individuals, the latter are
+          denoted by URIs and may be used by reference.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '4'
+  reviewDate: 2012-05-25
+  reviewDecisionDate: 2015-07-01
+  reviewDecisionEvent: Normal ISO processing
+  review_decision: accepted
+  review_decision_notes: Publication of document ISO 19150-2:2015(E)
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        ref: OWL
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19150-2:2015, 4.1.18
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: datatype <OWL>
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: datatype <OWL>
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 1de0e187-e461-5b57-b237-7d73e31333aa
+status: valid

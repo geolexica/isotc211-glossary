@@ -1,0 +1,148 @@
+data:
+  _revisions:
+    current: 42bc31
+    tree:
+      42bc31:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.17
+            link: https://www.iso.org/standard/66175.html
+            ref: ISO 19107:2019
+          date_accepted: '2019-12-02T00:00:00.000Z'
+          definition: number of separate decisions needed to describe a position in
+            a coordinate system
+          entry_status: valid
+          examples: []
+          id: 2039
+          language_code: eng
+          notes:
+          - The coordinate dimension represents the number of choices made, and constraints
+            can restrict choices. A barycentric coordinate which has (n+1)-offsets,
+            but the underlying space is dimension n. Homogeneous coordinates (wx,
+            wy, wz, w) are actually 3 dimensional because the choice of "w" does not
+            affect the position, i.e. (wx, wy, wz, w) = (x y, z, 1) → (x, y, z) which
+            is not affected by w. The dimension will be at most the count of the numbers
+            in the coordinate, but it can be less if the coordinates are constrained
+            in some manner.asie
+          release: '5'
+          review_date: '2019-12-02T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-12-02T00:00:00.000Z'
+          review_decision_event: Publication of document ISO 19107:2019(E)
+          review_decision_notes: This entry supersedes the entry for coordinate dimension
+            in ISO 19107:2003(E)
+          review_status: final
+          review_type: supersession
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: coordinate dimension <coordinate geometry>
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: coordinate dimension <coordinate geometry>
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2019-12-02T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2019-12-02T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2019-12-02T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''number of separate decisions needed to describe a
+    position in a coordinate system''}]'
+  examples: []
+  id: 2039
+  language_code: eng
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: The coordinate dimension represents the number of choices made, and
+        constraints can restrict choices. A barycentric coordinate which has (n+1)-offsets,
+        but the underlying space is dimension n. Homogeneous coordinates (wx, wy,
+        wz, w) are actually 3 dimensional because the choice of "w" does not affect
+        the position, i.e. (wx, wy, wz, w) = (x y, z, 1) → (x, y, z) which is not
+        affected by w. The dimension will be at most the count of the numbers in the
+        coordinate, but it can be less if the coordinates are constrained in some
+        manner.asie
+    state:
+      _dict:
+        content: The coordinate dimension represents the number of choices made, and
+          constraints can restrict choices. A barycentric coordinate which has (n+1)-offsets,
+          but the underlying space is dimension n. Homogeneous coordinates (wx, wy,
+          wz, w) are actually 3 dimensional because the choice of "w" does not affect
+          the position, i.e. (wx, wy, wz, w) = (x y, z, 1) → (x, y, z) which is not
+          affected by w. The dimension will be at most the count of the numbers in
+          the coordinate, but it can be less if the coordinates are constrained in
+          some manner.asie
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '5'
+  reviewDate: 2019-12-02
+  reviewDecisionDate: 2019-12-02
+  reviewDecisionEvent: Publication of document ISO 19107:2019(E)
+  review_decision: accepted
+  review_decision_notes: This entry supersedes the entry for coordinate dimension
+    in ISO 19107:2003(E)
+  review_status: final
+  review_type: supersession
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: (E), 3.17
+        link: https://www.iso.org/standard/66175.html
+        ref: ISO 19107:2019
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: coordinate dimension <coordinate geometry>
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: coordinate dimension <coordinate geometry>
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 2237be35-1bf9-5dba-b938-78b72a75bf1b
+status: valid

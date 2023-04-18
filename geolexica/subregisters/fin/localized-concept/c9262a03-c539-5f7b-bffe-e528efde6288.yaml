@@ -1,0 +1,146 @@
+data:
+  _revisions:
+    current: e7e3f9
+    tree:
+      e7e3f9:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.7'
+            link: https://www.iso.org/standard/32575.html
+            ref: ISO 19157:2013
+          date_accepted: '2013-07-03T00:00:00.000Z'
+          definition: yleisluonteinen laatumittari, joka toimii pohjana erityisten
+            laatumittareiden luomiselle
+          entry_status: valid
+          examples: []
+          id: 632
+          language_code: fin
+          lineage_source: ISO 19138:2006
+          lineage_source_similarity: 1
+          notes:
+          - Tiedon peruslaatumittarit ovat abstrakteja tietotyyppejä, eikä niitä voi
+            suoraan käyttää tiedon laadun raportointiin.
+          release: '1'
+          review_date: '2010-07-09T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2013-12-15T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19157:2013
+          review_decision_notes: Authoritative reference changed from ISO 19138:2006
+            to ISO 19157:2013. Lineage source added as ISO 19138:2006.
+          review_indicator: ''
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: peruslaatumittari
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: peruslaatumittari
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2013-07-03T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2013-07-03T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2013-07-03T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''yleisluonteinen laatumittari, joka toimii pohjana
+    erityisten laatumittareiden luomiselle''}]'
+  examples: []
+  id: 632
+  language_code: fin
+  lineage_source_similarity: 1
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Tiedon peruslaatumittarit ovat abstrakteja tietotyyppejä, eikä niitä
+        voi suoraan käyttää tiedon laadun raportointiin.
+    state:
+      _dict:
+        content: Tiedon peruslaatumittarit ovat abstrakteja tietotyyppejä, eikä niitä
+          voi suoraan käyttää tiedon laadun raportointiin.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '1'
+  reviewDate: 2010-07-09
+  reviewDecisionDate: 2013-12-15
+  reviewDecisionEvent: Publication of ISO 19157:2013
+  review_decision: accepted
+  review_decision_notes: Authoritative reference changed from ISO 19138:2006 to ISO
+    19157:2013. Lineage source added as ISO 19138:2006.
+  review_indicator: ''
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: '4.7'
+        link: https://www.iso.org/standard/32575.html
+        ref: ISO 19157:2013
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19138:2006
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: peruslaatumittari
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: peruslaatumittari
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: c9262a03-c539-5f7b-bffe-e528efde6288
+status: valid

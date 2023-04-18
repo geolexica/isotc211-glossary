@@ -1,0 +1,151 @@
+data:
+  _revisions:
+    current: c8ba7d
+    tree:
+      c8ba7d:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: 4.18, modified — Note 2 to entry has been added.
+            ref: Implementation Specification — a Draught Information System for the
+              St. Lawrence Seaway
+          date_accepted: '2014-01-15T00:00:00.000Z'
+          definition: efecto que causa un barco en movimiento a través del agua que
+            crea un área de menor presión su parte inferior que aumenta el calado
+            efectivo (es decir, baja el buque en el agua)
+          entry_status: valid
+          examples: []
+          id: 1420
+          language_code: spa
+          lineage_source: ISO/TS 19130-2:2014, 4.73
+          lineage_source_similarity: '1'
+          notes:
+          - Este efecto es el resultado del principio de Bernoulli de dináminca de
+            fluidos. El asentamiento representa una crecida efectiva del calado.
+          - Para un buque navegando, el cambio de nivel de la proa y la popa en la
+            condición de aguas tranquilas en respuesta a la elevación y depresión
+            del nivel del agua alrededor del casco, resultante de los sistemas de
+            proa y popa.
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: asentamiento
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: asentamiento
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-01-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-01-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-01-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''efecto que causa un barco en movimiento a través del
+    agua que crea un área de menor presión su parte inferior que aumenta el calado
+    efectivo (es decir, baja el buque en el agua)''}]'
+  examples: []
+  id: 1420
+  language_code: spa
+  lineage_source_similarity: '1'
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Este efecto es el resultado del principio de Bernoulli de dináminca
+        de fluidos. El asentamiento representa una crecida efectiva del calado.
+    state:
+      _dict:
+        content: Este efecto es el resultado del principio de Bernoulli de dináminca
+          de fluidos. El asentamiento representa una crecida efectiva del calado.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Para un buque navegando, el cambio de nivel de la proa y la popa en
+        la condición de aguas tranquilas en respuesta a la elevación y depresión del
+        nivel del agua alrededor del casco, resultante de los sistemas de proa y popa.
+    state:
+      _dict:
+        content: Para un buque navegando, el cambio de nivel de la proa y la popa
+          en la condición de aguas tranquilas en respuesta a la elevación y depresión
+          del nivel del agua alrededor del casco, resultante de los sistemas de proa
+          y popa.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: 4.18, modified — Note 2 to entry has been added.
+        ref: Implementation Specification — a Draught Information System for the St.
+          Lawrence Seaway
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO/TS 19130-2:2014, 4.73
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: asentamiento
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: asentamiento
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 9472ce33-f640-56ae-bbba-558fea6d3468
+status: valid

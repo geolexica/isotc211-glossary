@@ -1,0 +1,135 @@
+data:
+  _revisions:
+    current: 3cc5d4
+    tree:
+      3cc5d4:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.1.7
+            link: https://www.iso.org/standard/75676.html
+            ref: ISO 19136-1:2020
+          country_code: swe
+          date_accepted: '2007-09-01T00:00:00.000Z'
+          definition: 'diskret värdedomän där varje värde tilldelats
+
+            en inom listan unik beteckning'
+          entry_status: valid
+          examples: []
+          id: 50
+          language_code: swe
+          lineage_source: ISO 19136:2007(E)
+          lineage_source_similarity: 1
+          notes: []
+          release: '1'
+          review_date: '2020-01-09T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2020-01-09T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19136-1:2020(E)
+          review_decision_notes: Authoritative reference changed from ISO 19136:2007
+            to ISO 19136-1:2020(E), 3.1.7. Lineage source added as ISO 19136:2007(E)
+          review_indicator: ''
+          review_status: final
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: kodlista
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: kodlista
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2007-09-01T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  country_code: swe
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2007-09-01T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2007-09-01T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''diskret värdedomän där varje värde tilldelats\nen
+    inom listan unik beteckning''}]'
+  examples: []
+  id: 50
+  language_code: swe
+  lineage_source_similarity: 1
+  notes: []
+  release: '1'
+  reviewDate: 2020-01-09
+  reviewDecisionDate: 2020-01-09
+  reviewDecisionEvent: Publication of ISO 19136-1:2020(E)
+  review_decision: accepted
+  review_decision_notes: Authoritative reference changed from ISO 19136:2007 to ISO
+    19136-1:2020(E), 3.1.7. Lineage source added as ISO 19136:2007(E)
+  review_indicator: ''
+  review_status: final
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        clause: (E), 3.1.7
+        link: https://www.iso.org/standard/75676.html
+        ref: ISO 19136-1:2020
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO 19136:2007(E)
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: kodlista
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: kodlista
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 4789d5ac-9371-5089-a535-e26b92c242d4
+status: valid

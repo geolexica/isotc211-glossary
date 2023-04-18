@@ -1,0 +1,111 @@
+data:
+  _revisions:
+    current: 5f8df1
+    tree:
+      5f8df1:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            ref: Adapted from ASTM E2544
+          date_accepted: '2014-01-15T00:00:00.000Z'
+          definition: 범위가 나뉘어진 다중 객체에 쏘이는 레이저 빔이 분할된 경우, 방출 펄스에 대한 다중 신호의 회신 및 탐지
+          entry_status: valid
+          examples: []
+          id: 1564
+          language_code: kor
+          lineage_source: ISO/TS 19130-2:2014, 4.45
+          lineage_source_similarity: 1
+          notes: []
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: 다중 회귀
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: 다중 회귀
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-01-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-01-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-01-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''범위가 나뉘어진 다중 객체에 쏘이는 레이저 빔이 분할된 경우, 방출 펄스에 대한 다중 신호의
+    회신 및 탐지''}]'
+  examples: []
+  id: 1564
+  language_code: kor
+  lineage_source_similarity: 1
+  notes: []
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        ref: Adapted from ASTM E2544
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO/TS 19130-2:2014, 4.45
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: 다중 회귀
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: 다중 회귀
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: 4b44ab42-c4ae-5b7b-bbff-9661c5481947
+status: valid

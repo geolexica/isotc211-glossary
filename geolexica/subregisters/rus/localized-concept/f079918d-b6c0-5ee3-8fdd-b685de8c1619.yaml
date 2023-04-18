@@ -1,0 +1,148 @@
+data:
+  _revisions:
+    current: 31b325
+    tree:
+      31b325:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://webstore.iec.ch/publication/268
+            ref: IEC 60050-845
+          date_accepted: '2014-07-15T00:00:00.000Z'
+          definition: чувствительность на единицу интервала длин волн  при заданной
+            длине волны
+          entry_status: valid
+          examples: []
+          id: 1608
+          language_code: rus
+          lineage_source: ISO/TS 19159-1:2014, 4.35
+          lineage_source_similarity: 1
+          notes:
+          - Спектральная чувствительность-это реакция датчика по отношению к излучению,
+            зависящему от длин волн.
+          - определение описано математически в IEC 60050-845. Спектральная чувствительность-частное
+            от выхода детектора dY (λ) по входу монохроматического детектора dXe (λ)
+            = Xe, λ (λ) • dλ в интервале длин волн dλ в зависимости от длины волны
+            λ s (λ) = dY (λ) / dXc (λ)
+          release: '3'
+          terms:
+          - !!python/object/new:benedict.dicts.benedict
+            dictitems:
+              designation: спектральная чувствительность
+              normative_status: preferred
+              type: expression
+            state:
+              _dict:
+                designation: спектральная чувствительность
+                normative_status: preferred
+                type: expression
+              _keyattr_dynamic: false
+              _keyattr_enabled: true
+              _keypath_separator: /
+              _pointer: true
+        parents: []
+        timeCreated: '2014-07-15T00:00:00.000Z'
+  authoritativeSource:
+  - !!python/object:benedict.dicts.benedict
+    _dict: {}
+    _keyattr_dynamic: false
+    _keyattr_enabled: true
+    _keypath_separator: /
+    _pointer: true
+  dates:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      date: '2014-07-15T00:00:00.000Z'
+      type: accepted
+    state:
+      _dict:
+        date: '2014-07-15T00:00:00.000Z'
+        type: accepted
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  definition: '[{''content'': ''чувствительность на единицу интервала длин волн при
+    заданной длине волны''}]'
+  examples: []
+  id: 1608
+  language_code: rus
+  lineage_source_similarity: 1
+  notes:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: Спектральная чувствительность-это реакция датчика по отношению к излучению,
+        зависящему от длин волн.
+    state:
+      _dict:
+        content: Спектральная чувствительность-это реакция датчика по отношению к
+          излучению, зависящему от длин волн.
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      content: определение описано математически в IEC 60050-845. Спектральная чувствительность-частное
+        от выхода детектора dY (λ) по входу монохроматического детектора dXe (λ) =
+        Xe, λ (λ) • dλ в интервале длин волн dλ в зависимости от длины волны λ s (λ)
+        = dY (λ) / dXc (λ)
+    state:
+      _dict:
+        content: определение описано математически в IEC 60050-845. Спектральная чувствительность-частное
+          от выхода детектора dY (λ) по входу монохроматического детектора dXe (λ)
+          = Xe, λ (λ) • dλ в интервале длин волн dλ в зависимости от длины волны λ
+          s (λ) = dY (λ) / dXc (λ)
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  release: '3'
+  sources:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id001
+        link: https://webstore.iec.ch/publication/268
+        ref: IEC 60050-845
+      type: authoritative
+    state:
+      _dict:
+        origin: *id001
+        type: authoritative
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      origin: &id002
+        ref: ISO/TS 19159-1:2014, 4.35
+      type: lineage
+    state:
+      _dict:
+        origin: *id002
+        type: lineage
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+  terms:
+  - !!python/object/new:benedict.dicts.benedict
+    dictitems:
+      designation: спектральная чувствительность
+      normative_status: preferred
+      type: expression
+    state:
+      _dict:
+        designation: спектральная чувствительность
+        normative_status: preferred
+        type: expression
+      _keyattr_dynamic: false
+      _keyattr_enabled: true
+      _keypath_separator: /
+      _pointer: true
+dateAccepted: 2023-04-08
+id: f079918d-b6c0-5ee3-8fdd-b685de8c1619
+status: valid
