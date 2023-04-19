@@ -51,15 +51,14 @@ data:
   examples: []
   id: 2255
   language_code: eng
-  notes:
-  - content: Point and DirectPosition are informationally identical (related to each
-      other in a one to one fashion) in this context. Given a DirectPosition, a Point
-      can be constructed. Given a Point, a DirectPosition can be derived from of its
-      coordinates. If coercion is supported, a Point may be used where a DirectPosition
-      is requested, and vice versa. Most programming languages use coercion, but others
-      use "cast" operators (a type of constructor) requiring the programmer to initiate
-      the coercion. "Strong substantiality" is related in that a subtype instance
-      can always be coerced to any of its supertypes.
+  notes: '[{''content'': ''Point and DirectPosition are informationally identical
+    (related to each other in a one to one fashion) in this context. Given a DirectPosition,
+    a Point can be constructed. Given a Point, a DirectPosition can be derived from
+    of its coordinates. If coercion is supported, a Point may be used where a DirectPosition
+    is requested, and vice versa. Most programming languages use coercion, but others
+    use "cast" operators (a type of constructor) requiring the programmer to initiate
+    the coercion. "Strong substantiality" is related in that a subtype instance can
+    always be coerced to any of its supertypes.''}]'
   release: '5'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02

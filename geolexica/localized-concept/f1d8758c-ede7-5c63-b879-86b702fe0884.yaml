@@ -51,15 +51,13 @@ data:
   examples: []
   id: 2285
   language_code: eng
-  notes:
-  - content: The integrated side lobe ratio (ISLR) can be obtained by integrating
-      the power of the impulse response over suitable regions. The ISLRis expressed
-      as  `ISLR = 10log_(10) {(P_(text(total))-P_(text(main)))/(P_(text(main)))}`
-      where `P_(text(total))` is the total power, `P_(text(main))` is the main lobe
-      power.
-  - content: The main lobe width can be taken as α times the impulse response width
-      (IRW), centred around the peak, where α is a predefined constant, usually between
-      2 and 2,5.
+  notes: '[{''content'': ''The integrated side lobe ratio (ISLR) can be obtained by
+    integrating the power of the impulse response over suitable regions. The ISLRis
+    expressed as  `ISLR = 10log_(10) {(P_(text(total))-P_(text(main)))/(P_(text(main)))}`
+    where `P_(text(total))` is the total power, `P_(text(main))` is the main lobe
+    power.''}, {''content'': ''The main lobe width can be taken as α times the impulse
+    response width (IRW), centred around the peak, where α is a predefined constant,
+    usually between 2 and 2,5.''}]'
   release: '5'
   reviewDate: 2018-05-01
   reviewDecisionDate: 2018-05-01

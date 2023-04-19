@@ -47,14 +47,13 @@ data:
   examples: []
   id: 1359
   language_code: swe
-  notes:
-  - content: Boundary faces are used when the implied vertical and unbounded faces
-      of a boundary face string are not sufficient to describe 3D spatial units. Boundary
-      faces close volumes in height (e.g. every apartment floor), or in depth (e.g.
-      an underground parking garage), or in all other directions to form a bounded
-      volume. The volumes represent legal space (in contrast with physical space).
-  - content: D-gränsytor avgränsar med ”golv” och/eller ”tak”, eller på annat sätt
-      för att definiera var rättigheter, skyldigheter och ansvar gäller.
+  notes: '[{''content'': ''Boundary faces are used when the implied vertical and unbounded
+    faces of a boundary face string are not sufficient to describe 3D spatial units.
+    Boundary faces close volumes in height (e.g. every apartment floor), or in depth
+    (e.g. an underground parking garage), or in all other directions to form a bounded
+    volume. The volumes represent legal space (in contrast with physical space).''},
+    {''content'': ''D-gränsytor avgränsar med ”golv” och/eller ”tak”, eller på annat
+    sätt för att definiera var rättigheter, skyldigheter och ansvar gäller.''}]'
   release: '3'
   sources:
   - origin:

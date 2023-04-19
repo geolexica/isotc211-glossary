@@ -50,20 +50,18 @@ data:
   - date: '2002-07-01T00:00:00.000Z'
     type: accepted
   definition: '[{''content'': ''characteristic of a feature''}]'
-  examples:
-  - content: A feature attribute named 'colour' may have an attribute value 'green'
-      which belongs to the data type 'text'.
-  - content: A feature attribute named 'length' may have an attribute value '82.4'
-      which belongs to the data type 'real'.
+  examples: '[{''content'': "A feature attribute named ''colour'' may have an attribute
+    value ''green'' which belongs to the data type ''text''."}, {''content'': "A feature
+    attribute named ''length'' may have an attribute value ''82.4'' which belongs
+    to the data type ''real''."}]'
   id: 170
   language_code: eng
   lineage_source_similarity: 1
-  notes:
-  - content: A feature attribute has a name, a data type, and a value domain associated
-      to it.  A feature attribute for a feature instance also has an attribute value
-      taken from the value domain.
-  - content: In a feature catalogue, a feature attribute may include a value domain
-      but does not specify attribute values for feature instances.
+  notes: '[{''content'': ''A feature attribute has a name, a data type, and a value
+    domain associated to it.  A feature attribute for a feature instance also has
+    an attribute value taken from the value domain.''}, {''content'': ''In a feature
+    catalogue, a feature attribute may include a value domain but does not specify
+    attribute values for feature instances.''}]'
   release: '1'
   reviewDate: 2010-10-12
   reviewDecisionDate: 2014-11-01

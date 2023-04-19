@@ -42,16 +42,15 @@ data:
   examples: []
   id: 97
   language_code: spa
-  notes:
-  - content: El mecanismo normal es aplicar un coste a cada parte de una ruta y definir
-      el coste total de una ruta como la suma de costes de las partes. Esto es necesario
-      para la operación de la mayoría de los algoritmos más comunes de navegación.
-      Las unidades de las funciones de coste no están limitadas al coste y valores
-      monetarios, sino que incluyen medidas como tiempo, distancia y posiblemente
-      otras. El único requisito es que la función sea aditiva, y como mínimo no negativa.
-      Este último criterio puede relajarse mientras que no se asocie a ningún bucle
-      en la red un coste cero o menor, ya que esto evitará la existencia de una ruta
-      de "coste mínimo".
+  notes: '[{''content'': ''El mecanismo normal es aplicar un coste a cada parte de
+    una ruta y definir el coste total de una ruta como la suma de costes de las partes.
+    Esto es necesario para la operación de la mayoría de los algoritmos más comunes
+    de navegación. Las unidades de las funciones de coste no están limitadas al coste
+    y valores monetarios, sino que incluyen medidas como tiempo, distancia y posiblemente
+    otras. El único requisito es que la función sea aditiva, y como mínimo no negativa.
+    Este último criterio puede relajarse mientras que no se asocie a ningún bucle
+    en la red un coste cero o menor, ya que esto evitará la existencia de una ruta
+    de "coste mínimo".''}]'
   release: '1'
   sources:
   - origin:

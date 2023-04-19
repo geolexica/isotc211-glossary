@@ -53,17 +53,16 @@ data:
   examples: []
   id: 1932
   language_code: eng
-  notes:
-  - content: A soft breakline ensures that known z-values along a linear feature are
-      maintained (for example, elevations along a pipeline, road centreline or drainage
-      ditch), and ensures that linear features and polygon edges are maintained in
-      a Triangulated Irregular Network (TIN) surface model, by enforcing the breaklines
-      as TIN edges. They are generally synonymous with 3-D breaklines because they
-      are depicted with series of x/y/z coordinates. Somewhat rounded ridges or the
-      trough of a drain may be collected using soft breaklines.
-  - content: A hard breakline defines interruptions in surface smoothness, for example,
-      to define streams, shorelines, dams, ridges, building footprints, and other
-      locations with abrupt surface changes.
+  notes: '[{''content'': ''A soft breakline ensures that known z-values along a linear
+    feature are maintained (for example, elevations along a pipeline, road centreline
+    or drainage ditch), and ensures that linear features and polygon edges are maintained
+    in a Triangulated Irregular Network (TIN) surface model, by enforcing the breaklines
+    as TIN edges. They are generally synonymous with 3-D breaklines because they are
+    depicted with series of x/y/z coordinates. Somewhat rounded ridges or the trough
+    of a drain may be collected using soft breaklines.''}, {''content'': ''A hard
+    breakline defines interruptions in surface smoothness, for example, to define
+    streams, shorelines, dams, ridges, building footprints, and other locations with
+    abrupt surface changes.''}]'
   release: '4'
   reviewDate: 2014-08-26
   reviewDecisionDate: 2016-04-15

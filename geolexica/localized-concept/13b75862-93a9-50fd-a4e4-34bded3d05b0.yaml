@@ -62,18 +62,17 @@ data:
   examples: []
   id: 2455
   language_code: eng
-  notes:
-  - content: Even though there are `n+1` coordinates in a barycentric coordinate system,
-      the topological dimension is n, since the restriction (sums to 1.0) loses 1
-      degree of freedom (once you have n ordinates, the remaining one is determined
-      such as `u_n = 1.0 − sum_(i=0)^(n-1) u_i`. he coordinates for the simplex are
-      all non-negative, but the system can be extended outside of the simples by using
-      negative numbers. If the ordinates are all positive, then the point is inside
-      (interior to) the n-simplex. If one of them is 1.0 and the other 0, this is
-      a corner of the simplex. If one of them is zero and the others still each greater
-      than or equal to zero, the point is on the n-1-simplex opposite the vertex zeroed
-      out. If any are negative, the point is outside of the simplex. The coordinates
-      are dependent on the underlying coordinate reference system of the source data.
+  notes: '[{''content'': ''Even though there are `n+1` coordinates in a barycentric
+    coordinate system, the topological dimension is n, since the restriction (sums
+    to 1.0) loses 1 degree of freedom (once you have n ordinates, the remaining one
+    is determined such as `u_n = 1.0 − sum_(i=0)^(n-1) u_i`. he coordinates for the
+    simplex are all non-negative, but the system can be extended outside of the simples
+    by using negative numbers. If the ordinates are all positive, then the point is
+    inside (interior to) the n-simplex. If one of them is 1.0 and the other 0, this
+    is a corner of the simplex. If one of them is zero and the others still each greater
+    than or equal to zero, the point is on the n-1-simplex opposite the vertex zeroed
+    out. If any are negative, the point is outside of the simplex. The coordinates
+    are dependent on the underlying coordinate reference system of the source data.''}]'
   release: '5'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02

@@ -49,18 +49,16 @@ data:
   examples: []
   id: 665
   language_code: fin
-  notes:
-  - content: Etäisyysmitta d on positiivinen, jos d(x, y) > 0 jokaiselle parille x,
-      y, jossa x/=y ja d(x, x) = 0. Etäisyysmitta d on symmetrinen, jos d(x, y) =
-      d(y, x) jokaiselle parille x, y. Etäisyysmitta d toteuttaa kolmioepäyhtälön,
-      jos d(x, y) <= d(x, a) + d(a, y) jokaiselle a:lle, x:lle ja y:lle. Kaikilla
-      numeerisilla tai vektoriarvoisilla attribuuteilla on tällainen etäisyysmitta,
-      ja yleisin niistä on euklidinen etäisyys, joka perustuu kunkin ulottuvuuden
-      erotusten neliöiden summan neliöjuureen. Muut, epäeuklidiset, etäisyysmitat
-      ottavat huomioon avaruuden kaareutumisen (esimerkiksi pyörähdysellipsoidin pintaa
-      myöten).
-  - content: Metriikka eli etäisyysfunktio kertoo joukon pisteiden välisen etäisyyden
-      ja tekee joukosta metrisen avaruuden.
+  notes: '[{''content'': ''Etäisyysmitta d on positiivinen, jos d(x, y) > 0 jokaiselle
+    parille x, y, jossa x/=y ja d(x, x) = 0. Etäisyysmitta d on symmetrinen, jos d(x,
+    y) = d(y, x) jokaiselle parille x, y. Etäisyysmitta d toteuttaa kolmioepäyhtälön,
+    jos d(x, y) <= d(x, a) + d(a, y) jokaiselle a:lle, x:lle ja y:lle. Kaikilla numeerisilla
+    tai vektoriarvoisilla attribuuteilla on tällainen etäisyysmitta, ja yleisin niistä
+    on euklidinen etäisyys, joka perustuu kunkin ulottuvuuden erotusten neliöiden
+    summan neliöjuureen. Muut, epäeuklidiset, etäisyysmitat ottavat huomioon avaruuden
+    kaareutumisen (esimerkiksi pyörähdysellipsoidin pintaa myöten).''}, {''content'':
+    ''Metriikka eli etäisyysfunktio kertoo joukon pisteiden välisen etäisyyden ja
+    tekee joukosta metrisen avaruuden.''}]'
   review_indicator: ''
   sources:
   - origin:

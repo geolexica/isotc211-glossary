@@ -49,15 +49,14 @@ data:
   examples: []
   id: 677
   language_code: swe
-  notes:
-  - content: A passive object is usually accessed through an external interface, through
-      which it receives requests, processes those requests and returns data as a response
-      to that request. Since objects can implement more than one type, it is possible
-      for a single object to pass through active and passive states. For example,
-      a tracking service can lie dormant until a tracking request activates a period
-      where the internals of the object initiate tracking activities based on internal
-      triggers as specified within the request. When the tracking request is deactivated,
-      the object may return to a passive state.
+  notes: '[{''content'': ''A passive object is usually accessed through an external
+    interface, through which it receives requests, processes those requests and returns
+    data as a response to that request. Since objects can implement more than one
+    type, it is possible for a single object to pass through active and passive states.
+    For example, a tracking service can lie dormant until a tracking request activates
+    a period where the internals of the object initiate tracking activities based
+    on internal triggers as specified within the request. When the tracking request
+    is deactivated, the object may return to a passive state.''}]'
   release: '1'
   review_indicator: ''
   sources:
