@@ -42,10 +42,12 @@ data:
   dates:
   - date: '2004-07-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''paikannusjärjestelmä, jossa mitataan etäisyys vertauspisteestä
-    reittiä pitkin''}]'
-  examples: '[{''content'': ''Matkamittari, jota käytetään reittiä pitkin ennalta
-    määritettyjen nollapisteiden suhteen ja joka tuottaa lineaarisen viittauksen sijaintiin.''}]'
+  definition:
+  - content: paikannusjärjestelmä, jossa mitataan etäisyys vertauspisteestä reittiä
+      pitkin
+  examples:
+  - content: Matkamittari, jota käytetään reittiä pitkin ennalta määritettyjen nollapisteiden
+      suhteen ja joka tuottaa lineaarisen viittauksen sijaintiin.
   id: 271
   language_code: fin
   lineage_source_similarity: 1

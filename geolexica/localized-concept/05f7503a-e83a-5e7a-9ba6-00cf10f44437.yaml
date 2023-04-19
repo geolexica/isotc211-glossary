@@ -36,10 +36,12 @@ data:
   dates:
   - date: '2002-09-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''objektförändring där alla objekt är av samma objekttyp
-    och flera objekt ersätts av ett enda''}]'
-  examples: '[{''content'': ''Two instances of the feature type "pasture" are replaced
-    by a single instance when the fence between the pastures is removed.''}]'
+  definition:
+  - content: objektförändring där alla objekt är av samma objekttyp och flera objekt
+      ersätts av ett enda
+  examples:
+  - content: Two instances of the feature type "pasture" are replaced by a single
+      instance when the fence between the pastures is removed.
   id: 175
   language_code: swe
   notes: []

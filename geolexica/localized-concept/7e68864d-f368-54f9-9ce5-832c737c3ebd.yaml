@@ -44,17 +44,20 @@ data:
   dates:
   - date: '2015-12-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''Una de un conjunto de direcciones que determinan inequívocamente
-    el mismo objeto direccionable''}]'
+  definition:
+  - content: Una de un conjunto de direcciones que determinan inequívocamente el mismo
+      objeto direccionable
   examples: []
   id: 1701
   language_code: spa
-  notes: '[{''content'': ''Two addresses for the same addressable object and from
-    the same address class, but in two different languages are two different addresses
-    (refer to ISO 19160-1:2015, Annex E for more examples).''}, {''content'': ''In
-    addition to the addressable object, there may be a multitude of people, organizations,
-    addressees or other objects associated with an address. These are external to
-    the address model (refer to ISO 19160-1:2015, Annex C and Annex F for examples).''}]'
+  notes:
+  - content: Two addresses for the same addressable object and from the same address
+      class, but in two different languages are two different addresses (refer to
+      ISO 19160-1:2015, Annex E for more examples).
+  - content: In addition to the addressable object, there may be a multitude of people,
+      organizations, addressees or other objects associated with an address. These
+      are external to the address model (refer to ISO 19160-1:2015, Annex C and Annex
+      F for examples).
   release: '4'
   reviewDate: 2012-02-27
   reviewDecisionDate: 2015-12-15

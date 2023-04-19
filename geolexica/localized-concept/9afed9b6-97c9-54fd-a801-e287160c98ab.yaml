@@ -44,16 +44,18 @@ data:
   dates:
   - date: '2003-05-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''retningsbestemt topologisk objekt, der repræsenterer
-    en forbindelse mellem en knude og en af dens orienteringer''}]'
+  definition:
+  - content: retningsbestemt topologisk objekt, der repræsenterer en forbindelse mellem
+      en knude og en af dens orienteringer
   examples: []
   id: 138
   language_code: dan
   lineage_source_similarity: 1
-  notes: '[{''content'': ''Retningsbestemte knuder benyttes i fællesgrænse-relationen
-    til at opretholde den rumlige relation mellem kant og knude. Orenteringen af en
-    knude i forhold til en kant er "+" for en slutknude og "-" for en startknude.
-    Dette stemmer overens med vektornotationen: at "resultatet = slut - start".''}]'
+  notes:
+  - content: 'Retningsbestemte knuder benyttes i fællesgrænse-relationen til at opretholde
+      den rumlige relation mellem kant og knude. Orenteringen af en knude i forhold
+      til en kant er "+" for en slutknude og "-" for en startknude. Dette stemmer
+      overens med vektornotationen: at "resultatet = slut - start".'
   release: '1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02

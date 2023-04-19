@@ -41,9 +41,11 @@ data:
   dates:
   - date: '2005-07-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''Menge der zulässigen Werte''}]'
-  examples: '[{''content'': ''The range 3-28, all integers, any ASCII character, enumeration
-    of all accepted values (green, blue, white).''}]'
+  definition:
+  - content: Menge der zulässigen Werte
+  examples:
+  - content: The range 3-28, all integers, any ASCII character, enumeration of all
+      accepted values (green, blue, white).
   id: 490
   language_code: deu
   lineage_source_similarity: 1

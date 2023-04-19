@@ -45,17 +45,19 @@ data:
   dates:
   - date: '2003-05-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''retningsbestemt topologisk objekt, der repræsenterer
-    en forbindelse mellem en kant og en af dens orienteringer''}]'
+  definition:
+  - content: retningsbestemt topologisk objekt, der repræsenterer en forbindelse mellem
+      en kant og en af dens orienteringer
   examples: []
   id: 136
   language_code: dan
   lineage_source_similarity: 1
-  notes: '[{''content'': ''En retningsbestemt kant, der er i overensstemmelse med
-    kantens orientering, har en (+)-orientering, ellers har den modsat (-)-orientering.
-    Retningsbestemte kanter anvendes i topologien til at skelne højre side (-) fra
-    venstre side (+) af samme kant samt startknude (-) og slutknude (+) af samme kant.
-    I algoritmisk topologi benyttes de til at repræsentere disse begreber.''}]'
+  notes:
+  - content: En retningsbestemt kant, der er i overensstemmelse med kantens orientering,
+      har en (+)-orientering, ellers har den modsat (-)-orientering. Retningsbestemte
+      kanter anvendes i topologien til at skelne højre side (-) fra venstre side (+)
+      af samme kant samt startknude (-) og slutknude (+) af samme kant. I algoritmisk
+      topologi benyttes de til at repræsentere disse begreber.
   release: '1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02

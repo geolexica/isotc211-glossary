@@ -41,15 +41,16 @@ data:
   dates:
   - date: '2018-05-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''any signal or circuit unintentionally affecting another
-    signal or circuit''}]'
+  definition:
+  - content: any signal or circuit unintentionally affecting another signal or circuit
   examples: []
   id: 2190
   language_code: eng
-  notes: '[{''content'': ''For PolSAR sensor, if the transmitting channel is horizontally
-    (H) polarized, the cross-talk on transmitting defines the ratio of V polarization
-    transmitting power to H polarization transmitting power, expressed in decibels
-    (dB). The cross-talk on receiving is similar to that on transmitting.''}]'
+  notes:
+  - content: For PolSAR sensor, if the transmitting channel is horizontally (H) polarized,
+      the cross-talk on transmitting defines the ratio of V polarization transmitting
+      power to H polarization transmitting power, expressed in decibels (dB). The
+      cross-talk on receiving is similar to that on transmitting.
   release: '5'
   reviewDate: 2018-05-01
   reviewDecisionDate: 2018-05-01

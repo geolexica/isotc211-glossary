@@ -34,8 +34,10 @@ data:
   dates:
   - date: '2007-11-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''기존의 피처가 동일한 피처 유형의 별개 피처 인스턴스들로 대체되는 피처 갱신''}]'
-  examples: '[{''content'': ''피처 유형인 "토지 구획"의 하나는 구획이 법적으로 분리될 때, 두 개로 나누어질 수 있다.''}]'
+  definition:
+  - content: 기존의 피처가 동일한 피처 유형의 별개 피처 인스턴스들로 대체되는 피처 갱신
+  examples:
+  - content: 피처 유형인 "토지 구획"의 하나는 구획이 법적으로 분리될 때, 두 개로 나누어질 수 있다.
   id: 174
   language_code: kor
   notes: []

@@ -35,15 +35,16 @@ data:
   dates:
   - date: '2012-12-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''기초 행정 단위 사이 또는 공간 단위 사이의 명시적 연관성''}]'
+  definition:
+  - content: 기초 행정 단위 사이 또는 공간 단위 사이의 명시적 연관성
   examples: []
   id: 1362
   language_code: kor
-  notes: '[{''content'': ''Due to legal aspects, history of data, inaccurate geometries
-    or missing geometries, geospatial overlay techniques may generate invalid, or
-    no relationships between spatial units, which can be introduced by required relationships.''},
-    {''content'': ''Relationships for spatial units may be defined with ISO 19125-2
-    types.''}]'
+  notes:
+  - content: Due to legal aspects, history of data, inaccurate geometries or missing
+      geometries, geospatial overlay techniques may generate invalid, or no relationships
+      between spatial units, which can be introduced by required relationships.
+  - content: Relationships for spatial units may be defined with ISO 19125-2 types.
   release: '3'
   sources:
   - origin:

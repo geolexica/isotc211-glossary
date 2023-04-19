@@ -43,14 +43,16 @@ data:
   dates:
   - date: '2005-10-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''declaración de que un ítem del registro ya no es apropiado
-    para su uso en la elaboración de nuevos datos''}]'
+  definition:
+  - content: declaración de que un ítem del registro ya no es apropiado para su uso
+      en la elaboración de nuevos datos
   examples: []
   id: 509
   language_code: spa
-  notes: '[{''content'': ''El status de los ítems retirados pasa de "valid" ("válido")
-    a "retired" ("retirado"). Un ítem retirado se mantiene en el registro para ayudar
-    en la interpretación de los datos producidos antes de su retirada.''}]'
+  notes:
+  - content: El status de los ítems retirados pasa de "valid" ("válido") a "retired"
+      ("retirado"). Un ítem retirado se mantiene en el registro para ayudar en la
+      interpretación de los datos producidos antes de su retirada.
   release: '1'
   reviewDate: 2010-10-19
   reviewDecisionDate: 2015-10-01

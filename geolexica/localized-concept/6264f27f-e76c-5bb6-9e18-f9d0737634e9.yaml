@@ -42,14 +42,16 @@ data:
   dates:
   - date: '2010-06-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''영상 집합에 전반에 걸쳐 안테나 빔이 고정되어 있는 SAR 모드''}]'
+  definition:
+  - content: 영상 집합에 전반에 걸쳐 안테나 빔이 고정되어 있는 SAR 모드
   examples: []
   id: 1125
   language_code: kor
   lineage_source_similarity: '1'
-  notes: '[{''content'': ''Doppler angle in processed products is fixed for all pixels.
-    It provides the ability to collect SAR data over strips of land over a fixed swath
-    of ground range parallel to the direction of flight.''}]'
+  notes:
+  - content: Doppler angle in processed products is fixed for all pixels. It provides
+      the ability to collect SAR data over strips of land over a fixed swath of ground
+      range parallel to the direction of flight.
   release: '2'
   reviewDate: 2018-09-01
   reviewDecisionDate: 2018-09-01

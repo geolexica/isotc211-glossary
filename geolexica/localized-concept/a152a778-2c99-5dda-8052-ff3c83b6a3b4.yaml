@@ -36,13 +36,15 @@ data:
   dates:
   - date: '2002-09-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''en period när någonting existerar''}]'
+  definition:
+  - content: en period när någonting existerar
   examples: []
   id: 269
   language_code: swe
-  notes: '[{''content'': ''Valid-time life span is the period during which an object
-    exists in the modelled reality.  Transaction-time life span is the period during
-    which a database object is current in the database.''}]'
+  notes:
+  - content: Valid-time life span is the period during which an object exists in the
+      modelled reality.  Transaction-time life span is the period during which a database
+      object is current in the database.
   release: '1'
   review_indicator: ''
   sources:

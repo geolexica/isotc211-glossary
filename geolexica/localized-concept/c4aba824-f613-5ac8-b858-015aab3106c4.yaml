@@ -36,17 +36,19 @@ data:
   dates:
   - date: '2005-08-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''obiekt , który działa jak funkcja zwracająca wartości
-    ze swojego zakresu dla każdego położenia bezpośredniego należącego do jej dziedziny
-    przestrzennej, czasowej lub czasoprzestrzennej''}]'
-  examples: '[{''content'': ''Obraz rastrowy, pokrycie wielobokowe lub macierz numerycznego
-    modelu terenu.''}]'
+  definition:
+  - content: obiekt , który działa jak funkcja zwracająca wartości ze swojego zakresu
+      dla każdego położenia bezpośredniego należącego do jej dziedziny przestrzennej,
+      czasowej lub czasoprzestrzennej
+  examples:
+  - content: Obraz rastrowy, pokrycie wielobokowe lub macierz numerycznego modelu
+      terenu.
   id: 99
   language_code: pol
-  notes: '[{''content'': ''Innymi słowy, pokrycie jest obiektem, który ma wiele wartości
-    dla każdego typu atrybutu, przy czym dla każdego bezpośredniego położenia w ramach
-    geometrycznej reprezentacji tego obiektu ma po jednej wartości dla każdego typu
-    atrybutu.''}]'
+  notes:
+  - content: Innymi słowy, pokrycie jest obiektem, który ma wiele wartości dla każdego
+      typu atrybutu, przy czym dla każdego bezpośredniego położenia w ramach geometrycznej
+      reprezentacji tego obiektu ma po jednej wartości dla każdego typu atrybutu.
   release: '1'
   sources:
   - origin:

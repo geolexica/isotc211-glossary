@@ -45,18 +45,20 @@ data:
   dates:
   - date: '2018-05-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''measure of the capability of the object to scatter
-    the transmitted radar power''}]'
+  definition:
+  - content: measure of the capability of the object to scatter the transmitted radar
+      power
   examples: []
   id: 2200
   language_code: eng
-  notes: '[{''content'': ''Radar cross section is calculated as `sigma = lim_(R ->oo)
-    4 pi R^2 (abs(E_s)^2) / (abs(E_i)^2)` where `sigma` is the radar cross section;
-    `E_i` is the electric-field strength of the incident wave; `E_s` is the electric-field
-    strength of the scattered wave at the radar with a distance `R` away from the
-    target.''}, {''content'': ''\xa02 to entry: Radar cross section has the dimensions
-    of area, with the unit of square metres. Usually, it is expressed in the form
-    of a logarithm with the unit of dBsm as follows `sigma_(dBsm) = 10 log_(10) sigma`''}]'
+  notes:
+  - content: Radar cross section is calculated as `sigma = lim_(R ->oo) 4 pi R^2 (abs(E_s)^2)
+      / (abs(E_i)^2)` where `sigma` is the radar cross section; `E_i` is the electric-field
+      strength of the incident wave; `E_s` is the electric-field strength of the scattered
+      wave at the radar with a distance `R` away from the target.
+  - content: ' 2 to entry: Radar cross section has the dimensions of area, with the
+      unit of square metres. Usually, it is expressed in the form of a logarithm with
+      the unit of dBsm as follows `sigma_(dBsm) = 10 log_(10) sigma`'
   release: '5'
   reviewDate: 2018-05-01
   reviewDecisionDate: 2018-05-01

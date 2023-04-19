@@ -47,15 +47,18 @@ data:
     type: accepted
   - date: '2019-01-31T00:00:00.000Z'
     type: amended
-  definition: '[{''content'': ''menetelmä, jolla muunnetaan koordinaatteja kahden
-    samaan datumiin perustuvan koordinaattijärjestelmän välillä''}]'
-  examples: '[{''content'': ''Konversio WGS84-datumiin perustuvasta ellipsoidisesta
-    koordinaattijärjestelmästä karteesiseen, samaan datumiin perustuvaan koordinaattijärjestelmään
-    tai yksikkömuunnos, kuten muunnos radiaaneista asteiksi tai jaloista metreiksi.''}]'
+  definition:
+  - content: menetelmä, jolla muunnetaan koordinaatteja kahden samaan datumiin perustuvan
+      koordinaattijärjestelmän välillä
+  examples:
+  - content: Konversio WGS84-datumiin perustuvasta ellipsoidisesta koordinaattijärjestelmästä
+      karteesiseen, samaan datumiin perustuvaan koordinaattijärjestelmään tai yksikkömuunnos,
+      kuten muunnos radiaaneista asteiksi tai jaloista metreiksi.
   id: 762
   language_code: fin
-  notes: '[{''content'': ''Koordinaattikonversiossa käytetään parametreja, joilla
-    on tietyt, ei kokemusperäisesti määritetyt arvot.''}]'
+  notes:
+  - content: Koordinaattikonversiossa käytetään parametreja, joilla on tietyt, ei
+      kokemusperäisesti määritetyt arvot.
   release: '-1'
   reviewDate: 2019-01-31
   reviewDecisionDate: 2019-01-31

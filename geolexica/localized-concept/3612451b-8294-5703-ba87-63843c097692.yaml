@@ -44,14 +44,16 @@ data:
   dates:
   - date: '2003-05-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''Menge aller Positionen, die auf einem geometrischen
-    Objekt liegen, aber nicht auf dessen Grenze''}]'
+  definition:
+  - content: Menge aller Positionen, die auf einem geometrischen Objekt liegen, aber
+      nicht auf dessen Grenze
   examples: []
   id: 254
   language_code: deu
-  notes: '[{''content'': ''The interior of a topological object is the homomorphic
-    image of the interior of any of its geometric realizations. This is not included
-    as a definition because it follows from a theorem of topology.''}]'
+  notes:
+  - content: The interior of a topological object is the homomorphic image of the
+      interior of any of its geometric realizations. This is not included as a definition
+      because it follows from a theorem of topology.
   release: '1'
   reviewDate: 2018-06-08
   reviewDecisionDate: 2020-01-09

@@ -38,14 +38,16 @@ data:
   dates:
   - date: '2005-10-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''typ av fordon i enlighet med angivna\nindelningskriterier''}]'
+  definition:
+  - content: typ av fordon i enlighet med angivna\nindelningskriterier
   examples: []
   id: 493
   language_code: swe
-  notes: '[{''content'': ''Classifications based on construction include automobile,
-    truck, bus, bicycle, etc. Classifications based on purpose include taxi, emergency
-    vehicle, etc. Vehicle classification can be used to determine the application
-    of navigation constraints.''}]'
+  notes:
+  - content: Classifications based on construction include automobile, truck, bus,
+      bicycle, etc. Classifications based on purpose include taxi, emergency vehicle,
+      etc. Vehicle classification can be used to determine the application of navigation
+      constraints.
   release: '1'
   sources:
   - origin:

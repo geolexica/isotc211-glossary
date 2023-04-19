@@ -35,13 +35,15 @@ data:
   dates:
   - date: '2002-09-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''ajanjakso, jona jokin on olemassa''}]'
+  definition:
+  - content: ajanjakso, jona jokin on olemassa
   examples: []
   id: 269
   language_code: fin
-  notes: '[{''content'': ''Voimassaolon kestoaika on jakso, jonka ajan objekti on
-    olemassa mallinnetussa todellisuudessa. Tapahtuman kestoaika on jakso, jonka ajan
-    tietokantaobjekti on aktiivisena tietokannassa.''}]'
+  notes:
+  - content: Voimassaolon kestoaika on jakso, jonka ajan objekti on olemassa mallinnetussa
+      todellisuudessa. Tapahtuman kestoaika on jakso, jonka ajan tietokantaobjekti
+      on aktiivisena tietokannassa.
   review_indicator: ''
   sources:
   - origin:

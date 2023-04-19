@@ -39,12 +39,14 @@ data:
   dates:
   - date: '2015-10-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''declaración de que un item de registro ha sido retirado
-    y reemplazado por uno o más items nuevos''}]'
+  definition:
+  - content: declaración de que un item de registro ha sido retirado y reemplazado
+      por uno o más items nuevos
   examples: []
   id: 1576
   language_code: spa
-  notes: '[{''content'': ''el estado del item reemplazado cambia de "válido" a "reemplazado".''}]'
+  notes:
+  - content: el estado del item reemplazado cambia de "válido" a "reemplazado".
   release: '4'
   reviewDate: 2010-10-19
   reviewDecisionDate: 2015-10-01

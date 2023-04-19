@@ -39,18 +39,20 @@ data:
   dates:
   - date: '2012-12-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''circunstancias impuestas por factores extrínsecos
-    a un conjunto de datos geográficos que afectan a la representación de dicho conjunto
-    de datos''}]'
-  examples: '[{''content'': ''Los factores que contribuyen al contexto de representación
-    pueden incluir el dispositivo de visualización propuesto, la escala de mapa, las
-    condiciones de visibilidad (día, noche, crepúsculo) y los requerimientos de orientación
-    del dispositivo de visualización (la no necesidad de tener el norte en la parte
-    de arriba de la pantalla o página) entre otros''}]'
+  definition:
+  - content: circunstancias impuestas por factores extrínsecos a un conjunto de datos
+      geográficos que afectan a la representación de dicho conjunto de datos
+  examples:
+  - content: Los factores que contribuyen al contexto de representación pueden incluir
+      el dispositivo de visualización propuesto, la escala de mapa, las condiciones
+      de visibilidad (día, noche, crepúsculo) y los requerimientos de orientación
+      del dispositivo de visualización (la no necesidad de tener el norte en la parte
+      de arriba de la pantalla o página) entre otros
   id: 1325
   language_code: spa
-  notes: '[{''content'': ''El contexto de representación puede influir en la selección
-    de las funciones de representación y la construcción de los símbolos''}]'
+  notes:
+  - content: El contexto de representación puede influir en la selección de las funciones
+      de representación y la construcción de los símbolos
   release: '3'
   sources:
   - origin:

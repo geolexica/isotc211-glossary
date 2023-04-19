@@ -54,16 +54,18 @@ data:
     type: accepted
   - date: '2013-12-15T00:00:00.000Z'
     type: amended
-  definition: '[{''content'': ''value or set of values resulting from applying a data
-    quality measure or the outcome of evaluating the obtained value or set of values
-    against a specified conformance quality level''}]'
-  examples: '[{''content'': ''A data quality result of "90" with a data quality value
-    type of "percentage" reported for the data quality element and its data quality
-    subelement "completeness, commission" is an example of a value resulting from
-    applying a data quality measure to the data specified by a data quality scope.  A
-    data quality result of "true" with a data quality value type of "boolean variable"
-    is an example of comparing the value (90) against a specified acceptable conformance
-    quality level (85) and reporting an evaluation of a kind, pass or fail.''}]'
+  definition:
+  - content: value or set of values resulting from applying a data quality measure
+      or the outcome of evaluating the obtained value or set of values against a specified
+      conformance quality level
+  examples:
+  - content: A data quality result of "90" with a data quality value type of "percentage"
+      reported for the data quality element and its data quality subelement "completeness,
+      commission" is an example of a value resulting from applying a data quality
+      measure to the data specified by a data quality scope.  A data quality result
+      of "true" with a data quality value type of "boolean variable" is an example
+      of comparing the value (90) against a specified acceptable conformance quality
+      level (85) and reporting an evaluation of a kind, pass or fail.
   id: 117
   language_code: eng
   lineage_source_similarity: 0

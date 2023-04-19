@@ -52,20 +52,23 @@ data:
     type: accepted
   - date: '2019-12-02T00:00:00.000Z'
     type: amended
-  definition: '[{''content'': ''suurin sellainen lukumäärä n, että jokainen geometriseen
-    joukkoon kuuluva piste voidaan liittää pisteen sisältävään osajoukkoon, joka on
-    yhtäläinen (isomorfinen) n-ulotteisen euklidisen avaruuden (R n) kanssa''}]'
-  examples: '[{''content'': ''Geometrinen primitiivi voi olla nollaulotteinen (piste),
-    yksiulotteinen (käyrä), kaksiulotteinen (pinta) tai kolmiulotteinen (kappale).''}]'
+  definition:
+  - content: suurin sellainen lukumäärä n, että jokainen geometriseen joukkoon kuuluva
+      piste voidaan liittää pisteen sisältävään osajoukkoon, joka on yhtäläinen (isomorfinen)
+      n-ulotteisen euklidisen avaruuden (R n) kanssa
+  examples:
+  - content: Geometrinen primitiivi voi olla nollaulotteinen (piste), yksiulotteinen
+      (käyrä), kaksiulotteinen (pinta) tai kolmiulotteinen (kappale).
   id: 213
   language_code: fin
-  notes: '[{''content'': ''Käyrät ovat todellisen viivan osan jatkuvia kuvia, ja siten
-    niiden geometrinen ulottuvuus on yksi. Pintoja ei voi kokonaisuudessaan kuvata
-    R 2 -avaruuteen, mutta kullakin pistesijainnilla on pieni ympäristö, joka (jatkuvissa
-    funktioissa) muistuttaa yksikköympyrän sisäpuolta R 2 -avaruudessa, ja sen vuoksi
-    pinnat ovat kaksiulotteisia. Tässä kansainvälisessä standardissa suurin osa pintapaloista
-    (GM_SurfacePatch:n ilmentymät) on kuvattu R 2 -avaruuden osiin interpolointimekanismeilla,
-    joilla ne on määritelty.''}]'
+  notes:
+  - content: Käyrät ovat todellisen viivan osan jatkuvia kuvia, ja siten niiden geometrinen
+      ulottuvuus on yksi. Pintoja ei voi kokonaisuudessaan kuvata R 2 -avaruuteen,
+      mutta kullakin pistesijainnilla on pieni ympäristö, joka (jatkuvissa funktioissa)
+      muistuttaa yksikköympyrän sisäpuolta R 2 -avaruudessa, ja sen vuoksi pinnat
+      ovat kaksiulotteisia. Tässä kansainvälisessä standardissa suurin osa pintapaloista
+      (GM_SurfacePatch:n ilmentymät) on kuvattu R 2 -avaruuden osiin interpolointimekanismeilla,
+      joilla ne on määritelty.
   release: '-1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02

@@ -34,8 +34,10 @@ data:
   dates:
   - date: '2007-11-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''2개 이상의 기존 피처 인스턴스가 동일한 피처 유형의 단일 인스턴스로 대체되는 피처 갱신''}]'
-  examples: '[{''content'': ''피처 유형이 "목장"인 두 인스턴스는 목장 사이의 담장이 제거되면 하나의 인스턴스로 대체된다.''}]'
+  definition:
+  - content: 2개 이상의 기존 피처 인스턴스가 동일한 피처 유형의 단일 인스턴스로 대체되는 피처 갱신
+  examples:
+  - content: 피처 유형이 "목장"인 두 인스턴스는 목장 사이의 담장이 제거되면 하나의 인스턴스로 대체된다.
   id: 175
   language_code: kor
   notes: []

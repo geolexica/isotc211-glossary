@@ -45,16 +45,17 @@ data:
   dates:
   - date: '2005-07-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''specification of the range of allowable cardinalities
-    that a set may assume''}]'
+  definition:
+  - content: specification of the range of allowable cardinalities that a set may
+      assume
   examples: []
   id: 304
   language_code: swe
   lineage_source_similarity: 1
-  notes: '[{''content'': ''Multiplicity specifications may be given for roles within
-    associations, parts within composites, repetitions and other purposes. Essentially
-    a multiplicity is a (possibly infinite) subset of the non-negative integers. Contrast:
-    cardinality.''}]'
+  notes:
+  - content: 'Multiplicity specifications may be given for roles within associations,
+      parts within composites, repetitions and other purposes. Essentially a multiplicity
+      is a (possibly infinite) subset of the non-negative integers. Contrast: cardinality.'
   release: '1'
   reviewDate: 2009-01-14
   reviewDecisionDate: 2015-12-01

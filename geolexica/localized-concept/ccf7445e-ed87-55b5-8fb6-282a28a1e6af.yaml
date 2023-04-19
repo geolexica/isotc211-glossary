@@ -41,13 +41,15 @@ data:
   dates:
   - date: '2010-11-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''مفهوم مرتبط بمجال محدد''}]'
+  definition:
+  - content: مفهوم مرتبط بمجال محدد
   examples: []
   id: 880
   language_code: ara
   lineage_source_similarity: 1
-  notes: '[{''content'': ''قد يربط المفهوم بعدد من المجالات أو الحقول ، ثم تتم مطابقته
-    مع كل منها كمفهوم للمجال أو الحقل بشكل منفصل .''}]'
+  notes:
+  - content: قد يربط المفهوم بعدد من المجالات أو الحقول ، ثم تتم مطابقته مع كل منها
+      كمفهوم للمجال أو الحقل بشكل منفصل .
   release: '2'
   reviewDate: 2018-06-01
   reviewDecisionDate: 2018-06-01

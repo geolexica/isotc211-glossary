@@ -41,9 +41,11 @@ data:
   dates:
   - date: '2005-07-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''مجموعة من القيم المقبولة''}]'
-  examples: '[{''content'': ''النطاق 3 إلى 28 , وجميع الأعداد الصحيحة , وأي حرف من
-    حروف آسكي ASCII, وترقيم جميع القيم المقبولة (أخضر , أزرق , أبيض''}]'
+  definition:
+  - content: مجموعة من القيم المقبولة
+  examples:
+  - content: النطاق 3 إلى 28 , وجميع الأعداد الصحيحة , وأي حرف من حروف آسكي ASCII,
+      وترقيم جميع القيم المقبولة (أخضر , أزرق , أبيض
   id: 490
   language_code: ara
   lineage_source_similarity: 1

@@ -49,17 +49,19 @@ data:
     type: accepted
   - date: '2015-07-01T00:00:00.000Z'
     type: amended
-  definition: '[{''content'': ''form for aggregering, der kræver, at en del indgår
-    i højst én helhed ad gangen, og at helheden er ansvarlig for at delene skabes
-    og/eller forsvinder. Med andre ord lever og dør delene sammen med helheden.''}]'
+  definition:
+  - content: form for aggregering, der kræver, at en del indgår i højst én helhed
+      ad gangen, og at helheden er ansvarlig for at delene skabes og/eller forsvinder.
+      Med andre ord lever og dør delene sammen med helheden.
   examples: []
   id: 725
   language_code: dan
   lineage_source_similarity: 1
-  notes: '[{''content'': ''Dele med ikke-fast multiplicitet kan skabes efter selve
-    helheden, men når de er skabt, lever og dør de med den (dvs. de har samme levetid).
-    Sådanne dele kan også fjernes eksplicit, inden helheden dør. Sammensætning kan
-    være rekursiv. Synonym: sammensat aggregering.''}]'
+  notes:
+  - content: 'Dele med ikke-fast multiplicitet kan skabes efter selve helheden, men
+      når de er skabt, lever og dør de med den (dvs. de har samme levetid). Sådanne
+      dele kan også fjernes eksplicit, inden helheden dør. Sammensætning kan være
+      rekursiv. Synonym: sammensat aggregering.'
   release: '-1'
   reviewDate: 2009-01-14
   reviewDecisionDate: 2015-12-01

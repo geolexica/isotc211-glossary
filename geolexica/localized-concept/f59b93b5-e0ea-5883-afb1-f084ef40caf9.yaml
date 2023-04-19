@@ -41,12 +41,15 @@ data:
   dates:
   - date: '2015-07-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''constant, explicitly specified value''}]'
-  examples: '[{''content'': ''“1”^^xsd:integer, “abc”^^xsd:string''}]'
+  definition:
+  - content: constant, explicitly specified value
+  examples:
+  - content: “1”^^xsd:integer, “abc”^^xsd:string
   id: 1644
   language_code: eng
-  notes: '[{''content'': ''This contrasts with a value that is determined by resolving
-    a chain of substitution (e.g. a variable).''}]'
+  notes:
+  - content: This contrasts with a value that is determined by resolving a chain of
+      substitution (e.g. a variable).
   release: '4'
   reviewDate: 2012-05-25
   reviewDecisionDate: 2015-07-01

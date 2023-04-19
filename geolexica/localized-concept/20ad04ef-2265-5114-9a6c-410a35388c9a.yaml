@@ -45,16 +45,18 @@ data:
   dates:
   - date: '2003-05-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''objeto topológico orientado que representa una asociación
-    entre un nodo y una de sus orientaciones''}]'
+  definition:
+  - content: objeto topológico orientado que representa una asociación entre un nodo
+      y una de sus orientaciones
   examples: []
   id: 138
   language_code: spa
   lineage_source_similarity: 1
-  notes: '[{''content'': ''Los nodos orientados se usan en la relación de cofrontera
-    para mantener la asociación espacial entre arco y nodo. La orientación de un nodo
-    con respecto a un arco es "+" para el nodo final y "-" para el nodo inicial. Esto
-    es coherente con la noción de vector "resultado = final - inicial".''}]'
+  notes:
+  - content: Los nodos orientados se usan en la relación de cofrontera para mantener
+      la asociación espacial entre arco y nodo. La orientación de un nodo con respecto
+      a un arco es "+" para el nodo final y "-" para el nodo inicial. Esto es coherente
+      con la noción de vector "resultado = final - inicial".
   release: '1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02

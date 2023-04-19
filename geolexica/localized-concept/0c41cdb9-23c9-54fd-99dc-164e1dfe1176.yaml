@@ -36,17 +36,19 @@ data:
   dates:
   - date: '2014-01-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''Данные, полученные приемником в результате всех возвратов
-    от одного испускаемого импульса''}]'
+  definition:
+  - content: Данные, полученные приемником в результате всех возвратов от одного испускаемого
+      импульса
   examples: []
   id: 1390
   language_code: rus
   lineage_source_similarity: 1
-  notes: '[{''content'': ''A complete 3D data sample of the world produced by a LIDAR
-    taken at a certain time, place, and orientation. A single LIDAR frame is also
-    referred to as a range image.\n полная 3D-выборка данных о мире, полученная LIDAR
-    в определенное время, месте и ориентации. Один кадр лидара также называется изображением
-    диапазона.''}]'
+  notes:
+  - content: "A complete 3D data sample of the world produced by a LIDAR taken at\
+      \ a certain time, place, and orientation. A single LIDAR frame is also referred\
+      \ to as a range image.\n полная 3D-выборка данных о мире, полученная LIDAR в\
+      \ определенное время, месте и ориентации. Один кадр лидара также называется\
+      \ изображением диапазона."
   release: '3'
   sources:
   - origin:

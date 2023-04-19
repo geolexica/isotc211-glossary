@@ -44,15 +44,17 @@ data:
   dates:
   - date: '2007-09-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''GML-objektin lapsielementti''}]'
+  definition:
+  - content: GML-objektin lapsielementti
   examples: []
   id: 534
   language_code: fin
   lineage_source_similarity: 1
-  notes: '[{''content'': ''Käsite vastaa kohteen ominaisuuden ja kohteiden välisen
-    assosiaatiosuhteen roolia ISO 19109 -standardissa. Jos kohteen GML-ominaisuudella
-    on kohteeseen viittaava xlink:href-attribuutti, ominaisuus kuvaa kohteiden välisen
-    assosiaatiosuhteen roolia.''}]'
+  notes:
+  - content: Käsite vastaa kohteen ominaisuuden ja kohteiden välisen assosiaatiosuhteen
+      roolia ISO 19109 -standardissa. Jos kohteen GML-ominaisuudella on kohteeseen
+      viittaava xlink:href-attribuutti, ominaisuus kuvaa kohteiden välisen assosiaatiosuhteen
+      roolia.
   release: '1'
   reviewDate: 2020-01-09
   reviewDecisionDate: 2020-01-09

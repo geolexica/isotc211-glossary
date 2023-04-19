@@ -45,15 +45,16 @@ data:
   dates:
   - date: '2007-09-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''eindeutiger Identifikator für eine Ressource, der
-    in Übereinstimmung mit IETF\xa0RFC\xa02396 aufgebaut ist''}]'
+  definition:
+  - content: eindeutiger Identifikator für eine Ressource, der in Übereinstimmung
+      mit IETF\xa0RFC\xa02396 aufgebaut ist
   examples: []
   id: 481
   language_code: deu
   lineage_source_similarity: 1
-  notes: '[{''content'': ''The general syntax is <scheme>::<scheme-specific-part>.
-    The hierarchical syntax with a namespace is <scheme>://<authority><path>?<query>
-    - see RFC 2396.''}]'
+  notes:
+  - content: The general syntax is <scheme>::<scheme-specific-part>. The hierarchical
+      syntax with a namespace is <scheme>://<authority><path>?<query> - see RFC 2396.
   release: '1'
   reviewDate: 2020-01-09
   reviewDecisionDate: 2020-01-09

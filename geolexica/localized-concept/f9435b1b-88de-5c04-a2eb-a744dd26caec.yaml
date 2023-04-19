@@ -39,14 +39,16 @@ data:
   dates:
   - date: '2003-05-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''äärellinen, järjestetty kokoelma yhteenliittyviä tietokohteita
-    (objekteja tai arvoja), jotka voivat toistua''}]'
+  definition:
+  - content: äärellinen, järjestetty kokoelma yhteenliittyviä tietokohteita (objekteja
+      tai arvoja), jotka voivat toistua
   examples: []
   id: 403
   language_code: fin
-  notes: '[{''content'': ''Sekvenssi on joukko <tietokohde, offset?>-pareja. Tässä
-    kansainvälisessä standardissa käytetään LISP-syntaksia, jossa sekvenssit rajataan
-    suluilla ja sekvenssin elementit erotetaan toisistaan pilkuilla.''}]'
+  notes:
+  - content: Sekvenssi on joukko <tietokohde, offset?>-pareja. Tässä kansainvälisessä
+      standardissa käytetään LISP-syntaksia, jossa sekvenssit rajataan suluilla ja
+      sekvenssin elementit erotetaan toisistaan pilkuilla.
   release: '1'
   reviewDate: 2016-02-15
   review_indicator: ''

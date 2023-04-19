@@ -41,13 +41,15 @@ data:
   dates:
   - date: '2007-09-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''一个元素中包含的名称-值对。''}]'
+  definition:
+  - content: 一个元素中包含的名称-值对。
   examples: []
   id: 532
   language_code: zho
   lineage_source_similarity: 1
-  notes: '[{''content'': ''除非另有指明，否则在本文件中的一种属性就是一种XML属性。一种XML属性的语法是"Attribute::= Name
-    = AttValue"。一种属性通常作为一个XML元素的修改量(如<Road gml:id = "r1" /> ;这里的gml:id是一种属性。''}]'
+  notes:
+  - content: 除非另有指明，否则在本文件中的一种属性就是一种XML属性。一种XML属性的语法是"Attribute::= Name = AttValue"。一种属性通常作为一个XML元素的修改量(如<Road
+      gml:id = "r1" /> ;这里的gml:id是一种属性。
   release: '1'
   reviewDate: 2020-01-09
   reviewDecisionDate: 2020-01-09

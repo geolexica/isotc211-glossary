@@ -31,12 +31,14 @@ data:
   dates:
   - date: '2010-10-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''konstanter, explizit festgelegter Wert''}]'
+  definition:
+  - content: konstanter, explizit festgelegter Wert
   examples: []
   id: 1029
   language_code: deu
-  notes: '[{''content'': ''This contrasts with a value that is determined by resolving
-    a chain of substitution (e.g. a variable)''}]'
+  notes:
+  - content: This contrasts with a value that is determined by resolving a chain of
+      substitution (e.g. a variable)
   release: '2'
   sources:
   - origin:

@@ -41,15 +41,17 @@ data:
   dates:
   - date: '2016-04-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''calibration of a lidar sensor system, equipped with
-    an Inertial Measurement Unit (IMU) and a Global Navigation Satellite System (GNSS),
-    to accurately determine or establish its position and orientation''}]'
+  definition:
+  - content: calibration of a lidar sensor system, equipped with an Inertial Measurement
+      Unit (IMU) and a Global Navigation Satellite System (GNSS), to accurately determine
+      or establish its position and orientation
   examples: []
   id: 1931
   language_code: eng
-  notes: '[{''content'': ''The position of the lidar sensor system (x, y, z) is determined
-    with respect to the GNSS antenna. The orientation (roll, pitch, heading) of the
-    lidar sensor system is determined with respect to straight and level flight.''}]'
+  notes:
+  - content: The position of the lidar sensor system (x, y, z) is determined with
+      respect to the GNSS antenna. The orientation (roll, pitch, heading) of the lidar
+      sensor system is determined with respect to straight and level flight.
   release: '4'
   reviewDate: 2014-08-26
   reviewDecisionDate: 2016-04-15

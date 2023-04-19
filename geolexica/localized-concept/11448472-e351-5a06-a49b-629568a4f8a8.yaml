@@ -41,14 +41,17 @@ data:
   dates:
   - date: '2014-11-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''integrated operations to collect and deliver context
-    specific information, and convert it to tailored data for each user''}]'
-  examples: '[{''content'': ''getContext(staticFeature) = FD_Feature''}]'
+  definition:
+  - content: integrated operations to collect and deliver context specific information,
+      and convert it to tailored data for each user
+  examples:
+  - content: getContext(staticFeature) = FD_Feature
   id: 1638
   language_code: eng
-  notes: '[{''content'': ''In the example, the getContext operation would extract
-    geographically explicit context information FD_Feature from varied information
-    sources, such as photos, videos, etc.''}]'
+  notes:
+  - content: In the example, the getContext operation would extract geographically
+      explicit context information FD_Feature from varied information sources, such
+      as photos, videos, etc.
   release: '4'
   reviewDate: 2012-08-03
   reviewDecisionDate: 2014-11-01

@@ -45,17 +45,19 @@ data:
   dates:
   - date: '2003-05-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''retningsbestemt topologisk objekt, der repræsenterer
-    en fobindelse mellem et topologisk legeme og en af dets orienteringer''}]'
+  definition:
+  - content: retningsbestemt topologisk objekt, der repræsenterer en fobindelse mellem
+      et topologisk legeme og en af dets orienteringer
   examples: []
   id: 139
   language_code: dan
   lineage_source_similarity: 1
-  notes: '[{''content'': ''Retningsbestemte legemer benyttes i fællesgrænse-relationen
-    til at opretholde den rumlige forbindelse mellem flade og topologisk legeme. Orienteringen
-    af et legeme i forhold til en flade er "+", hvis upNormal peger væk fra legemet,
-    og "-" hvis upNormal peger ind mod legemet.  Dette stemmer overens med begrebet
-    "up = væk fra" for en flade, der afgrænser et legeme.''}]'
+  notes:
+  - content: Retningsbestemte legemer benyttes i fællesgrænse-relationen til at opretholde
+      den rumlige forbindelse mellem flade og topologisk legeme. Orienteringen af
+      et legeme i forhold til en flade er "+", hvis upNormal peger væk fra legemet,
+      og "-" hvis upNormal peger ind mod legemet.  Dette stemmer overens med begrebet
+      "up = væk fra" for en flade, der afgrænser et legeme.
   release: '1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02

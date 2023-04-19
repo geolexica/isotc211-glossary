@@ -47,13 +47,14 @@ data:
     type: accepted
   - date: '2015-10-01T00:00:00.000Z'
     type: amended
-  definition: '[{''content'': ''sätta i stället för något som tas bort''}]'
+  definition:
+  - content: sätta i stället för något som tas bort
   examples: []
   id: 510
   language_code: swe
   lineage_source_similarity: 0
-  notes: '[{''content'': ''The status of the replaced item changes from "valid" to
-    "superseded."''}]'
+  notes:
+  - content: The status of the replaced item changes from "valid" to "superseded."
   release: '-1'
   reviewDate: 2010-10-19
   reviewDecisionDate: 2015-10-01

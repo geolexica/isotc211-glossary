@@ -55,19 +55,27 @@ data:
   dates:
   - date: '2003-05-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''包含给定的几何对象的最小凸集。''}]'
+  definition:
+  - content: 包含给定的几何对象的最小凸集。
   examples: []
   id: 86
   language_code: zho
   lineage_source_similarity: 1
-  notes: '[{''content'': ''\''Provisional translation: 19107:2019, 3.15 -- Note 1
-    to entry\n$$\n\''注：“最小”是集合理论上最小，并不是指尺度上。这个定义也可以重写为“包含所给定的几何元素的所有凸集的并集”。\n$$\n"Smallest"
-    is the set theoretic smallest, not an indication of a measurement. The definition
-    can be rewritten as "the intersection of all convex sets that contain the geometric
-    object". Another definition in a Euclidean space `bbb"E"^n` is the union of all
-    lines with both end points in the given geometric object. `C = A."convexHull"
-    <=> [C."convex" = "TRUE"] ^^ [A sub C] ^^ [[B."convex" = "true", A sub B] => [A
-    sube C sube B]]`''}]'
+  notes:
+  - content: '''Provisional translation: 19107:2019, 3.15 -- Note 1 to entry
+
+      $$
+
+      ''注：“最小”是集合理论上最小，并不是指尺度上。这个定义也可以重写为“包含所给定的几何元素的所有凸集的并集”。
+
+      $$
+
+      "Smallest" is the set theoretic smallest, not an indication of a measurement.
+      The definition can be rewritten as "the intersection of all convex sets that
+      contain the geometric object". Another definition in a Euclidean space `bbb"E"^n`
+      is the union of all lines with both end points in the given geometric object.
+      `C = A."convexHull" <=> [C."convex" = "TRUE"] ^^ [A sub C] ^^ [[B."convex" =
+      "true", A sub B] => [A sube C sube B]]`'
   release: '1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02

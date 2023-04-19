@@ -30,11 +30,13 @@ data:
   dates:
   - date: '2005-10-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''Dijkstra曲线图是通过适当配置、权值为正的有向图，用于执行最短路径的搜索。''}]'
+  definition:
+  - content: Dijkstra曲线图是通过适当配置、权值为正的有向图，用于执行最短路径的搜索。
   examples: []
   id: 133
   language_code: zho
-  notes: '[{''content'': ''这一术语出自于E.Dijkstra论文【7】中最著名的算法，该算法用于在权值为正的有向图中寻找最短路径。尽管这一算法并非是现有算法中惟一的一个，但其对有向图的要求与多数其他算法一样。最宽松的条件就是“正权值”，在Bellman_Ford算法中不需要该条件。''}]'
+  notes:
+  - content: 这一术语出自于E.Dijkstra论文【7】中最著名的算法，该算法用于在权值为正的有向图中寻找最短路径。尽管这一算法并非是现有算法中惟一的一个，但其对有向图的要求与多数其他算法一样。最宽松的条件就是“正权值”，在Bellman_Ford算法中不需要该条件。
   review_indicator: ''
   sources:
   - origin:

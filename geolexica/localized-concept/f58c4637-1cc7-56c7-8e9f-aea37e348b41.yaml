@@ -45,16 +45,18 @@ data:
   dates:
   - date: '2007-09-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''marca en un documento XML que delimita el contenido
-    de un elemento''}]'
-  examples: '[{''content'': ''<Carretera>''}]'
+  definition:
+  - content: marca en un documento XML que delimita el contenido de un elemento
+  examples:
+  - content: <Carretera>
   id: 441
   language_code: spa
   lineage_source_similarity: 1
-  notes: '[{''content'': ''Una etiqueta que no se preceda con una barra (por ejemplo,
-    <Carretera>) se denomina etiqueta inicial (también etiqueta de apertura), y una
-    que se preceda con una barra (por ejemplo, </Carretera>) se denomina etiqueta
-    final (también etiqueta de cierre)''}]'
+  notes:
+  - content: Una etiqueta que no se preceda con una barra (por ejemplo, <Carretera>)
+      se denomina etiqueta inicial (también etiqueta de apertura), y una que se preceda
+      con una barra (por ejemplo, </Carretera>) se denomina etiqueta final (también
+      etiqueta de cierre)
   release: '1'
   reviewDate: 2020-01-09
   reviewDecisionDate: 2020-01-09

@@ -38,15 +38,17 @@ data:
   dates:
   - date: '2007-10-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''data som är tillräckliga för att identifiera ett objekt
-    över tid, oberoende av objektets tillstånd''}]'
+  definition:
+  - content: data som är tillräckliga för att identifiera ett objekt över tid, oberoende
+      av objektets tillstånd
   examples: []
   id: 667
   language_code: swe
-  notes: '[{''content'': "An identity is usually a persistent and constant key member
-    attribute value of the object. Since it is temporally constant and unique, it
-    will be the same in any state associated to the object regardless of its timestamp.
-    A moving object''s identity is independent of both time and location."}]'
+  notes:
+  - content: An identity is usually a persistent and constant key member attribute
+      value of the object. Since it is temporally constant and unique, it will be
+      the same in any state associated to the object regardless of its timestamp.
+      A moving object's identity is independent of both time and location.
   release: '1'
   review_indicator: ''
   sources:

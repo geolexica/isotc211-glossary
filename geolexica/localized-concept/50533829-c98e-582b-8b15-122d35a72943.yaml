@@ -39,16 +39,18 @@ data:
   dates:
   - date: '2005-10-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''skapa objekt från objekttyper eller klasser''}]'
+  definition:
+  - content: skapa objekt från objekttyper eller klasser
   examples: []
   id: 248
   language_code: swe
-  notes: '[{''content'': "A class or data element definition instantiates a type if
-    it creates the ability to create objects or data elements respectively, that can
-    represent the concepts (instance data and /or operations) defined by that type.
-    A class is instantiated by an object if the class defines that object''s structure
-    and function. A data schema is instantiated by a data element if the data schema
-    defines that element''s structure."}]'
+  notes:
+  - content: A class or data element definition instantiates a type if it creates
+      the ability to create objects or data elements respectively, that can represent
+      the concepts (instance data and /or operations) defined by that type. A class
+      is instantiated by an object if the class defines that object's structure and
+      function. A data schema is instantiated by a data element if the data schema
+      defines that element's structure.
   release: '1'
   review_indicator: ''
   sources:

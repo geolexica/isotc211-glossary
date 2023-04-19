@@ -42,15 +42,16 @@ data:
   dates:
   - date: '2010-06-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''영상 좌표 기준 체계를 정의하고 필름 네거티브의 영상을 형성하는 카메라 본체와 단단히 연결된
-    4개 또는 8개의 인덱스 마크''}]'
+  definition:
+  - content: 영상 좌표 기준 체계를 정의하고 필름 네거티브의 영상을 형성하는 카메라 본체와 단단히 연결된 4개 또는 8개의 인덱스 마크
   examples: []
   id: 994
   language_code: kor
   lineage_source_similarity: '1'
-  notes: '[{''content'': ''When a camera is calibrated the distances between fiducial
-    marks are precisely measured and assigned coordinates that assist in correcting
-    for film distortion.''}]'
+  notes:
+  - content: When a camera is calibrated the distances between fiducial marks are
+      precisely measured and assigned coordinates that assist in correcting for film
+      distortion.
   release: '2'
   reviewDate: 2018-09-01
   reviewDecisionDate: 2018-09-01

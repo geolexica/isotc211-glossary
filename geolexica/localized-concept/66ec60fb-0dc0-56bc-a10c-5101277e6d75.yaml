@@ -47,13 +47,15 @@ data:
     type: accepted
   - date: '2015-12-01T00:00:00.000Z'
     type: amended
-  definition: '[{''content'': ''이름-값쌍으로서 기술된 특성의 명시적 정의''}]'
+  definition:
+  - content: 이름-값쌍으로서 기술된 특성의 명시적 정의
   examples: []
   id: 442
   language_code: kor
   lineage_source_similarity: 1
-  notes: '[{''content'': ''꼬리표 값에서 이름은 꼬리표로 언급된다. 꼬리표는 UML에서 사전 규정되거나 또는 사용자가 규정할
-    수 있다. 꼬리표 값은 UML에서 세 가지 확장 가능한 메카니즘 중의 하나로 나머지 둘은 제약 조건과 스테레오타입이 있다.''}]'
+  notes:
+  - content: 꼬리표 값에서 이름은 꼬리표로 언급된다. 꼬리표는 UML에서 사전 규정되거나 또는 사용자가 규정할 수 있다. 꼬리표 값은 UML에서
+      세 가지 확장 가능한 메카니즘 중의 하나로 나머지 둘은 제약 조건과 스테레오타입이 있다.
   release: '-1'
   reviewDate: 2009-01-14
   reviewDecisionDate: 2015-12-01

@@ -43,15 +43,17 @@ data:
   dates:
   - date: '2007-09-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''par nombre-valor contenido en un elemento''}]'
+  definition:
+  - content: par nombre-valor contenido en un elemento
   examples: []
   id: 532
   language_code: spa
   lineage_source_similarity: 1
-  notes: '[{''content'': ''En este documento un atributo es una atributo XML, a menos
-    que se especifique otra cosa. La sintáxis de un atributo XML es "Atributo::= Nombre
-    = ValorAtrib". Normalmente, un atributo actúa como un elemento modificador XML
-    (por ejemplo, <Carretera gml:id = c1" />; aquí gml:id es un atributo).''}]'
+  notes:
+  - content: En este documento un atributo es una atributo XML, a menos que se especifique
+      otra cosa. La sintáxis de un atributo XML es "Atributo::= Nombre = ValorAtrib".
+      Normalmente, un atributo actúa como un elemento modificador XML (por ejemplo,
+      <Carretera gml:id = c1" />; aquí gml:id es un atributo).
   release: '1'
   reviewDate: 2020-01-09
   reviewDecisionDate: 2020-01-09

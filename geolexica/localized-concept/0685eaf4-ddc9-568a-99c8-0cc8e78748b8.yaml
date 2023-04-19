@@ -42,12 +42,15 @@ data:
   dates:
   - date: '2005-07-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''可识别的转换规则的集合，用于定义特定数据结构的编码。''}]'
-  examples: '[{''content'': ''XML, ISO 10303-21, ISO/IEC 8211。''}]'
+  definition:
+  - content: 可识别的转换规则的集合，用于定义特定数据结构的编码。
+  examples:
+  - content: XML, ISO 10303-21, ISO/IEC 8211。
   id: 152
   language_code: zho
   lineage_source_similarity: 1
-  notes: '[{''content'': ''编码规则既说明转换的数据类型，也说明用于结果数据结构的语法、结构和代码。''}]'
+  notes:
+  - content: 编码规则既说明转换的数据类型，也说明用于结果数据结构的语法、结构和代码。
   release: '1'
   reviewDate: 2007-01-23
   reviewDecisionDate: 2011-10-15

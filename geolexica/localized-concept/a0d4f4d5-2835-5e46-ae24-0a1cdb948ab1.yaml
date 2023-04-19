@@ -37,16 +37,18 @@ data:
   dates:
   - date: '2014-01-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''항행중 선박이 효과적 드로우트를 증가시키는 저기압 장소를 선박 하방에 생성하는 효과''}]'
+  definition:
+  - content: 항행중 선박이 효과적 드로우트를 증가시키는 저기압 장소를 선박 하방에 생성하는 효과
   examples: []
   id: 1420
   language_code: kor
   lineage_source_similarity: '1'
-  notes: '[{''content'': "The effect is a result of Bernoulli''s principle of fluid
-    dynamics. The squat represents the increase in effective draught."}, {''content'':
-    ''For a ship underway, the change of level of the bow and stern from the still
-    water condition in response to the elevation and depression of the water level
-    about the hull resulting from the bow and stern wave systems.''}]'
+  notes:
+  - content: The effect is a result of Bernoulli's principle of fluid dynamics. The
+      squat represents the increase in effective draught.
+  - content: For a ship underway, the change of level of the bow and stern from the
+      still water condition in response to the elevation and depression of the water
+      level about the hull resulting from the bow and stern wave systems.
   release: '3'
   sources:
   - origin:

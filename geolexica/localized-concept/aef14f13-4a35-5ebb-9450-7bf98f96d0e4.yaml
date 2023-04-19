@@ -31,12 +31,14 @@ data:
   dates:
   - date: '2010-12-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''질의 연산에 대한 응답으로 나타날 수 있는 각 피쳐 유형의 속성을 정의하는 스키마''}]'
+  definition:
+  - content: 질의 연산에 대한 응답으로 나타날 수 있는 각 피쳐 유형의 속성을 정의하는 스키마
   examples: []
   id: 1042
   language_code: kor
-  notes: '[{''content'': ''This is the schema of feature types that a client can obtain
-    using the DescribeFeatureType operation (see Clause 9).''}]'
+  notes:
+  - content: This is the schema of feature types that a client can obtain using the
+      DescribeFeatureType operation (see Clause 9).
   release: '2'
   sources:
   - origin:

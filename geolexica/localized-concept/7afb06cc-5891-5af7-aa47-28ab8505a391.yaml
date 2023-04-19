@@ -46,17 +46,19 @@ data:
   dates:
   - date: '2003-05-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''directed topological object that represents an association
-    between an edge and one of its orientations''}]'
+  definition:
+  - content: directed topological object that represents an association between an
+      edge and one of its orientations
   examples: []
   id: 136
   language_code: eng
   lineage_source_similarity: 1
-  notes: '[{''content'': ''A directed edge that is in agreement with the orientation
-    of the edge has a + orientation, otherwise, it has the opposite (-) orientation.
-    Directed edge is used in topology to distinguish the right side (-) from the left
-    side (+) of the same edge and the start node (-) and end node (+) of the same
-    edge and in computational topology to represent these concepts.''}]'
+  notes:
+  - content: A directed edge that is in agreement with the orientation of the edge
+      has a + orientation, otherwise, it has the opposite (-) orientation. Directed
+      edge is used in topology to distinguish the right side (-) from the left side
+      (+) of the same edge and the start node (-) and end node (+) of the same edge
+      and in computational topology to represent these concepts.
   release: '1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02

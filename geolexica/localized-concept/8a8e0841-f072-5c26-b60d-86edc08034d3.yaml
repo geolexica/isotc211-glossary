@@ -32,12 +32,14 @@ data:
   dates:
   - date: '2002-09-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''ajanjakso, jonka kesto on suunnilleen sama kuin kuunkierron''}]'
+  definition:
+  - content: ajanjakso, jonka kesto on suunnilleen sama kuin kuunkierron
   examples: []
   id: 300
   language_code: fin
-  notes: '[{''content'': ''Kuukauden kesto päivinä on kokonaisluku. Kuukauden päivien
-    lukumäärä määräytyy käytettävän kalenterin sääntöjen mukaan.''}]'
+  notes:
+  - content: Kuukauden kesto päivinä on kokonaisluku. Kuukauden päivien lukumäärä
+      määräytyy käytettävän kalenterin sääntöjen mukaan.
   review_indicator: ''
   sources:
   - origin:

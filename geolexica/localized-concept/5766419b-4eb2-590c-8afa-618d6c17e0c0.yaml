@@ -40,16 +40,18 @@ data:
   dates:
   - date: '2000-12-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''lausunto, joka sisältää kaiken testattavana olevaan
-    toteutukseen (Implementation Under Test, IUT) ja sitä vastaavaan testattavana
-    olevaan järjestelmään (System Under Test, SUT) liittyvän tiedon, jonka avulla
-    testilaboratoriossa voidaan suorittaa kyseiselle toteutukselle soveltuva testisarja''}]'
+  definition:
+  - content: lausunto, joka sisältää kaiken testattavana olevaan toteutukseen (Implementation
+      Under Test, IUT) ja sitä vastaavaan testattavana olevaan järjestelmään (System
+      Under Test, SUT) liittyvän tiedon, jonka avulla testilaboratoriossa voidaan
+      suorittaa kyseiselle toteutukselle soveltuva testisarja
   examples: []
   id: 237
   language_code: fin
-  notes: '[{''content'': ''Testilisätiedoissa annetaan tyypillisesti tietoja siitä,
-    miten käsitteet on testattavana olevaan järjestelmään järjestetty ja tallennettu
-    sekä järjestelmään pääsystä ja järjestelmän muuttamisesta.''}]'
+  notes:
+  - content: Testilisätiedoissa annetaan tyypillisesti tietoja siitä, miten käsitteet
+      on testattavana olevaan järjestelmään järjestetty ja tallennettu sekä järjestelmään
+      pääsystä ja järjestelmän muuttamisesta.
   release: '1'
   reviewDate: 2019-07-05
   review_indicator: ''

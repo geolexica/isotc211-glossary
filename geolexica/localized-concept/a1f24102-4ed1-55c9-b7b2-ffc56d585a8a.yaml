@@ -55,17 +55,19 @@ data:
     type: accepted
   - date: '2013-12-15T00:00:00.000Z'
     type: amended
-  definition: '[{''content'': ''1) værdi eller sæt af værdier opnået ved at anvende
-    et mål for datakvalitet.\n2) resultatet af at evaluere de(n) opnåede værdi(er)
-    i forhold til et specificeret kvalitetsniveau af overensstemmelse.''}]'
-  examples: '[{''content'': ''Hvis der rapporteres et datakvalitetsresultat på "90"
-    med "procent" som værditype for datakvalitetselementet og dets delelement "fuldstændighed"
-    er det et eksempel på en værdi, der opnås ved at anvende et mål for datakvalitet
-    på dataene specificeret ved et bestemt omfang af datakvalitet.  I forlængelse
-    heraf er datakvalitetsresultatet "sandt" med "Boolean" som værditype for datakvalitet
-    et eksempel på sammenligning af værdien (90) med tærskelværdien 85 som kvalitetsniveau
-    for overensstemmelse, og der kan rapporteres en evaluering: godkendt eller ikke
-    godkendt.''}]'
+  definition:
+  - content: 1) værdi eller sæt af værdier opnået ved at anvende et mål for datakvalitet.\n2)
+      resultatet af at evaluere de(n) opnåede værdi(er) i forhold til et specificeret
+      kvalitetsniveau af overensstemmelse.
+  examples:
+  - content: 'Hvis der rapporteres et datakvalitetsresultat på "90" med "procent"
+      som værditype for datakvalitetselementet og dets delelement "fuldstændighed"
+      er det et eksempel på en værdi, der opnås ved at anvende et mål for datakvalitet
+      på dataene specificeret ved et bestemt omfang af datakvalitet.  I forlængelse
+      heraf er datakvalitetsresultatet "sandt" med "Boolean" som værditype for datakvalitet
+      et eksempel på sammenligning af værdien (90) med tærskelværdien 85 som kvalitetsniveau
+      for overensstemmelse, og der kan rapporteres en evaluering: godkendt eller ikke
+      godkendt.'
   id: 117
   language_code: dan
   notes: []

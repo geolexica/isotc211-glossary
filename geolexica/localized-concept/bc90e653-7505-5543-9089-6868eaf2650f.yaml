@@ -34,11 +34,12 @@ data:
   dates:
   - date: '2002-09-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''feature succession in which two or more previously
-    existing instances of a feature type are replaced by a single instance of the
-    same feature type''}]'
-  examples: '[{''content'': ''Two instances of the feature type "pasture" are replaced
-    by a single instance when the fence between the pastures is removed.''}]'
+  definition:
+  - content: feature succession in which two or more previously existing instances
+      of a feature type are replaced by a single instance of the same feature type
+  examples:
+  - content: Two instances of the feature type "pasture" are replaced by a single
+      instance when the fence between the pastures is removed.
   id: 175
   language_code: eng
   notes: []

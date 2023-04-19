@@ -45,16 +45,18 @@ data:
   dates:
   - date: '2005-07-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''especificación del rango de cardinalidades permisibles
-    que un conjunto puede asumir''}]'
+  definition:
+  - content: especificación del rango de cardinalidades permisibles que un conjunto
+      puede asumir
   examples: []
   id: 304
   language_code: spa
   lineage_source_similarity: 1
-  notes: '[{''content'': ''Se pueden dar especificaciones de multiplicidad entre roles
-    de asociación, partes dentro de compuestos, repeticiones y otros. Esencialmente,
-    una multiplicidad es un subconjunto (posiblemente finito) de enteros no negativos.
-    Contratar con: cardinalidad.''}]'
+  notes:
+  - content: 'Se pueden dar especificaciones de multiplicidad entre roles de asociación,
+      partes dentro de compuestos, repeticiones y otros. Esencialmente, una multiplicidad
+      es un subconjunto (posiblemente finito) de enteros no negativos. Contratar con:
+      cardinalidad.'
   release: '1'
   reviewDate: 2009-01-14
   reviewDecisionDate: 2015-12-01

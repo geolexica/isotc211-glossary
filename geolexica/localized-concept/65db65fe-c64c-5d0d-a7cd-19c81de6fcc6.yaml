@@ -43,14 +43,16 @@ data:
   dates:
   - date: '2007-09-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''a child element of a GML object''}]'
+  definition:
+  - content: a child element of a GML object
   examples: []
   id: 534
   language_code: eng
   lineage_source_similarity: 1
-  notes: '[{''content'': ''It corresponds to feature attribute and feature association
-    role in ISO 19109.  If a GML property of a feature has an xlink:href attribute
-    that references a feature, the property represents a feature association role.''}]'
+  notes:
+  - content: It corresponds to feature attribute and feature association role in ISO
+      19109.  If a GML property of a feature has an xlink:href attribute that references
+      a feature, the property represents a feature association role.
   release: '1'
   reviewDate: 2020-01-09
   reviewDecisionDate: 2020-01-09

@@ -45,16 +45,18 @@ data:
   dates:
   - date: '2007-09-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''XML-Dokument, das Definitionen und Festlegungen für
-    Schemakomponenten enthält''}]'
+  definition:
+  - content: XML-Dokument, das Definitionen und Festlegungen für Schemakomponenten
+      enthält
   examples: []
   id: 697
   language_code: deu
   lineage_source_similarity: 1
-  notes: '[{''content'': ''The W3C XML Schema provides an XML interchange format for
-    schema information. A single schema document provides descriptions of components
-    associated with a single XML namespace, but several documents may describe components
-    in the same schema, i.e. the same target namespace.''}]'
+  notes:
+  - content: The W3C XML Schema provides an XML interchange format for schema information.
+      A single schema document provides descriptions of components associated with
+      a single XML namespace, but several documents may describe components in the
+      same schema, i.e. the same target namespace.
   release: '1'
   reviewDate: 2020-01-09
   reviewDecisionDate: 2020-01-09

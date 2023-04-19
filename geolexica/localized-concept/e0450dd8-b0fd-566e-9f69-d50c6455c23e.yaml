@@ -42,13 +42,15 @@ data:
   dates:
   - date: '2004-07-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''2개 이상의 측위 기술을 통합하는 측위 시스템''}]'
+  definition:
+  - content: 2개 이상의 측위 기술을 통합하는 측위 시스템
   examples: []
   id: 250
   language_code: kor
   lineage_source_similarity: 1
-  notes: '[{''content'': ''통합 시스템에서 측위 기술로 측정된 것은 위치, 이동, 또는 자세 등 이다. 중복된 측정이 존재하며,
-    이들이 결합되었을 때, 통합된 위치, 이동, 자세가 결정된다.''}]'
+  notes:
+  - content: 통합 시스템에서 측위 기술로 측정된 것은 위치, 이동, 또는 자세 등 이다. 중복된 측정이 존재하며, 이들이 결합되었을 때,
+      통합된 위치, 이동, 자세가 결정된다.
   release: '1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02

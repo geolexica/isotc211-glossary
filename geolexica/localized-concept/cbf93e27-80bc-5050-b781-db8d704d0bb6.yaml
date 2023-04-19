@@ -41,11 +41,14 @@ data:
   dates:
   - date: '2015-12-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''descripción de un conjunto de direcciones que comparten
-    los mismos componentes de dirección, operaciones, métodos, relaciones y semántica''}]'
-  examples: '[{''content'': ''"25 Blue Avenue Hatfield 0028" y "384 Green Street Motherville
-    2093" son de la misma clase de dirección''}, {''content'': ''"PO Box 765 Goodwood
-    33948" y "PO Box 567 Grayville 98373" son de la misma clase de dirección.''}]'
+  definition:
+  - content: descripción de un conjunto de direcciones que comparten los mismos componentes
+      de dirección, operaciones, métodos, relaciones y semántica
+  examples:
+  - content: '"25 Blue Avenue Hatfield 0028" y "384 Green Street Motherville 2093"
+      son de la misma clase de dirección'
+  - content: '"PO Box 765 Goodwood 33948" y "PO Box 567 Grayville 98373" son de la
+      misma clase de dirección.'
   id: 1655
   language_code: spa
   notes: []

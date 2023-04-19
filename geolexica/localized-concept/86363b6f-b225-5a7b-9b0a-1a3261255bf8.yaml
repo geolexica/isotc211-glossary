@@ -41,12 +41,14 @@ data:
   dates:
   - date: '2003-05-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''영역이나 범위 내에 적어도 하나의 공간 매개 변수를 갖는 함수 또는 절차''}]'
+  definition:
+  - content: 영역이나 범위 내에 적어도 하나의 공간 매개 변수를 갖는 함수 또는 절차
   examples: []
   id: 420
   language_code: kor
   lineage_source_similarity: 1
-  notes: '[{''content'': ''공간 객체에 대한 모든 UML 연산은 공간연산으로 분류된다(KS X ISO 19107, 8절).''}]'
+  notes:
+  - content: 공간 객체에 대한 모든 UML 연산은 공간연산으로 분류된다(KS X ISO 19107, 8절).
   release: '1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02

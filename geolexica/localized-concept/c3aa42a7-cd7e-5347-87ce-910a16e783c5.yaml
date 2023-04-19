@@ -46,13 +46,16 @@ data:
     type: accepted
   - date: '2014-04-01T00:00:00.000Z'
     type: amended
-  definition: '[{''content'': ''aktywa lub środki, które zaspokajają wymaganie''}]'
-  examples: '[{''content'': ''Zbiór danych, usługa, dokument, osoba lub organizacja''}]'
+  definition:
+  - content: aktywa lub środki, które zaspokajają wymaganie
+  examples:
+  - content: Zbiór danych, usługa, dokument, osoba lub organizacja
   id: 383
   language_code: pol
-  notes: '[{''content'': ''Status wycofanej pozycji zmienia się z „valid” na „retired”.
-    Wycofana pozycja jest utrzymywana w rejestrze, aby umożliwić interpretację danych
-    wytworzonych przed jej wycofaniem.''}]'
+  notes:
+  - content: Status wycofanej pozycji zmienia się z „valid” na „retired”. Wycofana
+      pozycja jest utrzymywana w rejestrze, aby umożliwić interpretację danych wytworzonych
+      przed jej wycofaniem.
   release: '-1'
   reviewDate: 2011-01-01
   reviewDecisionDate: 2014-04-01

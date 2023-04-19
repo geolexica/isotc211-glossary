@@ -39,13 +39,15 @@ data:
   dates:
   - date: '2015-06-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''part of a journey defined by a start and a stop location''}]'
+  definition:
+  - content: part of a journey defined by a start and a stop location
   examples: []
   id: 1493
   language_code: eng
-  notes: '[{''content'': ''A journey segment may be carried out by means of a trip
-    or a subset of a trip between locations that may be transfer nodes. A journey
-    segment may also be road use (driving, walking and cycling).''}]'
+  notes:
+  - content: A journey segment may be carried out by means of a trip or a subset of
+      a trip between locations that may be transfer nodes. A journey segment may also
+      be road use (driving, walking and cycling).
   release: '4'
   reviewDate: 2009-06-20
   reviewDecisionDate: 2015-06-15

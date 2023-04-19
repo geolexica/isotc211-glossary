@@ -41,9 +41,9 @@ data:
   dates:
   - date: '2005-02-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': "séquence de services où, pour chaque paire adjacente
-    de services, l''occurrence de la première action est nécessaire pour l''occurrence
-    de la deuxième action"}]'
+  definition:
+  - content: séquence de services où, pour chaque paire adjacente de services, l'occurrence
+      de la première action est nécessaire pour l'occurrence de la deuxième action
   examples: []
   id: 406
   language_code: fra

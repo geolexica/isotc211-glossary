@@ -43,13 +43,15 @@ data:
   dates:
   - date: '2010-11-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''하나의 개념에 다른 개념과 최소한 하나 이상의 한계적 특징이 포함된 두 개념 사이의 관계''}]'
+  definition:
+  - content: 하나의 개념에 다른 개념과 최소한 하나 이상의 한계적 특징이 포함된 두 개념 사이의 관계
   examples: []
   id: 885
   language_code: kor
   lineage_source_similarity: 1
-  notes: '[{''content'': ''A generic relation exists between the concepts "word" and
-    "pronoun", "vehicle" and "car", "person" and "child".''}]'
+  notes:
+  - content: A generic relation exists between the concepts "word" and "pronoun",
+      "vehicle" and "car", "person" and "child".
   release: '2'
   reviewDate: 2018-06-01
   reviewDecisionDate: 2018-06-01

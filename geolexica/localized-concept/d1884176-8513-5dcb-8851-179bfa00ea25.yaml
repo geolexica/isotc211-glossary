@@ -44,15 +44,16 @@ data:
   dates:
   - date: '2007-09-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''رمز وحيد متفرد للمصدر تتم هيكلته وفقا لمقياس 2396
-    RFC IETF''}]'
+  definition:
+  - content: رمز وحيد متفرد للمصدر تتم هيكلته وفقا لمقياس 2396 RFC IETF
   examples: []
   id: 481
   language_code: ara
   lineage_source_similarity: 1
-  notes: '[{''content'': ''البناء العام للجملة هو <scheme>::<scheme-specific-part
-    البناء الهرمي للجملة التي لها حيز للاسم هو scheme>://<authority><path>?<query>  أنظر
-    المواصفة القياسيةRFC 2396.''}]'
+  notes:
+  - content: البناء العام للجملة هو <scheme>::<scheme-specific-part البناء الهرمي
+      للجملة التي لها حيز للاسم هو scheme>://<authority><path>?<query>  أنظر المواصفة
+      القياسيةRFC 2396.
   release: '1'
   reviewDate: 2020-01-09
   reviewDecisionDate: 2020-01-09

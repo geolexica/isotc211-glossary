@@ -45,21 +45,22 @@ data:
   dates:
   - date: '2014-07-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''measured quantity value minus a reference quantity
-    value''}]'
+  definition:
+  - content: measured quantity value minus a reference quantity value
   examples: []
   id: 1463
   language_code: eng
   lineage_source_similarity: 1
-  notes: '[{''content'': ''The concept of "measurement error" can be used both a)
-    when there is a single reference quantity value to refer to, which occurs if a
-    calibration is made by means of a measurement standard with a measured quantity
-    value having a negligible measurement uncertainty or if a conventional quantity
-    value is given, in which case the measurement error is known, and b) if a measurand
-    is supposed to be represented by a unique true quantity value or a set of true
-    quantity values of negligible range, in which case the measurement error is not
-    known.''}, {''content'': ''Measurement error should not be confused with production
-    error or mistake.''}]'
+  notes:
+  - content: The concept of "measurement error" can be used both a) when there is
+      a single reference quantity value to refer to, which occurs if a calibration
+      is made by means of a measurement standard with a measured quantity value having
+      a negligible measurement uncertainty or if a conventional quantity value is
+      given, in which case the measurement error is known, and b) if a measurand is
+      supposed to be represented by a unique true quantity value or a set of true
+      quantity values of negligible range, in which case the measurement error is
+      not known.
+  - content: Measurement error should not be confused with production error or mistake.
   release: '3'
   sources:
   - origin:

@@ -48,20 +48,22 @@ data:
   dates:
   - date: '2003-05-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''zbiór prostych elementów topologicznych o większym
-    wymiarze topologicznym, powiązanych z danym obiektem topologicznym w taki sposób,
-    że ten topologiczny obiekt należy do granicy każdego z nich''}]'
+  definition:
+  - content: zbiór prostych elementów topologicznych o większym wymiarze topologicznym,
+      powiązanych z danym obiektem topologicznym w taki sposób, że ten topologiczny
+      obiekt należy do granicy każdego z nich
   examples: []
   id: 48
   language_code: pol
   lineage_source_similarity: 1
-  notes: '[{''content'': ''Jeśli węzeł jest na granicy pewnej krawędzi, wówczas krawędź
-    ta jest na współgranicy tego węzła. Każdy parametr orientacji powiązany z jedną
-    z tych relacji powinien być powiązany także z drugą. A zatem, jeśli dany węzeł
-    jest węzłem końcowym krawędzi (czyli zdefiniowanym jako koniec krawędzi skierowanej
-    dodatnio), wówczas dodatnia orientacja tego węzła (czyli węzła zdefiniowanego
-    jako węzeł skierowany dodatnio) powinna mieć tę krawędź na swojej współgranicy.patrz
-    Rysunek35.''}]'
+  notes:
+  - content: Jeśli węzeł jest na granicy pewnej krawędzi, wówczas krawędź ta jest
+      na współgranicy tego węzła. Każdy parametr orientacji powiązany z jedną z tych
+      relacji powinien być powiązany także z drugą. A zatem, jeśli dany węzeł jest
+      węzłem końcowym krawędzi (czyli zdefiniowanym jako koniec krawędzi skierowanej
+      dodatnio), wówczas dodatnia orientacja tego węzła (czyli węzła zdefiniowanego
+      jako węzeł skierowany dodatnio) powinna mieć tę krawędź na swojej współgranicy.patrz
+      Rysunek35.
   release: '1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02

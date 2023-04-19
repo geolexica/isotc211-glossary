@@ -44,15 +44,17 @@ data:
   dates:
   - date: '2003-05-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''set that represents the limit of an entity''}]'
+  definition:
+  - content: set that represents the limit of an entity
   examples: []
   id: 29
   language_code: eng
   lineage_source_similarity: 1
-  notes: '[{''content'': ''Boundary is most commonly used in the context of geometry,
-    where the set is a collection of points or a collection of objects that represent
-    those points. In other arenas, the term is used metaphorically to describe the
-    transition between an entity and the rest of its domain of discourse.''}]'
+  notes:
+  - content: Boundary is most commonly used in the context of geometry, where the
+      set is a collection of points or a collection of objects that represent those
+      points. In other arenas, the term is used metaphorically to describe the transition
+      between an entity and the rest of its domain of discourse.
   release: '1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02

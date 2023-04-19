@@ -48,16 +48,19 @@ data:
     type: accepted
   - date: '2019-01-31T00:00:00.000Z'
     type: amended
-  definition: '[{''content'': ''coördinaatbewerking waarbij beide coördinaatreferentiesystemen
-    op hetzelfde datum gebaseerd zijn.''}]'
-  examples: '[{''content'': ''Conversie van een ellipsoidaal coördinaatreferentiesysteem
-    op basis van het WGS84 datum naar een Cartesiaans coördinaatreferentiesysteem
-    wat ook op het WGS84 datum is gebaseerd of een verandering in eenheden zoals van
-    radialen naar graden of voeten naar meters.''}]'
+  definition:
+  - content: coördinaatbewerking waarbij beide coördinaatreferentiesystemen op hetzelfde
+      datum gebaseerd zijn.
+  examples:
+  - content: Conversie van een ellipsoidaal coördinaatreferentiesysteem op basis van
+      het WGS84 datum naar een Cartesiaans coördinaatreferentiesysteem wat ook op
+      het WGS84 datum is gebaseerd of een verandering in eenheden zoals van radialen
+      naar graden of voeten naar meters.
   id: 762
   language_code: nld
-  notes: '[{''content'': ''Een coördinaat conversie gebruikt parameters die gespecificeerde
-    waarden hebben die niet empirisch bepaald zijn.''}]'
+  notes:
+  - content: Een coördinaat conversie gebruikt parameters die gespecificeerde waarden
+      hebben die niet empirisch bepaald zijn.
   release: '-1'
   reviewDate: 2019-01-31
   reviewDecisionDate: 2019-01-31

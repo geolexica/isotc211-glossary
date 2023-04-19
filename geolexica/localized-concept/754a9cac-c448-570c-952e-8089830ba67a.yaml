@@ -41,13 +41,15 @@ data:
   dates:
   - date: '2008-06-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''표고시차가 제거되고 센서 방향 변위로 인해 영상점이 이동하고 기준해수면에 직교 투영된 영상''}]'
+  definition:
+  - content: 표고시차가 제거되고 센서 방향 변위로 인해 영상점이 이동하고 기준해수면에 직교 투영된 영상
   examples: []
   id: 795
   language_code: kor
   lineage_source_similarity: 1
-  notes: '[{''content'': ''The amount of displacement depends on the resolution and
-    the level of detail of the elevation information and on the software implementation.''}]'
+  notes:
+  - content: The amount of displacement depends on the resolution and the level of
+      detail of the elevation information and on the software implementation.
   release: '2'
   reviewDate: 2018-05-01
   reviewDecisionDate: 2018-05-01

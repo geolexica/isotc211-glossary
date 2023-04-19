@@ -43,14 +43,16 @@ data:
   dates:
   - date: '2005-10-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''ilmoitus, jonka mukaan rekisterielementti ei ole enää
-    käyttökelpoinen uuden tiedon tuottamisessa''}]'
+  definition:
+  - content: ilmoitus, jonka mukaan rekisterielementti ei ole enää käyttökelpoinen
+      uuden tiedon tuottamisessa
   examples: []
   id: 509
   language_code: fin
-  notes: '[{''content'': ''Vetäytyneen rekisterielementin tila muuttuu kelpoisesta
-    (valid) vetäytyneeksi (retired). Vetäytynyt rekisterielementti säilyy rekisterissä
-    tukemassa ennen vetäytymistä tuotetun tiedon tulkintaa.''}]'
+  notes:
+  - content: Vetäytyneen rekisterielementin tila muuttuu kelpoisesta (valid) vetäytyneeksi
+      (retired). Vetäytynyt rekisterielementti säilyy rekisterissä tukemassa ennen
+      vetäytymistä tuotetun tiedon tulkintaa.
   release: '1'
   reviewDate: 2010-10-19
   reviewDecisionDate: 2015-10-01

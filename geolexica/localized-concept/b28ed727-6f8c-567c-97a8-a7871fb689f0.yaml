@@ -34,13 +34,15 @@ data:
   dates:
   - date: '2005-08-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''grid for which there is an affine transformation between
-    the grid coordinates and the coordinates of an external coordinate reference system''}]'
+  definition:
+  - content: grid for which there is an affine transformation between the grid coordinates
+      and the coordinates of an external coordinate reference system
   examples: []
   id: 367
   language_code: eng
-  notes: '[{''content'': ''If the coordinate reference system is related to the earth
-    by a datum, the grid is a georectified grid.''}]'
+  notes:
+  - content: If the coordinate reference system is related to the earth by a datum,
+      the grid is a georectified grid.
   release: '1'
   review_indicator: ''
   sources:

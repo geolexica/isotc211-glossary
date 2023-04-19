@@ -43,17 +43,19 @@ data:
   dates:
   - date: '2004-07-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''koetulokseen liitettävä tunnusluku, joka luonnehtii
-    mitattuun suureeseen kohtuudella liitettävissä olevaa hajontaa (SFS-ENV ISO 13843)''}]'
+  definition:
+  - content: koetulokseen liitettävä tunnusluku, joka luonnehtii mitattuun suureeseen
+      kohtuudella liitettävissä olevaa hajontaa (SFS-ENV ISO 13843)
   examples: []
   id: 480
   language_code: fin
   lineage_source_similarity: 1
-  notes: '[{''content'': ''Kun mitattujen arvojen, esimerkiksi koordinaattien, ulkoisen
-    tai sisäisen tarkkuuden laatua on luonnehdittava määrällisesti, tunnuslukuna käytetään
-    arviota mittaustulosten epävarmuudesta. Ulkoinen tarkkuus on laadullinen käsite,
-    joten sitä ei tulisi käyttää määrällisesti eli sille ei tulisi antaa lukuarvoa;
-    sen sijaan lukuarvon voi antaa epävarmuudelle.''}]'
+  notes:
+  - content: Kun mitattujen arvojen, esimerkiksi koordinaattien, ulkoisen tai sisäisen
+      tarkkuuden laatua on luonnehdittava määrällisesti, tunnuslukuna käytetään arviota
+      mittaustulosten epävarmuudesta. Ulkoinen tarkkuus on laadullinen käsite, joten
+      sitä ei tulisi käyttää määrällisesti eli sille ei tulisi antaa lukuarvoa; sen
+      sijaan lukuarvon voi antaa epävarmuudelle.
   release: '1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02

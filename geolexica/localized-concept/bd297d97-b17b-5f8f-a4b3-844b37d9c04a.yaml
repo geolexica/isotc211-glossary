@@ -34,14 +34,17 @@ data:
   dates:
   - date: '2009-11-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''범주, 유형, 개체의 명칭''}]'
-  examples: '[{''content'': ''"Deciduous needle leaf" is a nominal value that identifies
-    a vegetation type.''}]'
+  definition:
+  - content: 범주, 유형, 개체의 명칭
+  examples:
+  - content: '"Deciduous needle leaf" is a nominal value that identifies a vegetation
+      type.'
   id: 863
   language_code: kor
-  notes: '[{''content'': ''Many feature attributes take nominal rather than numerical
-    values.  The value domain of such an attribute is usually specified as an enumeration
-    or a code list.''}]'
+  notes:
+  - content: Many feature attributes take nominal rather than numerical values.  The
+      value domain of such an attribute is usually specified as an enumeration or
+      a code list.
   release: '2'
   sources:
   - origin:

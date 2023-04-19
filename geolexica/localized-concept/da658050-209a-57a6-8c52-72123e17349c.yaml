@@ -48,19 +48,21 @@ data:
   dates:
   - date: '2003-05-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''suunnattu topologinen objekti, joka kuvaa tahkon ja
-    jonkin sen suunnan välistä yhteyttä''}]'
+  definition:
+  - content: suunnattu topologinen objekti, joka kuvaa tahkon ja jonkin sen suunnan
+      välistä yhteyttä
   examples: []
   id: 137
   language_code: fin
   lineage_source_similarity: 1
-  notes: '[{''content'': ''Suunnatun tahkon ulkorajauksen muodostavien suunnattujen
-    linkkien suunta on positiivinen, kun ne ovat yhdensuuntaisia tämän vektorin kanssa;
-    topologista kappaletta rajaavan suunnatun tahkon suunta osoittaa topologisesta
-    kappaleesta poispäin. Vierekkäisillä kappaleilla on yhteiselle rajaukselleen vastakkaiset
-    suunnat (vertaa vierekkäisten tahkojen ja niiden yhteisten linkkien välinen yhteys).
-    Suunnattuja tahkoja käytetään yhteisrajauksessa ylläpitämään tahkon ja linkin
-    sijaintiyhteyttä.''}]'
+  notes:
+  - content: Suunnatun tahkon ulkorajauksen muodostavien suunnattujen linkkien suunta
+      on positiivinen, kun ne ovat yhdensuuntaisia tämän vektorin kanssa; topologista
+      kappaletta rajaavan suunnatun tahkon suunta osoittaa topologisesta kappaleesta
+      poispäin. Vierekkäisillä kappaleilla on yhteiselle rajaukselleen vastakkaiset
+      suunnat (vertaa vierekkäisten tahkojen ja niiden yhteisten linkkien välinen
+      yhteys). Suunnattuja tahkoja käytetään yhteisrajauksessa ylläpitämään tahkon
+      ja linkin sijaintiyhteyttä.
   release: '1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02

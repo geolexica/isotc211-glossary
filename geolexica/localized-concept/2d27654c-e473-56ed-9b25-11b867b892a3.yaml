@@ -58,22 +58,29 @@ data:
   dates:
   - date: '2003-05-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''отношение между двумя множествами (например, двумя
-    комплексами), при котором существуют сохраняющие структуру функции типа один-к-одному
-    из каждого множества в другое, причем любая композиция этих двух функций есть
-    функция тождества''}]'
+  definition:
+  - content: отношение между двумя множествами (например, двумя комплексами), при
+      котором существуют сохраняющие структуру функции типа один-к-одному из каждого
+      множества в другое, причем любая композиция этих двух функций есть функция тождества
   examples: []
   id: 259
   language_code: rus
   lineage_source_similarity: 1
-  notes: '[{''content'': "Provisional translation:  19107:2019, 3.58 -- Note 1 to
-    entry\n$$\n''Геометрический комплекс является изоморфным топологическому комплексу,
-    если существуют соответствие один-к-одному элементов обоих комплексов и сохранность
-    их размерности и границ\n$$\nA geometric complex is isomorphic to a topological
-    complex if their elements are in a 1-to-1, dimension- and boundary-preserving
-    correspondence to one another. \\[[A,B \\textit{ isomorphic}] \\Leftrightarrow
-    [\\exists f : A \\rightarrow B, g : B \\rightarrow A \\backepsilon f \\circ g
-    = Id_A, g \\circ f = Id_B]\\]"}]'
+  notes:
+  - content: 'Provisional translation:  19107:2019, 3.58 -- Note 1 to entry
+
+      $$
+
+      ''Геометрический комплекс является изоморфным топологическому комплексу, если
+      существуют соответствие один-к-одному элементов обоих комплексов и сохранность
+      их размерности и границ
+
+      $$
+
+      A geometric complex is isomorphic to a topological complex if their elements
+      are in a 1-to-1, dimension- and boundary-preserving correspondence to one another.
+      \[[A,B \textit{ isomorphic}] \Leftrightarrow [\exists f : A \rightarrow B, g
+      : B \rightarrow A \backepsilon f \circ g = Id_A, g \circ f = Id_B]\]'
   release: '1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02

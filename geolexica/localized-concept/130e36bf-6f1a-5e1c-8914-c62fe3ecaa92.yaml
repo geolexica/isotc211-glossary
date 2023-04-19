@@ -38,13 +38,15 @@ data:
   dates:
   - date: '2003-05-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''ordnad, ändlig mängd av samhörande element''}]'
+  definition:
+  - content: ordnad, ändlig mängd av samhörande element
   examples: []
   id: 403
   language_code: swe
-  notes: '[{''content'': ''Logically, a sequence is a set of pairs <item, offset>.
-    LISP syntax, which delimits sequences with parentheses and separates elements
-    in the sequence with commas, is used in this International Standard.''}]'
+  notes:
+  - content: Logically, a sequence is a set of pairs <item, offset>. LISP syntax,
+      which delimits sequences with parentheses and separates elements in the sequence
+      with commas, is used in this International Standard.
   release: '1'
   reviewDate: 2016-02-15
   review_indicator: ''

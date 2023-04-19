@@ -44,12 +44,14 @@ data:
     type: accepted
   - date: '2015-07-01T00:00:00.000Z'
     type: amended
-  definition: '[{''content'': ''扩展元模型语义的新的建模元素类型。''}]'
+  definition:
+  - content: 扩展元模型语义的新的建模元素类型。
   examples: []
   id: 432
   language_code: zho
   lineage_source_similarity: 0
-  notes: '[{''content'': ''构造型必须基于元模型中某些已有的类型或类。构造型可以扩展语义，但不可以扩展已有的类型和类的结构。某些构造型在UML中预先定义，而在其他情况下可以是用户定义。构造型是UML三种扩展机制之一。另外两个是限制和标记值。''}]'
+  notes:
+  - content: 构造型必须基于元模型中某些已有的类型或类。构造型可以扩展语义，但不可以扩展已有的类型和类的结构。某些构造型在UML中预先定义，而在其他情况下可以是用户定义。构造型是UML三种扩展机制之一。另外两个是限制和标记值。
   release: '-1'
   reviewDate: 2009-01-14
   reviewDecisionDate: 2015-07-01

@@ -49,17 +49,18 @@ data:
     type: accepted
   - date: '2015-07-01T00:00:00.000Z'
     type: amended
-  definition: '[{''content'': ''new type of modeling element that extends the semantics
-    of the metamodel''}]'
+  definition:
+  - content: new type of modeling element that extends the semantics of the metamodel
   examples: []
   id: 432
   language_code: swe
   lineage_source_similarity: 0
-  notes: '[{''content'': ''Stereotypes must be based on certain existing types or
-    classes in the metamodel. Stereotypes may extend the semantics, but not the structure
-    of pre-existing types and classes. Certain stereotypes are predefined in the UML,
-    others may be user defined. Stereotypes are one of three extensibility mechanisms
-    in UML. The others are constraint and tagged value.''}]'
+  notes:
+  - content: Stereotypes must be based on certain existing types or classes in the
+      metamodel. Stereotypes may extend the semantics, but not the structure of pre-existing
+      types and classes. Certain stereotypes are predefined in the UML, others may
+      be user defined. Stereotypes are one of three extensibility mechanisms in UML.
+      The others are constraint and tagged value.
   release: '-1'
   reviewDate: 2009-01-14
   reviewDecisionDate: 2015-07-01

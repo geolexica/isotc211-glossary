@@ -38,16 +38,18 @@ data:
   dates:
   - date: '2009-04-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''minskning antingen av det lagringgsutrymme som behövs
-    för en viss mängd data eller av längden på det meddelande som behövs för att överföra
-    en viss mängd information''}]'
+  definition:
+  - content: minskning antingen av det lagringgsutrymme som behövs för en viss mängd
+      data eller av längden på det meddelande som behövs för att överföra en viss
+      mängd information
   examples: []
   id: 1118
   language_code: swe
-  notes: '[{''content'': ''Adapted from ANSI T1.523-2001.''}, {''content'': ''Data
-    compression is probabilistic in nature based on particular instances of imagery,
-    gridded or coverage data and is related to encoding and is outside the scope of
-    this Technical Specification.''}]'
+  notes:
+  - content: Adapted from ANSI T1.523-2001.
+  - content: Data compression is probabilistic in nature based on particular instances
+      of imagery, gridded or coverage data and is related to encoding and is outside
+      the scope of this Technical Specification.
   release: '2'
   sources:
   - origin:

@@ -41,13 +41,15 @@ data:
   dates:
   - date: '2010-11-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''concepto que se asocia a un dominio específico''}]'
+  definition:
+  - content: concepto que se asocia a un dominio específico
   examples: []
   id: 880
   language_code: spa
   lineage_source_similarity: 1
-  notes: '[{''content'': ''Un concepto puede asociarse con varios dominios y ser identificado
-    separadamente como un concepto de un dominio en relación con cada uno de ellos.''}]'
+  notes:
+  - content: Un concepto puede asociarse con varios dominios y ser identificado separadamente
+      como un concepto de un dominio en relación con cada uno de ellos.
   release: '2'
   reviewDate: 2018-06-01
   reviewDecisionDate: 2018-06-01

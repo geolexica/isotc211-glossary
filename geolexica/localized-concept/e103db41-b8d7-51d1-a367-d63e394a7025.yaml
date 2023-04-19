@@ -34,13 +34,16 @@ data:
   dates:
   - date: '2011-12-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''entidad involucrada en la realización de observaciones
-    relativas a un determinado ámbito''}]'
-  examples: '[{''content'': ''Estación, corte transversal, sección o espécimen.''}]'
+  definition:
+  - content: entidad involucrada en la realización de observaciones relativas a un
+      determinado ámbito
+  examples:
+  - content: Estación, corte transversal, sección o espécimen.
   id: 1443
   language_code: spa
-  notes: '[{''content'': ''Una entidad de muestreo es un artefacto de la estrategia
-    de observación, y no tiene significado independiente de la campaña de observación''}]'
+  notes:
+  - content: Una entidad de muestreo es un artefacto de la estrategia de observación,
+      y no tiene significado independiente de la campaña de observación
   release: '3'
   sources:
   - origin:

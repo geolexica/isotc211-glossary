@@ -43,13 +43,15 @@ data:
   dates:
   - date: '2007-09-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''资源的唯一标识符，其结构与IETF RFC 2396规范一致。''}]'
+  definition:
+  - content: 资源的唯一标识符，其结构与IETF RFC 2396规范一致。
   examples: []
   id: 481
   language_code: zho
   lineage_source_similarity: 1
-  notes: '[{''content'': ''一般句法是<scheme> : : <scheme-specific-part>。带有命名空间的分级句法是<scheme>
-    : // <authority> <path> ? <query>—参见[RFC 2396]。''}]'
+  notes:
+  - content: '一般句法是<scheme> : : <scheme-specific-part>。带有命名空间的分级句法是<scheme> : // <authority>
+      <path> ? <query>—参见[RFC 2396]。'
   release: '1'
   reviewDate: 2020-01-09
   reviewDecisionDate: 2020-01-09

@@ -33,13 +33,15 @@ data:
   dates:
   - date: '2000-12-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''testitulos, joka osoittaa, etteivät vaatimukset täyty''}]'
+  definition:
+  - content: testitulos, joka osoittaa, etteivät vaatimukset täyty
   examples: []
   id: 166
   language_code: fin
-  notes: '[{''content'': ''Hylkäys voi johtua siitä, ettei testikohde testin mukaan
-    sovellu tarkoitukseensa tai siitä, ettei testikohde täytä yhtä tai useampaa asiaankuuluvissa
-    standardeissa mainittua vaatimusta.''}]'
+  notes:
+  - content: Hylkäys voi johtua siitä, ettei testikohde testin mukaan sovellu tarkoitukseensa
+      tai siitä, ettei testikohde täytä yhtä tai useampaa asiaankuuluvissa standardeissa
+      mainittua vaatimusta.
   review_indicator: ''
   sources:
   - origin:

@@ -49,17 +49,21 @@ data:
   dates:
   - date: '2002-07-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''kohteelle ominainen piirre''}]'
-  examples: '[{''content'': ''Kohteen ominaisuudella "väri" voi olla arvo "vihreä",
-    jonka tietotyyppi on "teksti".''}, {''content'': ''Kohteen ominaisuudella "pituus"
-    voi olla arvo "84.2", jonka tietotyyppi on "reaaliluku".''}]'
+  definition:
+  - content: kohteelle ominainen piirre
+  examples:
+  - content: Kohteen ominaisuudella "väri" voi olla arvo "vihreä", jonka tietotyyppi
+      on "teksti".
+  - content: Kohteen ominaisuudella "pituus" voi olla arvo "84.2", jonka tietotyyppi
+      on "reaaliluku".
   id: 170
   language_code: fin
   lineage_source_similarity: 1
-  notes: '[{''content'': ''Kohteen ominaisuudella on nimi, tietotyyppi ja arvojoukko.
-    Kohteen yksittäiseen ilmentymään liittyvällä ominaisuudella on myös arvojoukkoon
-    sisältyvä arvo.''}, {''content'': ''Kohdeluettelossa esiintyvällä ominaisuudella
-    voi olla arvojoukko, mutta se ei määritä kohteen ilmentymien ominaisuuden arvoja.''}]'
+  notes:
+  - content: Kohteen ominaisuudella on nimi, tietotyyppi ja arvojoukko. Kohteen yksittäiseen
+      ilmentymään liittyvällä ominaisuudella on myös arvojoukkoon sisältyvä arvo.
+  - content: Kohdeluettelossa esiintyvällä ominaisuudella voi olla arvojoukko, mutta
+      se ei määritä kohteen ilmentymien ominaisuuden arvoja.
   release: '1'
   reviewDate: 2010-10-12
   reviewDecisionDate: 2014-11-01

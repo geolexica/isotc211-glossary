@@ -43,15 +43,16 @@ data:
   dates:
   - date: '2017-11-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''postal address represented as an image in the form
-    of a rectangular shape comprising text lines in which postal address components
-    are separated and ordered''}]'
-  examples: '[{''content'': ''Address on mail label, order form address, address displayed
-    on screen''}]'
+  definition:
+  - content: postal address represented as an image in the form of a rectangular shape
+      comprising text lines in which postal address components are separated and ordered
+  examples:
+  - content: Address on mail label, order form address, address displayed on screen
   id: 2139
   language_code: eng
-  notes: '[{''content'': ''For convenience, the preferred term “rendered postal address”
-    has been shortened to the admitted term “rendered address” throughout this document.''}]'
+  notes:
+  - content: For convenience, the preferred term “rendered postal address” has been
+      shortened to the admitted term “rendered address” throughout this document.
   release: '5'
   reviewDate: 2017-11-15
   reviewDecisionDate: 2017-11-15

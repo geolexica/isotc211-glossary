@@ -45,15 +45,17 @@ data:
   dates:
   - date: '2005-07-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''identificerbar samling af konverteringsregler, der
-    definerer kodningen for en bestemt datastruktur''}]'
-  examples: '[{''content'': ''XML, ISO 10303-21, ISO/IEC 8211.''}]'
+  definition:
+  - content: identificerbar samling af konverteringsregler, der definerer kodningen
+      for en bestemt datastruktur
+  examples:
+  - content: XML, ISO 10303-21, ISO/IEC 8211.
   id: 152
   language_code: dan
   lineage_source_similarity: 1
-  notes: '[{''content'': ''En kodningsregel specificerer, hvilken type data der skal
-    konverteres, samt den syntaks, struktur og de koder, der anvendes i den resulterende
-    datastruktur.''}]'
+  notes:
+  - content: En kodningsregel specificerer, hvilken type data der skal konverteres,
+      samt den syntaks, struktur og de koder, der anvendes i den resulterende datastruktur.
   release: '1'
   reviewDate: 2007-01-23
   reviewDecisionDate: 2011-10-15

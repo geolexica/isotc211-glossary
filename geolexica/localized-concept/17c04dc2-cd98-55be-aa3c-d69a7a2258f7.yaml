@@ -54,18 +54,26 @@ data:
   dates:
   - date: '2003-05-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''두 영역(예: 두 개의 복합체)이 일 대 일로 대응되며, 각 영역 간에 구조 보존 함수와
-    두 함수의 합성이 양방향으로 대응하는 식별 특성 함수 관계''}]'
+  definition:
+  - content: '두 영역(예: 두 개의 복합체)이 일 대 일로 대응되며, 각 영역 간에 구조 보존 함수와 두 함수의 합성이 양방향으로 대응하는
+      식별 특성 함수 관계'
   examples: []
   id: 259
   language_code: kor
   lineage_source_similarity: 1
-  notes: '[{''content'': "Provisional translation:  19107:2019, 3.58 -- Note 1 to
-    entry\n$$\n''비고: 기하 복합체는 만일 그 요소가 서로 일 대 일로 차원 및 경계 보존 대응 관계에 있다면, 위상 복합체와 동형이다.\n$$\nA
-    geometric complex is isomorphic to a topological complex if their elements are
-    in a 1-to-1, dimension- and boundary-preserving correspondence to one another.
-    \\[[A,B \\textit{ isomorphic}] \\Leftrightarrow [\\exists f : A \\rightarrow B,
-    g : B \\rightarrow A \\backepsilon f \\circ g = Id_A, g \\circ f = Id_B]\\]"}]'
+  notes:
+  - content: 'Provisional translation:  19107:2019, 3.58 -- Note 1 to entry
+
+      $$
+
+      ''비고: 기하 복합체는 만일 그 요소가 서로 일 대 일로 차원 및 경계 보존 대응 관계에 있다면, 위상 복합체와 동형이다.
+
+      $$
+
+      A geometric complex is isomorphic to a topological complex if their elements
+      are in a 1-to-1, dimension- and boundary-preserving correspondence to one another.
+      \[[A,B \textit{ isomorphic}] \Leftrightarrow [\exists f : A \rightarrow B, g
+      : B \rightarrow A \backepsilon f \circ g = Id_A, g \circ f = Id_B]\]'
   release: '1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02

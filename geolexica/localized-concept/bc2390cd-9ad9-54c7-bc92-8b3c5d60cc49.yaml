@@ -45,15 +45,17 @@ data:
   dates:
   - date: '2007-09-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''уникальный идентификатор, назначаемый данному ресурсу
-    и структурированный в соответствии с документом IETF RFC 2396''}]'
+  definition:
+  - content: уникальный идентификатор, назначаемый данному ресурсу и структурированный
+      в соответствии с документом IETF RFC 2396
   examples: []
   id: 481
   language_code: rus
   lineage_source_similarity: 1
-  notes: '[{''content'': ''Общим синтаксисом является  <scheme>::<scheme-specific-part>.
-    Иерархический синтаксис с пространством имен - <scheme>://<authority><path>?<query>
-    - см. RFC 2396.''}]'
+  notes:
+  - content: Общим синтаксисом является  <scheme>::<scheme-specific-part>. Иерархический
+      синтаксис с пространством имен - <scheme>://<authority><path>?<query> - см.
+      RFC 2396.
   release: '1'
   reviewDate: 2020-01-09
   reviewDecisionDate: 2020-01-09

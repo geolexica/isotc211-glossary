@@ -47,19 +47,20 @@ data:
   dates:
   - date: '2017-11-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''specification of postal address renderings within
-    a postal address domain''}]'
+  definition:
+  - content: specification of postal address renderings within a postal address domain
   examples: []
   id: 2133
   language_code: eng
-  notes: '[{''content'': ''Postal address template may need to include rendition instructions.''},
-    {''content'': ''A template specifies also constraints for syntactical correctness
-    of postal addresses by indicating which elements are mandatory and which are optional.''},
-    {''content'': ''Software that interprets the rendering rules provided in template
-    is needed to produce rendered addresses.''}, {''content'': ''Postal address templates
-    are further described in Clause 8.''}, {''content'': ''For convenience, the preferred
-    term “postal address template” has been shortened to the admitted term “template”
-    throughout this document.''}]'
+  notes:
+  - content: Postal address template may need to include rendition instructions.
+  - content: A template specifies also constraints for syntactical correctness of
+      postal addresses by indicating which elements are mandatory and which are optional.
+  - content: Software that interprets the rendering rules provided in template is
+      needed to produce rendered addresses.
+  - content: Postal address templates are further described in Clause 8.
+  - content: For convenience, the preferred term “postal address template” has been
+      shortened to the admitted term “template” throughout this document.
   release: '5'
   reviewDate: 2017-11-15
   reviewDecisionDate: 2017-11-15

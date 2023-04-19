@@ -46,20 +46,22 @@ data:
   dates:
   - date: '2014-07-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''closeness of agreement between a test result or measurement
-    result and the true value''}]'
+  definition:
+  - content: closeness of agreement between a test result or measurement result and
+      the true value
   examples: []
   id: 1603
   language_code: eng
   lineage_source_similarity: 1
-  notes: '[{''content'': ''The concept "measurement accuracy" is not a quantity and
-    is not given a numerical quantity value. A measurement is said to be more accurate
-    when it offers a smaller measurement error.''}, {''content'': ''The term "measurement
-    accuracy" should not be used for measurement trueness and the term measurement
-    precision should not be used for "measurement accuracy", which, however, is related
-    to both these concepts.''}, {''content'': ''"Measurement accuracy" is sometimes
-    understood as closeness of agreement between measured quantity values that are
-    being attributed to the measurand.''}]'
+  notes:
+  - content: The concept "measurement accuracy" is not a quantity and is not given
+      a numerical quantity value. A measurement is said to be more accurate when it
+      offers a smaller measurement error.
+  - content: The term "measurement accuracy" should not be used for measurement trueness
+      and the term measurement precision should not be used for "measurement accuracy",
+      which, however, is related to both these concepts.
+  - content: '"Measurement accuracy" is sometimes understood as closeness of agreement
+      between measured quantity values that are being attributed to the measurand.'
   release: '3'
   sources:
   - origin:

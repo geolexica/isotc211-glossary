@@ -35,15 +35,17 @@ data:
   dates:
   - date: '2007-10-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''järjestynyt jono aikoja, jotka liittyvät samaan kohteeseen''}]'
+  definition:
+  - content: järjestynyt jono aikoja, jotka liittyvät samaan kohteeseen
   examples: []
   id: 688
   language_code: fin
-  notes: '[{''content'': ''Ajallisen jonon ei edellytetä olevan tasaisesti jakautunut
-    ajan eikä etäisyyden mukaan. Diskreetin muutoksen ensimmäisessä pisteessä kuvataan
-    aika ja muut ominaisuuksien arvot. Muissa voidaan kuvata vain muuttuneet ominaisuudet.
-    Ajoneuvon seurannassa voidaan kuvata vain keskipiste ja suunta. Muuttuvan kohteen
-    liike vaatisi enemmän tietoa.''}]'
+  notes:
+  - content: Ajallisen jonon ei edellytetä olevan tasaisesti jakautunut ajan eikä
+      etäisyyden mukaan. Diskreetin muutoksen ensimmäisessä pisteessä kuvataan aika
+      ja muut ominaisuuksien arvot. Muissa voidaan kuvata vain muuttuneet ominaisuudet.
+      Ajoneuvon seurannassa voidaan kuvata vain keskipiste ja suunta. Muuttuvan kohteen
+      liike vaatisi enemmän tietoa.
   review_indicator: ''
   sources:
   - origin:

@@ -46,17 +46,19 @@ data:
   dates:
   - date: '2019-12-02T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''largest element smaller than or equal to all elements
-    of a set contained in an ordered domain <<math>>''}]'
+  definition:
+  - content: largest element smaller than or equal to all elements of a set contained
+      in an ordered domain <<math>>
   examples: []
   id: 2072
   language_code: eng
-  notes: '[{''content'': ''\\[[\\forall a \\in A \\implies min(A) \\leq a] \\implies
-    [\\forall b \\ni [(b \\ni [\\forall a \\in A \\implies b \\leq a] \\implies [min(A)
-    \\geq b]]\\] Any number is a lower bound of `O/` considered as a set of numbers,
-    because any given number is less than any number in `O/` (an admitted vacuous
-    statement since there is no number in `O/`, but true nonetheless). This means
-    that the `min(O/)` must be greater than any number; this `+oo`.''}]'
+  notes:
+  - content: \[[\forall a \in A \implies min(A) \leq a] \implies [\forall b \ni [(b
+      \ni [\forall a \in A \implies b \leq a] \implies [min(A) \geq b]]\] Any number
+      is a lower bound of `O/` considered as a set of numbers, because any given number
+      is less than any number in `O/` (an admitted vacuous statement since there is
+      no number in `O/`, but true nonetheless). This means that the `min(O/)` must
+      be greater than any number; this `+oo`.
   release: '5'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02

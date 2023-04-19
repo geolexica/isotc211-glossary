@@ -44,16 +44,17 @@ data:
   dates:
   - date: '2002-07-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''Operation, die jede Instanz einer Feature-Klasse ausführen
-    kann''}]'
-  examples: '[{''content'': "A feature operation upon a ''dam'' is to raise the dam.  The
-    results of this operation are to raise the height of the ''dam'' and the level
-    of water in a ''reservoir''."}]'
+  definition:
+  - content: Operation, die jede Instanz einer Feature-Klasse ausführen kann
+  examples:
+  - content: A feature operation upon a 'dam' is to raise the dam.  The results of
+      this operation are to raise the height of the 'dam' and the level of water in
+      a 'reservoir'.
   id: 177
   language_code: deu
   lineage_source_similarity: 1
-  notes: '[{''content'': ''Sometimes feature operations provide a basis for feature
-    type definition.''}]'
+  notes:
+  - content: Sometimes feature operations provide a basis for feature type definition.
   release: '1'
   reviewDate: 2012-01-27
   reviewDecisionDate: 2016-12-01

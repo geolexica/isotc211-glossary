@@ -34,14 +34,16 @@ data:
   dates:
   - date: '2010-12-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''acción de recuperar un recurso al que se hace referencia
-    y su inserción en un documento de respuesta generado por el servidor''}]'
+  definition:
+  - content: acción de recuperar un recurso al que se hace referencia y su inserción
+      en un documento de respuesta generado por el servidor
   examples: []
   id: 1342
   language_code: spa
-  notes: '[{''content'': ''La inserción puede llevarse a cabo bien reemplazando la
-    referencia en línea con una copia del recurso, bien relocalizando la referencia
-    para que apunte a una copia del recurso que se ha ubicado en el documento de respuesta.''}]'
+  notes:
+  - content: La inserción puede llevarse a cabo bien reemplazando la referencia en
+      línea con una copia del recurso, bien relocalizando la referencia para que apunte
+      a una copia del recurso que se ha ubicado en el documento de respuesta.
   release: '2'
   sources:
   - origin:

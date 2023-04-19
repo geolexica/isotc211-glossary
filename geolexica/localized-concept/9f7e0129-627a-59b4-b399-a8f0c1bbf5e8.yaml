@@ -39,16 +39,18 @@ data:
   dates:
   - date: '2000-12-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''prueba generalizada para un requisito particular''}]'
+  definition:
+  - content: prueba generalizada para un requisito particular
   examples: []
   id: 3
   language_code: spa
-  notes: '[{''content'': ''Una prueba genérica es una base formal para obtener pruebas
-    ejecutables. Uno o más propósitos de prueba se encapsulan en una prueba genérica.
-    Una prueba genérica es independiente tanto de la implementación como de los valores.
-    Debería ser completa en el sentido de ser suficiente para permitir asignar inequívocamente
-    un veredicto de prueba a cada resultado de la prueba potencialmente observable
-    (es decir secuencia de eventos de ensayo).''}]'
+  notes:
+  - content: Una prueba genérica es una base formal para obtener pruebas ejecutables.
+      Uno o más propósitos de prueba se encapsulan en una prueba genérica. Una prueba
+      genérica es independiente tanto de la implementación como de los valores. Debería
+      ser completa en el sentido de ser suficiente para permitir asignar inequívocamente
+      un veredicto de prueba a cada resultado de la prueba potencialmente observable
+      (es decir secuencia de eventos de ensayo).
   release: '1'
   reviewDate: 2019-07-05
   review_indicator: ''

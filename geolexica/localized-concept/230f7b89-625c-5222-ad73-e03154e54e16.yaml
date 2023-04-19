@@ -36,16 +36,18 @@ data:
   dates:
   - date: '2007-10-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''datos suficientes para identificar un objeto en el
-    tiempo, independiente de su estado''}]'
+  definition:
+  - content: datos suficientes para identificar un objeto en el tiempo, independiente
+      de su estado
   examples: []
   id: 667
   language_code: spa
-  notes: '[{''content'': ''Una identidad es generalmente el valor del atributo clave
-    miembro del objeto, persistente y constante. Dado que es temporalmente constante
-    y único, será el mismo en cualquier estado asociado al objeto, independientemente
-    de su marca temporal. La identidad de un objeto en movimiento es independiente
-    del tiempo y de su localización.''}]'
+  notes:
+  - content: Una identidad es generalmente el valor del atributo clave miembro del
+      objeto, persistente y constante. Dado que es temporalmente constante y único,
+      será el mismo en cualquier estado asociado al objeto, independientemente de
+      su marca temporal. La identidad de un objeto en movimiento es independiente
+      del tiempo y de su localización.
   release: '1'
   review_indicator: ''
   sources:

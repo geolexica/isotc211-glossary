@@ -34,16 +34,18 @@ data:
   dates:
   - date: '2005-08-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''feature, der virker som en funktion, som returnerer
-    værdier fra sin værdimængde, for enhver direkte position inden for dens rumlige,
-    temporale eller rumlig-temporale domæne''}]'
-  examples: '[{''content'': ''Eksempler er fx et rasterbillede, polygonoverlay eller
-    digital højdematrix''}]'
+  definition:
+  - content: feature, der virker som en funktion, som returnerer værdier fra sin værdimængde,
+      for enhver direkte position inden for dens rumlige, temporale eller rumlig-temporale
+      domæne
+  examples:
+  - content: Eksempler er fx et rasterbillede, polygonoverlay eller digital højdematrix
   id: 99
   language_code: dan
-  notes: '[{''content'': ''Med andre ord er en coverage en feature, som har flere
-    mulige værdier for hver attributtype, hvor hver direkte position i den geometriske
-    repræsentation af featuren har én værdi for hver attributtype.''}]'
+  notes:
+  - content: Med andre ord er en coverage en feature, som har flere mulige værdier
+      for hver attributtype, hvor hver direkte position i den geometriske repræsentation
+      af featuren har én værdi for hver attributtype.
   release: '1'
   sources:
   - origin:

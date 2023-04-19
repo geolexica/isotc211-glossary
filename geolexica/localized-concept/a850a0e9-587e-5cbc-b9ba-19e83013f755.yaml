@@ -35,13 +35,15 @@ data:
   dates:
   - date: '2014-01-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''복조 후 원레이더 회신 신호 정보''}]'
+  definition:
+  - content: 복조 후 원레이더 회신 신호 정보
   examples: []
   id: 1429
   language_code: kor
-  notes: '[{''content'': ''Usually stored as a series of range lines, each containing
-    information from a specific range bin.  PHD can be thought of as a table of five
-    columns:  In-phase signal, Quadrature signal, Range, Doppler Angle, and Time.''}]'
+  notes:
+  - content: 'Usually stored as a series of range lines, each containing information
+      from a specific range bin.  PHD can be thought of as a table of five columns:  In-phase
+      signal, Quadrature signal, Range, Doppler Angle, and Time.'
   release: '3'
   sources:
   - origin:

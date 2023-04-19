@@ -44,16 +44,18 @@ data:
   dates:
   - date: '2010-06-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''modo SAR en el que se dirige el pulso de la antena
-    emisora para irradiar una franja de terreno con varios ángulos respecto a la trayectoria
-    de vuelo durante toda la captura''}]'
+  definition:
+  - content: modo SAR en el que se dirige el pulso de la antena emisora para irradiar
+      una franja de terreno con varios ángulos respecto a la trayectoria de vuelo
+      durante toda la captura
   examples: []
   id: 968
   language_code: spa
   lineage_source_similarity: '1'
-  notes: '[{''content'': ''Dirigir la antena tambien permite que el tiempo de exposición
-    se incremente y capturar pasadas con ángulos que no son paralelos a la dirección
-    de vuelo y con mejor resolución que en modo stripmap''}]'
+  notes:
+  - content: Dirigir la antena tambien permite que el tiempo de exposición se incremente
+      y capturar pasadas con ángulos que no son paralelos a la dirección de vuelo
+      y con mejor resolución que en modo stripmap
   release: '2'
   reviewDate: 2018-09-01
   reviewDecisionDate: 2018-09-01

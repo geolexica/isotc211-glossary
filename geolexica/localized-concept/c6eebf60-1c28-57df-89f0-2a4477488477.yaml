@@ -33,14 +33,16 @@ data:
   dates:
   - date: '2005-08-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''cobertura que devuelve los mismos valores de los atributos
-    de objetos geográficos para cada posición directa dentro de cualquier objeto espacial,
-    objeto temporal, u objeto espacio-temporal único en su dominio''}]'
+  definition:
+  - content: cobertura que devuelve los mismos valores de los atributos de objetos
+      geográficos para cada posición directa dentro de cualquier objeto espacial,
+      objeto temporal, u objeto espacio-temporal único en su dominio
   examples: []
   id: 141
   language_code: spa
-  notes: '[{''content'': ''El dominio de una cobertura discreta consta de un conjunto
-    finito de objetos espaciales, temporales o espacio-temporales.''}]'
+  notes:
+  - content: El dominio de una cobertura discreta consta de un conjunto finito de
+      objetos espaciales, temporales o espacio-temporales.
   release: '1'
   sources:
   - origin:

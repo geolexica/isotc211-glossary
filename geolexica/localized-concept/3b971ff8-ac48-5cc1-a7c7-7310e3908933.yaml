@@ -33,11 +33,13 @@ data:
   dates:
   - date: '2009-11-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''concepto que se puede especificar en detalle como
-    uno o más tipos de atributo de objeto geográfico''}]'
-  examples: '[{''content'': ''El concepto de atributo de fenómeno “altura” describe
-    la longitud en dirección vertical como una característica que puede ser compartida
-    por entes del mundo real como “humano”, “árbol” y “edificio”.''}]'
+  definition:
+  - content: concepto que se puede especificar en detalle como uno o más tipos de
+      atributo de objeto geográfico
+  examples:
+  - content: El concepto de atributo de fenómeno “altura” describe la longitud en
+      dirección vertical como una característica que puede ser compartida por entes
+      del mundo real como “humano”, “árbol” y “edificio”.
   id: 853
   language_code: spa
   notes: []

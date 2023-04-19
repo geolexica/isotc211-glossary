@@ -48,16 +48,19 @@ data:
     type: accepted
   - date: '2019-01-31T00:00:00.000Z'
     type: amended
-  definition: '[{''content'': ''operación de coordenadas en la que ambos sistemas
-    de referencia de coordenadas están basados en el mismo datum''}]'
-  examples: '[{''content'': ''Conversión de un sistema de referencia de coordenadas
-    elipsoidales basado en el datum WGS84 a un sistema de referencia de coordenadas
-    cartesianas también basado en el datum WGS84, o cambio de unidades tales como
-    de radianes a grados o de pies a metros.''}]'
+  definition:
+  - content: operación de coordenadas en la que ambos sistemas de referencia de coordenadas
+      están basados en el mismo datum
+  examples:
+  - content: Conversión de un sistema de referencia de coordenadas elipsoidales basado
+      en el datum WGS84 a un sistema de referencia de coordenadas cartesianas también
+      basado en el datum WGS84, o cambio de unidades tales como de radianes a grados
+      o de pies a metros.
   id: 762
   language_code: spa
-  notes: '[{''content'': ''Una conversión de coordenadas usa parámetros que tienen
-    valores especificados que no son determinados empíricamente.''}]'
+  notes:
+  - content: Una conversión de coordenadas usa parámetros que tienen valores especificados
+      que no son determinados empíricamente.
   release: '-1'
   reviewDate: 2019-01-31
   reviewDecisionDate: 2019-01-31

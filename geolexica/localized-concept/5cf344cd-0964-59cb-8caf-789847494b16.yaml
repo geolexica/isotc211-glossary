@@ -45,15 +45,16 @@ data:
   dates:
   - date: '2018-05-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''information that maps a data object into more meaningful
-    concepts''}]'
-  examples: '[{''content'': ''Representation information for a bit sequence which
-    is a FITS file might consist of the FITS standard which defines the format plus
-    a dictionary which defines the meaning in the file of keywords which are not part
-    of the standard.''}, {''content'': ''JPEG software which is used to render a JPEG
-    file; rendering the JPEG file as bits is not very meaningful to humans but the
-    software, which embodies an understanding of the JPEG standard, maps the bits
-    into pixels which can then be rendered as an image for human viewing.''}]'
+  definition:
+  - content: information that maps a data object into more meaningful concepts
+  examples:
+  - content: Representation information for a bit sequence which is a FITS file might
+      consist of the FITS standard which defines the format plus a dictionary which
+      defines the meaning in the file of keywords which are not part of the standard.
+  - content: JPEG software which is used to render a JPEG file; rendering the JPEG
+      file as bits is not very meaningful to humans but the software, which embodies
+      an understanding of the JPEG standard, maps the bits into pixels which can then
+      be rendered as an image for human viewing.
   id: 2280
   language_code: eng
   notes: []

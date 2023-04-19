@@ -48,19 +48,21 @@ data:
   dates:
   - date: '2003-05-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''relationship between two domains (such as two complexes)
-    such that there are 1-to-1, structure-preserving functions from each domain onto
-    the other, and the composition of the two functions, in either order, is the corresponding
-    identity function''}]'
+  definition:
+  - content: relationship between two domains (such as two complexes) such that there
+      are 1-to-1, structure-preserving functions from each domain onto the other,
+      and the composition of the two functions, in either order, is the corresponding
+      identity function
   examples: []
   id: 259
   language_code: eng
   lineage_source_similarity: 1
-  notes: '[{''content'': ''A geometric complex is isomorphic to a topological complex
-    if their elements are in a 1-to-1, dimension- and boundary-preserving correspondence
-    to one another. \\[[A,B \\textit{ isomorphic}] \\Leftrightarrow [\\exists f :
-    A \\rightarrow B, g : B \\rightarrow A \\backepsilon f \\circ g = Id_A, g \\circ
-    f = Id_B]\\]''}]'
+  notes:
+  - content: 'A geometric complex is isomorphic to a topological complex if their
+      elements are in a 1-to-1, dimension- and boundary-preserving correspondence
+      to one another. \[[A,B \textit{ isomorphic}] \Leftrightarrow [\exists f : A
+      \rightarrow B, g : B \rightarrow A \backepsilon f \circ g = Id_A, g \circ f
+      = Id_B]\]'
   release: '1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02

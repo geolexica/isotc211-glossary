@@ -33,14 +33,15 @@ data:
   dates:
   - date: '2012-02-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''각각이 전체의 일부에 대해 단일값을 가진 하위 속성들이 지형지물의 나머지 부분과 차별화된
-    선형 지형지물의 일부''}]'
+  definition:
+  - content: 각각이 전체의 일부에 대해 단일값을 가진 하위 속성들이 지형지물의 나머지 부분과 차별화된 선형 지형지물의 일부
   examples: []
   id: 1173
   language_code: kor
-  notes: '[{''content'': ''A linear segment is a one-dimensional object without explicit
-    geometry.''}, {''content'': ''The implicit geometry of the linear segment can
-    be derived from the geometry of the parent feature.''}]'
+  notes:
+  - content: A linear segment is a one-dimensional object without explicit geometry.
+  - content: The implicit geometry of the linear segment can be derived from the geometry
+      of the parent feature.
   release: '3'
   sources:
   - origin:

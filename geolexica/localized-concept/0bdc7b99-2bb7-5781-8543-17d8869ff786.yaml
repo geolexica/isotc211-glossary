@@ -43,11 +43,13 @@ data:
   dates:
   - date: '2005-10-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''rekisterielementtien tallettamista varten laadittu
-    rakenteinen rekisterijoukko, joka koostuu päärekisteristä ja joukosta alirekistereitä''}]'
-  examples: '[{''content'': ''ISO 6523 -standardiin liittyy hierarkkinen rekisteri.
-    Päärekisteri sisältää organisaatiotunnisteskeemoja ja kukin alirekisteri yksittäisen
-    organisaatiotunnisteskeeman mukaisia organisaatiotunnisteita.''}]'
+  definition:
+  - content: rekisterielementtien tallettamista varten laadittu rakenteinen rekisterijoukko,
+      joka koostuu päärekisteristä ja joukosta alirekistereitä
+  examples:
+  - content: ISO 6523 -standardiin liittyy hierarkkinen rekisteri. Päärekisteri sisältää
+      organisaatiotunnisteskeemoja ja kukin alirekisteri yksittäisen organisaatiotunnisteskeeman
+      mukaisia organisaatiotunnisteita.
   id: 859
   language_code: fin
   notes: []

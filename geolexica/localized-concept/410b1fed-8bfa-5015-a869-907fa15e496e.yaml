@@ -41,12 +41,14 @@ data:
   dates:
   - date: '2003-05-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''有向拓扑对象，表达边和它的一个方向之间的关联。''}]'
+  definition:
+  - content: 有向拓扑对象，表达边和它的一个方向之间的关联。
   examples: []
   id: 136
   language_code: zho
   lineage_source_similarity: 1
-  notes: '[{''content'': ''与边的方向一致的有向边为正方向（+），反之，它就是负方向（-）。有向边用在拓扑中以区分同一条边的右侧（-）与左侧（+），同一条边的起结点（-）与终结点（+）。在计算拓扑中使用这些概念。''}]'
+  notes:
+  - content: 与边的方向一致的有向边为正方向（+），反之，它就是负方向（-）。有向边用在拓扑中以区分同一条边的右侧（-）与左侧（+），同一条边的起结点（-）与终结点（+）。在计算拓扑中使用这些概念。
   release: '1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02

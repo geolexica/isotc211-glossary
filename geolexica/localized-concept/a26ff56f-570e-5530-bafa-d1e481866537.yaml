@@ -42,16 +42,18 @@ data:
   dates:
   - date: '2015-07-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''prefijo o raíz URI común que se utiliza en identificadores
-    para un conjunto de recursos relacionados''}]'
+  definition:
+  - content: prefijo o raíz URI común que se utiliza en identificadores para un conjunto
+      de recursos relacionados
   examples: []
   id: 1589
   language_code: spa
-  notes: '[{''content'': ''El espacio de nombres RDF se concatena con el localName
-    para crear un identificador URI completo para un recurso RDF. Cada recurso RDF
-    se identifica mediante un URI. Por el contrario, un URI de espacio de nombres
-    XML abarca un nombre de componente XML local, pero no existe una regla para combinarlos
-    en una única cadena de identificación.''}]'
+  notes:
+  - content: El espacio de nombres RDF se concatena con el localName para crear un
+      identificador URI completo para un recurso RDF. Cada recurso RDF se identifica
+      mediante un URI. Por el contrario, un URI de espacio de nombres XML abarca un
+      nombre de componente XML local, pero no existe una regla para combinarlos en
+      una única cadena de identificación.
   release: '4'
   reviewDate: 2012-05-25
   reviewDecisionDate: 2015-07-01

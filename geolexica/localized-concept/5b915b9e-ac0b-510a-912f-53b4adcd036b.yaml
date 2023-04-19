@@ -38,15 +38,16 @@ data:
   dates:
   - date: '2014-01-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''información de la señal bruta de retorno de radar
-    después de ser demodulada''}]'
+  definition:
+  - content: información de la señal bruta de retorno de radar después de ser demodulada
   examples: []
   id: 1406
   language_code: spa
-  notes: '[{''content'': ''Generalmente se almacena como una serie de líneas de rango,
-    donde cada una contiene información de un rango específico. PHD se puede definir
-    como una tabla de cinco columnas: señal de fase, señal de cuadratura, rango, ángulo
-    Doppler y hora.''}]'
+  notes:
+  - content: 'Generalmente se almacena como una serie de líneas de rango, donde cada
+      una contiene información de un rango específico. PHD se puede definir como una
+      tabla de cinco columnas: señal de fase, señal de cuadratura, rango, ángulo Doppler
+      y hora.'
   release: '3'
   sources:
   - origin:

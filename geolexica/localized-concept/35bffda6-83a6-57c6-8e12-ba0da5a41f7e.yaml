@@ -45,10 +45,11 @@ data:
   dates:
   - date: '2003-10-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''rumslig referens som identifierar en plats på annat
-    sätt än genom koordinater''}]'
-  examples: '[{''content'': "''Spain'' is an example of a country name, ''SW1P 3AD''
-    is an example of a postcode."}]'
+  definition:
+  - content: rumslig referens som identifierar en plats på annat sätt än genom koordinater
+  examples:
+  - content: '''Spain'' is an example of a country name, ''SW1P 3AD'' is an example
+      of a postcode.'
   id: 204
   language_code: swe
   lineage_source_similarity: 1

@@ -32,13 +32,15 @@ data:
   dates:
   - date: '2010-12-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''Schema, das die Eigenschaften jedes Feature-Typs definiert,
-    der in der Antwort auf eine Anfrageoperation erscheinen kann''}]'
+  definition:
+  - content: Schema, das die Eigenschaften jedes Feature-Typs definiert, der in der
+      Antwort auf eine Anfrageoperation erscheinen kann
   examples: []
   id: 1042
   language_code: deu
-  notes: '[{''content'': ''This is the schema of feature types that a client can obtain
-    using the DescribeFeatureType operation (see Clause 9).''}]'
+  notes:
+  - content: This is the schema of feature types that a client can obtain using the
+      DescribeFeatureType operation (see Clause 9).
   release: '2'
   sources:
   - origin:

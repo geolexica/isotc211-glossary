@@ -33,12 +33,14 @@ data:
   dates:
   - date: '2006-12-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''내비게이션 또는 추적될 수 있는 객체(여행자와 비교)''}]'
+  definition:
+  - content: 내비게이션 또는 추적될 수 있는 객체(여행자와 비교)
   examples: []
   id: 745
   language_code: kor
-  notes: '[{''content'': ''보행자를 포함한다. KS X ISO 14825를 참고하라. 본 표준에서는 어떠한 의도 변경 없이,
-    차량이 여행자로 대체될 수 있다.''}]'
+  notes:
+  - content: 보행자를 포함한다. KS X ISO 14825를 참고하라. 본 표준에서는 어떠한 의도 변경 없이, 차량이 여행자로 대체될 수
+      있다.
   release: '1'
   review_indicator: ''
   sources:

@@ -41,15 +41,17 @@ data:
   dates:
   - date: '2016-04-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''ajuste de un sistema de sensor lídar, equipado con
-    una Unidad de Medida Inercial (IMU) y un Sistema Global de Navegación por Satélite
-    (GNSS), para determinar o establecer con exactitud su posición y orientación''}]'
+  definition:
+  - content: ajuste de un sistema de sensor lídar, equipado con una Unidad de Medida
+      Inercial (IMU) y un Sistema Global de Navegación por Satélite (GNSS), para determinar
+      o establecer con exactitud su posición y orientación
   examples: []
   id: 1931
   language_code: spa
-  notes: '[{''content'': ''La posición del sistema de sensor lídar (x, y, z) se determina
-    con respecto a la antena GNSS. La orientación (alabeo, cabeceo, guiñada) del sistema
-    de sensor lidar se determina con respecto al vuelo recto y nivelado.''}]'
+  notes:
+  - content: La posición del sistema de sensor lídar (x, y, z) se determina con respecto
+      a la antena GNSS. La orientación (alabeo, cabeceo, guiñada) del sistema de sensor
+      lidar se determina con respecto al vuelo recto y nivelado.
   release: '4'
   reviewDate: 2014-08-26
   reviewDecisionDate: 2016-04-15

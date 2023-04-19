@@ -42,15 +42,17 @@ data:
   dates:
   - date: '2015-06-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''construcción física o área física a la que se puede
-    acceder y usar''}]'
-  examples: '[{''content'': ''Ascensores, áreas de restaurantes, salas de espera,
-    asientos, sanitarios tiendas.''}]'
+  definition:
+  - content: construcción física o área física a la que se puede acceder y usar
+  examples:
+  - content: Ascensores, áreas de restaurantes, salas de espera, asientos, sanitarios
+      tiendas.
   id: 1515
   language_code: spa
-  notes: '[{''content'': ''Dichas instalaciones pueden estar disponibles a bordo de
-    los medios de transporte durante el transporte, en las llegadas y en las salidas
-    de un nodo de conexión, y en los nodos de transbordo.''}]'
+  notes:
+  - content: Dichas instalaciones pueden estar disponibles a bordo de los medios de
+      transporte durante el transporte, en las llegadas y en las salidas de un nodo
+      de conexión, y en los nodos de transbordo.
   release: '4'
   reviewDate: 2009-06-20
   reviewDecisionDate: 2015-06-15

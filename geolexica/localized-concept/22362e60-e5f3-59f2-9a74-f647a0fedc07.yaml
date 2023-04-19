@@ -44,13 +44,14 @@ data:
     type: accepted
   - date: '2019-12-02T00:00:00.000Z'
     type: amended
-  definition: '[{''content'': ''set of nodes, some of which are joined by edges''}]'
+  definition:
+  - content: set of nodes, some of which are joined by edges
   examples: []
   id: 756
   language_code: eng
-  notes: '[{''content'': ''In geographic information systems, a graph can have more
-    than one edge joining two nodes, and can have an edge that has the same node at
-    both ends.''}]'
+  notes:
+  - content: In geographic information systems, a graph can have more than one edge
+      joining two nodes, and can have an edge that has the same node at both ends.
   release: '-1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02

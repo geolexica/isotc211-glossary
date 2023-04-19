@@ -34,16 +34,18 @@ data:
   dates:
   - date: '2005-10-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''positivt vægtet retningsbestemt graf, der er konfigureret
-    til at udføre en søgning efter korteste vej''}]'
+  definition:
+  - content: positivt vægtet retningsbestemt graf, der er konfigureret til at udføre
+      en søgning efter korteste vej
   examples: []
   id: 133
   language_code: dan
-  notes: '[{''content'': ''Termen stammer fra den mest almindeligt kendte algoritme
-    til at finde den korteste vej i en positivt vægtet graf fra E. Dijkstra\''s afhandling.
-    Skønt denne algoritme ikke er den eneste, der anvendes, kender de fleste kravene
-    til grafen. Den mest almindelige lempelse af kravet er "positive vægte," der ikke
-    er nødvendige i Bellman-Ford-algoritmen.''}]'
+  notes:
+  - content: Termen stammer fra den mest almindeligt kendte algoritme til at finde
+      den korteste vej i en positivt vægtet graf fra E. Dijkstra's afhandling. Skønt
+      denne algoritme ikke er den eneste, der anvendes, kender de fleste kravene til
+      grafen. Den mest almindelige lempelse af kravet er "positive vægte," der ikke
+      er nødvendige i Bellman-Ford-algoritmen.
   release: '1'
   sources:
   - origin:

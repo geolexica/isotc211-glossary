@@ -43,11 +43,12 @@ data:
   dates:
   - date: '2004-07-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''change in the position of an object over time, represented
-    by change of coordinate values with respect to a particular reference frame''}]'
-  examples: '[{''content'': ''This may be motion of the position sensor mounted on
-    a vehicle or other platform or motion of an object being tracked by a positioning
-    system.''}]'
+  definition:
+  - content: change in the position of an object over time, represented by change
+      of coordinate values with respect to a particular reference frame
+  examples:
+  - content: This may be motion of the position sensor mounted on a vehicle or other
+      platform or motion of an object being tracked by a positioning system.
   id: 301
   language_code: eng
   lineage_source_similarity: 1

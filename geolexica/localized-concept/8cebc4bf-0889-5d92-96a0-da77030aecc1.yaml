@@ -45,15 +45,18 @@ data:
   dates:
   - date: '2005-07-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''colección identificable de reglas de conversión que
-    definen la codificación para una estructura de datos determinada''}]'
-  examples: '[{''content'': ''XML, ISO 10303-21, ISO/IEC 8211''}]'
+  definition:
+  - content: colección identificable de reglas de conversión que definen la codificación
+      para una estructura de datos determinada
+  examples:
+  - content: XML, ISO 10303-21, ISO/IEC 8211
   id: 152
   language_code: spa
   lineage_source_similarity: 1
-  notes: '[{''content'': ''Una regla de codificación especifica los tipos de datos
-    que se van a convertir así como la sintaxis, estructura y códigos que se usan
-    en la estructura de datos resultante.''}]'
+  notes:
+  - content: Una regla de codificación especifica los tipos de datos que se van a
+      convertir así como la sintaxis, estructura y códigos que se usan en la estructura
+      de datos resultante.
   release: '1'
   reviewDate: 2007-01-23
   reviewDecisionDate: 2011-10-15

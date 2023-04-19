@@ -45,14 +45,16 @@ data:
     type: accepted
   - date: '2019-12-02T00:00:00.000Z'
     type: amended
-  definition: '[{''content'': ''spatial object without a boundary''}]'
+  definition:
+  - content: spatial object without a boundary
   examples: []
   id: 103
   language_code: eng
-  notes: '[{''content'': ''Cycles are used to describe boundary components (see shell,
-    ring). A cycle has no boundary because it closes on itself, but it is bounded
-    (i.e., it does not have infinite extent).  A circle or a sphere, for example,
-    has no boundary, but is bounded.''}]'
+  notes:
+  - content: Cycles are used to describe boundary components (see shell, ring). A
+      cycle has no boundary because it closes on itself, but it is bounded (i.e.,
+      it does not have infinite extent).  A circle or a sphere, for example, has no
+      boundary, but is bounded.
   release: '-1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02

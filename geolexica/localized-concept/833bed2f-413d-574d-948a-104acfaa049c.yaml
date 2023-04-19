@@ -57,22 +57,29 @@ data:
   dates:
   - date: '2003-05-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''związek pomiędzy dwiema dziedzinami (takimi jak dwa
-    kompleksy) taki, że istnieją funkcje jeden-do-jeden z jednej dziedziny w drugą,
-    zachowujące strukturę, a złożenie tych funkcji w dowolnej kolejności jest funkcją
-    identyczności''}]'
+  definition:
+  - content: związek pomiędzy dwiema dziedzinami (takimi jak dwa kompleksy) taki,
+      że istnieją funkcje jeden-do-jeden z jednej dziedziny w drugą, zachowujące strukturę,
+      a złożenie tych funkcji w dowolnej kolejności jest funkcją identyczności
   examples: []
   id: 259
   language_code: pol
   lineage_source_similarity: 1
-  notes: '[{''content'': "Provisional translation:  19107:2019, 3.58 -- Note 1 to
-    entry\n$$\n''UWAGA Złożony element geometryczny jest izomorficzny ze złożonym
-    elementem topologicznym, jeżeli ich elementy odpowiadają sobie nawzajem w stosunku
-    jeden-do-jeden z zachowaniem wymiarów i granic.\n$$\nA geometric complex is isomorphic
-    to a topological complex if their elements are in a 1-to-1, dimension- and boundary-preserving
-    correspondence to one another. \\[[A,B \\textit{ isomorphic}] \\Leftrightarrow
-    [\\exists f : A \\rightarrow B, g : B \\rightarrow A \\backepsilon f \\circ g
-    = Id_A, g \\circ f = Id_B]\\]"}]'
+  notes:
+  - content: 'Provisional translation:  19107:2019, 3.58 -- Note 1 to entry
+
+      $$
+
+      ''UWAGA Złożony element geometryczny jest izomorficzny ze złożonym elementem
+      topologicznym, jeżeli ich elementy odpowiadają sobie nawzajem w stosunku jeden-do-jeden
+      z zachowaniem wymiarów i granic.
+
+      $$
+
+      A geometric complex is isomorphic to a topological complex if their elements
+      are in a 1-to-1, dimension- and boundary-preserving correspondence to one another.
+      \[[A,B \textit{ isomorphic}] \Leftrightarrow [\exists f : A \rightarrow B, g
+      : B \rightarrow A \backepsilon f \circ g = Id_A, g \circ f = Id_B]\]'
   release: '1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02

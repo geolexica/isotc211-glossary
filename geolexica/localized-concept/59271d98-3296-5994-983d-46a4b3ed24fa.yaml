@@ -44,14 +44,16 @@ data:
     type: accepted
   - date: '2019-12-02T00:00:00.000Z'
     type: amended
-  definition: '[{''content'': ''zdolność każdej instancji klasy, która jest potomkiem
-    (w sensie dziedziczenia lub realizacji) innej klasy, typu lub interfejsu, do użycia
-    w jej miejsce instancji jej przodka w dowolnym kontekście''}]'
+  definition:
+  - content: zdolność każdej instancji klasy, która jest potomkiem (w sensie dziedziczenia
+      lub realizacji) innej klasy, typu lub interfejsu, do użycia w jej miejsce instancji
+      jej przodka w dowolnym kontekście
   examples: []
   id: 433
   language_code: pol
-  notes: '[{''content'': ''Słabsze formy zastępowalności ustalają różne ograniczenia
-    co do kontekstu implikowanego zastąpienia.''}]'
+  notes:
+  - content: Słabsze formy zastępowalności ustalają różne ograniczenia co do kontekstu
+      implikowanego zastąpienia.
   release: '-1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02

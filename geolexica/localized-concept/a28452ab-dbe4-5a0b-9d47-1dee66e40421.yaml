@@ -31,12 +31,14 @@ data:
   dates:
   - date: '2010-10-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''constante, valor especificado explícitamente''}]'
+  definition:
+  - content: constante, valor especificado explícitamente
   examples: []
   id: 1029
   language_code: spa
-  notes: '[{''content'': ''A diferencia del valor se determina resolviendo una cadena
-    de sustituciones (por ejemplo: una variable)''}]'
+  notes:
+  - content: 'A diferencia del valor se determina resolviendo una cadena de sustituciones
+      (por ejemplo: una variable)'
   release: '2'
   sources:
   - origin:

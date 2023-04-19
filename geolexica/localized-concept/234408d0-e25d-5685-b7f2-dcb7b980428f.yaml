@@ -44,12 +44,14 @@ data:
     type: accepted
   - date: '2015-12-01T00:00:00.000Z'
     type: amended
-  definition: '[{''content'': ''用一组“名称-值”对特性的显式定义。''}]'
+  definition:
+  - content: 用一组“名称-值”对特性的显式定义。
   examples: []
   id: 442
   language_code: zho
   lineage_source_similarity: 1
-  notes: '[{''content'': ''在一个标记值中，名称指的是标记。某些标记在UML中预先定义，其他情况下可以用户定义。标记值是UML的三个扩展机制之一。另外两个是约束和构造型。''}]'
+  notes:
+  - content: 在一个标记值中，名称指的是标记。某些标记在UML中预先定义，其他情况下可以用户定义。标记值是UML的三个扩展机制之一。另外两个是约束和构造型。
   release: '-1'
   reviewDate: 2009-01-14
   reviewDecisionDate: 2015-12-01

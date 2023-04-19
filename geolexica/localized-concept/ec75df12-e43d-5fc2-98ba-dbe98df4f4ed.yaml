@@ -33,13 +33,15 @@ data:
   dates:
   - date: '2014-07-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''IFOV에서 감지되었으나 직접 전달되진 않은 전자기 방사선''}]'
+  definition:
+  - content: IFOV에서 감지되었으나 직접 전달되진 않은 전자기 방사선
   examples: []
   id: 1609
   language_code: kor
-  notes: '[{''content'': ''Stray light may be reflected light within a telescope.''},
-    {''content'': ''This definition is valid for the optical portion of the spectrum
-    under observation.''}]'
+  notes:
+  - content: Stray light may be reflected light within a telescope.
+  - content: This definition is valid for the optical portion of the spectrum under
+      observation.
   release: '3'
   sources:
   - origin:

@@ -43,15 +43,17 @@ data:
   dates:
   - date: '2010-06-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''magnitud del vector alcance proyectado en el terreno''}]'
+  definition:
+  - content: magnitud del vector alcance proyectado en el terreno
   examples: []
   id: 947
   language_code: spa
   lineage_source_similarity: '1'
-  notes: '[{''content'': ''El rango terrestre de una imagen se representa mediante
-    la distancia entre el punto nadiral de la antena y un punto de la escena. Normalmente
-    se mide en el plano horizontal, pero también se puede medir como distancia verdadera
-    sobre el terreno, MDE, geoide o superficie elipsoidal.''}]'
+  notes:
+  - content: El rango terrestre de una imagen se representa mediante la distancia
+      entre el punto nadiral de la antena y un punto de la escena. Normalmente se
+      mide en el plano horizontal, pero también se puede medir como distancia verdadera
+      sobre el terreno, MDE, geoide o superficie elipsoidal.
   release: '2'
   reviewDate: 2018-09-01
   reviewDecisionDate: 2018-09-01

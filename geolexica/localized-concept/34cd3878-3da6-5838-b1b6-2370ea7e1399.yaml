@@ -49,18 +49,19 @@ data:
     type: accepted
   - date: '2015-07-01T00:00:00.000Z'
     type: amended
-  definition: '[{''content'': ''palvelu, jota voidaan pyytää objektilta käyttäytymiseen
-    vaikuttamiseksi''}]'
+  definition:
+  - content: palvelu, jota voidaan pyytää objektilta käyttäytymiseen vaikuttamiseksi
   examples: []
   id: 319
   language_code: fin
   lineage_source_similarity: 1
-  notes: '[{''content'': ''Operaatiolla on kutsumuoto (signature), joka saattaa rajoittaa
-    todellisuudessa mahdollisia muuttujia.''}, {''content'': ''UML Reference Manual
-    -käsikirjan määritelmä: sellaisen muunnoksen tai kyselyn määrittely, joka objekti
-    voidaan käskeä suorittamaan.''}, {''content'': ''Operaatiolla on nimi ja lista
-    muuttujia. Metodi on operaation toimeenpaneva menettely sisältäen algoritmin tai
-    menetelmäkuvauksen.''}]'
+  notes:
+  - content: Operaatiolla on kutsumuoto (signature), joka saattaa rajoittaa todellisuudessa
+      mahdollisia muuttujia.
+  - content: 'UML Reference Manual -käsikirjan määritelmä: sellaisen muunnoksen tai
+      kyselyn määrittely, joka objekti voidaan käskeä suorittamaan.'
+  - content: Operaatiolla on nimi ja lista muuttujia. Metodi on operaation toimeenpaneva
+      menettely sisältäen algoritmin tai menetelmäkuvauksen.
   release: '-1'
   reviewDate: 2009-01-14
   reviewDecisionDate: 2015-12-01

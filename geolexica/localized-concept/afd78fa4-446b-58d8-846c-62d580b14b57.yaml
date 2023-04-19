@@ -34,13 +34,16 @@ data:
   dates:
   - date: '2013-07-03T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''alueen kattavana jatkumona esitetty paikkatietokohde''}]'
-  examples: '[{''content'': ''Rasterikuva, monikulmiopeite ja digitaalinen korkeusruudukko.''}]'
+  definition:
+  - content: alueen kattavana jatkumona esitetty paikkatietokohde
+  examples:
+  - content: Rasterikuva, monikulmiopeite ja digitaalinen korkeusruudukko.
   id: 99
   language_code: fin
-  notes: '[{''content'': ''Paikkatietojatkumo on siis kohde, jolla on kullekin attribuuttityypille
-    useita arvoja; kohteen geometriailmentymän sisällä olevassa koordinaattipisteessä
-    kullakin attribuuttityypillä on puolestaan vain yksi arvo.''}]'
+  notes:
+  - content: Paikkatietojatkumo on siis kohde, jolla on kullekin attribuuttityypille
+      useita arvoja; kohteen geometriailmentymän sisällä olevassa koordinaattipisteessä
+      kullakin attribuuttityypillä on puolestaan vain yksi arvo.
   review_indicator: ''
   sources:
   - origin:

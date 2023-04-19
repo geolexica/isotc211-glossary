@@ -43,16 +43,17 @@ data:
   dates:
   - date: '2018-05-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''ratio between the peak power of the largest side lobe
-    and the peak power of the main lobe of the impulse response of point targets in
-    the SAR image''}]'
+  definition:
+  - content: ratio between the peak power of the largest side lobe and the peak power
+      of the main lobe of the impulse response of point targets in the SAR image
   examples: []
   id: 2286
   language_code: eng
-  notes: '[{''content'': ''The peak side lobe ratio is usually expressed in decibels
-    (dB) and computed as follows `PSLR = 10log_(10) {(P_(text(sidepeak)))/(P_(text(mainpeak)))}`
-    where `P_(text(mainpeak))` is the peak power of the main lobe; `P_(text(sidepeak))`
-    is the peak power of the largest side lobe.''}]'
+  notes:
+  - content: The peak side lobe ratio is usually expressed in decibels (dB) and computed
+      as follows `PSLR = 10log_(10) {(P_(text(sidepeak)))/(P_(text(mainpeak)))}` where
+      `P_(text(mainpeak))` is the peak power of the main lobe; `P_(text(sidepeak))`
+      is the peak power of the largest side lobe.
   release: '5'
   reviewDate: 2018-05-01
   reviewDecisionDate: 2018-05-01

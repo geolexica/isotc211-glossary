@@ -36,16 +36,18 @@ data:
   dates:
   - date: '2005-10-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''translation of one form of location into another''}]'
+  definition:
+  - content: translation of one form of location into another
   examples: []
   id: 195
   language_code: eng
-  notes: '[{''content'': ''Geocoding usually refers to the translation of "address"
-    or "intersection" to "direct position." Many services providers also include a
-    "reverse geocoding" interface to their geocoder, thus extending the definition
-    of the service as a general translator of location. Because routing services use
-    internal location encodings not usually available to others, a geocoder is an
-    integral part of the internals of such a service.''}]'
+  notes:
+  - content: Geocoding usually refers to the translation of "address" or "intersection"
+      to "direct position." Many services providers also include a "reverse geocoding"
+      interface to their geocoder, thus extending the definition of the service as
+      a general translator of location. Because routing services use internal location
+      encodings not usually available to others, a geocoder is an integral part of
+      the internals of such a service.
   release: '1'
   review_indicator: ''
   sources:

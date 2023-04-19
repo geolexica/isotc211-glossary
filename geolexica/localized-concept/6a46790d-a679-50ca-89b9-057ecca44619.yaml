@@ -42,12 +42,14 @@ data:
   dates:
   - date: '2005-07-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''유형 영역의 요소''}]'
+  definition:
+  - content: 유형 영역의 요소
   examples: []
   id: 489
   language_code: kor
-  notes: '[{''content'': ''값은 클래스 또는 유형(영역) 내에서 객체가 가질 수 있는 상태의 표현일 수 있다.''}, {''content'':
-    ''데이터 값은 데이터 유형의 인스턴스이며, 그 값은 식별특성을 갖지 않는다.''}]'
+  notes:
+  - content: 값은 클래스 또는 유형(영역) 내에서 객체가 가질 수 있는 상태의 표현일 수 있다.
+  - content: 데이터 값은 데이터 유형의 인스턴스이며, 그 값은 식별특성을 갖지 않는다.
   release: '1'
   reviewDate: 2009-01-14
   reviewDecisionDate: 2015-12-01

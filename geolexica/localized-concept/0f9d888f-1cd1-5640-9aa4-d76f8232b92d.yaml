@@ -46,12 +46,14 @@ data:
     type: accepted
   - date: '2013-12-15T00:00:00.000Z'
     type: amended
-  definition: '[{''content'': ''tipo de valor para informar de un resultado de la
-    calidad de datos''}]'
-  examples: '[{''content'': ''"variable booleana", "porcentaje", "razón".''}]'
+  definition:
+  - content: tipo de valor para informar de un resultado de la calidad de datos
+  examples:
+  - content: '"variable booleana", "porcentaje", "razón".'
   id: 120
   language_code: spa
-  notes: '[{''content'': ''Siempre se ha de indicar un tipo de valor para cada resultado.''}]'
+  notes:
+  - content: Siempre se ha de indicar un tipo de valor para cada resultado.
   release: '-1'
   reviewDate: 2013-12-15
   reviewDecisionDate: 2013-12-15

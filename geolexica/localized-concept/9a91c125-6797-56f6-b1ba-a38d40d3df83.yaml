@@ -33,14 +33,16 @@ data:
   dates:
   - date: '2005-08-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''wielkość mająca zarówno kierunek, jak i wielkość''}]'
+  definition:
+  - content: wielkość mająca zarówno kierunek, jak i wielkość
   examples: []
   id: 491
   language_code: pol
-  notes: '[{''content'': ''Skierowany odcinek linii reprezentuje wektor, jeśli długość
-    i kierunek tego odcinka linii są równe wielkości i kierunkowi danego wektora.
-    Termin dane wektorowe odnosi się do danych, które reprezentują przestrzenną konfigurację
-    obiektów w postaci zbioru skierowanych odcinków linii.''}]'
+  notes:
+  - content: Skierowany odcinek linii reprezentuje wektor, jeśli długość i kierunek
+      tego odcinka linii są równe wielkości i kierunkowi danego wektora. Termin dane
+      wektorowe odnosi się do danych, które reprezentują przestrzenną konfigurację
+      obiektów w postaci zbioru skierowanych odcinków linii.
   release: '1'
   sources:
   - origin:

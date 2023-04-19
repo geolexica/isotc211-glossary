@@ -42,12 +42,15 @@ data:
   dates:
   - date: '2007-09-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''在XML文档中界定元素内容的标记。''}]'
-  examples: '[{''content'': ''<Road>''}]'
+  definition:
+  - content: 在XML文档中界定元素内容的标记。
+  examples:
+  - content: <Road>
   id: 441
   language_code: zho
   lineage_source_similarity: 1
-  notes: '[{''content'': ''一个不用正斜线的标记（例如，<Road>）称为起始标记（开标记），一个使用正斜线的标记（例如，</Road>）称为终止标记（或关标记）。''}]'
+  notes:
+  - content: 一个不用正斜线的标记（例如，<Road>）称为起始标记（开标记），一个使用正斜线的标记（例如，</Road>）称为终止标记（或关标记）。
   release: '1'
   reviewDate: 2020-01-09
   reviewDecisionDate: 2020-01-09

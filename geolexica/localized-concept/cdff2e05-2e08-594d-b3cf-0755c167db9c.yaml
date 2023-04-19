@@ -32,10 +32,12 @@ data:
   dates:
   - date: '2009-11-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''한 개 또는 그 이상의 지형지물 조작 유형으로 명시될 수 있는 개념''}]'
-  examples: '[{''content'': ''A "traffic flow" operation might return the number of
-    persons or vehicles expected to move on or through some kind of transportation
-    feature during a period of time specified as input to the operation.''}]'
+  definition:
+  - content: 한 개 또는 그 이상의 지형지물 조작 유형으로 명시될 수 있는 개념
+  examples:
+  - content: A "traffic flow" operation might return the number of persons or vehicles
+      expected to move on or through some kind of transportation feature during a
+      period of time specified as input to the operation.
   id: 857
   language_code: kor
   notes: []

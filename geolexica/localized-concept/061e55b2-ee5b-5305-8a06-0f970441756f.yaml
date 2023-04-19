@@ -35,15 +35,16 @@ data:
   dates:
   - date: '2007-10-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''etäisyyden muuttuminen siten, että mitattujen arvojen
-    välillä on aina jatkuvia arvoja''}]'
+  definition:
+  - content: etäisyyden muuttuminen siten, että mitattujen arvojen välillä on aina
+      jatkuvia arvoja
   examples: []
   id: 659
   language_code: fin
-  notes: '[{''content'': ''Jatkuvan muuttumisen interpoloinnissa otetaan huomioon
-    mittauspisteiden (aika1, arvo1) ja (aika2, arvo2) välisen ’käyrän’ rajoitukset.
-    Esimerkiksi ajoneuvon liikkuessa fyysiset rajoitukset ja ajoneuvolle soveltuvat
-    reitit otetaan huomioon.''}]'
+  notes:
+  - content: Jatkuvan muuttumisen interpoloinnissa otetaan huomioon mittauspisteiden
+      (aika1, arvo1) ja (aika2, arvo2) välisen ’käyrän’ rajoitukset. Esimerkiksi ajoneuvon
+      liikkuessa fyysiset rajoitukset ja ajoneuvolle soveltuvat reitit otetaan huomioon.
   review_indicator: ''
   sources:
   - origin:

@@ -47,16 +47,18 @@ data:
   dates:
   - date: '2003-05-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''orienterat topologiskt objekt som anger sambandet
-    mellan en nod och en av dess orienteringar''}]'
+  definition:
+  - content: orienterat topologiskt objekt som anger sambandet mellan en nod och en
+      av dess orienteringar
   examples: []
   id: 138
   language_code: swe
   lineage_source_similarity: 1
-  notes: '[{''content'': ''Directed nodes are used in the coboundary relation to maintain
-    the spatial association between edge and node. The orientation of a node is with
-    respect to an edge, "+" for end node, "-" for start node. This is consistent with
-    the vector notion of "result = end - start".''}]'
+  notes:
+  - content: Directed nodes are used in the coboundary relation to maintain the spatial
+      association between edge and node. The orientation of a node is with respect
+      to an edge, "+" for end node, "-" for start node. This is consistent with the
+      vector notion of "result = end - start".
   release: '1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02

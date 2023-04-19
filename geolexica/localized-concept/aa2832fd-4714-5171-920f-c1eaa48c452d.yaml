@@ -33,14 +33,16 @@ data:
   dates:
   - date: '2010-12-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''Abrufen einer referenzierten Ressource und Übertragen
-    dieser Ressource in ein servergeneriertes Antwortdokument''}]'
+  definition:
+  - content: Abrufen einer referenzierten Ressource und Übertragen dieser Ressource
+      in ein servergeneriertes Antwortdokument
   examples: []
   id: 1342
   language_code: deu
-  notes: '[{''content'': ''The insertion may be accomplished by either replacing the
-    reference inline with a copy of the resource or by relocating the reference to
-    point to a copy of the resource that has been placed in the response document.''}]'
+  notes:
+  - content: The insertion may be accomplished by either replacing the reference inline
+      with a copy of the resource or by relocating the reference to point to a copy
+      of the resource that has been placed in the response document.
   release: '2'
   sources:
   - origin:

@@ -45,17 +45,20 @@ data:
   dates:
   - date: '2018-05-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''average radar cross section per unit area''}]'
+  definition:
+  - content: average radar cross section per unit area
   examples: []
   id: 2346
   language_code: eng
-  notes: '[{''content'': ''If the radar return from the illuminated area is contributed
-    by a number of independent scattering elements, it is described by the backscattering
-    coefficient instead of radar cross section used for the point target. It is calculated
-    as `sigma^0 = sigma/A` Where `sigma` is the total radar cross section of an area
-    `A`. `sigma^0` is a dimesionless parameter and is usually expressed in decibels
-    (dB) as follows: `sigma_(dB)^0 = 10 log_(10) sigma^0`''}, {''content'': ''“Backscattering
-    coefficient” is sometimes called “normalized radar cross section”.''}]'
+  notes:
+  - content: 'If the radar return from the illuminated area is contributed by a number
+      of independent scattering elements, it is described by the backscattering coefficient
+      instead of radar cross section used for the point target. It is calculated as
+      `sigma^0 = sigma/A` Where `sigma` is the total radar cross section of an area
+      `A`. `sigma^0` is a dimesionless parameter and is usually expressed in decibels
+      (dB) as follows: `sigma_(dB)^0 = 10 log_(10) sigma^0`'
+  - content: “Backscattering coefficient” is sometimes called “normalized radar cross
+      section”.
   release: '5'
   reviewDate: 2018-05-01
   reviewDecisionDate: 2018-05-01

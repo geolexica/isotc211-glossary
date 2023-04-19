@@ -42,16 +42,17 @@ data:
   dates:
   - date: '2019-12-02T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''direction indicating the instantaneous direction of
-    a curve at a point''}]'
+  definition:
+  - content: direction indicating the instantaneous direction of a curve at a point
   examples: []
   id: 2091
   language_code: eng
-  notes: '[{''content'': "The tangent is usually calculated by differentiation of
-    a functional representation of a curve but it may be approximated by a secant
-    (double intersection) line from the point passing through another nearby point
-    on the curve. The closer the second point is to the first, the better the approximation
-    of the tangent''s direction."}]'
+  notes:
+  - content: The tangent is usually calculated by differentiation of a functional
+      representation of a curve but it may be approximated by a secant (double intersection)
+      line from the point passing through another nearby point on the curve. The closer
+      the second point is to the first, the better the approximation of the tangent's
+      direction.
   release: '5'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02

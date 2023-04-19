@@ -44,14 +44,16 @@ data:
   dates:
   - date: '2005-07-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''ohjeet, jotka määrittelevät, kuinka jonkin tietyn
-    tiedon koodaus suoritetaan''}]'
-  examples: '[{''content'': ''XML, ISO 10303-21, ISO/IEC 8211.''}]'
+  definition:
+  - content: ohjeet, jotka määrittelevät, kuinka jonkin tietyn tiedon koodaus suoritetaan
+  examples:
+  - content: XML, ISO 10303-21, ISO/IEC 8211.
   id: 152
   language_code: fin
   lineage_source_similarity: 1
-  notes: '[{''content'': ''Koodaussääntö kertoo muunnettavat tietotyypit sekä tuloksena
-    olevan tietorakenteen syntaksin, rakenteen ja koodit.''}]'
+  notes:
+  - content: Koodaussääntö kertoo muunnettavat tietotyypit sekä tuloksena olevan tietorakenteen
+      syntaksin, rakenteen ja koodit.
   release: '1'
   reviewDate: 2007-01-23
   reviewDecisionDate: 2011-10-15

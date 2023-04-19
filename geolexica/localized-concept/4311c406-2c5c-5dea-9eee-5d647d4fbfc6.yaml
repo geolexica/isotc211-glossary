@@ -49,20 +49,22 @@ data:
   dates:
   - date: '2003-05-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''conjunto de primitivas topológicas, de dimensión topológica
-    mayor, asociadas a un objeto topológico particular de tal modo, que este objeto
-    topológico está en cada una de las fronteras del conjunto''}]'
+  definition:
+  - content: conjunto de primitivas topológicas, de dimensión topológica mayor, asociadas
+      a un objeto topológico particular de tal modo, que este objeto topológico está
+      en cada una de las fronteras del conjunto
   examples: []
   id: 48
   language_code: spa
   lineage_source_similarity: 1
-  notes: '[{''content'': ''Si un nodo está en la frontera de un arco, el arco está
-    en la cofrontera de dicho nodo. Cualquier parámetro de orientación asociado a
-    una de esas relaciones también debería estar asociado a la otra. Por lo tanto,
-    si el nodo es el nodo final de un arco (definido como el final de un arco orientado
-    positivamente), entonces la orientación positiva del nodo (definido como el nodo
-    orientado positivamente) debe tener al arco es su cofrontera, véase la Norma Internacional
-    ISO 19107 figura 35.''}]'
+  notes:
+  - content: Si un nodo está en la frontera de un arco, el arco está en la cofrontera
+      de dicho nodo. Cualquier parámetro de orientación asociado a una de esas relaciones
+      también debería estar asociado a la otra. Por lo tanto, si el nodo es el nodo
+      final de un arco (definido como el final de un arco orientado positivamente),
+      entonces la orientación positiva del nodo (definido como el nodo orientado positivamente)
+      debe tener al arco es su cofrontera, véase la Norma Internacional ISO 19107
+      figura 35.
   release: '1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02

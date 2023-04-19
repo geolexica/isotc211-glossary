@@ -34,14 +34,16 @@ data:
   dates:
   - date: '2012-02-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''로케이팅 지형지물을 따라 위치한 지형지물의 발생에 관한 정보''}]'
+  definition:
+  - content: 로케이팅 지형지물을 따라 위치한 지형지물의 발생에 관한 정보
   examples: []
   id: 1171
   language_code: kor
-  notes: '[{''content'': ''A feature event includes the linearly referenced location
-    of the located feature along the locating feature.''}, {''content'': ''A feature
-    event may be qualified by the instant in which, or period during which, the feature
-    event occurred.''}]'
+  notes:
+  - content: A feature event includes the linearly referenced location of the located
+      feature along the locating feature.
+  - content: A feature event may be qualified by the instant in which, or period during
+      which, the feature event occurred.
   release: '3'
   sources:
   - origin:

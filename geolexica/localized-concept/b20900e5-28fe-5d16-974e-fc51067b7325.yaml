@@ -42,8 +42,10 @@ data:
   dates:
   - date: '2010-06-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''sensor som inte själv sänder ut strålning''}]'
-  examples: '[{''content'': ''Many optical sensors collect reflected solar energy.''}]'
+  definition:
+  - content: sensor som inte själv sänder ut strålning
+  examples:
+  - content: Many optical sensors collect reflected solar energy.
   id: 1005
   language_code: swe
   lineage_source_similarity: '1'

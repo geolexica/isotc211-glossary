@@ -42,17 +42,19 @@ data:
   dates:
   - date: '2000-12-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''specifikation av de åtgärder som ska vidtas för\n
-    att avgöra om ett visst krav är uppfyllt eller ej''}]'
+  definition:
+  - content: specifikation av de åtgärder som ska vidtas för\n att avgöra om ett visst
+      krav är uppfyllt eller ej
   examples: []
   id: 3
   language_code: swe
-  notes: '[{''content'': ''An abstract test case is a formal basis for deriving executable
-    test cases One or more test purposes are encapsulated in the abstract test case.
-    An abstract test case is independent of both the implementation and the values.
-    It should be complete in the sense that it is sufficient to enable a test verdict
-    to be assigned unambiguously to each potentially observable test outcome (i.e.
-    sequence of test events).''}]'
+  notes:
+  - content: An abstract test case is a formal basis for deriving executable test
+      cases One or more test purposes are encapsulated in the abstract test case.
+      An abstract test case is independent of both the implementation and the values.
+      It should be complete in the sense that it is sufficient to enable a test verdict
+      to be assigned unambiguously to each potentially observable test outcome (i.e.
+      sequence of test events).
   release: '1'
   reviewDate: 2019-07-05
   review_indicator: ''

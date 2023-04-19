@@ -43,15 +43,17 @@ data:
   dates:
   - date: '2007-09-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''пара вида «имя-значение», заключенная внутри элемента''}]'
+  definition:
+  - content: пара вида «имя-значение», заключенная внутри элемента
   examples: []
   id: 532
   language_code: rus
   lineage_source_similarity: 1
-  notes: '[{''content'': ''В ISO 19136 под атрибутом понимается  атрибут XML, если
-    иное не определено. Синтаксис атрибута XML - "Attribute::= Name = AttValue". Атрибут
-    обычно действует как модификация элемента XML (например,  <Road gml:id = "r1"
-    />; здесь  gml:id является атрибутом)''}]'
+  notes:
+  - content: В ISO 19136 под атрибутом понимается  атрибут XML, если иное не определено.
+      Синтаксис атрибута XML - "Attribute::= Name = AttValue". Атрибут обычно действует
+      как модификация элемента XML (например,  <Road gml:id = "r1" />; здесь  gml:id
+      является атрибутом)
   release: '1'
   reviewDate: 2020-01-09
   reviewDecisionDate: 2020-01-09

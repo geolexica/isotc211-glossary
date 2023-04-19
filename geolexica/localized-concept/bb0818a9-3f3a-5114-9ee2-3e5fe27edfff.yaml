@@ -43,14 +43,15 @@ data:
   dates:
   - date: '2010-06-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''3D - положение точки отсёта на земле для заданной
-    синтетической апертуры''}]'
+  definition:
+  - content: 3D - положение точки отсёта на земле для заданной синтетической апертуры
   examples: []
   id: 999
   language_code: rus
   lineage_source_similarity: '1'
-  notes: '[{''content'': ''обычно это центральная точка изображения (Spotlight) или
-    линия изображения (Stripmap). Обычно он выражается в координатах ECEF в метрах.''}]'
+  notes:
+  - content: обычно это центральная точка изображения (Spotlight) или линия изображения
+      (Stripmap). Обычно он выражается в координатах ECEF в метрах.
   release: '2'
   reviewDate: 2018-09-01
   reviewDecisionDate: 2018-09-01

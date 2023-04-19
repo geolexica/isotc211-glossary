@@ -35,13 +35,14 @@ data:
   dates:
   - date: '2010-12-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''datauppgift som utgör en referns till en lokal resurs
-    eller till en fjärresurs''}]'
+  definition:
+  - content: datauppgift som utgör en referns till en lokal resurs eller till en fjärresurs
   examples: []
   id: 1335
   language_code: swe
-  notes: '[{''content'': ''In XML, this attribute is commonly called an href and contains
-    a URI reference to the remote resource (see W3C XLink)''}]'
+  notes:
+  - content: In XML, this attribute is commonly called an href and contains a URI
+      reference to the remote resource (see W3C XLink)
   release: '2'
   sources:
   - origin:

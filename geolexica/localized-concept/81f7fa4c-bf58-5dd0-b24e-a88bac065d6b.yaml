@@ -44,16 +44,18 @@ data:
   dates:
   - date: '2019-01-31T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''coordinate reference system derived from a geographic
-    coordinate reference system by applying a map projection''}]'
+  definition:
+  - content: coordinate reference system derived from a geographic coordinate reference
+      system by applying a map projection
   examples: []
   id: 2317
   language_code: eng
-  notes: '[{''content'': ''May be two- or three-dimensional, the dimension being equal
-    to that of the geographic coordinate reference system from which it is derived.''},
-    {''content'': ''In the three-dimensional case the horizontal coordinates (geodetic
-    latitude and geodetic longitude coordinates) are projected to northing and easting
-    and the ellipsoidal height is unchanged.''}]'
+  notes:
+  - content: May be two- or three-dimensional, the dimension being equal to that of
+      the geographic coordinate reference system from which it is derived.
+  - content: In the three-dimensional case the horizontal coordinates (geodetic latitude
+      and geodetic longitude coordinates) are projected to northing and easting and
+      the ellipsoidal height is unchanged.
   release: '5'
   reviewDate: 2019-01-31
   reviewDecisionDate: 2019-01-31

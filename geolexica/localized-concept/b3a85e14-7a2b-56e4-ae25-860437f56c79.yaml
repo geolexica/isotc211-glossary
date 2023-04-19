@@ -43,18 +43,19 @@ data:
   dates:
   - date: '2015-06-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''instance of a transport service supporting mobility,
-    for example, a specific flight, a specific ferry departure or a specific taxi
-    tour''}]'
+  definition:
+  - content: instance of a transport service supporting mobility, for example, a specific
+      flight, a specific ferry departure or a specific taxi tour
   examples: []
   id: 1502
   language_code: eng
-  notes: '[{''content'': ''May follow a pre-defined trip pattern or the trip may be
-    ad hoc according to specific mobility demands. Depending on the nature of the
-    trip, it may start and stop at several transfer nodes.''}, {''content'': ''A trip
-    may serve many travellers, and the travellers may make use different part of a
-    trip (e.g. different legs between different bus stops), and these parts may be
-    whole journeys or journey segments.''}]'
+  notes:
+  - content: May follow a pre-defined trip pattern or the trip may be ad hoc according
+      to specific mobility demands. Depending on the nature of the trip, it may start
+      and stop at several transfer nodes.
+  - content: A trip may serve many travellers, and the travellers may make use different
+      part of a trip (e.g. different legs between different bus stops), and these
+      parts may be whole journeys or journey segments.
   release: '4'
   reviewDate: 2009-06-20
   reviewDecisionDate: 2015-06-15

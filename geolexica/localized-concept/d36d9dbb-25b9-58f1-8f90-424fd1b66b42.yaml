@@ -35,12 +35,14 @@ data:
   dates:
   - date: '2000-12-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''test för att avgöra om ett visst krav är uppfyllt
-    eller ej genom att konkreta värden anges''}]'
+  definition:
+  - content: test för att avgöra om ett visst krav är uppfyllt eller ej genom att
+      konkreta värden anges
   examples: []
   id: 161
   language_code: swe
-  notes: '[{''content'': ''Instantiation of an abstract test case with values.''}]'
+  notes:
+  - content: Instantiation of an abstract test case with values.
   release: '1'
   review_indicator: ''
   sources:

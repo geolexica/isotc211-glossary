@@ -33,12 +33,14 @@ data:
   dates:
   - date: '2005-10-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''struktureret sæt af registre for et domæne af registerelementer,
-    bestående af et hovedregister og et sæt af delregistre''}]'
-  examples: '[{''content'': ''ISO 6523 er associeret med et hierarkisk register. Hovedregisteret
-    indeholder skemaer for identifikation af organisation -  og hvert delregister
-    indeholder et sæt af organisationsidentifikatorer, der er i overensstemmelse med
-    et enkelt skema for identifikation af organisation.''}]'
+  definition:
+  - content: struktureret sæt af registre for et domæne af registerelementer, bestående
+      af et hovedregister og et sæt af delregistre
+  examples:
+  - content: ISO 6523 er associeret med et hierarkisk register. Hovedregisteret indeholder
+      skemaer for identifikation af organisation -  og hvert delregister indeholder
+      et sæt af organisationsidentifikatorer, der er i overensstemmelse med et enkelt
+      skema for identifikation af organisation.
   id: 859
   language_code: dan
   notes: []

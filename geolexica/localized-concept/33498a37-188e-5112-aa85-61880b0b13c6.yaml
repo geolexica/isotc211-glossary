@@ -51,23 +51,25 @@ data:
   dates:
   - date: '2016-04-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''objeto geográfico lineal que describe un cambio en
-    la suavidad o continuidad de una superficie''}]'
+  definition:
+  - content: objeto geográfico lineal que describe un cambio en la suavidad o continuidad
+      de una superficie
   examples: []
   id: 1932
   language_code: spa
-  notes: '[{''content'': ''Una línea de quiebre suave garantiza que sobre un objeto
-    geografíco lineal se mantengan los valores conocidos de z (por ejemplo, elevaciones
-    a lo largo de una tubería, el eje de una carretera o una acequia de drenaje),
-    y asegura que los objetos geográficos lineales y los bordes de los polígonos se
-    mantengan en un modelo de superficie de Red Irregular de Triángulos (TIN), por
-    medio de forzar las lineas de quiebre como bordes del TIN. En general, son sinónimo
-    de las líneas de quiebre tridimensionales porque se representan con series de
-    coordenadas x/y/z. De cierto modo, las crestas redondeadas o las depresiones de
-    drenaje se pueden capturar utilizando lineas de quiebre suaves.''}, {''content'':
-    ''Una línea de quiebre fuerte define interrupciones enla suavidad de la superficie
-    por ejemplo, para definir cauces, líneas de costa, represas, crestas, plantas
-    de edificios y otras ubicaciones con cambios abruptos en la superficie.''}]'
+  notes:
+  - content: Una línea de quiebre suave garantiza que sobre un objeto geografíco lineal
+      se mantengan los valores conocidos de z (por ejemplo, elevaciones a lo largo
+      de una tubería, el eje de una carretera o una acequia de drenaje), y asegura
+      que los objetos geográficos lineales y los bordes de los polígonos se mantengan
+      en un modelo de superficie de Red Irregular de Triángulos (TIN), por medio de
+      forzar las lineas de quiebre como bordes del TIN. En general, son sinónimo de
+      las líneas de quiebre tridimensionales porque se representan con series de coordenadas
+      x/y/z. De cierto modo, las crestas redondeadas o las depresiones de drenaje
+      se pueden capturar utilizando lineas de quiebre suaves.
+  - content: Una línea de quiebre fuerte define interrupciones enla suavidad de la
+      superficie por ejemplo, para definir cauces, líneas de costa, represas, crestas,
+      plantas de edificios y otras ubicaciones con cambios abruptos en la superficie.
   release: '4'
   reviewDate: 2014-08-26
   reviewDecisionDate: 2016-04-15

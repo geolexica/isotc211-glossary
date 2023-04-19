@@ -43,15 +43,17 @@ data:
   dates:
   - date: '2010-06-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''SAR-Aufnahmemodus, bei dem der Radarmessstrahl während
-    der Bildaufnahme unter einem gleichmäßigen Winkel auf die Erde gerichtet wird''}]'
+  definition:
+  - content: SAR-Aufnahmemodus, bei dem der Radarmessstrahl während der Bildaufnahme
+      unter einem gleichmäßigen Winkel auf die Erde gerichtet wird
   examples: []
   id: 1125
   language_code: deu
   lineage_source_similarity: '1'
-  notes: '[{''content'': ''Doppler angle in processed products is fixed for all pixels.
-    It provides the ability to collect SAR data over strips of land over a fixed swath
-    of ground range parallel to the direction of flight.''}]'
+  notes:
+  - content: Doppler angle in processed products is fixed for all pixels. It provides
+      the ability to collect SAR data over strips of land over a fixed swath of ground
+      range parallel to the direction of flight.
   release: '2'
   reviewDate: 2018-09-01
   reviewDecisionDate: 2018-09-01

@@ -41,12 +41,13 @@ data:
   dates:
   - date: '2015-12-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''objeto direccionable que contiene completamente a
-    uno o más objetos direccionables''}]'
-  examples: '[{''content'': ''Un edificio de apartamentos con muchos apartamentos
-    dentro.''}, {''content'': ''En Japón, un gaiku (manzana) con muchos jukyo bango
-    (números de residencia).''}, {''content'': ''Un complejo de muchos edificios.
-    En Corea, un grupo de edificios con muchas dong (alas o secciones de un edificio).''}]'
+  definition:
+  - content: objeto direccionable que contiene completamente a uno o más objetos direccionables
+  examples:
+  - content: Un edificio de apartamentos con muchos apartamentos dentro.
+  - content: En Japón, un gaiku (manzana) con muchos jukyo bango (números de residencia).
+  - content: Un complejo de muchos edificios. En Corea, un grupo de edificios con
+      muchas dong (alas o secciones de un edificio).
   id: 1558
   language_code: spa
   notes: []

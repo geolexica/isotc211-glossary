@@ -42,17 +42,18 @@ data:
   dates:
   - date: '2005-10-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''viktad och riktad graf som utgör underlag för\nDijkstras
-    algoritm, vilken söker den kortaste vägen mellan två punkter (eller noder)''}]'
+  definition:
+  - content: viktad och riktad graf som utgör underlag för\nDijkstras algoritm, vilken
+      söker den kortaste vägen mellan två punkter (eller noder)
   examples: []
   id: 133
   language_code: swe
-  notes: '[{''content'': ''The term comes from the most commonly known algorithm for
-    finding a shortest path in a positively weighted graph, from E. Dijkstra\''s paper
-    [7]. Although this algorithm is not the only one in use, the requirements for
-    the graph are common to most. The most common relaxation of the requirement is
-    the "positive weights," which are not needed in the Bellman-Ford algorithm [4],
-    [8].''}]'
+  notes:
+  - content: The term comes from the most commonly known algorithm for finding a shortest
+      path in a positively weighted graph, from E. Dijkstra's paper [7]. Although
+      this algorithm is not the only one in use, the requirements for the graph are
+      common to most. The most common relaxation of the requirement is the "positive
+      weights," which are not needed in the Bellman-Ford algorithm [4], [8].
   release: '1'
   review_indicator: ''
   sources:

@@ -43,15 +43,17 @@ data:
   dates:
   - date: '2003-05-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''rumligt objekt, der repræsenterer en geometrisk mængde''}]'
+  definition:
+  - content: rumligt objekt, der repræsenterer en geometrisk mængde
   examples: []
   id: 214
   language_code: dan
   lineage_source_similarity: 1
-  notes: '[{''content'': ''Et geometrisk objekt består af en geometrisk grundform,
-    en aggregering af geometriske grundformer eller en kompleks geometri, der behandles
-    som en enkelt entitet. Et geometrisk objekt kan være den rumlige repræsentation
-    af et objekt såsom en feature, eller en væsentlig del af en feature.''}]'
+  notes:
+  - content: Et geometrisk objekt består af en geometrisk grundform, en aggregering
+      af geometriske grundformer eller en kompleks geometri, der behandles som en
+      enkelt entitet. Et geometrisk objekt kan være den rumlige repræsentation af
+      et objekt såsom en feature, eller en væsentlig del af en feature.
   release: '1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02

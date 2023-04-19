@@ -46,16 +46,18 @@ data:
     type: accepted
   - date: '2019-01-31T00:00:00.000Z'
     type: amended
-  definition: '[{''content'': ''operacja na współrzędnych, gdy oba systemy odniesienia
-    oparte są na tym samym układzie odniesienia''}]'
-  examples: '[{''content'': ''Konwersja z elipsoidalnego układu współrzędnych bazującego
-    na układzie odniesienia WGS 84 do kartezjańskiego układu współrzędnych, również
-    bazującego na układzie odniesienia WGS 84, lub zamiana jednostek z radianów na
-    stopnie lub stóp na metry.''}]'
+  definition:
+  - content: operacja na współrzędnych, gdy oba systemy odniesienia oparte są na tym
+      samym układzie odniesienia
+  examples:
+  - content: Konwersja z elipsoidalnego układu współrzędnych bazującego na układzie
+      odniesienia WGS 84 do kartezjańskiego układu współrzędnych, również bazującego
+      na układzie odniesienia WGS 84, lub zamiana jednostek z radianów na stopnie
+      lub stóp na metry.
   id: 762
   language_code: pol
-  notes: '[{''content'': ''W konwersji współrzędnych użyte parametry nie są określane
-    w sposób empiryczny.''}]'
+  notes:
+  - content: W konwersji współrzędnych użyte parametry nie są określane w sposób empiryczny.
   release: '-1'
   reviewDate: 2019-01-31
   reviewDecisionDate: 2019-01-31

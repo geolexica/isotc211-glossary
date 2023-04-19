@@ -35,15 +35,17 @@ data:
   dates:
   - date: '2007-04-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''detaillierte Beschreibung eines Datensatzes oder einer
-    Serie von Datensätzen verbunden mit ergänzenden Informationen, die deren Erstellung,
-    Lieferung an und Nutzung durch Dritte ermöglicht''}]'
+  definition:
+  - content: detaillierte Beschreibung eines Datensatzes oder einer Serie von Datensätzen
+      verbunden mit ergänzenden Informationen, die deren Erstellung, Lieferung an
+      und Nutzung durch Dritte ermöglicht
   examples: []
   id: 111
   language_code: deu
-  notes: '[{''content'': ''A data product specification provides a description of
-    the universe of discourse and a specification for mapping the universe of discourse
-    to a dataset. It may be used for production, sales, end-use or other purposes.''}]'
+  notes:
+  - content: A data product specification provides a description of the universe of
+      discourse and a specification for mapping the universe of discourse to a dataset.
+      It may be used for production, sales, end-use or other purposes.
   release: '1'
   review_indicator: ''
   sources:

@@ -51,17 +51,20 @@ data:
   dates:
   - date: '2007-09-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''består av en kompakt sträng av tecken som används
-    för att identifiera eller namnge en resurs.''}]'
+  definition:
+  - content: består av en kompakt sträng av tecken som används för att identifiera
+      eller namnge en resurs.
   examples: []
   id: 481
   language_code: swe
   lineage_source_similarity: 1
-  notes: '[{''content'': ''The general syntax is <scheme>::<scheme-specific-part>.
-    The hierarchical syntax with a namespace is <scheme>://<authority><path>?<query>
-    - see RFC 2396.\nDen huvudsakliga orsaken för denna identifiering är att ge möjlighet
-    att med särskilda protokoll referera till resursen över ett nätverk, typiskt World
-    Wide Web.''}]'
+  notes:
+  - content: 'The general syntax is <scheme>::<scheme-specific-part>. The hierarchical
+      syntax with a namespace is <scheme>://<authority><path>?<query> - see RFC 2396.
+
+      Den huvudsakliga orsaken för denna identifiering är att ge möjlighet att med
+      särskilda protokoll referera till resursen över ett nätverk, typiskt World Wide
+      Web.'
   release: '1'
   reviewDate: 2020-01-09
   reviewDecisionDate: 2020-01-09

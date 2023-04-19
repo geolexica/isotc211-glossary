@@ -42,14 +42,16 @@ data:
   dates:
   - date: '2010-11-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''data related to concepts or their designations''}]'
+  definition:
+  - content: data related to concepts or their designations
   examples: []
   id: 900
   language_code: eng
   lineage_source_similarity: 1
-  notes: '[{''content'': ''The more common terminological data include entry term,
-    definition, note, grammatical label, subject label, language identifier, country
-    identifier and source identifier.''}]'
+  notes:
+  - content: The more common terminological data include entry term, definition, note,
+      grammatical label, subject label, language identifier, country identifier and
+      source identifier.
   release: '2'
   reviewDate: 2018-06-01
   reviewDecisionDate: 2018-06-01

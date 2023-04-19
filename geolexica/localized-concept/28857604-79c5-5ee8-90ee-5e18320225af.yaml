@@ -32,12 +32,14 @@ data:
   dates:
   - date: '2014-02-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''정해진 기간 동안 자원을 사용할 수 있도록 허가해 주고 추후 회수 받는 행위''}]'
+  definition:
+  - content: 정해진 기간 동안 자원을 사용할 수 있도록 허가해 주고 추후 회수 받는 행위
   examples: []
   id: 1230
   language_code: kor
-  notes: '[{''content'': ''During this period, the resource is only available to the
-    lessee. Temporal constraints are required for downstream use.''}]'
+  notes:
+  - content: During this period, the resource is only available to the lessee. Temporal
+      constraints are required for downstream use.
   release: '3'
   sources:
   - origin:

@@ -43,10 +43,11 @@ data:
   dates:
   - date: '2003-10-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''spatial reference in the form of a label or code that
-    identifies a location''}]'
-  examples: '[{''content'': "''Spain'' is an example of a country name, ''SW1P 3AD''
-    is an example of a postcode."}]'
+  definition:
+  - content: spatial reference in the form of a label or code that identifies a location
+  examples:
+  - content: '''Spain'' is an example of a country name, ''SW1P 3AD'' is an example
+      of a postcode.'
   id: 204
   language_code: eng
   lineage_source_similarity: 1

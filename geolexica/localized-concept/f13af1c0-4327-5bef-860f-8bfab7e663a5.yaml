@@ -46,14 +46,17 @@ data:
   dates:
   - date: '2005-07-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''identifierbar samling översättningsregler som definierar
-    kodningen av en viss datastruktur''}]'
-  examples: '[{''content'': ''XML, ISO 10303-21, ISO/IEC 8211.''}]'
+  definition:
+  - content: identifierbar samling översättningsregler som definierar kodningen av
+      en viss datastruktur
+  examples:
+  - content: XML, ISO 10303-21, ISO/IEC 8211.
   id: 152
   language_code: swe
   lineage_source_similarity: 1
-  notes: '[{''content'': ''An encoding rule specifies the types of data to be converted
-    as well as the syntax, structure and codes used in the resulting data structure.''}]'
+  notes:
+  - content: An encoding rule specifies the types of data to be converted as well
+      as the syntax, structure and codes used in the resulting data structure.
   release: '1'
   reviewDate: 2007-01-23
   reviewDecisionDate: 2011-10-15

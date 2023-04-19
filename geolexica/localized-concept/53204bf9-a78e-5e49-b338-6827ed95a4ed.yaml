@@ -41,12 +41,14 @@ data:
   dates:
   - date: '2003-05-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''有向拓扑对象，表达结点和它的一个方向之间的关联。''}]'
+  definition:
+  - content: 有向拓扑对象，表达结点和它的一个方向之间的关联。
   examples: []
   id: 138
   language_code: zho
   lineage_source_similarity: 1
-  notes: '[{''content'': ''有向结点用在余边界中以维持边与结点间的空间关联。结点的方向与边的方向相对应，终结点为“+”，起结点为“-”，这与“结果=结束-起始”的矢量概念相一致。''}]'
+  notes:
+  - content: 有向结点用在余边界中以维持边与结点间的空间关联。结点的方向与边的方向相对应，终结点为“+”，起结点为“-”，这与“结果=结束-起始”的矢量概念相一致。
   release: '1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02

@@ -41,8 +41,10 @@ data:
   dates:
   - date: '2004-07-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''특정 기준계에서 좌표 값의 변화로 표현되는 시간에 따른 객체의 위치변화''}]'
-  examples: '[{''content'': ''차량 또는 플랫폼에 탑재된 측위 센서의 이동 또는 측위 시스템에 의해 추적된 객체의 이동''}]'
+  definition:
+  - content: 특정 기준계에서 좌표 값의 변화로 표현되는 시간에 따른 객체의 위치변화
+  examples:
+  - content: 차량 또는 플랫폼에 탑재된 측위 센서의 이동 또는 측위 시스템에 의해 추적된 객체의 이동
   id: 301
   language_code: kor
   lineage_source_similarity: 1

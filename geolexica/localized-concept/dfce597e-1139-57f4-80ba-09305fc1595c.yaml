@@ -43,17 +43,19 @@ data:
   dates:
   - date: '2019-12-02T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''bilinear, symmetric function from pairs of vectors
-    `<< vec v_1, vec v_2 >> rarr RR` to a real number such that `<< vec v, vec v >>
-    = norm (vec v)` and `<< vec v_1, vec v_2>> = norm (vec v_1) norm (vec v_2) cos
-    theta` where "`theta`" is the angle between `vec v_1` and `vec v_2`.''}]'
+  definition:
+  - content: bilinear, symmetric function from pairs of vectors `<< vec v_1, vec v_2
+      >> rarr RR` to a real number such that `<< vec v, vec v >> = norm (vec v)` and
+      `<< vec v_1, vec v_2>> = norm (vec v_1) norm (vec v_2) cos theta` where "`theta`"
+      is the angle between `vec v_1` and `vec v_2`.
   examples: []
   id: 2065
   language_code: eng
-  notes: '[{''content'': ''Inner products in differential geometry are used on the
-    differentials that make up the local tangent spaces. In this document, this will
-    usually be vectors tangent to a datum surface embedded a geocentric <<math>> Euclidean/Cartesian
-    space.n th''}]'
+  notes:
+  - content: Inner products in differential geometry are used on the differentials
+      that make up the local tangent spaces. In this document, this will usually be
+      vectors tangent to a datum surface embedded a geocentric <<math>> Euclidean/Cartesian
+      space.n th
   release: '5'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02

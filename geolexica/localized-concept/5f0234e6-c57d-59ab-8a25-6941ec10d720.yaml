@@ -43,15 +43,16 @@ data:
   dates:
   - date: '2010-06-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''사진 수집 중 비행 경로에 따라 다양한 각도로 지상 관측을 위한 빛을 비추기 위해 안테나
-    빔을 조종하는 SAR 모드''}]'
+  definition:
+  - content: 사진 수집 중 비행 경로에 따라 다양한 각도로 지상 관측을 위한 빛을 비추기 위해 안테나 빔을 조종하는 SAR 모드
   examples: []
   id: 968
   language_code: kor
   lineage_source_similarity: '1'
-  notes: '[{''content'': ''Steering the antenna also allows dwell time to be increased
-    and provides the ability to collect strips at angles non-parallel to the flight
-    direction and with better resolution than Stripmap mode.''}]'
+  notes:
+  - content: Steering the antenna also allows dwell time to be increased and provides
+      the ability to collect strips at angles non-parallel to the flight direction
+      and with better resolution than Stripmap mode.
   release: '2'
   reviewDate: 2018-09-01
   reviewDecisionDate: 2018-09-01

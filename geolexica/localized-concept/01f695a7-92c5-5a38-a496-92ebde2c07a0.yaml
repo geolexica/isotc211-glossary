@@ -43,13 +43,15 @@ data:
   dates:
   - date: '2007-09-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''IETF RFC 2396에 대한 적합성을 만족하는, 자원에 대한 고유한 식별자''}]'
+  definition:
+  - content: IETF RFC 2396에 대한 적합성을 만족하는, 자원에 대한 고유한 식별자
   examples: []
   id: 481
   language_code: kor
   lineage_source_similarity: 1
-  notes: '[{''content'': ''일반적인 문법은 <scheme>::<scheme-specific-part>이다. 이름 공간과 함께
-    계층적 문법은 <scheme>://<authority><path>?<query>이다. RFC 2396을 참고하라.''}]'
+  notes:
+  - content: 일반적인 문법은 <scheme>::<scheme-specific-part>이다. 이름 공간과 함께 계층적 문법은 <scheme>://<authority><path>?<query>이다.
+      RFC 2396을 참고하라.
   release: '1'
   reviewDate: 2020-01-09
   reviewDecisionDate: 2020-01-09

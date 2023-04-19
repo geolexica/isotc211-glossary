@@ -38,14 +38,16 @@ data:
   dates:
   - date: '2012-11-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''att utifrån en PI-referens för en viss plats finna
-    en annan typ av PI-referens för samma plats''}]'
+  definition:
+  - content: att utifrån en PI-referens för en viss plats finna en annan typ av PI-referens
+      för samma plats
   examples: []
   id: 1339
   language_code: swe
-  notes: '[{''content'': ''A source PI can be matched with multiple target Place Identifiers.''},
-    {''content'': ''PI matching can be made among coordinates, geographic identifiers
-    and identifiers in the virtual world such as URI.''}]'
+  notes:
+  - content: A source PI can be matched with multiple target Place Identifiers.
+  - content: PI matching can be made among coordinates, geographic identifiers and
+      identifiers in the virtual world such as URI.
   release: '3'
   sources:
   - origin:

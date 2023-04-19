@@ -42,12 +42,14 @@ data:
   dates:
   - date: '2003-05-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''曲线的序列，其每条（第一条除外）在该序列的上一条曲线的结尾处开始。''}]'
+  definition:
+  - content: 曲线的序列，其每条（第一条除外）在该序列的上一条曲线的结尾处开始。
   examples: []
   id: 55
   language_code: zho
   lineage_source_similarity: 1
-  notes: '[{''content'': ''组合曲线作为直接位置的集合，具有曲线的所有特征。''}]'
+  notes:
+  - content: 组合曲线作为直接位置的集合，具有曲线的所有特征。
   release: '1'
   reviewDate: 2018-06-08
   reviewDecisionDate: 2020-01-09

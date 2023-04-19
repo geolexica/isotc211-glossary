@@ -45,16 +45,18 @@ data:
   dates:
   - date: '2003-05-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''suunnattu topologinen objekti, joka kuvaa solmupisteen
-    ja jonkin sen suunnan välistä yhteyttä''}]'
+  definition:
+  - content: suunnattu topologinen objekti, joka kuvaa solmupisteen ja jonkin sen
+      suunnan välistä yhteyttä
   examples: []
   id: 138
   language_code: fin
   lineage_source_similarity: 1
-  notes: '[{''content'': ''Suunnattuja solmuja käytetään yhteisrajauksessa ylläpitämään
-    linkin ja solmupisteen sijaintiyhteyttä. Suhteessa linkkiin solmupisteen suunta
-    on loppusolmun suuntaan + ja alkusolmun suuntaan -. Tämä on yhdenmukaista vektoreihin
-    liittyvän käsitteen "tulos = loppu - alku" kanssa.''}]'
+  notes:
+  - content: Suunnattuja solmuja käytetään yhteisrajauksessa ylläpitämään linkin ja
+      solmupisteen sijaintiyhteyttä. Suhteessa linkkiin solmupisteen suunta on loppusolmun
+      suuntaan + ja alkusolmun suuntaan -. Tämä on yhdenmukaista vektoreihin liittyvän
+      käsitteen "tulos = loppu - alku" kanssa.
   release: '1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02

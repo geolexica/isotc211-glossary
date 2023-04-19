@@ -39,17 +39,18 @@ data:
   dates:
   - date: '2000-12-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''tietyn vaatimuksen täyttymistä mittaava yleistetty
-    testi''}]'
+  definition:
+  - content: tietyn vaatimuksen täyttymistä mittaava yleistetty testi
   examples: []
   id: 3
   language_code: fin
-  notes: '[{''content'': ''Abstrakti testitapaus on suoritettavissa olevien testitapausten
-    johtamisen muodollinen perusta. Abstraktiin testitapaukseen liittyy yksi tai useampi
-    testaustarkoitus. Abstrakti testitapaus on toteutuksesta ja arvoista riippumaton.
-    Abstraktin testitapauksen tulisi olla täydellinen, eli sen tulisi mahdollistaa
-    yksikäsitteisen lausunnon (hyväksyntä/hylkäys) antaminen jokaiselle mahdollisesti
-    havaittavalle testitulokselle (testitapahtumajonolle).''}]'
+  notes:
+  - content: Abstrakti testitapaus on suoritettavissa olevien testitapausten johtamisen
+      muodollinen perusta. Abstraktiin testitapaukseen liittyy yksi tai useampi testaustarkoitus.
+      Abstrakti testitapaus on toteutuksesta ja arvoista riippumaton. Abstraktin testitapauksen
+      tulisi olla täydellinen, eli sen tulisi mahdollistaa yksikäsitteisen lausunnon
+      (hyväksyntä/hylkäys) antaminen jokaiselle mahdollisesti havaittavalle testitulokselle
+      (testitapahtumajonolle).
   release: '1'
   reviewDate: 2019-07-05
   review_indicator: ''

@@ -44,14 +44,16 @@ data:
   dates:
   - date: '2003-05-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''Sequenz von Kurven, wobei jede Kurve (außer der ersten)
-    am Endpunkt der vorhergehenden Kurve einer Sequenz beginnt''}]'
+  definition:
+  - content: Sequenz von Kurven, wobei jede Kurve (außer der ersten) am Endpunkt der
+      vorhergehenden Kurve einer Sequenz beginnt
   examples: []
   id: 55
   language_code: deu
   lineage_source_similarity: 1
-  notes: '[{''content'': ''A composite curve, as a set of direct positions, has all
-    the properties of a curve.''}]'
+  notes:
+  - content: A composite curve, as a set of direct positions, has all the properties
+      of a curve.
   release: '1'
   reviewDate: 2018-06-08
   reviewDecisionDate: 2020-01-09

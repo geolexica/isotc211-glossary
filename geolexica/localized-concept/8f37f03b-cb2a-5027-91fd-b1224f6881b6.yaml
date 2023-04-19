@@ -50,21 +50,23 @@ data:
   dates:
   - date: '2019-12-02T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''geometric object representing a single, connected,
-    homogeneous (isotropic) element of space''}]'
+  definition:
+  - content: geometric object representing a single, connected, homogeneous (isotropic)
+      element of space
   examples: []
   id: 2164
   language_code: eng
-  notes: '[{''content'': ''Geometric primitives are non-decomposed objects that present
-    information about geometric configuration. They include points, curves, surfaces,
-    and solids. Many geometric objects behave like primitives (supporting the same
-    interfaces defined for geometric primitives) but are actually composites composed
-    of some number of other primitives. General collections may be aggregates and
-    incapable of acting like a primitive (such as the lines of a complex network,
-    which is not connected and thus incapable of being traceable as a single line).
-    By this definition, a geometric primitive is topological open, since the boundary
-    points are not isotropic to the interior points. Geometry is assumed to be closed.
-    For points, the boundary is empty.''}]'
+  notes:
+  - content: Geometric primitives are non-decomposed objects that present information
+      about geometric configuration. They include points, curves, surfaces, and solids.
+      Many geometric objects behave like primitives (supporting the same interfaces
+      defined for geometric primitives) but are actually composites composed of some
+      number of other primitives. General collections may be aggregates and incapable
+      of acting like a primitive (such as the lines of a complex network, which is
+      not connected and thus incapable of being traceable as a single line). By this
+      definition, a geometric primitive is topological open, since the boundary points
+      are not isotropic to the interior points. Geometry is assumed to be closed.
+      For points, the boundary is empty.
   release: '5'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02

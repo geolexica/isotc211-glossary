@@ -39,18 +39,21 @@ data:
   dates:
   - date: '2014-07-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''capacidad de respuesta por unidad de intervalo de
-    longitud de onda a una longitud de onda dada''}]'
+  definition:
+  - content: capacidad de respuesta por unidad de intervalo de longitud de onda a
+      una longitud de onda dada
   examples: []
   id: 1608
   language_code: spa
   lineage_source_similarity: 1
-  notes: '[{''content'': ''La respuesta espectral es la reacción del sensor con respecto
-    a la longitud de onda dependiente de la radiancia''}, {''content'': ''La definición
-    se describe matemáticamente en la Norma IEC 60050-845 . La respuesta espectral
-    es el cociente de la salida del detector dY ( λ ) entre la entrada del detector
-    monocromático  dXe(λ) = Xe, λ(λ) • dλ en el intervalo dλ  de la longitud de onda
-    como  función de la longitud de onda λ s ( λ ) = dY ( λ ) / DxC ( λ )''}]'
+  notes:
+  - content: La respuesta espectral es la reacción del sensor con respecto a la longitud
+      de onda dependiente de la radiancia
+  - content: La definición se describe matemáticamente en la Norma IEC 60050-845 .
+      La respuesta espectral es el cociente de la salida del detector dY ( λ ) entre
+      la entrada del detector monocromático  dXe(λ) = Xe, λ(λ) • dλ en el intervalo
+      dλ  de la longitud de onda como  función de la longitud de onda λ s ( λ ) =
+      dY ( λ ) / DxC ( λ )
   release: '3'
   sources:
   - origin:

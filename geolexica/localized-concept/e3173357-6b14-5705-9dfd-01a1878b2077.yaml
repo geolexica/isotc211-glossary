@@ -45,16 +45,17 @@ data:
   dates:
   - date: '2003-05-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''objeto espacial que representa a un conjunto geométrico''}]'
+  definition:
+  - content: objeto espacial que representa a un conjunto geométrico
   examples: []
   id: 214
   language_code: spa
   lineage_source_similarity: 1
-  notes: '[{''content'': ''Un objeto geométrico consta de una primitiva geométrica,
-    de una colección de primitivas geométricas o de un complejo geométrico que es
-    tratado como una única entidad. Un objeto geométrico puede ser una representación
-    espacial de un objeto tal como un objeto geográfico o una parte significativa
-    de él.''}]'
+  notes:
+  - content: Un objeto geométrico consta de una primitiva geométrica, de una colección
+      de primitivas geométricas o de un complejo geométrico que es tratado como una
+      única entidad. Un objeto geométrico puede ser una representación espacial de
+      un objeto tal como un objeto geográfico o una parte significativa de él.
   release: '1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02

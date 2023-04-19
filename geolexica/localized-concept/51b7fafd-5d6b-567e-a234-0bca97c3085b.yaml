@@ -40,15 +40,17 @@ data:
   dates:
   - date: '2004-07-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''vertaussuure, joka on valittu yksiköiden vastaavuusryhmästä''}]'
+  definition:
+  - content: vertaussuure, joka on valittu yksiköiden vastaavuusryhmästä
   examples: []
   id: 483
   language_code: fin
   lineage_source_similarity: 1
-  notes: '[{''content'': ''Paikannuspalveluissa käytetyt mittayksiköt ovat tavallisesti
-    kulmayksiköitä tai lineaarisia yksiköitä. Paikannuspalvelutoteutuksissa on selvästi
-    erotettava SI-järjestelmän yksiköt muista yksiköistä. Kun käytetään muita kuin
-    SI-yksiköitä, niiden suhde SI-yksiköihin on määriteltävä.''}]'
+  notes:
+  - content: Paikannuspalveluissa käytetyt mittayksiköt ovat tavallisesti kulmayksiköitä
+      tai lineaarisia yksiköitä. Paikannuspalvelutoteutuksissa on selvästi erotettava
+      SI-järjestelmän yksiköt muista yksiköistä. Kun käytetään muita kuin SI-yksiköitä,
+      niiden suhde SI-yksiköihin on määriteltävä.
   release: '1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02

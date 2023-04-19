@@ -42,14 +42,16 @@ data:
   dates:
   - date: '2005-10-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''stwierdzenie, że pozycja rejestru nie jest już odpowiednia
-    do użycia przy tworzeniu nowych danych''}]'
+  definition:
+  - content: stwierdzenie, że pozycja rejestru nie jest już odpowiednia do użycia
+      przy tworzeniu nowych danych
   examples: []
   id: 509
   language_code: pol
-  notes: '[{''content'': ''Status wycofanej pozycji zmienia się z „valid” na „retired”.
-    Wycofana pozycja jest utrzymywana w rejestrze, aby umożliwić interpretację danych
-    wytworzonych przed jej wycofaniem.''}]'
+  notes:
+  - content: Status wycofanej pozycji zmienia się z „valid” na „retired”. Wycofana
+      pozycja jest utrzymywana w rejestrze, aby umożliwić interpretację danych wytworzonych
+      przed jej wycofaniem.
   release: '1'
   reviewDate: 2010-10-19
   reviewDecisionDate: 2015-10-01

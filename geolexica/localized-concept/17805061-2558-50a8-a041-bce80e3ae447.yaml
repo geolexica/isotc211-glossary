@@ -39,18 +39,19 @@ data:
   dates:
   - date: '2005-10-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''condición de un enlace o un giro que permite o restringe
-    todo el recorrido del tráfico, en oposición a una restricción de navegación más
-    detallada''}]'
+  definition:
+  - content: condición de un enlace o un giro que permite o restringe todo el recorrido
+      del tráfico, en oposición a una restricción de navegación más detallada
   examples: []
   id: 474
   language_code: spa
-  notes: '[{''content'': ''La condición de transitable es habitualmente una función
-    de condiciones físicas, culturales o legales. Si transitable es falso, el objeto
-    no puede ser navegado. Esto elimina de hecho un enlace de la red utilizable. En
-    el caso de un nodo, esto elimina el nodo y todos sus enlaces asociados de la red
-    utilizable. En el caso de un giro, simplemente lo retira de cualquier ruta viable.
-    Las entidades no transitables no están incluidas en las maniobras o rutas.''}]'
+  notes:
+  - content: La condición de transitable es habitualmente una función de condiciones
+      físicas, culturales o legales. Si transitable es falso, el objeto no puede ser
+      navegado. Esto elimina de hecho un enlace de la red utilizable. En el caso de
+      un nodo, esto elimina el nodo y todos sus enlaces asociados de la red utilizable.
+      En el caso de un giro, simplemente lo retira de cualquier ruta viable. Las entidades
+      no transitables no están incluidas en las maniobras o rutas.
   release: '1'
   review_indicator: ''
   sources:

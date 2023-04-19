@@ -51,19 +51,21 @@ data:
   dates:
   - date: '2003-05-01T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''orienterat topologiskt objekt som anger sambandet
-    mellan ett topologiskt område och en av dess orienteringar''}]'
+  definition:
+  - content: orienterat topologiskt objekt som anger sambandet mellan ett topologiskt
+      område och en av dess orienteringar
   examples: []
   id: 137
   language_code: swe
   lineage_source_similarity: 1
-  notes: '[{''content'': ''The orientation of the directed edges that compose the
-    exterior boundary of a directed face will appear positive from the direction of
-    this vector; the orientation of a directed face that bounds a topological solid
-    will point away from the topological solid. Adjacent solids would use different
-    orientations for their shared boundary, consistent with the same sort of association
-    between adjacent faces and their shared edges. Directed faces are used in the
-    coboundary relation to maintain the spatial association between face and edge.''}]'
+  notes:
+  - content: The orientation of the directed edges that compose the exterior boundary
+      of a directed face will appear positive from the direction of this vector; the
+      orientation of a directed face that bounds a topological solid will point away
+      from the topological solid. Adjacent solids would use different orientations
+      for their shared boundary, consistent with the same sort of association between
+      adjacent faces and their shared edges. Directed faces are used in the coboundary
+      relation to maintain the spatial association between face and edge.
   release: '1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02

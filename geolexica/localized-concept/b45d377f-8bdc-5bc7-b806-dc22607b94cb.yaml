@@ -37,16 +37,19 @@ data:
   dates:
   - date: '2005-08-15T00:00:00.000Z'
     type: accepted
-  definition: '[{''content'': ''Feature, das in Form einer Funktion für jeden räumlichen,
-    zeitlichen oder raum-zeitlichen Punkt innerhalb seines Definitionsbereichs einen
-    Wertevektor liefert''}]'
-  examples: '[{''content'': ''Examples include a raster image, polygon overlay, or
-    digital elevation matrix.''}]'
+  definition:
+  - content: Feature, das in Form einer Funktion für jeden räumlichen, zeitlichen
+      oder raum-zeitlichen Punkt innerhalb seines Definitionsbereichs einen Wertevektor
+      liefert
+  examples:
+  - content: Examples include a raster image, polygon overlay, or digital elevation
+      matrix.
   id: 99
   language_code: deu
-  notes: '[{''content'': ''In other words, a coverage is a feature that has multiple
-    values for each attribute type, where each direct position within the geometric
-    representation of the feature has a single value for each attribute type.''}]'
+  notes:
+  - content: In other words, a coverage is a feature that has multiple values for
+      each attribute type, where each direct position within the geometric representation
+      of the feature has a single value for each attribute type.
   release: '1'
   review_indicator: ''
   sources:
