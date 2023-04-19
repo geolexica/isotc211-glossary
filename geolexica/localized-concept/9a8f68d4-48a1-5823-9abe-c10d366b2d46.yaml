@@ -35,42 +35,16 @@ data:
           review_indicator: ''
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: نظام تكاملي لتحديد المواقع المتكامله
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: نظام تكاملي لتحديد المواقع المتكامله
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: نظام تكاملي لتحديد المواقع المتكامله
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2004-07-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2004-07-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2004-07-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2004-07-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''نظام تحديد مواقع يدمج بين نوعين أو اكثر من تقنيات
     تحديد المواقع .''}]'
   examples: []
@@ -78,22 +52,10 @@ data:
   language_code: ara
   lineage_source_similarity: 1
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: القياسات التي تنتج عن كل تقنية لتحديد الأماكن في نظام تكاملي يمكن أن
-        تكون موقعا ، أو حركة ، أو وضعا attitude، أيا من هذه الثلاثة إذ لا فرق بينها.
-        قد يتم إجراء قياسات إضافية ، ولكن عند الجمع بينها يكون الناتج موقعا موحدا
-        ، أو حركة موحدة أو وضعا موحدا.
-    state:
-      _dict:
-        content: القياسات التي تنتج عن كل تقنية لتحديد الأماكن في نظام تكاملي يمكن
-          أن تكون موقعا ، أو حركة ، أو وضعا attitude، أيا من هذه الثلاثة إذ لا فرق
-          بينها. قد يتم إجراء قياسات إضافية ، ولكن عند الجمع بينها يكون الناتج موقعا
-          موحدا ، أو حركة موحدة أو وضعا موحدا.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: القياسات التي تنتج عن كل تقنية لتحديد الأماكن في نظام تكاملي يمكن أن
+      تكون موقعا ، أو حركة ، أو وضعا attitude، أيا من هذه الثلاثة إذ لا فرق بينها.
+      قد يتم إجراء قياسات إضافية ، ولكن عند الجمع بينها يكون الناتج موقعا موحدا ،
+      أو حركة موحدة أو وضعا موحدا.
   release: '1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02
@@ -104,49 +66,18 @@ data:
   review_indicator: ''
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: (E), 3.14
-        link: https://www.iso.org/standard/70882.html
-        ref: ISO 19116:2019
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19116:2004(E)
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: (E), 3.14
+      link: https://www.iso.org/standard/70882.html
+      ref: ISO 19116:2019
+    type: authoritative
+  - origin:
+      ref: ISO 19116:2004(E)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: نظام تكاملي لتحديد المواقع المتكامله
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: نظام تكاملي لتحديد المواقع المتكامله
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: نظام تكاملي لتحديد المواقع المتكامله
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 9a8f68d4-48a1-5823-9abe-c10d366b2d46
 status: valid

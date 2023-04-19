@@ -27,58 +27,23 @@ data:
             (Adapted from) to UML 1. Lineage source added as ISO/TS 19103:2005
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: 유형 <UML>
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: 유형 <UML>
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: 유형 <UML>
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2005-07-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2005-07-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2005-07-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''대상 객체의 물리적 구현을 정의하지 않고, 객체에 적용할 수 있는 연산으로 객체의 영역을
     기술한 정형화된 클래스''}]'
   examples: []
   id: 728
   language_code: kor
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: 유형은 속성과 연관을 가질 수 있다.
-    state:
-      _dict:
-        content: 유형은 속성과 연관을 가질 수 있다.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: 유형은 속성과 연관을 가질 수 있다.
   release: '1'
   reviewDate: 2009-01-14
   reviewDecisionDate: 2015-12-01
@@ -88,47 +53,16 @@ data:
     from) to UML 1. Lineage source added as ISO/TS 19103:2005
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        ref: UML 1
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO/TS 19103:2005
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      ref: UML 1
+    type: authoritative
+  - origin:
+      ref: ISO/TS 19103:2005
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: 유형 <UML>
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: 유형 <UML>
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: 유형 <UML>
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: ed511351-e7f8-5846-82c1-2a9a9ea1c861
 status: valid

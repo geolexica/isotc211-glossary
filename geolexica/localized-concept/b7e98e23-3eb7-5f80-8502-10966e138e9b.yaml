@@ -31,60 +31,23 @@ data:
           review_indicator: ''
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: Verteilungstransparenz
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: Verteilungstransparenz
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: Verteilungstransparenz
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2005-02-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2005-02-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2005-02-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2005-02-15T00:00:00.000Z'
+    type: accepted
   examples: []
   id: 143
   language_code: deu
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Distribution transparencies enable complexities associated with system
-        distribution to be hidden from applications where they are irrelevant to their
-        purpose.
-    state:
-      _dict:
-        content: Distribution transparencies enable complexities associated with system
-          distribution to be hidden from applications where they are irrelevant to
-          their purpose.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Distribution transparencies enable complexities associated with system
+      distribution to be hidden from applications where they are irrelevant to their
+      purpose.
   release: '1'
   reviewDate: 2012-08-11
   reviewDecisionDate: 2016-01-15
@@ -95,49 +58,18 @@ data:
   review_indicator: ''
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: 11.1.1
-        link: https://www.iso.org/standard/55723.html
-        ref: ISO/IEC 10746-2:2009
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19119:2005
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: 11.1.1
+      link: https://www.iso.org/standard/55723.html
+      ref: ISO/IEC 10746-2:2009
+    type: authoritative
+  - origin:
+      ref: ISO 19119:2005
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: Verteilungstransparenz
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: Verteilungstransparenz
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: Verteilungstransparenz
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: b7e98e23-3eb7-5f80-8502-10966e138e9b
 status: valid

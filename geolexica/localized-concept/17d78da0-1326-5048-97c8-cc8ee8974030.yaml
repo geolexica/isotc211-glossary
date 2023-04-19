@@ -21,89 +21,33 @@ data:
           - In this International Standard, the entity types are resource types.
           release: '2'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: Verknüpfungsprädikat
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: Verknüpfungsprädikat
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: Verknüpfungsprädikat
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2010-10-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2010-10-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2010-10-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2010-10-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''Filterausdruck, der eine oder mehrere Regeln umfasst,
     die Eigenschaften von zwei unterschiedlichen Entitätstypen einschränken''}]'
   examples: []
   id: 1299
   language_code: deu
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: In this International Standard, the entity types are resource types.
-    state:
-      _dict:
-        content: In this International Standard, the entity types are resource types.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: In this International Standard, the entity types are resource types.
   release: '2'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/42137.html
-        ref: ISO 19143:2010
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/42137.html
+      ref: ISO 19143:2010
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: Verknüpfungsprädikat
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: Verknüpfungsprädikat
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: Verknüpfungsprädikat
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 17d78da0-1326-5048-97c8-cc8ee8974030
 status: valid

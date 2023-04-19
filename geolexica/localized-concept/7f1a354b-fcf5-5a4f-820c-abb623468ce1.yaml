@@ -32,54 +32,18 @@ data:
           review_status: final
           review_type: supersession
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: white space
-              normative_status: null
-              type: expression
-            state:
-              _dict:
-                designation: white space
-                normative_status: null
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: white space
+            normative_status: null
+            type: expression
         parents: []
         timeCreated: '2015-08-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2015-08-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2015-08-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2019-07-11T00:00:00.000Z'
-      type: amended
-    state:
-      _dict:
-        date: '2019-07-11T00:00:00.000Z'
-        type: amended
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2015-08-15T00:00:00.000Z'
+    type: accepted
+  - date: '2019-07-11T00:00:00.000Z'
+    type: amended
   definition: '[{''content'': ''consecutive sequences of one or more characters that
     have no glyphs''}]'
   examples: []
@@ -97,47 +61,17 @@ data:
   review_status: final
   review_type: supersession
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: 3.1.6.48
-        link: https://www.iso.org/standard/53682.html
-        ref: ISO/IEC 9075-2:2011
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19162:2015, 4.1.40
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: 3.1.6.48
+      link: https://www.iso.org/standard/53682.html
+      ref: ISO/IEC 9075-2:2011
+    type: authoritative
+  - origin:
+      ref: ISO 19162:2015, 4.1.40
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: white space
-      type: expression
-    state:
-      _dict:
-        designation: white space
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: white space
+    type: expression
+dateAccepted: 2018-11-17
 id: 7f1a354b-fcf5-5a4f-820c-abb623468ce1
 status: superseded

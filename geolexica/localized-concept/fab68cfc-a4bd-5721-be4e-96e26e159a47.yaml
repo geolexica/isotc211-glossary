@@ -32,42 +32,16 @@ data:
           review_indicator: ''
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: единица измерения
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: единица измерения
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: единица измерения
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2004-07-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2004-07-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2004-07-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2004-07-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''эталонная величина, выбираемая из некоторой группы
     эквивалентности единиц''}]'
   examples: []
@@ -75,24 +49,11 @@ data:
   language_code: rus
   lineage_source_similarity: 1
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: В сервисах позиционирования обычными единицами измерения являются либо
-        угловые единицы, либо линейные единицы. Реализации сервисов позиционирования  различаются
-        применением единиц Международной системы единиц (СИ) и внесистемных единиц.
-        При применении последних требуется, чтобы была определена их связь с единицами
-        СИ
-    state:
-      _dict:
-        content: В сервисах позиционирования обычными единицами измерения являются
-          либо угловые единицы, либо линейные единицы. Реализации сервисов позиционирования  различаются
-          применением единиц Международной системы единиц (СИ) и внесистемных единиц.
-          При применении последних требуется, чтобы была определена их связь с единицами
-          СИ
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: В сервисах позиционирования обычными единицами измерения являются либо
+      угловые единицы, либо линейные единицы. Реализации сервисов позиционирования  различаются
+      применением единиц Международной системы единиц (СИ) и внесистемных единиц.
+      При применении последних требуется, чтобы была определена их связь с единицами
+      СИ
   release: '1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02
@@ -103,34 +64,13 @@ data:
   review_indicator: ''
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        ref: ISO 19116:2004(E)
-      type: lineage
-    state:
-      _dict:
-        origin: *id001
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      ref: ISO 19116:2004(E)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: единица измерения
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: единица измерения
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: единица измерения
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: fab68cfc-a4bd-5721-be4e-96e26e159a47
 status: valid

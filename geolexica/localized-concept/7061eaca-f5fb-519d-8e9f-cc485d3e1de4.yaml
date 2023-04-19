@@ -31,71 +31,25 @@ data:
           review_status: final
           review_type: supersession
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: نظام إحداثيات قطبي
-              normative_status: null
-              type: expression
-            state:
-              _dict:
-                designation: نظام إحداثيات قطبي
-                normative_status: null
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: نظام إحداثيات قطبي
+            normative_status: null
+            type: expression
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2007-07-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2007-07-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2019-01-31T00:00:00.000Z'
-      type: amended
-    state:
-      _dict:
-        date: '2019-01-31T00:00:00.000Z'
-        type: amended
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2007-07-01T00:00:00.000Z'
+    type: accepted
+  - date: '2019-01-31T00:00:00.000Z'
+    type: amended
   definition: '[{''content'': ''نظام إحداثيات ثنائي الأبعاد يحدد فيه الموقع بناء على
     المسافة والاتجاه من نقطة البداية''}]'
   examples: []
   id: 620
   language_code: ara
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: بالنسبة للحالة الثلاثية الأبعاد , أنظر نظام الإحداثيات الكروية (4 -44)
-    state:
-      _dict:
-        content: بالنسبة للحالة الثلاثية الأبعاد , أنظر نظام الإحداثيات الكروية (4
-          -44)
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: بالنسبة للحالة الثلاثية الأبعاد , أنظر نظام الإحداثيات الكروية (4 -44)
   release: '-1'
   reviewDate: 2019-01-31
   reviewDecisionDate: 2019-01-31
@@ -107,33 +61,13 @@ data:
   review_status: final
   review_type: supersession
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/41126.html
-        ref: ISO 19111:2007
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/41126.html
+      ref: ISO 19111:2007
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: نظام إحداثيات قطبي
-      type: expression
-    state:
-      _dict:
-        designation: نظام إحداثيات قطبي
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: نظام إحداثيات قطبي
+    type: expression
+dateAccepted: 2018-11-17
 id: 7061eaca-f5fb-519d-8e9f-cc485d3e1de4
 status: superseded

@@ -31,58 +31,23 @@ data:
           review_indicator: ''
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: 境界
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: 境界
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: 境界
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2003-05-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2003-05-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2003-05-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''実体の広がりの限界を示す集合。''}]'
   examples: []
   id: 29
   language_code: jpn
   lineage_source_similarity: 1
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: 境界が最もよく使用されるのは，集合が点の集まり又はこれらの点を表すオブジェクトの集まりであるような幾何に関する記　述においてである。他の分野では，この用語を，実体とその論議領域での余事象との遷移領域を比ゆ（喩）的に記述するために使用する。
-    state:
-      _dict:
-        content: 境界が最もよく使用されるのは，集合が点の集まり又はこれらの点を表すオブジェクトの集まりであるような幾何に関する記　述においてである。他の分野では，この用語を，実体とその論議領域での余事象との遷移領域を比ゆ（喩）的に記述するために使用する。
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: 境界が最もよく使用されるのは，集合が点の集まり又はこれらの点を表すオブジェクトの集まりであるような幾何に関する記　述においてである。他の分野では，この用語を，実体とその論議領域での余事象との遷移領域を比ゆ（喩）的に記述するために使用する。
   release: '1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02
@@ -93,49 +58,18 @@ data:
   review_indicator: ''
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: (E), 3.6
-        link: https://www.iso.org/standard/66175.html
-        ref: ISO 19107:2019
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19107:2003(E)
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: (E), 3.6
+      link: https://www.iso.org/standard/66175.html
+      ref: ISO 19107:2019
+    type: authoritative
+  - origin:
+      ref: ISO 19107:2003(E)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: 境界
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: 境界
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: 境界
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: c60263db-f1a2-501d-b209-99612fd54ee0
 status: valid

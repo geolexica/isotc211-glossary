@@ -23,92 +23,35 @@ data:
             de solicitdes legítimas
           release: '3'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: necesario
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: necesario
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: necesario
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2014-02-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2014-02-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2014-02-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2014-02-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''capaz de reconocer y actuar apropiadamente ante todas
     las solicitudes legítimas, tal y como las definen los requisitos del sistema''}]'
   examples: []
   id: 1240
   language_code: spa
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Todos los aspectos de un sistema DRM son necesarios si no evitan la
-        ejecución de solicitdes legítimas
-    state:
-      _dict:
-        content: Todos los aspectos de un sistema DRM son necesarios si no evitan
-          la ejecución de solicitdes legítimas
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Todos los aspectos de un sistema DRM son necesarios si no evitan la ejecución
+      de solicitdes legítimas
   release: '3'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: '4.33'
-        link: https://www.iso.org/standard/32571.html
-        ref: ISO 19153:2014
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: '4.33'
+      link: https://www.iso.org/standard/32571.html
+      ref: ISO 19153:2014
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: necesario
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: necesario
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: necesario
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 0f9cee1d-875e-5d30-a2ee-56a05e08ff99
 status: valid

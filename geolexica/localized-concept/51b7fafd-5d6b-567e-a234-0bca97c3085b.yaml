@@ -30,64 +30,26 @@ data:
           review_indicator: ''
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: mittayksikkö
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: mittayksikkö
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: mittayksikkö
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2004-07-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2004-07-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2004-07-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2004-07-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''vertaussuure, joka on valittu yksiköiden vastaavuusryhmästä''}]'
   examples: []
   id: 483
   language_code: fin
   lineage_source_similarity: 1
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Paikannuspalveluissa käytetyt mittayksiköt ovat tavallisesti kulmayksiköitä
-        tai lineaarisia yksiköitä. Paikannuspalvelutoteutuksissa on selvästi erotettava
-        SI-järjestelmän yksiköt muista yksiköistä. Kun käytetään muita kuin SI-yksiköitä,
-        niiden suhde SI-yksiköihin on määriteltävä.
-    state:
-      _dict:
-        content: Paikannuspalveluissa käytetyt mittayksiköt ovat tavallisesti kulmayksiköitä
-          tai lineaarisia yksiköitä. Paikannuspalvelutoteutuksissa on selvästi erotettava
-          SI-järjestelmän yksiköt muista yksiköistä. Kun käytetään muita kuin SI-yksiköitä,
-          niiden suhde SI-yksiköihin on määriteltävä.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Paikannuspalveluissa käytetyt mittayksiköt ovat tavallisesti kulmayksiköitä
+      tai lineaarisia yksiköitä. Paikannuspalvelutoteutuksissa on selvästi erotettava
+      SI-järjestelmän yksiköt muista yksiköistä. Kun käytetään muita kuin SI-yksiköitä,
+      niiden suhde SI-yksiköihin on määriteltävä.
   release: '1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02
@@ -98,34 +60,13 @@ data:
   review_indicator: ''
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        ref: ISO 19116:2004(E)
-      type: lineage
-    state:
-      _dict:
-        origin: *id001
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      ref: ISO 19116:2004(E)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: mittayksikkö
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: mittayksikkö
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: mittayksikkö
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 51b7fafd-5d6b-567e-a234-0bca97c3085b
 status: valid

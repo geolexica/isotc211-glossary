@@ -31,70 +31,25 @@ data:
           review_status: final
           review_type: supersession
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: polair coördinaatsysteem
-              normative_status: null
-              type: expression
-            state:
-              _dict:
-                designation: polair coördinaatsysteem
-                normative_status: null
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: polair coördinaatsysteem
+            normative_status: null
+            type: expression
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2007-07-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2007-07-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2019-01-31T00:00:00.000Z'
-      type: amended
-    state:
-      _dict:
-        date: '2019-01-31T00:00:00.000Z'
-        type: amended
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2007-07-01T00:00:00.000Z'
+    type: accepted
+  - date: '2019-01-31T00:00:00.000Z'
+    type: amended
   definition: '[{''content'': ''tweedimensionaal coördinaatsysteem waarbij de positie
     aangeduid wordt met een afstand en richting vanaf het nulpunt''}]'
   examples: []
   id: 620
   language_code: nld
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Voor het driedimensionale geval, zie het bol coördinaatsysteem (4.44).
-    state:
-      _dict:
-        content: Voor het driedimensionale geval, zie het bol coördinaatsysteem (4.44).
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Voor het driedimensionale geval, zie het bol coördinaatsysteem (4.44).
   release: '-1'
   reviewDate: 2019-01-31
   reviewDecisionDate: 2019-01-31
@@ -106,33 +61,13 @@ data:
   review_status: final
   review_type: supersession
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/41126.html
-        ref: ISO 19111:2007
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/41126.html
+      ref: ISO 19111:2007
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: polair coördinaatsysteem
-      type: expression
-    state:
-      _dict:
-        designation: polair coördinaatsysteem
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: polair coördinaatsysteem
+    type: expression
+dateAccepted: 2018-11-17
 id: 79841075-3727-583a-a4cb-c5c02664e22e
 status: superseded

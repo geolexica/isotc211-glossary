@@ -33,54 +33,18 @@ data:
           review_status: final
           review_type: retirement
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: kurvesegment
-              normative_status: null
-              type: expression
-            state:
-              _dict:
-                designation: kurvesegment
-                normative_status: null
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: kurvesegment
+            normative_status: null
+            type: expression
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2003-05-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2003-05-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2019-12-02T00:00:00.000Z'
-      type: amended
-    state:
-      _dict:
-        date: '2019-12-02T00:00:00.000Z'
-        type: amended
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2003-05-01T00:00:00.000Z'
+    type: accepted
+  - date: '2019-12-02T00:00:00.000Z'
+    type: amended
   definition: '[{''content'': ''1-dimensionalt geometrisk objekt, der anvendes til
     at repræsentere en kontinuert komponent af en kurve ved hjælp af homogene interpolations-
     og definitionsmetoder''}]'
@@ -88,18 +52,8 @@ data:
   id: 102
   language_code: dan
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Den geometriske mængde, der repræsenteres af et enkelt kurvesegment,
-        svarer til en kurve.
-    state:
-      _dict:
-        content: Den geometriske mængde, der repræsenteres af et enkelt kurvesegment,
-          svarer til en kurve.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Den geometriske mængde, der repræsenteres af et enkelt kurvesegment,
+      svarer til en kurve.
   release: '-1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02
@@ -111,33 +65,13 @@ data:
   review_status: final
   review_type: retirement
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/26012.html
-        ref: ISO 19107:2003
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/26012.html
+      ref: ISO 19107:2003
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: kurvesegment
-      type: expression
-    state:
-      _dict:
-        designation: kurvesegment
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: kurvesegment
+    type: expression
+dateAccepted: 2018-11-17
 id: 4266e453-8091-542d-af80-954ee1d2c136
 status: retired

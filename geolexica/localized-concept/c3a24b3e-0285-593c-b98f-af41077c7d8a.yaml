@@ -33,54 +33,18 @@ data:
           review_status: final
           review_type: supersession
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: clasificador <UML>
-              normative_status: null
-              type: expression
-            state:
-              _dict:
-                designation: clasificador <UML>
-                normative_status: null
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: clasificador <UML>
+            normative_status: null
+            type: expression
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2005-07-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2005-07-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2015-12-01T00:00:00.000Z'
-      type: amended
-    state:
-      _dict:
-        date: '2015-12-01T00:00:00.000Z'
-        type: amended
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2005-07-15T00:00:00.000Z'
+    type: accepted
+  - date: '2015-12-01T00:00:00.000Z'
+    type: amended
   definition: '[{''content'': ''mecanismo que describe objetos geográficos estructurados
     y con comportamiento''}]'
   examples: []
@@ -88,17 +52,7 @@ data:
   language_code: spa
   lineage_source_similarity: 1
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Los clasificadores incluyen interfaces, clases, tipos de datos y componentes.
-    state:
-      _dict:
-        content: Los clasificadores incluyen interfaces, clases, tipos de datos y
-          componentes.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Los clasificadores incluyen interfaces, clases, tipos de datos y componentes.
   release: '-1'
   reviewDate: 2009-01-14
   reviewDecisionDate: 2015-12-01
@@ -110,46 +64,16 @@ data:
   review_status: final
   review_type: supersession
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/32620.html
-        ref: ISO/IEC 19501
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO/TS 19103:2005 ,4.2.8
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/32620.html
+      ref: ISO/IEC 19501
+    type: authoritative
+  - origin:
+      ref: ISO/TS 19103:2005 ,4.2.8
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: clasificador <UML>
-      type: expression
-    state:
-      _dict:
-        designation: clasificador <UML>
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: clasificador <UML>
+    type: expression
+dateAccepted: 2018-11-17
 id: c3a24b3e-0285-593c-b98f-af41077c7d8a
 status: superseded

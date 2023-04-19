@@ -27,118 +27,41 @@ data:
             during which, the attribute value applied
           release: '3'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: linjeobjektattribut
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: linjeobjektattribut
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: linjeobjektattribut
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2012-02-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   country_code: swe
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2012-02-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2012-02-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2012-02-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''attributvärde som gäller för endast en del av det
     objekt som det avser''}]'
   examples: []
   id: 1169
   language_code: swe
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: An attribute event includes the linearly referenced location where
-        the attribute value applies along the attributed feature
-    state:
-      _dict:
-        content: An attribute event includes the linearly referenced location where
-          the attribute value applies along the attributed feature
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: An attribute event may be qualified by the instant in which, or period
-        during which, the attribute value applied
-    state:
-      _dict:
-        content: An attribute event may be qualified by the instant in which, or period
-          during which, the attribute value applied
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: An attribute event includes the linearly referenced location where the
+      attribute value applies along the attributed feature
+  - content: An attribute event may be qualified by the instant in which, or period
+      during which, the attribute value applied
   release: '3'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: '4.1'
-        link: https://www.iso.org/standard/32566.html
-        ref: ISO 19148:2012
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: (Type reference to national language document)
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: '4.1'
+      link: https://www.iso.org/standard/32566.html
+      ref: ISO 19148:2012
+    type: authoritative
+  - origin:
+      ref: (Type reference to national language document)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: linjeobjektattribut
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: linjeobjektattribut
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: linjeobjektattribut
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: d705084c-7be1-55cd-9083-5c583f12f9df
 status: valid

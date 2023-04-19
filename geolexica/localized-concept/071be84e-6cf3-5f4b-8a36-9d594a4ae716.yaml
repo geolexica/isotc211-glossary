@@ -37,80 +37,30 @@ data:
           review_status: final
           review_type: retirement
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: zakres jakości danych
-              normative_status: null
-              type: expression
-            state:
-              _dict:
-                designation: zakres jakości danych
-                normative_status: null
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: zakres jakości danych
+            normative_status: null
+            type: expression
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2002-12-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2002-12-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2013-12-15T00:00:00.000Z'
-      type: amended
-    state:
-      _dict:
-        date: '2013-12-15T00:00:00.000Z'
-        type: amended
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2002-12-01T00:00:00.000Z'
+    type: accepted
+  - date: '2013-12-15T00:00:00.000Z'
+    type: amended
   definition: '[{''content'': ''zasięg lub cechy danych, dla których przedstawiana
     jest informacja o jakości''}]'
   examples: []
   id: 118
   language_code: pol
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: 'Zakres jakości danych dla zbioru danych może obejmować serię zbiorów
-        danych, do której zbiór danych należy, zbiór danych sam w sobie lub mniejszą
-        grupę danych należącą fizycznie do zbioru danych i mających wspólne cechy.
-        Tymi wspólnymi cechami mogą być: określony typ obiektu, atrybut obiektu lub
-        związek pomiędzy obiektami, kryterium zbierania danych, oryginalne źródło;
-        określony zasięg przestrzenny lub czasowy.'
-    state:
-      _dict:
-        content: 'Zakres jakości danych dla zbioru danych może obejmować serię zbiorów
-          danych, do której zbiór danych należy, zbiór danych sam w sobie lub mniejszą
-          grupę danych należącą fizycznie do zbioru danych i mających wspólne cechy.
-          Tymi wspólnymi cechami mogą być: określony typ obiektu, atrybut obiektu
-          lub związek pomiędzy obiektami, kryterium zbierania danych, oryginalne źródło;
-          określony zasięg przestrzenny lub czasowy.'
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: 'Zakres jakości danych dla zbioru danych może obejmować serię zbiorów
+      danych, do której zbiór danych należy, zbiór danych sam w sobie lub mniejszą
+      grupę danych należącą fizycznie do zbioru danych i mających wspólne cechy. Tymi
+      wspólnymi cechami mogą być: określony typ obiektu, atrybut obiektu lub związek
+      pomiędzy obiektami, kryterium zbierania danych, oryginalne źródło; określony
+      zasięg przestrzenny lub czasowy.'
   release: '-1'
   reviewDate: 2013-12-15
   reviewDecisionDate: 2013-12-15
@@ -122,47 +72,17 @@ data:
   review_status: final
   review_type: retirement
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: '4.10'
-        link: https://www.iso.org/standard/26018.html
-        ref: ISO 19113:2002
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ''
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: '4.10'
+      link: https://www.iso.org/standard/26018.html
+      ref: ISO 19113:2002
+    type: authoritative
+  - origin:
+      ref: ''
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: zakres jakości danych
-      type: expression
-    state:
-      _dict:
-        designation: zakres jakości danych
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: zakres jakości danych
+    type: expression
+dateAccepted: 2018-11-17
 id: 071be84e-6cf3-5f4b-8a36-9d594a4ae716
 status: valid

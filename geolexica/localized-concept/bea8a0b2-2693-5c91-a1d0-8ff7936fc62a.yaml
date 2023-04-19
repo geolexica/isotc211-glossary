@@ -22,42 +22,16 @@ data:
           notes: []
           release: '3'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: 정보 시스템
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: 정보 시스템
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: 정보 시스템
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2014-11-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2014-11-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2014-11-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2014-11-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''인간, 기술, 금융 자원과 같은 연관된 조직 자원과 함께 정보를 제공 및 배포하는 정보처리시스템''}]'
   examples: []
   id: 1344
@@ -66,49 +40,18 @@ data:
   notes: []
   release: '3'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: 01.01.22
-        link: https://www.iso.org/standard/7229.html
-        ref: ISO/IEC 2382-1:1993
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19101-1:2014, 4.1.23
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: 01.01.22
+      link: https://www.iso.org/standard/7229.html
+      ref: ISO/IEC 2382-1:1993
+    type: authoritative
+  - origin:
+      ref: ISO 19101-1:2014, 4.1.23
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: 정보 시스템
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: 정보 시스템
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: 정보 시스템
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: bea8a0b2-2693-5c91-a1d0-8ff7936fc62a
 status: valid

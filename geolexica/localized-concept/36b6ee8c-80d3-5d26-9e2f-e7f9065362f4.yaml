@@ -19,42 +19,16 @@ data:
           notes: []
           release: '1'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: porządkowy czasowy system odniesienia
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: porządkowy czasowy system odniesienia
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: porządkowy czasowy system odniesienia
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2002-09-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2002-09-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2002-09-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''czasowy system odniesienia złożony z er porządkowych''}]'
   examples: []
   id: 323
@@ -62,48 +36,17 @@ data:
   notes: []
   release: '1'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/26013.html
-        ref: ISO 19108:2002
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: PN-EN ISO 19108
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/26013.html
+      ref: ISO 19108:2002
+    type: authoritative
+  - origin:
+      ref: PN-EN ISO 19108
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: porządkowy czasowy system odniesienia
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: porządkowy czasowy system odniesienia
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: porządkowy czasowy system odniesienia
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 36b6ee8c-80d3-5d26-9e2f-e7f9065362f4
 status: valid

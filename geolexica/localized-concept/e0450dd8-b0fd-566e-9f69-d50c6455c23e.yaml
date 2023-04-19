@@ -32,60 +32,24 @@ data:
           review_indicator: ''
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: 통합 측위 시스템
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: 통합 측위 시스템
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: 통합 측위 시스템
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2004-07-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2004-07-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2004-07-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2004-07-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''2개 이상의 측위 기술을 통합하는 측위 시스템''}]'
   examples: []
   id: 250
   language_code: kor
   lineage_source_similarity: 1
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: 통합 시스템에서 측위 기술로 측정된 것은 위치, 이동, 또는 자세 등 이다. 중복된 측정이 존재하며, 이들이 결합되었을
-        때, 통합된 위치, 이동, 자세가 결정된다.
-    state:
-      _dict:
-        content: 통합 시스템에서 측위 기술로 측정된 것은 위치, 이동, 또는 자세 등 이다. 중복된 측정이 존재하며, 이들이 결합되었을
-          때, 통합된 위치, 이동, 자세가 결정된다.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: 통합 시스템에서 측위 기술로 측정된 것은 위치, 이동, 또는 자세 등 이다. 중복된 측정이 존재하며, 이들이 결합되었을 때,
+      통합된 위치, 이동, 자세가 결정된다.
   release: '1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02
@@ -96,49 +60,18 @@ data:
   review_indicator: ''
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: (E), 3.14
-        link: https://www.iso.org/standard/70882.html
-        ref: ISO 19116:2019
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19116:2004(E)
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: (E), 3.14
+      link: https://www.iso.org/standard/70882.html
+      ref: ISO 19116:2019
+    type: authoritative
+  - origin:
+      ref: ISO 19116:2004(E)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: 통합 측위 시스템
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: 통합 측위 시스템
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: 통합 측위 시스템
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: e0450dd8-b0fd-566e-9f69-d50c6455c23e
 status: valid

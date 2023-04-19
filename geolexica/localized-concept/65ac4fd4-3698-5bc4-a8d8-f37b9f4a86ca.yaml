@@ -30,42 +30,16 @@ data:
           review_status: pending
           review_type: retirement
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: konveksi joukko
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: konveksi joukko
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: konveksi joukko
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2003-05-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2003-05-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2003-05-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''geometrinen joukko, jossa mikä hyvänsä kahta pistettä
     yhdistävällä suoralla oleva piste sisältyy tähän geometriseen joukkoon''}]'
   examples: []
@@ -73,70 +47,26 @@ data:
   language_code: fin
   lineage_source_similarity: 1
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Konveksit joukot ovat "yhtenäisiä", eli niillä ei ole sisäpuolisia
-        reikiä, ja niitä voidaan tavallisesti pitää isomorfisina soveltuvan ulottuvuuden
-        euklidisen pallon kanssa. Näin ollen pallon pintaa voidaan pitää geodeettisesti
-        konveksina.
-    state:
-      _dict:
-        content: Konveksit joukot ovat "yhtenäisiä", eli niillä ei ole sisäpuolisia
-          reikiä, ja niitä voidaan tavallisesti pitää isomorfisina soveltuvan ulottuvuuden
-          euklidisen pallon kanssa. Näin ollen pallon pintaa voidaan pitää geodeettisesti
-          konveksina.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Konveksit joukot ovat "yhtenäisiä", eli niillä ei ole sisäpuolisia reikiä,
+      ja niitä voidaan tavallisesti pitää isomorfisina soveltuvan ulottuvuuden euklidisen
+      pallon kanssa. Näin ollen pallon pintaa voidaan pitää geodeettisesti konveksina.
   release: '1'
   reviewDate: 2016-02-15
   review_indicator: ''
   review_status: pending
   review_type: retirement
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: Fourth Edition, Oxford University Press
-        ref: Dictionary of Computing
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19107:2003
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: Fourth Edition, Oxford University Press
+      ref: Dictionary of Computing
+    type: authoritative
+  - origin:
+      ref: ISO 19107:2003
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: konveksi joukko
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: konveksi joukko
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: konveksi joukko
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 65ac4fd4-3698-5bc4-a8d8-f37b9f4a86ca
 status: valid

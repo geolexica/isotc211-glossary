@@ -32,60 +32,24 @@ data:
             to ISO 19130-1:2018(E), 3.4. Lineage source added as ISO/TS 19130:2010(E)
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: نقطة المرجع لفتحة العدسة
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: نقطة المرجع لفتحة العدسة
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: نقطة المرجع لفتحة العدسة
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2010-06-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2010-06-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2010-06-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2010-06-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''موقع ثلاثي الأبعاد لمركز فتحة العدسة الصناعية''}]'
   examples: []
   id: 925
   language_code: ara
   lineage_source_similarity: '1'
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: يعبر عنها عادة بالأمتار على نظام الإحداثيات ECEF .(نظام إحداثيات ديكارتي
-        مركزه الأرض ومثبَّت أرضيا.
-    state:
-      _dict:
-        content: يعبر عنها عادة بالأمتار على نظام الإحداثيات ECEF .(نظام إحداثيات
-          ديكارتي مركزه الأرض ومثبَّت أرضيا.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: يعبر عنها عادة بالأمتار على نظام الإحداثيات ECEF .(نظام إحداثيات ديكارتي
+      مركزه الأرض ومثبَّت أرضيا.
   release: '2'
   reviewDate: 2018-09-01
   reviewDecisionDate: 2018-09-01
@@ -95,61 +59,20 @@ data:
     ISO 19130-1:2018(E), 3.4. Lineage source added as ISO/TS 19130:2010(E)
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: (E), 3.4
-        link: https://www.iso.org/standard/66847.html
-        ref: ISO 19130-1:2018
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO/TS 19130:2010(E)
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: (E), 3.4
+      link: https://www.iso.org/standard/66847.html
+      ref: ISO 19130-1:2018
+    type: authoritative
+  - origin:
+      ref: ISO/TS 19130:2010(E)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: ن م ف
-      type: abbreviation
-    state:
-      _dict:
-        designation: ن م ف
-        type: abbreviation
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: نقطة المرجع لفتحة العدسة
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: نقطة المرجع لفتحة العدسة
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: ن م ف
+    type: abbreviation
+  - designation: نقطة المرجع لفتحة العدسة
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: acd68311-9318-5d36-b307-257f0dc5dc57
 status: valid

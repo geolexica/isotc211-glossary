@@ -34,64 +34,26 @@ data:
           review_indicator: ''
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: حدود
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: حدود
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: حدود
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2003-05-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2003-05-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2003-05-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''مجموعة من التحديدات تمثل حدود كيان ما''}]'
   examples: []
   id: 29
   language_code: ara
   lineage_source_similarity: 1
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: تستخدم كلمة الحد أكثر ما تستخدم في السياق الهندسي ، وفي هذا السياق
-        تفهم المجموعة على أنها تعني مجموعة نقاط أو مجموعة من الأجسام التي تمثل تلك
-        النقاط . و في حالات أخرى ، يستخدم المصطلح استخداما مجازيا لوصف حالة التحول
-        بين كيان ما وبقية ما في المجال الذي ينتمي إليه
-    state:
-      _dict:
-        content: تستخدم كلمة الحد أكثر ما تستخدم في السياق الهندسي ، وفي هذا السياق
-          تفهم المجموعة على أنها تعني مجموعة نقاط أو مجموعة من الأجسام التي تمثل تلك
-          النقاط . و في حالات أخرى ، يستخدم المصطلح استخداما مجازيا لوصف حالة التحول
-          بين كيان ما وبقية ما في المجال الذي ينتمي إليه
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: تستخدم كلمة الحد أكثر ما تستخدم في السياق الهندسي ، وفي هذا السياق تفهم
+      المجموعة على أنها تعني مجموعة نقاط أو مجموعة من الأجسام التي تمثل تلك النقاط
+      . و في حالات أخرى ، يستخدم المصطلح استخداما مجازيا لوصف حالة التحول بين كيان
+      ما وبقية ما في المجال الذي ينتمي إليه
   release: '1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02
@@ -102,49 +64,18 @@ data:
   review_indicator: ''
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: (E), 3.6
-        link: https://www.iso.org/standard/66175.html
-        ref: ISO 19107:2019
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19107:2003(E)
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: (E), 3.6
+      link: https://www.iso.org/standard/66175.html
+      ref: ISO 19107:2019
+    type: authoritative
+  - origin:
+      ref: ISO 19107:2003(E)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: حدود
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: حدود
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: حدود
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: c384d28f-baaf-51c9-ae6a-1d029e7f24e7
 status: valid

@@ -22,90 +22,34 @@ data:
           - Generalmente referido a sistemas lidar aerotransportados
           release: '3'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: lidar topográfico
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: lidar topográfico
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: lidar topográfico
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2014-01-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2014-01-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2014-01-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2014-01-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''sistema lidar usado para la medida de la topografía
     de la superficie terrestre''}]'
   examples: []
   id: 1427
   language_code: spa
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Generalmente referido a sistemas lidar aerotransportados
-    state:
-      _dict:
-        content: Generalmente referido a sistemas lidar aerotransportados
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Generalmente referido a sistemas lidar aerotransportados
   release: '3'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: '4.80'
-        link: https://www.iso.org/standard/56113.html
-        ref: ISO/TS 19130-2:2014
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: '4.80'
+      link: https://www.iso.org/standard/56113.html
+      ref: ISO/TS 19130-2:2014
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: lidar topográfico
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: lidar topográfico
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: lidar topográfico
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 87cd0224-4ba7-5b94-94aa-eab4db1e4f6d
 status: valid

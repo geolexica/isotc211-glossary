@@ -32,42 +32,16 @@ data:
             to ISO 19130-1:2018(E), 3.20. Lineage source added as ISO/TS 19130:2010(E)
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: Doppler shift
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: Doppler shift
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: Doppler shift
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2010-06-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2010-06-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2010-06-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2010-06-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''wavelength change resulting from relative motion of
     source and detector''}]'
   examples: []
@@ -75,19 +49,8 @@ data:
   language_code: eng
   lineage_source_similarity: '1'
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: In the SAR context, it is the frequency shift imposed on a radar signal
-        due to relative motion between the transmitter and the object being illuminated.
-    state:
-      _dict:
-        content: In the SAR context, it is the frequency shift imposed on a radar
-          signal due to relative motion between the transmitter and the object being
-          illuminated.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: In the SAR context, it is the frequency shift imposed on a radar signal
+      due to relative motion between the transmitter and the object being illuminated.
   release: '2'
   reviewDate: 2018-09-01
   reviewDecisionDate: 2018-09-01
@@ -97,49 +60,18 @@ data:
     ISO 19130-1:2018(E), 3.20. Lineage source added as ISO/TS 19130:2010(E)
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: (E), 3.20
-        link: https://www.iso.org/standard/66847.html
-        ref: ISO 19130-1:2018
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO/TS 19130:2010(E)
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: (E), 3.20
+      link: https://www.iso.org/standard/66847.html
+      ref: ISO 19130-1:2018
+    type: authoritative
+  - origin:
+      ref: ISO/TS 19130:2010(E)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: Doppler shift
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: Doppler shift
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: Doppler shift
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 5d740b35-eb13-5650-99d3-aa1014838c71
 status: valid

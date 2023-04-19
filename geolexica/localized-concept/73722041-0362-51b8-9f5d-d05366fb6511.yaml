@@ -31,57 +31,22 @@ data:
           review_indicator: ''
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: 曲面
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: 曲面
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: 曲面
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2003-05-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2003-05-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2003-05-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''局所的に平面領域の連続な像を表す二次元の幾何プリミティブ。''}]'
   examples: []
   id: 437
   language_code: jpn
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: 曲面の境界は，曲面の限界の輪郭を描く向きをもつ閉曲線である。球面又はn次元トーラス（n次元“把”をもつ位相球面）と同形である曲面は，境界をもたない。このような曲面を輪体と呼ぶ。
-    state:
-      _dict:
-        content: 曲面の境界は，曲面の限界の輪郭を描く向きをもつ閉曲線である。球面又はn次元トーラス（n次元“把”をもつ位相球面）と同形である曲面は，境界をもたない。このような曲面を輪体と呼ぶ。
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: 曲面の境界は，曲面の限界の輪郭を描く向きをもつ閉曲線である。球面又はn次元トーラス（n次元“把”をもつ位相球面）と同形である曲面は，境界をもたない。このような曲面を輪体と呼ぶ。
   release: '1'
   reviewDate: 2018-06-08
   reviewDecisionDate: 2020-01-09
@@ -92,49 +57,18 @@ data:
   review_indicator: ''
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: (E), 3.1.57
-        link: https://www.iso.org/standard/75676.html
-        ref: ISO 19136-1:2020
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19107:2003
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: (E), 3.1.57
+      link: https://www.iso.org/standard/75676.html
+      ref: ISO 19136-1:2020
+    type: authoritative
+  - origin:
+      ref: ISO 19107:2003
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: 曲面
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: 曲面
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: 曲面
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 73722041-0362-51b8-9f5d-d05366fb6511
 status: valid

@@ -40,155 +40,55 @@ data:
             права, которое определяет права собственности на материал.[
           release: '3'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: генеральная общедоступная лицензия
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: генеральная общедоступная лицензия
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: генеральная общедоступная лицензия
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2014-02-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2014-02-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2014-02-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2014-02-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''лицензия, содержащая права, предоставляемые широкой
     общественности без заключения договора''}]'
   examples: []
   id: 1221
   language_code: rus
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Генеральные общедоступные лицензии могут предоставляться владельцем
-        ресурса  или могут быть распространяться на ресурс по закону, как правило,
-        как часть закона об авторском праве. Наиболее очевидной концепцией универсальной
-        общественной лицензии является честное использование  в Соединённых Штатах
-        в части материалов, защищённых авторскими правами. Другие права универсальной
-        общественной лицензии могут потребоваться для источника ресурса или по другим
-        соображениям «общественного блага».
-    state:
-      _dict:
-        content: Генеральные общедоступные лицензии могут предоставляться владельцем
-          ресурса  или могут быть распространяться на ресурс по закону, как правило,
-          как часть закона об авторском праве. Наиболее очевидной концепцией универсальной
-          общественной лицензии является честное использование  в Соединённых Штатах
-          в части материалов, защищённых авторскими правами. Другие права универсальной
-          общественной лицензии могут потребоваться для источника ресурса или по другим
-          соображениям «общественного блага».
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Наиболее распространённое использование генеральной общедоступной лицензии
-        относится к универсальной общественной лицензии GNU, который обычно сокращается
-        просто как GPL, когда понимается, что данный термин относится к универсальной
-        общественной лицензии GNU. Одним из основных принципов универсальной общественной
-        лицензии является то, что любой, кто приобретает материал, должен предоставить
-        его любому другому лицу в рамках того же лицензионного соглашения. Универсальная
-        общественная лицензия не охватывает действия, отличные от копирования, распространения
-        и изменения исходного кода. Универсальная общественная лицензия также упоминается
-        как копилефт (4.10), в отличие от авторского права, которое определяет права
-        собственности на материал.[
-    state:
-      _dict:
-        content: Наиболее распространённое использование генеральной общедоступной
-          лицензии относится к универсальной общественной лицензии GNU, который обычно
-          сокращается просто как GPL, когда понимается, что данный термин относится
-          к универсальной общественной лицензии GNU. Одним из основных принципов универсальной
-          общественной лицензии является то, что любой, кто приобретает материал,
-          должен предоставить его любому другому лицу в рамках того же лицензионного
-          соглашения. Универсальная общественная лицензия не охватывает действия,
-          отличные от копирования, распространения и изменения исходного кода. Универсальная
-          общественная лицензия также упоминается как копилефт (4.10), в отличие от
-          авторского права, которое определяет права собственности на материал.[
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Генеральные общедоступные лицензии могут предоставляться владельцем ресурса  или
+      могут быть распространяться на ресурс по закону, как правило, как часть закона
+      об авторском праве. Наиболее очевидной концепцией универсальной общественной
+      лицензии является честное использование  в Соединённых Штатах в части материалов,
+      защищённых авторскими правами. Другие права универсальной общественной лицензии
+      могут потребоваться для источника ресурса или по другим соображениям «общественного
+      блага».
+  - content: Наиболее распространённое использование генеральной общедоступной лицензии
+      относится к универсальной общественной лицензии GNU, который обычно сокращается
+      просто как GPL, когда понимается, что данный термин относится к универсальной
+      общественной лицензии GNU. Одним из основных принципов универсальной общественной
+      лицензии является то, что любой, кто приобретает материал, должен предоставить
+      его любому другому лицу в рамках того же лицензионного соглашения. Универсальная
+      общественная лицензия не охватывает действия, отличные от копирования, распространения
+      и изменения исходного кода. Универсальная общественная лицензия также упоминается
+      как копилефт (4.10), в отличие от авторского права, которое определяет права
+      собственности на материал.[
   release: '3'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: '4.15'
-        link: https://www.iso.org/standard/32571.html
-        ref: ISO 19153:2014
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: перевод ИСО 19153:2014
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: '4.15'
+      link: https://www.iso.org/standard/32571.html
+      ref: ISO 19153:2014
+    type: authoritative
+  - origin:
+      ref: перевод ИСО 19153:2014
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: GPL
-      type: abbreviation
-    state:
-      _dict:
-        designation: GPL
-        type: abbreviation
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: генеральная общедоступная лицензия
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: генеральная общедоступная лицензия
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: GPL
+    type: abbreviation
+  - designation: генеральная общедоступная лицензия
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: d1320573-2660-5842-b82d-5e05a0ea37ae
 status: valid

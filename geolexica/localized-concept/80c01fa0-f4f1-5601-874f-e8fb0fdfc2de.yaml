@@ -35,68 +35,28 @@ data:
           review_status: final
           review_type: supersession
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: simple <topology, geometry>
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: simple <topology, geometry>
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: simple <topology, geometry>
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2019-12-02T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2019-12-02T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2019-12-02T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2019-12-02T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''homogeneous (all points have isomorphic neighborhoods)
     and with a simple boundary''}]'
   examples: []
   id: 2250
   language_code: eng
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: The interior is everywhere locally isomorphic to an open disc in a
-        Euclidean coordinate space of the appropriate dimension `D^n = {P | norm P
-        < 1.0}`. The boundary is a dimension one smaller. This essentially means that
-        the object does not intersect nor touch itself. Generally used for a curve
-        that does not cross not touch itself with the possible exception of boundary
-        points. Simple closed curves are isomorphic to a circle.
-    state:
-      _dict:
-        content: The interior is everywhere locally isomorphic to an open disc in
-          a Euclidean coordinate space of the appropriate dimension `D^n = {P | norm
-          P < 1.0}`. The boundary is a dimension one smaller. This essentially means
-          that the object does not intersect nor touch itself. Generally used for
-          a curve that does not cross not touch itself with the possible exception
-          of boundary points. Simple closed curves are isomorphic to a circle.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: The interior is everywhere locally isomorphic to an open disc in a Euclidean
+      coordinate space of the appropriate dimension `D^n = {P | norm P < 1.0}`. The
+      boundary is a dimension one smaller. This essentially means that the object
+      does not intersect nor touch itself. Generally used for a curve that does not
+      cross not touch itself with the possible exception of boundary points. Simple
+      closed curves are isomorphic to a circle.
   release: '5'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02
@@ -106,36 +66,15 @@ data:
   review_status: final
   review_type: supersession
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: (E), 3.84
-        link: https://www.iso.org/standard/66175.html
-        ref: ISO 19107:2019
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: (E), 3.84
+      link: https://www.iso.org/standard/66175.html
+      ref: ISO 19107:2019
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: simple <topology, geometry>
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: simple <topology, geometry>
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: simple <topology, geometry>
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 80c01fa0-f4f1-5601-874f-e8fb0fdfc2de
 status: valid

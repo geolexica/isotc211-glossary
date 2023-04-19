@@ -31,42 +31,16 @@ data:
             los datos para producir un conjunto de datos explotable visualmente.
           release: '3'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: modo geiger
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: modo geiger
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: modo geiger
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2014-01-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2014-01-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2014-01-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2014-01-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''modo de contar fotones en los sistemas lídar en los
     que el detector está sesgado y se ha vuelto sensible a los fotones individuales''}]'
   examples: []
@@ -74,77 +48,28 @@ data:
   language_code: spa
   lineage_source_similarity: 1
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: estos detectores existen en forma de array y se unen con circuitos
-        electrónicos. El circuito electrónico produce una medición correspondiente
-        al momento en que se genera la corriente, lo que resulta en una medición directa
-        del tiempo de vuelo. Un lidar que emplea esta tecnología detector normalmente
-        ilumina una gran escena con un solo pulso. Las mediciones directas de tiempo
-        de vuelo se combinan entonces con los datos de localización/altitud de la
-        plataforma junto con la información de los puntos para producir un producto
-        tridimensional de la escena de interés iluminada. Se aplica un procesamiento
-        adicional que elimina el ruido existente presente en los datos para producir
-        un conjunto de datos explotable visualmente.
-    state:
-      _dict:
-        content: estos detectores existen en forma de array y se unen con circuitos
-          electrónicos. El circuito electrónico produce una medición correspondiente
-          al momento en que se genera la corriente, lo que resulta en una medición
-          directa del tiempo de vuelo. Un lidar que emplea esta tecnología detector
-          normalmente ilumina una gran escena con un solo pulso. Las mediciones directas
-          de tiempo de vuelo se combinan entonces con los datos de localización/altitud
-          de la plataforma junto con la información de los puntos para producir un
-          producto tridimensional de la escena de interés iluminada. Se aplica un
-          procesamiento adicional que elimina el ruido existente presente en los datos
-          para producir un conjunto de datos explotable visualmente.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: estos detectores existen en forma de array y se unen con circuitos electrónicos.
+      El circuito electrónico produce una medición correspondiente al momento en que
+      se genera la corriente, lo que resulta en una medición directa del tiempo de
+      vuelo. Un lidar que emplea esta tecnología detector normalmente ilumina una
+      gran escena con un solo pulso. Las mediciones directas de tiempo de vuelo se
+      combinan entonces con los datos de localización/altitud de la plataforma junto
+      con la información de los puntos para producir un producto tridimensional de
+      la escena de interés iluminada. Se aplica un procesamiento adicional que elimina
+      el ruido existente presente en los datos para producir un conjunto de datos
+      explotable visualmente.
   release: '3'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        ref: Adapted from Albota 2002
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO/TS 19130-2:2014, 4.23
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      ref: Adapted from Albota 2002
+    type: authoritative
+  - origin:
+      ref: ISO/TS 19130-2:2014, 4.23
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: modo geiger
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: modo geiger
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: modo geiger
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 40f63a11-ba27-5c58-91d7-990d3d0b6f38
 status: valid

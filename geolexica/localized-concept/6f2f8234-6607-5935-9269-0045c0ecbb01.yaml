@@ -22,42 +22,16 @@ data:
           release: '1'
           review_indicator: ''
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: poligon Thiessen
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: poligon Thiessen
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: poligon Thiessen
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2005-08-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2005-08-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2005-08-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2005-08-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''Poligon yang terbentuk oleh pembahagi dua-sama tegak
     lurus beberapa garis lurus yang menghubungkan stesen curahan hujan yang berdampingan''}]'
   examples: []
@@ -67,48 +41,17 @@ data:
   release: '1'
   review_indicator: ''
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/40121.html
-        ref: ISO 19123:2005
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: Istilah ukur dan Pemetaan (DBP, 1992)
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/40121.html
+      ref: ISO 19123:2005
+    type: authoritative
+  - origin:
+      ref: Istilah ukur dan Pemetaan (DBP, 1992)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: poligon Thiessen
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: poligon Thiessen
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: poligon Thiessen
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 6f2f8234-6607-5935-9269-0045c0ecbb01
 status: valid

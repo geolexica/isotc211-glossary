@@ -28,42 +28,16 @@ data:
           review_decision_notes: Publication of document 19161-1:2020(E)
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: geocentric terrestrial reference system
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: geocentric terrestrial reference system
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: geocentric terrestrial reference system
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2020-01-24T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2020-01-24T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2020-01-24T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2020-01-24T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': "system of geocentric space-time coordinates within
     the framework of General Relativity, co-rotating with the Earth and related to
     the Geocentric Celestial Reference System by a spatial rotation which takes into
@@ -80,46 +54,15 @@ data:
   review_decision_notes: Publication of document 19161-1:2020(E)
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        ref: IAG and IUGG resolutions of 1991 and 2007
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      ref: IAG and IUGG resolutions of 1991 and 2007
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: GTRS
-      type: abbreviation
-    state:
-      _dict:
-        designation: GTRS
-        type: abbreviation
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: geocentric terrestrial reference system
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: geocentric terrestrial reference system
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: GTRS
+    type: abbreviation
+  - designation: geocentric terrestrial reference system
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 734b74ee-d69d-5366-9f22-377f971c8d2f
 status: valid

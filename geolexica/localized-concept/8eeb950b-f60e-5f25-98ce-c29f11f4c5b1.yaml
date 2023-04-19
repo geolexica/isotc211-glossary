@@ -31,54 +31,19 @@ data:
           review_indicator: ''
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: 模式
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: 模式
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: 模式
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2007-09-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2007-09-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2007-09-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2007-09-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''在同一个目标命名空间内模式组成部分的集合。''}]'
   examples:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: W3C XML模式组成部分是类型、元素、属性和组等。
-    state:
-      _dict:
-        content: W3C XML模式组成部分是类型、元素、属性和组等。
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: W3C XML模式组成部分是类型、元素、属性和组等。
   id: 698
   language_code: zho
   lineage_source_similarity: 1
@@ -93,49 +58,18 @@ data:
   review_indicator: ''
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: (E), 3.1.53
-        link: https://www.iso.org/standard/75676.html
-        ref: ISO 19136-1:2020
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19136:2007(E)
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: (E), 3.1.53
+      link: https://www.iso.org/standard/75676.html
+      ref: ISO 19136-1:2020
+    type: authoritative
+  - origin:
+      ref: ISO 19136:2007(E)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: 模式
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: 模式
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: 模式
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 8eeb950b-f60e-5f25-98ce-c29f11f4c5b1
 status: valid

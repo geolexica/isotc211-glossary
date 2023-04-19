@@ -23,92 +23,35 @@ data:
           notes: []
           release: '1'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: fusión de objeto geográfico
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: fusión de objeto geográfico
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: fusión de objeto geográfico
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2002-09-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2002-09-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2002-09-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''sucesión de objetos geográficos en la que dos o más
     instancias preexistentes de un tipo de objeto geográfico, se sustituyen por una
     única del mismo tipo''}]'
   examples:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Dos instancias del tipo de objeto geográfico "terreno de pasto" se
-        sustituyen por una sola instancia, cuando se quita la valla que los separa
-    state:
-      _dict:
-        content: Dos instancias del tipo de objeto geográfico "terreno de pasto" se
-          sustituyen por una sola instancia, cuando se quita la valla que los separa
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Dos instancias del tipo de objeto geográfico "terreno de pasto" se sustituyen
+      por una sola instancia, cuando se quita la valla que los separa
   id: 175
   language_code: spa
   notes: []
   release: '1'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/26013.html
-        ref: ISO 19108:2002
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/26013.html
+      ref: ISO 19108:2002
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: fusión de objeto geográfico
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: fusión de objeto geográfico
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: fusión de objeto geográfico
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 5b3a070d-b1c6-5cde-ae1e-74419b1065d1
 status: valid

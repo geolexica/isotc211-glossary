@@ -31,62 +31,25 @@ data:
           review_decision_notes: Publication of document ISO 19165-1:2018(E)
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: designated community
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: designated community
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: designated community
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2018-05-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2018-05-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2018-05-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2018-05-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''identified group of potential consumers who should
     be able to understand a particular set of information''}]'
   examples: []
   id: 2270
   language_code: eng
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: The designated community may be composed of multiple user communities.
-        A designated community is defined by the archive and this definition may change
-        over time.
-    state:
-      _dict:
-        content: The designated community may be composed of multiple user communities.
-          A designated community is defined by the archive and this definition may
-          change over time.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: The designated community may be composed of multiple user communities.
+      A designated community is defined by the archive and this definition may change
+      over time.
   release: '5'
   reviewDate: 2018-05-01
   reviewDecisionDate: 2018-05-01
@@ -95,37 +58,16 @@ data:
   review_decision_notes: Publication of document ISO 19165-1:2018(E)
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: 1.7.2, modified — Supporting content has been relocated to Note 1
-          to entry.
-        link: https://www.iso.org/standard/57284.html
-        ref: ISO 14721:2012
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: 1.7.2, modified — Supporting content has been relocated to Note 1 to
+        entry.
+      link: https://www.iso.org/standard/57284.html
+      ref: ISO 14721:2012
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: designated community
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: designated community
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: designated community
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: cefe6cf0-facd-5e04-8a40-2055c418d3c8
 status: valid

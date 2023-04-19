@@ -22,42 +22,16 @@ data:
           release: '1'
           review_indicator: ''
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: polígono de Thiessen
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: polígono de Thiessen
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: polígono de Thiessen
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2005-08-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2005-08-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2005-08-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2005-08-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''polígono que encierra un punto de un conjunto de puntos
     de un plano, de manera que incluye todas las posiciones directas que están más
     cercanas a ese punto que a cualquier otro punto del conjunto''}]'
@@ -68,35 +42,14 @@ data:
   release: '1'
   review_indicator: ''
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/40121.html
-        ref: ISO 19123:2005
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/40121.html
+      ref: ISO 19123:2005
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: polígono de Thiessen
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: polígono de Thiessen
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: polígono de Thiessen
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 62344ce0-06e2-5f2f-a5f6-4bc3dd082d0c
 status: valid

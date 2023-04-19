@@ -28,60 +28,24 @@ data:
             in ISO/TS 19103:2005
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: metamodel
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: metamodel
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: metamodel
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2015-12-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2015-12-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2015-12-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2015-12-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''model that defines the language for expressing other
     models''}]'
   examples: []
   id: 1153
   language_code: eng
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: A model is an instance of a metamodel, and a metamodel is an instance
-        of a meta-metamodel.
-    state:
-      _dict:
-        content: A model is an instance of a metamodel, and a metamodel is an instance
-          of a meta-metamodel.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: A model is an instance of a metamodel, and a metamodel is an instance
+      of a meta-metamodel.
   release: '4'
   reviewDate: 2009-01-14
   reviewDecisionDate: 2015-12-01
@@ -91,47 +55,16 @@ data:
     ISO/TS 19103:2005
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        ref: UML 2
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19103:2015, 4.22
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      ref: UML 2
+    type: authoritative
+  - origin:
+      ref: ISO 19103:2015, 4.22
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: metamodel
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: metamodel
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: metamodel
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 1590292b-ea7e-51ef-ae86-44134049aa3e
 status: valid

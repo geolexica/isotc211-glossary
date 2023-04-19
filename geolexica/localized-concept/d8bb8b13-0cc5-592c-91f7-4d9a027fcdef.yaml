@@ -25,42 +25,16 @@ data:
             of the parent feature.
           release: '3'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: linear segment
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: linear segment
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: linear segment
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2012-02-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2012-02-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2012-02-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2012-02-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''part of a linear feature that is distinguished from
     the remainder of that feature by a subset of attributes, each having a single
     value for the entire part''}]'
@@ -68,60 +42,20 @@ data:
   id: 1173
   language_code: eng
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: A linear segment is a one-dimensional object without explicit geometry.
-    state:
-      _dict:
-        content: A linear segment is a one-dimensional object without explicit geometry.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: The implicit geometry of the linear segment can be derived from the
-        geometry of the parent feature.
-    state:
-      _dict:
-        content: The implicit geometry of the linear segment can be derived from the
-          geometry of the parent feature.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: A linear segment is a one-dimensional object without explicit geometry.
+  - content: The implicit geometry of the linear segment can be derived from the geometry
+      of the parent feature.
   release: '3'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: '4.13'
-        link: https://www.iso.org/standard/32566.html
-        ref: ISO 19148:2012
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: '4.13'
+      link: https://www.iso.org/standard/32566.html
+      ref: ISO 19148:2012
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: linear segment
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: linear segment
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: linear segment
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: d8bb8b13-0cc5-592c-91f7-4d9a027fcdef
 status: valid

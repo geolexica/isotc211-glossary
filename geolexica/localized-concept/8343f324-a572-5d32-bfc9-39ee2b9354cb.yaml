@@ -31,42 +31,16 @@ data:
             data set.
           release: '3'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: geiger mode
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: geiger mode
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: geiger mode
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2014-01-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2014-01-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2014-01-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2014-01-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''photon counting mode for LIDAR systems, where the
     detector is biased and becomes sensitive to individual photons''}]'
   examples: []
@@ -74,75 +48,27 @@ data:
   language_code: eng
   lineage_source_similarity: 1
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: These detectors exist in the form of arrays and are bonded with electronic
-        circuitry.  The electronic circuitry produces a measurement corresponding
-        to the time at which the current was generated; resulting in a direct time-of-flight
-        measurement.  A LIDAR that employs this detector technology typically illuminates
-        a large scene with a single pulse.  The direct time-of-flight measurements
-        are then combined with platform location/attitude data along with pointing
-        information to produce a three-dimensional product of the illuminated scene
-        of interest. Additional processing is applied which removes existing noise
-        present in the data to produce a visually exploitable data set.
-    state:
-      _dict:
-        content: These detectors exist in the form of arrays and are bonded with electronic
-          circuitry.  The electronic circuitry produces a measurement corresponding
-          to the time at which the current was generated; resulting in a direct time-of-flight
-          measurement.  A LIDAR that employs this detector technology typically illuminates
-          a large scene with a single pulse.  The direct time-of-flight measurements
-          are then combined with platform location/attitude data along with pointing
-          information to produce a three-dimensional product of the illuminated scene
-          of interest. Additional processing is applied which removes existing noise
-          present in the data to produce a visually exploitable data set.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: These detectors exist in the form of arrays and are bonded with electronic
+      circuitry.  The electronic circuitry produces a measurement corresponding to
+      the time at which the current was generated; resulting in a direct time-of-flight
+      measurement.  A LIDAR that employs this detector technology typically illuminates
+      a large scene with a single pulse.  The direct time-of-flight measurements are
+      then combined with platform location/attitude data along with pointing information
+      to produce a three-dimensional product of the illuminated scene of interest.
+      Additional processing is applied which removes existing noise present in the
+      data to produce a visually exploitable data set.
   release: '3'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        ref: Adapted from Albota 2002
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO/TS 19130-2:2014, 4.23
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      ref: Adapted from Albota 2002
+    type: authoritative
+  - origin:
+      ref: ISO/TS 19130-2:2014, 4.23
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: geiger mode
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: geiger mode
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: geiger mode
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 8343f324-a572-5d32-bfc9-39ee2b9354cb
 status: valid

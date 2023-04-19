@@ -30,42 +30,16 @@ data:
             to ISO 19101-2:2018(E), 3.6. Lineage source added as ISO/TS 19101-2:2008(E)
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: digital number
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: digital number
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: digital number
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2008-06-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2008-06-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2008-06-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2008-06-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''integer value representing a measurement as detected
     by a sensor''}]'
   examples: []
@@ -82,61 +56,20 @@ data:
     to ISO 19101-2:2018(E), 3.6. Lineage source added as ISO/TS 19101-2:2008(E)
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: (E), 3.6
-        link: https://www.iso.org/standard/69325.html
-        ref: ISO 19101-2:2018
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO/TS 19101-2:2008(E)
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: (E), 3.6
+      link: https://www.iso.org/standard/69325.html
+      ref: ISO 19101-2:2018
+    type: authoritative
+  - origin:
+      ref: ISO/TS 19101-2:2008(E)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: DN
-      type: abbreviation
-    state:
-      _dict:
-        designation: DN
-        type: abbreviation
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: digital number
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: digital number
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: DN
+    type: abbreviation
+  - designation: digital number
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 610ed6eb-f21b-504f-9f8d-af2c17e2e412
 status: valid

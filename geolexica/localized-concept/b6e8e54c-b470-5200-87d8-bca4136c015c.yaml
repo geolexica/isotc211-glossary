@@ -36,54 +36,18 @@ data:
           review_status: final
           review_type: retirement
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: suhteellinen sijaintitarkkuus
-              normative_status: null
-              type: expression
-            state:
-              _dict:
-                designation: suhteellinen sijaintitarkkuus
-                normative_status: null
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: suhteellinen sijaintitarkkuus
+            normative_status: null
+            type: expression
         parents: []
         timeCreated: '2004-07-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2004-07-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2004-07-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2019-12-02T00:00:00.000Z'
-      type: amended
-    state:
-      _dict:
-        date: '2019-12-02T00:00:00.000Z'
-        type: amended
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2004-07-01T00:00:00.000Z'
+    type: accepted
+  - date: '2019-12-02T00:00:00.000Z'
+    type: amended
   definition: '[{''content'': ''sijaintitarkkuuden osatekijä, joka ilmentää tietoaineiston
     kohteiden suhteellisen sijainnin tarkkuutta verrattuna kohteiden todelliseen suhteelliseen
     sijaintiin''}]'
@@ -91,32 +55,11 @@ data:
   id: 378
   language_code: fin
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Useissa maissa, toimielimissä ja sovelluksissa käytetään englanninkielisen
-        termin relative positional accuracy sijaan sitä muistuttavia termejä, kuten
-        local accuracy. Jos tällaisia termejä käytetään, ne on tarpeen määritellä.
-    state:
-      _dict:
-        content: Useissa maissa, toimielimissä ja sovelluksissa käytetään englanninkielisen
-          termin relative positional accuracy sijaan sitä muistuttavia termejä, kuten
-          local accuracy. Jos tällaisia termejä käytetään, ne on tarpeen määritellä.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Kohteiden suhteellisen sijainnin tarkkuus verrattuna kohteiden todelliseen
-        suhteelliseen sijaintiin tai sellaiseksi hyväksyttyyn sijaintiin.
-    state:
-      _dict:
-        content: Kohteiden suhteellisen sijainnin tarkkuus verrattuna kohteiden todelliseen
-          suhteelliseen sijaintiin tai sellaiseksi hyväksyttyyn sijaintiin.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Useissa maissa, toimielimissä ja sovelluksissa käytetään englanninkielisen
+      termin relative positional accuracy sijaan sitä muistuttavia termejä, kuten
+      local accuracy. Jos tällaisia termejä käytetään, ne on tarpeen määritellä.
+  - content: Kohteiden suhteellisen sijainnin tarkkuus verrattuna kohteiden todelliseen
+      suhteelliseen sijaintiin tai sellaiseksi hyväksyttyyn sijaintiin.
   release: '-1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02
@@ -128,33 +71,13 @@ data:
   review_status: final
   review_type: retirement
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/37805.html
-        ref: ISO 19116:2004
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/37805.html
+      ref: ISO 19116:2004
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: suhteellinen sijaintitarkkuus
-      type: expression
-    state:
-      _dict:
-        designation: suhteellinen sijaintitarkkuus
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: suhteellinen sijaintitarkkuus
+    type: expression
+dateAccepted: 2018-11-17
 id: b6e8e54c-b470-5200-87d8-bca4136c015c
 status: retired

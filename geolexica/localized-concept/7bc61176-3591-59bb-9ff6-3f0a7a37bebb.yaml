@@ -30,58 +30,22 @@ data:
           review_indicator: ''
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: 철회
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: 철회
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: 철회
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2005-10-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2005-10-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2005-10-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2005-10-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''등록물 항목이 새로운 데이터의 생산에 더 이상 적합하지 않다는 선언''}]'
   examples: []
   id: 509
   language_code: kor
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: 철회 항목의 상태는 "유효"에서 "철회"로 변경된다. 철회 항목은 철회 이전에 생산된 데이터의 해석을 위해 등록물에 보관된다.
-    state:
-      _dict:
-        content: 철회 항목의 상태는 "유효"에서 "철회"로 변경된다. 철회 항목은 철회 이전에 생산된 데이터의 해석을 위해 등록물에
-          보관된다.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: 철회 항목의 상태는 "유효"에서 "철회"로 변경된다. 철회 항목은 철회 이전에 생산된 데이터의 해석을 위해 등록물에 보관된다.
   release: '1'
   reviewDate: 2010-10-19
   reviewDecisionDate: 2015-10-01
@@ -92,49 +56,18 @@ data:
   review_indicator: ''
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: 4.1.14
-        link: https://www.iso.org/standard/54721.html
-        ref: ISO 19135-1:2015
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19135:2005
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: 4.1.14
+      link: https://www.iso.org/standard/54721.html
+      ref: ISO 19135-1:2015
+    type: authoritative
+  - origin:
+      ref: ISO 19135:2005
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: 철회
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: 철회
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: 철회
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 7bc61176-3591-59bb-9ff6-3f0a7a37bebb
 status: valid

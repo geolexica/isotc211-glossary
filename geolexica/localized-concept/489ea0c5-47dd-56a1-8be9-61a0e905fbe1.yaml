@@ -29,42 +29,16 @@ data:
             (Adapted from) to UML 1. Lineage source added as ISO/TS 19103:2005
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: tipo <UML>
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: tipo <UML>
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: tipo <UML>
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2005-07-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2005-07-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2005-07-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2005-07-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''clase estereotipada que especifica un dominio de objetos
     junto con las operaciones aplicables a los objetos, sin definir la implementación
     física de tales objetos''}]'
@@ -72,16 +46,7 @@ data:
   id: 728
   language_code: spa
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Un tipo puede tener atributos y asociaciones.
-    state:
-      _dict:
-        content: Un tipo puede tener atributos y asociaciones.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Un tipo puede tener atributos y asociaciones.
   release: '1'
   reviewDate: 2009-01-14
   reviewDecisionDate: 2015-12-01
@@ -91,47 +56,16 @@ data:
     from) to UML 1. Lineage source added as ISO/TS 19103:2005
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        ref: UML 1
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO/TS 19103:2005
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      ref: UML 1
+    type: authoritative
+  - origin:
+      ref: ISO/TS 19103:2005
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: tipo <UML>
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: tipo <UML>
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: tipo <UML>
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 489ea0c5-47dd-56a1-8be9-61a0e905fbe1
 status: valid

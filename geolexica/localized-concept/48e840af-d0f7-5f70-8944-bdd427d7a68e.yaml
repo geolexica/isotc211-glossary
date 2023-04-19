@@ -32,42 +32,16 @@ data:
           review_indicator: ''
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: monimuotoisuus
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: monimuotoisuus
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: monimuotoisuus
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2007-04-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2007-04-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2007-04-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2007-04-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''sellaisen ominaisuus, joka kykenee liittämään johonkin
     eri merkityksen tai käytön erilaisissa yhteyksissä - erityisesti: sellaisen ominaisuus,
     joka kykenee antamaan tietokokonaisuudelle, esimerkiksi muuttujalle, funktiolle
@@ -77,16 +51,7 @@ data:
   language_code: fin
   lineage_source_similarity: 1
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Monimuotoisuutta on useaa tyyppiä.
-    state:
-      _dict:
-        content: Monimuotoisuutta on useaa tyyppiä.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Monimuotoisuutta on useaa tyyppiä.
   release: '1'
   reviewDate: 2019-03-01
   reviewDecisionDate: 2019-03-01
@@ -97,47 +62,16 @@ data:
   review_indicator: ''
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        ref: https://searchcio.techtarget.com/
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO/TS 19139:2007(E)
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      ref: https://searchcio.techtarget.com/
+    type: authoritative
+  - origin:
+      ref: ISO/TS 19139:2007(E)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: monimuotoisuus
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: monimuotoisuus
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: monimuotoisuus
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 48e840af-d0f7-5f70-8944-bdd427d7a68e
 status: valid

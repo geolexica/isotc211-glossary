@@ -33,74 +33,27 @@ data:
           review_status: final
           review_type: retirement
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: دقة الموقع النسبي
-              normative_status: null
-              type: expression
-            state:
-              _dict:
-                designation: دقة الموقع النسبي
-                normative_status: null
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: دقة الموقع النسبي
+            normative_status: null
+            type: expression
         parents: []
         timeCreated: '2004-07-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2004-07-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2004-07-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2019-12-02T00:00:00.000Z'
-      type: amended
-    state:
-      _dict:
-        date: '2019-12-02T00:00:00.000Z'
-        type: amended
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2004-07-01T00:00:00.000Z'
+    type: accepted
+  - date: '2019-12-02T00:00:00.000Z'
+    type: amended
   definition: '[{''content'': ''مدى قرب الفارق في القيمة الإحداثية من القيمة الصحيحة
     أو المعتمدة في نظام مرجعي محدد''}]'
   examples: []
   id: 378
   language_code: ara
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: المصطلحات الوثيقة الصلة مثل "الدقة المحلية" يتم توظيفها في مختلف الدول
-        , والجهات والمجموعات التي تقوم بالتطبيق. متى ما استخدمت هذه المصطلحات , يكون
-        من الضروري أن يكون هناك وصف للمصطلح.
-    state:
-      _dict:
-        content: المصطلحات الوثيقة الصلة مثل "الدقة المحلية" يتم توظيفها في مختلف
-          الدول , والجهات والمجموعات التي تقوم بالتطبيق. متى ما استخدمت هذه المصطلحات
-          , يكون من الضروري أن يكون هناك وصف للمصطلح.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: المصطلحات الوثيقة الصلة مثل "الدقة المحلية" يتم توظيفها في مختلف الدول
+      , والجهات والمجموعات التي تقوم بالتطبيق. متى ما استخدمت هذه المصطلحات , يكون
+      من الضروري أن يكون هناك وصف للمصطلح.
   release: '-1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02
@@ -112,33 +65,13 @@ data:
   review_status: final
   review_type: retirement
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/37805.html
-        ref: ISO 19116:2004
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/37805.html
+      ref: ISO 19116:2004
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: دقة الموقع النسبي
-      type: expression
-    state:
-      _dict:
-        designation: دقة الموقع النسبي
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: دقة الموقع النسبي
+    type: expression
+dateAccepted: 2018-11-17
 id: 6908ac82-98e5-5a17-a2b3-e565e6c501db
 status: retired

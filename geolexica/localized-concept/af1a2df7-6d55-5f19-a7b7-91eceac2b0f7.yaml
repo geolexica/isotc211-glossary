@@ -33,43 +33,17 @@ data:
           review_indicator: ''
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: metadatasektion
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: metadatasektion
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: metadatasektion
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   country_code: swe
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2003-05-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2003-05-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2003-05-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''delmängd av metadata som består av en samling av besläktade
     metadataklasser och metadataelement''}]'
   examples: []
@@ -77,16 +51,7 @@ data:
   language_code: swe
   lineage_source_similarity: 1
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Equivalent to a package in UML terminology
-    state:
-      _dict:
-        content: Equivalent to a package in UML terminology
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Equivalent to a package in UML terminology
   release: '1'
   reviewDate: 2011-01-01
   reviewDecisionDate: 2014-04-01
@@ -97,49 +62,18 @@ data:
   review_indicator: ''
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: '4.13'
-        link: https://www.iso.org/standard/53798.html
-        ref: ISO 19115-1:2014
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19115:2003
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: '4.13'
+      link: https://www.iso.org/standard/53798.html
+      ref: ISO 19115-1:2014
+    type: authoritative
+  - origin:
+      ref: ISO 19115:2003
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: metadatasektion
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: metadatasektion
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: metadatasektion
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: af1a2df7-6d55-5f19-a7b7-91eceac2b0f7
 status: valid

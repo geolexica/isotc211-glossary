@@ -26,42 +26,16 @@ data:
             (исходного) объекта
           release: '3'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: линейный сегмент
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: линейный сегмент
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: линейный сегмент
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2012-02-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2012-02-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2012-02-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2012-02-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''часть линейного объекта, которая отличается от остальной
     части этого объекта подмножеством атрибутов, каждый из которых имеет отдельное
     значение для всей этой части''}]'
@@ -69,74 +43,23 @@ data:
   id: 1173
   language_code: rus
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Линейный сегмент представляет собой одномерный объект без чёткой геометрии
-    state:
-      _dict:
-        content: Линейный сегмент представляет собой одномерный объект без чёткой
-          геометрии
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Точную  геометрию линейного сегмента можно получить из геометрии родительского
-        (исходного) объекта
-    state:
-      _dict:
-        content: Точную  геометрию линейного сегмента можно получить из геометрии
-          родительского (исходного) объекта
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Линейный сегмент представляет собой одномерный объект без чёткой геометрии
+  - content: Точную  геометрию линейного сегмента можно получить из геометрии родительского
+      (исходного) объекта
   release: '3'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: '4.13'
-        link: https://www.iso.org/standard/32566.html
-        ref: ISO 19148:2012
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: перевод ИСО 19148:2012
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: '4.13'
+      link: https://www.iso.org/standard/32566.html
+      ref: ISO 19148:2012
+    type: authoritative
+  - origin:
+      ref: перевод ИСО 19148:2012
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: линейный сегмент
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: линейный сегмент
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: линейный сегмент
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 42f79347-3738-5afd-8e44-8525c58b0aa4
 status: valid

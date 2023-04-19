@@ -31,58 +31,23 @@ data:
             to ISO 19130-1:2018(E), 3.4. Lineage source added as ISO/TS 19130:2010(E)
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: aperture reference point
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: aperture reference point
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: aperture reference point
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2010-06-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2010-06-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2010-06-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2010-06-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''3D location of the centre of the synthetic aperture''}]'
   examples: []
   id: 925
   language_code: eng
   lineage_source_similarity: '1'
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: It is usually expressed in ECEF coordinates in metres.
-    state:
-      _dict:
-        content: It is usually expressed in ECEF coordinates in metres.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: It is usually expressed in ECEF coordinates in metres.
   release: '2'
   reviewDate: 2018-09-01
   reviewDecisionDate: 2018-09-01
@@ -92,61 +57,20 @@ data:
     ISO 19130-1:2018(E), 3.4. Lineage source added as ISO/TS 19130:2010(E)
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: (E), 3.4
-        link: https://www.iso.org/standard/66847.html
-        ref: ISO 19130-1:2018
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO/TS 19130:2010(E)
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: (E), 3.4
+      link: https://www.iso.org/standard/66847.html
+      ref: ISO 19130-1:2018
+    type: authoritative
+  - origin:
+      ref: ISO/TS 19130:2010(E)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: ARP
-      type: abbreviation
-    state:
-      _dict:
-        designation: ARP
-        type: abbreviation
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: aperture reference point
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: aperture reference point
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: ARP
+    type: abbreviation
+  - designation: aperture reference point
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: f0af1022-40c2-58e4-9214-e0e7fef67426
 status: valid

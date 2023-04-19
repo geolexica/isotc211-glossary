@@ -31,54 +31,18 @@ data:
             to ISO 1087-1:2000, 3.4.1. Lineage source added as ISO/TS 19104:2008
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: designador
-              normative_status: admitted
-              type: expression
-            state:
-              _dict:
-                designation: designador
-                normative_status: admitted
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: designación
-              type: expression
-            state:
-              _dict:
-                designation: designación
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: designador
+            normative_status: admitted
+            type: expression
+          - designation: designación
+            type: expression
         parents: []
         timeCreated: '2008-11-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2008-11-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2008-11-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2008-11-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''representación de un concepto mediante un signo que
     lo denomina''}]'
   examples: []
@@ -86,18 +50,8 @@ data:
   language_code: spa
   lineage_source_similarity: 1
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: 'En el trabajo terminológico se distinguen tres tipos de designación:
-        los símbolos, las denominaciones y los términos.'
-    state:
-      _dict:
-        content: 'En el trabajo terminológico se distinguen tres tipos de designación:
-          los símbolos, las denominaciones y los términos.'
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: 'En el trabajo terminológico se distinguen tres tipos de designación:
+      los símbolos, las denominaciones y los términos.'
   release: '2'
   reviewDate: 2013-01-29
   reviewDecisionDate: 2016-10-01
@@ -107,61 +61,20 @@ data:
     1087-1:2000, 3.4.1. Lineage source added as ISO/TS 19104:2008
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: 3.4.1
-        link: https://www.iso.org/standard/20057.html
-        ref: ISO 1087-1:2000
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO/TS 19104:2008
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: 3.4.1
+      link: https://www.iso.org/standard/20057.html
+      ref: ISO 1087-1:2000
+    type: authoritative
+  - origin:
+      ref: ISO/TS 19104:2008
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: designador
-      normative_status: admitted
-      type: expression
-    state:
-      _dict:
-        designation: designador
-        normative_status: admitted
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: designación
-      type: expression
-    state:
-      _dict:
-        designation: designación
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: designador
+    normative_status: admitted
+    type: expression
+  - designation: designación
+    type: expression
+dateAccepted: 2018-11-17
 id: 31412e08-933e-5882-b4f1-9fa92aa0c9fa
 status: valid

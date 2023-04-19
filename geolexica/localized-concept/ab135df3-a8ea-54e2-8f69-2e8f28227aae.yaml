@@ -21,42 +21,16 @@ data:
           release: '1'
           review_indicator: ''
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: 산출 <커버리지>
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: 산출 <커버리지>
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: 산출 <커버리지>
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2007-11-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2007-11-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2007-11-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2007-11-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''커버리지 영역 내의 직접 위치에서 커버리지 값의 결정''}]'
   examples: []
   id: 159
@@ -65,48 +39,17 @@ data:
   release: '1'
   review_indicator: ''
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/40121.html
-        ref: ISO 19123:2005
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: KS X ISO 19123
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/40121.html
+      ref: ISO 19123:2005
+    type: authoritative
+  - origin:
+      ref: KS X ISO 19123
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: 산출 <커버리지>
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: 산출 <커버리지>
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: 산출 <커버리지>
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: ab135df3-a8ea-54e2-8f69-2e8f28227aae
 status: valid

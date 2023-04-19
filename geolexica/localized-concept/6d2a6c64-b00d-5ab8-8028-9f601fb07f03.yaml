@@ -35,66 +35,20 @@ data:
           review_decision_notes: Publication of document ISO 19107:2019(E)
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: first geodetic problem <differential geometry, geodesy>
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: first geodetic problem <differential geometry, geodesy>
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: direct geodetic problem <differential geometry
-              type: expression
-            state:
-              _dict:
-                designation: direct geodetic problem <differential geometry
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: geodesy>
-              type: expression
-            state:
-              _dict:
-                designation: geodesy>
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: first geodetic problem <differential geometry, geodesy>
+            normative_status: preferred
+            type: expression
+          - designation: direct geodetic problem <differential geometry
+            type: expression
+          - designation: geodesy>
+            type: expression
         parents: []
         timeCreated: '2019-12-02T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2019-12-02T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2019-12-02T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2019-12-02T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''problem that given a point on a surface and the direction
     and distance from that point to a second point along a geodesic, determines that
     second point''}]'
@@ -102,28 +56,12 @@ data:
   id: 2159
   language_code: eng
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: This "problem" defines a mapping from the vector space at a point (each
-        vector given by a direction and a length) to points of the Figure of Earth
-        that satisfy the problem for that direction and distance. For example, if
-        we fix the distance "r" and take all directions, the resultant geometry is
-        the circle centred at the original point of radius "r". This document will
-        make heavy use of this mapping; see exponential map and the second geodetic
-        problem.
-    state:
-      _dict:
-        content: This "problem" defines a mapping from the vector space at a point
-          (each vector given by a direction and a length) to points of the Figure
-          of Earth that satisfy the problem for that direction and distance. For example,
-          if we fix the distance "r" and take all directions, the resultant geometry
-          is the circle centred at the original point of radius "r". This document
-          will make heavy use of this mapping; see exponential map and the second
-          geodetic problem.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: This "problem" defines a mapping from the vector space at a point (each
+      vector given by a direction and a length) to points of the Figure of Earth that
+      satisfy the problem for that direction and distance. For example, if we fix
+      the distance "r" and take all directions, the resultant geometry is the circle
+      centred at the original point of radius "r". This document will make heavy use
+      of this mapping; see exponential map and the second geodetic problem.
   release: '5'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02
@@ -132,60 +70,19 @@ data:
   review_decision_notes: Publication of document ISO 19107:2019(E)
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: (E), 3.39
-        link: https://www.iso.org/standard/66175.html
-        ref: ISO 19107:2019
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: (E), 3.39
+      link: https://www.iso.org/standard/66175.html
+      ref: ISO 19107:2019
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: first geodetic problem <differential geometry, geodesy>
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: first geodetic problem <differential geometry, geodesy>
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: direct geodetic problem <differential geometry
-      type: expression
-    state:
-      _dict:
-        designation: direct geodetic problem <differential geometry
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: geodesy>
-      type: expression
-    state:
-      _dict:
-        designation: geodesy>
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: first geodetic problem <differential geometry, geodesy>
+    normative_status: preferred
+    type: expression
+  - designation: direct geodetic problem <differential geometry
+    type: expression
+  - designation: geodesy>
+    type: expression
+dateAccepted: 2018-11-17
 id: 6d2a6c64-b00d-5ab8-8028-9f601fb07f03
 status: valid

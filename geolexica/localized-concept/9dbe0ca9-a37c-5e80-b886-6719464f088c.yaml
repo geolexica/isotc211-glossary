@@ -29,58 +29,23 @@ data:
           review_indicator: ''
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: 多态性
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: 多态性
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: 多态性
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2007-04-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2007-04-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2007-04-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2007-04-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''在不同上下文环境中可以对同一事物赋予不同含义或用途的特性，确切地说，某一实体如变量、函数或对象可以具有1个以上的形态的特性。''}]'
   examples: []
   id: 840
   language_code: zho
   lineage_source_similarity: 1
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: 有多种不同类型的多态性。
-    state:
-      _dict:
-        content: 有多种不同类型的多态性。
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: 有多种不同类型的多态性。
   release: '1'
   reviewDate: 2019-03-01
   reviewDecisionDate: 2019-03-01
@@ -91,47 +56,16 @@ data:
   review_indicator: ''
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        ref: https://searchcio.techtarget.com/
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO/TS 19139:2007(E)
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      ref: https://searchcio.techtarget.com/
+    type: authoritative
+  - origin:
+      ref: ISO/TS 19139:2007(E)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: 多态性
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: 多态性
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: 多态性
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 9dbe0ca9-a37c-5e80-b886-6719464f088c
 status: valid

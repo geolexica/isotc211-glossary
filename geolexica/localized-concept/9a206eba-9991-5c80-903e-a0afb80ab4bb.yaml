@@ -20,42 +20,16 @@ data:
           release: '1'
           review_indicator: ''
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: شبكة تثليث غير منتظمة
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: شبكة تثليث غير منتظمة
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: شبكة تثليث غير منتظمة
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2005-08-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2005-08-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2005-08-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2005-08-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''تضليع مؤلف من مثلثات''}]'
   examples: []
   id: 476
@@ -64,35 +38,14 @@ data:
   release: '1'
   review_indicator: ''
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/40121.html
-        ref: ISO 19123:2005
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/40121.html
+      ref: ISO 19123:2005
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: شبكة تثليث غير منتظمة
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: شبكة تثليث غير منتظمة
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: شبكة تثليث غير منتظمة
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 9a206eba-9991-5c80-903e-a0afb80ab4bb
 status: valid

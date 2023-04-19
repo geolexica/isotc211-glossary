@@ -20,87 +20,32 @@ data:
           - I de fleste tilfælde indeholder det geodætiske datum en ellipsoidedefinition.
           release: '1'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: geodætisk datum
-              normative_status: null
-              type: expression
-            state:
-              _dict:
-                designation: geodætisk datum
-                normative_status: null
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: geodætisk datum
+            normative_status: null
+            type: expression
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2007-07-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2007-07-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2007-07-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''datum, der beskriver relationen mellem et koordinatsystem
     og jorden''}]'
   examples: []
   id: 708
   language_code: dan
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: I de fleste tilfælde indeholder det geodætiske datum en ellipsoidedefinition.
-    state:
-      _dict:
-        content: I de fleste tilfælde indeholder det geodætiske datum en ellipsoidedefinition.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: I de fleste tilfælde indeholder det geodætiske datum en ellipsoidedefinition.
   release: '1'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/41126.html
-        ref: ISO 19111:2007
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/41126.html
+      ref: ISO 19111:2007
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: geodætisk datum
-      type: expression
-    state:
-      _dict:
-        designation: geodætisk datum
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: geodætisk datum
+    type: expression
+dateAccepted: 2018-11-17
 id: 996830d5-b3e3-5b85-a7c3-21d274954b05
 status: valid

@@ -31,42 +31,16 @@ data:
             Lineage source added as ISO 19115-2:2009(E)
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: sensor
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: sensor
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: sensor
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2009-02-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2009-02-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2009-02-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2009-02-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''element of a measuring system that is directly affected
     by a phenomenon, body, or substance carrying a quantity to be measured''}]'
   examples: []
@@ -84,49 +58,18 @@ data:
     source added as ISO 19115-2:2009(E)
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: 3.8, modified — EXAMPLES and NOTE deleted.
-        link: https://www.iso.org/standard/45324.html
-        ref: ISO/IEC Guide 99:2007
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19115-2:2009(E)
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: 3.8, modified — EXAMPLES and NOTE deleted.
+      link: https://www.iso.org/standard/45324.html
+      ref: ISO/IEC Guide 99:2007
+    type: authoritative
+  - origin:
+      ref: ISO 19115-2:2009(E)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: sensor
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: sensor
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: sensor
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: a826894c-120a-5f88-aaed-ac9ea9841edf
 status: valid

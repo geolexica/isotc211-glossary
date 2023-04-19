@@ -31,42 +31,16 @@ data:
             to ISO 19117:2012. Lineage source added as ISO 19117:2005.
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: anotación
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: anotación
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: anotación
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2005-06-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2005-06-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2005-06-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2005-06-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''cualquier marca hecha en las ilustraciones con el
     objetivo de clarificar''}]'
   examples: []
@@ -74,16 +48,7 @@ data:
   language_code: spa
   lineage_source_similarity: '1'
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: son ejemplos de anotaciones los números, letras, símbolos y signos.
-    state:
-      _dict:
-        content: son ejemplos de anotaciones los números, letras, símbolos y signos.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: son ejemplos de anotaciones los números, letras, símbolos y signos.
   release: '1'
   reviewDate: 2009-11-25
   reviewDecisionDate: 2012-12-15
@@ -93,49 +58,18 @@ data:
     19117:2012. Lineage source added as ISO 19117:2005.
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: '4.1'
-        link: https://www.iso.org/standard/46226.html
-        ref: ISO 19117:2012
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19117:2005
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: '4.1'
+      link: https://www.iso.org/standard/46226.html
+      ref: ISO 19117:2012
+    type: authoritative
+  - origin:
+      ref: ISO 19117:2005
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: anotación
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: anotación
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: anotación
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: d8d411c7-d97f-5571-871b-03a45a81afc3
 status: valid

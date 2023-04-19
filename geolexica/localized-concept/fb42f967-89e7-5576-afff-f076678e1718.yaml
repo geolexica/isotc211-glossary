@@ -25,42 +25,16 @@ data:
           notes: []
           release: '3'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: nivel medio del mar
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: nivel medio del mar
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: nivel medio del mar
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2014-01-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2014-01-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2014-01-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2014-01-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''promedio de la altura de la superficie del mar en
     una estación de mareas para todas las etapas de la marea durante un período de
     19 años; las alturas se toman, generalmente, a cada hora y se miden a partir de
@@ -72,60 +46,19 @@ data:
   notes: []
   release: '3'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: Fifth Edition
-        ref: IHO Hydrographic Dictionary S-32
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO/TS 19130-2:2014, 4.43
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: Fifth Edition
+      ref: IHO Hydrographic Dictionary S-32
+    type: authoritative
+  - origin:
+      ref: ISO/TS 19130-2:2014, 4.43
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: MSL
-      type: abbreviation
-    state:
-      _dict:
-        designation: MSL
-        type: abbreviation
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: nivel medio del mar
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: nivel medio del mar
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: MSL
+    type: abbreviation
+  - designation: nivel medio del mar
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: fb42f967-89e7-5576-afff-f076678e1718
 status: valid

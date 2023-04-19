@@ -22,112 +22,36 @@ data:
             indicating hemisphere
           release: '2'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: darjah perenam puluhan
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: darjah perenam puluhan
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: darjah perenam puluhan
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2008-07-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2008-07-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2008-07-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2008-07-15T00:00:00.000Z'
+    type: accepted
   examples:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: 079 572 5 degrees is represented as 50º04'46.461" sexagesimal degrees.
-    state:
-      _dict:
-        content: 079 572 5 degrees is represented as 50º04'46.461" sexagesimal degrees.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: 079 572 5 degrees is represented as 50º04'46.461" sexagesimal degrees.
   id: 905
   language_code: msa
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: In the case of latitude or longitude, it may also include a character
-        indicating hemisphere
-    state:
-      _dict:
-        content: In the case of latitude or longitude, it may also include a character
-          indicating hemisphere
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: In the case of latitude or longitude, it may also include a character
+      indicating hemisphere
   release: '2'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/39242.html
-        ref: ISO 6709:2008
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: Pusat Rujukan Persuratan Melayu (DBP)
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/39242.html
+      ref: ISO 6709:2008
+    type: authoritative
+  - origin:
+      ref: Pusat Rujukan Persuratan Melayu (DBP)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: darjah perenam puluhan
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: darjah perenam puluhan
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: darjah perenam puluhan
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: a1ffb0a6-be3f-5f38-a96b-86b28b0c499b
 status: valid

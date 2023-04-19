@@ -24,131 +24,42 @@ data:
             toistensa sijaan ilman, että merkitys muuttuu.
           review_indicator: ''
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: ajoneuvo
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: ajoneuvo
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: kulkuneuvo
-              type: expression
-            state:
-              _dict:
-                designation: kulkuneuvo
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: ajoneuvo
+            normative_status: preferred
+            type: expression
+          - designation: kulkuneuvo
+            type: expression
         parents: []
         timeCreated: '2005-10-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2005-10-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2005-10-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2005-10-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''navigoinnin tai seurannan kohteena oleva objekti''}]'
   examples: []
   id: 745
   language_code: fin
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Englanninkielinen termi vehicle viittaa käsitteeseen, johon sisältyvät
-        myös jalankulkijat. Katso ISO 14825 -standardi. Tässä kansainvälisessä standardissa
-        englanninkielisiä termejä vehicle ja traveller voidaan käyttää toistensa sijaan
-        ilman, että merkitys muuttuu.
-    state:
-      _dict:
-        content: Englanninkielinen termi vehicle viittaa käsitteeseen, johon sisältyvät
-          myös jalankulkijat. Katso ISO 14825 -standardi. Tässä kansainvälisessä standardissa
-          englanninkielisiä termejä vehicle ja traveller voidaan käyttää toistensa
-          sijaan ilman, että merkitys muuttuu.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Englanninkielinen termi vehicle viittaa käsitteeseen, johon sisältyvät
+      myös jalankulkijat. Katso ISO 14825 -standardi. Tässä kansainvälisessä standardissa
+      englanninkielisiä termejä vehicle ja traveller voidaan käyttää toistensa sijaan
+      ilman, että merkitys muuttuu.
   review_indicator: ''
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/32551.html
-        ref: ISO 19133:2005
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: Ei lähdettä, käännetty
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/32551.html
+      ref: ISO 19133:2005
+    type: authoritative
+  - origin:
+      ref: Ei lähdettä, käännetty
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: ajoneuvo
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: ajoneuvo
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: kulkuneuvo
-      type: expression
-    state:
-      _dict:
-        designation: kulkuneuvo
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: ajoneuvo
+    normative_status: preferred
+    type: expression
+  - designation: kulkuneuvo
+    type: expression
+dateAccepted: 2018-11-17
 id: d5948b8d-27f7-58ff-9d9d-eceaec3e99ce
 status: valid

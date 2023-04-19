@@ -20,54 +20,18 @@ data:
           notes: []
           review_indicator: ''
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: asiakassovellus
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: asiakassovellus
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: asiakasohjelma
-              type: expression
-            state:
-              _dict:
-                designation: asiakasohjelma
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: asiakassovellus
+            normative_status: preferred
+            type: expression
+          - designation: asiakasohjelma
+            type: expression
         parents: []
         timeCreated: '2005-12-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2005-12-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2005-12-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2005-12-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''ohjelmistokomponentti, joka voi kutsua operaatiota
     palvelimelta''}]'
   examples: []
@@ -76,60 +40,19 @@ data:
   notes: []
   review_indicator: ''
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/32546.html
-        ref: ISO 19128:2005
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: Maanmittauslaitos, Geodeettinen laitos
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/32546.html
+      ref: ISO 19128:2005
+    type: authoritative
+  - origin:
+      ref: Maanmittauslaitos, Geodeettinen laitos
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: asiakassovellus
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: asiakassovellus
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: asiakasohjelma
-      type: expression
-    state:
-      _dict:
-        designation: asiakasohjelma
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: asiakassovellus
+    normative_status: preferred
+    type: expression
+  - designation: asiakasohjelma
+    type: expression
+dateAccepted: 2018-11-17
 id: 3e6f824f-a403-5a83-a0d0-be9cce4635e9
 status: valid

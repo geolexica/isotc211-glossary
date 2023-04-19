@@ -23,43 +23,17 @@ data:
           notes: []
           release: '2'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: objekttypsbeskrivande begreppslista
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: objekttypsbeskrivande begreppslista
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: objekttypsbeskrivande begreppslista
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2009-08-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   country_code: swe
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2009-08-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2009-08-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2009-08-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''ordlista som innehåller definitioner av, och relaterad
     beskrivande information om, begrepp som kan specificeras i detalj i en objekttypskatalog''}]'
   examples: []
@@ -69,48 +43,17 @@ data:
   notes: []
   release: '2'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/44875.html
-        ref: ISO 19126:2009
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19144-1:2009
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/44875.html
+      ref: ISO 19126:2009
+    type: authoritative
+  - origin:
+      ref: ISO 19144-1:2009
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: objekttypsbeskrivande begreppslista
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: objekttypsbeskrivande begreppslista
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: objekttypsbeskrivande begreppslista
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: b1ae087b-43f1-5c58-a436-2baadb7379fc
 status: valid

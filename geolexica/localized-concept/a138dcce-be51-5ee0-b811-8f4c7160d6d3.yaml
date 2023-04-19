@@ -24,95 +24,36 @@ data:
             los que el sistema es inmune.
           release: '3'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: suficiente
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: suficiente
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: suficiente
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2014-02-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2014-02-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2014-02-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2014-02-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''capaz de satisfacer los requisitos de un sistema''}]'
   examples: []
   id: 1256
   language_code: spa
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Debe puentearse un sistema DRM suficiente para que una vulneración
-        sea posible. Una prueba de suficiencia puede ser dificil porque puede ser
-        dependiente del "modelo de ataque", que describe la clase de ataques a los
-        que el sistema es inmune.
-    state:
-      _dict:
-        content: Debe puentearse un sistema DRM suficiente para que una vulneración
-          sea posible. Una prueba de suficiencia puede ser dificil porque puede ser
-          dependiente del "modelo de ataque", que describe la clase de ataques a los
-          que el sistema es inmune.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Debe puentearse un sistema DRM suficiente para que una vulneración sea
+      posible. Una prueba de suficiencia puede ser dificil porque puede ser dependiente
+      del "modelo de ataque", que describe la clase de ataques a los que el sistema
+      es inmune.
   release: '3'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: '4.48'
-        link: https://www.iso.org/standard/32571.html
-        ref: ISO 19153:2014
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: '4.48'
+      link: https://www.iso.org/standard/32571.html
+      ref: ISO 19153:2014
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: suficiente
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: suficiente
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: suficiente
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: a138dcce-be51-5ee0-b811-8f4c7160d6d3
 status: valid

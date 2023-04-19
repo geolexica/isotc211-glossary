@@ -21,42 +21,16 @@ data:
           notes: []
           release: '3'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: Результат оценки качества
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: Результат оценки качества
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: Результат оценки качества
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2012-10-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2012-10-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2012-10-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2012-10-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''выводы из процедуры оценки качества''}]'
   examples: []
   id: 1578
@@ -64,49 +38,18 @@ data:
   notes: []
   release: '3'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: '4.6'
-        link: https://www.iso.org/standard/32576.html
-        ref: ISO/TS 19158:2012
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO/TS 19158:2012
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: '4.6'
+      link: https://www.iso.org/standard/32576.html
+      ref: ISO/TS 19158:2012
+    type: authoritative
+  - origin:
+      ref: ISO/TS 19158:2012
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: Результат оценки качества
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: Результат оценки качества
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: Результат оценки качества
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 94d9d687-6256-57cc-b950-963244f25fcd
 status: valid

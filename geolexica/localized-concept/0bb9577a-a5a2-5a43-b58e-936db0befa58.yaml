@@ -37,78 +37,29 @@ data:
           review_status: final
           review_type: retirement
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: datakvalitet, omfang af
-              normative_status: null
-              type: expression
-            state:
-              _dict:
-                designation: datakvalitet, omfang af
-                normative_status: null
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: datakvalitet, omfang af
+            normative_status: null
+            type: expression
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2002-12-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2002-12-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2013-12-15T00:00:00.000Z'
-      type: amended
-    state:
-      _dict:
-        date: '2013-12-15T00:00:00.000Z'
-        type: amended
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2002-12-01T00:00:00.000Z'
+    type: accepted
+  - date: '2013-12-15T00:00:00.000Z'
+    type: amended
   definition: '[{''content'': ''omfang af eller egenskaber ved de data, for hvilke
     der rapporteres kvalitetsinformation''}]'
   examples: []
   id: 118
   language_code: dan
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Datakvalitetsomfang for et datasæt kan omfatte en datasætserie, som
-        datasættet hører til, datasættet selv eller en mindre gruppe af data i datasættet,
-        som deler de samme egenskaber. Samme egenskaber kan være en identificeret
-        featuretype, featureattribut eller featurerelation, dataindsamlingskriterier,
-        oprindelig kilde eller en specificeret geografisk eller temporal udbredelse.
-    state:
-      _dict:
-        content: Datakvalitetsomfang for et datasæt kan omfatte en datasætserie, som
-          datasættet hører til, datasættet selv eller en mindre gruppe af data i datasættet,
-          som deler de samme egenskaber. Samme egenskaber kan være en identificeret
-          featuretype, featureattribut eller featurerelation, dataindsamlingskriterier,
-          oprindelig kilde eller en specificeret geografisk eller temporal udbredelse.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Datakvalitetsomfang for et datasæt kan omfatte en datasætserie, som datasættet
+      hører til, datasættet selv eller en mindre gruppe af data i datasættet, som
+      deler de samme egenskaber. Samme egenskaber kan være en identificeret featuretype,
+      featureattribut eller featurerelation, dataindsamlingskriterier, oprindelig
+      kilde eller en specificeret geografisk eller temporal udbredelse.
   release: '-1'
   reviewDate: 2013-12-15
   reviewDecisionDate: 2013-12-15
@@ -120,47 +71,17 @@ data:
   review_status: final
   review_type: retirement
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: '4.10'
-        link: https://www.iso.org/standard/26018.html
-        ref: ISO 19113:2002
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ''
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: '4.10'
+      link: https://www.iso.org/standard/26018.html
+      ref: ISO 19113:2002
+    type: authoritative
+  - origin:
+      ref: ''
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: datakvalitet, omfang af
-      type: expression
-    state:
-      _dict:
-        designation: datakvalitet, omfang af
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: datakvalitet, omfang af
+    type: expression
+dateAccepted: 2018-11-17
 id: 0bb9577a-a5a2-5a43-b58e-936db0befa58
 status: retired

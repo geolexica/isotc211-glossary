@@ -34,66 +34,20 @@ data:
           review_status: final
           review_type: supersession
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: koordinaattioperaatio
-              normative_status: null
-              type: expression
-            state:
-              _dict:
-                designation: koordinaattioperaatio
-                normative_status: null
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: koordinaatteihin liittyvä laskentaoperaatio
-              type: expression
-            state:
-              _dict:
-                designation: koordinaatteihin liittyvä laskentaoperaatio
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: koordinaattioperaatio
+            normative_status: null
+            type: expression
+          - designation: koordinaatteihin liittyvä laskentaoperaatio
+            type: expression
         parents: []
         timeCreated: '2003-02-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2003-02-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2003-02-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2019-01-31T00:00:00.000Z'
-      type: amended
-    state:
-      _dict:
-        date: '2019-01-31T00:00:00.000Z'
-        type: amended
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2003-02-15T00:00:00.000Z'
+    type: accepted
+  - date: '2019-01-31T00:00:00.000Z'
+    type: amended
   definition: '[{''content'': ''koordinaattien muuntaminen yksi yhteen -suhteessa
     koordinaattijärjestelmästä toiseen''}]'
   examples: []
@@ -101,18 +55,8 @@ data:
   language_code: fin
   lineage_source_similarity: 1
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Koordinaatteihin liittyvä laskentaoperaatio on koordinaattimuunnoksen
-        ja koordinaattikonversion yläkäsite.
-    state:
-      _dict:
-        content: Koordinaatteihin liittyvä laskentaoperaatio on koordinaattimuunnoksen
-          ja koordinaattikonversion yläkäsite.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Koordinaatteihin liittyvä laskentaoperaatio on koordinaattimuunnoksen
+      ja koordinaattikonversion yläkäsite.
   release: '-1'
   reviewDate: 2019-01-31
   reviewDecisionDate: 2019-01-31
@@ -124,58 +68,18 @@ data:
   review_status: final
   review_type: supersession
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/41126.html
-        ref: ISO 19111:2007
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19111:2003
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/41126.html
+      ref: ISO 19111:2007
+    type: authoritative
+  - origin:
+      ref: ISO 19111:2003
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: koordinaattioperaatio
-      type: expression
-    state:
-      _dict:
-        designation: koordinaattioperaatio
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: koordinaatteihin liittyvä laskentaoperaatio
-      type: expression
-    state:
-      _dict:
-        designation: koordinaatteihin liittyvä laskentaoperaatio
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: koordinaattioperaatio
+    type: expression
+  - designation: koordinaatteihin liittyvä laskentaoperaatio
+    type: expression
+dateAccepted: 2018-11-17
 id: 8384143a-285a-5969-bf5c-154737ed1b48
 status: superseded

@@ -31,65 +31,27 @@ data:
           review_indicator: ''
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: enhet, måttenhet
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: enhet, måttenhet
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: enhet, måttenhet
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2004-07-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   country_code: swe
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2004-07-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2004-07-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2004-07-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''fastställt jämförelsevärde för en storhet''}]'
   examples: []
   id: 483
   language_code: swe
   lineage_source_similarity: 1
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: In positioning services, the usual units of measurement are either
-        angular units or linear units.  Implementations of positioning services must
-        clearly distinguish between SI units and non-SI units.  When non-SI units
-        are employed, it is requird that their relation to SI units be specified.
-    state:
-      _dict:
-        content: In positioning services, the usual units of measurement are either
-          angular units or linear units.  Implementations of positioning services
-          must clearly distinguish between SI units and non-SI units.  When non-SI
-          units are employed, it is requird that their relation to SI units be specified.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: In positioning services, the usual units of measurement are either angular
+      units or linear units.  Implementations of positioning services must clearly
+      distinguish between SI units and non-SI units.  When non-SI units are employed,
+      it is requird that their relation to SI units be specified.
   release: '1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02
@@ -100,34 +62,13 @@ data:
   review_indicator: ''
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        ref: ISO 19116:2004(E)
-      type: lineage
-    state:
-      _dict:
-        origin: *id001
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      ref: ISO 19116:2004(E)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: enhet, måttenhet
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: enhet, måttenhet
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: enhet, måttenhet
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 6c5a4d03-c476-5d1f-ba10-23c9698fd188
 status: valid

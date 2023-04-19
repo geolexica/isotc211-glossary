@@ -23,42 +23,16 @@ data:
           review_status: pending
           review_type: retirement
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: 적합성 평가 과정
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: 적합성 평가 과정
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: 적합성 평가 과정
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2000-12-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2000-12-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2000-12-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2000-12-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''표준 표준에 따라 적합성을 만족하도록 구현되었는지를 평가하는 과정''}]'
   examples: []
   id: 72
@@ -70,35 +44,14 @@ data:
   review_status: pending
   review_type: retirement
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/26010.html
-        ref: ISO 19105:2000
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/26010.html
+      ref: ISO 19105:2000
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: 적합성 평가 과정
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: 적합성 평가 과정
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: 적합성 평가 과정
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 6c842c9e-311a-5f33-9b93-0d9a681dfea4
 status: valid

@@ -21,91 +21,34 @@ data:
           - In this International Standard, the object instances will be feature instances.
           release: '2'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: Verknüpfungstupel
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: Verknüpfungstupel
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: Verknüpfungstupel
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2010-12-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2010-12-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2010-12-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2010-12-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''Menge von zwei oder mehr Objektinstanzen, die einem
     Filter entsprechen, der Verknüpfungsprädikate enthält''}]'
   examples: []
   id: 1333
   language_code: deu
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: In this International Standard, the object instances will be feature
-        instances.
-    state:
-      _dict:
-        content: In this International Standard, the object instances will be feature
-          instances.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: In this International Standard, the object instances will be feature
+      instances.
   release: '2'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/42136.html
-        ref: ISO 19142:2010
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/42136.html
+      ref: ISO 19142:2010
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: Verknüpfungstupel
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: Verknüpfungstupel
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: Verknüpfungstupel
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: eb0e7255-5bf3-5aa2-ab57-90edbc910c54
 status: valid

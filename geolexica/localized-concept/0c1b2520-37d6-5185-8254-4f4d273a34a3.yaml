@@ -23,92 +23,35 @@ data:
           release: '1'
           review_indicator: ''
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: دمج المعالم
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: دمج المعالم
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: دمج المعالم
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2002-09-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2002-09-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2002-09-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''تعاقب للمعالم يتم فيه استبدال حالتين كانتا موجودتين
     في السابق او اكثر بحاله واحده من نفس نوع المعلم''}]'
   examples:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: في حالة وجود مثالين لنوع المعلم "مرعى" , فيجب استبدال هذين المثالين
-        بمثال واحد فقط في حال إزالة السياج الفاصل بين المرعيين.
-    state:
-      _dict:
-        content: في حالة وجود مثالين لنوع المعلم "مرعى" , فيجب استبدال هذين المثالين
-          بمثال واحد فقط في حال إزالة السياج الفاصل بين المرعيين.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: في حالة وجود مثالين لنوع المعلم "مرعى" , فيجب استبدال هذين المثالين بمثال
+      واحد فقط في حال إزالة السياج الفاصل بين المرعيين.
   id: 175
   language_code: ara
   notes: []
   release: '1'
   review_indicator: ''
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/26013.html
-        ref: ISO 19108:2002
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/26013.html
+      ref: ISO 19108:2002
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: دمج المعالم
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: دمج المعالم
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: دمج المعالم
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 0c1b2520-37d6-5185-8254-4f4d273a34a3
 status: valid

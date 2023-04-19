@@ -22,103 +22,37 @@ data:
           - In this International Standard, the entity types are resource types.
           release: '2'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: hopslagen urvalssats
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: hopslagen urvalssats
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: hopslagen urvalssats
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2010-10-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   country_code: swe
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2010-10-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2010-10-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2010-10-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''urvalssats som innehåller krav på två olika objekttypers
     datauppgifter''}]'
   examples: []
   id: 1299
   language_code: swe
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: In this International Standard, the entity types are resource types.
-    state:
-      _dict:
-        content: In this International Standard, the entity types are resource types.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: In this International Standard, the entity types are resource types.
   release: '2'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/42137.html
-        ref: ISO 19143:2010
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: (Type reference to national language document)
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/42137.html
+      ref: ISO 19143:2010
+    type: authoritative
+  - origin:
+      ref: (Type reference to national language document)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: hopslagen urvalssats
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: hopslagen urvalssats
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: hopslagen urvalssats
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: c3388ba1-453e-5c64-9f0c-8fb4303eaa45
 status: valid

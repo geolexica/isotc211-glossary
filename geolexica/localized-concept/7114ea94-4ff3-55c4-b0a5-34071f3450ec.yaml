@@ -31,58 +31,23 @@ data:
           review_indicator: ''
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: 集成定位系统
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: 集成定位系统
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: 集成定位系统
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2004-07-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2004-07-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2004-07-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2004-07-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''两种或多种定位技术的混合定位系统。''}]'
   examples: []
   id: 250
   language_code: zho
   lineage_source_similarity: 1
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: 集成定位系统中每个定位技术产生的量测结果可以是位置、运动或姿态中的任何一个。可以有冗余的量测结果。当把他们合并在一起时，就确定了一个统一的位置、运动或姿态。
-    state:
-      _dict:
-        content: 集成定位系统中每个定位技术产生的量测结果可以是位置、运动或姿态中的任何一个。可以有冗余的量测结果。当把他们合并在一起时，就确定了一个统一的位置、运动或姿态。
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: 集成定位系统中每个定位技术产生的量测结果可以是位置、运动或姿态中的任何一个。可以有冗余的量测结果。当把他们合并在一起时，就确定了一个统一的位置、运动或姿态。
   release: '1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02
@@ -93,49 +58,18 @@ data:
   review_indicator: ''
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: (E), 3.14
-        link: https://www.iso.org/standard/70882.html
-        ref: ISO 19116:2019
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19116:2004(E)
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: (E), 3.14
+      link: https://www.iso.org/standard/70882.html
+      ref: ISO 19116:2019
+    type: authoritative
+  - origin:
+      ref: ISO 19116:2004(E)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: 集成定位系统
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: 集成定位系统
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: 集成定位系统
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 7114ea94-4ff3-55c4-b0a5-34071f3450ec
 status: valid

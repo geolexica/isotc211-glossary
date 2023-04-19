@@ -35,42 +35,16 @@ data:
           review_indicator: ''
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: sistema integrado de posicionamiento
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: sistema integrado de posicionamiento
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: sistema integrado de posicionamiento
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2004-07-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2004-07-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2004-07-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2004-07-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''sistema de posicionamiento que incorpora dos o más
     tecnologías de posicionamiento''}]'
   examples: []
@@ -78,22 +52,10 @@ data:
   language_code: spa
   lineage_source_similarity: 1
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Las medidas generadas por cada tecnología de posicionamiento en un
-        sistema integrado pueden ser de cualquier posición, movimiento, u orienta¬ción.
-        Pueden existir medidas redundantes. Una vez combinadas, una posición, movimiento,
-        u orientación unificadas serán determinadas.
-    state:
-      _dict:
-        content: Las medidas generadas por cada tecnología de posicionamiento en un
-          sistema integrado pueden ser de cualquier posición, movimiento, u orienta¬ción.
-          Pueden existir medidas redundantes. Una vez combinadas, una posición, movimiento,
-          u orientación unificadas serán determinadas.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Las medidas generadas por cada tecnología de posicionamiento en un sistema
+      integrado pueden ser de cualquier posición, movimiento, u orienta¬ción. Pueden
+      existir medidas redundantes. Una vez combinadas, una posición, movimiento, u
+      orientación unificadas serán determinadas.
   release: '1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02
@@ -104,49 +66,18 @@ data:
   review_indicator: ''
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: (E), 3.14
-        link: https://www.iso.org/standard/70882.html
-        ref: ISO 19116:2019
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19116:2004(E)
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: (E), 3.14
+      link: https://www.iso.org/standard/70882.html
+      ref: ISO 19116:2019
+    type: authoritative
+  - origin:
+      ref: ISO 19116:2004(E)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: sistema integrado de posicionamiento
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: sistema integrado de posicionamiento
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: sistema integrado de posicionamiento
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: a4078063-5eed-526e-a9d3-27b25ef7a9ae
 status: valid

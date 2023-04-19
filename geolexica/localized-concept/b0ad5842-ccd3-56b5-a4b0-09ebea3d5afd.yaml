@@ -23,105 +23,38 @@ data:
           - In this International Standard, the object instances will be feature instances.
           release: '2'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: samordnat urval
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: samordnat urval
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: samordnat urval
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2010-12-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   country_code: swe
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2010-12-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2010-12-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2010-12-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''urval av två eller flera objekt som uppfyller ett
     samordnat testuttryck''}]'
   examples: []
   id: 1333
   language_code: swe
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: In this International Standard, the object instances will be feature
-        instances.
-    state:
-      _dict:
-        content: In this International Standard, the object instances will be feature
-          instances.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: In this International Standard, the object instances will be feature
+      instances.
   release: '2'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/42136.html
-        ref: ISO 19142:2010
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: (Type reference to national language document)
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/42136.html
+      ref: ISO 19142:2010
+    type: authoritative
+  - origin:
+      ref: (Type reference to national language document)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: samordnat urval
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: samordnat urval
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: samordnat urval
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: b0ad5842-ccd3-56b5-a4b0-09ebea3d5afd
 status: valid

@@ -26,106 +26,38 @@ data:
             (4.20) en el que se da el valor de atributo aplicado
           release: '3'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: atributo parcial
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: atributo parcial
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: atributo parcial
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2012-02-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2012-02-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2012-02-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2012-02-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''valor de un atributo de un objeto geográfico que puede
     aplicarse sólo a parte de un objeto geográfico''}]'
   examples: []
   id: 1169
   language_code: spa
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Un evento de atributo incluye la localización referenciada linealmente
-        (4.16) donde el valor del atributo se aplica a lo largo del fenómeno con atributos
-        (4.2)
-    state:
-      _dict:
-        content: Un evento de atributo incluye la localización referenciada linealmente
-          (4.16) donde el valor del atributo se aplica a lo largo del fenómeno con
-          atributos (4.2)
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Un evento de atributo se puede calificar por el instante (4.8) o el
-        periodo (4.20) en el que se da el valor de atributo aplicado
-    state:
-      _dict:
-        content: Un evento de atributo se puede calificar por el instante (4.8) o
-          el periodo (4.20) en el que se da el valor de atributo aplicado
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Un evento de atributo incluye la localización referenciada linealmente
+      (4.16) donde el valor del atributo se aplica a lo largo del fenómeno con atributos
+      (4.2)
+  - content: Un evento de atributo se puede calificar por el instante (4.8) o el periodo
+      (4.20) en el que se da el valor de atributo aplicado
   release: '3'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: '4.1'
-        link: https://www.iso.org/standard/32566.html
-        ref: ISO 19148:2012
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: '4.1'
+      link: https://www.iso.org/standard/32566.html
+      ref: ISO 19148:2012
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: atributo parcial
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: atributo parcial
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: atributo parcial
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 9b93fb78-6a97-5326-b0ce-37b12ec132de
 status: valid

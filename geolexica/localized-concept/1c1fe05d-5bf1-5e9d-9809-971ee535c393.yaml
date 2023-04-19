@@ -28,60 +28,24 @@ data:
             <UML>" en la Especificación Técnica ISO/TS 19103:2005
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: metamodelo
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: metamodelo
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: metamodelo
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2015-12-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2015-12-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2015-12-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2015-12-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''modelo que define el lenguaje para expresar otros
     modelos''}]'
   examples: []
   id: 1153
   language_code: spa
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Un modelo es una instancia de un metamodelo, y un metamodelo es una
-        instancia de un meta-metamodelo.
-    state:
-      _dict:
-        content: Un modelo es una instancia de un metamodelo, y un metamodelo es una
-          instancia de un meta-metamodelo.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Un modelo es una instancia de un metamodelo, y un metamodelo es una instancia
+      de un meta-metamodelo.
   release: '4'
   reviewDate: 2009-01-14
   reviewDecisionDate: 2015-12-01
@@ -91,47 +55,16 @@ data:
     en la Especificación Técnica ISO/TS 19103:2005
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        ref: UML 2
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19103:2015, 4.22
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      ref: UML 2
+    type: authoritative
+  - origin:
+      ref: ISO 19103:2015, 4.22
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: metamodelo
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: metamodelo
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: metamodelo
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 1c1fe05d-5bf1-5e9d-9809-971ee535c393
 status: valid

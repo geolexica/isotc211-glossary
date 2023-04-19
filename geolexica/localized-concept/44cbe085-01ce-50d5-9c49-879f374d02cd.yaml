@@ -23,43 +23,17 @@ data:
           notes: []
           release: '3'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: bestämningsförfarande
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: bestämningsförfarande
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: bestämningsförfarande
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2011-12-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   country_code: swe
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2011-12-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2011-12-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2011-12-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''metod, algoritm, instrument eller en kombination av
     dessa, för att göra en bestämning''}]'
   examples: []
@@ -68,49 +42,18 @@ data:
   notes: []
   release: '3'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: '4.12'
-        link: https://www.iso.org/standard/32574.html
-        ref: ISO 19156:2011
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: (Type reference to national language document)
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: '4.12'
+      link: https://www.iso.org/standard/32574.html
+      ref: ISO 19156:2011
+    type: authoritative
+  - origin:
+      ref: (Type reference to national language document)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: bestämningsförfarande
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: bestämningsförfarande
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: bestämningsförfarande
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 44cbe085-01ce-50d5-9c49-879f374d02cd
 status: valid

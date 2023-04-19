@@ -29,42 +29,16 @@ data:
             to ISO 19104:2016, 4.40. Lineage source added as ISO/TS 19104:2008, 4.20
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: 용어 저장소/보관소
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: 용어 저장소/보관소
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: 용어 저장소/보관소
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2008-11-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2008-11-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2008-11-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2008-11-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''용어와 연관 정의가 보관 또는 기록되는 자료 저장소 또는 문서''}]'
   examples: []
   id: 913
@@ -80,49 +54,18 @@ data:
     ISO 19104:2016, 4.40. Lineage source added as ISO/TS 19104:2008, 4.20
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: '4.40'
-        link: https://www.iso.org/standard/63541.html
-        ref: ISO 19104:2016
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO/TS 19104:2008, 4.20
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: '4.40'
+      link: https://www.iso.org/standard/63541.html
+      ref: ISO 19104:2016
+    type: authoritative
+  - origin:
+      ref: ISO/TS 19104:2008, 4.20
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: 용어 저장소/보관소
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: 용어 저장소/보관소
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: 용어 저장소/보관소
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 73d9a325-f589-57a5-9ef9-857f77a202f9
 status: valid

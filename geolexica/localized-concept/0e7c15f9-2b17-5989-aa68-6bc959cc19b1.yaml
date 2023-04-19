@@ -24,42 +24,16 @@ data:
             también a un rango de imágenes.
           release: '3'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: frame <LIDAR>
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: frame <LIDAR>
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: frame <LIDAR>
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2014-01-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2014-01-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2014-01-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2014-01-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''datos recogidos por el receptor como resultado de
     todos los retornos de un pulso simple emitido''}]'
   examples: []
@@ -67,63 +41,21 @@ data:
   language_code: spa
   lineage_source_similarity: 1
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Un muestreo de datos completo 3D del mundo producido por un lidar,
-        captado en cierto momento, lugar y orientación. Un marco simple lidar se refiere
-        también a un rango de imágenes.
-    state:
-      _dict:
-        content: Un muestreo de datos completo 3D del mundo producido por un lidar,
-          captado en cierto momento, lugar y orientación. Un marco simple lidar se
-          refiere también a un rango de imágenes.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Un muestreo de datos completo 3D del mundo producido por un lidar, captado
+      en cierto momento, lugar y orientación. Un marco simple lidar se refiere también
+      a un rango de imágenes.
   release: '3'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        ref: Adapted from NISTIR 7117
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO/TS 19130-2:2014, 4.22
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      ref: Adapted from NISTIR 7117
+    type: authoritative
+  - origin:
+      ref: ISO/TS 19130-2:2014, 4.22
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: frame <LIDAR>
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: frame <LIDAR>
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: frame <LIDAR>
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 0e7c15f9-2b17-5989-aa68-6bc959cc19b1
 status: valid

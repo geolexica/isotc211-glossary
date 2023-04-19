@@ -31,64 +31,26 @@ data:
           review_decision_notes: Publication of document ISO 19147:2015(E)
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: segmento de trayecto
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: segmento de trayecto
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: segmento de trayecto
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2015-06-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2015-06-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2015-06-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2015-06-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''parte de un trayecto definida por una localización
     de inicio y una de llegada''}]'
   examples: []
   id: 1493
   language_code: spa
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Un segmento de trayecto  puede recorrerse por medio de un viaje o subconjuntos
-        de viajes entre localizaciones que pueden ser nodos de transbordo Un segmento
-        de trayecto también puede recorrerse por carretera (conduciendo, andando o
-        en bicicleta).
-    state:
-      _dict:
-        content: Un segmento de trayecto  puede recorrerse por medio de un viaje o
-          subconjuntos de viajes entre localizaciones que pueden ser nodos de transbordo
-          Un segmento de trayecto también puede recorrerse por carretera (conduciendo,
-          andando o en bicicleta).
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Un segmento de trayecto  puede recorrerse por medio de un viaje o subconjuntos
+      de viajes entre localizaciones que pueden ser nodos de transbordo Un segmento
+      de trayecto también puede recorrerse por carretera (conduciendo, andando o en
+      bicicleta).
   release: '4'
   reviewDate: 2009-06-20
   reviewDecisionDate: 2015-06-15
@@ -97,36 +59,15 @@ data:
   review_decision_notes: Publication of document ISO 19147:2015(E)
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: '3.7'
-        link: https://www.iso.org/standard/44874.html
-        ref: ISO 19147:2015
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: '3.7'
+      link: https://www.iso.org/standard/44874.html
+      ref: ISO 19147:2015
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: segmento de trayecto
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: segmento de trayecto
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: segmento de trayecto
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 25699807-751e-5c9a-b41d-bea7791b5e9a
 status: valid

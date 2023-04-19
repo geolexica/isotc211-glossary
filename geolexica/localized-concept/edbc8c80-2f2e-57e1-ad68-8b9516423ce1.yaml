@@ -30,58 +30,23 @@ data:
             to ISO 19117:2012. Lineage source added as ISO 19117:2005.
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: 注记
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: 注记
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: 注记
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2005-06-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2005-06-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2005-06-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2005-06-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''以说明为目的，在诠释材料上作的标记。''}]'
   examples: []
   id: 13
   language_code: zho
   lineage_source_similarity: '1'
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: 数字,字母,符号和标记是注记的例子。
-    state:
-      _dict:
-        content: 数字,字母,符号和标记是注记的例子。
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: 数字,字母,符号和标记是注记的例子。
   release: '1'
   reviewDate: 2009-11-25
   reviewDecisionDate: 2012-12-15
@@ -91,49 +56,18 @@ data:
     19117:2012. Lineage source added as ISO 19117:2005.
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: '4.1'
-        link: https://www.iso.org/standard/46226.html
-        ref: ISO 19117:2012
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19117:2005
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: '4.1'
+      link: https://www.iso.org/standard/46226.html
+      ref: ISO 19117:2012
+    type: authoritative
+  - origin:
+      ref: ISO 19117:2005
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: 注记
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: 注记
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: 注记
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: edbc8c80-2f2e-57e1-ad68-8b9516423ce1
 status: valid

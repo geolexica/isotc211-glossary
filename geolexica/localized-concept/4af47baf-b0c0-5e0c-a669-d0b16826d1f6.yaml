@@ -20,88 +20,32 @@ data:
           - In this International Standard, the entity types are resource types.
           release: '2'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: 접합 술부
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: 접합 술부
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: 접합 술부
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2010-10-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2010-10-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2010-10-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2010-10-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''두 개의 다른 실체 유형의 특성을 제한하는 하나 또는 그 이상의 구문을 포함하는 필터 표현''}]'
   examples: []
   id: 1299
   language_code: kor
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: In this International Standard, the entity types are resource types.
-    state:
-      _dict:
-        content: In this International Standard, the entity types are resource types.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: In this International Standard, the entity types are resource types.
   release: '2'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/42137.html
-        ref: ISO 19143:2010
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/42137.html
+      ref: ISO 19143:2010
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: 접합 술부
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: 접합 술부
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: 접합 술부
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 4af47baf-b0c0-5e0c-a669-d0b16826d1f6
 status: valid

@@ -30,42 +30,16 @@ data:
           review_indicator: ''
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: عرض
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: عرض
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: عرض
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2005-06-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2005-06-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2005-06-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2005-06-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''تقديم المعلومات لجمهور من البشر''}]'
   examples: []
   id: 342
@@ -82,49 +56,18 @@ data:
   review_indicator: ''
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: '4.20'
-        link: https://www.iso.org/standard/46226.html
-        ref: ISO 19117:2012
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19117:2005
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: '4.20'
+      link: https://www.iso.org/standard/46226.html
+      ref: ISO 19117:2012
+    type: authoritative
+  - origin:
+      ref: ISO 19117:2005
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: عرض
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: عرض
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: عرض
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 82b11a79-52c0-58ee-9ecc-73e9f7379fed
 status: valid

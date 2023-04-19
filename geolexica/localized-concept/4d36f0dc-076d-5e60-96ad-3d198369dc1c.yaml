@@ -32,42 +32,16 @@ data:
           review_indicator: ''
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: unidad de medida
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: unidad de medida
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: unidad de medida
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2004-07-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2004-07-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2004-07-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2004-07-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''cantidad de referencia escogida de un grupo de equivalencias
     de unidades''}]'
   examples: []
@@ -75,24 +49,11 @@ data:
   language_code: spa
   lineage_source_similarity: 1
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: En servicios de posicionamiento, las unidades de medida usuales son
-        o bien unidades angulares o lineales. Las implementaciones de los ser¬vicios
-        de posicionamiento deben distinguir claramente entre unidades del SI y unidades
-        no SI. Cuando se utilicen unidades no SI, se requiere que se especifique la
-        relación con las unidades SI.
-    state:
-      _dict:
-        content: En servicios de posicionamiento, las unidades de medida usuales son
-          o bien unidades angulares o lineales. Las implementaciones de los ser¬vicios
-          de posicionamiento deben distinguir claramente entre unidades del SI y unidades
-          no SI. Cuando se utilicen unidades no SI, se requiere que se especifique
-          la relación con las unidades SI.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: En servicios de posicionamiento, las unidades de medida usuales son o
+      bien unidades angulares o lineales. Las implementaciones de los ser¬vicios de
+      posicionamiento deben distinguir claramente entre unidades del SI y unidades
+      no SI. Cuando se utilicen unidades no SI, se requiere que se especifique la
+      relación con las unidades SI.
   release: '1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02
@@ -103,34 +64,13 @@ data:
   review_indicator: ''
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        ref: ISO 19116:2004(E)
-      type: lineage
-    state:
-      _dict:
-        origin: *id001
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      ref: ISO 19116:2004(E)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: unidad de medida
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: unidad de medida
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: unidad de medida
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 4d36f0dc-076d-5e60-96ad-3d198369dc1c
 status: valid

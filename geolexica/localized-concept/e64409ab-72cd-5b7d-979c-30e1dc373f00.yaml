@@ -32,42 +32,16 @@ data:
           review_indicator: ''
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: polimorfismo
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: polimorfismo
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: polimorfismo
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2007-04-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2007-04-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2007-04-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2007-04-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''característica de ser capaz de asignar un significado
     o aplicación diferente a algo en diferentes contextos, específicamente, permitir
     a una entidad, como una variable, una función o un objeto, tener más de una forma''}]'
@@ -76,16 +50,7 @@ data:
   language_code: spa
   lineage_source_similarity: 1
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Hay diferentes tipos de polimorfismo
-    state:
-      _dict:
-        content: Hay diferentes tipos de polimorfismo
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Hay diferentes tipos de polimorfismo
   release: '1'
   reviewDate: 2019-03-01
   reviewDecisionDate: 2019-03-01
@@ -96,47 +61,16 @@ data:
   review_indicator: ''
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        ref: https://searchcio.techtarget.com/
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO/TS 19139:2007(E)
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      ref: https://searchcio.techtarget.com/
+    type: authoritative
+  - origin:
+      ref: ISO/TS 19139:2007(E)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: polimorfismo
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: polimorfismo
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: polimorfismo
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: e64409ab-72cd-5b7d-979c-30e1dc373f00
 status: valid

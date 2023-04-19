@@ -28,104 +28,41 @@ data:
           release: '1'
           review_indicator: ''
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: كائن سلبي
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: كائن سلبي
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: كائن سلبي
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2007-10-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2007-10-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2007-10-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2007-10-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''كائن يستجيب فقط للتحفيز الخارجي ولا يبادر بالحركة
     من تلقاء نفسه''}]'
   examples: []
   id: 677
   language_code: ara
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: الغرض أو الكيان غير المنشَّط يتم الوصول إليه عادة من خلال واجهة خارجية
-        يتلقى من خلالها الطلبات فيقوم بمعالجة هذه الطلبات ثم يعيد البيانات استجابة
-        لتلك الطلبات. ولما كانت الأغراض أو الكيانات قادرة على تطبيق أكثر من نوع واحد
-        فإنه يمكن لكيان معين أن يتنقل بين الحالتين النشطة وغير النشطة. مثلاً , يمكن
-        لخدمة الرصد والمتابعة أن تظل ساكنة حتى يأتي طلب رصد ومتابعة لتنشيط فترة تقوم
-        فيها الأجزاء الداخلية للكيان بابتداء أنشطة رصد ومتابعة تبني على أدوات إطلاق
-        نشاط داخلية حسب ما هو محدد في طلب الرصد والمتابعة. وعندما يوقف تنشيط طلب الرصد
-        والمتابعة ربما يعود الكيان إلى الحالة غير النشطة.
-    state:
-      _dict:
-        content: الغرض أو الكيان غير المنشَّط يتم الوصول إليه عادة من خلال واجهة خارجية
-          يتلقى من خلالها الطلبات فيقوم بمعالجة هذه الطلبات ثم يعيد البيانات استجابة
-          لتلك الطلبات. ولما كانت الأغراض أو الكيانات قادرة على تطبيق أكثر من نوع
-          واحد فإنه يمكن لكيان معين أن يتنقل بين الحالتين النشطة وغير النشطة. مثلاً
-          , يمكن لخدمة الرصد والمتابعة أن تظل ساكنة حتى يأتي طلب رصد ومتابعة لتنشيط
-          فترة تقوم فيها الأجزاء الداخلية للكيان بابتداء أنشطة رصد ومتابعة تبني على
-          أدوات إطلاق نشاط داخلية حسب ما هو محدد في طلب الرصد والمتابعة. وعندما يوقف
-          تنشيط طلب الرصد والمتابعة ربما يعود الكيان إلى الحالة غير النشطة.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: الغرض أو الكيان غير المنشَّط يتم الوصول إليه عادة من خلال واجهة خارجية
+      يتلقى من خلالها الطلبات فيقوم بمعالجة هذه الطلبات ثم يعيد البيانات استجابة لتلك
+      الطلبات. ولما كانت الأغراض أو الكيانات قادرة على تطبيق أكثر من نوع واحد فإنه
+      يمكن لكيان معين أن يتنقل بين الحالتين النشطة وغير النشطة. مثلاً , يمكن لخدمة
+      الرصد والمتابعة أن تظل ساكنة حتى يأتي طلب رصد ومتابعة لتنشيط فترة تقوم فيها
+      الأجزاء الداخلية للكيان بابتداء أنشطة رصد ومتابعة تبني على أدوات إطلاق نشاط
+      داخلية حسب ما هو محدد في طلب الرصد والمتابعة. وعندما يوقف تنشيط طلب الرصد والمتابعة
+      ربما يعود الكيان إلى الحالة غير النشطة.
   release: '1'
   review_indicator: ''
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/40601.html
-        ref: ISO 19132:2007
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/40601.html
+      ref: ISO 19132:2007
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: كائن سلبي
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: كائن سلبي
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: كائن سلبي
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: c4399388-6580-576b-8ba9-009804a214c7
 status: valid

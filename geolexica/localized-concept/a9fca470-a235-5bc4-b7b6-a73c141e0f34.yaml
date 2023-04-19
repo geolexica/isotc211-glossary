@@ -41,42 +41,16 @@ data:
           review_status: final
           review_type: supersession
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: coordinate transformation
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: coordinate transformation
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: coordinate transformation
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2019-01-31T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2019-01-31T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2019-01-31T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2019-01-31T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''coordinate operation that changes coordinates in a
     source coordinate reference system to coordinates in a target coordinate reference
     system in which the source and target coordinate reference systems are based on
@@ -85,42 +59,15 @@ data:
   id: 2354
   language_code: eng
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: A coordinate transformation uses parameters which are derived empirically.
-        Any error in those coordinates will be embedded in the coordinate transformation
-        and when the coordinate transformation is applied the embedded errors are
-        transmitted to output coordinates.
-    state:
-      _dict:
-        content: A coordinate transformation uses parameters which are derived empirically.
-          Any error in those coordinates will be embedded in the coordinate transformation
-          and when the coordinate transformation is applied the embedded errors are
-          transmitted to output coordinates.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: A coordinate transformation is colloquially sometimes referred to as
-        a 'datum transformation'. This is erroneous. A coordinate transformation changes
-        coordinate values. It does not change the definition of the datum. In this
-        document coordinates are referenced to a coordinate reference system. A coordinate
-        transformation operates between two coordinate reference systems, not between
-        two datums.
-    state:
-      _dict:
-        content: A coordinate transformation is colloquially sometimes referred to
-          as a 'datum transformation'. This is erroneous. A coordinate transformation
-          changes coordinate values. It does not change the definition of the datum.
-          In this document coordinates are referenced to a coordinate reference system.
-          A coordinate transformation operates between two coordinate reference systems,
-          not between two datums.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: A coordinate transformation uses parameters which are derived empirically.
+      Any error in those coordinates will be embedded in the coordinate transformation
+      and when the coordinate transformation is applied the embedded errors are transmitted
+      to output coordinates.
+  - content: A coordinate transformation is colloquially sometimes referred to as
+      a 'datum transformation'. This is erroneous. A coordinate transformation changes
+      coordinate values. It does not change the definition of the datum. In this document
+      coordinates are referenced to a coordinate reference system. A coordinate transformation
+      operates between two coordinate reference systems, not between two datums.
   release: '5'
   reviewDate: 2019-01-31
   reviewDecisionDate: 2019-01-31
@@ -131,36 +78,15 @@ data:
   review_status: final
   review_type: supersession
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: (E), 3.1.12
-        link: https://www.iso.org/standard/74039.html
-        ref: ISO 19111:2019
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: (E), 3.1.12
+      link: https://www.iso.org/standard/74039.html
+      ref: ISO 19111:2019
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: coordinate transformation
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: coordinate transformation
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: coordinate transformation
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: a9fca470-a235-5bc4-b7b6-a73c141e0f34
 status: valid

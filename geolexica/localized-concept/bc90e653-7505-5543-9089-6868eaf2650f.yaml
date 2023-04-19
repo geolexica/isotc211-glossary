@@ -24,93 +24,36 @@ data:
           release: '1'
           review_indicator: ''
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: feature fusion
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: feature fusion
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: feature fusion
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2002-09-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2002-09-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2002-09-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2002-09-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''feature succession in which two or more previously
     existing instances of a feature type are replaced by a single instance of the
     same feature type''}]'
   examples:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Two instances of the feature type "pasture" are replaced by a single
-        instance when the fence between the pastures is removed.
-    state:
-      _dict:
-        content: Two instances of the feature type "pasture" are replaced by a single
-          instance when the fence between the pastures is removed.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Two instances of the feature type "pasture" are replaced by a single
+      instance when the fence between the pastures is removed.
   id: 175
   language_code: eng
   notes: []
   release: '1'
   review_indicator: ''
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/26013.html
-        ref: ISO 19108:2002
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/26013.html
+      ref: ISO 19108:2002
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: feature fusion
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: feature fusion
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: feature fusion
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: bc90e653-7505-5543-9089-6868eaf2650f
 status: valid

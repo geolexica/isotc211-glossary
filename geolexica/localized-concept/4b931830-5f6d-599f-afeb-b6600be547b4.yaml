@@ -35,66 +35,26 @@ data:
           review_indicator: ''
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: граница
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: граница
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: граница
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2003-05-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2003-05-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2003-05-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2003-05-01T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''множество, представляющее пределы данной сущности''}]'
   examples: []
   id: 29
   language_code: rus
   lineage_source_similarity: 1
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Термин «граница» повсеместно  используется в контексте геометрии, где
-        множество представляет собой совокупность точек или совокупность объектов,
-        состоящих из этих точек. В других сферах деятельности указанный термин используется
-        образно для  описания переходного участка между сущностью и остальной предметной
-        областью
-    state:
-      _dict:
-        content: Термин «граница» повсеместно  используется в контексте геометрии,
-          где множество представляет собой совокупность точек или совокупность объектов,
-          состоящих из этих точек. В других сферах деятельности указанный термин используется
-          образно для  описания переходного участка между сущностью и остальной предметной
-          областью
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Термин «граница» повсеместно  используется в контексте геометрии, где
+      множество представляет собой совокупность точек или совокупность объектов, состоящих
+      из этих точек. В других сферах деятельности указанный термин используется образно
+      для  описания переходного участка между сущностью и остальной предметной областью
   release: '1'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02
@@ -105,49 +65,18 @@ data:
   review_indicator: ''
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: (E), 3.6
-        link: https://www.iso.org/standard/66175.html
-        ref: ISO 19107:2019
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO 19107:2003(E)
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: (E), 3.6
+      link: https://www.iso.org/standard/66175.html
+      ref: ISO 19107:2019
+    type: authoritative
+  - origin:
+      ref: ISO 19107:2003(E)
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: граница
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: граница
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: граница
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 4b931830-5f6d-599f-afeb-b6600be547b4
 status: valid

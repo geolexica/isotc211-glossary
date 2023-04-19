@@ -24,95 +24,36 @@ data:
           notes: []
           release: '2'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: relocalizar <referencia>
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: relocalizar <referencia>
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: relocalizar <referencia>
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2010-12-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2010-12-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2010-12-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2010-12-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''actualizar la referencia de un recurso que se ha movido
     o copiado a una nueva ubicación''}]'
   examples:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Cuando un servidor genera una respuesta a una petición GetFeature,
-        tiene que copiar un fenómeno referenciado en el documento de respuesta y el
-        servidor tiene que "relocalizar" el enlace original contenido en el fenómeno
-        que se está referenciando a la copia ubicada en el documento de respuesta.
-    state:
-      _dict:
-        content: Cuando un servidor genera una respuesta a una petición GetFeature,
-          tiene que copiar un fenómeno referenciado en el documento de respuesta y
-          el servidor tiene que "relocalizar" el enlace original contenido en el fenómeno
-          que se está referenciando a la copia ubicada en el documento de respuesta.
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Cuando un servidor genera una respuesta a una petición GetFeature, tiene
+      que copiar un fenómeno referenciado en el documento de respuesta y el servidor
+      tiene que "relocalizar" el enlace original contenido en el fenómeno que se está
+      referenciando a la copia ubicada en el documento de respuesta.
   id: 1036
   language_code: spa
   notes: []
   release: '2'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/42136.html
-        ref: ISO 19142:2010
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/42136.html
+      ref: ISO 19142:2010
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: relocalizar <referencia>
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: relocalizar <referencia>
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: relocalizar <referencia>
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 1bd6e5f3-2feb-5da2-9166-de653cb90dc0
 status: valid

@@ -31,72 +31,26 @@ data:
           review_status: final
           review_type: supersession
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: układ współrzędnych biegunowych
-              normative_status: null
-              type: expression
-            state:
-              _dict:
-                designation: układ współrzędnych biegunowych
-                normative_status: null
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: układ współrzędnych biegunowych
+            normative_status: null
+            type: expression
         parents: []
         timeCreated: '2007-07-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2007-07-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2007-07-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2019-01-31T00:00:00.000Z'
-      type: amended
-    state:
-      _dict:
-        date: '2019-01-31T00:00:00.000Z'
-        type: amended
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2007-07-01T00:00:00.000Z'
+    type: accepted
+  - date: '2019-01-31T00:00:00.000Z'
+    type: amended
   definition: '[{''content'': ''dwuwymiarowy układ współrzędnych, w którym położenie
     jest określone poprzez odległość i kierunek liczony od początku układu''}]'
   examples: []
   id: 620
   language_code: pol
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: W układzie trójwymiarowym układ współrzędnych biegunowych jest nazywany
-        sferycznym układem współrzędnych (patrz 4.44).
-    state:
-      _dict:
-        content: W układzie trójwymiarowym układ współrzędnych biegunowych jest nazywany
-          sferycznym układem współrzędnych (patrz 4.44).
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: W układzie trójwymiarowym układ współrzędnych biegunowych jest nazywany
+      sferycznym układem współrzędnych (patrz 4.44).
   release: '-1'
   reviewDate: 2019-01-31
   reviewDecisionDate: 2019-01-31
@@ -108,33 +62,13 @@ data:
   review_status: final
   review_type: supersession
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/41126.html
-        ref: ISO 19111:2007
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/41126.html
+      ref: ISO 19111:2007
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: układ współrzędnych biegunowych
-      type: expression
-    state:
-      _dict:
-        designation: układ współrzędnych biegunowych
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: układ współrzędnych biegunowych
+    type: expression
+dateAccepted: 2018-11-17
 id: a8077a80-4df0-5eb6-91a2-2a4221f33246
 status: valid

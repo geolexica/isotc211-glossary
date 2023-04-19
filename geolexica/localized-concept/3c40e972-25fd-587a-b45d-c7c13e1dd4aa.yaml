@@ -24,129 +24,41 @@ data:
             signal, Quadrature signal, Range, Doppler Angle, and Time.'
           release: '3'
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: phase history data
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: phase history data
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: video phase history data
-              type: expression
-            state:
-              _dict:
-                designation: video phase history data
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: phase history data
+            normative_status: preferred
+            type: expression
+          - designation: video phase history data
+            type: expression
         parents: []
         timeCreated: '2014-01-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2014-01-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2014-01-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2014-01-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''raw radar return signal information after demodulation''}]'
   examples: []
   id: 1406
   language_code: eng
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: 'Usually stored as a series of range lines, each containing information
-        from a specific range bin.  PHD can be thought of as a table of five columns:  In-phase
-        signal, Quadrature signal, Range, Doppler Angle, and Time.'
-    state:
-      _dict:
-        content: 'Usually stored as a series of range lines, each containing information
-          from a specific range bin.  PHD can be thought of as a table of five columns:  In-phase
-          signal, Quadrature signal, Range, Doppler Angle, and Time.'
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: 'Usually stored as a series of range lines, each containing information
+      from a specific range bin.  PHD can be thought of as a table of five columns:  In-phase
+      signal, Quadrature signal, Range, Doppler Angle, and Time.'
   release: '3'
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: '4.48'
-        link: https://www.iso.org/standard/56113.html
-        ref: ISO/TS 19130-2:2014
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: '4.48'
+      link: https://www.iso.org/standard/56113.html
+      ref: ISO/TS 19130-2:2014
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: PHD
-      type: abbreviation
-    state:
-      _dict:
-        designation: PHD
-        type: abbreviation
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: phase history data
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: phase history data
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: video phase history data
-      type: expression
-    state:
-      _dict:
-        designation: video phase history data
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: PHD
+    type: abbreviation
+  - designation: phase history data
+    normative_status: preferred
+    type: expression
+  - designation: video phase history data
+    type: expression
+dateAccepted: 2018-11-17
 id: 3c40e972-25fd-587a-b45d-c7c13e1dd4aa
 status: valid

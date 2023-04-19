@@ -19,90 +19,33 @@ data:
           lineage_source: ''
           notes: []
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: segment
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: segment
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: segment
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2007-10-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2007-10-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2007-10-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2007-10-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': "point ou polygone issu d''un ensemble"}]'
   examples: []
   id: 397
   language_code: fra
   notes: []
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        link: https://www.iso.org/standard/40601.html
-        ref: ISO 19132
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ''
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      link: https://www.iso.org/standard/40601.html
+      ref: ISO 19132
+    type: authoritative
+  - origin:
+      ref: ''
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: segment
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: segment
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: segment
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: f63939fb-ea15-54fe-af57-28bd2be1f126
 status: valid

@@ -24,42 +24,16 @@ data:
           review_decision_notes: Publication of document ISO 19150-4:2019(E)
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: property <RDF>
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: property <RDF>
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: property <RDF>
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2019-05-22T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2019-05-22T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2019-05-22T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2019-05-22T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''relation between subject resources and object resources''}]'
   examples: []
   id: 2342
@@ -73,34 +47,13 @@ data:
   review_decision_notes: Publication of document ISO 19150-4:2019(E)
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        ref: RDF
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      ref: RDF
+    type: authoritative
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: property <RDF>
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: property <RDF>
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: property <RDF>
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: c8fbfd82-7005-5575-a339-5fbb4998de5d
 status: valid

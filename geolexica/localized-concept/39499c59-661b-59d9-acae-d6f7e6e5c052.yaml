@@ -39,81 +39,30 @@ data:
           review_status: ''
           review_type: ''
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: область определения качества данных
-              normative_status: null
-              type: expression
-            state:
-              _dict:
-                designation: область определения качества данных
-                normative_status: null
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: область определения качества данных
+            normative_status: null
+            type: expression
         parents: []
         timeCreated: '2002-12-01T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2002-12-01T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2002-12-01T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2013-12-15T00:00:00.000Z'
-      type: amended
-    state:
-      _dict:
-        date: '2013-12-15T00:00:00.000Z'
-        type: amended
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2002-12-01T00:00:00.000Z'
+    type: accepted
+  - date: '2013-12-15T00:00:00.000Z'
+    type: amended
   definition: '[{''content'': ''область или характеристика (-и) данных, в отношении
     которых выдается информация о качестве''}]'
   examples: []
   id: 118
   language_code: rus
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: Область определения качества данных для некоторого набора данных может
-        представлять собой  комплект наборов данных, к которому такой набор данных
-        относится, сам набор данных или  меньшую группу данных, расположенную физически  в
-        пределах общих характеристик набора данных. Общими характеристиками могут
-        быть определенный  тип объекта, его атрибут или отношения, критерий сбора
-        данных, источник данных, специфическая географическая или временнáя информация
-    state:
-      _dict:
-        content: Область определения качества данных для некоторого набора данных
-          может представлять собой  комплект наборов данных, к которому такой набор
-          данных относится, сам набор данных или  меньшую группу данных, расположенную
-          физически  в пределах общих характеристик набора данных. Общими характеристиками
-          могут быть определенный  тип объекта, его атрибут или отношения, критерий
-          сбора данных, источник данных, специфическая географическая или временнáя
-          информация
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - content: Область определения качества данных для некоторого набора данных может
+      представлять собой  комплект наборов данных, к которому такой набор данных относится,
+      сам набор данных или  меньшую группу данных, расположенную физически  в пределах
+      общих характеристик набора данных. Общими характеристиками могут быть определенный  тип
+      объекта, его атрибут или отношения, критерий сбора данных, источник данных,
+      специфическая географическая или временнáя информация
   release: '-1'
   reviewDate: 2013-12-15
   reviewDecisionDate: 2013-12-15
@@ -125,47 +74,17 @@ data:
   review_status: ''
   review_type: ''
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: '4.10'
-        link: https://www.iso.org/standard/26018.html
-        ref: ISO 19113:2002
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ''
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: '4.10'
+      link: https://www.iso.org/standard/26018.html
+      ref: ISO 19113:2002
+    type: authoritative
+  - origin:
+      ref: ''
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: область определения качества данных
-      type: expression
-    state:
-      _dict:
-        designation: область определения качества данных
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: область определения качества данных
+    type: expression
+dateAccepted: 2018-11-17
 id: 39499c59-661b-59d9-acae-d6f7e6e5c052
 status: изъятый

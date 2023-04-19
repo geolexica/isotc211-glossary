@@ -37,43 +37,17 @@ data:
             from) to ISO 19135-1:2015, 4.1.5. Lineage source added as ISO/19135:2005
           review_status: final
           terms:
-          - !!python/object/new:benedict.dicts.benedict
-            dictitems:
-              designation: identifierare
-              normative_status: preferred
-              type: expression
-            state:
-              _dict:
-                designation: identifierare
-                normative_status: preferred
-                type: expression
-              _keyattr_dynamic: false
-              _keyattr_enabled: true
-              _keypath_separator: /
-              _pointer: true
+          - designation: identifierare
+            normative_status: preferred
+            type: expression
         parents: []
         timeCreated: '2005-10-15T00:00:00.000Z'
   authoritativeSource:
-  - !!python/object:benedict.dicts.benedict
-    _dict: {}
-    _keyattr_dynamic: false
-    _keyattr_enabled: true
-    _keypath_separator: /
-    _pointer: true
+  - {}
   country_code: swe
   dates:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      date: '2005-10-15T00:00:00.000Z'
-      type: accepted
-    state:
-      _dict:
-        date: '2005-10-15T00:00:00.000Z'
-        type: accepted
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - date: '2005-10-15T00:00:00.000Z'
+    type: accepted
   definition: '[{''content'': ''språkoberoende sekvens av tecken som unikt och permanent
     identifierar det den är kopplad till''}]'
   examples: []
@@ -81,26 +55,12 @@ data:
   language_code: swe
   lineage_source_similarity: 1
   notes:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      content: 'Se även geografisk identifierare.
+  - content: 'Se även geografisk identifierare.
 
-        till termpost: En identifierare är inte nödvändigtvis unik annat än i ett
-        begränsat sammanhang.
+      till termpost: En identifierare är inte nödvändigtvis unik annat än i ett begränsat
+      sammanhang.
 
-        Källa: [ISO/IEC 11179-3:2003]'
-    state:
-      _dict:
-        content: 'Se även geografisk identifierare.
-
-          till termpost: En identifierare är inte nödvändigtvis unik annat än i ett
-          begränsat sammanhang.
-
-          Källa: [ISO/IEC 11179-3:2003]'
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+      Källa: [ISO/IEC 11179-3:2003]'
   release: '2'
   reviewDate: 2010-10-19
   reviewDecisionDate: 2015-10-01
@@ -110,49 +70,18 @@ data:
     from) to ISO 19135-1:2015, 4.1.5. Lineage source added as ISO/19135:2005
   review_status: final
   sources:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id001
-        clause: 4.1.5
-        link: https://www.iso.org/standard/54721.html
-        ref: ISO 19135-1:2015
-      type: authoritative
-    state:
-      _dict:
-        origin: *id001
-        type: authoritative
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      origin: &id002
-        ref: ISO/19135:2005
-      type: lineage
-    state:
-      _dict:
-        origin: *id002
-        type: lineage
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
+  - origin:
+      clause: 4.1.5
+      link: https://www.iso.org/standard/54721.html
+      ref: ISO 19135-1:2015
+    type: authoritative
+  - origin:
+      ref: ISO/19135:2005
+    type: lineage
   terms:
-  - !!python/object/new:benedict.dicts.benedict
-    dictitems:
-      designation: identifierare
-      normative_status: preferred
-      type: expression
-    state:
-      _dict:
-        designation: identifierare
-        normative_status: preferred
-        type: expression
-      _keyattr_dynamic: false
-      _keyattr_enabled: true
-      _keypath_separator: /
-      _pointer: true
-dateAccepted: 2023-04-08
+  - designation: identifierare
+    normative_status: preferred
+    type: expression
+dateAccepted: 2018-11-17
 id: 4ff3b2af-91c6-5a64-ba4d-0ae3ae93011d
 status: valid
