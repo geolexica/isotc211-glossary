@@ -1,0 +1,63 @@
+data:
+  _revisions:
+    current: 35e71f
+    tree:
+      35e71f:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          abbrev: FOV
+          authoritative_source:
+            ref: Manual of Photogrammetry
+          date_accepted: '2014-01-15T00:00:00.000Z'
+          definition: instantaneous region seen by a sensor, provided in angular measure
+          entry_status: valid
+          examples: []
+          id: 1388
+          language_code: eng
+          lineage_source: ISO/TS 19130-2:2014, 4.20
+          lineage_source_similarity: 1
+          notes:
+          - In the airborne case, this would be swath width for a linear array, ground
+            footprint for an area array, and for a whiskbroom scanner it refers to
+            the swath width.
+          release: '3'
+          terms:
+          - designation: field of view
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2014-01-15T00:00:00.000Z'
+  authoritativeSource:
+  - {}
+  dates:
+  - date: '2014-01-15T00:00:00.000Z'
+    type: accepted
+  definition: '[{''content'': ''instantaneous region seen by a sensor, provided in
+    angular measure''}]'
+  examples: []
+  id: 1388
+  language_code: eng
+  lineage_source_similarity: 1
+  notes:
+  - content: In the airborne case, this would be swath width for a linear array, ground
+      footprint for an area array, and for a whiskbroom scanner it refers to the swath
+      width.
+  release: '3'
+  sources:
+  - origin:
+      ref: Manual of Photogrammetry
+    type: authoritative
+  - origin:
+      ref: ISO/TS 19130-2:2014, 4.20
+    type: lineage
+  terms:
+  - designation: FOV
+    type: abbreviation
+  - designation: field of view
+    normative_status: preferred
+    type: expression
+dateAccepted: 2023-04-17
+id: 6b3e86c9-281f-5b05-83c3-13a1ae247438
+status: valid

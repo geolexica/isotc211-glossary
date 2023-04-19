@@ -1,0 +1,82 @@
+data:
+  _revisions:
+    current: 1597c2
+    tree:
+      1597c2:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.1.58
+            link: https://www.iso.org/standard/75676.html
+            ref: ISO 19136-1:2020
+          date_accepted: '2007-09-01T00:00:00.000Z'
+          definition: markup in an XML document delimiting the content of an element
+          entry_status: valid
+          examples:
+          - <Road>.
+          id: 441
+          language_code: eng
+          lineage_source: ISO 19136:2007(E)
+          lineage_source_similarity: 1
+          notes:
+          - A tag with no forward slash (e.g. <Road> ) is called a start-tag (also
+            opening tag), and one with a forward slash (e.g. </Road> is called an
+            end-tag (also closing tag).
+          release: '1'
+          review_date: '2020-01-09T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2020-01-09T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19136-1:2020(E)
+          review_decision_notes: Authoritative reference changed from ISO 19136:2007
+            to ISO 19136-1:2020(E), 3.1.58. Lineage source added as ISO 19136:2007(E)
+          review_indicator: ''
+          review_status: final
+          terms:
+          - designation: tag <XML>
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2007-09-01T00:00:00.000Z'
+  authoritativeSource:
+  - {}
+  dates:
+  - date: '2007-09-01T00:00:00.000Z'
+    type: accepted
+  definition: '[{''content'': ''markup in an XML document delimiting the content of
+    an element''}]'
+  examples:
+  - content: <Road>.
+  id: 441
+  language_code: eng
+  lineage_source_similarity: 1
+  notes:
+  - content: A tag with no forward slash (e.g. <Road> ) is called a start-tag (also
+      opening tag), and one with a forward slash (e.g. </Road> is called an end-tag
+      (also closing tag).
+  release: '1'
+  reviewDate: 2020-01-09
+  reviewDecisionDate: 2020-01-09
+  reviewDecisionEvent: Publication of ISO 19136-1:2020(E)
+  review_decision: accepted
+  review_decision_notes: Authoritative reference changed from ISO 19136:2007 to ISO
+    19136-1:2020(E), 3.1.58. Lineage source added as ISO 19136:2007(E)
+  review_indicator: ''
+  review_status: final
+  sources:
+  - origin:
+      clause: (E), 3.1.58
+      link: https://www.iso.org/standard/75676.html
+      ref: ISO 19136-1:2020
+    type: authoritative
+  - origin:
+      ref: ISO 19136:2007(E)
+    type: lineage
+  terms:
+  - designation: tag <XML>
+    normative_status: preferred
+    type: expression
+dateAccepted: 2023-04-17
+id: 7978962f-567b-5d0e-8a80-483ff69d6eb7
+status: valid

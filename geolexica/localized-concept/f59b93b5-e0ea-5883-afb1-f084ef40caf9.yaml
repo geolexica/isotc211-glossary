@@ -1,0 +1,73 @@
+data:
+  _revisions:
+    current: eb1d18
+    tree:
+      eb1d18:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.15'
+            link: https://www.iso.org/standard/42137.html
+            ref: ISO 19143:2010
+          date_accepted: '2015-07-01T00:00:00.000Z'
+          definition: constant, explicitly specified value
+          entry_status: valid
+          examples:
+          - “1”^^xsd:integer, “abc”^^xsd:string
+          id: 1644
+          language_code: eng
+          notes:
+          - This contrasts with a value that is determined by resolving a chain of
+            substitution (e.g. a variable).
+          release: '4'
+          review_date: '2012-05-25T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2015-07-01T00:00:00.000Z'
+          review_decision_event: Normal ISO processing
+          review_decision_notes: Publication of document ISO 19150-2:2015(E)
+          review_status: final
+          terms:
+          - designation: literal
+            normative_status: admitted
+            type: expression
+          - designation: literal value
+            type: expression
+        parents: []
+        timeCreated: '2015-07-01T00:00:00.000Z'
+  authoritativeSource:
+  - {}
+  dates:
+  - date: '2015-07-01T00:00:00.000Z'
+    type: accepted
+  definition: '[{''content'': ''constant, explicitly specified value''}]'
+  examples:
+  - content: “1”^^xsd:integer, “abc”^^xsd:string
+  id: 1644
+  language_code: eng
+  notes:
+  - content: This contrasts with a value that is determined by resolving a chain of
+      substitution (e.g. a variable).
+  release: '4'
+  reviewDate: 2012-05-25
+  reviewDecisionDate: 2015-07-01
+  reviewDecisionEvent: Normal ISO processing
+  review_decision: accepted
+  review_decision_notes: Publication of document ISO 19150-2:2015(E)
+  review_status: final
+  sources:
+  - origin:
+      clause: '4.15'
+      link: https://www.iso.org/standard/42137.html
+      ref: ISO 19143:2010
+    type: authoritative
+  terms:
+  - designation: literal
+    normative_status: admitted
+    type: expression
+  - designation: literal value
+    type: expression
+dateAccepted: 2023-04-17
+id: f59b93b5-e0ea-5883-afb1-f084ef40caf9
+status: valid

@@ -1,0 +1,82 @@
+data:
+  _revisions:
+    current: 18b1c1
+    tree:
+      18b1c1:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32551.html
+            ref: ISO 19133:2005
+          country_code: swe
+          date_accepted: '2005-10-15T00:00:00.000Z'
+          definition: kriterier som gäller i en sväng i stället för ruttinstruktionen;
+            förutbestämd instruktion i en nod
+          entry_status: valid
+          examples: []
+          id: 280
+          language_code: swe
+          lineage_source: (Type reference to national language document)
+          notes:
+          - This rule represents what is "most natural" to do at a node (intersection),
+            given the entry link used. The most common version is "as straight as
+            possible", or to exit a turn on the most obvious extension of the entry
+            street, which is usually, but not always, the same named street that was
+            the entry. Every node in a route is either associated with an instruction
+            or can be navigated by the main-road rule.
+          - Denna regel representerar vad som är mest normalt att göra i en nod (korsning),
+            givet den inkommande länken. Den mest vanlliga varianten är rakaste vägen,
+            eller att lämna en sväng i den mest självklara sträckningen av inkommande
+            väg, vilket vanligtvis men inte alltid är samma namngivna väg som ingående.
+            Varje nod i en rutt är antingen förkninppad med en instruktion eller navigerad
+            med huvudvägval.
+          release: '1'
+          review_indicator: ''
+          terms:
+          - designation: huvudvägval
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2005-10-15T00:00:00.000Z'
+  authoritativeSource:
+  - {}
+  country_code: swe
+  dates:
+  - date: '2005-10-15T00:00:00.000Z'
+    type: accepted
+  definition: '[{''content'': ''kriterier som gäller i en sväng i stället för ruttinstruktionen;
+    förutbestämd instruktion i en nod''}]'
+  examples: []
+  id: 280
+  language_code: swe
+  notes:
+  - content: This rule represents what is "most natural" to do at a node (intersection),
+      given the entry link used. The most common version is "as straight as possible",
+      or to exit a turn on the most obvious extension of the entry street, which is
+      usually, but not always, the same named street that was the entry. Every node
+      in a route is either associated with an instruction or can be navigated by the
+      main-road rule.
+  - content: Denna regel representerar vad som är mest normalt att göra i en nod (korsning),
+      givet den inkommande länken. Den mest vanlliga varianten är rakaste vägen, eller
+      att lämna en sväng i den mest självklara sträckningen av inkommande väg, vilket
+      vanligtvis men inte alltid är samma namngivna väg som ingående. Varje nod i
+      en rutt är antingen förkninppad med en instruktion eller navigerad med huvudvägval.
+  release: '1'
+  review_indicator: ''
+  sources:
+  - origin:
+      link: https://www.iso.org/standard/32551.html
+      ref: ISO 19133:2005
+    type: authoritative
+  - origin:
+      ref: (Type reference to national language document)
+    type: lineage
+  terms:
+  - designation: huvudvägval
+    normative_status: preferred
+    type: expression
+dateAccepted: 2023-04-17
+id: 25fab25f-81b2-5868-8ca0-0f81df5cd182
+status: valid

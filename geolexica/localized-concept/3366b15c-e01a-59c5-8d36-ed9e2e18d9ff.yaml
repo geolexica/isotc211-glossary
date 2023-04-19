@@ -1,0 +1,76 @@
+data:
+  _revisions:
+    current: 5ab1ef
+    tree:
+      5ab1ef:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32620.html
+            ref: ISO/IEC 19501
+          date_accepted: '2005-07-15T00:00:00.000Z'
+          definition: форма агрегации, при которой экземпляр – часть в любой момент
+            входит не более, чем в один композит, причем, композит отвечает за создание
+            и уничтожение этой части
+          entry_status: valid
+          examples: []
+          id: 725
+          language_code: rus
+          lineage_source: ISO/TS 19103:2005 ,4.2.10
+          lineage_source_similarity: 1
+          notes:
+          - Части с нефиксированной множественностью могут быть созданы и после самого
+            композита, однако,  будучи созданными,  живут и умирают вместе с ним (иными
+            словами,   имеют общий жизненный цикл). Такие части могут также быть удалены
+            еще до смерти композиции. Композиция может быть рекурсивной. См.  термины
+            «агрегация»,   «композиция»
+          release: '1'
+          review_date: '2009-08-31T00:00:00.000Z'
+          review_indicator: ''
+          review_status: ''
+          review_type: ''
+          terms:
+          - designation: композиция <UML>
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2005-07-15T00:00:00.000Z'
+  authoritativeSource:
+  - {}
+  dates:
+  - date: '2005-07-15T00:00:00.000Z'
+    type: accepted
+  definition: '[{''content'': ''форма агрегации, при которой экземпляр – часть в любой
+    момент входит не более, чем в один композит, причем, композит отвечает за создание
+    и уничтожение этой части''}]'
+  examples: []
+  id: 725
+  language_code: rus
+  lineage_source_similarity: 1
+  notes:
+  - content: Части с нефиксированной множественностью могут быть созданы и после самого
+      композита, однако,  будучи созданными,  живут и умирают вместе с ним (иными
+      словами,   имеют общий жизненный цикл). Такие части могут также быть удалены
+      еще до смерти композиции. Композиция может быть рекурсивной. См.  термины «агрегация»,   «композиция»
+  release: '1'
+  reviewDate: 2009-08-31
+  review_indicator: ''
+  review_status: ''
+  review_type: ''
+  sources:
+  - origin:
+      link: https://www.iso.org/standard/32620.html
+      ref: ISO/IEC 19501
+    type: authoritative
+  - origin:
+      ref: ISO/TS 19103:2005 ,4.2.10
+    type: lineage
+  terms:
+  - designation: композиция <UML>
+    normative_status: preferred
+    type: expression
+dateAccepted: 2023-04-17
+id: 3366b15c-e01a-59c5-8d36-ed9e2e18d9ff
+status: valid

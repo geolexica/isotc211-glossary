@@ -1,0 +1,67 @@
+data:
+  _revisions:
+    current: 397d3a
+    tree:
+      397d3a:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32551.html
+            ref: ISO 19133:2005
+          date_accepted: '2005-10-15T00:00:00.000Z'
+          definition: неотрицательно взвешенный ориентированный граф, специально сконфигурированный
+            для выполнения операции поиска кратчайшего пути
+          entry_status: valid
+          examples: []
+          id: 133
+          language_code: rus
+          lineage_source: Internet
+          notes:
+          - Термин берет начало из общеизвестного алгоритма для нахождения наикратчайшего
+            пути в неотрицательно взвешенном ориентированном графе, описанном в работе
+            Э.Дейкстры.     Хотя  этот алгоритм не является единственным, который
+            используется, требования к графу являются общими для многих алгоритмов.
+            Наиболее распространенным смягчением требования является требование «положительных
+            весов», которое не требуется в алгоритме Беллмана-Форда
+          review_indicator: ''
+          terms:
+          - designation: граф Дейкстры
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2005-10-15T00:00:00.000Z'
+  authoritativeSource:
+  - {}
+  dates:
+  - date: '2005-10-15T00:00:00.000Z'
+    type: accepted
+  definition: '[{''content'': ''неотрицательно взвешенный ориентированный граф, специально
+    сконфигурированный для выполнения операции поиска кратчайшего пути''}]'
+  examples: []
+  id: 133
+  language_code: rus
+  notes:
+  - content: Термин берет начало из общеизвестного алгоритма для нахождения наикратчайшего
+      пути в неотрицательно взвешенном ориентированном графе, описанном в работе Э.Дейкстры.     Хотя  этот
+      алгоритм не является единственным, который используется, требования к графу
+      являются общими для многих алгоритмов. Наиболее распространенным смягчением
+      требования является требование «положительных весов», которое не требуется в
+      алгоритме Беллмана-Форда
+  review_indicator: ''
+  sources:
+  - origin:
+      link: https://www.iso.org/standard/32551.html
+      ref: ISO 19133:2005
+    type: authoritative
+  - origin:
+      ref: Internet
+    type: lineage
+  terms:
+  - designation: граф Дейкстры
+    normative_status: preferred
+    type: expression
+dateAccepted: 2023-04-17
+id: 18861fb6-143e-546a-95df-1a3c49b18985
+status: valid

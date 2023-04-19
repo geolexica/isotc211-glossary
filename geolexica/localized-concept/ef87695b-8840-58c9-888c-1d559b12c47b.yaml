@@ -1,0 +1,65 @@
+data:
+  _revisions:
+    current: 5aaa2b
+    tree:
+      5aaa2b:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32551.html
+            ref: ISO 19133:2005
+          date_accepted: '2005-10-15T00:00:00.000Z'
+          definition: conjunto de criterios usados en un giro en lugar de una instrucción
+            de ruta; instrucción por defecto usada en un nodo
+          entry_status: valid
+          examples: []
+          id: 280
+          language_code: spa
+          notes:
+          - Esta regla representa que es lo "más natural" para hacer en un nodo (intersección),
+            según el enlace de entrada usado. La versión más común es "lo más recto
+            posible", o salir de un giro siguiendo la continuación más obvia de la
+            calle de entrada, que usualmente, pero no siempre, tiene el mismo nombre
+            que la calle de entrada. Cada nodo en una ruta está asociado con una instrucción
+            o puede ser navegado mediante la regla de la carretera principal..
+          release: '1'
+          review_indicator: ''
+          terms:
+          - designation: regla de la vía principal
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2005-10-15T00:00:00.000Z'
+  authoritativeSource:
+  - {}
+  dates:
+  - date: '2005-10-15T00:00:00.000Z'
+    type: accepted
+  definition: '[{''content'': ''conjunto de criterios usados en un giro en lugar de
+    una instrucción de ruta; instrucción por defecto usada en un nodo''}]'
+  examples: []
+  id: 280
+  language_code: spa
+  notes:
+  - content: Esta regla representa que es lo "más natural" para hacer en un nodo (intersección),
+      según el enlace de entrada usado. La versión más común es "lo más recto posible",
+      o salir de un giro siguiendo la continuación más obvia de la calle de entrada,
+      que usualmente, pero no siempre, tiene el mismo nombre que la calle de entrada.
+      Cada nodo en una ruta está asociado con una instrucción o puede ser navegado
+      mediante la regla de la carretera principal..
+  release: '1'
+  review_indicator: ''
+  sources:
+  - origin:
+      link: https://www.iso.org/standard/32551.html
+      ref: ISO 19133:2005
+    type: authoritative
+  terms:
+  - designation: regla de la vía principal
+    normative_status: preferred
+    type: expression
+dateAccepted: 2023-04-17
+id: ef87695b-8840-58c9-888c-1d559b12c47b
+status: valid

@@ -1,0 +1,80 @@
+data:
+  _revisions:
+    current: 3e2858
+    tree:
+      3e2858:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          abbrev: LIDAR
+          authoritative_source:
+            clause: '4.40'
+            link: https://www.iso.org/standard/56113.html
+            ref: ISO/TS 19130-2:2014
+          date_accepted: '2014-01-15T00:00:00.000Z'
+          definition: sistema que consiste en 1) una fuente de fotones (normalmente,
+            aunque no siempre, un láser), 2) un sistema de detección de fotones, 3)
+            un circuito de temporización y 4) un sistema óptico tanto para la fuente
+            como para el receptor, que emite luz láser para medir rangos y/o propiedades
+            de objetos sólidos, gases o partículas en la atmósfera
+          entry_status: valid
+          examples: []
+          id: 1400
+          language_code: spa
+          notes:
+          - Durante el tiempo de vuelo (TOF) el lidar usa pulsos cortos de láser y
+            registra de manera precisa el tiempo al que cada pulso láser fue emitido
+            y el tiempo en que es recibido tras la reflexión, para calcular la(s)
+            distancia(s) entre los elementos del territorio y el sensor (al dispersor
+            encontrado por el pulso). Para lidar topográfico, estas medidas de tiempo
+            de vuelo están combinadas con un sistema de determinación precisa de la
+            posición para reproducir un producto tridimensional del área de interés.
+          release: '3'
+          terms:
+          - designation: light detection and ranging
+            normative_status: preferred
+            type: expression
+          - designation: lidar
+            type: expression
+        parents: []
+        timeCreated: '2014-01-15T00:00:00.000Z'
+  authoritativeSource:
+  - {}
+  dates:
+  - date: '2014-01-15T00:00:00.000Z'
+    type: accepted
+  definition: '[{''content'': ''sistema que consiste en 1) una fuente de fotones (normalmente,
+    aunque no siempre, un láser), 2) un sistema de detección de fotones, 3) un circuito
+    de temporización y 4) un sistema óptico tanto para la fuente como para el receptor,
+    que emite luz láser para medir rangos y/o propiedades de objetos sólidos, gases
+    o partículas en la atmósfera''}]'
+  examples: []
+  id: 1400
+  language_code: spa
+  notes:
+  - content: Durante el tiempo de vuelo (TOF) el lidar usa pulsos cortos de láser
+      y registra de manera precisa el tiempo al que cada pulso láser fue emitido y
+      el tiempo en que es recibido tras la reflexión, para calcular la(s) distancia(s)
+      entre los elementos del territorio y el sensor (al dispersor encontrado por
+      el pulso). Para lidar topográfico, estas medidas de tiempo de vuelo están combinadas
+      con un sistema de determinación precisa de la posición para reproducir un producto
+      tridimensional del área de interés.
+  release: '3'
+  sources:
+  - origin:
+      clause: '4.40'
+      link: https://www.iso.org/standard/56113.html
+      ref: ISO/TS 19130-2:2014
+    type: authoritative
+  terms:
+  - designation: LIDAR
+    type: abbreviation
+  - designation: light detection and ranging
+    normative_status: preferred
+    type: expression
+  - designation: lidar
+    type: expression
+dateAccepted: 2023-04-17
+id: 54e59763-4dfc-58c5-8df9-85e3d372c4bf
+status: valid

@@ -1,0 +1,73 @@
+data:
+  _revisions:
+    current: f9dbc6
+    tree:
+      f9dbc6:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/40601.html
+            ref: ISO 19132:2007
+          date_accepted: '2007-10-15T00:00:00.000Z'
+          definition: medida de los pares de valores de un tipo de atributo que asigna
+            un valor numérico que es positivo, simétrico y satisface la desigualdad
+            triangular
+          entry_status: valid
+          examples: []
+          id: 664
+          language_code: spa
+          notes:
+          - Una medida "d" es positiva si d(x, y) > 0 para cada x e y con xy, y d(x,
+            x) = 0. Una medida "d" es simétrica si d(x, y) = d(y, x) para cada x e
+            y. Una medida "d" satisface la desigualdad triangular, si d(x, y)  d(x,
+            a) + d(a, y) para cada a, x e y. Todos los atributos de valores numéricos
+            o vectores disponen de una métrica, siendo la más común la métrica euclídea
+            basada en la raíz cuadrada de la suma de los cuadrados de las diferencias
+            en cada dimensión. Otras métricas no-euclídeas tienen en cuenta la "curvatura
+            del espacio" (como a lo largo de la superficie del esferoide).
+          release: '1'
+          terms:
+          - designation: medida de distancia
+            normative_status: preferred
+            type: expression
+          - designation: métrica de distancia
+            type: expression
+        parents: []
+        timeCreated: '2007-10-15T00:00:00.000Z'
+  authoritativeSource:
+  - {}
+  dates:
+  - date: '2007-10-15T00:00:00.000Z'
+    type: accepted
+  definition: '[{''content'': ''medida de los pares de valores de un tipo de atributo
+    que asigna un valor numérico que es positivo, simétrico y satisface la desigualdad
+    triangular''}]'
+  examples: []
+  id: 664
+  language_code: spa
+  notes:
+  - content: Una medida "d" es positiva si d(x, y) > 0 para cada x e y con xy, y
+      d(x, x) = 0. Una medida "d" es simétrica si d(x, y) = d(y, x) para cada x e
+      y. Una medida "d" satisface la desigualdad triangular, si d(x, y)  d(x, a)
+      + d(a, y) para cada a, x e y. Todos los atributos de valores numéricos o vectores
+      disponen de una métrica, siendo la más común la métrica euclídea basada en la
+      raíz cuadrada de la suma de los cuadrados de las diferencias en cada dimensión.
+      Otras métricas no-euclídeas tienen en cuenta la "curvatura del espacio" (como
+      a lo largo de la superficie del esferoide).
+  release: '1'
+  sources:
+  - origin:
+      link: https://www.iso.org/standard/40601.html
+      ref: ISO 19132:2007
+    type: authoritative
+  terms:
+  - designation: medida de distancia
+    normative_status: preferred
+    type: expression
+  - designation: métrica de distancia
+    type: expression
+dateAccepted: 2023-04-17
+id: da34af6d-1b61-5362-9672-34fbb976de8c
+status: valid

@@ -1,0 +1,96 @@
+data:
+  _revisions:
+    current: 2235e2
+    tree:
+      2235e2:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.47
+            link: https://www.iso.org/standard/66175.html
+            ref: ISO 19107:2019
+          date_accepted: '2003-05-01T00:00:00.000Z'
+          definition: set of disjoint geometric primitives where the boundary of each
+            geometric primitive can be represented as the union of other geometric
+            primitives of smaller dimension within the same set
+          entry_status: valid
+          examples: []
+          id: 212
+          language_code: eng
+          lineage_source: ISO 19107:2003(E)
+          lineage_source_similarity: 1
+          notes:
+          - The geometric primitives in the set are disjoint in the sense that no
+            direct position is interior to more than one geometric primitive. The
+            set is closed under boundary operations, meaning that for each element
+            in the geometric complex, there is a collection (also a geometric complex)
+            of geometric primitives that represents the boundary of that element.
+            Recall that the boundary of a point (the only 0D primitive object type
+            in geometry) is empty. Thus, if the largest dimension geometric primitive
+            is a solid (3D), the composition of the boundary operator in this definition
+            terminates after at most three steps. It is also the case that the boundary
+            of any object is a cycle.
+          release: '1'
+          review_date: '2019-12-02T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-12-02T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19107:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19107:2003
+            to ISO 19107:2019(E), 3.47. Lineage source added as ISO 19107:2003(E)
+          review_indicator: ''
+          review_status: final
+          terms:
+          - designation: geometric complex
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2003-05-01T00:00:00.000Z'
+  authoritativeSource:
+  - {}
+  dates:
+  - date: '2003-05-01T00:00:00.000Z'
+    type: accepted
+  definition: '[{''content'': ''set of disjoint geometric primitives where the boundary
+    of each geometric primitive can be represented as the union of other geometric
+    primitives of smaller dimension within the same set''}]'
+  examples: []
+  id: 212
+  language_code: eng
+  lineage_source_similarity: 1
+  notes:
+  - content: The geometric primitives in the set are disjoint in the sense that no
+      direct position is interior to more than one geometric primitive. The set is
+      closed under boundary operations, meaning that for each element in the geometric
+      complex, there is a collection (also a geometric complex) of geometric primitives
+      that represents the boundary of that element. Recall that the boundary of a
+      point (the only 0D primitive object type in geometry) is empty. Thus, if the
+      largest dimension geometric primitive is a solid (3D), the composition of the
+      boundary operator in this definition terminates after at most three steps. It
+      is also the case that the boundary of any object is a cycle.
+  release: '1'
+  reviewDate: 2019-12-02
+  reviewDecisionDate: 2019-12-02
+  reviewDecisionEvent: Publication of ISO 19107:2019(E)
+  review_decision: accepted
+  review_decision_notes: Authoritative reference changed from ISO 19107:2003 to ISO
+    19107:2019(E), 3.47. Lineage source added as ISO 19107:2003(E)
+  review_indicator: ''
+  review_status: final
+  sources:
+  - origin:
+      clause: (E), 3.47
+      link: https://www.iso.org/standard/66175.html
+      ref: ISO 19107:2019
+    type: authoritative
+  - origin:
+      ref: ISO 19107:2003(E)
+    type: lineage
+  terms:
+  - designation: geometric complex
+    normative_status: preferred
+    type: expression
+dateAccepted: 2023-04-17
+id: c3a4e480-0f1d-53cf-b03b-a76b2e153220
+status: valid
