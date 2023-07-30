@@ -1,0 +1,44 @@
+data:
+  authoritativeSource:
+  - {}
+  dates:
+  - date: '2019-12-02T00:00:00.000Z'
+    type: accepted
+  definition:
+  - content: storage mechanism for multidimensional array in linear memory, organized
+      such that each row is stored in consecutive locations and such that the complete
+      rows are the stored one after the other and continuing on is a similar fashion
+      of each additional index
+  examples: []
+  id: 2176
+  language_code: eng
+  notes:
+  - content: 'If the indexes are `(i, j)` with the number of rows `r` and columns
+      `c`, then the mapping between the multidimensional locations to the linear storage
+      locations is given by: \[[i,j \in \mathbb{Z} \backepsilon 1 \leq i \leq r; 1
+      \leq j \leq c] \implies [(i,j) \rightarrow (i-1)c + j]\] \[[i,j,k \in \mathbb{Z}
+      \backepsilon 1 \leq i \leq r; 1 \leq j \leq c; 1 \leq k \leq f] \implies [(i,j,k)
+      \rightarrow ((i-1)c + j -1)f + k]\]'
+  - content: 'The matrix `[[1,2,3],[4,5,6],[7,8,9]]` in row major form is stored as
+      `[1, 2, 3, 4, 5, 6, 7, 8, 9]`. For higher dimensions, the same pattern is applied
+      recursively:'
+  release: '5'
+  reviewDate: 2019-12-02
+  reviewDecisionDate: 2019-12-02
+  reviewDecisionEvent: Normal ISO processing
+  review_decision: accepted
+  review_decision_notes: Publication of document ISO 19107:2019(E)
+  review_status: final
+  sources:
+  - origin:
+      clause: '3.81'
+      link: https://www.iso.org/standard/66175.html
+      ref: ISO 19107:2019
+    type: authoritative
+  terms:
+  - designation: row-major form <mathematics, computer science>
+    normative_status: preferred
+    type: expression
+dateAccepted: 2023-04-17
+id: ed37bf34-6c71-507e-9d60-4d769a1e3c9a
+status: valid

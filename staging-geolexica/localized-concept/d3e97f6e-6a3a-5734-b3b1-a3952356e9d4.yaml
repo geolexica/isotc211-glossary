@@ -1,0 +1,43 @@
+data:
+  authoritativeSource:
+  - {}
+  dates:
+  - date: '2003-05-01T00:00:00.000Z'
+    type: accepted
+  definition:
+  - content: 하나의 변과 그 변이 갖는 방향성 간의 연관으로 표현된 방향성 위상 객체
+  examples: []
+  id: 136
+  language_code: kor
+  lineage_source_similarity: 1
+  notes:
+  - content: 방향성 변은 그 변의 방향과 일치하면 + 방향을, 그렇지 않으면 - 방향을 가진다. 방향성 변은 계산 위상에서 동일한 변의
+      오른편(-)인지 왼편(+)인지를 구분하기 위해 사용되며, 동일한 변의 시작 절점(-)과 끝 절점(+)을 구분하여 컴퓨터를 이용하는 위상학이
+      이러한 개념을 표현할 수 있도록 한다.
+  release: '1'
+  reviewDate: 2019-12-02
+  reviewDecisionDate: 2019-12-02
+  reviewDecisionEvent: Publication of ISO 19107:2019(E)
+  review_decision: accepted
+  review_decision_notes: Authoritative reference changed from ISO 19107:2003 to ISO
+    19107:2019(E), 3.23. Lineage source added as ISO 19107:2003(E)
+  review_indicator: ''
+  review_status: final
+  sources:
+  - origin:
+      clause: '3.23'
+      link: https://www.iso.org/standard/66175.html
+      ref: ISO 19107:2019
+    type: authoritative
+  - origin:
+      ref: ISO 19107:2003(E)
+    type: lineage
+  terms:
+  - designation: 방향성 변
+    normative_status: preferred
+    type: expression
+  - designation: 방향성 에지
+    type: expression
+dateAccepted: 2023-04-17
+id: d3e97f6e-6a3a-5734-b3b1-a3952356e9d4
+status: valid

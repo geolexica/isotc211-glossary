@@ -1,0 +1,39 @@
+data:
+  authoritativeSource:
+  - {}
+  dates:
+  - date: '2019-12-02T00:00:00.000Z'
+    type: accepted
+  definition:
+  - content: never increasing or never decreasing
+  examples: []
+  id: 2170
+  language_code: eng
+  notes:
+  - content: An increasing sequence never gets smaller. A strictly increasing sequence
+      always gets larger. A decreasing sequence never gets larger. A strictly decreasing
+      sequence always gets smaller. `[x(i) "is increasing"] hArr [i < j => x(i) <=
+      x(j)]` `[x(i) "is strickly increasing"] hArr [i < j => x(i) < x(j)]` `[x(i)
+      text( is decreasing)] hArr [i < j => x(i) >= x(j)]` `[x(i) text( is strickly
+      decreasing)] hArr [i < j => x(i) > x(j)]` `[x(i) text( is decreasing)] vv [x(i)
+      text( is increasing)] hArr [x(i) text( is monotonic)]`
+  release: '5'
+  reviewDate: 2019-12-02
+  reviewDecisionDate: 2019-12-02
+  reviewDecisionEvent: Normal ISO processing
+  review_decision: accepted
+  review_decision_notes: Publication of document ISO 19107:2019(E)
+  review_status: final
+  sources:
+  - origin:
+      clause: '3.64'
+      link: https://www.iso.org/standard/66175.html
+      ref: ISO 19107:2019
+    type: authoritative
+  terms:
+  - designation: monotonic <mathematics>
+    normative_status: preferred
+    type: expression
+dateAccepted: 2023-04-17
+id: d226976a-f176-5316-9a1f-b563aecd045f
+status: valid

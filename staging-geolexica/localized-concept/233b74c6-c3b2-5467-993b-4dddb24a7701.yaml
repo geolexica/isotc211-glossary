@@ -1,0 +1,30 @@
+data:
+  authoritativeSource:
+  - {}
+  dates:
+  - date: '2005-08-15T00:00:00.000Z'
+    type: accepted
+  definition:
+  - content: feature, der virker som en funktion, som returnerer værdier fra sin værdimængde,
+      for enhver direkte position inden for dens rumlige, temporale eller rumlig-temporale
+      domæne
+  examples:
+  - content: Eksempler er fx et rasterbillede, polygonoverlay eller digital højdematrix
+  id: 99
+  language_code: dan
+  notes:
+  - content: Med andre ord er en coverage en feature, som har flere mulige værdier
+      for hver attributtype, hvor hver direkte position i den geometriske repræsentation
+      af featuren har én værdi for hver attributtype.
+  release: '1'
+  sources:
+  - origin:
+      link: https://www.iso.org/standard/40121.html
+      ref: ISO 19123:2005
+    type: authoritative
+  terms:
+  - designation: coverage
+    type: expression
+dateAccepted: 2023-04-17
+id: 233b74c6-c3b2-5467-993b-4dddb24a7701
+status: valid

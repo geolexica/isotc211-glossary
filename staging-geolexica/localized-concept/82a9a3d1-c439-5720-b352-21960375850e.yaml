@@ -1,0 +1,30 @@
+data:
+  authoritativeSource:
+  - {}
+  dates:
+  - date: '2014-01-15T00:00:00.000Z'
+    type: accepted
+  definition:
+  - content: power per unit solid angle from a point source into a particular direction
+  examples: []
+  id: 1397
+  language_code: eng
+  notes:
+  - content: Typically for LIDAR, sufficient calibration has not been done to calculate
+      absolute intensity, so relative intensity is usually reported.  In linear mode
+      systems, this value is typically provided as an integer, resulting from a mapping
+      of the return’s signal power to an integer value via a lookup table.
+  release: '3'
+  sources:
+  - origin:
+      clause: '4.37'
+      link: https://www.iso.org/standard/56113.html
+      ref: ISO/TS 19130-2:2014
+    type: authoritative
+  terms:
+  - designation: intensity
+    normative_status: preferred
+    type: expression
+dateAccepted: 2023-04-17
+id: 82a9a3d1-c439-5720-b352-21960375850e
+status: valid
