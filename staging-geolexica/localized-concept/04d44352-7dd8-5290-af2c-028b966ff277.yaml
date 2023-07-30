@@ -1,0 +1,46 @@
+data:
+  authoritativeSource:
+  - {}
+  dates:
+  - date: '2003-05-01T00:00:00.000Z'
+    type: accepted
+  definition:
+  - content: vähimmäismäärä vapaita muuttujia, joka tarvitaan erottamaan geometrisen
+      objektin sisällä olevat lähekkäiset pisteet toisistaan
+  examples: []
+  id: 463
+  language_code: fin
+  notes:
+  - content: Määritelmässä mainittuja vapaita muuttujia voidaan tavallisesti ajatella
+      paikallisena koordinaatistona. Kolmiulotteisessa koordinaattiavaruudessa taso  voidaan
+      kirjoittaa yhtälönä P(u, v) = A + u X + v Y, missä u ja v ovat reaalilukuja,
+      A on mikä hyvänsä tason piste ja X ja Y ovat kaksi tasoa tangenttivektoria.
+      Koska sijainnit tasolla voidaan erottaa u:n ja v:n avulla (tässä universaalisti),
+      taso on kaksiulotteinen ja (u, v) on koordinaatisto tasolla sijaitseville pisteille.
+      Yleisillä pinnoilla tätä ei yleensä voida tehdä universaalisti. Jos otetaan
+      pinnan tangenttitaso ja projisioidaan pinnalla olevia pisteitä tälle tasolle,
+      syntyy normaalisti tangenttipisteen lähiympäristössä paikallinen isomorfismi.
+      Tämä alla olevan pinnan "paikallinen koordinaatisto" riittää määrittelemään
+      pinnan kaksiulotteiseksi topologiseksi objektiksi. Koska tässä kansainvälisessä
+      standardissa käsitellään ainoastaan spatiaalisia koordinaatteja, minkä hyvänsä
+      kolmiulotteisen objektin topologisen ulottuvuuden määrittely voidaan perustaa
+      koordinaatteihin. Neliulotteisessa (spatiotemporaalisessa) mallissa tangenttiavaruudet
+      ovat myös tärkeässä asemassa enintään kolmiulotteisten objektien topologisen
+      dimension määrittelyssä.
+  release: '1'
+  reviewDate: 2016-02-15
+  review_indicator: ''
+  review_status: pending
+  review_type: retirement
+  sources:
+  - origin:
+      link: https://www.iso.org/standard/26012.html
+      ref: ISO 19107:2003
+    type: authoritative
+  terms:
+  - designation: topologinen ulottuvuus
+    normative_status: preferred
+    type: expression
+dateAccepted: 2023-04-17
+id: 04d44352-7dd8-5290-af2c-028b966ff277
+status: valid

@@ -1,0 +1,33 @@
+data:
+  authoritativeSource:
+  - {}
+  dates:
+  - date: '2005-10-15T00:00:00.000Z'
+    type: accepted
+  definition:
+  - content: grafo dirigido positivamente ponderado y configurado de manera apropiada
+      para ejecutar una búsqueda del camino más corto
+  examples: []
+  id: 133
+  language_code: spa
+  notes:
+  - content: El término proviene del algoritmo más conocido para encontrar el camino
+      más corto en un grafo positivamente ponderado, de la publicación de E. Dijkstra
+      [7]. Aunque este algoritmo no es el único en uso, los requisitos para los grafos
+      son comunes para la mayoría. La relajación más común de los requisitos es la
+      "ponderada positiva" que no es necesaria en el algoritmo de Bellman-Ford [4],
+      [8].
+  release: '1'
+  reviewDecisionEvent: ''
+  sources:
+  - origin:
+      link: https://www.iso.org/standard/32551.html
+      ref: ISO 19133:2005
+    type: authoritative
+  terms:
+  - designation: grafo de Dijkstra
+    normative_status: preferred
+    type: expression
+dateAccepted: 2023-04-17
+id: d0d82b0c-13f4-5933-b455-19abbebd31bf
+status: valid

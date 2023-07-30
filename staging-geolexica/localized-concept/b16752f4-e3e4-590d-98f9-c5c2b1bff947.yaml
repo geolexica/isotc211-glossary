@@ -1,0 +1,38 @@
+data:
+  authoritativeSource:
+  - {}
+  dates:
+  - date: '2007-10-15T00:00:00.000Z'
+    type: accepted
+  definition:
+  - content: turutan rekod digital masa sesuatu yang berkaitan dengan turutan objek
+      yang sama
+  examples: []
+  id: 688
+  language_code: msa
+  notes:
+  - content: Temporal sequences are not assumed to be evenly spaced in time, nor equidistance
+      in space. For discrete change, the default logic is to sample at temporal points
+      of change if possible, so that the timestamp is the first temporal instance
+      where the attributes listed have taken on that combination of values. For sake
+      of space savings, some samples in a sequence only list those values that have
+      changed since the immediately preceding temporal sample. For this reason, a
+      sample should only be considered in the context of its containing sequence.
+      For rigid motions (such as vehicle tracking), only centroid (a point value)
+      and orientation (direction of travel) are needed for a temporal sequence describing
+      location and spatial extent. A motion in combination with an object deformation
+      would require more information.
+  release: '1'
+  review_indicator: ''
+  sources:
+  - origin:
+      link: https://www.iso.org/standard/40601.html
+      ref: ISO 19132:2007
+    type: authoritative
+  terms:
+  - designation: jujukan masa
+    normative_status: preferred
+    type: expression
+dateAccepted: 2023-04-17
+id: b16752f4-e3e4-590d-98f9-c5c2b1bff947
+status: valid

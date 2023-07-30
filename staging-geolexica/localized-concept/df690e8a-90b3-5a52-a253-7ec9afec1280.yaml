@@ -1,0 +1,31 @@
+data:
+  authoritativeSource:
+  - {}
+  dates:
+  - date: '2003-05-01T00:00:00.000Z'
+    type: accepted
+  definition:
+  - content: 在几何对象内区分邻近但不同的直接位置所需要的自由变量的最小个数。
+  examples: []
+  id: 463
+  language_code: zho
+  notes:
+  - content: 上面提到的自由变量通常可以认为是一个局部坐标系。在三维坐标空间中，平面可以写为P(u,v)=A+uX+vY,这里u和v是实数，并且A是平面上的任意点，X和Y是两个矢量对于平面的正切。平面的位置可以用u,v（这里是普通的）来区分，平面是二维，并且（u,v)是平面上一个坐标系下的点。在曲面上，通常这不是总能被满足。如果我们取这个曲面的切平面，并且将曲面上的点投影到这个切平面上，我们将通常得到这个切点的一个小的邻域内的一个局部同构。对于与切平面上小邻域所对应的局部同构的曲面部分，这个“局部坐标”系足以作为二维拓扑对象建立这个曲面。由于本标准仅涉及空间坐标，任何三维对象可以依靠坐标建立它的拓扑维。
+      在一个四维模型（空间-时间）中，切空间在由对象在三维上建立拓扑维的过程中也起着重要的作用。
+  release: '1'
+  reviewDate: 2016-02-15
+  review_indicator: ''
+  review_status: pending
+  review_type: retirement
+  sources:
+  - origin:
+      link: https://www.iso.org/standard/26012.html
+      ref: ISO 19107:2003
+    type: authoritative
+  terms:
+  - designation: 拓扑维
+    normative_status: preferred
+    type: expression
+dateAccepted: 2023-04-17
+id: df690e8a-90b3-5a52-a253-7ec9afec1280
+status: valid
