@@ -1,0 +1,46 @@
+data:
+  authoritativeSource:
+  - {}
+  dates:
+  - date: '2007-10-15T00:00:00.000Z'
+    type: accepted
+  definition: []
+  examples: []
+  id: 660
+  language_code: msa
+  notes:
+  - content: Compare with integration. While the conceptual schema of the information
+      transferred shall be agreed upon to some level, coupling applications can be
+      and are usually flexible in the data representation of that information as long
+      as the semantics content is correct and mappable to some canonical representation
+      of the conceptual schema. The most common mapping technology used for XML messages
+      is XSLT, and the transformation stylesheet can be supplied either by the service
+      broker or by the service provider. It is considered a best practice for a service
+      provider to supply his functionality through several logically equivalent messaging
+      APIs, each represented by a different URI linked to an XSLT transformation bridge,
+      and implemented by the same internal code.
+  - content: Loose coupling and tight coupling are not at present well-defined terms
+      in the literature. Generally, "tight" coupling means that there is some sort
+      of incurred dependency between requester and responder in the use of the interface,
+      while "loose" means no such dependency. The nature of that dependency is not
+      consistently defined between authors.  In that light, "tight" coupling or "tight"
+      integration are both bad practices, and have been viewed as such since the inception
+      of the terms. Some literature refers to integration as "tight coupling", but
+      that is a less accurate description.
+  release: '1'
+  review_indicator: ''
+  sources:
+  - origin:
+      link: https://www.iso.org/standard/40601.html
+      ref: ISO 19132:2007
+    type: authoritative
+  - origin:
+      ref: Pusat Rujukan Persuratan Melayu (DBP)
+    type: lineage
+  terms:
+  - designation: gandingan
+    normative_status: preferred
+    type: expression
+dateAccepted: 2023-04-17
+id: 23d9ab25-2b25-577c-9b29-dcf4997f9ea0
+status: valid

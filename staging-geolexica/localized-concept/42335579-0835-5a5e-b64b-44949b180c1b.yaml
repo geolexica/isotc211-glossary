@@ -1,0 +1,46 @@
+data:
+  authoritativeSource:
+  - {}
+  dates:
+  - date: '2005-07-15T00:00:00.000Z'
+    type: accepted
+  - date: '2015-07-01T00:00:00.000Z'
+    type: amended
+  definition:
+  - content: forma de agregación que requiere que una instancia componente sea incluida
+      como mucho en un compuesto al mismo tiempo y que el objeto compuesto sea responsable
+      de la creación y destrucción de las partes
+  examples: []
+  id: 725
+  language_code: spa
+  lineage_source_similarity: 1
+  notes:
+  - content: 'Las partes que no tienen una multiplicidad fija deben crearse depués
+      de la composición misma, pero una vez creadas viven y mueren con ella (es decir,
+      comparten ciclos de vida). Dichas partes también pueden eliminarse explicitamente
+      antes de la muerte del compuesto. La composición puede ser recursiva. Sinónimo:
+      agregación composición.'
+  release: '-1'
+  reviewDate: 2009-01-14
+  reviewDecisionDate: 2015-12-01
+  reviewDecisionEvent: Publication of ISO 19103:2015
+  review_decision: accepted
+  review_decision_notes: The entry has been superseded. An entry with a revised definition
+    has been published in ISO 19103:2015
+  review_indicator: ''
+  review_status: final
+  review_type: supersession
+  sources:
+  - origin:
+      link: https://www.iso.org/standard/32620.html
+      ref: ISO/IEC 19501
+    type: authoritative
+  - origin:
+      ref: ISO/TS 19103:2005 ,4.2.10
+    type: lineage
+  terms:
+  - designation: composición <UML>
+    type: expression
+dateAccepted: 2023-04-17
+id: 42335579-0835-5a5e-b64b-44949b180c1b
+status: superseded

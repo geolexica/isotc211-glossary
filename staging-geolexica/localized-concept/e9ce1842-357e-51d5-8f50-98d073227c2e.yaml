@@ -1,0 +1,50 @@
+data:
+  authoritativeSource:
+  - {}
+  dates:
+  - date: '2003-05-01T00:00:00.000Z'
+    type: accepted
+  definition:
+  - content: najmniejsza liczba wolnyc zmiennych potrzebna do odróżnienia od siebie
+      pobliskich położeń bezpośrednich w obiekcie geometrycznym
+  examples: []
+  id: 463
+  language_code: pol
+  notes:
+  - content: 'Wspomniane wyżej wolne zmienne na ogół mogą być traktowane jako lokalny
+      układ współrzędnych.
+
+      W 3-wymiarowej przestrzeni współrzędnych płaszczyzna może być zapisana jako
+      P(u, v) = A + uX + vY, gdzie u i v są liczbami rzeczywistymi, A jest dowolnym
+      punktem na płaszczyźnie, zaś X i Y są dwoma wektorami stycznymi do płaszczyzny.
+      Ponieważ położenia na płaszczyźnie mogą być rozróżnione poprzez u i v (tutaj
+      uniwersalnie), to płaszczyzna jest 2-wymiarowa,a (u, v) stanowi układ współrzędnych
+      dla punktów na płaszczyźnie. Na powierzchniach ogólnych zwykle nie można tak
+      zrobić w sposób uniwersalny. Jeżeli weźmiemy płaszczyznę styczną do powierzchni
+      i zrzutujemy punkty tej powierzchni na tę płaszczyznę, na ogół otrzymamy lokalny
+      izomorfizm dla niewielkich otoczeń punktów styczności. Ten „lokalny układ współrzędnych”
+      dla powierzchni jest wystarczający, aby uznać tę powierzchnię za 2-wymiarowy
+      obiekt topologiczny.
+
+      Ponieważ niniejsza Norma Międzynarodowa dotyczy jedynie współrzędnych przestrzennych,
+      to do ustalenia wymiaru topologicznego dowolnego obiektu 3-wymiarowego można
+      opierać się na współrzędnych. W modelu 4-wymiarowym (czasoprzestrzennym), również
+      przestrzenie styczne odgrywają ważną rolę w ustalaniu wymiaru topologicznego
+      dla obiektów aż do trzech wymiarów.'
+  release: '1'
+  reviewDate: 2016-02-15
+  review_indicator: ''
+  review_status: pending
+  review_type: retirement
+  sources:
+  - origin:
+      link: https://www.iso.org/standard/26012.html
+      ref: ISO 19107:2003
+    type: authoritative
+  terms:
+  - designation: wymiar topologiczny
+    normative_status: preferred
+    type: expression
+dateAccepted: 2023-04-17
+id: e9ce1842-357e-51d5-8f50-98d073227c2e
+status: valid

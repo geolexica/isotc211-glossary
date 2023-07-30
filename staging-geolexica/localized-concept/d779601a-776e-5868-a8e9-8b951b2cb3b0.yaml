@@ -1,0 +1,48 @@
+data:
+  authoritativeSource:
+  - {}
+  country_code: swe
+  dates:
+  - date: '2012-12-01T00:00:00.000Z'
+    type: accepted
+  definition: []
+  examples:
+  - content: A condominium unit comprising two spatial units (e.g. an apartment and
+      a garage), a farm lot comprising one spatial unit (e.g. parcel of land), a servitude
+      comprising one spatial unit (e.g. the road representing the right-of-way), a
+      land consolidation area, or a right-of-use unit with several right holders and
+      restricted objects.
+  id: 1570
+  language_code: swe
+  notes:
+  - content: '''Unique'' means that a right, restriction, or responsibility is held
+      by one or more parties (e.g. owners or users) for the whole basic administrative
+      unit. ''Homogeneous'' means that a right, restriction or responsibility (e.g.
+      ownership, use, social tenure, lease, or easement) affects the whole basic administrative
+      unit. For a restriction, zero parties are a possibility.'
+  - content: A basic administrative unit may play the role of party, e.g. when the
+      right holder is a basic administrative unit (and not a person or organization).
+  - content: A baunit should get a unique identifier when registered, or recorded.
+  - content: A baunit can consist of zero spatial units, when a registry exists, and
+      not a cadastre.
+  - content: Restrictions and responsibilities can be associated with their own baunits,
+      each with their own type of spatial unit.
+  release: '3'
+  sources:
+  - origin:
+      clause: 4.1.2
+      link: https://www.iso.org/standard/51206.html
+      ref: ISO 19152:2012
+    type: authoritative
+  - origin:
+      ref: (Type reference to national language document)
+    type: lineage
+  terms:
+  - designation: baunit
+    type: abbreviation
+  - designation: markreglerat objekt
+    normative_status: preferred
+    type: expression
+dateAccepted: 2023-04-17
+id: d779601a-776e-5868-a8e9-8b951b2cb3b0
+status: valid

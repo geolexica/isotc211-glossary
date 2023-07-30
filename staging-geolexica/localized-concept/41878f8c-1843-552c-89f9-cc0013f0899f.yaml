@@ -1,0 +1,37 @@
+data:
+  authoritativeSource:
+  - {}
+  dates:
+  - date: '2005-10-15T00:00:00.000Z'
+    type: accepted
+  definition:
+  - content: positiivisesti painotettu suunnattu verkko, joka on konfiguroitu hakemaan
+      suorin reitti
+  examples: []
+  id: 133
+  language_code: fin
+  notes:
+  - content: Termi on peräisin tunnetuimmasta algoritmista, jonka tarkoituksena on
+      löytää lyhyin reitti positiivisesti painotetussa verkossa, ks. E. Dijkstran
+      artikkeli [7]. Tämä algoritmi ei ole ainoa käytössä oleva, mutta Dijkstran verkkoa
+      koskevat ehdot ovat yhteisiä useimmille algoritmeille. Yleisin ehtoja koskeva
+      lievennys liittyy positiivisiin painoihin; positiivisia painoja ei tarvita Bellman-Ford
+      -algoritmissa [4], [8].
+  review_indicator: ''
+  sources:
+  - origin:
+      link: https://www.iso.org/standard/32551.html
+      ref: ISO 19133:2005
+    type: authoritative
+  - origin:
+      ref: 'Sanastokeskus TSK: Geoinformatiikan sanasto (TSK 32), 2005'
+    type: lineage
+  terms:
+  - designation: Dijkstran verkko
+    normative_status: preferred
+    type: expression
+  - designation: Dijkstran graafi
+    type: expression
+dateAccepted: 2023-04-17
+id: 41878f8c-1843-552c-89f9-cc0013f0899f
+status: valid
