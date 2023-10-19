@@ -11,12 +11,12 @@ data:
   id: 2072
   language_code: eng
   notes:
-  - content: \[[\forall a \in A \implies min(A) \leq a] \implies [\forall b \ni [(b
-      \ni [\forall a \in A \implies b \leq a] \implies [min(A) \geq b]]\] Any number
-      is a lower bound of `O/` considered as a set of numbers, because any given number
-      is less than any number in `O/` (an admitted vacuous statement since there is
-      no number in `O/`, but true nonetheless). This means that the `min(O/)` must
-      be greater than any number; this `+oo`.
+  - content: "\\[[\\forall a \\in A \\implies min(A) \\leq a] \\implies [\\forall
+      b \\ni [(b \\ni [\\forall a \\in A \\implies b \\leq a] \\implies [min(A) \\geq
+      b]]\\] Any number is a lower bound of `O/` considered as a set of numbers, because
+      any given number is less than any number in `O/` (an admitted vacuous statement
+      since there is no number in `O/`, but true nonetheless). This means that the
+      `min(O/)` must be greater than any number; this `+oo`."
   release: '5'
   reviewDate: 2019-12-02
   reviewDecisionDate: 2019-12-02
@@ -31,13 +31,14 @@ data:
       ref: ISO 19107:2019
     type: authoritative
   terms:
-  - designation: min <mathematics>
+  - designation: min
     type: abbreviation
-  - designation: minimum <mathematics>
+  - designation: minimum
     normative_status: preferred
     type: expression
-  - designation: greatest lower bound <mathematics>
+  - designation: greatest lower bound
     type: expression
+  domain: mathematics
 dateAccepted: 2023-04-17
 id: b0487490-c214-5b29-a78f-3c1771aed9bb
 status: valid
