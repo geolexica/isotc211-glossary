@@ -1,12 +1,48 @@
 data:
+  _revisions:
+    current: 44ff51
+    tree:
+      44ff51:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.100
+            link: https://www.iso.org/standard/66175.html
+            ref: ISO 19107:2019
+          date_accepted: '2019-12-02T00:00:00.000Z'
+          definition: topological object that represents a single, homogeneous, non-decomposable
+            element
+          entry_status: valid
+          examples: []
+          id: 2254
+          language_code: eng
+          notes:
+          - A topological primitive corresponds to the interior of a geometric primitive
+            of the same dimension in a geometric realization.
+          release: '5'
+          review_date: '2019-12-02T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-12-02T00:00:00.000Z'
+          review_decision_event: Publication of document ISO 19107:2019(E)
+          review_decision_notes: This entry supersedes the entry for topological primitive
+            in ISO 19107:2003(E)
+          review_status: final
+          review_type: supersession
+          terms:
+          - designation: topological primitive <geometry, topology>
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2019-12-02T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2019-12-02T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: topological object that represents a single, homogeneous, non-decomposable
-      element
+  definition: '[{''content'': ''topological object that represents a single, homogeneous,
+    non-decomposable element''}]'
   examples: []
   id: 2254
   language_code: eng
@@ -24,7 +60,7 @@ data:
   review_type: supersession
   sources:
   - origin:
-      clause: '3.100'
+      clause: (E), 3.100
       link: https://www.iso.org/standard/66175.html
       ref: ISO 19107:2019
     type: authoritative

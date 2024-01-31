@@ -1,4 +1,42 @@
 data:
+  _revisions:
+    current: '613883'
+    tree:
+      '613883':
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/26012.html
+            ref: ISO 19107:2003
+          date_accepted: '2003-05-01T00:00:00.000Z'
+          date_amended: '2019-12-02T00:00:00.000Z'
+          definition: set of nodes, some of which are joined by edges
+          entry_status: retired
+          examples: []
+          id: 756
+          language_code: eng
+          notes:
+          - In geographic information systems, a graph can have more than one edge
+            joining two nodes, and can have an edge that has the same node at both
+            ends.
+          release: '-1'
+          review_date: '2019-12-02T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-12-02T00:00:00.000Z'
+          review_decision_event: Publication of documentISO 19107:2019(E)
+          review_decision_notes: This entry has been omitted from the superseding
+            standard ISO 19107:2019(E)
+          review_indicator: ''
+          review_status: final
+          review_type: retirement
+          terms:
+          - designation: graph
+            normative_status: null
+            type: expression
+        parents: []
+        timeCreated: '2003-05-01T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
@@ -6,8 +44,7 @@ data:
     type: accepted
   - date: '2019-12-02T00:00:00.000Z'
     type: amended
-  definition:
-  - content: set of nodes, some of which are joined by edges
+  definition: '[{''content'': ''set of nodes, some of which are joined by edges''}]'
   examples: []
   id: 756
   language_code: eng

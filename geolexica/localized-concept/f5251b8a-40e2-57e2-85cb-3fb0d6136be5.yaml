@@ -1,11 +1,44 @@
 data:
+  _revisions:
+    current: dd8326
+    tree:
+      dd8326:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          date_accepted: '2004-07-01T00:00:00.000Z'
+          definition: 与测量结果相关的一个参数，表现合理量测值的离差特性。
+          entry_status: valid
+          examples: []
+          id: 480
+          language_code: zho
+          lineage_source: ISO 19116:2004(E)
+          lineage_source_similarity: 1
+          notes:
+          - 当定量地表示量测值的准确度或精度质量时，质量参数是量测结果不确定性的一个估计。因为准确度是一个定性的概念，因此不应定量地使用它。它不应与具体的数字相关联，而不确定性的大小才与数字相关联。
+          release: '1'
+          review_date: '2019-12-02T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-12-02T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19116:2019(E)
+          review_decision_notes: Authoritative reference changed from Guide to the
+            Expression of Uncertainty in Measurement (GUM), 1995 to . Lineage source
+            added as ISO 19116:2004(E)
+          review_indicator: ''
+          review_status: final
+          terms:
+          - designation: 不确定性
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2004-07-01T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2004-07-01T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: 与测量结果相关的一个参数，表现合理量测值的离差特性。
+  definition: '[{''content'': ''与测量结果相关的一个参数，表现合理量测值的离差特性。''}]'
   examples: []
   id: 480
   language_code: zho

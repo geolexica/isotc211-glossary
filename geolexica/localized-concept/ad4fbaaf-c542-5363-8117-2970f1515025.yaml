@@ -1,12 +1,51 @@
 data:
+  _revisions:
+    current: ee4f14
+    tree:
+      ee4f14:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.1.23
+            link: https://www.iso.org/standard/74039.html
+            ref: ISO 19111:2019
+          date_accepted: '2003-02-15T00:00:00.000Z'
+          definition: نظام إحداثيات يحدد فيه الموقع بخط العرض الجيوديسي ، وخط الطول
+            الجيوديسي و ( في حالة المجسمات الثلاثية الأبعاد ) بارتفاع مجسم القطع الناقص
+          entry_status: valid
+          examples: []
+          id: 196
+          language_code: ara
+          lineage_source: ISO 19111:2003
+          lineage_source_similarity: 1
+          notes: []
+          release: '1'
+          review_date: '2019-01-31T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-01-31T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
+          review_indicator: ''
+          review_status: final
+          terms:
+          - designation: نظام إحداثيات جيوديسي
+            normative_status: admitted
+            type: expression
+          - designation: ellipsoidal coordinate system
+            type: expression
+        parents: []
+        timeCreated: '2003-02-15T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2003-02-15T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: نظام إحداثيات يحدد فيه الموقع بخط العرض الجيوديسي ، وخط الطول الجيوديسي
-      و ( في حالة المجسمات الثلاثية الأبعاد ) بارتفاع مجسم القطع الناقص
+  definition: '[{''content'': ''نظام إحداثيات يحدد فيه الموقع بخط العرض الجيوديسي
+    ، وخط الطول الجيوديسي و ( في حالة المجسمات الثلاثية الأبعاد ) بارتفاع مجسم القطع
+    الناقص''}]'
   examples: []
   id: 196
   language_code: ara
@@ -23,7 +62,7 @@ data:
   review_status: final
   sources:
   - origin:
-      clause: 3.1.23
+      clause: (E), 3.1.23
       link: https://www.iso.org/standard/74039.html
       ref: ISO 19111:2019
     type: authoritative

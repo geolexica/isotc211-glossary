@@ -1,12 +1,51 @@
 data:
+  _revisions:
+    current: edf731
+    tree:
+      edf731:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/40601.html
+            ref: ISO 19132:2007
+          date_accepted: '2007-10-15T00:00:00.000Z'
+          definition: sellaisen ominaisuustyypin arvoparien mitta, joka antaa positiivisen,
+            symmetrisen ja kolmioepäyhtälön toteuttavan numeroarvon
+          entry_status: valid
+          examples: []
+          id: 665
+          language_code: fin
+          lineage_source: Internet
+          notes:
+          - Etäisyysmitta d on positiivinen, jos d(x, y) > 0 jokaiselle parille x,
+            y, jossa x/=y ja d(x, x) = 0. Etäisyysmitta d on symmetrinen, jos d(x,
+            y) = d(y, x) jokaiselle parille x, y. Etäisyysmitta d toteuttaa kolmioepäyhtälön,
+            jos d(x, y) <= d(x, a) + d(a, y) jokaiselle a:lle, x:lle ja y:lle. Kaikilla
+            numeerisilla tai vektoriarvoisilla attribuuteilla on tällainen etäisyysmitta,
+            ja yleisin niistä on euklidinen etäisyys, joka perustuu kunkin ulottuvuuden
+            erotusten neliöiden summan neliöjuureen. Muut, epäeuklidiset, etäisyysmitat
+            ottavat huomioon avaruuden kaareutumisen (esimerkiksi pyörähdysellipsoidin
+            pintaa myöten).
+          - Metriikka eli etäisyysfunktio kertoo joukon pisteiden välisen etäisyyden
+            ja tekee joukosta metrisen avaruuden.
+          review_indicator: ''
+          terms:
+          - designation: etäisyysmitta
+            normative_status: preferred
+            type: expression
+          - designation: etäisyysfunktio
+            type: expression
+        parents: []
+        timeCreated: '2007-10-15T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2007-10-15T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: sellaisen ominaisuustyypin arvoparien mitta, joka antaa positiivisen,
-      symmetrisen ja kolmioepäyhtälön toteuttavan numeroarvon
+  definition: '[{''content'': ''sellaisen ominaisuustyypin arvoparien mitta, joka
+    antaa positiivisen, symmetrisen ja kolmioepäyhtälön toteuttavan numeroarvon''}]'
   examples: []
   id: 665
   language_code: fin

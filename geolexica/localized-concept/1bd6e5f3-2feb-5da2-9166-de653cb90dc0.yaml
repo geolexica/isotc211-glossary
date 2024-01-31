@@ -1,12 +1,41 @@
 data:
+  _revisions:
+    current: f60f1e
+    tree:
+      f60f1e:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/42136.html
+            ref: ISO 19142:2010
+          date_accepted: '2010-12-15T00:00:00.000Z'
+          definition: actualizar la referencia de un recurso que se ha movido o copiado
+            a una nueva ubicación
+          entry_status: valid
+          examples:
+          - Cuando un servidor genera una respuesta a una petición GetFeature, tiene
+            que copiar un fenómeno referenciado en el documento de respuesta y el
+            servidor tiene que "relocalizar" el enlace original contenido en el fenómeno
+            que se está referenciando a la copia ubicada en el documento de respuesta.
+          id: 1036
+          language_code: spa
+          notes: []
+          release: '2'
+          terms:
+          - designation: relocalizar <referencia>
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2010-12-15T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2010-12-15T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: actualizar la referencia de un recurso que se ha movido o copiado a una
-      nueva ubicación
+  definition: '[{''content'': ''actualizar la referencia de un recurso que se ha movido
+    o copiado a una nueva ubicación''}]'
   examples:
   - content: Cuando un servidor genera una respuesta a una petición GetFeature, tiene
       que copiar un fenómeno referenciado en el documento de respuesta y el servidor

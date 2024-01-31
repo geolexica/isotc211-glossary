@@ -1,12 +1,46 @@
 data:
+  _revisions:
+    current: 8bb1c2
+    tree:
+      8bb1c2:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '2002'
+            ref: Adapted from Aull et al.
+          date_accepted: '2014-01-15T00:00:00.000Z'
+          definition: sistema lidar cuya corriente fotoeléctrica resultado es proporcional
+            a la insensidad óptica de entrada incidente
+          entry_status: valid
+          examples: []
+          id: 1401
+          language_code: spa
+          lineage_source: ISO/TS 19130-2:2014, 4.41
+          lineage_source_similarity: '1'
+          notes:
+          - Un sistema lidar que emplea esta tecnología suele utilizar técnicas de
+            procesamiento para desarrollar mediciones de tiempo de vuelo para la onda
+            completa que se refleja desde los objetivos en la escena de interés iluminada.
+            Estas mediciones de tiempo de vuelo se combinan entonces con los datos
+            precisos de localización/altitud de la plataforma, junto con datos de
+            puntos para producir un producto tridimensional de la escena de interés
+            iluminada.
+          release: '3'
+          terms:
+          - designation: modo lineal
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2014-01-15T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2014-01-15T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: sistema lidar cuya corriente fotoeléctrica resultado es proporcional
-      a la insensidad óptica de entrada incidente
+  definition: '[{''content'': ''sistema lidar cuya corriente fotoeléctrica resultado
+    es proporcional a la insensidad óptica de entrada incidente''}]'
   examples: []
   id: 1401
   language_code: spa

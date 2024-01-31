@@ -1,10 +1,40 @@
 data:
+  _revisions:
+    current: ed257f
+    tree:
+      ed257f:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/40601.html
+            ref: ISO 19132:2007
+          date_accepted: '2007-10-15T00:00:00.000Z'
+          entry_status: valid
+          examples: []
+          id: 659
+          language_code: deu
+          notes:
+          - The interpolation of continuous change is usually done by taking into
+            consideration constraints on the "curve" joining the two data points (time1,
+            value1) and (time2, value2), looking at the value as a function of time.
+            For example, if the continuous change is for the motion of a vehicle,
+            then the constraints of physics and of the paths appropriate for that
+            vehicle must be taken into consideration.
+          release: '1'
+          review_indicator: ''
+          terms:
+          - designation: stetige Änderung
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2007-10-15T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2007-10-15T00:00:00.000Z'
     type: accepted
-  definition: []
   examples: []
   id: 659
   language_code: deu

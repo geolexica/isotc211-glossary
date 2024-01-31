@@ -1,11 +1,51 @@
 data:
+  _revisions:
+    current: da0614
+    tree:
+      da0614:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.49
+            link: https://www.iso.org/standard/66175.html
+            ref: ISO 19107:2019
+          date_accepted: '2003-05-01T00:00:00.000Z'
+          definition: объект в пространстве, представляющий геометрическое множество
+          entry_status: valid
+          examples: []
+          id: 214
+          language_code: rus
+          lineage_source: ISO 19107:2003(E)
+          lineage_source_similarity: 1
+          notes:
+          - Геометрический объект состоит из геометрического примитива, совокупности
+            геометрических примитивов или геометрического комплекса, трактуемого как
+            отдельная сущность. Геометрический объект может быть пространственным
+            представлением какого-нибудь объекта, либо его некоторой значимой части
+          release: '1'
+          review_date: '2019-12-02T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-12-02T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19107:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19107:2003
+            to ISO 19107:2019(E), 3.49. Lineage source added as ISO 19107:2003(E)
+          review_indicator: ''
+          review_status: final
+          terms:
+          - designation: геометрический объект
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2003-05-01T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2003-05-01T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: объект в пространстве, представляющий геометрическое множество
+  definition: '[{''content'': ''объект в пространстве, представляющий геометрическое
+    множество''}]'
   examples: []
   id: 214
   language_code: rus
@@ -26,7 +66,7 @@ data:
   review_status: final
   sources:
   - origin:
-      clause: '3.49'
+      clause: (E), 3.49
       link: https://www.iso.org/standard/66175.html
       ref: ISO 19107:2019
     type: authoritative

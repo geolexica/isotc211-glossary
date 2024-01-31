@@ -1,12 +1,44 @@
 data:
+  _revisions:
+    current: cd91ec
+    tree:
+      cd91ec:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: Web Services Glossary
+            ref: W3C
+          date_accepted: '2014-02-15T00:00:00.000Z'
+          definition: mecanismo para hacer fracasar el propósito de un subsistema
+            evitando el invocarlo
+          entry_status: valid
+          examples: []
+          id: 1212
+          language_code: spa
+          lineage_source: ISO 19153:2014, 4.6
+          lineage_source_similarity: 1
+          notes:
+          - Normalmente los sistemas de seguridad se puentean aprovechando fallos
+            de seguridad del sistema operativo. Tales vulneraciones son más un aspecto
+            del sistema operativo que del sistema de seguridad. Para corregir eso,
+            la relación entre el sistema de seguridad y el sistema operativo debe
+            modificarse para evitar los mecanismos de puenteo.
+          release: '3'
+          terms:
+          - designation: bypass
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2014-02-15T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2014-02-15T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: mecanismo para hacer fracasar el propósito de un subsistema evitando
-      el invocarlo
+  definition: '[{''content'': ''mecanismo para hacer fracasar el propósito de un subsistema
+    evitando el invocarlo''}]'
   examples: []
   id: 1212
   language_code: spa

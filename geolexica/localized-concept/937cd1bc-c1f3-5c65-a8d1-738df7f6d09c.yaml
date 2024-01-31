@@ -1,11 +1,47 @@
 data:
+  _revisions:
+    current: 9c8ef3
+    tree:
+      9c8ef3:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            clause: (E), 3.1.42
+            link: https://www.iso.org/standard/74039.html
+            ref: ISO 19111:2019
+          date_accepted: '2007-07-01T00:00:00.000Z'
+          definition: 包含椭球短半轴的平面与椭球的交线。
+          entry_status: valid
+          examples: []
+          id: 711
+          language_code: zho
+          lineage_source: ISO 19111:2007(E)
+          lineage_source_similarity: 1
+          notes:
+          - 该术语经常用于南极点到北极点的弧段，而不是完全封闭的圆(figure)。
+          release: '1'
+          review_date: '2019-01-31T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-01-31T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.42. Lineage source added as ISO 19111:2007(E)
+          review_indicator: ''
+          review_status: final
+          terms:
+          - designation: 子午线
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2007-07-01T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2007-07-01T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: 包含椭球短半轴的平面与椭球的交线。
+  definition: '[{''content'': ''包含椭球短半轴的平面与椭球的交线。''}]'
   examples: []
   id: 711
   language_code: zho
@@ -23,7 +59,7 @@ data:
   review_status: final
   sources:
   - origin:
-      clause: 3.1.42
+      clause: (E), 3.1.42
       link: https://www.iso.org/standard/74039.html
       ref: ISO 19111:2019
     type: authoritative

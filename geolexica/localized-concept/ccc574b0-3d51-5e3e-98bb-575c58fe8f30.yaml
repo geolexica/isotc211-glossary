@@ -1,13 +1,54 @@
 data:
+  _revisions:
+    current: 2a0317
+    tree:
+      2a0317:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.1.58
+            link: https://www.iso.org/standard/75676.html
+            ref: ISO 19136-1:2020
+          country_code: swe
+          date_accepted: '2007-09-01T00:00:00.000Z'
+          definition: tecken eller teckenkombination som används för märkning eller
+            klassificering av data
+          entry_status: valid
+          examples:
+          - <Road>.
+          id: 441
+          language_code: swe
+          lineage_source: ISO 19136:2007(E)
+          lineage_source_similarity: 1
+          notes:
+          - A tag with no forward slash (e.g. <Road> ) is called a start-tag (also
+            opening tag), and one with a forward slash (e.g. </Road> is called an
+            end-tag (also closing tag).
+          release: '1'
+          review_date: '2020-01-09T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2020-01-09T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19136-1:2020(E)
+          review_decision_notes: Authoritative reference changed from ISO 19136:2007
+            to ISO 19136-1:2020(E), 3.1.58. Lineage source added as ISO 19136:2007(E)
+          review_indicator: ''
+          review_status: final
+          terms:
+          - designation: tagg <XML>
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2007-09-01T00:00:00.000Z'
   authoritativeSource:
   - {}
   country_code: swe
   dates:
   - date: '2007-09-01T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: tecken eller teckenkombination som används för märkning eller klassificering
-      av data
+  definition: '[{''content'': ''tecken eller teckenkombination som används för märkning
+    eller klassificering av data''}]'
   examples:
   - content: <Road>.
   id: 441
@@ -28,7 +69,7 @@ data:
   review_status: final
   sources:
   - origin:
-      clause: 3.1.58
+      clause: (E), 3.1.58
       link: https://www.iso.org/standard/75676.html
       ref: ISO 19136-1:2020
     type: authoritative

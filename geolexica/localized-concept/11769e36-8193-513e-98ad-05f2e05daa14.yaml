@@ -1,11 +1,50 @@
 data:
+  _revisions:
+    current: b7139a
+    tree:
+      b7139a:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.7
+            link: https://www.iso.org/standard/66847.html
+            ref: ISO 19130-1:2018
+          date_accepted: '2010-06-15T00:00:00.000Z'
+          definition: resolución en la dirección perpendicular al alcance
+          entry_status: valid
+          examples: []
+          id: 927
+          language_code: spa
+          lineage_source: ISO/TS 19130:2010(E)
+          lineage_source_similarity: '1'
+          notes:
+          - Normalmente se mide en términos de la respuesta del impulso del sensor
+            SAR y del sistema de procesamiento. Es función del tamaño de la apertura
+            sintética o, alternativamente, del tiempo de exposición (es decir, mayores
+            aperturas resultan en un tiempo de exposición mayor lo que da como resultado
+            una mejor resolución).
+          release: '2'
+          review_date: '2018-09-01T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2018-09-01T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19130-1:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010
+            to ISO 19130-1:2018(E), 3.7. Lineage source added as ISO/TS 19130:2010(E)
+          review_status: final
+          terms:
+          - designation: resolución acimutal <SAR>
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2010-06-15T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2010-06-15T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: resolución en la dirección perpendicular al alcance
+  definition: '[{''content'': ''resolución en la dirección perpendicular al alcance''}]'
   examples: []
   id: 927
   language_code: spa
@@ -25,7 +64,7 @@ data:
   review_status: final
   sources:
   - origin:
-      clause: '3.7'
+      clause: (E), 3.7
       link: https://www.iso.org/standard/66847.html
       ref: ISO 19130-1:2018
     type: authoritative

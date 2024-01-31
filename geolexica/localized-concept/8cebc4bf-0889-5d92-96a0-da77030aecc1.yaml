@@ -1,12 +1,52 @@
 data:
+  _revisions:
+    current: 4f8819
+    tree:
+      4f8819:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.14'
+            link: https://www.iso.org/standard/44212.html
+            ref: ISO 19118:2011
+          date_accepted: '2005-07-15T00:00:00.000Z'
+          definition: colección identificable de reglas de conversión que definen
+            la codificación para una estructura de datos determinada
+          entry_status: valid
+          examples:
+          - XML, ISO 10303-21, ISO/IEC 8211
+          id: 152
+          language_code: spa
+          lineage_source: ISO 19118:2005
+          lineage_source_similarity: 1
+          notes:
+          - Una regla de codificación especifica los tipos de datos que se van a convertir
+            así como la sintaxis, estructura y códigos que se usan en la estructura
+            de datos resultante.
+          release: '1'
+          review_date: '2007-01-23T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2011-10-15T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19118:2011
+          review_decision_notes: Authoritative reference changed from ISO 19118:2005
+            to ISO 19118:2011. Lineage source added as ISO 19118:2005.
+          review_indicator: ''
+          review_status: final
+          terms:
+          - designation: reglas de codificación
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2005-07-15T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2005-07-15T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: colección identificable de reglas de conversión que definen la codificación
-      para una estructura de datos determinada
+  definition: '[{''content'': ''colección identificable de reglas de conversión que
+    definen la codificación para una estructura de datos determinada''}]'
   examples:
   - content: XML, ISO 10303-21, ISO/IEC 8211
   id: 152

@@ -1,4 +1,47 @@
 data:
+  _revisions:
+    current: 4fb25f
+    tree:
+      4fb25f:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/41126.html
+            ref: ISO 19111:2007
+          date_accepted: '2007-07-01T00:00:00.000Z'
+          date_amended: '2019-01-31T00:00:00.000Z'
+          definition: расстояние от отсчетной поверхности до выбранной точки по нормали
+            к этой поверхности
+          entry_status: superseded
+          examples: []
+          id: 614
+          language_code: rus
+          notes:
+          - 'Высота точки, расположенная выше отсчетной поверхности, является положительной,
+            а ниже нее - отрицательной
+
+            Дополнительное примечание  в ИСО 19148: Поверхность нормально используется
+            для моделирования поверхности Земли'
+          release: '-1'
+          review_date: '2019-01-31T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-01-31T00:00:00.000Z'
+          review_decision_event: Publication of document ISO 19111:2019(E)
+          review_decision_notes: This entry is superseded by the entry for height
+            in ISO 19111:2019(E)
+          review_indicator: ''
+          review_status: final
+          review_type: supersession
+          terms:
+          - designation: высота
+            normative_status: null
+            type: expression
+          - designation: альтитуда
+            type: expression
+        parents: []
+        timeCreated: '2007-07-01T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
@@ -6,9 +49,8 @@ data:
     type: accepted
   - date: '2019-01-31T00:00:00.000Z'
     type: amended
-  definition:
-  - content: расстояние от отсчетной поверхности до выбранной точки по нормали к этой
-      поверхности
+  definition: '[{''content'': ''расстояние от отсчетной поверхности до выбранной точки
+    по нормали к этой поверхности''}]'
   examples: []
   id: 614
   language_code: rus

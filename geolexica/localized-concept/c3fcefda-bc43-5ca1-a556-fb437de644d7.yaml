@@ -1,12 +1,49 @@
 data:
+  _revisions:
+    current: 5579be
+    tree:
+      5579be:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.73
+            link: https://www.iso.org/standard/66175.html
+            ref: ISO 19107:2019
+          date_accepted: '2019-12-02T00:00:00.000Z'
+          definition: containing a metric or topologically open neighborhood of each
+            of its points
+          entry_status: valid
+          examples: []
+          id: 2245
+          language_code: eng
+          notes:
+          - In a metric space, a set `X` us open if each point `x` in the set is contained
+            in some small ball which is a subset of \(X:\) \([X \text{ is open}] \Leftrightarrow
+            [x \in X] \implies [\exists \varepsilon > 0 \backepsilon \text{distance}
+            (x,y) < \varepsilon] \implies [y \in X]\). A topology is a set of subsets
+            of a space which are considered open.
+          release: '5'
+          review_date: '2019-12-02T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-12-02T00:00:00.000Z'
+          review_decision_event: Normal ISO processing
+          review_decision_notes: Publication of document ISO 19107:2019(E)
+          review_status: final
+          terms:
+          - designation: open set <metric, topology, geometry>
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2019-12-02T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2019-12-02T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: containing a metric or topologically open neighborhood of each of its
-      points
+  definition: '[{''content'': ''containing a metric or topologically open neighborhood
+    of each of its points''}]'
   examples: []
   id: 2245
   language_code: eng
@@ -25,7 +62,7 @@ data:
   review_status: final
   sources:
   - origin:
-      clause: '3.73'
+      clause: (E), 3.73
       link: https://www.iso.org/standard/66175.html
       ref: ISO 19107:2019
     type: authoritative

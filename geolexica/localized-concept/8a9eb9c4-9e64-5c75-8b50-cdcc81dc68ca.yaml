@@ -1,12 +1,45 @@
 data:
+  _revisions:
+    current: 00205e
+    tree:
+      00205e:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: 4.1.17
+            link: https://www.iso.org/standard/51206.html
+            ref: ISO 19152:2012
+          date_accepted: '2012-12-01T00:00:00.000Z'
+          definition: явная связь между пространственными единицами или между основными
+            административными единицами
+          entry_status: valid
+          examples: []
+          id: 1362
+          language_code: rus
+          lineage_source: ISO 19152:2012
+          notes:
+          - из-за юридических аспектов, истории данных, неточной геометрии или отсутствующих
+            геометрий методы геопространственного наложения могут генерировать неточные
+            отношения или отсутствие отношений между пространственными единицами,
+            которые могут быть введены требуемыми отношениями.
+          - отношения для пространственных единиц могут быть определены с помощью
+            типов ISO 19125-2.
+          release: '3'
+          terms:
+          - designation: требуемое взаимоотношение
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2012-12-01T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2012-12-01T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: явная связь между пространственными единицами или между основными административными
-      единицами
+  definition: '[{''content'': ''явная связь между пространственными единицами или
+    между основными административными единицами''}]'
   examples: []
   id: 1362
   language_code: rus

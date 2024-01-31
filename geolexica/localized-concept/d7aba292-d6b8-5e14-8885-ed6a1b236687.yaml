@@ -1,11 +1,44 @@
 data:
+  _revisions:
+    current: 618bc9
+    tree:
+      618bc9:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32551.html
+            ref: ISO 19133:2005
+          date_accepted: '2005-10-15T00:00:00.000Z'
+          definition: funktion, der forbinder et mål (omkostning) med en rute
+          examples: []
+          id: 97
+          language_code: dan
+          notes:
+          - Den normale mekanisme er at tilskrive hver del af en rute  en omkostning
+            og at definere de totale ruteomkostninger som summen af delenes omkostninger.
+            Dette er nødvendigt for at de mest almindelige navigationsalgoritmer kan
+            fungere. Omkostningsfunktionernes enheder er ikke udelukkende begrænset
+            til penge og værdier, men omfatter også sådanne mål som tid, afstand og
+            andre forhold. Det eneste krav er, at funktionen er additiv og i det mindste
+            ikke-negativ. Der kan slækkes på dette sidste kriterium, så længe ingen
+            omkostning på nul eller mindre forbindes med et loop i netværket, da dette
+            vil betyde at der ikke kan være en "minimal-omkostnings-rute".
+          release: '1'
+          terms:
+          - designation: omkostningsfunktion
+            normative_status: null
+            type: expression
+        parents: []
+        timeCreated: '2005-10-15T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2005-10-15T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: funktion, der forbinder et mål (omkostning) med en rute
+  definition: '[{''content'': ''funktion, der forbinder et mål (omkostning) med en
+    rute''}]'
   examples: []
   id: 97
   language_code: dan

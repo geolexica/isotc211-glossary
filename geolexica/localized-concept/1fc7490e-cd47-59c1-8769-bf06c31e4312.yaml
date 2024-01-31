@@ -1,12 +1,50 @@
 data:
+  _revisions:
+    current: b601dd
+    tree:
+      b601dd:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/40601.html
+            ref: ISO 19132:2007
+          date_accepted: '2007-10-15T00:00:00.000Z'
+          definition: measure of the pairs of values of an attribute type that assigns
+            a numeric value that is positive, symmetric and satisfies the triangular
+            inequality
+          entry_status: valid
+          examples: []
+          id: 664
+          language_code: eng
+          notes:
+          - A measure "d" is positive if d(x, y) > 0 for every x, y where x/=y and
+            d(x,x) = 0. A measure "d" is symmetric if d(x, y) = d(y, x) for every
+            x, y. A measure "d" satisfies the triangular inequality if d(x, y) <=
+            d(x, a) + d(a, y) for every a, x and y. All numeric or vector valued attributes
+            have such a metric, the most common being the Euclidean metric based on
+            the square root of the sum of the squares of the differences in each dimension.
+            Other non-Euclidean metrics take "curvature of space" into account (such
+            as along the surface of the spheroid).
+          release: '1'
+          review_indicator: ''
+          terms:
+          - designation: distance measure
+            normative_status: preferred
+            type: expression
+          - designation: distance metric
+            type: expression
+        parents: []
+        timeCreated: '2007-10-15T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2007-10-15T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: measure of the pairs of values of an attribute type that assigns a numeric
-      value that is positive, symmetric and satisfies the triangular inequality
+  definition: '[{''content'': ''measure of the pairs of values of an attribute type
+    that assigns a numeric value that is positive, symmetric and satisfies the triangular
+    inequality''}]'
   examples: []
   id: 664
   language_code: eng

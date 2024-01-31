@@ -1,12 +1,41 @@
 data:
+  _revisions:
+    current: 857e2d
+    tree:
+      857e2d:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/26012.html
+            ref: ISO 19107:2003
+          date_accepted: '2003-05-01T00:00:00.000Z'
+          definition: конечная упорядоченная  совокупность родственных элементов (объектов
+            или значений), которые могут повторяться
+          entry_status: valid
+          examples: []
+          id: 403
+          language_code: rus
+          lineage_source: Internet
+          notes:
+          - Логически, последовательность является набором пар < item, offset >. В
+            ISO 19107 используется синтаксис языка LISP, который заключает последовательности
+            в круглые скобки и разделяет элементы последовательности запятыми
+          review_indicator: ''
+          terms:
+          - designation: последовательность
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2003-05-01T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2003-05-01T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: конечная упорядоченная совокупность родственных элементов (объектов или
-      значений), которые могут повторяться
+  definition: '[{''content'': ''конечная упорядоченная совокупность родственных элементов
+    (объектов или значений), которые могут повторяться''}]'
   examples: []
   id: 403
   language_code: rus

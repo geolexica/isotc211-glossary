@@ -1,11 +1,40 @@
 data:
+  _revisions:
+    current: 73668d
+    tree:
+      73668d:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.18'
+            link: https://www.iso.org/standard/32566.html
+            ref: ISO 19148:2012
+          date_accepted: '2012-02-15T00:00:00.000Z'
+          definition: feature that is used to identify the location of linearly located
+            features
+          entry_status: valid
+          examples:
+          - A feature “road” may be the locating feature for a feature “pedestrian
+            crossing” [a located feature].
+          id: 1177
+          language_code: eng
+          notes: []
+          release: '3'
+          terms:
+          - designation: locating feature
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2012-02-15T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2012-02-15T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: feature that is used to identify the location of linearly located features
+  definition: '[{''content'': ''feature that is used to identify the location of linearly
+    located features''}]'
   examples:
   - content: A feature “road” may be the locating feature for a feature “pedestrian
       crossing” [a located feature].

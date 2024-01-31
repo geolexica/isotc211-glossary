@@ -1,11 +1,47 @@
 data:
+  _revisions:
+    current: e4772e
+    tree:
+      e4772e:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.47
+            link: https://www.iso.org/standard/66175.html
+            ref: ISO 19107:2019
+          date_accepted: '2003-05-01T00:00:00.000Z'
+          definition: 互いに素な幾何プリミティブの集合で，各幾何プリミティブの境界を，その集合の中の，より低い次元の幾何プリミティブの和集合として表すことができるようなもの。
+          entry_status: valid
+          examples: []
+          id: 212
+          language_code: jpn
+          lineage_source: ISO 19107:2003(E)
+          lineage_source_similarity: 1
+          notes:
+          - 集合の中の幾何プリミティブは，複数の幾何プリミティブの内部に存在するような直接位置がないという意味で互いに素である。集合は，境界演算のもとで閉じているが，これは，幾何複体の各要素について，その要素の境界を表す幾何プリミティブの集まり（これも幾何複体となる。）が存在することを意味する。既に述べたように，点（幾何の唯一の零次元プリミティブオブジェクト型）の境界は空集合である。したがって，最も高い次元の幾何プリミティブが立体（三次元）の場合，この定義の境界演算を次々と適用していくと，高々3ステップ後には終結する。また，任意のオブジェクトの境界は輪体となる。
+          release: '1'
+          review_date: '2019-12-02T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-12-02T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19107:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19107:2003
+            to ISO 19107:2019(E), 3.47. Lineage source added as ISO 19107:2003(E)
+          review_indicator: ''
+          review_status: final
+          terms:
+          - designation: 幾何複体
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2003-05-01T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2003-05-01T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: 互いに素な幾何プリミティブの集合で，各幾何プリミティブの境界を，その集合の中の，より低い次元の幾何プリミティブの和集合として表すことができるようなもの。
+  definition: '[{''content'': ''互いに素な幾何プリミティブの集合で，各幾何プリミティブの境界を，その集合の中の，より低い次元の幾何プリミティブの和集合として表すことができるようなもの。''}]'
   examples: []
   id: 212
   language_code: jpn
@@ -23,7 +59,7 @@ data:
   review_status: final
   sources:
   - origin:
-      clause: '3.47'
+      clause: (E), 3.47
       link: https://www.iso.org/standard/66175.html
       ref: ISO 19107:2019
     type: authoritative

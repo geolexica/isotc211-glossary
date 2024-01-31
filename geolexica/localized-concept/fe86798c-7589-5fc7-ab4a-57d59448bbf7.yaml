@@ -1,12 +1,47 @@
 data:
+  _revisions:
+    current: 0b0f28
+    tree:
+      0b0f28:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.1
+            link: https://www.iso.org/standard/69325.html
+            ref: ISO 19101-2:2018
+          date_accepted: '2008-06-01T00:00:00.000Z'
+          definition: диапазон длин волн электромагнитного излучения, которые производят
+            один ответ устройства зондирования
+          entry_status: valid
+          examples: []
+          id: 846
+          language_code: rus
+          lineage_source: ISO/TS 19101-2:2008(E)
+          lineage_source_similarity: 1
+          notes: []
+          release: '2'
+          review_date: '2018-05-01T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2018-05-01T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19101-2:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO/TS 19101-2:2008
+            to ISO 19101-2:2018(E), 3.1. Lineage source added as ISO/TS 19101-2:2008(E)
+          review_status: final
+          terms:
+          - designation: полоса
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2008-06-01T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2008-06-01T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: диапазон длин волн электромагнитного излучения, которые производят один
-      ответ устройства зондирования
+  definition: '[{''content'': ''диапазон длин волн электромагнитного излучения, которые
+    производят один ответ устройства зондирования''}]'
   examples: []
   id: 846
   language_code: rus
@@ -22,7 +57,7 @@ data:
   review_status: final
   sources:
   - origin:
-      clause: '3.1'
+      clause: (E), 3.1
       link: https://www.iso.org/standard/69325.html
       ref: ISO 19101-2:2018
     type: authoritative

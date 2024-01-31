@@ -1,11 +1,45 @@
 data:
+  _revisions:
+    current: b16f7b
+    tree:
+      b16f7b:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            clause: (E), 3.19
+            link: https://www.iso.org/standard/66847.html
+            ref: ISO 19130-1:2018
+          date_accepted: '2010-06-15T00:00:00.000Z'
+          definition: Winkel zwischen dem Geschwindigkeits- und dem Messrichtungsvektor
+          entry_status: valid
+          examples: []
+          id: 990
+          language_code: deu
+          lineage_source: ISO/TS 19130:2010(E)
+          lineage_source_similarity: '1'
+          notes: []
+          release: '2'
+          review_date: '2018-09-01T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2018-09-01T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19130-1:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010
+            to ISO 19130-1:2018(E), 3.19. Lineage source added as ISO/TS 19130:2010(E)
+          review_status: final
+          terms:
+          - designation: Doppler-Winkel <SAR>
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2010-06-15T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2010-06-15T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: Winkel zwischen dem Geschwindigkeits- und dem Messrichtungsvektor
+  definition: '[{''content'': ''Winkel zwischen dem Geschwindigkeits- und dem Messrichtungsvektor''}]'
   examples: []
   id: 990
   language_code: deu
@@ -21,7 +55,7 @@ data:
   review_status: final
   sources:
   - origin:
-      clause: '3.19'
+      clause: (E), 3.19
       link: https://www.iso.org/standard/66847.html
       ref: ISO 19130-1:2018
     type: authoritative

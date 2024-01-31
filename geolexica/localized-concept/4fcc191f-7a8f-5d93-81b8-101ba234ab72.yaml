@@ -1,13 +1,54 @@
 data:
+  _revisions:
+    current: 79fe26
+    tree:
+      79fe26:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/40601.html
+            ref: ISO 19132:2007
+          country_code: swe
+          date_accepted: '2007-10-15T00:00:00.000Z'
+          definition: 'sekvens av tidsangivelserr med avseende på ett
+
+            visst attribut hos ett visst objekt'
+          entry_status: valid
+          examples: []
+          id: 688
+          language_code: swe
+          lineage_source: (Type reference to national language document)
+          notes:
+          - Temporal sequences are not assumed to be evenly spaced in time, nor equidistance
+            in space. For discrete change, the default logic is to sample at temporal
+            points of change if possible, so that the timestamp is the first temporal
+            instance where the attributes listed have taken on that combination of
+            values. For sake of space savings, some samples in a sequence only list
+            those values that have changed since the immediately preceding temporal
+            sample. For this reason, a sample should only be considered in the context
+            of its containing sequence. For rigid motions (such as vehicle tracking),
+            only centroid (a point value) and orientation (direction of travel) are
+            needed for a temporal sequence describing location and spatial extent.
+            A motion in combination with an object deformation would require more
+            information.
+          release: '1'
+          review_indicator: ''
+          terms:
+          - designation: temporal sekvens
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2007-10-15T00:00:00.000Z'
   authoritativeSource:
   - {}
   country_code: swe
   dates:
   - date: '2007-10-15T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: sekvens av tidsangivelserr med avseende på ett\nvisst attribut hos ett
-      visst objekt
+  definition: '[{''content'': ''sekvens av tidsangivelserr med avseende på ett\nvisst
+    attribut hos ett visst objekt''}]'
   examples: []
   id: 688
   language_code: swe

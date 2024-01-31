@@ -1,4 +1,45 @@
 data:
+  _revisions:
+    current: 5b806f
+    tree:
+      5b806f:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          abbrev: h or H
+          authoritative_source:
+            link: https://www.iso.org/standard/37805.html
+            ref: ISO 19116:2004
+          date_accepted: '2004-07-01T00:00:00.000Z'
+          date_amended: '2008-07-15'
+          definition: distancia de un punto a una superficie de referencia escogida
+            a lo largo de una línea perpendicular a esta superficie
+          entry_status: superseded
+          examples: []
+          id: 12
+          language_code: spa
+          notes:
+          - Véase altitud elipsoidal y altitud ligada a la gravedad.
+          - La altitud de un punto, sí es hacia el exterior de la superficie, se considera
+            positiva; la altitud negativa se designa como profundidad.
+          release: '-1'
+          review_date: '2007-12-07T00:00:00.000Z'
+          review_decision: ''
+          review_decision_date: '2008-05-22'
+          review_decision_event: Resultado de la votación del documento FDIS 6709:2008
+          review_decision_notes: La definición de la Norma ISO 19116:2002 fue reemplazada
+            por una nueva definición de la Norma ISO 6709:2008
+          review_status: ''
+          review_type: ''
+          terms:
+          - designation: altitud
+            normative_status: null
+            type: expression
+          - designation: altitud ortométrica
+            type: expression
+        parents: []
+        timeCreated: '2004-07-01T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
@@ -6,9 +47,8 @@ data:
     type: accepted
   - date: '2008-07-15'
     type: amended
-  definition:
-  - content: distancia de un punto a una superficie de referencia escogida a lo largo
-      de una línea perpendicular a esta superficie
+  definition: '[{''content'': ''distancia de un punto a una superficie de referencia
+    escogida a lo largo de una línea perpendicular a esta superficie''}]'
   examples: []
   id: 12
   language_code: spa

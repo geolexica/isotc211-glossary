@@ -1,12 +1,45 @@
 data:
+  _revisions:
+    current: fc07ff
+    tree:
+      fc07ff:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32551.html
+            ref: ISO 19133:2005
+          country_code: swe
+          date_accepted: '2005-10-15T00:00:00.000Z'
+          definition: översättning av ett läge till koordinater
+          entry_status: valid
+          examples: []
+          id: 195
+          language_code: swe
+          lineage_source: (Type reference to national language document)
+          notes:
+          - Geocoding usually refers to the translation of "address" or "intersection"
+            to "direct position." Many services providers also include a "reverse
+            geocoding" interface to their geocoder, thus extending the definition
+            of the service as a general translator of location. Because routing services
+            use internal location encodings not usually available to others, a geocoder
+            is an integral part of the internals of such a service.
+          release: '1'
+          review_indicator: ''
+          terms:
+          - designation: geokodning
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2005-10-15T00:00:00.000Z'
   authoritativeSource:
   - {}
   country_code: swe
   dates:
   - date: '2005-10-15T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: översättning av ett läge till koordinater
+  definition: '[{''content'': ''översättning av ett läge till koordinater''}]'
   examples: []
   id: 195
   language_code: swe

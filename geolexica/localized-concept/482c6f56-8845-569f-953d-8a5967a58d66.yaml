@@ -1,11 +1,59 @@
 data:
+  _revisions:
+    current: 5fc69f
+    tree:
+      5fc69f:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.58
+            link: https://www.iso.org/standard/66175.html
+            ref: ISO 19107:2019
+          date_accepted: '2003-05-01T00:00:00.000Z'
+          definition: 二つの領域の一方から他方への一対一で構造を保存する関数が存在して，それら二つの関数をどの順序で合成しても恒等関数に一致するような，二つの領域（二つの複体のような）の間の関係。
+          entry_status: valid
+          examples: []
+          id: 259
+          language_code: jpn
+          lineage_source: ISO 19107:2003(E)
+          lineage_source_similarity: 1
+          notes:
+          - 'Provisional translation:  19107:2019, 3.58 -- Note 1 to entry
+
+            $$
+
+            ''備考 要素が一対一に対応し，その対応で次元及び境界が保存される場合，幾何複体は，位相複体に同形である。
+
+            $$
+
+            A geometric complex is isomorphic to a topological complex if their elements
+            are in a 1-to-1, dimension- and boundary-preserving correspondence to
+            one another. \[[A,B \textit{ isomorphic}] \Leftrightarrow [\exists f :
+            A \rightarrow B, g : B \rightarrow A \backepsilon f \circ g = Id_A, g
+            \circ f = Id_B]\]'
+          release: '1'
+          review_date: '2019-12-02T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-12-02T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19107:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19107:2003
+            to ISO 19107:2019(E), 3.58. Lineage source added as ISO 19107:2003(E)
+          review_indicator: ''
+          review_status: final
+          terms:
+          - designation: 同形
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2003-05-01T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2003-05-01T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: 二つの領域の一方から他方への一対一で構造を保存する関数が存在して，それら二つの関数をどの順序で合成しても恒等関数に一致するような，二つの領域（二つの複体のような）の間の関係。
+  definition: '[{''content'': ''二つの領域の一方から他方への一対一で構造を保存する関数が存在して，それら二つの関数をどの順序で合成しても恒等関数に一致するような，二つの領域（二つの複体のような）の間の関係。''}]'
   examples: []
   id: 259
   language_code: jpn
@@ -34,7 +82,7 @@ data:
   review_status: final
   sources:
   - origin:
-      clause: '3.58'
+      clause: (E), 3.58
       link: https://www.iso.org/standard/66175.html
       ref: ISO 19107:2019
     type: authoritative

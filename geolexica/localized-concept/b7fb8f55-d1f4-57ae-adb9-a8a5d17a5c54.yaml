@@ -1,11 +1,48 @@
 data:
+  _revisions:
+    current: 30ca73
+    tree:
+      30ca73:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.25
+            link: https://www.iso.org/standard/66175.html
+            ref: ISO 19107:2019
+          date_accepted: '2003-05-01T00:00:00.000Z'
+          definition: 하나의 절점과 그 절점이 갖는 방향성 간의 연관으로 표현된 방향성 위상 객체
+          entry_status: valid
+          examples: []
+          id: 138
+          language_code: kor
+          lineage_source: ISO 19107:2003(E)
+          lineage_source_similarity: 1
+          notes:
+          - 방향성 절점은 변과 절점 간의 공간적인 관계를 유지하기 위해 공유 경계 측면에서 사용된다. 절점의 방향성은 변에 따르며, "+"는
+            끝 절점, "-"는 시작 절점에 부여된다. 이것은 다음의 벡터 기술법과도 일치한다. "방향 = 종점 - 시점".
+          release: '1'
+          review_date: '2019-12-02T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-12-02T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19107:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19107:2003
+            to ISO 19107:2019(E), 3.25. Lineage source added as ISO 19107:2003(E)
+          review_indicator: ''
+          review_status: final
+          terms:
+          - designation: 방향성 절점
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2003-05-01T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2003-05-01T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: 하나의 절점과 그 절점이 갖는 방향성 간의 연관으로 표현된 방향성 위상 객체
+  definition: '[{''content'': ''하나의 절점과 그 절점이 갖는 방향성 간의 연관으로 표현된 방향성 위상 객체''}]'
   examples: []
   id: 138
   language_code: kor
@@ -24,7 +61,7 @@ data:
   review_status: final
   sources:
   - origin:
-      clause: '3.25'
+      clause: (E), 3.25
       link: https://www.iso.org/standard/66175.html
       ref: ISO 19107:2019
     type: authoritative

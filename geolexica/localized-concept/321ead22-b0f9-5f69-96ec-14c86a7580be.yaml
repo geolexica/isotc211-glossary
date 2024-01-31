@@ -1,4 +1,50 @@
 data:
+  _revisions:
+    current: 900b87
+    tree:
+      900b87:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.10'
+            link: https://www.iso.org/standard/26018.html
+            ref: ISO 19113:2002
+          country_code: swe
+          date_accepted: '2002-12-01T00:00:00.000Z'
+          date_amended: '2013-12-15T00:00:00.000Z'
+          definition: specifik del hos en datamängd eller en dataprodukt som har identifierats
+            för att ett eller flera datakvalitetsmått antas vara konstanta inom delen
+          entry_status: retired
+          examples: []
+          id: 118
+          language_code: swe
+          lineage_source: ''
+          lineage_source_similarity: 0
+          notes:
+          - A data quality scope for a dataset can comprise a dataset series to which
+            the dataset belongs, the dataset itself, or a smaller grouping of data
+            located physically within the dataset sharing common characteristics.
+            Common characteristics can be an identified feature type, feature attribute,
+            or feature relationship; data collection criteria; original source; or
+            a specified geographic or temporal extent.
+          release: '-1'
+          review_date: '2013-12-15T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2013-12-15T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19157:2013
+          review_decision_notes: The entry has been omitted from the superseding standard  (ISO
+            19157:2013).
+          review_indicator: ''
+          review_status: final
+          review_type: retirement
+          terms:
+          - designation: datakvalitetsdelomfattning
+            normative_status: null
+            type: expression
+        parents: []
+        timeCreated: '2002-12-01T00:00:00.000Z'
   authoritativeSource:
   - {}
   country_code: swe
@@ -7,9 +53,9 @@ data:
     type: accepted
   - date: '2013-12-15T00:00:00.000Z'
     type: amended
-  definition:
-  - content: specifik del hos en datamängd eller en dataprodukt som har identifierats
-      för att ett eller flera datakvalitetsmått antas vara konstanta inom delen
+  definition: '[{''content'': ''specifik del hos en datamängd eller en dataprodukt
+    som har identifierats för att ett eller flera datakvalitetsmått antas vara konstanta
+    inom delen''}]'
   examples: []
   id: 118
   language_code: swe

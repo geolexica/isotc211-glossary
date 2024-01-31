@@ -1,11 +1,45 @@
 data:
+  _revisions:
+    current: a33165
+    tree:
+      a33165:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32551.html
+            ref: ISO 19133:2005
+          date_accepted: '2005-10-15T00:00:00.000Z'
+          definition: دالة تربط بين القياس (التكلفة) وطريق أو مسار معين
+          entry_status: valid
+          examples: []
+          id: 97
+          language_code: ara
+          notes:
+          - الآلية العادية هي تطبيق التكلفة على كل جزء من أجزاء الطريق, وتحديد التكلفة
+            الكلية للطريق بأنها تساوي مجموع تكاليف الأجزاء. ويعتبر هذا الإجراء ضرورياً
+            لتشغيل خوارزمات الملاحة التي يشيع استخدامها أكثر من غيرها. وحدات دالات
+            التكلفة ليست مقتصرة على التكاليف والقيم النقدية فقط بل تشمل قياسات أخرى
+            مثل الوقت والمسافة كما قد تشمل غيرها أيضاً. والشرط الوحيد هو أن تكون الدالة
+            إضافية additive وألا تكون سالبة على أقل تقدير. وهذا المعيار الأخير يمكن
+            تخفيفه ما دام أنه ليست هناك تكلفة صفرية أو تكلفة متدنية ترتبط بأي حلقة
+            في الشبكة حيث أن هذا سيؤدي إلى عدم وجود طريق تصل تكلفته إلى "الحد الأدنى
+            للتكلفة".
+          release: '1'
+          review_indicator: ''
+          terms:
+          - designation: دالة التكلفة
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2005-10-15T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2005-10-15T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: دالة تربط بين القياس (التكلفة) وطريق أو مسار معين
+  definition: '[{''content'': ''دالة تربط بين القياس (التكلفة) وطريق أو مسار معين''}]'
   examples: []
   id: 97
   language_code: ara

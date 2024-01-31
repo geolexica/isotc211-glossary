@@ -1,11 +1,44 @@
 data:
+  _revisions:
+    current: 332c5d
+    tree:
+      332c5d:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: Web Services Glossary
+            ref: W3C
+          date_accepted: '2014-02-15T00:00:00.000Z'
+          definition: mechanism to defeat the purpose of a subsystem by avoiding its
+            invocation
+          entry_status: valid
+          examples: []
+          id: 1212
+          language_code: eng
+          lineage_source: ISO 19153:2014, 4.6
+          lineage_source_similarity: 1
+          notes:
+          - Security systems are bypassed usually by using security faults in the
+            operating system. Such infringements are more an aspect of the operating
+            system than of the security system. To correct this, the relationship
+            between the security system and the operating system shall be modified
+            to prevent bypass mechanisms.
+          release: '3'
+          terms:
+          - designation: bypass
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2014-02-15T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2014-02-15T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: mechanism to defeat the purpose of a subsystem by avoiding its invocation
+  definition: '[{''content'': ''mechanism to defeat the purpose of a subsystem by
+    avoiding its invocation''}]'
   examples: []
   id: 1212
   language_code: eng

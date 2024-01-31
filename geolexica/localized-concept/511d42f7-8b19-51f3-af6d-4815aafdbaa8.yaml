@@ -1,11 +1,54 @@
 data:
+  _revisions:
+    current: 725e07
+    tree:
+      725e07:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.91
+            link: https://www.iso.org/standard/66175.html
+            ref: ISO 19107:2019
+          date_accepted: '2003-05-01T00:00:00.000Z'
+          definition: complejo todos cuyos elementos están también en un complejo
+            mayor
+          entry_status: valid
+          examples: []
+          id: 434
+          language_code: spa
+          lineage_source: ISO 19107:2003(E)
+          lineage_source_similarity: 1
+          notes:
+          - En cuanto que las definiciones de los complejos geométricos y topológicos
+            requieren solo que sean cerrados bajo las operaciones de frontera, el
+            conjunto de cualquier primitiva de una dimensión particular y por debajo,
+            es siempre un subcomplejo del original, el complejo superior. Por lo tanto,
+            cualquier complejo topológico completamente planar contiene un grafo arco-nodo
+            como un subcomplejo.
+          release: '1'
+          review_date: '2019-12-02T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-12-02T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19107:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19107:2003
+            to ISO 19107:2019(E), 3.91. Lineage source added as ISO 19107:2003(E)
+          review_indicator: ''
+          review_status: final
+          terms:
+          - designation: subcomplejo
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2003-05-01T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2003-05-01T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: complejo todos cuyos elementos están también en un complejo mayor
+  definition: '[{''content'': ''complejo todos cuyos elementos están también en un
+    complejo mayor''}]'
   examples: []
   id: 434
   language_code: spa
@@ -27,7 +70,7 @@ data:
   review_status: final
   sources:
   - origin:
-      clause: '3.91'
+      clause: (E), 3.91
       link: https://www.iso.org/standard/66175.html
       ref: ISO 19107:2019
     type: authoritative

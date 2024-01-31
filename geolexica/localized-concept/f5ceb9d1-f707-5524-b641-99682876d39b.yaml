@@ -1,10 +1,51 @@
 data:
+  _revisions:
+    current: 4faea6
+    tree:
+      4faea6:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            clause: '3.15'
+            link: https://www.iso.org/standard/66175.html
+            ref: ISO 19107:2019
+          date_accepted: '2003-05-01T00:00:00.000Z'
+          entry_status: valid
+          examples: []
+          id: 86
+          language_code: deu
+          lineage_source: ISO 19107:2003(E)
+          lineage_source_similarity: 1
+          notes:
+          - '"Smallest" is the set theoretic smallest, not an indication of a measurement.
+            The definition can be rewritten as "the intersection of all convex sets
+            that contain the geometric object". Another definition in a Euclidean
+            space `bbb"E"^n` is the union of all lines with both end points in the
+            given geometric object. `C = A."convexHull" <=> [C."convex" = "TRUE"]
+            ^^ [A sub C] ^^ [[B."convex" = "true", A sub B] => [A sube C sube B]]`'
+          release: '1'
+          review_date: '2019-12-02T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-12-02T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19107:2019(E)
+          review_decision_notes: Authoritative reference changed from Dictionary of
+            Computing, Fourth Edition, Oxford University Press to ISO 19107:2019,
+            3.15. Lineage source added as ISO 19107:2003(E)
+          review_indicator: ''
+          review_status: final
+          terms:
+          - designation: konvexe Hülle
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2003-05-01T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2003-05-01T00:00:00.000Z'
     type: accepted
-  definition: []
   examples: []
   id: 86
   language_code: deu

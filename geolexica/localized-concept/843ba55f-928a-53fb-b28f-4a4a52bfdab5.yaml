@@ -1,13 +1,49 @@
 data:
+  _revisions:
+    current: 8a142f
+    tree:
+      8a142f:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.1.35
+            link: https://www.iso.org/standard/75676.html
+            ref: ISO 19136-1:2020
+          date_accepted: '2007-09-01T00:00:00.000Z'
+          definition: XML document with a root element that is one of the elements
+            AbstractFeature, Dictionary or TopoComplex specified in the GML schema
+            or any element of a substitution group of any of these elements.
+          entry_status: valid
+          examples: []
+          id: 824
+          language_code: eng
+          lineage_source: ISO 19136:2007(E)
+          lineage_source_similarity: 1
+          notes: []
+          release: '1'
+          review_date: '2020-01-09T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2020-01-09T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19136-1:2020(E)
+          review_decision_notes: Authoritative reference changed from ISO 19136:2007
+            to ISO 19136-1:2020(E), 3.1.35. Lineage source added as ISO 19136:2007(E)
+          review_status: final
+          terms:
+          - designation: GML document
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2007-09-01T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2007-09-01T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: XML document with a root element that is one of the elements AbstractFeature,
-      Dictionary or TopoComplex specified in the GML schema or any element of a substitution
-      group of any of these elements.
+  definition: '[{''content'': ''XML document with a root element that is one of the
+    elements AbstractFeature, Dictionary or TopoComplex specified in the GML schema
+    or any element of a substitution group of any of these elements.''}]'
   examples: []
   id: 824
   language_code: eng
@@ -23,7 +59,7 @@ data:
   review_status: final
   sources:
   - origin:
-      clause: 3.1.35
+      clause: (E), 3.1.35
       link: https://www.iso.org/standard/75676.html
       ref: ISO 19136-1:2020
     type: authoritative

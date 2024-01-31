@@ -1,11 +1,43 @@
 data:
+  _revisions:
+    current: 92d003
+    tree:
+      92d003:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: Web Services Glossary
+            ref: W3C
+          date_accepted: '2014-02-15T00:00:00.000Z'
+          definition: механизм для достижения цели подсистемы, избегая ее вызова
+          entry_status: valid
+          examples: []
+          id: 1212
+          language_code: rus
+          lineage_source: ISO 19153:2014, 4.6
+          lineage_source_similarity: 1
+          notes:
+          - Системы безопасности обычно обходят, используя ошибки безопасности в операционной
+            системе. Такие нарушения (4.21 и 4.22) являются скорее аспектом операционной
+            системы, чем системы безопасности. Чтобы исправить это, взаимосвязь между
+            системой безопасности и операционной системой должна быть изменена для
+            предотвращения механизмов обхода
+          release: '3'
+          terms:
+          - designation: bypass(обход)
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2014-02-15T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2014-02-15T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: механизм для достижения цели подсистемы, избегая ее вызова
+  definition: '[{''content'': ''механизм для достижения цели подсистемы, избегая ее
+    вызова''}]'
   examples: []
   id: 1212
   language_code: rus

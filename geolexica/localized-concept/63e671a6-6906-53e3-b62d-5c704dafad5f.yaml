@@ -1,11 +1,48 @@
 data:
+  _revisions:
+    current: a5e21c
+    tree:
+      a5e21c:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            clause: (E), 3.21
+            link: https://www.iso.org/standard/67039.html
+            ref: ISO 19115-2:2019
+          date_accepted: '2009-02-15T00:00:00.000Z'
+          definition: einzelnes Messereignis eines mobilen Messsystems
+          entry_status: valid
+          examples: []
+          id: 864
+          language_code: deu
+          lineage_source: ISO 19115-2:2009(E)
+          lineage_source_similarity: 1
+          notes:
+          - In this part of ISO 19115, the measuring system will usually be a remote
+            sensing platform. In a navigation context, the measuring system might
+            be a GPS satellite.
+          release: '2'
+          review_date: '2019-01-01T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-01-01T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19115-2:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19115-2:2009
+            to ISO 19115-2:2019(E), 3.21. Lineage source added as ISO 19115-2:2009(E)
+          review_status: final
+          terms:
+          - designation: Vorbeiflug
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2009-02-15T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2009-02-15T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: einzelnes Messereignis eines mobilen Messsystems
+  definition: '[{''content'': ''einzelnes Messereignis eines mobilen Messsystems''}]'
   examples: []
   id: 864
   language_code: deu
@@ -24,7 +61,7 @@ data:
   review_status: final
   sources:
   - origin:
-      clause: '3.21'
+      clause: (E), 3.21
       link: https://www.iso.org/standard/67039.html
       ref: ISO 19115-2:2019
     type: authoritative

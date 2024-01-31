@@ -1,11 +1,50 @@
 data:
+  _revisions:
+    current: 0f4166
+    tree:
+      0f4166:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.30
+            link: https://www.iso.org/standard/66175.html
+            ref: ISO 19107:2019
+          date_accepted: '2003-05-01T00:00:00.000Z'
+          definition: 변의 집합과 그것에 관련한 연결 절점의 집합으로 나타낼 수 있는 위상 복합체 내에 내재된 그래프
+          entry_status: valid
+          examples: []
+          id: 147
+          language_code: kor
+          lineage_source: ISO 19107:2003(E)
+          lineage_source_similarity: 1
+          notes:
+          - 변-절점 그래프는 그것이 포함된 복합체의 하위 복합체이다.
+          release: '1'
+          review_date: '2019-12-02T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-12-02T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19107:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19107:2003
+            to ISO 19107:2019(E), 3.30. Lineage source added as ISO 19107:2003(E)
+          review_indicator: ''
+          review_status: final
+          terms:
+          - designation: 변-절점 그래프
+            normative_status: preferred
+            type: expression
+          - designation: 에지-노드 그래프
+            type: expression
+        parents: []
+        timeCreated: '2003-05-01T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2003-05-01T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: 변의 집합과 그것에 관련한 연결 절점의 집합으로 나타낼 수 있는 위상 복합체 내에 내재된 그래프
+  definition: '[{''content'': ''변의 집합과 그것에 관련한 연결 절점의 집합으로 나타낼 수 있는 위상 복합체 내에 내재된
+    그래프''}]'
   examples: []
   id: 147
   language_code: kor
@@ -23,7 +62,7 @@ data:
   review_status: final
   sources:
   - origin:
-      clause: '3.30'
+      clause: (E), 3.30
       link: https://www.iso.org/standard/66175.html
       ref: ISO 19107:2019
     type: authoritative

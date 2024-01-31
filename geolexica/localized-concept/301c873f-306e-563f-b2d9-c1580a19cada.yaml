@@ -1,13 +1,41 @@
 data:
+  _revisions:
+    current: 6b6cc9
+    tree:
+      6b6cc9:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/41445.html
+            ref: ISO 19141:2008
+          date_accepted: '2008-06-01T00:00:00.000Z'
+          definition: 'función f en un intervalo t Є [a, b] tal que f(t) es una geometría
+            y para cada punto P Є f(a) hay un conjunto de puntos de un parámetro (llamado
+            trayectoria de P) P(t): [a, b] → P(t) tal que P(t) Є f(t).'
+          entry_status: valid
+          examples:
+          - Una curva C con su parámetro constructor t es un conjunto de puntos c(t)
+            de un parámetro.
+          id: 644
+          language_code: spa
+          notes: []
+          release: '2'
+          terms:
+          - designation: conjunto de geometrías de un parámetro
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2008-06-01T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2008-06-01T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: 'función f en un intervalo t Є [a, b] tal que f(t) es una geometría y
-      para cada punto P Є f(a) hay un conjunto de puntos de un parámetro (llamado
-      trayectoria de P) P(t): [a, b] → P(t) tal que P(t) Є f(t).'
+  definition: '[{''content'': ''función f en un intervalo t Є [a, b] tal que f(t)
+    es una geometría y para cada punto P Є f(a) hay un conjunto de puntos de un parámetro
+    (llamado trayectoria de P) P(t): [a, b] → P(t) tal que P(t) Є f(t).''}]'
   examples:
   - content: Una curva C con su parámetro constructor t es un conjunto de puntos c(t)
       de un parámetro.

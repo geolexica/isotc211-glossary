@@ -1,11 +1,50 @@
 data:
+  _revisions:
+    current: 6b3b83
+    tree:
+      6b3b83:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.1.69
+            link: https://www.iso.org/standard/74039.html
+            ref: ISO 19111:2019
+          date_accepted: '2007-07-01T00:00:00.000Z'
+          definition: cantidad definida en la que se expresan los parámetros dimensionados
+          entry_status: valid
+          examples: []
+          id: 627
+          language_code: spa
+          lineage_source: ISO 19111:2007(E)
+          lineage_source_similarity: 1
+          notes:
+          - En esta norma internacional, los subtipos de unidades son unidades de
+            longitud, unidades angulares, unidades de tiempo, unidades de escala y
+            unidades de espaciado del píxel.
+          release: '1'
+          review_date: '2019-01-31T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-01-31T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.69. Lineage source added as ISO 19111:2007(E)
+          review_indicator: ''
+          review_status: final
+          terms:
+          - designation: unidad
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2007-07-01T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2007-07-01T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: cantidad definida en la que se expresan los parámetros dimensionados
+  definition: '[{''content'': ''cantidad definida en la que se expresan los parámetros
+    dimensionados''}]'
   examples: []
   id: 627
   language_code: spa
@@ -25,7 +64,7 @@ data:
   review_status: final
   sources:
   - origin:
-      clause: 3.1.69
+      clause: (E), 3.1.69
       link: https://www.iso.org/standard/74039.html
       ref: ISO 19111:2019
     type: authoritative

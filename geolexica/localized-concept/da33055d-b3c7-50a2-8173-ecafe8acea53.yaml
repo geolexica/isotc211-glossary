@@ -1,11 +1,47 @@
 data:
+  _revisions:
+    current: f17b9c
+    tree:
+      f17b9c:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.15'
+            link: https://www.iso.org/standard/42137.html
+            ref: ISO 19143:2010
+          date_accepted: '2015-07-01T00:00:00.000Z'
+          definition: valor constante especificado explícitamente
+          entry_status: valid
+          examples:
+          - '"1"^^xsd:integer, "abc"^^xsd:string'
+          id: 1644
+          language_code: spa
+          notes:
+          - A diferencia del valor que se determina resolviendo una cadena de sustituciones
+            (por ejemplo, una variable).
+          release: '4'
+          review_date: '2012-05-25T00:00:00.000Z'
+          review_decision: ''
+          review_decision_date: '2015-07-01T00:00:00.000Z'
+          review_decision_event: Normal ISO processing
+          review_decision_notes: Publication of document ISO 19150-2:2015(E)
+          review_status: final
+          terms:
+          - designation: valor literal
+            normative_status: admitted
+            type: expression
+          - designation: valor literal
+            type: expression
+        parents: []
+        timeCreated: '2015-07-01T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2015-07-01T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: valor constante especificado explícitamente
+  definition: '[{''content'': ''valor constante especificado explícitamente''}]'
   examples:
   - content: '"1"^^xsd:integer, "abc"^^xsd:string'
   id: 1644

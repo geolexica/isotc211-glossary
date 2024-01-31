@@ -1,12 +1,42 @@
 data:
+  _revisions:
+    current: 5aa3ce
+    tree:
+      5aa3ce:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32551.html
+            ref: ISO 19133:2005
+          date_accepted: '2005-10-15T00:00:00.000Z'
+          definition: información necesaria en un punto a lo largo de una ruta en
+            una red que permite recorrer la ruta
+          entry_status: valid
+          examples: []
+          id: 389
+          language_code: spa
+          notes:
+          - Para minimizar el número de instrucciones necesarias para completar el
+            recorrido de una ruta, se supone una instrucción por defecto en cruces
+            sin instrucciones específicamente asociadas. Esta instrucción por defecto
+            es la llamada regla de la carretera principal.
+          release: '1'
+          review_indicator: ''
+          terms:
+          - designation: instrucciones de ruta
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2005-10-15T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2005-10-15T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: información necesaria en un punto a lo largo de una ruta en una red que
-      permite recorrer la ruta
+  definition: '[{''content'': ''información necesaria en un punto a lo largo de una
+    ruta en una red que permite recorrer la ruta''}]'
   examples: []
   id: 389
   language_code: spa

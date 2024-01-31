@@ -1,11 +1,43 @@
 data:
+  _revisions:
+    current: c03d98
+    tree:
+      c03d98:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.1'
+            link: https://www.iso.org/standard/32566.html
+            ref: ISO 19148:2012
+          date_accepted: '2012-02-15T00:00:00.000Z'
+          definition: значение атрибута объекта, которое может относиться только к
+            части объекта
+          entry_status: valid
+          examples: []
+          id: 1169
+          language_code: rus
+          lineage_source: ISO 19148:2012
+          notes:
+          - Событие атрибута включает участок с линейной привязкой, где значение атрибута
+            распространяется только на объект с атрибутом .
+          - Событие атрибута можно квалифицировать по моменту (4.8), при котором,
+            или периоду (4.20), в течение которого применялось значение атрибута.
+          release: '3'
+          terms:
+          - designation: атрибутивное событие
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2012-02-15T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2012-02-15T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: значение атрибута объекта, которое может относиться только к части объекта
+  definition: '[{''content'': ''значение атрибута объекта, которое может относиться
+    только к части объекта''}]'
   examples: []
   id: 1169
   language_code: rus

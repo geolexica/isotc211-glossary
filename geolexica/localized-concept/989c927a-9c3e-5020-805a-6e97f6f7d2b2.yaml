@@ -1,12 +1,41 @@
 data:
+  _revisions:
+    current: 19b5dc
+    tree:
+      19b5dc:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.18'
+            link: https://www.iso.org/standard/32566.html
+            ref: ISO 19148:2012
+          date_accepted: '2012-02-15T00:00:00.000Z'
+          definition: объект, используемый для определения местоположения линейно
+            расположенных объектов
+          entry_status: valid
+          examples:
+          - Объект “дорога” может быть размещающим (исходным)  объектом для объекта
+            “пешеходный переход” [позиционируемый объект]
+          id: 1177
+          language_code: rus
+          lineage_source: перевод ИСО 19148:2012
+          notes: []
+          release: '3'
+          terms:
+          - designation: размещающий объект
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2012-02-15T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2012-02-15T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: объект, используемый для определения местоположения линейно расположенных
-      объектов
+  definition: '[{''content'': ''объект, используемый для определения местоположения
+    линейно расположенных объектов''}]'
   examples:
   - content: Объект “дорога” может быть размещающим (исходным)  объектом для объекта
       “пешеходный переход” [позиционируемый объект]

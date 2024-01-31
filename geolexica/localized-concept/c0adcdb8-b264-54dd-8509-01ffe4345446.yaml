@@ -1,12 +1,47 @@
 data:
+  _revisions:
+    current: 398cc6
+    tree:
+      398cc6:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            ref: UML 2
+          date_accepted: '2015-12-01T00:00:00.000Z'
+          definition: relationship that signifies that a single or a set of model
+            elements requires other model elements for their specification or implementation
+          entry_status: valid
+          examples: []
+          id: 1148
+          language_code: eng
+          lineage_source: ISO 19103:2015, 4.15
+          notes:
+          - This means that the complete semantics of the depending elements is either
+            semantically or structurally dependent on the definition of the supplier
+            element(s).
+          release: '4'
+          review_date: '2009-01-14T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2015-12-01T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: This entry supersedes the entry for "dependency <UML>"
+            in ISO/TS 19103:2005
+          review_status: final
+          terms:
+          - designation: dependency <UML>
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2015-12-01T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2015-12-01T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: relationship that signifies that a single or a set of model elements
-      requires other model elements for their specification or implementation
+  definition: '[{''content'': ''relationship that signifies that a single or a set
+    of model elements requires other model elements for their specification or implementation''}]'
   examples: []
   id: 1148
   language_code: eng

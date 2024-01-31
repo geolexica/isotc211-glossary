@@ -1,11 +1,50 @@
 data:
+  _revisions:
+    current: bee01b
+    tree:
+      bee01b:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '3.7'
+            link: https://www.iso.org/standard/57303.html
+            ref: ISO 19110:2016
+          date_accepted: '2002-07-01T00:00:00.000Z'
+          definition: 피처 유형에 해당하는 모든 인스턴스에서 실행 가능한 연산
+          entry_status: valid
+          examples:
+          - '"댐"에 대한 피처 연산은 댐을 높이는 것이다. 이 연산 결과 "댐"의 높이와 "저수지"의 수위가 올라간다.'
+          id: 177
+          language_code: kor
+          lineage_source: ISO 19101:2002
+          lineage_source_similarity: 1
+          notes:
+          - 종종 피처 연산은 피처 유형의 정의를 위한 기초를 제공한다.
+          release: '1'
+          review_date: '2012-01-27T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2016-12-01T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19110:2016
+          review_decision_notes: Authoritative reference changed from ISO 19110:2005
+            to ISO 19110:2016, 3.7. Lineage source added as ISO 19101:2002
+          review_indicator: ''
+          review_status: final
+          terms:
+          - designation: 지형지물 연산
+            normative_status: preferred
+            type: expression
+          - designation: 피처 연산
+            type: expression
+        parents: []
+        timeCreated: '2002-07-01T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2002-07-01T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: 피처 유형에 해당하는 모든 인스턴스에서 실행 가능한 연산
+  definition: '[{''content'': ''피처 유형에 해당하는 모든 인스턴스에서 실행 가능한 연산''}]'
   examples:
   - content: '"댐"에 대한 피처 연산은 댐을 높이는 것이다. 이 연산 결과 "댐"의 높이와 "저수지"의 수위가 올라간다.'
   id: 177

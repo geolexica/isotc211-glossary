@@ -1,12 +1,41 @@
 data:
+  _revisions:
+    current: 856a5d
+    tree:
+      856a5d:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            ref: Adapted from NISTIR 7117
+          date_accepted: '2014-01-15T00:00:00.000Z'
+          definition: data collected by the receiver as a result of all returns from
+            a single emitted pulse
+          entry_status: valid
+          examples: []
+          id: 1390
+          language_code: eng
+          lineage_source: ISO/TS 19130-2:2014, 4.22
+          lineage_source_similarity: 1
+          notes:
+          - A complete 3D data sample of the world produced by a LIDAR taken at a
+            certain time, place, and orientation. A single LIDAR frame is also referred
+            to as a range image.
+          release: '3'
+          terms:
+          - designation: frame<LIDAR>
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2014-01-15T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2014-01-15T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: data collected by the receiver as a result of all returns from a single
-      emitted pulse
+  definition: '[{''content'': ''data collected by the receiver as a result of all
+    returns from a single emitted pulse''}]'
   examples: []
   id: 1390
   language_code: eng

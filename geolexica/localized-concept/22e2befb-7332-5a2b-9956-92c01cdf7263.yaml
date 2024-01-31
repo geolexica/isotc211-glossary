@@ -1,11 +1,54 @@
 data:
+  _revisions:
+    current: 4ddaa1
+    tree:
+      4ddaa1:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          abbrev: URI
+          authoritative_source:
+            clause: (E), 3.1.62
+            link: https://www.iso.org/standard/75676.html
+            ref: ISO 19136-1:2020
+          date_accepted: '2007-09-01T00:00:00.000Z'
+          definition: resurssin yksilöivä, rakenteeltaan IETF RTF 2396:n mukainen
+            tunniste
+          entry_status: valid
+          examples: []
+          id: 481
+          language_code: fin
+          lineage_source: ISO 19136:2007(E)
+          lineage_source_similarity: 1
+          notes:
+          - Yleinen syntaksi on <scheme>::<scheme-specific-part>. Hierarkkinen syntaksi,
+            jossa on mukana nimiavaruus, on <scheme>://<authority><path>?<query>.
+            Katso RFC 2396.
+          release: '1'
+          review_date: '2020-01-09T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2020-01-09T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19136-1:2020(E)
+          review_decision_notes: Authoritative reference changed from ISO 19136:2007
+            to ISO 19136-1:2020(E), 3.1.62. Lineage source added as ISO 19136:2007(E)
+          review_indicator: ''
+          review_status: final
+          terms:
+          - designation: yksilöivä resurssitunniste
+            normative_status: preferred
+            type: expression
+          - designation: Uniform Resource Identifier
+            type: expression
+        parents: []
+        timeCreated: '2007-09-01T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2007-09-01T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: resurssin yksilöivä, rakenteeltaan IETF RTF 2396:n mukainen tunniste
+  definition: '[{''content'': ''resurssin yksilöivä, rakenteeltaan IETF RTF 2396:n
+    mukainen tunniste''}]'
   examples: []
   id: 481
   language_code: fin
@@ -25,7 +68,7 @@ data:
   review_status: final
   sources:
   - origin:
-      clause: 3.1.62
+      clause: (E), 3.1.62
       link: https://www.iso.org/standard/75676.html
       ref: ISO 19136-1:2020
     type: authoritative

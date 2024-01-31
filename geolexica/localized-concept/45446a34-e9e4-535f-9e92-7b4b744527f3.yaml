@@ -1,13 +1,52 @@
 data:
+  _revisions:
+    current: d62fe5
+    tree:
+      d62fe5:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.1.23
+            link: https://www.iso.org/standard/74039.html
+            ref: ISO 19111:2019
+          country_code: swe
+          date_accepted: '2003-02-15T00:00:00.000Z'
+          definition: koordinatsystem där en punkts position anges med geodetisk latitud,
+            geodetisk longitud och (i det tredimensionella fallet) höjd över ellipsoiden
+          entry_status: valid
+          examples: []
+          id: 502
+          language_code: swe
+          lineage_source: ISO 19111:2003
+          lineage_source_similarity: 1
+          notes: []
+          release: '1'
+          review_date: '2019-01-31T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-01-31T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19111:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19111:2007
+            to ISO 19111:2019(E), 3.1.23. Lineage source added as ISO 19111:2003
+          review_indicator: ''
+          review_status: final
+          terms:
+          - designation: geodetiskt koordinatsystem
+            normative_status: preferred
+            type: expression
+          - designation: geodetic coordinate system
+            type: expression
+        parents: []
+        timeCreated: '2003-02-15T00:00:00.000Z'
   authoritativeSource:
   - {}
   country_code: swe
   dates:
   - date: '2003-02-15T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: koordinatsystem där en punkts position anges med geodetisk latitud, geodetisk
-      longitud och (i det tredimensionella fallet) höjd över ellipsoiden
+  definition: '[{''content'': ''koordinatsystem där en punkts position anges med geodetisk
+    latitud, geodetisk longitud och (i det tredimensionella fallet) höjd över ellipsoiden''}]'
   examples: []
   id: 502
   language_code: swe
@@ -24,7 +63,7 @@ data:
   review_status: final
   sources:
   - origin:
-      clause: 3.1.23
+      clause: (E), 3.1.23
       link: https://www.iso.org/standard/74039.html
       ref: ISO 19111:2019
     type: authoritative

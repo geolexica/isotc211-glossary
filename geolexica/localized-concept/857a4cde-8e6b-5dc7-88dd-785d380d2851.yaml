@@ -1,11 +1,41 @@
 data:
+  _revisions:
+    current: 3ecd77
+    tree:
+      3ecd77:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/44875.html
+            ref: ISO 19126:2009
+          date_accepted: '2009-11-01T00:00:00.000Z'
+          definition: имя объекта, типа или категории
+          entry_status: valid
+          examples:
+          - '" лиственный игольчатый лист " - это номинальное значение, определяющее
+            тип растительности.'
+          id: 863
+          language_code: rus
+          lineage_source: перевод ИСО 19126:2009
+          notes:
+          - Многие атрибуты объектов принимают номинальные, а не числовые значения.  Домен
+            значений такого атрибута обычно указывается как перечисление или список
+            кодов.
+          release: '2'
+          terms:
+          - designation: номинальное значение
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2009-11-01T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2009-11-01T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: имя объекта, типа или категории
+  definition: '[{''content'': ''имя объекта, типа или категории''}]'
   examples:
   - content: '" лиственный игольчатый лист " - это номинальное значение, определяющее
       тип растительности.'

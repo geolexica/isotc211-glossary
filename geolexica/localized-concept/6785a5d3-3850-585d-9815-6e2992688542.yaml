@@ -1,4 +1,47 @@
 data:
+  _revisions:
+    current: 8014e4
+    tree:
+      8014e4:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/41126.html
+            ref: ISO 19111:2007
+          date_accepted: '2007-07-01T00:00:00.000Z'
+          date_amended: '2019-01-31T00:00:00.000Z'
+          definition: операция с координатами пространственных объектов, основанная
+            на математически строго определенной связи, при переходе из одной системы
+            координат в другую, используя одни и и те же исходные геодезические даты
+          entry_status: superseded
+          examples:
+          - Перевычисление из геодезической системы координат, основанной на исходных
+            данных WGS84,  в прямоугольную систему координат, также основанную на
+            исходных данных WGS84, или перевод единиц измерения из радиан в градусы
+            или из футов в метры
+          id: 762
+          language_code: rus
+          notes:
+          - При перевычислении координат используют параметры, являющиеся постоянными
+            величинами
+          release: '-1'
+          review_date: '2019-01-31T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-01-31T00:00:00.000Z'
+          review_decision_event: Publication of document ISO 19111:2019(E)
+          review_decision_notes: This entry is superseded by the entry for coordinate
+            conversion in ISO 19111:2019(E)
+          review_indicator: ''
+          review_status: final
+          review_type: supersession
+          terms:
+          - designation: перевычисление координат
+            normative_status: null
+            type: expression
+        parents: []
+        timeCreated: '2007-07-01T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
@@ -6,10 +49,9 @@ data:
     type: accepted
   - date: '2019-01-31T00:00:00.000Z'
     type: amended
-  definition:
-  - content: операция с координатами пространственных объектов, основанная на математически
-      строго определенной связи, при переходе из одной системы координат в другую,
-      используя одни и и те же исходные геодезические даты
+  definition: '[{''content'': ''операция с координатами пространственных объектов,
+    основанная на математически строго определенной связи, при переходе из одной системы
+    координат в другую, используя одни и и те же исходные геодезические даты''}]'
   examples:
   - content: Перевычисление из геодезической системы координат, основанной на исходных
       данных WGS84,  в прямоугольную систему координат, также основанную на исходных

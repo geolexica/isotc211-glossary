@@ -1,4 +1,41 @@
 data:
+  _revisions:
+    current: 599d5a
+    tree:
+      599d5a:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/41126.html
+            ref: ISO 19111:2007
+          date_accepted: '2007-07-01T00:00:00.000Z'
+          date_amended: '2019-01-31T00:00:00.000Z'
+          definition: 基于同一基准的，从一个坐标参照系到另一个坐标参照系一一对应的坐标操作。
+          entry_status: superseded
+          examples:
+          - 大地坐标系和笛卡尔坐标系之间的改变，或大地坐标和投影坐标之间的改变，或度量单位的改变，如从弧度到度，或从英尺到米。
+          id: 762
+          language_code: zho
+          notes:
+          - 坐标转换使用具有明确值的参数，这些值不是凭经验决定的。
+          release: '-1'
+          review_date: '2019-01-31T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-01-31T00:00:00.000Z'
+          review_decision_event: Publication of document ISO 19111:2019(E)
+          review_decision_notes: This entry is superseded by the entry for coordinate
+            conversion in ISO 19111:2019(E)
+          review_indicator: ''
+          review_status: final
+          review_type: supersession
+          terms:
+          - designation: 坐标转换
+            normative_status: null
+            type: expression
+        parents: []
+        timeCreated: '2007-07-01T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
@@ -6,8 +43,7 @@ data:
     type: accepted
   - date: '2019-01-31T00:00:00.000Z'
     type: amended
-  definition:
-  - content: 基于同一基准的，从一个坐标参照系到另一个坐标参照系一一对应的坐标操作。
+  definition: '[{''content'': ''基于同一基准的，从一个坐标参照系到另一个坐标参照系一一对应的坐标操作。''}]'
   examples:
   - content: 大地坐标系和笛卡尔坐标系之间的改变，或大地坐标和投影坐标之间的改变，或度量单位的改变，如从弧度到度，或从英尺到米。
   id: 762

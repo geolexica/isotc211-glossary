@@ -1,4 +1,43 @@
 data:
+  _revisions:
+    current: e605a8
+    tree:
+      e605a8:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.12'
+            link: https://www.iso.org/standard/26018.html
+            ref: ISO 19113:2002
+          date_accepted: '2002-12-01T00:00:00.000Z'
+          date_amended: '2013-12-15T00:00:00.000Z'
+          definition: тип величин для представления результатов  оценки качества данных
+          entry_status: изъятый
+          examples:
+          - «Булева переменная», «процент»,  «коэффициент»
+          id: 120
+          language_code: rus
+          lineage_source: ''
+          notes:
+          - Тип значения качества данных всегда присутствует в результате оценки качества
+          release: '-1'
+          review_date: '2013-12-15T00:00:00.000Z'
+          review_decision: ''
+          review_decision_date: '2013-12-15T00:00:00.000Z'
+          review_decision_event: Публикация ИСО 19157:2013
+          review_decision_notes: 'Эта запись была опущена из заменяющего стандарта
+            (ISO 19157: 2013).'
+          review_indicator: ''
+          review_status: ''
+          review_type: ''
+          terms:
+          - designation: тип значения качества данных
+            normative_status: null
+            type: expression
+        parents: []
+        timeCreated: '2002-12-01T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
@@ -6,8 +45,8 @@ data:
     type: accepted
   - date: '2013-12-15T00:00:00.000Z'
     type: amended
-  definition:
-  - content: тип величин для представления результатов оценки качества данных
+  definition: '[{''content'': ''тип величин для представления результатов оценки качества
+    данных''}]'
   examples:
   - content: «Булева переменная», «процент»,  «коэффициент»
   id: 120
@@ -39,4 +78,4 @@ data:
     type: expression
 dateAccepted: 2023-04-17
 id: 9ec471aa-7b76-5c53-bcf3-f4032ff6a32b
-status: retired
+status: изъятый

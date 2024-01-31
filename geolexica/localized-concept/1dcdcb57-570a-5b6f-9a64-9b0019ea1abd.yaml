@@ -1,14 +1,46 @@
 data:
+  _revisions:
+    current: 3e3935
+    tree:
+      3e3935:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32551.html
+            ref: ISO 19133:2005
+          date_accepted: '2005-10-15T00:00:00.000Z'
+          definition: abstract structure consisting of a set of 0-dimensional objects
+            called junctions, and a set of 1-dimensional objects called links that
+            connect the junctions, each link being associated with a start (origin,
+            source) junction and end (destination, sink) junction
+          entry_status: valid
+          examples: []
+          id: 308
+          language_code: eng
+          notes:
+          - The network is essentially the universe of discourse for the navigation
+            problem.  Networks are a variety of 1-dimensional topological complex.
+            In this light, junction and topological node are synonyms, as are link
+            and directed edge.
+          release: '1'
+          review_indicator: ''
+          terms:
+          - designation: network
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2005-10-15T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2005-10-15T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: abstract structure consisting of a set of 0-dimensional objects called
-      junctions, and a set of 1-dimensional objects called links that connect the
-      junctions, each link being associated with a start (origin, source) junction
-      and end (destination, sink) junction
+  definition: '[{''content'': ''abstract structure consisting of a set of 0-dimensional
+    objects called junctions, and a set of 1-dimensional objects called links that
+    connect the junctions, each link being associated with a start (origin, source)
+    junction and end (destination, sink) junction''}]'
   examples: []
   id: 308
   language_code: eng

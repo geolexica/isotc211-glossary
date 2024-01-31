@@ -1,11 +1,47 @@
 data:
+  _revisions:
+    current: 9f77bd
+    tree:
+      9f77bd:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.88
+            link: https://www.iso.org/standard/66175.html
+            ref: ISO 19107:2019
+          date_accepted: '2003-05-01T00:00:00.000Z'
+          definition: その定義域又は値域に最低一つの空間パラメタをもつ関数又は手続。
+          entry_status: valid
+          examples: []
+          id: 420
+          language_code: jpn
+          lineage_source: ISO 19107:2003(E)
+          lineage_source_similarity: 1
+          notes:
+          - 空間オブジェクトに対するすべてのUML操作は，この規格の8.の問合せ演算子もそうであるように，空間演算子として分類することができる。
+          release: '1'
+          review_date: '2019-12-02T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-12-02T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19107:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19107:2003
+            to ISO 19107:2019(E), 3.88. Lineage source added as ISO 19107:2003(E)
+          review_indicator: ''
+          review_status: final
+          terms:
+          - designation: 空間演算子
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2003-05-01T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2003-05-01T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: その定義域又は値域に最低一つの空間パラメタをもつ関数又は手続。
+  definition: '[{''content'': ''その定義域又は値域に最低一つの空間パラメタをもつ関数又は手続。''}]'
   examples: []
   id: 420
   language_code: jpn
@@ -23,7 +59,7 @@ data:
   review_status: final
   sources:
   - origin:
-      clause: '3.88'
+      clause: (E), 3.88
       link: https://www.iso.org/standard/66175.html
       ref: ISO 19107:2019
     type: authoritative

@@ -1,12 +1,42 @@
 data:
+  _revisions:
+    current: 630eb7
+    tree:
+      630eb7:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32551.html
+            ref: ISO 19133:2005
+          date_accepted: '2005-10-15T00:00:00.000Z'
+          definition: информация, необходимая в определенной точке маршрута в пределах
+            сети и позволяющая следовать по этому маршруту
+          entry_status: valid
+          examples: []
+          id: 389
+          language_code: rus
+          lineage_source: Internet
+          notes:
+          - С целью минимизации количества инструкций, необходимых для движения по
+            маршруту, к примыканиям может быть приписана инструкция по умолчанию,
+            т.е. примыкания не связаны с какими-либо специальными инструкциями. Эта
+            инструкция называется «правило главной дороги»
+          review_indicator: ''
+          terms:
+          - designation: путевая инструкция
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2005-10-15T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2005-10-15T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: информация, необходимая в определенной точке маршрута в пределах сети
-      и позволяющая следовать по этому маршруту
+  definition: '[{''content'': ''информация, необходимая в определенной точке маршрута
+    в пределах сети и позволяющая следовать по этому маршруту''}]'
   examples: []
   id: 389
   language_code: rus

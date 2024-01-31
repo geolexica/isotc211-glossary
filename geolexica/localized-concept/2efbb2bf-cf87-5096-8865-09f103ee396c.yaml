@@ -1,12 +1,43 @@
 data:
+  _revisions:
+    current: 9e20b7
+    tree:
+      9e20b7:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          abbrev: PI matching
+          authoritative_source:
+            clause: '4.11'
+            link: https://www.iso.org/standard/32573.html
+            ref: ISO 19155:2012
+          date_accepted: '2012-11-01T00:00:00.000Z'
+          definition: correspondencia de un Identificador de lugar (PI) que especifica
+            un sitio con otro  de otro tipo de PI, que identifica al mismo sitio
+          entry_status: valid
+          examples: []
+          id: 1339
+          language_code: spa
+          notes:
+          - Un PI origen se puede corresponder con multiples Identificadores de lugar
+            destino.
+          - La correspondencia de PI se puede hacer por coordenadas, identificadores
+            geográficos y por identificadores del mundo virtual como URI.
+          release: '3'
+          terms:
+          - designation: correspondencia de Identificadores de lugar
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2012-11-01T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2012-11-01T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: correspondencia de un Identificador de lugar (PI) que especifica un sitio
-      con otro de otro tipo de PI, que identifica al mismo sitio
+  definition: '[{''content'': ''correspondencia de un Identificador de lugar (PI)
+    que especifica un sitio con otro de otro tipo de PI, que identifica al mismo sitio''}]'
   examples: []
   id: 1339
   language_code: spa

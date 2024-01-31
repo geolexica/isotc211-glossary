@@ -1,4 +1,45 @@
 data:
+  _revisions:
+    current: '237708'
+    tree:
+      '237708':
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32620.html
+            ref: ISO/IEC 19501
+          date_accepted: '2005-07-15T00:00:00.000Z'
+          date_amended: '2015-12-01T00:00:00.000Z'
+          definition: definición explícita de una propiedad como una par nombre-valor
+          entry_status: superseded
+          examples: []
+          id: 442
+          language_code: spa
+          lineage_source: ISO/TS 19103:2005 ,4.2.27
+          lineage_source_similarity: 1
+          notes:
+          - En un valor etiquetado, el nombre se referencia como la etiqueta. Ciertas
+            etiquetas se predefinen en el UML; otras las puede definir el usuario.
+            Los valores etiquetados son uno de los mecanismos de extensión de UML.
+            Los otros son las restricciones y los estereotipos.
+          release: '-1'
+          review_date: '2009-01-14T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2015-12-01T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19103:2015
+          review_decision_notes: The entry has been superseded. An entry with a revised
+            definition has been published in ISO 19103:2015
+          review_indicator: ''
+          review_status: final
+          review_type: supersession
+          terms:
+          - designation: valor etiquetado <UML>
+            normative_status: null
+            type: expression
+        parents: []
+        timeCreated: '2005-07-15T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
@@ -6,8 +47,8 @@ data:
     type: accepted
   - date: '2015-12-01T00:00:00.000Z'
     type: amended
-  definition:
-  - content: definición explícita de una propiedad como una par nombre-valor
+  definition: '[{''content'': ''definición explícita de una propiedad como una par
+    nombre-valor''}]'
   examples: []
   id: 442
   language_code: spa

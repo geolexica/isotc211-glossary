@@ -1,11 +1,47 @@
 data:
+  _revisions:
+    current: 37a1ac
+    tree:
+      37a1ac:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            clause: 4.1.10
+            link: https://www.iso.org/standard/59221.html
+            ref: ISO 19119:2016
+          date_accepted: '2005-02-15T00:00:00.000Z'
+          definition: 转换和查询的规范，按照这个规范对象可以被调用执行。
+          entry_status: valid
+          examples: []
+          id: 318
+          language_code: zho
+          lineage_source: ISO 19119:2005, 4.3
+          notes:
+          - 一个操作包括名称和一系列参数。
+          - 见ISO 19119 的7.2条关于操作的讨论。
+          - 操作包括一个名称和参数列表。方法是实现操作的过程，它包括算法或过程描述。
+          release: '1'
+          review_date: '2012-08-11T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2016-01-15T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19119:2016
+          review_decision_notes: Authoritative reference changed from ISO 19119:2005
+            to ISO 19119:2016, 4.1.10. Lineage source added as ISO 19119:2005, 4.3
+          review_status: final
+          terms:
+          - designation: 操作
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2005-02-15T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2005-02-15T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: 转换和查询的规范，按照这个规范对象可以被调用执行。
+  definition: '[{''content'': ''转换和查询的规范，按照这个规范对象可以被调用执行。''}]'
   examples: []
   id: 318
   language_code: zho

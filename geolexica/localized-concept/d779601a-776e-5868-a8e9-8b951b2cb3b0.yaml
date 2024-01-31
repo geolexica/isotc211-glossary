@@ -1,11 +1,55 @@
 data:
+  _revisions:
+    current: 88b549
+    tree:
+      88b549:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          abbrev: baunit
+          authoritative_source:
+            clause: 4.1.2
+            link: https://www.iso.org/standard/51206.html
+            ref: ISO 19152:2012
+          country_code: swe
+          date_accepted: '2012-12-01T00:00:00.000Z'
+          entry_status: valid
+          examples:
+          - A condominium unit comprising two spatial units (e.g. an apartment and
+            a garage), a farm lot comprising one spatial unit (e.g. parcel of land),
+            a servitude comprising one spatial unit (e.g. the road representing the
+            right-of-way), a land consolidation area, or a right-of-use unit with
+            several right holders and restricted objects.
+          id: 1570
+          language_code: swe
+          lineage_source: (Type reference to national language document)
+          notes:
+          - '''Unique'' means that a right, restriction, or responsibility is held
+            by one or more parties (e.g. owners or users) for the whole basic administrative
+            unit. ''Homogeneous'' means that a right, restriction or responsibility
+            (e.g. ownership, use, social tenure, lease, or easement) affects the whole
+            basic administrative unit. For a restriction, zero parties are a possibility.'
+          - A basic administrative unit may play the role of party, e.g. when the
+            right holder is a basic administrative unit (and not a person or organization).
+          - A baunit should get a unique identifier when registered, or recorded.
+          - A baunit can consist of zero spatial units, when a registry exists, and
+            not a cadastre.
+          - Restrictions and responsibilities can be associated with their own baunits,
+            each with their own type of spatial unit.
+          release: '3'
+          terms:
+          - designation: markreglerat objekt
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2012-12-01T00:00:00.000Z'
   authoritativeSource:
   - {}
   country_code: swe
   dates:
   - date: '2012-12-01T00:00:00.000Z'
     type: accepted
-  definition: []
   examples:
   - content: A condominium unit comprising two spatial units (e.g. an apartment and
       a garage), a farm lot comprising one spatial unit (e.g. parcel of land), a servitude

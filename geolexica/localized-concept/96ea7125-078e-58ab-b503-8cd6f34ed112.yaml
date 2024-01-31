@@ -1,11 +1,36 @@
 data:
+  _revisions:
+    current: a1a07b
+    tree:
+      a1a07b:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32551.html
+            ref: ISO 19133:2005
+          date_accepted: '2005-10-15T00:00:00.000Z'
+          definition: 在允许路径遍历的网络中，沿路径的点继续行进所需要的信息。
+          entry_status: valid
+          examples: []
+          id: 389
+          language_code: zho
+          notes:
+          - 为了尽量减少完成路径遍历所需要的指令数量，把缺省的指令认定为是一组没有特殊关联指令的连接点。这个缺省指令被称为主路规则。
+          review_indicator: ''
+          terms:
+          - designation: 路径指令
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2005-10-15T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2005-10-15T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: 在允许路径遍历的网络中，沿路径的点继续行进所需要的信息。
+  definition: '[{''content'': ''在允许路径遍历的网络中，沿路径的点继续行进所需要的信息。''}]'
   examples: []
   id: 389
   language_code: zho

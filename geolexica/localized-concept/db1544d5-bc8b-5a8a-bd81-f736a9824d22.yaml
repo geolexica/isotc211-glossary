@@ -1,12 +1,44 @@
 data:
+  _revisions:
+    current: 6b379b
+    tree:
+      6b379b:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.37'
+            link: https://www.iso.org/standard/56113.html
+            ref: ISO/TS 19130-2:2014
+          date_accepted: '2014-01-15T00:00:00.000Z'
+          definition: Aras kecerahan cahaya yang dipancarkan oleh peranti paparan
+            tiub sinar katod.
+          entry_status: valid
+          examples: []
+          id: 1397
+          language_code: msa
+          lineage_source: Pusat Rujukan Persuratan Melayu (DBP)
+          notes:
+          - Typically for LIDAR, sufficient calibration has not been done to calculate
+            absolute intensity, so relative intensity is usually reported.  In linear
+            mode systems, this value is typically provided as an integer, resulting
+            from a mapping of the return’s signal power to an integer value via a
+            lookup table.
+          release: '3'
+          terms:
+          - designation: keamatan
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2014-01-15T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2014-01-15T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: Aras kecerahan cahaya yang dipancarkan oleh peranti paparan tiub sinar
-      katod.
+  definition: '[{''content'': ''Aras kecerahan cahaya yang dipancarkan oleh peranti
+    paparan tiub sinar katod.''}]'
   examples: []
   id: 1397
   language_code: msa

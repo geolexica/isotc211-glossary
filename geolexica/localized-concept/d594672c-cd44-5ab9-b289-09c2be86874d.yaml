@@ -1,12 +1,50 @@
 data:
+  _revisions:
+    current: c8d590
+    tree:
+      c8d590:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.1.46
+            link: https://www.iso.org/standard/75676.html
+            ref: ISO 19136-1:2020
+          date_accepted: '2005-08-10T00:00:00.000Z'
+          definition: kuantiti yang digunakan untuk menjelaskan secara kuantitatif
+            fenomena fizikal
+          entry_status: valid
+          examples: []
+          id: 333
+          language_code: msa
+          lineage_source: ISO 19136:2007(E)
+          lineage_source_similarity: 1
+          notes:
+          - In GML a physical quantity is always a value described using a numeric
+            amount with a scale or using a scalar reference system. Physical quantity
+            is a synonym for measure when the latter is used as a noun.
+          release: '1'
+          review_date: '2020-01-09T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2020-01-09T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19136-1:2020(E)
+          review_decision_notes: Authoritative reference changed from ISO 31-0:1992
+            to ISO 19136-1:2020(E), 3.1.46. Lineage source added as ISO 19136:2007(E)
+          review_status: final
+          terms:
+          - designation: kuantiti fizikal
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2005-08-10T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2005-08-10T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: kuantiti yang digunakan untuk menjelaskan secara kuantitatif fenomena
-      fizikal
+  definition: '[{''content'': ''kuantiti yang digunakan untuk menjelaskan secara kuantitatif
+    fenomena fizikal''}]'
   examples: []
   id: 333
   language_code: msa
@@ -25,7 +63,7 @@ data:
   review_status: final
   sources:
   - origin:
-      clause: 3.1.46
+      clause: (E), 3.1.46
       link: https://www.iso.org/standard/75676.html
       ref: ISO 19136-1:2020
     type: authoritative

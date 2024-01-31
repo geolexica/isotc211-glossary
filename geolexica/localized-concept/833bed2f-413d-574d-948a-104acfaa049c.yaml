@@ -1,13 +1,66 @@
 data:
+  _revisions:
+    current: a3dd10
+    tree:
+      a3dd10:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.58
+            link: https://www.iso.org/standard/66175.html
+            ref: ISO 19107:2019
+          date_accepted: '2003-05-01T00:00:00.000Z'
+          definition: związek pomiędzy dwiema dziedzinami (takimi jak dwa kompleksy)
+            taki, że istnieją funkcje jeden-do-jeden z jednej dziedziny w drugą, zachowujące
+            strukturę, a złożenie tych funkcji w dowolnej kolejności jest funkcją
+            identyczności
+          examples: []
+          id: 259
+          language_code: pol
+          lineage_source: ISO 19107:2003(E)
+          lineage_source_similarity: 1
+          notes:
+          - 'Provisional translation:  19107:2019, 3.58 -- Note 1 to entry
+
+            $$
+
+            ''UWAGA Złożony element geometryczny jest izomorficzny ze złożonym elementem
+            topologicznym, jeżeli ich elementy odpowiadają sobie nawzajem w stosunku
+            jeden-do-jeden z zachowaniem wymiarów i granic.
+
+            $$
+
+            A geometric complex is isomorphic to a topological complex if their elements
+            are in a 1-to-1, dimension- and boundary-preserving correspondence to
+            one another. \[[A,B \textit{ isomorphic}] \Leftrightarrow [\exists f :
+            A \rightarrow B, g : B \rightarrow A \backepsilon f \circ g = Id_A, g
+            \circ f = Id_B]\]'
+          release: '1'
+          review_date: '2019-12-02T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-12-02T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19107:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19107:2003
+            to ISO 19107:2019(E), 3.58. Lineage source added as ISO 19107:2003(E)
+          review_indicator: ''
+          review_status: final
+          terms:
+          - designation: izomorfizm
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2003-05-01T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2003-05-01T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: związek pomiędzy dwiema dziedzinami (takimi jak dwa kompleksy) taki,
-      że istnieją funkcje jeden-do-jeden z jednej dziedziny w drugą, zachowujące strukturę,
-      a złożenie tych funkcji w dowolnej kolejności jest funkcją identyczności
+  definition: '[{''content'': ''związek pomiędzy dwiema dziedzinami (takimi jak dwa
+    kompleksy) taki, że istnieją funkcje jeden-do-jeden z jednej dziedziny w drugą,
+    zachowujące strukturę, a złożenie tych funkcji w dowolnej kolejności jest funkcją
+    identyczności''}]'
   examples: []
   id: 259
   language_code: pol
@@ -38,7 +91,7 @@ data:
   review_status: final
   sources:
   - origin:
-      clause: '3.58'
+      clause: (E), 3.58
       link: https://www.iso.org/standard/66175.html
       ref: ISO 19107:2019
     type: authoritative

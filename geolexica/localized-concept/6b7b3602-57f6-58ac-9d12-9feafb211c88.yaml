@@ -1,12 +1,49 @@
 data:
+  _revisions:
+    current: aa73c6
+    tree:
+      aa73c6:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            clause: (E), 3.28
+            link: https://www.iso.org/standard/69325.html
+            ref: ISO 19101-2:2018
+          date_accepted: '2008-06-01T00:00:00.000Z'
+          definition: kleinste Einheit eines digitalen Bildes, der Attribute zugeordnet
+            werden können
+          entry_status: valid
+          examples: []
+          id: 619
+          language_code: deu
+          lineage_source: ISO/TS 19101-2:2008(E)
+          lineage_source_similarity: 1
+          notes:
+          - This term originated as a contraction of "picture element"
+          - Related to the concept of a grid cell
+          release: '2'
+          review_date: '2018-05-01T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2018-05-01T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19101-2:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO/TS 19101-2:2008
+            to ISO 19101-2:2018(E), 3.28. Lineage source added as ISO/TS 19101-2:2008(E)
+          review_status: final
+          terms:
+          - designation: Pixel
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2008-06-01T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2008-06-01T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: kleinste Einheit eines digitalen Bildes, der Attribute zugeordnet werden
-      können
+  definition: '[{''content'': ''kleinste Einheit eines digitalen Bildes, der Attribute
+    zugeordnet werden können''}]'
   examples: []
   id: 619
   language_code: deu
@@ -24,7 +61,7 @@ data:
   review_status: final
   sources:
   - origin:
-      clause: '3.28'
+      clause: (E), 3.28
       link: https://www.iso.org/standard/69325.html
       ref: ISO 19101-2:2018
     type: authoritative

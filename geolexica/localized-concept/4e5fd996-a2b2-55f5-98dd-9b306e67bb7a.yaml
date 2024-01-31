@@ -1,11 +1,45 @@
 data:
+  _revisions:
+    current: 8aefbc
+    tree:
+      8aefbc:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/26010.html
+            ref: ISO 19105:2000
+          date_accepted: '2000-12-15T00:00:00.000Z'
+          definition: generalized test for a particular requirement
+          entry_status: valid
+          examples: []
+          id: 3
+          language_code: eng
+          notes:
+          - An abstract test case is a formal basis for deriving executable test cases
+            One or more test purposes are encapsulated in the abstract test case.
+            An abstract test case is independent of both the implementation and the
+            values. It should be complete in the sense that it is sufficient to enable
+            a test verdict to be assigned unambiguously to each potentially observable
+            test outcome (i.e. sequence of test events).
+          release: '1'
+          review_date: '2019-07-05T00:00:00.000Z'
+          review_indicator: ''
+          review_status: pending
+          review_type: retirement
+          terms:
+          - designation: abstract test case
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2000-12-15T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2000-12-15T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: generalized test for a particular requirement
+  definition: '[{''content'': ''generalized test for a particular requirement''}]'
   examples: []
   id: 3
   language_code: eng

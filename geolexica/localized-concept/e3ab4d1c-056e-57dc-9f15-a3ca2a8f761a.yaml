@@ -1,12 +1,48 @@
 data:
+  _revisions:
+    current: e42621
+    tree:
+      e42621:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.1.48
+            link: https://www.iso.org/standard/74039.html
+            ref: ISO 19111:2019
+          date_accepted: '2019-01-31T00:00:00.000Z'
+          definition: coordinate operation that changes coordinates within one coordinate
+            reference system due to the motion of the point
+          entry_status: valid
+          examples: []
+          id: 2373
+          language_code: eng
+          notes:
+          - The change of coordinates is from those at an initial epoch to those at
+            another epoch.
+          - In this document the point motion is due to tectonic motion or crustal
+            deformation.
+          release: '5'
+          review_date: '2019-01-31T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-01-31T00:00:00.000Z'
+          review_decision_event: Normal ISO processing
+          review_decision_notes: Publication of document ISO 19111:2019(E)
+          review_status: final
+          terms:
+          - designation: point motion operation
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2019-01-31T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2019-01-31T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: coordinate operation that changes coordinates within one coordinate reference
-      system due to the motion of the point
+  definition: '[{''content'': ''coordinate operation that changes coordinates within
+    one coordinate reference system due to the motion of the point''}]'
   examples: []
   id: 2373
   language_code: eng
@@ -24,7 +60,7 @@ data:
   review_status: final
   sources:
   - origin:
-      clause: 3.1.48
+      clause: (E), 3.1.48
       link: https://www.iso.org/standard/74039.html
       ref: ISO 19111:2019
     type: authoritative

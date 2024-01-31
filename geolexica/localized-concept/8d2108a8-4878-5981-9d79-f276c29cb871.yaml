@@ -1,15 +1,52 @@
 data:
+  _revisions:
+    current: 2115a5
+    tree:
+      2115a5:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.1.8
+            link: https://www.iso.org/standard/74039.html
+            ref: ISO 19111:2019
+          date_accepted: '2019-01-31T00:00:00.000Z'
+          definition: process using a mathematical model, based on a one-to-one relationship,
+            that changes coordinates in a source coordinate reference system to coordinates
+            in a target coordinate reference system, or that changes coordinates at
+            a source coordinate epoch to coordinates at a target coordinate epoch
+            within the same coordinate reference system
+          entry_status: valid
+          examples: []
+          id: 2352
+          language_code: eng
+          notes: []
+          release: '5'
+          review_date: '2019-01-31T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-01-31T00:00:00.000Z'
+          review_decision_event: Publication of document ISO 19111:2019(E)
+          review_decision_notes: This entry supersedes the entry for coordinate operation
+            in ISO 19111:2007(E)
+          review_status: final
+          review_type: supersession
+          terms:
+          - designation: coordinate operation
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2019-01-31T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2019-01-31T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: process using a mathematical model, based on a one-to-one relationship,
-      that changes coordinates in a source coordinate reference system to coordinates
-      in a target coordinate reference system, or that changes coordinates at a source
-      coordinate epoch to coordinates at a target coordinate epoch within the same
-      coordinate reference system
+  definition: '[{''content'': ''process using a mathematical model, based on a one-to-one
+    relationship, that changes coordinates in a source coordinate reference system
+    to coordinates in a target coordinate reference system, or that changes coordinates
+    at a source coordinate epoch to coordinates at a target coordinate epoch within
+    the same coordinate reference system''}]'
   examples: []
   id: 2352
   language_code: eng
@@ -25,7 +62,7 @@ data:
   review_type: supersession
   sources:
   - origin:
-      clause: 3.1.8
+      clause: (E), 3.1.8
       link: https://www.iso.org/standard/74039.html
       ref: ISO 19111:2019
     type: authoritative

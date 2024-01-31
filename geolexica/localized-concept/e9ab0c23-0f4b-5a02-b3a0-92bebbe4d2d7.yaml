@@ -1,11 +1,53 @@
 data:
+  _revisions:
+    current: 019edd
+    tree:
+      019edd:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.27
+            link: https://www.iso.org/standard/66175.html
+            ref: ISO 19107:2019
+          date_accepted: '2019-12-02T00:00:00.000Z'
+          definition: minimal length of a curve that joins the two points or geometries
+          entry_status: valid
+          examples: []
+          id: 2046
+          language_code: eng
+          notes:
+          - The usual distance function for two points in a coordinate space assumes
+            an underlying plane and is a Euclidean distance. If the underlying Reference
+            Surface is not a plane, then distance is defined by this minimum length
+            of all curves between the two points. These surfaces are prime examples
+            of non-Euclidean geometry, where the parallel postulate in Euclid's Elements
+            does not hold. In mathematical terms, distance is the "greatest lower
+            bound" of the length of the curves. The word minimum is sometimes used,
+            but there should be no expectation that an instance of that minimum actually
+            occurs, only that any larger number will have a length in the set that
+            is smaller.
+          release: '5'
+          review_date: '2019-12-02T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-12-02T00:00:00.000Z'
+          review_decision_event: Normal ISO processing
+          review_decision_notes: Publication of document ISO 19107:2019(E)
+          review_status: final
+          terms:
+          - designation: distance <geometry, metric spaces>
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2019-12-02T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2019-12-02T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: minimal length of a curve that joins the two points or geometries
+  definition: '[{''content'': ''minimal length of a curve that joins the two points
+    or geometries''}]'
   examples: []
   id: 2046
   language_code: eng
@@ -28,7 +70,7 @@ data:
   review_status: final
   sources:
   - origin:
-      clause: '3.27'
+      clause: (E), 3.27
       link: https://www.iso.org/standard/66175.html
       ref: ISO 19107:2019
     type: authoritative

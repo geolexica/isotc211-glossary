@@ -1,11 +1,55 @@
 data:
+  _revisions:
+    current: 8687bb
+    tree:
+      8687bb:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: 4.1.12
+            link: https://www.iso.org/standard/59164.html
+            ref: ISO 19101-1:2014
+          date_accepted: '2002-07-01T00:00:00.000Z'
+          definition: kohteelle ominainen piirre
+          entry_status: valid
+          examples:
+          - Kohteen ominaisuudella "väri" voi olla arvo "vihreä", jonka tietotyyppi
+            on "teksti".
+          - Kohteen ominaisuudella "pituus" voi olla arvo "84.2", jonka tietotyyppi
+            on "reaaliluku".
+          id: 170
+          language_code: fin
+          lineage_source: ISO 19101:2002
+          lineage_source_similarity: 1
+          notes:
+          - Kohteen ominaisuudella on nimi, tietotyyppi ja arvojoukko. Kohteen yksittäiseen
+            ilmentymään liittyvällä ominaisuudella on myös arvojoukkoon sisältyvä
+            arvo.
+          - Kohdeluettelossa esiintyvällä ominaisuudella voi olla arvojoukko, mutta
+            se ei määritä kohteen ilmentymien ominaisuuden arvoja.
+          release: '1'
+          review_date: '2010-10-12T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2014-11-01T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19101-1:2014
+          review_decision_notes: Authoritative reference changed from ISO 19101:2002
+            to ISO 19101-1:2014. Lineage source added as ISO 19101:2002.
+          review_indicator: ''
+          review_status: final
+          terms:
+          - designation: kohteen ominaisuus
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2002-07-01T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2002-07-01T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: kohteelle ominainen piirre
+  definition: '[{''content'': ''kohteelle ominainen piirre''}]'
   examples:
   - content: Kohteen ominaisuudella "väri" voi olla arvo "vihreä", jonka tietotyyppi
       on "teksti".

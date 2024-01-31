@@ -1,11 +1,39 @@
 data:
+  _revisions:
+    current: a4877c
+    tree:
+      a4877c:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.11'
+            link: https://www.iso.org/standard/32573.html
+            ref: ISO 19155:2012
+          date_accepted: '2012-11-01T00:00:00.000Z'
+          definition: 장소를 명시하는 PI와 동일 장소를 식별하는 다른 유형의 PI를 매칭하는 것
+          entry_status: valid
+          examples: []
+          id: 1339
+          language_code: kor
+          notes:
+          - A source PI can be matched with multiple target Place Identifiers.
+          - PI matching can be made among coordinates, geographic identifiers and
+            identifiers in the virtual world such as URI.
+          release: '3'
+          terms:
+          - designation: 장소 식별자 매칭
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2012-11-01T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2012-11-01T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: 장소를 명시하는 PI와 동일 장소를 식별하는 다른 유형의 PI를 매칭하는 것
+  definition: '[{''content'': ''장소를 명시하는 PI와 동일 장소를 식별하는 다른 유형의 PI를 매칭하는 것''}]'
   examples: []
   id: 1339
   language_code: kor

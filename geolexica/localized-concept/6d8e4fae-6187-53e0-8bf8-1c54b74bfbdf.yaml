@@ -1,11 +1,40 @@
 data:
+  _revisions:
+    current: 0a98b0
+    tree:
+      0a98b0:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          abbrev: PI
+          authoritative_source:
+            clause: '4.9'
+            link: https://www.iso.org/standard/32573.html
+            ref: ISO 19155:2012
+          date_accepted: '2012-11-01T00:00:00.000Z'
+          definition: referencia que identifica un lugar
+          entry_status: valid
+          examples: []
+          id: 1337
+          language_code: spa
+          notes:
+          - El mismo lugar se puede referenciar por múltiples instancias de identificador
+            de lugar. Cada instancia estará asociado con un sistema de referencia
+            diferente.
+          release: '3'
+          terms:
+          - designation: identificador de lugar
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2012-11-01T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2012-11-01T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: referencia que identifica un lugar
+  definition: '[{''content'': ''referencia que identifica un lugar''}]'
   examples: []
   id: 1337
   language_code: spa

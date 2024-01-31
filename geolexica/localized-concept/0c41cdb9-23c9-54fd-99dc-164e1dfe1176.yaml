@@ -1,12 +1,43 @@
 data:
+  _revisions:
+    current: 1f0333
+    tree:
+      1f0333:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            ref: Adapted from NISTIR 7117
+          date_accepted: '2014-01-15T00:00:00.000Z'
+          definition: Данные, полученные приемником в результате всех возвратов от
+            одного испускаемого импульса
+          entry_status: valid
+          examples: []
+          id: 1390
+          language_code: rus
+          lineage_source: ISO/TS 19130-2:2014, 4.22
+          lineage_source_similarity: 1
+          notes:
+          - "A complete 3D data sample of the world produced by a LIDAR taken at a\
+            \ certain time, place, and orientation. A single LIDAR frame is also referred\
+            \ to as a range image.\n полная 3D-выборка данных о мире, полученная LIDAR\
+            \ в определенное время, месте и ориентации. Один кадр лидара также называется\
+            \ изображением диапазона."
+          release: '3'
+          terms:
+          - designation: кадр <LIDAR>
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2014-01-15T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2014-01-15T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: Данные, полученные приемником в результате всех возвратов от одного испускаемого
-      импульса
+  definition: '[{''content'': ''Данные, полученные приемником в результате всех возвратов
+    от одного испускаемого импульса''}]'
   examples: []
   id: 1390
   language_code: rus

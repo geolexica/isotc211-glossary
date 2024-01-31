@@ -1,13 +1,51 @@
 data:
+  _revisions:
+    current: 3c789b
+    tree:
+      3c789b:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32551.html
+            ref: ISO 19133:2005
+          country_code: swe
+          date_accepted: '2005-10-15T00:00:00.000Z'
+          definition: tillstånd hos en länk eller sväng som tillåter eller inskränker
+            all trafiks passage, i motsats till en mer detaljerad trafikrestriktion
+          entry_status: valid
+          examples: []
+          id: 474
+          language_code: swe
+          lineage_source: (Type reference to national language document)
+          notes:
+          - 'Traversability is usually a function of physical, cultural, or legal
+            conditions. If traversable is false, then the object cannot be navigated.
+            This effectively removes a link from the usable network. In the case of
+            a node, it effectively removes the node and all associated links from
+            the useable network. In the case of a turn, it simply removes it from
+            any viable route. Non-traversable entities are not included in maneuvers
+            or routes.
+
+            Framkomlighet är en NVDB-företeelse som beskriver skogsbilvägars framkomlighet
+            för fordonskombinationer (Traversability bör ej översättas till framkomlighet)'
+          release: '1'
+          review_indicator: ''
+          terms:
+          - designation: farbar
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2005-10-15T00:00:00.000Z'
   authoritativeSource:
   - {}
   country_code: swe
   dates:
   - date: '2005-10-15T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: tillstånd hos en länk eller sväng som tillåter eller inskränker all trafiks
-      passage, i motsats till en mer detaljerad trafikrestriktion
+  definition: '[{''content'': ''tillstånd hos en länk eller sväng som tillåter eller
+    inskränker all trafiks passage, i motsats till en mer detaljerad trafikrestriktion''}]'
   examples: []
   id: 474
   language_code: swe

@@ -1,12 +1,45 @@
 data:
+  _revisions:
+    current: 828a98
+    tree:
+      828a98:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32551.html
+            ref: ISO 19133:2005
+          country_code: swe
+          date_accepted: '2005-10-15T00:00:00.000Z'
+          definition: skapa objekt från objekttyper eller klasser
+          entry_status: valid
+          examples: []
+          id: 248
+          language_code: swe
+          lineage_source: (Type reference to national language document)
+          notes:
+          - A class or data element definition instantiates a type if it creates the
+            ability to create objects or data elements respectively, that can represent
+            the concepts (instance data and /or operations) defined by that type.
+            A class is instantiated by an object if the class defines that object's
+            structure and function. A data schema is instantiated by a data element
+            if the data schema defines that element's structure.
+          release: '1'
+          review_indicator: ''
+          terms:
+          - designation: instantiera
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2005-10-15T00:00:00.000Z'
   authoritativeSource:
   - {}
   country_code: swe
   dates:
   - date: '2005-10-15T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: skapa objekt från objekttyper eller klasser
+  definition: '[{''content'': ''skapa objekt från objekttyper eller klasser''}]'
   examples: []
   id: 248
   language_code: swe

@@ -1,11 +1,37 @@
 data:
+  _revisions:
+    current: e3f6eb
+    tree:
+      e3f6eb:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/37800.html
+            ref: ISO/TS 19103:2005
+          date_accepted: '2005-07-15T00:00:00.000Z'
+          definition: множество допустимых значений
+          entry_status: valid
+          examples:
+          - Область 3-28, все - целые числа, любой символ кодировки  ASCII, перечисление
+            всех допустимых значений (зеленый, голубой, белый)
+          id: 490
+          language_code: rus
+          lineage_source: Internet
+          notes: []
+          terms:
+          - designation: область значений
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2005-07-15T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2005-07-15T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: множество допустимых значений
+  definition: '[{''content'': ''множество допустимых значений''}]'
   examples:
   - content: Область 3-28, все - целые числа, любой символ кодировки  ASCII, перечисление
       всех допустимых значений (зеленый, голубой, белый)

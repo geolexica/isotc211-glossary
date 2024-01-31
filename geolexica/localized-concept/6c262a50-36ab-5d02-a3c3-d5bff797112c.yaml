@@ -1,11 +1,40 @@
 data:
+  _revisions:
+    current: 3004ab
+    tree:
+      3004ab:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: '4.10'
+            link: https://www.iso.org/standard/32576.html
+            ref: ISO/TS 19158:2012
+          date_accepted: '2012-10-15T00:00:00.000Z'
+          definition: 처리과정의 행동 요소
+          entry_status: valid
+          examples:
+          - In the case of photogrammetric survey, aerial triangulation can be considered
+            a sub-process.
+          id: 1111
+          language_code: kor
+          notes:
+          - Sub-processes can be broken down even further as is deemed necessary to
+            control the quality of the process.
+          release: '3'
+          terms:
+          - designation: 하위과정, 서브 프로세스
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2012-10-15T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2012-10-15T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: 처리과정의 행동 요소
+  definition: '[{''content'': ''처리과정의 행동 요소''}]'
   examples:
   - content: In the case of photogrammetric survey, aerial triangulation can be considered
       a sub-process.

@@ -1,11 +1,54 @@
 data:
+  _revisions:
+    current: 6a3327
+    tree:
+      6a3327:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.25
+            link: https://www.iso.org/standard/64242.html
+            ref: ISO 19160-4:2017
+          date_accepted: '2017-11-15T00:00:00.000Z'
+          definition: information item that defines the context for postal address
+            rendering
+          entry_status: valid
+          examples:
+          - "\tWhen the despatching country and delivering country of the postal item\
+            \ differ, it is cross-border mailing and the full name of the delivering\
+            \ country is required on the last line of the rendered address. Otherwise,\
+            \ it is domestic mailing and the name of the country is not required on\
+            \ the rendered address."
+          id: 2140
+          language_code: eng
+          notes:
+          - This includes guiding of rendering of postal addresses on an external
+            medium, such as labels, data files or screens
+          - Rendering parameters are specified in 8.2.
+          - Rendering parameters do not appear in the rendered postal address, but
+            guide or define the rendition process.
+          release: '5'
+          review_date: '2017-11-15T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2017-11-15T00:00:00.000Z'
+          review_decision_event: Normal ISO processing
+          review_decision_notes: Publication of document ISO 19160-4:2017(E)
+          review_status: final
+          terms:
+          - designation: rendering parameter
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2017-11-15T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2017-11-15T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: information item that defines the context for postal address rendering
+  definition: '[{''content'': ''information item that defines the context for postal
+    address rendering''}]'
   examples:
   - content: "\tWhen the despatching country and delivering country of the postal\
       \ item differ, it is cross-border mailing and the full name of the delivering\
@@ -29,7 +72,7 @@ data:
   review_status: final
   sources:
   - origin:
-      clause: '3.25'
+      clause: (E), 3.25
       link: https://www.iso.org/standard/64242.html
       ref: ISO 19160-4:2017
     type: authoritative

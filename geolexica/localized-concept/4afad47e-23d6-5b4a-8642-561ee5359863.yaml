@@ -1,11 +1,39 @@
 data:
+  _revisions:
+    current: '578190'
+    tree:
+      '578190':
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/40601.html
+            ref: ISO 19132:2007
+          date_accepted: '2009-12-29T00:00:00.000Z'
+          definition: 자체 상태와 무관하게 객체 식별에 충분한 데이터
+          entry_status: valid
+          examples: []
+          id: 667
+          language_code: kor
+          lineage_source: KS X ISO 19132
+          notes:
+          - 불변하는 객체의 키 속성 값을 일반적으로 식별 특성이라 한다. 이는 시간적으로 불변하고 유일하기 때문에 어떤 상태에서도 동일하며,
+            타임 스탬프에 무관하게 객체에 결합될 수 있다. 이동 객체의 식별 특성은 시간과 위치 모두에 무관하다.
+          release: '1'
+          review_indicator: ''
+          terms:
+          - designation: 식별 특성
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2009-12-29T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2009-12-29T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: 자체 상태와 무관하게 객체 식별에 충분한 데이터
+  definition: '[{''content'': ''자체 상태와 무관하게 객체 식별에 충분한 데이터''}]'
   examples: []
   id: 667
   language_code: kor

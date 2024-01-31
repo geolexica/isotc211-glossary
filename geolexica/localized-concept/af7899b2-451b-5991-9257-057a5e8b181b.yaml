@@ -1,12 +1,39 @@
 data:
+  _revisions:
+    current: 79a482
+    tree:
+      79a482:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/26013.html
+            ref: ISO 19108:2002
+          date_accepted: '2002-09-01T00:00:00.000Z'
+          definition: sukcesja obiektu, w której jedna instancja obiektu jest zastępowana
+            inną instancją obiektu tego samego lub innego typu obiektu
+          examples:
+          - Instancja obiektu typu 'budynek' zostaje zniszczona i zastąpiona instancją
+            obiektu typu "działka z przeznaczeniem na parking".
+          id: 180
+          language_code: pol
+          lineage_source: PN-EN ISO 19108
+          notes: []
+          release: '1'
+          terms:
+          - designation: zastąpienie obiektu
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2002-09-01T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2002-09-01T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: sukcesja obiektu, w której jedna instancja obiektu jest zastępowana inną
-      instancją obiektu tego samego lub innego typu obiektu
+  definition: '[{''content'': ''sukcesja obiektu, w której jedna instancja obiektu
+    jest zastępowana inną instancją obiektu tego samego lub innego typu obiektu''}]'
   examples:
   - content: Instancja obiektu typu 'budynek' zostaje zniszczona i zastąpiona instancją
       obiektu typu "działka z przeznaczeniem na parking".

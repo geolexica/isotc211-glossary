@@ -1,12 +1,41 @@
 data:
+  _revisions:
+    current: 135f05
+    tree:
+      135f05:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/32551.html
+            ref: ISO 19133:2005
+          date_accepted: '2005-10-15T00:00:00.000Z'
+          definition: positivt vægtet retningsbestemt graf, der er konfigureret til
+            at udføre en søgning efter korteste vej
+          examples: []
+          id: 133
+          language_code: dan
+          notes:
+          - Termen stammer fra den mest almindeligt kendte algoritme til at finde
+            den korteste vej i en positivt vægtet graf fra E. Dijkstra's afhandling.
+            Skønt denne algoritme ikke er den eneste, der anvendes, kender de fleste
+            kravene til grafen. Den mest almindelige lempelse af kravet er "positive
+            vægte," der ikke er nødvendige i Bellman-Ford-algoritmen.
+          release: '1'
+          terms:
+          - designation: Dijkstra-graf
+            normative_status: null
+            type: expression
+        parents: []
+        timeCreated: '2005-10-15T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2005-10-15T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: positivt vægtet retningsbestemt graf, der er konfigureret til at udføre
-      en søgning efter korteste vej
+  definition: '[{''content'': ''positivt vægtet retningsbestemt graf, der er konfigureret
+    til at udføre en søgning efter korteste vej''}]'
   examples: []
   id: 133
   language_code: dan

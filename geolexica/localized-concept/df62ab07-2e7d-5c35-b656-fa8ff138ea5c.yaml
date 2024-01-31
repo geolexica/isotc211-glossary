@@ -1,11 +1,51 @@
 data:
+  _revisions:
+    current: 608b26
+    tree:
+      608b26:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.14
+            link: https://www.iso.org/standard/70882.html
+            ref: ISO 19116:2019
+          date_accepted: '2004-07-01T00:00:00.000Z'
+          definition: positioning system incorporating two or more positioning technologies
+          entry_status: valid
+          examples: []
+          id: 250
+          language_code: eng
+          lineage_source: ISO 19116:2004(E)
+          lineage_source_similarity: 1
+          notes:
+          - The measurements produced by each positioning technology in an integrated
+            system may be any of position, motion, or attitude. There may be redundant
+            measurements.  When combined, a unified position, motion, or attitude
+            is determined.
+          release: '1'
+          review_date: '2019-12-02T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-12-02T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19116:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19116:2004
+            to ISO 19116:2019(E), 3.14. Lineage source added as ISO 19116:2004(E)
+          review_indicator: ''
+          review_status: final
+          terms:
+          - designation: integrated positioning system
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2004-07-01T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2004-07-01T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: positioning system incorporating two or more positioning technologies
+  definition: '[{''content'': ''positioning system incorporating two or more positioning
+    technologies''}]'
   examples: []
   id: 250
   language_code: eng
@@ -25,7 +65,7 @@ data:
   review_status: final
   sources:
   - origin:
-      clause: '3.14'
+      clause: (E), 3.14
       link: https://www.iso.org/standard/70882.html
       ref: ISO 19116:2019
     type: authoritative

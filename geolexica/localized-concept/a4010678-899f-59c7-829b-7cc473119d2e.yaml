@@ -1,11 +1,47 @@
 data:
+  _revisions:
+    current: c9f383
+    tree:
+      c9f383:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.1.13
+            link: https://www.iso.org/standard/72217.html
+            ref: ISO 19146:2018
+          date_accepted: '2010-11-01T00:00:00.000Z'
+          definition: concept that is associated with a specific domain
+          entry_status: valid
+          examples: []
+          id: 880
+          language_code: eng
+          lineage_source: ISO 19146:2010(E)
+          lineage_source_similarity: 1
+          notes:
+          - A concept may be associated with several domains and separately identified
+            as a domain concept in relation to each.
+          release: '2'
+          review_date: '2018-06-01T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2018-06-01T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19146:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO 19146:2010
+            to ISO 19146:2018(E), 3.1.13. Lineage source added as ISO 19146:2010(E)
+          review_status: final
+          terms:
+          - designation: domain concept
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2010-11-01T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2010-11-01T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: concept that is associated with a specific domain
+  definition: '[{''content'': ''concept that is associated with a specific domain''}]'
   examples: []
   id: 880
   language_code: eng
@@ -23,7 +59,7 @@ data:
   review_status: final
   sources:
   - origin:
-      clause: 3.1.13
+      clause: (E), 3.1.13
       link: https://www.iso.org/standard/72217.html
       ref: ISO 19146:2018
     type: authoritative

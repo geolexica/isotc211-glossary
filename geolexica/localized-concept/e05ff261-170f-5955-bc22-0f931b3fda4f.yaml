@@ -1,12 +1,49 @@
 data:
+  _revisions:
+    current: 5c99dc
+    tree:
+      5c99dc:
+        author:
+          email: glossarist@ribose.com
+          name: Data migration procedure
+        object:
+          authoritative_source:
+            clause: (E), 3.63
+            link: https://www.iso.org/standard/66847.html
+            ref: ISO 19130-1:2018
+          date_accepted: '2010-06-15T00:00:00.000Z'
+          definition: Sensormodell, das auf einer physikalischen Beschreibung des
+            Sensorsystems basiert
+          entry_status: valid
+          examples:
+          - One level with point based spatial units, a second level with line based
+            spatial units, and a third level with polygon based spatial units.
+          id: 960
+          language_code: deu
+          lineage_source: ISO/TS 19130:2010(E)
+          lineage_source_similarity: '1'
+          notes: []
+          release: '2'
+          review_date: '2018-09-01T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2018-09-01T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19130-1:2018(E)
+          review_decision_notes: Authoritative reference changed from ISO/TS 19130:2010
+            to ISO 19130-1:2018(E), 3.63. Lineage source added as ISO/TS 19130:2010(E)
+          review_status: final
+          terms:
+          - designation: physikalisches Sensormodell
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2010-06-15T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2010-06-15T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: Sensormodell, das auf einer physikalischen Beschreibung des Sensorsystems
-      basiert
+  definition: '[{''content'': ''Sensormodell, das auf einer physikalischen Beschreibung
+    des Sensorsystems basiert''}]'
   examples:
   - content: One level with point based spatial units, a second level with line based
       spatial units, and a third level with polygon based spatial units.
@@ -24,7 +61,7 @@ data:
   review_status: final
   sources:
   - origin:
-      clause: '3.63'
+      clause: (E), 3.63
       link: https://www.iso.org/standard/66847.html
       ref: ISO 19130-1:2018
     type: authoritative

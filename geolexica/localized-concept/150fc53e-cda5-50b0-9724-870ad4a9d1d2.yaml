@@ -1,11 +1,46 @@
 data:
+  _revisions:
+    current: 187a49
+    tree:
+      187a49:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            link: https://www.iso.org/standard/40601.html
+            ref: ISO 19132:2007
+          date_accepted: '2009-12-29T00:00:00.000Z'
+          definition: 잘 알려진 위치의 전화 등 외부 객체를 통해 감지하거나 위치 판단을 위해 차량을 통해 운반되는 장치(태그)
+            및 장치 내부 전자부품
+          entry_status: valid
+          examples: []
+          id: 690
+          language_code: kor
+          lineage_source: KS X ISO 19132
+          notes:
+          - 가장 일반적인 추적 장치는 휴대폰, GNSS 칩, RFID(라디오 주파수 ID) 태그 및 "바코드" 같은 광학 센서에 의해 스캔되는
+            프린트 태그가 있다.
+          - '"차량"은 일반적으로"운반 형태"이거나 더 간략하게는 "어떤 무언가를 운반하는 것"을 의미한다. 그러므로 용어 정의에 따르면,
+            추적을 허용하는 추적 장치 운반 객체는 그 장치를 운반하는 운반체 또는 차량이다. 이런 맥락에서 GNSS 장치를 운반하는 휴대폰도
+            그 장치에 대한 차량이며, 자신을 트랙할 수 있는 휴대폰을 소지하고 다니는 여행자 또한 그 장치에 대한 차량이다.'
+          release: '1'
+          review_indicator: ''
+          terms:
+          - designation: 추적 장치
+            normative_status: preferred
+            type: expression
+          - designation: 트래킹 장치
+            type: expression
+        parents: []
+        timeCreated: '2009-12-29T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2009-12-29T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: 잘 알려진 위치의 전화 등 외부 객체를 통해 감지하거나 위치 판단을 위해 차량을 통해 운반되는 장치(태그) 및 장치 내부 전자부품
+  definition: '[{''content'': ''잘 알려진 위치의 전화 등 외부 객체를 통해 감지하거나 위치 판단을 위해 차량을 통해 운반되는
+    장치(태그) 및 장치 내부 전자부품''}]'
   examples: []
   id: 690
   language_code: kor

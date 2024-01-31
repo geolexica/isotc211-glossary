@@ -1,11 +1,47 @@
 data:
+  _revisions:
+    current: ac4de8
+    tree:
+      ac4de8:
+        author:
+          email: glossarist@ribose.com
+          name: Glossarist bot
+        object:
+          authoritative_source:
+            clause: (E), 3.30
+            link: https://www.iso.org/standard/66175.html
+            ref: ISO 19107:2019
+          date_accepted: '2003-05-01T00:00:00.000Z'
+          definition: ある位相複体内に埋め込まれているグラフで，その複体内のすべてのエッジとそれに連結したノードからなるもの。
+          entry_status: valid
+          examples: []
+          id: 147
+          language_code: jpn
+          lineage_source: ISO 19107:2003(E)
+          lineage_source_similarity: 1
+          notes:
+          - エッジノードグラフは，それが埋め込まれている複体の部分複体である。
+          release: '1'
+          review_date: '2019-12-02T00:00:00.000Z'
+          review_decision: accepted
+          review_decision_date: '2019-12-02T00:00:00.000Z'
+          review_decision_event: Publication of ISO 19107:2019(E)
+          review_decision_notes: Authoritative reference changed from ISO 19107:2003
+            to ISO 19107:2019(E), 3.30. Lineage source added as ISO 19107:2003(E)
+          review_indicator: ''
+          review_status: final
+          terms:
+          - designation: エッジノードグラフ
+            normative_status: preferred
+            type: expression
+        parents: []
+        timeCreated: '2003-05-01T00:00:00.000Z'
   authoritativeSource:
   - {}
   dates:
   - date: '2003-05-01T00:00:00.000Z'
     type: accepted
-  definition:
-  - content: ある位相複体内に埋め込まれているグラフで，その複体内のすべてのエッジとそれに連結したノードからなるもの。
+  definition: '[{''content'': ''ある位相複体内に埋め込まれているグラフで，その複体内のすべてのエッジとそれに連結したノードからなるもの。''}]'
   examples: []
   id: 147
   language_code: jpn
@@ -23,7 +59,7 @@ data:
   review_status: final
   sources:
   - origin:
-      clause: '3.30'
+      clause: (E), 3.30
       link: https://www.iso.org/standard/66175.html
       ref: ISO 19107:2019
     type: authoritative
