@@ -1,9 +1,6 @@
 data:
   authoritativeSource:
   - {}
-  dates:
-  - date: '2003-05-01T00:00:00.000Z'
-    type: accepted
   definition:
   - content: наименьшее из выпуклых множеств, содержащее данный геометрический объект
   examples: []
@@ -28,15 +25,6 @@ data:
       `C = A."convexHull" <=> [C."convex" = "TRUE"] ^^ [A sub C] ^^ [[B."convex" =
       "true", A sub B] => [A sube C sube B]]`'
   release: '1'
-  reviewDate: 2019-12-02
-  reviewDecisionDate: 2019-12-02
-  reviewDecisionEvent: Publication of ISO 19107:2019(E)
-  review_decision: accepted
-  review_decision_notes: Authoritative reference changed from Dictionary of Computing,
-    Fourth Edition, Oxford University Press to ISO 19107:2019, 3.15. Lineage source
-    added as ISO 19107:2003(E)
-  review_indicator: ''
-  review_status: final
   sources:
   - origin:
       clause: '3.15'
