@@ -1,0 +1,28 @@
+---
+data:
+  dates:
+  - date: 2005-10-15 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: positivt vægtet retningsbestemt graf, der er konfigureret til at udføre
+      en søgning efter korteste vej
+  examples: []
+  id: '133'
+  notes:
+  - content: Termen stammer fra den mest almindeligt kendte algoritme til at finde
+      den korteste vej i en positivt vægtet graf fra E. Dijkstra's afhandling. Skønt
+      denne algoritme ikke er den eneste, der anvendes, kender de fleste kravene til
+      grafen. Den mest almindelige lempelse af kravet er "positive vægte," der ikke
+      er nødvendige i Bellman-Ford-algoritmen.
+  release: 1.0
+  sources:
+  - origin:
+      ref: ISO 19133:2005
+      link: https://www.iso.org/standard/32551.html
+    type: authoritative
+  terms:
+  - type: expression
+    designation: Dijkstra-graf
+  language_code: dan
+  authoritativeSource:
+  - link: https://www.iso.org/standard/32551.html

@@ -1,0 +1,40 @@
+---
+data:
+  dates:
+  - date: 2003-05-01 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: множество топологических примитивов более высокой топологической размерности,
+      так ассоциированных с определенным топологическим объектом,  что  данный  топологический
+      объект принадлежит границе каждого из них
+  examples: []
+  id: '48'
+  notes:
+  - content: Если узел расположен на границе ребра, то это ребро находится на когранице
+      этого узла. Любой параметр ориентации, связанный с одним из таких отношений,
+      будет также связан и с другим. Таким образом, если узел является концевым узлом
+      ребра (определенный как конец положительно направленного ребра), то положительная
+      ориентация этого узла (определенного как направленный положительный узел), будет
+      иметь это ребро на своей когранице, см. ISO 19107, Рисунок 35
+  release: 1.0
+  sources:
+  - origin:
+      ref: ISO 19107:2019
+      clause: "(E), 3.9"
+      link: https://www.iso.org/standard/66175.html
+    type: authoritative
+  - origin:
+      ref: ISO 19107:2003(E)
+    type: lineage
+    status: unspecified
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: кограница
+  language_code: rus
+  entry_status: valid
+  review_date: 2019-12-02 00:00:00.000000000 +05:00
+  review_decision_date: 2019-12-02 00:00:00.000000000 +05:00
+  review_decision_event: Publication of ISO 19107:2019(E)
+  authoritativeSource:
+  - link: https://www.iso.org/standard/66175.html

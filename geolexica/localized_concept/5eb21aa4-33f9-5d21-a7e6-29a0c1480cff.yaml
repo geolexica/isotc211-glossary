@@ -1,0 +1,38 @@
+---
+data:
+  dates:
+  - date: 2003-05-01 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: objeto topológico orientado que representa una asociación entre un arco
+      y una de sus orientaciones
+  examples: []
+  id: '136'
+  notes:
+  - content: NOTA Un arco orientado que está de acuerdo con la orientación del arco,
+      tiene una orientación +, en caso contrario, tiene una orientación -. Los arcos
+      orientados se utilizan en topología para distinguir el lado derecho (-) del
+      lado izquierdo (+) del mismo arco y el nodo inicial (-) y el nodo final (+)
+      del mismo arco y en la geometría computacional para representar estos conceptos.
+  release: 1.0
+  sources:
+  - origin:
+      ref: ISO 19107:2019
+      clause: "(E), 3.23"
+      link: https://www.iso.org/standard/66175.html
+    type: authoritative
+  - origin:
+      ref: ISO 19107:2003(E)
+    type: lineage
+    status: unspecified
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: arco orientado
+  language_code: spa
+  entry_status: valid
+  review_date: 2019-12-02 00:00:00.000000000 +05:00
+  review_decision_date: 2019-12-02 00:00:00.000000000 +05:00
+  review_decision_event: Publication of ISO 19107:2019(E)
+  authoritativeSource:
+  - link: https://www.iso.org/standard/66175.html

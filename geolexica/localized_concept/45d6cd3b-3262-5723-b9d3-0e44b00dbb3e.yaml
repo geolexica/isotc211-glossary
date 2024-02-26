@@ -1,0 +1,43 @@
+---
+data:
+  dates:
+  - date: 2003-05-01 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: set of disjoint geometric primitives where the boundary of each geometric
+      primitive can be represented as the union of other geometric primitives of smaller
+      dimension within the same set
+  examples: []
+  id: '212'
+  notes:
+  - content: The geometric primitives in the set are disjoint in the sense that no
+      direct position is interior to more than one geometric primitive. The set is
+      closed under boundary operations, meaning that for each element in the geometric
+      complex, there is a collection (also a geometric complex) of geometric primitives
+      that represents the boundary of that element. Recall that the boundary of a
+      point (the only 0D primitive object type in geometry) is empty. Thus, if the
+      largest dimension geometric primitive is a solid (3D), the composition of the
+      boundary operator in this definition terminates after at most three steps. It
+      is also the case that the boundary of any object is a cycle.
+  release: 1.0
+  sources:
+  - origin:
+      ref: ISO 19107:2019
+      clause: "(E), 3.47"
+      link: https://www.iso.org/standard/66175.html
+    type: authoritative
+  - origin:
+      ref: ISO 19107:2003(E)
+    type: lineage
+    status: unspecified
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: geometric complex
+  language_code: eng
+  entry_status: valid
+  review_date: 2019-12-02 00:00:00.000000000 +05:00
+  review_decision_date: 2019-12-02 00:00:00.000000000 +05:00
+  review_decision_event: Publication of ISO 19107:2019(E)
+  authoritativeSource:
+  - link: https://www.iso.org/standard/66175.html

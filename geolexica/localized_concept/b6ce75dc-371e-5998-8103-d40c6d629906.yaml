@@ -1,0 +1,36 @@
+---
+data:
+  dates:
+  - date: 2005-07-15 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: форма агрегации, при которой экземпляр – часть в любой момент входит
+      не более, чем в один композит, причем, композит отвечает за создание и уничтожение
+      этой части
+  examples: []
+  id: '725'
+  notes:
+  - content: Части с нефиксированной множественностью могут быть созданы и после самого
+      композита, однако,  будучи созданными,  живут и умирают вместе с ним (иными
+      словами,   имеют общий жизненный цикл). Такие части могут также быть удалены
+      еще до смерти композиции. Композиция может быть рекурсивной. См.  термины «агрегация»,   «композиция»
+  release: 1.0
+  sources:
+  - origin:
+      ref: ISO/IEC 19501
+      link: https://www.iso.org/standard/32620.html
+    type: authoritative
+    status: unspecified
+  - origin:
+      ref: ISO/TS 19103:2005 ,4.2.10
+    type: lineage
+    status: unspecified
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: композиция <UML>
+  language_code: rus
+  entry_status: valid
+  review_date: 2009-08-31 00:00:00.000000000 +06:00
+  authoritativeSource:
+  - link: https://www.iso.org/standard/32620.html

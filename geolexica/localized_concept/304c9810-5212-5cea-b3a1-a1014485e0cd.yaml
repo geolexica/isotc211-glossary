@@ -1,0 +1,39 @@
+---
+data:
+  dates:
+  - date: 2014-01-15 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: modo de contar fotones en los sistemas lídar en los que el detector está
+      sesgado y se ha vuelto sensible a los fotones individuales
+  examples: []
+  id: '1391'
+  notes:
+  - content: estos detectores existen en forma de array y se unen con circuitos electrónicos.
+      El circuito electrónico produce una medición correspondiente al momento en que
+      se genera la corriente, lo que resulta en una medición directa del tiempo de
+      vuelo. Un lidar que emplea esta tecnología detector normalmente ilumina una
+      gran escena con un solo pulso. Las mediciones directas de tiempo de vuelo se
+      combinan entonces con los datos de localización/altitud de la plataforma junto
+      con la información de los puntos para producir un producto tridimensional de
+      la escena de interés iluminada. Se aplica un procesamiento adicional que elimina
+      el ruido existente presente en los datos para producir un conjunto de datos
+      explotable visualmente.
+  release: 3.0
+  sources:
+  - origin:
+      ref: Adapted from Albota 2002
+    type: authoritative
+    status: unspecified
+  - origin:
+      ref: ISO/TS 19130-2:2014, 4.23
+    type: lineage
+    status: unspecified
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: modo geiger
+  language_code: spa
+  entry_status: valid
+  authoritativeSource:
+  - link:

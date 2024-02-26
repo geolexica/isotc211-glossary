@@ -1,0 +1,47 @@
+---
+data:
+  dates:
+  - date: 2022-11-24 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: descriptive measure of radiation in terms of the temperature (K) of a
+      hypothetical blackbody emitting an identical amount of radiation at the same
+      wavelength, which can be derived from the Planck's radiation law
+  examples: []
+  id: '2897'
+  notes:
+  - content: 'In the Rayleigh-Jeans limit, the microwave power per unit bandwidth
+      received by a radiometer, stem:[P], is:'
+  - content: stem:[P="k"*T_B]
+  - content: where stem:["k"] is the Boltzmann's constant (stem:["k" = 1.38064852
+      xx 10^(-23) "J/K"]).
+  - content: |-
+      For the frequency range of microwave, Planck's radiation law can be well approximated by the Rayleigh-Jeans formula. Usually the microwave radiometers use the Rayleigh–Jeans equivalent brightness temperature, which is defined as: stem:[T_("b,v")^("(RJE)")=c^2/(2v^2"k")I_"v"]
+
+      where
+
+      stem:[T_("b,v")^("(RJE)") is the Rayleigh–Jeans equivalent brightness temperature;
+      stem:[v] is the frequency in Hz;
+      stem:["c"] is the velocity of light (stem:[2.997925xx10^8 "m"//"s"]);
+      stem:["k"] is the Boltzmann’s constant (stem:[1.38064852xx10^(-23) "J"//"K"]);
+      stem:[I_"v"] is the radiance.
+  release: 6.0
+  sources:
+  - origin:
+      ref: ISO/TS 19159-4:2022
+      clause: "(E), 3.12"
+      link: https://www.iso.org/standard/66769.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: brightness temperature
+  - type: abbreviation
+    designation: TB
+  language_code: eng
+  entry_status: valid
+  review_date: 2022-11-24 00:00:00.000000000 +05:00
+  review_decision_date: 2022-11-24 00:00:00.000000000 +05:00
+  review_decision_event: Normal ISO processing
+  authoritativeSource:
+  - link: https://www.iso.org/standard/66769.html

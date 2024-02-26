@@ -1,0 +1,35 @@
+---
+data:
+  dates:
+  - date: 2014-01-15 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: система LIDAR, в которой выходной фототок пропорционален интенсивности
+      падающего входного оптического излучения
+  examples: []
+  id: '1401'
+  notes:
+  - content: Система лидар, которая использует эту технологию, обычно использует методы
+      обработки для разработки измерений времени полета от полной формы волны, которая
+      отражается от целей в освещенной сцене интереса. Эти измерения времени полета
+      затем объединяются с точными данными о местоположении/ориентации платформы вместе
+      с указывающими данными для получения трехмерного продукта освещенной сцены интереса.
+  release: 3.0
+  sources:
+  - origin:
+      ref: Adapted from Aull et al.
+      clause: '2002'
+    type: authoritative
+    status: unspecified
+  - origin:
+      ref: ISO/TS 19130-2:2014, 4.41
+    type: lineage
+    status: unspecified
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: линейный режим
+  language_code: rus
+  entry_status: valid
+  authoritativeSource:
+  - link:

@@ -1,0 +1,37 @@
+---
+data:
+  dates:
+  - date: 2019-01-31 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: distance of a point from the reference ellipsoid along the perpendicular
+      from the reference ellipsoid to this point, positive if upwards or outside of
+      the reference ellipsoid
+  examples: []
+  id: '2406'
+  notes:
+  - content: Only used as part of a three-dimensional ellipsoidal coordinate system
+      or as part of a three-dimensional Cartesian coordinate system in a three-dimensional
+      projected coordinate reference system, but never on its own.
+  release: 5.0
+  sources:
+  - origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.24"
+      link: https://www.iso.org/standard/74039.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ellipsoidal height
+  - type: abbreviation
+    designation: h
+  - type: expression
+    designation: geodetic height
+  language_code: eng
+  entry_status: valid
+  review_date: 2019-01-31 00:00:00.000000000 +05:00
+  review_decision_date: 2019-01-31 00:00:00.000000000 +05:00
+  review_decision_event: Publication of document ISO 19111:2019(E)
+  authoritativeSource:
+  - link: https://www.iso.org/standard/74039.html

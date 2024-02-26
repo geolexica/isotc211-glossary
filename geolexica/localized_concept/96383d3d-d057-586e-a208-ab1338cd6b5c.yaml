@@ -1,0 +1,41 @@
+---
+data:
+  dates:
+  - date: 2019-01-31 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: operación de coordenadas que cambia las coordenadas en un sistema de
+      referencia por coordenadas origen a las coordenadas en un sistema de referencia
+      por coordenadas destino en la que los sistemas de referencia de coordenadas
+      se fundamentan en diferentes datums
+  examples: []
+  id: '2354'
+  notes:
+  - content: NOTA 1 Una transformación de coordenadas usa parámetros obtenidos empíricamente.
+      Cualquier error en esas coordenadas se incorporará a la trasformación de coordenadas
+      y cuando se aplique la trasformación los errores incorporados se trasmitirán
+      a las coordenadas de salida.
+  - content: NOTA 2 Una trasformación de coordenadas a veces se denomina coloquialmente
+      ‘trasformación de datum’. Eso es erróneo. Una trasformación de coordenadas cambia
+      los valores de las coordenadas. No cambia la definición del datum. En este documento
+      las coordenadas se refieren a un sistema de referencia por coordenadas. Una
+      trasformación de coordenadas opera entre dos sistemas de referencia de coordenadas,
+      no entre dos datums.
+  release: 5.0
+  sources:
+  - origin:
+      ref: ISO 19111:2019
+      clause: "(E), 3.1.12"
+      link: https://www.iso.org/standard/74039.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: transformación de coordenadas
+  language_code: spa
+  entry_status: valid
+  review_date: 2019-01-31 00:00:00.000000000 +05:00
+  review_decision_date: 2019-01-31 00:00:00.000000000 +05:00
+  review_decision_event: Publicación de documento ISO 19111:2019(E)
+  authoritativeSource:
+  - link: https://www.iso.org/standard/74039.html

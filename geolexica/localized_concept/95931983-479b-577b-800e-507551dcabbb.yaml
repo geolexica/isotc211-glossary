@@ -1,0 +1,37 @@
+---
+data:
+  dates:
+  - date: 2019-12-02 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: number of separate decisions needed to describe a position in a coordinate
+      system
+  examples: []
+  id: '2039'
+  notes:
+  - content: The coordinate dimension represents the number of choices made, and constraints
+      can restrict choices. A barycentric coordinate which has stem:[(n+1)]-offsets,
+      but the underlying space is dimension stem:[n]. Homogeneous coordinates stem:[(wx,
+      wy, wz, w)] are actually 3 dimensional because the choice of "stem:[w]" does
+      not affect the position, i.e. stem:[(wx, wy, wz, w) = (x y, z, 1) -> (x, y,
+      z)] which is not affected by stem:[w]. The dimension will be at most the count
+      of the numbers in the coordinate, but it can be less if the coordinates are
+      constrained in some manner.
+  release: 5.0
+  sources:
+  - origin:
+      ref: ISO 19107:2019
+      clause: "(E), 3.17"
+      link: https://www.iso.org/standard/66175.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: coordinate dimension <coordinate geometry>
+  language_code: eng
+  entry_status: valid
+  review_date: 2019-12-02 00:00:00.000000000 +05:00
+  review_decision_date: 2019-12-02 00:00:00.000000000 +05:00
+  review_decision_event: Publication of document ISO 19107:2019(E)
+  authoritativeSource:
+  - link: https://www.iso.org/standard/66175.html

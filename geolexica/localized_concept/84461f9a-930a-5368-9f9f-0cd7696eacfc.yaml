@@ -1,0 +1,33 @@
+---
+data:
+  dates:
+  - date: 2009-12-29 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: 속성 유형은 양수이고, 대칭이며 삼각형의 부등식을 만족시키는 거리 값
+  examples: []
+  id: '664'
+  notes:
+  - content: 만일 x≠y이고 d(x,x)=0인 모든 x,y에 대해 d(x,y) > 0 이면 측정 값 "d"는 양수이다. 모든 x,y에 대해
+      d(x,y) = d(y,x) 이면 측정 값 "d"는 대칭이다. 만일 모든 a, x, y 에 대하여 d(x,y) ≤ d(x,a) + d(a,y)
+      이면 측정 값 "d"는 삼각형의 부등식을 만족시킨다. 미터법과 같이 모든 숫자 또는 백터 값을 갖는 속성은 각 차원의 차이 값의 제곱의
+      합에 대한 제곱근을 기초로 한 가장 일반적인 유클리디안 계량법이다. 다른 비유클리디안 계량법에서는 "공간의 곡률"(회전 타원체의 표면을
+      따르는)을 고려한다.
+  release: 1.0
+  sources:
+  - origin:
+      ref: ISO 19132:2007
+      link: https://www.iso.org/standard/40601.html
+    type: authoritative
+    status: unspecified
+  - origin:
+      ref: KS X ISO 19132
+    type: lineage
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 거리 관측
+  language_code: kor
+  entry_status: valid
+  authoritativeSource:
+  - link: https://www.iso.org/standard/40601.html

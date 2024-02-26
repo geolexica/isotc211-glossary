@@ -1,0 +1,25 @@
+---
+data:
+  dates:
+  - date: 2005-10-15 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: 与更为详细的导航限制不同，可通过是允许或限制所有交通通行的一个有向路段或转向处的状态。
+  examples: []
+  id: '474'
+  notes:
+  - content: 可通过通常是物理、文化或法定条件的函数。若可通过为假，则目标不能导航。这就从可使用的网络中有效地“除去”这个有向路段。如果是结点，则从使用的网络中有效地“除去”该节点和所有与之相连的有向路段。如果是转向，仅从任一可行的路径中简单“除去”转向点即可。不可通过的实体不应包含在策略或路径中。
+  sources:
+  - origin:
+      ref: ISO 19133:2005
+      link: https://www.iso.org/standard/32551.html
+    type: authoritative
+    status: unspecified
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 可通过
+  language_code: chi
+  entry_status: valid
+  authoritativeSource:
+  - link: https://www.iso.org/standard/32551.html
