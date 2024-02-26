@@ -1,0 +1,37 @@
+---
+data:
+  dates:
+  - date: 2003-05-01 00:00:00.000000000 +05:00
+    type: accepted
+  - date: 2019-12-02 00:00:00.000000000 +05:00
+    type: amended
+  definition:
+  - content: największa liczba n taka, że każde położenie bezpośrednie w zbiorze geometrycznym
+      może być powiązane z podzbiorem, do którego wnętrza to położenie bezpośrednie
+      należy i który jest podobny (izomorficzny) do n - wymiarowej przestrzeni euklidesowej
+      Rn
+  examples: []
+  id: '213'
+  notes:
+  - content: Krzywe mają wymiar geometryczny równy 1, ponieważ są ciągłym obrazem
+      fragmentu osi liczb rzeczywistych. Powierzchnie nie mogą być odwzorowane w przestrzeni
+      R2 w całości, ale w pobliżu każdego położenia punktu powierzchni można znaleźć
+      niewielkie otoczenie, które przypomina (w przypadku funkcji ciągłych) wnętrze
+      jednostkowego pkręgu w przestrzeni R2 i dlatego są one 2-wymiarowe. W niniejszej
+      Normie Międzynarodowej większość płatów powierzchniowych (instancjiGM_SurfacePatch)
+      jest odwzorowanych na fragmenty R2 poprzez definiujące je mechanizmy interpolacji.
+  release: -1.0
+  sources:
+  - origin:
+      ref: ISO 19107:2003
+      link: https://www.iso.org/standard/26012.html
+    type: authoritative
+  terms:
+  - type: expression
+    designation: wymiar geometryczny
+  language_code: pol
+  review_date: 2019-12-02 00:00:00.000000000 +05:00
+  review_decision_date: 2019-12-02 00:00:00.000000000 +05:00
+  review_decision_event: Publication of document ISO 19107:2019(E)
+  authoritativeSource:
+  - link: https://www.iso.org/standard/26012.html

@@ -1,0 +1,50 @@
+---
+data:
+  dates:
+  - date: 2019-12-02 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: set without any elements
+  examples: []
+  id: '2158'
+  notes:
+  - content: Sets are equal if they contain exactly the same elements. Since any two
+      empty sets would share exactly the same contained elements (by definition none),
+      they are, by definition, equal. The empty set (stem:[O/]) can be considered
+      a geometric entity, because all the elements it contains are points. This is
+      a vacuous statement since the set stem:[O/] contains no elements, and therefore
+      the "for all" statement has nothing to test and is thus true in each of its
+      non-existent cases. There are a lot of true but vacuous statements in proofs
+      about stem:[O/]. This confuses some programmers since many systems use type
+      safe sets, in which the class of the entities determines a class for the container
+      set. The math does not care about "class" and only sees sets; so that an empty
+      set of aardvarks and an empty set of zebras in mathematics are (is?) the same
+      set. The other confusion is that stem:[O/] is not the database Null introduced
+      by Codd and used in relational and other query languages in 3 valued logic.
+      Null means unknown and many statements involving Null are undecidable (neither
+      provably true nor provably false). The empty set is not "lack of knowledge"
+      but certainty in the nonexistence of elements in the set. Most statements beginning
+      "for all elements in stem:[O/]" are true, but vacuous. Most statements beginning
+      "there exist an element in stem:[O/]" are always categorically false. It is
+      almost impossible to construct an undecidable statement about stem:[O/]. Null
+      and stem:[O/] are not related. "Void" can mean "invalid" or "completely empty."
+  release: 5.0
+  sources:
+  - origin:
+      ref: ISO 19107:2019
+      clause: "(E), 3.32"
+      link: https://www.iso.org/standard/66175.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: empty set <mathematics>
+  - type: abbreviation
+    designation: "∅"
+  language_code: eng
+  entry_status: valid
+  review_date: 2019-12-02 00:00:00.000000000 +05:00
+  review_decision_date: 2019-12-02 00:00:00.000000000 +05:00
+  review_decision_event: Normal ISO processing
+  authoritativeSource:
+  - link: https://www.iso.org/standard/66175.html

@@ -1,0 +1,32 @@
+---
+data:
+  dates:
+  - date: 2007-10-15 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: cambio en un atributo cuyo tipo tiene una medida de distancia tal que
+      su valor se puede suponer que tiene valores intermedios entre dos mediciones
+      conocidas
+  examples: []
+  id: '659'
+  notes:
+  - content: NOTA La interpolación de cambio continuo se suele hacer teniendo en cuenta
+      las limitaciones en la "curva" que une los dos puntos de datos (tiempo1, valor1)
+      y (tiempo2, valor2), considerando el valor en función del tiempo. Por ejemplo,
+      si el cambio continuo es para el movimiento de un vehículo, entonces se deben
+      tomar en consideración las limitaciones físicas y de las vías apropiadas para
+      ese vehículo.
+  release: 1.0
+  sources:
+  - origin:
+      ref: ISO 19132:2007
+      link: https://www.iso.org/standard/40601.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: cambio continuo
+  language_code: spa
+  entry_status: valid
+  authoritativeSource:
+  - link: https://www.iso.org/standard/40601.html

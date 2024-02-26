@@ -1,0 +1,30 @@
+---
+data:
+  dates:
+  - date: 2009-12-29 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: 속성이 거리 관측 유형인 변환에서 속성의 값은 알려진 두 측정 간의 매개 값을 사용한 것으로 가정할 수 있다.
+  examples: []
+  id: '659'
+  notes:
+  - content: 연속 변환의 보간법은 일반적으로 "곡선"상 두 개의 데이터 점((시간1,값1), (시간2,값2))과 시간 함수 값을 제약 조건으로
+      사용한다. 예를 들어, 차량의 이동에 대한 연속 변환의 경우 반드시 제약 조건으로 물리학과 도로 상태를 고려해야 한다.
+  release: 1.0
+  sources:
+  - origin:
+      ref: ISO 19132:2007
+      link: https://www.iso.org/standard/40601.html
+    type: authoritative
+    status: unspecified
+  - origin:
+      ref: KS X ISO 19132
+    type: lineage
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 연속 변환
+  language_code: kor
+  entry_status: valid
+  authoritativeSource:
+  - link: https://www.iso.org/standard/40601.html

@@ -1,0 +1,28 @@
+---
+data:
+  dates:
+  - date: 2003-05-01 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: 幾何オブジェクト内の直接位置を他の位置と区別するのに必要な自由変数の最小の数。
+  examples: []
+  id: '463'
+  notes:
+  - content: |-
+      　上の自由変数は，多くの場合局地座標系として考えることができる。三次元座標空間において，uとvとを実数，Aを平面上の任意の点，X及びYを平面の二つの接ベクトルとすると，平面はP(u，v) = A + u X + v Yと書き表すことができる。この平面の位置はuとvとによって（ここでは至る所を）識別できるので，平面は二次元であり，(u，v)はこの平面上の点の座標となる。一般の曲面では，通常は，至る所を普遍的に識別するのは不可能である。曲面上の点を曲面の接平面上へ射影すると，接点の微小近傍の局所同形を通常得ることができる。曲面に対するこの“局所座標”系は，曲面が二次元位相オブジェクトであるための要件を満たす。
+       　この規格は空間座標だけを取り扱うので，任意の三次元オブジェクトは座標に依存してその位相次元を定めることができる。四次元モデル（時空間）では，接空間が三次元までのオブジェクトの位相次元を定めるという重要な役割も果たす。
+  release: 1.0
+  sources:
+  - origin:
+      ref: ISO 19107:2003
+      link: https://www.iso.org/standard/26012.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 位相次元
+  language_code: jpn
+  entry_status: valid
+  review_date: 2016-02-15 00:00:00.000000000 +05:00
+  authoritativeSource:
+  - link: https://www.iso.org/standard/26012.html
