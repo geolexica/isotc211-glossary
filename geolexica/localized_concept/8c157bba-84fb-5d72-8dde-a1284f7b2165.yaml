@@ -1,0 +1,45 @@
+---
+data:
+  dates:
+  - date: 2019-12-02 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: superficie de referencia geométrica integrada en el espacio euclidiano
+      tridimensional representada por un elipsoide de revolución donde la rotación
+      es sobre el eje polar
+  examples: []
+  id: '2382'
+  notes:
+  - content: 'NOTA 1: Para la Tierra la rotación es sobre el eje polar. Esto resulta
+      en un elipsoide oblicuo con el punto medio de los foco situados en el centro
+      nominal de la Tierra.'
+  - content: 'NOTA 2: Los dos algoritmos habituales para la latitud en un elipsoide
+      y en una esfera (como los que se utilizan en las coordenadas esféricas) son
+      equivalentes sólo si el elipsoide es una esfera, teniendo todos los radios iguales
+      en todas las direcciones. El problema es que una línea radial desde el centro
+      de un elipsoide general no siempre atraviesa la superficie del elipsoide ortogonalmente.
+      En general, los planos que atraviesan el centro no cruzan la superficie ortogonalmente,
+      y por lo tanto las curvas que corresponden a los círculos máximos de una esfera
+      no son geodésicas en el elipsoide.'
+  - content: "NOTA 3: La topología del elipsoide se hereda del espacio de  \U0001D53C3
+      en el que está embebido. La diferencia es que las métricas como la distancia
+      y la dirección en el elipsoide están restringidas a curvas completamente en
+      la superficie y a vectores tangentes a la superficie"
+  release: 5.0
+  sources:
+  - origin:
+      ref: ISO 19107:2019
+      clause: "(E), 3.31"
+      link: https://www.iso.org/standard/66175.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: elipsoide <geodesia>
+  language_code: spa
+  entry_status: valid
+  review_date: 2019-12-02 00:00:00.000000000 +05:00
+  review_decision_date: 2019-12-02 00:00:00.000000000 +05:00
+  review_decision_event: Procedimiento normal de ISO
+  authoritativeSource:
+  - link: https://www.iso.org/standard/66175.html

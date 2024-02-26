@@ -1,0 +1,33 @@
+---
+data:
+  dates:
+  - date: 2014-01-15 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: площадь земли, с которой собираются данные о возврате во время непрерывной
+      работы LIDAR в воздухе
+  examples: []
+  id: '1422'
+  notes:
+  - content: типичная картографическая миссия может состоять из нескольких смежных
+      полос с некоторым перекрытием, и оператор выключит лазер, пока самолет ориентируется
+      на следующую полосу.  Этот термин можно также назвать Проход.
+  release: 3.0
+  sources:
+  - origin:
+      ref: ISO/TS 19130-2:2014
+      clause: '4.75'
+      link: https://www.iso.org/standard/56113.html
+    type: authoritative
+    status: unspecified
+  - origin:
+      ref: ISO/TS 19130-2:2014
+    type: lineage
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: полоса <LIDAR>
+  language_code: rus
+  entry_status: valid
+  authoritativeSource:
+  - link: https://www.iso.org/standard/56113.html

@@ -1,0 +1,32 @@
+---
+data:
+  dates:
+  - date: 2012-11-01 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: matching of a Place Identifier specifying a place with another type of
+      PI identifying the same place
+  examples: []
+  id: '1339'
+  notes:
+  - content: A source PI can be matched with multiple target Place Identifiers.
+  - content: PI matching can be made among coordinates, geographic identifiers and
+      identifiers in the virtual world such as URI.
+  release: 3.0
+  sources:
+  - origin:
+      ref: ISO 19155:2012
+      clause: '4.11'
+      link: https://www.iso.org/standard/32573.html
+    type: authoritative
+    status: unspecified
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Place Identifier matching
+  - type: abbreviation
+    designation: PI matching
+  language_code: eng
+  entry_status: valid
+  authoritativeSource:
+  - link: https://www.iso.org/standard/32573.html

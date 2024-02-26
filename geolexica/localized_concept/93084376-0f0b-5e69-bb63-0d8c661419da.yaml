@@ -1,0 +1,38 @@
+---
+data:
+  dates:
+  - date: 2003-05-01 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: skierowany obiekt topologiczny, który reprezentuje powiązanie między
+      bryłą topologiczną a jedną z jej orientacji
+  examples: []
+  id: '139'
+  notes:
+  - content: Bryły skierowane są wykorzystywane w zależnościach współgranicy w celu
+      ustalenia powiązania przestrzennego pomiędzy ścianą a bryłą topologiczną. Orientacja
+      bryłyokreślana jest względem ściany "+", jeżeli wektor normalny ściany jest
+      skierowany na zewnątrz bryły,"-", jeżeli wektor normalny ściany jest skierowany
+      do wewnątrz bryły. Jest to zgodne z pojęciem "góra = kierunek na zewnątrz" dla
+      powierzchni ograniczającej bryłę.
+  release: 1.0
+  sources:
+  - origin:
+      ref: ISO 19107:2019
+      clause: "(E), 3.26"
+      link: https://www.iso.org/standard/66175.html
+    type: authoritative
+  - origin:
+      ref: ISO 19107:2003(E)
+    type: lineage
+    status: unspecified
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: bryła skierowana
+  language_code: pol
+  review_date: 2019-12-02 00:00:00.000000000 +05:00
+  review_decision_date: 2019-12-02 00:00:00.000000000 +05:00
+  review_decision_event: Publication of ISO 19107:2019(E)
+  authoritativeSource:
+  - link: https://www.iso.org/standard/66175.html

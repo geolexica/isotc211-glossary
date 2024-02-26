@@ -1,0 +1,37 @@
+---
+data:
+  dates:
+  - date: 2005-07-15 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: specification of the range of allowable cardinalities that a set may
+      assume
+  examples: []
+  id: '304'
+  notes:
+  - content: 'Multiplicity specifications may be given for roles within associations,
+      parts within composites, repetitions and other purposes. Essentially a multiplicity
+      is a (possibly infinite) subset of the non-negative integers. Contrast: cardinality.'
+  release: 1.0
+  sources:
+  - origin:
+      ref: ISO 19103:2015
+      clause: '4.24'
+      link: https://www.iso.org/standard/56734.html
+    type: authoritative
+    status: unspecified
+  - origin:
+      ref: ISO/TS 19103:2005
+    type: lineage
+    status: unspecified
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: multiplicity <UML>
+  language_code: swe
+  entry_status: valid
+  review_date: 2023-11-30 00:00:00.000000000 +05:00
+  review_decision_date: 2015-12-01 00:00:00.000000000 +05:00
+  review_decision_event: Publication of ISO 19103:2015
+  authoritativeSource:
+  - link: https://www.iso.org/standard/56734.html

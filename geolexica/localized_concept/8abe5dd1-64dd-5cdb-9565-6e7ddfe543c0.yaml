@@ -1,0 +1,31 @@
+---
+data:
+  dates:
+  - date: 2005-10-15 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: information som behövs vid en position längs en rutt i ett nätverk och
+      som medverkar till att rutten följs
+  examples: []
+  id: '389'
+  notes:
+  - content: To minimize the number of instructions needed to complete a route traversal,
+      a default instruction can be assumed at junctions without specifically associated
+      instructions. This default is called the main-road rule.
+  release: 1.0
+  sources:
+  - origin:
+      ref: ISO 19133:2005
+      link: https://www.iso.org/standard/32551.html
+    type: authoritative
+  - origin:
+      ref: "(Type reference to national language document)"
+    type: lineage
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ruttinstruktion
+  language_code: swe
+  entry_status: valid
+  authoritativeSource:
+  - link: https://www.iso.org/standard/32551.html
