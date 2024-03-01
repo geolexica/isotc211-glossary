@@ -1,0 +1,36 @@
+---
+data:
+  dates:
+  - date: 2009-12-29 00:00:00.000000000 +00:00
+    type: accepted
+  definition:
+  - content: 동일 객체의 표현 순서와 연관된 타임 스탬프의 정렬된 연속
+  examples: []
+  id: '688'
+  notes:
+  - content: 시간 연속은 시간적 또는 공간적으로 균등한 간격을 갖는 것으로 가정하지 않는다. 불연속변환을 위한 디폴트 논리는 가능하다면
+      변화의 시간 점을 견본으로 하는 것이다. 이에 따라 타임 스탬프는 속성 목록이 조합된 값을 갖는 첫 번째 시간 인스턴스이다. 연속에서 어떤
+      샘플은 공간 절약을 위해 단지 바로 이전의 시간 샘플의 변화 값만을 목록화 한다. 이러한 이유로, 샘플은 그 연속에 대한 상황을 고려해야만
+      한다. 정밀한 이동(차량 추적과 같이)에서는 위치와 공간 범위의 기술을 위해 시간연속에 중심(점 값)과 방향(여행 방향)만이 요구된다.
+      객체의 변형이 조합된 이동은 보다 많은 정보가 요구된다.
+  release: 1.0
+  sources:
+  - origin:
+      ref: ISO 19132:2007
+      link: https://www.iso.org/standard/40601.html
+    type: authoritative
+    status: unspecified
+  - origin:
+      ref: KS X ISO 19132
+    type: lineage
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 시간 연속
+  language_code: kor
+  entry_status: valid
+  authoritativeSource:
+  - link: https://www.iso.org/standard/40601.html
+dateAccepted: 2009-12-29 00:00:00.000000000 +00:00
+id: 73040e68-7385-5f09-958d-1bfe62874be0
+status: valid

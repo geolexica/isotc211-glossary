@@ -1,0 +1,44 @@
+---
+data:
+  dates:
+  - date: 2022-11-24 00:00:00.000000000 +00:00
+    type: accepted
+  definition:
+  - content: |-
+      for a series of stem:[n] measurements of the same measurand, the quantity, stem:[s(q_k)], characterizing the dispersion of the results and given by the formula  stem:[s(q_k)=sqrt((sum_(j=1)^n(q_j-bar(q))^2)/(n-1))]
+
+      where
+
+      stem:[q_k] is the result of the
+      stem:[k]th measurement;
+      stem:[q] is the arithmetic mean of the stem:[n] results considered;
+      stem:[n] is the number of the measurements
+  examples: []
+  id: '2601'
+  notes:
+  - content: Considering the series of stem:[n] values as a sample of a distribution,
+      stem:[bar q] is an unbiased estimate of the mean stem:[mu], and stem:[s^2] is
+      an unbiased estimate of the variance stem:[sigma^2] of that distribution. The
+      expression stem:[s//sqrt(n)] is an estimate of the standard deviation of the
+      distribution of stem:[bar q] and is called the experimental standard deviation
+      of the mean.
+  release: 6.0
+  sources:
+  - origin:
+      ref: ISO/IEC Guide 98-3:2008 B.2.17
+      clause: modified - Notes 3 and 4 to entry have been removed.
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: experimental standard deviation
+  language_code: eng
+  entry_status: valid
+  review_date: 2022-11-24 00:00:00.000000000 +00:00
+  review_decision_date: 2022-11-24 00:00:00.000000000 +00:00
+  review_decision_event: Normal ISO processing
+  authoritativeSource:
+  - link:
+dateAccepted: 2022-11-24 00:00:00.000000000 +00:00
+id: d57b1887-65f1-54d5-8bcc-f273e2d076e0
+status: valid
