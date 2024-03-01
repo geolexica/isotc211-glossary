@@ -1,0 +1,41 @@
+---
+data:
+  dates:
+  - date: 2018-05-01 00:00:00.000000000 +00:00
+    type: accepted
+  definition:
+  - content: matriz que caracteriza el proceso de dispersión en el objetivo de interés
+      para el SAR polarimétrico
+  examples: []
+  id: '2201'
+  notes:
+  - content: |-
+      La matriz de dispersión se define mediante
+        (fórmula)
+      donde
+        (fórmula) es la matriz de dispersión;
+        (fórmula)  es el vector de campo electrónico de la onda incidente en el dispersor;
+         (fórmula) es el vector de campo electrónico de la onda de dispersión;
+        (fórmula)  es el número de onda de la onda de iluminación;
+        (fórmula) es la distancia entre el objetivo y la antena del radar.
+  release: 5.0
+  sources:
+  - origin:
+      ref: ISO/TS 19159-3:2018
+      clause: "(E), 3.30"
+      link: https://www.iso.org/standard/74032.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: matriz de dispersión
+  language_code: spa
+  entry_status: valid
+  review_date: 2018-05-01 00:00:00.000000000 +00:00
+  review_decision_date: 2018-05-01 00:00:00.000000000 +00:00
+  review_decision_event: Procedimiento normal de ISO
+  authoritativeSource:
+  - link: https://www.iso.org/standard/74032.html
+dateAccepted: 2018-05-01 00:00:00.000000000 +00:00
+id: e5394db2-d0b6-510f-89f0-16e54d0beee9
+status: valid

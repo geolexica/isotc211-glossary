@@ -1,0 +1,40 @@
+---
+data:
+  dates:
+  - date: 2005-10-15 00:00:00.000000000 +00:00
+    type: accepted
+  definition:
+  - content: |-
+      <inom ekonomi> funktion som anger samband
+      mellan kostnad och produktion
+  examples: []
+  id: '97'
+  notes:
+  - content: The normal mechanism is to apply a cost to each part of a route, and
+      to define the total route cost as the sum of the cost of the parts. This is
+      necessary for the operation of the most common navigation algorithms. The units
+      of cost functions are not limited to monetary costs and values only, but include
+      such measures as time, distance, and possibly others. The only requirement is
+      that the function be additive and at least non-negative. This last criteria
+      can be softened as long as no zero or less cost is associated with any loop
+      in the network, as this will prevent the existence of a "minimal cost" route.
+  release: 1.0
+  sources:
+  - origin:
+      ref: ISO 19133:2005
+      link: https://www.iso.org/standard/32551.html
+    type: authoritative
+  - origin:
+      ref: "(Type reference to national language document)"
+    type: lineage
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: kostnadsfunktion
+  language_code: swe
+  entry_status: valid
+  authoritativeSource:
+  - link: https://www.iso.org/standard/32551.html
+dateAccepted: 2005-10-15 00:00:00.000000000 +00:00
+id: 6de0d457-3317-500f-b716-d1f6a519ccfa
+status: valid

@@ -1,0 +1,43 @@
+---
+data:
+  dates:
+  - date: 2019-12-02 00:00:00.000000000 +00:00
+    type: accepted
+  definition:
+  - content: segmento de curva plana que contiene la normal en uno de sus puntos finales.
+  examples: []
+  id: '2078'
+  notes:
+  - content: "NOTA: La construcción habitual comienza eligiendo uno de los puntos
+      finales, la normal a la superficie en ese punto final, y la ubicación del otro
+      punto final y creando un plano en \U0001D53C3, que luego se intersecta con el
+      datum Esta curva es una sección normal de la curva entre estos dos puntos, que
+      contiene la normal a la superficie en el primer punto. En la esfera, esta es
+      la geodésica, y las dos secciones normales de curva son iguales. En un datum
+      elipsoidal, ocurre lo mismo con dos puntos del ecuador o dos puntos en el mismo
+      plano meridiano, pero es falso en general. La razón es que en estos casos el
+      plano que atraviesa los dos puntos y el centro del elipsoide son planos de simetría
+      para el elipsoide que dividen al elipsoide en mitades simétricas de imagen \"espejo\".
+      En general, la geodésica entre los dos puntos se encuentra entre las dos secciones
+      normales de curva."
+  release: 5.0
+  sources:
+  - origin:
+      ref: ISO 19107:2019
+      clause: "(E), 3.72"
+      link: https://www.iso.org/standard/66175.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: sección normal de curva <geometría diferencial, geodesia>
+  language_code: spa
+  entry_status: valid
+  review_date: 2019-12-02 00:00:00.000000000 +00:00
+  review_decision_date: 2019-12-02 00:00:00.000000000 +00:00
+  review_decision_event: Procedimiento normal de ISO
+  authoritativeSource:
+  - link: https://www.iso.org/standard/66175.html
+dateAccepted: 2019-12-02 00:00:00.000000000 +00:00
+id: 7bd70af7-a5f4-521f-8179-437de23ed46c
+status: valid

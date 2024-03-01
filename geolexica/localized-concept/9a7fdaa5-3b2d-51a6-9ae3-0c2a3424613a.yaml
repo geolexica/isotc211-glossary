@@ -1,0 +1,42 @@
+---
+data:
+  dates:
+  - date: 2003-05-01 00:00:00.000000000 +00:00
+    type: accepted
+  definition:
+  - content: zbiór prostych elementów topologicznych o większym wymiarze topologicznym,
+      powiązanych z danym obiektem topologicznym w taki sposób, że ten topologiczny
+      obiekt należy do granicy każdego z nich
+  examples: []
+  id: '48'
+  notes:
+  - content: Jeśli węzeł jest na granicy pewnej krawędzi, wówczas krawędź ta jest
+      na współgranicy tego węzła. Każdy parametr orientacji powiązany z jedną z tych
+      relacji powinien być powiązany także z drugą. A zatem, jeśli dany węzeł jest
+      węzłem końcowym krawędzi (czyli zdefiniowanym jako koniec krawędzi skierowanej
+      dodatnio), wówczas dodatnia orientacja tego węzła (czyli węzła zdefiniowanego
+      jako węzeł skierowany dodatnio) powinna mieć tę krawędź na swojej współgranicy.patrz
+      Rysunek35.
+  release: 1.0
+  sources:
+  - origin:
+      ref: ISO 19107:2019
+      clause: "(E), 3.9"
+      link: https://www.iso.org/standard/66175.html
+    type: authoritative
+  - origin:
+      ref: ISO 19107:2003(E)
+    type: lineage
+    status: unspecified
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: współgranica,  kogranica
+  language_code: pol
+  review_date: 2019-12-02 00:00:00.000000000 +00:00
+  review_decision_date: 2019-12-02 00:00:00.000000000 +00:00
+  review_decision_event: Publication of ISO 19107:2019(E)
+  authoritativeSource:
+  - link: https://www.iso.org/standard/66175.html
+dateAccepted: 2003-05-01 00:00:00.000000000 +00:00
+id: a846613a-bcc0-588d-a60a-1bfb1c54a149

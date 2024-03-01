@@ -1,0 +1,34 @@
+---
+data:
+  dates:
+  - date: 2005-10-15 00:00:00.000000000 +00:00
+    type: accepted
+  definition:
+  - content: set of criteria used at a turn in lieu of a route instruction; default
+      instruction used at a node
+  examples: []
+  id: '280'
+  notes:
+  - content: This rule represents what is "most natural" to do at a node (intersection),
+      given the entry link used. The most common version is "as straight as possible",
+      or to exit a turn on the most obvious extension of the entry street, which is
+      usually, but not always, the same named street that was the entry. Every node
+      in a route is either associated with an instruction or can be navigated by the
+      main-road rule.
+  release: 1.0
+  sources:
+  - origin:
+      ref: ISO 19133:2005
+      link: https://www.iso.org/standard/32551.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: main-road rule
+  language_code: eng
+  entry_status: valid
+  authoritativeSource:
+  - link: https://www.iso.org/standard/32551.html
+dateAccepted: 2005-10-15 00:00:00.000000000 +00:00
+id: c6c3bee3-f0c6-5feb-8183-d46368514a3c
+status: valid

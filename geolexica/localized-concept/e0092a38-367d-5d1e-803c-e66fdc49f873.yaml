@@ -1,0 +1,45 @@
+---
+data:
+  dates:
+  - date: 2003-05-01 00:00:00.000000000 +00:00
+    type: accepted
+  definition:
+  - content: vähimmäismäärä vapaita muuttujia, joka tarvitaan erottamaan geometrisen
+      objektin sisällä olevat lähekkäiset pisteet toisistaan
+  examples: []
+  id: '463'
+  notes:
+  - content: Määritelmässä mainittuja vapaita muuttujia voidaan tavallisesti ajatella
+      paikallisena koordinaatistona. Kolmiulotteisessa koordinaattiavaruudessa taso  voidaan
+      kirjoittaa yhtälönä P(u, v) = A + u X + v Y, missä u ja v ovat reaalilukuja,
+      A on mikä hyvänsä tason piste ja X ja Y ovat kaksi tasoa tangenttivektoria.
+      Koska sijainnit tasolla voidaan erottaa u:n ja v:n avulla (tässä universaalisti),
+      taso on kaksiulotteinen ja (u, v) on koordinaatisto tasolla sijaitseville pisteille.
+      Yleisillä pinnoilla tätä ei yleensä voida tehdä universaalisti. Jos otetaan
+      pinnan tangenttitaso ja projisioidaan pinnalla olevia pisteitä tälle tasolle,
+      syntyy normaalisti tangenttipisteen lähiympäristössä paikallinen isomorfismi.
+      Tämä alla olevan pinnan "paikallinen koordinaatisto" riittää määrittelemään
+      pinnan kaksiulotteiseksi topologiseksi objektiksi. Koska tässä kansainvälisessä
+      standardissa käsitellään ainoastaan spatiaalisia koordinaatteja, minkä hyvänsä
+      kolmiulotteisen objektin topologisen ulottuvuuden määrittely voidaan perustaa
+      koordinaatteihin. Neliulotteisessa (spatiotemporaalisessa) mallissa tangenttiavaruudet
+      ovat myös tärkeässä asemassa enintään kolmiulotteisten objektien topologisen
+      dimension määrittelyssä.
+  release: 1.0
+  sources:
+  - origin:
+      ref: ISO 19107:2003
+      link: https://www.iso.org/standard/26012.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: topologinen ulottuvuus
+  language_code: fin
+  entry_status: valid
+  review_date: 2016-02-15 00:00:00.000000000 +00:00
+  authoritativeSource:
+  - link: https://www.iso.org/standard/26012.html
+dateAccepted: 2003-05-01 00:00:00.000000000 +00:00
+id: c3ebea84-1316-5145-b2fd-08e37fef41f2
+status: valid

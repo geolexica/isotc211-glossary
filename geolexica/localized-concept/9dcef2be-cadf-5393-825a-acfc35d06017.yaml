@@ -1,0 +1,42 @@
+---
+data:
+  dates:
+  - date: 2015-08-01 00:00:00.000000000 +00:00
+    type: accepted
+  definition:
+  - content: sistema de referencia de coordenadas para las posiciones en una malla
+      que utiliza un sistema de coordenadas definido en congruencia con el sistema
+      de coordenadas descrito por el GridEnvelope y el axisLabels de gml:GridType
+  examples: []
+  id: '1376'
+  notes:
+  - content: Un SRC malla utiliza un sistema de coordenadas definido con las mismas
+      posiciones de malla puntuales y origen que GridEnvelope, con las mismas axisLabels,
+      pero no necesita definir ningún límite en el tamaño de la malla. Este sistema
+      de coordenadas a veces se denomina sistema de coordenadas malla interno.
+  release: 4.0
+  sources:
+  - origin:
+      ref: ISO 19136-2:2015
+      clause: 4.2.1
+      link: https://www.iso.org/standard/61585.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: sistema de referencia de coordenadas malla / sistema de referencia
+      de coordenadas grilla
+  - type: abbreviation
+    designation: |-
+      SRC malla
+      SRC grilla
+  language_code: spa
+  entry_status: valid
+  review_date: 2011-07-11 00:00:00.000000000 +00:00
+  review_decision_date: 2015-08-01 00:00:00.000000000 +00:00
+  review_decision_event: Normal ISO processing
+  authoritativeSource:
+  - link: https://www.iso.org/standard/61585.html
+dateAccepted: 2015-08-01 00:00:00.000000000 +00:00
+id: 56308442-3ec4-5f58-b1f6-3a16fed0b5bf
+status: valid

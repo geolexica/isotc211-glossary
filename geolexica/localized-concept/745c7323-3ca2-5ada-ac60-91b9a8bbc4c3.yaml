@@ -1,0 +1,46 @@
+---
+data:
+  dates:
+  - date: 2015-06-15 00:00:00.000000000 +00:00
+    type: accepted
+  definition:
+  - content: localización que facilita el transbordo entre modos de transporte, redes
+      de transporte y/o medios de transporte
+  examples: []
+  id: '2104'
+  notes:
+  - content: Un nodo de transbordo puede contener otros nodos de transbordo y puede
+      estar relacionado con uno o más modos y redes de transporte. También puede contener
+      punto de parada e instalaciones para los usuarios del nodo de conexión. Un nodo
+      de conexión puede alojar servicios que se proporcionan para los usuarios, por
+      ejemplo, servicios de información, venta de boletos, etc.
+  - content: Un nodo de transbordo puede ser parte de una jerarquía de nodos de conexión.
+      Por lo tanto, un nodo de transbordo puede estar relacionado con muchos modos
+      y redes de transporte. Sin embargo, solo los nodos de transbordo  que estén
+      relacionados con una sola red de transporte tendrán puntos de parada.
+  - content: Las paradas relacionadas con diferentes nodos de transbordo que pueden
+      servir a diferentes modos y redes de transporte, pueden tener, en la vida real,
+      una misma localización física. Un tranvía y un autobús pueden, por ejemplo,
+      compartir el mismo andén, pero conceptualmente pueden pertenecer a diferentes
+      nodos de transbordo.
+  release: 4.0
+  sources:
+  - origin:
+      ref: ISO 19147:2015
+      clause: '3.15'
+      link: https://www.iso.org/standard/44874.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: nodo de transbordo
+  language_code: spa
+  entry_status: valid
+  review_date: 2009-06-20 00:00:00.000000000 +00:00
+  review_decision_date: 2015-06-15 00:00:00.000000000 +00:00
+  review_decision_event: Normal ISO processing
+  authoritativeSource:
+  - link: https://www.iso.org/standard/44874.html
+dateAccepted: 2015-06-15 00:00:00.000000000 +00:00
+id: 5788ea3d-0978-5021-8193-73f4ddc4654f
+status: valid
