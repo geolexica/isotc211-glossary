@@ -1,0 +1,34 @@
+---
+data:
+  dates:
+  - date: 2014-01-15 00:00:00.000000000 +00:00
+    type: accepted
+  definition:
+  - content: 복조 후 원레이더 회신 신호 정보
+  examples: []
+  id: '1429'
+  notes:
+  - content: 'Usually stored as a series of range lines, each containing information
+      from a specific range bin.  PHD can be thought of as a table of five columns:  In-phase
+      signal, Quadrature signal, Range, Doppler Angle, and Time.'
+  release: 3.0
+  sources:
+  - origin:
+      ref: ISO/TS 19130-2:2014
+      clause: '4.48'
+      link: https://www.iso.org/standard/56113.html
+    type: authoritative
+    status: unspecified
+  terms:
+  - type: expression
+    normative_status: admitted
+    designation: 비디오 단계 이력 자료
+  - type: expression
+    designation: phase history data
+  language_code: kor
+  entry_status: valid
+  authoritativeSource:
+  - link: https://www.iso.org/standard/56113.html
+dateAccepted: 2014-01-15 00:00:00.000000000 +00:00
+id: 3ce921be-caea-5b7c-b479-428c695bd738
+status: valid

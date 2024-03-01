@@ -1,0 +1,38 @@
+---
+data:
+  dates:
+  - date: 2010-06-15 00:00:00.000000000 +00:00
+    type: accepted
+  definition:
+  - content: Режим SAR, в котором луч антенны фиксируется по всему полю изображения
+  examples: []
+  id: '1125'
+  notes:
+  - content: Угол Доплера в обрабатываемых продуктах фиксирован для всех пикселей.
+      Он обеспечивает возможность сбора данных SAR над полосами Земли по фиксированной
+      полосе наземного диапазона параллельно направлению полета.
+  release: 2.0
+  sources:
+  - origin:
+      ref: ISO 19130-1:2018
+      clause: "(E), 3.85"
+      link: https://www.iso.org/standard/66847.html
+    type: authoritative
+  - origin:
+      ref: ISO/TS 19130:2010(E)
+    type: lineage
+    status: unspecified
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: полосовой режим <SAR>
+  language_code: rus
+  entry_status: valid
+  review_date: 2018-09-01 00:00:00.000000000 +00:00
+  review_decision_date: 2018-09-01 00:00:00.000000000 +00:00
+  review_decision_event: Publication of ISO 19130-1:2018(E)
+  authoritativeSource:
+  - link: https://www.iso.org/standard/66847.html
+dateAccepted: 2010-06-15 00:00:00.000000000 +00:00
+id: 23f39518-de7a-51aa-b806-94b7d48ff557
+status: valid

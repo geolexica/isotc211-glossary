@@ -1,0 +1,39 @@
+---
+data:
+  dates:
+  - date: 2007-09-01 00:00:00.000000000 +00:00
+    type: accepted
+  definition:
+  - content: IETF RFC 2396에 대한 적합성을 만족하는, 자원에 대한 고유한 식별자
+  examples: []
+  id: '481'
+  notes:
+  - content: 일반적인 문법은 <scheme>::<scheme-specific-part>이다. 이름 공간과 함께 계층적 문법은 <scheme>://<authority><path>?<query>이다.
+      RFC 2396을 참고하라.
+  release: 1.0
+  sources:
+  - origin:
+      ref: ISO 19136-1:2020
+      clause: "(E), 3.1.62"
+      link: https://www.iso.org/standard/75676.html
+    type: authoritative
+  - origin:
+      ref: ISO 19136:2007(E)
+    type: lineage
+    status: unspecified
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: URI
+  - type: abbreviation
+    designation: URI
+  language_code: kor
+  entry_status: valid
+  review_date: 2020-01-09 00:00:00.000000000 +00:00
+  review_decision_date: 2020-01-09 00:00:00.000000000 +00:00
+  review_decision_event: Publication of ISO 19136-1:2020(E)
+  authoritativeSource:
+  - link: https://www.iso.org/standard/75676.html
+dateAccepted: 2007-09-01 00:00:00.000000000 +00:00
+id: 56e63990-6ab9-5d2c-98c5-c4c16792cae2
+status: valid

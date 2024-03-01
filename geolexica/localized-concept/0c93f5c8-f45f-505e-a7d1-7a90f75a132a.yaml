@@ -1,0 +1,36 @@
+---
+data:
+  dates:
+  - date: 2008-06-01 00:00:00.000000000 +00:00
+    type: accepted
+  definition:
+  - content: представление геометрического объекта, использующее локальное начало
+      координат и локальные векторы ординат,  при заданном времени отсчёта
+  examples: []
+  id: '717'
+  notes:
+  - content: Жесткий геометрический объект может подвергаться трансляции или ротации,
+      но остается соответствующим своему базовому представлению
+  - content: локальное начало отсчета и векторы локального  ординат устанавливают
+      инженерную систему координат (ISO 19111), также называемую локальным фреймом
+      или локальной Евклидовой системой координат.
+  release: 2.0
+  sources:
+  - origin:
+      ref: ISO 19141:2008
+      link: https://www.iso.org/standard/41445.html
+    type: authoritative
+  - origin:
+      ref: перевод ИСО 19141:2008
+    type: lineage
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: базовое представление <движущиеся объекты>
+  language_code: rus
+  entry_status: valid
+  authoritativeSource:
+  - link: https://www.iso.org/standard/41445.html
+dateAccepted: 2008-06-01 00:00:00.000000000 +00:00
+id: ddfc4e85-e334-5665-a07d-5767f6c547a9
+status: valid

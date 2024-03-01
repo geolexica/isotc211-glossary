@@ -1,0 +1,39 @@
+---
+data:
+  dates:
+  - date: 2007-09-01 00:00:00.000000000 +00:00
+    type: accepted
+  definition:
+  - content: elementtiin sisältyvä nimi-arvo-pari
+  examples: []
+  id: '532'
+  notes:
+  - content: Tässä asiakirjassa termillä attribuutti viitataan XML-attribuuttiin,
+      ellei muuta ole todettu. XML-attribuutin syntaksi on Attribute::= Name = AttValue.
+      Attribuutti toimii tyypillisesti XML-elementin lisämääreenä (esim. <Road gml:id
+      = "r1" />, jossa gml:id on attribuutti).
+  release: 1.0
+  sources:
+  - origin:
+      ref: ISO 19136-1:2020
+      clause: "(E), 3.1.3"
+      link: https://www.iso.org/standard/75676.html
+    type: authoritative
+  - origin:
+      ref: ISO 19136:2007(E)
+    type: lineage
+    status: unspecified
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: attribuutti <XML>
+  language_code: fin
+  entry_status: valid
+  review_date: 2020-01-09 00:00:00.000000000 +00:00
+  review_decision_date: 2020-01-09 00:00:00.000000000 +00:00
+  review_decision_event: Publication of ISO 19136-1:2020(E)
+  authoritativeSource:
+  - link: https://www.iso.org/standard/75676.html
+dateAccepted: 2007-09-01 00:00:00.000000000 +00:00
+id: edf7e261-ea45-5525-83ca-020ac2110fb4
+status: valid
