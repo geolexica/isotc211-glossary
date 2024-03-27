@@ -1,0 +1,45 @@
+---
+data:
+  dates:
+  - date: 2015-06-15 00:00:00.000000000 +00:00
+    type: accepted
+  definition:
+  - content: location that facilitates transfers between transport modes, transport
+      networks and/or transport means
+  examples: []
+  id: '2104'
+  notes:
+  - content: A transfer node may contain other transfer nodes and may be related to
+      one or more transport modes and transport networks. It may also contain stop
+      points and facilities for the users of the transfer node. A transfer node may
+      host services that are provided to the users of the transfer node, e.g. information
+      services, ticket sales, etc.
+  - content: A transfer node may be a part of a hierarchy of transfer nodes. Thus,
+      a transfer node may be related to many transport modes and transport networks.
+      However, only transfer nodes that are related to just one transport network
+      will have stop points.
+  - content: The stop points related to different transfer nodes, which may serve
+      different transport modes and networks, may, in real life, have the same physical
+      locations. A tram and a bus may for example share the same platform, but conceptually
+      they may belong to different transfer nodes.
+  release: 4.0
+  sources:
+  - origin:
+      ref: ISO 19147:2015
+      clause: '3.15'
+      link: https://www.iso.org/standard/44874.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: transfer node
+  language_code: eng
+  entry_status: valid
+  review_date: 2009-06-20 00:00:00.000000000 +00:00
+  review_decision_date: 2015-06-15 00:00:00.000000000 +00:00
+  review_decision_event: Normal ISO processing
+  authoritativeSource:
+  - link: https://www.iso.org/standard/44874.html
+dateAccepted: 2015-06-15 00:00:00.000000000 +00:00
+id: 140a7c9b-f76c-5cd8-9987-b1a02b2588cc
+status: valid

@@ -1,0 +1,37 @@
+---
+data:
+  dates:
+  - date: 2014-01-15 00:00:00.000000000 +00:00
+    type: accepted
+  definition:
+  - content: información de la señal bruta de retorno de radar después de ser demodulada
+  examples: []
+  id: '1406'
+  notes:
+  - content: 'Generalmente se almacena como una serie de líneas de rango, donde cada
+      una contiene información de un rango específico. PHD se puede definir como una
+      tabla de cinco columnas: señal de fase, señal de cuadratura, rango, ángulo Doppler
+      y hora.'
+  release: 3.0
+  sources:
+  - origin:
+      ref: ISO/TS 19130-2:2014
+      clause: '4.48'
+      link: https://www.iso.org/standard/56113.html
+    type: authoritative
+    status: unspecified
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: datos de la historia de fase
+  - type: abbreviation
+    designation: PHD
+  - type: expression
+    designation: datos de la historia de video fase
+  language_code: spa
+  entry_status: valid
+  authoritativeSource:
+  - link: https://www.iso.org/standard/56113.html
+dateAccepted: 2014-01-15 00:00:00.000000000 +00:00
+id: e9e8ec9e-9e7a-533e-9dc2-d6846f723faf
+status: valid

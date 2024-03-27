@@ -1,0 +1,39 @@
+---
+data:
+  dates:
+  - date: 2005-10-15 00:00:00.000000000 +00:00
+    type: accepted
+  definition:
+  - content: linkin tai käännöksen tila, jossa kulku on joko sallittu kaikelle liikenteelle
+      tai kokonaan estetty; vertaa yksityiskohtaisemmat navigointirajoitukset
+  examples: []
+  id: '474'
+  notes:
+  - content: Kuljettavuuteen vaikuttavat tavallisesti fyysiset, kulttuurilliset ja
+      lainopilliset seikat. Jos objektin kuljettavuusattribuutilla on arvo epätosi,
+      objektin kautta ei voi kulkea. Jos objekti, jonka kautta ei voi kulkea, on linkki,
+      se itse asiassa poistuu käytössä olevasta verkostosta. Jos objekti on solmupiste,
+      se ja kaikki siihen liittyvät linkit poistuvat käytössä olevasta verkostosta.
+      Jos objekti on käännös, se poistuu miltä hyvänsä mahdolliselta reitiltä. Tietokokonaisuuksia,
+      joiden kuljettavuusattribuutin arvo on epätosi, ei sisällytetä manöövereihin
+      eikä reitteihin.
+  sources:
+  - origin:
+      ref: ISO 19133:2005
+      link: https://www.iso.org/standard/32551.html
+    type: authoritative
+    status: unspecified
+  - origin:
+      ref: Ei lähdettä, käännetty
+    type: lineage
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: kuljettavuus
+  language_code: fin
+  entry_status: valid
+  authoritativeSource:
+  - link: https://www.iso.org/standard/32551.html
+dateAccepted: 2005-10-15 00:00:00.000000000 +00:00
+id: be5cce18-e5b3-57d2-b364-b3544d811697
+status: valid

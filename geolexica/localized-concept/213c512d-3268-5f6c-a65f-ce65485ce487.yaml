@@ -1,0 +1,43 @@
+---
+data:
+  dates:
+  - date: 2003-05-01 00:00:00.000000000 +00:00
+    type: accepted
+  definition:
+  - content: joukko korkeamman topologisen ulottuvuuden omaavia topologisia primitiivejä,
+      jotka liittyvät tiettyyn topologiseen objektiin siten, että tämä topologinen
+      objekti on mukana jokaisen primitiivin rajauksessa
+  examples: []
+  id: '48'
+  notes:
+  - content: Jos solmupiste on linkin rajauksella, kyseinen linkki on kyseisen solmupisteen
+      yhteisrajauksella. Suuntaparametri, joka liittyy jompaan kumpaan näistä suhteista,
+      liittyy myös toiseen suhteeseen. Jos siis kyseinen solmupiste on linkin loppusolmu
+      (määritelmän mukaan positiivisen suunnatun linkin loppupää), positiivinen suunta
+      solmupisteellä olisi kyseiseen linkkiin yhteisrajauksella. Katso ISO 19107 -standardin
+      kuva 35.
+  release: 1.0
+  sources:
+  - origin:
+      ref: ISO 19107:2019
+      clause: "(E), 3.9"
+      link: https://www.iso.org/standard/66175.html
+    type: authoritative
+  - origin:
+      ref: ISO 19107:2003(E)
+    type: lineage
+    status: unspecified
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: yhteisrajaus
+  language_code: fin
+  entry_status: valid
+  review_date: 2019-12-02 00:00:00.000000000 +00:00
+  review_decision_date: 2019-12-02 00:00:00.000000000 +00:00
+  review_decision_event: Publication of ISO 19107:2019(E)
+  authoritativeSource:
+  - link: https://www.iso.org/standard/66175.html
+dateAccepted: 2003-05-01 00:00:00.000000000 +00:00
+id: 89dfdcb0-a1e9-5466-8d3e-1ffb1765d546
+status: valid
