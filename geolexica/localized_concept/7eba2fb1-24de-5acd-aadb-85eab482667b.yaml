@@ -1,0 +1,44 @@
+---
+data:
+  dates:
+  - date: 2003-05-01 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: joukko käsitteellisesti erillisiä geometrisiä primitiivejä, joista jokaisen
+      rajaus voidaan esittää samaan joukkoon kuuluvien alemman ulottuvuuden geometristen
+      primitiivien yhdistelmänä
+  examples: []
+  id: '212'
+  notes:
+  - content: Joukkoon kuuluvat geometriset primitiivit ovat erillisiä siinä mielessä,
+      että mikään piste ei ole useamman kuin yhden geometrisen primitiivin sisällä.
+      Joukko on suljettu rajauksilla, mikä tarkoittaa, että jokaista geometrisen kompleksin
+      alkiota kohti on olemassa joukko geometrisia primitiivejä (niinikään geometrinen
+      kompleksi), joka kuvaa kyseisen alkion rajausta. On muistettava, että pisteen
+      (geometrian ainoan nollaulotteisen primitiivikohdetyypin) rajaus on tyhjä. Niinpä
+      jos korkeimman ulottuvuuden omaava geometrinen primitiivi on kappale (3D), tässä
+      määritelmässä mainitun rajauksen koostaminen päättyy viimeistään kolmen askeleen
+      jälkeen. Jokaisen objektin rajaus on silmukka.
+  release: 1.0
+  sources:
+  - origin:
+      ref: ISO 19107:2019
+      clause: '3.47'
+      link: https://www.iso.org/standard/66175.html
+    type: authoritative
+  - origin:
+      ref: ISO 19107:2003
+    type: lineage
+    status: unspecified
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: geometrinen kompleksi
+  language_code: fin
+  entry_status: valid
+  review_date: 2019-12-02 00:00:00.000000000 +05:00
+  review_decision_date: 2019-12-02 00:00:00.000000000 +05:00
+  review_decision_event: Publication of ISO 19107:2019(E)
+dateAccepted: 2003-05-01 00:00:00.000000000 +05:00
+id: 7872aaa1-fc07-5730-8193-04c1d709ce75
+status: valid

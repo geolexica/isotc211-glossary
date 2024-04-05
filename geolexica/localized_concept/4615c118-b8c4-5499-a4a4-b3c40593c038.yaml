@@ -1,0 +1,38 @@
+---
+data:
+  dates:
+  - date: 2003-05-01 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: suunnattu topologinen objekti, joka kuvaa solmupisteen ja jonkin sen
+      suunnan välistä yhteyttä
+  examples: []
+  id: '138'
+  notes:
+  - content: Suunnattuja solmuja käytetään yhteisrajauksessa ylläpitämään linkin ja
+      solmupisteen sijaintiyhteyttä. Suhteessa linkkiin solmupisteen suunta on loppusolmun
+      suuntaan + ja alkusolmun suuntaan -. Tämä on yhdenmukaista vektoreihin liittyvän
+      käsitteen "tulos = loppu - alku" kanssa.
+  release: 1.0
+  sources:
+  - origin:
+      ref: ISO 19107:2019
+      clause: '3.25'
+      link: https://www.iso.org/standard/66175.html
+    type: authoritative
+  - origin:
+      ref: ISO 19107:2003
+    type: lineage
+    status: unspecified
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: suunnattu solmu
+  language_code: fin
+  entry_status: valid
+  review_date: 2019-12-02 00:00:00.000000000 +05:00
+  review_decision_date: 2019-12-02 00:00:00.000000000 +05:00
+  review_decision_event: Publication of ISO 19107:2019(E)
+dateAccepted: 2003-05-01 00:00:00.000000000 +05:00
+id: 44e564d1-a45b-538d-85e1-85d7f684d312
+status: valid

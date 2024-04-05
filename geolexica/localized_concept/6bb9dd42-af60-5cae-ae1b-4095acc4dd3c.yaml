@@ -1,0 +1,36 @@
+---
+data:
+  dates:
+  - date: 2003-05-01 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: retningsbestemt topologisk objekt, der repræsenterer en fobindelse mellem
+      et topologisk legeme og en af dets orienteringer
+  examples: []
+  id: '139'
+  notes:
+  - content: Retningsbestemte legemer benyttes i fællesgrænse-relationen til at opretholde
+      den rumlige forbindelse mellem flade og topologisk legeme. Orienteringen af
+      et legeme i forhold til en flade er "+", hvis upNormal peger væk fra legemet,
+      og "-" hvis upNormal peger ind mod legemet.  Dette stemmer overens med begrebet
+      "up = væk fra" for en flade, der afgrænser et legeme.
+  release: 1.0
+  sources:
+  - origin:
+      ref: ISO 19107:2019
+      clause: '3.26'
+      link: https://www.iso.org/standard/66175.html
+    type: authoritative
+  - origin:
+      ref: ISO 19107:2003
+    type: lineage
+    status: unspecified
+  terms:
+  - type: expression
+    designation: retningsbestemt legeme
+  language_code: dan
+  review_date: 2019-12-02 00:00:00.000000000 +05:00
+  review_decision_date: 2019-12-02 00:00:00.000000000 +05:00
+  review_decision_event: Publication of ISO 19107:2019(E)
+dateAccepted: 2003-05-01 00:00:00.000000000 +05:00
+id: ba538065-5847-54f7-847f-101ccbe27064

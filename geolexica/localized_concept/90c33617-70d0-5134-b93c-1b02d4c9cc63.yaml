@@ -1,0 +1,42 @@
+---
+data:
+  dates:
+  - date: 2003-05-01 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: conjunto de primitivas topológicas, de dimensión topológica mayor, asociadas
+      a un objeto topológico particular de tal modo, que este objeto topológico está
+      en cada una de las fronteras del conjunto
+  examples: []
+  id: '48'
+  notes:
+  - content: NOTA Si un nodo está en la frontera de un arco, el arco está en la cofrontera
+      de dicho nodo. Cualquier parámetro de orientación asociado a una de esas relaciones
+      también debería estar asociado a la otra. Por lo tanto, si el nodo es el nodo
+      final de un arco (definido como el final de un arco orientado positivamente),
+      entonces la orientación positiva del nodo (definido como el nodo orientado positivamente)
+      debe tener al arco es su cofrontera, véase la Norma Internacional ISO 19107
+      figura 35.
+  release: 1.0
+  sources:
+  - origin:
+      ref: ISO 19107:2019
+      clause: '3.9'
+      link: https://www.iso.org/standard/66175.html
+    type: authoritative
+  - origin:
+      ref: ISO 19107:2003
+    type: lineage
+    status: unspecified
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: cofrontera
+  language_code: spa
+  entry_status: valid
+  review_date: 2019-12-02 00:00:00.000000000 +05:00
+  review_decision_date: 2019-12-02 00:00:00.000000000 +05:00
+  review_decision_event: Publication of ISO 19107:2019(E)
+dateAccepted: 2003-05-01 00:00:00.000000000 +05:00
+id: 2ce6f643-a881-5eae-adeb-156827587cc2
+status: valid

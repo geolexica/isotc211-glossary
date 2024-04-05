@@ -1,0 +1,36 @@
+---
+data:
+  dates:
+  - date: 2014-01-15 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: Необработанная информация о возвращаемом сигнале радара после демодуляции
+  examples: []
+  id: '1429'
+  notes:
+  - content: 'обычно хранится в виде серии строк диапазона, каждая из которых содержит
+      информацию из определенного диапазона.  PHD можно рассматривать как таблицу
+      из пяти столбцов: Синфазный сигнал, Квадратурный сигнал, Диапазон, Угол Доплера
+      и Время.'
+  release: 3.0
+  sources:
+  - origin:
+      ref: ISO/TS 19130-2:2014
+      clause: '4.48'
+      link: https://www.iso.org/standard/56113.html
+    type: authoritative
+    status: unspecified
+  - origin:
+      ref: ISO/TS 19130-2:2014
+    type: lineage
+  terms:
+  - type: expression
+    normative_status: admitted
+    designation: хронологические данные видео фазы
+  - type: expression
+    designation: хронологические данные фазы
+  language_code: rus
+  entry_status: valid
+dateAccepted: 2014-01-15 00:00:00.000000000 +05:00
+id: 4c659a1d-c4b9-54f5-aedf-44af6e34e1c5
+status: valid
