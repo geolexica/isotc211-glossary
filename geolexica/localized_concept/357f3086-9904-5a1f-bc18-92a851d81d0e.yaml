@@ -1,0 +1,36 @@
+---
+data:
+  dates:
+  - date: 2019-12-02 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: never increasing or never decreasing
+  examples: []
+  id: '2170'
+  notes:
+  - content: An increasing sequence never gets smaller. A strictly increasing sequence
+      always gets larger. A decreasing sequence never gets larger. A strictly decreasing
+      sequence always gets smaller. stem:[[x(i) " is increasing"] hArr [i < j => x(i)
+      <= x(j)]] stem:[[x(i) " is strickly increasing"] hArr [i < j => x(i) < x(j)]]
+      stem:[[x(i) " is decreasing"] hArr [i < j => x(i) >= x(j)]] stem:[[x(i) " is
+      strickly decreasing"] hArr [i < j => x(i) > x(j)]] stem:[[x(i) " is decreasing"]
+      vv [x(i) " is increasing"] hArr [x(i) " is monotonic"]]
+  release: 5.0
+  sources:
+  - origin:
+      ref: ISO 19107:2019
+      clause: '3.64'
+      link: https://www.iso.org/standard/66175.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: monotonic <mathematics>
+  language_code: eng
+  entry_status: valid
+  review_date: 2019-12-02 00:00:00.000000000 +05:00
+  review_decision_date: 2019-12-02 00:00:00.000000000 +05:00
+  review_decision_event: Normal ISO processing
+dateAccepted: 2019-12-02 00:00:00.000000000 +05:00
+id: 0ad076a3-95e9-521c-bf8a-2439b35b60f0
+status: valid

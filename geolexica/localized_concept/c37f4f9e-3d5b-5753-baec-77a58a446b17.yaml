@@ -1,0 +1,37 @@
+---
+data:
+  dates:
+  - date: 2018-05-01 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: matrix characterizing the scattering process at the target of interest
+      for polarimetric SAR
+  examples: []
+  id: '2201'
+  notes:
+  - content: Scattering matrix is defined via stem:[((E_H^s),(E_V^s)) = e^(jkR)/R
+      ([S_(HH),S_(HV)], [S_(VH), S_(VV)])((E_H^j), (E_V^j))] where stem:[([S_(HH),S_(HV)],
+      [S_(VH), S_(VV)])] is the scattering matrix; stem:[((E_H^j), (E_V^j))] is the
+      electronic field vector of the wave incident on the scatterer; stem:[((E_H^s),
+      (E_V^s))] is the electronic field vector of the scattered wave; stem:[k] is
+      the wavenumber of the illuminating wave; stem:[R] is the distance between the
+      target and the radar antenna.
+  release: 5.0
+  sources:
+  - origin:
+      ref: ISO/TS 19159-3:2018
+      clause: '3.30'
+      link: https://www.iso.org/standard/74032.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: scattering matrix
+  language_code: eng
+  entry_status: valid
+  review_date: 2018-05-01 00:00:00.000000000 +05:00
+  review_decision_date: 2018-05-01 00:00:00.000000000 +05:00
+  review_decision_event: Normal ISO processing
+dateAccepted: 2018-05-01 00:00:00.000000000 +05:00
+id: 352d3a37-d53e-5230-9678-9753fe48587a
+status: valid

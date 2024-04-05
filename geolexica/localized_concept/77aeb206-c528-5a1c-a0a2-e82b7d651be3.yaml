@@ -1,0 +1,39 @@
+---
+data:
+  dates:
+  - date: 2014-01-15 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: photon counting mode for LIDAR systems, where the detector is biased
+      and becomes sensitive to individual photons
+  examples: []
+  id: '1391'
+  notes:
+  - content: These detectors exist in the form of arrays and are bonded with electronic
+      circuitry.  The electronic circuitry produces a measurement corresponding to
+      the time at which the current was generated; resulting in a direct time-of-flight
+      measurement.  A LIDAR that employs this detector technology typically illuminates
+      a large scene with a single pulse.  The direct time-of-flight measurements are
+      then combined with platform location/attitude data along with pointing information
+      to produce a three-dimensional product of the illuminated scene of interest.  Additional
+      processing is applied which removes existing noise present in the data to produce
+      a visually exploitable data set.
+  release: 3.0
+  sources:
+  - origin:
+      ref: Adapted from Albota 2002
+    type: authoritative
+    status: unspecified
+  - origin:
+      ref: ISO/TS 19130-2:2014, 4.23
+    type: lineage
+    status: unspecified
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: geiger mode
+  language_code: eng
+  entry_status: valid
+dateAccepted: 2014-01-15 00:00:00.000000000 +05:00
+id: a0231846-fad9-5a6c-90ec-ef0a5ea0822d
+status: valid

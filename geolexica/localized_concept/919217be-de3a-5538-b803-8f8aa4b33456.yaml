@@ -1,0 +1,41 @@
+---
+data:
+  dates:
+  - date: 2003-05-01 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: suunnattu topologinen objekti, joka kuvaa tahkon ja jonkin sen suunnan
+      välistä yhteyttä
+  examples: []
+  id: '137'
+  notes:
+  - content: Suunnatun tahkon ulkorajauksen muodostavien suunnattujen linkkien suunta
+      on positiivinen, kun ne ovat yhdensuuntaisia tämän vektorin kanssa; topologista
+      kappaletta rajaavan suunnatun tahkon suunta osoittaa topologisesta kappaleesta
+      poispäin. Vierekkäisillä kappaleilla on yhteiselle rajaukselleen vastakkaiset
+      suunnat (vertaa vierekkäisten tahkojen ja niiden yhteisten linkkien välinen
+      yhteys). Suunnattuja tahkoja käytetään yhteisrajauksessa ylläpitämään tahkon
+      ja linkin sijaintiyhteyttä.
+  release: 1.0
+  sources:
+  - origin:
+      ref: ISO 19107:2019
+      clause: '3.24'
+      link: https://www.iso.org/standard/66175.html
+    type: authoritative
+  - origin:
+      ref: ISO 19107:2003
+    type: lineage
+    status: unspecified
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: suunnattu tahko
+  language_code: fin
+  entry_status: valid
+  review_date: 2019-12-02 00:00:00.000000000 +05:00
+  review_decision_date: 2019-12-02 00:00:00.000000000 +05:00
+  review_decision_event: Publication of ISO 19107:2019(E)
+dateAccepted: 2003-05-01 00:00:00.000000000 +05:00
+id: 926f465a-5824-5dba-9171-73f2039eccb3
+status: valid

@@ -1,0 +1,30 @@
+---
+data:
+  dates:
+  - date: 2010-12-15 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: update a reference to a resource that has been moved or copied to a new
+      location
+  examples:
+  - content: A server is generating a response to a GetFeature request, it has to
+      copy a referenced feature into the response document and the server has to "relocate"
+      the original link contained in the referencing feature to the copy placed in
+      the response document.
+  id: '1036'
+  notes: []
+  release: 2.0
+  sources:
+  - origin:
+      ref: ISO 19142:2010
+      link: https://www.iso.org/standard/42136.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: relocate <reference>
+  language_code: eng
+  entry_status: valid
+dateAccepted: 2010-12-15 00:00:00.000000000 +05:00
+id: 406d8df3-0cae-5094-8a13-ccb48b390f32
+status: valid

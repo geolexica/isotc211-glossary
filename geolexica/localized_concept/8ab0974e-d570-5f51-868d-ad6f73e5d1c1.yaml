@@ -1,0 +1,43 @@
+---
+data:
+  dates:
+  - date: 2005-07-15 00:00:00.000000000 +05:00
+    type: accepted
+  - date: 2015-07-01 00:00:00.000000000 +05:00
+    type: amended
+  definition:
+  - content: koosteen muoto, jossa osailmentymä voi sisältyä enintään yhteen komposiittiin
+      kerrallaan ja jossa komposiittiobjekti on vastuussa osiensa luomisesta ja tuhoamisesta
+  examples: []
+  id: '725'
+  notes:
+  - content: Osia, joiden kerrannaisuutta ei ole kiinnitetty, voidaan luoda komposiitin
+      jälkeen, mutta sen jälkeen kun osat on luotu, ne elävät ja kuolevat komposiitin
+      kanssa (osilla ja komposiitilla on sama elinikä). Edellämainitun kaltaisia osia
+      voi myös eksplisiittisesti poistaa ennen komposiitin kuolemaa. Vahva kooste
+      voi olla rekursiivinen. Englannin kielessä termin composition synonyymi on termi
+      composite aggregation.
+  release: -1.0
+  sources:
+  - origin:
+      ref: ISO/IEC 19501
+      link: https://www.iso.org/standard/32620.html
+    type: authoritative
+    status: unspecified
+  - origin:
+      ref: ISO/TS 19103:2005 ,4.2.10
+    type: lineage
+    status: unspecified
+  terms:
+  - type: expression
+    designation: vahva kooste <UML>
+  - type: expression
+    designation: kompositio <UML>
+  language_code: fin
+  entry_status: superseded
+  review_date: 2009-01-14 00:00:00.000000000 +05:00
+  review_decision_date: 2015-12-01 00:00:00.000000000 +05:00
+  review_decision_event: Publication of ISO 19103:2015
+dateAccepted: 2005-07-15 00:00:00.000000000 +05:00
+id: fe81367f-1259-56e6-a34a-d7fa70c84499
+status: superseded

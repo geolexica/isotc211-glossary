@@ -1,0 +1,40 @@
+---
+data:
+  dates:
+  - date: 2022-11-24 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: relative sensitivity of the sensor to monochromatic radiation of different
+      wavelengths
+  examples: []
+  id: '2695'
+  notes:
+  - content: |-
+      For microwave radiometer, SRF refers to the receiver's band-pass, stem:[B(nu)], which can be determined by performing two measurements per frequency at different input power levels, as shown in the following formula: stem:[B(nu)=(DeltaV_("out")(nu))/(DeltaP_("in")(nu))]
+
+      where
+
+      stem:[DeltaV_("out")] is the output voltage difference;
+      stem:[DeltaP_("in")] is the input power difference;
+      stem:[nu] is the frequency in Hz
+  release: 6.0
+  sources:
+  - origin:
+      ref: ISO/TS 19159-4:2022
+      clause: '3.36'
+      link: https://www.iso.org/standard/66769.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: spectral response function
+  - type: abbreviation
+    designation: SRF
+  language_code: eng
+  entry_status: valid
+  review_date: 2022-11-24 00:00:00.000000000 +05:00
+  review_decision_date: 2022-11-24 00:00:00.000000000 +05:00
+  review_decision_event: Normal ISO processing
+dateAccepted: 2022-11-24 00:00:00.000000000 +05:00
+id: f4953a81-19e3-5e34-9760-ec26492022ae
+status: valid

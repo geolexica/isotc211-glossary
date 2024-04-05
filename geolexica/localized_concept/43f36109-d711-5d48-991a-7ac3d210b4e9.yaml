@@ -1,0 +1,35 @@
+---
+data:
+  dates:
+  - date: 2003-05-01 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: retningsbestemt topologisk objekt, der repræsenterer en forbindelse mellem
+      en knude og en af dens orienteringer
+  examples: []
+  id: '138'
+  notes:
+  - content: 'Retningsbestemte knuder benyttes i fællesgrænse-relationen til at opretholde
+      den rumlige relation mellem kant og knude. Orenteringen af en knude i forhold
+      til en kant er "+" for en slutknude og "-" for en startknude. Dette stemmer
+      overens med vektornotationen: at "resultatet = slut - start".'
+  release: 1.0
+  sources:
+  - origin:
+      ref: ISO 19107:2019
+      clause: '3.25'
+      link: https://www.iso.org/standard/66175.html
+    type: authoritative
+  - origin:
+      ref: ISO 19107:2003
+    type: lineage
+    status: unspecified
+  terms:
+  - type: expression
+    designation: retningsbestemt knude
+  language_code: dan
+  review_date: 2019-12-02 00:00:00.000000000 +05:00
+  review_decision_date: 2019-12-02 00:00:00.000000000 +05:00
+  review_decision_event: Publication of ISO 19107:2019(E)
+dateAccepted: 2003-05-01 00:00:00.000000000 +05:00
+id: 2efbcef8-a3ba-5a4d-94c2-c232b4236573
