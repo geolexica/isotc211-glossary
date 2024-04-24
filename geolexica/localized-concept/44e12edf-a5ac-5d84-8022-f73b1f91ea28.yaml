@@ -1,0 +1,37 @@
+---
+data:
+  dates:
+  - date: 2007-09-01 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: 资源的唯一标识符，其结构与IETF RFC 2396规范一致。
+  examples: []
+  id: '481'
+  notes:
+  - content: '一般句法是<scheme> : : <scheme-specific-part>。带有命名空间的分级句法是<scheme> : // <authority>
+      <path> ? <query>—参见[RFC 2396]。'
+  release: 1.0
+  sources:
+  - origin:
+      ref: ISO 19136-1:2020
+      clause: 3.1.62
+      link: https://www.iso.org/standard/75676.html
+    type: authoritative
+  - origin:
+      ref: ISO 19136:2007
+    type: lineage
+    status: unspecified
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 统一资源标识符
+  - type: abbreviation
+    designation: URI
+  language_code: zho
+  entry_status: valid
+  review_date: 2020-01-09 00:00:00.000000000 +05:00
+  review_decision_date: 2020-01-09 00:00:00.000000000 +05:00
+  review_decision_event: Publication of ISO 19136-1:2020(E)
+dateAccepted: 2007-09-01 00:00:00.000000000 +05:00
+id: 54ab81f8-f6f0-5421-8ead-091c1ae8a5e2
+status: valid
