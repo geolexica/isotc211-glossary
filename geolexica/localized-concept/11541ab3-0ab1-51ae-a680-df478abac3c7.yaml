@@ -1,0 +1,36 @@
+---
+data:
+  dates:
+  - date: 2003-05-01 00:00:00.000000000 +05:00
+    type: accepted
+  definition: []
+  examples: []
+  id: '138'
+  notes:
+  - content: Directed nodes are used in the coboundary relation to maintain the spatial
+      association between edge and node. The orientation of a node is with respect
+      to an edge, "+" for end node, "-" for start node. This is consistent with the
+      vector notion of "result = end - start".
+  release: 1.0
+  sources:
+  - origin:
+      ref: ISO 19107:2019
+      clause: '3.25'
+      link: https://www.iso.org/standard/66175.html
+    type: authoritative
+  - origin:
+      ref: ISO 19107:2003
+    type: lineage
+    status: unspecified
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: gerichteter Knoten
+  language_code: deu
+  entry_status: valid
+  review_date: 2019-12-02 00:00:00.000000000 +05:00
+  review_decision_date: 2019-12-02 00:00:00.000000000 +05:00
+  review_decision_event: Publication of ISO 19107:2019(E)
+dateAccepted: 2003-05-01 00:00:00.000000000 +05:00
+id: ea527c71-cc1f-5e89-bf32-fb590fe23521
+status: valid
