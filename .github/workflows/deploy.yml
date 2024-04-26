@@ -22,7 +22,7 @@ jobs:
       - uses: actions/checkout@master
       - name: Build
         run: |
-          npx @paneron/site-builder@0.0.16 --outdir dist --datadir geolexica
+          npx @paneron/site-builder@0.0.16 --debug --outdir dist --datadir geolexica
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
