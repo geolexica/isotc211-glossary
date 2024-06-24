@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: '42 */12 * * *'
   push:
-    branches: [ main ]
+    branches: [ main, staging, demo ]
   repository_dispatch:
     types: [ deploy_master ]
   workflow_dispatch:
@@ -22,7 +22,7 @@ jobs:
       - uses: actions/checkout@master
       - name: Build
         run: |
-          npx @paneron/site-builder@0.0.10 --outdir dist --datadir geolexica
+          npx @paneron/site-builder@0.0.35 --outdir dist --datadir geolexica
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:

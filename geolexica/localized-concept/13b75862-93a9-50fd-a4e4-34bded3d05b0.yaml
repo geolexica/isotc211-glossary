@@ -1,10 +1,13 @@
 data:
   authoritativeSource:
-  - link: https://www.iso.org/standard/66175.html
+  - {}
+  dates:
+  - date: '2019-12-02T00:00:00.000Z'
+    type: accepted
   definition:
   - content: point in a n-dimension coordinate system using `n+1` numbers, \([u_0,
-      u_1, u_2, u_3, ... , u_n] \backepsilon [[0 \leq u_i \leq 1] \wedge \sum u_i
-      = 1.0]\), in which the location of a point of an n-simplex (of any dimension)
+      u_1, u_2, u_3, ... , u_n] \backepsilon [[0 \leq u_i \leq 1] \wedge \sum
+      u_i = 1.0]\), in which the location of a point of an n-simplex (of any dimension)
       is specified by a weighted center of mass of equal masses placed at its vertices
       using vector algebra of the `RR^n` used in the coordinate reference system
   examples: []
@@ -23,6 +26,12 @@ data:
       out. If any are negative, the point is outside of the simplex. The coordinates
       are dependent on the underlying coordinate reference system of the source data.
   release: '5'
+  reviewDate: 2019-12-02
+  reviewDecisionDate: 2019-12-02
+  reviewDecisionEvent: Normal ISO processing
+  review_decision: accepted
+  review_decision_notes: Publication of document ISO 19107:2019(E)
+  review_status: final
   sources:
   - origin:
       clause: '3.3'
