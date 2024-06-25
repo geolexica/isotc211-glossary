@@ -1,10 +1,26 @@
 id: 2d06a57b-81e9-48ac-b10d-f642f61f5e9c
 timeStarted: 2023-04-21T08:51:47.151Z
 timeEdited: 2024-06-25T09:15:28.207Z
-justification: test
+justification: 'test '
 submittingStakeholderGitServerUsername: strogonoff
 items:
   /localized-concept/13b75862-93a9-50fd-a4e4-34bded3d05b0.yaml:
     type: clarification
-state: draft
+state: proposed
 registerVersion: '1.0'
+timeProposed: 2024-06-25T09:16:06.361Z
+pastTransitions:
+  - label: Propose
+    timestamp: 2024-06-25T09:16:06.362Z
+    fromState: draft
+    toState: proposed
+    stakeholder:
+      roles:
+        - owner
+      name: Anton (Test)
+      gitServerUsername: strogonoff
+      contacts:
+        - label: email
+          value: anton@strogonoff.name
+    input:
+      justification: 'test '
