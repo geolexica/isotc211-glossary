@@ -6,7 +6,7 @@ submittingStakeholderGitServerUsername: strogonoff
 items:
   /localized-concept/13b75862-93a9-50fd-a4e4-34bded3d05b0.yaml:
     type: clarification
-state: pending-control-body-review
+state: accepted
 registerVersion: '1.0'
 timeProposed: 2024-06-25T09:16:06.361Z
 pastTransitions:
@@ -38,4 +38,22 @@ pastTransitions:
           value: anton@strogonoff.name
     input:
       registerManagerNotes: test
+  - label: Accept
+    timestamp: 2024-06-25T09:16:51.117Z
+    fromState: pending-control-body-review
+    toState: accepted
+    stakeholder:
+      roles:
+        - owner
+      name: Anton (Test)
+      gitServerUsername: strogonoff
+      contacts:
+        - label: email
+          value: anton@strogonoff.name
+    input:
+      controlBodyNotes: test
+      controlBodyDecisionEvent: test
 registerManagerNotes: test
+controlBodyNotes: test
+controlBodyDecisionEvent: test
+timeDisposed: 2024-06-25T09:16:51.117Z
