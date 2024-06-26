@@ -6,7 +6,7 @@ submittingStakeholderGitServerUsername: strogonoff
 items:
   /localized-concept/13b75862-93a9-50fd-a4e4-34bded3d05b0.yaml:
     type: clarification
-state: proposed
+state: pending-control-body-review
 registerVersion: 2d06a57b-81e9-48ac-b10d-f642f61f5e9c
 timeProposed: 2024-06-26T13:47:59.253Z
 pastTransitions:
@@ -24,3 +24,18 @@ pastTransitions:
           value: anton.strogonoff@ribose.com
     input:
       justification: Remove the “test”
+  - label: Submit for control body review
+    timestamp: 2024-06-26T13:49:02.782Z
+    fromState: proposed
+    toState: pending-control-body-review
+    stakeholder:
+      roles:
+        - owner
+      name: Anton (Test)
+      gitServerUsername: strogonoff
+      contacts:
+        - label: email
+          value: anton.strogonoff@ribose.com
+    input:
+      registerManagerNotes: Looks good
+registerManagerNotes: Looks good
