@@ -20,6 +20,8 @@ jobs:
         with:
           node-version: '20.11.0'
       - uses: actions/checkout@master
+        with:
+          ref: staging
       - name: Build
         run: |
           npx @paneron/site-builder@0.0.35 --debug --outdir dist --datadir geolexica
