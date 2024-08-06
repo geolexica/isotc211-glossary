@@ -1,0 +1,41 @@
+---
+data:
+  dates:
+  - date: 2019-12-02 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: "medida de la distancia en un espacio de coordenadas \U0001D53Cn usando
+      una raíz cuadrada del sumatorio de las diferencias entre las compensaciones
+      de coordenadas individuales"
+  examples: []
+  id: '2081'
+  notes:
+  - content: "NOTA:  (fórmula)  La comprobación de la métrica de Pitágoras depende
+      del aplanamiento local del espacio. Los espacios de coordenadas cartesianas
+      que tienen métrica de pitágoras se llaman espacios Euclidianos (\U0001D53Cn).
+      En el ámbito de los sistemas de referencia de coordenadas, sólo los \"sistemas
+      de coordenadas de ingeniería\" son euclidianos. Cualquier SRC que utilice un
+      Datum curvo es por definición no euclidiano, y no puede utilizar \"verdaderamente\"
+      la métrica de Pitágoras excepto para la aproximación. Estas aproximaciones son
+      válidas para declaraciones topológicas, pero no para medidas del mundo real
+      sin ajustes."
+  release: 5.0
+  sources:
+  - origin:
+      ref: ISO 19107:2019
+      clause: '3.78'
+      link: https://www.iso.org/standard/66175.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: métrica de Pitágoras
+  domain: geometría euclidiana
+  language_code: spa
+  entry_status: valid
+  review_date: 2019-12-02 00:00:00.000000000 +05:00
+  review_decision_date: 2019-12-02 00:00:00.000000000 +05:00
+  review_decision_event: Procedimiento normal de ISO
+dateAccepted: 2019-12-02 00:00:00.000000000 +05:00
+id: ec2e415d-d60d-57ad-8c21-a40ca9bc215f
+status: valid

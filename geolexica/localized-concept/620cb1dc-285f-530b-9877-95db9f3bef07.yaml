@@ -1,0 +1,42 @@
+---
+data:
+  dates:
+  - date: 2003-05-01 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: mængde af adskilte geometriske grundformer, hvor afgrænsningen af hver
+      geometrisk grundform kan repræsenteres som aggregeringen af andre geometriske
+      grundformer af mindre størrelse inden for samme mængde
+  examples: []
+  id: '212'
+  notes:
+  - content: De geometriske grundformer i mængden er adskilt i den forstand, at der
+      ikke er nogen direkte position, som ligger inden for mere end én geometrisk
+      grundform.  Mængden er lukket under grænseoperationer, dvs. at for hvert element
+      i den komplekse geometri er der en aggregering (også en kompleks geometri) af
+      geometriske grundformer, der repræsenterer elementets grænse. Bemærk, at afgrænsningen
+      af et punkt (eneste 0D-grundform objekttype i den geometriske teori) er tom.
+      Hvis den geometriske grundform med størst dimension således er et fast legeme
+      (3D), slutter sammensætningen af grænseoperatoren efter denne definition efter
+      højst 3 trin. Heraf følger, at afgrænsningen af ethvert objekt må være en kreds.
+  release: 1.0
+  sources:
+  - origin:
+      ref: ISO 19107:2019
+      clause: '3.47'
+      link: https://www.iso.org/standard/66175.html
+    type: authoritative
+  - origin:
+      ref: ISO 19107:2003
+    type: lineage
+    status: identical
+  terms:
+  - type: expression
+    designation: geometrisk kompleks
+  language_code: dan
+  review_date: 2019-12-02 00:00:00.000000000 +05:00
+  review_decision_date: 2019-12-02 00:00:00.000000000 +05:00
+  review_decision_event: Publication of ISO 19107:2019(E)
+dateAccepted: 2003-05-01 00:00:00.000000000 +05:00
+id: 620cb1dc-285f-530b-9877-95db9f3bef07
+status: valid

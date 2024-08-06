@@ -1,0 +1,48 @@
+---
+data:
+  dates:
+  - date: 2002-07-01 00:00:00.000000000 +06:00
+    type: accepted
+  definition:
+  - content: förteckning över identifierade typer av företeelser med beskrivningar
+      av vad som utmärker företeelserna, vilka uppgifter som kan finnas om en företeelse
+      samt beskrivningar av hur dessa uppgifter kan användas och/eller påverkas
+  examples: []
+  id: '854'
+  notes:
+  - content: "Definitionen baserar sig på definitionen för \"feature catalogue\" i
+      ISO 19101. Där refereras dock till begrepp som \"feature attribute\", \"feature
+      relationship\" och \"feature operation\" vilka har undvikits här.\ntill termpost:
+      För att ge stöd vid modellering kan en objekttypskatalog kompletteras med namn
+      eller beteckningar på typer av företeelser, uppgifter, etc. \nAnm. 3 till termpost:
+      ISO 19110, Methodology for feature cataloguing, anger ett standardiserat sätt
+      att strukturera objekttypskataloger.\nAnm. 4 till termpost: Ett exempel på en
+      enstaka post i en objekttypskatalog och exempel på uppgifter som kan finnas
+      och hur dessa kan användas och påverkas:\n- exempel på företeelser: Kungliga
+      slottet, Solliden, Drottningholm\n- identifierad typ av företeelse: slott\n-
+      uppgifter: var det finns, hur många rum det har, vem som har ägt det under olika
+      perioder, när allmänheten har tillträde  \n- hur uppgifter kan användas: ta
+      reda på vem som ägt slottet ett visst datum\n- hur uppgifter kan påverkas: ändra
+      tillträdesuppgifter"
+  release: 1.0
+  sources:
+  - origin:
+      ref: ISO 19101-1:2014
+      clause: 4.1.13
+      link: https://www.iso.org/standard/59164.html
+    type: authoritative
+    status: identical
+  - origin:
+      ref: ISO 19101:2002
+    type: lineage
+    status: restyle
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: objekttypskatalog
+  language_code: swe
+  entry_status: valid
+  review_date: 2012-01-26 00:00:00.000000000 +05:00
+dateAccepted: 2002-07-01 00:00:00.000000000 +06:00
+id: d13e65b2-e40e-570a-a5f9-dafb87e3f2ec
+status: valid

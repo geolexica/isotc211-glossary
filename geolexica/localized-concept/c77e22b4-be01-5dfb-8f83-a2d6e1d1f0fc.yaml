@@ -1,0 +1,37 @@
+---
+data:
+  dates:
+  - date: 2010-06-15 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: 지상 위에 투영된 범위 벡터의 크기
+  examples: []
+  id: '947'
+  notes:
+  - content: Ground range of an image is represented by the distance from the nadir
+      point of the antenna to a point in the scene. Usually measured in the horizontal
+      plane, but can also be measured as true distance along the ground, DEM, geoid
+      or ellipsoid surface.
+  release: 2.0
+  sources:
+  - origin:
+      ref: ISO 19130-1:2018
+      clause: '3.43'
+      link: https://www.iso.org/standard/66847.html
+    type: authoritative
+  - origin:
+      ref: ISO/TS 19130:2010
+    type: lineage
+    status: identical
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 지상거리
+  language_code: kor
+  entry_status: valid
+  review_date: 2018-09-01 00:00:00.000000000 +05:00
+  review_decision_date: 2018-09-01 00:00:00.000000000 +05:00
+  review_decision_event: Publication of ISO 19130-1:2018(E)
+dateAccepted: 2010-06-15 00:00:00.000000000 +05:00
+id: c77e22b4-be01-5dfb-8f83-a2d6e1d1f0fc
+status: valid

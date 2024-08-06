@@ -1,0 +1,47 @@
+---
+data:
+  dates:
+  - date: 2012-12-01 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: 토지 관리 시스템에 포함된 바와 같이, 전 객체와 연계된 책임 및 제약사항, 소유권이나  토지 사용권과 같은 (한 개 또는
+      그 이상의) 유일 및 동종 권리를 창출하기위해 0개 또는 그 이상의 공간 단위으로 구성된 관리 단위. 법적 등록 또는 비공식적 권한, 관습적
+      권한 또는 기타 유형의 사회적 테뉴어 관계 기록이 필요함.
+  examples:
+  - content: A condominium unit comprising two spatial units (e.g. an apartment and
+      a garage), a farm lot comprising one spatial unit (e.g. parcel of land), a servitude
+      comprising one spatial unit (e.g. the road representing the right-of-way), a
+      land consolidation area, or a right-of-use unit with several right holders and
+      restricted objects.
+  id: '1570'
+  notes:
+  - content: "'Unique' means that a right, restriction, or responsibility is held
+      by one or more parties (e.g. owners or users) for the whole basic administrative
+      unit. 'Homogeneous' means that a right, restriction or responsibility (e.g.
+      ownership, use, social tenure, lease, or easement) affects the whole basic administrative
+      unit. For a restriction, zero parties are a possibility."
+  - content: A basic administrative unit may play the role of party, e.g. when the
+      right holder is a basic administrative unit (and not a person or organization).
+  - content: A baunit should get a unique identifier when registered, or recorded.
+  - content: A baunit can consist of zero spatial units, when a registry exists, and
+      not a cadastre.
+  - content: Restrictions and responsibilities can be associated with their own baunits,
+      each with their own type of spatial unit.
+  release: 3.0
+  sources:
+  - origin:
+      ref: ISO 19152:2012
+      clause: 4.1.2
+      link: https://www.iso.org/standard/51206.html
+    type: authoritative
+    status: identical
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 기본 관리 단위
+  language_code: kor
+  entry_status: valid
+  review_date: 2023-11-17 00:00:00.000000000 +05:00
+dateAccepted: 2012-12-01 00:00:00.000000000 +05:00
+id: f1ab8b28-1457-59ec-ab58-6ba3cc100094
+status: valid

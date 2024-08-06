@@ -1,0 +1,38 @@
+---
+data:
+  dates:
+  - date: 2010-06-15 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: SAR mode in which the antenna beam is fixed throughout the collection
+      of an image
+  examples: []
+  id: '1125'
+  notes:
+  - content: Doppler angle in processed products is fixed for all pixels. It provides
+      the ability to collect SAR data over strips of land over a fixed swath of ground
+      range parallel to the direction of flight.
+  release: 2.0
+  sources:
+  - origin:
+      ref: ISO 19130-1:2018
+      clause: '3.85'
+      link: https://www.iso.org/standard/66847.html
+    type: authoritative
+  - origin:
+      ref: ISO/TS 19130:2010
+    type: lineage
+    status: identical
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: stripmap mode
+  domain: SAR
+  language_code: eng
+  entry_status: valid
+  review_date: 2018-09-01 00:00:00.000000000 +05:00
+  review_decision_date: 2018-09-01 00:00:00.000000000 +05:00
+  review_decision_event: Publication of ISO 19130-1:2018(E)
+dateAccepted: 2010-06-15 00:00:00.000000000 +05:00
+id: fdf53995-7fca-5555-8199-3ea161abb78d
+status: valid

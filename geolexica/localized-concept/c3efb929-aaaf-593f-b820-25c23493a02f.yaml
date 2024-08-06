@@ -1,0 +1,45 @@
+---
+data:
+  dates:
+  - date: 2017-11-15 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: elemento de información que define el contexto para la renderización
+      de la dirección postal
+  examples:
+  - content: EJEMPLO Cuando el país expedidor y el país distribuidor del ítem postal
+      difieren, se trata de un envío transfronterizo y se requiere el nombre completo
+      del país distribuidor en la última línea de la dirección facilitada. En caso
+      contrario, es un envío nacional y no requiere el nombre del país en la dirección
+      proporcionada.
+  id: '2140'
+  notes:
+  - content: 'NOTA 1: Esto incluye la indicación de la renderización de las direcciones
+      postales en un medio externo, como etiquetas, archivos de datos o pantallas'
+  - content: 'NOTA 2: Los parámetros de renderización se especifican en el apartado
+      8.2.'
+  - content: 'NOTA 3: Los parámetros de renderización no aparecen en la dirección
+      postal renderizada pero guían o definen el proceso de entrega.'
+  release: 5.0
+  sources:
+  - origin:
+      ref: ISO 19160-4:2023
+      clause: '3.25'
+      link: https://www.iso.org/standard/83470.html
+    type: authoritative
+  - origin:
+      ref: ISO 19160-4:2017
+    type: lineage
+    status: identical
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: parámetro de renderización
+  language_code: spa
+  entry_status: valid
+  review_date: 2023-04-12 00:00:00.000000000 +05:00
+  review_decision_date: 2023-04-12 00:00:00.000000000 +05:00
+  review_decision_event: Publication of ISO 19160-4:2023(E)
+dateAccepted: 2017-11-15 00:00:00.000000000 +05:00
+id: c3efb929-aaaf-593f-b820-25c23493a02f
+status: valid
