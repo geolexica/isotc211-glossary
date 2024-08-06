@@ -1,0 +1,38 @@
+---
+data:
+  dates:
+  - date: 2003-05-01 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: objeto topológico orientado que representa una asociación entre un nodo
+      y una de sus orientaciones
+  examples: []
+  id: '138'
+  notes:
+  - content: NOTA Los nodos orientados se usan en la relación de cofrontera para mantener
+      la asociación espacial entre arco y nodo. La orientación de un nodo con respecto
+      a un arco es "+" para el nodo final y "-" para el nodo inicial. Esto es coherente
+      con la noción de vector "resultado = final - inicial".
+  release: 1.0
+  sources:
+  - origin:
+      ref: ISO 19107:2019
+      clause: '3.25'
+      link: https://www.iso.org/standard/66175.html
+    type: authoritative
+  - origin:
+      ref: ISO 19107:2003
+    type: lineage
+    status: identical
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: nodo orientado
+  language_code: spa
+  entry_status: valid
+  review_date: 2019-12-02 00:00:00.000000000 +05:00
+  review_decision_date: 2019-12-02 00:00:00.000000000 +05:00
+  review_decision_event: Publication of ISO 19107:2019(E)
+dateAccepted: 2003-05-01 00:00:00.000000000 +05:00
+id: 7584e190-9ad0-53fe-b5cf-e598aba7a4f3
+status: valid

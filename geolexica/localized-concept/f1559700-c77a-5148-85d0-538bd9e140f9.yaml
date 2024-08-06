@@ -1,0 +1,44 @@
+---
+data:
+  dates:
+  - date: 2002-12-01 00:00:00.000000000 +05:00
+    type: accepted
+  - date: 2013-12-15 00:00:00.000000000 +05:00
+    type: amended
+  definition:
+  - content: value or set of values resulting from applying a data quality measure
+      or the outcome of evaluating the obtained value or set of values against a specified
+      conformance quality level
+  examples:
+  - content: A data quality result of "90" with a data quality value type of "percentage"
+      reported for the data quality element and its data quality subelement "completeness,
+      commission" is an example of a value resulting from applying a data quality
+      measure to the data specified by a data quality scope.  A data quality result
+      of "true" with a data quality value type of "boolean variable" is an example
+      of comparing the value (90) against a specified acceptable conformance quality
+      level (85) and reporting an evaluation of a kind, pass or fail.
+  id: '117'
+  notes: []
+  release: -1.0
+  sources:
+  - origin:
+      ref: ISO 19113:2002
+      clause: '4.9'
+      link: https://www.iso.org/standard/26018.html
+    type: authoritative
+    status: identical
+  - origin:
+      ref: " "
+    type: lineage
+    status: unspecified
+  terms:
+  - type: expression
+    designation: data quality result
+  language_code: eng
+  entry_status: retired
+  review_date: 2013-12-15 00:00:00.000000000 +05:00
+  review_decision_date: 2013-12-15 00:00:00.000000000 +05:00
+  review_decision_event: Publication of ISO 19157:2013
+dateAccepted: 2002-12-01 00:00:00.000000000 +05:00
+id: f1559700-c77a-5148-85d0-538bd9e140f9
+status: retired

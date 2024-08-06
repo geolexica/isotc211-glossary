@@ -1,0 +1,35 @@
+---
+data:
+  dates:
+  - date: 2012-12-01 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: tredimensionell yta som används som avgränsning av ett gränssatt område
+  examples: []
+  id: '1359'
+  notes:
+  - content: Boundary faces are used when the implied vertical and unbounded faces
+      of a boundary face string are not sufficient to describe 3D spatial units. Boundary
+      faces close volumes in height (e.g. every apartment floor), or in depth (e.g.
+      an underground parking garage), or in all other directions to form a bounded
+      volume. The volumes represent legal space (in contrast with physical space).
+  - content: D-gränsytor avgränsar med ”golv” och/eller ”tak”, eller på annat sätt
+      för att definiera var rättigheter, skyldigheter och ansvar gäller.
+  release: 3.0
+  sources:
+  - origin:
+      ref: ISO 19152:2012
+      clause: 4.1.4
+      link: https://www.iso.org/standard/51206.html
+    type: authoritative
+    status: identical
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 3D-gränsyta
+  language_code: swe
+  entry_status: valid
+  review_date: 2023-11-17 00:00:00.000000000 +05:00
+dateAccepted: 2012-12-01 00:00:00.000000000 +05:00
+id: ca4211d8-bbb6-5b98-9fe8-c0accd6514cd
+status: valid

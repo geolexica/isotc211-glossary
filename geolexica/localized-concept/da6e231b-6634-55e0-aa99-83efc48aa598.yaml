@@ -1,0 +1,42 @@
+---
+data:
+  dates:
+  - date: 2004-07-01 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: paikannusjärjestelmien sisäiset muuttujat, jotka ilmaisevat saavutetun
+      suoritustason
+  examples: []
+  id: '328'
+  notes:
+  - content: Suoritusindikaattoreita voidaan käyttää ilmaisuna paikannusjärjestelmän
+      tai paikannusratkaisun laadunvalvonnasta. Sisäinen laadunvalvonta voi liittyä
+      mm. vastaanotettujen radiosignaalien vahvuuteen (signaali/kohina-suhde, SNR);
+      nämä luvut ilmaisevat radiopaikannusjärjestelmien geometrisistä rajoituksista
+      johtuvaa tarkkuuden epävarmuutta (dilution of precision, DOP) sekä järjestelmäkohtaisen  hyvyyden
+      (figure of merit, FOM).
+  release: 1.0
+  sources:
+  - origin:
+      ref: ISO 19116:2019
+      clause: '3.21'
+      link: https://www.iso.org/standard/70882.html
+    type: authoritative
+  - origin:
+      ref: ISO 19116:2004
+    type: lineage
+    status: identical
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: suoritusindikaattori
+  - type: expression
+    designation: suoritusmittari
+  language_code: fin
+  entry_status: valid
+  review_date: 2019-12-02 00:00:00.000000000 +05:00
+  review_decision_date: 2019-12-02 00:00:00.000000000 +05:00
+  review_decision_event: Publication of ISO 19116:2019(E)
+dateAccepted: 2004-07-01 00:00:00.000000000 +05:00
+id: da6e231b-6634-55e0-aa99-83efc48aa598
+status: valid

@@ -1,0 +1,40 @@
+---
+data:
+  dates:
+  - date: 2019-12-02 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: longitud mínima de una curva que une los dos puntos o geometrías
+  examples: []
+  id: '2046'
+  notes:
+  - content: 'NOTA: La función de distancia habitual para dos puntos en un espacio
+      de coordenadas asume un plano subyacente y es una distancia euclidiana. Si la
+      superficie de referencia subyacente no es un plano, entonces la distancia se
+      define por esta longitud mínima de todas las curvas entre los dos puntos. Estas
+      superficies son ejemplos primarios de geometrÍa no euclidiana, donde el postulado
+      paralelo en los Elementos de Euclidianos no se sostiene. En términos matemáticos,
+      la distancia es el "límite inferior mayor" de la longitud de las curvas. A veces
+      se utiliza la palabra mínimo, pero no debe esperarse que realmente se produzca
+      una instancia de ese mínimo, sólo que cualquier número mayor tendrá una longitud
+      en el conjunto que sea menor.'
+  release: 5.0
+  sources:
+  - origin:
+      ref: ISO 19107:2019
+      clause: '3.27'
+      link: https://www.iso.org/standard/66175.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: distancia
+  domain: geometría, espacios métricos
+  language_code: spa
+  entry_status: valid
+  review_date: 2019-12-02 00:00:00.000000000 +05:00
+  review_decision_date: 2019-12-02 00:00:00.000000000 +05:00
+  review_decision_event: Procedimiento normal de ISO
+dateAccepted: 2019-12-02 00:00:00.000000000 +05:00
+id: 64fc46d1-f6e1-52e1-be73-4330b49b7997
+status: valid

@@ -1,0 +1,36 @@
+---
+data:
+  dates:
+  - date: 2005-10-15 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: |-
+      viktad och riktad graf som utgör underlag för
+      Dijkstras algoritm, vilken söker den kortaste vägen mellan två punkter (eller noder)
+  examples: []
+  id: '133'
+  notes:
+  - content: The term comes from the most commonly known algorithm for finding a shortest
+      path in a positively weighted graph, from E. Dijkstra's paper [7]. Although
+      this algorithm is not the only one in use, the requirements for the graph are
+      common to most. The most common relaxation of the requirement is the "positive
+      weights," which are not needed in the Bellman-Ford algorithm [4], [8].
+  release: 1.0
+  sources:
+  - origin:
+      ref: ISO 19133:2005
+      link: https://www.iso.org/standard/32551.html
+    type: authoritative
+  - origin:
+      ref: ''
+      clause: "(Type reference to national language document)"
+    type: lineage
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Dijkstragraf
+  language_code: swe
+  entry_status: valid
+dateAccepted: 2005-10-15 00:00:00.000000000 +05:00
+id: '09cbae5f-f57f-5488-a1aa-ac4199548133'
+status: valid

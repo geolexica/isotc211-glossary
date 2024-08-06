@@ -1,0 +1,40 @@
+---
+data:
+  dates:
+  - date: 2005-07-15 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: услуга, которая может быть запрошена у некоторого объекта с целью воздействия
+      на его поведение
+  examples: []
+  id: '319'
+  notes:
+  - content: Операция имеет  сигнатуру, которая может ограничивать возможные реальные
+      параметры
+  - content: 'Определение из UML Reference Manual: "Спецификация преобразования или
+      запроса, исполнение которого может быть затребовано от объекта"'
+  - content: Операция имеет имя и перечень параметров. Метод является реализацией
+      операции. Описывает алгоритм или процедуру, которая формирует результаты операции
+  release: 1.0
+  sources:
+  - origin:
+      ref: ISO/IEC 19501
+      link: https://www.iso.org/standard/32620.html
+    type: authoritative
+    status: restyle
+  - origin:
+      ref: 'ISO/TS 19103:2005 '
+      clause: ",4.2.21"
+    type: lineage
+    status: identical
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: операция
+  domain: UML
+  language_code: rus
+  entry_status: valid
+  review_date: 2009-08-31 00:00:00.000000000 +06:00
+dateAccepted: 2005-07-15 00:00:00.000000000 +05:00
+id: fc268d68-5fd4-5b28-84da-a8c3c4810e81
+status: valid
