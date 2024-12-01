@@ -1,0 +1,33 @@
+---
+data:
+  dates:
+  - date: 2010-12-15 00:00:00.000000000 +05:00
+    type: accepted
+  definition:
+  - content: Обновить ссылку на ресурс, который был перемещен или скопирован в новое
+      место
+  examples:
+  - content: сервер генерирует ответ на запрос GetFeature, он должен скопировать ссылочный
+      компонент в документ ответа, и сервер должен "переместить" исходную ссылку,
+      содержащуюся в ссылочном компоненте, в копию, размещенную в документе ответа.
+  id: '1036'
+  notes: []
+  release: 2.0
+  sources:
+  - origin:
+      ref: ISO 19142:2010
+      link: https://www.iso.org/standard/42136.html
+    type: authoritative
+  - origin:
+      ref: ISO 19142:2010
+    type: lineage
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: переместить
+  domain: ссылка
+  language_code: rus
+  entry_status: valid
+dateAccepted: 2010-12-15 00:00:00.000000000 +05:00
+id: 3415c0db-c775-502d-b790-9f3f2094e27c
+status: valid
