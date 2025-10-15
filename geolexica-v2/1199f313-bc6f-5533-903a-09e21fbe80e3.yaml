@@ -1,0 +1,92 @@
+---
+data:
+  identifier: '2176'
+  localized_concepts:
+    eng: 047db2d4-c2c5-5d55-ae39-13d3f88d1e2a
+    spa: 5526a300-86c0-58f0-b886-6c736a587941
+id: 1199f313-bc6f-5533-903a-09e21fbe80e3
+date_accepted: '2019-12-02T00:00:00+05:00'
+status: valid
+
+---
+data:
+  dates:
+  - date: '2019-12-02T00:00:00+05:00'
+    type: accepted
+  definition:
+  - content: storage mechanism for multidimensional array in linear memory, organized
+      such that each row is stored in consecutive locations and such that the complete
+      rows are the stored one after the other and continuing on is a similar fashion
+      of each additional index
+  examples: []
+  id: '2176'
+  notes:
+  - content: 'If the indexes are stem:[(i, j)] with the number of rows stem:[r] and
+      columns stem:[c], then the mapping between the multidimensional locations to
+      the linear storage locations is given by: latexmath:[[i,j \in \mathbb{Z} \backepsilon
+      1 \leq i \leq r; 1 \leq j \leq c] \implies [(i,j) \rightarrow (i-1)c + j]] latexmath:[[i,j,k
+      \in \mathbb{Z} \backepsilon 1 \leq i \leq r; 1 \leq j \leq c; 1 \leq k \leq
+      f] \implies [(i,j,k) \rightarrow ((i-1)c + j -1)f + k]]'
+  - content: 'The matrix stem:[[[1,2,3],[4,5,6],[7,8,9]]] in row major form is stored
+      as stem:[[1, 2, 3, 4, 5, 6, 7, 8, 9]]. For higher dimensions, the same pattern
+      is applied recursively:'
+  release: '5.0'
+  sources:
+  - origin:
+      ref: ISO 19107:2019
+      locality:
+        type: clause
+        reference_from: '3.81'
+      link: https://www.iso.org/standard/66175.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: row-major form <mathematics, computer science>
+  language_code: eng
+  entry_status: valid
+  review_date: '2019-12-02T00:00:00+05:00'
+  review_decision_date: '2019-12-02T00:00:00+05:00'
+  review_decision_event: Normal ISO processing
+date_accepted: '2019-12-02T00:00:00+05:00'
+id: 047db2d4-c2c5-5d55-ae39-13d3f88d1e2a
+
+---
+data:
+  dates:
+  - date: '2019-12-02T00:00:00+05:00'
+    type: accepted
+  definition:
+  - content: mecanismo de almacenamiento de matrices multidimensionales en la memoria
+      lineal, organizado de manera que cada fila se almacene en lugares consecutivos
+      y que las filas completas sean almacenadas una tras otra y que continúe de forma
+      similar en cada índice adicional
+  examples: []
+  id: '2176'
+  notes:
+  - content: 'NOTA 1: Si los índices son (i, j) con el número de filas "r" y columnas
+      "c", entonces la correspondencia entre las localizaciones multidimensionales
+      y las localizaciones de almacenamiento lineal está dada por: (fórmula)'
+  - content: |-
+      NOTA 2: La matriz  (fórmula) en forma de fila principal se almacena como (fórmula) .
+      Para dimensiones superiores, se aplica el mismo patrón de forma recursiva.
+  release: '5.0'
+  sources:
+  - origin:
+      ref: ISO 19107:2019
+      locality:
+        type: clause
+        reference_from: '3.81'
+      link: https://www.iso.org/standard/66175.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: forma de fila principal <matemáticas, ciencias de la computación>
+  language_code: spa
+  entry_status: valid
+  review_date: '2019-12-02T00:00:00+05:00'
+  review_decision_date: '2019-12-02T00:00:00+05:00'
+  review_decision_event: Procedimiento normal de ISO
+date_accepted: '2019-12-02T00:00:00+05:00'
+id: 5526a300-86c0-58f0-b886-6c736a587941

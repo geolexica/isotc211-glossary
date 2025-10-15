@@ -1,0 +1,80 @@
+---
+data:
+  identifier: '2095'
+  localized_concepts:
+    eng: f3e324a0-2056-5110-856a-f9775ac1d1ed
+    spa: 38cd012b-f717-5db8-aaea-fe798efc78f6
+id: ff4fffb8-afbe-5199-baa7-6dcfe3006e5e
+date_accepted: '2019-12-02T00:00:00+05:00'
+status: valid
+
+---
+data:
+  dates:
+  - date: '2019-12-02T00:00:00+05:00'
+    type: accepted
+  definition:
+  - content: first derivative of a curve parameterized by arc length
+  examples: []
+  id: '2095'
+  notes:
+  - content: If stem:[c(s) = (x(s), y(s), z(s))] is a curve in a 3D Cartesian space
+      (stem:[bbb"E"^3]), and stem:[s] is arc length along stem:[c], then the tangent
+      is stem:[vec tau(s) = dot c(s) = (dot x(s), dot y(s), dot z(s))], i.e. the derivative
+      of the coordinate values of stem:[c] with respect to stem:[s]. The curvature
+      vector is stem:[kappa(s) = ddot c(s) = (ddot x(s), ddot y(s), ddot z(s))].
+  release: '5.0'
+  sources:
+  - origin:
+      ref: ISO 19107:2019
+      locality:
+        type: clause
+        reference_from: '3.95'
+      link: https://www.iso.org/standard/66175.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: tangent vector
+  language_code: eng
+  entry_status: valid
+  review_date: '2019-12-02T00:00:00+05:00'
+  review_decision_date: '2019-12-02T00:00:00+05:00'
+  review_decision_event: Normal ISO processing
+date_accepted: '2019-12-02T00:00:00+05:00'
+id: f3e324a0-2056-5110-856a-f9775ac1d1ed
+
+---
+data:
+  dates:
+  - date: '2019-12-02T00:00:00+05:00'
+    type: accepted
+  definition:
+  - content: primera derivada de una curva parametrizada por la longitud del arco
+  examples: []
+  id: '2095'
+  notes:
+  - content: "NOTA: Si (fórmula) es una curva en un espacio cartesiano 3D (\U0001D53C3),
+      y (fórmula)  es la longitud del arco a lo largo de (fórmula) , entonces la tangente
+      es (fórmula) , es decir, la derivada de los valores de las coordenadas de (fórmula)
+      \ con respecto a (fórmula) . El vector de curvatura es (fórmula) ."
+  release: '5.0'
+  sources:
+  - origin:
+      ref: ISO 19107:2019
+      locality:
+        type: clause
+        reference_from: '3.95'
+      link: https://www.iso.org/standard/66175.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: vector tangente
+  language_code: spa
+  entry_status: valid
+  review_date: '2019-12-02T00:00:00+05:00'
+  review_decision_date: '2019-12-02T00:00:00+05:00'
+  review_decision_event: Procedimiento normal de ISO
+date_accepted: '2019-12-02T00:00:00+05:00'
+id: 38cd012b-f717-5db8-aaea-fe798efc78f6

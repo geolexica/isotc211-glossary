@@ -1,0 +1,47 @@
+---
+data:
+  identifier: '2568'
+  localized_concepts:
+    eng: de23190a-3778-5c09-83a2-c44e92437881
+id: 7b104718-6c6f-554c-8030-f9989fe2405e
+date_accepted: '2021-05-11T00:00:00+05:00'
+status: valid
+
+---
+data:
+  dates:
+  - date: '2021-05-11T00:00:00+05:00'
+    type: accepted
+  definition:
+  - content: geometry or topology function using a cell's zonal identifiers to specify
+      geometry
+  examples: []
+  id: '2568'
+  notes:
+  - content: ISO 19107 specifies a suite of geometry and topology functions in the
+      Query2D and Query3D classes, where geometry elements used in each function's
+      parameters are described by sets of coordinates. In DGGS all geometry can be
+      referenced as sets of cells (3.2) represented solely by a list (or set) of their
+      zonal identifiers. This document specifies ZoneQuery to implement the operations
+      in both Query2D and Query3D using zonal identifiers to reference each operation's
+      source and target geometry.
+  release: '6.0'
+  sources:
+  - origin:
+      ref: ISO 19170-1:2021
+      locality:
+        type: clause
+        reference_from: '3.51'
+      link: https://www.iso.org/standard/32588.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: zonal query <DGGS>
+  language_code: eng
+  entry_status: valid
+  review_date: '2021-05-11T00:00:00+05:00'
+  review_decision_date: '2021-05-11T00:00:00+05:00'
+  review_decision_event: Normal ISO processing
+date_accepted: '2021-05-11T00:00:00+05:00'
+id: de23190a-3778-5c09-83a2-c44e92437881

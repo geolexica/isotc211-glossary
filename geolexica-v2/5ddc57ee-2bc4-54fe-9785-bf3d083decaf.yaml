@@ -1,0 +1,78 @@
+---
+data:
+  identifier: '2155'
+  localized_concepts:
+    eng: 3ca0f7dd-d346-54e1-878b-4090b495ce89
+    spa: 6ab7707e-b87c-54f4-9960-04e349bd8236
+id: 5ddc57ee-2bc4-54fe-9785-bf3d083decaf
+date_accepted: '2019-12-02T00:00:00+05:00'
+status: valid
+
+---
+data:
+  dates:
+  - date: '2019-12-02T00:00:00+05:00'
+    type: accepted
+  definition:
+  - content: point that lies on the geometry
+  examples: []
+  id: '2155'
+  notes:
+  - content: The vertices in a line string are data points, the points used to construct
+      a polynomial spline are data points. Data points can be used as control points,
+      but are often derived after the geometry is constructed.
+  release: '5.0'
+  sources:
+  - origin:
+      ref: ISO 19107:2019
+      locality:
+        type: clause
+        reference_from: '3.21'
+      link: https://www.iso.org/standard/66175.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: data point <coordinate geometry>
+  language_code: eng
+  entry_status: valid
+  review_date: '2019-12-02T00:00:00+05:00'
+  review_decision_date: '2019-12-02T00:00:00+05:00'
+  review_decision_event: Normal ISO processing
+date_accepted: '2019-12-02T00:00:00+05:00'
+id: 3ca0f7dd-d346-54e1-878b-4090b495ce89
+
+---
+data:
+  dates:
+  - date: '2019-12-02T00:00:00+05:00'
+    type: accepted
+  definition:
+  - content: punto que se encuentra en la geometría
+  examples: []
+  id: '2155'
+  notes:
+  - content: 'NOTA: Los vértices de una linestring son puntos de datos, los puntos
+      utilizados para construir una spline polinómica son puntos de datos. Los puntos
+      de datos pueden utilizarse como puntos de control, pero a menudo se derivan
+      después de construir la geometría.'
+  release: '5.0'
+  sources:
+  - origin:
+      ref: ISO 19107:2019
+      locality:
+        type: clause
+        reference_from: '3.21'
+      link: https://www.iso.org/standard/66175.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: punto de datos <coordenadas de geometría>
+  language_code: spa
+  entry_status: valid
+  review_date: '2019-12-02T00:00:00+05:00'
+  review_decision_date: '2019-12-02T00:00:00+05:00'
+  review_decision_event: Procedimiento normal de ISO
+date_accepted: '2019-12-02T00:00:00+05:00'
+id: 6ab7707e-b87c-54f4-9960-04e349bd8236

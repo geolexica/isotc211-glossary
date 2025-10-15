@@ -1,0 +1,92 @@
+---
+data:
+  identifier: '2071'
+  localized_concepts:
+    eng: 64b829ef-52d0-57e8-b2ff-60a2054cd5f9
+    spa: e3762de0-ff30-5c81-bfe9-2acdc399bf28
+id: 52987f8b-73da-5d48-87ad-4b48ebb5c11e
+date_accepted: '2019-12-02T00:00:00+05:00'
+status: valid
+
+---
+data:
+  dates:
+  - date: '2019-12-02T00:00:00+05:00'
+    type: accepted
+  definition:
+  - content: smallest element larger than or equal to all elements of a set contained
+      in an ordered domain (stem:[<=])
+  examples: []
+  id: '2071'
+  notes:
+  - content: stem:[[AA a in A => max(A) >= a] => [AA b notin [(b notin [AA a in A
+      => b >= a] => [max(a) <= b]]]]] Any number is an upper bound of stem:[O/] (empty
+      set) as a set of numbers, because any given number is greater than any number
+      in stem:[O/] (an admitted vacuous statement since there is no number in stem:[O/],
+      but true nonetheless). This means that the stem:[max(O/)] must be smaller than
+      any number; thus stem:[-oo].
+  release: '5.0'
+  sources:
+  - origin:
+      ref: ISO 19107:2019
+      locality:
+        type: clause
+        reference_from: '3.60'
+      link: https://www.iso.org/standard/66175.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: admitted
+    designation: least upper bound <mathematics>
+  - type: abbreviation
+    designation: lub <mathematics>
+  - type: expression
+    designation: maximum <mathematics>
+  language_code: eng
+  entry_status: valid
+  review_date: '2019-12-02T00:00:00+05:00'
+  review_decision_date: '2019-12-02T00:00:00+05:00'
+  review_decision_event: Normal ISO processing
+date_accepted: '2019-12-02T00:00:00+05:00'
+id: 64b829ef-52d0-57e8-b2ff-60a2054cd5f9
+
+---
+data:
+  dates:
+  - date: '2019-12-02T00:00:00+05:00'
+    type: accepted
+  definition:
+  - content: elemento más pequeño, mayor o igual a todos los elementos de un conjunto
+      contenido en un dominio ordenado <<matemáticas>>
+  examples: []
+  id: '2071'
+  notes:
+  - content: 'NOTA: (fórmula) Cualquier número es un límite superior de ∅ (conjunto
+      vacío) como conjunto de números, porque cualquier número dado es mayor que cualquier
+      número en ∅ (una declaración vacía admitida ya que no hay ningún número en ∅,
+      pero verdadera de todos modos). Esto significa que el máximo (∅) debe ser más
+      pequeño que cualquier número; por lo tanto "-∞".'
+  release: '5.0'
+  sources:
+  - origin:
+      ref: ISO 19107:2019
+      locality:
+        type: clause
+        reference_from: '3.60'
+      link: https://www.iso.org/standard/66175.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: admitted
+    designation: límite superior menor <matemáticas>
+  - type: abbreviation
+    designation: lub <matemáticas>
+  - type: expression
+    designation: máximo <matemáticas>
+  language_code: spa
+  entry_status: valid
+  review_date: '2019-12-02T00:00:00+05:00'
+  review_decision_date: '2019-12-02T00:00:00+05:00'
+  review_decision_event: Procedimiento normal de ISO
+date_accepted: '2019-12-02T00:00:00+05:00'
+id: e3762de0-ff30-5c81-bfe9-2acdc399bf28

@@ -1,0 +1,89 @@
+---
+data:
+  identifier: '2402'
+  localized_concepts:
+    eng: de623477-ac00-5d3c-a8ad-848257f1923d
+    spa: c33d7206-7b8b-597d-b53b-dfcf8ef7bf89
+id: 626ad876-ca82-5aba-bbd4-d1a76431ba26
+date_accepted: '2019-01-31T00:00:00+05:00'
+status: valid
+
+---
+data:
+  dates:
+  - date: '2019-01-31T00:00:00+05:00'
+    type: accepted
+  definition:
+  - content: coordinate reference system that is defined through the application of
+      a specified coordinate conversion to the coordinates within a previously established
+      coordinate reference system
+  examples: []
+  id: '2402'
+  notes:
+  - content: The previously established coordinate reference system is referred to
+      as the base coordinate reference system.
+  - content: A derived coordinate reference system inherits its datum or reference
+      frame from its base coordinate reference system.
+  - content: The coordinate conversion between the base and derived coordinate reference
+      system is implemented using the parameters and formula(s) specified in the definition
+      of the coordinate conversion.
+  release: '5.0'
+  sources:
+  - origin:
+      ref: ISO 19111:2019
+      locality:
+        type: clause
+        reference_from: 3.1.18
+      link: https://www.iso.org/standard/74039.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: derived coordinate reference system
+  language_code: eng
+  entry_status: valid
+  review_date: '2019-01-31T00:00:00+05:00'
+  review_decision_date: '2019-01-31T00:00:00+05:00'
+  review_decision_event: Normal ISO processing
+date_accepted: '2019-01-31T00:00:00+05:00'
+id: de623477-ac00-5d3c-a8ad-848257f1923d
+
+---
+data:
+  dates:
+  - date: '2019-01-31T00:00:00+05:00'
+    type: accepted
+  definition:
+  - content: sistema de referencia por coordenadas definido a través de la aplicación
+      de una conversión de coordenadas específica a las coordenadas dentro de un sistema
+      de referencia por coordenadas previamente establecido.
+  examples: []
+  id: '2402'
+  notes:
+  - content: NOTA 1 El sistema de referencia por coordenadas previamente establecido
+      se denomina sistema de referencia por coordenadas base.
+  - content: NOTA 2 Un sistema de referencia por coordenadas derivado hereda su datum
+      o marco de referencia de su sistema de referencia por coordenadas base.
+  - content: NOTA 3 La conversión de coordenadas entre el sistema de referencia por
+      coordenadas base y el derivado se implementa usando los parámetros y fórmulas
+      especificados en la definición de la conversión de coordenadas.
+  release: '5.0'
+  sources:
+  - origin:
+      ref: ISO 19111:2019
+      locality:
+        type: clause
+        reference_from: 3.1.18
+      link: https://www.iso.org/standard/74039.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: sistema de referencia por coordenadas derivado
+  language_code: spa
+  entry_status: valid
+  review_date: '2019-01-31T00:00:00+05:00'
+  review_decision_date: '2019-01-31T00:00:00+05:00'
+  review_decision_event: Procedimiento normal de ISO
+date_accepted: '2019-01-31T00:00:00+05:00'
+id: c33d7206-7b8b-597d-b53b-dfcf8ef7bf89
