@@ -1,0 +1,94 @@
+---
+data:
+  identifier: '2358'
+  localized_concepts:
+    eng: 8831b6ed-d581-5793-9049-84d5a94be4fa
+    spa: 5f6e42d9-b83a-56bd-be6d-bc73e3bb2083
+id: e97a0726-8f8c-51bf-b9d6-54f6afb77db1
+date_accepted: '2019-01-31T00:00:00+05:00'
+status: valid
+
+---
+data:
+  dates:
+  - date: '2019-01-31T00:00:00+05:00'
+    type: accepted
+  definition:
+  - content: group of multiple realizations of the same terrestrial or vertical reference
+      system that, for approximate spatial referencing purposes, are not significantly
+      different
+  examples:
+  - content: WGS 84 as an undifferentiated group of realizations including WGS 84
+      (TRANSIT), WGS 84 (G730), WGS 84 (G873), WGS 84 (G1150), WGS 84 (G1674) and
+      WGS 84 (G1762). At the surface of the Earth these have changed on average by
+      0.7 m between the TRANSIT and G730 realizations, a further 0.2 m between G730
+      and G873, 0.06 m between G873 and G1150, 0.2 m between G1150 and G1674 and 0.02
+      m between G1674 and G1762).
+  id: '2358'
+  notes:
+  - content: Datasets referenced to the different realizations within a datum ensemble
+      may be merged without coordinate transformation.
+  - content: "'Approximate' is for users to define and typically is in the order of
+      under 1 decimetre but may be up to 2 metres."
+  release: '5.0'
+  sources:
+  - origin:
+      ref: ISO 19111:2019
+      locality:
+        type: clause
+        reference_from: 3.1.16
+      link: https://www.iso.org/standard/74039.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: datum ensemble
+  language_code: eng
+  entry_status: valid
+  review_date: '2019-01-31T00:00:00+05:00'
+  review_decision_date: '2019-01-31T00:00:00+05:00'
+  review_decision_event: Normal ISO processing
+date_accepted: '2019-01-31T00:00:00+05:00'
+id: 8831b6ed-d581-5793-9049-84d5a94be4fa
+
+---
+data:
+  dates:
+  - date: '2019-01-31T00:00:00+05:00'
+    type: accepted
+  definition:
+  - content: grupo de múltiples realizaciones del mismo sistema de referencia terrestre
+      o vertical que para propósitos de referencia espacial aproximada no son significativamente
+      diferentes.
+  examples:
+  - content: EJEMPLO “WGS 84” como un grupo de realizaciones indistintas incluyendo
+      WGS 84 (TRANSIT), WGS 84 (G730), WGS 84 (G873), WGS 84 (G1150), WGS 84 (1674)
+      y WGS 84 (G1762). En la superficie de la Tierra estas realizaciones han cambiado
+      de media 0,7 m entre las realizaciones TRANSIT y G730, otros 0,2 m entre G1150
+      y G1674 y 0,02 m entre G1674 y G1762.
+  id: '2358'
+  notes:
+  - content: NOTA 1 Los conjuntos de datos referidos a las diferentes realizaciones
+      dentro de una agrupación de datums se pueden combinar sin trasformación de coordenadas.
+  - content: NOTA 2 ’Aproximada’ lo definen los usuarios y normalmente está en el
+      orden de menos de 1 decímetro, pero puede llegar hasta los 2 metros.
+  release: '5.0'
+  sources:
+  - origin:
+      ref: ISO 19111:2019
+      locality:
+        type: clause
+        reference_from: 3.1.16
+      link: https://www.iso.org/standard/74039.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: agrupación de datums
+  language_code: spa
+  entry_status: valid
+  review_date: '2019-01-31T00:00:00+05:00'
+  review_decision_date: '2019-01-31T00:00:00+05:00'
+  review_decision_event: Procedimiento normal de ISO
+date_accepted: '2019-01-31T00:00:00+05:00'
+id: 5f6e42d9-b83a-56bd-be6d-bc73e3bb2083

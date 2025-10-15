@@ -1,0 +1,52 @@
+---
+data:
+  identifier: '2896'
+  localized_concepts:
+    eng: 2336e8dc-5440-5ce0-ac7c-0eb69c2ce8c2
+id: 556087cd-4d10-59d8-9cf2-c22fdf7f0e55
+date_accepted: '2022-11-24T00:00:00+05:00'
+status: valid
+
+---
+data:
+  dates:
+  - date: '2022-11-24T00:00:00+05:00'
+    type: accepted
+  definition:
+  - content: |-
+      physical radiance of an absorber determined by applying Planck's function (either in wavelength space or in terms of frequencies) to absorber temperature, stem:[T_"w"], as shown in the following formula (in frequency space): stem:[I_"bb,v"=(2"h"v^3)/(c^2)1/(e^(("h"v)/("k"T_"w"))-1)]
+
+      where
+
+      stem:[T_"w"] is the temperature of the absorber;
+      stem:["h"] is the Plank’s constant (stem:[6.62607xx10^(-34) "J" cdot "s"]);
+      stem:[v] is the frequency in Hz;
+      stem:["c"] is the velocity of light (stem:[2.997925xx10^8 "m"//"s"]);
+      stem:["k"] is the Boltzmann’s constant (stem:[1.38064852xx10^(-23) "J"//"K"]);
+      stem:["e"] is the base of natural logarithm.
+  examples: []
+  id: '2896'
+  notes:
+  - content: The constants are defined in terms of a perfect blackbody.
+  release: '6.0'
+  sources:
+  - origin:
+      ref: ISO/TS 19159-4:2022
+      locality:
+        type: clause
+        reference_from: '3.10'
+      link: https://www.iso.org/standard/66769.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: blackbody radiance
+  - type: abbreviation
+    designation: Ibb,v
+  language_code: eng
+  entry_status: valid
+  review_date: '2022-11-24T00:00:00+05:00'
+  review_decision_date: '2022-11-24T00:00:00+05:00'
+  review_decision_event: Normal ISO processing
+date_accepted: '2022-11-24T00:00:00+05:00'
+id: 2336e8dc-5440-5ce0-ac7c-0eb69c2ce8c2

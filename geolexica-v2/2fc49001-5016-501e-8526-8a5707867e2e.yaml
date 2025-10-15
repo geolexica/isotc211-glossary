@@ -1,0 +1,158 @@
+---
+data:
+  identifier: '1406'
+  localized_concepts:
+    eng: ad62c592-9321-5541-abf4-c3ff5fccd6f2
+    kor: 9bad74fc-565a-5dda-9be3-8eaa8efa95b4
+    rus: a1add24b-6606-538e-b472-7374ff98f53b
+    spa: 33085c2d-6807-5ede-9cb3-f631a7e82e9c
+id: 2fc49001-5016-501e-8526-8a5707867e2e
+date_accepted: '2014-01-15T00:00:00+05:00'
+status: valid
+
+---
+data:
+  dates:
+  - date: '2014-01-15T00:00:00+05:00'
+    type: accepted
+  definition:
+  - content: raw radar return signal information after demodulation
+  examples: []
+  id: '1406'
+  notes:
+  - content: 'Usually stored as a series of range lines, each containing information
+      from a specific range bin.  PHD can be thought of as a table of five columns:  In-phase
+      signal, Quadrature signal, Range, Doppler Angle, and Time.'
+  release: '3.0'
+  sources:
+  - origin:
+      ref: ISO/TS 19130-2:2014
+      locality:
+        type: clause
+        reference_from: '4.48'
+      link: https://www.iso.org/standard/56113.html
+    status: unspecified
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: phase history data
+  - type: abbreviation
+    designation: PHD
+  - type: expression
+    designation: video phase history data
+  language_code: eng
+  entry_status: valid
+date_accepted: '2014-01-15T00:00:00+05:00'
+id: ad62c592-9321-5541-abf4-c3ff5fccd6f2
+
+---
+data:
+  dates:
+  - date: '2014-01-15T00:00:00+05:00'
+    type: accepted
+  definition:
+  - content: 복조 이후의 원레이더 회신 신호 정보
+  examples: []
+  id: '1406'
+  notes:
+  - content: 'Usually stored as a series of range lines, each containing information
+      from a specific range bin.  PHD can be thought of as a table of five columns:  In-phase
+      signal, Quadrature signal, Range, Doppler Angle, and Time.'
+  release: '3.0'
+  sources:
+  - origin:
+      ref: ISO/TS 19130-2:2014
+      locality:
+        type: clause
+        reference_from: '4.48'
+      link: https://www.iso.org/standard/56113.html
+    status: unspecified
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 단계 이력 자료
+  - type: expression
+    designation: video phase history data
+  language_code: kor
+  entry_status: valid
+date_accepted: '2014-01-15T00:00:00+05:00'
+id: 9bad74fc-565a-5dda-9be3-8eaa8efa95b4
+
+---
+data:
+  dates:
+  - date: '2014-01-15T00:00:00+05:00'
+    type: accepted
+  definition:
+  - content: необработанная информация о возврате сигнала радара после демодуляции
+  examples: []
+  id: '1406'
+  notes:
+  - content: 'обычно хранится в виде серии строк диапазона, каждая из которых содержит
+      информацию из определенного диапазона.  PHD можно рассматривать как таблицу
+      из пяти столбцов: Синфазный сигнал, Квадратурный сигнал, Диапазон, Угол Доплера
+      и Время'
+  release: '3.0'
+  sources:
+  - origin:
+      ref: ISO/TS 19130-2:2014
+      locality:
+        type: clause
+        reference_from: '4.48'
+      link: https://www.iso.org/standard/56113.html
+    status: unspecified
+    type: authoritative
+  - origin:
+      ref: ISO/TS 19130-2:2014
+    type: lineage
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: хронологические  данные фазы
+  - type: abbreviation
+    designation: PHD
+  - type: expression
+    designation: хронологические данные видео фазы
+  language_code: rus
+  entry_status: valid
+date_accepted: '2014-01-15T00:00:00+05:00'
+id: a1add24b-6606-538e-b472-7374ff98f53b
+
+---
+data:
+  dates:
+  - date: '2014-01-15T00:00:00+05:00'
+    type: accepted
+  definition:
+  - content: información de la señal bruta de retorno de radar después de ser demodulada
+  examples: []
+  id: '1406'
+  notes:
+  - content: 'Generalmente se almacena como una serie de líneas de rango, donde cada
+      una contiene información de un rango específico. PHD se puede definir como una
+      tabla de cinco columnas: señal de fase, señal de cuadratura, rango, ángulo Doppler
+      y hora.'
+  release: '3.0'
+  sources:
+  - origin:
+      ref: ISO/TS 19130-2:2014
+      locality:
+        type: clause
+        reference_from: '4.48'
+      link: https://www.iso.org/standard/56113.html
+    status: unspecified
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: datos de la historia de fase
+  - type: abbreviation
+    designation: PHD
+  - type: expression
+    designation: datos de la historia de video fase
+  language_code: spa
+  entry_status: valid
+date_accepted: '2014-01-15T00:00:00+05:00'
+id: 33085c2d-6807-5ede-9cb3-f631a7e82e9c

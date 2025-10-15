@@ -1,0 +1,51 @@
+---
+data:
+  identifier: '2693'
+  localized_concepts:
+    eng: 5447f4c9-700c-5a7f-8bb3-eff9d1089f13
+id: 9c4c578f-80e5-5158-bfa6-8c6cd94f1944
+date_accepted: '2022-11-24T00:00:00+05:00'
+status: valid
+
+---
+data:
+  dates:
+  - date: '2022-11-24T00:00:00+05:00'
+    type: accepted
+  definition:
+  - content: smallest change in input brightness temperature or radiance that can
+      be detected in the system output
+  examples: []
+  id: '2693'
+  notes:
+  - content: |-
+      This is often estimated by using the ideal equation for a total-power radiometer, as shown in the following formula. stem:[DeltaT_("min")=(T_("sys"))/(sqrt(Btau))]
+
+      where
+
+      stem:[DeltaT_("min")] is the radiometric resolution;
+      stem:[T_("sys")] is the radiometer system temperature;
+      stem:[B] is the bandwidth of the radiometer system
+      stem:[tau] is the integral time.
+
+      Radiometric resolution can be also estimated from the variant of this equation that is appropriate for the particular radiometer in question.
+  release: '6.0'
+  sources:
+  - origin:
+      ref: ISO/TS 19159-4:2022
+      locality:
+        type: clause
+        reference_from: '3.34'
+      link: https://www.iso.org/standard/66769.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: radiometric resolution
+  language_code: eng
+  entry_status: valid
+  review_date: '2022-11-24T00:00:00+05:00'
+  review_decision_date: '2022-11-24T00:00:00+05:00'
+  review_decision_event: Normal ISO processing
+date_accepted: '2022-11-24T00:00:00+05:00'
+id: 5447f4c9-700c-5a7f-8bb3-eff9d1089f13

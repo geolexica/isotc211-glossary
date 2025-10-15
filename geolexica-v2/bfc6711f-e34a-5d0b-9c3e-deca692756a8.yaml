@@ -1,0 +1,48 @@
+---
+data:
+  identifier: '2661'
+  localized_concepts:
+    eng: 5a76fb50-e0fa-5433-acd5-7941743d7e99
+id: bfc6711f-e34a-5d0b-9c3e-deca692756a8
+date_accepted: '2021-05-11T00:00:00+05:00'
+status: valid
+
+---
+data:
+  dates:
+  - date: '2021-05-11T00:00:00+05:00'
+    type: accepted
+  definition:
+  - content: particular region of space-time
+  examples: []
+  id: '2661'
+  notes:
+  - content: The primitives of zone are spatial location (3.31) and temporal period
+      (3.34).
+  - content: A zone may be either a single zonal primitive or a compound zone comprising
+      one spatial location and one temporal period. Zones can be regions of space-time
+      associated with any celestial body.
+  - content: Zones are the primary container for storing and retrieving data within
+      a DGGS implementation. DGGSs reference zones by their zonal identifier (3.50),
+      for instance in databases or through tile nomenclature.
+  - content: Each zone's geometry is represented by a cell
+  release: '6.0'
+  sources:
+  - origin:
+      ref: ISO 19170-1:2021
+      locality:
+        type: clause
+        reference_from: '3.52'
+      link: https://www.iso.org/standard/32588.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: zone <DGGS>
+  language_code: eng
+  entry_status: valid
+  review_date: '2021-05-11T00:00:00+05:00'
+  review_decision_date: '2021-05-11T00:00:00+05:00'
+  review_decision_event: Normal ISO processing
+date_accepted: '2021-05-11T00:00:00+05:00'
+id: 5a76fb50-e0fa-5433-acd5-7941743d7e99

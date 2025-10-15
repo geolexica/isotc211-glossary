@@ -1,0 +1,81 @@
+---
+data:
+  identifier: '2190'
+  localized_concepts:
+    eng: 953bcaf0-e3a0-5de0-af4c-d1b23ac251d0
+    spa: 35943fbe-7e00-5df4-976a-a5a04a542189
+id: 79956736-6541-5762-b9c2-de18c1169b0b
+date_accepted: '2018-05-01T00:00:00+05:00'
+status: valid
+
+---
+data:
+  dates:
+  - date: '2018-05-01T00:00:00+05:00'
+    type: accepted
+  definition:
+  - content: any signal or circuit unintentionally affecting another signal or circuit
+  examples: []
+  id: '2190'
+  notes:
+  - content: For PolSAR sensor, if the transmitting channel is horizontally (H) polarized,
+      the cross-talk on transmitting defines the ratio of V polarization transmitting
+      power to H polarization transmitting power, expressed in decibels (dB). The
+      cross-talk on receiving is similar to that on transmitting.
+  release: '5.0'
+  sources:
+  - origin:
+      ref: ISO/TS 19159-3:2018
+      locality:
+        type: clause
+        reference_from: '3.10'
+      link: https://www.iso.org/standard/74032.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: cross-talk
+  language_code: eng
+  entry_status: valid
+  review_date: '2018-05-01T00:00:00+05:00'
+  review_decision_date: '2018-05-01T00:00:00+05:00'
+  review_decision_event: Normal ISO processing
+date_accepted: '2018-05-01T00:00:00+05:00'
+id: 953bcaf0-e3a0-5de0-af4c-d1b23ac251d0
+
+---
+data:
+  dates:
+  - date: '2018-05-01T00:00:00+05:00'
+    type: accepted
+  definition:
+  - content: cualquier señal o circuito que afecte involuntariamente a otra señal
+      o circuito
+  examples: []
+  id: '2190'
+  notes:
+  - content: 'NOTA: En el caso del sensor PolSAR, si el canal de transmisión está
+      polarizado horizontalmente (H), la diafonía en la transmisión define la relación
+      entre la potencia de transmisión de la polarización V y la potencia de transmisión
+      de la polarización H, expresada en decibelios (dB). La diafonía en la recepción
+      es similar a la de la transmisión.'
+  release: '5.0'
+  sources:
+  - origin:
+      ref: ISO/TS 19159-3:2018
+      locality:
+        type: clause
+        reference_from: '3.10'
+      link: https://www.iso.org/standard/74032.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: diafonía
+  language_code: spa
+  entry_status: valid
+  review_date: '2018-05-01T00:00:00+05:00'
+  review_decision_date: '2018-05-01T00:00:00+05:00'
+  review_decision_event: Procedimiento normal de ISO
+date_accepted: '2018-05-01T00:00:00+05:00'
+id: 35943fbe-7e00-5df4-976a-a5a04a542189

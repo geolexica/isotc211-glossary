@@ -1,0 +1,92 @@
+---
+data:
+  identifier: '2236'
+  localized_concepts:
+    eng: 0760d270-0942-575d-a2a5-02d356aa4ff4
+    spa: 5c5bc253-8a71-50da-be69-2cbbd556cb49
+id: f16d1be9-ecef-56ef-a52b-ff448e7924c2
+date_accepted: '2019-12-02T00:00:00+05:00'
+status: valid
+
+---
+data:
+  dates:
+  - date: '2019-12-02T00:00:00+05:00'
+    type: accepted
+  definition:
+  - content: largest element smaller than or equal to all elements of a set contained
+      in an ordered domain (stem:[<=])
+  examples: []
+  id: '2236'
+  notes:
+  - content: stem:[[AA a in A => min(A) <= a] => [AA b in [(b in [AA a in A => b <=a]
+      => [min(A) >= b]]]] Any number is a lower bound of stem:[O/] considered as a
+      set of numbers, because any given number is less than any number in stem:[O/]
+      (an admitted vacuous statement since there is no number in stem:[O/], but true
+      nonetheless). This means that the stem:[min(O/)] must be greater than any number;
+      this stem:[+oo].
+  release: '5.0'
+  sources:
+  - origin:
+      ref: ISO 19107:2019
+      locality:
+        type: clause
+        reference_from: '3.63'
+      link: https://www.iso.org/standard/66175.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: admitted
+    designation: greatest lower bound <mathematics>
+  - type: abbreviation
+    designation: glb <mathematics>
+  - type: expression
+    designation: minimum <mathematics>
+  language_code: eng
+  entry_status: valid
+  review_date: '2019-12-02T00:00:00+05:00'
+  review_decision_date: '2019-12-02T00:00:00+05:00'
+  review_decision_event: Normal ISO processing
+date_accepted: '2019-12-02T00:00:00+05:00'
+id: 0760d270-0942-575d-a2a5-02d356aa4ff4
+
+---
+data:
+  dates:
+  - date: '2019-12-02T00:00:00+05:00'
+    type: accepted
+  definition:
+  - content: el  mayor elemento que es menor o igual a todos los elementos de un conjunto
+      contenido en un dominio ordenado <<matemáticas>>
+  examples: []
+  id: '2236'
+  notes:
+  - content: 'NOTA: (fórmula) Cualquier número es un límite inferior de ∅ considerado
+      como un conjunto de números, porque cualquier número dado es menor que cualquier
+      número en ∅ (una declaración vacía admitida ya que no hay ningún número en ∅,
+      pero verdadera de todos modos). Esto significa que el min(∅) debe ser mayor
+      que cualquier número; por lo tanto "+∞".'
+  release: '5.0'
+  sources:
+  - origin:
+      ref: ISO 19107:2019
+      locality:
+        type: clause
+        reference_from: '3.63'
+      link: https://www.iso.org/standard/66175.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: admitted
+    designation: límite inferior mayor <matemáticas>
+  - type: abbreviation
+    designation: glb <matemáticas>
+  - type: expression
+    designation: mínimo <matemáticas>
+  language_code: spa
+  entry_status: valid
+  review_date: '2019-12-02T00:00:00+05:00'
+  review_decision_date: '2019-12-02T00:00:00+05:00'
+  review_decision_event: Procedimiento normal de ISO
+date_accepted: '2019-12-02T00:00:00+05:00'
+id: 5c5bc253-8a71-50da-be69-2cbbd556cb49

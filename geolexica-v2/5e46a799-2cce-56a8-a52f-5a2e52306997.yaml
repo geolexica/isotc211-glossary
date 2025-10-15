@@ -1,0 +1,58 @@
+---
+data:
+  identifier: '2698'
+  localized_concepts:
+    eng: 106c596e-b814-5628-92fd-7dca323f9a39
+id: 5e46a799-2cce-56a8-a52f-5a2e52306997
+date_accepted: '2022-11-24T00:00:00+05:00'
+status: valid
+
+---
+data:
+  dates:
+  - date: '2022-11-24T00:00:00+05:00'
+    type: accepted
+  definition:
+  - content: set of four real quantities, which completely describe the polarization
+      state of monochromatic or quasi-monochromatic radiation
+  examples: []
+  id: '2698'
+  notes:
+  - content: The parameters are, collectively, known as the Stokes Real {ordered},
+      a stem:[4 xx 1] Real {ordered}.
+  - content: |-
+      The Stokes parameters were introduced as a mathematically convenient alternative by Sir George Stokes.[14,17] These four parameters are related to the horizontally and vertically polarized components of electric field by: stem:[[[I],[Q],[U],[V]] = 1/eta [[(:abs(E_"v")^2:)+(:abs(E_"h"):)^2],[(:abs(E_"v"):)^2-(:abs(E_"h"):)^2],[2"Re"(:E_"v"E_"h"^**:)],[2"Im"(:E_"v"E_"h"^**:)]]]
+
+      where
+
+      stem:[E_"v"] is the vertically polarized component of electric field;
+      stem:[E_"h"] is the horizontally polarized component of electric field.
+
+      The units of the Stokes parameters are stem:[W//m^2]. The first Stokes parameter (stem:[I]) gives the total radiation power density, and the second Stokes parameter (stem:[Q]) represents the power density difference between the two linearly polarized components. The third and fourth Stokes parameters (stem:[U] and stem:[V]) describe the correlation between these two components.
+  - content: "For microwave remote sensing, modified Stokes parameters are often used.
+      Under the Rayleigh-Jeans approximation, the modified Stokes parameters in brightness
+      temperature are given by the following formula:[19], [37] stem:[[[T_\"v\"],[T_\"h\"],[T_3],[T_4]]=(lambda^2)/(\"k\"etaB)[[(:abs(E_\"v\")^2:)],[(:abs(E_\"h\")^2:)],[2\"Re\"(:E_\"v\"E_\"h\"^**:)],[2\"Im\"(:E_\"v\"E_\"h\"^**:)]]]
+      \nwhere stem:[T_\"v\"], stem:[T_\"h\"], stem:[T_3] and stem:[T_4] are, respectively,
+      the vertically and horizontally polarized and the third and fourth Stokes parameters,
+      and stem:[B] is the radiometer system bandwidth."
+  release: '6.0'
+  sources:
+  - origin:
+      ref: ISO 12005:2003
+      locality:
+        type: clause
+        reference_from: 3.11, modified - Original notes to entry have been removed
+          and replaced.
+      link: https://www.iso.org/standard/31277.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Stokes parameters
+  language_code: eng
+  entry_status: valid
+  review_date: '2022-11-24T00:00:00+05:00'
+  review_decision_date: '2022-11-24T00:00:00+05:00'
+  review_decision_event: Normal ISO processing
+date_accepted: '2022-11-24T00:00:00+05:00'
+id: 106c596e-b814-5628-92fd-7dca323f9a39

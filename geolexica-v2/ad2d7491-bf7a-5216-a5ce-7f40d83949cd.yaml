@@ -1,0 +1,103 @@
+---
+data:
+  identifier: '2455'
+  localized_concepts:
+    eng: 417ee469-69c0-5961-ab59-5997c050594a
+    spa: 6a05cbe8-f47d-5f20-b567-8c26bcbd9095
+id: ad2d7491-bf7a-5216-a5ce-7f40d83949cd
+date_accepted: '2019-12-02T00:00:00+05:00'
+status: valid
+
+---
+data:
+  dates:
+  - date: '2019-12-02T00:00:00+05:00'
+    type: accepted
+  definition:
+  - content: point in a stem:[n]-dimension coordinate system using stem:[n+1] numbers,
+      latexmath:[([u_0, u_1, u_2, u_3, ... , u_n] \backepsilon [[0 \leq u_i \leq 1]
+      \wedge \sum u_i = 1.0])], in which the location of a point of an n-simplex (of
+      any dimension) is specified by a weighted centre of mass of equal masses placed
+      at its vertices using vector algebra of the stem:[RR^n] used in the coordinate
+      reference system
+  examples: []
+  id: '2455'
+  notes:
+  - content: Even though there are stem:[n+1] coordinates in a barycentric coordinate
+      system, the topological dimension is stem:[n], since the restriction (sums to
+      1.0) loses 1 degree of freedom (once you have stem:[n] ordinates, the remaining
+      one is determined such as stem:[u_n = 1.0 − sum_(i=0)^(n-1) u_i]. he coordinates
+      for the simplex are all non-negative, but the system can be extended outside
+      of the simples by using negative numbers. If the ordinates are all positive,
+      then the point is inside (interior to) the stem:[n]-simplex. If one of them
+      is 1.0 and the other 0, this is a corner of the simplex. If one of them is zero
+      and the others still each greater than or equal to zero, the point is on the
+      stem:[n-1]-simplex opposite the vertex zeroed out. If any are negative, the
+      point is outside of the simplex. The coordinates are dependent on the underlying
+      coordinate reference system of the source data.
+  release: '5.0'
+  sources:
+  - origin:
+      ref: ISO 19107:2019
+      locality:
+        type: clause
+        reference_from: '3.3'
+      link: https://www.iso.org/standard/66175.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: barycentric coordinates <coordinate geometry>
+  language_code: eng
+  entry_status: valid
+  review_date: '2019-12-02T00:00:00+05:00'
+  review_decision_date: '2019-12-02T00:00:00+05:00'
+  review_decision_event: Normal ISO processing
+date_accepted: '2019-12-02T00:00:00+05:00'
+id: 417ee469-69c0-5961-ab59-5997c050594a
+
+---
+data:
+  dates:
+  - date: '2019-12-02T00:00:00+05:00'
+    type: accepted
+  definition:
+  - content: punto en un sistema de coordenadas n-dimensional utilizando n+1 números
+      (fórmula), en el que la ubicación de un punto de un n-simplex (de cualquier
+      dimensión) se especifica por un centro de masa ponderado de masas iguales situado
+      en sus vértices utilizando el álgebra vectorial del Rn utilizado en el sistema
+      de referencia por coordenadas
+  examples: []
+  id: '2455'
+  notes:
+  - content: 'NOTA 1: Aunque hay n+1 coordenadas en un sistema de coordenadas baricéntricas,
+      la dimensión topológica es n, ya que la restricción (suma 1,0) pierde 1 grado
+      de libertad (una vez que se tienen n ordenadas, la restante se determina como
+      (fórmula) . Las coordenadas para el simplex son todas no-negativas, pero el
+      sistema puede extenderse fuera de los simples usando números negativos. Si las
+      ordenadas son todas positivas, entonces el punto está dentro (interior a) del
+      n-simplex. Si uno de ellos es 1.0 y el otro 0, es una esquina del simplex. Si
+      uno de ellos es cero y los otros siguen siendo cada uno mayor o igual a cero,
+      el punto está en el n-1-simplex opuesto al vértice puesto a cero. Si alguno
+      es negativo, el punto está fuera del simplex. Las coordenadas dependen del sistema
+      de referencia por coordenadas subyacente de los datos de origen.'
+  release: '5.0'
+  sources:
+  - origin:
+      ref: ISO 19107:2019
+      locality:
+        type: clause
+        reference_from: '3.3'
+      link: https://www.iso.org/standard/66175.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: coordenadas baricéntricas <coordenadas de geometría>
+  language_code: spa
+  entry_status: valid
+  review_date: '2019-12-02T00:00:00+05:00'
+  review_decision_date: '2019-12-02T00:00:00+05:00'
+  review_decision_event: Procedimiento normal de ISO
+date_accepted: '2019-12-02T00:00:00+05:00'
+id: 6a05cbe8-f47d-5f20-b567-8c26bcbd9095
