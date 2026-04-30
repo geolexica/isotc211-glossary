@@ -1,0 +1,43 @@
+name: publish-gcr
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish-gcr:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Checkout vocabulary-browser
+        uses: actions/checkout@v4
+        with:
+          repository: glossarist/vocabulary-browser
+          ref: main
+          path: vocabulary-browser
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: vocabulary-browser/package-lock.json
+
+      - run: npm ci
+        working-directory: vocabulary-browser
+
+      - name: Build GCR package
+        run: node scripts/package-dataset.mjs "$GITHUB_WORKSPACE" --id isotc211 -o "$GITHUB_WORKSPACE/../isotc211.gcr"
+        working-directory: vocabulary-browser
+
+      - name: Update gcr-latest release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: gcr-latest
+          name: "GCR Package (latest)"
+          body: "Auto-generated GCR package with harmonized concepts. Updated on push to main."
+          files: ../isotc211.gcr
