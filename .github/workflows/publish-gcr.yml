@@ -2,9 +2,13 @@ name: publish-gcr
 
 on:
   push:
-    branches: [main]
-    tags: ['gcr-v*']
+    tags: ['v*']
   workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version (e.g. 1.0.0)'
+        required: true
+        type: string
 
 permissions:
   contents: write
@@ -19,23 +23,18 @@ jobs:
         with:
           ruby-version: '3.2'
 
-      - name: Install glossarist
-        run: gem install glossarist
+      - run: gem install glossarist
 
       - name: Determine version
         id: version
         run: |
-          if [[ "${GITHUB_REF}" == refs/tags/gcr-v* ]]; then
-            VERSION="${GITHUB_REF_NAME#gcr-v}"
-            echo "version=${VERSION}" >> "$GITHUB_OUTPUT"
-            echo "tag=gcr-v${VERSION}" >> "$GITHUB_OUTPUT"
-            echo "filename=isotc211-${VERSION}.gcr" >> "$GITHUB_OUTPUT"
+          if [[ "${GITHUB_REF}" == refs/tags/v* ]]; then
+            VERSION="${GITHUB_REF_NAME#v}"
           else
-            DATEVER=$(date +%Y.%m.%d)
-            echo "version=${DATEVER}" >> "$GITHUB_OUTPUT"
-            echo "tag=gcr-latest" >> "$GITHUB_OUTPUT"
-            echo "filename=isotc211.gcr" >> "$GITHUB_OUTPUT"
+            VERSION="${{ inputs.version }}"
           fi
+          echo "version=${VERSION}" >> "$GITHUB_OUTPUT"
+          echo "filename=isotc211-${VERSION}.gcr" >> "$GITHUB_OUTPUT"
 
       - name: Build GCR package
         run: |
@@ -45,10 +44,15 @@ jobs:
             --title "ISO/TC 211 Multi-Lingual Glossary" \
             --owner "ISO/TC 211"
 
-      - name: Publish release
+      - name: Create unversioned alias
+        run: cp "${{ steps.version.outputs.filename }}" isotc211.gcr
+
+      - name: Publish GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ steps.version.outputs.tag }}
-          name: "GCR Package ${{ steps.version.outputs.version }}"
-          body: "Auto-generated GCR package. ${{ steps.version.outputs.version }}"
-          files: ${{ steps.version.outputs.filename }}
+          tag_name: v${{ steps.version.outputs.version }}
+          name: "GCR Package v${{ steps.version.outputs.version }}"
+          body: "Auto-generated GCR package containing isotc211 concepts."
+          files: |
+            ${{ steps.version.outputs.filename }}
+            isotc211.gcr
