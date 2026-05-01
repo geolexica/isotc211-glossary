@@ -3,6 +3,7 @@ name: publish-gcr
 on:
   push:
     branches: [main]
+    tags: ['gcr-v*']
   workflow_dispatch:
 
 permissions:
@@ -14,30 +15,40 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Checkout vocabulary-browser
-        uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
         with:
-          repository: glossarist/vocabulary-browser
-          ref: main
-          path: vocabulary-browser
+          ruby-version: '3.2'
 
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: npm
-          cache-dependency-path: vocabulary-browser/package-lock.json
+      - name: Install glossarist
+        run: gem install glossarist
 
-      - run: npm ci
-        working-directory: vocabulary-browser
+      - name: Determine version
+        id: version
+        run: |
+          if [[ "${GITHUB_REF}" == refs/tags/gcr-v* ]]; then
+            VERSION="${GITHUB_REF_NAME#gcr-v}"
+            echo "version=${VERSION}" >> "$GITHUB_OUTPUT"
+            echo "tag=gcr-v${VERSION}" >> "$GITHUB_OUTPUT"
+            echo "filename=isotc211-${VERSION}.gcr" >> "$GITHUB_OUTPUT"
+          else
+            DATEVER=$(date +%Y.%m.%d)
+            echo "version=${DATEVER}" >> "$GITHUB_OUTPUT"
+            echo "tag=gcr-latest" >> "$GITHUB_OUTPUT"
+            echo "filename=isotc211.gcr" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Build GCR package
-        run: node scripts/package-dataset.mjs "$GITHUB_WORKSPACE" --id isotc211 -o "$GITHUB_WORKSPACE/../isotc211.gcr"
-        working-directory: vocabulary-browser
+        run: |
+          glossarist package . -o "${{ steps.version.outputs.filename }}" \
+            --shortname isotc211 \
+            --version "${{ steps.version.outputs.version }}" \
+            --title "ISO/TC 211 Multi-Lingual Glossary" \
+            --owner "ISO/TC 211"
 
-      - name: Update gcr-latest release
+      - name: Publish release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: gcr-latest
-          name: "GCR Package (latest)"
-          body: "Auto-generated GCR package with harmonized concepts. Updated on push to main."
-          files: ../isotc211.gcr
+          tag_name: ${{ steps.version.outputs.tag }}
+          name: "GCR Package ${{ steps.version.outputs.version }}"
+          body: "Auto-generated GCR package. ${{ steps.version.outputs.version }}"
+          files: ${{ steps.version.outputs.filename }}
