@@ -1,142 +1,48 @@
-# 01 — GCR Package Publishing via glossarist Ruby Gem
+# 01 — Versioned GCR Publishing via glossarist Ruby Gem
 
 ## Goal
 
-This repository publishes a GCR package as a GitHub Release asset on every push to `main`. The vocabulary-browser downloads this GCR to build www.geolexica.org.
+This repository publishes versioned GCR packages as GitHub Releases, triggered by version tags. The glossarist gem handles the v2 → canonical conversion and packaging.
 
 ## Repository Info
 
-- **Dataset ID:** `isotc211`
-- **Owner:** ISO/TC 211
-- **Concept format:** v2 (`geolexica-v2/*.yaml` — UUID-named multi-document YAML with concept + localized concepts per file)
-- **Concept count:** ~1,507
-- **Languages:** eng, ara, zho, fin, fra, deu, kor, rus, spa (14 total)
-- **GCR release asset:** `isotc211.gcr`
+| Field | Value |
+|-------|-------|
+| **Dataset ID / shortname** | `isotc211` |
+| **Owner** | ISO/TC 211 |
+| **Format** | v2 (`geolexica-v2/*.yaml` — UUID multi-document YAML) |
+| **Concepts** | ~1,507 |
+| **Languages** | 14 (eng, ara, zho, fin, fra, deu, kor, rus, spa, ...) |
+| **GCR filename** | `isotc211-{version}.gcr` |
 
-## Current State
+## Release Convention
 
-- `.github/workflows/publish-gcr.yml` checks out vocabulary-browser and uses its Node.js script
-- Concepts are in `geolexica-v2/` directory (UUID YAML format) — NOT in `concepts/`
-- The `concepts/` directory does NOT exist in git HEAD (was removed in commit `5ed9b0058`)
-- A temporary Node.js converter (`package-dataset.mjs`) was used to build GCR — this must be replaced with the glossarist Ruby gem
+| Trigger | Tag | Assets |
+|---------|-----|--------|
+| Push tag `v2.3.0` | `v2.3.0` | `isotc211-2.3.0.gcr` + `isotc211.gcr` |
+| workflow_dispatch | `v{version}` | `isotc211-{version}.gcr` + `isotc211.gcr` |
 
-## Key Challenge: v2 Format
-
-The `geolexica-v2/` directory contains files like `00061441-c9f2-5dd8-b28b-20dd94ad5ebf.yaml`. Each file is a multi-document YAML:
-
-```yaml
----
-data:
-  identifier: '699'
-  localized_concepts:
-    eng: f97c8700-4637-5d81-875d-4db604cf319b
-    ara: 48aee9d4-b7ce-5aac-b00f-d4170673471b
-    ...
-id: 00061441-c9f2-5dd8-b28b-20dd94ad5ebf
-
----
-data:
-  definition:
-  - content: application schema written in UML...
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: UML application schema
-  language_code: eng
-id: f97c8700-4637-5d81-875d-4db604cf319b
+### Download URLs
+```
+https://github.com/geolexica/isotc211-glossary/releases/latest/download/isotc211.gcr
+https://github.com/geolexica/isotc211-glossary/releases/download/v2.3.0/isotc211-2.3.0.gcr
 ```
 
-The glossarist Ruby gem's `ConceptManager` already handles this format via `load_from_files`. The `glossarist package` CLI needs to use it.
-
-## Tasks
-
-### 1. Verify glossarist Ruby gem handles v2 format
+## How to publish
 
 ```bash
-gem install glossarist
-
-# Test loading v2 concepts
-ruby -e '
-  collection = Glossarist::ManagedConceptCollection.new
-  collection.load_from_files("/path/to/isotc211-glossary/geolexica-v2")
-  puts "Loaded #{collection.count} concepts"
-'
-
-# Test packaging
-glossarist package /path/to/isotc211-glossary -o isotc211.gcr \
-  --title "ISO/TC 211 Multi-Lingual Glossary" \
-  --owner "ISO/TC 211"
+git tag v2.3.0
+git push origin v2.3.0
 ```
 
-If `glossarist package` doesn't auto-detect the v2 directory, the gem needs updating first (see `glossarist-ruby/TODO.integration/01-gcr-package-cli.md`).
+## Key: v2 Format Handling
 
-### 2. Replace publish-gcr.yml
-
-```yaml
-name: publish-gcr
-
-on:
-  push:
-    branches: [main]
-  workflow_dispatch:
-
-permissions:
-  contents: write
-
-jobs:
-  publish-gcr:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.2'
-
-      - name: Install glossarist
-        run: gem install glossarist
-
-      - name: Build GCR package
-        run: |
-          glossarist package . -o isotc211.gcr \
-            --title "ISO/TC 211 Multi-Lingual Glossary" \
-            --owner "ISO/TC 211"
-
-      - name: Update gcr-latest release
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: gcr-latest
-          name: "GCR Package (latest)"
-          body: "Auto-generated GCR package. Updated on push to main."
-          files: isotc211.gcr
-```
-
-### 3. Verify GCR content
-
-```bash
-glossarist validate isotc211.gcr
-# Should show ~1,507 concepts, 14 languages
-```
-
-### 4. Verify downstream
-
-After publishing, confirm vocabulary-browser can download and use the GCR:
-```bash
-# In vocabulary-browser
-npm run fetch-datasets  # should download isotc211.gcr from release
-npm run generate-data   # should generate 1,507 concepts
-```
-
-## GCR Download URL
-
-```
-https://github.com/geolexica/isotc211-glossary/releases/download/gcr-latest/isotc211.gcr
-```
+Concepts live in `geolexica-v2/` as multi-document YAML with UUID filenames. The `glossarist package` command auto-detects this and converts via `ConceptManager`.
 
 ## Acceptance Criteria
 
-- [ ] `publish-gcr.yml` uses `gem install glossarist` (no Node.js, no vocabulary-browser checkout)
+- [ ] `publish-gcr.yml` triggers on `v*` tag push only
 - [ ] `glossarist package` handles `geolexica-v2/` format
-- [ ] GCR contains ~1,507 concepts with 14 languages
-- [ ] GCR uploaded to `gcr-latest` release
-- [ ] vocabulary-browser fetch + generate works with the new GCR
+- [ ] Release has both versioned and unversioned GCR assets
+- [ ] `metadata.yaml` has `shortname: isotc211` and `version`
+- [ ] No checkout of vocabulary-browser
