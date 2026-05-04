@@ -1,0 +1,26 @@
+name: build
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - 'v*'
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  validate:
+    name: Validate concepts
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+
+      - run: gem install glossarist
+
+      - name: Validate with glossarist
+        run: glossarist validate .
