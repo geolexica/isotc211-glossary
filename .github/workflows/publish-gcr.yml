@@ -34,25 +34,37 @@ jobs:
             VERSION="${{ inputs.version }}"
           fi
           echo "version=${VERSION}" >> "$GITHUB_OUTPUT"
-          echo "filename=isotc211-${VERSION}.gcr" >> "$GITHUB_OUTPUT"
 
-      - name: Build GCR package
+      - name: Build standard GCR package
         run: |
-          glossarist package . -o "${{ steps.version.outputs.filename }}" \
+          glossarist package . -o "isotc211-${{ steps.version.outputs.version }}.gcr" \
             --shortname isotc211 \
             --version "${{ steps.version.outputs.version }}" \
             --title "ISO/TC 211 Geographic Information Vocabulary" \
             --owner "ISO/TC 211"
 
-      - name: Create unversioned alias
-        run: cp "${{ steps.version.outputs.filename }}" isotc211.gcr
+      - name: Build full GCR package (with formats)
+        run: |
+          glossarist package . -o "isotc211-${{ steps.version.outputs.version }}-full.gcr" \
+            --shortname isotc211 \
+            --version "${{ steps.version.outputs.version }}" \
+            --title "ISO/TC 211 Geographic Information Vocabulary" \
+            --owner "ISO/TC 211" \
+            --compiled-formats tbx,jsonld,turtle,jsonl
+
+      - name: Create unversioned aliases
+        run: |
+          cp "isotc211-${{ steps.version.outputs.version }}.gcr" isotc211.gcr
+          cp "isotc211-${{ steps.version.outputs.version }}-full.gcr" isotc211-full.gcr
 
       - name: Publish GitHub Release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: v${{ steps.version.outputs.version }}
           name: "GCR Package v${{ steps.version.outputs.version }}"
-          body: "Auto-generated GCR package containing isotc211 concepts."
+          body: "Auto-generated GCR package containing ISO/TC 211 concepts."
           files: |
-            ${{ steps.version.outputs.filename }}
+            isotc211-${{ steps.version.outputs.version }}.gcr
             isotc211.gcr
+            isotc211-${{ steps.version.outputs.version }}-full.gcr
+            isotc211-full.gcr
