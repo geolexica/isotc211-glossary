@@ -40,7 +40,7 @@ jobs:
           glossarist package . -o "isotc211-${{ steps.version.outputs.version }}.gcr" \
             --shortname isotc211 \
             --version "${{ steps.version.outputs.version }}" \
-            --title "ISO/TC 211 Multi-Lingual Glossary" \
+            --title "ISO/TC 211 Geographic Information Vocabulary" \
             --owner "ISO/TC 211"
 
       - name: Build full GCR package (with formats)
@@ -48,7 +48,7 @@ jobs:
           glossarist package . -o "isotc211-${{ steps.version.outputs.version }}-full.gcr" \
             --shortname isotc211 \
             --version "${{ steps.version.outputs.version }}" \
-            --title "ISO/TC 211 Multi-Lingual Glossary" \
+            --title "ISO/TC 211 Geographic Information Vocabulary" \
             --owner "ISO/TC 211" \
             --compiled-formats tbx,jsonld,turtle,jsonl
 
