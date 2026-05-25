@@ -1,0 +1,95 @@
+data:
+  identifier: '1557'
+  localized_concepts:
+    eng: 0ba92f94-2574-51b0-9deb-2073f92bcedb
+    spa: 353d5098-0789-5667-a0cd-1caa0c46f676
+  domains:
+  - concept_id: iso-19160-1
+    source: urn:iso:std:iso
+    ref_type: domain
+related:
+- content: iso-19160-1
+  type: broader
+  ref:
+    source: ISO
+    id: iso-19160-1
+date_accepted: '2015-12-15T00:00:00+05:00'
+status: valid
+schema_version: '3'
+id: 1b058123-a4b9-537d-8555-2b9a942b61cc
+---
+data:
+  dates:
+  - date: '2015-12-15T00:00:00+05:00'
+    type: accepted
+  - date: '2012-02-27T00:00:00+05:00'
+    type: review
+  - date: '2015-12-15T00:00:00+05:00'
+    type: review_decision
+    event_description: Normal ISO processing
+  definition:
+  - content: address of a parent addressable object
+  examples: []
+  id: '1557'
+  notes:
+  - content: Addresses of the child addressable objects fully inherit the address
+      components of a parent address.
+  release: '4.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO 19160-1:2015
+      locality:
+        type: clause
+        reference_from: '4.13'
+      link: https://www.iso.org/standard/61710.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: parent address
+  language_code: eng
+  entry_status: valid
+  reviewDate: '2012-02-27T00:00:00+05:00'
+  reviewDecisionDate: '2015-12-15T00:00:00+05:00'
+  reviewDecisionEvent: Normal ISO processing
+date_accepted: '2015-12-15T00:00:00+05:00'
+id: 0ba92f94-2574-51b0-9deb-2073f92bcedb
+---
+data:
+  dates:
+  - date: '2015-12-15T00:00:00+05:00'
+    type: accepted
+  - date: '2012-02-27T00:00:00+05:00'
+    type: review
+  - date: '2015-12-15T00:00:00+05:00'
+    type: review_decision
+    event_description: Normal ISO processing
+  definition:
+  - content: dirección de un objeto padre direccionable
+  examples: []
+  id: '1557'
+  notes:
+  - content: Las direcciones de los objetos direccionables hijos heredan todos los
+      componentes de la dirección padre.
+  release: '4.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO 19160-1:2015
+      locality:
+        type: clause
+        reference_from: '4.13'
+      link: https://www.iso.org/standard/61710.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dirección padre
+  language_code: spa
+  entry_status: valid
+  reviewDate: '2012-02-27T00:00:00+05:00'
+  reviewDecisionDate: '2015-12-15T00:00:00+05:00'
+  reviewDecisionEvent: Normal ISO processing
+date_accepted: '2015-12-15T00:00:00+05:00'
+id: 353d5098-0789-5667-a0cd-1caa0c46f676

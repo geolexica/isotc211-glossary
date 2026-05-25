@@ -1,0 +1,96 @@
+data:
+  identifier: '2260'
+  localized_concepts:
+    eng: 62c2e99f-a074-52ed-ad5a-eb255f6c782d
+    spa: 39efe780-49c7-5ef1-a8ff-320ad9abd1b1
+  domains:
+  - concept_id: iso-19146
+    source: urn:iso:std:iso
+    ref_type: domain
+related:
+- content: iso-19146
+  type: broader
+  ref:
+    source: ISO
+    id: iso-19146
+date_accepted: '2018-06-01T00:00:00+05:00'
+status: valid
+schema_version: '3'
+id: 670a8c3f-5bf8-545b-b5e2-ae3fcd691f87
+---
+data:
+  dates:
+  - date: '2018-06-01T00:00:00+05:00'
+    type: accepted
+  - date: '2018-06-01T00:00:00+05:00'
+    type: review
+  - date: '2018-06-01T00:00:00+05:00'
+    type: review_decision
+    event_description: Normal ISO processing
+  definition:
+  - content: register of cross-map entries
+  examples: []
+  id: '2260'
+  notes:
+  - content: A cross-map register may be realized as a subregister in a hierarchical
+      register. In such cases, the term "cross-map subregister" may be used.
+  release: '5.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO 19146:2018
+      locality:
+        type: clause
+        reference_from: 3.1.7
+      link: https://www.iso.org/standard/72217.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: cross-map register
+  language_code: eng
+  entry_status: valid
+  reviewDate: '2018-06-01T00:00:00+05:00'
+  reviewDecisionDate: '2018-06-01T00:00:00+05:00'
+  reviewDecisionEvent: Normal ISO processing
+date_accepted: '2018-06-01T00:00:00+05:00'
+id: 62c2e99f-a074-52ed-ad5a-eb255f6c782d
+---
+data:
+  dates:
+  - date: '2018-06-01T00:00:00+05:00'
+    type: accepted
+  - date: '2018-06-01T00:00:00+05:00'
+    type: review
+  - date: '2018-06-01T00:00:00+05:00'
+    type: review_decision
+    event_description: Procedimiento normal de ISO
+  definition:
+  - content: registro de entradas de correspondencia
+  examples: []
+  id: '2260'
+  notes:
+  - content: NOTA Un registro de correspondencia se puede materializar como un subregistro
+      de un registro jerárquico. En esos casos, puede utilizarse el término «subregistro
+      de correspondencia».
+  release: '5.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO 19146:2018
+      locality:
+        type: clause
+        reference_from: 3.1.7
+      link: https://www.iso.org/standard/72217.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: registro de correspondencia
+  language_code: spa
+  entry_status: valid
+  reviewDate: '2018-06-01T00:00:00+05:00'
+  reviewDecisionDate: '2018-06-01T00:00:00+05:00'
+  reviewDecisionEvent: Procedimiento normal de ISO
+date_accepted: '2018-06-01T00:00:00+05:00'
+id: 39efe780-49c7-5ef1-a8ff-320ad9abd1b1

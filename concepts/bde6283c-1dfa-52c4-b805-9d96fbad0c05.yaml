@@ -1,0 +1,56 @@
+data:
+  identifier: '2489'
+  localized_concepts:
+    eng: 44d370a8-86f0-5c37-bf9d-6b839ee58bb2
+  domains:
+  - concept_id: iso-6709
+    source: urn:iso:std:iso
+    ref_type: domain
+related:
+- content: iso-6709
+  type: broader
+  ref:
+    source: ISO
+    id: iso-6709
+date_accepted: '2022-09-27T00:00:00+05:00'
+status: valid
+schema_version: '3'
+id: bde6283c-1dfa-52c4-b805-9d96fbad0c05
+---
+data:
+  dates:
+  - date: '2022-09-27T00:00:00+05:00'
+    type: accepted
+  - date: '2022-09-27T00:00:00+05:00'
+    type: review
+  - date: '2022-09-27T00:00:00+05:00'
+    type: review_decision
+    event_description: Normal ISO processing
+  definition:
+  - content: unit associated with the least significant digit of a coordinate
+  examples: []
+  id: '2489'
+  notes:
+  - content: Coordinate resolution may have linear or angular units depending on the
+      characteristics of the coordinate system.
+  release: '6.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO 6709:2022
+      locality:
+        type: clause
+        reference_from: '3.18'
+      link: https://www.iso.org/standard/75147.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: resolution (of a coordinate)
+  language_code: eng
+  entry_status: valid
+  reviewDate: '2022-09-27T00:00:00+05:00'
+  reviewDecisionDate: '2022-09-27T00:00:00+05:00'
+  reviewDecisionEvent: Normal ISO processing
+date_accepted: '2022-09-27T00:00:00+05:00'
+id: 44d370a8-86f0-5c37-bf9d-6b839ee58bb2

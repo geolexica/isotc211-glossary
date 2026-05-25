@@ -1,0 +1,56 @@
+data:
+  identifier: '2623'
+  localized_concepts:
+    eng: 5f674217-ec3d-535d-8e5c-9cded715ccf2
+  domains:
+  - concept_id: iso-19131
+    source: urn:iso:std:iso
+    ref_type: domain
+related:
+- content: iso-19131
+  type: broader
+  ref:
+    source: ISO
+    id: iso-19131
+date_accepted: '2022-11-28T00:00:00+05:00'
+status: valid
+schema_version: '3'
+id: 71fd673d-e484-5dd6-9861-162c18df7f8f
+---
+data:
+  dates:
+  - date: '2022-11-28T00:00:00+05:00'
+    type: accepted
+  - date: '2022-11-28T00:00:00+05:00'
+    type: review
+  - date: '2022-11-28T00:00:00+05:00'
+    type: review_decision
+    event_description: Normal ISO processing
+  definition:
+  - content: action or process of collecting data
+  examples: []
+  id: '2623'
+  notes:
+  - content: The capture can be by human interaction (such as field observation) or
+      by machines.
+  release: '6.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO 19131:2022
+      locality:
+        type: clause
+        reference_from: '3.7'
+      link: https://www.iso.org/standard/85092.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: data capture
+  language_code: eng
+  entry_status: valid
+  reviewDate: '2022-11-28T00:00:00+05:00'
+  reviewDecisionDate: '2022-11-28T00:00:00+05:00'
+  reviewDecisionEvent: Normal ISO processing
+date_accepted: '2022-11-28T00:00:00+05:00'
+id: 5f674217-ec3d-535d-8e5c-9cded715ccf2

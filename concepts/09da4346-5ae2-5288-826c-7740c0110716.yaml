@@ -1,0 +1,61 @@
+data:
+  identifier: '2883'
+  localized_concepts:
+    eng: 629dc3a7-b069-55c9-813f-1232326e48ae
+  domains:
+  - concept_id: iso-ts-19159-4
+    source: urn:iso:std:iso
+    ref_type: domain
+related:
+- content: iso-ts-19159-4
+  type: broader
+  ref:
+    source: ISO
+    id: iso-ts-19159-4
+date_accepted: '2023-04-27T00:00:00+05:00'
+status: valid
+schema_version: '3'
+id: 09da4346-5ae2-5288-826c-7740c0110716
+---
+data:
+  dates:
+  - date: '2023-04-27T00:00:00+05:00'
+    type: accepted
+  - date: '2023-04-27T00:00:00+05:00'
+    type: review
+  - date: '2023-04-27T00:00:00+05:00'
+    type: review_decision
+    event_description: Normal ISO processing
+  definition:
+  - content: equation relating the primary measure and that of the radiometer, for
+      example the brightness temperature, to subsidiary measurands, such as powers,
+      and to calibration quantities, such as standard values
+  examples: []
+  id: '2883'
+  notes: []
+  release: '6.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO/TS 19159-4:2022
+      locality:
+        type: clause
+        reference_from: '3.15'
+      link: https://www.iso.org/standard/66769.html
+    status: unspecified
+    type: authoritative
+  - origin:
+      ref:
+        source: ISO/TS 19124-1:20233.5
+    type: lineage
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: calibration equation
+  language_code: eng
+  entry_status: valid
+  reviewDate: '2023-04-27T00:00:00+05:00'
+  reviewDecisionDate: '2023-04-27T00:00:00+05:00'
+  reviewDecisionEvent: Normal ISO processing
+date_accepted: '2023-04-27T00:00:00+05:00'
+id: 629dc3a7-b069-55c9-813f-1232326e48ae

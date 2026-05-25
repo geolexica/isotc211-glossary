@@ -1,0 +1,57 @@
+data:
+  identifier: '2950'
+  localized_concepts:
+    eng: 5fe929de-b3e4-570f-a25e-ee812a6b5b1f
+  domains:
+  - concept_id: iso-19123-1
+    source: urn:iso:std:iso
+    ref_type: domain
+related:
+- content: iso-19123-1
+  type: broader
+  ref:
+    source: ISO
+    id: iso-19123-1
+date_accepted: '2023-06-21T00:00:00+05:00'
+status: valid
+schema_version: '3'
+id: 0bb8b78b-b3c4-5e6e-8707-a3d834ee99a7
+---
+data:
+  dates:
+  - date: '2023-06-21T00:00:00+05:00'
+    type: accepted
+  - date: '2023-06-21T00:00:00+05:00'
+    type: review
+  - date: '2023-06-21T00:00:00+05:00'
+    type: review_decision
+    event_description: Normal ISO processing
+  definition:
+  - content: coordinate reference system of a grid coverage
+  examples: []
+  id: '2950'
+  notes:
+  - content: This is consistent with the definition in ISO 19136-2:2015, 4.2.1.
+  release: '6.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO 19123-1:2023
+      locality:
+        type: clause
+        reference_from: 3.1.29
+      link: https://www.iso.org/standard/70743.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: grid coordinate reference system <coverage>
+  - type: expression
+    designation: grid CRS
+  language_code: eng
+  entry_status: valid
+  reviewDate: '2023-06-21T00:00:00+05:00'
+  reviewDecisionDate: '2023-06-21T00:00:00+05:00'
+  reviewDecisionEvent: Normal ISO processing
+date_accepted: '2023-06-21T00:00:00+05:00'
+id: 5fe929de-b3e4-570f-a25e-ee812a6b5b1f

@@ -1,0 +1,55 @@
+data:
+  identifier: '2720'
+  localized_concepts:
+    eng: 81a77e4f-80dc-5e33-bb0c-ac3321136637
+  domains:
+  - concept_id: iso-19156
+    source: urn:iso:std:iso
+    ref_type: domain
+related:
+- content: iso-19156
+  type: broader
+  ref:
+    source: ISO
+    id: iso-19156
+date_accepted: '2023-04-27T00:00:00+05:00'
+status: valid
+schema_version: '3'
+id: e79f5a93-ca8b-5b8a-91c6-e70c2ecceee7
+---
+data:
+  dates:
+  - date: '2023-04-27T00:00:00+05:00'
+    type: accepted
+  - date: '2023-04-27T00:00:00+05:00'
+    type: review
+  - date: '2023-04-27T00:00:00+05:00'
+    type: review_decision
+    event_description: Normal ISO processing
+  definition:
+  - content: entity that is directly of interest in the act of observing
+  examples: []
+  id: '2720'
+  notes:
+  - content: This is a specialized form of the feature-of-interest.
+  release: '6.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO 19156:2023
+      locality:
+        type: clause
+        reference_from: '3.20'
+      link: https://www.iso.org/standard/82463.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: proximate feature-of-interest
+  language_code: eng
+  entry_status: valid
+  reviewDate: '2023-04-27T00:00:00+05:00'
+  reviewDecisionDate: '2023-04-27T00:00:00+05:00'
+  reviewDecisionEvent: Normal ISO processing
+date_accepted: '2023-04-27T00:00:00+05:00'
+id: 81a77e4f-80dc-5e33-bb0c-ac3321136637

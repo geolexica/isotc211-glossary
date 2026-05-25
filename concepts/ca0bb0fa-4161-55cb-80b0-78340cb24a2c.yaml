@@ -1,0 +1,96 @@
+data:
+  identifier: '2324'
+  localized_concepts:
+    eng: 529dd3de-cb93-51c5-a041-38b7fefd63bf
+    spa: a4ce8934-a446-5028-a656-72ffbb4924b2
+  domains:
+  - concept_id: iso-19111
+    source: urn:iso:std:iso
+    ref_type: domain
+related:
+- content: iso-19111
+  type: broader
+  ref:
+    source: ISO
+    id: iso-19111
+date_accepted: '2019-01-31T00:00:00+05:00'
+status: valid
+schema_version: '3'
+id: ca0bb0fa-4161-55cb-80b0-78340cb24a2c
+---
+data:
+  dates:
+  - date: '2019-01-31T00:00:00+05:00'
+    type: accepted
+  - date: '2019-01-31T00:00:00+05:00'
+    type: review
+  - date: '2019-01-31T00:00:00+05:00'
+    type: review_decision
+    event_description: Normal ISO processing
+  definition:
+  - content: reference frame in which the defining parameters exclude time evolution
+  examples: []
+  id: '2324'
+  notes: []
+  release: '5.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO 19111:2019
+      locality:
+        type: clause
+        reference_from: 3.1.62
+      link: https://www.iso.org/standard/74039.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: static reference frame
+  - type: expression
+    designation: static datum
+  language_code: eng
+  entry_status: valid
+  reviewDate: '2019-01-31T00:00:00+05:00'
+  reviewDecisionDate: '2019-01-31T00:00:00+05:00'
+  reviewDecisionEvent: Normal ISO processing
+date_accepted: '2019-01-31T00:00:00+05:00'
+id: 529dd3de-cb93-51c5-a041-38b7fefd63bf
+---
+data:
+  dates:
+  - date: '2019-01-31T00:00:00+05:00'
+    type: accepted
+  - date: '2019-01-31T00:00:00+05:00'
+    type: review
+  - date: '2019-01-31T00:00:00+05:00'
+    type: review_decision
+    event_description: Procedimiento normal de ISO
+  definition:
+  - content: marco de referencia en el que los parámetros de definición excluyen la
+      evolución con el tiempo.
+  examples: []
+  id: '2324'
+  notes: []
+  release: '5.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO 19111:2019
+      locality:
+        type: clause
+        reference_from: 3.1.62
+      link: https://www.iso.org/standard/74039.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: marco de referencia estático
+  - type: expression
+    designation: datum estático
+  language_code: spa
+  entry_status: valid
+  reviewDate: '2019-01-31T00:00:00+05:00'
+  reviewDecisionDate: '2019-01-31T00:00:00+05:00'
+  reviewDecisionEvent: Procedimiento normal de ISO
+date_accepted: '2019-01-31T00:00:00+05:00'
+id: a4ce8934-a446-5028-a656-72ffbb4924b2

@@ -1,0 +1,56 @@
+data:
+  identifier: '2563'
+  localized_concepts:
+    eng: be1cad48-eac4-5677-9fd6-b4149b3f3a55
+  domains:
+  - concept_id: iso-19170-1
+    source: urn:iso:std:iso
+    ref_type: domain
+related:
+- content: iso-19170-1
+  type: broader
+  ref:
+    source: ISO
+    id: iso-19170-1
+date_accepted: '2021-05-11T00:00:00+05:00'
+status: valid
+schema_version: '3'
+id: 1e3d45b2-4ec2-53d8-b97a-2c7db7b982fd
+---
+data:
+  dates:
+  - date: '2021-05-11T00:00:00+05:00'
+    type: accepted
+  - date: '2021-05-11T00:00:00+05:00'
+    type: review
+  - date: '2021-05-11T00:00:00+05:00'
+    type: review_decision
+    event_description: Normal ISO processing
+  definition:
+  - content: temporal reference in the form of a label or code that identifies a period
+  examples: []
+  id: '2563'
+  notes:
+  - content: Period identifiers are the temporal equivalent of geographic identifiers
+      as specified in ISO 19112.
+  release: '6.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO 19170-1:2021
+      locality:
+        type: clause
+        reference_from: '3.35'
+      link: https://www.iso.org/standard/32588.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: period identifier <DGGS>
+  language_code: eng
+  entry_status: valid
+  reviewDate: '2021-05-11T00:00:00+05:00'
+  reviewDecisionDate: '2021-05-11T00:00:00+05:00'
+  reviewDecisionEvent: Normal ISO processing
+date_accepted: '2021-05-11T00:00:00+05:00'
+id: be1cad48-eac4-5677-9fd6-b4149b3f3a55

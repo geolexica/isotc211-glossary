@@ -1,0 +1,95 @@
+data:
+  identifier: '2256'
+  localized_concepts:
+    eng: f6da1ceb-94c7-5746-84e9-7ab5eb9268b8
+    spa: 5cdacb82-7e72-5836-808f-b90056f2f7cb
+  domains:
+  - concept_id: iso-19115-2
+    source: urn:iso:std:iso
+    ref_type: domain
+related:
+- content: iso-19115-2
+  type: broader
+  ref:
+    source: ISO
+    id: iso-19115-2
+date_accepted: '2019-01-01T00:00:00+05:00'
+status: valid
+schema_version: '3'
+id: 6fa68254-f3d2-5c9e-8b16-e2fcd3295516
+---
+data:
+  dates:
+  - date: '2019-01-01T00:00:00+05:00'
+    type: accepted
+  - date: '2019-01-01T00:00:00+05:00'
+    type: review
+  - date: '2019-01-01T00:00:00+05:00'
+    type: review_decision
+    event_description: Normal ISO processing
+  definition:
+  - content: specific wavelength interval within the electromagnetic spectrum
+  examples:
+  - content: Band 1 of Landsat TM lies between 0,45 μm  and 0,52 μm in the visible
+      part of the spectrum.
+  id: '2256'
+  notes: []
+  release: '5.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO 19115-2:2019
+      locality:
+        type: clause
+        reference_from: '3.28'
+      link: https://www.iso.org/standard/67039.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: spectral width
+  language_code: eng
+  entry_status: valid
+  reviewDate: '2019-01-01T00:00:00+05:00'
+  reviewDecisionDate: '2019-01-01T00:00:00+05:00'
+  reviewDecisionEvent: Normal ISO processing
+date_accepted: '2019-01-01T00:00:00+05:00'
+id: f6da1ceb-94c7-5746-84e9-7ab5eb9268b8
+---
+data:
+  dates:
+  - date: '2019-01-01T00:00:00+05:00'
+    type: accepted
+  - date: '2019-01-01T00:00:00+05:00'
+    type: review
+  - date: '2019-01-01T00:00:00+05:00'
+    type: review_decision
+    event_description: Procedimiento normal de ISO
+  definition:
+  - content: intervalo de longitud de onda específico dentro del espectro electromagnético
+  examples:
+  - content: 'EJEMPLO: La banda 1 del Landsat TM se encuentra entre 0,45 μm y 0,52
+      μm en la parte visible del espectro.'
+  id: '2256'
+  notes: []
+  release: '5.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO 19115-2:2019
+      locality:
+        type: clause
+        reference_from: '3.28'
+      link: https://www.iso.org/standard/67039.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ancho espectral
+  language_code: spa
+  entry_status: valid
+  reviewDate: '2019-01-01T00:00:00+05:00'
+  reviewDecisionDate: '2019-01-01T00:00:00+05:00'
+  reviewDecisionEvent: Procedimiento normal de ISO
+date_accepted: '2019-01-01T00:00:00+05:00'
+id: 5cdacb82-7e72-5836-808f-b90056f2f7cb

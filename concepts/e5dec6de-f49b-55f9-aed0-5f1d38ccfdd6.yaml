@@ -1,0 +1,100 @@
+data:
+  identifier: '2409'
+  localized_concepts:
+    eng: 5e90daf1-5a87-5261-b2de-243907858a82
+    spa: 2c5b74a3-0e53-5cc5-b82c-c8bcf5e92e0d
+  domains:
+  - concept_id: iso-19111
+    source: urn:iso:std:iso
+    ref_type: domain
+related:
+- content: iso-19111
+  type: broader
+  ref:
+    source: ISO
+    id: iso-19111
+date_accepted: '2019-01-31T00:00:00+05:00'
+status: valid
+schema_version: '3'
+id: e5dec6de-f49b-55f9-aed0-5f1d38ccfdd6
+---
+data:
+  dates:
+  - date: '2019-01-31T00:00:00+05:00'
+    type: accepted
+  - date: '2019-01-31T00:00:00+05:00'
+    type: review
+  - date: '2019-01-31T00:00:00+05:00'
+    type: review_decision
+    event_description: Publication of document ISO 19111:2019(E)
+  definition:
+  - content: distance of a point from a chosen reference surface positive upward along
+      a line perpendicular to that surface
+  examples: []
+  id: '2409'
+  notes:
+  - content: A height below the reference surface will have a negative value.
+  - content: Generalisation of ellipsoidal height (stem:[h]) and gravity-related height
+      (stem:[H]).
+  release: '5.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO 19111:2019
+      locality:
+        type: clause
+        reference_from: 3.1.38
+      link: https://www.iso.org/standard/74039.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: height
+  language_code: eng
+  entry_status: valid
+  reviewDate: '2019-01-31T00:00:00+05:00'
+  reviewDecisionDate: '2019-01-31T00:00:00+05:00'
+  reviewDecisionEvent: Publication of document ISO 19111:2019(E)
+date_accepted: '2019-01-31T00:00:00+05:00'
+id: 5e90daf1-5a87-5261-b2de-243907858a82
+---
+data:
+  dates:
+  - date: '2019-01-31T00:00:00+05:00'
+    type: accepted
+  - date: '2019-01-31T00:00:00+05:00'
+    type: review
+  - date: '2019-01-31T00:00:00+05:00'
+    type: review_decision
+    event_description: Publicación de documento ISO 19111:2019(E)
+  definition:
+  - content: distancia a un punto desde una superficie de referencia elegida, positiva
+      hacia arriba, medida a lo largo de una normal a esa superficie.
+  examples: []
+  id: '2409'
+  notes:
+  - content: NOTA 1 Una altura por debajo de la superficie de referencia tendrá valor
+      negativo.
+  - content: NOTA 2 Generalización de la altura elipsoidal (h) y la altura relacionada
+      con el campo de la gravedad (H).
+  release: '5.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO 19111:2019
+      locality:
+        type: clause
+        reference_from: 3.1.38
+      link: https://www.iso.org/standard/74039.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: altura
+  language_code: spa
+  entry_status: valid
+  reviewDate: '2019-01-31T00:00:00+05:00'
+  reviewDecisionDate: '2019-01-31T00:00:00+05:00'
+  reviewDecisionEvent: Publicación de documento ISO 19111:2019(E)
+date_accepted: '2019-01-31T00:00:00+05:00'
+id: 2c5b74a3-0e53-5cc5-b82c-c8bcf5e92e0d

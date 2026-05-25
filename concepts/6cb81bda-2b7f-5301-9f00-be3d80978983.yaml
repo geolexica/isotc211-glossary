@@ -1,0 +1,93 @@
+data:
+  identifier: '1492'
+  localized_concepts:
+    eng: 86d2008c-c8ea-568b-9729-241217694164
+    spa: 24f6721c-bece-5361-990e-58d813948850
+  domains:
+  - concept_id: iso-19147
+    source: urn:iso:std:iso
+    ref_type: domain
+related:
+- content: iso-19147
+  type: broader
+  ref:
+    source: ISO
+    id: iso-19147
+date_accepted: '2015-06-15T00:00:00+05:00'
+status: valid
+schema_version: '3'
+id: 6cb81bda-2b7f-5301-9f00-be3d80978983
+---
+data:
+  dates:
+  - date: '2015-06-15T00:00:00+05:00'
+    type: accepted
+  - date: '2009-06-20T00:00:00+06:00'
+    type: review
+  - date: '2015-06-15T00:00:00+05:00'
+    type: review_decision
+    event_description: Normal ISO processing
+  definition:
+  - content: movement of a person who is travelling between two locations
+  examples: []
+  id: '1492'
+  notes:
+  - content: May consist of one or more journey segments.
+  release: '4.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO 19147:2015
+      locality:
+        type: clause
+        reference_from: '3.6'
+      link: https://www.iso.org/standard/44874.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: journey
+  language_code: eng
+  entry_status: valid
+  reviewDate: '2009-06-20T00:00:00+06:00'
+  reviewDecisionDate: '2015-06-15T00:00:00+05:00'
+  reviewDecisionEvent: Normal ISO processing
+date_accepted: '2015-06-15T00:00:00+05:00'
+id: 86d2008c-c8ea-568b-9729-241217694164
+---
+data:
+  dates:
+  - date: '2015-06-15T00:00:00+05:00'
+    type: accepted
+  - date: '2009-06-20T00:00:00+06:00'
+    type: review
+  - date: '2015-06-15T00:00:00+05:00'
+    type: review_decision
+    event_description: Normal ISO processing
+  definition:
+  - content: movimiento de una persona que está viajando entre dos localizaciones
+  examples: []
+  id: '1492'
+  notes:
+  - content: puede consistir en uno o más segmentos de trayecto.
+  release: '4.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO 19147:2015
+      locality:
+        type: clause
+        reference_from: '3.6'
+      link: https://www.iso.org/standard/44874.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: trayecto
+  language_code: spa
+  entry_status: valid
+  reviewDate: '2009-06-20T00:00:00+06:00'
+  reviewDecisionDate: '2015-06-15T00:00:00+05:00'
+  reviewDecisionEvent: Normal ISO processing
+date_accepted: '2015-06-15T00:00:00+05:00'
+id: 24f6721c-bece-5361-990e-58d813948850

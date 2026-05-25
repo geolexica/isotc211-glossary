@@ -1,0 +1,103 @@
+data:
+  identifier: '1935'
+  localized_concepts:
+    eng: ac654a4d-606e-5a84-ad20-029acfa1c223
+    spa: ea482a71-725d-56a8-8008-24ab90a0c380
+  domains:
+  - concept_id: iso-ts-19159-2
+    source: urn:iso:std:iso
+    ref_type: domain
+related:
+- content: iso-ts-19159-2
+  type: broader
+  ref:
+    source: ISO
+    id: iso-ts-19159-2
+date_accepted: '2016-04-15T00:00:00+05:00'
+status: valid
+schema_version: '3'
+id: 2e17cd30-dfed-5676-a050-5c3b6de91047
+---
+data:
+  dates:
+  - date: '2016-04-15T00:00:00+05:00'
+    type: accepted
+  - date: '2014-08-26T00:00:00+05:00'
+    type: review
+  - date: '2016-04-15T00:00:00+05:00'
+    type: review_decision
+    event_description: Normal ISO processing
+  definition:
+  - content: digital elevation model (DEM) that depicts the elevations of the top
+      surfaces of buildings, trees, towers, and other features elevated above the
+      bare earth
+  examples: []
+  id: '1935'
+  notes:
+  - content: DSMs are especially relevant for telecommunications management, air safety,
+      forest management, and 3-D modelling and simulation.
+  release: '4.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO/TS 19159-2:2016
+      locality:
+        type: clause
+        reference_from: '4.12'
+      link: https://www.iso.org/standard/64768.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: digital surface model
+  - type: abbreviation
+    designation: DSM
+  language_code: eng
+  entry_status: valid
+  reviewDate: '2014-08-26T00:00:00+05:00'
+  reviewDecisionDate: '2016-04-15T00:00:00+05:00'
+  reviewDecisionEvent: Normal ISO processing
+date_accepted: '2016-04-15T00:00:00+05:00'
+id: ac654a4d-606e-5a84-ad20-029acfa1c223
+---
+data:
+  dates:
+  - date: '2016-04-15T00:00:00+05:00'
+    type: accepted
+  - date: '2014-08-26T00:00:00+05:00'
+    type: review
+  - date: '2016-04-15T00:00:00+05:00'
+    type: review_decision
+    event_description: Normal ISO processing
+  definition:
+  - content: modelo digital de elevaciones (MDE) que representa las elevaciones sobre
+      las superficies de edificios, árboles, torres y otros objetos geográficos elevados
+      sobre el terreno desnudo.
+  examples: []
+  id: '1935'
+  notes:
+  - content: Los MDS son especialmente relevantes en la gestión de telecolumnicaciones,
+      en seguridad aérea, en gestión forestal, y en el modelado y simulación 3D.
+  release: '4.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO/TS 19159-2:2016
+      locality:
+        type: clause
+        reference_from: '4.12'
+      link: https://www.iso.org/standard/64768.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: modelo digital de superficie
+  - type: abbreviation
+    designation: MDS
+  language_code: spa
+  entry_status: valid
+  reviewDate: '2014-08-26T00:00:00+05:00'
+  reviewDecisionDate: '2016-04-15T00:00:00+05:00'
+  reviewDecisionEvent: Normal ISO processing
+date_accepted: '2016-04-15T00:00:00+05:00'
+id: ea482a71-725d-56a8-8008-24ab90a0c380

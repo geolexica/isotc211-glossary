@@ -1,0 +1,94 @@
+data:
+  identifier: '2296'
+  localized_concepts:
+    eng: 2bf35630-02b7-5596-a1a2-197ce3e3bc96
+    spa: 5aa88830-6ef8-51da-976a-91552fb6f50d
+  domains:
+  - concept_id: iso-1087-1
+    source: urn:iso:std:iso
+    ref_type: domain
+related:
+- content: iso-1087-1
+  type: broader
+  ref:
+    source: ISO
+    id: iso-1087-1
+status: valid
+schema_version: '3'
+id: 84963c74-7316-5372-9e53-c0478537d046
+---
+data:
+  dates:
+  - date: '2018-06-01T00:00:00+05:00'
+    type: review
+  - date: '2018-06-01T00:00:00+05:00'
+    type: review_decision
+    event_description: Normal ISO processing
+  definition:
+  - content: relation between two concepts having a non-hierarchical thematic connection
+      by virtue of experience
+  examples: []
+  id: '2296'
+  notes:
+  - content: An associative relation exists between the concepts 'education' and 'teaching',
+      'baking' and 'oven'.
+  release: '5.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO 1087-1:2000
+      locality:
+        type: clause
+        reference_from: 3.2.23
+      link: https://www.iso.org/standard/20057.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: pragmatic relation
+  - type: expression
+    designation: associative relation
+  language_code: eng
+  entry_status: valid
+  reviewDate: '2018-06-01T00:00:00+05:00'
+  reviewDecisionDate: '2018-06-01T00:00:00+05:00'
+  reviewDecisionEvent: Normal ISO processing
+id: 2bf35630-02b7-5596-a1a2-197ce3e3bc96
+---
+data:
+  dates:
+  - date: '2018-06-01T00:00:00+05:00'
+    type: review
+  - date: '2018-06-01T00:00:00+05:00'
+    type: review_decision
+    event_description: Procedimiento normal de ISO
+  definition:
+  - content: relación entre dos conceptos que tienen vínculos temáticos no jerárquicos
+      en virtud de la experiencia.
+  examples: []
+  id: '2296'
+  notes:
+  - content: 'NOTA: Existe una relación asociativa entre los conceptos ‘educación’
+      y ‘enseñanza’, ‘cocción’ y ‘horno’.'
+  release: '5.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO 1087-1:2000
+      locality:
+        type: clause
+        reference_from: 3.2.23
+      link: https://www.iso.org/standard/20057.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: relación pragmática
+  - type: expression
+    designation: relación asociativa
+  language_code: spa
+  entry_status: valid
+  reviewDate: '2018-06-01T00:00:00+05:00'
+  reviewDecisionDate: '2018-06-01T00:00:00+05:00'
+  reviewDecisionEvent: Procedimiento normal de ISO
+id: 5aa88830-6ef8-51da-976a-91552fb6f50d

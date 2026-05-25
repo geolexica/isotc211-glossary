@@ -1,0 +1,58 @@
+data:
+  identifier: '2688'
+  localized_concepts:
+    eng: bc76842d-bdda-5774-a274-9aa201eb10b8
+  domains:
+  - concept_id: iso-ts-19124-1
+    source: urn:iso:std:iso
+    ref_type: domain
+related:
+- content: iso-ts-19124-1
+  type: broader
+  ref:
+    source: ISO
+    id: iso-ts-19124-1
+date_accepted: '2023-04-27T00:00:00+05:00'
+status: valid
+schema_version: '3'
+id: 7ab9914e-6975-5208-8397-e34cca4daff7
+---
+data:
+  dates:
+  - date: '2023-04-27T00:00:00+05:00'
+    type: accepted
+  - date: '2023-04-27T00:00:00+05:00'
+    type: review
+  - date: '2023-04-27T00:00:00+05:00'
+    type: review_decision
+    event_description: Normal ISO processing
+  definition:
+  - content: ratio of the energy radiated by an emissive surface relative to that
+      of an ideal blackbody source at the same temperature
+  examples: []
+  id: '2688'
+  notes:
+  - content: It is generally related as a function of wavelength or frequency, emissivity
+      values range from 0 to 1.
+  - content: This entry is adapted from Reference [12].
+  release: '6.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO/TS 19124-1:2023
+      locality:
+        type: clause
+        reference_from: '3.12'
+      link: https://www.iso.org/standard/79352.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: emissivity
+  language_code: eng
+  entry_status: valid
+  reviewDate: '2023-04-27T00:00:00+05:00'
+  reviewDecisionDate: '2023-04-27T00:00:00+05:00'
+  reviewDecisionEvent: Normal ISO processing
+date_accepted: '2023-04-27T00:00:00+05:00'
+id: bc76842d-bdda-5774-a274-9aa201eb10b8

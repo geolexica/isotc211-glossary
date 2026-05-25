@@ -1,0 +1,73 @@
+data:
+  identifier: '2751'
+  localized_concepts:
+    eng: fa0de6a3-2a28-501a-b0b8-a57f48284b4c
+  domains:
+  - concept_id: iso-ts-19124-1
+    source: urn:iso:std:iso
+    ref_type: domain
+related:
+- content: iso-ts-19124-1
+  type: broader
+  ref:
+    source: ISO
+    id: iso-ts-19124-1
+date_accepted: '2023-04-27T00:00:00+05:00'
+status: valid
+schema_version: '3'
+id: 932e601c-ef4a-5730-ba63-2485f641ebeb
+---
+data:
+  dates:
+  - date: '2023-04-27T00:00:00+05:00'
+    type: accepted
+  - date: '2023-04-27T00:00:00+05:00'
+    type: review
+  - date: '2023-04-27T00:00:00+05:00'
+    type: review_decision
+    event_description: Normal ISO processing
+  definition:
+  - content: stability of the response of a remote sensing instrument over time
+  examples: []
+  id: '2751'
+  notes:
+  - content: Repeatability or stability of a measurement between adjacent samples
+      or within a single integrated measurement interval is referred to as "short-term"
+      repeatability. Short-term repeatability is quantified from measurement noise
+      with a timescale of typically seconds to minutes.
+  - content: Repeatability or stability of response from a stable input between consecutive
+      or succeeding integrated measurement intervals is referred to as "medium-term"
+      repeatability. Medium-term repeatability is typically quantified via benchmark
+      tests that are included as part of a measurement sequence. Medium-term repeatability
+      sources may include on-board stimulator sources, vicarious ground sources and
+      stellar references. The medium-term repeatability timescale is typically minutes
+      to hours.
+  - content: Repeatability or stability between widely separated measurement intervals
+      is referred to as "long-term" repeatability. Long-term repeatability is typically
+      quantified via benchmark tests that periodically measure constant radiometric
+      source(s) over the life of the sensor. Long-term repeatability sources may include
+      on-board stimulator sources, vicarious ground sources and stellar references.
+      The long-term repeatability timescale is typically hours to days, up to the
+      lifetime of the sensor.
+  - content: This entry is adapted from Reference [12].
+  release: '6.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO/TS 19124-1:2023
+      locality:
+        type: clause
+        reference_from: '3.28'
+      link: https://www.iso.org/standard/79352.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: repeatability
+  language_code: eng
+  entry_status: valid
+  reviewDate: '2023-04-27T00:00:00+05:00'
+  reviewDecisionDate: '2023-04-27T00:00:00+05:00'
+  reviewDecisionEvent: Normal ISO processing
+date_accepted: '2023-04-27T00:00:00+05:00'
+id: fa0de6a3-2a28-501a-b0b8-a57f48284b4c

@@ -1,0 +1,59 @@
+data:
+  identifier: '2552'
+  localized_concepts:
+    eng: 00a98b69-b0db-55b1-b2d9-c08c8d6a5487
+  domains:
+  - concept_id: iso-19170-1
+    source: urn:iso:std:iso
+    ref_type: domain
+related:
+- content: iso-19170-1
+  type: broader
+  ref:
+    source: ISO
+    id: iso-19170-1
+date_accepted: '2021-05-11T00:00:00+05:00'
+status: valid
+schema_version: '3'
+id: a2c92b55-0c1e-5ac6-9c12-a9520e11941c
+---
+data:
+  dates:
+  - date: '2021-05-11T00:00:00+05:00'
+    type: accepted
+  - date: '2021-05-11T00:00:00+05:00'
+    type: review
+  - date: '2021-05-11T00:00:00+05:00'
+    type: review_decision
+    event_description: Normal ISO processing
+  definition:
+  - content: process of subdividing parent cells into descendant child cells using
+      a specified refinement ratio and suite of refinement strategies
+  examples: []
+  id: '2552'
+  notes:
+  - content: Iterative application of cell refinements creates a hierarchy of descendant
+      discrete global grids.
+  - content: Cell refinement methods may result in child cells that each have a single
+      parent or that have multiple parents.
+  release: '6.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO 19170-1:2021
+      locality:
+        type: clause
+        reference_from: '3.3'
+      link: https://www.iso.org/standard/32588.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: cell refinement<DGGS>
+  language_code: eng
+  entry_status: valid
+  reviewDate: '2021-05-11T00:00:00+05:00'
+  reviewDecisionDate: '2021-05-11T00:00:00+05:00'
+  reviewDecisionEvent: Normal ISO processing
+date_accepted: '2021-05-11T00:00:00+05:00'
+id: 00a98b69-b0db-55b1-b2d9-c08c8d6a5487

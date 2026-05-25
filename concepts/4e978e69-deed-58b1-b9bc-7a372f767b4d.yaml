@@ -1,0 +1,99 @@
+data:
+  identifier: '2320'
+  localized_concepts:
+    eng: 4d46a910-3c55-5282-813a-9ceece018ae6
+    spa: eaa590f6-dc1c-56b1-b680-e9fa04bd37a1
+  domains:
+  - concept_id: iso-19111
+    source: urn:iso:std:iso
+    ref_type: domain
+related:
+- content: iso-19111
+  type: broader
+  ref:
+    source: ISO
+    id: iso-19111
+date_accepted: '2019-01-31T00:00:00+05:00'
+status: valid
+schema_version: '3'
+id: 4e978e69-deed-58b1-b9bc-7a372f767b4d
+---
+data:
+  dates:
+  - date: '2019-01-31T00:00:00+05:00'
+    type: accepted
+  - date: '2019-01-31T00:00:00+05:00'
+    type: review
+  - date: '2019-01-31T00:00:00+05:00'
+    type: review_decision
+    event_description: Publication of document ISO 19111:2019(E)
+  definition:
+  - content: compound coordinate reference system in which one constituent coordinate
+      reference system is a spatial coordinate reference system and one is a parametric
+      coordinate reference system
+  examples: []
+  id: '2320'
+  notes:
+  - content: Normally the spatial component is "horizontal" and the parametric component
+      is "vertical".
+  release: '5.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO 19111:2019
+      locality:
+        type: clause
+        reference_from: 3.1.57
+      link: https://www.iso.org/standard/74039.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: spatio-parametric coordinate reference system
+  language_code: eng
+  entry_status: valid
+  reviewDate: '2019-01-31T00:00:00+05:00'
+  reviewDecisionDate: '2019-01-31T00:00:00+05:00'
+  reviewDecisionEvent: Publication of document ISO 19111:2019(E)
+date_accepted: '2019-01-31T00:00:00+05:00'
+id: 4d46a910-3c55-5282-813a-9ceece018ae6
+---
+data:
+  dates:
+  - date: '2019-01-31T00:00:00+05:00'
+    type: accepted
+  - date: '2019-01-31T00:00:00+05:00'
+    type: review
+  - date: '2019-01-31T00:00:00+05:00'
+    type: review_decision
+    event_description: Publicación de documento ISO 19111:2019(E)
+  definition:
+  - content: sistema de referencia por coordenadas compuesto en el que una parte del
+      sistema de referencia por coordenadas es un sistema de referencia por coordenadas
+      espacial y otra es un sistema de referencia por coordenadas paramétrico.
+  examples: []
+  id: '2320'
+  notes:
+  - content: NOTA Normalmente la componente espacial es “horizontal” y la componente
+      paramétrica es “vertical”.
+  release: '5.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO 19111:2019
+      locality:
+        type: clause
+        reference_from: 3.1.57
+      link: https://www.iso.org/standard/74039.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: sistema de referencia por coordenadas espacio-paramétrico
+  language_code: spa
+  entry_status: valid
+  reviewDate: '2019-01-31T00:00:00+05:00'
+  reviewDecisionDate: '2019-01-31T00:00:00+05:00'
+  reviewDecisionEvent: Publicación de documento ISO 19111:2019(E)
+date_accepted: '2019-01-31T00:00:00+05:00'
+id: eaa590f6-dc1c-56b1-b680-e9fa04bd37a1

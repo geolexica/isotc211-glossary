@@ -1,0 +1,95 @@
+data:
+  identifier: '2321'
+  localized_concepts:
+    eng: 70815371-6dc6-52e0-8512-f7aafdff6514
+    spa: 8ff6c6f5-259b-53e0-8b26-7878d3d137df
+  domains:
+  - concept_id: iso-19111
+    source: urn:iso:std:iso
+    ref_type: domain
+related:
+- content: iso-19111
+  type: broader
+  ref:
+    source: ISO
+    id: iso-19111
+date_accepted: '2019-01-31T00:00:00+05:00'
+status: valid
+schema_version: '3'
+id: 59e1bccc-4e21-5a15-a9cc-2e910660677a
+---
+data:
+  dates:
+  - date: '2019-01-31T00:00:00+05:00'
+    type: accepted
+  - date: '2019-01-31T00:00:00+05:00'
+    type: review
+  - date: '2019-01-31T00:00:00+05:00'
+    type: review_decision
+    event_description: Normal ISO processing
+  definition:
+  - content: compound coordinate reference system in which one constituent coordinate
+      reference system is a spatial coordinate reference system and one is a temporal
+      coordinate reference system
+  examples: []
+  id: '2321'
+  notes: []
+  release: '5.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO 19111:2019
+      locality:
+        type: clause
+        reference_from: 3.1.59
+      link: https://www.iso.org/standard/74039.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: spatio-temporal coordinate reference system
+  language_code: eng
+  entry_status: valid
+  reviewDate: '2019-01-31T00:00:00+05:00'
+  reviewDecisionDate: '2019-01-31T00:00:00+05:00'
+  reviewDecisionEvent: Normal ISO processing
+date_accepted: '2019-01-31T00:00:00+05:00'
+id: 70815371-6dc6-52e0-8512-f7aafdff6514
+---
+data:
+  dates:
+  - date: '2019-01-31T00:00:00+05:00'
+    type: accepted
+  - date: '2019-01-31T00:00:00+05:00'
+    type: review
+  - date: '2019-01-31T00:00:00+05:00'
+    type: review_decision
+    event_description: Procedimiento normal de ISO
+  definition:
+  - content: sistema de referencia por coordenadas compuesto en el que una parte del
+      sistema de referencia por coordenadas es un sistema de referencia por coordenadas
+      espacial y otro es un sistema de referencia por coordenadas temporal.
+  examples: []
+  id: '2321'
+  notes: []
+  release: '5.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO 19111:2019
+      locality:
+        type: clause
+        reference_from: 3.1.59
+      link: https://www.iso.org/standard/74039.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: sistema de referencia por coordenadas espacio-temporal
+  language_code: spa
+  entry_status: valid
+  reviewDate: '2019-01-31T00:00:00+05:00'
+  reviewDecisionDate: '2019-01-31T00:00:00+05:00'
+  reviewDecisionEvent: Procedimiento normal de ISO
+date_accepted: '2019-01-31T00:00:00+05:00'
+id: 8ff6c6f5-259b-53e0-8b26-7878d3d137df

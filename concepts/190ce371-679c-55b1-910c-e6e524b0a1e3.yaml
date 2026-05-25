@@ -1,0 +1,58 @@
+data:
+  identifier: '2655'
+  localized_concepts:
+    eng: 58677e60-10eb-5870-8c0f-c436dca864e5
+  domains:
+  - concept_id: iso-19170-1
+    source: urn:iso:std:iso
+    ref_type: domain
+related:
+- content: iso-19170-1
+  type: broader
+  ref:
+    source: ISO
+    id: iso-19170-1
+date_accepted: '2021-05-11T00:00:00+05:00'
+status: valid
+schema_version: '3'
+id: 190ce371-679c-55b1-910c-e6e524b0a1e3
+---
+data:
+  dates:
+  - date: '2021-05-11T00:00:00+05:00'
+    type: accepted
+  - date: '2021-05-11T00:00:00+05:00'
+    type: review
+  - date: '2021-05-11T00:00:00+05:00'
+    type: review_decision
+    event_description: Normal ISO processing
+  definition:
+  - content: region of space-time enclosing a celestial body
+  examples: []
+  id: '2655'
+  notes:
+  - content: In this document globe is used in its most general form to refer to any
+      celestial body or region of space-time enclosing a celestial body that may be
+      referenced by a DGGS. When a specific body, such as the Earth is referred to,
+      an explicit term is used.
+  release: '6.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO 19170-1:2021
+      locality:
+        type: clause
+        reference_from: '3.24'
+      link: https://www.iso.org/standard/32588.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: globe <DGGS>
+  language_code: eng
+  entry_status: valid
+  reviewDate: '2021-05-11T00:00:00+05:00'
+  reviewDecisionDate: '2021-05-11T00:00:00+05:00'
+  reviewDecisionEvent: Normal ISO processing
+date_accepted: '2021-05-11T00:00:00+05:00'
+id: 58677e60-10eb-5870-8c0f-c436dca864e5

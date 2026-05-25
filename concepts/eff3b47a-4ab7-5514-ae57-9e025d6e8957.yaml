@@ -1,0 +1,105 @@
+data:
+  identifier: '2449'
+  localized_concepts:
+    eng: ed104c6e-9ac8-53dd-8630-5ceea862b900
+    spa: 8f4fd86a-6209-5cea-90c6-9f9c4b7fc48a
+  domains:
+  - concept_id: iso-ts-19159-2
+    source: urn:iso:std:iso
+    ref_type: domain
+related:
+- content: iso-ts-19159-2
+  type: broader
+  ref:
+    source: ISO
+    id: iso-ts-19159-2
+date_accepted: '2019-12-02T00:00:00+05:00'
+status: valid
+schema_version: '3'
+id: eff3b47a-4ab7-5514-ae57-9e025d6e8957
+---
+data:
+  dates:
+  - date: '2019-12-02T00:00:00+05:00'
+    type: accepted
+  - date: '2019-12-02T00:00:00+05:00'
+    type: review
+  - date: '2019-12-02T00:00:00+05:00'
+    type: review_decision
+    event_description: Normal ISO processing
+  definition:
+  - content: closeness of reported coordinate values to values accepted as or being
+      true
+  examples: []
+  id: '2449'
+  notes:
+  - content: Where the true coordinate value may not be perfectly known, accuracy
+      is normally tested by comparison to available values that can best be accepted
+      as true.
+  release: '5.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO/TS 19159-2:2016
+      locality:
+        type: clause
+        reference_from: 4.1 modified - NOTES 1 and 2 have been deleted and replaced
+          by a new Note 1 to entry.
+      link: https://www.iso.org/standard/64768.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: external accuracy
+  - type: expression
+    designation: absolute accuracy
+  language_code: eng
+  entry_status: valid
+  reviewDate: '2019-12-02T00:00:00+05:00'
+  reviewDecisionDate: '2019-12-02T00:00:00+05:00'
+  reviewDecisionEvent: Normal ISO processing
+date_accepted: '2019-12-02T00:00:00+05:00'
+id: ed104c6e-9ac8-53dd-8630-5ceea862b900
+---
+data:
+  dates:
+  - date: '2019-12-02T00:00:00+05:00'
+    type: accepted
+  - date: '2019-12-02T00:00:00+05:00'
+    type: review
+  - date: '2019-12-02T00:00:00+05:00'
+    type: review_decision
+    event_description: Procedimiento normal de ISO
+  definition:
+  - content: grado de cercanía entre los valores de las coordenadas notificadas y
+      los valores verdaderos o aceptados como verdaderos
+  examples: []
+  id: '2449'
+  notes:
+  - content: 'NOTA: Cuando el valor de la coordenada verdadera no puede conocerse
+      perfectamente,normalmente la exactitud se comprueba mediante la comparación
+      con los valores disponibles que pueden aceptarse mejor como verdaderos.'
+  release: '5.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO/TS 19159-2:2016
+      locality:
+        type: clause
+        reference_from: 4.1 modified - NOTES 1 and 2 have been deleted and replaced
+          by a new Note 1 to entry.
+      link: https://www.iso.org/standard/64768.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: exactitud externa
+  - type: expression
+    designation: exactitud absoluta
+  language_code: spa
+  entry_status: valid
+  reviewDate: '2019-12-02T00:00:00+05:00'
+  reviewDecisionDate: '2019-12-02T00:00:00+05:00'
+  reviewDecisionEvent: Procedimiento normal de ISO
+date_accepted: '2019-12-02T00:00:00+05:00'
+id: 8f4fd86a-6209-5cea-90c6-9f9c4b7fc48a

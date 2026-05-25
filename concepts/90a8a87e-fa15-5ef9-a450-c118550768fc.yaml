@@ -1,0 +1,65 @@
+data:
+  identifier: '2651'
+  localized_concepts:
+    eng: 72335631-0561-5d04-ae37-7002348112ce
+  domains:
+  - concept_id: iso-19111
+    source: urn:iso:std:iso
+    ref_type: domain
+related:
+- content: iso-19111
+  type: broader
+  ref:
+    source: ISO
+    id: iso-19111
+date_accepted: '2021-05-11T00:00:00+05:00'
+status: valid
+schema_version: '3'
+id: 90a8a87e-fa15-5ef9-a450-c118550768fc
+---
+data:
+  dates:
+  - date: '2021-05-11T00:00:00+05:00'
+    type: accepted
+  - date: '2021-05-11T00:00:00+05:00'
+    type: review
+  - date: '2021-05-11T00:00:00+05:00'
+    type: review_decision
+    event_description: Normal ISO processing
+  definition:
+  - content: coordinate reference system using at least two independent coordinate
+      reference systems
+  examples: []
+  id: '2651'
+  notes:
+  - content: Coordinate reference systems are independent of each other if coordinate
+      values in one cannot be converted or transformed into coordinate values in the
+      other.
+  release: '6.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO 19111:2019
+      locality:
+        type: clause
+        reference_from: 3.1.3
+      link: https://www.iso.org/standard/74039.html
+    status: unspecified
+    type: authoritative
+  - origin:
+      ref:
+        source: ISO 19170-1:20213.6
+    type: lineage
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: compound CRS
+  - type: expression
+    designation: compound coordinate reference system
+  language_code: eng
+  entry_status: valid
+  reviewDate: '2021-05-11T00:00:00+05:00'
+  reviewDecisionDate: '2021-05-11T00:00:00+05:00'
+  reviewDecisionEvent: Normal ISO processing
+date_accepted: '2021-05-11T00:00:00+05:00'
+id: 72335631-0561-5d04-ae37-7002348112ce
