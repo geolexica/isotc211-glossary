@@ -1,0 +1,60 @@
+data:
+  identifier: '2533'
+  localized_concepts:
+    eng: 11ad53ed-229e-52f9-8f00-9d63b0ee7f54
+  domains:
+  - concept_id: iso-19105
+    source: urn:iso:std:iso
+    ref_type: domain
+related:
+- content: iso-19105
+  type: broader
+  ref:
+    source: ISO
+    id: iso-19105
+date_accepted: '2022-07-06T00:00:00+05:00'
+status: valid
+schema_version: '3'
+id: e0a04959-38a6-57ee-9557-f5b7386dfb55
+---
+data:
+  dates:
+  - date: '2022-07-06T00:00:00+05:00'
+    type: accepted
+  - date: '2022-07-06T00:00:00+05:00'
+    type: review
+  - date: '2022-07-06T00:00:00+05:00'
+    type: review_decision
+    event_description: Normal ISO processing
+  definition:
+  - content: set of abstract test cases that when applied receive a single certificate
+      of conformance
+  examples: []
+  id: '2533'
+  notes:
+  - content: OGC 08-131r3 defines certificate of conformance as "evidence of conformance
+      to all or part of a standard, awarded for passing one or more of the conformance
+      test classes specified in that standard".
+  release: '6.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO 19105:2022
+      locality:
+        type: clause
+        reference_from: '3.6'
+      link: https://www.iso.org/standard/76457.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: conformance class
+  - type: expression
+    designation: conformance test class
+  language_code: eng
+  entry_status: valid
+  reviewDate: '2022-07-06T00:00:00+05:00'
+  reviewDecisionDate: '2022-07-06T00:00:00+05:00'
+  reviewDecisionEvent: Normal ISO processing
+date_accepted: '2022-07-06T00:00:00+05:00'
+id: 11ad53ed-229e-52f9-8f00-9d63b0ee7f54

@@ -1,0 +1,93 @@
+data:
+  identifier: '2308'
+  localized_concepts:
+    eng: 008eae5c-4ef5-5940-8191-5c7bea5fd608
+    spa: 386b7d81-bdaf-5339-86cc-9b0f0effb3c8
+  domains:
+  - concept_id: iso-19111
+    source: urn:iso:std:iso
+    ref_type: domain
+related:
+- content: iso-19111
+  type: broader
+  ref:
+    source: ISO
+    id: iso-19111
+date_accepted: '2019-01-31T00:00:00+05:00'
+status: valid
+schema_version: '3'
+id: ab46ff65-aa1f-57d9-9018-29a1b03e0942
+---
+data:
+  dates:
+  - date: '2019-01-31T00:00:00+05:00'
+    type: accepted
+  - date: '2019-01-31T00:00:00+05:00'
+    type: review
+  - date: '2019-01-31T00:00:00+05:00'
+    type: review_decision
+    event_description: Normal ISO processing
+  definition:
+  - content: angle from the equatorial plane to the direction from the centre of an
+      ellipsoid through a given point, northwards treated as positive
+  examples: []
+  id: '2308'
+  notes: []
+  release: '5.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO 19111:2019
+      locality:
+        type: clause
+        reference_from: 3.1.30
+      link: https://www.iso.org/standard/74039.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: geocentric latitude
+  language_code: eng
+  entry_status: valid
+  reviewDate: '2019-01-31T00:00:00+05:00'
+  reviewDecisionDate: '2019-01-31T00:00:00+05:00'
+  reviewDecisionEvent: Normal ISO processing
+date_accepted: '2019-01-31T00:00:00+05:00'
+id: 008eae5c-4ef5-5940-8191-5c7bea5fd608
+---
+data:
+  dates:
+  - date: '2019-01-31T00:00:00+05:00'
+    type: accepted
+  - date: '2019-01-31T00:00:00+05:00'
+    type: review
+  - date: '2019-01-31T00:00:00+05:00'
+    type: review_decision
+    event_description: Procedimiento normal de ISO
+  definition:
+  - content: ángulo que forma el plano ecuatorial con la dirección desde el centro
+      del elipsoide a un punto dado, se toma positiva hacia el norte.
+  examples: []
+  id: '2308'
+  notes: []
+  release: '5.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO 19111:2019
+      locality:
+        type: clause
+        reference_from: 3.1.30
+      link: https://www.iso.org/standard/74039.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: latitud geocéntrica
+  language_code: spa
+  entry_status: valid
+  reviewDate: '2019-01-31T00:00:00+05:00'
+  reviewDecisionDate: '2019-01-31T00:00:00+05:00'
+  reviewDecisionEvent: Procedimiento normal de ISO
+date_accepted: '2019-01-31T00:00:00+05:00'
+id: 386b7d81-bdaf-5339-86cc-9b0f0effb3c8

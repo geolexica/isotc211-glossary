@@ -1,0 +1,102 @@
+data:
+  identifier: '1587'
+  localized_concepts:
+    eng: 61bb37f7-38fc-5ea0-b39c-ce9eb1dce7c1
+    spa: 07d58f72-9189-5cc3-800b-9ff01abe3793
+  domains:
+  - concept_id: iso-19103
+    source: urn:iso:std:iso
+    ref_type: domain
+related:
+- content: iso-19103
+  type: broader
+  ref:
+    source: ISO
+    id: iso-19103
+date_accepted: '2015-07-01T00:00:00+05:00'
+status: valid
+schema_version: '3'
+id: 3cae5c93-79af-5a77-a9cf-5d98f9bb0460
+---
+data:
+  dates:
+  - date: '2015-07-01T00:00:00+05:00'
+    type: accepted
+  - date: '2012-05-25T00:00:00+05:00'
+    type: review
+  - date: '2015-07-01T00:00:00+05:00'
+    type: review_decision
+    event_description: Normal ISO processing
+  definition:
+  - content: reference to a local object directly accessible from a namespace
+  examples: []
+  id: '1587'
+  notes: []
+  release: '4.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO 19103:2015
+      locality:
+        type: clause
+        reference_from: modified – Derived from 7.5.5.1
+      link: https://www.iso.org/standard/56734.html
+    status: unspecified
+    type: authoritative
+  - origin:
+      ref:
+        source: ISO 19150-2:2015, 4.1.22
+    type: lineage
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: localName
+  language_code: eng
+  entry_status: valid
+  reviewDate: '2012-05-25T00:00:00+05:00'
+  reviewDecisionDate: '2015-07-01T00:00:00+05:00'
+  reviewDecisionEvent: Normal ISO processing
+date_accepted: '2015-07-01T00:00:00+05:00'
+id: 61bb37f7-38fc-5ea0-b39c-ce9eb1dce7c1
+---
+data:
+  dates:
+  - date: '2015-07-01T00:00:00+05:00'
+    type: accepted
+  - date: '2012-05-25T00:00:00+05:00'
+    type: review
+  - date: '2015-07-01T00:00:00+05:00'
+    type: review_decision
+    event_description: Normal ISO processing
+  definition:
+  - content: referencia a un objeto local accesible directamente  desde un espacio
+      de nombres
+  examples: []
+  id: '1587'
+  notes: []
+  release: '4.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO 19103:2015
+      locality:
+        type: clause
+        reference_from: modified – Derived from 7.5.5.1
+      link: https://www.iso.org/standard/56734.html
+    status: unspecified
+    type: authoritative
+  - origin:
+      ref:
+        source: ISO 19150-2:2015, 4.1.22
+    type: lineage
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: nombre local
+  language_code: spa
+  entry_status: valid
+  reviewDate: '2012-05-25T00:00:00+05:00'
+  reviewDecisionDate: '2015-07-01T00:00:00+05:00'
+  reviewDecisionEvent: Normal ISO processing
+date_accepted: '2015-07-01T00:00:00+05:00'
+id: 07d58f72-9189-5cc3-800b-9ff01abe3793

@@ -1,0 +1,56 @@
+data:
+  identifier: '2501'
+  localized_concepts:
+    eng: d009004f-33cc-5f3d-be7e-7ab5a4553529
+  domains:
+  - concept_id: iso-19168-1
+    source: urn:iso:std:iso
+    ref_type: domain
+related:
+- content: iso-19168-1
+  type: broader
+  ref:
+    source: ISO
+    id: iso-19168-1
+date_accepted: '2020-09-14T00:00:00+05:00'
+status: valid
+schema_version: '3'
+id: c9cbf1c1-da7d-52f8-8c45-ec6730b6e66f
+---
+data:
+  dates:
+  - date: '2020-09-14T00:00:00+05:00'
+    type: accepted
+  - date: '2020-09-14T00:00:00+05:00'
+    type: review
+  - date: '2020-09-14T00:00:00+05:00'
+    type: review_decision
+    event_description: Normal ISO processing
+  definition:
+  - content: set of features from a dataset
+  examples: []
+  id: '2501'
+  notes: []
+  release: '6.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO 19168-1:2020
+      locality:
+        type: clause
+        reference_from: 3.1.4
+      link: https://www.iso.org/standard/32586.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: collection
+  - type: expression
+    designation: feature collection
+  language_code: eng
+  entry_status: valid
+  reviewDate: '2020-09-14T00:00:00+05:00'
+  reviewDecisionDate: '2020-09-14T00:00:00+05:00'
+  reviewDecisionEvent: Normal ISO processing
+date_accepted: '2020-09-14T00:00:00+05:00'
+id: d009004f-33cc-5f3d-be7e-7ab5a4553529

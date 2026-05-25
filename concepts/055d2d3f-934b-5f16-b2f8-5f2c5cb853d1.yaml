@@ -1,0 +1,54 @@
+data:
+  identifier: '2620'
+  localized_concepts:
+    eng: c7f31dd2-cb6c-569e-bd77-552e86466511
+  domains:
+  - concept_id: iso-9000
+    source: urn:iso:std:iso
+    ref_type: domain
+related:
+- content: iso-9000
+  type: broader
+  ref:
+    source: ISO
+    id: iso-9000
+date_accepted: '2023-04-19T00:00:00+05:00'
+status: valid
+schema_version: '3'
+id: 055d2d3f-934b-5f16-b2f8-5f2c5cb853d1
+---
+data:
+  dates:
+  - date: '2023-04-19T00:00:00+05:00'
+    type: accepted
+  - date: '2023-04-19T00:00:00+05:00'
+    type: review
+  - date: '2023-04-19T00:00:00+05:00'
+    type: review_decision
+    event_description: Normal ISO processing
+  definition:
+  - content: need or expectation that is stated, generally implied or obligatory
+  examples: []
+  id: '2620'
+  notes: []
+  release: '6.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO 9000:2015
+      locality:
+        type: clause
+        reference_from: 3.6.4, modified - Notes 1-6 to entry have been removed.
+      link: https://www.iso.org/standard/45481.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: requirement
+  language_code: eng
+  entry_status: valid
+  reviewDate: '2023-04-19T00:00:00+05:00'
+  reviewDecisionDate: '2023-04-19T00:00:00+05:00'
+  reviewDecisionEvent: Normal ISO processing
+date_accepted: '2023-04-19T00:00:00+05:00'
+id: c7f31dd2-cb6c-569e-bd77-552e86466511

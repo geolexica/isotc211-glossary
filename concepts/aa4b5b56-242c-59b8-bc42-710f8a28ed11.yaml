@@ -1,0 +1,57 @@
+data:
+  identifier: '2559'
+  localized_concepts:
+    eng: 82bba497-b0dc-5be9-82a0-6c66689b40f0
+  domains:
+  - concept_id: iso-19170-1
+    source: urn:iso:std:iso
+    ref_type: domain
+related:
+- content: iso-19170-1
+  type: broader
+  ref:
+    source: ISO
+    id: iso-19170-1
+date_accepted: '2021-05-11T00:00:00+05:00'
+status: valid
+schema_version: '3'
+id: aa4b5b56-242c-59b8-bc42-710f8a28ed11
+---
+data:
+  dates:
+  - date: '2021-05-11T00:00:00+05:00'
+    type: accepted
+  - date: '2021-05-11T00:00:00+05:00'
+    type: review
+  - date: '2021-05-11T00:00:00+05:00'
+    type: review_decision
+    event_description: Normal ISO processing
+  definition:
+  - content: temporal geometry primitive representing a point in time
+  examples: []
+  id: '2559'
+  notes:
+  - content: On temporal coordinate systems as specified in ISO 19107, the temporal
+      geometric primitives instant and interval are the equivalent of points and lines
+      as specified in ISO 19107.
+  release: '6.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO 19170-1:2021
+      locality:
+        type: clause
+        reference_from: '3.29'
+      link: https://www.iso.org/standard/32588.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: instant <DGGS>
+  language_code: eng
+  entry_status: valid
+  reviewDate: '2021-05-11T00:00:00+05:00'
+  reviewDecisionDate: '2021-05-11T00:00:00+05:00'
+  reviewDecisionEvent: Normal ISO processing
+date_accepted: '2021-05-11T00:00:00+05:00'
+id: 82bba497-b0dc-5be9-82a0-6c66689b40f0

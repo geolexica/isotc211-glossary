@@ -1,0 +1,56 @@
+data:
+  identifier: '2632'
+  localized_concepts:
+    eng: 1babee34-377a-5742-83c7-cc7ed77c55c2
+  domains:
+  - concept_id: iso-19148
+    source: urn:iso:std:iso
+    ref_type: domain
+related:
+- content: iso-19148
+  type: broader
+  ref:
+    source: ISO
+    id: iso-19148
+date_accepted: '2021-04-06T00:00:00+05:00'
+status: valid
+schema_version: '3'
+id: 7f74c8e2-c92a-59b9-b2dd-b18cb0687e2c
+---
+data:
+  dates:
+  - date: '2021-04-06T00:00:00+05:00'
+    type: accepted
+  - date: '2021-04-06T00:00:00+05:00'
+    type: review
+  - date: '2021-04-06T00:00:00+05:00'
+    type: review_decision
+    event_description: Normal ISO processing
+  definition:
+  - content: known location along a linear element from which relative measurements
+      are made
+  examples:
+  - content: Milepost, kilopost or reference post.
+  id: '2632'
+  notes: []
+  release: '6.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO 19148:2021
+      locality:
+        type: clause
+        reference_from: '3.22'
+      link: https://www.iso.org/standard/75150.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: referent
+  language_code: eng
+  entry_status: valid
+  reviewDate: '2021-04-06T00:00:00+05:00'
+  reviewDecisionDate: '2021-04-06T00:00:00+05:00'
+  reviewDecisionEvent: Normal ISO processing
+date_accepted: '2021-04-06T00:00:00+05:00'
+id: 1babee34-377a-5742-83c7-cc7ed77c55c2

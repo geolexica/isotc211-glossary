@@ -1,0 +1,101 @@
+data:
+  identifier: '1931'
+  localized_concepts:
+    eng: d438a65b-59e1-5111-b20b-c264d688577f
+    spa: c775ddcc-2c43-5487-bd53-527e391ab95b
+  domains:
+  - concept_id: iso-ts-19159-2
+    source: urn:iso:std:iso
+    ref_type: domain
+related:
+- content: iso-ts-19159-2
+  type: broader
+  ref:
+    source: ISO
+    id: iso-ts-19159-2
+date_accepted: '2016-04-15T00:00:00+05:00'
+status: valid
+schema_version: '3'
+id: bc00c8b0-87e2-5e5c-b849-8098b13026a8
+---
+data:
+  dates:
+  - date: '2016-04-15T00:00:00+05:00'
+    type: accepted
+  - date: '2014-08-26T00:00:00+05:00'
+    type: review
+  - date: '2016-04-15T00:00:00+05:00'
+    type: review_decision
+    event_description: Normal ISO processing
+  definition:
+  - content: calibration of a lidar sensor system, equipped with an Inertial Measurement
+      Unit (IMU) and a Global Navigation Satellite System (GNSS), to accurately determine
+      or establish its position and orientation
+  examples: []
+  id: '1931'
+  notes:
+  - content: The position of the lidar sensor system (x, y, z) is determined with
+      respect to the GNSS antenna. The orientation (roll, pitch, heading) of the lidar
+      sensor system is determined with respect to straight and level flight.
+  release: '4.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO/TS 19159-2:2016
+      locality:
+        type: clause
+        reference_from: '4.4'
+      link: https://www.iso.org/standard/64768.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: boresight
+  language_code: eng
+  entry_status: valid
+  reviewDate: '2014-08-26T00:00:00+05:00'
+  reviewDecisionDate: '2016-04-15T00:00:00+05:00'
+  reviewDecisionEvent: Normal ISO processing
+date_accepted: '2016-04-15T00:00:00+05:00'
+id: d438a65b-59e1-5111-b20b-c264d688577f
+---
+data:
+  dates:
+  - date: '2016-04-15T00:00:00+05:00'
+    type: accepted
+  - date: '2014-08-26T00:00:00+05:00'
+    type: review
+  - date: '2016-04-15T00:00:00+05:00'
+    type: review_decision
+    event_description: Normal ISO processing
+  definition:
+  - content: ajuste de un sistema de sensor lídar, equipado con una Unidad de Medida
+      Inercial (IMU) y un Sistema Global de Navegación por Satélite (GNSS), para determinar
+      o establecer con exactitud su posición y orientación
+  examples: []
+  id: '1931'
+  notes:
+  - content: La posición del sistema de sensor lídar (x, y, z) se determina con respecto
+      a la antena GNSS. La orientación (alabeo, cabeceo, guiñada) del sistema de sensor
+      lidar se determina con respecto al vuelo recto y nivelado.
+  release: '4.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO/TS 19159-2:2016
+      locality:
+        type: clause
+        reference_from: '4.4'
+      link: https://www.iso.org/standard/64768.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: calibración IMU-GNSS
+  language_code: spa
+  entry_status: valid
+  reviewDate: '2014-08-26T00:00:00+05:00'
+  reviewDecisionDate: '2016-04-15T00:00:00+05:00'
+  reviewDecisionEvent: Normal ISO processing
+date_accepted: '2016-04-15T00:00:00+05:00'
+id: c775ddcc-2c43-5487-bd53-527e391ab95b

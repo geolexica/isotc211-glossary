@@ -1,0 +1,59 @@
+data:
+  identifier: '2853'
+  localized_concepts:
+    eng: 522e32a2-689a-5ba4-9bc6-ae4af5dd410d
+  domains:
+  - concept_id: iso-19123-1
+    source: urn:iso:std:iso
+    ref_type: domain
+related:
+- content: iso-19123-1
+  type: broader
+  ref:
+    source: ISO
+    id: iso-19123-1
+date_accepted: '2023-06-21T00:00:00+05:00'
+status: valid
+schema_version: '3'
+id: b979c12f-eb86-5116-9da1-f4f9ccf4e3bb
+---
+data:
+  dates:
+  - date: '2023-06-21T00:00:00+05:00'
+    type: accepted
+  - date: '2023-06-21T00:00:00+05:00'
+    type: review
+  - date: '2023-06-21T00:00:00+05:00'
+    type: review_decision
+    event_description: Publication of document ISO 19123-1:2023(E)
+  definition:
+  - content: engineering grid coverage coordinate reference system (CRS)
+  examples: []
+  id: '2853'
+  notes:
+  - content: The CRS of a raster image (without georeferencing) is a 2D grid with
+      Cartesian axes; this special case of an index CRS is commonly referred to as
+      "image CRS".
+  release: '6.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO 19123-1:2023
+      locality:
+        type: clause
+        reference_from: 3.1.33
+      link: https://www.iso.org/standard/70743.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: image coordinate reference system
+  - type: expression
+    designation: image CRS
+  language_code: eng
+  entry_status: valid
+  reviewDate: '2023-06-21T00:00:00+05:00'
+  reviewDecisionDate: '2023-06-21T00:00:00+05:00'
+  reviewDecisionEvent: Publication of document ISO 19123-1:2023(E)
+date_accepted: '2023-06-21T00:00:00+05:00'
+id: 522e32a2-689a-5ba4-9bc6-ae4af5dd410d

@@ -1,0 +1,97 @@
+data:
+  identifier: '2375'
+  localized_concepts:
+    eng: 3aa4b992-975a-57d7-a531-a4c421536639
+    spa: 9a5b73cd-e939-5d5e-b965-8cfc57ad73f6
+  domains:
+  - concept_id: iso-19111
+    source: urn:iso:std:iso
+    ref_type: domain
+related:
+- content: iso-19111
+  type: broader
+  ref:
+    source: ISO
+    id: iso-19111
+date_accepted: '2019-01-31T00:00:00+05:00'
+status: valid
+schema_version: '3'
+id: 369c0ec5-a032-5280-ab6f-1f115e268b95
+---
+data:
+  dates:
+  - date: '2019-01-31T00:00:00+05:00'
+    type: accepted
+  - date: '2019-01-31T00:00:00+05:00'
+    type: review
+  - date: '2019-01-31T00:00:00+05:00'
+    type: review_decision
+    event_description: Normal ISO processing
+  definition:
+  - content: parameter or set of parameters that realize the position of the origin,
+      the scale, and the orientation of a coordinate system
+  examples: []
+  id: '2375'
+  notes: []
+  release: '5.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO 19111:2019
+      locality:
+        type: clause
+        reference_from: 3.1.52
+      link: https://www.iso.org/standard/74039.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: reference frame
+  - type: expression
+    designation: datum
+  language_code: eng
+  entry_status: valid
+  reviewDate: '2019-01-31T00:00:00+05:00'
+  reviewDecisionDate: '2019-01-31T00:00:00+05:00'
+  reviewDecisionEvent: Normal ISO processing
+date_accepted: '2019-01-31T00:00:00+05:00'
+id: 3aa4b992-975a-57d7-a531-a4c421536639
+---
+data:
+  dates:
+  - date: '2019-01-31T00:00:00+05:00'
+    type: accepted
+  - date: '2019-01-31T00:00:00+05:00'
+    type: review
+  - date: '2019-01-31T00:00:00+05:00'
+    type: review_decision
+    event_description: Procedimiento normal de ISO
+  definition:
+  - content: parámetro o conjunto de parámetros que definen la posición del origen,
+      la escala y la orientación de un sistema de coordenadas.
+  examples: []
+  id: '2375'
+  notes: []
+  release: '5.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO 19111:2019
+      locality:
+        type: clause
+        reference_from: 3.1.52
+      link: https://www.iso.org/standard/74039.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: marco de referencia
+  - type: expression
+    designation: datum
+  language_code: spa
+  entry_status: valid
+  reviewDate: '2019-01-31T00:00:00+05:00'
+  reviewDecisionDate: '2019-01-31T00:00:00+05:00'
+  reviewDecisionEvent: Procedimiento normal de ISO
+date_accepted: '2019-01-31T00:00:00+05:00'
+id: 9a5b73cd-e939-5d5e-b965-8cfc57ad73f6

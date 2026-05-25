@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       version:
-        description: 'Version (e.g. 1.0.0)'
+        description: 'Version (e.g. 20260508)'
         required: true
         type: string
 
@@ -40,15 +40,15 @@ jobs:
           glossarist package . -o "isotc211-${{ steps.version.outputs.version }}.gcr" \
             --shortname isotc211 \
             --version "${{ steps.version.outputs.version }}" \
-            --title "ISO/TC 211 Geographic Information Vocabulary" \
+            --title "ISO/TC 211 Multi-Lingual Glossary of Terms" \
             --owner "ISO/TC 211"
 
-      - name: Build full GCR package (with formats)
+      - name: Build full GCR package (with compiled formats)
         run: |
           glossarist package . -o "isotc211-${{ steps.version.outputs.version }}-full.gcr" \
             --shortname isotc211 \
             --version "${{ steps.version.outputs.version }}" \
-            --title "ISO/TC 211 Geographic Information Vocabulary" \
+            --title "ISO/TC 211 Multi-Lingual Glossary of Terms" \
             --owner "ISO/TC 211" \
             --compiled-formats tbx,jsonld,turtle,jsonl
 

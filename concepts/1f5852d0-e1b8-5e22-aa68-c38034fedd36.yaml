@@ -1,0 +1,54 @@
+data:
+  identifier: '2738'
+  localized_concepts:
+    eng: 888573b1-6cf2-58e7-9663-86c2e90bc79f
+  domains:
+  - concept_id: iso-ts-19124-1
+    source: urn:iso:std:iso
+    ref_type: domain
+related:
+- content: iso-ts-19124-1
+  type: broader
+  ref:
+    source: ISO
+    id: iso-ts-19124-1
+date_accepted: '2023-04-27T00:00:00+05:00'
+status: valid
+schema_version: '3'
+id: 1f5852d0-e1b8-5e22-aa68-c38034fedd36
+---
+data:
+  dates:
+  - date: '2023-04-27T00:00:00+05:00'
+    type: accepted
+  - date: '2023-04-27T00:00:00+05:00'
+    type: review
+  - date: '2023-04-27T00:00:00+05:00'
+    type: review_decision
+    event_description: Normal ISO processing
+  definition:
+  - content: <coordinate> procedure to match the location of two or more spatial datasets
+  examples: []
+  id: '2738'
+  notes: []
+  release: '6.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO/TS 19124-1:2023
+      locality:
+        type: clause
+        reference_from: '3.7'
+      link: https://www.iso.org/standard/79352.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: co-location
+  language_code: eng
+  entry_status: valid
+  reviewDate: '2023-04-27T00:00:00+05:00'
+  reviewDecisionDate: '2023-04-27T00:00:00+05:00'
+  reviewDecisionEvent: Normal ISO processing
+date_accepted: '2023-04-27T00:00:00+05:00'
+id: 888573b1-6cf2-58e7-9663-86c2e90bc79f

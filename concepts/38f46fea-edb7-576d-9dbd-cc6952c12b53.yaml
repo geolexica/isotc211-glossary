@@ -1,0 +1,55 @@
+data:
+  identifier: '305'
+  localized_concepts:
+    eng: f0b8f2ce-e187-5740-b9e7-342845be84c8
+  domains:
+  - concept_id: iso-19136-1
+    source: urn:iso:std:iso
+    ref_type: domain
+related:
+- content: iso-19136-1
+  type: broader
+  ref:
+    source: ISO
+    id: iso-19136-1
+date_accepted: '2022-03-10T00:00:00+05:00'
+status: valid
+schema_version: '3'
+id: 38f46fea-edb7-576d-9dbd-cc6952c12b53
+---
+data:
+  dates:
+  - date: '2022-03-10T00:00:00+05:00'
+    type: accepted
+  - date: '2022-03-10T00:00:00+05:00'
+    type: review
+  - date: '2022-03-10T00:00:00+05:00'
+    type: review_decision
+    event_description: Normal ISO processing
+  definition:
+  - content: collection of names, identified by a URI reference, which are used in
+      XML documents as element names and attribute names (W3C XML Namespaces)
+  examples: []
+  id: '305'
+  notes: []
+  release: '6.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO 19136-1:2020
+      locality:
+        type: clause
+        reference_from: 3.1.43
+      link: https://www.iso.org/standard/75676.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: namespace <XML>
+  language_code: eng
+  entry_status: valid
+  reviewDate: '2022-03-10T00:00:00+05:00'
+  reviewDecisionDate: '2022-03-10T00:00:00+05:00'
+  reviewDecisionEvent: Normal ISO processing
+date_accepted: '2022-03-10T00:00:00+05:00'
+id: f0b8f2ce-e187-5740-b9e7-342845be84c8

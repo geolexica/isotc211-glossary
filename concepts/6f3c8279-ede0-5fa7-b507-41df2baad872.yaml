@@ -1,0 +1,62 @@
+data:
+  identifier: '2654'
+  localized_concepts:
+    eng: 02e12b80-ce08-5cc8-a0ae-f19fc475cfad
+  domains:
+  - concept_id: iso-19111
+    source: urn:iso:std:iso
+    ref_type: domain
+related:
+- content: iso-19111
+  type: broader
+  ref:
+    source: ISO
+    id: iso-19111
+date_accepted: '2021-05-11T00:00:00+05:00'
+status: valid
+schema_version: '3'
+id: 6f3c8279-ede0-5fa7-b507-41df2baad872
+---
+data:
+  dates:
+  - date: '2021-05-11T00:00:00+05:00'
+    type: accepted
+  - date: '2021-05-11T00:00:00+05:00'
+    type: review
+  - date: '2021-05-11T00:00:00+05:00'
+    type: review_decision
+    event_description: Normal ISO processing
+  definition:
+  - content: coordinate reference system that has a geodetic reference frame and an
+      ellipsoidal coordinate system
+  examples: []
+  id: '2654'
+  notes: []
+  release: '6.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO 19111:2019
+      locality:
+        type: clause
+        reference_from: 3.1.35
+      link: https://www.iso.org/standard/74039.html
+    status: unspecified
+    type: authoritative
+  - origin:
+      ref:
+        source: ISO 19170-1:20213.21
+    type: lineage
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: geographic CRS
+  - type: expression
+    designation: geographic coordinate reference system
+  language_code: eng
+  entry_status: valid
+  reviewDate: '2021-05-11T00:00:00+05:00'
+  reviewDecisionDate: '2021-05-11T00:00:00+05:00'
+  reviewDecisionEvent: Normal ISO processing
+date_accepted: '2021-05-11T00:00:00+05:00'
+id: 02e12b80-ce08-5cc8-a0ae-f19fc475cfad

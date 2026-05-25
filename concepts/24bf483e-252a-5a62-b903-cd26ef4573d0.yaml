@@ -1,0 +1,60 @@
+data:
+  identifier: '2841'
+  localized_concepts:
+    eng: 34060ae6-b3b8-513c-be04-fc7454b3ac45
+  domains:
+  - concept_id: iso-19123-1
+    source: urn:iso:std:iso
+    ref_type: domain
+related:
+- content: iso-19123-1
+  type: broader
+  ref:
+    source: ISO
+    id: iso-19123-1
+date_accepted: '2023-06-21T00:00:00+05:00'
+status: valid
+schema_version: '3'
+id: 24bf483e-252a-5a62-b903-cd26ef4573d0
+---
+data:
+  dates:
+  - date: '2023-06-21T00:00:00+05:00'
+    type: accepted
+  - date: '2023-06-21T00:00:00+05:00'
+    type: review
+  - date: '2023-06-21T00:00:00+05:00'
+    type: review_decision
+    event_description: Normal ISO processing
+  definition:
+  - content: coordinate reference system (CRS) in which all coordinates in a coverage
+      domain are expressed
+  examples: []
+  id: '2841'
+  notes:
+  - content: Sometimes a coverage's CRS is also referred to as the coverage's native
+      CRS to express that this is the CRS to which all the coverage's location data
+      refer.
+  release: '6.0'
+  sources:
+  - origin:
+      ref:
+        source: ISO 19123-1:2023
+      locality:
+        type: clause
+        reference_from: 3.1.10
+      link: https://www.iso.org/standard/70743.html
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: coverage CRS
+  - type: expression
+    designation: coverage coordinate reference system
+  language_code: eng
+  entry_status: valid
+  reviewDate: '2023-06-21T00:00:00+05:00'
+  reviewDecisionDate: '2023-06-21T00:00:00+05:00'
+  reviewDecisionEvent: Normal ISO processing
+date_accepted: '2023-06-21T00:00:00+05:00'
+id: 34060ae6-b3b8-513c-be04-fc7454b3ac45
