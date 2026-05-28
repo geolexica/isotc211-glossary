@@ -1,10 +1,119 @@
-== ISO/TC 211 Multi-Lingual Glossary of Terms (MLGT) Glossarist database
+= ISO/TC 211 Multi-Lingual Glossary of Terms
 
-This repository contains the latest snapshot of the
-ISO/TC 211 Multi-Lingual Glossary of Terms (MLGT) in YAML format.
+https://glossarist.org[Glossarist] concept database for ISO/TC 211, implementing the https://github.com/glossarist/concept-model[Glossarist Concept Model] (ISO 10241-1 compliant).
 
-This repository is managed by the Paneron/Glossarist app and is built into
-https://github.com/geolexica/isotc211.geolexica.org[ISO/TC 211 Multi-Lingual Glossary of Terms (MLGT) website],
-available at https://isotc211.geolexica.org/.
+Live site: https://isotc211.geolexica.org
+
+== Overview
+
+This repository contains the authoritative terminology data for the ISO/TC 211 Multi-Lingual Glossary of Terms (MLGT). Each concept is stored as a YAML file in the https://github.com/glossarist/concept-model/blob/main/schemas/v3[Glossarist v3 schema] format.
+
+[cols="1,4"]
+|===
+| Owner | ISO/TC 211
+| Register Manager | ISO/TC 211 Terminology Maintenance Group (TMG)
+| Concepts | ~1500
+| Languages | eng, ara, zho, dan, nld, fin, fra, deu, jpn, kor, msa, pol, rus, spa, swe
+| Concept model | https://github.com/glossarist/concept-model[v3]
+|===
 
 NOTE: The YAML data in this repository is the authoritative data source.
+
+== Repository structure
+
+[source]
+├── register.yaml           # Register metadata and language subregisters
+├── concepts/               # One YAML file per concept (UUID-named)
+│   ├── 00061441-c9f2-...yaml
+│   └── ...
+└── db/                     # Glossarist desktop app state
+
+== Concept file format
+
+Each concept file is a multi-document YAML stream containing the managed concept followed by its localizations:
+
+[source,yaml]
+----
+data:
+  identifier: '2'
+  localized_concepts:
+    eng: f97c8700-4637-5d81-875d-4db604cf319b
+    ara: 48aee9d4-b7ce-5aac-b00f-d4170673471b
+  domains:
+  - concept_id: iso-19136-1
+    source: urn:iso:std:iso
+    ref_type: domain
+related: []
+date_accepted: '2007-09-01T00:00:00+05:00'
+status: valid
+schema_version: '3'
+id: 00061441-c9f2-5dd8-b28b-20dd94ad5ebf
+---
+data:                                          # Localized concept (English)
+  dates:
+  - date: '2007-09-01T00:00:00+05:00'
+    type: accepted
+  definition:
+  - content: Shortened form of a term formed by omitting letters...
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: abbreviation
+  language_code: eng
+  entry_status: valid
+schema_version: '3'
+id: f97c8700-4637-5d81-875d-4db604cf319b
+----
+
+See the https://github.com/glossarist/concept-model/tree/main/schemas/v3/examples[concept model examples] for all field types.
+
+== Editing concepts
+
+=== Using Glossarist Desktop
+
+Open this repository in the https://glossarist.org/desktop[Glossarist Desktop] application. The app reads and writes YAML files directly.
+
+=== Manual editing
+
+Each concept file can be edited in any text editor. Key fields:
+
+* `data.terms[].designation` — the term/designation text
+* `data.definition[].content` — the definition text
+* `data.examples[].content` — example sentences
+* `data.notes[].content` — notes
+* `data.sources[]` — bibliographic sources
+* `data.domain` — subject area reference
+* `status` — `valid`, `superseded`, or `withdrawn`
+
+When adding a new concept:
+
+. Create a new YAML file in `concepts/` with a deterministic UUID
+. Add the concept UUID to `register.yaml` under the appropriate language subregister
+. Commit and push
+
+== Browsing with Concept Browser
+
+This data is built and deployed using https://github.com/glossarist/concept-browser[`@glossarist/concept-browser`].
+
+The deployment configuration lives in https://github.com/geolexica/isotc211.geolexica.org[`geolexica/isotc211.geolexica.org`].
+
+To build and preview locally:
+
+[source,sh]
+----
+git clone https://github.com/geolexica/isotc211.geolexica.org
+cd isotc211.geolexica.org
+npm install
+npx concept-browser build
+# Output in dist/
+----
+
+== Data pipeline
+
+[source]
+glossary YAML (this repo)
+  → GCR package (GitHub Release .gcr)
+    → concept-browser build (fetch + generate + vite build)
+      → GitHub Pages deployment (isotc211.geolexica.org)
+
+GCR packages are built automatically by the `publish-gcr` workflow on push to `main`.
