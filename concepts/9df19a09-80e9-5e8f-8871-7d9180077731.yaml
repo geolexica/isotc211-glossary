@@ -1,14 +1,16 @@
+---
 data:
   identifier: '2170'
   localized_concepts:
     eng: 0ad076a3-95e9-521c-bf8a-2439b35b60f0
-    spa: 0169fe1c-623a-557c-84ec-c32472aee232
+    spa: '0169fe1c-623a-557c-84ec-c32472aee232'
   domains:
   - concept_id: iso-19107
     source: urn:iso:std:iso
     ref_type: domain
 related:
-- content: iso-19107
+- content:
+    eng: iso-19107
   type: broader
   ref:
     source: ISO
@@ -17,6 +19,7 @@ date_accepted: '2019-12-02T00:00:00+05:00'
 status: valid
 schema_version: '3'
 id: 9df19a09-80e9-5e8f-8871-7d9180077731
+---
 ---
 data:
   dates:
@@ -61,6 +64,7 @@ data:
 date_accepted: '2019-12-02T00:00:00+05:00'
 id: 0ad076a3-95e9-521c-bf8a-2439b35b60f0
 ---
+---
 data:
   dates:
   - date: '2019-12-02T00:00:00+05:00'
@@ -75,11 +79,9 @@ data:
   examples: []
   id: '2170'
   notes:
-  - content: 'NOTA: Una secuencia creciente nunca se hace más pequeña. Una secuencia
-      estrictamente creciente siempre se hace más grande.
-
-      Una secuencia decreciente nunca se hace más grande. Una secuencia estrictamente
-      decreciente siempre se reduce. (fórmula)'
+  - content: |-
+      NOTA: Una secuencia creciente nunca se hace más pequeña. Una secuencia estrictamente creciente siempre se hace más grande.
+      Una secuencia decreciente nunca se hace más grande. Una secuencia estrictamente decreciente siempre se reduce. (fórmula)
   release: '5.0'
   sources:
   - origin:
@@ -100,4 +102,4 @@ data:
   reviewDecisionDate: '2019-12-02T00:00:00+05:00'
   reviewDecisionEvent: Procedimiento normal de ISO
 date_accepted: '2019-12-02T00:00:00+05:00'
-id: 0169fe1c-623a-557c-84ec-c32472aee232
+id: '0169fe1c-623a-557c-84ec-c32472aee232'

@@ -1,3 +1,4 @@
+---
 data:
   identifier: '1029'
   localized_concepts:
@@ -6,14 +7,15 @@ data:
     deu: b01dcec0-1c02-58e7-9c9d-a6545fca4dc5
     kor: ded0b6b9-f6db-5a21-8af7-ac795ebbcd75
     rus: e9a9ded8-67ce-5c54-9208-dd321d855e35
-    spa: 08b474ba-387a-5b56-8b81-cb7cb523bb4f
+    spa: '08b474ba-387a-5b56-8b81-cb7cb523bb4f'
     swe: 86f22984-085e-557a-a8c0-b0eb916ac16f
   domains:
   - concept_id: iso-19143
     source: urn:iso:std:iso
     ref_type: domain
 related:
-- content: iso-19143
+- content:
+    eng: iso-19143
   type: broader
   ref:
     source: ISO
@@ -22,6 +24,7 @@ date_accepted: '2010-10-15T00:00:00+05:00'
 status: valid
 schema_version: '3'
 id: 2d870482-8ee7-5d82-aedc-c610bed6c5b3
+---
 ---
 data:
   dates:
@@ -50,6 +53,7 @@ data:
 date_accepted: '2010-10-15T00:00:00+05:00'
 id: 3bcea7cf-a4c5-528f-a4bc-03c5624186ad
 ---
+---
 data:
   dates:
   - date: '2010-10-15T00:00:00+05:00'
@@ -76,6 +80,7 @@ data:
   entry_status: valid
 date_accepted: '2010-10-15T00:00:00+05:00'
 id: fed2f67f-27cb-5b03-846d-c543f31775ec
+---
 ---
 data:
   dates:
@@ -104,6 +109,7 @@ data:
 date_accepted: '2010-10-15T00:00:00+05:00'
 id: b01dcec0-1c02-58e7-9c9d-a6545fca4dc5
 ---
+---
 data:
   dates:
   - date: '2010-10-15T00:00:00+05:00'
@@ -130,6 +136,7 @@ data:
   entry_status: valid
 date_accepted: '2010-10-15T00:00:00+05:00'
 id: ded0b6b9-f6db-5a21-8af7-ac795ebbcd75
+---
 ---
 data:
   dates:
@@ -162,6 +169,7 @@ data:
 date_accepted: '2010-10-15T00:00:00+05:00'
 id: e9a9ded8-67ce-5c54-9208-dd321d855e35
 ---
+---
 data:
   dates:
   - date: '2010-10-15T00:00:00+05:00'
@@ -187,7 +195,8 @@ data:
   language_code: spa
   entry_status: valid
 date_accepted: '2010-10-15T00:00:00+05:00'
-id: 08b474ba-387a-5b56-8b81-cb7cb523bb4f
+id: '08b474ba-387a-5b56-8b81-cb7cb523bb4f'
+---
 ---
 data:
   dates:
@@ -209,7 +218,7 @@ data:
     type: authoritative
   - origin:
       ref:
-        source: (Type reference to national language document)
+        source: "(Type reference to national language document)"
     type: lineage
   terms:
   - type: expression

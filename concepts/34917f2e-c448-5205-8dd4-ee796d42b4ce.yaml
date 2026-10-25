@@ -1,3 +1,4 @@
+---
 data:
   identifier: '2695'
   localized_concepts:
@@ -7,7 +8,8 @@ data:
     source: urn:iso:std:iso
     ref_type: domain
 related:
-- content: iso-ts-19159-4
+- content:
+    eng: iso-ts-19159-4
   type: broader
   ref:
     source: ISO
@@ -16,6 +18,7 @@ date_accepted: '2022-11-24T00:00:00+05:00'
 status: valid
 schema_version: '3'
 id: 34917f2e-c448-5205-8dd4-ee796d42b4ce
+---
 ---
 data:
   dates:
@@ -32,19 +35,14 @@ data:
   examples: []
   id: '2695'
   notes:
-  - content: 'For microwave radiometer, SRF refers to the receiver''s band-pass, stem:[B(nu)],
-      which can be determined by performing two measurements per frequency at different
-      input power levels, as shown in the following formula: stem:[B(nu)=(DeltaV_("out")(nu))/(DeltaP_("in")(nu))]
-
+  - content: |-
+      For microwave radiometer, SRF refers to the receiver's band-pass, stem:[B(nu)], which can be determined by performing two measurements per frequency at different input power levels, as shown in the following formula: stem:[B(nu)=(DeltaV_("out")(nu))/(DeltaP_("in")(nu))]
 
       where
 
-
       stem:[DeltaV_("out")] is the output voltage difference;
-
       stem:[DeltaP_("in")] is the input power difference;
-
-      stem:[nu] is the frequency in Hz'
+      stem:[nu] is the frequency in Hz
   release: '6.0'
   sources:
   - origin:

@@ -1,3 +1,4 @@
+---
 data:
   identifier: '2585'
   localized_concepts:
@@ -7,7 +8,8 @@ data:
     source: urn:iso:std:iso
     ref_type: domain
 related:
-- content: iso-ts-19159-4
+- content:
+    eng: iso-ts-19159-4
   type: broader
   ref:
     source: ISO
@@ -16,6 +18,7 @@ date_accepted: '2022-11-24T00:00:00+05:00'
 status: valid
 schema_version: '3'
 id: 5b0fe30a-1f9d-53ab-b84b-8c426c784df6
+---
 ---
 data:
   dates:
@@ -33,23 +36,16 @@ data:
   examples: []
   id: '2585'
   notes:
-  - content: 'stem:[eta_"M"] is calculated using the following formula: stem:[eta_("M")
-      = frac(int int_(Y) F_(n) (theta ,  phi) d Omega)(int int_(4 pi) F_(n) (theta
-      ,  phi) d Omega)]
-
+  - content: |-
+      stem:[eta_"M"] is calculated using the following formula: stem:[eta_("M") = frac(int int_(Y) F_(n) (theta ,  phi) d Omega)(int int_(4 pi) F_(n) (theta ,  phi) d Omega)]
 
       where
 
-
       stem:[F_n] is the antenna pattern;
-
       stem:[theta] is the elevation angle;
-
       stem:[phi] is the azimuth angle;
-
       stem:[d Omega] is the differential solid angle;
-
-      stem:[Y] is the main lobe value.'
+      stem:[Y] is the main lobe value.
   - content: Main beam is also referred as main lobe.
   release: '6.0'
   sources:

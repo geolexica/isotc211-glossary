@@ -1,3 +1,4 @@
+---
 data:
   identifier: '2176'
   localized_concepts:
@@ -8,7 +9,8 @@ data:
     source: urn:iso:std:iso
     ref_type: domain
 related:
-- content: iso-19107
+- content:
+    eng: iso-19107
   type: broader
   ref:
     source: ISO
@@ -17,6 +19,7 @@ date_accepted: '2019-12-02T00:00:00+05:00'
 status: valid
 schema_version: '3'
 id: 1199f313-bc6f-5533-903a-09e21fbe80e3
+---
 ---
 data:
   dates:
@@ -66,6 +69,7 @@ data:
 date_accepted: '2019-12-02T00:00:00+05:00'
 id: 047db2d4-c2c5-5d55-ae39-13d3f88d1e2a
 ---
+---
 data:
   dates:
   - date: '2019-12-02T00:00:00+05:00'
@@ -86,10 +90,9 @@ data:
   - content: 'NOTA 1: Si los índices son (i, j) con el número de filas "r" y columnas
       "c", entonces la correspondencia entre las localizaciones multidimensionales
       y las localizaciones de almacenamiento lineal está dada por: (fórmula)'
-  - content: 'NOTA 2: La matriz  (fórmula) en forma de fila principal se almacena
-      como (fórmula) .
-
-      Para dimensiones superiores, se aplica el mismo patrón de forma recursiva.'
+  - content: |-
+      NOTA 2: La matriz  (fórmula) en forma de fila principal se almacena como (fórmula) .
+      Para dimensiones superiores, se aplica el mismo patrón de forma recursiva.
   release: '5.0'
   sources:
   - origin:

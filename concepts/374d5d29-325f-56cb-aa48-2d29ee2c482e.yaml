@@ -1,3 +1,4 @@
+---
 data:
   identifier: '2081'
   localized_concepts:
@@ -8,7 +9,8 @@ data:
     source: urn:iso:std:iso
     ref_type: domain
 related:
-- content: iso-19107
+- content:
+    eng: iso-19107
   type: broader
   ref:
     source: ISO
@@ -17,6 +19,7 @@ date_accepted: '2019-12-02T00:00:00+05:00'
 status: valid
 schema_version: '3'
 id: 374d5d29-325f-56cb-aa48-2d29ee2c482e
+---
 ---
 data:
   dates:
@@ -28,8 +31,8 @@ data:
     type: review_decision
     event_description: Normal ISO processing
   definition:
-  - content: distance measure on a 𝔼n coordinate space using a root-mean sum of the
-      differences between the individual coordinate offsets
+  - content: "distance measure on a \U0001D53Cn coordinate space using a root-mean
+      sum of the differences between the individual coordinate offsets"
   examples: []
   id: '2081'
   notes:
@@ -63,6 +66,7 @@ data:
 date_accepted: '2019-12-02T00:00:00+05:00'
 id: 3ae5cb47-10ed-56b5-bf62-e45ff0106262
 ---
+---
 data:
   dates:
   - date: '2019-12-02T00:00:00+05:00'
@@ -73,20 +77,21 @@ data:
     type: review_decision
     event_description: Procedimiento normal de ISO
   definition:
-  - content: medida de la distancia en un espacio de coordenadas 𝔼n usando una raíz
-      cuadrada del sumatorio de las diferencias entre las compensaciones de coordenadas
-      individuales
+  - content: "medida de la distancia en un espacio de coordenadas \U0001D53Cn usando
+      una raíz cuadrada del sumatorio de las diferencias entre las compensaciones
+      de coordenadas individuales"
   examples: []
   id: '2081'
   notes:
-  - content: 'NOTA:  (fórmula)  La comprobación de la métrica de Pitágoras depende
+  - content: "NOTA:  (fórmula)  La comprobación de la métrica de Pitágoras depende
       del aplanamiento local del espacio. Los espacios de coordenadas cartesianas
-      que tienen métrica de pitágoras se llaman espacios Euclidianos (𝔼n). En el ámbito
-      de los sistemas de referencia de coordenadas, sólo los "sistemas de coordenadas
-      de ingeniería" son euclidianos. Cualquier SRC que utilice un Datum curvo es
-      por definición no euclidiano, y no puede utilizar "verdaderamente" la métrica
-      de Pitágoras excepto para la aproximación. Estas aproximaciones son válidas
-      para declaraciones topológicas, pero no para medidas del mundo real sin ajustes.'
+      que tienen métrica de pitágoras se llaman espacios Euclidianos (\U0001D53Cn).
+      En el ámbito de los sistemas de referencia de coordenadas, sólo los \"sistemas
+      de coordenadas de ingeniería\" son euclidianos. Cualquier SRC que utilice un
+      Datum curvo es por definición no euclidiano, y no puede utilizar \"verdaderamente\"
+      la métrica de Pitágoras excepto para la aproximación. Estas aproximaciones son
+      válidas para declaraciones topológicas, pero no para medidas del mundo real
+      sin ajustes."
   release: '5.0'
   sources:
   - origin:
