@@ -1,0 +1,15 @@
+{
+  "name": "isotc211-glossary",
+  "private": true,
+  "version": "0.1.0",
+  "description": "ISO/TC 211 Multi-Lingual Glossary of Terms — Glossarist Concept Browser dataset",
+  "scripts": {
+    "generate": "npx concept-browser generate",
+    "dev": "npm run generate && NODE_PATH=node_modules/@glossarist/concept-browser/node_modules node_modules/@glossarist/concept-browser/node_modules/.bin/vite --config node_modules/@glossarist/concept-browser/vite.config.ts",
+    "build": "npx concept-browser build",
+    "preview": "NODE_PATH=node_modules/@glossarist/concept-browser/node_modules node_modules/@glossarist/concept-browser/node_modules/.bin/vite preview --config node_modules/@glossarist/concept-browser/vite.config.ts"
+  },
+  "dependencies": {
+    "@glossarist/concept-browser": "^0.7.138"
+  }
+}
