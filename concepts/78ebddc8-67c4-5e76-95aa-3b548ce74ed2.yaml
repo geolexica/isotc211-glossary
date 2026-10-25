@@ -1,3 +1,4 @@
+---
 data:
   identifier: '2601'
   localized_concepts:
@@ -7,7 +8,8 @@ data:
     source: urn:iso:std:iso
     ref_type: domain
 related:
-- content: iso-iec-guide-98-3
+- content:
+    eng: iso-iec-guide-98-3
   type: broader
   ref:
     source: ISO
@@ -16,6 +18,7 @@ date_accepted: '2022-11-24T00:00:00+05:00'
 status: valid
 schema_version: '3'
 id: 78ebddc8-67c4-5e76-95aa-3b548ce74ed2
+---
 ---
 data:
   dates:
@@ -27,21 +30,15 @@ data:
     type: review_decision
     event_description: Normal ISO processing
   definition:
-  - content: 'for a series of stem:[n] measurements of the same measurand, the quantity,
-      stem:[s(q_k)], characterizing the dispersion of the results and given by the
-      formula  stem:[s(q_k)=sqrt((sum_(j=1)^n(q_j-bar(q))^2)/(n-1))]
-
+  - content: |-
+      for a series of stem:[n] measurements of the same measurand, the quantity, stem:[s(q_k)], characterizing the dispersion of the results and given by the formula  stem:[s(q_k)=sqrt((sum_(j=1)^n(q_j-bar(q))^2)/(n-1))]
 
       where
 
-
       stem:[q_k] is the result of the
-
       stem:[k]th measurement;
-
       stem:[q] is the arithmetic mean of the stem:[n] results considered;
-
-      stem:[n] is the number of the measurements'
+      stem:[n] is the number of the measurements
   examples: []
   id: '2601'
   notes:

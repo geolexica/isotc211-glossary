@@ -1,3 +1,4 @@
+---
 data:
   identifier: '2677'
   localized_concepts:
@@ -7,7 +8,8 @@ data:
     source: urn:iso:std:iso
     ref_type: domain
 related:
-- content: iso-ts-19159-4
+- content:
+    eng: iso-ts-19159-4
   type: broader
   ref:
     source: ISO
@@ -16,6 +18,7 @@ date_accepted: '2022-11-24T00:00:00+05:00'
 status: valid
 schema_version: '3'
 id: 6718ab38-d1c9-5c25-a90a-63507b9699b1
+---
 ---
 data:
   dates:
@@ -32,22 +35,15 @@ data:
   examples: []
   id: '2677'
   notes:
-  - content: 'This is also equivalent to the ratio of the antenna radiation resistance
-      (stem:[R_"rad"]) divided by the sum of the antenna radiation resistance and
-      the antenna Ohmic resistance (stem:[R_Omega]), as described in the following
-      formula: stem:[eta_"l"=(P_"rad")/(P_"in")=(R_"rad")/(R_"rad"+R_Omega)]
-
+  - content: |-
+      This is also equivalent to the ratio of the antenna radiation resistance (stem:[R_"rad"]) divided by the sum of the antenna radiation resistance and the antenna Ohmic resistance (stem:[R_Omega]), as described in the following formula: stem:[eta_"l"=(P_"rad")/(P_"in")=(R_"rad")/(R_"rad"+R_Omega)]
 
       where
 
-
       stem:[P_"rad"] is the total radiated power;
-
       stem:[P_"in"] is the total power accepted by the antenna;
-
       stem:[R_"rad"] is the antenna radiation resistance;
-
-      stem:[R_Omega] is the antenna Ohmic resistance.'
+      stem:[R_Omega] is the antenna Ohmic resistance.
   - content: Antenna radiation efficiency (stem:[eta_"l"] ) is also called as Ohmic
       efficiency (stem:[eta_Omega]).
   release: '6.0'

@@ -1,3 +1,4 @@
+---
 data:
   identifier: '2607'
   localized_concepts:
@@ -7,7 +8,8 @@ data:
     source: urn:iso:std:iso
     ref_type: domain
 related:
-- content: iso-ts-19159-4
+- content:
+    eng: iso-ts-19159-4
   type: broader
   ref:
     source: ISO
@@ -16,6 +18,7 @@ date_accepted: '2022-11-24T00:00:00+05:00'
 status: valid
 schema_version: '3'
 id: a72f5457-9059-52a3-a078-97ec5b0c438d
+---
 ---
 data:
   dates:
@@ -27,25 +30,17 @@ data:
     type: review_decision
     event_description: Normal ISO processing
   definition:
-  - content: 'perfect absorber (and therefore the best possible emitter) of thermal
-      electromagnetic radiation, whose spectral radiance density (or spectral brightness
-      density, stem:[L_"f"]) is given by the Planck formula stem:[L_"f"=(2"h"nu^3)/("c"^2(e^("h"nu//"k"T)-1))]
-
+  - content: |-
+      perfect absorber (and therefore the best possible emitter) of thermal electromagnetic radiation, whose spectral radiance density (or spectral brightness density, stem:[L_"f"]) is given by the Planck formula stem:[L_"f"=(2"h"nu^3)/("c"^2(e^("h"nu//"k"T)-1))]
 
       where
 
-
       stem:[v] is the frequency in Hz;
-
       stem:["h"] is Planck’s constant (stem:[6.62607xx10^(-34) "J" cdot "s"]);
-
       stem:["k"] is Boltzmann’s constant (stem:[1.38064852xx10^(-23) "J"//"K"]);
-
       stem:[T] is physical temperature of the blackbody in K;
-
       stem:["c"] is velocity of light (stem:[2.997925xx10^8 "m"//"s"]).
-
-      stem:["e"] is the base of natural logarithm'
+      stem:["e"] is the base of natural logarithm
   examples: []
   id: '2607'
   notes: []

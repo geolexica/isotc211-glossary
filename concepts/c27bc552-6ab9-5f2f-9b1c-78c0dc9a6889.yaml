@@ -1,3 +1,4 @@
+---
 data:
   identifier: '2346'
   localized_concepts:
@@ -8,7 +9,8 @@ data:
     source: urn:iso:std:iso
     ref_type: domain
 related:
-- content: iso-ts-19159-3
+- content:
+    eng: iso-ts-19159-3
   type: broader
   ref:
     source: ISO
@@ -17,6 +19,7 @@ date_accepted: '2018-05-01T00:00:00+05:00'
 status: valid
 schema_version: '3'
 id: c27bc552-6ab9-5f2f-9b1c-78c0dc9a6889
+---
 ---
 data:
   dates:
@@ -38,8 +41,8 @@ data:
       stem:[sigma^0 = sigma/A] where stem:[sigma] is the total radar cross section
       of an area stem:[A]. stem:[sigma^0] is a dimesionless parameter and is usually
       expressed in decibels (dB) as follows: stem:[sigma_"dB"^0 = 10 log_(10) sigma^0]'
-  - content: “Backscattering coefficient” is sometimes called “normalized radar cross
-      section”.
+  - content: "“Backscattering coefficient” is sometimes called “normalized radar cross
+      section”."
   release: '5.0'
   sources:
   - origin:
@@ -62,6 +65,7 @@ data:
 date_accepted: '2018-05-01T00:00:00+05:00'
 id: ef3af2aa-df94-514f-b07e-cc30c144a9c1
 ---
+---
 data:
   dates:
   - date: '2018-05-01T00:00:00+05:00'
@@ -76,13 +80,12 @@ data:
   examples: []
   id: '2346'
   notes:
-  - content: "NOTA 1: Si el retorno del radar desde el área iluminada procede de varios\
-      \ elementos de dispersión independientes, se describe por el coeficiente de\
-      \ retrodispersión en lugar de la sección transversal del radar utilizada para\
-      \ el objetivo puntual. Se calcula como\n  (fórmula)\nDonde\n  (fórmula) es la\
-      \ sección transversal total del radar de un área (fórmula)  . \n  (fórmula)\
-      \ es un parámetro adimensional y se suele expresar en decibelios (dB) de la\
-      \ siguiente manera: (fórmula)"
+  - content: "NOTA 1: Si el retorno del radar desde el área iluminada procede de varios
+      elementos de dispersión independientes, se describe por el coeficiente de retrodispersión
+      en lugar de la sección transversal del radar utilizada para el objetivo puntual.
+      Se calcula como\n  (fórmula)\nDonde\n  (fórmula) es la sección transversal total
+      del radar de un área (fórmula)  . \n  (fórmula) es un parámetro adimensional
+      y se suele expresar en decibelios (dB) de la siguiente manera: (fórmula)"
   - content: 'NOTA 2: Al "Coeficiente de retrodispersión" se le denomina a veces "sección
       transversal de radar normalizada".'
   release: '5.0'

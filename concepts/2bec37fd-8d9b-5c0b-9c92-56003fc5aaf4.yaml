@@ -1,3 +1,4 @@
+---
 data:
   identifier: '2897'
   localized_concepts:
@@ -7,7 +8,8 @@ data:
     source: urn:iso:std:iso
     ref_type: domain
 related:
-- content: iso-ts-19159-4
+- content:
+    eng: iso-ts-19159-4
   type: broader
   ref:
     source: ISO
@@ -16,6 +18,7 @@ date_accepted: '2022-11-24T00:00:00+05:00'
 status: valid
 schema_version: '3'
 id: 2bec37fd-8d9b-5c0b-9c92-56003fc5aaf4
+---
 ---
 data:
   dates:
@@ -38,24 +41,16 @@ data:
   - content: stem:[P="k"*T_B]
   - content: where stem:["k"] is the Boltzmann's constant (stem:["k" = 1.38064852
       xx 10^(-23) "J/K"]).
-  - content: 'For the frequency range of microwave, Planck''s radiation law can be
-      well approximated by the Rayleigh-Jeans formula. Usually the microwave radiometers
-      use the Rayleigh–Jeans equivalent brightness temperature, which is defined as:
-      stem:[T_("b,v")^("(RJE)")=c^2/(2v^2"k")I_"v"]
-
+  - content: |-
+      For the frequency range of microwave, Planck's radiation law can be well approximated by the Rayleigh-Jeans formula. Usually the microwave radiometers use the Rayleigh–Jeans equivalent brightness temperature, which is defined as: stem:[T_("b,v")^("(RJE)")=c^2/(2v^2"k")I_"v"]
 
       where
 
-
       stem:[T_("b,v")^("(RJE)")] is the Rayleigh–Jeans equivalent brightness temperature;
-
       stem:[v] is the frequency in Hz;
-
       stem:["c"] is the velocity of light (stem:[2.997925xx10^8 "m"//"s"]);
-
       stem:["k"] is the Boltzmann’s constant (stem:[1.38064852xx10^(-23) "J"//"K"]);
-
-      stem:[I_"v"] is the radiance.'
+      stem:[I_"v"] is the radiance.
   release: '6.0'
   sources:
   - origin:

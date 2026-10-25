@@ -1,3 +1,4 @@
+---
 data:
   identifier: '2201'
   localized_concepts:
@@ -8,7 +9,8 @@ data:
     source: urn:iso:std:iso
     ref_type: domain
 related:
-- content: iso-ts-19159-3
+- content:
+    eng: iso-ts-19159-3
   type: broader
   ref:
     source: ISO
@@ -17,6 +19,7 @@ date_accepted: '2018-05-01T00:00:00+05:00'
 status: valid
 schema_version: '3'
 id: af13fd90-3630-5c78-8eb8-37945c532c7d
+---
 ---
 data:
   dates:
@@ -62,6 +65,7 @@ data:
 date_accepted: '2018-05-01T00:00:00+05:00'
 id: 352d3a37-d53e-5230-9678-9753fe48587a
 ---
+---
 data:
   dates:
   - date: '2018-05-01T00:00:00+05:00'
@@ -77,12 +81,15 @@ data:
   examples: []
   id: '2201'
   notes:
-  - content: "La matriz de dispersión se define mediante\n  (fórmula)\ndonde\n  (fórmula)\
-      \ es la matriz de dispersión;\n  (fórmula)  es el vector de campo electrónico\
-      \ de la onda incidente en el dispersor;\n   (fórmula) es el vector de campo\
-      \ electrónico de la onda de dispersión;\n  (fórmula)  es el número de onda de\
-      \ la onda de iluminación;\n  (fórmula) es la distancia entre el objetivo y la\
-      \ antena del radar."
+  - content: |-
+      La matriz de dispersión se define mediante
+        (fórmula)
+      donde
+        (fórmula) es la matriz de dispersión;
+        (fórmula)  es el vector de campo electrónico de la onda incidente en el dispersor;
+         (fórmula) es el vector de campo electrónico de la onda de dispersión;
+        (fórmula)  es el número de onda de la onda de iluminación;
+        (fórmula) es la distancia entre el objetivo y la antena del radar.
   release: '5.0'
   sources:
   - origin:
